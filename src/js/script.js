@@ -7324,7 +7324,21 @@ const UNIT_SLUG_ARTWORK = {
   'ciencia-y-etica': { emoji: '🔬', label: 'ciencia y ética', tone: 'mint' },
   'vivienda-y-desigualdad': { emoji: '🏡', label: 'vivienda y desigualdad', tone: 'mint' },
   'lenguaje-e-inclusion': { emoji: '🗣️', label: 'lenguaje e inclusión', tone: 'violet' },
-  'foro-de-propuestas': { emoji: '💡', label: 'foro de propuestas', tone: 'sun' }
+  'foro-de-propuestas': { emoji: '💡', label: 'foro de propuestas', tone: 'sun' },
+  // French C2 (replaced the old SLA-science-only topic set with a broader
+  // set of popular subjects - new slugs, so they need their own entries too).
+  'intelligence-artificielle-et-creativite': { emoji: '🤖', label: 'intelligence artificielle et créativité', tone: 'violet' },
+  'climat-et-transition-energetique': { emoji: '🌱', label: 'climat et transition énergétique', tone: 'mint' },
+  'geopolitique-et-conflits-contemporains': { emoji: '🌍', label: 'géopolitique et conflits contemporains', tone: 'sun' },
+  'reseaux-sociaux-et-sante-mentale': { emoji: '📱', label: 'réseaux sociaux et santé mentale', tone: 'violet' },
+  'economie-et-inegalites-mondiales': { emoji: '💹', label: 'économie et inégalités mondiales', tone: 'blue' },
+  'espace-et-exploration-scientifique': { emoji: '🚀', label: 'espace et exploration scientifique', tone: 'blue' },
+  'bioethique-edition-genetique-et-ia-medicale': { emoji: '🧬', label: 'bioéthique', tone: 'mint' },
+  'culture-du-travail-et-epuisement-professionnel': { emoji: '💼', label: 'culture du travail et épuisement professionnel', tone: 'blue' },
+  'migrations-et-frontieres': { emoji: '🧳', label: 'migrations et frontières', tone: 'sun' },
+  'desinformation-et-democratie': { emoji: '📰', label: 'désinformation et démocratie', tone: 'sky' },
+  'art-contemporain-et-marche-culturel': { emoji: '🎨', label: 'art contemporain et marché culturel', tone: 'violet' },
+  'philosophie-de-la-technologie-et-ethique-algorithmique': { emoji: '⚖️', label: 'philosophie de la technologie et éthique algorithmique', tone: 'sky' }
 };
 
 // Original route illustrations are generated as compact 4x3 sheets. This

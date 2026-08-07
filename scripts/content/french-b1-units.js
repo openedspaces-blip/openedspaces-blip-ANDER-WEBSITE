@@ -1,9 +1,9 @@
 // scripts/content/french-b1-units.js
 // Hand-authored French B1 content, same shape as
-// scripts/content/french-a1-units.js / french-a2-units.js. Continues the
-// narrative thread - Camila, now further into her exchange year in Tours,
-// facing more independent, opinion-driven B1 situations. One starter unit
-// (MVP), meant to be extended the same way A2 grew from 2 to 4 units.
+// scripts/content/french-a1-units.js / french-a2-units.js. Real-world,
+// editorial/topic-based content organized in ten thematic units, covering
+// more independent, opinion-driven B1 situations. Meant to be extended the
+// same way A2 grew from 2 to 4 units.
 //
 // Consumed by scripts/build-french-b1-seed.js, which flattens this into
 // lib/seed-lessons.json/lib/seed-units.json the same way the A1/A2 files
@@ -29,7 +29,7 @@ const units = [
     slug: 'projets-et-avenir',
     title: 'Projets et avenir',
     titleEs: 'Proyectos y futuro',
-    description: 'Camila réfléchit à son avenir et discute de ses projets avec Léa et Karim.',
+    description: 'Comment transformer une ambition professionnelle en un projet réaliste, étape par étape.',
     order: 1,
     accessTier: 'free',
     unitOverview: {
@@ -42,7 +42,7 @@ const units = [
       ],
       grammar: ['futur simple', 'hypothèse avec si + présent', 'conditionnel présent (politesse et hypothèse)', 'connecteurs d’opinion'],
       vocabulary: ['le projet', 'l’avenir', 'à mon avis', 'd’un côté / de l’autre côté'],
-      scenario: 'À quelques mois de la fin de son année d’échange, Camila doit décider si elle prolonge son séjour en France.'
+      scenario: 'De nombreux lycéens doivent transformer une ambition professionnelle vague en un projet concret, étape par étape.'
     },
     activities: {
       reading: activity('reading', {
@@ -84,21 +84,21 @@ const units = [
         ]
       }),
       listening: activity('listening', {
-        title: 'Une conversation entre amies',
-        description: 'Écoute Camila et Léa discuter de l’avenir de Camila.',
-        intro: 'Écoute la conversation entre Camila et Léa au sujet de la décision de Camila.',
+        title: 'Un conseiller d’orientation répond aux questions',
+        description: 'Écoute un conseiller d’orientation répondre aux questions de lycéens sur leurs projets d’avenir.',
+        intro: 'Écoute la conversation entre un conseiller d’orientation et un groupe de lycéens.',
         dialogue: [
-          { speaker: 'Camila', line: 'Si je reste, je vais continuer à progresser en français.', translation: 'Si me quedo, voy a seguir progresando en francés.' },
-          { speaker: 'Léa', line: 'Et si tu pars, tu vas retrouver ta famille.', translation: 'Y si te vas, vas a reencontrarte con tu familia.' },
-          { speaker: 'Camila', line: 'C’est vrai, mais je vais devoir tout recommencer avec mes amis là-bas.', translation: 'Es verdad, pero voy a tener que empezar de nuevo con mis amigos allá.' },
-          { speaker: 'Léa', line: 'À mon avis, il n’y a pas de mauvaise décision.', translation: 'En mi opinión, no hay una mala decisión aquí.' },
-          { speaker: 'Camila', line: 'Merci, Léa. Ça m’aide vraiment d’en parler avec toi.', translation: 'Gracias, Léa. Realmente me ayuda hablar de esto contigo.' }
+          { speaker: 'Élève', line: 'Si je choisis cette filière, je vais devoir faire deux ans de classe préparatoire.', translation: 'Si elijo esta rama, voy a tener que hacer dos años de clase preparatoria.' },
+          { speaker: 'Conseiller', line: 'Oui, et si le concours ne fonctionne pas, il vaut mieux avoir un plan B.', translation: 'Sí, y si el examen de acceso no funciona, es mejor tener un plan B.' },
+          { speaker: 'Élève', line: 'C’est vrai, je vais devoir tout recommencer si j’échoue.', translation: 'Es verdad, voy a tener que empezar de nuevo si fracaso.' },
+          { speaker: 'Conseiller', line: 'À mon avis, il n’y a pas de mauvais choix, seulement des étapes à bien préparer.', translation: 'En mi opinión, no hay una mala elección, solo etapas que hay que preparar bien.' },
+          { speaker: 'Élève', line: 'Merci, ça m’aide vraiment de mettre mes idées dans l’ordre.', translation: 'Gracias, realmente me ayuda poner mis ideas en orden.' }
         ],
-        phrases: ['Si je reste...', 'Si tu pars...', 'À mon avis...', 'Ça m’aide de...'],
+        phrases: ['Si je choisis..., je vais...', 'Si..., il vaut mieux...', 'À mon avis...', 'Ça m’aide de...'],
         exercises: [
-          { type: 'mcq', prompt: 'Que se passe-t-il si Camila reste, selon elle ?', options: ['Elle va oublier le français', 'Elle va continuer à progresser en français', 'Elle va retourner tout de suite', 'Elle va changer de famille'], answer: 1 },
-          { type: 'mcq', prompt: 'Que dit Léa sur la décision de Camila ?', options: ['Qu’elle est mauvaise', 'Qu’il n’y a pas de mauvaise décision', 'Qu’elle doit rester obligatoirement', 'Qu’elle ne la comprend pas'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment Camila se sent-elle après avoir parlé avec Léa ?', options: ['Plus confuse', 'Aidée et soutenue', 'Fâchée', 'Indifférente'], answer: 1 }
+          { type: 'mcq', prompt: 'Que devra faire l’élève s’il choisit cette filière ?', options: ['Arrêter ses études', 'Faire deux ans de classe préparatoire', 'Changer de lycée', 'Redoubler tout de suite'], answer: 1 },
+          { type: 'mcq', prompt: 'Que conseille le conseiller si le concours ne fonctionne pas ?', options: ['D’abandonner ses projets', 'D’avoir un plan B', 'De recommencer sans réfléchir', 'De ne rien préparer'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment l’élève se sent-il après avoir parlé avec le conseiller ?', options: ['Plus confus', 'Aidé, avec des idées plus claires', 'Fâché', 'Indifférent'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -118,10 +118,10 @@ const units = [
       writing: activity('writing', {
         title: 'Une lettre à mes amis',
         description: 'Écris une lettre expliquant ta décision et tes projets futurs.',
-        mission: 'Écris 150 à 200 mots sous forme de lettre à un ami, expliquant une décision importante que tu as prise (ou que Camila a prise) et tes projets pour l’avenir.',
+        mission: 'Écris 150 à 200 mots sous forme de lettre à un ami, expliquant une décision importante que tu as prise et tes projets pour l’avenir.',
         phrases: ['Je t’écris pour t’annoncer que...', 'J’ai décidé de...', 'Dans le futur, je...', 'Si tout se passe bien, je...'],
         dialogue: [
-          { speaker: 'Modèle', line: 'Cher Karim, je t’écris pour t’annoncer que j’ai décidé de rentrer à Saint-Domingue à la fin de l’année. C’était une décision difficile, mais ma famille me manque beaucoup. Si tout se passe bien, je reviendrai étudier en France après le lycée. Je n’oublierai jamais cette année incroyable avec vous.', translation: 'Querido Karim, te escribo para anunciarte que decidí regresar a Santo Domingo al final del año. Fue una decisión difícil, pero extraño mucho a mi familia. Si todo va bien, volveré a estudiar en Francia después del bachillerato. Nunca olvidaré este año increíble con ustedes.' }
+          { speaker: 'Modèle', line: 'Cher ami, je t’écris pour t’annoncer que j’ai décidé de m’orienter vers des études de vétérinaire. C’était une décision difficile, mais c’est un métier qui me passionne depuis toujours. Si tout se passe bien, je commencerai la classe préparatoire l’année prochaine. Je sais que le chemin sera long, mais je suis prêt(e) à m’organiser étape par étape.', translation: 'Querido amigo, te escribo para anunciarte que decidí orientarme hacia estudios de veterinaria. Fue una decisión difícil, pero es una profesión que me apasiona desde siempre. Si todo va bien, empezaré la clase preparatoria el año que viene. Sé que el camino será largo, pero estoy listo/a para organizarme etapa por etapa.' }
         ],
         exercises: [
           { type: 'writing', prompt: 'Écris une lettre de 150 à 200 mots expliquant une décision importante et tes projets pour l’avenir, en utilisant le futur simple et au moins une hypothèse avec « si ».', answer: 'Open answer' }
@@ -136,7 +136,7 @@ const units = [
           { type: 'mcq', prompt: 'Si je reste en France, je ___ mon français.', options: ['améliore', 'améliorerai', 'améliorerais', 'ai amélioré'], answer: 1 },
           { type: 'mcq', prompt: 'Si tu ___, tu retrouveras ta famille.', options: ['pars', 'partiras', 'partirais', 'es parti'], answer: 0 },
           { type: 'mcq', prompt: 'Quelle phrase est correcte ?', options: ['Si je serai riche, je voyagerai.', 'Si je suis riche, je voyagerai.', 'Si je suis riche, je voyage.', 'Si je serais riche, je voyagerais.'], answer: 1 },
-          { type: 'mcq', prompt: 'Léa et Karim ___ visiter Camila un jour.', options: ['viendront', 'viennent', 'venir', 'sont venus'], answer: 0 }
+          { type: 'mcq', prompt: 'Mes amis ___ me rendre visite un jour.', options: ['viendront', 'viennent', 'venir', 'sont venus'], answer: 0 }
         ]
       }),
       vocabulary: activity('vocabulary', {
@@ -157,20 +157,20 @@ const units = [
         ]
       }),
       dialogue: activity('dialogue', {
-        title: 'La promesse de Léa et Karim',
-        description: 'Léa et Karim promettent à Camila de lui rendre visite un jour.',
-        intro: 'Après avoir appris la décision de Camila, Léa et Karim lui font une promesse.',
+        title: 'Un plan B, au cas où',
+        description: 'Deux élèves discutent d’un plan de secours si leur premier choix d’orientation échoue.',
+        intro: 'Après une réunion d’orientation, deux élèves comparent leurs projets d’avenir.',
         dialogue: [
-          { speaker: 'Léa', line: 'On va beaucoup te manquer, Camila, mais on comprend ta décision.', translation: 'Te vamos a extrañar mucho, Camila, pero entendemos tu decisión.' },
-          { speaker: 'Karim', line: 'Un jour, on viendra te rendre visite dans les Caraïbes, c’est promis !', translation: '¡Un día iremos a visitarte al Caribe, lo prometemos!' },
-          { speaker: 'Camila', line: 'Ça me touche énormément. On restera toujours en contact.', translation: 'Eso me conmueve mucho. Siempre estaremos en contacto.' },
-          { speaker: 'Léa', line: 'Et qui sait, peut-être que tu reviendras étudier ici un jour.', translation: 'Y quién sabe, quizás vuelvas a estudiar aquí algún día.' }
+          { speaker: 'Élève 1', line: 'Si le concours ne marche pas, j’aurai vraiment besoin d’un plan B.', translation: 'Si el examen de acceso no funciona, de verdad necesitaré un plan B.' },
+          { speaker: 'Élève 2', line: 'Moi, si ça échoue, je referai une tentative l’année suivante, c’est promis.', translation: 'Yo, si eso falla, lo intentaré de nuevo al año siguiente, lo prometo.' },
+          { speaker: 'Élève 1', line: 'Ça me rassure énormément d’en parler avec toi.', translation: 'Me tranquiliza mucho hablar de esto contigo.' },
+          { speaker: 'Élève 2', line: 'Et qui sait, peut-être qu’on étudiera dans la même ville un jour.', translation: 'Y quién sabe, quizás estudiemos en la misma ciudad algún día.' }
         ],
-        phrases: ['On va te manquer.', 'C’est promis !', 'Ça me touche.', 'Qui sait...'],
+        phrases: ['J’aurai besoin de...', 'C’est promis.', 'Ça me rassure.', 'Qui sait...'],
         exercises: [
-          { type: 'mcq', prompt: 'Que promettent Léa et Karim à Camila ?', options: ['De ne jamais lui parler', 'De venir lui rendre visite un jour', 'De déménager avec elle', 'D’oublier cette année'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment Camila réagit-elle à cette promesse ?', options: ['Avec indifférence', 'Elle est touchée', 'Elle se met en colère', 'Elle ne les croit pas'], answer: 1 },
-          { type: 'mcq', prompt: 'Que suggère Léa à la fin du dialogue ?', options: ['Que Camila ne reviendra jamais', 'Que Camila pourrait revenir étudier en France un jour', 'Qu’elle doit rester maintenant', 'Que leur amitié va se terminer'], answer: 1 }
+          { type: 'mcq', prompt: 'Que dit l’élève 1 si le concours ne marche pas ?', options: ['Qu’il abandonnera tout', 'Qu’il aura besoin d’un plan B', 'Qu’il déménagera', 'Qu’il oubliera ce projet'], answer: 1 },
+          { type: 'mcq', prompt: 'Que fera l’élève 2 en cas d’échec ?', options: ['Il changera complètement de projet', 'Il retentera l’année suivante', 'Il arrêtera ses études', 'Il ne sait pas'], answer: 1 },
+          { type: 'mcq', prompt: 'Que suggère l’élève 2 à la fin du dialogue ?', options: ['Qu’ils ne se reverront jamais', 'Qu’ils pourraient étudier dans la même ville un jour', 'Qu’il faut rester seul', 'Que leur amitié va se terminer'], answer: 1 }
         ]
       })
     }
@@ -180,7 +180,7 @@ const units = [
     slug: 'identite-et-parcours-personnel',
     title: 'Identité et parcours personnel',
     titleEs: 'Identidad y trayectoria personal',
-    description: 'Camila écrit une courte biographie pour un projet scolaire sur son parcours et les changements vécus depuis son arrivée en France.',
+    description: 'Comment l’identité se construit à travers les expériences vécues, selon les chercheurs en psychologie sociale.',
     order: 2,
     accessTier: 'free',
     unitOverview: {
@@ -193,7 +193,7 @@ const units = [
       ],
       grammar: ['imparfait (introduction)', 'contraste passé composé / imparfait', 'expressions de temps (avant, maintenant, depuis)'],
       vocabulary: ['le parcours', 'changer', 'grandir', 'devenir'],
-      scenario: 'Pour un projet scolaire, Camila écrit une courte biographie sur son parcours et sur la façon dont elle a changé depuis son arrivée en France.'
+      scenario: 'Beaucoup de jeunes racontent comment ils ont changé après une expérience marquante, comme un séjour à l’étranger.'
     },
     activities: {
       reading: activity('reading', {
@@ -237,19 +237,19 @@ const units = [
       }),
       listening: activity('listening', {
         title: 'Avant et maintenant',
-        description: 'Écoute Camila comparer sa vie avant et après son arrivée en France.',
-        intro: 'Écoute Camila expliquer à Karim comment elle était avant de venir en France.',
+        description: 'Écoute un ancien élève en échange comparer sa personnalité avant et après son année à l’étranger.',
+        intro: 'Écoute un journaliste interviewer un ancien élève en échange sur son évolution personnelle.',
         dialogue: [
-          { speaker: 'Karim', line: 'Tu étais comment, avant de venir en France ?', translation: '¿Cómo eras antes de venir a Francia?' },
-          { speaker: 'Camila', line: 'J’étais beaucoup plus timide, je parlais très peu en public.', translation: 'Era mucho más tímida, hablaba muy poco en público.' },
-          { speaker: 'Karim', line: 'Vraiment ? Je n’aurais jamais deviné !', translation: '¿En serio? ¡Nunca lo hubiera adivinado!' },
-          { speaker: 'Camila', line: 'Oui, j’ai beaucoup changé depuis mon arrivée ici.', translation: 'Sí, he cambiado mucho desde que llegué aquí.' }
+          { speaker: 'Journaliste', line: 'Tu étais comment, avant de partir à l’étranger ?', translation: '¿Cómo eras antes de irte al extranjero?' },
+          { speaker: 'Ancien élève', line: 'J’étais beaucoup plus timide, je parlais très peu en public.', translation: 'Era mucho más tímido, hablaba muy poco en público.' },
+          { speaker: 'Journaliste', line: 'Vraiment ? On ne l’aurait jamais deviné !', translation: '¿En serio? ¡Nunca lo hubiéramos adivinado!' },
+          { speaker: 'Ancien élève', line: 'Oui, j’ai beaucoup changé depuis cette expérience.', translation: 'Sí, he cambiado mucho desde esa experiencia.' }
         ],
-        phrases: ['Tu étais comment, avant ?', 'J’étais...', 'Je n’aurais jamais deviné.', 'J’ai beaucoup changé.'],
+        phrases: ['Tu étais comment, avant ?', 'J’étais...', 'On ne l’aurait jamais deviné.', 'J’ai beaucoup changé.'],
         exercises: [
-          { type: 'mcq', prompt: 'Comment Camila décrit-elle sa personnalité avant son arrivée en France ?', options: ['Bavarde', 'Timide', 'Impatiente', 'Fâchée'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment réagit Karim à cette information ?', options: ['Il n’est pas surpris', 'Il est surpris', 'Il ne la croit pas', 'Il change de sujet'], answer: 1 },
-          { type: 'mcq', prompt: 'Que dit Camila sur son évolution ?', options: ['Elle n’a pas changé', 'Elle a beaucoup changé', 'Elle veut redevenir comme avant', 'Elle ne sait pas'], answer: 1 }
+          { type: 'mcq', prompt: 'Comment l’ancien élève décrit-il sa personnalité avant son départ ?', options: ['Bavarde', 'Timide', 'Impatiente', 'Fâchée'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment réagit le journaliste à cette information ?', options: ['Il n’est pas surpris', 'Il est surpris', 'Il ne le croit pas', 'Il change de sujet'], answer: 1 },
+          { type: 'mcq', prompt: 'Que dit l’ancien élève sur son évolution ?', options: ['Il n’a pas changé', 'Il a beaucoup changé', 'Il veut redevenir comme avant', 'Il ne sait pas'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -307,19 +307,19 @@ const units = [
       }),
       dialogue: activity('dialogue', {
         title: 'Une fierté partagée',
-        description: 'Madame Lambert félicite Camila pour son évolution durant l’année.',
-        intro: 'Madame Lambert observe le changement de Camila depuis son arrivée et le lui exprime.',
+        description: 'Un professeur félicite un élève pour son évolution durant l’année d’échange.',
+        intro: 'Un professeur observe le changement d’un élève depuis son arrivée et le lui exprime.',
         dialogue: [
-          { speaker: 'Mme Lambert', line: 'Tu as tellement changé depuis ton arrivée, Camila. Je suis fière de toi.', translation: 'Has cambiado tanto desde que llegaste, Camila. Estoy orgullosa de ti.' },
-          { speaker: 'Camila', line: 'Merci, Madame Lambert, ça me touche beaucoup.', translation: 'Gracias, señora Lambert, eso me conmueve mucho.' },
-          { speaker: 'Mme Lambert', line: 'Au début, tu étais si timide, et maintenant, tu parles avec confiance.', translation: 'Al principio eras tan tímida, y ahora hablas con confianza.' },
-          { speaker: 'Camila', line: 'C’est grâce à vous tous. Vous m’avez beaucoup aidée.', translation: 'Es gracias a todos ustedes. Me han ayudado mucho.' }
+          { speaker: 'Professeur', line: 'Tu as tellement changé depuis ton arrivée. Je suis fier/fière de toi.', translation: 'Has cambiado tanto desde que llegaste. Estoy orgulloso/a de ti.' },
+          { speaker: 'Élève', line: 'Merci, ça me touche beaucoup.', translation: 'Gracias, eso me conmueve mucho.' },
+          { speaker: 'Professeur', line: 'Au début, tu étais si timide, et maintenant, tu parles avec confiance.', translation: 'Al principio eras tan tímido/a, y ahora hablas con confianza.' },
+          { speaker: 'Élève', line: 'C’est grâce à toute l’équipe qui m’a accueilli. Ils m’ont beaucoup aidé(e).', translation: 'Es gracias a todo el equipo que me acogió. Me han ayudado mucho.' }
         ],
         phrases: ['Tu as changé.', 'Je suis fier/fière de toi.', 'Ça me touche.', 'C’est grâce à vous.'],
         exercises: [
-          { type: 'mcq', prompt: 'Que remarque Madame Lambert chez Camila ?', options: ['Qu’elle n’a pas changé', 'Qu’elle a beaucoup changé', 'Qu’elle veut partir', 'Qu’elle est fatiguée'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment Camila réagit-elle au compliment ?', options: ['Elle est indifférente', 'Elle est touchée', 'Elle est fâchée', 'Elle ne répond pas'], answer: 1 },
-          { type: 'mcq', prompt: 'À qui Camila attribue-t-elle son évolution ?', options: ['À elle seule', 'À la famille Lambert', 'À personne en particulier', 'À son école à Saint-Domingue'], answer: 1 }
+          { type: 'mcq', prompt: 'Que remarque le professeur chez l’élève ?', options: ['Qu’il n’a pas changé', 'Qu’il a beaucoup changé', 'Qu’il veut partir', 'Qu’il est fatigué'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment l’élève réagit-il au compliment ?', options: ['Il est indifférent', 'Il est touché', 'Il est fâché', 'Il ne répond pas'], answer: 1 },
+          { type: 'mcq', prompt: 'À qui l’élève attribue-t-il son évolution ?', options: ['À lui seul', 'À l’équipe qui l’a accueilli', 'À personne en particulier', 'À son école d’origine'], answer: 1 }
         ]
       })
     }
@@ -329,7 +329,7 @@ const units = [
     slug: 'etudes-et-apprentissage',
     title: 'Études et apprentissage',
     titleEs: 'Estudios y aprendizaje',
-    description: 'Camila partage ses stratégies pour apprendre le français et discute de ses difficultés scolaires avec Karim.',
+    description: 'Les techniques de révision les plus efficaces selon les sciences cognitives : rappel actif, espacement et explication à voix haute.',
     order: 3,
     accessTier: 'free',
     unitOverview: {
@@ -342,7 +342,7 @@ const units = [
       ],
       grammar: ['conditionnel présent (suggestion)', 'expressions de difficulté et de progrès', 'gérondif introductoire (en + participe présent)'],
       vocabulary: ['réviser', 'progresser', 'une difficulté', 'un conseil'],
-      scenario: 'Camila a un examen de mathématiques important et demande des conseils d’étude à Karim.'
+      scenario: 'Avant un examen de mathématiques important, un élève demande des conseils d’étude à un camarade plus expérimenté.'
     },
     activities: {
       reading: activity('reading', {
@@ -386,20 +386,20 @@ const units = [
       }),
       listening: activity('listening', {
         title: 'Un conseil de révision',
-        description: 'Écoute Karim donner un conseil de méthode de travail à Camila.',
-        intro: 'Écoute la conversation entre Karim et Camila au sujet des révisions.',
+        description: 'Écoute un élève donner un conseil de méthode de travail à un camarade.',
+        intro: 'Écoute la conversation entre deux camarades de classe au sujet des révisions.',
         dialogue: [
-          { speaker: 'Camila', line: 'J’ai l’impression de tout oublier quand je suis seule pour réviser.', translation: 'Tengo la impresión de olvidarlo todo cuando estoy sola para repasar.' },
-          { speaker: 'Karim', line: 'À ta place, je commencerais par les exercices les plus simples.', translation: 'Yo en tu lugar empezaría por los ejercicios más simples.' },
-          { speaker: 'Camila', line: 'D’accord, et ensuite ?', translation: 'De acuerdo, ¿y luego?' },
-          { speaker: 'Karim', line: 'Essaie d’expliquer à voix haute comment tu résous chaque problème.', translation: 'Intenta explicar en voz alta cómo resuelves cada problema.' },
-          { speaker: 'Camila', line: 'Bonne idée, je vais essayer ce soir !', translation: '¡Buena idea, lo voy a intentar esta noche!' }
+          { speaker: 'Élève 1', line: 'J’ai l’impression de tout oublier quand je suis seul(e) pour réviser.', translation: 'Tengo la impresión de olvidarlo todo cuando estoy solo/a para repasar.' },
+          { speaker: 'Élève 2', line: 'À ta place, je commencerais par les exercices les plus simples.', translation: 'Yo en tu lugar empezaría por los ejercicios más simples.' },
+          { speaker: 'Élève 1', line: 'D’accord, et ensuite ?', translation: 'De acuerdo, ¿y luego?' },
+          { speaker: 'Élève 2', line: 'Essaie d’expliquer à voix haute comment tu résous chaque problème.', translation: 'Intenta explicar en voz alta cómo resuelves cada problema.' },
+          { speaker: 'Élève 1', line: 'Bonne idée, je vais essayer ce soir !', translation: '¡Buena idea, lo voy a intentar esta noche!' }
         ],
         phrases: ['J’ai l’impression que...', 'À ta place, je...', 'Essaie de...', 'Bonne idée !'],
         exercises: [
-          { type: 'mcq', prompt: 'Quel est le problème de Camila ?', options: ['Elle n’a pas de livre', 'Elle oublie tout en révisant seule', 'Elle n’aime pas Karim', 'Elle n’a pas le temps'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel conseil Karim donne-t-il en premier ?', options: ['Étudier avec de la musique', 'Commencer par les exercices simples', 'Étudier seulement la nuit', 'Ne pas étudier du tout'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle technique Karim recommande-t-il ensuite ?', options: ['Copier les réponses', 'Expliquer à voix haute', 'Dormir plus', 'Éviter les mathématiques'], answer: 1 }
+          { type: 'mcq', prompt: 'Quel est le problème de l’élève 1 ?', options: ['Il/elle n’a pas de livre', 'Il/elle oublie tout en révisant seul(e)', 'Il/elle n’aime pas les mathématiques', 'Il/elle n’a pas le temps'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel conseil l’élève 2 donne-t-il en premier ?', options: ['Étudier avec de la musique', 'Commencer par les exercices simples', 'Étudier seulement la nuit', 'Ne pas étudier du tout'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle technique l’élève 2 recommande-t-il ensuite ?', options: ['Copier les réponses', 'Expliquer à voix haute', 'Dormir plus', 'Éviter les mathématiques'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -457,19 +457,19 @@ const units = [
       }),
       dialogue: activity('dialogue', {
         title: 'Les résultats de l’examen',
-        description: 'Camila reçoit sa note et remercie Karim pour son aide.',
-        intro: 'Camila vient de recevoir sa note d’examen et court en parler à Karim.',
+        description: 'Un élève reçoit sa note et remercie un camarade pour son aide.',
+        intro: 'Un élève vient de recevoir sa note d’examen et court en parler à un camarade.',
         dialogue: [
-          { speaker: 'Camila', line: 'Karim ! J’ai eu dix-sept sur vingt à l’examen !', translation: '¡Karim! ¡Tuve diecisiete sobre veinte en el examen!' },
-          { speaker: 'Karim', line: 'C’est génial ! Je savais que tu pouvais y arriver.', translation: '¡Es genial! Sabía que lo lograrías.' },
-          { speaker: 'Camila', line: 'Merci pour tes conseils, ils ont vraiment fait la différence.', translation: 'Gracias por tus consejos, realmente marcaron la diferencia.' },
-          { speaker: 'Karim', line: 'De rien ! C’est toi qui as fait tout le travail.', translation: '¡De nada! Fuiste tú quien hizo todo el trabajo.' }
+          { speaker: 'Élève 1', line: 'J’ai eu dix-sept sur vingt à l’examen !', translation: '¡Tuve diecisiete sobre veinte en el examen!' },
+          { speaker: 'Élève 2', line: 'C’est génial ! Je savais que tu pouvais y arriver.', translation: '¡Es genial! Sabía que lo lograrías.' },
+          { speaker: 'Élève 1', line: 'Merci pour tes conseils, ils ont vraiment fait la différence.', translation: 'Gracias por tus consejos, realmente marcaron la diferencia.' },
+          { speaker: 'Élève 2', line: 'De rien ! C’est toi qui as fait tout le travail.', translation: '¡De nada! Fuiste tú quien hizo todo el trabajo.' }
         ],
         phrases: ['J’ai eu... sur vingt !', 'C’est génial !', 'Ça a fait la différence.', 'De rien !'],
         exercises: [
-          { type: 'mcq', prompt: 'Quelle note Camila annonce-t-elle à Karim ?', options: ['Douze sur vingt', 'Quinze sur vingt', 'Dix-sept sur vingt', 'Vingt sur vingt'], answer: 2 },
-          { type: 'mcq', prompt: 'Comment Karim réagit-il à la nouvelle ?', options: ['Il est indifférent', 'Il est content et pas surpris', 'Il est jaloux', 'Il ne la croit pas'], answer: 1 },
-          { type: 'mcq', prompt: 'Que dit Karim sur le mérite du succès de Camila ?', options: ['Que c’est grâce à lui seul', 'Que c’est elle qui a fait tout le travail', 'Que c’était de la chance', 'Qu’elle a triché'], answer: 1 }
+          { type: 'mcq', prompt: 'Quelle note l’élève 1 annonce-t-il ?', options: ['Douze sur vingt', 'Quinze sur vingt', 'Dix-sept sur vingt', 'Vingt sur vingt'], answer: 2 },
+          { type: 'mcq', prompt: 'Comment l’élève 2 réagit-il à la nouvelle ?', options: ['Il est indifférent', 'Il est content et pas surpris', 'Il est jaloux', 'Il ne le croit pas'], answer: 1 },
+          { type: 'mcq', prompt: 'Que dit l’élève 2 sur le mérite du succès de l’élève 1 ?', options: ['Que c’est grâce à lui seul', 'Que c’est l’élève 1 qui a fait tout le travail', 'Que c’était de la chance', 'Qu’il a triché'], answer: 1 }
         ]
       })
     }
@@ -479,7 +479,7 @@ const units = [
     slug: 'monde-du-travail',
     title: 'Monde du travail',
     titleEs: 'El mundo laboral',
-    description: 'Karim prépare un entretien pour un stage d’été et demande à Camila de l’aider à s’entraîner.',
+    description: 'Comment bien se préparer à un entretien d’embauche et rédiger un e-mail de candidature efficace.',
     order: 4,
     accessTier: 'free',
     unitOverview: {
@@ -492,7 +492,7 @@ const units = [
       ],
       grammar: ['conditionnel de politesse (révision approfondie)', 'vocabulaire formel vs informel', 'structure d’un e-mail formel'],
       vocabulary: ['le CV', 'un entretien d’embauche', 'les compétences', 'postuler'],
-      scenario: 'Karim a un entretien pour un stage d’été dans une bibliothèque et demande à Camila de l’aider à se préparer.'
+      scenario: 'Chaque été, de nombreux jeunes préparent un entretien pour un premier stage et s’entraînent avec un conseiller ou un camarade.'
     },
     activities: {
       reading: activity('reading', {
@@ -536,19 +536,19 @@ const units = [
       }),
       listening: activity('listening', {
         title: 'Simulation d’entretien',
-        description: 'Écoute la simulation d’entretien entre Camila et Karim.',
-        intro: 'Écoute Camila jouer le rôle du recruteur pendant que Karim s’entraîne pour son entretien.',
+        description: 'Écoute une simulation d’entretien entre un recruteur et un candidat à un stage.',
+        intro: 'Écoute un recruteur poser des questions classiques à un candidat qui s’entraîne pour son entretien.',
         dialogue: [
-          { speaker: 'Camila (recruteuse)', line: 'Pourquoi voudriez-vous faire ce stage avec nous ?', translation: '¿Por qué querría hacer esta pasantía con nosotros?' },
-          { speaker: 'Karim', line: 'Je voudrais faire ce stage parce que j’adore la lecture et aider les autres.', translation: 'Quisiera hacer esta pasantía porque me encanta la lectura y ayudar a los demás.' },
-          { speaker: 'Camila (recruteuse)', line: 'Quelles sont vos principales qualités ?', translation: '¿Cuáles son sus principales cualidades?' },
-          { speaker: 'Karim', line: 'Je suis organisé et je travaille bien en équipe.', translation: 'Soy organizado y trabajo bien en equipo.' }
+          { speaker: 'Recruteur', line: 'Pourquoi voudriez-vous faire ce stage avec nous ?', translation: '¿Por qué querría hacer esta pasantía con nosotros?' },
+          { speaker: 'Candidat', line: 'Je voudrais faire ce stage parce que j’adore la lecture et aider les autres.', translation: 'Quisiera hacer esta pasantía porque me encanta la lectura y ayudar a los demás.' },
+          { speaker: 'Recruteur', line: 'Quelles sont vos principales qualités ?', translation: '¿Cuáles son sus principales cualidades?' },
+          { speaker: 'Candidat', line: 'Je suis organisé et je travaille bien en équipe.', translation: 'Soy organizado y trabajo bien en equipo.' }
         ],
         phrases: ['Pourquoi voudriez-vous... ?', 'Je voudrais... parce que...', 'Quelles sont vos qualités ?', 'Je suis... et je...'],
         exercises: [
-          { type: 'mcq', prompt: 'Pourquoi Karim veut-il faire ce stage ?', options: ['Pour gagner de l’argent', 'Parce qu’il adore la lecture et aider les autres', 'Parce que c’est obligatoire', 'Il ne sait pas pourquoi'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelles qualités Karim mentionne-t-il ?', options: ['Rapide et impatient', 'Organisé et bon en équipe', 'Timide et lent', 'Créatif seulement'], answer: 1 },
-          { type: 'mcq', prompt: 'Qui joue le rôle du recruteur dans cette simulation ?', options: ['Karim', 'Camila', 'Léa', 'Madame Lambert'], answer: 1 }
+          { type: 'mcq', prompt: 'Pourquoi le candidat veut-il faire ce stage ?', options: ['Pour gagner de l’argent', 'Parce qu’il adore la lecture et aider les autres', 'Parce que c’est obligatoire', 'Il ne sait pas pourquoi'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelles qualités le candidat mentionne-t-il ?', options: ['Rapide et impatient', 'Organisé et bon en équipe', 'Timide et lent', 'Créatif seulement'], answer: 1 },
+          { type: 'mcq', prompt: 'Qui pose les questions dans cette simulation ?', options: ['Le candidat', 'Le recruteur', 'Un professeur', 'Un parent'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -605,20 +605,20 @@ const units = [
         ]
       }),
       dialogue: activity('dialogue', {
-        title: 'Karim obtient le stage',
-        description: 'Karim reçoit la bonne nouvelle et remercie Camila.',
-        intro: 'Une semaine après l’entretien, Karim reçoit une réponse par e-mail.',
+        title: 'Un candidat obtient le stage',
+        description: 'Un candidat reçoit la bonne nouvelle et remercie un ami pour son aide.',
+        intro: 'Une semaine après l’entretien, un candidat reçoit une réponse par e-mail.',
         dialogue: [
-          { speaker: 'Karim', line: 'Camila ! J’ai obtenu le stage à la bibliothèque !', translation: '¡Camila! ¡Conseguí la pasantía en la biblioteca!' },
-          { speaker: 'Camila', line: 'C’est fantastique ! Je savais que tu réussirais.', translation: '¡Es fantástico! Sabía que lo lograrías.' },
-          { speaker: 'Karim', line: 'Merci pour ton aide, sans toi, je n’aurais pas été aussi confiant.', translation: 'Gracias por tu ayuda, sin ti no habría estado tan seguro.' },
-          { speaker: 'Camila', line: 'De rien ! Tu as travaillé dur pour ça.', translation: '¡De nada! Trabajaste duro para lograrlo.' }
+          { speaker: 'Candidat', line: 'J’ai obtenu le stage à la bibliothèque !', translation: '¡Conseguí la pasantía en la biblioteca!' },
+          { speaker: 'Ami', line: 'C’est fantastique ! Je savais que tu réussirais.', translation: '¡Es fantástico! Sabía que lo lograrías.' },
+          { speaker: 'Candidat', line: 'Merci pour ton aide, sans toi, je n’aurais pas été aussi confiant.', translation: 'Gracias por tu ayuda, sin ti no habría estado tan seguro.' },
+          { speaker: 'Ami', line: 'De rien ! Tu as travaillé dur pour ça.', translation: '¡De nada! Trabajaste duro para lograrlo.' }
         ],
         phrases: ['J’ai obtenu...', 'Je savais que tu réussirais.', 'Sans toi, je n’aurais pas...', 'Tu as travaillé dur.'],
         exercises: [
-          { type: 'mcq', prompt: 'Quelle nouvelle Karim annonce-t-il à Camila ?', options: ['Il n’a pas eu le stage', 'Il a obtenu le stage', 'L’entretien est reporté', 'Il a changé d’avis'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment Camila réagit-elle à la nouvelle ?', options: ['Avec indifférence', 'Avec joie et confiance', 'Avec surprise négative', 'Avec jalousie'], answer: 1 },
-          { type: 'mcq', prompt: 'Que reconnaît Karim à propos de l’aide de Camila ?', options: ['Qu’elle n’a pas aidé du tout', 'Qu’elle a été essentielle à sa confiance', 'Qu’elle l’a stressé', 'Qu’il aurait réussi seul de toute façon'], answer: 1 }
+          { type: 'mcq', prompt: 'Quelle nouvelle le candidat annonce-t-il ?', options: ['Il n’a pas eu le stage', 'Il a obtenu le stage', 'L’entretien est reporté', 'Il a changé d’avis'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment l’ami réagit-il à la nouvelle ?', options: ['Avec indifférence', 'Avec joie et confiance', 'Avec surprise négative', 'Avec jalousie'], answer: 1 },
+          { type: 'mcq', prompt: 'Que reconnaît le candidat à propos de l’aide de son ami ?', options: ['Qu’il n’a pas aidé du tout', 'Qu’il a été essentiel à sa confiance', 'Qu’il l’a stressé', 'Qu’il aurait réussi seul de toute façon'], answer: 1 }
         ]
       })
     }
@@ -628,7 +628,7 @@ const units = [
     slug: 'voyages-et-interculturalite',
     title: 'Voyages et interculturalité',
     titleEs: 'Viajes e interculturalidad',
-    description: 'Camila compare les habitudes culturelles françaises et dominicaines lors d’un exposé pour sa classe.',
+    description: 'Comment voyager en respectant les lieux visités, et comparer des habitudes culturelles différentes.',
     order: 5,
     accessTier: 'free',
     unitOverview: {
@@ -641,7 +641,7 @@ const units = [
       ],
       grammar: ['comparaison avancée', 'connecteurs d’opposition (alors que, tandis que)', 'discours rapporté simple'],
       vocabulary: ['une habitude culturelle', 'un choc culturel', 'ce qui m’a surpris', 'tandis que'],
-      scenario: 'Camila prépare un exposé pour sa classe sur les différences culturelles entre la France et la République dominicaine.'
+      scenario: 'De nombreux élèves en échange préparent un exposé comparant une habitude culturelle française et une habitude de leur pays d’origine.'
     },
     activities: {
       reading: activity('reading', {
@@ -684,19 +684,19 @@ const units = [
       }),
       listening: activity('listening', {
         title: 'Un choc culturel',
-        description: 'Écoute Camila raconter un moment de choc culturel à Léa.',
-        intro: 'Écoute Camila expliquer à Léa un moment surprenant de son adaptation en France.',
+        description: 'Écoute un élève en échange raconter un moment de choc culturel à un camarade français.',
+        intro: 'Écoute un élève en échange expliquer à un camarade un moment surprenant de son adaptation en France.',
         dialogue: [
-          { speaker: 'Léa', line: 'Qu’est-ce qui t’a le plus surprise en arrivant ici ?', translation: '¿Qué fue lo que más te sorprendió al llegar aquí?' },
-          { speaker: 'Camila', line: 'La durée des repas ! Chez moi, on mange beaucoup plus vite.', translation: '¡La duración de las comidas! En mi casa comemos mucho más rápido.' },
-          { speaker: 'Léa', line: 'Vraiment ? Et maintenant, tu préfères quoi ?', translation: '¿En serio? ¿Y ahora qué prefieres?' },
-          { speaker: 'Camila', line: 'J’aime bien les deux, en fait, ça dépend de l’occasion.', translation: 'Me gustan ambas, de hecho, depende de la ocasión.' }
+          { speaker: 'Camarade', line: 'Qu’est-ce qui t’a le plus surpris(e) en arrivant ici ?', translation: '¿Qué fue lo que más te sorprendió al llegar aquí?' },
+          { speaker: 'Élève en échange', line: 'La durée des repas ! Chez moi, on mange beaucoup plus vite.', translation: '¡La duración de las comidas! En mi casa comemos mucho más rápido.' },
+          { speaker: 'Camarade', line: 'Vraiment ? Et maintenant, tu préfères quoi ?', translation: '¿En serio? ¿Y ahora qué prefieres?' },
+          { speaker: 'Élève en échange', line: 'J’aime bien les deux, en fait, ça dépend de l’occasion.', translation: 'Me gustan ambas, de hecho, depende de la ocasión.' }
         ],
         phrases: ['Qu’est-ce qui t’a surpris(e) ?', 'Chez moi, on...', 'Ça dépend de...', 'J’aime bien les deux.'],
         exercises: [
-          { type: 'mcq', prompt: 'Qu’est-ce qui a le plus surpris Camila ?', options: ['La langue française', 'La durée des repas', 'Le climat', 'Les vêtements'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment mange-t-on généralement chez Camila, selon elle ?', options: ['Plus lentement qu’en France', 'Plus vite qu’en France', 'De la même façon qu’en France', 'Elle ne le précise pas'], answer: 1 },
-          { type: 'mcq', prompt: 'Que préfère finalement Camila ?', options: ['Seulement la façon française', 'Seulement la façon dominicaine', 'Les deux, selon l’occasion', 'Aucune des deux'], answer: 2 }
+          { type: 'mcq', prompt: 'Qu’est-ce qui a le plus surpris l’élève en échange ?', options: ['La langue française', 'La durée des repas', 'Le climat', 'Les vêtements'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment mange-t-on généralement dans son pays, selon lui/elle ?', options: ['Plus lentement qu’en France', 'Plus vite qu’en France', 'De la même façon qu’en France', 'Il/elle ne le précise pas'], answer: 1 },
+          { type: 'mcq', prompt: 'Que préfère finalement l’élève en échange ?', options: ['Seulement la façon française', 'Seulement la façon de son pays', 'Les deux, selon l’occasion', 'Aucune des deux'], answer: 2 }
         ]
       }),
       speaking: activity('speaking', {
@@ -754,19 +754,19 @@ const units = [
       }),
       dialogue: activity('dialogue', {
         title: 'Après l’exposé',
-        description: 'Léa et Karim félicitent Camila après son exposé sur les différences culturelles.',
-        intro: 'Après le cours, Léa et Karim discutent avec Camila de son exposé.',
+        description: 'Deux camarades félicitent un élève après son exposé sur les différences culturelles.',
+        intro: 'Après le cours, deux camarades discutent avec un élève en échange de son exposé.',
         dialogue: [
-          { speaker: 'Léa', line: 'Ton exposé était vraiment intéressant, Camila !', translation: '¡Tu exposición fue realmente interesante, Camila!' },
-          { speaker: 'Karim', line: 'Oui, j’ai appris plein de choses sur ton pays.', translation: 'Sí, aprendí muchas cosas sobre tu país.' },
-          { speaker: 'Camila', line: 'Merci ! J’ai adoré comparer nos deux cultures.', translation: '¡Gracias! Me encantó comparar nuestras dos culturas.' },
-          { speaker: 'Léa', line: 'On devrait organiser une vraie soirée dominicaine un jour !', translation: '¡Deberíamos organizar una verdadera noche dominicana algún día!' }
+          { speaker: 'Camarade 1', line: 'Ton exposé était vraiment intéressant !', translation: '¡Tu exposición fue realmente interesante!' },
+          { speaker: 'Camarade 2', line: 'Oui, j’ai appris plein de choses sur ton pays.', translation: 'Sí, aprendí muchas cosas sobre tu país.' },
+          { speaker: 'Élève en échange', line: 'Merci ! J’ai adoré comparer nos deux cultures.', translation: '¡Gracias! Me encantó comparar nuestras dos culturas.' },
+          { speaker: 'Camarade 1', line: 'On devrait organiser une vraie soirée internationale un jour !', translation: '¡Deberíamos organizar una verdadera noche internacional algún día!' }
         ],
         phrases: ['Ton exposé était...', 'J’ai appris que...', 'J’ai adoré...', 'On devrait organiser...'],
         exercises: [
-          { type: 'mcq', prompt: 'Comment Léa trouve-t-elle l’exposé de Camila ?', options: ['Ennuyeux', 'Intéressant', 'Trop long', 'Confus'], answer: 1 },
-          { type: 'mcq', prompt: 'Qu’a appris Karim grâce à l’exposé ?', options: ['Rien de nouveau', 'Des choses sur le pays de Camila', 'Des recettes françaises', 'Rien, il n’écoutait pas'], answer: 1 },
-          { type: 'mcq', prompt: 'Que propose Léa à la fin ?', options: ['D’oublier le sujet', 'D’organiser une soirée dominicaine', 'De refaire l’exposé', 'De voyager en France'], answer: 1 }
+          { type: 'mcq', prompt: 'Comment le camarade 1 trouve-t-il l’exposé ?', options: ['Ennuyeux', 'Intéressant', 'Trop long', 'Confus'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu’a appris le camarade 2 grâce à l’exposé ?', options: ['Rien de nouveau', 'Des choses sur le pays de l’élève en échange', 'Des recettes françaises', 'Rien, il n’écoutait pas'], answer: 1 },
+          { type: 'mcq', prompt: 'Que propose le camarade 1 à la fin ?', options: ['D’oublier le sujet', 'D’organiser une soirée internationale', 'De refaire l’exposé', 'De voyager en France'], answer: 1 }
         ]
       })
     }
@@ -776,7 +776,7 @@ const units = [
     slug: 'technologie-et-societe',
     title: 'Technologie et société',
     titleEs: 'Tecnología y sociedad',
-    description: 'La classe de Camila débat des avantages et des risques des réseaux sociaux chez les jeunes.',
+    description: 'Comment choisir ses usages numériques pour éviter que les notifications ne contrôlent notre attention.',
     order: 6,
     accessTier: 'free',
     unitOverview: {
@@ -789,7 +789,7 @@ const units = [
       ],
       grammar: ['connecteurs d’argumentation (d’une part/d’autre part, cependant)', 'expression de l’opinion nuancée', 'subjonctif présent introductorio (il est important que)'],
       vocabulary: ['un avantage / un inconvénient', 'dépendre de', 'un risque', 'la vie privée'],
-      scenario: 'En cours d’éducation civique, la classe de Camila débat de l’impact des réseaux sociaux sur les jeunes.'
+      scenario: 'En cours d’éducation civique, une classe débat de l’impact des réseaux sociaux sur les jeunes.'
     },
     activities: {
       reading: activity('reading', {
@@ -833,19 +833,19 @@ const units = [
       }),
       listening: activity('listening', {
         title: 'Mon avis sur les réseaux sociaux',
-        description: 'Écoute Karim et Léa continuer leur débat après le cours.',
-        intro: 'Écoute la suite du débat entre Karim et Léa, à la sortie des cours.',
+        description: 'Écoute deux camarades continuer leur débat sur les réseaux sociaux après le cours.',
+        intro: 'Écoute la suite du débat entre deux camarades, à la sortie des cours.',
         dialogue: [
-          { speaker: 'Karim', line: 'D’une part, je pense que les réseaux sociaux nous aident à rester connectés.', translation: 'Por un lado, creo que las redes sociales nos ayudan a mantenernos conectados.' },
-          { speaker: 'Léa', line: 'Cependant, il est important de faire attention aux informations qu’on partage.', translation: 'Sin embargo, es importante tener cuidado con la información que compartimos.' },
-          { speaker: 'Karim', line: 'Tu as raison, ça dépend vraiment de la façon dont on les utilise.', translation: 'Tienes razón, realmente depende de cómo las usemos.' },
-          { speaker: 'Léa', line: 'Exactement, l’équilibre est la clé.', translation: 'Exactamente, el equilibrio es la clave.' }
+          { speaker: 'Camarade 1', line: 'D’une part, je pense que les réseaux sociaux nous aident à rester connectés.', translation: 'Por un lado, creo que las redes sociales nos ayudan a mantenernos conectados.' },
+          { speaker: 'Camarade 2', line: 'Cependant, il est important de faire attention aux informations qu’on partage.', translation: 'Sin embargo, es importante tener cuidado con la información que compartimos.' },
+          { speaker: 'Camarade 1', line: 'Tu as raison, ça dépend vraiment de la façon dont on les utilise.', translation: 'Tienes razón, realmente depende de cómo las usemos.' },
+          { speaker: 'Camarade 2', line: 'Exactement, l’équilibre est la clé.', translation: 'Exactamente, el equilibrio es la clave.' }
         ],
         phrases: ['D’une part... cependant...', 'Il est important de...', 'Ça dépend de...', 'L’équilibre est la clé.'],
         exercises: [
-          { type: 'mcq', prompt: 'Quel argument Karim présente-t-il ?', options: ['Les réseaux sociaux sont dangereux', 'Les réseaux sociaux aident à rester connectés', 'Il ne les utilise jamais', 'Il préfère les lettres'], answer: 1 },
-          { type: 'mcq', prompt: 'À quoi Léa fait-elle attention ?', options: ['Au temps passé en ligne', 'Aux informations partagées', 'Au prix du téléphone', 'À la vitesse d’internet'], answer: 1 },
-          { type: 'mcq', prompt: 'Sur quoi Karim et Léa sont-ils finalement d’accord ?', options: ['Que les réseaux sociaux sont inutiles', 'Que l’équilibre est important', 'Qu’il faut les interdire', 'Qu’il faut les utiliser sans limite'], answer: 1 }
+          { type: 'mcq', prompt: 'Quel argument le camarade 1 présente-t-il ?', options: ['Les réseaux sociaux sont dangereux', 'Les réseaux sociaux aident à rester connectés', 'Il ne les utilise jamais', 'Il préfère les lettres'], answer: 1 },
+          { type: 'mcq', prompt: 'À quoi le camarade 2 fait-il attention ?', options: ['Au temps passé en ligne', 'Aux informations partagées', 'Au prix du téléphone', 'À la vitesse d’internet'], answer: 1 },
+          { type: 'mcq', prompt: 'Sur quoi les deux camarades sont-ils finalement d’accord ?', options: ['Que les réseaux sociaux sont inutiles', 'Que l’équilibre est important', 'Qu’il faut les interdire', 'Qu’il faut les utiliser sans limite'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -903,19 +903,19 @@ const units = [
       }),
       dialogue: activity('dialogue', {
         title: 'De nouvelles règles personnelles',
-        description: 'Camila explique à Léa les nouvelles règles qu’elle s’impose pour les réseaux sociaux.',
-        intro: 'Après le débat en classe, Camila partage sa décision avec Léa.',
+        description: 'Un élève explique à un camarade les nouvelles règles qu’il s’impose pour les réseaux sociaux.',
+        intro: 'Après le débat en classe, un élève partage sa décision avec un camarade.',
         dialogue: [
-          { speaker: 'Camila', line: 'J’ai décidé de limiter mon temps d’écran le soir.', translation: 'Decidí limitar mi tiempo de pantalla por la noche.' },
-          { speaker: 'Léa', line: 'Bonne idée ! Et qu’est-ce que tu vas faire à la place ?', translation: '¡Buena idea! ¿Y qué vas a hacer en su lugar?' },
-          { speaker: 'Camila', line: 'Je vais lire un peu, ou passer du temps avec ta famille.', translation: 'Voy a leer un poco, o pasar tiempo con tu familia.' },
-          { speaker: 'Léa', line: 'J’aime beaucoup cette idée, on pourrait le faire ensemble.', translation: 'Me gusta mucho esa idea, podríamos hacerlo juntas.' }
+          { speaker: 'Élève 1', line: 'J’ai décidé de limiter mon temps d’écran le soir.', translation: 'Decidí limitar mi tiempo de pantalla por la noche.' },
+          { speaker: 'Élève 2', line: 'Bonne idée ! Et qu’est-ce que tu vas faire à la place ?', translation: '¡Buena idea! ¿Y qué vas a hacer en su lugar?' },
+          { speaker: 'Élève 1', line: 'Je vais lire un peu, ou passer du temps en famille.', translation: 'Voy a leer un poco, o pasar tiempo en familia.' },
+          { speaker: 'Élève 2', line: 'J’aime beaucoup cette idée, on pourrait le faire ensemble.', translation: 'Me gusta mucho esa idea, podríamos hacerlo juntos.' }
         ],
         phrases: ['J’ai décidé de...', 'Qu’est-ce que tu vas faire à la place ?', 'Je vais...', 'On pourrait le faire ensemble.'],
         exercises: [
-          { type: 'mcq', prompt: 'Quelle décision Camila a-t-elle prise ?', options: ['Supprimer ses réseaux sociaux', 'Limiter son temps d’écran le soir', 'Utiliser plus les réseaux sociaux', 'Acheter un nouveau téléphone'], answer: 1 },
-          { type: 'mcq', prompt: 'Que va faire Camila à la place ?', options: ['Rien de spécial', 'Lire ou passer du temps en famille', 'Dormir toute la soirée', 'Regarder la télévision'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment Léa réagit-elle à cette décision ?', options: ['Elle la trouve inutile', 'Elle l’approuve et propose de participer', 'Elle s’en moque', 'Elle ne dit rien'], answer: 1 }
+          { type: 'mcq', prompt: 'Quelle décision l’élève 1 a-t-il prise ?', options: ['Supprimer ses réseaux sociaux', 'Limiter son temps d’écran le soir', 'Utiliser plus les réseaux sociaux', 'Acheter un nouveau téléphone'], answer: 1 },
+          { type: 'mcq', prompt: 'Que va faire l’élève 1 à la place ?', options: ['Rien de spécial', 'Lire ou passer du temps en famille', 'Dormir toute la soirée', 'Regarder la télévision'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment l’élève 2 réagit-il à cette décision ?', options: ['Il la trouve inutile', 'Il l’approuve et propose de participer', 'Il s’en moque', 'Il ne dit rien'], answer: 1 }
         ]
       })
     }
@@ -925,7 +925,7 @@ const units = [
     slug: 'sante-et-mode-de-vie',
     title: 'Santé et mode de vie',
     titleEs: 'Salud y estilo de vida',
-    description: 'Camila remarque qu’elle est souvent stressée avant les examens et cherche des habitudes plus saines avec Madame Lambert.',
+    description: 'Comment gérer le stress des examens et adopter des habitudes de vie plus saines, selon les médecins scolaires.',
     order: 7,
     accessTier: 'free',
     unitOverview: {
@@ -938,7 +938,7 @@ const units = [
       ],
       grammar: ['subjonctif présent (recommandations)', 'expressions liées au bien-être', 'impératif (révision, conseils)'],
       vocabulary: ['le stress', 'se détendre', 'une habitude saine', 'l’activité physique'],
-      scenario: 'À l’approche des examens de fin d’année, Camila se sent de plus en plus stressée et en parle avec Madame Lambert.'
+      scenario: 'À l’approche des examens de fin d’année, de nombreux élèves se sentent de plus en plus stressés et cherchent des conseils.'
     },
     activities: {
       reading: activity('reading', {
@@ -982,19 +982,19 @@ const units = [
       }),
       listening: activity('listening', {
         title: 'Conseils de bien-être',
-        description: 'Écoute Madame Lambert donner des conseils de bien-être à Camila.',
-        intro: 'Écoute la conversation entre Madame Lambert et Camila au sujet du stress.',
+        description: 'Écoute une infirmière scolaire donner des conseils de bien-être à un élève stressé.',
+        intro: 'Écoute la conversation entre une infirmière scolaire et un élève au sujet du stress.',
         dialogue: [
-          { speaker: 'Mme Lambert', line: 'Il faut que tu fasses des pauses pendant tes révisions.', translation: 'Es necesario que hagas pausas durante tus repasos.' },
-          { speaker: 'Camila', line: 'D’accord, et pour le sommeil ?', translation: 'De acuerdo, ¿y para el sueño?' },
-          { speaker: 'Mme Lambert', line: 'Il vaut mieux que tu dormes sept heures, plutôt que de réviser tard.', translation: 'Es mejor que duermas siete horas, en vez de repasar hasta tarde.' },
-          { speaker: 'Camila', line: 'Merci, je vais essayer de suivre ces conseils.', translation: 'Gracias, voy a intentar seguir estos consejos.' }
+          { speaker: 'Infirmière', line: 'Il faut que tu fasses des pauses pendant tes révisions.', translation: 'Es necesario que hagas pausas durante tus repasos.' },
+          { speaker: 'Élève', line: 'D’accord, et pour le sommeil ?', translation: 'De acuerdo, ¿y para el sueño?' },
+          { speaker: 'Infirmière', line: 'Il vaut mieux que tu dormes sept heures, plutôt que de réviser tard.', translation: 'Es mejor que duermas siete horas, en vez de repasar hasta tarde.' },
+          { speaker: 'Élève', line: 'Merci, je vais essayer de suivre ces conseils.', translation: 'Gracias, voy a intentar seguir estos consejos.' }
         ],
         phrases: ['Il faut que tu...', 'Il vaut mieux que tu...', 'Plutôt que de...', 'Je vais essayer de...'],
         exercises: [
-          { type: 'mcq', prompt: 'Quel conseil Madame Lambert donne-t-elle sur les révisions ?', options: ['Réviser sans pause', 'Faire des pauses régulières', 'Réviser seulement la nuit', 'Ne pas réviser du tout'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel conseil l’infirmière donne-t-elle sur les révisions ?', options: ['Réviser sans pause', 'Faire des pauses régulières', 'Réviser seulement la nuit', 'Ne pas réviser du tout'], answer: 1 },
           { type: 'mcq', prompt: 'Combien d’heures de sommeil recommande-t-elle ?', options: ['Cinq heures', 'Sept heures', 'Neuf heures', 'Dix heures'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment Camila réagit-elle aux conseils ?', options: ['Elle les refuse', 'Elle accepte de les essayer', 'Elle ne répond pas', 'Elle se fâche'], answer: 1 }
+          { type: 'mcq', prompt: 'Comment l’élève réagit-il aux conseils ?', options: ['Il les refuse', 'Il accepte de les essayer', 'Il ne répond pas', 'Il se fâche'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -1052,19 +1052,19 @@ const units = [
       }),
       dialogue: activity('dialogue', {
         title: 'Une semaine plus calme',
-        description: 'Une semaine après les conseils de Madame Lambert, Camila se sent beaucoup mieux.',
-        intro: 'Une semaine plus tard, Camila raconte à Léa comment elle se sent après avoir changé ses habitudes.',
+        description: 'Une semaine après avoir suivi des conseils de bien-être, un élève se sent beaucoup mieux.',
+        intro: 'Une semaine plus tard, un élève raconte à un camarade comment il se sent après avoir changé ses habitudes.',
         dialogue: [
-          { speaker: 'Léa', line: 'Tu sembles beaucoup plus détendue cette semaine !', translation: '¡Pareces mucho más relajada esta semana!' },
-          { speaker: 'Camila', line: 'Oui, j’ai suivi les conseils de ta mère : plus de pauses, plus de sommeil.', translation: 'Sí, seguí los consejos de tu mamá: más pausas, más sueño.' },
-          { speaker: 'Léa', line: 'Et ça marche vraiment ?', translation: '¿Y realmente funciona?' },
-          { speaker: 'Camila', line: 'Oui, je me concentre beaucoup mieux pendant mes révisions maintenant.', translation: 'Sí, ahora me concentro mucho mejor durante mis repasos.' }
+          { speaker: 'Camarade', line: 'Tu sembles beaucoup plus détendu(e) cette semaine !', translation: '¡Pareces mucho más relajado/a esta semana!' },
+          { speaker: 'Élève', line: 'Oui, j’ai suivi les conseils de l’infirmière : plus de pauses, plus de sommeil.', translation: 'Sí, seguí los consejos de la enfermera: más pausas, más sueño.' },
+          { speaker: 'Camarade', line: 'Et ça marche vraiment ?', translation: '¿Y realmente funciona?' },
+          { speaker: 'Élève', line: 'Oui, je me concentre beaucoup mieux pendant mes révisions maintenant.', translation: 'Sí, ahora me concentro mucho mejor durante mis repasos.' }
         ],
         phrases: ['Tu sembles...', 'J’ai suivi les conseils de...', 'Ça marche vraiment ?', 'Je me concentre mieux.'],
         exercises: [
-          { type: 'mcq', prompt: 'Comment Camila semble-t-elle cette semaine ?', options: ['Plus stressée', 'Plus détendue', 'Fâchée', 'Fatiguée'], answer: 1 },
-          { type: 'mcq', prompt: 'Quels conseils Camila a-t-elle suivis ?', options: ['Réviser plus tard', 'Faire plus de pauses et dormir plus', 'Arrêter d’étudier', 'Ne rien changer'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel résultat Camila observe-t-elle ?', options: ['Elle se concentre moins bien', 'Elle se concentre beaucoup mieux', 'Aucun changement', 'Elle est plus fatiguée'], answer: 1 }
+          { type: 'mcq', prompt: 'Comment l’élève semble-t-il cette semaine ?', options: ['Plus stressé', 'Plus détendu', 'Fâché', 'Fatigué'], answer: 1 },
+          { type: 'mcq', prompt: 'Quels conseils l’élève a-t-il suivis ?', options: ['Réviser plus tard', 'Faire plus de pauses et dormir plus', 'Arrêter d’étudier', 'Ne rien changer'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel résultat l’élève observe-t-il ?', options: ['Il se concentre moins bien', 'Il se concentre beaucoup mieux', 'Aucun changement', 'Il est plus fatigué'], answer: 1 }
         ]
       })
     }
@@ -1074,7 +1074,7 @@ const units = [
     slug: 'environnement-et-consommation',
     title: 'Environnement et consommation',
     titleEs: 'Medioambiente y consumo',
-    description: 'La classe de Camila organise un projet de réduction des déchets pour protéger l’environnement.',
+    description: 'Comment un projet scolaire de réduction des déchets peut faire évoluer les habitudes de tout un établissement.',
     order: 8,
     accessTier: 'free',
     unitOverview: {
@@ -1087,7 +1087,7 @@ const units = [
       ],
       grammar: ['cause et conséquence (parce que, donc, c’est pourquoi)', 'subjonctif (proposition d’action)', 'quantificateurs (trop de, moins de)'],
       vocabulary: ['le recyclage', 'les déchets', 'l’environnement', 'réduire'],
-      scenario: 'La classe de Camila organise un projet écologique pour réduire les déchets au lycée.'
+      scenario: 'Une classe de lycée organise un projet écologique pour réduire les déchets dans son établissement.'
     },
     activities: {
       reading: activity('reading', {
@@ -1131,18 +1131,18 @@ const units = [
       }),
       listening: activity('listening', {
         title: 'Présenter le projet à la direction',
-        description: 'Écoute Camila et Karim présenter leur projet écologique à la direction.',
-        intro: 'Écoute la présentation de Camila et Karim devant le directeur du lycée.',
+        description: 'Écoute deux élèves présenter leur projet écologique à la direction du lycée.',
+        intro: 'Écoute la présentation de deux élèves devant le directeur du lycée.',
         dialogue: [
-          { speaker: 'Camila', line: 'Nous produisons trop de déchets plastiques à la cantine.', translation: 'Producimos demasiados residuos plásticos en el comedor.' },
+          { speaker: 'Élève 1', line: 'Nous produisons trop de déchets plastiques à la cantine.', translation: 'Producimos demasiados residuos plásticos en el comedor.' },
           { speaker: 'Le directeur', line: 'Quelle solution proposez-vous ?', translation: '¿Qué solución proponen?' },
-          { speaker: 'Karim', line: 'Des poubelles de tri sélectif et des gourdes réutilisables.', translation: 'Contenedores de reciclaje selectivo y botellas reutilizables.' },
+          { speaker: 'Élève 2', line: 'Des poubelles de tri sélectif et des gourdes réutilisables.', translation: 'Contenedores de reciclaje selectivo y botellas reutilizables.' },
           { speaker: 'Le directeur', line: 'C’est une excellente idée, nous allons l’étudier.', translation: 'Es una excelente idea, la vamos a estudiar.' }
         ],
         phrases: ['Nous produisons trop de...', 'Quelle solution proposez-vous ?', 'Nous proposons...', 'Nous allons l’étudier.'],
         exercises: [
-          { type: 'mcq', prompt: 'Quel problème Camila présente-t-elle ?', options: ['Le bruit', 'Les déchets plastiques', 'Le manque de professeurs', 'Le prix de la cantine'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelles solutions Karim propose-t-il ?', options: ['Fermer la cantine', 'Le tri sélectif et les gourdes réutilisables', 'Plus de vacances', 'Rien de spécial'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel problème l’élève 1 présente-t-elle ?', options: ['Le bruit', 'Les déchets plastiques', 'Le manque de professeurs', 'Le prix de la cantine'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelles solutions l’élève 2 propose-t-il ?', options: ['Fermer la cantine', 'Le tri sélectif et les gourdes réutilisables', 'Plus de vacances', 'Rien de spécial'], answer: 1 },
           { type: 'mcq', prompt: 'Comment réagit le directeur ?', options: ['Il refuse immédiatement', 'Il trouve l’idée excellente', 'Il ne répond pas', 'Il se fâche'], answer: 1 }
         ]
       }),
@@ -1202,17 +1202,17 @@ const units = [
       dialogue: activity('dialogue', {
         title: 'Le projet est accepté',
         description: 'La direction accepte le projet écologique de la classe.',
-        intro: 'Quelques semaines après leur présentation, Camila et Karim reçoivent une bonne nouvelle.',
+        intro: 'Quelques semaines après leur présentation, deux élèves reçoivent une bonne nouvelle.',
         dialogue: [
           { speaker: 'Le directeur', line: 'J’ai le plaisir de vous annoncer que votre projet est accepté.', translation: 'Tengo el placer de anunciarles que su proyecto es aceptado.' },
-          { speaker: 'Camila', line: 'C’est une excellente nouvelle, merci beaucoup !', translation: '¡Es una excelente noticia, muchas gracias!' },
-          { speaker: 'Karim', line: 'Toute la classe va être très contente.', translation: 'Toda la clase va a estar muy contenta.' },
+          { speaker: 'Élève 1', line: 'C’est une excellente nouvelle, merci beaucoup !', translation: '¡Es una excelente noticia, muchas gracias!' },
+          { speaker: 'Élève 2', line: 'Toute la classe va être très contente.', translation: 'Toda la clase va a estar muy contenta.' },
           { speaker: 'Le directeur', line: 'Les nouvelles poubelles seront installées la semaine prochaine.', translation: 'Los nuevos contenedores se instalarán la próxima semana.' }
         ],
         phrases: ['J’ai le plaisir de vous annoncer que...', 'C’est une excellente nouvelle.', 'Toute la classe va être...', 'Ce sera installé...'],
         exercises: [
           { type: 'mcq', prompt: 'Quelle nouvelle le directeur annonce-t-il ?', options: ['Le projet est refusé', 'Le projet est accepté', 'Le projet est reporté', 'Le projet est annulé'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment Camila réagit-elle à la nouvelle ?', options: ['Avec déception', 'Avec joie et gratitude', 'Avec indifférence', 'Avec colère'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment l’élève 1 réagit-elle à la nouvelle ?', options: ['Avec déception', 'Avec joie et gratitude', 'Avec indifférence', 'Avec colère'], answer: 1 },
           { type: 'mcq', prompt: 'Quand les nouvelles poubelles seront-elles installées ?', options: ['Le jour même', 'La semaine prochaine', 'L’année prochaine', 'Jamais'], answer: 1 }
         ]
       })
@@ -1223,7 +1223,7 @@ const units = [
     slug: 'medias-et-information',
     title: 'Médias et information',
     titleEs: 'Medios e información',
-    description: 'La classe de Camila apprend à distinguer une information fiable d’une fausse nouvelle sur internet.',
+    description: 'Comment reconnaître une fausse information en ligne et vérifier la fiabilité d’une source, selon les journalistes spécialisés.',
     order: 9,
     accessTier: 'free',
     unitOverview: {
@@ -1236,7 +1236,7 @@ const units = [
       ],
       grammar: ['discours indirect simple (il a dit que)', 'expression du doute et de la certitude', 'connecteurs d’explication (c’est-à-dire, en effet)'],
       vocabulary: ['une source fiable', 'une fausse nouvelle', 'vérifier', 'douter de'],
-      scenario: 'En cours de français, la classe de Camila analyse un article partagé sur les réseaux sociaux pour vérifier s’il est fiable.'
+      scenario: 'En cours d’éducation aux médias, une classe analyse un article partagé sur les réseaux sociaux pour vérifier s’il est fiable.'
     },
     activities: {
       reading: activity('reading', {
@@ -1280,19 +1280,19 @@ const units = [
       }),
       listening: activity('listening', {
         title: 'Vérifier une information',
-        description: 'Écoute Camila et Karim discuter d’un article qu’ils ont vu en ligne.',
-        intro: 'Écoute Camila et Karim analyser ensemble un article suspect.',
+        description: 'Écoute deux camarades discuter d’un article qu’ils ont vu en ligne.',
+        intro: 'Écoute deux camarades analyser ensemble un article suspect.',
         dialogue: [
-          { speaker: 'Camila', line: 'Tu as vu cet article ? Il dit que ce fruit guérit tout.', translation: '¿Viste este artículo? Dice que esta fruta lo cura todo.' },
-          { speaker: 'Karim', line: 'Je doute que ce soit vrai, il n’y a pas de source citée.', translation: 'Dudo que sea verdad, no hay ninguna fuente citada.' },
-          { speaker: 'Camila', line: 'Tu as raison, vérifions sur un site fiable.', translation: 'Tienes razón, verifiquémoslo en un sitio confiable.' },
-          { speaker: 'Karim', line: 'En effet, aucun autre site ne confirme ça, c’est de la désinformation.', translation: 'En efecto, ningún otro sitio confirma eso, es desinformación.' }
+          { speaker: 'Camarade 1', line: 'Tu as vu cet article ? Il dit que ce fruit guérit tout.', translation: '¿Viste este artículo? Dice que esta fruta lo cura todo.' },
+          { speaker: 'Camarade 2', line: 'Je doute que ce soit vrai, il n’y a pas de source citée.', translation: 'Dudo que sea verdad, no hay ninguna fuente citada.' },
+          { speaker: 'Camarade 1', line: 'Tu as raison, vérifions sur un site fiable.', translation: 'Tienes razón, verifiquémoslo en un sitio confiable.' },
+          { speaker: 'Camarade 2', line: 'En effet, aucun autre site ne confirme ça, c’est de la désinformation.', translation: 'En efecto, ningún otro sitio confirma eso, es desinformación.' }
         ],
         phrases: ['Je doute que...', 'Il n’y a pas de source.', 'Vérifions sur...', 'C’est de la désinformation.'],
         exercises: [
           { type: 'mcq', prompt: 'Que prétend l’article ?', options: ['Qu’un fruit guérit tout', 'Qu’il va pleuvoir', 'Qu’une école ferme', 'Qu’un examen est reporté'], answer: 0 },
-          { type: 'mcq', prompt: 'Pourquoi Karim doute-t-il de l’article ?', options: ['Il n’aime pas les fruits', 'Il n’y a pas de source citée', 'L’article est trop court', 'Il ne l’a pas lu'], answer: 1 },
-          { type: 'mcq', prompt: 'Que décident de faire Camila et Karim ?', options: ['Partager l’article', 'Vérifier sur un site fiable', 'Ignorer le problème', 'Croire l’article sans vérifier'], answer: 1 }
+          { type: 'mcq', prompt: 'Pourquoi le camarade 2 doute-t-il de l’article ?', options: ['Il n’aime pas les fruits', 'Il n’y a pas de source citée', 'L’article est trop court', 'Il ne l’a pas lu'], answer: 1 },
+          { type: 'mcq', prompt: 'Que décident de faire les deux camarades ?', options: ['Partager l’article', 'Vérifier sur un site fiable', 'Ignorer le problème', 'Croire l’article sans vérifier'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -1327,7 +1327,7 @@ const units = [
         phrases: ['Je doute que ce soit...', 'Il a dit que...', 'Elle pense que...', 'En effet, c’est vrai que...'],
         exercises: [
           { type: 'mcq', prompt: 'Je doute que cette information ___ vraie.', options: ['est', 'soit', 'était', 'sera'], answer: 1 },
-          { type: 'mcq', prompt: 'Karim a dit que l’article ___ pas fiable.', options: ['n’est', 'n’était', 'ne soit', 'ne sera'], answer: 1 },
+          { type: 'mcq', prompt: 'Il a dit que l’article ___ pas fiable.', options: ['n’est', 'n’était', 'ne soit', 'ne sera'], answer: 1 },
           { type: 'mcq', prompt: 'Quelle expression introduit le subjonctif ?', options: ['Je suis sûr que', 'Je doute que', 'Je sais que', 'Il est vrai que'], answer: 1 },
           { type: 'mcq', prompt: 'Quelle phrase est au discours indirect ?', options: ['Elle a dit : « C’est faux. »', 'Elle a dit que c’était faux.', 'Est-ce que c’est faux ?', 'C’est faux !'], answer: 1 }
         ]
@@ -1350,19 +1350,19 @@ const units = [
       }),
       dialogue: activity('dialogue', {
         title: 'Un débat sur la désinformation',
-        description: 'Léa demande à Camila et Karim comment reconnaître une source fiable.',
-        intro: 'Après le cours, Léa pose des questions à Camila et Karim sur la fiabilité des informations.',
+        description: 'Un élève demande à deux camarades comment reconnaître une source fiable.',
+        intro: 'Après le cours, un élève pose des questions à deux camarades sur la fiabilité des informations.',
         dialogue: [
-          { speaker: 'Léa', line: 'Comment savoir si une source est fiable ?', translation: '¿Cómo saber si una fuente es fiable?' },
-          { speaker: 'Camila', line: 'Il faut vérifier qui a écrit l’article et s’il cite des sources.', translation: 'Hay que verificar quién escribió el artículo y si cita fuentes.' },
-          { speaker: 'Karim', line: 'Et comparer avec d’autres sites d’actualités reconnus.', translation: 'Y comparar con otros sitios de noticias reconocidos.' },
-          { speaker: 'Léa', line: 'D’accord, je vais faire plus attention maintenant !', translation: '¡De acuerdo, voy a prestar más atención ahora!' }
+          { speaker: 'Élève 1', line: 'Comment savoir si une source est fiable ?', translation: '¿Cómo saber si una fuente es fiable?' },
+          { speaker: 'Élève 2', line: 'Il faut vérifier qui a écrit l’article et s’il cite des sources.', translation: 'Hay que verificar quién escribió el artículo y si cita fuentes.' },
+          { speaker: 'Élève 3', line: 'Et comparer avec d’autres sites d’actualités reconnus.', translation: 'Y comparar con otros sitios de noticias reconocidos.' },
+          { speaker: 'Élève 1', line: 'D’accord, je vais faire plus attention maintenant !', translation: '¡De acuerdo, voy a prestar más atención ahora!' }
         ],
         phrases: ['Comment savoir si...', 'Il faut vérifier...', 'Comparer avec...', 'Je vais faire attention.'],
         exercises: [
-          { type: 'mcq', prompt: 'Que conseille Camila à Léa ?', options: ['De ne jamais lire d’articles', 'De vérifier qui a écrit l’article', 'De partager tout rapidement', 'De ne faire confiance à personne'], answer: 1 },
-          { type: 'mcq', prompt: 'Que conseille Karim en plus ?', options: ['De comparer avec d’autres sites reconnus', 'D’arrêter internet', 'D’écrire son propre article', 'De ne rien vérifier'], answer: 0 },
-          { type: 'mcq', prompt: 'Comment réagit Léa à la fin du dialogue ?', options: ['Elle ignore les conseils', 'Elle décide de faire plus attention', 'Elle se fâche', 'Elle ne comprend pas'], answer: 1 }
+          { type: 'mcq', prompt: 'Que conseille l’élève 2 à l’élève 1 ?', options: ['De ne jamais lire d’articles', 'De vérifier qui a écrit l’article', 'De partager tout rapidement', 'De ne faire confiance à personne'], answer: 1 },
+          { type: 'mcq', prompt: 'Que conseille l’élève 3 en plus ?', options: ['De comparer avec d’autres sites reconnus', 'D’arrêter internet', 'D’écrire son propre article', 'De ne rien vérifier'], answer: 0 },
+          { type: 'mcq', prompt: 'Comment réagit l’élève 1 à la fin du dialogue ?', options: ['Il ignore les conseils', 'Il décide de faire plus attention', 'Il se fâche', 'Il ne comprend pas'], answer: 1 }
         ]
       })
     }
@@ -1372,7 +1372,7 @@ const units = [
     slug: 'relations-et-conflits',
     title: 'Relations et conflits',
     titleEs: 'Relaciones y conflictos',
-    description: 'Camila et Léa ont leur premier vrai désaccord depuis l’arrivée de Camila, et apprennent à le résoudre calmement.',
+    description: 'Comment exprimer un désaccord sans rompre le dialogue et trouver un compromis, selon les spécialistes de la médiation.',
     order: 10,
     accessTier: 'free',
     unitOverview: {
@@ -1385,7 +1385,7 @@ const units = [
       ],
       grammar: ['subjonctif après les expressions d’émotion (je suis triste que, ça me dérange que)', 'expressions de négociation', 'connecteurs de concession (même si)'],
       vocabulary: ['un désaccord', 'se sentir blessé(e)', 'trouver un compromis', 'se réconcilier'],
-      scenario: 'Camila et Léa se disputent pour la première fois à propos d’un projet scolaire commun, et doivent apprendre à résoudre le conflit.'
+      scenario: 'Deux camarades de classe se disputent à propos d’un projet scolaire commun, et doivent apprendre à résoudre le conflit calmement.'
     },
     activities: {
       reading: activity('reading', {
@@ -1429,19 +1429,19 @@ const units = [
       }),
       listening: activity('listening', {
         title: 'Résoudre un désaccord',
-        description: 'Écoute Camila et Léa résoudre leur désaccord calmement.',
-        intro: 'Écoute la conversation entre Camila et Léa au moment où elles trouvent un compromis.',
+        description: 'Écoute deux camarades de classe résoudre leur désaccord calmement.',
+        intro: 'Écoute la conversation entre deux camarades au moment où ils trouvent un compromis.',
         dialogue: [
-          { speaker: 'Léa', line: 'Excuse-moi, je crois que je suis juste stressée par cet exposé.', translation: 'Perdona, creo que solo estoy estresada por esta exposición.' },
-          { speaker: 'Camila', line: 'Je comprends, moi aussi je suis stressée.', translation: 'Entiendo, yo también estoy estresada.' },
-          { speaker: 'Léa', line: 'Peut-être qu’on pourrait trouver un compromis ?', translation: '¿Quizás podríamos encontrar un compromiso?' },
-          { speaker: 'Camila', line: 'Bonne idée, toi la structure, moi les idées créatives.', translation: 'Buena idea, tú la estructura, yo las ideas creativas.' }
+          { speaker: 'Camarade 1', line: 'Excuse-moi, je crois que je suis juste stressé(e) par cet exposé.', translation: 'Perdona, creo que solo estoy estresado/a por esta exposición.' },
+          { speaker: 'Camarade 2', line: 'Je comprends, moi aussi je suis stressé(e).', translation: 'Entiendo, yo también estoy estresado/a.' },
+          { speaker: 'Camarade 1', line: 'Peut-être qu’on pourrait trouver un compromis ?', translation: '¿Quizás podríamos encontrar un compromiso?' },
+          { speaker: 'Camarade 2', line: 'Bonne idée, toi la structure, moi les idées créatives.', translation: 'Buena idea, tú la estructura, yo las ideas creativas.' }
         ],
         phrases: ['Excuse-moi, je crois que...', 'Je comprends.', 'On pourrait trouver un compromis ?', 'Bonne idée.'],
         exercises: [
-          { type: 'mcq', prompt: 'Pourquoi Léa s’excuse-t-elle ?', options: ['Parce qu’elle a menti', 'Parce qu’elle était stressée', 'Parce qu’elle est en retard', 'Parce qu’elle a oublié le projet'], answer: 1 },
-          { type: 'mcq', prompt: 'Que propose Léa pour résoudre le conflit ?', options: ['D’arrêter le projet', 'De trouver un compromis', 'De travailler séparément', 'De changer de sujet'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel compromis acceptent-elles ?', options: ['Léa fait tout', 'Camila fait tout', 'Léa la structure, Camila les idées créatives', 'Elles ne décident rien'], answer: 2 }
+          { type: 'mcq', prompt: 'Pourquoi le camarade 1 s’excuse-t-il ?', options: ['Parce qu’il a menti', 'Parce qu’il était stressé', 'Parce qu’il est en retard', 'Parce qu’il a oublié le projet'], answer: 1 },
+          { type: 'mcq', prompt: 'Que propose le camarade 1 pour résoudre le conflit ?', options: ['D’arrêter le projet', 'De trouver un compromis', 'De travailler séparément', 'De changer de sujet'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel compromis acceptent-ils ?', options: ['Le camarade 1 fait tout', 'Le camarade 2 fait tout', 'L’un la structure, l’autre les idées créatives', 'Ils ne décident rien'], answer: 2 }
         ]
       }),
       speaking: activity('speaking', {
@@ -1499,27 +1499,27 @@ const units = [
       }),
       dialogue: activity('dialogue', {
         title: 'Une amitié plus forte',
-        description: 'Après avoir résolu leur conflit, Camila et Léa réfléchissent à leur amitié.',
-        intro: 'Après avoir terminé leur exposé avec succès, Camila et Léa parlent de ce qu’elles ont appris.',
+        description: 'Après avoir résolu leur conflit, deux camarades réfléchissent à leur amitié.',
+        intro: 'Après avoir terminé leur exposé avec succès, deux camarades parlent de ce qu’ils ont appris.',
         dialogue: [
-          { speaker: 'Camila', line: 'Je suis contente qu’on ait pu parler calmement de notre désaccord.', translation: 'Estoy contenta de que hayamos podido hablar con calma de nuestro desacuerdo.' },
-          { speaker: 'Léa', line: 'Moi aussi. Je pense que notre amitié est encore plus forte maintenant.', translation: 'Yo también. Creo que nuestra amistad es aún más fuerte ahora.' },
-          { speaker: 'Camila', line: 'Même si on n’est pas toujours d’accord, on sait qu’on peut se parler honnêtement.', translation: 'Aunque no siempre estemos de acuerdo, sabemos que podemos hablar honestamente.' },
-          { speaker: 'Léa', line: 'Exactement, et c’est ça, une vraie amitié.', translation: 'Exactamente, y eso es una verdadera amistad.' }
+          { speaker: 'Camarade 1', line: 'Je suis content(e) qu’on ait pu parler calmement de notre désaccord.', translation: 'Estoy contento/a de que hayamos podido hablar con calma de nuestro desacuerdo.' },
+          { speaker: 'Camarade 2', line: 'Moi aussi. Je pense que notre amitié est encore plus forte maintenant.', translation: 'Yo también. Creo que nuestra amistad es aún más fuerte ahora.' },
+          { speaker: 'Camarade 1', line: 'Même si on n’est pas toujours d’accord, on sait qu’on peut se parler honnêtement.', translation: 'Aunque no siempre estemos de acuerdo, sabemos que podemos hablar honestamente.' },
+          { speaker: 'Camarade 2', line: 'Exactement, et c’est ça, une vraie amitié.', translation: 'Exactamente, y eso es una verdadera amistad.' }
         ],
         phrases: ['Je suis content(e) que...', 'Notre amitié est plus forte.', 'Même si on n’est pas d’accord...', 'C’est ça, une vraie amitié.'],
         exercises: [
-          { type: 'mcq', prompt: 'Comment se sent Camila après avoir résolu le désaccord ?', options: ['Toujours fâchée', 'Contente d’avoir pu en parler calmement', 'Indifférente', 'Triste'], answer: 1 },
-          { type: 'mcq', prompt: 'Que pense Léa de leur amitié après ce conflit ?', options: ['Qu’elle est terminée', 'Qu’elle est plus forte', 'Qu’elle est plus fragile', 'Elle n’en parle pas'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle est la conclusion de Léa sur une vraie amitié ?', options: ['Il ne faut jamais se disputer', 'Pouvoir se parler honnêtement même en désaccord', 'Toujours être d’accord sur tout', 'Éviter les conflits à tout prix'], answer: 1 }
+          { type: 'mcq', prompt: 'Comment se sent le camarade 1 après avoir résolu le désaccord ?', options: ['Toujours fâché', 'Content d’avoir pu en parler calmement', 'Indifférent', 'Triste'], answer: 1 },
+          { type: 'mcq', prompt: 'Que pense le camarade 2 de leur amitié après ce conflit ?', options: ['Qu’elle est terminée', 'Qu’elle est plus forte', 'Qu’elle est plus fragile', 'Il n’en parle pas'], answer: 1 },
+          { type: 'mcq', prompt: 'Quelle est la conclusion du camarade 2 sur une vraie amitié ?', options: ['Il ne faut jamais se disputer', 'Pouvoir se parler honnêtement même en désaccord', 'Toujours être d’accord sur tout', 'Éviter les conflits à tout prix'], answer: 1 }
         ]
       })
     }
   }
 ];
 
-// Les lectures B1 sont des articles documentaires. Elles ne reprennent pas
-// le récit fictif de Camila : chaque texte traite directement le thème de
+// Les lectures B1 sont des articles documentaires. Elles ne reposent pas
+// sur un récit fictif : chaque texte traite directement le thème de
 // l'unité avec des situations observables, des faits vérifiables et des
 // pistes concrètes, tout en réutilisant naturellement le point de grammaire
 // travaillé dans l'unité. Les questions et le QCM sont propres à chaque
@@ -1720,6 +1720,6 @@ module.exports = {
   level: 'B1',
   courseTitle: 'Français B1',
   courseDescription:
-    'Français intermédiaire : projets, opinions et expériences, organisés en unités thématiques qui poursuivent le parcours de Camila, élève dominicaine en échange scolaire à Tours.',
+    'Français intermédiaire : projets, opinions et expériences de la vie réelle, organisés en unités thématiques autour de sujets d’actualité et de société.',
   units
 };

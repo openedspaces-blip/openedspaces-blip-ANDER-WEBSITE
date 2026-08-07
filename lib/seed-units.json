@@ -1111,426 +1111,6 @@
     }
   },
   {
-    "slug": "neuroplasticite-adulte",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Neuroplasticité et apprentissage linguistique adulte",
-    "title_es": "Neuroplasticité et apprentissage linguistique adulte",
-    "description": "Enquête interdisciplinaire C2 : Le cerveau adulte a-t-il vraiment perdu sa capacité d’apprendre ?.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : neuroplasticité et apprentissage linguistique adulte.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "La concession stratifiée et la contre-attente"
-      ],
-      "vocabulary": [
-        "la neuroplasticité",
-        "un réseau fonctionnel",
-        "la matière grise",
-        "une étude transversale",
-        "une période sensible",
-        "une inférence causale"
-      ],
-      "scenario": "Le cerveau adulte a-t-il vraiment perdu sa capacité d’apprendre ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "recuperation-espacee",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Récupération active et répétition espacée",
-    "title_es": "Récupération active et répétition espacée",
-    "description": "Enquête interdisciplinaire C2 : Relire ou se tester : quelle pratique construit une mémoire durable ?.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : récupération active et répétition espacée.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "La modalisation épistémique de haute précision"
-      ],
-      "vocabulary": [
-        "la récupération active",
-        "l’espacement",
-        "une trace mnésique",
-        "la familiarité",
-        "une interférence",
-        "un critère de maîtrise"
-      ],
-      "scenario": "Relire ou se tester : quelle pratique construit une mémoire durable ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "sommeil-consolidation",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Sommeil et consolidation du vocabulaire",
-    "title_es": "Sommeil et consolidation du vocabulaire",
-    "description": "Enquête interdisciplinaire C2 : Apprend-on une langue pendant que l’on dort ?.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : sommeil et consolidation du vocabulaire.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "La temporalité complexe et le futur antérieur"
-      ],
-      "vocabulary": [
-        "la consolidation",
-        "l’encodage",
-        "le sommeil lent",
-        "le sommeil paradoxal",
-        "une réactivation ciblée",
-        "une analyse préenregistrée"
-      ],
-      "scenario": "Apprend-on une langue pendant que l’on dort ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "input-comprehensible",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Input compréhensible et apprentissage incident",
-    "title_es": "Input compréhensible et apprentissage incident",
-    "description": "Enquête interdisciplinaire C2 : Comprendre beaucoup suffit-il pour apprendre à parler ?.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : input compréhensible et apprentissage incident.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "La nominalisation critique et la restitution de l’agent"
-      ],
-      "vocabulary": [
-        "l’input compréhensible",
-        "l’apprentissage incident",
-        "une connaissance réceptive",
-        "une connaissance productive",
-        "le repérage",
-        "un savoir inerte"
-      ],
-      "scenario": "Comprendre beaucoup suffit-il pour apprendre à parler ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "apprentissage-multimodal",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Lecture, écoute et vidéo dans l’apprentissage",
-    "title_es": "Lecture, écoute et vidéo dans l’apprentissage",
-    "description": "Enquête interdisciplinaire C2 : Texte, son ou image : faut-il choisir un seul canal ?.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : lecture, écoute et vidéo dans l’apprentissage.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "Les connecteurs de cause, corrélation et conséquence"
-      ],
-      "vocabulary": [
-        "la multimodalité",
-        "un indice prosodique",
-        "la segmentation",
-        "la surcharge cognitive",
-        "un test différé",
-        "l’étayage"
-      ],
-      "scenario": "Texte, son ou image : faut-il choisir un seul canal ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "interaction-production",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Interaction, production et négociation du sens",
-    "title_es": "Interaction, production et négociation du sens",
-    "description": "Enquête interdisciplinaire C2 : Pourquoi parler avant de se sentir prêt ?.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : interaction, production et négociation du sens.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "La polyphonie et le discours rapporté complexe"
-      ],
-      "vocabulary": [
-        "la négociation du sens",
-        "une demande de clarification",
-        "une reformulation",
-        "une périphrase",
-        "l’intelligibilité",
-        "une tâche d’écart d’information"
-      ],
-      "scenario": "Pourquoi parler avant de se sentir prêt ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "feedback-correctif",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Feedback correctif et traitement de l’erreur",
-    "title_es": "Feedback correctif et traitement de l’erreur",
-    "description": "Enquête interdisciplinaire C2 : Corriger davantage signifie-t-il enseigner mieux ?.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : feedback correctif et traitement de l’erreur.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "Le subjonctif dans l’évaluation, la restriction et le doute"
-      ],
-      "vocabulary": [
-        "le feedback correctif",
-        "une reformulation implicite",
-        "une invite",
-        "la réparation",
-        "le transfert",
-        "une erreur développementale"
-      ],
-      "scenario": "Corriger davantage signifie-t-il enseigner mieux ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "perception-prononciation",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Perception auditive et prononciation",
-    "title_es": "Perception auditive et prononciation",
-    "description": "Enquête interdisciplinaire C2 : Faut-il rééduquer l’oreille avant la bouche ?.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : perception auditive et prononciation.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "Le passif, l’agentivité et la responsabilité discursive"
-      ],
-      "vocabulary": [
-        "un contraste phonémique",
-        "un indice acoustique",
-        "la haute variabilité",
-        "la généralisation",
-        "la compréhensibilité",
-        "un trait suprasegmental"
-      ],
-      "scenario": "Faut-il rééduquer l’oreille avant la bouche ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "anxiete-attention",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Anxiété linguistique, attention et mémoire de travail",
-    "title_es": "Anxiété linguistique, attention et mémoire de travail",
-    "description": "Enquête interdisciplinaire C2 : Quand la peur de l’erreur occupe la mémoire.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : anxiété linguistique, attention et mémoire de travail.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "Les systèmes hypothétiques complexes et l’irréel"
-      ],
-      "vocabulary": [
-        "l’anxiété langagière",
-        "la mémoire de travail",
-        "l’autosurveillance",
-        "l’évitement",
-        "une exposition graduée",
-        "la réciprocité causale"
-      ],
-      "scenario": "Quand la peur de l’erreur occupe la mémoire",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "age-differences-individuelles",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Âge, aptitude et différences individuelles",
-    "title_es": "Âge, aptitude et différences individuelles",
-    "description": "Enquête interdisciplinaire C2 : Existe-t-il une méthode universelle pour tous les cerveaux ?.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : âge, aptitude et différences individuelles.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "Les relatives complexes : dont, lequel et préposition + relatif"
-      ],
-      "vocabulary": [
-        "une différence individuelle",
-        "l’aptitude linguistique",
-        "le transfert interlinguistique",
-        "une interaction statistique",
-        "un style d’apprentissage",
-        "une adaptation révisable"
-      ],
-      "scenario": "Existe-t-il une méthode universelle pour tous les cerveaux ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "lexique-contextuel",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Apprentissage lexical, gloses et contexte",
-    "title_es": "Apprentissage lexical, gloses et contexte",
-    "description": "Enquête interdisciplinaire C2 : Traduire un mot empêche-t-il vraiment de le maîtriser ?.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : apprentissage lexical, gloses et contexte.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "Les propositions participiales et la condensation maîtrisée"
-      ],
-      "vocabulary": [
-        "une glose",
-        "la polysémie",
-        "une collocation",
-        "une équivalence",
-        "la profondeur lexicale",
-        "une méta-régression"
-      ],
-      "scenario": "Traduire un mot empêche-t-il vraiment de le maîtriser ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
-    "slug": "intelligence-artificielle-tutorat",
-    "target_language": "french",
-    "level": "C2",
-    "title": "Intelligence artificielle et tutorat linguistique",
-    "title_es": "Intelligence artificielle et tutorat linguistique",
-    "description": "Enquête interdisciplinaire C2 : Un tuteur artificiel peut-il personnaliser sans inventer ?.",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Évaluer des cadres concurrents dans le domaine suivant : intelligence artificielle et tutorat linguistique.",
-      "outcomes": [
-        "inférer les présupposés et les liens laissés implicites",
-        "évaluer des preuves hétérogènes et leurs limites",
-        "maîtriser un lexique précis, idiomatique et connoté",
-        "maintenir un contrôle grammatical constant dans une argumentation complexe"
-      ],
-      "grammar": [
-        "Le conditionnel de prudence et les tournures impersonnelles"
-      ],
-      "vocabulary": [
-        "un modèle génératif",
-        "une hallucination",
-        "l’ancrage contextuel",
-        "la traçabilité",
-        "un effet de nouveauté",
-        "une supervision humaine"
-      ],
-      "scenario": "Un tuteur artificiel peut-il personnaliser sans inventer ?",
-      "cefrTargets": [
-        "compréhension approfondie et inférence",
-        "étendue et contrôle du vocabulaire",
-        "correction grammaticale constante"
-      ]
-    }
-  },
-  {
     "slug": "new-challenges",
     "target_language": "english",
     "level": "B1",
@@ -2200,366 +1780,6 @@
         "stakeholder"
       ],
       "scenario": "An evidence-led reading on community action and local change, examining competing claims, consequences and possible responses."
-    }
-  },
-  {
-    "slug": "retour-a-saint-domingue",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Retour à Saint-Domingue",
-    "title_es": "Regreso a Santo Domingo",
-    "description": "Camila retrouve sa famille et ses amis d’enfance à Saint-Domingue, avec un regard transformé par son année en France.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Décrire un retour au pays et exprimer un sentiment ambivalent avec nuance.",
-      "outcomes": [
-        "décrire des retrouvailles avec précision émotionnelle",
-        "exprimer une nostalgie tout en valorisant le présent",
-        "utiliser le plus-que-parfait pour situer un souvenir dans le passé",
-        "nuancer une opinion sur deux lieux de vie différents"
-      ],
-      "grammar": [
-        "plus-que-parfait",
-        "concordance des temps (passé)",
-        "nuance et modération de l’opinion"
-      ],
-      "vocabulary": [
-        "les retrouvailles",
-        "le mal du pays",
-        "ambivalent(e)",
-        "avoir le sentiment de"
-      ],
-      "scenario": "Camila atterrit à Saint-Domingue après un an d’absence et retrouve sa famille et Sofía à l’aéroport."
-    }
-  },
-  {
-    "slug": "candidature-universitaire",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Candidature universitaire",
-    "title_es": "Solicitud universitaria",
-    "description": "Camila prépare sa candidature pour étudier à l’université en France, avec l’aide à distance de Léa et Karim.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Rédiger une lettre de motivation et argumenter un projet académique de façon structurée.",
-      "outcomes": [
-        "structurer une lettre de motivation formelle",
-        "argumenter un choix académique avec des exemples concrets",
-        "utiliser le subjonctif passé pour évoquer une expérience accomplie",
-        "nuancer une auto-présentation sans excès de modestie ni d’arrogance"
-      ],
-      "grammar": [
-        "subjonctif passé",
-        "connecteurs d’argumentation avancés (par ailleurs, en outre)",
-        "structure d’une lettre de motivation"
-      ],
-      "vocabulary": [
-        "une lettre de motivation",
-        "un dossier de candidature",
-        "convaincant(e)",
-        "se démarquer"
-      ],
-      "scenario": "Camila rédige sa lettre de motivation pour candidater à une licence de langues à l’université de Tours."
-    }
-  },
-  {
-    "slug": "debats-de-societe",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Débats de société",
-    "title_es": "Debates de sociedad",
-    "description": "Dans un club de discussion en ligne avec Karim, Camila débat de sujets de société complexes en français.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Participer à un débat structuré sur un sujet de société et défendre une position nuancée.",
-      "outcomes": [
-        "structurer un argument avec des connecteurs logiques avancés",
-        "anticiper et réfuter un contre-argument",
-        "utiliser la voix passive dans un contexte argumentatif",
-        "nuancer une position sans paraître catégorique"
-      ],
-      "grammar": [
-        "la voix passive",
-        "connecteurs d’argumentation avancés (néanmoins, or, par conséquent)",
-        "nuance argumentative (il me semble que, dans une certaine mesure)"
-      ],
-      "vocabulary": [
-        "un point de vue",
-        "réfuter",
-        "dans une certaine mesure",
-        "un contre-argument"
-      ],
-      "scenario": "Camila rejoint un club de discussion en ligne où des étudiants francophones débattent de sujets de société, dont l’usage des écrans chez les jeunes."
-    }
-  },
-  {
-    "slug": "le-teletravail-et-lavenir-professionnel",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Le télétravail et l’avenir professionnel",
-    "title_es": "El teletrabajo y el futuro profesional",
-    "description": "En attendant la réponse de l’université, Camila décroche un petit emploi de traduction à distance et découvre les avantages et limites du télétravail.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Décrire une expérience professionnelle et peser les avantages et inconvénients du télétravail.",
-      "outcomes": [
-        "décrire une routine de travail à distance",
-        "peser des avantages et des inconvénients avec nuance",
-        "utiliser le gérondif pour exprimer la simultanéité",
-        "employer des pronoms relatifs composés (dont, ce dont)"
-      ],
-      "grammar": [
-        "le gérondif (en + participe présent)",
-        "pronoms relatifs composés (dont, ce dont)",
-        "expressions de nuance professionnelle"
-      ],
-      "vocabulary": [
-        "le télétravail",
-        "la productivité",
-        "l’isolement",
-        "gérer son temps"
-      ],
-      "scenario": "Camila commence un petit emploi de traduction à distance pour une agence tout en attendant la réponse de l’université."
-    }
-  },
-  {
-    "slug": "litterature-francophone",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Littérature francophone",
-    "title_es": "Literatura francófona",
-    "description": "Camila rejoint un club de lecture en ligne qui étudie un roman francophone caribéen, mêlant sa propre culture à la langue qu’elle a apprise.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Analyser un extrait littéraire simple et rapporter les propos d’un auteur au discours indirect.",
-      "outcomes": [
-        "analyser le thème et le ton d’un extrait littéraire",
-        "rapporter des propos au discours indirect au passé",
-        "utiliser des pronoms relatifs composés (lequel, laquelle)",
-        "exprimer une impression de lecture avec nuance"
-      ],
-      "grammar": [
-        "discours indirect au passé",
-        "pronoms relatifs composés (lequel, auquel, duquel)",
-        "expressions d’analyse littéraire"
-      ],
-      "vocabulary": [
-        "un extrait",
-        "le narrateur",
-        "évoquer",
-        "un thème récurrent"
-      ],
-      "scenario": "Camila rejoint un club de lecture en ligne qui étudie un roman francophone caribéen évoquant l’identité et le déracinement."
-    }
-  },
-  {
-    "slug": "cinema-et-critique",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Cinéma et critique",
-    "title_es": "Cine y crítica",
-    "description": "Camila regarde un film français avec Sofía et rédige sa première critique de cinéma argumentée.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Rédiger une critique de film structurée avec des arguments et une évaluation nuancée.",
-      "outcomes": [
-        "décrire l’intrigue d’un film sans trop en révéler",
-        "évaluer la mise en scène et le jeu des acteurs",
-        "utiliser ce qui / ce que pour résumer une impression",
-        "nuancer une critique entre points forts et points faibles"
-      ],
-      "grammar": [
-        "ce qui / ce que (récapitulatif)",
-        "expressions d’évaluation critique",
-        "comparatifs et superlatifs avancés"
-      ],
-      "vocabulary": [
-        "la mise en scène",
-        "le scénario",
-        "un rebondissement",
-        "convaincant(e) (cinéma)"
-      ],
-      "scenario": "Camila et Sofía regardent ensemble un film français récent, et Camila décide d’en écrire une critique pour son blog personnel."
-    }
-  },
-  {
-    "slug": "dilemmes-ethiques",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Dilemmes éthiques",
-    "title_es": "Dilemas éticos",
-    "description": "Dans un forum de discussion philosophique, Camila débat d’un dilemme moral et explore des hypothèses complexes avec le club de lecture.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Discuter d’un dilemme moral et formuler des hypothèses complexes sur le passé.",
-      "outcomes": [
-        "présenter un dilemme éthique avec précision",
-        "formuler une hypothèse irréelle sur le passé",
-        "utiliser le conditionnel passé pour exprimer un regret ou un reproche",
-        "nuancer un jugement moral sans catégoriser trop vite"
-      ],
-      "grammar": [
-        "hypothèse avec si + plus-que-parfait / conditionnel passé",
-        "le conditionnel passé (regret, reproche)",
-        "nuance du jugement moral"
-      ],
-      "vocabulary": [
-        "un dilemme",
-        "une valeur",
-        "juger",
-        "se mettre à la place de"
-      ],
-      "scenario": "Camila participe à un forum de discussion philosophique en ligne où l’on débat d’un dilemme moral classique."
-    }
-  },
-  {
-    "slug": "sciences-et-innovations",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Sciences et innovations",
-    "title_es": "Ciencias e innovaciones",
-    "description": "Karim partage un article de vulgarisation scientifique sur l’intelligence artificielle, et Camila apprend à discuter de sciences en français.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Comprendre et discuter d’un texte de vulgarisation scientifique avec nuance.",
-      "outcomes": [
-        "comprendre un texte de vulgarisation scientifique",
-        "exprimer une incertitude ou une probabilité scientifique",
-        "utiliser des connecteurs de cause scientifique (étant donné que, dans la mesure où)",
-        "nuancer une opinion sur une innovation technologique"
-      ],
-      "grammar": [
-        "subjonctif d’incertitude (il est possible que, il se peut que)",
-        "connecteurs de cause avancés (étant donné que, dans la mesure où)",
-        "expression de la probabilité"
-      ],
-      "vocabulary": [
-        "l’intelligence artificielle",
-        "un algorithme",
-        "une avancée",
-        "les répercussions"
-      ],
-      "scenario": "Karim, passionné de technologie, partage avec Camila un article sur l’intelligence artificielle et ses répercussions sur la société."
-    }
-  },
-  {
-    "slug": "histoire-et-memoire",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Histoire et mémoire",
-    "title_es": "Historia y memoria",
-    "description": "En regardant un documentaire avec sa grand-mère, Camila explore l’histoire partagée de la Caraïbe francophone et hispanophone.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Comprendre un récit historique et discuter de la mémoire collective avec nuance.",
-      "outcomes": [
-        "comprendre un récit historique complexe",
-        "discuter de la mémoire collective et de ses interprétations multiples",
-        "utiliser les pronoms démonstratifs (celui, celle, ceux, celles)",
-        "nuancer un point de vue sur un événement historique sensible"
-      ],
-      "grammar": [
-        "pronoms démonstratifs (celui, celle, ceux, celles, celui-ci/celui-là)",
-        "l’accord du participe passé avec avoir (complément direct antéposé)",
-        "expressions de la mémoire historique"
-      ],
-      "vocabulary": [
-        "la mémoire collective",
-        "un héritage",
-        "une perspective",
-        "transmettre"
-      ],
-      "scenario": "Camila regarde un documentaire sur l’histoire partagée d’Haïti et de la République dominicaine avec sa grand-mère, qui lui raconte ses propres souvenirs familiaux."
-    }
-  },
-  {
-    "slug": "ecologie-et-engagement-citoyen",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Écologie et engagement citoyen",
-    "title_es": "Ecología y compromiso ciudadano",
-    "description": "Camila rejoint un groupe de jeunes engagés pour la protection des mangroves de Saint-Domingue et rédige une pétition en français pour un partenariat associatif.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Exprimer un but et une opinion négative nuancée dans un contexte d’engagement citoyen.",
-      "outcomes": [
-        "exprimer un but avec afin que + subjonctif",
-        "formuler une opinion négative nuancée (je ne pense pas que + subjonctif)",
-        "rédiger une pétition ou un appel à l’action structuré",
-        "comparer des politiques environnementales avec des comparatifs avancés"
-      ],
-      "grammar": [
-        "expression du but (afin que, pour que + subjonctif)",
-        "opinion négative + subjonctif (je ne pense pas que, je ne crois pas que)",
-        "comparatifs et superlatifs dans un contexte argumentatif"
-      ],
-      "vocabulary": [
-        "une mangrove",
-        "la biodiversité",
-        "un engagement citoyen",
-        "une pétition"
-      ],
-      "scenario": "Camila rejoint un groupe de jeunes bénévoles qui protège les mangroves près de Saint-Domingue et doit rédiger, en français, une demande de partenariat à une association francophone."
-    }
-  },
-  {
-    "slug": "art-et-creativite",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Art et créativité",
-    "title_es": "Arte y creatividad",
-    "description": "Camila interviewe, pour son blog, une artiste peintre franco-dominicaine qui explore l’identité caribéenne dans son travail.",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "Mener une interview structurée et rapporter des propos sur le processus créatif.",
-      "outcomes": [
-        "préparer et mener une interview structurée",
-        "rapporter les propos d’un artiste avec précision",
-        "utiliser des comparatifs et superlatifs avancés dans un contexte artistique",
-        "décrire un processus créatif avec un vocabulaire précis"
-      ],
-      "grammar": [
-        "comparatifs et superlatifs avancés (autant que, de moins en moins)",
-        "discours rapporté (révision élargie)",
-        "expressions du processus créatif"
-      ],
-      "vocabulary": [
-        "une œuvre",
-        "un processus créatif",
-        "s’inspirer de",
-        "une exposition"
-      ],
-      "scenario": "Pour son blog, Camila interviewe une artiste peintre franco-dominicaine dont le travail explore l’identité caribéenne."
-    }
-  },
-  {
-    "slug": "bilan-et-projets-davenir",
-    "target_language": "french",
-    "level": "B2",
-    "title": "Bilan et projets d’avenir",
-    "title_es": "Balance y proyectos de futuro",
-    "description": "Camila reçoit la réponse de l’université de Tours et fait le bilan de tout ce qu’elle a accompli et appris depuis son premier jour d’échange scolaire.",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "Faire un bilan personnel structuré et exprimer des projets d’avenir avec assurance.",
-      "outcomes": [
-        "faire le bilan d’un parcours personnel complet",
-        "exprimer un projet d’avenir avec des hypothèses nuancées",
-        "utiliser le conditionnel passé pour évoquer ce qui aurait pu se passer différemment",
-        "conclure une réflexion personnelle avec clarté et maturité"
-      ],
-      "grammar": [
-        "récapitulatif : conditionnel passé, subjonctif, hypothèses complexes",
-        "expressions de bilan (avec le recul, en fin de compte)",
-        "expression de la certitude et de la détermination"
-      ],
-      "vocabulary": [
-        "un bilan",
-        "avec le recul",
-        "un accomplissement",
-        "être déterminé(e) à"
-      ],
-      "scenario": "Camila reçoit enfin la réponse de l’université de Tours et écrit une lettre ouverte à la Camila d’il y a deux ans, avant son départ pour la France."
     }
   },
   {
@@ -4866,307 +4086,6 @@
     }
   },
   {
-    "slug": "projets-et-avenir",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Projets et avenir",
-    "title_es": "Proyectos y futuro",
-    "description": "Camila réfléchit à son avenir et discute de ses projets avec Léa et Karim.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Exprimer un projet, formuler une hypothèse et justifier un choix.",
-      "outcomes": [
-        "parler de projets avec le futur simple",
-        "exprimer une hypothèse avec si + présent",
-        "donner son opinion et la justifier",
-        "comparer deux options avec nuance"
-      ],
-      "grammar": [
-        "futur simple",
-        "hypothèse avec si + présent",
-        "conditionnel présent (politesse et hypothèse)",
-        "connecteurs d’opinion"
-      ],
-      "vocabulary": [
-        "le projet",
-        "l’avenir",
-        "à mon avis",
-        "d’un côté / de l’autre côté"
-      ],
-      "scenario": "À quelques mois de la fin de son année d’échange, Camila doit décider si elle prolonge son séjour en France."
-    }
-  },
-  {
-    "slug": "identite-et-parcours-personnel",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Identité et parcours personnel",
-    "title_es": "Identidad y trayectoria personal",
-    "description": "Camila écrit une courte biographie pour un projet scolaire sur son parcours et les changements vécus depuis son arrivée en France.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Raconter son parcours personnel et décrire comment on a changé.",
-      "outcomes": [
-        "raconter une biographie simple",
-        "décrire un changement personnel",
-        "consolider l’usage du passé composé et de l’imparfait",
-        "exprimer une évolution dans le temps"
-      ],
-      "grammar": [
-        "imparfait (introduction)",
-        "contraste passé composé / imparfait",
-        "expressions de temps (avant, maintenant, depuis)"
-      ],
-      "vocabulary": [
-        "le parcours",
-        "changer",
-        "grandir",
-        "devenir"
-      ],
-      "scenario": "Pour un projet scolaire, Camila écrit une courte biographie sur son parcours et sur la façon dont elle a changé depuis son arrivée en France."
-    }
-  },
-  {
-    "slug": "etudes-et-apprentissage",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Études et apprentissage",
-    "title_es": "Estudios y aprendizaje",
-    "description": "Camila partage ses stratégies pour apprendre le français et discute de ses difficultés scolaires avec Karim.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Parler de stratégies d’apprentissage et exprimer des difficultés et des progrès scolaires.",
-      "outcomes": [
-        "décrire des stratégies d’apprentissage",
-        "exprimer une difficulté et un progrès",
-        "donner un conseil académique",
-        "utiliser le conditionnel présent pour suggérer"
-      ],
-      "grammar": [
-        "conditionnel présent (suggestion)",
-        "expressions de difficulté et de progrès",
-        "gérondif introductoire (en + participe présent)"
-      ],
-      "vocabulary": [
-        "réviser",
-        "progresser",
-        "une difficulté",
-        "un conseil"
-      ],
-      "scenario": "Camila a un examen de mathématiques important et demande des conseils d’étude à Karim."
-    }
-  },
-  {
-    "slug": "monde-du-travail",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Monde du travail",
-    "title_es": "El mundo laboral",
-    "description": "Karim prépare un entretien pour un stage d’été et demande à Camila de l’aider à s’entraîner.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Comprendre et simuler un entretien d’embauche, écrire un e-mail formel.",
-      "outcomes": [
-        "parler de professions et de compétences",
-        "simuler un entretien d’embauche",
-        "écrire un e-mail formel",
-        "utiliser le conditionnel de politesse dans un contexte professionnel"
-      ],
-      "grammar": [
-        "conditionnel de politesse (révision approfondie)",
-        "vocabulaire formel vs informel",
-        "structure d’un e-mail formel"
-      ],
-      "vocabulary": [
-        "le CV",
-        "un entretien d’embauche",
-        "les compétences",
-        "postuler"
-      ],
-      "scenario": "Karim a un entretien pour un stage d’été dans une bibliothèque et demande à Camila de l’aider à se préparer."
-    }
-  },
-  {
-    "slug": "voyages-et-interculturalite",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Voyages et interculturalité",
-    "title_es": "Viajes e interculturalidad",
-    "description": "Camila compare les habitudes culturelles françaises et dominicaines lors d’un exposé pour sa classe.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Comparer des habitudes culturelles et raconter une expérience interculturelle.",
-      "outcomes": [
-        "comparer deux cultures",
-        "décrire un choc culturel",
-        "raconter une expérience de voyage marquante",
-        "exprimer une opinion sur d’autres pays avec nuance"
-      ],
-      "grammar": [
-        "comparaison avancée",
-        "connecteurs d’opposition (alors que, tandis que)",
-        "discours rapporté simple"
-      ],
-      "vocabulary": [
-        "une habitude culturelle",
-        "un choc culturel",
-        "ce qui m’a surpris",
-        "tandis que"
-      ],
-      "scenario": "Camila prépare un exposé pour sa classe sur les différences culturelles entre la France et la République dominicaine."
-    }
-  },
-  {
-    "slug": "technologie-et-societe",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Technologie et société",
-    "title_es": "Tecnología y sociedad",
-    "description": "La classe de Camila débat des avantages et des risques des réseaux sociaux chez les jeunes.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Argumenter sur les avantages et les risques de la technologie de façon simple.",
-      "outcomes": [
-        "présenter des avantages et des inconvénients",
-        "exprimer un accord/désaccord nuancé",
-        "utiliser des connecteurs d’argumentation",
-        "comprendre un débat simple"
-      ],
-      "grammar": [
-        "connecteurs d’argumentation (d’une part/d’autre part, cependant)",
-        "expression de l’opinion nuancée",
-        "subjonctif présent introductorio (il est important que)"
-      ],
-      "vocabulary": [
-        "un avantage / un inconvénient",
-        "dépendre de",
-        "un risque",
-        "la vie privée"
-      ],
-      "scenario": "En cours d’éducation civique, la classe de Camila débat de l’impact des réseaux sociaux sur les jeunes."
-    }
-  },
-  {
-    "slug": "sante-et-mode-de-vie",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Santé et mode de vie",
-    "title_es": "Salud y estilo de vida",
-    "description": "Camila remarque qu’elle est souvent stressée avant les examens et cherche des habitudes plus saines avec Madame Lambert.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Parler du stress, des habitudes saines et donner des recommandations de bien-être.",
-      "outcomes": [
-        "décrire le stress et ses causes",
-        "proposer des habitudes de vie saines",
-        "donner des recommandations avec le subjonctif",
-        "comprendre un conseil médical simple"
-      ],
-      "grammar": [
-        "subjonctif présent (recommandations)",
-        "expressions liées au bien-être",
-        "impératif (révision, conseils)"
-      ],
-      "vocabulary": [
-        "le stress",
-        "se détendre",
-        "une habitude saine",
-        "l’activité physique"
-      ],
-      "scenario": "À l’approche des examens de fin d’année, Camila se sent de plus en plus stressée et en parle avec Madame Lambert."
-    }
-  },
-  {
-    "slug": "environnement-et-consommation",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Environnement et consommation",
-    "title_es": "Medioambiente y consumo",
-    "description": "La classe de Camila organise un projet de réduction des déchets pour protéger l’environnement.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Discuter de problèmes environnementaux et proposer des solutions concrètes.",
-      "outcomes": [
-        "parler des problèmes environnementaux",
-        "proposer des solutions et des projets écologiques",
-        "exprimer la cause et la conséquence",
-        "utiliser il faut que pour proposer une action collective"
-      ],
-      "grammar": [
-        "cause et conséquence (parce que, donc, c’est pourquoi)",
-        "subjonctif (proposition d’action)",
-        "quantificateurs (trop de, moins de)"
-      ],
-      "vocabulary": [
-        "le recyclage",
-        "les déchets",
-        "l’environnement",
-        "réduire"
-      ],
-      "scenario": "La classe de Camila organise un projet écologique pour réduire les déchets au lycée."
-    }
-  },
-  {
-    "slug": "medias-et-information",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Médias et information",
-    "title_es": "Medios e información",
-    "description": "La classe de Camila apprend à distinguer une information fiable d’une fausse nouvelle sur internet.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Distinguer une source fiable d’une désinformation et exprimer une opinion sur une information.",
-      "outcomes": [
-        "identifier une source d’information fiable",
-        "exprimer un doute ou une certitude",
-        "reformuler une information au discours indirect",
-        "donner son opinion sur une nouvelle"
-      ],
-      "grammar": [
-        "discours indirect simple (il a dit que)",
-        "expression du doute et de la certitude",
-        "connecteurs d’explication (c’est-à-dire, en effet)"
-      ],
-      "vocabulary": [
-        "une source fiable",
-        "une fausse nouvelle",
-        "vérifier",
-        "douter de"
-      ],
-      "scenario": "En cours de français, la classe de Camila analyse un article partagé sur les réseaux sociaux pour vérifier s’il est fiable."
-    }
-  },
-  {
-    "slug": "relations-et-conflits",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Relations et conflits",
-    "title_es": "Relaciones y conflictos",
-    "description": "Camila et Léa ont leur premier vrai désaccord depuis l’arrivée de Camila, et apprennent à le résoudre calmement.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Exprimer un désaccord, une émotion, et négocier une solution à un conflit.",
-      "outcomes": [
-        "exprimer une émotion avec précision",
-        "exposer un désaccord respectueusement",
-        "négocier une solution à un petit conflit",
-        "utiliser le subjonctif après des expressions d’émotion"
-      ],
-      "grammar": [
-        "subjonctif après les expressions d’émotion (je suis triste que, ça me dérange que)",
-        "expressions de négociation",
-        "connecteurs de concession (même si)"
-      ],
-      "vocabulary": [
-        "un désaccord",
-        "se sentir blessé(e)",
-        "trouver un compromis",
-        "se réconcilier"
-      ],
-      "scenario": "Camila et Léa se disputent pour la première fois à propos d’un projet scolaire commun, et doivent apprendre à résoudre le conflit."
-    }
-  },
-  {
     "slug": "hola-mucho-gusto",
     "target_language": "spanish",
     "level": "A1",
@@ -5328,12 +4247,673 @@
     "unit_overview": null
   },
   {
+    "slug": "projets-et-avenir",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Projets et avenir",
+    "title_es": "Proyectos y futuro",
+    "description": "Comment transformer une ambition professionnelle en un projet réaliste, étape par étape.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Exprimer un projet, formuler une hypothèse et justifier un choix.",
+      "outcomes": [
+        "parler de projets avec le futur simple",
+        "exprimer une hypothèse avec si + présent",
+        "donner son opinion et la justifier",
+        "comparer deux options avec nuance"
+      ],
+      "grammar": [
+        "futur simple",
+        "hypothèse avec si + présent",
+        "conditionnel présent (politesse et hypothèse)",
+        "connecteurs d’opinion"
+      ],
+      "vocabulary": [
+        "le projet",
+        "l’avenir",
+        "à mon avis",
+        "d’un côté / de l’autre côté"
+      ],
+      "scenario": "De nombreux lycéens doivent transformer une ambition professionnelle vague en un projet concret, étape par étape."
+    }
+  },
+  {
+    "slug": "identite-et-parcours-personnel",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Identité et parcours personnel",
+    "title_es": "Identidad y trayectoria personal",
+    "description": "Comment l’identité se construit à travers les expériences vécues, selon les chercheurs en psychologie sociale.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Raconter son parcours personnel et décrire comment on a changé.",
+      "outcomes": [
+        "raconter une biographie simple",
+        "décrire un changement personnel",
+        "consolider l’usage du passé composé et de l’imparfait",
+        "exprimer une évolution dans le temps"
+      ],
+      "grammar": [
+        "imparfait (introduction)",
+        "contraste passé composé / imparfait",
+        "expressions de temps (avant, maintenant, depuis)"
+      ],
+      "vocabulary": [
+        "le parcours",
+        "changer",
+        "grandir",
+        "devenir"
+      ],
+      "scenario": "Beaucoup de jeunes racontent comment ils ont changé après une expérience marquante, comme un séjour à l’étranger."
+    }
+  },
+  {
+    "slug": "etudes-et-apprentissage",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Études et apprentissage",
+    "title_es": "Estudios y aprendizaje",
+    "description": "Les techniques de révision les plus efficaces selon les sciences cognitives : rappel actif, espacement et explication à voix haute.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Parler de stratégies d’apprentissage et exprimer des difficultés et des progrès scolaires.",
+      "outcomes": [
+        "décrire des stratégies d’apprentissage",
+        "exprimer une difficulté et un progrès",
+        "donner un conseil académique",
+        "utiliser le conditionnel présent pour suggérer"
+      ],
+      "grammar": [
+        "conditionnel présent (suggestion)",
+        "expressions de difficulté et de progrès",
+        "gérondif introductoire (en + participe présent)"
+      ],
+      "vocabulary": [
+        "réviser",
+        "progresser",
+        "une difficulté",
+        "un conseil"
+      ],
+      "scenario": "Avant un examen de mathématiques important, un élève demande des conseils d’étude à un camarade plus expérimenté."
+    }
+  },
+  {
+    "slug": "monde-du-travail",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Monde du travail",
+    "title_es": "El mundo laboral",
+    "description": "Comment bien se préparer à un entretien d’embauche et rédiger un e-mail de candidature efficace.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Comprendre et simuler un entretien d’embauche, écrire un e-mail formel.",
+      "outcomes": [
+        "parler de professions et de compétences",
+        "simuler un entretien d’embauche",
+        "écrire un e-mail formel",
+        "utiliser le conditionnel de politesse dans un contexte professionnel"
+      ],
+      "grammar": [
+        "conditionnel de politesse (révision approfondie)",
+        "vocabulaire formel vs informel",
+        "structure d’un e-mail formel"
+      ],
+      "vocabulary": [
+        "le CV",
+        "un entretien d’embauche",
+        "les compétences",
+        "postuler"
+      ],
+      "scenario": "Chaque été, de nombreux jeunes préparent un entretien pour un premier stage et s’entraînent avec un conseiller ou un camarade."
+    }
+  },
+  {
+    "slug": "voyages-et-interculturalite",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Voyages et interculturalité",
+    "title_es": "Viajes e interculturalidad",
+    "description": "Comment voyager en respectant les lieux visités, et comparer des habitudes culturelles différentes.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Comparer des habitudes culturelles et raconter une expérience interculturelle.",
+      "outcomes": [
+        "comparer deux cultures",
+        "décrire un choc culturel",
+        "raconter une expérience de voyage marquante",
+        "exprimer une opinion sur d’autres pays avec nuance"
+      ],
+      "grammar": [
+        "comparaison avancée",
+        "connecteurs d’opposition (alors que, tandis que)",
+        "discours rapporté simple"
+      ],
+      "vocabulary": [
+        "une habitude culturelle",
+        "un choc culturel",
+        "ce qui m’a surpris",
+        "tandis que"
+      ],
+      "scenario": "De nombreux élèves en échange préparent un exposé comparant une habitude culturelle française et une habitude de leur pays d’origine."
+    }
+  },
+  {
+    "slug": "technologie-et-societe",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Technologie et société",
+    "title_es": "Tecnología y sociedad",
+    "description": "Comment choisir ses usages numériques pour éviter que les notifications ne contrôlent notre attention.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Argumenter sur les avantages et les risques de la technologie de façon simple.",
+      "outcomes": [
+        "présenter des avantages et des inconvénients",
+        "exprimer un accord/désaccord nuancé",
+        "utiliser des connecteurs d’argumentation",
+        "comprendre un débat simple"
+      ],
+      "grammar": [
+        "connecteurs d’argumentation (d’une part/d’autre part, cependant)",
+        "expression de l’opinion nuancée",
+        "subjonctif présent introductorio (il est important que)"
+      ],
+      "vocabulary": [
+        "un avantage / un inconvénient",
+        "dépendre de",
+        "un risque",
+        "la vie privée"
+      ],
+      "scenario": "En cours d’éducation civique, une classe débat de l’impact des réseaux sociaux sur les jeunes."
+    }
+  },
+  {
+    "slug": "sante-et-mode-de-vie",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Santé et mode de vie",
+    "title_es": "Salud y estilo de vida",
+    "description": "Comment gérer le stress des examens et adopter des habitudes de vie plus saines, selon les médecins scolaires.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Parler du stress, des habitudes saines et donner des recommandations de bien-être.",
+      "outcomes": [
+        "décrire le stress et ses causes",
+        "proposer des habitudes de vie saines",
+        "donner des recommandations avec le subjonctif",
+        "comprendre un conseil médical simple"
+      ],
+      "grammar": [
+        "subjonctif présent (recommandations)",
+        "expressions liées au bien-être",
+        "impératif (révision, conseils)"
+      ],
+      "vocabulary": [
+        "le stress",
+        "se détendre",
+        "une habitude saine",
+        "l’activité physique"
+      ],
+      "scenario": "À l’approche des examens de fin d’année, de nombreux élèves se sentent de plus en plus stressés et cherchent des conseils."
+    }
+  },
+  {
+    "slug": "environnement-et-consommation",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Environnement et consommation",
+    "title_es": "Medioambiente y consumo",
+    "description": "Comment un projet scolaire de réduction des déchets peut faire évoluer les habitudes de tout un établissement.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Discuter de problèmes environnementaux et proposer des solutions concrètes.",
+      "outcomes": [
+        "parler des problèmes environnementaux",
+        "proposer des solutions et des projets écologiques",
+        "exprimer la cause et la conséquence",
+        "utiliser il faut que pour proposer une action collective"
+      ],
+      "grammar": [
+        "cause et conséquence (parce que, donc, c’est pourquoi)",
+        "subjonctif (proposition d’action)",
+        "quantificateurs (trop de, moins de)"
+      ],
+      "vocabulary": [
+        "le recyclage",
+        "les déchets",
+        "l’environnement",
+        "réduire"
+      ],
+      "scenario": "Une classe de lycée organise un projet écologique pour réduire les déchets dans son établissement."
+    }
+  },
+  {
+    "slug": "medias-et-information",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Médias et information",
+    "title_es": "Medios e información",
+    "description": "Comment reconnaître une fausse information en ligne et vérifier la fiabilité d’une source, selon les journalistes spécialisés.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Distinguer une source fiable d’une désinformation et exprimer une opinion sur une information.",
+      "outcomes": [
+        "identifier une source d’information fiable",
+        "exprimer un doute ou une certitude",
+        "reformuler une information au discours indirect",
+        "donner son opinion sur une nouvelle"
+      ],
+      "grammar": [
+        "discours indirect simple (il a dit que)",
+        "expression du doute et de la certitude",
+        "connecteurs d’explication (c’est-à-dire, en effet)"
+      ],
+      "vocabulary": [
+        "une source fiable",
+        "une fausse nouvelle",
+        "vérifier",
+        "douter de"
+      ],
+      "scenario": "En cours d’éducation aux médias, une classe analyse un article partagé sur les réseaux sociaux pour vérifier s’il est fiable."
+    }
+  },
+  {
+    "slug": "relations-et-conflits",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Relations et conflits",
+    "title_es": "Relaciones y conflictos",
+    "description": "Comment exprimer un désaccord sans rompre le dialogue et trouver un compromis, selon les spécialistes de la médiation.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Exprimer un désaccord, une émotion, et négocier une solution à un conflit.",
+      "outcomes": [
+        "exprimer une émotion avec précision",
+        "exposer un désaccord respectueusement",
+        "négocier une solution à un petit conflit",
+        "utiliser le subjonctif après des expressions d’émotion"
+      ],
+      "grammar": [
+        "subjonctif après les expressions d’émotion (je suis triste que, ça me dérange que)",
+        "expressions de négociation",
+        "connecteurs de concession (même si)"
+      ],
+      "vocabulary": [
+        "un désaccord",
+        "se sentir blessé(e)",
+        "trouver un compromis",
+        "se réconcilier"
+      ],
+      "scenario": "Deux camarades de classe se disputent à propos d’un projet scolaire commun, et doivent apprendre à résoudre le conflit calmement."
+    }
+  },
+  {
+    "slug": "retour-a-saint-domingue",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Retour à Saint-Domingue",
+    "title_es": "Regreso a Santo Domingo",
+    "description": "Pourquoi le retour chez soi après un séjour à l’étranger peut être plus déstabilisant que le départ, et comment en parler avec nuance.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Décrire un retour au pays et exprimer un sentiment ambivalent avec nuance.",
+      "outcomes": [
+        "décrire des retrouvailles avec précision émotionnelle",
+        "exprimer une nostalgie tout en valorisant le présent",
+        "utiliser le plus-que-parfait pour situer un souvenir dans le passé",
+        "nuancer une opinion sur deux lieux de vie différents"
+      ],
+      "grammar": [
+        "plus-que-parfait",
+        "concordance des temps (passé)",
+        "nuance et modération de l’opinion"
+      ],
+      "vocabulary": [
+        "les retrouvailles",
+        "le mal du pays",
+        "ambivalent(e)",
+        "avoir le sentiment de"
+      ],
+      "scenario": "De nombreux jeunes qui reviennent dans leur pays après une longue expatriation découvrent un « choc du retour » aussi fort que le choc culturel du départ."
+    }
+  },
+  {
+    "slug": "candidature-universitaire",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Candidature universitaire",
+    "title_es": "Solicitud universitaria",
+    "description": "Ce que les jurys d’admission de Parcoursup attendent vraiment d’une lettre de motivation, et comment structurer une candidature convaincante.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Rédiger une lettre de motivation et argumenter un projet académique de façon structurée.",
+      "outcomes": [
+        "structurer une lettre de motivation formelle",
+        "argumenter un choix académique avec des exemples concrets",
+        "utiliser le subjonctif passé pour évoquer une expérience accomplie",
+        "nuancer une auto-présentation sans excès de modestie ni d’arrogance"
+      ],
+      "grammar": [
+        "subjonctif passé",
+        "connecteurs d’argumentation avancés (par ailleurs, en outre)",
+        "structure d’une lettre de motivation"
+      ],
+      "vocabulary": [
+        "une lettre de motivation",
+        "un dossier de candidature",
+        "convaincant(e)",
+        "se démarquer"
+      ],
+      "scenario": "Chaque année, des millions de lycéens rédigent des lettres de motivation sur Parcoursup : voici comment les jurys d’admission évaluent réellement ces textes."
+    }
+  },
+  {
+    "slug": "debats-de-societe",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Débats de société",
+    "title_es": "Debates de sociedad",
+    "description": "Ce que disent réellement les recherches sur le temps d’écran chez les jeunes, entre inquiétudes légitimes et nuances scientifiques.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Participer à un débat structuré sur un sujet de société et défendre une position nuancée.",
+      "outcomes": [
+        "structurer un argument avec des connecteurs logiques avancés",
+        "anticiper et réfuter un contre-argument",
+        "utiliser la voix passive dans un contexte argumentatif",
+        "nuancer une position sans paraître catégorique"
+      ],
+      "grammar": [
+        "la voix passive",
+        "connecteurs d’argumentation avancés (néanmoins, or, par conséquent)",
+        "nuance argumentative (il me semble que, dans une certaine mesure)"
+      ],
+      "vocabulary": [
+        "un point de vue",
+        "réfuter",
+        "dans une certaine mesure",
+        "un contre-argument"
+      ],
+      "scenario": "Dans un club de discussion en ligne, des étudiants francophones débattent de sujets de société, dont l’usage des écrans chez les jeunes."
+    }
+  },
+  {
+    "slug": "le-teletravail-et-lavenir-professionnel",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Le télétravail et l’avenir professionnel",
+    "title_es": "El teletrabajo y el futuro profesional",
+    "description": "Ce que les études sur le travail à distance révèlent sur la productivité, l’isolement et l’avenir du bureau.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Décrire une expérience professionnelle et peser les avantages et inconvénients du télétravail.",
+      "outcomes": [
+        "décrire une routine de travail à distance",
+        "peser des avantages et des inconvénients avec nuance",
+        "utiliser le gérondif pour exprimer la simultanéité",
+        "employer des pronoms relatifs composés (dont, ce dont)"
+      ],
+      "grammar": [
+        "le gérondif (en + participe présent)",
+        "pronoms relatifs composés (dont, ce dont)",
+        "expressions de nuance professionnelle"
+      ],
+      "vocabulary": [
+        "le télétravail",
+        "la productivité",
+        "l’isolement",
+        "gérer son temps"
+      ],
+      "scenario": "De plus en plus d’entreprises généralisent le télétravail : voici ce que révèlent les études récentes sur ses effets réels."
+    }
+  },
+  {
+    "slug": "litterature-francophone",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Littérature francophone",
+    "title_es": "Literatura francófona",
+    "description": "Comment des écrivains martiniquais ont théorisé une identité culturelle plurielle à travers la littérature.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Analyser un extrait littéraire simple et rapporter les propos d’un auteur au discours indirect.",
+      "outcomes": [
+        "analyser le thème et le ton d’un extrait littéraire",
+        "rapporter des propos au discours indirect au passé",
+        "utiliser des pronoms relatifs composés (lequel, laquelle)",
+        "exprimer une impression de lecture avec nuance"
+      ],
+      "grammar": [
+        "discours indirect au passé",
+        "pronoms relatifs composés (lequel, auquel, duquel)",
+        "expressions d’analyse littéraire"
+      ],
+      "vocabulary": [
+        "un extrait",
+        "le narrateur",
+        "évoquer",
+        "un thème récurrent"
+      ],
+      "scenario": "Un club de lecture en ligne étudie un roman francophone caribéen évoquant l’identité et le déracinement."
+    }
+  },
+  {
+    "slug": "cinema-et-critique",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Cinéma et critique",
+    "title_es": "Cine y crítica",
+    "description": "Retour sur le film de Justine Triet, récompensé à Cannes en 2023, et sur les débats qu’il a suscités.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Rédiger une critique de film structurée avec des arguments et une évaluation nuancée.",
+      "outcomes": [
+        "décrire l’intrigue d’un film sans trop en révéler",
+        "évaluer la mise en scène et le jeu des acteurs",
+        "utiliser ce qui / ce que pour résumer une impression",
+        "nuancer une critique entre points forts et points faibles"
+      ],
+      "grammar": [
+        "ce qui / ce que (récapitulatif)",
+        "expressions d’évaluation critique",
+        "comparatifs et superlatifs avancés"
+      ],
+      "vocabulary": [
+        "la mise en scène",
+        "le scénario",
+        "un rebondissement",
+        "convaincant(e) (cinéma)"
+      ],
+      "scenario": "Un film récompensé à Cannes suscite un débat critique animé : voici comment en construire une analyse nuancée."
+    }
+  },
+  {
+    "slug": "dilemmes-ethiques",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Dilemmes éthiques",
+    "title_es": "Dilemas éticos",
+    "description": "Pourquoi cette expérience philosophique imaginée dans les années 1960 continue d’alimenter les débats en éthique et en intelligence artificielle.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Discuter d’un dilemme moral et formuler des hypothèses complexes sur le passé.",
+      "outcomes": [
+        "présenter un dilemme éthique avec précision",
+        "formuler une hypothèse irréelle sur le passé",
+        "utiliser le conditionnel passé pour exprimer un regret ou un reproche",
+        "nuancer un jugement moral sans catégoriser trop vite"
+      ],
+      "grammar": [
+        "hypothèse avec si + plus-que-parfait / conditionnel passé",
+        "le conditionnel passé (regret, reproche)",
+        "nuance du jugement moral"
+      ],
+      "vocabulary": [
+        "un dilemme",
+        "une valeur",
+        "juger",
+        "se mettre à la place de"
+      ],
+      "scenario": "Dans un forum de discussion philosophique en ligne, des étudiants débattent d’un dilemme moral classique."
+    }
+  },
+  {
+    "slug": "sciences-et-innovations",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Sciences et innovations",
+    "title_es": "Ciencias e innovaciones",
+    "description": "Ce que les études économiques récentes disent des effets de l’automatisation par IA sur le marché du travail.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Comprendre et discuter d’un texte de vulgarisation scientifique avec nuance.",
+      "outcomes": [
+        "comprendre un texte de vulgarisation scientifique",
+        "exprimer une incertitude ou une probabilité scientifique",
+        "utiliser des connecteurs de cause scientifique (étant donné que, dans la mesure où)",
+        "nuancer une opinion sur une innovation technologique"
+      ],
+      "grammar": [
+        "subjonctif d’incertitude (il est possible que, il se peut que)",
+        "connecteurs de cause avancés (étant donné que, dans la mesure où)",
+        "expression de la probabilité"
+      ],
+      "vocabulary": [
+        "l’intelligence artificielle",
+        "un algorithme",
+        "une avancée",
+        "les répercussions"
+      ],
+      "scenario": "Un article de vulgarisation scientifique explore l’intelligence artificielle et ses répercussions sur la société et le marché du travail."
+    }
+  },
+  {
+    "slug": "histoire-et-memoire",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Histoire et mémoire",
+    "title_es": "Historia y memoria",
+    "description": "Comment un passé commun et douloureux continue de façonner les relations entre les deux pays qui se partagent Hispaniola.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Comprendre un récit historique et discuter de la mémoire collective avec nuance.",
+      "outcomes": [
+        "comprendre un récit historique complexe",
+        "discuter de la mémoire collective et de ses interprétations multiples",
+        "utiliser les pronoms démonstratifs (celui, celle, ceux, celles)",
+        "nuancer un point de vue sur un événement historique sensible"
+      ],
+      "grammar": [
+        "pronoms démonstratifs (celui, celle, ceux, celles, celui-ci/celui-là)",
+        "l’accord du participe passé avec avoir (complément direct antéposé)",
+        "expressions de la mémoire historique"
+      ],
+      "vocabulary": [
+        "la mémoire collective",
+        "un héritage",
+        "une perspective",
+        "transmettre"
+      ],
+      "scenario": "Un documentaire retrace l’histoire partagée d’Haïti et de la République dominicaine, et une famille redécouvre ses propres souvenirs liés à cette histoire."
+    }
+  },
+  {
+    "slug": "ecologie-et-engagement-citoyen",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Écologie et engagement citoyen",
+    "title_es": "Ecología y compromiso ciudadano",
+    "description": "Pourquoi la protection de ces écosystèmes côtiers est devenue une priorité pour les organisations environnementales de la région.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Exprimer un but et une opinion négative nuancée dans un contexte d’engagement citoyen.",
+      "outcomes": [
+        "exprimer un but avec afin que + subjonctif",
+        "formuler une opinion négative nuancée (je ne pense pas que + subjonctif)",
+        "rédiger une pétition ou un appel à l’action structuré",
+        "comparer des politiques environnementales avec des comparatifs avancés"
+      ],
+      "grammar": [
+        "expression du but (afin que, pour que + subjonctif)",
+        "opinion négative + subjonctif (je ne pense pas que, je ne crois pas que)",
+        "comparatifs et superlatifs dans un contexte argumentatif"
+      ],
+      "vocabulary": [
+        "une mangrove",
+        "la biodiversité",
+        "un engagement citoyen",
+        "une pétition"
+      ],
+      "scenario": "Un groupe de jeunes bénévoles protège les mangroves près de Saint-Domingue et rédige, en français, une demande de partenariat à une association francophone."
+    }
+  },
+  {
+    "slug": "art-et-creativite",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Art et créativité",
+    "title_es": "Arte y creatividad",
+    "description": "Comment ce peintre cubain d’origine chinoise, africaine et européenne a transformé la question de l’identité en langage pictural.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Mener une interview structurée et rapporter des propos sur le processus créatif.",
+      "outcomes": [
+        "préparer et mener une interview structurée",
+        "rapporter les propos d’un artiste avec précision",
+        "utiliser des comparatifs et superlatifs avancés dans un contexte artistique",
+        "décrire un processus créatif avec un vocabulaire précis"
+      ],
+      "grammar": [
+        "comparatifs et superlatifs avancés (autant que, de moins en moins)",
+        "discours rapporté (révision élargie)",
+        "expressions du processus créatif"
+      ],
+      "vocabulary": [
+        "une œuvre",
+        "un processus créatif",
+        "s’inspirer de",
+        "une exposition"
+      ],
+      "scenario": "Un blog culturel interviewe une artiste peintre franco-dominicaine dont le travail explore l’identité caribéenne."
+    }
+  },
+  {
+    "slug": "bilan-et-projets-davenir",
+    "target_language": "french",
+    "level": "B2",
+    "title": "Bilan et projets d’avenir",
+    "title_es": "Balance y proyectos de futuro",
+    "description": "Pourquoi un séjour académique à l’étranger continue de transformer durablement les parcours des jeunes qui l’entreprennent.",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Faire un bilan personnel structuré et exprimer des projets d’avenir avec assurance.",
+      "outcomes": [
+        "faire le bilan d’un parcours personnel complet",
+        "exprimer un projet d’avenir avec des hypothèses nuancées",
+        "utiliser le conditionnel passé pour évoquer ce qui aurait pu se passer différemment",
+        "conclure une réflexion personnelle avec clarté et maturité"
+      ],
+      "grammar": [
+        "récapitulatif : conditionnel passé, subjonctif, hypothèses complexes",
+        "expressions de bilan (avec le recul, en fin de compte)",
+        "expression de la certitude et de la détermination"
+      ],
+      "vocabulary": [
+        "un bilan",
+        "avec le recul",
+        "un accomplissement",
+        "être déterminé(e) à"
+      ],
+      "scenario": "Une jeune diplômée fait le bilan de tout ce qu’un séjour académique à l’étranger lui a apporté, deux ans après son départ."
+    }
+  },
+  {
     "slug": "la-rentree-universitaire",
     "target_language": "french",
     "level": "C1",
     "title": "La rentrée universitaire",
     "title_es": "El inicio del curso universitario",
-    "description": "Camila commence sa licence de langues étrangères appliquées à l’université de Tours et retrouve Léa et Karim.",
+    "description": "L’autonomie étudiante comme principe central de la première année universitaire en France, entre liberté et risque d’échec.",
     "order_index": 1,
     "unit_overview": {
       "objective": "Comprendre un récit universitaire complexe et maîtriser des nuances grammaticales de haut niveau.",
@@ -5354,7 +4934,7 @@
         "un syllabus",
         "l’autonomie académique"
       ],
-      "scenario": "Camila arrive pour son premier jour de cours à l’université de Tours, où elle retrouve Léa et Karim."
+      "scenario": "Une analyse des réformes qui ont fait de l’autonomie étudiante le principe central du premier cycle universitaire français."
     }
   },
   {
@@ -5363,7 +4943,7 @@
     "level": "C1",
     "title": "Un exposé à préparer",
     "title_es": "Una exposición por preparar",
-    "description": "Camila prépare, avec un groupe d’étudiants internationaux, un exposé complexe sur la diversité linguistique dans les Caraïbes.",
+    "description": "La diversité linguistique caribéenne, des créoles nés sur les habitations sucrières à leur statut contemporain.",
     "order_index": 2,
     "unit_overview": {
       "objective": "Comprendre un travail de groupe académique complexe et maîtriser le discours rapporté nuancé.",
@@ -5384,7 +4964,7 @@
         "un consensus",
         "une problématique"
       ],
-      "scenario": "Camila collabore avec un groupe international pour préparer un exposé sur la diversité linguistique caribéenne, un sujet qui la touche personnellement."
+      "scenario": "Un dossier documentaire consacré à la formation historique et au statut actuel des langues créoles dans les Caraïbes."
     }
   },
   {
@@ -5412,7 +4992,7 @@
         "une ligne éditoriale",
         "un angle mort"
       ],
-      "scenario": "Camila prépare une revue de presse sur une réforme des universités."
+      "scenario": "Une analyse comparée de la couverture médiatique de la réforme des retraites de 2023 en France."
     }
   },
   {
@@ -5440,7 +5020,7 @@
         "vraisemblable",
         "une décision interprétative"
       ],
-      "scenario": "Camila doit traduire le témoignage littéraire d’une autrice caribéenne."
+      "scenario": "Une évaluation des limites de la traduction automatique appliquée à un texte littéraire caribéen."
     }
   },
   {
@@ -5468,7 +5048,7 @@
         "minimiser",
         "un fragment"
       ],
-      "scenario": "Camila classe des lettres envoyées entre la République dominicaine et la France."
+      "scenario": "Un chercheur classe et interprète des lettres échangées entre la République dominicaine et la France."
     }
   },
   {
@@ -5580,7 +5160,7 @@
         "provisoire",
         "une donnée"
       ],
-      "scenario": "Camila assiste à une conférence sur la communication scientifique."
+      "scenario": "Une conférence sur la communication scientifique et la gestion publique de l’incertitude."
     }
   },
   {
@@ -5636,7 +5216,7 @@
         "irréversible",
         "révisable"
       ],
-      "scenario": "Camila reçoit une proposition de master et de stage à Montréal."
+      "scenario": "Une étudiante en fin de licence reçoit une proposition de master et de stage à Montréal."
     }
   },
   {
@@ -5664,7 +5244,427 @@
         "un code implicite",
         "dégager une idée"
       ],
-      "scenario": "Camila transforme son expérience en atelier sans en faire une recette universelle."
+      "scenario": "D’anciens étudiants mobiles transforment leur expérience en ateliers d’accueil sans en faire une recette universelle."
+    }
+  },
+  {
+    "slug": "intelligence-artificielle-et-creativite",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Intelligence artificielle et créativité humaine",
+    "title_es": "Intelligence artificielle et créativité humaine",
+    "description": "Enquête interdisciplinaire C2 : La machine peut-elle véritablement créer ?.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : intelligence artificielle et créativité humaine.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "Le conditionnel de prudence et les tournures impersonnelles"
+      ],
+      "vocabulary": [
+        "une œuvre générative",
+        "l’agentivité",
+        "un corpus d’entraînement",
+        "la titularité",
+        "un pastiche",
+        "l’originalité"
+      ],
+      "scenario": "La machine peut-elle véritablement créer ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "climat-et-transition-energetique",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Changement climatique et transition énergétique",
+    "title_es": "Changement climatique et transition énergétique",
+    "description": "Enquête interdisciplinaire C2 : Décarboner à temps : course contre une horloge incertaine.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : changement climatique et transition énergétique.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "Les systèmes hypothétiques complexes et l’irréel"
+      ],
+      "vocabulary": [
+        "la décarbonation",
+        "un seuil de réchauffement",
+        "la tarification carbone",
+        "un inventaire d’émissions",
+        "le captage du carbone",
+        "une trajectoire compatible"
+      ],
+      "scenario": "Décarboner à temps : course contre une horloge incertaine",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "geopolitique-et-conflits-contemporains",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Géopolitique et conflits contemporains",
+    "title_es": "Géopolitique et conflits contemporains",
+    "description": "Enquête interdisciplinaire C2 : Un monde multipolaire est-il nécessairement plus instable ?.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : géopolitique et conflits contemporains.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "La polyphonie et le discours rapporté complexe"
+      ],
+      "vocabulary": [
+        "la dissuasion",
+        "un ordre multipolaire",
+        "un hégémon",
+        "l’escalade",
+        "un multilatéralisme",
+        "la conflictualité"
+      ],
+      "scenario": "Un monde multipolaire est-il nécessairement plus instable ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "reseaux-sociaux-et-sante-mentale",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Réseaux sociaux et santé mentale",
+    "title_es": "Réseaux sociaux et santé mentale",
+    "description": "Enquête interdisciplinaire C2 : Les écrans rendent-ils vraiment malheureux ?.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : réseaux sociaux et santé mentale.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "Le subjonctif dans l’évaluation, la restriction et le doute"
+      ],
+      "vocabulary": [
+        "un usage passif",
+        "la comparaison sociale ascendante",
+        "une donnée autorapportée",
+        "un design corrélationnel",
+        "une conception addictive",
+        "une étude longitudinale"
+      ],
+      "scenario": "Les écrans rendent-ils vraiment malheureux ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "economie-et-inegalites-mondiales",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Économie et inégalités mondiales",
+    "title_es": "Économie et inégalités mondiales",
+    "description": "Enquête interdisciplinaire C2 : La croissance mondiale profite-t-elle à tous ?.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : économie et inégalités mondiales.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "La nominalisation critique et la restitution de l’agent"
+      ],
+      "vocabulary": [
+        "l’extrême pauvreté",
+        "le coefficient de Gini",
+        "un paradis fiscal",
+        "la fiscalité progressive",
+        "l’érosion de la base fiscale",
+        "un transfert de bénéfices"
+      ],
+      "scenario": "La croissance mondiale profite-t-elle à tous ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "espace-et-exploration-scientifique",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Espace et exploration scientifique",
+    "title_es": "Espace et exploration scientifique",
+    "description": "Enquête interdisciplinaire C2 : Sommes-nous sur le point de détecter une vie extraterrestre ?.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : espace et exploration scientifique.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "La temporalité complexe et le futur antérieur"
+      ],
+      "vocabulary": [
+        "une biosignature",
+        "une origine abiotique",
+        "la spectroscopie de transit",
+        "le rapport signal-bruit",
+        "l’imagerie directe",
+        "une biosignature agnostique"
+      ],
+      "scenario": "Sommes-nous sur le point de détecter une vie extraterrestre ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "bioethique-edition-genetique-et-ia-medicale",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Bioéthique : édition génétique et intelligence artificielle médicale",
+    "title_es": "Bioéthique : édition génétique et intelligence artificielle médicale",
+    "description": "Enquête interdisciplinaire C2 : Corriger le génome, corriger le jugement : deux frontières médicales.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : bioéthique : édition génétique et intelligence artificielle médicale.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "La concession stratifiée et la contre-attente"
+      ],
+      "vocabulary": [
+        "l’édition germinale",
+        "l’édition somatique",
+        "un effet hors cible",
+        "un moratoire",
+        "la drépanocytose",
+        "un biais algorithmique"
+      ],
+      "scenario": "Corriger le génome, corriger le jugement : deux frontières médicales",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "culture-du-travail-et-epuisement-professionnel",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Culture du travail et épuisement professionnel",
+    "title_es": "Culture du travail et épuisement professionnel",
+    "description": "Enquête interdisciplinaire C2 : L’épuisement professionnel est-il un problème individuel ou organisationnel ?.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : culture du travail et épuisement professionnel.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "Le passif, l’agentivité et la responsabilité discursive"
+      ],
+      "vocabulary": [
+        "un risque psychosocial",
+        "le détachement mental",
+        "une ressource adaptative",
+        "une enquête transversale",
+        "un cadre intermédiaire",
+        "la charge de travail"
+      ],
+      "scenario": "L’épuisement professionnel est-il un problème individuel ou organisationnel ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "migrations-et-frontieres",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Migrations et frontières",
+    "title_es": "Migrations et frontières",
+    "description": "Enquête interdisciplinaire C2 : Les frontières peuvent-elles contenir des mouvements structurels ?.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : migrations et frontières.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "Les relatives complexes : dont, lequel et préposition + relatif"
+      ],
+      "vocabulary": [
+        "un déplacement forcé",
+        "le principe de non-refoulement",
+        "l’externalisation migratoire",
+        "une voie légale de migration",
+        "un pays limitrophe",
+        "la multicausalité"
+      ],
+      "scenario": "Les frontières peuvent-elles contenir des mouvements structurels ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "desinformation-et-democratie",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Désinformation et démocratie",
+    "title_es": "Désinformation et démocratie",
+    "description": "Enquête interdisciplinaire C2 : La désinformation détermine-t-elle réellement les élections ?.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : désinformation et démocratie.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "Les connecteurs de cause, corrélation et conséquence"
+      ],
+      "vocabulary": [
+        "la désinformation",
+        "une chambre d’écho",
+        "la modération algorithmique",
+        "la transparence algorithmique",
+        "un démenti",
+        "une manipulation coordonnée"
+      ],
+      "scenario": "La désinformation détermine-t-elle réellement les élections ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "art-contemporain-et-marche-culturel",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Art contemporain et marché culturel",
+    "title_es": "Art contemporain et marché culturel",
+    "description": "Enquête interdisciplinaire C2 : Le marché de l’art fabrique-t-il la valeur artistique ?.",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : art contemporain et marché culturel.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "Les propositions participiales et la condensation maîtrisée"
+      ],
+      "vocabulary": [
+        "un marché superstar",
+        "le marché primaire",
+        "le marché secondaire",
+        "la légitimation institutionnelle",
+        "la financiarisation",
+        "un droit de suite"
+      ],
+      "scenario": "Le marché de l’art fabrique-t-il la valeur artistique ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
+    }
+  },
+  {
+    "slug": "philosophie-de-la-technologie-et-ethique-algorithmique",
+    "target_language": "french",
+    "level": "C2",
+    "title": "Philosophie de la technologie et éthique algorithmique",
+    "title_es": "Philosophie de la technologie et éthique algorithmique",
+    "description": "Enquête interdisciplinaire C2 : Un algorithme peut-il être neutre ?.",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Évaluer des cadres concurrents dans le domaine suivant : philosophie de la technologie et éthique algorithmique.",
+      "outcomes": [
+        "inférer les présupposés et les liens laissés implicites",
+        "évaluer des preuves hétérogènes et leurs limites",
+        "maîtriser un lexique précis, idiomatique et connoté",
+        "maintenir un contrôle grammatical constant dans une argumentation complexe"
+      ],
+      "grammar": [
+        "La modalisation épistémique de haute précision"
+      ],
+      "vocabulary": [
+        "un proxy",
+        "la parité statistique",
+        "l’explicabilité",
+        "un système à haut risque",
+        "le conséquentialisme",
+        "le déontologisme"
+      ],
+      "scenario": "Un algorithme peut-il être neutre ?",
+      "cefrTargets": [
+        "compréhension approfondie et inférence",
+        "étendue et contrôle du vocabulaire",
+        "correction grammaticale constante"
+      ]
     }
   }
 ]

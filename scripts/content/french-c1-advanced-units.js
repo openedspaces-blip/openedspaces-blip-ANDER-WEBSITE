@@ -1,6 +1,7 @@
-// French C1 units 3-12. These continue Camila's university storyline and
-// intentionally expose only Reading, Vocabulary and Grammar, matching the
-// scoped C1 course design.
+// French C1 units 3-12. Each unit is built around a real, factual topic
+// (media, translation, migration history, social justice, ecology, etc.)
+// and intentionally exposes only Reading, Vocabulary and Grammar, matching
+// the scoped C1 course design.
 
 const DEFAULTS = {
   reading: { duration: 20, xp: 40 },
@@ -23,7 +24,7 @@ const plans = [
     objective: 'Analyser le cadrage médiatique, les présupposés et la hiérarchie de l’information.',
     grammar: 'La nominalisation et les tournures impersonnelles',
     grammarNote: 'La nominalisation condense une proposition et densifie le registre analytique : « le gouvernement réforme » devient « la réforme gouvernementale ». Les tournures « il ressort que », « il convient de » et « force est de constater que » permettent de structurer une analyse sans effacer la responsabilité des acteurs.',
-    scenario: 'Camila prépare une revue de presse sur une réforme des universités.',
+    scenario: 'Une analyse comparée de la couverture médiatique de la réforme des retraites de 2023 en France.',
     parts: [
       'Un chiffre, deux mots, trois traitements radicalement différents : voilà ce qu’a produit, au printemps 2023, l’annonce de la réforme des retraites en France. Un quotidien national ouvrait son édition sur « une réforme d’équilibre budgétaire », quand un journal syndical titrait « un recul social imposé sans vote ». Une chaîne d’information continue diffusait en boucle les images des manifestations, tandis qu’un hebdomadaire économique publiait un dossier chiffré sur l’espérance de vie et les régimes de retraite comparés en Europe. Les rédactions citaient les mêmes projections démographiques du Conseil d’orientation des retraites ; aucune ne racontait tout à fait la même histoire.',
       'Une analyse comparée de ce corpus révèle d’abord un contraste lexical révélateur, que la théoricienne américaine du framing, Deborah Tannen, aurait sans doute reconnu : là où le communiqué gouvernemental parlait de « justice entre générations », les organisations syndicales évoquaient une « double peine pour les métiers pénibles ». Ce décalage ne prouve pas qu’un article mente délibérément. Il montre plutôt que sélectionner un chiffre, l’ordonner et le nommer revient déjà à orienter sa lecture, un phénomène que les chercheurs en sciences de l’information désignent sous le terme de cadrage.',
@@ -68,7 +69,7 @@ const plans = [
     objective: 'Évaluer une technologie en distinguant efficacité, responsabilité et perte de nuance.',
     grammar: 'La concession avancée : quoique, quand bien même, avoir beau',
     grammarNote: 'La concession met en relation deux faits dont le second résiste au premier : « Quoique l’outil soit rapide, il simplifie le style. » « Quand bien même il progresserait, une révision resterait nécessaire. » « Elle a beau corriger le texte, certaines nuances lui échappent. »',
-    scenario: 'Camila doit traduire le témoignage littéraire d’une autrice caribéenne.',
+    scenario: 'Une évaluation des limites de la traduction automatique appliquée à un texte littéraire caribéen.',
     parts: [
       'Soumettre une page de Patrick Chamoiseau à un moteur de traduction neuronale, c’est observer en direct les limites d’une technologie par ailleurs impressionnante. Le texte original mêle français standard, créole martiniquais et images empruntées à l’oralité des conteurs ; le résultat produit par la machine, lui, est grammaticalement impeccable, fluide et livré en une seconde. Pourtant, quelque chose s’y aplatit systématiquement : une expression créole intraduisible devient une formule neutre et interchangeable, et l’ironie d’une phrase se transforme, sans prévenir, en affirmation sérieuse.',
       'Les défenseurs de ces outils rappellent, à juste titre, le temps qu’ils permettent de gagner : Google Translate traite aujourd’hui plus de cent milliards de mots par jour, un volume qu’aucune profession humaine ne pourrait absorber. Pour des documents répétitifs, des notices techniques ou une première compréhension globale, leur utilité paraît difficilement contestable. Le problème se situe ailleurs : dans le glissement qui consiste à confondre une traduction acceptable avec une traduction fidèle à une voix. Une phrase peut transmettre une information correcte tout en modifiant profondément la relation que le texte entretient avec son lecteur.',
@@ -96,7 +97,7 @@ const plans = [
     grammarChecks: [
       ['___ l’outil soit rapide, il simplifie parfois le style.', ['Quoique', 'Parce que', 'Afin que', 'Depuis que'], 0],
       ['Quand bien même la machine ___, une révision resterait nécessaire.', ['progressera', 'progresserait', 'progresse', 'a progressé'], 1],
-      ['Camila a beau ___ le résultat, une nuance lui échappe.', ['relit', 'relire', 'relu', 'relisant'], 1],
+      ['Le traducteur a beau ___ le résultat, une nuance lui échappe.', ['relit', 'relire', 'relu', 'relisant'], 1],
       ['Quoique cette version ___ fluide, elle manque de rythme.', ['est', 'soit', 'sera', 'était toujours'], 1],
       ['___ ses avantages, l’outil ne résout pas tout.', ['Malgré', 'Quoique', 'Bien que de', 'Quand bien'], 0],
       ['Il a beau être correct, ce passage ___ la voix originale.', ['effaçait', 'efface', 'effacerait si', 'ait effacé que'], 1],
@@ -113,7 +114,7 @@ const plans = [
     objective: 'Interpréter un récit mémoriel où documents, silences et identité se répondent.',
     grammar: 'Les temps du récit et le discours indirect libre',
     grammarNote: 'Le passé simple structure les événements d’un récit soutenu, l’imparfait installe le cadre et le plus-que-parfait marque l’antériorité. Le discours indirect libre rapporte une pensée sans verbe introducteur ni guillemets, en conservant la perspective du personnage.',
-    scenario: 'Camila classe des lettres envoyées entre la République dominicaine et la France.',
+    scenario: 'Un chercheur classe et interprète des lettres échangées entre la République dominicaine et la France.',
     parts: [
       'Une boîte à chaussures, cent trente-sept lettres, deux écritures qui se répondent pendant douze ans : c’est à partir d’un fonds de cette nature, aujourd’hui banal dans les centres d’archives régionales, que les historiens de la migration reconstituent depuis une trentaine d’années des trajectoires que la mémoire familiale a coutume de résumer en quelques mots — on partait, on réussissait, puis on revenait. Les lettres échangées entre des personnes parties travailler en Europe dans les années soixante et soixante-dix racontent en réalité une autre histoire, traversée par la solitude, les emplois précaires et la crainte de décevoir des proches qui attendaient des nouvelles rassurantes.',
       'Les chercheurs en histoire orale s’intéressent tout particulièrement à ce que ces lettres taisent. Certaines périodes de plusieurs mois n’y laissent aucune trace ; des difficultés y sont évoquées puis aussitôt minimisées. Dans un corpus étudié par l’historienne Nancy L. Green sur l’émigration ouvrière, une correspondante affirme régulièrement que « tout va pour le mieux », avant de demander discrètement qu’on lui envoie un remède qu’elle ne peut pas acheter sur place. L’optimisme affiché n’était-il qu’une protection destinée à la famille restée au pays, ou une manière de se convaincre soi-même de tenir bon ?',
@@ -139,14 +140,14 @@ const plans = [
       ['Comment ces travaux de recherche invitent-ils à reconsidérer l’identité familiale ?', ['En cherchant une origine simple et unique', 'En acceptant une constellation de récits parfois contradictoires', 'En rejetant toute histoire familiale', 'En adoptant uniquement le récit officiel'], 1]
     ],
     grammarChecks: [
-      ['La grand-mère lui ___ une boîte, puis Camila l’ouvrit.', ['confia', 'confiait toujours', 'avait confié demain', 'confierait'], 0],
+      ['La grand-mère lui ___ une boîte, puis la petite-fille l’ouvrit.', ['confia', 'confiait toujours', 'avait confié demain', 'confierait'], 0],
       ['La boîte ___ depuis des années dans l’armoire.', ['attendit', 'attendait', 'attendra', 'ait attendu'], 1],
       ['La grande-tante ___ en France avant d’écrire ces lettres.', ['était partie', 'partit demain', 'partait après', 'sera partie'], 0],
       ['« Était-il possible que la famille n’ait rien su ? » relève...', ['du discours indirect libre', 'd’un ordre direct', 'd’une définition', 'd’un dialogue cité'], 0],
       ['Choisis la succession narrative correcte.', ['Elle ouvrait la boîte et trouva les lettres.', 'Elle ouvrit la boîte et trouvait soudain.', 'Elle avait ouvert demain.', 'Elle ouvre jadis.'], 0],
       ['L’imparfait sert principalement à...', ['installer un cadre ou une durée', 'annoncer un événement futur', 'donner un ordre', 'marquer une action ponctuelle achevée'], 0],
       ['Le plus-que-parfait marque...', ['une action antérieure à un autre passé', 'une hypothèse future', 'un fait simultané présent', 'un ordre passé'], 0],
-      ['Quelle phrase adopte la perspective intérieure sans guillemets ?', ['Camila pensa : « Je dois comprendre. »', 'Pourquoi avait-on tant simplifié cette histoire ? Camila referma la lettre.', 'Camila dit qu’elle comprenait.', 'La lettre était ancienne.'], 1]
+      ['Quelle phrase adopte la perspective intérieure sans guillemets ?', ['Elle pensa : « Je dois comprendre. »', 'Pourquoi avait-on tant simplifié cette histoire ? Elle referma la lettre.', 'Elle dit qu’elle comprenait.', 'La lettre était ancienne.'], 1]
     ]
   },
   {
@@ -262,7 +263,7 @@ const plans = [
       ['la légitimité', 'la legitimidad', 'Son accent ne diminue pas sa légitimité.'],
       ['stigmatiser', 'estigmatizar', 'Certaines prononciations sont injustement stigmatisées.'],
       ['un registre', 'un registro', 'Elle adapte son registre à la situation.'],
-      ['en connaissance de cause', 'con conocimiento de causa', 'Camila choisit en connaissance de cause.'],
+      ['en connaissance de cause', 'con conocimiento de causa', 'Elle choisit en connaissance de cause.'],
       ['un écart', 'una desviación/diferencia', 'Un écart à la norme n’empêche pas la compréhension.'],
       ['un prétexte', 'un pretexto', 'La correction ne doit pas devenir un prétexte à l’humiliation.']
     ],
@@ -275,7 +276,7 @@ const plans = [
     ],
     grammarChecks: [
       ['La norme ___ elle se conforme dépend du contexte.', ['à laquelle', 'dont', 'que laquelle', 'où que'], 0],
-      ['Voilà ce ___ Camila doute.', ['à quoi', 'dont', 'lequel', 'qui de'], 1],
+      ['Voilà ce ___ elle doute.', ['à quoi', 'dont', 'lequel', 'qui de'], 1],
       ['Le contexte dans ___ elle parle est formel.', ['dont', 'lequel', 'que', 'ce quoi'], 1],
       ['Ce ___ elle tient, c’est le respect des voix.', ['à quoi', 'dont à', 'lequel', 'où'], 0],
       ['La variété ___ on se moque peut être parfaitement structurée.', ['dont', 'à laquelle de', 'que de', 'où à'], 0],
@@ -293,7 +294,7 @@ const plans = [
     objective: 'Comprendre la valeur méthodologique du doute et la communication des résultats provisoires.',
     grammar: 'Les modalisateurs de certitude et le subjonctif',
     grammarNote: 'Les modalisateurs calibrent l’engagement du locuteur : « il est établi que » + indicatif ; « il est peu probable que », « rien ne prouve que » + subjonctif. Le choix du mode dépend de la manière dont le fait est présenté, non d’une simple liste mécanique.',
-    scenario: 'Camila assiste à une conférence sur la communication scientifique.',
+    scenario: 'Une conférence sur la communication scientifique et la gestion publique de l’incertitude.',
     parts: [
       'En mars 2020, l’Organisation mondiale de la santé déconseillait encore le port généralisé du masque en population générale ; six semaines plus tard, elle le recommandait explicitement. Ce revirement, abondamment relayé et critiqué à l’époque, illustre une difficulté que les spécialistes de la communication scientifique connaissent bien : la différence entre deux phrases en apparence proches, « les chercheurs ne savent pas » et « les chercheurs évaluent plusieurs hypothèses en fonction des données disponibles ». Pour un public non spécialiste, elles semblent presque équivalentes ; elles décrivent en réalité des situations radicalement différentes. La première suggère un vide, la seconde un savoir en construction, organisé par des méthodes, des données et des critères de réfutation explicites.',
       'Ce cas des recommandations sanitaires révisées au fil d’une épidémie illustre bien cette difficulté. Lorsque des résultats initiaux sont corrigés après l’arrivée de nouvelles données — ici, la découverte progressive de la transmission par aérosols —, cette révision est parfois utilisée sur les réseaux sociaux comme une preuve que la science se contredirait. Or la capacité de corriger une conclusion constitue précisément une force du processus scientifique : une hypothèse qui ne pourrait jamais être remise en cause relèverait davantage de la croyance que de l’enquête rigoureuse.',
@@ -379,16 +380,16 @@ const plans = [
     title: 'Travail, sens et épuisement',
     titleEs: 'Trabajo, sentido y agotamiento',
     readingTitle: 'Toujours disponible',
-    description: 'Un stage prestigieux conduit Camila à interroger la culture de l’urgence.',
+    description: 'Un témoignage sur un stage prestigieux qui interroge la culture de l’urgence en entreprise.',
     objective: 'Comprendre un témoignage professionnel et analyser les mécanismes ordinaires de l’épuisement.',
     grammar: 'Le gérondif, le participe présent et l’adjectif verbal',
     grammarNote: 'Le gérondif exprime une circonstance liée au sujet : « en répondant ». Le participe présent développe une relation : « les messages exigeant une réponse ». L’adjectif verbal qualifie et s’accorde : « une tâche exigeante ». Certaines formes diffèrent : convainquant/convaincant.',
-    scenario: 'Camila effectue un stage dans une agence de traduction.',
+    scenario: 'Un stagiaire dans une agence de traduction internationale est confronté à une culture implicite de la disponibilité permanente.',
     parts: [
-      'Le stage de Camila commence sous les meilleurs auspices. L’agence travaille avec des institutions internationales, les projets sont stimulants et sa tutrice souligne rapidement la qualité de ses recherches. Pourtant, une habitude s’installe : les messages envoyés tard le soir reçoivent presque toujours une réponse immédiate. Personne n’impose explicitement cette disponibilité, mais chacun semble vouloir prouver son engagement en répondant avant les autres.',
-      'Camila se prête au jeu. En consultant son téléphone au réveil, elle anticipe les urgences ; en gardant son ordinateur ouvert pendant le dîner, elle évite d’être prise au dépourvu. Cette organisation lui donne d’abord l’impression de maîtriser son travail. Peu à peu, elle ne distingue plus ce qui est réellement urgent de ce qui a simplement été envoyé avec empressement.',
+      'Un stage commence souvent sous les meilleurs auspices : l’agence travaille avec des institutions internationales, les projets sont stimulants et la tutrice souligne rapidement la qualité des recherches menées par la nouvelle recrue. Pourtant, une habitude s’installe : les messages envoyés tard le soir reçoivent presque toujours une réponse immédiate. Personne n’impose explicitement cette disponibilité, mais chacun semble vouloir prouver son engagement en répondant avant les autres.',
+      'La stagiaire se prête au jeu. En consultant son téléphone au réveil, elle anticipe les urgences ; en gardant son ordinateur ouvert pendant le dîner, elle évite d’être prise au dépourvu. Cette organisation lui donne d’abord l’impression de maîtriser son travail. Peu à peu, elle ne distingue plus ce qui est réellement urgent de ce qui a simplement été envoyé avec empressement.',
       'Une collègue expérimentée lui confie avoir frôlé l’épuisement l’année précédente. Elle ne décrit pas un effondrement soudain, mais une accumulation de renoncements minuscules : reporter une promenade, déjeuner devant l’écran, accepter une demande supplémentaire pour ne pas paraître peu coopérative. Le problème, dit-elle, n’est pas seulement individuel. Une équipe qui récompense silencieusement la disponibilité permanente fabrique les comportements qu’elle prétend ensuite regretter.',
-      'Camila propose que les messages différés deviennent la règle et que toute urgence soit justifiée. La mesure paraît modeste, mais elle rend visible une norme jusque-là implicite. Le travail conserve son intérêt sans occuper chaque intervalle de la journée. Camila comprend que poser une limite ne signifie pas manquer d’ambition ; cela peut être une manière de préserver la qualité et la durée de son engagement.'
+      'La stagiaire propose que les messages différés deviennent la règle et que toute urgence soit justifiée. La mesure paraît modeste, mais elle rend visible une norme jusque-là implicite. Le travail conserve son intérêt sans occuper chaque intervalle de la journée. Elle comprend que poser une limite ne signifie pas manquer d’ambition ; cela peut être une manière de préserver la qualité et la durée de son engagement.'
     ],
     vocabulary: [
       ['sous les meilleurs auspices', 'bajo los mejores auspicios', 'Le stage commence sous les meilleurs auspices.'],
@@ -402,9 +403,9 @@ const plans = [
     ],
     readingChecks: [
       ['Comment la disponibilité permanente s’installe-t-elle ?', ['Par une obligation écrite', 'Par imitation et volonté de prouver son engagement', 'À cause des clients uniquement', 'Par une prime officielle'], 1],
-      ['Quelle illusion les habitudes donnent-elles à Camila ?', ['Celle de maîtriser son travail', 'Celle de travailler moins', 'Celle de changer de métier', 'Celle d’éviter les messages'], 0],
+      ['Quelle illusion les habitudes donnent-elles à la stagiaire ?', ['Celle de maîtriser son travail', 'Celle de travailler moins', 'Celle de changer de métier', 'Celle d’éviter les messages'], 0],
       ['Comment la collègue décrit-elle l’épuisement ?', ['Un accident soudain uniquement', 'Une accumulation de petits renoncements', 'Une maladie sans rapport avec le travail', 'Un manque d’ambition'], 1],
-      ['Pourquoi le problème est-il collectif ?', ['Les collègues refusent de travailler', 'L’équipe récompense implicitement certains comportements', 'Camila ne sait pas traduire', 'Les clients sont absents'], 1],
+      ['Pourquoi le problème est-il collectif ?', ['Les collègues refusent de travailler', 'L’équipe récompense implicitement certains comportements', 'La stagiaire ne sait pas traduire', 'Les clients sont absents'], 1],
       ['Que change la règle des messages différés ?', ['Elle interdit toute communication', 'Elle rend explicite et discutable la norme d’urgence', 'Elle augmente les horaires', 'Elle supprime les projets'], 1],
       ['Quelle idée conclut le texte ?', ['Les limites contredisent l’ambition', 'Les limites peuvent soutenir un engagement durable', 'Tout travail exige une disponibilité totale', 'Il faut quitter l’agence'], 1]
     ],
@@ -424,16 +425,16 @@ const plans = [
     title: 'Diplomatie et négociation',
     titleEs: 'Diplomacia y negociación',
     readingTitle: 'Un accord qui ne satisfait personne',
-    description: 'Camila participe à une simulation où compromis et renoncement se confondent.',
+    description: 'Une simulation diplomatique universitaire où compromis et renoncement se confondent.',
     objective: 'Interpréter les stratégies d’une négociation et les implicites du langage diplomatique.',
     grammar: 'L’atténuation : conditionnel, imparfait de politesse et litote',
     grammarNote: 'Le conditionnel atténue une proposition : « nous souhaiterions ». L’imparfait de politesse crée une distance : « je voulais vous demander ». La litote dit moins pour suggérer davantage : « ce résultat n’est pas négligeable ». Ces formes modulent la relation sans supprimer le désaccord.',
     scenario: 'Une simulation internationale porte sur le partage d’une ressource en eau.',
     parts: [
-      'Dans une simulation diplomatique, quatre délégations doivent partager l’eau d’un fleuve fictif. Camila représente un pays situé en aval, dépendant du débit pour son agriculture. En amont, un autre État souhaite construire un barrage hydroélectrique. Les positions initiales paraissent incompatibles : sécurité énergétique d’un côté, sécurité alimentaire de l’autre.',
-      'Les premières interventions sont solennelles et peu productives. Chaque délégation répète ses principes sans préciser ses marges de manœuvre. Une médiatrice demande alors aux participants de distinguer leurs positions publiques de leurs intérêts réels. Camila comprend que son pays n’a pas besoin d’empêcher tout barrage ; il a besoin d’un débit minimal prévisible et d’un mécanisme d’alerte en période de sécheresse.',
-      'Cette reformulation ouvre un espace. Le pays en amont accepte de partager ses données, mais refuse un contrôle extérieur permanent. Camila propose un comité technique commun dont les décisions seraient rendues publiques. Personne n’obtient exactement ce qu’il demandait. Pourtant, chacun sécurise l’élément qu’il jugeait essentiel. Le compromis n’efface pas le conflit ; il le rend administrable.',
-      'Lors du bilan, plusieurs étudiants qualifient l’accord de tiède. La médiatrice répond qu’un texte unanimement enthousiaste serait probablement irréaliste. La réussite se mesure parfois à la capacité de maintenir une coopération entre acteurs qui continuent de diverger. Camila retient que le langage diplomatique, lorsqu’il ne sert pas à dissimuler, peut ralentir la confrontation suffisamment pour permettre une décision.'
+      'Dans une simulation diplomatique, quatre délégations doivent partager l’eau d’un fleuve fictif. Une participante représente un pays situé en aval, dépendant du débit pour son agriculture. En amont, un autre État souhaite construire un barrage hydroélectrique. Les positions initiales paraissent incompatibles : sécurité énergétique d’un côté, sécurité alimentaire de l’autre.',
+      'Les premières interventions sont solennelles et peu productives. Chaque délégation répète ses principes sans préciser ses marges de manœuvre. Une médiatrice demande alors aux participants de distinguer leurs positions publiques de leurs intérêts réels. La déléguée comprend que son pays n’a pas besoin d’empêcher tout barrage ; il a besoin d’un débit minimal prévisible et d’un mécanisme d’alerte en période de sécheresse.',
+      'Cette reformulation ouvre un espace. Le pays en amont accepte de partager ses données, mais refuse un contrôle extérieur permanent. Elle propose un comité technique commun dont les décisions seraient rendues publiques. Personne n’obtient exactement ce qu’il demandait. Pourtant, chacun sécurise l’élément qu’il jugeait essentiel. Le compromis n’efface pas le conflit ; il le rend administrable.',
+      'Lors du bilan, plusieurs étudiants qualifient l’accord de tiède. La médiatrice répond qu’un texte unanimement enthousiaste serait probablement irréaliste. La réussite se mesure parfois à la capacité de maintenir une coopération entre acteurs qui continuent de diverger. La déléguée retient que le langage diplomatique, lorsqu’il ne sert pas à dissimuler, peut ralentir la confrontation suffisamment pour permettre une décision.'
     ],
     vocabulary: [
       ['en amont', 'río arriba', 'Le barrage est construit en amont.'],
@@ -448,7 +449,7 @@ const plans = [
     readingChecks: [
       ['Quel conflit structure la négociation ?', ['Énergie en amont et agriculture en aval', 'Tourisme et culture', 'Université et entreprise', 'Langues et médias'], 0],
       ['Pourquoi les premières interventions échouent-elles ?', ['Elles sont trop courtes', 'Elles répètent des positions sans révéler les intérêts', 'La médiatrice est absente', 'Les données sont publiques'], 1],
-      ['De quoi le pays de Camila a-t-il réellement besoin ?', ['D’interdire tout barrage', 'D’un débit prévisible et d’une alerte', 'De contrôler le pays voisin', 'D’augmenter le prix de l’eau'], 1],
+      ['De quoi le pays de la déléguée a-t-il réellement besoin ?', ['D’interdire tout barrage', 'D’un débit prévisible et d’une alerte', 'De contrôler le pays voisin', 'D’augmenter le prix de l’eau'], 1],
       ['Quelle concession fait le pays en amont ?', ['Abandonner le barrage', 'Partager ses données', 'Accepter un contrôle permanent', 'Financer l’agriculture'], 1],
       ['Comment le texte définit-il le compromis ?', ['La disparition du conflit', 'Une manière de rendre la divergence gérable', 'La victoire d’un camp', 'Un enthousiasme unanime'], 1],
       ['Quel rôle positif le langage diplomatique peut-il jouer ?', ['Éviter toute décision', 'Créer le temps nécessaire à une décision', 'Cacher toutes les informations', 'Supprimer les intérêts'], 1]
@@ -473,12 +474,12 @@ const plans = [
     objective: 'Comprendre une décision complexe où valeurs, risques et temporalités s’opposent.',
     grammar: 'Le futur antérieur et les projections dans le passé',
     grammarNote: 'Le futur antérieur marque l’accomplissement avant un repère futur ou une supposition : « quand elle aura terminé ». Dans un récit au passé, le conditionnel exprime le futur dans le passé : « elle savait qu’elle devrait choisir ». Ces temps structurent les projections complexes.',
-    scenario: 'Camila reçoit une proposition de master et de stage à Montréal.',
+    scenario: 'Une étudiante en fin de licence reçoit une proposition de master et de stage à Montréal.',
     parts: [
       'Plus de dix millions de personnes ont participé au programme Erasmus+ depuis sa création en 1987, et chaque année un nombre croissant d’étudiants français en fin de licence reçoivent, par ce biais ou par des accords bilatéraux comme celui qui lie certaines universités françaises à des établissements québécois, des propositions de mobilité internationale — master ou stage — au moment précis où leur réseau amical et professionnel local devient enfin solide. Les conseillers d’orientation universitaire observent que ce type de décision revient fréquemment dans leurs consultations : accepter signifie recommencer ailleurs ; refuser peut fermer une voie qui ne se représentera pas facilement.',
       'Les spécialistes de la prise de décision recommandent souvent de construire un tableau rationnel : coût, contenu des cours, perspectives professionnelles, distance géographique. Un tel tableau, aussi rigoureux soit-il, ne produit pourtant pas toujours de décision claire, car certains éléments ne se comparent pas dans une même unité de mesure. Comment évaluer la proximité d’un cercle amical face à une spécialisation rare ? Comment mesurer un risque dont les conséquences ne seront visibles que plusieurs années plus tard ?',
       'Un biais fréquemment identifié en psychologie de la décision consiste à rechercher une option sans aucune perte. Or tout choix sérieux renonce à quelque chose, même provisoirement. Les chercheurs en sciences de la décision conseillent plutôt de distinguer ce qui est irréversible de ce qui reste révisable. Partir un an à l’étranger ne signifie généralement pas abandonner définitivement un ancrage local ; refuser une offre n’interdit pas nécessairement toute carrière internationale ultérieure. Cette distinction réduit la dramatisation du choix sans le rendre facile pour autant.',
-      'Quand elle aura signé les documents d’inscription, quand elle aura annoncé la nouvelle à ses proches, quand le billet d’avion aura été réservé : Camila mesure déjà, avant même d’avoir tranché, tout ce que cette succession d’étapes rendra progressivement plus difficile à défaire. C’est peut-être moins la destination elle-même que cette irréversibilité croissante, accumulée décision après décision, qui rend un tel choix si lourd à porter — et qui explique pourquoi tant d’étudiants, une fois le premier pas franchi, avoueront après coup avoir eu besoin de cette progressivité pour oser réellement partir.',
+      'Quand elle aura signé les documents d’inscription, quand elle aura annoncé la nouvelle à ses proches, quand le billet d’avion aura été réservé : l’étudiante mesure déjà, avant même d’avoir tranché, tout ce que cette succession d’étapes rendra progressivement plus difficile à défaire. C’est peut-être moins la destination elle-même que cette irréversibilité croissante, accumulée décision après décision, qui rend un tel choix si lourd à porter — et qui explique pourquoi tant d’étudiants, une fois le premier pas franchi, avoueront après coup avoir eu besoin de cette progressivité pour oser réellement partir.',
       'Les témoignages recueillis auprès d’anciens participants à ce type de programme montrent qu’un délai de réflexion, associé à des échanges avec des étudiants ayant vécu une expérience comparable, aide souvent à trancher — non parce que toutes les incertitudes disparaissent, mais parce que l’étudiant sait mieux lesquelles il est prêt à assumer. Quand un tel départ aura été mûrement préparé, il s’accompagne fréquemment d’un sentiment paradoxal, que plusieurs anciens boursiers décrivent avec les mêmes mots : celui de quitter un lieu devenu familier précisément parce qu’on y a appris à ne plus confondre stabilité et immobilité.'
     ],
     vocabulary: [
@@ -489,7 +490,7 @@ const plans = [
       ['dramatiser', 'dramatizar', 'Cette distinction évite de dramatiser le choix.'],
       ['assumer une incertitude', 'asumir una incertidumbre', 'Elle choisit les incertitudes qu’elle peut assumer.'],
       ['l’immobilité', 'la inmovilidad', 'La stabilité ne signifie pas immobilité.'],
-      ['un délai', 'un plazo', 'Camila demande un délai de réflexion.']
+      ['un délai', 'un plazo', 'Elle demande un délai de réflexion.']
     ],
     readingChecks: [
       ['Quel chiffre le texte cite-t-il à propos du programme Erasmus+ ?', ['Plus de dix millions de participants depuis 1987', 'Cent mille bourses par an', 'Un million d’universités partenaires', 'Dix pays participants seulement'], 0],
@@ -503,7 +504,7 @@ const plans = [
       ['Elle savait qu’elle ___ choisir.', ['devra', 'devrait', 'a dû demain', 'doive certainement'], 1],
       ['D’ici septembre, elle ___ tous les étudiants.', ['aura contacté', 'avait contacté', 'contacterait hier', 'contacte autrefois'], 0],
       ['Le futur antérieur exprime...', ['un accomplissement avant un repère futur', 'une habitude passée', 'un ordre présent', 'une concession'], 0],
-      ['Camila pensait que le départ ___ difficile.', ['sera', 'serait', 'aura été demain', 'soit'], 1],
+      ['Elle pensait que le départ ___ difficile.', ['sera', 'serait', 'aura été demain', 'soit'], 1],
       ['Il ___ probablement oublié de répondre.', ['aura', 'aurait hier certain', 'avait demain', 'soit'], 0],
       ['Choisis le futur dans le passé.', ['Elle dit qu’elle partira.', 'Elle disait qu’elle partirait.', 'Elle dira qu’elle partait.', 'Elle a dit qu’elle part.'], 1],
       ['Quelle phrase est correcte ?', ['Quand elle finira, elle aura déjà préparé son dossier.', 'Quand elle aura fini, elle préparerait hier.', 'Quand elle finissait, elle aura partir.', 'Quand elle avait fini demain.'], 0]
@@ -518,7 +519,7 @@ const plans = [
     objective: 'Synthétiser un parcours, transmettre une expérience et interroger la position de celui qui conseille.',
     grammar: 'La reprise et la cohésion d’un texte complexe',
     grammarNote: 'Un texte C1 évite la répétition par des reprises nominales, pronominales et conceptuelles : « cette expérience », « un tel déplacement », « ce constat ». Les connecteurs organisent la progression sans devenir mécaniques. Chaque reprise doit avoir un antécédent clair.',
-    scenario: 'Camila transforme son expérience en atelier sans en faire une recette universelle.',
+    scenario: 'D’anciens étudiants mobiles transforment leur expérience en ateliers d’accueil sans en faire une recette universelle.',
     parts: [
       'Selon l’agence Campus France, plus de quatre cent mille étudiants internationaux ont été accueillis dans l’enseignement supérieur français lors d’une récente année universitaire — un chiffre en constante progression, qui explique la multiplication, dans de nombreuses universités, d’ateliers animés par d’anciens étudiants mobiles à destination des nouveaux arrivants. Ces intervenants hésitent fréquemment devant le titre proposé par l’administration : « Réussir son intégration ». Le mot réussite suggère un parcours mesurable et presque uniforme, alors que l’expérience de la mobilité internationale est le plus souvent faite d’avancées, de retours en arrière et de liens qui ne se laissent pas réduire à une méthode.',
       'Les ateliers les mieux évalués par les participants s’organisent généralement autour de situations concrètes plutôt que de règles générales. Comment demander de l’aide lorsqu’on ne maîtrise pas les codes implicites d’une institution ? Que faire quand une correction linguistique devient humiliante ? Comment préserver les liens avec son pays d’origine sans vivre uniquement à distance ? Pour chaque situation, plusieurs réponses possibles sont présentées, avec les conditions précises dans lesquelles elles se sont révélées utiles.',
@@ -530,7 +531,7 @@ const plans = [
       ['un parcours uniforme', 'un recorrido uniforme', 'Aucun parcours d’intégration n’est uniforme.'],
       ['un retour en arrière', 'un retroceso', 'Un retour en arrière ne signifie pas un échec.'],
       ['un code implicite', 'un código implícito', 'Elle apprend progressivement les codes implicites.'],
-      ['dégager une idée', 'extraer una idea', 'Camila dégage une idée de ses expériences.'],
+      ['dégager une idée', 'extraer una idea', 'L’intervenante dégage une idée de ses expériences.'],
       ['une manière de regarder', 'una manera de mirar', 'Elle transmet une manière de regarder.'],
       ['reproduire un chemin', 'reproducir un camino', 'Il ne faut pas reproduire son chemin chez autrui.'],
       ['un outil d’analyse', 'una herramienta de análisis', 'Chaque question devient un outil d’analyse.'],
@@ -546,7 +547,7 @@ const plans = [
     grammarChecks: [
       ['« Cette expérience » reprend...', ['un parcours décrit précédemment', 'un élément futur sans lien', 'aucun antécédent', 'un verbe uniquement'], 0],
       ['Quel démonstratif synthétise un constat précédent ?', ['Ce constat', 'Lequel que', 'Là de', 'Qui constat'], 0],
-      ['Choisis la reprise la plus claire.', ['Camila anime un atelier. Cette rencontre lui permet de transmettre.', 'Camila anime un atelier. Ça fait ça.', 'Camila anime un atelier. Elle ceci.', 'Camila anime un atelier. Lequel sans antécédent.'], 0],
+      ['Choisis la reprise la plus claire.', ['Une ancienne étudiante anime un atelier. Cette rencontre lui permet de transmettre.', 'Une ancienne étudiante anime un atelier. Ça fait ça.', 'Une ancienne étudiante anime un atelier. Elle ceci.', 'Une ancienne étudiante anime un atelier. Lequel sans antécédent.'], 0],
       ['« Un tel déplacement » signifie...', ['un déplacement de cette nature', 'un déplacement très proche', 'n’importe quel verbe', 'un lieu précis'], 0],
       ['Pour éviter une ambiguïté, un pronom doit...', ['avoir un antécédent identifiable', 'être toujours éloigné du nom', 'remplacer plusieurs idées incompatibles', 'ouvrir chaque paragraphe'], 0],
       ['Quel connecteur introduit une reformulation ?', ['Autrement dit', 'Pourtant que', 'Depuis', 'Afin de que'], 0],

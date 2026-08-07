@@ -2,9 +2,9 @@
 // Hand-authored French C1 content, restricted scope per spec: only units 1
 // and 2, only reading/vocabulary/grammar activities (no listening/speaking/
 // writing/dialogue yet). Same shape as french-a1/a2/b1/b2-units.js for the
-// activities it does define. Continues the narrative: Camila has just
-// started her licence de langues étrangères appliquées at the université
-// de Tours, reunited with Léa and Karim.
+// activities it does define. Each unit is built around a real, factual
+// topic (higher-education policy, linguistics, media, etc.), not a
+// fictional recurring storyline.
 //
 // Consumed by scripts/build-french-c1-seed.js, which only emits the 3
 // activities each unit actually has (not the usual 7).
@@ -25,7 +25,7 @@ const units = [
     slug: 'la-rentree-universitaire',
     title: 'La rentrée universitaire',
     titleEs: 'El inicio del curso universitario',
-    description: 'Camila commence sa licence de langues étrangères appliquées à l’université de Tours et retrouve Léa et Karim.',
+    description: 'L’autonomie étudiante comme principe central de la première année universitaire en France, entre liberté et risque d’échec.',
     order: 1,
     accessTier: 'free',
     unitOverview: {
@@ -38,7 +38,7 @@ const units = [
       ],
       grammar: ['la mise en relief (c’est... qui/que)', 'subjonctif après verbes d’opinion nuancée', 'registre soutenu à l’écrit universitaire'],
       vocabulary: ['un amphithéâtre', 'une unité d’enseignement', 'un syllabus', 'l’autonomie académique'],
-      scenario: 'Camila arrive pour son premier jour de cours à l’université de Tours, où elle retrouve Léa et Karim.'
+      scenario: 'Une analyse des réformes qui ont fait de l’autonomie étudiante le principe central du premier cycle universitaire français.'
     },
     activities: {
       reading: activity('reading', {
@@ -114,7 +114,7 @@ const units = [
     slug: 'un-exposer-a-preparer',
     title: 'Un exposé à préparer',
     titleEs: 'Una exposición por preparar',
-    description: 'Camila prépare, avec un groupe d’étudiants internationaux, un exposé complexe sur la diversité linguistique dans les Caraïbes.',
+    description: 'La diversité linguistique caribéenne, des créoles nés sur les habitations sucrières à leur statut contemporain.',
     order: 2,
     accessTier: 'free',
     unitOverview: {
@@ -127,7 +127,7 @@ const units = [
       ],
       grammar: ['discours rapporté avec concordance des temps complète', 'expression de la probabilité (registre soutenu : il est probable que, il n’est pas exclu que)', 'accord et cohérence dans un texte académique long'],
       vocabulary: ['une soutenance', 'la diversité linguistique', 'un consensus', 'une problématique'],
-      scenario: 'Camila collabore avec un groupe international pour préparer un exposé sur la diversité linguistique caribéenne, un sujet qui la touche personnellement.'
+      scenario: 'Un dossier documentaire consacré à la formation historique et au statut actuel des langues créoles dans les Caraïbes.'
     },
     activities: {
       reading: activity('reading', {
@@ -136,7 +136,7 @@ const units = [
         reading: {
           title: 'Créoles caribéens : d’une langue de la plantation à une langue de la nation',
           parts: [
-            "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que Karim résume, en une phrase, le sujet que son groupe a choisi pour l'exposé. C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles. Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest. C'est cette double origine qui explique pourquoi les créoles ne peuvent être réduits, comme on l'a longtemps affirmé à tort, à un français simplifié ou déformé.",
+            "Un mot, deux syllabes, et pourtant des siècles de préjugés à déconstruire : c'est ainsi que l'on pourrait résumer, en une phrase, l'histoire des langues créoles caribéennes. C'est au cours des dix-septième et dix-huitième siècles, sur les habitations sucrières des Caraïbes, que sont nés les créoles à base lexicale française, notamment en Haïti, en Guadeloupe, en Martinique et dans les Petites Antilles. Confrontées à un français administratif qu'elles ne maîtrisaient pas et entre elles souvent dépourvues d'une langue commune, les populations réduites en esclavage ont élaboré des systèmes linguistiques nouveaux, empruntant leur lexique en grande partie au français tout en développant une grammaire propre, largement influencée par les langues d'Afrique de l'Ouest. C'est cette double origine qui explique pourquoi les créoles ne peuvent être réduits, comme on l'a longtemps affirmé à tort, à un français simplifié ou déformé.",
             "Les linguistes qui étudient ces langues insistent aujourd'hui sur leur cohérence grammaticale interne : le créole haïtien, par exemple, possède un système verbal fondé sur des marqueurs de temps et d'aspect placés avant le verbe, une structure radicalement différente de la conjugaison française. Il est donc probable que les préjugés persistants envers les créoles tiennent moins à une réalité linguistique qu'à l'héritage social de la colonisation, qui associait la langue des maîtres au prestige et celle des esclaves à l'infériorité — une hiérarchie que la sociolinguistique contemporaine s'attache précisément à déconstruire.",
             "Le statut institutionnel des créoles reste néanmoins très inégal selon les territoires. En Haïti, la Constitution de 1987 a fait du créole une langue officielle à part entière, aux côtés du français, et son enseignement s'est progressivement généralisé à l'école primaire. Dans les départements français d'Amérique, en revanche, le créole demeure une langue régionale reconnue mais non officielle, enseignée de façon optionnelle, alors même qu'il reste la langue la plus couramment parlée dans la vie quotidienne d'une majorité d'habitants. Il n'est pas exclu que cet écart entre pratique sociale et reconnaissance institutionnelle continue d'alimenter les débats sur l'identité linguistique de ces territoires.",
             "Cette question dépasse largement le seul cadre scolaire. Reconnaître pleinement une langue créole, c'est aussi interroger la manière dont une société hiérarchise ses propres formes d'expression et transmet sa mémoire collective. De nombreux écrivains caribéens, de Patrick Chamoiseau à Frankétienne, ont ainsi fait du créole un instrument littéraire à part entière, démontrant qu'une langue née dans la contrainte peut devenir, plusieurs siècles plus tard, un espace de création et de souveraineté culturelle pleinement assumé.",

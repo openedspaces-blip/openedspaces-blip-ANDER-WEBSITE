@@ -48,7 +48,7 @@ const GRAMMAR_MODELS = {
     ],
     [
       'La grand-mère avait longtemps minimisé cette archive, puis elle confia qu’un fragment manquait au récit familial.',
-      'Camila regardait les lettres : sa mère était partie avant que toute l’histoire soit racontée. Fallait-il combler ce silence ou accepter que la mémoire demeure une constellation incomplète ?'
+      'La petite-fille regardait les lettres : sa grand-mère était partie avant que toute l’histoire soit racontée. Fallait-il combler ce silence ou accepter que la mémoire demeure une constellation incomplète ?'
     ],
     [
       'Certes, la méritocratie promet une égalité formelle ; néanmoins, des conditions de départ différentes produisent un effet inégal.',
@@ -71,11 +71,11 @@ const GRAMMAR_MODELS = {
       'Une objection éthique ne se fait pas disparaître par un simple adoucissement : elle doit être examinée sans que le matériau artistique soit rendu opaque.'
     ],
     [
-      'Lorsque Camila aura comparé chaque voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible.',
+      'Lorsque l’étudiante aura comparé chaque voie, elle aura mieux distingué ce qui est révisable de ce qui paraît irréversible.',
       'Elle expliqua qu’elle devrait répondre avant vendredi et qu’à cette date elle aurait déjà contacté Montréal, sans dramatiser l’incertitude.'
     ],
     [
-      'Camila relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme.',
+      'Une ancienne étudiante mobile relit son parcours, puis elle en dégage une idée : celui-ci n’a jamais été uniforme.',
       'Ce constat l’aide à reconnaître les codes implicites ; cette manière de regarder son expérience devient alors un outil d’analyse qu’elle peut transmettre.'
     ]
   ],

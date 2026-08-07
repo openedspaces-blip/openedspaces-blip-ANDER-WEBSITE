@@ -25,6 +25,7 @@
     "@paddle/paddle-js": "^1.6.4",
     "@paddle/paddle-node-sdk": "^3.8.0",
     "@supabase/supabase-js": "^2.45.0",
+    "compression": "^1.8.1",
     "cors": "^2.8.0",
     "dotenv": "^16.4.1",
     "express": "^4.19.0",
