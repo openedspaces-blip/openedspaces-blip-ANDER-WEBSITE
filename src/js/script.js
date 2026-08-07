@@ -12129,11 +12129,11 @@ function isGrammarTestQuestionAnswered(runtime, question) {
 // text back into labeled sections for display instead of one long
 // undifferentiated paragraph; it doesn't invent or reformat any content.
 const GRAMMAR_NOTE_SECTION_TITLES = [
-  { key: 'goal', match: /^(goal|objectif|but)/i, title: 'What it is used for', frenchTitle: 'Objectif' },
-  { key: 'use', match: /^(use|emploi|usage)/i, title: 'What it is used for', frenchTitle: 'Emploi' },
-  { key: 'rule', match: /^(rule|règle)/i, title: 'Brief explanation', frenchTitle: 'Règle essentielle' },
-  { key: 'pattern', match: /^(pattern|structure|schéma)/i, title: 'Pattern', frenchTitle: 'Structure' },
-  { key: 'examples', match: /^(examples|exemples)/i, title: 'Practical examples', frenchTitle: 'Exemples pratiques' },
+  { key: 'goal', match: /^(goal|objectif|but|foco|objetivo)/i, title: 'What it is used for', frenchTitle: 'Objectif' },
+  { key: 'use', match: /^(use|emploi|usage|uso)/i, title: 'What it is used for', frenchTitle: 'Emploi' },
+  { key: 'rule', match: /^(rule|règle|regla)/i, title: 'Brief explanation', frenchTitle: 'Règle essentielle' },
+  { key: 'pattern', match: /^(pattern|structure|schéma|modelo|estructura)/i, title: 'Pattern', frenchTitle: 'Structure' },
+  { key: 'examples', match: /^(examples|exemples|ejemplos)/i, title: 'Practical examples', frenchTitle: 'Exemples pratiques' },
   { key: 'affirmative', match: /^(affirmative|forme affirmative)/i, title: 'Affirmative form', frenchTitle: 'Forme affirmative' },
   { key: 'negative', match: /^(negative|négative|forme négative)/i, title: 'Negative form', frenchTitle: 'Forme négative' },
   { key: 'questions', match: /^(questions|interrogation|forme interrogative)/i, title: 'Question form', frenchTitle: 'Forme interrogative' },
@@ -17388,25 +17388,33 @@ function getCurrentGamesTheme() {
   const topics = GAME_CROSSWORD_TOPICS[gamesState.language] || GAME_CROSSWORD_TOPICS.english;
   const topicIndex = ((gamesState.round % topics.length) + topics.length) % topics.length;
   const topic = topics[topicIndex];
-  const bridgeLanguage = gamesState.language === 'spanish' ? 'english' : 'spanish';
+  // learningPathState.bridgeLanguage is this student's actual native/bridge
+  // language (set at sign-up / in preferences) - falling back to the old
+  // spanish<->english guess only if that state isn't available yet, so a
+  // French course studied via an English bridge (for example) gets English
+  // clues instead of always assuming Spanish.
+  const bridgeLanguage =
+    learningPathState?.bridgeLanguage && learningPathState.bridgeLanguage !== gamesState.language
+      ? learningPathState.bridgeLanguage
+      : gamesState.language === 'spanish' ? 'english' : 'spanish';
   const bridgeTopic = (GAME_CROSSWORD_TOPICS[bridgeLanguage] || [])[topicIndex];
   const words = topic.entries.map(([term, clue], index) => ({
     term,
     translation: bridgeTopic?.entries?.[index]?.[0] || clue,
     clue
   }));
-  return { topic, words };
+  return { topic, words, bridgeTopic };
 }
 
 function renderSelectedGame() {
   const content = document.querySelector('#gamesApp .games-game-content');
   if (!content) return;
-  const { topic, words } = getCurrentGamesTheme();
+  const { topic, words, bridgeTopic } = getCurrentGamesTheme();
   content.innerHTML = `<div class="games-theme-banner"><span>Tema de la ronda</span><strong>${escapeHtml(topic.title)}</strong><small>Todas las palabras pertenecen a esta temática.</small></div><div class="games-themed-stage"></div>`;
   const stage = content.querySelector('.games-themed-stage');
   resetGamesTimer();
   if (gamesState.gameId === 'word-search') return renderWordSearchGame(stage, words);
-  if (gamesState.gameId === 'crossword') return renderCrosswordGame(stage, topic);
+  if (gamesState.gameId === 'crossword') return renderCrosswordGame(stage, topic, bridgeTopic);
   if (gamesState.gameId === 'hangman') return renderHangmanGame(stage, words);
   renderMatchGame(stage, words);
 }
@@ -17518,10 +17526,23 @@ function renderWordSearchGame(content, words) {
   content.querySelector('.games-speak-target')?.addEventListener('click', () => { const next = puzzle.targets.find((_, index) => !found.has(index)) || puzzle.targets[0]; speakText(next.term, { locale: getGamesLocale() }); });
 }
 
-function buildCrosswordPuzzle(topic) {
+function buildCrosswordPuzzle(topic, bridgeTopic) {
   const size = 25;
+  // Clues are shown in the student's bridge/native language, not the target
+  // language, the same way renderWordSearchGame/renderHangmanGame/
+  // renderMatchGame already do via getCurrentGamesTheme()'s `words.translation`
+  // - guessing a target-language answer from a target-language clue is a much
+  // harder (and different) task than the crossword is meant to test. Themes
+  // have the same entries in the same order across every language (see
+  // GAME_CROSSWORD_TOPICS), so entries[i] and bridgeTopic.entries[i] describe
+  // the same word - matched by index before the sort/slice below reorders
+  // them, since after that the two arrays would no longer line up.
   const entries = topic.entries
-    .map(([term, clue]) => ({ term, clue, answer: normalizeGameText(term).toUpperCase() }))
+    .map(([term, clue], index) => ({
+      term,
+      clue: bridgeTopic?.entries?.[index]?.[1] || clue,
+      answer: normalizeGameText(term).toUpperCase()
+    }))
     .filter((item) => item.answer.length >= 3)
     .sort((a, b) => b.answer.length - a.answer.length)
     .slice(0, getGamesDifficulty().crosswordWords);
@@ -17589,8 +17610,9 @@ function buildCrosswordPuzzle(topic) {
   return { topic, cells, placed, numberByStart, bounds, key };
 }
 
-function renderCrosswordGame(content, topic = getCurrentGamesTheme().topic) {
-  const puzzle = buildCrosswordPuzzle(topic);
+function renderCrosswordGame(content, topic, bridgeTopic) {
+  if (!topic) ({ topic, bridgeTopic } = getCurrentGamesTheme());
+  const puzzle = buildCrosswordPuzzle(topic, bridgeTopic);
   let completed = false;
   setGamesRoundProgress(0, puzzle.cells.size);
   const { minRow, maxRow, minColumn, maxColumn } = puzzle.bounds;
