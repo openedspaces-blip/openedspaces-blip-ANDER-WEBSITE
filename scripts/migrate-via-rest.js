@@ -180,6 +180,20 @@ async function main() {
     .not('slug', 'in', `(${keptLessonSlugs.map((slug) => `"${slug}"`).join(',')})`);
   if (pruneError) throw pruneError;
 
+  // Units renamed (e.g. a topic swap that also changes the slug, like French
+  // C2's SLA-science -> popular-topics rewrite) leave the OLD unit row
+  // behind forever otherwise - upsertOne's onConflict:'slug' only ever
+  // inserts/updates, never removes a slug that's no longer in this build.
+  // Must run after the course_lessons prune above: lessons still pointed at
+  // these old unit ids until that delete ran.
+  const keptUnitSlugs = units.map((unit) => unit.slug);
+  const { error: pruneUnitsError } = await client
+    .from('course_units')
+    .delete()
+    .eq('course_id', courseRow.id)
+    .not('slug', 'in', `(${keptUnitSlugs.map((slug) => `"${slug}"`).join(',')})`);
+  if (pruneUnitsError) throw pruneUnitsError;
+
   const { count: lessonCount, error: countError } = await client
     .from('course_lessons')
     .select('id', { count: 'exact', head: true })
