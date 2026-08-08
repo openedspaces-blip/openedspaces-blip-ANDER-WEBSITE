@@ -4247,307 +4247,6 @@
     "unit_overview": null
   },
   {
-    "slug": "projets-et-avenir",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Projets et avenir",
-    "title_es": "Proyectos y futuro",
-    "description": "Comment transformer une ambition professionnelle en un projet réaliste, étape par étape.",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "Exprimer un projet, formuler une hypothèse et justifier un choix.",
-      "outcomes": [
-        "parler de projets avec le futur simple",
-        "exprimer une hypothèse avec si + présent",
-        "donner son opinion et la justifier",
-        "comparer deux options avec nuance"
-      ],
-      "grammar": [
-        "futur simple",
-        "hypothèse avec si + présent",
-        "conditionnel présent (politesse et hypothèse)",
-        "connecteurs d’opinion"
-      ],
-      "vocabulary": [
-        "le projet",
-        "l’avenir",
-        "à mon avis",
-        "d’un côté / de l’autre côté"
-      ],
-      "scenario": "De nombreux lycéens doivent transformer une ambition professionnelle vague en un projet concret, étape par étape."
-    }
-  },
-  {
-    "slug": "identite-et-parcours-personnel",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Identité et parcours personnel",
-    "title_es": "Identidad y trayectoria personal",
-    "description": "Comment l’identité se construit à travers les expériences vécues, selon les chercheurs en psychologie sociale.",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "Raconter son parcours personnel et décrire comment on a changé.",
-      "outcomes": [
-        "raconter une biographie simple",
-        "décrire un changement personnel",
-        "consolider l’usage du passé composé et de l’imparfait",
-        "exprimer une évolution dans le temps"
-      ],
-      "grammar": [
-        "imparfait (introduction)",
-        "contraste passé composé / imparfait",
-        "expressions de temps (avant, maintenant, depuis)"
-      ],
-      "vocabulary": [
-        "le parcours",
-        "changer",
-        "grandir",
-        "devenir"
-      ],
-      "scenario": "Beaucoup de jeunes racontent comment ils ont changé après une expérience marquante, comme un séjour à l’étranger."
-    }
-  },
-  {
-    "slug": "etudes-et-apprentissage",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Études et apprentissage",
-    "title_es": "Estudios y aprendizaje",
-    "description": "Les techniques de révision les plus efficaces selon les sciences cognitives : rappel actif, espacement et explication à voix haute.",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "Parler de stratégies d’apprentissage et exprimer des difficultés et des progrès scolaires.",
-      "outcomes": [
-        "décrire des stratégies d’apprentissage",
-        "exprimer une difficulté et un progrès",
-        "donner un conseil académique",
-        "utiliser le conditionnel présent pour suggérer"
-      ],
-      "grammar": [
-        "conditionnel présent (suggestion)",
-        "expressions de difficulté et de progrès",
-        "gérondif introductoire (en + participe présent)"
-      ],
-      "vocabulary": [
-        "réviser",
-        "progresser",
-        "une difficulté",
-        "un conseil"
-      ],
-      "scenario": "Avant un examen de mathématiques important, un élève demande des conseils d’étude à un camarade plus expérimenté."
-    }
-  },
-  {
-    "slug": "monde-du-travail",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Monde du travail",
-    "title_es": "El mundo laboral",
-    "description": "Comment bien se préparer à un entretien d’embauche et rédiger un e-mail de candidature efficace.",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "Comprendre et simuler un entretien d’embauche, écrire un e-mail formel.",
-      "outcomes": [
-        "parler de professions et de compétences",
-        "simuler un entretien d’embauche",
-        "écrire un e-mail formel",
-        "utiliser le conditionnel de politesse dans un contexte professionnel"
-      ],
-      "grammar": [
-        "conditionnel de politesse (révision approfondie)",
-        "vocabulaire formel vs informel",
-        "structure d’un e-mail formel"
-      ],
-      "vocabulary": [
-        "le CV",
-        "un entretien d’embauche",
-        "les compétences",
-        "postuler"
-      ],
-      "scenario": "Chaque été, de nombreux jeunes préparent un entretien pour un premier stage et s’entraînent avec un conseiller ou un camarade."
-    }
-  },
-  {
-    "slug": "voyages-et-interculturalite",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Voyages et interculturalité",
-    "title_es": "Viajes e interculturalidad",
-    "description": "Comment voyager en respectant les lieux visités, et comparer des habitudes culturelles différentes.",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "Comparer des habitudes culturelles et raconter une expérience interculturelle.",
-      "outcomes": [
-        "comparer deux cultures",
-        "décrire un choc culturel",
-        "raconter une expérience de voyage marquante",
-        "exprimer une opinion sur d’autres pays avec nuance"
-      ],
-      "grammar": [
-        "comparaison avancée",
-        "connecteurs d’opposition (alors que, tandis que)",
-        "discours rapporté simple"
-      ],
-      "vocabulary": [
-        "une habitude culturelle",
-        "un choc culturel",
-        "ce qui m’a surpris",
-        "tandis que"
-      ],
-      "scenario": "De nombreux élèves en échange préparent un exposé comparant une habitude culturelle française et une habitude de leur pays d’origine."
-    }
-  },
-  {
-    "slug": "technologie-et-societe",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Technologie et société",
-    "title_es": "Tecnología y sociedad",
-    "description": "Comment choisir ses usages numériques pour éviter que les notifications ne contrôlent notre attention.",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "Argumenter sur les avantages et les risques de la technologie de façon simple.",
-      "outcomes": [
-        "présenter des avantages et des inconvénients",
-        "exprimer un accord/désaccord nuancé",
-        "utiliser des connecteurs d’argumentation",
-        "comprendre un débat simple"
-      ],
-      "grammar": [
-        "connecteurs d’argumentation (d’une part/d’autre part, cependant)",
-        "expression de l’opinion nuancée",
-        "subjonctif présent introductorio (il est important que)"
-      ],
-      "vocabulary": [
-        "un avantage / un inconvénient",
-        "dépendre de",
-        "un risque",
-        "la vie privée"
-      ],
-      "scenario": "En cours d’éducation civique, une classe débat de l’impact des réseaux sociaux sur les jeunes."
-    }
-  },
-  {
-    "slug": "sante-et-mode-de-vie",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Santé et mode de vie",
-    "title_es": "Salud y estilo de vida",
-    "description": "Comment gérer le stress des examens et adopter des habitudes de vie plus saines, selon les médecins scolaires.",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "Parler du stress, des habitudes saines et donner des recommandations de bien-être.",
-      "outcomes": [
-        "décrire le stress et ses causes",
-        "proposer des habitudes de vie saines",
-        "donner des recommandations avec le subjonctif",
-        "comprendre un conseil médical simple"
-      ],
-      "grammar": [
-        "subjonctif présent (recommandations)",
-        "expressions liées au bien-être",
-        "impératif (révision, conseils)"
-      ],
-      "vocabulary": [
-        "le stress",
-        "se détendre",
-        "une habitude saine",
-        "l’activité physique"
-      ],
-      "scenario": "À l’approche des examens de fin d’année, de nombreux élèves se sentent de plus en plus stressés et cherchent des conseils."
-    }
-  },
-  {
-    "slug": "environnement-et-consommation",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Environnement et consommation",
-    "title_es": "Medioambiente y consumo",
-    "description": "Comment un projet scolaire de réduction des déchets peut faire évoluer les habitudes de tout un établissement.",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "Discuter de problèmes environnementaux et proposer des solutions concrètes.",
-      "outcomes": [
-        "parler des problèmes environnementaux",
-        "proposer des solutions et des projets écologiques",
-        "exprimer la cause et la conséquence",
-        "utiliser il faut que pour proposer une action collective"
-      ],
-      "grammar": [
-        "cause et conséquence (parce que, donc, c’est pourquoi)",
-        "subjonctif (proposition d’action)",
-        "quantificateurs (trop de, moins de)"
-      ],
-      "vocabulary": [
-        "le recyclage",
-        "les déchets",
-        "l’environnement",
-        "réduire"
-      ],
-      "scenario": "Une classe de lycée organise un projet écologique pour réduire les déchets dans son établissement."
-    }
-  },
-  {
-    "slug": "medias-et-information",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Médias et information",
-    "title_es": "Medios e información",
-    "description": "Comment reconnaître une fausse information en ligne et vérifier la fiabilité d’une source, selon les journalistes spécialisés.",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "Distinguer une source fiable d’une désinformation et exprimer une opinion sur une information.",
-      "outcomes": [
-        "identifier une source d’information fiable",
-        "exprimer un doute ou une certitude",
-        "reformuler une information au discours indirect",
-        "donner son opinion sur une nouvelle"
-      ],
-      "grammar": [
-        "discours indirect simple (il a dit que)",
-        "expression du doute et de la certitude",
-        "connecteurs d’explication (c’est-à-dire, en effet)"
-      ],
-      "vocabulary": [
-        "une source fiable",
-        "une fausse nouvelle",
-        "vérifier",
-        "douter de"
-      ],
-      "scenario": "En cours d’éducation aux médias, une classe analyse un article partagé sur les réseaux sociaux pour vérifier s’il est fiable."
-    }
-  },
-  {
-    "slug": "relations-et-conflits",
-    "target_language": "french",
-    "level": "B1",
-    "title": "Relations et conflits",
-    "title_es": "Relaciones y conflictos",
-    "description": "Comment exprimer un désaccord sans rompre le dialogue et trouver un compromis, selon les spécialistes de la médiation.",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "Exprimer un désaccord, une émotion, et négocier une solution à un conflit.",
-      "outcomes": [
-        "exprimer une émotion avec précision",
-        "exposer un désaccord respectueusement",
-        "négocier une solution à un petit conflit",
-        "utiliser le subjonctif après des expressions d’émotion"
-      ],
-      "grammar": [
-        "subjonctif après les expressions d’émotion (je suis triste que, ça me dérange que)",
-        "expressions de négociation",
-        "connecteurs de concession (même si)"
-      ],
-      "vocabulary": [
-        "un désaccord",
-        "se sentir blessé(e)",
-        "trouver un compromis",
-        "se réconcilier"
-      ],
-      "scenario": "Deux camarades de classe se disputent à propos d’un projet scolaire commun, et doivent apprendre à résoudre le conflit calmement."
-    }
-  },
-  {
     "slug": "la-rentree-universitaire",
     "target_language": "french",
     "level": "C1",
@@ -5305,6 +5004,307 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "slug": "projets-et-avenir",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Projets et avenir",
+    "title_es": "Proyectos y futuro",
+    "description": "Comment transformer une ambition professionnelle en un projet réaliste, étape par étape.",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Exprimer un projet, formuler une hypothèse et justifier un choix.",
+      "outcomes": [
+        "parler de projets avec le futur simple",
+        "exprimer une hypothèse avec si + présent",
+        "donner son opinion et la justifier",
+        "comparer deux options avec nuance"
+      ],
+      "grammar": [
+        "futur simple",
+        "hypothèse avec si + présent",
+        "conditionnel présent (politesse et hypothèse)",
+        "connecteurs d’opinion"
+      ],
+      "vocabulary": [
+        "le projet",
+        "l’avenir",
+        "à mon avis",
+        "d’un côté / de l’autre côté"
+      ],
+      "scenario": "De nombreux lycéens doivent transformer une ambition professionnelle vague en un projet concret, étape par étape."
+    }
+  },
+  {
+    "slug": "identite-et-parcours-personnel",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Identité et parcours personnel",
+    "title_es": "Identidad y trayectoria personal",
+    "description": "Comment l’identité se construit à travers les expériences vécues, selon les chercheurs en psychologie sociale.",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Raconter son parcours personnel et décrire comment on a changé.",
+      "outcomes": [
+        "raconter une biographie simple",
+        "décrire un changement personnel",
+        "consolider l’usage du passé composé et de l’imparfait",
+        "exprimer une évolution dans le temps"
+      ],
+      "grammar": [
+        "imparfait (introduction)",
+        "contraste passé composé / imparfait",
+        "expressions de temps (avant, maintenant, depuis)"
+      ],
+      "vocabulary": [
+        "le parcours",
+        "changer",
+        "grandir",
+        "devenir"
+      ],
+      "scenario": "Beaucoup de jeunes racontent comment ils ont changé après une expérience marquante, comme un séjour à l’étranger."
+    }
+  },
+  {
+    "slug": "etudes-et-apprentissage",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Études et apprentissage",
+    "title_es": "Estudios y aprendizaje",
+    "description": "Les techniques de révision les plus efficaces selon les sciences cognitives : rappel actif, espacement et explication à voix haute.",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Parler de stratégies d’apprentissage et exprimer des difficultés et des progrès scolaires.",
+      "outcomes": [
+        "décrire des stratégies d’apprentissage",
+        "exprimer une difficulté et un progrès",
+        "donner un conseil académique",
+        "utiliser le conditionnel présent pour suggérer"
+      ],
+      "grammar": [
+        "conditionnel présent (suggestion)",
+        "expressions de difficulté et de progrès",
+        "gérondif introductoire (en + participe présent)"
+      ],
+      "vocabulary": [
+        "réviser",
+        "progresser",
+        "une difficulté",
+        "un conseil"
+      ],
+      "scenario": "Avant un examen de mathématiques important, un élève demande des conseils d’étude à un camarade plus expérimenté."
+    }
+  },
+  {
+    "slug": "monde-du-travail",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Monde du travail",
+    "title_es": "El mundo laboral",
+    "description": "Comment bien se préparer à un entretien d’embauche et rédiger un e-mail de candidature efficace.",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "Comprendre et simuler un entretien d’embauche, écrire un e-mail formel.",
+      "outcomes": [
+        "parler de professions et de compétences",
+        "simuler un entretien d’embauche",
+        "écrire un e-mail formel",
+        "utiliser le conditionnel de politesse dans un contexte professionnel"
+      ],
+      "grammar": [
+        "conditionnel de politesse (révision approfondie)",
+        "vocabulaire formel vs informel",
+        "structure d’un e-mail formel"
+      ],
+      "vocabulary": [
+        "le CV",
+        "un entretien d’embauche",
+        "les compétences",
+        "postuler"
+      ],
+      "scenario": "Chaque été, de nombreux jeunes préparent un entretien pour un premier stage et s’entraînent avec un conseiller ou un camarade."
+    }
+  },
+  {
+    "slug": "voyages-et-interculturalite",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Voyages et interculturalité",
+    "title_es": "Viajes e interculturalidad",
+    "description": "Comment voyager en respectant les lieux visités, et comparer des habitudes culturelles différentes.",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Comparer des habitudes culturelles et raconter une expérience interculturelle.",
+      "outcomes": [
+        "comparer deux cultures",
+        "décrire un choc culturel",
+        "raconter une expérience de voyage marquante",
+        "exprimer une opinion sur d’autres pays avec nuance"
+      ],
+      "grammar": [
+        "comparaison avancée",
+        "connecteurs d’opposition (alors que, tandis que)",
+        "discours rapporté simple"
+      ],
+      "vocabulary": [
+        "une habitude culturelle",
+        "un choc culturel",
+        "ce qui m’a surpris",
+        "tandis que"
+      ],
+      "scenario": "De nombreux élèves en échange préparent un exposé comparant une habitude culturelle française et une habitude de leur pays d’origine."
+    }
+  },
+  {
+    "slug": "technologie-et-societe",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Technologie et société",
+    "title_es": "Tecnología y sociedad",
+    "description": "Comment choisir ses usages numériques pour éviter que les notifications ne contrôlent notre attention.",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Argumenter sur les avantages et les risques de la technologie de façon simple.",
+      "outcomes": [
+        "présenter des avantages et des inconvénients",
+        "exprimer un accord/désaccord nuancé",
+        "utiliser des connecteurs d’argumentation",
+        "comprendre un débat simple"
+      ],
+      "grammar": [
+        "connecteurs d’argumentation (d’une part/d’autre part, cependant)",
+        "expression de l’opinion nuancée",
+        "subjonctif présent introductorio (il est important que)"
+      ],
+      "vocabulary": [
+        "un avantage / un inconvénient",
+        "dépendre de",
+        "un risque",
+        "la vie privée"
+      ],
+      "scenario": "En cours d’éducation civique, une classe débat de l’impact des réseaux sociaux sur les jeunes."
+    }
+  },
+  {
+    "slug": "sante-et-mode-de-vie",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Santé et mode de vie",
+    "title_es": "Salud y estilo de vida",
+    "description": "Comment gérer le stress des examens et adopter des habitudes de vie plus saines, selon les médecins scolaires.",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "Parler du stress, des habitudes saines et donner des recommandations de bien-être.",
+      "outcomes": [
+        "décrire le stress et ses causes",
+        "proposer des habitudes de vie saines",
+        "donner des recommandations avec le subjonctif",
+        "comprendre un conseil médical simple"
+      ],
+      "grammar": [
+        "subjonctif présent (recommandations)",
+        "expressions liées au bien-être",
+        "impératif (révision, conseils)"
+      ],
+      "vocabulary": [
+        "le stress",
+        "se détendre",
+        "une habitude saine",
+        "l’activité physique"
+      ],
+      "scenario": "À l’approche des examens de fin d’année, de nombreux élèves se sentent de plus en plus stressés et cherchent des conseils."
+    }
+  },
+  {
+    "slug": "environnement-et-consommation",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Environnement et consommation",
+    "title_es": "Medioambiente y consumo",
+    "description": "Comment un projet scolaire de réduction des déchets peut faire évoluer les habitudes de tout un établissement.",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Discuter de problèmes environnementaux et proposer des solutions concrètes.",
+      "outcomes": [
+        "parler des problèmes environnementaux",
+        "proposer des solutions et des projets écologiques",
+        "exprimer la cause et la conséquence",
+        "utiliser il faut que pour proposer une action collective"
+      ],
+      "grammar": [
+        "cause et conséquence (parce que, donc, c’est pourquoi)",
+        "subjonctif (proposition d’action)",
+        "quantificateurs (trop de, moins de)"
+      ],
+      "vocabulary": [
+        "le recyclage",
+        "les déchets",
+        "l’environnement",
+        "réduire"
+      ],
+      "scenario": "Une classe de lycée organise un projet écologique pour réduire les déchets dans son établissement."
+    }
+  },
+  {
+    "slug": "medias-et-information",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Médias et information",
+    "title_es": "Medios e información",
+    "description": "Comment reconnaître une fausse information en ligne et vérifier la fiabilité d’une source, selon les journalistes spécialisés.",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Distinguer une source fiable d’une désinformation et exprimer une opinion sur une information.",
+      "outcomes": [
+        "identifier une source d’information fiable",
+        "exprimer un doute ou une certitude",
+        "reformuler une information au discours indirect",
+        "donner son opinion sur une nouvelle"
+      ],
+      "grammar": [
+        "discours indirect simple (il a dit que)",
+        "expression du doute et de la certitude",
+        "connecteurs d’explication (c’est-à-dire, en effet)"
+      ],
+      "vocabulary": [
+        "une source fiable",
+        "une fausse nouvelle",
+        "vérifier",
+        "douter de"
+      ],
+      "scenario": "En cours d’éducation aux médias, une classe analyse un article partagé sur les réseaux sociaux pour vérifier s’il est fiable."
+    }
+  },
+  {
+    "slug": "relations-et-conflits",
+    "target_language": "french",
+    "level": "B1",
+    "title": "Relations et conflits",
+    "title_es": "Relaciones y conflictos",
+    "description": "Comment exprimer un désaccord sans rompre le dialogue et trouver un compromis, selon les spécialistes de la médiation.",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Exprimer un désaccord, une émotion, et négocier une solution à un conflit.",
+      "outcomes": [
+        "exprimer une émotion avec précision",
+        "exposer un désaccord respectueusement",
+        "négocier une solution à un petit conflit",
+        "utiliser le subjonctif après des expressions d’émotion"
+      ],
+      "grammar": [
+        "subjonctif après les expressions d’émotion (je suis triste que, ça me dérange que)",
+        "expressions de négociation",
+        "connecteurs de concession (même si)"
+      ],
+      "vocabulary": [
+        "un désaccord",
+        "se sentir blessé(e)",
+        "trouver un compromis",
+        "se réconcilier"
+      ],
+      "scenario": "Deux camarades de classe se disputent à propos d’un projet scolaire commun, et doivent apprendre à résoudre le conflit calmement."
     }
   },
   {

@@ -95,21 +95,21 @@ const units = [
         ]
       }),
       listening: activity('listening', {
-        title: 'Le choc du retour, expliqué par une psychologue',
-        description: 'Écoute une psychologue interculturelle expliquer, à la radio, pourquoi le retour au pays peut être plus difficile que le départ.',
-        intro: 'Écoute cet extrait d’émission radiophonique consacrée au « choc du retour » chez les jeunes expatriés.',
+        title: 'Une conversation à l’aéroport',
+        description: 'Écoute Camila et Sofía se retrouver à l’aéroport de Saint-Domingue.',
+        intro: 'Écoute les premiers échanges entre Camila et Sofía après un an de séparation.',
         dialogue: [
-          { speaker: 'Journaliste', line: 'On pense souvent que revenir chez soi est plus facile que de partir. Est-ce vraiment le cas ?', translation: 'A menudo se piensa que volver a casa es más fácil que partir. ¿Es realmente así?' },
-          { speaker: 'Psychologue', line: 'Pas du tout : le retour surprend justement parce qu’on ne s’y attend pas, contrairement au départ pour lequel on se prépare longtemps à l’avance.', translation: 'Para nada: el regreso sorprende justamente porque no se lo espera, a diferencia de la partida para la cual uno se prepara con mucha antelación.' },
-          { speaker: 'Journaliste', line: 'Qu’est-ce qui rend ce moment si déstabilisant, concrètement ?', translation: '¿Qué hace que este momento sea tan desestabilizador, en concreto?' },
-          { speaker: 'Psychologue', line: 'On a l’impression que tout devrait redevenir comme avant, alors qu’en réalité, la personne a changé et son entourage aussi a continué d’évoluer sans elle.', translation: 'Se tiene la impresión de que todo debería volver a ser como antes, cuando en realidad la persona ha cambiado y su entorno también ha seguido evolucionando sin ella.' }
+          { speaker: 'Sofía', line: 'Camila ! Tu m’as tellement manqué, je n’arrive pas à y croire !', translation: '¡Camila! Te extrañé tanto, ¡no puedo creerlo!' },
+          { speaker: 'Camila', line: 'Toi aussi, Sofía. C’est tellement étrange d’être enfin de retour.', translation: 'Tú también, Sofía. Es tan extraño estar por fin de vuelta.' },
+          { speaker: 'Sofía', line: 'Tu parles bizarrement, on dirait que tu réfléchis avant chaque mot !', translation: '¡Hablas raro, parece que piensas antes de cada palabra!' },
+          { speaker: 'Camila', line: 'Ha ha, c’est vrai, j’ai dû traduire dans ma tête pendant si longtemps.', translation: 'Ja ja, es verdad, tuve que traducir en mi cabeza durante tanto tiempo.' }
         ],
-        phrases: ['On pense souvent que...', 'Contrairement à...', 'Ce qui rend ce moment si...', 'On a l’impression que...'],
+        phrases: ['Tu m’as manqué.', 'C’est étrange de...', 'On dirait que...', 'J’ai dû...'],
         exercises: [
-          { type: 'mcq', prompt: 'Selon la psychologue, le retour est-il plus facile que le départ ?', options: ['Oui, toujours', 'Non, il peut être plus déstabilisant', 'Cela dépend uniquement de l’âge', 'Le sujet n’est pas abordé'], answer: 1 },
-          { type: 'mcq', prompt: 'Pourquoi le départ est-il, selon elle, moins surprenant que le retour ?', options: ['Parce qu’on s’y prépare longtemps à l’avance', 'Parce qu’il dure moins longtemps', 'Parce qu’on ne le raconte jamais', 'Parce qu’il coûte moins cher'], answer: 0 },
-          { type: 'mcq', prompt: 'Qu’est-ce qui a changé, selon la psychologue, pendant l’absence ?', options: ['Rien du tout', 'La personne elle-même et son entourage', 'Seulement le climat', 'Seulement la langue parlée'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel est le ton général de cet échange ?', options: ['Tendu et conflictuel', 'Informatif et posé', 'Comique', 'Indifférent'], answer: 1 }
+          { type: 'mcq', prompt: 'Comment Sofía réagit-elle en voyant Camila ?', options: ['Avec indifférence', 'Avec une grande joie', 'Avec de la colère', 'Avec de la tristesse'], answer: 1 },
+          { type: 'mcq', prompt: 'Que remarque Sofía dans la façon de parler de Camila ?', options: ['Elle parle trop vite', 'Elle fait des pauses avant de parler', 'Elle ne parle plus espagnol', 'Elle chuchote'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment Camila explique-t-elle ce changement ?', options: ['Elle ne l’explique pas', 'Elle a dû traduire dans sa tête pendant longtemps', 'Elle est fatiguée du voyage', 'Elle ne veut plus parler'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel est le ton général de cette conversation ?', options: ['Tendu et froid', 'Chaleureux et joyeux', 'Fâché', 'Indifférent'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -245,20 +245,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
-        title: 'Ce que veulent vraiment les jurys d’admission',
-        description: 'Écoute un responsable d’admission universitaire expliquer, en interview, ce qu’il recherche dans une lettre de motivation.',
-        intro: 'Écoute cette interview d’un responsable d’admission expliquant les critères d’évaluation des dossiers Parcoursup.',
+        title: 'Un conseil de rédaction',
+        description: 'Écoute Karim expliquer à Camila comment structurer sa lettre de motivation.',
+        intro: 'Écoute la conversation en visioconférence entre Camila et Karim.',
         dialogue: [
-          { speaker: 'Journaliste', line: 'Beaucoup de lycéens ne savent pas comment commencer leur lettre sans avoir l’air prétentieux. Que leur conseillez-vous ?', translation: 'Muchos estudiantes no saben cómo empezar su carta sin parecer pretenciosos. ¿Qué les aconseja?' },
-          { speaker: 'Responsable', line: 'De commencer par expliquer ce qui a vraiment déclenché leur intérêt, plutôt que par une formule toute faite.', translation: 'Que empiecen explicando qué fue lo que realmente despertó su interés, en lugar de una frase hecha.' },
-          { speaker: 'Journaliste', line: 'Et ensuite, qu’est-ce qui fait la différence ?', translation: '¿Y después, qué marca la diferencia?' },
-          { speaker: 'Responsable', line: 'Des exemples concrets, puis une explication claire de ce que le candidat compte apporter à la formation.', translation: 'Ejemplos concretos, y luego una explicación clara de lo que el candidato piensa aportar a la formación.' }
+          { speaker: 'Camila', line: 'Je ne sais pas comment commencer cette lettre sans avoir l’air prétentieuse.', translation: 'No sé cómo empezar esta carta sin parecer pretenciosa.' },
+          { speaker: 'Karim', line: 'Commence par expliquer ce qui a vraiment déclenché ton intérêt.', translation: 'Empieza explicando qué fue lo que realmente despertó tu interés.' },
+          { speaker: 'Camila', line: 'D’accord, et ensuite ?', translation: 'De acuerdo, ¿y después?' },
+          { speaker: 'Karim', line: 'Donne des exemples concrets, puis explique ce que tu apporteras à l’université.', translation: 'Da ejemplos concretos, luego explica lo que aportarás a la universidad.' }
         ],
-        phrases: ['Beaucoup de lycéens ne savent pas...', 'Plutôt que...', 'Ce qui fait la différence, c’est...', 'Ce que le candidat compte apporter...'],
+        phrases: ['Je ne sais pas comment...', 'Commence par...', 'Donne des exemples concrets.', 'Ce que tu apporteras...'],
         exercises: [
-          { type: 'mcq', prompt: 'Quelle difficulté rencontrent souvent les lycéens, selon le responsable ?', options: ['Ils manquent d’ordinateur', 'Ils ne savent pas comment commencer leur lettre', 'Ils ratent la date limite', 'Ils écrivent trop peu'], answer: 1 },
-          { type: 'mcq', prompt: 'Que conseille le responsable en premier ?', options: ['De copier une lettre modèle', 'D’expliquer ce qui a déclenché leur intérêt', 'De ne rien écrire de personnel', 'D’écrire en anglais'], answer: 1 },
-          { type: 'mcq', prompt: 'Que doit expliquer le candidat à la fin de la lettre, selon le responsable ?', options: ['Ses notes scolaires uniquement', 'Ce qu’il apportera à la formation', 'Ses problèmes personnels', 'Le prix des études'], answer: 1 }
+          { type: 'mcq', prompt: 'Quel est le problème de Camila au début ?', options: ['Elle n’a pas d’ordinateur', 'Elle ne sait pas comment commencer sa lettre', 'Elle a raté la date limite', 'Elle ne veut plus étudier en France'], answer: 1 },
+          { type: 'mcq', prompt: 'Que conseille Karim en premier ?', options: ['De copier une lettre modèle', 'D’expliquer ce qui a déclenché son intérêt', 'De ne rien écrire de personnel', 'D’écrire en anglais'], answer: 1 },
+          { type: 'mcq', prompt: 'Que doit expliquer Camila à la fin de la lettre, selon Karim ?', options: ['Ses notes scolaires uniquement', 'Ce qu’elle apportera à l’université', 'Ses problèmes personnels', 'Le prix des études'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -544,20 +544,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
-        title: 'Le télétravail, entre liberté et isolement',
-        description: 'Écoute une économiste expliquer, en interview, ce que révèlent les études sur les effets du télétravail.',
-        intro: 'Écoute cet extrait d’interview sur les effets du télétravail à long terme.',
+        title: 'Un appel avec Karim sur le télétravail',
+        description: 'Écoute Camila expliquer à Karim ses impressions sur le télétravail.',
+        intro: 'Écoute la conversation entre Camila et Karim sur les débuts de son travail à distance.',
         dialogue: [
-          { speaker: 'Journaliste', line: 'Alors, comment évolue la productivité chez les salariés en télétravail ?', translation: '¿Y cómo evoluciona la productividad entre los empleados en teletrabajo?' },
-          { speaker: 'Économiste', line: 'Plutôt bien selon la plupart des études, mais c’est étrange : le lien social au travail semble en pâtir.', translation: 'Bastante bien según la mayoría de los estudios, pero es curioso: el vínculo social en el trabajo parece resentirse.' },
-          { speaker: 'Journaliste', line: 'Ce dont les salariés ont besoin, c’est peut-être un modèle hybride ?', translation: '¿Lo que necesitan los empleados es quizás un modelo híbrido?' },
-          { speaker: 'Économiste', line: 'Exactement, c’est ce que confirment la plupart des enquêtes récentes menées auprès des entreprises.', translation: 'Exactamente, es lo que confirman la mayoría de las encuestas recientes realizadas entre las empresas.' }
+          { speaker: 'Karim', line: 'Alors, comment se passe ton nouveau travail à distance ?', translation: '¿Y cómo va tu nuevo trabajo a distancia?' },
+          { speaker: 'Camila', line: 'Plutôt bien, mais c’est étrange de ne jamais voir mes collègues.', translation: 'Bastante bien, pero es extraño no ver nunca a mis colegas.' },
+          { speaker: 'Karim', line: 'Ce dont tu as besoin, c’est peut-être de sortir travailler ailleurs de temps en temps.', translation: 'Lo que necesitas quizás es salir a trabajar a otro lugar de vez en cuando.' },
+          { speaker: 'Camila', line: 'Tu as raison, je vais essayer un café près de chez moi.', translation: 'Tienes razón, voy a probar un café cerca de casa.' }
         ],
-        phrases: ['Comment évolue... ?', 'C’est étrange...', 'Ce dont les salariés ont besoin...', 'C’est ce que confirment les études.'],
+        phrases: ['Comment se passe... ?', 'C’est étrange de...', 'Ce dont tu as besoin...', 'Je vais essayer...'],
         exercises: [
-          { type: 'mcq', prompt: 'Comment évolue la productivité en télétravail, selon les études citées ?', options: ['Elle baisse fortement', 'Elle reste plutôt bonne', 'Elle est impossible à mesurer', 'Elle disparaît complètement'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel problème l’économiste mentionne-t-elle ?', options: ['Le manque de matériel', 'Le lien social qui en pâtit', 'Le manque d’argent', 'Le manque de temps libre'], answer: 1 },
-          { type: 'mcq', prompt: 'Quelle solution est évoquée à la fin ?', options: ['Supprimer totalement le télétravail', 'Un modèle hybride', 'Travailler uniquement la nuit', 'Ne rien changer'], answer: 1 }
+          { type: 'mcq', prompt: 'Comment Camila décrit-elle son nouveau travail au début ?', options: ['Terrible', 'Plutôt bien, mais étrange sans collègues', 'Complètement décevant', 'Trop facile'], answer: 1 },
+          { type: 'mcq', prompt: 'Que suggère Karim ?', options: ['D’arrêter le travail', 'De sortir travailler ailleurs parfois', 'De travailler toute la nuit', 'De ne rien changer'], answer: 1 },
+          { type: 'mcq', prompt: 'Que décide de faire Camila ?', options: ['Rien du tout', 'Essayer de travailler dans un café', 'Démissionner', 'Déménager'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -693,20 +693,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
-        title: 'La créolité, une identité plurielle',
-        description: 'Écoute un critique littéraire expliquer, en interview, comment des écrivains martiniquais ont théorisé une identité culturelle plurielle.',
-        intro: 'Écoute cette interview consacrée au mouvement de la créolité dans la littérature antillaise.',
+        title: 'L’interview de l’autrice',
+        description: 'Écoute l’animatrice rapporter les propos de l’autrice du roman.',
+        intro: 'Écoute l’animatrice du club de lecture expliquer l’intention de l’autrice.',
         dialogue: [
-          { speaker: 'Journaliste', line: 'Dans leurs essais, ces écrivains ont dit qu’ils voulaient dépasser une identité unique et figée. Pouvez-vous expliquer ?', translation: 'En sus ensayos, estos escritores dijeron que querían superar una identidad única y fija. ¿Puede explicarlo?' },
-          { speaker: 'Critique', line: 'Oui, ils ont expliqué que l’identité antillaise se construisait à la croisée de plusieurs langues, plusieurs héritages, plusieurs mémoires.', translation: 'Sí, explicaron que la identidad antillana se construía en el cruce de varias lenguas, varias herencias, varias memorias.' },
-          { speaker: 'Journaliste', line: 'Ça résonne avec beaucoup de sociétés issues de la colonisation, non ?', translation: '¿Esto resuena con muchas sociedades surgidas de la colonización, no?' },
-          { speaker: 'Critique', line: 'Exactement, c’est ce que confirment de nombreux lecteurs à travers le monde depuis la publication de ces textes.', translation: 'Exactamente, es lo que confirman numerosos lectores en todo el mundo desde la publicación de estos textos.' }
+          { speaker: 'L’animatrice', line: 'Dans une interview, l’autrice a dit qu’elle voulait explorer le thème du déracinement.', translation: 'En una entrevista, la autora dijo que quería explorar el tema del desarraigo.' },
+          { speaker: 'Camila', line: 'C’est exactement ce que j’ai ressenti en lisant le roman.', translation: 'Es exactamente lo que sentí al leer la novela.' },
+          { speaker: 'L’animatrice', line: 'Elle a expliqué qu’on pouvait appartenir à plusieurs cultures sans devoir en choisir une seule.', translation: 'Explicó que uno podía pertenecer a varias culturas sin tener que elegir una sola.' },
+          { speaker: 'Camila', line: 'Ça résonne beaucoup avec mon expérience entre deux pays.', translation: 'Eso resuena mucho con mi experiencia entre dos países.' }
         ],
-        phrases: ['Ils ont dit qu’ils voulaient...', 'Ils ont expliqué que...', 'Ça résonne avec...', 'C’est ce que confirment...'],
+        phrases: ['Elle a dit que...', 'Elle a expliqué que...', 'Ça résonne avec...', 'C’est exactement ce que...'],
         exercises: [
-          { type: 'mcq', prompt: 'Que rapporte le critique sur l’intention de ces écrivains ?', options: ['Qu’ils voulaient raconter une histoire d’amour', 'Qu’ils voulaient dépasser une identité unique et figée', 'Qu’ils voulaient écrire un roman policier', 'Qu’ils ne voulaient rien exprimer de particulier'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment l’identité antillaise est-elle décrite ?', options: ['Comme unique et fixe', 'Comme construite à la croisée de plusieurs langues et héritages', 'Comme totalement européenne', 'Comme sans histoire'], answer: 1 },
-          { type: 'mcq', prompt: 'À quoi ce thème est-il comparé à la fin ?', options: ['À un film', 'À d’autres sociétés issues de la colonisation', 'À un cours d’histoire', 'À rien en particulier'], answer: 1 }
+          { type: 'mcq', prompt: 'Que rapporte l’animatrice sur l’intention de l’autrice ?', options: ['Qu’elle voulait raconter une histoire d’amour', 'Qu’elle voulait explorer le thème du déracinement', 'Qu’elle voulait écrire un roman policier', 'Qu’elle ne voulait rien exprimer de particulier'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment Camila réagit-elle à cette explication ?', options: ['Elle est indifférente', 'Elle se reconnaît dans ce thème', 'Elle n’est pas d’accord', 'Elle ne comprend pas'], answer: 1 },
+          { type: 'mcq', prompt: 'À quoi Camila compare-t-elle le thème du roman ?', options: ['À un film qu’elle a vu', 'À sa propre expérience entre deux pays', 'À un cours d’histoire', 'À rien en particulier'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -842,20 +842,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
-        title: 'Un film primé à Cannes, sous la loupe des critiques',
-        description: 'Écoute deux critiques de cinéma débattre, à la radio, d’un film récompensé à Cannes.',
-        intro: 'Écoute cet extrait d’émission où deux critiques discutent d’un film primé au festival de Cannes.',
+        title: 'Discuter du film',
+        description: 'Écoute Camila et Sofía discuter de leurs impressions juste après le film.',
+        intro: 'Écoute la conversation entre Camila et Sofía immédiatement après avoir regardé le film.',
         dialogue: [
-          { speaker: 'Premier critique', line: 'Alors, qu’est-ce que vous en avez pensé ?', translation: '¿Y qué le pareció?' },
-          { speaker: 'Deuxième critique', line: 'Ce qui m’a le plus marqué, c’est la mise en scène du procès, d’une précision remarquable.', translation: 'Lo que más me marcó fue la puesta en escena del juicio, de una precisión notable.' },
-          { speaker: 'Premier critique', line: 'Moi, j’ai trouvé la première partie un peu lente.', translation: 'Yo encontré la primera parte un poco lenta.' },
-          { speaker: 'Deuxième critique', line: 'C’est vrai, mais ça valait vraiment la peine d’attendre la suite.', translation: 'Es verdad, pero realmente valió la pena esperar el resto.' }
+          { speaker: 'Sofía', line: 'Alors, qu’est-ce que tu en as pensé ?', translation: '¿Y qué te pareció?' },
+          { speaker: 'Camila', line: 'Ce qui m’a le plus marquée, c’est le jeu des actrices.', translation: 'Lo que más me marcó fue la actuación de las actrices.' },
+          { speaker: 'Sofía', line: 'Moi, j’ai trouvé le début un peu lent.', translation: 'Yo encontré el principio un poco lento.' },
+          { speaker: 'Camila', line: 'C’est vrai, mais ça valait vraiment la peine d’attendre.', translation: 'Es verdad, pero realmente valió la pena esperar.' }
         ],
-        phrases: ['Qu’est-ce que vous en avez pensé ?', 'Ce qui m’a marqué, c’est...', 'J’ai trouvé... un peu...', 'Ça valait la peine.'],
+        phrases: ['Qu’est-ce que tu en as pensé ?', 'Ce qui m’a marqué(e), c’est...', 'J’ai trouvé... un peu...', 'Ça valait la peine.'],
         exercises: [
-          { type: 'mcq', prompt: 'Qu’est-ce qui a le plus marqué le deuxième critique ?', options: ['La musique', 'La mise en scène du procès', 'Les décors', 'La durée du film'], answer: 1 },
-          { type: 'mcq', prompt: 'Que pense le premier critique de la première partie du film ?', options: ['Qu’elle est trop rapide', 'Qu’elle est un peu lente', 'Qu’elle est parfaite', 'Qu’elle est incompréhensible'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment se termine cette conversation ?', options: ['Le film ne valait pas la peine', 'Ça valait vraiment la peine d’attendre la suite', 'Le film n’est pas recommandé', 'Sans conclusion'], answer: 1 }
+          { type: 'mcq', prompt: 'Qu’est-ce qui a le plus marqué Camila ?', options: ['La musique', 'Le jeu des actrices', 'Les décors', 'La durée du film'], answer: 1 },
+          { type: 'mcq', prompt: 'Que pense Sofía du début du film ?', options: ['Qu’il est trop rapide', 'Qu’il est un peu lent', 'Qu’il est parfait', 'Qu’il est incompréhensible'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment Camila conclut-elle la conversation ?', options: ['Que le film ne valait pas la peine', 'Que ça valait vraiment la peine d’attendre', 'Qu’elle ne recommande pas le film', 'Qu’elle veut le revoir immédiatement'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -991,20 +991,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
-        title: 'Le dilemme du tramway, hier et aujourd’hui',
-        description: 'Écoute un philosophe expliquer, en interview, pourquoi cette expérience de pensée continue d’alimenter les débats en éthique et en intelligence artificielle.',
-        intro: 'Écoute cette interview consacrée à une célèbre expérience de pensée en philosophie morale.',
+        title: 'Deux points de vue opposés',
+        description: 'Écoute deux étudiants du forum exposer des points de vue différents sur le dilemme.',
+        intro: 'Écoute l’échange entre deux participants du forum de philosophie.',
         dialogue: [
-          { speaker: 'Journaliste', line: 'Cette expérience de pensée a été imaginée dans les années 1960. Pourquoi continue-t-elle de fasciner ?', translation: 'Este experimento mental fue imaginado en los años 1960. ¿Por qué sigue fascinando?' },
-          { speaker: 'Philosophe', line: 'Parce qu’elle oblige à choisir entre deux mauvaises options, sans échappatoire facile.', translation: 'Porque obliga a elegir entre dos malas opciones, sin escapatoria fácil.' },
-          { speaker: 'Journaliste', line: 'Et aujourd’hui, quel lien avec l’intelligence artificielle ?', translation: '¿Y hoy, qué relación tiene con la inteligencia artificial?' },
-          { speaker: 'Philosophe', line: 'Les voitures autonomes doivent parfois « décider » qui protéger en cas d’accident inévitable : le dilemme redevient très concret.', translation: 'Los coches autónomos a veces deben "decidir" a quién proteger en caso de accidente inevitable: el dilema vuelve a ser muy concreto.' }
+          { speaker: 'Le participant argentin', line: 'Si j’avais découvert ce mensonge, j’aurais confronté mon ami directement.', translation: 'Si hubiera descubierto esa mentira, habría confrontado a mi amigo directamente.' },
+          { speaker: 'L’étudiante sénégalaise', line: 'Moi, tout dépendrait des conséquences réelles du mensonge.', translation: 'Yo, todo dependería de las consecuencias reales de la mentira.' },
+          { speaker: 'Le participant argentin', line: 'C’est vrai, mais je n’aurais pas pu garder ce secret longtemps.', translation: 'Es verdad, pero no habría podido guardar ese secreto mucho tiempo.' },
+          { speaker: 'L’étudiante sénégalaise', line: 'Chacun réagit différemment face à ce genre de situation.', translation: 'Cada uno reacciona diferente ante este tipo de situación.' }
         ],
-        phrases: ['Pourquoi continue-t-elle de... ?', 'Elle oblige à...', 'Quel lien avec... ?', 'Le dilemme redevient concret.'],
+        phrases: ['Si j’avais découvert...', 'J’aurais confronté...', 'Tout dépendrait de...', 'Chacun réagit différemment.'],
         exercises: [
-          { type: 'mcq', prompt: 'Quand cette expérience de pensée a-t-elle été imaginée ?', options: ['Dans les années 1930', 'Dans les années 1960', 'Dans les années 1990', 'Le texte ne le précise pas'], answer: 1 },
-          { type: 'mcq', prompt: 'Pourquoi cette expérience fascine-t-elle toujours, selon le philosophe ?', options: ['Parce qu’elle est facile à résoudre', 'Parce qu’elle oblige à choisir entre deux mauvaises options', 'Parce qu’elle n’a aucun intérêt', 'Parce qu’elle concerne uniquement les voitures'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel exemple moderne le philosophe donne-t-il ?', options: ['Les réseaux sociaux', 'Les voitures autonomes', 'Les jeux vidéo', 'La météo'], answer: 1 }
+          { type: 'mcq', prompt: 'Qu’aurait fait le participant argentin ?', options: ['Il aurait ignoré la situation', 'Il aurait confronté son ami directement', 'Il aurait dénoncé publiquement', 'Il n’aurait rien fait'], answer: 1 },
+          { type: 'mcq', prompt: 'De quoi dépendrait la décision de l’étudiante sénégalaise ?', options: ['De son humeur', 'Des conséquences réelles du mensonge', 'De l’opinion générale', 'De l’âge de son ami'], answer: 1 },
+          { type: 'mcq', prompt: 'Sur quoi les deux participants sont-ils d’accord à la fin ?', options: ['Qu’il faut toujours dénoncer', 'Que chacun réagit différemment', 'Qu’il ne faut jamais rien dire', 'Qu’ils ont totalement tort tous les deux'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -1140,20 +1140,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
-        title: 'L’IA et l’emploi : ce que disent les économistes',
-        description: 'Écoute deux économistes débattre, à la radio, des effets de l’automatisation par IA sur le marché du travail.',
-        intro: 'Écoute cet extrait d’émission consacrée aux effets économiques de l’intelligence artificielle.',
+        title: 'Un débat sur l’IA',
+        description: 'Écoute Karim et Camila débattre des avantages et des risques de l’intelligence artificielle.',
+        intro: 'Écoute la conversation par appel vidéo entre Karim et Camila au sujet de l’article.',
         dialogue: [
-          { speaker: 'Premier économiste', line: 'Dans la mesure où l’IA reste un outil contrôlé par des politiques publiques adaptées, je pense qu’elle peut créer plus d’emplois qu’elle n’en détruit.', translation: 'En la medida en que la IA siga siendo una herramienta controlada por políticas públicas adecuadas, creo que puede crear más empleos de los que destruye.' },
-          { speaker: 'Deuxième économiste', line: 'Il est possible que vous ayez raison à long terme, mais il faut aussi rester vigilant sur les transitions difficiles.', translation: 'Es posible que tenga razón a largo plazo, pero también hay que estar atentos a las transiciones difíciles.' },
-          { speaker: 'Premier économiste', line: 'Bien sûr, aucune technologie n’est neutre en soi.', translation: 'Claro, ninguna tecnología es neutral en sí misma.' },
-          { speaker: 'Deuxième économiste', line: 'Exactement, tout dépend des politiques qui accompagnent cette transformation.', translation: 'Exactamente, todo depende de las políticas que acompañen esta transformación.' }
+          { speaker: 'Karim', line: 'Dans la mesure où l’IA reste contrôlée par des humains, je pense qu’elle peut nous aider énormément.', translation: 'En la medida en que la IA siga siendo controlada por humanos, creo que puede ayudarnos enormemente.' },
+          { speaker: 'Camila', line: 'Il est possible que tu aies raison, mais il faut aussi rester vigilant.', translation: 'Es posible que tengas razón, pero también hay que estar atentos.' },
+          { speaker: 'Karim', line: 'Bien sûr, aucune technologie n’est neutre en soi.', translation: 'Claro, ninguna tecnología es neutral en sí misma.' },
+          { speaker: 'Camila', line: 'Exactement, tout dépend de ceux qui la contrôlent.', translation: 'Exactamente, todo depende de quienes la controlan.' }
         ],
         phrases: ['Dans la mesure où...', 'Il est possible que...', 'Il faut rester vigilant.', 'Tout dépend de...'],
         exercises: [
-          { type: 'mcq', prompt: 'Quelle est la condition de l’optimisme du premier économiste ?', options: ['Que l’IA soit gratuite', 'Que l’IA soit encadrée par des politiques adaptées', 'Que l’IA remplace tous les métiers', 'Aucune condition'], answer: 1 },
-          { type: 'mcq', prompt: 'Que répond le deuxième économiste ?', options: ['Qu’il a complètement tort', 'Qu’il a peut-être raison, mais qu’il faut rester vigilant', 'Qu’il est totalement d’accord sans réserve', 'Qu’il ne veut plus en parler'], answer: 1 },
-          { type: 'mcq', prompt: 'Sur quoi les deux économistes sont-ils finalement d’accord ?', options: ['Que la technologie n’est jamais neutre', 'Que l’IA est complètement mauvaise', 'Que l’IA est complètement bonne', 'Ils ne sont d’accord sur rien'], answer: 0 }
+          { type: 'mcq', prompt: 'Quelle est la condition de l’optimisme de Karim ?', options: ['Que l’IA soit gratuite', 'Que l’IA reste contrôlée par des humains', 'Que l’IA remplace tous les métiers', 'Aucune condition'], answer: 1 },
+          { type: 'mcq', prompt: 'Que répond Camila à Karim ?', options: ['Qu’il a complètement tort', 'Qu’il a peut-être raison, mais qu’il faut rester vigilant', 'Qu’elle est totalement d’accord sans réserve', 'Qu’elle ne veut plus en parler'], answer: 1 },
+          { type: 'mcq', prompt: 'Sur quoi Karim et Camila sont-ils finalement d’accord ?', options: ['Que la technologie n’est jamais neutre', 'Que l’IA est complètement mauvaise', 'Que l’IA est complètement bonne', 'Ils ne sont d’accord sur rien'], answer: 0 }
         ]
       }),
       speaking: activity('speaking', {
@@ -1290,19 +1290,19 @@ const units = [
       }),
       listening: activity('listening', {
         title: 'Le récit de grand-mère',
-        description: 'Écoute une grand-mère raconter un souvenir familial lié à l’histoire d’Hispaniola.',
-        intro: 'Écoute une grand-mère partager un souvenir familial lié à un documentaire historique.',
+        description: 'Écoute la grand-mère de Camila raconter un souvenir familial.',
+        intro: 'Écoute la grand-mère de Camila partager un souvenir familial lié au documentaire.',
         dialogue: [
           { speaker: 'La grand-mère', line: 'Celle dont je me souviens le mieux, c’est l’histoire de ton arrière-arrière-grand-mère.', translation: 'La que mejor recuerdo es la historia de tu tatarabuela.' },
-          { speaker: 'La petite-fille', line: 'Raconte-moi, s’il te plaît, je ne connais pas cette histoire.', translation: 'Cuéntame, por favor, no conozco esa historia.' },
+          { speaker: 'Camila', line: 'Raconte-moi, s’il te plaît, je ne connais pas cette histoire.', translation: 'Cuéntame, por favor, no conozco esa historia.' },
           { speaker: 'La grand-mère', line: 'Elle avait accueilli des voisins haïtiens chez elle, pendant une période très difficile.', translation: 'Ella había acogido a vecinos haitianos en su casa, durante un período muy difícil.' },
-          { speaker: 'La petite-fille', line: 'C’est une histoire incroyable, merci de me la raconter enfin.', translation: 'Es una historia increíble, gracias por contármela por fin.' }
+          { speaker: 'Camila', line: 'C’est une histoire incroyable, merci de me la raconter enfin.', translation: 'Es una historia increíble, gracias por contármela por fin.' }
         ],
         phrases: ['Celle dont je me souviens le mieux...', 'Raconte-moi, s’il te plaît.', 'Elle avait accueilli...', 'Merci de me la raconter.'],
         exercises: [
-          { type: 'mcq', prompt: 'De qui la grand-mère se souvient-elle le mieux ?', options: ['De sa propre mère', 'De son arrière-arrière-grand-mère', 'D’une voisine actuelle', 'D’une amie d’école'], answer: 1 },
+          { type: 'mcq', prompt: 'De qui la grand-mère se souvient-elle le mieux ?', options: ['De sa propre mère', 'De l’arrière-arrière-grand-mère de Camila', 'D’une voisine actuelle', 'D’une amie d’école'], answer: 1 },
           { type: 'mcq', prompt: 'Qu’avait fait cette ancêtre ?', options: ['Elle avait voyagé en Europe', 'Elle avait accueilli des voisins haïtiens chez elle', 'Elle avait écrit un livre', 'Elle avait fondé une école'], answer: 1 },
-          { type: 'mcq', prompt: 'Comment la petite-fille réagit-elle à ce récit ?', options: ['Avec indifférence', 'Avec gratitude et intérêt', 'Avec colère', 'Avec incrédulité'], answer: 1 }
+          { type: 'mcq', prompt: 'Comment Camila réagit-elle à ce récit ?', options: ['Avec indifférence', 'Avec gratitude et intérêt', 'Avec colère', 'Avec incrédulité'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -1439,19 +1439,19 @@ const units = [
       }),
       listening: activity('listening', {
         title: 'Une sortie sur le terrain',
-        description: 'Écoute une coordinatrice expliquer l’importance des mangroves lors d’une sortie sur le terrain.',
-        intro: 'Écoute une coordinatrice présenter le projet de protection des mangroves à une nouvelle bénévole.',
+        description: 'Écoute Ana expliquer à Camila l’importance des mangroves lors de leur première sortie.',
+        intro: 'Écoute Ana présenter le projet de protection des mangroves à Camila.',
         dialogue: [
-          { speaker: 'La coordinatrice', line: 'Les mangroves protègent la côte et abritent une biodiversité incroyable.', translation: 'Los manglares protegen la costa y albergan una biodiversidad increíble.' },
-          { speaker: 'La bénévole', line: 'Je ne savais pas qu’elles étaient si importantes.', translation: 'No sabía que eran tan importantes.' },
-          { speaker: 'La coordinatrice', line: 'Malheureusement, elles sont menacées par la construction et la pollution.', translation: 'Lamentablemente, están amenazadas por la construcción y la contaminación.' },
-          { speaker: 'La bénévole', line: 'Je veux vraiment aider à les protéger, comment puis-je m’impliquer ?', translation: 'Realmente quiero ayudar a protegerlas, ¿cómo puedo involucrarme?' }
+          { speaker: 'Ana', line: 'Les mangroves protègent la côte et abritent une biodiversité incroyable.', translation: 'Los manglares protegen la costa y albergan una biodiversidad increíble.' },
+          { speaker: 'Camila', line: 'Je ne savais pas qu’elles étaient si importantes.', translation: 'No sabía que eran tan importantes.' },
+          { speaker: 'Ana', line: 'Malheureusement, elles sont menacées par la construction et la pollution.', translation: 'Lamentablemente, están amenazadas por la construcción y la contaminación.' },
+          { speaker: 'Camila', line: 'Je veux vraiment aider à les protéger, comment puis-je m’impliquer ?', translation: 'Realmente quiero ayudar a protegerlas, ¿cómo puedo involucrarme?' }
         ],
         phrases: ['Elles protègent...', 'Je ne savais pas que...', 'Elles sont menacées par...', 'Comment puis-je m’impliquer ?'],
         exercises: [
-          { type: 'mcq', prompt: 'Que protègent les mangroves, selon la coordinatrice ?', options: ['Rien de particulier', 'La côte et la biodiversité', 'Seulement les poissons', 'Les routes'], answer: 1 },
+          { type: 'mcq', prompt: 'Que protègent les mangroves, selon Ana ?', options: ['Rien de particulier', 'La côte et la biodiversité', 'Seulement les poissons', 'Les routes'], answer: 1 },
           { type: 'mcq', prompt: 'Quelles menaces pèsent sur les mangroves ?', options: ['Le vent', 'La construction et la pollution', 'Les oiseaux', 'Le soleil'], answer: 1 },
-          { type: 'mcq', prompt: 'Que veut faire la bénévole après cette explication ?', options: ['Partir immédiatement', 'S’impliquer pour aider à les protéger', 'Ignorer le problème', 'Changer de sujet'], answer: 1 }
+          { type: 'mcq', prompt: 'Que veut faire Camila après cette explication ?', options: ['Partir immédiatement', 'S’impliquer pour aider à les protéger', 'Ignorer le problème', 'Changer de sujet'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -1587,20 +1587,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
-        title: 'La peinture comme langage de l’identité',
-        description: 'Écoute un historien de l’art expliquer comment un peintre a transformé la question de l’identité en langage pictural.',
-        intro: 'Écoute cette interview consacrée à un peintre dont les origines multiples ont nourri toute l’œuvre.',
+        title: 'Le processus créatif de Mireille',
+        description: 'Écoute Mireille expliquer comment elle travaille avant de commencer une œuvre.',
+        intro: 'Écoute Mireille décrire son processus créatif à Camila pendant l’interview.',
         dialogue: [
-          { speaker: 'Journaliste', line: 'Comment ce peintre a-t-il commencé à explorer la question de l’identité dans son œuvre ?', translation: '¿Cómo empezó este pintor a explorar la cuestión de la identidad en su obra?' },
-          { speaker: 'Historien de l’art', line: 'Tout commence par une longue période d’observation de ses propres origines multiples, avant même de toucher un pinceau.', translation: 'Todo comienza con un largo período de observación de sus propios orígenes múltiples, antes incluso de tocar un pincel.' },
-          { speaker: 'Journaliste', line: 'Et qu’est-ce qui l’inspire le plus dans son travail ?', translation: '¿Y qué es lo que más le inspira en su trabajo?' },
-          { speaker: 'Historien de l’art', line: 'Les symboles et les formes que l’on retrouve à la croisée de ses héritages chinois, africain et européen.', translation: 'Los símbolos y las formas que se encuentran en el cruce de sus herencias china, africana y europea.' }
+          { speaker: 'Camila', line: 'Comment commence votre processus créatif, en général ?', translation: '¿Cómo comienza generalmente su proceso creativo?' },
+          { speaker: 'Mireille', line: 'Toujours par une longue période d’observation, avant même de toucher un pinceau.', translation: 'Siempre por un largo período de observación, antes incluso de tocar un pincel.' },
+          { speaker: 'Camila', line: 'Et qu’est-ce qui vous inspire le plus ?', translation: '¿Y qué es lo que más le inspira?' },
+          { speaker: 'Mireille', line: 'Les couleurs et les textures que je retrouve dans mon quotidien.', translation: 'Los colores y las texturas que encuentro en mi día a día.' }
         ],
-        phrases: ['Comment a-t-il commencé... ?', 'Tout commence par...', 'Qu’est-ce qui l’inspire ?', 'À la croisée de...'],
+        phrases: ['Comment commence votre processus... ?', 'Toujours par...', 'Qu’est-ce qui vous inspire ?', 'Je m’inspire de...'],
         exercises: [
-          { type: 'mcq', prompt: 'Par quoi commence le travail de ce peintre, selon l’historien de l’art ?', options: ['Par la vente', 'Par l’observation de ses origines multiples', 'Par un voyage', 'Par un cours'], answer: 1 },
-          { type: 'mcq', prompt: 'Qu’est-ce qui l’inspire le plus dans son travail ?', options: ['La musique', 'Les symboles à la croisée de ses héritages', 'Les livres', 'Les films'], answer: 1 },
-          { type: 'mcq', prompt: 'Quel type de question la journaliste pose-t-elle dans cet extrait ?', options: ['Des questions personnelles sans rapport', 'Des questions sur le processus créatif', 'Des questions sur le prix des œuvres', 'Des questions sur sa famille'], answer: 1 }
+          { type: 'mcq', prompt: 'Par quoi commence le processus créatif de Mireille ?', options: ['Par la vente', 'Par une période d’observation', 'Par un voyage', 'Par un cours'], answer: 1 },
+          { type: 'mcq', prompt: 'Qu’est-ce qui inspire le plus Mireille ?', options: ['La musique', 'Les couleurs et textures du quotidien', 'Les livres', 'Les films'], answer: 1 },
+          { type: 'mcq', prompt: 'Quel type de question Camila pose-t-elle dans cet extrait ?', options: ['Des questions personnelles sans rapport', 'Des questions sur le processus créatif', 'Des questions sur le prix des œuvres', 'Des questions sur sa famille'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {
@@ -1736,20 +1736,20 @@ const units = [
         ]
       }),
       listening: activity('listening', {
-        title: 'L’étude Erasmus, dix ans après',
-        description: 'Écoute une chercheuse expliquer, en interview, pourquoi un séjour académique à l’étranger transforme durablement les parcours des jeunes.',
-        intro: 'Écoute cette interview consacrée aux effets à long terme de la mobilité étudiante internationale.',
+        title: 'L’appel avec Léa et Karim',
+        description: 'Écoute Camila annoncer la bonne nouvelle à Léa et Karim en visioconférence.',
+        intro: 'Écoute la réaction de Léa et Karim quand Camila leur annonce son admission à l’université.',
         dialogue: [
-          { speaker: 'Journaliste', line: 'Vos recherches suivent d’anciens étudiants Erasmus des années après leur séjour. Qu’avez-vous observé ?', translation: 'Sus investigaciones siguen a antiguos estudiantes Erasmus años después de su estancia. ¿Qué ha observado?' },
-          { speaker: 'Chercheuse', line: 'Avec le recul, la plupart d’entre eux disent que cette expérience a changé leur trajectoire professionnelle et personnelle.', translation: 'Con la perspectiva del tiempo, la mayoría dice que esta experiencia cambió su trayectoria profesional y personal.' },
-          { speaker: 'Journaliste', line: 'Et si certains avaient renoncé à partir, par peur ?', translation: '¿Y si algunos hubieran renunciado a partir, por miedo?' },
-          { speaker: 'Chercheuse', line: 'Beaucoup nous disent que, s’ils avaient annulé ce voyage, ils n’auraient jamais découvert cette confiance en eux qu’ils ont acquise là-bas.', translation: 'Muchos nos dicen que, si hubieran cancelado ese viaje, nunca habrían descubierto esa confianza en sí mismos que adquirieron allí.' }
+          { speaker: 'Camila', line: 'J’ai une nouvelle incroyable : je suis acceptée à l’université de Tours !', translation: '¡Tengo una noticia increíble: fui aceptada en la universidad de Tours!' },
+          { speaker: 'Léa', line: 'Camila, c’est fantastique ! Tu vas revenir vivre ici !', translation: '¡Camila, es fantástico! ¡Vas a volver a vivir aquí!' },
+          { speaker: 'Karim', line: 'On va enfin pouvoir se voir en vrai à nouveau !', translation: '¡Por fin vamos a poder vernos en persona otra vez!' },
+          { speaker: 'Camila', line: 'Je n’arrive pas encore à y croire, je suis tellement heureuse.', translation: 'Todavía no puedo creerlo, estoy tan feliz.' }
         ],
-        phrases: ['Avec le recul...', 'Qu’avez-vous observé ?', 'S’ils avaient annulé..., ils n’auraient jamais...', 'Cette expérience a changé...'],
+        phrases: ['J’ai une nouvelle incroyable.', 'C’est fantastique !', 'On va enfin pouvoir...', 'Je n’arrive pas à y croire.'],
         exercises: [
-          { type: 'mcq', prompt: 'Que suit la chercheuse dans ses travaux ?', options: ['Des étudiants qui n’ont jamais voyagé', 'D’anciens étudiants Erasmus, des années après leur séjour', 'Uniquement des professeurs', 'Des touristes'], answer: 1 },
-          { type: 'mcq', prompt: 'Que disent la plupart des anciens étudiants, avec le recul ?', options: ['Que rien n’a changé', 'Que l’expérience a changé leur trajectoire', 'Qu’ils regrettent ce séjour', 'Qu’ils ne s’en souviennent plus'], answer: 1 },
-          { type: 'mcq', prompt: 'Qu’auraient manqué ceux qui auraient annulé leur voyage, selon la chercheuse ?', options: ['Rien d’important', 'Une confiance en eux qu’ils ont acquise là-bas', 'De meilleures notes uniquement', 'Un diplôme supplémentaire'], answer: 1 }
+          { type: 'mcq', prompt: 'Quelle nouvelle Camila annonce-t-elle ?', options: ['Qu’elle déménage', 'Qu’elle est acceptée à l’université de Tours', 'Qu’elle change de métier', 'Qu’elle part en vacances'], answer: 1 },
+          { type: 'mcq', prompt: 'Comment réagit Léa ?', options: ['Avec indifférence', 'Avec une grande joie', 'Avec tristesse', 'Avec surprise négative'], answer: 1 },
+          { type: 'mcq', prompt: 'Que se réjouit de faire Karim ?', options: ['De déménager lui-même', 'De revoir Camila en vrai', 'De ne plus lui parler', 'De changer d’université'], answer: 1 }
         ]
       }),
       speaking: activity('speaking', {

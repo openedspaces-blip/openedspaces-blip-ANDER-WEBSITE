@@ -175,10 +175,10 @@
         "title": "Listening",
         "text": "Français B2: Écoute ce contenu de niveau B2 et identifie les idées, les nuances et les preuves.",
         "suggestions": [
-          "Avec le recul...",
-          "Qu’avez-vous observé ?",
-          "S’ils avaient annulé..., ils n’auraient jamais...",
-          "Cette expérience a changé..."
+          "J’ai une nouvelle incroyable.",
+          "C’est fantastique !",
+          "On va enfin pouvoir...",
+          "Je n’arrive pas à y croire."
         ]
       },
       "speaking": {
@@ -531,96 +531,6 @@
     ]
   },
   {
-    "slug": "french-b1-projets-et-avenir-reading",
-    "level": "B1",
-    "skill": "reading",
-    "unitId": "projets-et-avenir",
-    "title": "Construire un projet d’avenir",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 10,
-    "estimatedMinutes": 15,
-    "description": "Comment transformer une ambition en étapes réalistes, avec l’aide de conseillers d’orientation.",
-    "intro": "Comment transformer une ambition en étapes réalistes, avec l’aide de conseillers d’orientation.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Construire un projet d’avenir",
-      "parts": [
-        "Vouloir devenir vétérinaire est un objectif clair sur le papier, mais entre ce rêve et le premier jour de cours, il existe souvent six années d’étapes précises que peu de lycéens anticipent. Au Centre d’Information et de Documentation Jeunesse (CIDJ), qui reçoit plus de 40 000 jeunes chaque année partout en France, les conseillers le répètent presque tous les jours : « Si vous écrivez seulement votre rêve sur une feuille, sans étapes, vous ne saurez pas par où commencer. » Leur méthode consiste à transformer une ambition floue en calendrier concret, avec des dates limites d’inscription, des concours et des documents à préparer.",
-        "Prenons un exemple fréquent : un baccalauréat scientifique, une classe préparatoire de deux ans, un concours national très sélectif — qui refuse en moyenne neuf candidats sur dix — puis cinq années d’études. Si chaque étape est écrite avec sa date précise, elle devient une tâche concrète plutôt qu’un vague espoir. Beaucoup de familles découvrent, en consultant ce type de calendrier, qu’elles auraient dû commencer certaines démarches un an plus tôt.",
-        "Les conseillers insistent aussi sur un point que peu d’élèves anticipent : le plan B. Si un concours aussi sélectif échoue une première fois, quelle autre voie restera ouverte ? Une école privée, une réorientation, une nouvelle tentative l’année suivante ? Prévoir cette alternative avant l’échec, plutôt qu’après, évite des mois perdus dans la panique et le découragement.",
-        "Selon les responsables du CIDJ, les jeunes qui repartent avec un calendrier écrit, même approximatif, se sentent presque immédiatement moins anxieux. Ce n’est pas parce qu’ils savent déjà s’ils réussiront, mais parce qu’ils savent enfin par où commencer. Comme le résume une conseillère : « Un projet d’avenir, ce n’est jamais une seule décision. C’est une suite de petites cases à cocher, une par une. »"
-      ],
-      "questions": [
-        "Combien de jeunes le CIDJ reçoit-il chaque année, selon le texte ?",
-        "Quelle proportion de candidats une classe préparatoire sélective refuse-t-elle, selon le texte ?",
-        "Que recommandent les conseillers de prévoir avant un possible échec au concours ?",
-        "Comment se sentent les jeunes qui repartent du CIDJ avec un calendrier écrit ?",
-        "Selon la conseillère citée à la fin du texte, qu’est-ce qu’un projet d’avenir ?"
-      ],
-      "text": "Vouloir devenir vétérinaire est un objectif clair sur le papier, mais entre ce rêve et le premier jour de cours, il existe souvent six années d’étapes précises que peu de lycéens anticipent. Au Centre d’Information et de Documentation Jeunesse (CIDJ), qui reçoit plus de 40 000 jeunes chaque année partout en France, les conseillers le répètent presque tous les jours : « Si vous écrivez seulement votre rêve sur une feuille, sans étapes, vous ne saurez pas par où commencer. » Leur méthode consiste à transformer une ambition floue en calendrier concret, avec des dates limites d’inscription, des concours et des documents à préparer.\n\nPrenons un exemple fréquent : un baccalauréat scientifique, une classe préparatoire de deux ans, un concours national très sélectif — qui refuse en moyenne neuf candidats sur dix — puis cinq années d’études. Si chaque étape est écrite avec sa date précise, elle devient une tâche concrète plutôt qu’un vague espoir. Beaucoup de familles découvrent, en consultant ce type de calendrier, qu’elles auraient dû commencer certaines démarches un an plus tôt.\n\nLes conseillers insistent aussi sur un point que peu d’élèves anticipent : le plan B. Si un concours aussi sélectif échoue une première fois, quelle autre voie restera ouverte ? Une école privée, une réorientation, une nouvelle tentative l’année suivante ? Prévoir cette alternative avant l’échec, plutôt qu’après, évite des mois perdus dans la panique et le découragement.\n\nSelon les responsables du CIDJ, les jeunes qui repartent avec un calendrier écrit, même approximatif, se sentent presque immédiatement moins anxieux. Ce n’est pas parce qu’ils savent déjà s’ils réussiront, mais parce qu’ils savent enfin par où commencer. Comme le résume une conseillère : « Un projet d’avenir, ce n’est jamais une seule décision. C’est une suite de petites cases à cocher, une par une. »"
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Combien de jeunes le CIDJ reçoit-il chaque année, selon le texte ?",
-        "options": [
-          "Plus de 40 000",
-          "Environ 4 000",
-          "Moins de 1 000",
-          "Le texte ne le précise pas"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle proportion de candidats une classe préparatoire sélective refuse-t-elle, selon le texte ?",
-        "options": [
-          "Un sur dix",
-          "Neuf sur dix",
-          "La moitié",
-          "Aucun candidat"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que recommandent les conseillers de prévoir avant un possible échec au concours ?",
-        "options": [
-          "Un plan B",
-          "Un nouveau rêve",
-          "Un déménagement",
-          "Rien de particulier"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment se sentent les jeunes qui repartent du CIDJ avec un calendrier écrit ?",
-        "options": [
-          "Plus anxieux",
-          "Presque immédiatement moins anxieux",
-          "Indifférents",
-          "Découragés"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selon la conseillère citée à la fin du texte, qu’est-ce qu’un projet d’avenir ?",
-        "options": [
-          "Une seule décision définitive",
-          "Une suite de petites cases à cocher, une par une",
-          "Un rêve impossible à planifier",
-          "Un secret qu’il ne faut partager avec personne"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-la-rentree-universitaire-reading",
     "level": "C1",
     "skill": "reading",
@@ -845,6 +755,96 @@
           "Suppression de toute distinction entre œuvre humaine et œuvre générée"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « La machine peut-elle véritablement créer ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-projets-et-avenir-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "projets-et-avenir",
+    "title": "Construire un projet d’avenir",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 10,
+    "estimatedMinutes": 15,
+    "description": "Comment transformer une ambition en étapes réalistes, avec l’aide de conseillers d’orientation.",
+    "intro": "Comment transformer une ambition en étapes réalistes, avec l’aide de conseillers d’orientation.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Construire un projet d’avenir",
+      "parts": [
+        "Vouloir devenir vétérinaire est un objectif clair sur le papier, mais entre ce rêve et le premier jour de cours, il existe souvent six années d’étapes précises que peu de lycéens anticipent. Au Centre d’Information et de Documentation Jeunesse (CIDJ), qui reçoit plus de 40 000 jeunes chaque année partout en France, les conseillers le répètent presque tous les jours : « Si vous écrivez seulement votre rêve sur une feuille, sans étapes, vous ne saurez pas par où commencer. » Leur méthode consiste à transformer une ambition floue en calendrier concret, avec des dates limites d’inscription, des concours et des documents à préparer.",
+        "Prenons un exemple fréquent : un baccalauréat scientifique, une classe préparatoire de deux ans, un concours national très sélectif — qui refuse en moyenne neuf candidats sur dix — puis cinq années d’études. Si chaque étape est écrite avec sa date précise, elle devient une tâche concrète plutôt qu’un vague espoir. Beaucoup de familles découvrent, en consultant ce type de calendrier, qu’elles auraient dû commencer certaines démarches un an plus tôt.",
+        "Les conseillers insistent aussi sur un point que peu d’élèves anticipent : le plan B. Si un concours aussi sélectif échoue une première fois, quelle autre voie restera ouverte ? Une école privée, une réorientation, une nouvelle tentative l’année suivante ? Prévoir cette alternative avant l’échec, plutôt qu’après, évite des mois perdus dans la panique et le découragement.",
+        "Selon les responsables du CIDJ, les jeunes qui repartent avec un calendrier écrit, même approximatif, se sentent presque immédiatement moins anxieux. Ce n’est pas parce qu’ils savent déjà s’ils réussiront, mais parce qu’ils savent enfin par où commencer. Comme le résume une conseillère : « Un projet d’avenir, ce n’est jamais une seule décision. C’est une suite de petites cases à cocher, une par une. »"
+      ],
+      "questions": [
+        "Combien de jeunes le CIDJ reçoit-il chaque année, selon le texte ?",
+        "Quelle proportion de candidats une classe préparatoire sélective refuse-t-elle, selon le texte ?",
+        "Que recommandent les conseillers de prévoir avant un possible échec au concours ?",
+        "Comment se sentent les jeunes qui repartent du CIDJ avec un calendrier écrit ?",
+        "Selon la conseillère citée à la fin du texte, qu’est-ce qu’un projet d’avenir ?"
+      ],
+      "text": "Vouloir devenir vétérinaire est un objectif clair sur le papier, mais entre ce rêve et le premier jour de cours, il existe souvent six années d’étapes précises que peu de lycéens anticipent. Au Centre d’Information et de Documentation Jeunesse (CIDJ), qui reçoit plus de 40 000 jeunes chaque année partout en France, les conseillers le répètent presque tous les jours : « Si vous écrivez seulement votre rêve sur une feuille, sans étapes, vous ne saurez pas par où commencer. » Leur méthode consiste à transformer une ambition floue en calendrier concret, avec des dates limites d’inscription, des concours et des documents à préparer.\n\nPrenons un exemple fréquent : un baccalauréat scientifique, une classe préparatoire de deux ans, un concours national très sélectif — qui refuse en moyenne neuf candidats sur dix — puis cinq années d’études. Si chaque étape est écrite avec sa date précise, elle devient une tâche concrète plutôt qu’un vague espoir. Beaucoup de familles découvrent, en consultant ce type de calendrier, qu’elles auraient dû commencer certaines démarches un an plus tôt.\n\nLes conseillers insistent aussi sur un point que peu d’élèves anticipent : le plan B. Si un concours aussi sélectif échoue une première fois, quelle autre voie restera ouverte ? Une école privée, une réorientation, une nouvelle tentative l’année suivante ? Prévoir cette alternative avant l’échec, plutôt qu’après, évite des mois perdus dans la panique et le découragement.\n\nSelon les responsables du CIDJ, les jeunes qui repartent avec un calendrier écrit, même approximatif, se sentent presque immédiatement moins anxieux. Ce n’est pas parce qu’ils savent déjà s’ils réussiront, mais parce qu’ils savent enfin par où commencer. Comme le résume une conseillère : « Un projet d’avenir, ce n’est jamais une seule décision. C’est une suite de petites cases à cocher, une par une. »"
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Combien de jeunes le CIDJ reçoit-il chaque année, selon le texte ?",
+        "options": [
+          "Plus de 40 000",
+          "Environ 4 000",
+          "Moins de 1 000",
+          "Le texte ne le précise pas"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle proportion de candidats une classe préparatoire sélective refuse-t-elle, selon le texte ?",
+        "options": [
+          "Un sur dix",
+          "Neuf sur dix",
+          "La moitié",
+          "Aucun candidat"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que recommandent les conseillers de prévoir avant un possible échec au concours ?",
+        "options": [
+          "Un plan B",
+          "Un nouveau rêve",
+          "Un déménagement",
+          "Rien de particulier"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Comment se sentent les jeunes qui repartent du CIDJ avec un calendrier écrit ?",
+        "options": [
+          "Plus anxieux",
+          "Presque immédiatement moins anxieux",
+          "Indifférents",
+          "Découragés"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Selon la conseillère citée à la fin du texte, qu’est-ce qu’un projet d’avenir ?",
+        "options": [
+          "Une seule décision définitive",
+          "Une suite de petites cases à cocher, une par une",
+          "Un rêve impossible à planifier",
+          "Un secret qu’il ne faut partager avec personne"
+        ]
       }
     ]
   },
@@ -1430,236 +1430,6 @@
     ]
   },
   {
-    "slug": "french-b1-projets-et-avenir-listening",
-    "level": "B1",
-    "skill": "listening",
-    "unitId": "projets-et-avenir",
-    "title": "Choisir son prochain projet",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 11,
-    "estimatedMinutes": 12,
-    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Si je choisis..., je vais...",
-      "Si..., il vaut mieux...",
-      "À mon avis...",
-      "Ça m’aide de..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Bienvenue dans notre podcast consacré aux projets d’avenir. Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante. Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité. Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps. Si vous préférez travailler, vous gagnerez de l’expérience et vous découvrirez plus vite le monde professionnel. D’un côté, un projet doit être réaliste ; de l’autre, il doit aussi vous donner envie d’avancer. À mon avis, il ne faut pas décider uniquement pour satisfaire les autres. Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai. Vous pouvez également tester une option grâce à un stage ou à une courte expérience. Quelle que soit votre décision, vous apprendrez quelque chose. L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "podcast",
-      "storyTitle": "Choisir son prochain projet",
-      "mainTranscript": "Bienvenue dans notre podcast consacré aux projets d’avenir. Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante. Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité. Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps. Si vous préférez travailler, vous gagnerez de l’expérience et vous découvrirez plus vite le monde professionnel. D’un côté, un projet doit être réaliste ; de l’autre, il doit aussi vous donner envie d’avancer. À mon avis, il ne faut pas décider uniquement pour satisfaire les autres. Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai. Vous pouvez également tester une option grâce à un stage ou à une courte expérience. Quelle que soit votre décision, vous apprendrez quelque chose. L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Bienvenue dans notre podcast consacré aux projets d’avenir."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Si vous préférez travailler, vous gagnerez de l’expérience et vous découvrirez plus vite le monde professionnel."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "D’un côté, un projet doit être réaliste ; de l’autre, il doit aussi vous donner envie d’avancer."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "À mon avis, il ne faut pas décider uniquement pour satisfaire les autres."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Vous pouvez également tester une option grâce à un stage ou à une courte expérience."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Quelle que soit votre décision, vous apprendrez quelque chose."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance."
-        }
-      ],
-      "listeningComprehension": {
-        "id": "french-b1-projets-et-avenir-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Choisir son prochain projet », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast consacré aux projets d’avenir."
-              },
-              {
-                "id": "o2",
-                "text": "Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps."
-              },
-              {
-                "id": "o3",
-                "text": "Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai."
-              },
-              {
-                "id": "o4",
-                "text": "L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Bienvenue dans notre podcast consacré aux projets d’avenir. », que se passe-t-il ensuite dans « Choisir son prochain projet » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast consacré aux projets d’avenir."
-              },
-              {
-                "id": "o2",
-                "text": "Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps."
-              },
-              {
-                "id": "o3",
-                "text": "Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai."
-              },
-              {
-                "id": "o4",
-                "text": "L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Choisir son prochain projet » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast consacré aux projets d’avenir."
-              },
-              {
-                "id": "o2",
-                "text": "Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps."
-              },
-              {
-                "id": "o3",
-                "text": "Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai."
-              },
-              {
-                "id": "o4",
-                "text": "L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Choisir son prochain projet » après « Parlez avec des personnes de confiance, cherchez des informations… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast consacré aux projets d’avenir."
-              },
-              {
-                "id": "o2",
-                "text": "Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps."
-              },
-              {
-                "id": "o3",
-                "text": "Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai."
-              },
-              {
-                "id": "o4",
-                "text": "L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Choisir son prochain projet », quel détail présente la situation ?",
-        "options": [
-          "Bienvenue dans notre podcast consacré aux projets d’avenir.",
-          "Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps.",
-          "Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai.",
-          "L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Bienvenue dans notre podcast consacré aux projets d’avenir. », que se passe-t-il ensuite dans « Choisir son prochain projet » ?",
-        "options": [
-          "Bienvenue dans notre podcast consacré aux projets d’avenir.",
-          "Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps.",
-          "Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai.",
-          "L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Choisir son prochain projet » ?",
-        "options": [
-          "Bienvenue dans notre podcast consacré aux projets d’avenir.",
-          "Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps.",
-          "Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai.",
-          "L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Choisir son prochain projet » après « Parlez avec des personnes de confiance, cherchez des informations… » ?",
-        "options": [
-          "Bienvenue dans notre podcast consacré aux projets d’avenir.",
-          "Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps.",
-          "Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai.",
-          "L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-la-rentree-universitaire-listening",
     "level": "C1",
     "skill": "listening",
@@ -2177,6 +1947,129 @@
     ]
   },
   {
+    "slug": "french-b1-projets-et-avenir-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "projets-et-avenir",
+    "title": "Choisir son prochain projet",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 11,
+    "estimatedMinutes": 12,
+    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Si je reste...",
+      "Si tu pars...",
+      "À mon avis...",
+      "Ça m’aide de..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Bienvenue dans notre podcast consacré aux projets d’avenir. Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante. Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité. Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps. Si vous préférez travailler, vous gagnerez de l’expérience et vous découvrirez plus vite le monde professionnel. D’un côté, un projet doit être réaliste ; de l’autre, il doit aussi vous donner envie d’avancer. À mon avis, il ne faut pas décider uniquement pour satisfaire les autres. Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai. Vous pouvez également tester une option grâce à un stage ou à une courte expérience. Quelle que soit votre décision, vous apprendrez quelque chose. L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "podcast",
+      "storyTitle": "Choisir son prochain projet",
+      "mainTranscript": "Bienvenue dans notre podcast consacré aux projets d’avenir. Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante. Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité. Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps. Si vous préférez travailler, vous gagnerez de l’expérience et vous découvrirez plus vite le monde professionnel. D’un côté, un projet doit être réaliste ; de l’autre, il doit aussi vous donner envie d’avancer. À mon avis, il ne faut pas décider uniquement pour satisfaire les autres. Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai. Vous pouvez également tester une option grâce à un stage ou à une courte expérience. Quelle que soit votre décision, vous apprendrez quelque chose. L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Bienvenue dans notre podcast consacré aux projets d’avenir."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Aujourd’hui, je vous propose une méthode simple pour prendre une décision importante."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Commencez par noter votre objectif principal, puis observez les avantages et les difficultés de chaque possibilité."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Si vous choisissez une formation, vous développerez peut-être de nouvelles compétences, mais vous devrez organiser votre temps."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Si vous préférez travailler, vous gagnerez de l’expérience et vous découvrirez plus vite le monde professionnel."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "D’un côté, un projet doit être réaliste ; de l’autre, il doit aussi vous donner envie d’avancer."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "À mon avis, il ne faut pas décider uniquement pour satisfaire les autres."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Parlez avec des personnes de confiance, cherchez des informations précises et accordez-vous un délai."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Vous pouvez également tester une option grâce à un stage ou à une courte expérience."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Quelle que soit votre décision, vous apprendrez quelque chose."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "L’avenir n’est pas toujours prévisible, mais un choix réfléchi permet de commencer avec plus de confiance."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que se passe-t-il si Camila reste, selon elle ?",
+        "options": [
+          "Elle va oublier le français",
+          "Elle va continuer à progresser en français",
+          "Elle va retourner tout de suite",
+          "Elle va changer de famille"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que dit Léa sur la décision de Camila ?",
+        "options": [
+          "Qu’elle est mauvaise",
+          "Qu’il n’y a pas de mauvaise décision",
+          "Qu’elle doit rester obligatoirement",
+          "Qu’elle ne la comprend pas"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Comment Camila se sent-elle après avoir parlé avec Léa ?",
+        "options": [
+          "Plus confuse",
+          "Aidée et soutenue",
+          "Fâchée",
+          "Indifférente"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-b2-retour-a-saint-domingue-listening",
     "level": "B2",
     "skill": "listening",
@@ -2192,10 +2085,10 @@
     "mission": "",
     "grammar": "",
     "phrases": [
-      "On pense souvent que...",
-      "Contrairement à...",
-      "Ce qui rend ce moment si...",
-      "On a l’impression que..."
+      "Tu m’as manqué.",
+      "C’est étrange de...",
+      "On dirait que...",
+      "J’ai dû..."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -2283,145 +2176,48 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "listeningComprehension": {
-        "id": "french-b2-retour-a-saint-domingue-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Le retour que j’avais imaginé », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
-              },
-              {
-                "id": "o2",
-                "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
-              },
-              {
-                "id": "o3",
-                "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
-              },
-              {
-                "id": "o4",
-                "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie… », que se passe-t-il ensuite dans « Le retour que j’avais imaginé » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
-              },
-              {
-                "id": "o2",
-                "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
-              },
-              {
-                "id": "o3",
-                "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
-              },
-              {
-                "id": "o4",
-                "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le retour que j’avais imaginé » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
-              },
-              {
-                "id": "o2",
-                "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
-              },
-              {
-                "id": "o3",
-                "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
-              },
-              {
-                "id": "o4",
-                "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Le retour que j’avais imaginé » après « Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois. » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude."
-              },
-              {
-                "id": "o2",
-                "text": "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple."
-              },
-              {
-                "id": "o3",
-                "text": "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois."
-              },
-              {
-                "id": "o4",
-                "text": "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Le retour que j’avais imaginé », quel détail présente la situation ?",
+        "prompt": "Comment Sofía réagit-elle en voyant Camila ?",
         "options": [
-          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
-          "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.",
-          "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.",
-          "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
+          "Avec indifférence",
+          "Avec une grande joie",
+          "Avec de la colère",
+          "Avec de la tristesse"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie… », que se passe-t-il ensuite dans « Le retour que j’avais imaginé » ?",
+        "prompt": "Que remarque Sofía dans la façon de parler de Camila ?",
         "options": [
-          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
-          "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.",
-          "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.",
-          "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
+          "Elle parle trop vite",
+          "Elle fait des pauses avant de parler",
+          "Elle ne parle plus espagnol",
+          "Elle chuchote"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le retour que j’avais imaginé » ?",
+        "prompt": "Comment Camila explique-t-elle ce changement ?",
         "options": [
-          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
-          "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.",
-          "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.",
-          "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
+          "Elle ne l’explique pas",
+          "Elle a dû traduire dans sa tête pendant longtemps",
+          "Elle est fatiguée du voyage",
+          "Elle ne veut plus parler"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Le retour que j’avais imaginé » après « Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois. » ?",
+        "prompt": "Quel est le ton général de cette conversation ?",
         "options": [
-          "Quand mon avion a atterri à Saint-Domingue, j’ai ressenti une joie immédiate, mais aussi une étrange inquiétude.",
-          "Pourtant, dès les premiers jours, j’ai compris que le retour ne serait pas aussi simple.",
-          "Ce mal du pays inversé m’a obligée à m’adapter une nouvelle fois.",
-          "Mes expériences s’étaient ajoutées les unes aux autres et formaient maintenant une identité plus large."
+          "Tendu et froid",
+          "Chaleureux et joyeux",
+          "Fâché",
+          "Indifférent"
         ]
       }
     ]
@@ -2540,54 +2336,6 @@
       {
         "type": "practice",
         "prompt": "Répète le dialogue avec un/une camarade en changeant le produit et le prix."
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-projets-et-avenir-speaking",
-    "level": "B1",
-    "skill": "speaking",
-    "unitId": "projets-et-avenir",
-    "title": "Exposer un dilemme",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 12,
-    "estimatedMinutes": 12,
-    "description": "Présente oralement une décision difficile et justifie ton choix.",
-    "intro": "Présente oralement une décision difficile et justifie ton choix.",
-    "mission": "Prépare une présentation de deux minutes sur un dilemme (réel ou imaginaire), en donnant les avantages et les inconvénients de chaque option, puis ta décision finale et pourquoi.",
-    "grammar": "",
-    "phrases": [
-      "D’un côté... / de l’autre côté...",
-      "Si je choisis..., je vais...",
-      "À mon avis...",
-      "Finalement, j’ai décidé de..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "D’un côté, si je reste, je vais progresser encore plus. De l’autre côté, si je pars, je vais retrouver ma famille.",
-        "translation": "Por un lado, si me quedo, voy a progresar aún más. Por otro lado, si me voy, voy a reencontrarme con mi familia."
-      },
-      {
-        "speaker": "Toi",
-        "line": "Finalement, j’ai décidé de rentrer, parce que ma famille me manque trop.",
-        "translation": "Finalmente, decidí regresar, porque extraño demasiado a mi familia."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Présente un dilemme personnel ou imaginaire pendant deux minutes, en justifiant ta décision finale."
-      },
-      {
-        "type": "practice",
-        "prompt": "Débats avec un/une camarade : chacun défend une option différente du même dilemme."
       }
     ]
   },
@@ -2742,6 +2490,54 @@
     ]
   },
   {
+    "slug": "french-b1-projets-et-avenir-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "projets-et-avenir",
+    "title": "Exposer un dilemme",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 12,
+    "estimatedMinutes": 12,
+    "description": "Présente oralement une décision difficile et justifie ton choix.",
+    "intro": "Présente oralement une décision difficile et justifie ton choix.",
+    "mission": "Prépare une présentation de deux minutes sur un dilemme (réel ou imaginaire), en donnant les avantages et les inconvénients de chaque option, puis ta décision finale et pourquoi.",
+    "grammar": "",
+    "phrases": [
+      "D’un côté... / de l’autre côté...",
+      "Si je choisis..., je vais...",
+      "À mon avis...",
+      "Finalement, j’ai décidé de..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "D’un côté, si je reste, je vais progresser encore plus. De l’autre côté, si je pars, je vais retrouver ma famille.",
+        "translation": "Por un lado, si me quedo, voy a progresar aún más. Por otro lado, si me voy, voy a reencontrarme con mi familia."
+      },
+      {
+        "speaker": "Toi",
+        "line": "Finalement, j’ai décidé de rentrer, parce que ma famille me manque trop.",
+        "translation": "Finalmente, decidí regresar, porque extraño demasiado a mi familia."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Présente un dilemme personnel ou imaginaire pendant deux minutes, en justifiant ta décision finale."
+      },
+      {
+        "type": "practice",
+        "prompt": "Débats avec un/une camarade : chacun défend une option différente du même dilemme."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-retour-a-saint-domingue-speaking",
     "level": "B2",
     "skill": "speaking",
@@ -2880,45 +2676,6 @@
     ]
   },
   {
-    "slug": "french-b1-projets-et-avenir-writing",
-    "level": "B1",
-    "skill": "writing",
-    "unitId": "projets-et-avenir",
-    "title": "Une lettre à mes amis",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 13,
-    "estimatedMinutes": 16,
-    "description": "Écris une lettre expliquant ta décision et tes projets futurs.",
-    "intro": "Écris une lettre expliquant ta décision et tes projets futurs.",
-    "mission": "Écris 150 à 200 mots sous forme de lettre à un ami, expliquant une décision importante que tu as prise et tes projets pour l’avenir.",
-    "grammar": "",
-    "phrases": [
-      "Je t’écris pour t’annoncer que...",
-      "J’ai décidé de...",
-      "Dans le futur, je...",
-      "Si tout se passe bien, je..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Cher ami, je t’écris pour t’annoncer que j’ai décidé de m’orienter vers des études de vétérinaire. C’était une décision difficile, mais c’est un métier qui me passionne depuis toujours. Si tout se passe bien, je commencerai la classe préparatoire l’année prochaine. Je sais que le chemin sera long, mais je suis prêt(e) à m’organiser étape par étape.",
-        "translation": "Querido amigo, te escribo para anunciarte que decidí orientarme hacia estudios de veterinaria. Fue una decisión difícil, pero es una profesión que me apasiona desde siempre. Si todo va bien, empezaré la clase preparatoria el año que viene. Sé que el camino será largo, pero estoy listo/a para organizarme etapa por etapa."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris une lettre de 150 à 200 mots expliquant une décision importante et tes projets pour l’avenir, en utilisant le futur simple et au moins une hypothèse avec « si »."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-la-rentree-universitaire-writing",
     "level": "C1",
     "skill": "writing",
@@ -3031,6 +2788,45 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-projets-et-avenir-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "projets-et-avenir",
+    "title": "Une lettre à mes amis",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 13,
+    "estimatedMinutes": 16,
+    "description": "Écris une lettre expliquant ta décision et tes projets futurs.",
+    "intro": "Écris une lettre expliquant ta décision et tes projets futurs.",
+    "mission": "Écris 150 à 200 mots sous forme de lettre à un ami, expliquant une décision importante que tu as prise et tes projets pour l’avenir.",
+    "grammar": "",
+    "phrases": [
+      "Je t’écris pour t’annoncer que...",
+      "J’ai décidé de...",
+      "Dans le futur, je...",
+      "Si tout se passe bien, je..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Cher ami, je t’écris pour t’annoncer que j’ai décidé de m’orienter vers des études de vétérinaire. C’était une décision difficile, mais c’est un métier qui me passionne depuis toujours. Si tout se passe bien, je commencerai la classe préparatoire l’année prochaine. Je sais que le chemin sera long, mais je suis prêt(e) à m’organiser étape par étape.",
+        "translation": "Querido amigo, te escribo para anunciarte que decidí orientarme hacia estudios de veterinaria. Fue una decisión difícil, pero es una profesión que me apasiona desde siempre. Si todo va bien, empezaré la clase preparatoria el año que viene. Sé que el camino será largo, pero estoy listo/a para organizarme etapa por etapa."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris une lettre de 150 à 200 mots expliquant une décision importante et tes projets pour l’avenir, en utilisant le futur simple et au moins une hypothèse avec « si »."
       }
     ]
   },
@@ -3653,339 +3449,6 @@
           "faisait",
           "faire"
         ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-projets-et-avenir-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "projets-et-avenir",
-    "title": "Le futur simple et l’hypothèse avec si + présent",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 14,
-    "estimatedMinutes": 12,
-    "description": "Exprimer un projet futur et une conséquence probable.",
-    "intro": "Exprimer un projet futur et une conséquence probable.",
-    "mission": "",
-    "grammar": "Le futur simple se forme généralement à partir de l’infinitif + terminaisons -ai, -as, -a, -ons, -ez, -ont : je resterai, tu partiras, elle décidera. Pour exprimer une hypothèse probable, on utilise « si + présent, futur simple » : « Si je reste, je progresserai en français. » Le verbe après « si » reste toujours au présent, jamais au futur.",
-    "phrases": [
-      "Si je reste, je...",
-      "Si tu pars, tu...",
-      "Nous déciderons...",
-      "Ils reviendront..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b1-projets-et-avenir-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b1-projets-et-avenir-grammar-q1",
-            "type": "mcq",
-            "prompt": "Si je reste en France, je ___ mon français.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "améliorerai"
-              },
-              {
-                "id": "a",
-                "text": "améliore"
-              },
-              {
-                "id": "c",
-                "text": "améliorerais"
-              },
-              {
-                "id": "d",
-                "text": "ai amélioré"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-projets-et-avenir-grammar-q2",
-            "type": "mcq",
-            "prompt": "Si tu ___, tu retrouveras ta famille.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "partiras"
-              },
-              {
-                "id": "a",
-                "text": "pars"
-              },
-              {
-                "id": "c",
-                "text": "partirais"
-              },
-              {
-                "id": "d",
-                "text": "es parti"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-projets-et-avenir-grammar-q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase est correcte ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Si je serai riche, je voyagerai."
-              },
-              {
-                "id": "c",
-                "text": "Si je suis riche, je voyage."
-              },
-              {
-                "id": "b",
-                "text": "Si je suis riche, je voyagerai."
-              },
-              {
-                "id": "d",
-                "text": "Si je serais riche, je voyagerais."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-projets-et-avenir-grammar-q4",
-            "type": "mcq",
-            "prompt": "Mes amis ___ me rendre visite un jour.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "b",
-                "text": "viennent"
-              },
-              {
-                "id": "c",
-                "text": "venir"
-              },
-              {
-                "id": "d",
-                "text": "sont venus"
-              },
-              {
-                "id": "a",
-                "text": "viendront"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-projets-et-avenir-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Si je reste en France, je améliore mon français. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Si je reste en France, je améliorerai mon français."
-              },
-              {
-                "id": "a",
-                "text": "Si je reste en France, je améliore mon français."
-              },
-              {
-                "id": "c",
-                "text": "Si je reste en France, je améliorerais mon français."
-              },
-              {
-                "id": "d",
-                "text": "Si je reste en France, je ai amélioré mon français."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-projets-et-avenir-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Si tu partiras, tu retrouveras ta famille. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Si tu partiras, tu retrouveras ta famille."
-              },
-              {
-                "id": "a",
-                "text": "Si tu pars, tu retrouveras ta famille."
-              },
-              {
-                "id": "c",
-                "text": "Si tu partirais, tu retrouveras ta famille."
-              },
-              {
-                "id": "d",
-                "text": "Si tu es parti, tu retrouveras ta famille."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-projets-et-avenir-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Si je serai riche, je voyagerai. » dans ce contexte : « Quelle phrase est correcte ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Si je serai riche, je voyagerai."
-              },
-              {
-                "id": "c",
-                "text": "Si je suis riche, je voyage."
-              },
-              {
-                "id": "b",
-                "text": "Si je suis riche, je voyagerai."
-              },
-              {
-                "id": "d",
-                "text": "Si je serais riche, je voyagerais."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-projets-et-avenir-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Mes amis viennent me rendre visite un jour. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Mes amis viennent me rendre visite un jour."
-              },
-              {
-                "id": "c",
-                "text": "Mes amis venir me rendre visite un jour."
-              },
-              {
-                "id": "d",
-                "text": "Mes amis sont venus me rendre visite un jour."
-              },
-              {
-                "id": "a",
-                "text": "Mes amis viendront me rendre visite un jour."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Le futur simple et l’hypothèse avec si + présent",
-        "definition": "Le futur simple se forme généralement à partir de l’infinitif + terminaisons -ai, -as, -a, -ons, -ez, -ont : je resterai, tu partiras, elle décidera. Pour exprimer une hypothèse probable, on utilise « si + présent, futur simple » : « Si je reste, je progresserai en français. » Le verbe après « si » reste toujours au présent, jamais au futur.",
-        "structure": "Forme à observer : Le futur simple et l’hypothèse avec si + présent. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Exprimer un projet futur et une conséquence probable.",
-        "examples": [
-          "Si je reste en France, je améliorerai mon français.",
-          "Si tu pars, tu retrouveras ta famille.",
-          "Si je suis riche, je voyagerai.",
-          "Mes amis viendront me rendre visite un jour."
-        ],
-        "explanation": "Le futur simple se forme généralement à partir de l’infinitif + terminaisons -ai, -as, -a, -ons, -ez, -ont : je resterai, tu partiras, elle décidera. Pour exprimer une hypothèse probable, on utilise « si + présent, futur simple » : « Si je reste, je progresserai en français. » Le verbe après « si » reste toujours au présent, jamais au futur.",
-        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
-        "cefrLevel": "B1",
-        "unitContext": "Exprimer un projet futur et une conséquence probable."
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Si je reste en France, je ___ mon français.",
-        "options": [
-          "améliorerai",
-          "améliore",
-          "améliorerais",
-          "ai amélioré"
-        ],
-        "explanation": "La bonne réponse est « améliorerai » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Si tu ___, tu retrouveras ta famille.",
-        "options": [
-          "partiras",
-          "pars",
-          "partirais",
-          "es parti"
-        ],
-        "explanation": "La bonne réponse est « pars » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase est correcte ?",
-        "options": [
-          "Si je serai riche, je voyagerai.",
-          "Si je suis riche, je voyage.",
-          "Si je suis riche, je voyagerai.",
-          "Si je serais riche, je voyagerais."
-        ],
-        "explanation": "La bonne réponse est « Si je suis riche, je voyagerai. » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Mes amis ___ me rendre visite un jour.",
-        "options": [
-          "viennent",
-          "venir",
-          "sont venus",
-          "viendront"
-        ],
-        "explanation": "La bonne réponse est « viendront » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Si je reste en France, j’améliore mon français. » ?",
-        "options": [
-          "Si je reste en France, j’améliorerai mon français.",
-          "Si je reste en France, j’améliore mon français.",
-          "Si je reste en France, j’améliorerais mon français.",
-          "Si je reste en France, j’ai amélioré mon français."
-        ],
-        "explanation": "La phrase correcte est : « Si je reste en France, j’améliorerai mon français. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Si tu partiras, tu retrouveras ta famille. » ?",
-        "options": [
-          "Si tu partiras, tu retrouveras ta famille.",
-          "Si tu pars, tu retrouveras ta famille.",
-          "Si tu partirais, tu retrouveras ta famille.",
-          "Si tu es parti, tu retrouveras ta famille."
-        ],
-        "explanation": "La phrase correcte est : « Si tu pars, tu retrouveras ta famille. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « Si je serai riche, je voyagerai. » dans ce contexte : « Quelle phrase est correcte ? » ?",
-        "options": [
-          "Si je serai riche, je voyagerai.",
-          "Si je suis riche, je voyage.",
-          "Si je suis riche, je voyagerai.",
-          "Si je serais riche, je voyagerais."
-        ],
-        "explanation": "La bonne réponse est « Si je suis riche, je voyagerai. »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Mes amis viennent me rendre visite un jour. » ?",
-        "options": [
-          "Mes amis viennent me rendre visite un jour.",
-          "Mes amis venir me rendre visite un jour.",
-          "Mes amis sont venus me rendre visite un jour.",
-          "Mes amis viendront me rendre visite un jour."
-        ],
-        "explanation": "La phrase correcte est : « Mes amis viendront me rendre visite un jour. »"
       }
     ]
   },
@@ -4656,6 +4119,339 @@
     ]
   },
   {
+    "slug": "french-b1-projets-et-avenir-grammar",
+    "level": "B1",
+    "skill": "grammar",
+    "unitId": "projets-et-avenir",
+    "title": "Le futur simple et l’hypothèse avec si + présent",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 14,
+    "estimatedMinutes": 12,
+    "description": "Exprimer un projet futur et une conséquence probable.",
+    "intro": "Exprimer un projet futur et une conséquence probable.",
+    "mission": "",
+    "grammar": "Le futur simple se forme généralement à partir de l’infinitif + terminaisons -ai, -as, -a, -ons, -ez, -ont : je resterai, tu partiras, elle décidera. Pour exprimer une hypothèse probable, on utilise « si + présent, futur simple » : « Si je reste, je progresserai en français. » Le verbe après « si » reste toujours au présent, jamais au futur.",
+    "phrases": [
+      "Si je reste, je...",
+      "Si tu pars, tu...",
+      "Nous déciderons...",
+      "Ils reviendront..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b1-projets-et-avenir-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b1-projets-et-avenir-grammar-q1",
+            "type": "mcq",
+            "prompt": "Si je reste en France, je ___ mon français.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "améliorerai"
+              },
+              {
+                "id": "a",
+                "text": "améliore"
+              },
+              {
+                "id": "c",
+                "text": "améliorerais"
+              },
+              {
+                "id": "d",
+                "text": "ai amélioré"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-projets-et-avenir-grammar-q2",
+            "type": "mcq",
+            "prompt": "Si tu ___, tu retrouveras ta famille.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "partiras"
+              },
+              {
+                "id": "a",
+                "text": "pars"
+              },
+              {
+                "id": "c",
+                "text": "partirais"
+              },
+              {
+                "id": "d",
+                "text": "es parti"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-projets-et-avenir-grammar-q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase est correcte ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Si je serai riche, je voyagerai."
+              },
+              {
+                "id": "c",
+                "text": "Si je suis riche, je voyage."
+              },
+              {
+                "id": "b",
+                "text": "Si je suis riche, je voyagerai."
+              },
+              {
+                "id": "d",
+                "text": "Si je serais riche, je voyagerais."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-projets-et-avenir-grammar-q4",
+            "type": "mcq",
+            "prompt": "Mes amis ___ me rendre visite un jour.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "b",
+                "text": "viennent"
+              },
+              {
+                "id": "c",
+                "text": "venir"
+              },
+              {
+                "id": "d",
+                "text": "sont venus"
+              },
+              {
+                "id": "a",
+                "text": "viendront"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-projets-et-avenir-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Si je reste en France, je améliore mon français. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Si je reste en France, je améliorerai mon français."
+              },
+              {
+                "id": "a",
+                "text": "Si je reste en France, je améliore mon français."
+              },
+              {
+                "id": "c",
+                "text": "Si je reste en France, je améliorerais mon français."
+              },
+              {
+                "id": "d",
+                "text": "Si je reste en France, je ai amélioré mon français."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-projets-et-avenir-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Si tu partiras, tu retrouveras ta famille. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Si tu partiras, tu retrouveras ta famille."
+              },
+              {
+                "id": "a",
+                "text": "Si tu pars, tu retrouveras ta famille."
+              },
+              {
+                "id": "c",
+                "text": "Si tu partirais, tu retrouveras ta famille."
+              },
+              {
+                "id": "d",
+                "text": "Si tu es parti, tu retrouveras ta famille."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-projets-et-avenir-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Si je serai riche, je voyagerai. » dans ce contexte : « Quelle phrase est correcte ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Si je serai riche, je voyagerai."
+              },
+              {
+                "id": "c",
+                "text": "Si je suis riche, je voyage."
+              },
+              {
+                "id": "b",
+                "text": "Si je suis riche, je voyagerai."
+              },
+              {
+                "id": "d",
+                "text": "Si je serais riche, je voyagerais."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-projets-et-avenir-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Mes amis viennent me rendre visite un jour. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Mes amis viennent me rendre visite un jour."
+              },
+              {
+                "id": "c",
+                "text": "Mes amis venir me rendre visite un jour."
+              },
+              {
+                "id": "d",
+                "text": "Mes amis sont venus me rendre visite un jour."
+              },
+              {
+                "id": "a",
+                "text": "Mes amis viendront me rendre visite un jour."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le futur simple et l’hypothèse avec si + présent",
+        "definition": "Le futur simple se forme généralement à partir de l’infinitif + terminaisons -ai, -as, -a, -ons, -ez, -ont : je resterai, tu partiras, elle décidera. Pour exprimer une hypothèse probable, on utilise « si + présent, futur simple » : « Si je reste, je progresserai en français. » Le verbe après « si » reste toujours au présent, jamais au futur.",
+        "explanation": "Le futur simple se forme généralement à partir de l’infinitif + terminaisons -ai, -as, -a, -ons, -ez, -ont : je resterai, tu partiras, elle décidera. Pour exprimer une hypothèse probable, on utilise « si + présent, futur simple » : « Si je reste, je progresserai en français. » Le verbe après « si » reste toujours au présent, jamais au futur.",
+        "structure": "Estructura central: Le futur simple et l’hypothèse avec si + présent.",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "function": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Exprimer un projet futur et une conséquence probable.",
+        "examples": [
+          "Si je reste en France, je améliorerai mon français.",
+          "Si tu pars, tu retrouveras ta famille.",
+          "Si je suis riche, je voyagerai.",
+          "Mes amis viendront me rendre visite un jour."
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Si je reste en France, je ___ mon français.",
+        "options": [
+          "améliore",
+          "améliorerai",
+          "améliorerais",
+          "ai amélioré"
+        ],
+        "explanation": "La bonne réponse est « améliorerai » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Si tu ___, tu retrouveras ta famille.",
+        "options": [
+          "pars",
+          "partiras",
+          "partirais",
+          "es parti"
+        ],
+        "explanation": "La bonne réponse est « pars » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase est correcte ?",
+        "options": [
+          "Si je serai riche, je voyagerai.",
+          "Si je suis riche, je voyagerai.",
+          "Si je suis riche, je voyage.",
+          "Si je serais riche, je voyagerais."
+        ],
+        "explanation": "La bonne réponse est « Si je suis riche, je voyagerai. » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Mes amis ___ me rendre visite un jour.",
+        "options": [
+          "viendront",
+          "viennent",
+          "venir",
+          "sont venus"
+        ],
+        "explanation": "La bonne réponse est « viendront » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Si je reste en France, j’améliore mon français. » ?",
+        "options": [
+          "Si je reste en France, j’améliore mon français.",
+          "Si je reste en France, j’améliorerai mon français.",
+          "Si je reste en France, j’améliorerais mon français.",
+          "Si je reste en France, j’ai amélioré mon français."
+        ],
+        "explanation": "La phrase correcte est : « Si je reste en France, j’améliorerai mon français. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Si tu partiras, tu retrouveras ta famille. » ?",
+        "options": [
+          "Si tu pars, tu retrouveras ta famille.",
+          "Si tu partiras, tu retrouveras ta famille.",
+          "Si tu partirais, tu retrouveras ta famille.",
+          "Si tu es parti, tu retrouveras ta famille."
+        ],
+        "explanation": "La phrase correcte est : « Si tu pars, tu retrouveras ta famille. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Si je serai riche, je voyagerai. » dans ce contexte : « Quelle phrase est correcte ? » ?",
+        "options": [
+          "Si je serai riche, je voyagerai.",
+          "Si je suis riche, je voyagerai.",
+          "Si je suis riche, je voyage.",
+          "Si je serais riche, je voyagerais."
+        ],
+        "explanation": "La bonne réponse est « Si je suis riche, je voyagerai. »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Mes amis viennent me rendre visite un jour. » ?",
+        "options": [
+          "Mes amis viendront me rendre visite un jour.",
+          "Mes amis viennent me rendre visite un jour.",
+          "Mes amis venir me rendre visite un jour.",
+          "Mes amis sont venus me rendre visite un jour."
+        ],
+        "explanation": "La phrase correcte est : « Mes amis viendront me rendre visite un jour. »"
+      }
+    ]
+  },
+  {
     "slug": "french-b2-retour-a-saint-domingue-grammar",
     "level": "B2",
     "skill": "grammar",
@@ -4882,18 +4678,18 @@
       "grammarProfile": {
         "name": "Le plus-que-parfait",
         "definition": "Le plus-que-parfait se forme avec avoir/être à l’imparfait + participe passé : « J’avais oublié à quel point il faisait chaud. Elle était partie un an plus tôt. » Il exprime une action antérieure à une autre action passée, souvent racontée au passé composé ou à l’imparfait : « Elle comprit ce que son amie avait voulu dire. »",
-        "structure": "Forme à observer : Le plus-que-parfait. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Situer un événement antérieur à un autre moment du passé.",
+        "explanation": "Le plus-que-parfait se forme avec avoir/être à l’imparfait + participe passé : « J’avais oublié à quel point il faisait chaud. Elle était partie un an plus tôt. » Il exprime une action antérieure à une autre action passée, souvent racontée au passé composé ou à l’imparfait : « Elle comprit ce que son amie avait voulu dire. »",
+        "structure": "Estructura central: Le plus-que-parfait.",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "function": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Situer un événement antérieur à un autre moment du passé.",
         "examples": [
           "Elle avait presque oublié la chaleur de Saint-Domingue.",
           "Elle était partie un an plus tôt, pleine d’appréhension.",
           "Elle n’avait pas anticipé que le retour serait difficile.",
           "Avoir/être à l’imparfait + participe passé"
-        ],
-        "explanation": "Le plus-que-parfait se forme avec avoir/être à l’imparfait + participe passé : « J’avais oublié à quel point il faisait chaud. Elle était partie un an plus tôt. » Il exprime une action antérieure à une autre action passée, souvent racontée au passé composé ou à l’imparfait : « Elle comprit ce que son amie avait voulu dire. »",
-        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
-        "cefrLevel": "B2",
-        "unitContext": "Situer un événement antérieur à un autre moment du passé."
+        ]
       },
       "listeningComprehension": null
     },
@@ -4902,8 +4698,8 @@
         "type": "mcq",
         "prompt": "Elle ___ presque oublié la chaleur de Saint-Domingue.",
         "options": [
-          "avait",
           "a",
+          "avait",
           "ait",
           "aura"
         ],
@@ -4913,8 +4709,8 @@
         "type": "mcq",
         "prompt": "Elle ___ un an plus tôt, pleine d’appréhension.",
         "options": [
-          "est partie",
           "était partie",
+          "est partie",
           "partait",
           "sera partie"
         ],
@@ -4925,8 +4721,8 @@
         "prompt": "Elle n’___ pas anticipé que le retour serait difficile.",
         "options": [
           "a",
-          "ait",
           "avait",
+          "ait",
           "aurait"
         ],
         "explanation": "La bonne réponse est « avait » : elle respecte la structure étudiée dans cette leçon."
@@ -4936,9 +4732,9 @@
         "prompt": "Quelle structure forme le plus-que-parfait ?",
         "options": [
           "Avoir/être au présent + participe passé",
+          "Avoir/être à l’imparfait + participe passé",
           "Avoir au futur + infinitif",
-          "Être au conditionnel + gérondif",
-          "Avoir/être à l’imparfait + participe passé"
+          "Être au conditionnel + gérondif"
         ],
         "explanation": "La bonne réponse est « Avoir/être à l’imparfait + participe passé » : elle respecte la structure étudiée dans cette leçon."
       },
@@ -4946,8 +4742,8 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Elle a presque oublié la chaleur de Saint-Domingue. » ?",
         "options": [
-          "Elle avait presque oublié la chaleur de Saint-Domingue.",
           "Elle a presque oublié la chaleur de Saint-Domingue.",
+          "Elle avait presque oublié la chaleur de Saint-Domingue.",
           "Elle ait presque oublié la chaleur de Saint-Domingue.",
           "Elle aura presque oublié la chaleur de Saint-Domingue."
         ],
@@ -4957,8 +4753,8 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Elle est partie un an plus tôt, pleine d’appréhension. » ?",
         "options": [
-          "Elle est partie un an plus tôt, pleine d’appréhension.",
           "Elle était partie un an plus tôt, pleine d’appréhension.",
+          "Elle est partie un an plus tôt, pleine d’appréhension.",
           "Elle partait un an plus tôt, pleine d’appréhension.",
           "Elle sera partie un an plus tôt, pleine d’appréhension."
         ],
@@ -4969,8 +4765,8 @@
         "prompt": "Quelle version corrige entièrement la phrase « Elle n’a pas anticipé que le retour serait difficile. » ?",
         "options": [
           "Elle n’a pas anticipé que le retour serait difficile.",
-          "Elle n’ait pas anticipé que le retour serait difficile.",
           "Elle n’avait pas anticipé que le retour serait difficile.",
+          "Elle n’ait pas anticipé que le retour serait difficile.",
           "Elle n’aurait pas anticipé que le retour serait difficile."
         ],
         "explanation": "La phrase correcte est : « Elle n’avait pas anticipé que le retour serait difficile. »"
@@ -4980,9 +4776,9 @@
         "prompt": "Quelle réponse corrige l’erreur « Avoir/être au présent + participe passé » dans ce contexte : « Quelle structure forme le plus-que-parfait ? » ?",
         "options": [
           "Avoir/être au présent + participe passé",
+          "Avoir/être à l’imparfait + participe passé",
           "Avoir au futur + infinitif",
-          "Être au conditionnel + gérondif",
-          "Avoir/être à l’imparfait + participe passé"
+          "Être au conditionnel + gérondif"
         ],
         "explanation": "La bonne réponse est « Avoir/être à l’imparfait + participe passé »."
       }
@@ -5389,91 +5185,6 @@
     ]
   },
   {
-    "slug": "french-b1-projets-et-avenir-vocabulary",
-    "level": "B1",
-    "skill": "vocabulary",
-    "unitId": "projets-et-avenir",
-    "title": "Le vocabulaire des projets et de l’opinion",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 15,
-    "estimatedMinutes": 8,
-    "description": "Le vocabulaire essentiel pour parler de l’avenir et exprimer une opinion nuancée.",
-    "intro": "Le vocabulaire essentiel pour parler de l’avenir et exprimer une opinion nuancée.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "le projet",
-        "translation": "el proyecto",
-        "example": "Mon projet est d’étudier en France après le lycée."
-      },
-      {
-        "word": "l’avenir",
-        "translation": "el futuro",
-        "example": "Je pense souvent à mon avenir."
-      },
-      {
-        "word": "à mon avis",
-        "translation": "en mi opinión",
-        "example": "À mon avis, c’est une bonne décision."
-      },
-      {
-        "word": "d’un côté / de l’autre côté",
-        "translation": "por un lado / por otro lado",
-        "example": "D’un côté je veux rester, de l’autre côté ma famille me manque."
-      },
-      {
-        "word": "décider de",
-        "translation": "decidir",
-        "example": "J’ai décidé de rentrer chez moi."
-      },
-      {
-        "word": "quelle que soit",
-        "translation": "cualquiera que sea",
-        "example": "Quelle que soit ta décision, je te soutiens."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « à mon avis » ?",
-        "options": [
-          "En mi opinión",
-          "Por otro lado",
-          "En el futuro",
-          "Decidir"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « l’avenir » ?",
-        "options": [
-          "El pasado",
-          "El futuro",
-          "El proyecto",
-          "La opinión"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « d’un côté... de l’autre côté... » ?",
-        "options": [
-          "Por un lado... por otro lado...",
-          "A pesar de...",
-          "Sin embargo...",
-          "Por lo tanto..."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-la-rentree-universitaire-vocabulary",
     "level": "C1",
     "skill": "vocabulary",
@@ -5828,6 +5539,91 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-projets-et-avenir-vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unitId": "projets-et-avenir",
+    "title": "Le vocabulaire des projets et de l’opinion",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 15,
+    "estimatedMinutes": 8,
+    "description": "Le vocabulaire essentiel pour parler de l’avenir et exprimer une opinion nuancée.",
+    "intro": "Le vocabulaire essentiel pour parler de l’avenir et exprimer une opinion nuancée.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "le projet",
+        "translation": "el proyecto",
+        "example": "Mon projet est d’étudier en France après le lycée."
+      },
+      {
+        "word": "l’avenir",
+        "translation": "el futuro",
+        "example": "Je pense souvent à mon avenir."
+      },
+      {
+        "word": "à mon avis",
+        "translation": "en mi opinión",
+        "example": "À mon avis, c’est une bonne décision."
+      },
+      {
+        "word": "d’un côté / de l’autre côté",
+        "translation": "por un lado / por otro lado",
+        "example": "D’un côté je veux rester, de l’autre côté ma famille me manque."
+      },
+      {
+        "word": "décider de",
+        "translation": "decidir",
+        "example": "J’ai décidé de rentrer chez moi."
+      },
+      {
+        "word": "quelle que soit",
+        "translation": "cualquiera que sea",
+        "example": "Quelle que soit ta décision, je te soutiens."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « à mon avis » ?",
+        "options": [
+          "En mi opinión",
+          "Por otro lado",
+          "En el futuro",
+          "Decidir"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « l’avenir » ?",
+        "options": [
+          "El pasado",
+          "El futuro",
+          "El proyecto",
+          "La opinión"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « d’un côté... de l’autre côté... » ?",
+        "options": [
+          "Por un lado... por otro lado...",
+          "A pesar de...",
+          "Sin embargo...",
+          "Por lo tanto..."
+        ]
       }
     ]
   },
@@ -6453,96 +6249,6 @@
     ]
   },
   {
-    "slug": "french-b1-identite-et-parcours-personnel-reading",
-    "level": "B1",
-    "skill": "reading",
-    "unitId": "identite-et-parcours-personnel",
-    "title": "Identité et parcours personnel",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 20,
-    "estimatedMinutes": 15,
-    "description": "Pourquoi l’identité se construit à travers plusieurs expériences, selon les chercheurs en psychologie sociale.",
-    "intro": "Pourquoi l’identité se construit à travers plusieurs expériences, selon les chercheurs en psychologie sociale.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Identité et parcours personnel",
-      "parts": [
-        "« Tu étais si timide en arrivant, on ne t’entendait presque jamais en classe. » C’est la phrase que beaucoup d’anciens élèves en échange scolaire entendent de la bouche de leurs professeurs, huit ou dix mois après leur arrivée. Avant leur départ, ces jeunes se décrivaient rarement comme des personnes à l’aise en public : ils parlaient peu devant un groupe, ils sortaient rarement de leur cercle d’amis d’enfance, et l’idée de déménager seuls dans un pays étranger leur semblait presque impossible à imaginer.",
-        "Les premières semaines confirment souvent ces craintes. Un élève qui comprenait facilement sa langue maternelle se retrouve soudain incapable de suivre une conversation à table, même simple. Certains racontent avoir pleuré en silence dans leur chambre les premiers soirs, sans oser le dire à leur famille d’accueil. Puis, sans qu’ils s’en rendent vraiment compte, quelque chose a changé : ils ont posé une première question en cours malgré la peur de se tromper, ils ont commandé seuls dans un café, ils ont réussi à expliquer une blague, même mal.",
-        "Ce phénomène porte un nom chez les chercheurs en éducation interculturelle : la « courbe en U » de l’adaptation. Elle décrit un enthousiasme initial, suivi d’une phase de fatigue et de doute, puis d’une remontée progressive vers un nouvel équilibre, souvent plus solide que l’état de départ. Les élèves qui ont traversé cette courbe complète rapportent presque tous la même chose au retour : ils étaient une version plus prudente d’eux-mêmes avant de partir, et ils sont devenus une version plus audacieuse en revenant.",
-        "Certains, en rentrant chez eux, vivent même un « choc culturel inversé » : leur ville natale leur semble soudain plus petite, et leurs amis d’enfance ont du mal à reconnaître la personne bavarde qui leur raconte son année. Ce décalage passe généralement en quelques semaines, mais la confiance acquise, elle, reste durablement ancrée."
-      ],
-      "questions": [
-        "Que disent souvent les professeurs aux anciens élèves en échange, plusieurs mois après leur arrivée ?",
-        "Que racontent certains élèves à propos des premiers soirs en France ?",
-        "Comment les chercheurs en éducation interculturelle appellent-ils ce phénomène d’adaptation ?",
-        "Que décrit la « courbe en U », selon le texte ?",
-        "Qu’est-ce que le « choc culturel inversé », d’après le dernier paragraphe ?"
-      ],
-      "text": "« Tu étais si timide en arrivant, on ne t’entendait presque jamais en classe. » C’est la phrase que beaucoup d’anciens élèves en échange scolaire entendent de la bouche de leurs professeurs, huit ou dix mois après leur arrivée. Avant leur départ, ces jeunes se décrivaient rarement comme des personnes à l’aise en public : ils parlaient peu devant un groupe, ils sortaient rarement de leur cercle d’amis d’enfance, et l’idée de déménager seuls dans un pays étranger leur semblait presque impossible à imaginer.\n\nLes premières semaines confirment souvent ces craintes. Un élève qui comprenait facilement sa langue maternelle se retrouve soudain incapable de suivre une conversation à table, même simple. Certains racontent avoir pleuré en silence dans leur chambre les premiers soirs, sans oser le dire à leur famille d’accueil. Puis, sans qu’ils s’en rendent vraiment compte, quelque chose a changé : ils ont posé une première question en cours malgré la peur de se tromper, ils ont commandé seuls dans un café, ils ont réussi à expliquer une blague, même mal.\n\nCe phénomène porte un nom chez les chercheurs en éducation interculturelle : la « courbe en U » de l’adaptation. Elle décrit un enthousiasme initial, suivi d’une phase de fatigue et de doute, puis d’une remontée progressive vers un nouvel équilibre, souvent plus solide que l’état de départ. Les élèves qui ont traversé cette courbe complète rapportent presque tous la même chose au retour : ils étaient une version plus prudente d’eux-mêmes avant de partir, et ils sont devenus une version plus audacieuse en revenant.\n\nCertains, en rentrant chez eux, vivent même un « choc culturel inversé » : leur ville natale leur semble soudain plus petite, et leurs amis d’enfance ont du mal à reconnaître la personne bavarde qui leur raconte son année. Ce décalage passe généralement en quelques semaines, mais la confiance acquise, elle, reste durablement ancrée."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que disent souvent les professeurs aux anciens élèves en échange, plusieurs mois après leur arrivée ?",
-        "options": [
-          "Qu’ils étaient timides en arrivant",
-          "Qu’ils n’ont pas progressé",
-          "Qu’ils devraient rentrer chez eux",
-          "Qu’ils parlaient déjà bien en public"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que racontent certains élèves à propos des premiers soirs en France ?",
-        "options": [
-          "Ils sortaient beaucoup",
-          "Ils pleuraient en silence dans leur chambre",
-          "Ils ne pensaient jamais à leur famille",
-          "Ils comprenaient déjà tout"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment les chercheurs en éducation interculturelle appellent-ils ce phénomène d’adaptation ?",
-        "options": [
-          "La courbe en U",
-          "Le choc frontal",
-          "La spirale descendante",
-          "L’effet miroir"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que décrit la « courbe en U », selon le texte ?",
-        "options": [
-          "Un enthousiasme initial, une phase de doute, puis une remontée vers un nouvel équilibre",
-          "Une tristesse permanente sans amélioration",
-          "Un bonheur constant sans aucune difficulté",
-          "Un retour immédiat à la timidité initiale"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qu’est-ce que le « choc culturel inversé », d’après le dernier paragraphe ?",
-        "options": [
-          "Le fait que la ville natale semble plus petite au retour",
-          "Le fait de ne plus vouloir rentrer chez soi",
-          "Un problème administratif au retour",
-          "Le fait d’oublier complètement le français"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-un-exposer-a-preparer-reading",
     "level": "C1",
     "skill": "reading",
@@ -6767,6 +6473,96 @@
           "Les ménages vulnérables ne sont jamais affectés par ces politiques"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Décarboner à temps : course contre une horloge incertaine »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-identite-et-parcours-personnel-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "identite-et-parcours-personnel",
+    "title": "Identité et parcours personnel",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 20,
+    "estimatedMinutes": 15,
+    "description": "Pourquoi l’identité se construit à travers plusieurs expériences, selon les chercheurs en psychologie sociale.",
+    "intro": "Pourquoi l’identité se construit à travers plusieurs expériences, selon les chercheurs en psychologie sociale.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Identité et parcours personnel",
+      "parts": [
+        "« Tu étais si timide en arrivant, on ne t’entendait presque jamais en classe. » C’est la phrase que beaucoup d’anciens élèves en échange scolaire entendent de la bouche de leurs professeurs, huit ou dix mois après leur arrivée. Avant leur départ, ces jeunes se décrivaient rarement comme des personnes à l’aise en public : ils parlaient peu devant un groupe, ils sortaient rarement de leur cercle d’amis d’enfance, et l’idée de déménager seuls dans un pays étranger leur semblait presque impossible à imaginer.",
+        "Les premières semaines confirment souvent ces craintes. Un élève qui comprenait facilement sa langue maternelle se retrouve soudain incapable de suivre une conversation à table, même simple. Certains racontent avoir pleuré en silence dans leur chambre les premiers soirs, sans oser le dire à leur famille d’accueil. Puis, sans qu’ils s’en rendent vraiment compte, quelque chose a changé : ils ont posé une première question en cours malgré la peur de se tromper, ils ont commandé seuls dans un café, ils ont réussi à expliquer une blague, même mal.",
+        "Ce phénomène porte un nom chez les chercheurs en éducation interculturelle : la « courbe en U » de l’adaptation. Elle décrit un enthousiasme initial, suivi d’une phase de fatigue et de doute, puis d’une remontée progressive vers un nouvel équilibre, souvent plus solide que l’état de départ. Les élèves qui ont traversé cette courbe complète rapportent presque tous la même chose au retour : ils étaient une version plus prudente d’eux-mêmes avant de partir, et ils sont devenus une version plus audacieuse en revenant.",
+        "Certains, en rentrant chez eux, vivent même un « choc culturel inversé » : leur ville natale leur semble soudain plus petite, et leurs amis d’enfance ont du mal à reconnaître la personne bavarde qui leur raconte son année. Ce décalage passe généralement en quelques semaines, mais la confiance acquise, elle, reste durablement ancrée."
+      ],
+      "questions": [
+        "Que disent souvent les professeurs aux anciens élèves en échange, plusieurs mois après leur arrivée ?",
+        "Que racontent certains élèves à propos des premiers soirs en France ?",
+        "Comment les chercheurs en éducation interculturelle appellent-ils ce phénomène d’adaptation ?",
+        "Que décrit la « courbe en U », selon le texte ?",
+        "Qu’est-ce que le « choc culturel inversé », d’après le dernier paragraphe ?"
+      ],
+      "text": "« Tu étais si timide en arrivant, on ne t’entendait presque jamais en classe. » C’est la phrase que beaucoup d’anciens élèves en échange scolaire entendent de la bouche de leurs professeurs, huit ou dix mois après leur arrivée. Avant leur départ, ces jeunes se décrivaient rarement comme des personnes à l’aise en public : ils parlaient peu devant un groupe, ils sortaient rarement de leur cercle d’amis d’enfance, et l’idée de déménager seuls dans un pays étranger leur semblait presque impossible à imaginer.\n\nLes premières semaines confirment souvent ces craintes. Un élève qui comprenait facilement sa langue maternelle se retrouve soudain incapable de suivre une conversation à table, même simple. Certains racontent avoir pleuré en silence dans leur chambre les premiers soirs, sans oser le dire à leur famille d’accueil. Puis, sans qu’ils s’en rendent vraiment compte, quelque chose a changé : ils ont posé une première question en cours malgré la peur de se tromper, ils ont commandé seuls dans un café, ils ont réussi à expliquer une blague, même mal.\n\nCe phénomène porte un nom chez les chercheurs en éducation interculturelle : la « courbe en U » de l’adaptation. Elle décrit un enthousiasme initial, suivi d’une phase de fatigue et de doute, puis d’une remontée progressive vers un nouvel équilibre, souvent plus solide que l’état de départ. Les élèves qui ont traversé cette courbe complète rapportent presque tous la même chose au retour : ils étaient une version plus prudente d’eux-mêmes avant de partir, et ils sont devenus une version plus audacieuse en revenant.\n\nCertains, en rentrant chez eux, vivent même un « choc culturel inversé » : leur ville natale leur semble soudain plus petite, et leurs amis d’enfance ont du mal à reconnaître la personne bavarde qui leur raconte son année. Ce décalage passe généralement en quelques semaines, mais la confiance acquise, elle, reste durablement ancrée."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que disent souvent les professeurs aux anciens élèves en échange, plusieurs mois après leur arrivée ?",
+        "options": [
+          "Qu’ils étaient timides en arrivant",
+          "Qu’ils n’ont pas progressé",
+          "Qu’ils devraient rentrer chez eux",
+          "Qu’ils parlaient déjà bien en public"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que racontent certains élèves à propos des premiers soirs en France ?",
+        "options": [
+          "Ils sortaient beaucoup",
+          "Ils pleuraient en silence dans leur chambre",
+          "Ils ne pensaient jamais à leur famille",
+          "Ils comprenaient déjà tout"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Comment les chercheurs en éducation interculturelle appellent-ils ce phénomène d’adaptation ?",
+        "options": [
+          "La courbe en U",
+          "Le choc frontal",
+          "La spirale descendante",
+          "L’effet miroir"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que décrit la « courbe en U », selon le texte ?",
+        "options": [
+          "Un enthousiasme initial, une phase de doute, puis une remontée vers un nouvel équilibre",
+          "Une tristesse permanente sans amélioration",
+          "Un bonheur constant sans aucune difficulté",
+          "Un retour immédiat à la timidité initiale"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qu’est-ce que le « choc culturel inversé », d’après le dernier paragraphe ?",
+        "options": [
+          "Le fait que la ville natale semble plus petite au retour",
+          "Le fait de ne plus vouloir rentrer chez soi",
+          "Un problème administratif au retour",
+          "Le fait d’oublier complètement le français"
+        ]
       }
     ]
   },
@@ -7332,236 +7128,6 @@
     ]
   },
   {
-    "slug": "french-b1-identite-et-parcours-personnel-listening",
-    "level": "B1",
-    "skill": "listening",
-    "unitId": "identite-et-parcours-personnel",
-    "title": "Avant, je n’osais pas",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 21,
-    "estimatedMinutes": 12,
-    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Tu étais comment, avant ?",
-      "J’étais...",
-      "On ne l’aurait jamais deviné.",
-      "J’ai beaucoup changé."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours. Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort. Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école. Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre. Au début, j’avais peur de parler devant les autres, mais le groupe m’a accueillie avec patience. Pendant plusieurs mois, nous répétions deux fois par semaine. Peu à peu, j’ai appris à respirer, à regarder le public et à exprimer mes idées. La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes. Depuis cette expérience, je suis devenue plus ouverte et plus autonome. Je ne suis pas une personne complètement différente, mais j’ai grandi. Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "testimony",
-      "storyTitle": "Avant, je n’osais pas",
-      "mainTranscript": "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours. Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort. Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école. Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre. Au début, j’avais peur de parler devant les autres, mais le groupe m’a accueillie avec patience. Pendant plusieurs mois, nous répétions deux fois par semaine. Peu à peu, j’ai appris à respirer, à regarder le public et à exprimer mes idées. La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes. Depuis cette expérience, je suis devenue plus ouverte et plus autonome. Je ne suis pas une personne complètement différente, mais j’ai grandi. Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Au début, j’avais peur de parler devant les autres, mais le groupe m’a accueillie avec patience."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Pendant plusieurs mois, nous répétions deux fois par semaine."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Peu à peu, j’ai appris à respirer, à regarder le public et à exprimer mes idées."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Depuis cette expérience, je suis devenue plus ouverte et plus autonome."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Je ne suis pas une personne complètement différente, mais j’ai grandi."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir."
-        }
-      ],
-      "listeningComprehension": {
-        "id": "french-b1-identite-et-parcours-personnel-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Avant, je n’osais pas », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours."
-              },
-              {
-                "id": "o2",
-                "text": "Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre."
-              },
-              {
-                "id": "o3",
-                "text": "La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes."
-              },
-              {
-                "id": "o4",
-                "text": "Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon… », que se passe-t-il ensuite dans « Avant, je n’osais pas » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours."
-              },
-              {
-                "id": "o2",
-                "text": "Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre."
-              },
-              {
-                "id": "o3",
-                "text": "La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes."
-              },
-              {
-                "id": "o4",
-                "text": "Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Avant, je n’osais pas » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours."
-              },
-              {
-                "id": "o2",
-                "text": "La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes."
-              },
-              {
-                "id": "o3",
-                "text": "Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre."
-              },
-              {
-                "id": "o4",
-                "text": "Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Avant, je n’osais pas » après « Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre. » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours."
-              },
-              {
-                "id": "o2",
-                "text": "Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre."
-              },
-              {
-                "id": "o3",
-                "text": "La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes."
-              },
-              {
-                "id": "o4",
-                "text": "Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Avant, je n’osais pas », quel détail présente la situation ?",
-        "options": [
-          "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours.",
-          "Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre.",
-          "La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes.",
-          "Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon… », que se passe-t-il ensuite dans « Avant, je n’osais pas » ?",
-        "options": [
-          "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours.",
-          "Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre.",
-          "La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes.",
-          "Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Avant, je n’osais pas » ?",
-        "options": [
-          "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours.",
-          "La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes.",
-          "Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre.",
-          "Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Avant, je n’osais pas » après « Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre. » ?",
-        "options": [
-          "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours.",
-          "Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre.",
-          "La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes.",
-          "Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-un-exposer-a-preparer-listening",
     "level": "C1",
     "skill": "listening",
@@ -8079,6 +7645,129 @@
     ]
   },
   {
+    "slug": "french-b1-identite-et-parcours-personnel-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "identite-et-parcours-personnel",
+    "title": "Avant, je n’osais pas",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 21,
+    "estimatedMinutes": 12,
+    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Tu étais comment, avant ?",
+      "J’étais...",
+      "Je n’aurais jamais deviné.",
+      "J’ai beaucoup changé."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours. Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort. Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école. Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre. Au début, j’avais peur de parler devant les autres, mais le groupe m’a accueillie avec patience. Pendant plusieurs mois, nous répétions deux fois par semaine. Peu à peu, j’ai appris à respirer, à regarder le public et à exprimer mes idées. La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes. Depuis cette expérience, je suis devenue plus ouverte et plus autonome. Je ne suis pas une personne complètement différente, mais j’ai grandi. Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "testimony",
+      "storyTitle": "Avant, je n’osais pas",
+      "mainTranscript": "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours. Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort. Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école. Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre. Au début, j’avais peur de parler devant les autres, mais le groupe m’a accueillie avec patience. Pendant plusieurs mois, nous répétions deux fois par semaine. Peu à peu, j’ai appris à respirer, à regarder le public et à exprimer mes idées. La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes. Depuis cette expérience, je suis devenue plus ouverte et plus autonome. Je ne suis pas une personne complètement différente, mais j’ai grandi. Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Je m’appelle Élodie et, aujourd’hui, je vais vous parler de mon parcours."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Quand j’étais adolescente, j’étais très timide et je restais souvent dans ma zone de confort."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Je connaissais peu de personnes et je ne participais presque jamais aux activités de mon école."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Un jour, une professeure m’a proposé de rejoindre un atelier de théâtre."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Au début, j’avais peur de parler devant les autres, mais le groupe m’a accueillie avec patience."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Pendant plusieurs mois, nous répétions deux fois par semaine."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Peu à peu, j’ai appris à respirer, à regarder le public et à exprimer mes idées."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "La première représentation a changé quelque chose en moi : j’ai compris que je pouvais dépasser mes inquiétudes."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Depuis cette expérience, je suis devenue plus ouverte et plus autonome."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Je ne suis pas une personne complètement différente, mais j’ai grandi."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Mon parcours me rappelle qu’un petit défi peut parfois transformer durablement notre manière de nous voir."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Comment Camila décrit-elle sa personnalité avant son arrivée en France ?",
+        "options": [
+          "Bavarde",
+          "Timide",
+          "Impatiente",
+          "Fâchée"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Comment réagit Karim à cette information ?",
+        "options": [
+          "Il n’est pas surpris",
+          "Il est surpris",
+          "Il ne la croit pas",
+          "Il change de sujet"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que dit Camila sur son évolution ?",
+        "options": [
+          "Elle n’a pas changé",
+          "Elle a beaucoup changé",
+          "Elle veut redevenir comme avant",
+          "Elle ne sait pas"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-b2-candidature-universitaire-listening",
     "level": "B2",
     "skill": "listening",
@@ -8094,10 +7783,10 @@
     "mission": "",
     "grammar": "",
     "phrases": [
-      "Beaucoup de lycéens ne savent pas...",
-      "Plutôt que...",
-      "Ce qui fait la différence, c’est...",
-      "Ce que le candidat compte apporter..."
+      "Je ne sais pas comment...",
+      "Commence par...",
+      "Donne des exemples concrets.",
+      "Ce que tu apporteras..."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -8195,145 +7884,38 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "listeningComprehension": {
-        "id": "french-b2-candidature-universitaire-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Construire une candidature convaincante », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
-              },
-              {
-                "id": "o2",
-                "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
-              },
-              {
-                "id": "o3",
-                "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Une bonne lettre de motivation ne répète pas simplement le CV. », que se passe-t-il ensuite dans « Construire une candidature convaincante » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
-              },
-              {
-                "id": "o2",
-                "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
-              },
-              {
-                "id": "o3",
-                "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Construire une candidature convaincante » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
-              },
-              {
-                "id": "o2",
-                "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
-              },
-              {
-                "id": "o3",
-                "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Construire une candidature convaincante » après « Le premier doit annoncer votre démarche ; le deuxième apporte des… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une bonne lettre de motivation ne répète pas simplement le CV."
-              },
-              {
-                "id": "o2",
-                "text": "Évitez les déclarations générales comme « J’ai toujours aimé apprendre »."
-              },
-              {
-                "id": "o3",
-                "text": "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Construire une candidature convaincante », quel détail présente la situation ?",
+        "prompt": "Quel est le problème de Camila au début ?",
         "options": [
-          "Une bonne lettre de motivation ne répète pas simplement le CV.",
-          "Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».",
-          "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.",
-          "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
+          "Elle n’a pas d’ordinateur",
+          "Elle ne sait pas comment commencer sa lettre",
+          "Elle a raté la date limite",
+          "Elle ne veut plus étudier en France"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Une bonne lettre de motivation ne répète pas simplement le CV. », que se passe-t-il ensuite dans « Construire une candidature convaincante » ?",
+        "prompt": "Que conseille Karim en premier ?",
         "options": [
-          "Une bonne lettre de motivation ne répète pas simplement le CV.",
-          "Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».",
-          "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.",
-          "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
+          "De copier une lettre modèle",
+          "D’expliquer ce qui a déclenché son intérêt",
+          "De ne rien écrire de personnel",
+          "D’écrire en anglais"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Construire une candidature convaincante » ?",
+        "prompt": "Que doit expliquer Camila à la fin de la lettre, selon Karim ?",
         "options": [
-          "Une bonne lettre de motivation ne répète pas simplement le CV.",
-          "Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».",
-          "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.",
-          "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Construire une candidature convaincante » après « Le premier doit annoncer votre démarche ; le deuxième apporte des… » ?",
-        "options": [
-          "Une bonne lettre de motivation ne répète pas simplement le CV.",
-          "Évitez les déclarations générales comme « J’ai toujours aimé apprendre ».",
-          "Le premier doit annoncer votre démarche ; le deuxième apporte des preuves ; le dernier ouvre sur l’avenir.",
-          "Elle permet au lecteur de comprendre ce que vous avez déjà construit et pourquoi cette formation représente une étape cohérente."
+          "Ses notes scolaires uniquement",
+          "Ce qu’elle apportera à l’université",
+          "Ses problèmes personnels",
+          "Le prix des études"
         ]
       }
     ]
@@ -8451,49 +8033,6 @@
       {
         "type": "practice",
         "prompt": "Avec un/une camarade, joue la scène du serveur et du client au restaurant."
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-identite-et-parcours-personnel-speaking",
-    "level": "B1",
-    "skill": "speaking",
-    "unitId": "identite-et-parcours-personnel",
-    "title": "Raconte ton parcours",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 22,
-    "estimatedMinutes": 12,
-    "description": "Présente un aspect de ton parcours personnel et une évolution que tu as vécue.",
-    "intro": "Présente un aspect de ton parcours personnel et une évolution que tu as vécue.",
-    "mission": "Prépare une présentation de deux minutes sur un changement important dans ta vie : comment tu étais avant, ce qui a changé, et comment tu es maintenant.",
-    "grammar": "",
-    "phrases": [
-      "Avant, j’étais...",
-      "Maintenant, je suis...",
-      "Ce qui a changé, c’est...",
-      "Cette expérience m’a appris que..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Avant, j’avais peur de parler en public. Maintenant, je suis beaucoup plus confiant(e), grâce à la pratique.",
-        "translation": "Antes tenía miedo de hablar en público. Ahora soy mucho más seguro/a, gracias a la práctica."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Présente un changement personnel important, en utilisant l’imparfait pour le « avant » et le présent pour le « maintenant »."
-      },
-      {
-        "type": "practice",
-        "prompt": "Débats avec un/une camarade sur ce qui rend un changement personnel réussi."
       }
     ]
   },
@@ -8648,6 +8187,49 @@
     ]
   },
   {
+    "slug": "french-b1-identite-et-parcours-personnel-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "identite-et-parcours-personnel",
+    "title": "Raconte ton parcours",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 22,
+    "estimatedMinutes": 12,
+    "description": "Présente un aspect de ton parcours personnel et une évolution que tu as vécue.",
+    "intro": "Présente un aspect de ton parcours personnel et une évolution que tu as vécue.",
+    "mission": "Prépare une présentation de deux minutes sur un changement important dans ta vie : comment tu étais avant, ce qui a changé, et comment tu es maintenant.",
+    "grammar": "",
+    "phrases": [
+      "Avant, j’étais...",
+      "Maintenant, je suis...",
+      "Ce qui a changé, c’est...",
+      "Cette expérience m’a appris que..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Avant, j’avais peur de parler en public. Maintenant, je suis beaucoup plus confiant(e), grâce à la pratique.",
+        "translation": "Antes tenía miedo de hablar en público. Ahora soy mucho más seguro/a, gracias a la práctica."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Présente un changement personnel important, en utilisant l’imparfait pour le « avant » et le présent pour le « maintenant »."
+      },
+      {
+        "type": "practice",
+        "prompt": "Débats avec un/une camarade sur ce qui rend un changement personnel réussi."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-candidature-universitaire-speaking",
     "level": "B2",
     "skill": "speaking",
@@ -8787,45 +8369,6 @@
     ]
   },
   {
-    "slug": "french-b1-identite-et-parcours-personnel-writing",
-    "level": "B1",
-    "skill": "writing",
-    "unitId": "identite-et-parcours-personnel",
-    "title": "Ma courte biographie",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 23,
-    "estimatedMinutes": 16,
-    "description": "Écris une courte biographie sur ton parcours personnel.",
-    "intro": "Écris une courte biographie sur ton parcours personnel.",
-    "mission": "Écris 150 à 200 mots racontant ton parcours personnel : comment tu étais avant, un événement marquant, et comment tu as changé.",
-    "grammar": "",
-    "phrases": [
-      "Avant, j’étais...",
-      "Un jour, j’ai...",
-      "Depuis, je...",
-      "Aujourd’hui, je suis..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Avant, j’étais quelqu’un de très timide. Un jour, j’ai décidé de sortir de ma zone de confort et de participer à un projet nouveau. Depuis, j’ai gagné en confiance. Aujourd’hui, je suis une personne plus sûre d’elle-même.",
-        "translation": "Antes era alguien muy tímido. Un día decidí salir de mi zona de confort y participar en un nuevo proyecto. Desde entonces, he ganado confianza. Hoy soy una persona más segura de sí misma."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris une biographie de 150 à 200 mots sur ton parcours personnel, en utilisant l’imparfait et le passé composé."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-un-exposer-a-preparer-writing",
     "level": "C1",
     "skill": "writing",
@@ -8938,6 +8481,45 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-identite-et-parcours-personnel-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "identite-et-parcours-personnel",
+    "title": "Ma courte biographie",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 23,
+    "estimatedMinutes": 16,
+    "description": "Écris une courte biographie sur ton parcours personnel.",
+    "intro": "Écris une courte biographie sur ton parcours personnel.",
+    "mission": "Écris 150 à 200 mots racontant ton parcours personnel : comment tu étais avant, un événement marquant, et comment tu as changé.",
+    "grammar": "",
+    "phrases": [
+      "Avant, j’étais...",
+      "Un jour, j’ai...",
+      "Depuis, je...",
+      "Aujourd’hui, je suis..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Avant, j’étais quelqu’un de très timide. Un jour, j’ai décidé de sortir de ma zone de confort et de participer à un projet nouveau. Depuis, j’ai gagné en confiance. Aujourd’hui, je suis une personne plus sûre d’elle-même.",
+        "translation": "Antes era alguien muy tímido. Un día decidí salir de mi zona de confort y participar en un nuevo proyecto. Desde entonces, he ganado confianza. Hoy soy una persona más segura de sí misma."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris une biographie de 150 à 200 mots sur ton parcours personnel, en utilisant l’imparfait et le passé composé."
       }
     ]
   },
@@ -9558,339 +9140,6 @@
           "plus",
           "pas encore"
         ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-identite-et-parcours-personnel-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "identite-et-parcours-personnel",
-    "title": "L’imparfait et le contraste avec le passé composé",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 24,
-    "estimatedMinutes": 12,
-    "description": "Décrire une situation passée habituelle avec l’imparfait, et distinguer son usage du passé composé.",
-    "intro": "Décrire une situation passée habituelle avec l’imparfait, et distinguer son usage du passé composé.",
-    "mission": "",
-    "grammar": "L’imparfait décrit une situation, une habitude ou un état dans le passé, sans limite de temps précise : « J’étais timide. Je parlais peu. » Le passé composé décrit une action ponctuelle et terminée : « Un jour, j’ai décidé de changer. » On utilise souvent les deux ensemble : l’imparfait pour le contexte, le passé composé pour l’événement précis.",
-    "phrases": [
-      "J’étais...",
-      "Je parlais...",
-      "Un jour, j’ai décidé de...",
-      "J’ai changé."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b1-identite-et-parcours-personnel-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b1-identite-et-parcours-personnel-grammar-q1",
-            "type": "mcq",
-            "prompt": "Avant, je ___ très timide.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "étais"
-              },
-              {
-                "id": "a",
-                "text": "ai été"
-              },
-              {
-                "id": "c",
-                "text": "suis"
-              },
-              {
-                "id": "d",
-                "text": "serai"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-identite-et-parcours-personnel-grammar-q2",
-            "type": "mcq",
-            "prompt": "Un jour, j’___ de participer au projet.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "décidais"
-              },
-              {
-                "id": "a",
-                "text": "ai décidé"
-              },
-              {
-                "id": "c",
-                "text": "décide"
-              },
-              {
-                "id": "d",
-                "text": "déciderai"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-identite-et-parcours-personnel-grammar-q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase utilise correctement l’imparfait pour une habitude passée ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "J’ai mangé souvent des tartines."
-              },
-              {
-                "id": "c",
-                "text": "Je vais manger souvent des tartines."
-              },
-              {
-                "id": "b",
-                "text": "Je mangeais souvent des tartines."
-              },
-              {
-                "id": "d",
-                "text": "J’aurais mangé souvent des tartines."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-identite-et-parcours-personnel-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quel temps utilise-t-on pour une action ponctuelle terminée ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "L’imparfait"
-              },
-              {
-                "id": "c",
-                "text": "Le présent"
-              },
-              {
-                "id": "d",
-                "text": "Le futur simple"
-              },
-              {
-                "id": "b",
-                "text": "Le passé composé"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-identite-et-parcours-personnel-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Avant, je ai été très timide. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Avant, je étais très timide."
-              },
-              {
-                "id": "a",
-                "text": "Avant, je ai été très timide."
-              },
-              {
-                "id": "c",
-                "text": "Avant, je suis très timide."
-              },
-              {
-                "id": "d",
-                "text": "Avant, je serai très timide."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-identite-et-parcours-personnel-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Un jour, j’décidais de participer au projet. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Un jour, j’décidais de participer au projet."
-              },
-              {
-                "id": "a",
-                "text": "Un jour, j’ai décidé de participer au projet."
-              },
-              {
-                "id": "c",
-                "text": "Un jour, j’décide de participer au projet."
-              },
-              {
-                "id": "d",
-                "text": "Un jour, j’déciderai de participer au projet."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-identite-et-parcours-personnel-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « J’ai mangé souvent des tartines. » dans ce contexte : « Quelle phrase utilise correctement l’imparfait pour une habitude passée ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "J’ai mangé souvent des tartines."
-              },
-              {
-                "id": "c",
-                "text": "Je vais manger souvent des tartines."
-              },
-              {
-                "id": "b",
-                "text": "Je mangeais souvent des tartines."
-              },
-              {
-                "id": "d",
-                "text": "J’aurais mangé souvent des tartines."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-identite-et-parcours-personnel-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « L’imparfait » dans ce contexte : « Quel temps utilise-t-on pour une action ponctuelle terminée ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "L’imparfait"
-              },
-              {
-                "id": "c",
-                "text": "Le présent"
-              },
-              {
-                "id": "d",
-                "text": "Le futur simple"
-              },
-              {
-                "id": "b",
-                "text": "Le passé composé"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "L’imparfait et le contraste avec le passé composé",
-        "definition": "L’imparfait décrit une situation, une habitude ou un état dans le passé, sans limite de temps précise : « J’étais timide. Je parlais peu. » Le passé composé décrit une action ponctuelle et terminée : « Un jour, j’ai décidé de changer. » On utilise souvent les deux ensemble : l’imparfait pour le contexte, le passé composé pour l’événement précis.",
-        "structure": "Forme à observer : L’imparfait et le contraste avec le passé composé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Décrire une situation passée habituelle avec l’imparfait, et distinguer son usage du passé composé.",
-        "examples": [
-          "Avant, je étais très timide.",
-          "Un jour, j’ai décidé de participer au projet.",
-          "Je mangeais souvent des tartines.",
-          "Le passé composé"
-        ],
-        "explanation": "L’imparfait décrit une situation, une habitude ou un état dans le passé, sans limite de temps précise : « J’étais timide. Je parlais peu. » Le passé composé décrit une action ponctuelle et terminée : « Un jour, j’ai décidé de changer. » On utilise souvent les deux ensemble : l’imparfait pour le contexte, le passé composé pour l’événement précis.",
-        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
-        "cefrLevel": "B1",
-        "unitContext": "Décrire une situation passée habituelle avec l’imparfait, et distinguer son usage du passé composé."
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Avant, je ___ très timide.",
-        "options": [
-          "étais",
-          "ai été",
-          "suis",
-          "serai"
-        ],
-        "explanation": "La bonne réponse est « étais » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Un jour, j’___ de participer au projet.",
-        "options": [
-          "décidais",
-          "ai décidé",
-          "décide",
-          "déciderai"
-        ],
-        "explanation": "La bonne réponse est « ai décidé » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase utilise correctement l’imparfait pour une habitude passée ?",
-        "options": [
-          "J’ai mangé souvent des tartines.",
-          "Je vais manger souvent des tartines.",
-          "Je mangeais souvent des tartines.",
-          "J’aurais mangé souvent des tartines."
-        ],
-        "explanation": "La bonne réponse est « Je mangeais souvent des tartines. » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel temps utilise-t-on pour une action ponctuelle terminée ?",
-        "options": [
-          "L’imparfait",
-          "Le présent",
-          "Le futur simple",
-          "Le passé composé"
-        ],
-        "explanation": "La bonne réponse est « Le passé composé » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Avant, j’ai été très timide. » ?",
-        "options": [
-          "Avant, j’étais très timide.",
-          "Avant, j’ai été très timide.",
-          "Avant, je suis très timide.",
-          "Avant, je serai très timide."
-        ],
-        "explanation": "La phrase correcte est : « Avant, j’étais très timide. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Un jour, j’décidais de participer au projet. » ?",
-        "options": [
-          "Un jour, j’décidais de participer au projet.",
-          "Un jour, j’ai décidé de participer au projet.",
-          "Un jour, j’décide de participer au projet.",
-          "Un jour, j’déciderai de participer au projet."
-        ],
-        "explanation": "La phrase correcte est : « Un jour, j’ai décidé de participer au projet. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « J’ai mangé souvent des tartines. » dans ce contexte : « Quelle phrase utilise correctement l’imparfait pour une habitude passée ? » ?",
-        "options": [
-          "J’ai mangé souvent des tartines.",
-          "Je vais manger souvent des tartines.",
-          "Je mangeais souvent des tartines.",
-          "J’aurais mangé souvent des tartines."
-        ],
-        "explanation": "La bonne réponse est « Je mangeais souvent des tartines. »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « L’imparfait » dans ce contexte : « Quel temps utilise-t-on pour une action ponctuelle terminée ? » ?",
-        "options": [
-          "L’imparfait",
-          "Le présent",
-          "Le futur simple",
-          "Le passé composé"
-        ],
-        "explanation": "La bonne réponse est « Le passé composé »."
       }
     ]
   },
@@ -10561,6 +9810,339 @@
     ]
   },
   {
+    "slug": "french-b1-identite-et-parcours-personnel-grammar",
+    "level": "B1",
+    "skill": "grammar",
+    "unitId": "identite-et-parcours-personnel",
+    "title": "L’imparfait et le contraste avec le passé composé",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 24,
+    "estimatedMinutes": 12,
+    "description": "Décrire une situation passée habituelle avec l’imparfait, et distinguer son usage du passé composé.",
+    "intro": "Décrire une situation passée habituelle avec l’imparfait, et distinguer son usage du passé composé.",
+    "mission": "",
+    "grammar": "L’imparfait décrit une situation, une habitude ou un état dans le passé, sans limite de temps précise : « J’étais timide. Je parlais peu. » Le passé composé décrit une action ponctuelle et terminée : « Un jour, j’ai décidé de changer. » On utilise souvent les deux ensemble : l’imparfait pour le contexte, le passé composé pour l’événement précis.",
+    "phrases": [
+      "J’étais...",
+      "Je parlais...",
+      "Un jour, j’ai décidé de...",
+      "J’ai changé."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b1-identite-et-parcours-personnel-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b1-identite-et-parcours-personnel-grammar-q1",
+            "type": "mcq",
+            "prompt": "Avant, je ___ très timide.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "étais"
+              },
+              {
+                "id": "a",
+                "text": "ai été"
+              },
+              {
+                "id": "c",
+                "text": "suis"
+              },
+              {
+                "id": "d",
+                "text": "serai"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-identite-et-parcours-personnel-grammar-q2",
+            "type": "mcq",
+            "prompt": "Un jour, j’___ de participer au projet.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "décidais"
+              },
+              {
+                "id": "a",
+                "text": "ai décidé"
+              },
+              {
+                "id": "c",
+                "text": "décide"
+              },
+              {
+                "id": "d",
+                "text": "déciderai"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-identite-et-parcours-personnel-grammar-q3",
+            "type": "mcq",
+            "prompt": "Quelle phrase utilise correctement l’imparfait pour une habitude passée ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "J’ai mangé souvent des tartines."
+              },
+              {
+                "id": "c",
+                "text": "Je vais manger souvent des tartines."
+              },
+              {
+                "id": "b",
+                "text": "Je mangeais souvent des tartines."
+              },
+              {
+                "id": "d",
+                "text": "J’aurais mangé souvent des tartines."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-identite-et-parcours-personnel-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quel temps utilise-t-on pour une action ponctuelle terminée ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "L’imparfait"
+              },
+              {
+                "id": "c",
+                "text": "Le présent"
+              },
+              {
+                "id": "d",
+                "text": "Le futur simple"
+              },
+              {
+                "id": "b",
+                "text": "Le passé composé"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-identite-et-parcours-personnel-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Avant, je ai été très timide. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Avant, je étais très timide."
+              },
+              {
+                "id": "a",
+                "text": "Avant, je ai été très timide."
+              },
+              {
+                "id": "c",
+                "text": "Avant, je suis très timide."
+              },
+              {
+                "id": "d",
+                "text": "Avant, je serai très timide."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-identite-et-parcours-personnel-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Un jour, j’décidais de participer au projet. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Un jour, j’décidais de participer au projet."
+              },
+              {
+                "id": "a",
+                "text": "Un jour, j’ai décidé de participer au projet."
+              },
+              {
+                "id": "c",
+                "text": "Un jour, j’décide de participer au projet."
+              },
+              {
+                "id": "d",
+                "text": "Un jour, j’déciderai de participer au projet."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-identite-et-parcours-personnel-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « J’ai mangé souvent des tartines. » dans ce contexte : « Quelle phrase utilise correctement l’imparfait pour une habitude passée ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "J’ai mangé souvent des tartines."
+              },
+              {
+                "id": "c",
+                "text": "Je vais manger souvent des tartines."
+              },
+              {
+                "id": "b",
+                "text": "Je mangeais souvent des tartines."
+              },
+              {
+                "id": "d",
+                "text": "J’aurais mangé souvent des tartines."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-identite-et-parcours-personnel-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « L’imparfait » dans ce contexte : « Quel temps utilise-t-on pour une action ponctuelle terminée ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "L’imparfait"
+              },
+              {
+                "id": "c",
+                "text": "Le présent"
+              },
+              {
+                "id": "d",
+                "text": "Le futur simple"
+              },
+              {
+                "id": "b",
+                "text": "Le passé composé"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "L’imparfait et le contraste avec le passé composé",
+        "definition": "L’imparfait décrit une situation, une habitude ou un état dans le passé, sans limite de temps précise : « J’étais timide. Je parlais peu. » Le passé composé décrit une action ponctuelle et terminée : « Un jour, j’ai décidé de changer. » On utilise souvent les deux ensemble : l’imparfait pour le contexte, le passé composé pour l’événement précis.",
+        "explanation": "L’imparfait décrit une situation, une habitude ou un état dans le passé, sans limite de temps précise : « J’étais timide. Je parlais peu. » Le passé composé décrit une action ponctuelle et terminée : « Un jour, j’ai décidé de changer. » On utilise souvent les deux ensemble : l’imparfait pour le contexte, le passé composé pour l’événement précis.",
+        "structure": "Estructura central: L’imparfait et le contraste avec le passé composé.",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "function": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Décrire une situation passée habituelle avec l’imparfait, et distinguer son usage du passé composé.",
+        "examples": [
+          "Avant, je étais très timide.",
+          "Un jour, j’ai décidé de participer au projet.",
+          "Je mangeais souvent des tartines.",
+          "Le passé composé"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Avant, je ___ très timide.",
+        "options": [
+          "ai été",
+          "étais",
+          "suis",
+          "serai"
+        ],
+        "explanation": "La bonne réponse est « étais » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Un jour, j’___ de participer au projet.",
+        "options": [
+          "ai décidé",
+          "décidais",
+          "décide",
+          "déciderai"
+        ],
+        "explanation": "La bonne réponse est « ai décidé » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase utilise correctement l’imparfait pour une habitude passée ?",
+        "options": [
+          "J’ai mangé souvent des tartines.",
+          "Je mangeais souvent des tartines.",
+          "Je vais manger souvent des tartines.",
+          "J’aurais mangé souvent des tartines."
+        ],
+        "explanation": "La bonne réponse est « Je mangeais souvent des tartines. » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel temps utilise-t-on pour une action ponctuelle terminée ?",
+        "options": [
+          "L’imparfait",
+          "Le passé composé",
+          "Le présent",
+          "Le futur simple"
+        ],
+        "explanation": "La bonne réponse est « Le passé composé » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Avant, j’ai été très timide. » ?",
+        "options": [
+          "Avant, j’ai été très timide.",
+          "Avant, j’étais très timide.",
+          "Avant, je suis très timide.",
+          "Avant, je serai très timide."
+        ],
+        "explanation": "La phrase correcte est : « Avant, j’étais très timide. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Un jour, j’décidais de participer au projet. » ?",
+        "options": [
+          "Un jour, j’ai décidé de participer au projet.",
+          "Un jour, j’décidais de participer au projet.",
+          "Un jour, j’décide de participer au projet.",
+          "Un jour, j’déciderai de participer au projet."
+        ],
+        "explanation": "La phrase correcte est : « Un jour, j’ai décidé de participer au projet. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « J’ai mangé souvent des tartines. » dans ce contexte : « Quelle phrase utilise correctement l’imparfait pour une habitude passée ? » ?",
+        "options": [
+          "J’ai mangé souvent des tartines.",
+          "Je mangeais souvent des tartines.",
+          "Je vais manger souvent des tartines.",
+          "J’aurais mangé souvent des tartines."
+        ],
+        "explanation": "La bonne réponse est « Je mangeais souvent des tartines. »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « L’imparfait » dans ce contexte : « Quel temps utilise-t-on pour une action ponctuelle terminée ? » ?",
+        "options": [
+          "L’imparfait",
+          "Le passé composé",
+          "Le présent",
+          "Le futur simple"
+        ],
+        "explanation": "La bonne réponse est « Le passé composé »."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-candidature-universitaire-grammar",
     "level": "B2",
     "skill": "grammar",
@@ -10787,18 +10369,18 @@
       "grammarProfile": {
         "name": "Le subjonctif passé",
         "definition": "Le subjonctif passé se forme avec avoir/être au subjonctif présent + participe passé : « Je suis content(e) que tu aies réussi. Il est important que nous ayons vécu cette expérience. » Il s’utilise après les mêmes expressions que le subjonctif présent, mais pour une action déjà accomplie au moment où l’on parle.",
-        "structure": "Forme à observer : Le subjonctif passé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Exprimer une expérience accomplie après une expression subjective ou émotionnelle.",
+        "explanation": "Le subjonctif passé se forme avec avoir/être au subjonctif présent + participe passé : « Je suis content(e) que tu aies réussi. Il est important que nous ayons vécu cette expérience. » Il s’utilise après les mêmes expressions que le subjonctif présent, mais pour une action déjà accomplie au moment où l’on parle.",
+        "structure": "Estructura central: Le subjonctif passé.",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "function": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Exprimer une expérience accomplie après une expression subjective ou émotionnelle.",
         "examples": [
           "Je suis fière que tu aies envoyé cette candidature.",
           "Il est important que nous ayons vécu cette expérience ensemble.",
           "Bien qu’elle ait été nerveuse, elle a envoyé sa lettre.",
           "Avoir/être au subjonctif présent + participe passé"
-        ],
-        "explanation": "Le subjonctif passé se forme avec avoir/être au subjonctif présent + participe passé : « Je suis content(e) que tu aies réussi. Il est important que nous ayons vécu cette expérience. » Il s’utilise après les mêmes expressions que le subjonctif présent, mais pour une action déjà accomplie au moment où l’on parle.",
-        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
-        "cefrLevel": "B2",
-        "unitContext": "Exprimer une expérience accomplie après une expression subjective ou émotionnelle."
+        ]
       },
       "listeningComprehension": null
     },
@@ -10807,8 +10389,8 @@
         "type": "mcq",
         "prompt": "Je suis fière que tu ___ cette candidature.",
         "options": [
-          "aies envoyé",
           "envoies",
+          "aies envoyé",
           "enverrais",
           "envoyais"
         ],
@@ -10830,8 +10412,8 @@
         "prompt": "Bien qu’elle ___ nerveuse, elle a envoyé sa lettre.",
         "options": [
           "soit",
-          "était",
           "ait été",
+          "était",
           "sera"
         ],
         "explanation": "La bonne réponse est « ait été » : elle respecte la structure étudiée dans cette leçon."
@@ -10840,10 +10422,10 @@
         "type": "mcq",
         "prompt": "Quelle structure forme le subjonctif passé ?",
         "options": [
+          "Avoir/être au subjonctif présent + participe passé",
           "Avoir au futur + infinitif",
           "Être à l’imparfait + gérondif",
-          "Avoir au conditionnel + infinitif",
-          "Avoir/être au subjonctif présent + participe passé"
+          "Avoir au conditionnel + infinitif"
         ],
         "explanation": "La bonne réponse est « Avoir/être au subjonctif présent + participe passé » : elle respecte la structure étudiée dans cette leçon."
       },
@@ -10851,8 +10433,8 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Je suis fière que tu envoies cette candidature. » ?",
         "options": [
-          "Je suis fière que tu aies envoyé cette candidature.",
           "Je suis fière que tu envoies cette candidature.",
+          "Je suis fière que tu aies envoyé cette candidature.",
           "Je suis fière que tu enverrais cette candidature.",
           "Je suis fière que tu envoyais cette candidature."
         ],
@@ -10874,8 +10456,8 @@
         "prompt": "Quelle version corrige entièrement la phrase « Bien qu’elle soit nerveuse, elle a envoyé sa lettre. » ?",
         "options": [
           "Bien qu’elle soit nerveuse, elle a envoyé sa lettre.",
-          "Bien qu’elle était nerveuse, elle a envoyé sa lettre.",
           "Bien qu’elle ait été nerveuse, elle a envoyé sa lettre.",
+          "Bien qu’elle était nerveuse, elle a envoyé sa lettre.",
           "Bien qu’elle sera nerveuse, elle a envoyé sa lettre."
         ],
         "explanation": "La phrase correcte est : « Bien qu’elle ait été nerveuse, elle a envoyé sa lettre. »"
@@ -10884,10 +10466,10 @@
         "type": "mcq",
         "prompt": "Quelle réponse corrige l’erreur « Avoir au futur + infinitif » dans ce contexte : « Quelle structure forme le subjonctif passé ? » ?",
         "options": [
+          "Avoir/être au subjonctif présent + participe passé",
           "Avoir au futur + infinitif",
           "Être à l’imparfait + gérondif",
-          "Avoir au conditionnel + infinitif",
-          "Avoir/être au subjonctif présent + participe passé"
+          "Avoir au conditionnel + infinitif"
         ],
         "explanation": "La bonne réponse est « Avoir/être au subjonctif présent + participe passé »."
       }
@@ -11104,86 +10686,6 @@
           "Completo",
           "Barato",
           "Cerca"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-identite-et-parcours-personnel-vocabulary",
-    "level": "B1",
-    "skill": "vocabulary",
-    "unitId": "identite-et-parcours-personnel",
-    "title": "Le vocabulaire de l’identité et du parcours",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 25,
-    "estimatedMinutes": 8,
-    "description": "Le vocabulaire essentiel pour parler de son parcours personnel.",
-    "intro": "Le vocabulaire essentiel pour parler de son parcours personnel.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "le parcours",
-        "translation": "la trayectoria",
-        "example": "Mon parcours en France a été riche en expériences."
-      },
-      {
-        "word": "changer",
-        "translation": "cambiar",
-        "example": "J’ai beaucoup changé depuis mon arrivée."
-      },
-      {
-        "word": "grandir",
-        "translation": "crecer",
-        "example": "J’ai grandi en tant que personne cette année."
-      },
-      {
-        "word": "devenir",
-        "translation": "convertirse en",
-        "example": "Je suis devenue plus confiante."
-      },
-      {
-        "word": "la zone de confort",
-        "translation": "la zona de confort",
-        "example": "Il faut parfois sortir de sa zone de confort."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « grandir » ?",
-        "options": [
-          "Crecer",
-          "Cambiar",
-          "Viajar",
-          "Estudiar"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « devenir » ?",
-        "options": [
-          "Volver",
-          "Convertirse en",
-          "Olvidar",
-          "Recordar"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « le parcours » ?",
-        "options": [
-          "El camino",
-          "La trayectoria",
-          "El destino",
-          "El obstáculo"
         ]
       }
     ]
@@ -11543,6 +11045,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-identite-et-parcours-personnel-vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unitId": "identite-et-parcours-personnel",
+    "title": "Le vocabulaire de l’identité et du parcours",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 25,
+    "estimatedMinutes": 8,
+    "description": "Le vocabulaire essentiel pour parler de son parcours personnel.",
+    "intro": "Le vocabulaire essentiel pour parler de son parcours personnel.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "le parcours",
+        "translation": "la trayectoria",
+        "example": "Mon parcours en France a été riche en expériences."
+      },
+      {
+        "word": "changer",
+        "translation": "cambiar",
+        "example": "J’ai beaucoup changé depuis mon arrivée."
+      },
+      {
+        "word": "grandir",
+        "translation": "crecer",
+        "example": "J’ai grandi en tant que personne cette année."
+      },
+      {
+        "word": "devenir",
+        "translation": "convertirse en",
+        "example": "Je suis devenue plus confiante."
+      },
+      {
+        "word": "la zone de confort",
+        "translation": "la zona de confort",
+        "example": "Il faut parfois sortir de sa zone de confort."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « grandir » ?",
+        "options": [
+          "Crecer",
+          "Cambiar",
+          "Viajar",
+          "Estudiar"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « devenir » ?",
+        "options": [
+          "Volver",
+          "Convertirse en",
+          "Olvidar",
+          "Recordar"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « le parcours » ?",
+        "options": [
+          "El camino",
+          "La trayectoria",
+          "El destino",
+          "El obstáculo"
+        ]
       }
     ]
   },
@@ -12158,96 +11740,6 @@
     ]
   },
   {
-    "slug": "french-b1-etudes-et-apprentissage-reading",
-    "level": "B1",
-    "skill": "reading",
-    "unitId": "etudes-et-apprentissage",
-    "title": "Apprendre de façon active",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 30,
-    "estimatedMinutes": 15,
-    "description": "Les habitudes qui rendent l’apprentissage plus durable, selon les spécialistes des sciences cognitives.",
-    "intro": "Les habitudes qui rendent l’apprentissage plus durable, selon les spécialistes des sciences cognitives.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Apprendre de façon active",
-      "parts": [
-        "Vingt minutes après avoir lu un chapitre une seule fois, la moitié de son contenu s’est déjà évaporée de la mémoire, selon la célèbre courbe de l’oubli établie par le psychologue Hermann Ebbinghaus il y a plus d’un siècle, et confirmée depuis par de nombreuses études en sciences cognitives. Relire un cours en silence donne pourtant une impression trompeuse de maîtrise : on reconnaît les mots, mais on serait souvent incapable de les réécrire seul, sans le texte sous les yeux.",
-        "À la place d’une relecture passive, les chercheurs recommandent le « rappel actif » : fermer le livre, puis essayer de reformuler l’idée principale avec ses propres mots, sans regarder. Un élève qui teste cette méthode avant un contrôle de mathématiques commencerait, par exemple, par les exercices les plus simples, pour vérifier ce qu’il maîtrise vraiment, avant de s’attaquer aux exercices complexes. Expliquer un problème à voix haute, même seul dans sa chambre, révèle immédiatement les zones encore floues : si l’explication devient hésitante, c’est le signal qu’il faut retravailler cette partie précise.",
-        "L’espacement compte tout autant que la méthode. Réviser trente minutes chaque soir pendant une semaine produirait de bien meilleurs résultats qu’une seule session de trois heures la veille de l’examen, d’après plusieurs comparaisons menées auprès de lycéens. Le cerveau retient mieux une information récupérée plusieurs fois, à intervalles réguliers, qu’une information simplement revue une seule fois de façon intensive.",
-        "Un professeur consulté sur ce sujet résumerait volontiers la méthode en une phrase : « À ta place, je ne chercherais jamais à tout retenir d’un coup. Je préférerais me tromper plusieurs fois cette semaine, plutôt qu’une seule fois le jour de l’examen. » Cette approche, encore peu enseignée explicitement dans les salles de classe, gagne du terrain à mesure que les résultats se confirment."
-      ],
-      "questions": [
-        "Que montre la courbe de l’oubli d’Ebbinghaus, selon le texte ?",
-        "Qu’est-ce que le « rappel actif », selon le texte ?",
-        "Que révèle le fait d’expliquer un problème à voix haute, selon le texte ?",
-        "Que produirait de meilleurs résultats qu’une session de trois heures la veille de l’examen, selon le texte ?",
-        "Que dirait le professeur cité à la fin du texte, « à ta place » ?"
-      ],
-      "text": "Vingt minutes après avoir lu un chapitre une seule fois, la moitié de son contenu s’est déjà évaporée de la mémoire, selon la célèbre courbe de l’oubli établie par le psychologue Hermann Ebbinghaus il y a plus d’un siècle, et confirmée depuis par de nombreuses études en sciences cognitives. Relire un cours en silence donne pourtant une impression trompeuse de maîtrise : on reconnaît les mots, mais on serait souvent incapable de les réécrire seul, sans le texte sous les yeux.\n\nÀ la place d’une relecture passive, les chercheurs recommandent le « rappel actif » : fermer le livre, puis essayer de reformuler l’idée principale avec ses propres mots, sans regarder. Un élève qui teste cette méthode avant un contrôle de mathématiques commencerait, par exemple, par les exercices les plus simples, pour vérifier ce qu’il maîtrise vraiment, avant de s’attaquer aux exercices complexes. Expliquer un problème à voix haute, même seul dans sa chambre, révèle immédiatement les zones encore floues : si l’explication devient hésitante, c’est le signal qu’il faut retravailler cette partie précise.\n\nL’espacement compte tout autant que la méthode. Réviser trente minutes chaque soir pendant une semaine produirait de bien meilleurs résultats qu’une seule session de trois heures la veille de l’examen, d’après plusieurs comparaisons menées auprès de lycéens. Le cerveau retient mieux une information récupérée plusieurs fois, à intervalles réguliers, qu’une information simplement revue une seule fois de façon intensive.\n\nUn professeur consulté sur ce sujet résumerait volontiers la méthode en une phrase : « À ta place, je ne chercherais jamais à tout retenir d’un coup. Je préférerais me tromper plusieurs fois cette semaine, plutôt qu’une seule fois le jour de l’examen. » Cette approche, encore peu enseignée explicitement dans les salles de classe, gagne du terrain à mesure que les résultats se confirment."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que montre la courbe de l’oubli d’Ebbinghaus, selon le texte ?",
-        "options": [
-          "Qu’on retient tout après une seule lecture",
-          "Qu’une grande partie du contenu est oubliée peu après une seule lecture",
-          "Qu’il ne faut jamais relire un cours",
-          "Qu’Ebbinghaus recommandait de dormir avant un examen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qu’est-ce que le « rappel actif », selon le texte ?",
-        "options": [
-          "Relire un cours plusieurs fois de suite",
-          "Reformuler une idée avec ses propres mots, sans regarder le texte",
-          "Copier un cours à la main",
-          "Écouter un enregistrement du cours"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que révèle le fait d’expliquer un problème à voix haute, selon le texte ?",
-        "options": [
-          "Le niveau de bruit dans la pièce",
-          "Les zones encore floues de la compréhension",
-          "Le temps qu’il reste avant l’examen",
-          "Rien d’utile"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que produirait de meilleurs résultats qu’une session de trois heures la veille de l’examen, selon le texte ?",
-        "options": [
-          "Réviser trente minutes chaque soir pendant une semaine",
-          "Ne pas réviser du tout",
-          "Relire le cours une seule fois",
-          "Dormir toute la journée précédente"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que dirait le professeur cité à la fin du texte, « à ta place » ?",
-        "options": [
-          "Qu’il faut tout retenir d’un coup",
-          "Qu’il préférerait se tromper plusieurs fois dans la semaine plutôt qu’une fois le jour de l’examen",
-          "Qu’il vaut mieux réviser seulement la veille",
-          "Qu’il ne faut jamais se tromper"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-les-medias-et-la-fabrique-de-lopinion-reading",
     "level": "C1",
     "skill": "reading",
@@ -12456,6 +11948,96 @@
           "De la suppression complète des armes nucléaires"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Un monde multipolaire est-il nécessairement plus instable ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-etudes-et-apprentissage-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "etudes-et-apprentissage",
+    "title": "Apprendre de façon active",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 30,
+    "estimatedMinutes": 15,
+    "description": "Les habitudes qui rendent l’apprentissage plus durable, selon les spécialistes des sciences cognitives.",
+    "intro": "Les habitudes qui rendent l’apprentissage plus durable, selon les spécialistes des sciences cognitives.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Apprendre de façon active",
+      "parts": [
+        "Vingt minutes après avoir lu un chapitre une seule fois, la moitié de son contenu s’est déjà évaporée de la mémoire, selon la célèbre courbe de l’oubli établie par le psychologue Hermann Ebbinghaus il y a plus d’un siècle, et confirmée depuis par de nombreuses études en sciences cognitives. Relire un cours en silence donne pourtant une impression trompeuse de maîtrise : on reconnaît les mots, mais on serait souvent incapable de les réécrire seul, sans le texte sous les yeux.",
+        "À la place d’une relecture passive, les chercheurs recommandent le « rappel actif » : fermer le livre, puis essayer de reformuler l’idée principale avec ses propres mots, sans regarder. Un élève qui teste cette méthode avant un contrôle de mathématiques commencerait, par exemple, par les exercices les plus simples, pour vérifier ce qu’il maîtrise vraiment, avant de s’attaquer aux exercices complexes. Expliquer un problème à voix haute, même seul dans sa chambre, révèle immédiatement les zones encore floues : si l’explication devient hésitante, c’est le signal qu’il faut retravailler cette partie précise.",
+        "L’espacement compte tout autant que la méthode. Réviser trente minutes chaque soir pendant une semaine produirait de bien meilleurs résultats qu’une seule session de trois heures la veille de l’examen, d’après plusieurs comparaisons menées auprès de lycéens. Le cerveau retient mieux une information récupérée plusieurs fois, à intervalles réguliers, qu’une information simplement revue une seule fois de façon intensive.",
+        "Un professeur consulté sur ce sujet résumerait volontiers la méthode en une phrase : « À ta place, je ne chercherais jamais à tout retenir d’un coup. Je préférerais me tromper plusieurs fois cette semaine, plutôt qu’une seule fois le jour de l’examen. » Cette approche, encore peu enseignée explicitement dans les salles de classe, gagne du terrain à mesure que les résultats se confirment."
+      ],
+      "questions": [
+        "Que montre la courbe de l’oubli d’Ebbinghaus, selon le texte ?",
+        "Qu’est-ce que le « rappel actif », selon le texte ?",
+        "Que révèle le fait d’expliquer un problème à voix haute, selon le texte ?",
+        "Que produirait de meilleurs résultats qu’une session de trois heures la veille de l’examen, selon le texte ?",
+        "Que dirait le professeur cité à la fin du texte, « à ta place » ?"
+      ],
+      "text": "Vingt minutes après avoir lu un chapitre une seule fois, la moitié de son contenu s’est déjà évaporée de la mémoire, selon la célèbre courbe de l’oubli établie par le psychologue Hermann Ebbinghaus il y a plus d’un siècle, et confirmée depuis par de nombreuses études en sciences cognitives. Relire un cours en silence donne pourtant une impression trompeuse de maîtrise : on reconnaît les mots, mais on serait souvent incapable de les réécrire seul, sans le texte sous les yeux.\n\nÀ la place d’une relecture passive, les chercheurs recommandent le « rappel actif » : fermer le livre, puis essayer de reformuler l’idée principale avec ses propres mots, sans regarder. Un élève qui teste cette méthode avant un contrôle de mathématiques commencerait, par exemple, par les exercices les plus simples, pour vérifier ce qu’il maîtrise vraiment, avant de s’attaquer aux exercices complexes. Expliquer un problème à voix haute, même seul dans sa chambre, révèle immédiatement les zones encore floues : si l’explication devient hésitante, c’est le signal qu’il faut retravailler cette partie précise.\n\nL’espacement compte tout autant que la méthode. Réviser trente minutes chaque soir pendant une semaine produirait de bien meilleurs résultats qu’une seule session de trois heures la veille de l’examen, d’après plusieurs comparaisons menées auprès de lycéens. Le cerveau retient mieux une information récupérée plusieurs fois, à intervalles réguliers, qu’une information simplement revue une seule fois de façon intensive.\n\nUn professeur consulté sur ce sujet résumerait volontiers la méthode en une phrase : « À ta place, je ne chercherais jamais à tout retenir d’un coup. Je préférerais me tromper plusieurs fois cette semaine, plutôt qu’une seule fois le jour de l’examen. » Cette approche, encore peu enseignée explicitement dans les salles de classe, gagne du terrain à mesure que les résultats se confirment."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que montre la courbe de l’oubli d’Ebbinghaus, selon le texte ?",
+        "options": [
+          "Qu’on retient tout après une seule lecture",
+          "Qu’une grande partie du contenu est oubliée peu après une seule lecture",
+          "Qu’il ne faut jamais relire un cours",
+          "Qu’Ebbinghaus recommandait de dormir avant un examen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qu’est-ce que le « rappel actif », selon le texte ?",
+        "options": [
+          "Relire un cours plusieurs fois de suite",
+          "Reformuler une idée avec ses propres mots, sans regarder le texte",
+          "Copier un cours à la main",
+          "Écouter un enregistrement du cours"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que révèle le fait d’expliquer un problème à voix haute, selon le texte ?",
+        "options": [
+          "Le niveau de bruit dans la pièce",
+          "Les zones encore floues de la compréhension",
+          "Le temps qu’il reste avant l’examen",
+          "Rien d’utile"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que produirait de meilleurs résultats qu’une session de trois heures la veille de l’examen, selon le texte ?",
+        "options": [
+          "Réviser trente minutes chaque soir pendant une semaine",
+          "Ne pas réviser du tout",
+          "Relire le cours une seule fois",
+          "Dormir toute la journée précédente"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que dirait le professeur cité à la fin du texte, « à ta place » ?",
+        "options": [
+          "Qu’il faut tout retenir d’un coup",
+          "Qu’il préférerait se tromper plusieurs fois dans la semaine plutôt qu’une fois le jour de l’examen",
+          "Qu’il vaut mieux réviser seulement la veille",
+          "Qu’il ne faut jamais se tromper"
+        ]
       }
     ]
   },
@@ -13041,246 +12623,6 @@
     ]
   },
   {
-    "slug": "french-b1-etudes-et-apprentissage-listening",
-    "level": "B1",
-    "skill": "listening",
-    "unitId": "etudes-et-apprentissage",
-    "title": "Cinq conseils pour mieux réviser",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 31,
-    "estimatedMinutes": 12,
-    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "J’ai l’impression que...",
-      "À ta place, je...",
-      "Essaie de...",
-      "Bonne idée !"
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Bonjour et bienvenue dans cette capsule consacrée aux révisions. Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste. Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille. Deuxième conseil : identifiez vos difficultés. Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien. Ensuite, alternez les activités : lisez, résumez, expliquez la leçon à voix haute et faites quelques exercices. Cette variété vous aiderait à rester concentré. Vous pourriez également travailler avec un camarade, à condition de fixer un objectif précis. Enfin, n’oubliez pas les pauses. Après quarante-cinq minutes de travail, une courte pause permet souvent de progresser davantage. Une bonne note ne dépend pas seulement du nombre d’heures passées devant un cahier. Elle dépend aussi de l’organisation, du sommeil et de la régularité. Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "tutorial",
-      "storyTitle": "Cinq conseils pour mieux réviser",
-      "mainTranscript": "Bonjour et bienvenue dans cette capsule consacrée aux révisions. Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste. Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille. Deuxième conseil : identifiez vos difficultés. Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien. Ensuite, alternez les activités : lisez, résumez, expliquez la leçon à voix haute et faites quelques exercices. Cette variété vous aiderait à rester concentré. Vous pourriez également travailler avec un camarade, à condition de fixer un objectif précis. Enfin, n’oubliez pas les pauses. Après quarante-cinq minutes de travail, une courte pause permet souvent de progresser davantage. Une bonne note ne dépend pas seulement du nombre d’heures passées devant un cahier. Elle dépend aussi de l’organisation, du sommeil et de la régularité. Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Bonjour et bienvenue dans cette capsule consacrée aux révisions."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Deuxième conseil : identifiez vos difficultés."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Ensuite, alternez les activités : lisez, résumez, expliquez la leçon à voix haute et faites quelques exercices."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Cette variété vous aiderait à rester concentré."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Vous pourriez également travailler avec un camarade, à condition de fixer un objectif précis."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Enfin, n’oubliez pas les pauses."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Après quarante-cinq minutes de travail, une courte pause permet souvent de progresser davantage."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Une bonne note ne dépend pas seulement du nombre d’heures passées devant un cahier."
-        },
-        {
-          "id": "segment-12",
-          "order": 12,
-          "text": "Elle dépend aussi de l’organisation, du sommeil et de la régularité."
-        },
-        {
-          "id": "segment-13",
-          "order": 13,
-          "text": "Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous."
-        }
-      ],
-      "listeningComprehension": {
-        "id": "french-b1-etudes-et-apprentissage-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Cinq conseils pour mieux réviser », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bonjour et bienvenue dans cette capsule consacrée aux révisions."
-              },
-              {
-                "id": "o2",
-                "text": "Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien."
-              },
-              {
-                "id": "o3",
-                "text": "Enfin, n’oubliez pas les pauses."
-              },
-              {
-                "id": "o4",
-                "text": "Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Bonjour et bienvenue dans cette capsule consacrée aux révisions. », que se passe-t-il ensuite dans « Cinq conseils pour mieux réviser » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bonjour et bienvenue dans cette capsule consacrée aux révisions."
-              },
-              {
-                "id": "o2",
-                "text": "Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien."
-              },
-              {
-                "id": "o3",
-                "text": "Enfin, n’oubliez pas les pauses."
-              },
-              {
-                "id": "o4",
-                "text": "Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Cinq conseils pour mieux réviser » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bonjour et bienvenue dans cette capsule consacrée aux révisions."
-              },
-              {
-                "id": "o2",
-                "text": "Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien."
-              },
-              {
-                "id": "o3",
-                "text": "Enfin, n’oubliez pas les pauses."
-              },
-              {
-                "id": "o4",
-                "text": "Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Cinq conseils pour mieux réviser » après « Enfin, n’oubliez pas les pauses. » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bonjour et bienvenue dans cette capsule consacrée aux révisions."
-              },
-              {
-                "id": "o2",
-                "text": "Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien."
-              },
-              {
-                "id": "o3",
-                "text": "Enfin, n’oubliez pas les pauses."
-              },
-              {
-                "id": "o4",
-                "text": "Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Cinq conseils pour mieux réviser », quel détail présente la situation ?",
-        "options": [
-          "Bonjour et bienvenue dans cette capsule consacrée aux révisions.",
-          "Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien.",
-          "Enfin, n’oubliez pas les pauses.",
-          "Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Bonjour et bienvenue dans cette capsule consacrée aux révisions. », que se passe-t-il ensuite dans « Cinq conseils pour mieux réviser » ?",
-        "options": [
-          "Bonjour et bienvenue dans cette capsule consacrée aux révisions.",
-          "Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien.",
-          "Enfin, n’oubliez pas les pauses.",
-          "Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Cinq conseils pour mieux réviser » ?",
-        "options": [
-          "Bonjour et bienvenue dans cette capsule consacrée aux révisions.",
-          "Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien.",
-          "Enfin, n’oubliez pas les pauses.",
-          "Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Cinq conseils pour mieux réviser » après « Enfin, n’oubliez pas les pauses. » ?",
-        "options": [
-          "Bonjour et bienvenue dans cette capsule consacrée aux révisions.",
-          "Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien.",
-          "Enfin, n’oubliez pas les pauses.",
-          "Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-les-medias-et-la-fabrique-de-lopinion-listening",
     "level": "C1",
     "skill": "listening",
@@ -13803,6 +13145,139 @@
     ]
   },
   {
+    "slug": "french-b1-etudes-et-apprentissage-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "etudes-et-apprentissage",
+    "title": "Cinq conseils pour mieux réviser",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 31,
+    "estimatedMinutes": 12,
+    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "J’ai l’impression que...",
+      "À ta place, je...",
+      "Essaie de...",
+      "Bonne idée !"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Bonjour et bienvenue dans cette capsule consacrée aux révisions. Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste. Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille. Deuxième conseil : identifiez vos difficultés. Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien. Ensuite, alternez les activités : lisez, résumez, expliquez la leçon à voix haute et faites quelques exercices. Cette variété vous aiderait à rester concentré. Vous pourriez également travailler avec un camarade, à condition de fixer un objectif précis. Enfin, n’oubliez pas les pauses. Après quarante-cinq minutes de travail, une courte pause permet souvent de progresser davantage. Une bonne note ne dépend pas seulement du nombre d’heures passées devant un cahier. Elle dépend aussi de l’organisation, du sommeil et de la régularité. Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "tutorial",
+      "storyTitle": "Cinq conseils pour mieux réviser",
+      "mainTranscript": "Bonjour et bienvenue dans cette capsule consacrée aux révisions. Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste. Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille. Deuxième conseil : identifiez vos difficultés. Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien. Ensuite, alternez les activités : lisez, résumez, expliquez la leçon à voix haute et faites quelques exercices. Cette variété vous aiderait à rester concentré. Vous pourriez également travailler avec un camarade, à condition de fixer un objectif précis. Enfin, n’oubliez pas les pauses. Après quarante-cinq minutes de travail, une courte pause permet souvent de progresser davantage. Une bonne note ne dépend pas seulement du nombre d’heures passées devant un cahier. Elle dépend aussi de l’organisation, du sommeil et de la régularité. Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Bonjour et bienvenue dans cette capsule consacrée aux révisions."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Si vous avez un examen bientôt, vous pourriez commencer par préparer un calendrier réaliste."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Il vaudrait mieux étudier un peu chaque jour plutôt que tout revoir la veille."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Deuxième conseil : identifiez vos difficultés."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Vous devriez consacrer plus de temps aux notions que vous comprenez moins bien."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Ensuite, alternez les activités : lisez, résumez, expliquez la leçon à voix haute et faites quelques exercices."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Cette variété vous aiderait à rester concentré."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Vous pourriez également travailler avec un camarade, à condition de fixer un objectif précis."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Enfin, n’oubliez pas les pauses."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Après quarante-cinq minutes de travail, une courte pause permet souvent de progresser davantage."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Une bonne note ne dépend pas seulement du nombre d’heures passées devant un cahier."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Elle dépend aussi de l’organisation, du sommeil et de la régularité."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Essayez ces conseils pendant une semaine, puis observez ceux qui fonctionnent le mieux pour vous."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Quel est le problème de Camila ?",
+        "options": [
+          "Elle n’a pas de livre",
+          "Elle oublie tout en révisant seule",
+          "Elle n’aime pas Karim",
+          "Elle n’a pas le temps"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel conseil Karim donne-t-il en premier ?",
+        "options": [
+          "Étudier avec de la musique",
+          "Commencer par les exercices simples",
+          "Étudier seulement la nuit",
+          "Ne pas étudier du tout"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle technique Karim recommande-t-il ensuite ?",
+        "options": [
+          "Copier les réponses",
+          "Expliquer à voix haute",
+          "Dormir plus",
+          "Éviter les mathématiques"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-b2-debats-de-societe-listening",
     "level": "B2",
     "skill": "listening",
@@ -13904,145 +13379,48 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "listeningComprehension": {
-        "id": "french-b2-debats-de-societe-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Le débat public et ses règles », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
-              },
-              {
-                "id": "o2",
-                "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
-              },
-              {
-                "id": "o3",
-                "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
-              },
-              {
-                "id": "o4",
-                "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Dans un débat de société, défendre un point de vue ne consiste pas à… », que se passe-t-il ensuite dans « Le débat public et ses règles » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
-              },
-              {
-                "id": "o2",
-                "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
-              },
-              {
-                "id": "o3",
-                "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
-              },
-              {
-                "id": "o4",
-                "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le débat public et ses règles » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
-              },
-              {
-                "id": "o2",
-                "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
-              },
-              {
-                "id": "o3",
-                "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
-              },
-              {
-                "id": "o4",
-                "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Le débat public et ses règles » après « Pour améliorer la discussion, chaque argument devrait être accompagné… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres."
-              },
-              {
-                "id": "o2",
-                "text": "Le débat est alors transformé en spectacle et certaines nuances sont perdues."
-              },
-              {
-                "id": "o3",
-                "text": "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable."
-              },
-              {
-                "id": "o4",
-                "text": "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Le débat public et ses règles », quel détail présente la situation ?",
+        "prompt": "Quel est le premier argument de l’étudiant belge ?",
         "options": [
-          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
-          "Le débat est alors transformé en spectacle et certaines nuances sont perdues.",
-          "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.",
-          "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
+          "Les écrans sont toujours mauvais",
+          "Les écrans peuvent être un bon outil éducatif",
+          "Il faut interdire les écrans",
+          "Il n’utilise jamais d’écran"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Dans un débat de société, défendre un point de vue ne consiste pas à… », que se passe-t-il ensuite dans « Le débat public et ses règles » ?",
+        "prompt": "Quel risque mentionne la participante française ?",
         "options": [
-          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
-          "Le débat est alors transformé en spectacle et certaines nuances sont perdues.",
-          "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.",
-          "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
+          "Le prix des écrans",
+          "Le risque d’addiction",
+          "La pollution",
+          "Le manque de wifi"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le débat public et ses règles » ?",
+        "prompt": "Quel autre problème l’étudiant belge mentionne-t-il ensuite ?",
         "options": [
-          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
-          "Le débat est alors transformé en spectacle et certaines nuances sont perdues.",
-          "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.",
-          "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
+          "Le manque de contrôle parental",
+          "Le prix des téléphones",
+          "La vitesse d’internet",
+          "Le manque d’écoles"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quel résultat conclut « Le débat public et ses règles » après « Pour améliorer la discussion, chaque argument devrait être accompagné… » ?",
+        "prompt": "Comment se termine cet échange ?",
         "options": [
-          "Dans un débat de société, défendre un point de vue ne consiste pas à répéter une opinion plus fort que les autres.",
-          "Le débat est alors transformé en spectacle et certaines nuances sont perdues.",
-          "Pour améliorer la discussion, chaque argument devrait être accompagné d’une source identifiable.",
-          "Une démocratie a besoin de désaccords, mais elle a surtout besoin de règles qui permettent à ces désaccords de produire de la compréhension plutôt que de la méfiance."
+          "Par une dispute",
+          "Par un accord partiel et nuancé",
+          "Par un désaccord total",
+          "Sans conclusion"
         ]
       }
     ]
@@ -14150,49 +13528,6 @@
       {
         "type": "practice",
         "prompt": "Avec un/une camarade, alternez les rôles du passant et de la personne qui demande son chemin."
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-etudes-et-apprentissage-speaking",
-    "level": "B1",
-    "skill": "speaking",
-    "unitId": "etudes-et-apprentissage",
-    "title": "Donner un conseil d’étude",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 32,
-    "estimatedMinutes": 12,
-    "description": "Donne un conseil académique à un/une camarade en difficulté.",
-    "intro": "Donne un conseil académique à un/une camarade en difficulté.",
-    "mission": "Imagine qu’un ami a des difficultés dans une matière. Donne-lui trois conseils avec le conditionnel présent (« à ta place, je... »).",
-    "grammar": "",
-    "phrases": [
-      "À ta place, je...",
-      "Tu devrais...",
-      "Il serait utile de...",
-      "Ça t’aiderait à..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "À ta place, je réviserais un peu chaque jour, plutôt que tout la veille de l’examen.",
-        "translation": "Yo en tu lugar repasaría un poco cada día, en vez de todo la víspera del examen."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Donne trois conseils d’étude à un ami imaginaire, en utilisant le conditionnel présent."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, échangez des conseils sur vos propres difficultés scolaires."
       }
     ]
   },
@@ -14347,6 +13682,49 @@
     ]
   },
   {
+    "slug": "french-b1-etudes-et-apprentissage-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "etudes-et-apprentissage",
+    "title": "Donner un conseil d’étude",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 32,
+    "estimatedMinutes": 12,
+    "description": "Donne un conseil académique à un/une camarade en difficulté.",
+    "intro": "Donne un conseil académique à un/une camarade en difficulté.",
+    "mission": "Imagine qu’un ami a des difficultés dans une matière. Donne-lui trois conseils avec le conditionnel présent (« à ta place, je... »).",
+    "grammar": "",
+    "phrases": [
+      "À ta place, je...",
+      "Tu devrais...",
+      "Il serait utile de...",
+      "Ça t’aiderait à..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "À ta place, je réviserais un peu chaque jour, plutôt que tout la veille de l’examen.",
+        "translation": "Yo en tu lugar repasaría un poco cada día, en vez de todo la víspera del examen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Donne trois conseils d’étude à un ami imaginaire, en utilisant le conditionnel présent."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, échangez des conseils sur vos propres difficultés scolaires."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-debats-de-societe-speaking",
     "level": "B2",
     "skill": "speaking",
@@ -14485,45 +13863,6 @@
     ]
   },
   {
-    "slug": "french-b1-etudes-et-apprentissage-writing",
-    "level": "B1",
-    "skill": "writing",
-    "unitId": "etudes-et-apprentissage",
-    "title": "Mes stratégies d’apprentissage",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 33,
-    "estimatedMinutes": 16,
-    "description": "Écris un texte sur tes stratégies pour apprendre efficacement.",
-    "intro": "Écris un texte sur tes stratégies pour apprendre efficacement.",
-    "mission": "Écris 150 à 200 mots décrivant tes stratégies d’apprentissage : ce qui fonctionne pour toi, une difficulté que tu as eue, et comment tu l’as surmontée.",
-    "grammar": "",
-    "phrases": [
-      "Ma stratégie principale est de...",
-      "J’ai eu des difficultés avec...",
-      "J’ai surmonté cette difficulté en...",
-      "Je recommanderais de..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Ma stratégie principale est de réviser régulièrement, un peu chaque jour. J’ai eu des difficultés en mathématiques, mais j’ai surmonté ce problème en expliquant les exercices à voix haute. Je recommanderais cette méthode à tout le monde.",
-        "translation": "Mi estrategia principal es repasar regularmente, un poco cada día. Tuve dificultades en matemáticas, pero superé ese problema explicando los ejercicios en voz alta. Recomendaría este método a todos."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris 150 à 200 mots sur tes stratégies d’apprentissage, avec au moins une phrase au conditionnel."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-les-medias-et-la-fabrique-de-lopinion-writing",
     "level": "C1",
     "skill": "writing",
@@ -14636,6 +13975,45 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-etudes-et-apprentissage-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "etudes-et-apprentissage",
+    "title": "Mes stratégies d’apprentissage",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 33,
+    "estimatedMinutes": 16,
+    "description": "Écris un texte sur tes stratégies pour apprendre efficacement.",
+    "intro": "Écris un texte sur tes stratégies pour apprendre efficacement.",
+    "mission": "Écris 150 à 200 mots décrivant tes stratégies d’apprentissage : ce qui fonctionne pour toi, une difficulté que tu as eue, et comment tu l’as surmontée.",
+    "grammar": "",
+    "phrases": [
+      "Ma stratégie principale est de...",
+      "J’ai eu des difficultés avec...",
+      "J’ai surmonté cette difficulté en...",
+      "Je recommanderais de..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Ma stratégie principale est de réviser régulièrement, un peu chaque jour. J’ai eu des difficultés en mathématiques, mais j’ai surmonté ce problème en expliquant les exercices à voix haute. Je recommanderais cette méthode à tout le monde.",
+        "translation": "Mi estrategia principal es repasar regularmente, un poco cada día. Tuve dificultades en matemáticas, pero superé ese problema explicando los ejercicios en voz alta. Recomendaría este método a todos."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris 150 à 200 mots sur tes stratégies d’apprentissage, avec au moins une phrase au conditionnel."
       }
     ]
   },
@@ -15256,339 +14634,6 @@
           "Tournez !",
           "Tournons !"
         ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-etudes-et-apprentissage-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "etudes-et-apprentissage",
-    "title": "Le conditionnel présent pour suggérer",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 34,
-    "estimatedMinutes": 12,
-    "description": "Utiliser le conditionnel présent pour donner un conseil.",
-    "intro": "Utiliser le conditionnel présent pour donner un conseil.",
-    "mission": "",
-    "grammar": "Le conditionnel présent se forme avec le radical du futur simple + les terminaisons de l’imparfait : je commencerais, tu devrais, il/elle serait. On l’utilise souvent pour donner un conseil de façon polie : « À ta place, je commencerais par les exercices simples. Tu devrais réviser chaque soir. »",
-    "phrases": [
-      "À ta place, je...",
-      "Tu devrais...",
-      "Il serait utile de...",
-      "Ça t’aiderait à..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b1-etudes-et-apprentissage-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b1-etudes-et-apprentissage-grammar-q1",
-            "type": "mcq",
-            "prompt": "À ta place, je ___ par les exercices simples.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "commencerais"
-              },
-              {
-                "id": "a",
-                "text": "commence"
-              },
-              {
-                "id": "c",
-                "text": "ai commencé"
-              },
-              {
-                "id": "d",
-                "text": "commencerai"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-etudes-et-apprentissage-grammar-q2",
-            "type": "mcq",
-            "prompt": "Tu ___ réviser chaque soir.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "dois"
-              },
-              {
-                "id": "a",
-                "text": "devrais"
-              },
-              {
-                "id": "c",
-                "text": "devras"
-              },
-              {
-                "id": "d",
-                "text": "devais"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-etudes-et-apprentissage-grammar-q3",
-            "type": "mcq",
-            "prompt": "Il ___ utile de refaire les exercices.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "est"
-              },
-              {
-                "id": "b",
-                "text": "sera"
-              },
-              {
-                "id": "c",
-                "text": "serait"
-              },
-              {
-                "id": "d",
-                "text": "était"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-etudes-et-apprentissage-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle terminaison caractérise le conditionnel présent ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "-ai, -as, -a"
-              },
-              {
-                "id": "c",
-                "text": "-é, -is, -u"
-              },
-              {
-                "id": "d",
-                "text": "-ant"
-              },
-              {
-                "id": "b",
-                "text": "-ais, -ais, -ait"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-etudes-et-apprentissage-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « À ta place, je commence par les exercices simples. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "À ta place, je commencerais par les exercices simples."
-              },
-              {
-                "id": "a",
-                "text": "À ta place, je commence par les exercices simples."
-              },
-              {
-                "id": "c",
-                "text": "À ta place, je ai commencé par les exercices simples."
-              },
-              {
-                "id": "d",
-                "text": "À ta place, je commencerai par les exercices simples."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-etudes-et-apprentissage-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Tu dois réviser chaque soir. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Tu dois réviser chaque soir."
-              },
-              {
-                "id": "a",
-                "text": "Tu devrais réviser chaque soir."
-              },
-              {
-                "id": "c",
-                "text": "Tu devras réviser chaque soir."
-              },
-              {
-                "id": "d",
-                "text": "Tu devais réviser chaque soir."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-etudes-et-apprentissage-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Il est utile de refaire les exercices. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Il est utile de refaire les exercices."
-              },
-              {
-                "id": "b",
-                "text": "Il sera utile de refaire les exercices."
-              },
-              {
-                "id": "c",
-                "text": "Il serait utile de refaire les exercices."
-              },
-              {
-                "id": "d",
-                "text": "Il était utile de refaire les exercices."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-etudes-et-apprentissage-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « -ai, -as, -a » dans ce contexte : « Quelle terminaison caractérise le conditionnel présent ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "-ai, -as, -a"
-              },
-              {
-                "id": "c",
-                "text": "-é, -is, -u"
-              },
-              {
-                "id": "d",
-                "text": "-ant"
-              },
-              {
-                "id": "b",
-                "text": "-ais, -ais, -ait"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Le conditionnel présent pour suggérer",
-        "definition": "Le conditionnel présent se forme avec le radical du futur simple + les terminaisons de l’imparfait : je commencerais, tu devrais, il/elle serait. On l’utilise souvent pour donner un conseil de façon polie : « À ta place, je commencerais par les exercices simples. Tu devrais réviser chaque soir. »",
-        "structure": "Forme à observer : Le conditionnel présent pour suggérer. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Utiliser le conditionnel présent pour donner un conseil.",
-        "examples": [
-          "À ta place, je commencerais par les exercices simples.",
-          "Tu devrais réviser chaque soir.",
-          "Il serait utile de refaire les exercices.",
-          "-ais, -ais, -ait"
-        ],
-        "explanation": "Le conditionnel présent se forme avec le radical du futur simple + les terminaisons de l’imparfait : je commencerais, tu devrais, il/elle serait. On l’utilise souvent pour donner un conseil de façon polie : « À ta place, je commencerais par les exercices simples. Tu devrais réviser chaque soir. »",
-        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
-        "cefrLevel": "B1",
-        "unitContext": "Utiliser le conditionnel présent pour donner un conseil."
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "À ta place, je ___ par les exercices simples.",
-        "options": [
-          "commencerais",
-          "commence",
-          "ai commencé",
-          "commencerai"
-        ],
-        "explanation": "La bonne réponse est « commencerais » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Tu ___ réviser chaque soir.",
-        "options": [
-          "dois",
-          "devrais",
-          "devras",
-          "devais"
-        ],
-        "explanation": "La bonne réponse est « devrais » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Il ___ utile de refaire les exercices.",
-        "options": [
-          "est",
-          "sera",
-          "serait",
-          "était"
-        ],
-        "explanation": "La bonne réponse est « serait » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle terminaison caractérise le conditionnel présent ?",
-        "options": [
-          "-ai, -as, -a",
-          "-é, -is, -u",
-          "-ant",
-          "-ais, -ais, -ait"
-        ],
-        "explanation": "La bonne réponse est « -ais, -ais, -ait » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « À ta place, je commence par les exercices simples. » ?",
-        "options": [
-          "À ta place, je commencerais par les exercices simples.",
-          "À ta place, je commence par les exercices simples.",
-          "À ta place, j’ai commencé par les exercices simples.",
-          "À ta place, je commencerai par les exercices simples."
-        ],
-        "explanation": "La phrase correcte est : « À ta place, je commencerais par les exercices simples. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Tu dois réviser chaque soir. » ?",
-        "options": [
-          "Tu dois réviser chaque soir.",
-          "Tu devrais réviser chaque soir.",
-          "Tu devras réviser chaque soir.",
-          "Tu devais réviser chaque soir."
-        ],
-        "explanation": "La phrase correcte est : « Tu devrais réviser chaque soir. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Il est utile de refaire les exercices. » ?",
-        "options": [
-          "Il est utile de refaire les exercices.",
-          "Il sera utile de refaire les exercices.",
-          "Il serait utile de refaire les exercices.",
-          "Il était utile de refaire les exercices."
-        ],
-        "explanation": "La phrase correcte est : « Il serait utile de refaire les exercices. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « -ai, -as, -a » dans ce contexte : « Quelle terminaison caractérise le conditionnel présent ? » ?",
-        "options": [
-          "-ai, -as, -a",
-          "-é, -is, -u",
-          "-ant",
-          "-ais, -ais, -ait"
-        ],
-        "explanation": "La bonne réponse est « -ais, -ais, -ait »."
       }
     ]
   },
@@ -16256,6 +15301,339 @@
     ]
   },
   {
+    "slug": "french-b1-etudes-et-apprentissage-grammar",
+    "level": "B1",
+    "skill": "grammar",
+    "unitId": "etudes-et-apprentissage",
+    "title": "Le conditionnel présent pour suggérer",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 34,
+    "estimatedMinutes": 12,
+    "description": "Utiliser le conditionnel présent pour donner un conseil.",
+    "intro": "Utiliser le conditionnel présent pour donner un conseil.",
+    "mission": "",
+    "grammar": "Le conditionnel présent se forme avec le radical du futur simple + les terminaisons de l’imparfait : je commencerais, tu devrais, il/elle serait. On l’utilise souvent pour donner un conseil de façon polie : « À ta place, je commencerais par les exercices simples. Tu devrais réviser chaque soir. »",
+    "phrases": [
+      "À ta place, je...",
+      "Tu devrais...",
+      "Il serait utile de...",
+      "Ça t’aiderait à..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b1-etudes-et-apprentissage-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b1-etudes-et-apprentissage-grammar-q1",
+            "type": "mcq",
+            "prompt": "À ta place, je ___ par les exercices simples.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "commencerais"
+              },
+              {
+                "id": "a",
+                "text": "commence"
+              },
+              {
+                "id": "c",
+                "text": "ai commencé"
+              },
+              {
+                "id": "d",
+                "text": "commencerai"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-etudes-et-apprentissage-grammar-q2",
+            "type": "mcq",
+            "prompt": "Tu ___ réviser chaque soir.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "dois"
+              },
+              {
+                "id": "a",
+                "text": "devrais"
+              },
+              {
+                "id": "c",
+                "text": "devras"
+              },
+              {
+                "id": "d",
+                "text": "devais"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-etudes-et-apprentissage-grammar-q3",
+            "type": "mcq",
+            "prompt": "Il ___ utile de refaire les exercices.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "est"
+              },
+              {
+                "id": "b",
+                "text": "sera"
+              },
+              {
+                "id": "c",
+                "text": "serait"
+              },
+              {
+                "id": "d",
+                "text": "était"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-etudes-et-apprentissage-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle terminaison caractérise le conditionnel présent ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "-ai, -as, -a"
+              },
+              {
+                "id": "c",
+                "text": "-é, -is, -u"
+              },
+              {
+                "id": "d",
+                "text": "-ant"
+              },
+              {
+                "id": "b",
+                "text": "-ais, -ais, -ait"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-etudes-et-apprentissage-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « À ta place, je commence par les exercices simples. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "À ta place, je commencerais par les exercices simples."
+              },
+              {
+                "id": "a",
+                "text": "À ta place, je commence par les exercices simples."
+              },
+              {
+                "id": "c",
+                "text": "À ta place, je ai commencé par les exercices simples."
+              },
+              {
+                "id": "d",
+                "text": "À ta place, je commencerai par les exercices simples."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-etudes-et-apprentissage-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Tu dois réviser chaque soir. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Tu dois réviser chaque soir."
+              },
+              {
+                "id": "a",
+                "text": "Tu devrais réviser chaque soir."
+              },
+              {
+                "id": "c",
+                "text": "Tu devras réviser chaque soir."
+              },
+              {
+                "id": "d",
+                "text": "Tu devais réviser chaque soir."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-etudes-et-apprentissage-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Il est utile de refaire les exercices. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Il est utile de refaire les exercices."
+              },
+              {
+                "id": "b",
+                "text": "Il sera utile de refaire les exercices."
+              },
+              {
+                "id": "c",
+                "text": "Il serait utile de refaire les exercices."
+              },
+              {
+                "id": "d",
+                "text": "Il était utile de refaire les exercices."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-etudes-et-apprentissage-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « -ai, -as, -a » dans ce contexte : « Quelle terminaison caractérise le conditionnel présent ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "-ai, -as, -a"
+              },
+              {
+                "id": "c",
+                "text": "-é, -is, -u"
+              },
+              {
+                "id": "d",
+                "text": "-ant"
+              },
+              {
+                "id": "b",
+                "text": "-ais, -ais, -ait"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le conditionnel présent pour suggérer",
+        "definition": "Le conditionnel présent se forme avec le radical du futur simple + les terminaisons de l’imparfait : je commencerais, tu devrais, il/elle serait. On l’utilise souvent pour donner un conseil de façon polie : « À ta place, je commencerais par les exercices simples. Tu devrais réviser chaque soir. »",
+        "explanation": "Le conditionnel présent se forme avec le radical du futur simple + les terminaisons de l’imparfait : je commencerais, tu devrais, il/elle serait. On l’utilise souvent pour donner un conseil de façon polie : « À ta place, je commencerais par les exercices simples. Tu devrais réviser chaque soir. »",
+        "structure": "Estructura central: Le conditionnel présent pour suggérer.",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "function": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Utiliser le conditionnel présent pour donner un conseil.",
+        "examples": [
+          "À ta place, je commencerais par les exercices simples.",
+          "Tu devrais réviser chaque soir.",
+          "Il serait utile de refaire les exercices.",
+          "-ais, -ais, -ait"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "À ta place, je ___ par les exercices simples.",
+        "options": [
+          "commence",
+          "commencerais",
+          "ai commencé",
+          "commencerai"
+        ],
+        "explanation": "La bonne réponse est « commencerais » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Tu ___ réviser chaque soir.",
+        "options": [
+          "devrais",
+          "dois",
+          "devras",
+          "devais"
+        ],
+        "explanation": "La bonne réponse est « devrais » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Il ___ utile de refaire les exercices.",
+        "options": [
+          "est",
+          "sera",
+          "serait",
+          "était"
+        ],
+        "explanation": "La bonne réponse est « serait » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle terminaison caractérise le conditionnel présent ?",
+        "options": [
+          "-ai, -as, -a",
+          "-ais, -ais, -ait",
+          "-é, -is, -u",
+          "-ant"
+        ],
+        "explanation": "La bonne réponse est « -ais, -ais, -ait » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « À ta place, je commence par les exercices simples. » ?",
+        "options": [
+          "À ta place, je commence par les exercices simples.",
+          "À ta place, je commencerais par les exercices simples.",
+          "À ta place, j’ai commencé par les exercices simples.",
+          "À ta place, je commencerai par les exercices simples."
+        ],
+        "explanation": "La phrase correcte est : « À ta place, je commencerais par les exercices simples. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Tu dois réviser chaque soir. » ?",
+        "options": [
+          "Tu devrais réviser chaque soir.",
+          "Tu dois réviser chaque soir.",
+          "Tu devras réviser chaque soir.",
+          "Tu devais réviser chaque soir."
+        ],
+        "explanation": "La phrase correcte est : « Tu devrais réviser chaque soir. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il est utile de refaire les exercices. » ?",
+        "options": [
+          "Il est utile de refaire les exercices.",
+          "Il sera utile de refaire les exercices.",
+          "Il serait utile de refaire les exercices.",
+          "Il était utile de refaire les exercices."
+        ],
+        "explanation": "La phrase correcte est : « Il serait utile de refaire les exercices. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « -ai, -as, -a » dans ce contexte : « Quelle terminaison caractérise le conditionnel présent ? » ?",
+        "options": [
+          "-ai, -as, -a",
+          "-ais, -ais, -ait",
+          "-é, -is, -u",
+          "-ant"
+        ],
+        "explanation": "La bonne réponse est « -ais, -ais, -ait »."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-debats-de-societe-grammar",
     "level": "B2",
     "skill": "grammar",
@@ -16482,18 +15860,18 @@
       "grammarProfile": {
         "name": "La voix passive",
         "definition": "La voix passive se forme avec être + participe passé, le sujet de la phrase active devenant le complément d’agent introduit par « par » : « Ce contenu est rarement contrôlé par les parents » (au lieu de « Les parents contrôlent rarement ce contenu »). Elle est fréquente à l’écrit argumentatif pour mettre l’accent sur l’action plutôt que sur celui qui la fait.",
-        "structure": "Forme à observer : La voix passive. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Utiliser la voix passive dans un contexte argumentatif.",
+        "explanation": "La voix passive se forme avec être + participe passé, le sujet de la phrase active devenant le complément d’agent introduit par « par » : « Ce contenu est rarement contrôlé par les parents » (au lieu de « Les parents contrôlent rarement ce contenu »). Elle est fréquente à l’écrit argumentatif pour mettre l’accent sur l’action plutôt que sur celui qui la fait.",
+        "structure": "Estructura central: La voix passive.",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "function": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Utiliser la voix passive dans un contexte argumentatif.",
         "examples": [
           "Ce contenu est rarement contrôlé par les parents.",
           "Aucun argument n’a été complètement réfuté.",
           "Le contenu est contrôlé par les parents.",
           "Les risques d’addiction sont bien documentés par les chercheurs."
-        ],
-        "explanation": "La voix passive se forme avec être + participe passé, le sujet de la phrase active devenant le complément d’agent introduit par « par » : « Ce contenu est rarement contrôlé par les parents » (au lieu de « Les parents contrôlent rarement ce contenu »). Elle est fréquente à l’écrit argumentatif pour mettre l’accent sur l’action plutôt que sur celui qui la fait.",
-        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
-        "cefrLevel": "B2",
-        "unitContext": "Utiliser la voix passive dans un contexte argumentatif."
+        ]
       },
       "listeningComprehension": null
     },
@@ -16513,8 +15891,8 @@
         "type": "mcq",
         "prompt": "Aucun argument n’___ complètement réfuté.",
         "options": [
-          "est",
           "a été",
+          "est",
           "sera",
           "avait"
         ],
@@ -16525,8 +15903,8 @@
         "prompt": "Quelle phrase est à la voix passive ?",
         "options": [
           "Les parents contrôlent le contenu.",
-          "Les parents vont contrôler le contenu.",
           "Le contenu est contrôlé par les parents.",
+          "Les parents vont contrôler le contenu.",
           "Les parents contrôlaient le contenu."
         ],
         "explanation": "La bonne réponse est « Le contenu est contrôlé par les parents. » : elle respecte la structure étudiée dans cette leçon."
@@ -16535,10 +15913,10 @@
         "type": "mcq",
         "prompt": "Les risques d’addiction ___ bien documentés par les chercheurs.",
         "options": [
+          "sont",
           "ont",
           "seront",
-          "étaient",
-          "sont"
+          "étaient"
         ],
         "explanation": "La bonne réponse est « sont » : elle respecte la structure étudiée dans cette leçon."
       },
@@ -16557,8 +15935,8 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Aucun argument n’est complètement réfuté. » ?",
         "options": [
-          "Aucun argument n’est complètement réfuté.",
           "Aucun argument n’a été complètement réfuté.",
+          "Aucun argument n’est complètement réfuté.",
           "Aucun argument n’sera complètement réfuté.",
           "Aucun argument n’avait complètement réfuté."
         ],
@@ -16569,8 +15947,8 @@
         "prompt": "Quelle réponse corrige l’erreur « Les parents contrôlent le contenu. » dans ce contexte : « Quelle phrase est à la voix passive ? » ?",
         "options": [
           "Les parents contrôlent le contenu.",
-          "Les parents vont contrôler le contenu.",
           "Le contenu est contrôlé par les parents.",
+          "Les parents vont contrôler le contenu.",
           "Les parents contrôlaient le contenu."
         ],
         "explanation": "La bonne réponse est « Le contenu est contrôlé par les parents. »."
@@ -16579,10 +15957,10 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Les risques d’addiction ont bien documentés par les chercheurs. » ?",
         "options": [
+          "Les risques d’addiction sont bien documentés par les chercheurs.",
           "Les risques d’addiction ont bien documentés par les chercheurs.",
           "Les risques d’addiction seront bien documentés par les chercheurs.",
-          "Les risques d’addiction étaient bien documentés par les chercheurs.",
-          "Les risques d’addiction sont bien documentés par les chercheurs."
+          "Les risques d’addiction étaient bien documentés par les chercheurs."
         ],
         "explanation": "La phrase correcte est : « Les risques d’addiction sont bien documentés par les chercheurs. »"
       }
@@ -16799,86 +16177,6 @@
           "Perder un boleto",
           "Activar un boleto",
           "Tirar un boleto"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-etudes-et-apprentissage-vocabulary",
-    "level": "B1",
-    "skill": "vocabulary",
-    "unitId": "etudes-et-apprentissage",
-    "title": "Le vocabulaire des études",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 35,
-    "estimatedMinutes": 8,
-    "description": "Le vocabulaire essentiel pour parler d’apprentissage et de révisions.",
-    "intro": "Le vocabulaire essentiel pour parler d’apprentissage et de révisions.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "réviser",
-        "translation": "repasar",
-        "example": "Je révise mes mathématiques chaque soir."
-      },
-      {
-        "word": "progresser",
-        "translation": "progresar",
-        "example": "J’ai beaucoup progressé en français."
-      },
-      {
-        "word": "une difficulté",
-        "translation": "una dificultad",
-        "example": "J’ai eu une difficulté avec cet exercice."
-      },
-      {
-        "word": "un conseil",
-        "translation": "un consejo",
-        "example": "Merci pour ton conseil, ça m’a beaucoup aidée."
-      },
-      {
-        "word": "la note",
-        "translation": "la calificación",
-        "example": "J’ai eu une bonne note à l’examen."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « réviser » ?",
-        "options": [
-          "Repasar",
-          "Olvidar",
-          "Enseñar",
-          "Corregir"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « progresser » ?",
-        "options": [
-          "Retroceder",
-          "Progresar",
-          "Detenerse",
-          "Repetir"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un conseil » ?",
-        "options": [
-          "Un consejo",
-          "Un examen",
-          "Una nota",
-          "Un problema"
         ]
       }
     ]
@@ -17374,6 +16672,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-etudes-et-apprentissage-vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unitId": "etudes-et-apprentissage",
+    "title": "Le vocabulaire des études",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 35,
+    "estimatedMinutes": 8,
+    "description": "Le vocabulaire essentiel pour parler d’apprentissage et de révisions.",
+    "intro": "Le vocabulaire essentiel pour parler d’apprentissage et de révisions.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "réviser",
+        "translation": "repasar",
+        "example": "Je révise mes mathématiques chaque soir."
+      },
+      {
+        "word": "progresser",
+        "translation": "progresar",
+        "example": "J’ai beaucoup progressé en français."
+      },
+      {
+        "word": "une difficulté",
+        "translation": "una dificultad",
+        "example": "J’ai eu une difficulté avec cet exercice."
+      },
+      {
+        "word": "un conseil",
+        "translation": "un consejo",
+        "example": "Merci pour ton conseil, ça m’a beaucoup aidée."
+      },
+      {
+        "word": "la note",
+        "translation": "la calificación",
+        "example": "J’ai eu une bonne note à l’examen."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « réviser » ?",
+        "options": [
+          "Repasar",
+          "Olvidar",
+          "Enseñar",
+          "Corregir"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « progresser » ?",
+        "options": [
+          "Retroceder",
+          "Progresar",
+          "Detenerse",
+          "Repetir"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un conseil » ?",
+        "options": [
+          "Un consejo",
+          "Un examen",
+          "Una nota",
+          "Un problema"
+        ]
       }
     ]
   },
@@ -17979,96 +17357,6 @@
     ]
   },
   {
-    "slug": "french-b1-monde-du-travail-reading",
-    "level": "B1",
-    "skill": "reading",
-    "unitId": "monde-du-travail",
-    "title": "Comprendre une offre d’emploi",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 40,
-    "estimatedMinutes": 15,
-    "description": "Comment lire les responsabilités, les compétences et les conditions d’un poste avant de postuler.",
-    "intro": "Comment lire les responsabilités, les compétences et les conditions d’un poste avant de postuler.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Comprendre une offre d’emploi",
-      "parts": [
-        "« Salut, je veux le poste. » Ce type de message, reçu régulièrement par les recruteurs qui gèrent les candidatures de stage, finit presque toujours à la corbeille en quelques secondes, non pas à cause du candidat, mais à cause du registre employé. Selon plusieurs conseillers en insertion professionnelle, la différence entre « je veux » et « je voudrais », entre « peux-tu » et « pourriez-vous », pèse souvent plus lourd dans une première impression que le contenu réel du message.",
-        "Une offre de stage ou d’emploi mentionne généralement des missions, des compétences attendues et des conditions de travail. Avant de répondre, il vaut mieux comparer chaque critère avec sa propre expérience, plutôt que d’envoyer la même candidature à toutes les offres sans distinction. Si une annonce cite une compétence que le candidat ne maîtrise pas encore, mieux vaudrait l’assumer clairement — « je n’ai pas encore utilisé ce logiciel, mais je serais ravi d’apprendre rapidement » — plutôt que de l’ignorer ou de l’inventer.",
-        "La structure d’un e-mail formel suit une logique simple, presque toujours identique : une formule d’appel respectueuse (« Madame, Monsieur »), un objet clair, deux ou trois phrases expliquant la motivation, puis une formule de politesse pour conclure. Les recruteurs interrogés dans plusieurs enquêtes affirment reconnaître, en quelques lignes seulement, si un candidat a pris le temps de personnaliser son message ou s’il a simplement copié un modèle trouvé en ligne.",
-        "L’entretien qui suit fonctionne selon la même logique. On y demanderait volontiers « pourriez-vous m’en dire plus sur l’équipe ? » plutôt que « c’est qui, l’équipe ? ». Ce registre n’a rien d’artificiel : il signale au recruteur qu’un jeune candidat, même sans expérience, comprend déjà les codes implicites du monde professionnel — un signal souvent plus décisif que le diplôme lui-même."
-      ],
-      "questions": [
-        "Pourquoi un message commençant par « Salut, je veux le poste » finit-il souvent à la corbeille, selon le texte ?",
-        "Que vaut-il mieux faire si une offre cite une compétence qu’on ne maîtrise pas encore, selon le texte ?",
-        "Quels éléments composent la structure d’un e-mail formel, selon le texte ?",
-        "Que remarquent les recruteurs en quelques lignes, selon les enquêtes citées ?",
-        "Que signale l’usage d’un registre poli en entretien, selon le dernier paragraphe ?"
-      ],
-      "text": "« Salut, je veux le poste. » Ce type de message, reçu régulièrement par les recruteurs qui gèrent les candidatures de stage, finit presque toujours à la corbeille en quelques secondes, non pas à cause du candidat, mais à cause du registre employé. Selon plusieurs conseillers en insertion professionnelle, la différence entre « je veux » et « je voudrais », entre « peux-tu » et « pourriez-vous », pèse souvent plus lourd dans une première impression que le contenu réel du message.\n\nUne offre de stage ou d’emploi mentionne généralement des missions, des compétences attendues et des conditions de travail. Avant de répondre, il vaut mieux comparer chaque critère avec sa propre expérience, plutôt que d’envoyer la même candidature à toutes les offres sans distinction. Si une annonce cite une compétence que le candidat ne maîtrise pas encore, mieux vaudrait l’assumer clairement — « je n’ai pas encore utilisé ce logiciel, mais je serais ravi d’apprendre rapidement » — plutôt que de l’ignorer ou de l’inventer.\n\nLa structure d’un e-mail formel suit une logique simple, presque toujours identique : une formule d’appel respectueuse (« Madame, Monsieur »), un objet clair, deux ou trois phrases expliquant la motivation, puis une formule de politesse pour conclure. Les recruteurs interrogés dans plusieurs enquêtes affirment reconnaître, en quelques lignes seulement, si un candidat a pris le temps de personnaliser son message ou s’il a simplement copié un modèle trouvé en ligne.\n\nL’entretien qui suit fonctionne selon la même logique. On y demanderait volontiers « pourriez-vous m’en dire plus sur l’équipe ? » plutôt que « c’est qui, l’équipe ? ». Ce registre n’a rien d’artificiel : il signale au recruteur qu’un jeune candidat, même sans expérience, comprend déjà les codes implicites du monde professionnel — un signal souvent plus décisif que le diplôme lui-même."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi un message commençant par « Salut, je veux le poste » finit-il souvent à la corbeille, selon le texte ?",
-        "options": [
-          "À cause du registre trop informel employé",
-          "Parce que le candidat n’a pas de diplôme",
-          "Parce que le poste est déjà pris",
-          "Parce que le message est trop long"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que vaut-il mieux faire si une offre cite une compétence qu’on ne maîtrise pas encore, selon le texte ?",
-        "options": [
-          "Ne rien dire du tout",
-          "L’assumer clairement et dire qu’on est prêt à apprendre",
-          "Inventer une expérience",
-          "Renoncer immédiatement à postuler"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quels éléments composent la structure d’un e-mail formel, selon le texte ?",
-        "options": [
-          "Une formule d’appel, un objet, la motivation, une formule de politesse",
-          "Uniquement une signature",
-          "Un CV joint et rien d’autre",
-          "Une seule phrase courte"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que remarquent les recruteurs en quelques lignes, selon les enquêtes citées ?",
-        "options": [
-          "Si le candidat a un accent régional",
-          "Si le candidat a personnalisé son message ou copié un modèle",
-          "Le prix du CV imprimé",
-          "La couleur du papier utilisé"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signale l’usage d’un registre poli en entretien, selon le dernier paragraphe ?",
-        "options": [
-          "Que le candidat comprend les codes du monde professionnel",
-          "Que le candidat a peur du recruteur",
-          "Que le candidat manque d’expérience",
-          "Que l’entretien va durer plus longtemps"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-intelligence-artificielle-et-traduction-reading",
     "level": "C1",
     "skill": "reading",
@@ -18277,6 +17565,96 @@
           "Ignorer complètement l’usage numérique dans le suivi clinique"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Les écrans rendent-ils vraiment malheureux ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-monde-du-travail-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "monde-du-travail",
+    "title": "Comprendre une offre d’emploi",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 40,
+    "estimatedMinutes": 15,
+    "description": "Comment lire les responsabilités, les compétences et les conditions d’un poste avant de postuler.",
+    "intro": "Comment lire les responsabilités, les compétences et les conditions d’un poste avant de postuler.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Comprendre une offre d’emploi",
+      "parts": [
+        "« Salut, je veux le poste. » Ce type de message, reçu régulièrement par les recruteurs qui gèrent les candidatures de stage, finit presque toujours à la corbeille en quelques secondes, non pas à cause du candidat, mais à cause du registre employé. Selon plusieurs conseillers en insertion professionnelle, la différence entre « je veux » et « je voudrais », entre « peux-tu » et « pourriez-vous », pèse souvent plus lourd dans une première impression que le contenu réel du message.",
+        "Une offre de stage ou d’emploi mentionne généralement des missions, des compétences attendues et des conditions de travail. Avant de répondre, il vaut mieux comparer chaque critère avec sa propre expérience, plutôt que d’envoyer la même candidature à toutes les offres sans distinction. Si une annonce cite une compétence que le candidat ne maîtrise pas encore, mieux vaudrait l’assumer clairement — « je n’ai pas encore utilisé ce logiciel, mais je serais ravi d’apprendre rapidement » — plutôt que de l’ignorer ou de l’inventer.",
+        "La structure d’un e-mail formel suit une logique simple, presque toujours identique : une formule d’appel respectueuse (« Madame, Monsieur »), un objet clair, deux ou trois phrases expliquant la motivation, puis une formule de politesse pour conclure. Les recruteurs interrogés dans plusieurs enquêtes affirment reconnaître, en quelques lignes seulement, si un candidat a pris le temps de personnaliser son message ou s’il a simplement copié un modèle trouvé en ligne.",
+        "L’entretien qui suit fonctionne selon la même logique. On y demanderait volontiers « pourriez-vous m’en dire plus sur l’équipe ? » plutôt que « c’est qui, l’équipe ? ». Ce registre n’a rien d’artificiel : il signale au recruteur qu’un jeune candidat, même sans expérience, comprend déjà les codes implicites du monde professionnel — un signal souvent plus décisif que le diplôme lui-même."
+      ],
+      "questions": [
+        "Pourquoi un message commençant par « Salut, je veux le poste » finit-il souvent à la corbeille, selon le texte ?",
+        "Que vaut-il mieux faire si une offre cite une compétence qu’on ne maîtrise pas encore, selon le texte ?",
+        "Quels éléments composent la structure d’un e-mail formel, selon le texte ?",
+        "Que remarquent les recruteurs en quelques lignes, selon les enquêtes citées ?",
+        "Que signale l’usage d’un registre poli en entretien, selon le dernier paragraphe ?"
+      ],
+      "text": "« Salut, je veux le poste. » Ce type de message, reçu régulièrement par les recruteurs qui gèrent les candidatures de stage, finit presque toujours à la corbeille en quelques secondes, non pas à cause du candidat, mais à cause du registre employé. Selon plusieurs conseillers en insertion professionnelle, la différence entre « je veux » et « je voudrais », entre « peux-tu » et « pourriez-vous », pèse souvent plus lourd dans une première impression que le contenu réel du message.\n\nUne offre de stage ou d’emploi mentionne généralement des missions, des compétences attendues et des conditions de travail. Avant de répondre, il vaut mieux comparer chaque critère avec sa propre expérience, plutôt que d’envoyer la même candidature à toutes les offres sans distinction. Si une annonce cite une compétence que le candidat ne maîtrise pas encore, mieux vaudrait l’assumer clairement — « je n’ai pas encore utilisé ce logiciel, mais je serais ravi d’apprendre rapidement » — plutôt que de l’ignorer ou de l’inventer.\n\nLa structure d’un e-mail formel suit une logique simple, presque toujours identique : une formule d’appel respectueuse (« Madame, Monsieur »), un objet clair, deux ou trois phrases expliquant la motivation, puis une formule de politesse pour conclure. Les recruteurs interrogés dans plusieurs enquêtes affirment reconnaître, en quelques lignes seulement, si un candidat a pris le temps de personnaliser son message ou s’il a simplement copié un modèle trouvé en ligne.\n\nL’entretien qui suit fonctionne selon la même logique. On y demanderait volontiers « pourriez-vous m’en dire plus sur l’équipe ? » plutôt que « c’est qui, l’équipe ? ». Ce registre n’a rien d’artificiel : il signale au recruteur qu’un jeune candidat, même sans expérience, comprend déjà les codes implicites du monde professionnel — un signal souvent plus décisif que le diplôme lui-même."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Pourquoi un message commençant par « Salut, je veux le poste » finit-il souvent à la corbeille, selon le texte ?",
+        "options": [
+          "À cause du registre trop informel employé",
+          "Parce que le candidat n’a pas de diplôme",
+          "Parce que le poste est déjà pris",
+          "Parce que le message est trop long"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que vaut-il mieux faire si une offre cite une compétence qu’on ne maîtrise pas encore, selon le texte ?",
+        "options": [
+          "Ne rien dire du tout",
+          "L’assumer clairement et dire qu’on est prêt à apprendre",
+          "Inventer une expérience",
+          "Renoncer immédiatement à postuler"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quels éléments composent la structure d’un e-mail formel, selon le texte ?",
+        "options": [
+          "Une formule d’appel, un objet, la motivation, une formule de politesse",
+          "Uniquement une signature",
+          "Un CV joint et rien d’autre",
+          "Une seule phrase courte"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que remarquent les recruteurs en quelques lignes, selon les enquêtes citées ?",
+        "options": [
+          "Si le candidat a un accent régional",
+          "Si le candidat a personnalisé son message ou copié un modèle",
+          "Le prix du CV imprimé",
+          "La couleur du papier utilisé"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signale l’usage d’un registre poli en entretien, selon le dernier paragraphe ?",
+        "options": [
+          "Que le candidat comprend les codes du monde professionnel",
+          "Que le candidat a peur du recruteur",
+          "Que le candidat manque d’expérience",
+          "Que l’entretien va durer plus longtemps"
+        ]
       }
     ]
   },
@@ -18857,241 +18235,6 @@
     ]
   },
   {
-    "slug": "french-b1-monde-du-travail-listening",
-    "level": "B1",
-    "skill": "listening",
-    "unitId": "monde-du-travail",
-    "title": "Réussir un premier entretien",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 41,
-    "estimatedMinutes": 12,
-    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Pourquoi voudriez-vous... ?",
-      "Je voudrais... parce que...",
-      "Quelles sont vos qualités ?",
-      "Je suis... et je..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Vous avez obtenu un entretien d’embauche ou de stage ? Voici quelques conseils pour vous préparer. Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées. Préparez deux ou trois exemples concrets qui montrent ce que vous savez faire. Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel. Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail. Ne cherchez pas à réciter des réponses parfaites. Les recruteurs apprécient généralement une personne capable d’expliquer son parcours avec sincérité. Après l’entretien, notez ce qui s’est bien passé et ce que vous pourriez améliorer. Chaque entretien est une occasion d’apprendre, même lorsque la candidature n’est pas retenue.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "tutorial",
-      "storyTitle": "Réussir un premier entretien",
-      "mainTranscript": "Vous avez obtenu un entretien d’embauche ou de stage ? Voici quelques conseils pour vous préparer. Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées. Préparez deux ou trois exemples concrets qui montrent ce que vous savez faire. Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel. Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail. Ne cherchez pas à réciter des réponses parfaites. Les recruteurs apprécient généralement une personne capable d’expliquer son parcours avec sincérité. Après l’entretien, notez ce qui s’est bien passé et ce que vous pourriez améliorer. Chaque entretien est une occasion d’apprendre, même lorsque la candidature n’est pas retenue.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Vous avez obtenu un entretien d’embauche ou de stage ?"
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Voici quelques conseils pour vous préparer."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Préparez deux ou trois exemples concrets qui montrent ce que vous savez faire."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. »"
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? »"
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Vous pouvez aussi poser une question sur les missions ou l’organisation du travail."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Ne cherchez pas à réciter des réponses parfaites."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Les recruteurs apprécient généralement une personne capable d’expliquer son parcours avec sincérité."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Après l’entretien, notez ce qui s’est bien passé et ce que vous pourriez améliorer."
-        },
-        {
-          "id": "segment-12",
-          "order": 12,
-          "text": "Chaque entretien est une occasion d’apprendre, même lorsque la candidature n’est pas retenue."
-        }
-      ],
-      "listeningComprehension": {
-        "id": "french-b1-monde-du-travail-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Réussir un premier entretien », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Vous avez obtenu un entretien d’embauche ou de stage ?"
-              },
-              {
-                "id": "o2",
-                "text": "Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel."
-              },
-              {
-                "id": "o3",
-                "text": "Ne cherchez pas à réciter des réponses parfaites."
-              },
-              {
-                "id": "o4",
-                "text": "Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Vous avez obtenu un entretien d’embauche ou de stage ? », que se passe-t-il ensuite dans « Réussir un premier entretien » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Vous avez obtenu un entretien d’embauche ou de stage ?"
-              },
-              {
-                "id": "o2",
-                "text": "Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel."
-              },
-              {
-                "id": "o3",
-                "text": "Ne cherchez pas à réciter des réponses parfaites."
-              },
-              {
-                "id": "o4",
-                "text": "Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Réussir un premier entretien » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Vous avez obtenu un entretien d’embauche ou de stage ?"
-              },
-              {
-                "id": "o2",
-                "text": "Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel."
-              },
-              {
-                "id": "o3",
-                "text": "Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. »"
-              },
-              {
-                "id": "o4",
-                "text": "Ne cherchez pas à réciter des réponses parfaites."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Réussir un premier entretien » après « Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Vous avez obtenu un entretien d’embauche ou de stage ?"
-              },
-              {
-                "id": "o2",
-                "text": "Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel."
-              },
-              {
-                "id": "o3",
-                "text": "Ne cherchez pas à réciter des réponses parfaites."
-              },
-              {
-                "id": "o4",
-                "text": "Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Réussir un premier entretien », quel détail présente la situation ?",
-        "options": [
-          "Vous avez obtenu un entretien d’embauche ou de stage ?",
-          "Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel.",
-          "Ne cherchez pas à réciter des réponses parfaites.",
-          "Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Vous avez obtenu un entretien d’embauche ou de stage ? », que se passe-t-il ensuite dans « Réussir un premier entretien » ?",
-        "options": [
-          "Vous avez obtenu un entretien d’embauche ou de stage ?",
-          "Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel.",
-          "Ne cherchez pas à réciter des réponses parfaites.",
-          "Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Réussir un premier entretien » ?",
-        "options": [
-          "Vous avez obtenu un entretien d’embauche ou de stage ?",
-          "Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel.",
-          "Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. »",
-          "Ne cherchez pas à réciter des réponses parfaites."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Réussir un premier entretien » après « Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je… » ?",
-        "options": [
-          "Vous avez obtenu un entretien d’embauche ou de stage ?",
-          "Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel.",
-          "Ne cherchez pas à réciter des réponses parfaites.",
-          "Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-intelligence-artificielle-et-traduction-listening",
     "level": "C1",
     "skill": "listening",
@@ -19614,6 +18757,134 @@
     ]
   },
   {
+    "slug": "french-b1-monde-du-travail-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "monde-du-travail",
+    "title": "Réussir un premier entretien",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 41,
+    "estimatedMinutes": 12,
+    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Pourquoi voudriez-vous... ?",
+      "Je voudrais... parce que...",
+      "Quelles sont vos qualités ?",
+      "Je suis... et je..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Vous avez obtenu un entretien d’embauche ou de stage ? Voici quelques conseils pour vous préparer. Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées. Préparez deux ou trois exemples concrets qui montrent ce que vous savez faire. Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel. Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail. Ne cherchez pas à réciter des réponses parfaites. Les recruteurs apprécient généralement une personne capable d’expliquer son parcours avec sincérité. Après l’entretien, notez ce qui s’est bien passé et ce que vous pourriez améliorer. Chaque entretien est une occasion d’apprendre, même lorsque la candidature n’est pas retenue.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "tutorial",
+      "storyTitle": "Réussir un premier entretien",
+      "mainTranscript": "Vous avez obtenu un entretien d’embauche ou de stage ? Voici quelques conseils pour vous préparer. Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées. Préparez deux ou trois exemples concrets qui montrent ce que vous savez faire. Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel. Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. » Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? » Vous pouvez aussi poser une question sur les missions ou l’organisation du travail. Ne cherchez pas à réciter des réponses parfaites. Les recruteurs apprécient généralement une personne capable d’expliquer son parcours avec sincérité. Après l’entretien, notez ce qui s’est bien passé et ce que vous pourriez améliorer. Chaque entretien est une occasion d’apprendre, même lorsque la candidature n’est pas retenue.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Vous avez obtenu un entretien d’embauche ou de stage ?"
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Voici quelques conseils pour vous préparer."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Relisez d’abord l’annonce et votre CV afin d’identifier les compétences recherchées."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Préparez deux ou trois exemples concrets qui montrent ce que vous savez faire."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Le jour de l’entretien, arrivez quelques minutes en avance et adoptez un langage professionnel."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Au lieu de dire « Je veux ce poste », vous pourriez dire : « Je voudrais rejoindre votre équipe parce que ce stage correspond à mon projet. »"
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Si une question n’est pas claire, demandez poliment : « Pourriez-vous la reformuler, s’il vous plaît ? »"
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Vous pouvez aussi poser une question sur les missions ou l’organisation du travail."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Ne cherchez pas à réciter des réponses parfaites."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Les recruteurs apprécient généralement une personne capable d’expliquer son parcours avec sincérité."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Après l’entretien, notez ce qui s’est bien passé et ce que vous pourriez améliorer."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Chaque entretien est une occasion d’apprendre, même lorsque la candidature n’est pas retenue."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Pourquoi Karim veut-il faire ce stage ?",
+        "options": [
+          "Pour gagner de l’argent",
+          "Parce qu’il adore la lecture et aider les autres",
+          "Parce que c’est obligatoire",
+          "Il ne sait pas pourquoi"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelles qualités Karim mentionne-t-il ?",
+        "options": [
+          "Rapide et impatient",
+          "Organisé et bon en équipe",
+          "Timide et lent",
+          "Créatif seulement"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qui joue le rôle du recruteur dans cette simulation ?",
+        "options": [
+          "Karim",
+          "Camila",
+          "Léa",
+          "Madame Lambert"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-b2-le-teletravail-et-lavenir-professionnel-listening",
     "level": "B2",
     "skill": "listening",
@@ -19629,10 +18900,10 @@
     "mission": "",
     "grammar": "",
     "phrases": [
-      "Comment évolue... ?",
-      "C’est étrange...",
-      "Ce dont les salariés ont besoin...",
-      "C’est ce que confirment les études."
+      "Comment se passe... ?",
+      "C’est étrange de...",
+      "Ce dont tu as besoin...",
+      "Je vais essayer..."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -19720,145 +18991,38 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "listeningComprehension": {
-        "id": "french-b2-le-teletravail-et-lavenir-professionnel-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Télétravail : autonomie ou isolement ? », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les journées sont progressivement devenues plus longues."
-              },
-              {
-                "id": "o3",
-                "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
-              },
-              {
-                "id": "o4",
-                "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « En travaillant depuis chez elle pendant trois ans, Sarah a découvert… », que se passe-t-il ensuite dans « Télétravail : autonomie ou isolement ? » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les journées sont progressivement devenues plus longues."
-              },
-              {
-                "id": "o3",
-                "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
-              },
-              {
-                "id": "o4",
-                "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Télétravail : autonomie ou isolement ? » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les journées sont progressivement devenues plus longues."
-              },
-              {
-                "id": "o3",
-                "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
-              },
-              {
-                "id": "o4",
-                "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Télétravail : autonomie ou isolement ? » après « Sarah a alors proposé un fonctionnement hybride : deux jours au… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les journées sont progressivement devenues plus longues."
-              },
-              {
-                "id": "o3",
-                "text": "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois."
-              },
-              {
-                "id": "o4",
-                "text": "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Télétravail : autonomie ou isolement ? », quel détail présente la situation ?",
+        "prompt": "Comment Camila décrit-elle son nouveau travail au début ?",
         "options": [
-          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
-          "Cependant, les journées sont progressivement devenues plus longues.",
-          "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.",
-          "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
+          "Terrible",
+          "Plutôt bien, mais étrange sans collègues",
+          "Complètement décevant",
+          "Trop facile"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « En travaillant depuis chez elle pendant trois ans, Sarah a découvert… », que se passe-t-il ensuite dans « Télétravail : autonomie ou isolement ? » ?",
+        "prompt": "Que suggère Karim ?",
         "options": [
-          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
-          "Cependant, les journées sont progressivement devenues plus longues.",
-          "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.",
-          "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
+          "D’arrêter le travail",
+          "De sortir travailler ailleurs parfois",
+          "De travailler toute la nuit",
+          "De ne rien changer"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Télétravail : autonomie ou isolement ? » ?",
+        "prompt": "Que décide de faire Camila ?",
         "options": [
-          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
-          "Cependant, les journées sont progressivement devenues plus longues.",
-          "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.",
-          "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Télétravail : autonomie ou isolement ? » après « Sarah a alors proposé un fonctionnement hybride : deux jours au… » ?",
-        "options": [
-          "En travaillant depuis chez elle pendant trois ans, Sarah a découvert les deux faces du télétravail.",
-          "Cependant, les journées sont progressivement devenues plus longues.",
-          "Sarah a alors proposé un fonctionnement hybride : deux jours au bureau, trois jours à distance et une réunion sans écran chaque mois.",
-          "Son efficacité dépend des règles auxquelles l’équipe adhère, des outils dont elle dispose et de la capacité de chacun à protéger les limites entre vie professionnelle et vie personnelle."
+          "Rien du tout",
+          "Essayer de travailler dans un café",
+          "Démissionner",
+          "Déménager"
         ]
       }
     ]
@@ -19965,49 +19129,6 @@
       {
         "type": "practice",
         "prompt": "Avec un/une camarade, joue la scène du médecin et du patient."
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-monde-du-travail-speaking",
-    "level": "B1",
-    "skill": "speaking",
-    "unitId": "monde-du-travail",
-    "title": "Simuler un entretien d’embauche",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 42,
-    "estimatedMinutes": 12,
-    "description": "Participe à une simulation d’entretien d’embauche.",
-    "intro": "Participe à une simulation d’entretien d’embauche.",
-    "mission": "Prépare et présente tes réponses à trois questions classiques d’entretien : tes motivations, tes qualités, et pourquoi on devrait te choisir.",
-    "grammar": "",
-    "phrases": [
-      "Je voudrais ce poste parce que...",
-      "Mes qualités principales sont...",
-      "Vous devriez me choisir parce que...",
-      "Je vous remercie de votre temps."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Je voudrais ce stage parce que je suis passionné(e) par ce domaine. Mes qualités principales sont l’organisation et la motivation.",
-        "translation": "Quisiera esta pasantía porque me apasiona este campo. Mis principales cualidades son la organización y la motivación."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Simule un entretien d’embauche complet, avec un langage formel et le conditionnel de politesse."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, alternez les rôles du recruteur et du candidat."
       }
     ]
   },
@@ -20162,6 +19283,49 @@
     ]
   },
   {
+    "slug": "french-b1-monde-du-travail-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "monde-du-travail",
+    "title": "Simuler un entretien d’embauche",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 42,
+    "estimatedMinutes": 12,
+    "description": "Participe à une simulation d’entretien d’embauche.",
+    "intro": "Participe à une simulation d’entretien d’embauche.",
+    "mission": "Prépare et présente tes réponses à trois questions classiques d’entretien : tes motivations, tes qualités, et pourquoi on devrait te choisir.",
+    "grammar": "",
+    "phrases": [
+      "Je voudrais ce poste parce que...",
+      "Mes qualités principales sont...",
+      "Vous devriez me choisir parce que...",
+      "Je vous remercie de votre temps."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Je voudrais ce stage parce que je suis passionné(e) par ce domaine. Mes qualités principales sont l’organisation et la motivation.",
+        "translation": "Quisiera esta pasantía porque me apasiona este campo. Mis principales cualidades son la organización y la motivación."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Simule un entretien d’embauche complet, avec un langage formel et le conditionnel de politesse."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, alternez les rôles du recruteur et du candidat."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-le-teletravail-et-lavenir-professionnel-speaking",
     "level": "B2",
     "skill": "speaking",
@@ -20300,45 +19464,6 @@
     ]
   },
   {
-    "slug": "french-b1-monde-du-travail-writing",
-    "level": "B1",
-    "skill": "writing",
-    "unitId": "monde-du-travail",
-    "title": "Un e-mail de candidature",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 43,
-    "estimatedMinutes": 16,
-    "description": "Écris un e-mail formel pour postuler à un stage.",
-    "intro": "Écris un e-mail formel pour postuler à un stage.",
-    "mission": "Écris 150 à 200 mots sous forme d’e-mail formel pour postuler à un stage, en expliquant tes motivations et tes qualités.",
-    "grammar": "",
-    "phrases": [
-      "Madame, Monsieur,",
-      "Je me permets de vous écrire pour...",
-      "Je voudrais...",
-      "Dans l’attente de votre réponse, je vous prie d’agréer..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Madame, Monsieur, je me permets de vous écrire pour postuler au stage d’été à la bibliothèque. Je suis passionné par la lecture et je voudrais mettre mes compétences organisationnelles à votre service. Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées.",
-        "translation": "Señora, señor, me permito escribirle para postular a la pasantía de verano en la biblioteca. Me apasiona la lectura y quisiera poner mis habilidades organizativas a su servicio. En espera de su respuesta, le saluda atentamente."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris un e-mail formel de 150 à 200 mots pour postuler à un stage ou un emploi de ton choix."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-intelligence-artificielle-et-traduction-writing",
     "level": "C1",
     "skill": "writing",
@@ -20451,6 +19576,45 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-monde-du-travail-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "monde-du-travail",
+    "title": "Un e-mail de candidature",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 43,
+    "estimatedMinutes": 16,
+    "description": "Écris un e-mail formel pour postuler à un stage.",
+    "intro": "Écris un e-mail formel pour postuler à un stage.",
+    "mission": "Écris 150 à 200 mots sous forme d’e-mail formel pour postuler à un stage, en expliquant tes motivations et tes qualités.",
+    "grammar": "",
+    "phrases": [
+      "Madame, Monsieur,",
+      "Je me permets de vous écrire pour...",
+      "Je voudrais...",
+      "Dans l’attente de votre réponse, je vous prie d’agréer..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Madame, Monsieur, je me permets de vous écrire pour postuler au stage d’été à la bibliothèque. Je suis passionné par la lecture et je voudrais mettre mes compétences organisationnelles à votre service. Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées.",
+        "translation": "Señora, señor, me permito escribirle para postular a la pasantía de verano en la biblioteca. Me apasiona la lectura y quisiera poner mis habilidades organizativas a su servicio. En espera de su respuesta, le saluda atentamente."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris un e-mail formel de 150 à 200 mots pour postuler à un stage ou un emploi de ton choix."
       }
     ]
   },
@@ -21071,339 +20235,6 @@
           "sentent",
           "se sens"
         ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-monde-du-travail-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "monde-du-travail",
-    "title": "Le conditionnel de politesse dans un contexte professionnel",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 44,
-    "estimatedMinutes": 12,
-    "description": "Utiliser le conditionnel de politesse pour un langage formel.",
-    "intro": "Utiliser le conditionnel de politesse pour un langage formel.",
-    "mission": "",
-    "grammar": "Dans un contexte professionnel, on remplace « je veux » par « je voudrais », « pouvez-vous » par « pourriez-vous », et « tu » par « vous ». Cela rend le discours plus poli et adapté à une situation formelle : « Je voudrais ce stage. Pourriez-vous me donner plus d’informations ? »",
-    "phrases": [
-      "Je voudrais...",
-      "Pourriez-vous... ?",
-      "Je vous remercie de...",
-      "Dans l’attente de votre réponse..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b1-monde-du-travail-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b1-monde-du-travail-grammar-q1",
-            "type": "mcq",
-            "prompt": "Dans un e-mail formel, on préfère dire...",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "Je voudrais ce stage."
-              },
-              {
-                "id": "a",
-                "text": "Je veux ce stage."
-              },
-              {
-                "id": "c",
-                "text": "Donne-moi ce stage."
-              },
-              {
-                "id": "d",
-                "text": "Je dois avoir ce stage."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-monde-du-travail-grammar-q2",
-            "type": "mcq",
-            "prompt": "___ me donner plus d’informations sur le poste ?",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "Pouvez-vous"
-              },
-              {
-                "id": "b",
-                "text": "Pourriez-vous"
-              },
-              {
-                "id": "c",
-                "text": "Peux-tu"
-              },
-              {
-                "id": "d",
-                "text": "Pourrais-tu"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-monde-du-travail-grammar-q3",
-            "type": "mcq",
-            "prompt": "Dans un contexte formel, on utilise généralement...",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Tu"
-              },
-              {
-                "id": "c",
-                "text": "Toi"
-              },
-              {
-                "id": "b",
-                "text": "Vous"
-              },
-              {
-                "id": "d",
-                "text": "Te"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-monde-du-travail-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle formule est appropriée pour terminer un e-mail formel ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Bisous !"
-              },
-              {
-                "id": "b",
-                "text": "À plus !"
-              },
-              {
-                "id": "d",
-                "text": "Salut, à bientôt !"
-              },
-              {
-                "id": "c",
-                "text": "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-monde-du-travail-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Je veux ce stage. » dans ce contexte : « Dans un e-mail formel, on préfère dire... » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Je voudrais ce stage."
-              },
-              {
-                "id": "a",
-                "text": "Je veux ce stage."
-              },
-              {
-                "id": "c",
-                "text": "Donne-moi ce stage."
-              },
-              {
-                "id": "d",
-                "text": "Je dois avoir ce stage."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-monde-du-travail-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Pouvez-vous me donner plus d’informations sur le poste ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Pouvez-vous me donner plus d’informations sur le poste ?"
-              },
-              {
-                "id": "b",
-                "text": "Pourriez-vous me donner plus d’informations sur le poste ?"
-              },
-              {
-                "id": "c",
-                "text": "Peux-tu me donner plus d’informations sur le poste ?"
-              },
-              {
-                "id": "d",
-                "text": "Pourrais-tu me donner plus d’informations sur le poste ?"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-monde-du-travail-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Tu » dans ce contexte : « Dans un contexte formel, on utilise généralement... » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Tu"
-              },
-              {
-                "id": "c",
-                "text": "Toi"
-              },
-              {
-                "id": "b",
-                "text": "Vous"
-              },
-              {
-                "id": "d",
-                "text": "Te"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-monde-du-travail-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Bisous ! » dans ce contexte : « Quelle formule est appropriée pour terminer un e-mail formel ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Bisous !"
-              },
-              {
-                "id": "b",
-                "text": "À plus !"
-              },
-              {
-                "id": "d",
-                "text": "Salut, à bientôt !"
-              },
-              {
-                "id": "c",
-                "text": "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Le conditionnel de politesse dans un contexte professionnel",
-        "definition": "Dans un contexte professionnel, on remplace « je veux » par « je voudrais », « pouvez-vous » par « pourriez-vous », et « tu » par « vous ». Cela rend le discours plus poli et adapté à une situation formelle : « Je voudrais ce stage. Pourriez-vous me donner plus d’informations ? »",
-        "structure": "Forme à observer : Le conditionnel de politesse dans un contexte professionnel. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Utiliser le conditionnel de politesse pour un langage formel.",
-        "examples": [
-          "Je voudrais ce stage.",
-          "Pourriez-vous me donner plus d’informations sur le poste ?",
-          "Vous",
-          "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
-        ],
-        "explanation": "Dans un contexte professionnel, on remplace « je veux » par « je voudrais », « pouvez-vous » par « pourriez-vous », et « tu » par « vous ». Cela rend le discours plus poli et adapté à une situation formelle : « Je voudrais ce stage. Pourriez-vous me donner plus d’informations ? »",
-        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
-        "cefrLevel": "B1",
-        "unitContext": "Utiliser le conditionnel de politesse pour un langage formel."
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans un e-mail formel, on préfère dire...",
-        "options": [
-          "Je voudrais ce stage.",
-          "Je veux ce stage.",
-          "Donne-moi ce stage.",
-          "Je dois avoir ce stage."
-        ],
-        "explanation": "La bonne réponse est « Je voudrais ce stage. » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "___ me donner plus d’informations sur le poste ?",
-        "options": [
-          "Pouvez-vous",
-          "Pourriez-vous",
-          "Peux-tu",
-          "Pourrais-tu"
-        ],
-        "explanation": "La bonne réponse est « Pourriez-vous » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans un contexte formel, on utilise généralement...",
-        "options": [
-          "Tu",
-          "Toi",
-          "Vous",
-          "Te"
-        ],
-        "explanation": "La bonne réponse est « Vous » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle formule est appropriée pour terminer un e-mail formel ?",
-        "options": [
-          "Bisous !",
-          "À plus !",
-          "Salut, à bientôt !",
-          "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
-        ],
-        "explanation": "La bonne réponse est « Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées. » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « Je veux ce stage. » dans ce contexte : « Dans un e-mail formel, on préfère dire... » ?",
-        "options": [
-          "Je voudrais ce stage.",
-          "Je veux ce stage.",
-          "Donne-moi ce stage.",
-          "Je dois avoir ce stage."
-        ],
-        "explanation": "La bonne réponse est « Je voudrais ce stage. »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Pouvez-vous me donner plus d’informations sur le poste ? » ?",
-        "options": [
-          "Pouvez-vous me donner plus d’informations sur le poste ?",
-          "Pourriez-vous me donner plus d’informations sur le poste ?",
-          "Peux-tu me donner plus d’informations sur le poste ?",
-          "Pourrais-tu me donner plus d’informations sur le poste ?"
-        ],
-        "explanation": "La phrase correcte est : « Pourriez-vous me donner plus d’informations sur le poste ? »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « Tu » dans ce contexte : « Dans un contexte formel, on utilise généralement... » ?",
-        "options": [
-          "Tu",
-          "Toi",
-          "Vous",
-          "Te"
-        ],
-        "explanation": "La bonne réponse est « Vous »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « Bisous ! » dans ce contexte : « Quelle formule est appropriée pour terminer un e-mail formel ? » ?",
-        "options": [
-          "Bisous !",
-          "À plus !",
-          "Salut, à bientôt !",
-          "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
-        ],
-        "explanation": "La bonne réponse est « Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées. »."
       }
     ]
   },
@@ -22071,6 +20902,339 @@
     ]
   },
   {
+    "slug": "french-b1-monde-du-travail-grammar",
+    "level": "B1",
+    "skill": "grammar",
+    "unitId": "monde-du-travail",
+    "title": "Le conditionnel de politesse dans un contexte professionnel",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 44,
+    "estimatedMinutes": 12,
+    "description": "Utiliser le conditionnel de politesse pour un langage formel.",
+    "intro": "Utiliser le conditionnel de politesse pour un langage formel.",
+    "mission": "",
+    "grammar": "Dans un contexte professionnel, on remplace « je veux » par « je voudrais », « pouvez-vous » par « pourriez-vous », et « tu » par « vous ». Cela rend le discours plus poli et adapté à une situation formelle : « Je voudrais ce stage. Pourriez-vous me donner plus d’informations ? »",
+    "phrases": [
+      "Je voudrais...",
+      "Pourriez-vous... ?",
+      "Je vous remercie de...",
+      "Dans l’attente de votre réponse..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b1-monde-du-travail-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b1-monde-du-travail-grammar-q1",
+            "type": "mcq",
+            "prompt": "Dans un e-mail formel, on préfère dire...",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "Je voudrais ce stage."
+              },
+              {
+                "id": "a",
+                "text": "Je veux ce stage."
+              },
+              {
+                "id": "c",
+                "text": "Donne-moi ce stage."
+              },
+              {
+                "id": "d",
+                "text": "Je dois avoir ce stage."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-monde-du-travail-grammar-q2",
+            "type": "mcq",
+            "prompt": "___ me donner plus d’informations sur le poste ?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pouvez-vous"
+              },
+              {
+                "id": "b",
+                "text": "Pourriez-vous"
+              },
+              {
+                "id": "c",
+                "text": "Peux-tu"
+              },
+              {
+                "id": "d",
+                "text": "Pourrais-tu"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-monde-du-travail-grammar-q3",
+            "type": "mcq",
+            "prompt": "Dans un contexte formel, on utilise généralement...",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tu"
+              },
+              {
+                "id": "c",
+                "text": "Toi"
+              },
+              {
+                "id": "b",
+                "text": "Vous"
+              },
+              {
+                "id": "d",
+                "text": "Te"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-monde-du-travail-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle formule est appropriée pour terminer un e-mail formel ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Bisous !"
+              },
+              {
+                "id": "b",
+                "text": "À plus !"
+              },
+              {
+                "id": "d",
+                "text": "Salut, à bientôt !"
+              },
+              {
+                "id": "c",
+                "text": "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-monde-du-travail-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Je veux ce stage. » dans ce contexte : « Dans un e-mail formel, on préfère dire... » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Je voudrais ce stage."
+              },
+              {
+                "id": "a",
+                "text": "Je veux ce stage."
+              },
+              {
+                "id": "c",
+                "text": "Donne-moi ce stage."
+              },
+              {
+                "id": "d",
+                "text": "Je dois avoir ce stage."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-monde-du-travail-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Pouvez-vous me donner plus d’informations sur le poste ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pouvez-vous me donner plus d’informations sur le poste ?"
+              },
+              {
+                "id": "b",
+                "text": "Pourriez-vous me donner plus d’informations sur le poste ?"
+              },
+              {
+                "id": "c",
+                "text": "Peux-tu me donner plus d’informations sur le poste ?"
+              },
+              {
+                "id": "d",
+                "text": "Pourrais-tu me donner plus d’informations sur le poste ?"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-monde-du-travail-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Tu » dans ce contexte : « Dans un contexte formel, on utilise généralement... » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tu"
+              },
+              {
+                "id": "c",
+                "text": "Toi"
+              },
+              {
+                "id": "b",
+                "text": "Vous"
+              },
+              {
+                "id": "d",
+                "text": "Te"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-monde-du-travail-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Bisous ! » dans ce contexte : « Quelle formule est appropriée pour terminer un e-mail formel ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Bisous !"
+              },
+              {
+                "id": "b",
+                "text": "À plus !"
+              },
+              {
+                "id": "d",
+                "text": "Salut, à bientôt !"
+              },
+              {
+                "id": "c",
+                "text": "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le conditionnel de politesse dans un contexte professionnel",
+        "definition": "Dans un contexte professionnel, on remplace « je veux » par « je voudrais », « pouvez-vous » par « pourriez-vous », et « tu » par « vous ». Cela rend le discours plus poli et adapté à une situation formelle : « Je voudrais ce stage. Pourriez-vous me donner plus d’informations ? »",
+        "explanation": "Dans un contexte professionnel, on remplace « je veux » par « je voudrais », « pouvez-vous » par « pourriez-vous », et « tu » par « vous ». Cela rend le discours plus poli et adapté à une situation formelle : « Je voudrais ce stage. Pourriez-vous me donner plus d’informations ? »",
+        "structure": "Estructura central: Le conditionnel de politesse dans un contexte professionnel.",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "function": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Utiliser le conditionnel de politesse pour un langage formel.",
+        "examples": [
+          "Je voudrais ce stage.",
+          "Pourriez-vous me donner plus d’informations sur le poste ?",
+          "Vous",
+          "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Dans un e-mail formel, on préfère dire...",
+        "options": [
+          "Je veux ce stage.",
+          "Je voudrais ce stage.",
+          "Donne-moi ce stage.",
+          "Je dois avoir ce stage."
+        ],
+        "explanation": "La bonne réponse est « Je voudrais ce stage. » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "___ me donner plus d’informations sur le poste ?",
+        "options": [
+          "Pouvez-vous",
+          "Pourriez-vous",
+          "Peux-tu",
+          "Pourrais-tu"
+        ],
+        "explanation": "La bonne réponse est « Pourriez-vous » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Dans un contexte formel, on utilise généralement...",
+        "options": [
+          "Tu",
+          "Vous",
+          "Toi",
+          "Te"
+        ],
+        "explanation": "La bonne réponse est « Vous » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle formule est appropriée pour terminer un e-mail formel ?",
+        "options": [
+          "Bisous !",
+          "À plus !",
+          "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées.",
+          "Salut, à bientôt !"
+        ],
+        "explanation": "La bonne réponse est « Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées. » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Je veux ce stage. » dans ce contexte : « Dans un e-mail formel, on préfère dire... » ?",
+        "options": [
+          "Je veux ce stage.",
+          "Je voudrais ce stage.",
+          "Donne-moi ce stage.",
+          "Je dois avoir ce stage."
+        ],
+        "explanation": "La bonne réponse est « Je voudrais ce stage. »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Pouvez-vous me donner plus d’informations sur le poste ? » ?",
+        "options": [
+          "Pouvez-vous me donner plus d’informations sur le poste ?",
+          "Pourriez-vous me donner plus d’informations sur le poste ?",
+          "Peux-tu me donner plus d’informations sur le poste ?",
+          "Pourrais-tu me donner plus d’informations sur le poste ?"
+        ],
+        "explanation": "La phrase correcte est : « Pourriez-vous me donner plus d’informations sur le poste ? »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Tu » dans ce contexte : « Dans un contexte formel, on utilise généralement... » ?",
+        "options": [
+          "Tu",
+          "Vous",
+          "Toi",
+          "Te"
+        ],
+        "explanation": "La bonne réponse est « Vous »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Bisous ! » dans ce contexte : « Quelle formule est appropriée pour terminer un e-mail formel ? » ?",
+        "options": [
+          "Bisous !",
+          "À plus !",
+          "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées.",
+          "Salut, à bientôt !"
+        ],
+        "explanation": "La bonne réponse est « Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées. »."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-le-teletravail-et-lavenir-professionnel-grammar",
     "level": "B2",
     "skill": "grammar",
@@ -22297,18 +21461,18 @@
       "grammarProfile": {
         "name": "Le gérondif et les pronoms relatifs composés",
         "definition": "Le gérondif (en + participe présent) exprime une action simultanée : « En travaillant seule, elle a réalisé... » « Dont » remplace un complément introduit par « de » : « Le métier dont elle rêve. » « Ce dont » s’utilise sans antécédent précis : « Ce dont elle a besoin, c’est de présence humaine. »",
-        "structure": "Forme à observer : Le gérondif et les pronoms relatifs composés. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Exprimer la simultanéité avec le gérondif et utiliser dont/ce dont.",
+        "explanation": "Le gérondif (en + participe présent) exprime une action simultanée : « En travaillant seule, elle a réalisé... » « Dont » remplace un complément introduit par « de » : « Le métier dont elle rêve. » « Ce dont » s’utilise sans antécédent précis : « Ce dont elle a besoin, c’est de présence humaine. »",
+        "structure": "Estructura central: Le gérondif et les pronoms relatifs composés.",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "function": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Exprimer la simultanéité avec le gérondif et utiliser dont/ce dont.",
         "examples": [
           "En travaillant seule, elle a réalisé qu’elle avait besoin de contact humain.",
           "C’est le métier dont elle rêve depuis longtemps.",
           "Ce dont elle a le plus besoin, c’est de présence humaine.",
           "En + participe présent"
-        ],
-        "explanation": "Le gérondif (en + participe présent) exprime une action simultanée : « En travaillant seule, elle a réalisé... » « Dont » remplace un complément introduit par « de » : « Le métier dont elle rêve. » « Ce dont » s’utilise sans antécédent précis : « Ce dont elle a besoin, c’est de présence humaine. »",
-        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
-        "cefrLevel": "B2",
-        "unitContext": "Exprimer la simultanéité avec le gérondif et utiliser dont/ce dont."
+        ]
       },
       "listeningComprehension": null
     },
@@ -22340,8 +21504,8 @@
         "prompt": "___ elle a le plus besoin, c’est de présence humaine.",
         "options": [
           "Ce que",
-          "Ce qui",
           "Ce dont",
+          "Ce qui",
           "Ce à quoi"
         ],
         "explanation": "La bonne réponse est « Ce dont » : elle respecte la structure étudiée dans cette leçon."
@@ -22350,10 +21514,10 @@
         "type": "mcq",
         "prompt": "Quelle structure exprime la simultanéité ?",
         "options": [
+          "En + participe présent",
           "Avoir + participe passé",
           "Aller + infinitif",
-          "Être + adjectif",
-          "En + participe présent"
+          "Être + adjectif"
         ],
         "explanation": "La bonne réponse est « En + participe présent » : elle respecte la structure étudiée dans cette leçon."
       },
@@ -22384,8 +21548,8 @@
         "prompt": "Quelle version corrige entièrement la phrase « Ce qu’elle a le plus besoin, c’est de présence humaine. » ?",
         "options": [
           "Ce qu’elle a le plus besoin, c’est de présence humaine.",
-          "Ce qui elle a le plus besoin, c’est de présence humaine.",
           "Ce dont elle a le plus besoin, c’est de présence humaine.",
+          "Ce qui elle a le plus besoin, c’est de présence humaine.",
           "Ce à quoi elle a le plus besoin, c’est de présence humaine."
         ],
         "explanation": "La phrase correcte est : « Ce dont elle a le plus besoin, c’est de présence humaine. »"
@@ -22394,10 +21558,10 @@
         "type": "mcq",
         "prompt": "Quelle réponse corrige l’erreur « Avoir + participe passé » dans ce contexte : « Quelle structure exprime la simultanéité ? » ?",
         "options": [
+          "En + participe présent",
           "Avoir + participe passé",
           "Aller + infinitif",
-          "Être + adjectif",
-          "En + participe présent"
+          "Être + adjectif"
         ],
         "explanation": "La bonne réponse est « En + participe présent »."
       }
@@ -22614,86 +21778,6 @@
           "La cita médica",
           "El hospital",
           "El medicamento"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-monde-du-travail-vocabulary",
-    "level": "B1",
-    "skill": "vocabulary",
-    "unitId": "monde-du-travail",
-    "title": "Le vocabulaire du monde du travail",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 45,
-    "estimatedMinutes": 8,
-    "description": "Le vocabulaire essentiel pour parler d’emploi et d’entretiens.",
-    "intro": "Le vocabulaire essentiel pour parler d’emploi et d’entretiens.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "le CV",
-        "translation": "el currículum",
-        "example": "J’ai envoyé mon CV pour le stage."
-      },
-      {
-        "word": "un entretien d’embauche",
-        "translation": "una entrevista de trabajo",
-        "example": "J’ai un entretien d’embauche demain."
-      },
-      {
-        "word": "les compétences",
-        "translation": "las competencias",
-        "example": "Mes compétences principales sont l’organisation et la communication."
-      },
-      {
-        "word": "postuler",
-        "translation": "postular/aplicar",
-        "example": "J’ai postulé pour un stage à la bibliothèque."
-      },
-      {
-        "word": "un stage",
-        "translation": "una pasantía",
-        "example": "C’est mon premier stage professionnel."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « postuler » ?",
-        "options": [
-          "Postular/aplicar",
-          "Rechazar",
-          "Contratar",
-          "Renunciar"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un entretien d’embauche » ?",
-        "options": [
-          "Un CV",
-          "Una entrevista de trabajo",
-          "Un salario",
-          "Un despido"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « les compétences » ?",
-        "options": [
-          "Las competencias",
-          "Los horarios",
-          "Los salarios",
-          "Las vacaciones"
         ]
       }
     ]
@@ -23189,6 +22273,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-monde-du-travail-vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unitId": "monde-du-travail",
+    "title": "Le vocabulaire du monde du travail",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 45,
+    "estimatedMinutes": 8,
+    "description": "Le vocabulaire essentiel pour parler d’emploi et d’entretiens.",
+    "intro": "Le vocabulaire essentiel pour parler d’emploi et d’entretiens.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "le CV",
+        "translation": "el currículum",
+        "example": "J’ai envoyé mon CV pour le stage."
+      },
+      {
+        "word": "un entretien d’embauche",
+        "translation": "una entrevista de trabajo",
+        "example": "J’ai un entretien d’embauche demain."
+      },
+      {
+        "word": "les compétences",
+        "translation": "las competencias",
+        "example": "Mes compétences principales sont l’organisation et la communication."
+      },
+      {
+        "word": "postuler",
+        "translation": "postular/aplicar",
+        "example": "J’ai postulé pour un stage à la bibliothèque."
+      },
+      {
+        "word": "un stage",
+        "translation": "una pasantía",
+        "example": "C’est mon premier stage professionnel."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « postuler » ?",
+        "options": [
+          "Postular/aplicar",
+          "Rechazar",
+          "Contratar",
+          "Renunciar"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un entretien d’embauche » ?",
+        "options": [
+          "Un CV",
+          "Una entrevista de trabajo",
+          "Un salario",
+          "Un despido"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « les compétences » ?",
+        "options": [
+          "Las competencias",
+          "Los horarios",
+          "Los salarios",
+          "Las vacaciones"
+        ]
       }
     ]
   },
@@ -23788,96 +22952,6 @@
     ]
   },
   {
-    "slug": "french-b1-voyages-et-interculturalite-reading",
-    "level": "B1",
-    "skill": "reading",
-    "unitId": "voyages-et-interculturalite",
-    "title": "Voyager en respectant les lieux",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 50,
-    "estimatedMinutes": 15,
-    "description": "Des choix simples qui améliorent l’expérience des visiteurs et des habitants, selon les offices de tourisme.",
-    "intro": "Des choix simples qui améliorent l’expérience des visiteurs et des habitants, selon les offices de tourisme.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Voyager en respectant les lieux",
-      "parts": [
-        "À Venise, depuis 2024, les visiteurs à la journée doivent payer une taxe d’entrée de cinq euros pendant certaines périodes de forte affluence, tandis qu’à Barcelone, la mairie a annoncé la suppression progressive des locations touristiques de courte durée d’ici 2028. Ces deux décisions, prises à quelques centaines de kilomètres l’une de l’autre, illustrent un même problème : dans les villes les plus photographiées du monde, le nombre de visiteurs a fini par dépasser ce que les habitants peuvent supporter au quotidien.",
-        "Les offices de tourisme rappellent qu’un minimum de préparation change radicalement l’expérience d’un voyage. Consulter les horaires, les règles locales et les jours de fermeture évite les files d’attente interminables, alors que l’improvisation totale mène souvent à un site fermé au moment précis de l’arrivée. Un itinéraire flexible reste toutefois préférable à un planning trop rigide : une grève de transport ou une fermeture exceptionnelle peut bouleverser une journée entière en quelques heures, et il vaut mieux prévoir un musée voisin ou un quartier de repli plutôt que de rester bloqué.",
-        "Le comportement individuel des visiteurs compte aussi. Dans le centre historique de certaines villes très fréquentées, le prix moyen des loyers a doublé en dix ans, alors que les commerces de proximité ont peu à peu cédé la place à des boutiques de souvenirs identiques d’une rue à l’autre. Les chercheurs qui étudient ce phénomène, qu’ils appellent le « surtourisme », expliquent que privilégier les commerces locaux et éviter les horaires de forte affluence limite directement cette pression sur les habitants.",
-        "Un guide touristique interrogé sur le sujet a expliqué qu’un voyage préparé n’était pas un voyage moins spontané, mais un voyage où la spontanéité pouvait enfin s’exprimer une fois les bases sécurisées. Respecter un lieu, résumait-il, commence toujours par respecter les personnes qui y vivent toute l’année."
-      ],
-      "questions": [
-        "Que doivent payer les visiteurs à la journée à Venise depuis 2024, selon le texte ?",
-        "Qu’a annoncé la mairie de Barcelone, selon le texte ?",
-        "Que peut bouleverser une journée entière en quelques heures, selon le texte ?",
-        "Comment les chercheurs appellent-ils la pression excessive des visiteurs sur les habitants ?",
-        "Selon le guide interrogé à la fin du texte, que permet un voyage préparé ?"
-      ],
-      "text": "À Venise, depuis 2024, les visiteurs à la journée doivent payer une taxe d’entrée de cinq euros pendant certaines périodes de forte affluence, tandis qu’à Barcelone, la mairie a annoncé la suppression progressive des locations touristiques de courte durée d’ici 2028. Ces deux décisions, prises à quelques centaines de kilomètres l’une de l’autre, illustrent un même problème : dans les villes les plus photographiées du monde, le nombre de visiteurs a fini par dépasser ce que les habitants peuvent supporter au quotidien.\n\nLes offices de tourisme rappellent qu’un minimum de préparation change radicalement l’expérience d’un voyage. Consulter les horaires, les règles locales et les jours de fermeture évite les files d’attente interminables, alors que l’improvisation totale mène souvent à un site fermé au moment précis de l’arrivée. Un itinéraire flexible reste toutefois préférable à un planning trop rigide : une grève de transport ou une fermeture exceptionnelle peut bouleverser une journée entière en quelques heures, et il vaut mieux prévoir un musée voisin ou un quartier de repli plutôt que de rester bloqué.\n\nLe comportement individuel des visiteurs compte aussi. Dans le centre historique de certaines villes très fréquentées, le prix moyen des loyers a doublé en dix ans, alors que les commerces de proximité ont peu à peu cédé la place à des boutiques de souvenirs identiques d’une rue à l’autre. Les chercheurs qui étudient ce phénomène, qu’ils appellent le « surtourisme », expliquent que privilégier les commerces locaux et éviter les horaires de forte affluence limite directement cette pression sur les habitants.\n\nUn guide touristique interrogé sur le sujet a expliqué qu’un voyage préparé n’était pas un voyage moins spontané, mais un voyage où la spontanéité pouvait enfin s’exprimer une fois les bases sécurisées. Respecter un lieu, résumait-il, commence toujours par respecter les personnes qui y vivent toute l’année."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que doivent payer les visiteurs à la journée à Venise depuis 2024, selon le texte ?",
-        "options": [
-          "Une taxe d’entrée de cinq euros",
-          "Un dépôt de garantie",
-          "Rien du tout",
-          "Un abonnement annuel"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qu’a annoncé la mairie de Barcelone, selon le texte ?",
-        "options": [
-          "La construction de nouveaux hôtels",
-          "La suppression progressive des locations touristiques de courte durée d’ici 2028",
-          "La gratuité des transports pour les touristes",
-          "L’interdiction totale du tourisme"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que peut bouleverser une journée entière en quelques heures, selon le texte ?",
-        "options": [
-          "Une grève de transport ou une fermeture exceptionnelle",
-          "Un changement de guide touristique",
-          "Un jour férié annoncé longtemps à l’avance",
-          "Le prix d’un billet de musée"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment les chercheurs appellent-ils la pression excessive des visiteurs sur les habitants ?",
-        "options": [
-          "Le surtourisme",
-          "La surconsommation",
-          "Le tourisme durable",
-          "L’effet de mode"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selon le guide interrogé à la fin du texte, que permet un voyage préparé ?",
-        "options": [
-          "D’éviter toute spontanéité",
-          "À la spontanéité de s’exprimer une fois les bases sécurisées",
-          "De ne jamais rencontrer d’imprévu",
-          "De voyager sans jamais consulter d’horaires"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-memoire-migration-et-identite-reading",
     "level": "C1",
     "skill": "reading",
@@ -24086,6 +23160,96 @@
           "Interdire les transferts monétaires directs aux ménages pauvres"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « La croissance mondiale profite-t-elle à tous ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-voyages-et-interculturalite-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "voyages-et-interculturalite",
+    "title": "Voyager en respectant les lieux",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 50,
+    "estimatedMinutes": 15,
+    "description": "Des choix simples qui améliorent l’expérience des visiteurs et des habitants, selon les offices de tourisme.",
+    "intro": "Des choix simples qui améliorent l’expérience des visiteurs et des habitants, selon les offices de tourisme.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Voyager en respectant les lieux",
+      "parts": [
+        "À Venise, depuis 2024, les visiteurs à la journée doivent payer une taxe d’entrée de cinq euros pendant certaines périodes de forte affluence, tandis qu’à Barcelone, la mairie a annoncé la suppression progressive des locations touristiques de courte durée d’ici 2028. Ces deux décisions, prises à quelques centaines de kilomètres l’une de l’autre, illustrent un même problème : dans les villes les plus photographiées du monde, le nombre de visiteurs a fini par dépasser ce que les habitants peuvent supporter au quotidien.",
+        "Les offices de tourisme rappellent qu’un minimum de préparation change radicalement l’expérience d’un voyage. Consulter les horaires, les règles locales et les jours de fermeture évite les files d’attente interminables, alors que l’improvisation totale mène souvent à un site fermé au moment précis de l’arrivée. Un itinéraire flexible reste toutefois préférable à un planning trop rigide : une grève de transport ou une fermeture exceptionnelle peut bouleverser une journée entière en quelques heures, et il vaut mieux prévoir un musée voisin ou un quartier de repli plutôt que de rester bloqué.",
+        "Le comportement individuel des visiteurs compte aussi. Dans le centre historique de certaines villes très fréquentées, le prix moyen des loyers a doublé en dix ans, alors que les commerces de proximité ont peu à peu cédé la place à des boutiques de souvenirs identiques d’une rue à l’autre. Les chercheurs qui étudient ce phénomène, qu’ils appellent le « surtourisme », expliquent que privilégier les commerces locaux et éviter les horaires de forte affluence limite directement cette pression sur les habitants.",
+        "Un guide touristique interrogé sur le sujet a expliqué qu’un voyage préparé n’était pas un voyage moins spontané, mais un voyage où la spontanéité pouvait enfin s’exprimer une fois les bases sécurisées. Respecter un lieu, résumait-il, commence toujours par respecter les personnes qui y vivent toute l’année."
+      ],
+      "questions": [
+        "Que doivent payer les visiteurs à la journée à Venise depuis 2024, selon le texte ?",
+        "Qu’a annoncé la mairie de Barcelone, selon le texte ?",
+        "Que peut bouleverser une journée entière en quelques heures, selon le texte ?",
+        "Comment les chercheurs appellent-ils la pression excessive des visiteurs sur les habitants ?",
+        "Selon le guide interrogé à la fin du texte, que permet un voyage préparé ?"
+      ],
+      "text": "À Venise, depuis 2024, les visiteurs à la journée doivent payer une taxe d’entrée de cinq euros pendant certaines périodes de forte affluence, tandis qu’à Barcelone, la mairie a annoncé la suppression progressive des locations touristiques de courte durée d’ici 2028. Ces deux décisions, prises à quelques centaines de kilomètres l’une de l’autre, illustrent un même problème : dans les villes les plus photographiées du monde, le nombre de visiteurs a fini par dépasser ce que les habitants peuvent supporter au quotidien.\n\nLes offices de tourisme rappellent qu’un minimum de préparation change radicalement l’expérience d’un voyage. Consulter les horaires, les règles locales et les jours de fermeture évite les files d’attente interminables, alors que l’improvisation totale mène souvent à un site fermé au moment précis de l’arrivée. Un itinéraire flexible reste toutefois préférable à un planning trop rigide : une grève de transport ou une fermeture exceptionnelle peut bouleverser une journée entière en quelques heures, et il vaut mieux prévoir un musée voisin ou un quartier de repli plutôt que de rester bloqué.\n\nLe comportement individuel des visiteurs compte aussi. Dans le centre historique de certaines villes très fréquentées, le prix moyen des loyers a doublé en dix ans, alors que les commerces de proximité ont peu à peu cédé la place à des boutiques de souvenirs identiques d’une rue à l’autre. Les chercheurs qui étudient ce phénomène, qu’ils appellent le « surtourisme », expliquent que privilégier les commerces locaux et éviter les horaires de forte affluence limite directement cette pression sur les habitants.\n\nUn guide touristique interrogé sur le sujet a expliqué qu’un voyage préparé n’était pas un voyage moins spontané, mais un voyage où la spontanéité pouvait enfin s’exprimer une fois les bases sécurisées. Respecter un lieu, résumait-il, commence toujours par respecter les personnes qui y vivent toute l’année."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que doivent payer les visiteurs à la journée à Venise depuis 2024, selon le texte ?",
+        "options": [
+          "Une taxe d’entrée de cinq euros",
+          "Un dépôt de garantie",
+          "Rien du tout",
+          "Un abonnement annuel"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qu’a annoncé la mairie de Barcelone, selon le texte ?",
+        "options": [
+          "La construction de nouveaux hôtels",
+          "La suppression progressive des locations touristiques de courte durée d’ici 2028",
+          "La gratuité des transports pour les touristes",
+          "L’interdiction totale du tourisme"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que peut bouleverser une journée entière en quelques heures, selon le texte ?",
+        "options": [
+          "Une grève de transport ou une fermeture exceptionnelle",
+          "Un changement de guide touristique",
+          "Un jour férié annoncé longtemps à l’avance",
+          "Le prix d’un billet de musée"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Comment les chercheurs appellent-ils la pression excessive des visiteurs sur les habitants ?",
+        "options": [
+          "Le surtourisme",
+          "La surconsommation",
+          "Le tourisme durable",
+          "L’effet de mode"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Selon le guide interrogé à la fin du texte, que permet un voyage préparé ?",
+        "options": [
+          "D’éviter toute spontanéité",
+          "À la spontanéité de s’exprimer une fois les bases sécurisées",
+          "De ne jamais rencontrer d’imprévu",
+          "De voyager sans jamais consulter d’horaires"
+        ]
       }
     ]
   },
@@ -24661,231 +23825,6 @@
     ]
   },
   {
-    "slug": "french-b1-voyages-et-interculturalite-listening",
-    "level": "B1",
-    "skill": "listening",
-    "unitId": "voyages-et-interculturalite",
-    "title": "Ce qui m’a surpris au Québec",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 51,
-    "estimatedMinutes": 12,
-    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Qu’est-ce qui t’a surpris(e) ?",
-      "Chez moi, on...",
-      "Ça dépend de...",
-      "J’aime bien les deux."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec. Elle connaissait déjà le français, mais certaines habitudes l’ont surprise. En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant. Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle. Au début, ces différences provoquaient parfois un petit choc culturel. Lucie avait peur de faire une erreur ou de poser une question maladroite. Puis elle a commencé à observer, à demander des explications et à comparer sans juger. Ce qui l’a le plus aidée, c’est la curiosité. Elle a appris qu’une habitude différente n’est pas nécessairement meilleure ou moins bonne. Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "chronicle",
-      "storyTitle": "Ce qui m’a surpris au Québec",
-      "mainTranscript": "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec. Elle connaissait déjà le français, mais certaines habitudes l’ont surprise. En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant. Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle. Au début, ces différences provoquaient parfois un petit choc culturel. Lucie avait peur de faire une erreur ou de poser une question maladroite. Puis elle a commencé à observer, à demander des explications et à comparer sans juger. Ce qui l’a le plus aidée, c’est la curiosité. Elle a appris qu’une habitude différente n’est pas nécessairement meilleure ou moins bonne. Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Elle connaissait déjà le français, mais certaines habitudes l’ont surprise."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Au début, ces différences provoquaient parfois un petit choc culturel."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Lucie avait peur de faire une erreur ou de poser une question maladroite."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Puis elle a commencé à observer, à demander des explications et à comparer sans juger."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Ce qui l’a le plus aidée, c’est la curiosité."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Elle a appris qu’une habitude différente n’est pas nécessairement meilleure ou moins bonne."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau."
-        }
-      ],
-      "listeningComprehension": {
-        "id": "french-b1-voyages-et-interculturalite-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Ce qui m’a surpris au Québec », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec."
-              },
-              {
-                "id": "o2",
-                "text": "Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle."
-              },
-              {
-                "id": "o3",
-                "text": "Puis elle a commencé à observer, à demander des explications et à comparer sans juger."
-              },
-              {
-                "id": "o4",
-                "text": "Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Pour notre chronique interculturelle, je vais raconter les premières… », que se passe-t-il ensuite dans « Ce qui m’a surpris au Québec » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec."
-              },
-              {
-                "id": "o2",
-                "text": "Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle."
-              },
-              {
-                "id": "o3",
-                "text": "Puis elle a commencé à observer, à demander des explications et à comparer sans juger."
-              },
-              {
-                "id": "o4",
-                "text": "Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Ce qui m’a surpris au Québec » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec."
-              },
-              {
-                "id": "o2",
-                "text": "Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle."
-              },
-              {
-                "id": "o3",
-                "text": "Puis elle a commencé à observer, à demander des explications et à comparer sans juger."
-              },
-              {
-                "id": "o4",
-                "text": "Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Ce qui m’a surpris au Québec » après « Puis elle a commencé à observer, à demander des explications et à… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec."
-              },
-              {
-                "id": "o2",
-                "text": "Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle."
-              },
-              {
-                "id": "o3",
-                "text": "Puis elle a commencé à observer, à demander des explications et à comparer sans juger."
-              },
-              {
-                "id": "o4",
-                "text": "Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Ce qui m’a surpris au Québec », quel détail présente la situation ?",
-        "options": [
-          "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec.",
-          "Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle.",
-          "Puis elle a commencé à observer, à demander des explications et à comparer sans juger.",
-          "Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Pour notre chronique interculturelle, je vais raconter les premières… », que se passe-t-il ensuite dans « Ce qui m’a surpris au Québec » ?",
-        "options": [
-          "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec.",
-          "Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle.",
-          "Puis elle a commencé à observer, à demander des explications et à comparer sans juger.",
-          "Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Ce qui m’a surpris au Québec » ?",
-        "options": [
-          "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec.",
-          "Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle.",
-          "Puis elle a commencé à observer, à demander des explications et à comparer sans juger.",
-          "Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Ce qui m’a surpris au Québec » après « Puis elle a commencé à observer, à demander des explications et à… » ?",
-        "options": [
-          "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec.",
-          "Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle.",
-          "Puis elle a commencé à observer, à demander des explications et à comparer sans juger.",
-          "Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-memoire-migration-et-identite-listening",
     "level": "C1",
     "skill": "listening",
@@ -25408,6 +24347,124 @@
     ]
   },
   {
+    "slug": "french-b1-voyages-et-interculturalite-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "voyages-et-interculturalite",
+    "title": "Ce qui m’a surpris au Québec",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 51,
+    "estimatedMinutes": 12,
+    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Qu’est-ce qui t’a surpris(e) ?",
+      "Chez moi, on...",
+      "Ça dépend de...",
+      "J’aime bien les deux."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec. Elle connaissait déjà le français, mais certaines habitudes l’ont surprise. En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant. Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle. Au début, ces différences provoquaient parfois un petit choc culturel. Lucie avait peur de faire une erreur ou de poser une question maladroite. Puis elle a commencé à observer, à demander des explications et à comparer sans juger. Ce qui l’a le plus aidée, c’est la curiosité. Elle a appris qu’une habitude différente n’est pas nécessairement meilleure ou moins bonne. Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "chronicle",
+      "storyTitle": "Ce qui m’a surpris au Québec",
+      "mainTranscript": "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec. Elle connaissait déjà le français, mais certaines habitudes l’ont surprise. En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant. Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle. Au début, ces différences provoquaient parfois un petit choc culturel. Lucie avait peur de faire une erreur ou de poser une question maladroite. Puis elle a commencé à observer, à demander des explications et à comparer sans juger. Ce qui l’a le plus aidée, c’est la curiosité. Elle a appris qu’une habitude différente n’est pas nécessairement meilleure ou moins bonne. Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Pour notre chronique interculturelle, je vais raconter les premières semaines de Lucie au Québec."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Elle connaissait déjà le français, mais certaines habitudes l’ont surprise."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "En France, elle utilisait souvent des expressions que ses nouveaux amis comprenaient différemment, tandis qu’au Québec, elle découvrait un vocabulaire local très vivant."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Elle a aussi remarqué que les relations avec les professeurs étaient plus détendues, alors que son ancienne université lui semblait plus formelle."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Au début, ces différences provoquaient parfois un petit choc culturel."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Lucie avait peur de faire une erreur ou de poser une question maladroite."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Puis elle a commencé à observer, à demander des explications et à comparer sans juger."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Ce qui l’a le plus aidée, c’est la curiosité."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Elle a appris qu’une habitude différente n’est pas nécessairement meilleure ou moins bonne."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Aujourd’hui, elle apprécie cette expérience parce qu’elle lui permet de mieux comprendre les autres, mais aussi de regarder sa propre culture avec un œil nouveau."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Qu’est-ce qui a le plus surpris Camila ?",
+        "options": [
+          "La langue française",
+          "La durée des repas",
+          "Le climat",
+          "Les vêtements"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Comment mange-t-on généralement chez Camila, selon elle ?",
+        "options": [
+          "Plus lentement qu’en France",
+          "Plus vite qu’en France",
+          "De la même façon qu’en France",
+          "Elle ne le précise pas"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que préfère finalement Camila ?",
+        "options": [
+          "Seulement la façon française",
+          "Seulement la façon dominicaine",
+          "Les deux, selon l’occasion",
+          "Aucune des deux"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-b2-litterature-francophone-listening",
     "level": "B2",
     "skill": "listening",
@@ -25423,10 +24480,10 @@
     "mission": "",
     "grammar": "",
     "phrases": [
-      "Ils ont dit qu’ils voulaient...",
-      "Ils ont expliqué que...",
+      "Elle a dit que...",
+      "Elle a expliqué que...",
       "Ça résonne avec...",
-      "C’est ce que confirment..."
+      "C’est exactement ce que..."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -25514,145 +24571,38 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "listeningComprehension": {
-        "id": "french-b2-litterature-francophone-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Pourquoi ce roman résonne encore », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast littéraire."
-              },
-              {
-                "id": "o2",
-                "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
-              },
-              {
-                "id": "o3",
-                "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
-              },
-              {
-                "id": "o4",
-                "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Bienvenue dans notre podcast littéraire. », que se passe-t-il ensuite dans « Pourquoi ce roman résonne encore » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast littéraire."
-              },
-              {
-                "id": "o2",
-                "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
-              },
-              {
-                "id": "o3",
-                "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
-              },
-              {
-                "id": "o4",
-                "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Pourquoi ce roman résonne encore » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast littéraire."
-              },
-              {
-                "id": "o2",
-                "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
-              },
-              {
-                "id": "o3",
-                "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
-              },
-              {
-                "id": "o4",
-                "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Pourquoi ce roman résonne encore » après « Le thème récurrent de la maison résonne avec de nombreux lecteurs,… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast littéraire."
-              },
-              {
-                "id": "o2",
-                "text": "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations."
-              },
-              {
-                "id": "o3",
-                "text": "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent."
-              },
-              {
-                "id": "o4",
-                "text": "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Pourquoi ce roman résonne encore », quel détail présente la situation ?",
+        "prompt": "Que rapporte l’animatrice sur l’intention de l’autrice ?",
         "options": [
-          "Bienvenue dans notre podcast littéraire.",
-          "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.",
-          "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.",
-          "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
+          "Qu’elle voulait raconter une histoire d’amour",
+          "Qu’elle voulait explorer le thème du déracinement",
+          "Qu’elle voulait écrire un roman policier",
+          "Qu’elle ne voulait rien exprimer de particulier"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Bienvenue dans notre podcast littéraire. », que se passe-t-il ensuite dans « Pourquoi ce roman résonne encore » ?",
+        "prompt": "Comment Camila réagit-elle à cette explication ?",
         "options": [
-          "Bienvenue dans notre podcast littéraire.",
-          "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.",
-          "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.",
-          "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
+          "Elle est indifférente",
+          "Elle se reconnaît dans ce thème",
+          "Elle n’est pas d’accord",
+          "Elle ne comprend pas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Pourquoi ce roman résonne encore » ?",
+        "prompt": "À quoi Camila compare-t-elle le thème du roman ?",
         "options": [
-          "Bienvenue dans notre podcast littéraire.",
-          "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.",
-          "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.",
-          "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Pourquoi ce roman résonne encore » après « Le thème récurrent de la maison résonne avec de nombreux lecteurs,… » ?",
-        "options": [
-          "Bienvenue dans notre podcast littéraire.",
-          "Elle avait ajouté que le personnage principal n’était pas un portrait exact, mais une figure inspirée de plusieurs générations.",
-          "Le thème récurrent de la maison résonne avec de nombreux lecteurs, même lorsque leur propre parcours est différent.",
-          "C’est précisément cette liberté qui permet à chaque lecteur d’y reconnaître une part de son histoire et de construire sa propre relation avec le texte."
+          "À un film qu’elle a vu",
+          "À sa propre expérience entre deux pays",
+          "À un cours d’histoire",
+          "À rien en particulier"
         ]
       }
     ]
@@ -25755,49 +24705,6 @@
       {
         "type": "practice",
         "prompt": "Compare ta routine avec celle d’un/une camarade et trouvez trois différences."
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-voyages-et-interculturalite-speaking",
-    "level": "B1",
-    "skill": "speaking",
-    "unitId": "voyages-et-interculturalite",
-    "title": "Comparer deux cultures",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 52,
-    "estimatedMinutes": 12,
-    "description": "Compare deux habitudes culturelles de pays différents.",
-    "intro": "Compare deux habitudes culturelles de pays différents.",
-    "mission": "Prépare une présentation de deux minutes comparant une habitude culturelle de ton pays avec celle d’un autre pays que tu connais.",
-    "grammar": "",
-    "phrases": [
-      "Dans mon pays, on...",
-      "Tandis que dans..., on...",
-      "Ce qui m’a surpris, c’est...",
-      "J’apprécie les deux parce que..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Dans mon pays, les fêtes commencent tard, tandis que dans d’autres cultures, elles commencent plus tôt. Ce qui m’a surpris, c’est la différence d’horaires.",
-        "translation": "En mi país, las fiestas empiezan tarde, mientras que en otras culturas empiezan más temprano. Lo que me sorprendió fue la diferencia de horarios."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Compare deux habitudes culturelles de pays différents, en utilisant « tandis que » ou « alors que »."
-      },
-      {
-        "type": "practice",
-        "prompt": "Débats avec un/une camarade sur les avantages et inconvénients de deux cultures différentes."
       }
     ]
   },
@@ -25952,6 +24859,49 @@
     ]
   },
   {
+    "slug": "french-b1-voyages-et-interculturalite-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "voyages-et-interculturalite",
+    "title": "Comparer deux cultures",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 52,
+    "estimatedMinutes": 12,
+    "description": "Compare deux habitudes culturelles de pays différents.",
+    "intro": "Compare deux habitudes culturelles de pays différents.",
+    "mission": "Prépare une présentation de deux minutes comparant une habitude culturelle de ton pays avec celle d’un autre pays que tu connais.",
+    "grammar": "",
+    "phrases": [
+      "Dans mon pays, on...",
+      "Tandis que dans..., on...",
+      "Ce qui m’a surpris, c’est...",
+      "J’apprécie les deux parce que..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Dans mon pays, les fêtes commencent tard, tandis que dans d’autres cultures, elles commencent plus tôt. Ce qui m’a surpris, c’est la différence d’horaires.",
+        "translation": "En mi país, las fiestas empiezan tarde, mientras que en otras culturas empiezan más temprano. Lo que me sorprendió fue la diferencia de horarios."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Compare deux habitudes culturelles de pays différents, en utilisant « tandis que » ou « alors que »."
+      },
+      {
+        "type": "practice",
+        "prompt": "Débats avec un/une camarade sur les avantages et inconvénients de deux cultures différentes."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-litterature-francophone-speaking",
     "level": "B2",
     "skill": "speaking",
@@ -26091,45 +25041,6 @@
     ]
   },
   {
-    "slug": "french-b1-voyages-et-interculturalite-writing",
-    "level": "B1",
-    "skill": "writing",
-    "unitId": "voyages-et-interculturalite",
-    "title": "Un choc culturel que j’ai vécu",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 53,
-    "estimatedMinutes": 16,
-    "description": "Raconte une expérience interculturelle marquante.",
-    "intro": "Raconte une expérience interculturelle marquante.",
-    "mission": "Écris 150 à 200 mots racontant une expérience interculturelle marquante (réelle ou imaginaire), en comparant deux habitudes culturelles différentes.",
-    "grammar": "",
-    "phrases": [
-      "Ce qui m’a surpris(e), c’est...",
-      "Dans ma culture, on..., tandis que...",
-      "Au début, j’ai trouvé ça...",
-      "Maintenant, j’apprécie..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Ce qui m’a le plus surpris pendant mon voyage, c’est la façon de saluer les gens. Dans ma culture, on se serre la main, tandis qu’ailleurs, on fait la bise. Au début, j’ai trouvé ça étrange, mais maintenant, j’apprécie cette diversité.",
-        "translation": "Lo que más me sorprendió durante mi viaje fue la forma de saludar a la gente. En mi cultura nos damos la mano, mientras que en otros lugares se dan un beso. Al principio me pareció extraño, pero ahora aprecio esa diversidad."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris 150 à 200 mots racontant une expérience interculturelle, avec au moins un connecteur d’opposition (tandis que/alors que)."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-memoire-migration-et-identite-writing",
     "level": "C1",
     "skill": "writing",
@@ -26242,6 +25153,45 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-voyages-et-interculturalite-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "voyages-et-interculturalite",
+    "title": "Un choc culturel que j’ai vécu",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 53,
+    "estimatedMinutes": 16,
+    "description": "Raconte une expérience interculturelle marquante.",
+    "intro": "Raconte une expérience interculturelle marquante.",
+    "mission": "Écris 150 à 200 mots racontant une expérience interculturelle marquante (réelle ou imaginaire), en comparant deux habitudes culturelles différentes.",
+    "grammar": "",
+    "phrases": [
+      "Ce qui m’a surpris(e), c’est...",
+      "Dans ma culture, on..., tandis que...",
+      "Au début, j’ai trouvé ça...",
+      "Maintenant, j’apprécie..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Ce qui m’a le plus surpris pendant mon voyage, c’est la façon de saluer les gens. Dans ma culture, on se serre la main, tandis qu’ailleurs, on fait la bise. Au début, j’ai trouvé ça étrange, mais maintenant, j’apprécie cette diversité.",
+        "translation": "Lo que más me sorprendió durante mi viaje fue la forma de saludar a la gente. En mi cultura nos damos la mano, mientras que en otros lugares se dan un beso. Al principio me pareció extraño, pero ahora aprecio esa diversidad."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris 150 à 200 mots racontant une expérience interculturelle, avec au moins un connecteur d’opposition (tandis que/alors que)."
       }
     ]
   },
@@ -26861,339 +25811,6 @@
           "se couchent",
           "couche"
         ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-voyages-et-interculturalite-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "voyages-et-interculturalite",
-    "title": "Les connecteurs d’opposition : tandis que, alors que",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 54,
-    "estimatedMinutes": 12,
-    "description": "Comparer deux idées opposées avec des connecteurs.",
-    "intro": "Comparer deux idées opposées avec des connecteurs.",
-    "mission": "",
-    "grammar": "« Tandis que » et « alors que » servent à opposer deux idées dans une même phrase : « En France, on dîne vers vingt heures, tandis qu’à Saint-Domingue, on dîne souvent plus tard. » Ils sont suivis d’un sujet et d’un verbe conjugué, comme « parce que ».",
-    "phrases": [
-      "..., tandis que...",
-      "..., alors que...",
-      "Contrairement à...",
-      "Par contre..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b1-voyages-et-interculturalite-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b1-voyages-et-interculturalite-grammar-q1",
-            "type": "mcq",
-            "prompt": "En France, on dîne tôt, ___ à Saint-Domingue, on dîne plus tard.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "tandis que"
-              },
-              {
-                "id": "a",
-                "text": "parce que"
-              },
-              {
-                "id": "c",
-                "text": "donc"
-              },
-              {
-                "id": "d",
-                "text": "car"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-voyages-et-interculturalite-grammar-q2",
-            "type": "mcq",
-            "prompt": "Quel connecteur exprime une opposition ?",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "Parce que"
-              },
-              {
-                "id": "c",
-                "text": "Alors que"
-              },
-              {
-                "id": "b",
-                "text": "Donc"
-              },
-              {
-                "id": "d",
-                "text": "Si bien que"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-voyages-et-interculturalite-grammar-q3",
-            "type": "mcq",
-            "prompt": "Les Français passent du temps à table, ___ les repas sont plus rapides ailleurs.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "b",
-                "text": "parce que"
-              },
-              {
-                "id": "c",
-                "text": "donc"
-              },
-              {
-                "id": "a",
-                "text": "tandis que"
-              },
-              {
-                "id": "d",
-                "text": "ainsi"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-voyages-et-interculturalite-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle phrase utilise correctement un connecteur d’opposition ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Je mange vite parce que je suis pressé."
-              },
-              {
-                "id": "c",
-                "text": "Je mange donc je suis en retard."
-              },
-              {
-                "id": "d",
-                "text": "Je mange si j’ai faim."
-              },
-              {
-                "id": "b",
-                "text": "Je mange lentement, tandis que mon frère mange vite."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-voyages-et-interculturalite-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « En France, on dîne tôt, parce que à Saint-Domingue, on dîne plus tard. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "En France, on dîne tôt, tandis que à Saint-Domingue, on dîne plus tard."
-              },
-              {
-                "id": "a",
-                "text": "En France, on dîne tôt, parce que à Saint-Domingue, on dîne plus tard."
-              },
-              {
-                "id": "c",
-                "text": "En France, on dîne tôt, donc à Saint-Domingue, on dîne plus tard."
-              },
-              {
-                "id": "d",
-                "text": "En France, on dîne tôt, car à Saint-Domingue, on dîne plus tard."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-voyages-et-interculturalite-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quel connecteur exprime une opposition ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Parce que"
-              },
-              {
-                "id": "c",
-                "text": "Alors que"
-              },
-              {
-                "id": "b",
-                "text": "Donc"
-              },
-              {
-                "id": "d",
-                "text": "Si bien que"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-voyages-et-interculturalite-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Les Français passent du temps à table, parce que les repas sont plus rapides ailleurs. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Les Français passent du temps à table, parce que les repas sont plus rapides ailleurs."
-              },
-              {
-                "id": "c",
-                "text": "Les Français passent du temps à table, donc les repas sont plus rapides ailleurs."
-              },
-              {
-                "id": "a",
-                "text": "Les Français passent du temps à table, tandis que les repas sont plus rapides ailleurs."
-              },
-              {
-                "id": "d",
-                "text": "Les Français passent du temps à table, ainsi les repas sont plus rapides ailleurs."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-voyages-et-interculturalite-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Je mange vite parce que je suis pressé. » dans ce contexte : « Quelle phrase utilise correctement un connecteur d’opposition ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Je mange vite parce que je suis pressé."
-              },
-              {
-                "id": "c",
-                "text": "Je mange donc je suis en retard."
-              },
-              {
-                "id": "d",
-                "text": "Je mange si j’ai faim."
-              },
-              {
-                "id": "b",
-                "text": "Je mange lentement, tandis que mon frère mange vite."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Les connecteurs d’opposition : tandis que, alors que",
-        "definition": "« Tandis que » et « alors que » servent à opposer deux idées dans une même phrase : « En France, on dîne vers vingt heures, tandis qu’à Saint-Domingue, on dîne souvent plus tard. » Ils sont suivis d’un sujet et d’un verbe conjugué, comme « parce que ».",
-        "structure": "Forme à observer : Les connecteurs d’opposition : tandis que, alors que. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Comparer deux idées opposées avec des connecteurs.",
-        "examples": [
-          "En France, on dîne tôt, tandis que à Saint-Domingue, on dîne plus tard.",
-          "Alors que",
-          "Les Français passent du temps à table, tandis que les repas sont plus rapides ailleurs.",
-          "Je mange lentement, tandis que mon frère mange vite."
-        ],
-        "explanation": "« Tandis que » et « alors que » servent à opposer deux idées dans une même phrase : « En France, on dîne vers vingt heures, tandis qu’à Saint-Domingue, on dîne souvent plus tard. » Ils sont suivis d’un sujet et d’un verbe conjugué, comme « parce que ».",
-        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
-        "cefrLevel": "B1",
-        "unitContext": "Comparer deux idées opposées avec des connecteurs."
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "En France, on dîne tôt, ___ à Saint-Domingue, on dîne plus tard.",
-        "options": [
-          "tandis que",
-          "parce que",
-          "donc",
-          "car"
-        ],
-        "explanation": "La bonne réponse est « tandis que » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel connecteur exprime une opposition ?",
-        "options": [
-          "Parce que",
-          "Alors que",
-          "Donc",
-          "Si bien que"
-        ],
-        "explanation": "La bonne réponse est « Alors que » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Les Français passent du temps à table, ___ les repas sont plus rapides ailleurs.",
-        "options": [
-          "parce que",
-          "donc",
-          "tandis que",
-          "ainsi"
-        ],
-        "explanation": "La bonne réponse est « tandis que » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase utilise correctement un connecteur d’opposition ?",
-        "options": [
-          "Je mange vite parce que je suis pressé.",
-          "Je mange donc je suis en retard.",
-          "Je mange si j’ai faim.",
-          "Je mange lentement, tandis que mon frère mange vite."
-        ],
-        "explanation": "La bonne réponse est « Je mange lentement, tandis que mon frère mange vite. » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « En France, on dîne tôt, parce que à Saint-Domingue, on dîne plus tard. » ?",
-        "options": [
-          "En France, on dîne tôt, tandis que à Saint-Domingue, on dîne plus tard.",
-          "En France, on dîne tôt, parce que à Saint-Domingue, on dîne plus tard.",
-          "En France, on dîne tôt, donc à Saint-Domingue, on dîne plus tard.",
-          "En France, on dîne tôt, car à Saint-Domingue, on dîne plus tard."
-        ],
-        "explanation": "La phrase correcte est : « En France, on dîne tôt, tandis que à Saint-Domingue, on dîne plus tard. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quel connecteur exprime une opposition ? » ?",
-        "options": [
-          "Parce que",
-          "Alors que",
-          "Donc",
-          "Si bien que"
-        ],
-        "explanation": "La bonne réponse est « Alors que »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Les Français passent du temps à table, parce que les repas sont plus rapides ailleurs. » ?",
-        "options": [
-          "Les Français passent du temps à table, parce que les repas sont plus rapides ailleurs.",
-          "Les Français passent du temps à table, donc les repas sont plus rapides ailleurs.",
-          "Les Français passent du temps à table, tandis que les repas sont plus rapides ailleurs.",
-          "Les Français passent du temps à table, ainsi les repas sont plus rapides ailleurs."
-        ],
-        "explanation": "La phrase correcte est : « Les Français passent du temps à table, tandis que les repas sont plus rapides ailleurs. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « Je mange vite parce que je suis pressé. » dans ce contexte : « Quelle phrase utilise correctement un connecteur d’opposition ? » ?",
-        "options": [
-          "Je mange vite parce que je suis pressé.",
-          "Je mange donc je suis en retard.",
-          "Je mange si j’ai faim.",
-          "Je mange lentement, tandis que mon frère mange vite."
-        ],
-        "explanation": "La bonne réponse est « Je mange lentement, tandis que mon frère mange vite. »."
       }
     ]
   },
@@ -27861,6 +26478,339 @@
     ]
   },
   {
+    "slug": "french-b1-voyages-et-interculturalite-grammar",
+    "level": "B1",
+    "skill": "grammar",
+    "unitId": "voyages-et-interculturalite",
+    "title": "Les connecteurs d’opposition : tandis que, alors que",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 54,
+    "estimatedMinutes": 12,
+    "description": "Comparer deux idées opposées avec des connecteurs.",
+    "intro": "Comparer deux idées opposées avec des connecteurs.",
+    "mission": "",
+    "grammar": "« Tandis que » et « alors que » servent à opposer deux idées dans une même phrase : « En France, on dîne vers vingt heures, tandis qu’à Saint-Domingue, on dîne souvent plus tard. » Ils sont suivis d’un sujet et d’un verbe conjugué, comme « parce que ».",
+    "phrases": [
+      "..., tandis que...",
+      "..., alors que...",
+      "Contrairement à...",
+      "Par contre..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b1-voyages-et-interculturalite-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b1-voyages-et-interculturalite-grammar-q1",
+            "type": "mcq",
+            "prompt": "En France, on dîne tôt, ___ à Saint-Domingue, on dîne plus tard.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "tandis que"
+              },
+              {
+                "id": "a",
+                "text": "parce que"
+              },
+              {
+                "id": "c",
+                "text": "donc"
+              },
+              {
+                "id": "d",
+                "text": "car"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-voyages-et-interculturalite-grammar-q2",
+            "type": "mcq",
+            "prompt": "Quel connecteur exprime une opposition ?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Parce que"
+              },
+              {
+                "id": "c",
+                "text": "Alors que"
+              },
+              {
+                "id": "b",
+                "text": "Donc"
+              },
+              {
+                "id": "d",
+                "text": "Si bien que"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-voyages-et-interculturalite-grammar-q3",
+            "type": "mcq",
+            "prompt": "Les Français passent du temps à table, ___ les repas sont plus rapides ailleurs.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "b",
+                "text": "parce que"
+              },
+              {
+                "id": "c",
+                "text": "donc"
+              },
+              {
+                "id": "a",
+                "text": "tandis que"
+              },
+              {
+                "id": "d",
+                "text": "ainsi"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-voyages-et-interculturalite-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle phrase utilise correctement un connecteur d’opposition ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Je mange vite parce que je suis pressé."
+              },
+              {
+                "id": "c",
+                "text": "Je mange donc je suis en retard."
+              },
+              {
+                "id": "d",
+                "text": "Je mange si j’ai faim."
+              },
+              {
+                "id": "b",
+                "text": "Je mange lentement, tandis que mon frère mange vite."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-voyages-et-interculturalite-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « En France, on dîne tôt, parce que à Saint-Domingue, on dîne plus tard. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "En France, on dîne tôt, tandis que à Saint-Domingue, on dîne plus tard."
+              },
+              {
+                "id": "a",
+                "text": "En France, on dîne tôt, parce que à Saint-Domingue, on dîne plus tard."
+              },
+              {
+                "id": "c",
+                "text": "En France, on dîne tôt, donc à Saint-Domingue, on dîne plus tard."
+              },
+              {
+                "id": "d",
+                "text": "En France, on dîne tôt, car à Saint-Domingue, on dîne plus tard."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-voyages-et-interculturalite-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quel connecteur exprime une opposition ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Parce que"
+              },
+              {
+                "id": "c",
+                "text": "Alors que"
+              },
+              {
+                "id": "b",
+                "text": "Donc"
+              },
+              {
+                "id": "d",
+                "text": "Si bien que"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-voyages-et-interculturalite-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Les Français passent du temps à table, parce que les repas sont plus rapides ailleurs. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Les Français passent du temps à table, parce que les repas sont plus rapides ailleurs."
+              },
+              {
+                "id": "c",
+                "text": "Les Français passent du temps à table, donc les repas sont plus rapides ailleurs."
+              },
+              {
+                "id": "a",
+                "text": "Les Français passent du temps à table, tandis que les repas sont plus rapides ailleurs."
+              },
+              {
+                "id": "d",
+                "text": "Les Français passent du temps à table, ainsi les repas sont plus rapides ailleurs."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-voyages-et-interculturalite-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Je mange vite parce que je suis pressé. » dans ce contexte : « Quelle phrase utilise correctement un connecteur d’opposition ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Je mange vite parce que je suis pressé."
+              },
+              {
+                "id": "c",
+                "text": "Je mange donc je suis en retard."
+              },
+              {
+                "id": "d",
+                "text": "Je mange si j’ai faim."
+              },
+              {
+                "id": "b",
+                "text": "Je mange lentement, tandis que mon frère mange vite."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les connecteurs d’opposition : tandis que, alors que",
+        "definition": "« Tandis que » et « alors que » servent à opposer deux idées dans une même phrase : « En France, on dîne vers vingt heures, tandis qu’à Saint-Domingue, on dîne souvent plus tard. » Ils sont suivis d’un sujet et d’un verbe conjugué, comme « parce que ».",
+        "explanation": "« Tandis que » et « alors que » servent à opposer deux idées dans une même phrase : « En France, on dîne vers vingt heures, tandis qu’à Saint-Domingue, on dîne souvent plus tard. » Ils sont suivis d’un sujet et d’un verbe conjugué, comme « parce que ».",
+        "structure": "Estructura central: Les connecteurs d’opposition : tandis que, alors que.",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "function": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Comparer deux idées opposées avec des connecteurs.",
+        "examples": [
+          "En France, on dîne tôt, tandis que à Saint-Domingue, on dîne plus tard.",
+          "Alors que",
+          "Les Français passent du temps à table, tandis que les repas sont plus rapides ailleurs.",
+          "Je mange lentement, tandis que mon frère mange vite."
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "En France, on dîne tôt, ___ à Saint-Domingue, on dîne plus tard.",
+        "options": [
+          "parce que",
+          "tandis que",
+          "donc",
+          "car"
+        ],
+        "explanation": "La bonne réponse est « tandis que » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel connecteur exprime une opposition ?",
+        "options": [
+          "Parce que",
+          "Donc",
+          "Alors que",
+          "Si bien que"
+        ],
+        "explanation": "La bonne réponse est « Alors que » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Les Français passent du temps à table, ___ les repas sont plus rapides ailleurs.",
+        "options": [
+          "tandis que",
+          "parce que",
+          "donc",
+          "ainsi"
+        ],
+        "explanation": "La bonne réponse est « tandis que » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase utilise correctement un connecteur d’opposition ?",
+        "options": [
+          "Je mange vite parce que je suis pressé.",
+          "Je mange lentement, tandis que mon frère mange vite.",
+          "Je mange donc je suis en retard.",
+          "Je mange si j’ai faim."
+        ],
+        "explanation": "La bonne réponse est « Je mange lentement, tandis que mon frère mange vite. » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « En France, on dîne tôt, parce que à Saint-Domingue, on dîne plus tard. » ?",
+        "options": [
+          "En France, on dîne tôt, parce que à Saint-Domingue, on dîne plus tard.",
+          "En France, on dîne tôt, tandis que à Saint-Domingue, on dîne plus tard.",
+          "En France, on dîne tôt, donc à Saint-Domingue, on dîne plus tard.",
+          "En France, on dîne tôt, car à Saint-Domingue, on dîne plus tard."
+        ],
+        "explanation": "La phrase correcte est : « En France, on dîne tôt, tandis que à Saint-Domingue, on dîne plus tard. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quel connecteur exprime une opposition ? » ?",
+        "options": [
+          "Parce que",
+          "Donc",
+          "Alors que",
+          "Si bien que"
+        ],
+        "explanation": "La bonne réponse est « Alors que »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Les Français passent du temps à table, parce que les repas sont plus rapides ailleurs. » ?",
+        "options": [
+          "Les Français passent du temps à table, tandis que les repas sont plus rapides ailleurs.",
+          "Les Français passent du temps à table, parce que les repas sont plus rapides ailleurs.",
+          "Les Français passent du temps à table, donc les repas sont plus rapides ailleurs.",
+          "Les Français passent du temps à table, ainsi les repas sont plus rapides ailleurs."
+        ],
+        "explanation": "La phrase correcte est : « Les Français passent du temps à table, tandis que les repas sont plus rapides ailleurs. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Je mange vite parce que je suis pressé. » dans ce contexte : « Quelle phrase utilise correctement un connecteur d’opposition ? » ?",
+        "options": [
+          "Je mange vite parce que je suis pressé.",
+          "Je mange lentement, tandis que mon frère mange vite.",
+          "Je mange donc je suis en retard.",
+          "Je mange si j’ai faim."
+        ],
+        "explanation": "La bonne réponse est « Je mange lentement, tandis que mon frère mange vite. »."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-litterature-francophone-grammar",
     "level": "B2",
     "skill": "grammar",
@@ -28087,18 +27037,18 @@
       "grammarProfile": {
         "name": "Le discours indirect au passé et lequel/auquel",
         "definition": "Au discours indirect au passé, le présent devient l’imparfait et le passé composé devient le plus-que-parfait : « Elle a dit : \"Je veux explorer ce thème.\" » → « Elle a dit qu’elle voulait explorer ce thème. » « Lequel/auquel/duquel » remplacent un nom précédé d’une préposition : « Le roman auquel je pensais. »",
-        "structure": "Forme à observer : Le discours indirect au passé et lequel/auquel. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Rapporter des propos passés et utiliser lequel/auquel comme pronoms relatifs.",
+        "explanation": "Au discours indirect au passé, le présent devient l’imparfait et le passé composé devient le plus-que-parfait : « Elle a dit : \"Je veux explorer ce thème.\" » → « Elle a dit qu’elle voulait explorer ce thème. » « Lequel/auquel/duquel » remplacent un nom précédé d’une préposition : « Le roman auquel je pensais. »",
+        "structure": "Estructura central: Le discours indirect au passé et lequel/auquel.",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "function": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Rapporter des propos passés et utiliser lequel/auquel comme pronoms relatifs.",
         "examples": [
           "Elle a dit qu’elle voulait explorer ce thème.",
           "L’autrice a expliqué qu’elle avait écrit ce roman pendant deux ans.",
           "Le roman auquel je pensais beaucoup était passionnant.",
           "L’imparfait"
-        ],
-        "explanation": "Au discours indirect au passé, le présent devient l’imparfait et le passé composé devient le plus-que-parfait : « Elle a dit : \"Je veux explorer ce thème.\" » → « Elle a dit qu’elle voulait explorer ce thème. » « Lequel/auquel/duquel » remplacent un nom précédé d’une préposition : « Le roman auquel je pensais. »",
-        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
-        "cefrLevel": "B2",
-        "unitContext": "Rapporter des propos passés et utiliser lequel/auquel comme pronoms relatifs."
+        ]
       },
       "listeningComprehension": null
     },
@@ -28107,8 +27057,8 @@
         "type": "mcq",
         "prompt": "Elle a dit qu’elle ___ explorer ce thème.",
         "options": [
-          "voulait",
           "veut",
+          "voulait",
           "voudra",
           "a voulu"
         ],
@@ -28141,9 +27091,9 @@
         "prompt": "Au discours indirect passé, le présent devient...",
         "options": [
           "Le futur",
+          "L’imparfait",
           "Le conditionnel",
-          "Le subjonctif",
-          "L’imparfait"
+          "Le subjonctif"
         ],
         "explanation": "La bonne réponse est « L’imparfait » : elle respecte la structure étudiée dans cette leçon."
       },
@@ -28151,8 +27101,8 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Elle a dit qu’elle veut explorer ce thème. » ?",
         "options": [
-          "Elle a dit qu’elle voulait explorer ce thème.",
           "Elle a dit qu’elle veut explorer ce thème.",
+          "Elle a dit qu’elle voulait explorer ce thème.",
           "Elle a dit qu’elle voudra explorer ce thème.",
           "Elle a dit qu’elle a voulu explorer ce thème."
         ],
@@ -28185,9 +27135,9 @@
         "prompt": "Quelle réponse corrige l’erreur « Le futur » dans ce contexte : « Au discours indirect passé, le présent devient... » ?",
         "options": [
           "Le futur",
+          "L’imparfait",
           "Le conditionnel",
-          "Le subjonctif",
-          "L’imparfait"
+          "Le subjonctif"
         ],
         "explanation": "La bonne réponse est « L’imparfait »."
       }
@@ -28399,86 +27349,6 @@
           "De costumbre",
           "A veces",
           "Rara vez"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-voyages-et-interculturalite-vocabulary",
-    "level": "B1",
-    "skill": "vocabulary",
-    "unitId": "voyages-et-interculturalite",
-    "title": "Le vocabulaire de l’interculturalité",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 55,
-    "estimatedMinutes": 8,
-    "description": "Le vocabulaire essentiel pour comparer des cultures.",
-    "intro": "Le vocabulaire essentiel pour comparer des cultures.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "une habitude culturelle",
-        "translation": "una costumbre cultural",
-        "example": "Chaque pays a ses propres habitudes culturelles."
-      },
-      {
-        "word": "un choc culturel",
-        "translation": "un choque cultural",
-        "example": "J’ai vécu un petit choc culturel en arrivant en France."
-      },
-      {
-        "word": "ce qui m’a surpris",
-        "translation": "lo que me sorprendió",
-        "example": "Ce qui m’a surpris, c’est la durée des repas."
-      },
-      {
-        "word": "tandis que",
-        "translation": "mientras que",
-        "example": "On dîne tôt, tandis qu’ailleurs on dîne tard."
-      },
-      {
-        "word": "apprécier",
-        "translation": "apreciar",
-        "example": "J’apprécie beaucoup les deux cultures."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un choc culturel » ?",
-        "options": [
-          "Un choque cultural",
-          "Una fiesta",
-          "Un idioma",
-          "Un país"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « tandis que » ?",
-        "options": [
-          "Porque",
-          "Mientras que",
-          "Entonces",
-          "Además"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « apprécier » ?",
-        "options": [
-          "Rechazar",
-          "Apreciar",
-          "Ignorar",
-          "Olvidar"
         ]
       }
     ]
@@ -28974,6 +27844,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-voyages-et-interculturalite-vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unitId": "voyages-et-interculturalite",
+    "title": "Le vocabulaire de l’interculturalité",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 55,
+    "estimatedMinutes": 8,
+    "description": "Le vocabulaire essentiel pour comparer des cultures.",
+    "intro": "Le vocabulaire essentiel pour comparer des cultures.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "une habitude culturelle",
+        "translation": "una costumbre cultural",
+        "example": "Chaque pays a ses propres habitudes culturelles."
+      },
+      {
+        "word": "un choc culturel",
+        "translation": "un choque cultural",
+        "example": "J’ai vécu un petit choc culturel en arrivant en France."
+      },
+      {
+        "word": "ce qui m’a surpris",
+        "translation": "lo que me sorprendió",
+        "example": "Ce qui m’a surpris, c’est la durée des repas."
+      },
+      {
+        "word": "tandis que",
+        "translation": "mientras que",
+        "example": "On dîne tôt, tandis qu’ailleurs on dîne tard."
+      },
+      {
+        "word": "apprécier",
+        "translation": "apreciar",
+        "example": "J’apprécie beaucoup les deux cultures."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un choc culturel » ?",
+        "options": [
+          "Un choque cultural",
+          "Una fiesta",
+          "Un idioma",
+          "Un país"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « tandis que » ?",
+        "options": [
+          "Porque",
+          "Mientras que",
+          "Entonces",
+          "Además"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « apprécier » ?",
+        "options": [
+          "Rechazar",
+          "Apreciar",
+          "Ignorar",
+          "Olvidar"
+        ]
       }
     ]
   },
@@ -29573,96 +28523,6 @@
     ]
   },
   {
-    "slug": "french-b1-technologie-et-societe-reading",
-    "level": "B1",
-    "skill": "reading",
-    "unitId": "technologie-et-societe",
-    "title": "Choisir ses usages numériques",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 60,
-    "estimatedMinutes": 15,
-    "description": "Comment utiliser les outils numériques sans perdre son attention, selon les chercheurs en psychologie du numérique.",
-    "intro": "Comment utiliser les outils numériques sans perdre son attention, selon les chercheurs en psychologie du numérique.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Choisir ses usages numériques",
-      "parts": [
-        "Soixante-dix-huit notifications par jour en moyenne : c’est ce qu’a mesuré une étude menée auprès de lycéens français sur l’usage de leur smartphone, la majorité de ces alertes ne concernant rien d’urgent. D’une part, les outils numériques permettent de rester en contact avec des proches éloignés, de traduire une phrase en une seconde ou d’apprendre une langue gratuitement en ligne. D’autre part, ils interrompent en moyenne l’attention d’un utilisateur toutes les six minutes, selon les mêmes chercheurs, ce qui rend presque impossible toute concentration prolongée sur une seule tâche.",
-        "Ce phénomène n’est pas un accident. De nombreuses applications sont conçues, dès leur création, pour capter l’attention le plus longtemps possible : des notifications colorées, un défilement sans fin, des sons précis qui déclenchent une petite décharge de satisfaction. Il est important que les utilisateurs, en particulier les plus jeunes, comprennent ce mécanisme, non pas pour rejeter la technologie, mais pour reprendre le contrôle de leurs propres réglages.",
-        "Plusieurs lycées français ont commencé à tester des solutions concrètes : rangement obligatoire des téléphones dans un casier pendant les cours, ou zones sans écran pendant la pause déjeuner. Dans les établissements ayant adopté ces règles depuis plus d’un an, les enseignants rapportent une amélioration nette de la concentration en classe, même si certains élèves ont d’abord protesté. Il faudrait que chaque personne, au-delà de l’école, définisse elle-même des moments précis pour consulter ses réseaux, plutôt que de les vérifier de façon compulsive toute la journée.",
-        "Cependant, la responsabilité ne repose pas uniquement sur les individus. Plusieurs pays européens ont récemment adopté des règles plus strictes sur la protection des données des mineurs en ligne, obligeant les plateformes elles-mêmes à limiter certaines fonctionnalités jugées addictives pour les jeunes utilisateurs."
-      ],
-      "questions": [
-        "Combien de notifications par jour reçoit en moyenne un lycéen, selon l’étude citée ?",
-        "Selon les chercheurs, toutes les combien de minutes l’attention est-elle interrompue en moyenne ?",
-        "Pourquoi de nombreuses applications utilisent-elles notifications colorées et défilement sans fin, selon le texte ?",
-        "Que testent plusieurs lycées français concernant les téléphones, selon le texte ?",
-        "Que font plusieurs pays européens, selon le dernier paragraphe ?"
-      ],
-      "text": "Soixante-dix-huit notifications par jour en moyenne : c’est ce qu’a mesuré une étude menée auprès de lycéens français sur l’usage de leur smartphone, la majorité de ces alertes ne concernant rien d’urgent. D’une part, les outils numériques permettent de rester en contact avec des proches éloignés, de traduire une phrase en une seconde ou d’apprendre une langue gratuitement en ligne. D’autre part, ils interrompent en moyenne l’attention d’un utilisateur toutes les six minutes, selon les mêmes chercheurs, ce qui rend presque impossible toute concentration prolongée sur une seule tâche.\n\nCe phénomène n’est pas un accident. De nombreuses applications sont conçues, dès leur création, pour capter l’attention le plus longtemps possible : des notifications colorées, un défilement sans fin, des sons précis qui déclenchent une petite décharge de satisfaction. Il est important que les utilisateurs, en particulier les plus jeunes, comprennent ce mécanisme, non pas pour rejeter la technologie, mais pour reprendre le contrôle de leurs propres réglages.\n\nPlusieurs lycées français ont commencé à tester des solutions concrètes : rangement obligatoire des téléphones dans un casier pendant les cours, ou zones sans écran pendant la pause déjeuner. Dans les établissements ayant adopté ces règles depuis plus d’un an, les enseignants rapportent une amélioration nette de la concentration en classe, même si certains élèves ont d’abord protesté. Il faudrait que chaque personne, au-delà de l’école, définisse elle-même des moments précis pour consulter ses réseaux, plutôt que de les vérifier de façon compulsive toute la journée.\n\nCependant, la responsabilité ne repose pas uniquement sur les individus. Plusieurs pays européens ont récemment adopté des règles plus strictes sur la protection des données des mineurs en ligne, obligeant les plateformes elles-mêmes à limiter certaines fonctionnalités jugées addictives pour les jeunes utilisateurs."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Combien de notifications par jour reçoit en moyenne un lycéen, selon l’étude citée ?",
-        "options": [
-          "Soixante-dix-huit",
-          "Cinq",
-          "Exactement dix",
-          "Aucune"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selon les chercheurs, toutes les combien de minutes l’attention est-elle interrompue en moyenne ?",
-        "options": [
-          "Toutes les six minutes",
-          "Toutes les deux heures",
-          "Une seule fois par jour",
-          "Toutes les secondes"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi de nombreuses applications utilisent-elles notifications colorées et défilement sans fin, selon le texte ?",
-        "options": [
-          "Par accident, sans intention particulière",
-          "Pour capter l’attention le plus longtemps possible",
-          "Pour respecter une loi européenne",
-          "Pour économiser de la batterie"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que testent plusieurs lycées français concernant les téléphones, selon le texte ?",
-        "options": [
-          "Rangement obligatoire pendant les cours et zones sans écran à la pause déjeuner",
-          "La distribution gratuite de smartphones",
-          "L’interdiction totale d’internet dans le pays",
-          "Aucune règle particulière"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que font plusieurs pays européens, selon le dernier paragraphe ?",
-        "options": [
-          "Ils adoptent des règles pour protéger les données des mineurs et limiter les fonctionnalités addictives",
-          "Ils interdisent totalement les smartphones",
-          "Ils laissent les plateformes s’autoréguler sans règle",
-          "Ils suppriment l’accès à internet pour les jeunes"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-justice-sociale-et-inegalites-reading",
     "level": "C1",
     "skill": "reading",
@@ -29871,6 +28731,96 @@
           "Mesurer uniquement la masse d’une exoplanète"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Sommes-nous sur le point de détecter une vie extraterrestre ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-technologie-et-societe-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "technologie-et-societe",
+    "title": "Choisir ses usages numériques",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 60,
+    "estimatedMinutes": 15,
+    "description": "Comment utiliser les outils numériques sans perdre son attention, selon les chercheurs en psychologie du numérique.",
+    "intro": "Comment utiliser les outils numériques sans perdre son attention, selon les chercheurs en psychologie du numérique.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Choisir ses usages numériques",
+      "parts": [
+        "Soixante-dix-huit notifications par jour en moyenne : c’est ce qu’a mesuré une étude menée auprès de lycéens français sur l’usage de leur smartphone, la majorité de ces alertes ne concernant rien d’urgent. D’une part, les outils numériques permettent de rester en contact avec des proches éloignés, de traduire une phrase en une seconde ou d’apprendre une langue gratuitement en ligne. D’autre part, ils interrompent en moyenne l’attention d’un utilisateur toutes les six minutes, selon les mêmes chercheurs, ce qui rend presque impossible toute concentration prolongée sur une seule tâche.",
+        "Ce phénomène n’est pas un accident. De nombreuses applications sont conçues, dès leur création, pour capter l’attention le plus longtemps possible : des notifications colorées, un défilement sans fin, des sons précis qui déclenchent une petite décharge de satisfaction. Il est important que les utilisateurs, en particulier les plus jeunes, comprennent ce mécanisme, non pas pour rejeter la technologie, mais pour reprendre le contrôle de leurs propres réglages.",
+        "Plusieurs lycées français ont commencé à tester des solutions concrètes : rangement obligatoire des téléphones dans un casier pendant les cours, ou zones sans écran pendant la pause déjeuner. Dans les établissements ayant adopté ces règles depuis plus d’un an, les enseignants rapportent une amélioration nette de la concentration en classe, même si certains élèves ont d’abord protesté. Il faudrait que chaque personne, au-delà de l’école, définisse elle-même des moments précis pour consulter ses réseaux, plutôt que de les vérifier de façon compulsive toute la journée.",
+        "Cependant, la responsabilité ne repose pas uniquement sur les individus. Plusieurs pays européens ont récemment adopté des règles plus strictes sur la protection des données des mineurs en ligne, obligeant les plateformes elles-mêmes à limiter certaines fonctionnalités jugées addictives pour les jeunes utilisateurs."
+      ],
+      "questions": [
+        "Combien de notifications par jour reçoit en moyenne un lycéen, selon l’étude citée ?",
+        "Selon les chercheurs, toutes les combien de minutes l’attention est-elle interrompue en moyenne ?",
+        "Pourquoi de nombreuses applications utilisent-elles notifications colorées et défilement sans fin, selon le texte ?",
+        "Que testent plusieurs lycées français concernant les téléphones, selon le texte ?",
+        "Que font plusieurs pays européens, selon le dernier paragraphe ?"
+      ],
+      "text": "Soixante-dix-huit notifications par jour en moyenne : c’est ce qu’a mesuré une étude menée auprès de lycéens français sur l’usage de leur smartphone, la majorité de ces alertes ne concernant rien d’urgent. D’une part, les outils numériques permettent de rester en contact avec des proches éloignés, de traduire une phrase en une seconde ou d’apprendre une langue gratuitement en ligne. D’autre part, ils interrompent en moyenne l’attention d’un utilisateur toutes les six minutes, selon les mêmes chercheurs, ce qui rend presque impossible toute concentration prolongée sur une seule tâche.\n\nCe phénomène n’est pas un accident. De nombreuses applications sont conçues, dès leur création, pour capter l’attention le plus longtemps possible : des notifications colorées, un défilement sans fin, des sons précis qui déclenchent une petite décharge de satisfaction. Il est important que les utilisateurs, en particulier les plus jeunes, comprennent ce mécanisme, non pas pour rejeter la technologie, mais pour reprendre le contrôle de leurs propres réglages.\n\nPlusieurs lycées français ont commencé à tester des solutions concrètes : rangement obligatoire des téléphones dans un casier pendant les cours, ou zones sans écran pendant la pause déjeuner. Dans les établissements ayant adopté ces règles depuis plus d’un an, les enseignants rapportent une amélioration nette de la concentration en classe, même si certains élèves ont d’abord protesté. Il faudrait que chaque personne, au-delà de l’école, définisse elle-même des moments précis pour consulter ses réseaux, plutôt que de les vérifier de façon compulsive toute la journée.\n\nCependant, la responsabilité ne repose pas uniquement sur les individus. Plusieurs pays européens ont récemment adopté des règles plus strictes sur la protection des données des mineurs en ligne, obligeant les plateformes elles-mêmes à limiter certaines fonctionnalités jugées addictives pour les jeunes utilisateurs."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Combien de notifications par jour reçoit en moyenne un lycéen, selon l’étude citée ?",
+        "options": [
+          "Soixante-dix-huit",
+          "Cinq",
+          "Exactement dix",
+          "Aucune"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Selon les chercheurs, toutes les combien de minutes l’attention est-elle interrompue en moyenne ?",
+        "options": [
+          "Toutes les six minutes",
+          "Toutes les deux heures",
+          "Une seule fois par jour",
+          "Toutes les secondes"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Pourquoi de nombreuses applications utilisent-elles notifications colorées et défilement sans fin, selon le texte ?",
+        "options": [
+          "Par accident, sans intention particulière",
+          "Pour capter l’attention le plus longtemps possible",
+          "Pour respecter une loi européenne",
+          "Pour économiser de la batterie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que testent plusieurs lycées français concernant les téléphones, selon le texte ?",
+        "options": [
+          "Rangement obligatoire pendant les cours et zones sans écran à la pause déjeuner",
+          "La distribution gratuite de smartphones",
+          "L’interdiction totale d’internet dans le pays",
+          "Aucune règle particulière"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que font plusieurs pays européens, selon le dernier paragraphe ?",
+        "options": [
+          "Ils adoptent des règles pour protéger les données des mineurs et limiter les fonctionnalités addictives",
+          "Ils interdisent totalement les smartphones",
+          "Ils laissent les plateformes s’autoréguler sans règle",
+          "Ils suppriment l’accès à internet pour les jeunes"
+        ]
       }
     ]
   },
@@ -30451,231 +29401,6 @@
     ]
   },
   {
-    "slug": "french-b1-technologie-et-societe-listening",
-    "level": "B1",
-    "skill": "listening",
-    "unitId": "technologie-et-societe",
-    "title": "Réseaux sociaux : trouver l’équilibre",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 61,
-    "estimatedMinutes": 12,
-    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "D’une part... cependant...",
-      "Il est important de...",
-      "Ça dépend de...",
-      "L’équilibre est la clé."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Les réseaux sociaux occupent une place importante dans notre vie quotidienne. D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information. D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée. Cependant, la technologie n’est pas seule responsable de ces difficultés. Tout dépend de la manière dont nous l’utilisons. Il est important que chaque utilisateur connaisse les paramètres de confidentialité et réfléchisse avant de publier une photo ou une opinion. Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus. À mon avis, supprimer complètement les réseaux n’est pas une solution réaliste pour tout le monde. Nous pouvons plutôt créer un meilleur équilibre : désactiver certaines notifications, limiter le temps d’écran et vérifier les sources. La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "editorial",
-      "storyTitle": "Réseaux sociaux : trouver l’équilibre",
-      "mainTranscript": "Les réseaux sociaux occupent une place importante dans notre vie quotidienne. D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information. D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée. Cependant, la technologie n’est pas seule responsable de ces difficultés. Tout dépend de la manière dont nous l’utilisons. Il est important que chaque utilisateur connaisse les paramètres de confidentialité et réfléchisse avant de publier une photo ou une opinion. Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus. À mon avis, supprimer complètement les réseaux n’est pas une solution réaliste pour tout le monde. Nous pouvons plutôt créer un meilleur équilibre : désactiver certaines notifications, limiter le temps d’écran et vérifier les sources. La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Les réseaux sociaux occupent une place importante dans notre vie quotidienne."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Cependant, la technologie n’est pas seule responsable de ces difficultés."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Tout dépend de la manière dont nous l’utilisons."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Il est important que chaque utilisateur connaisse les paramètres de confidentialité et réfléchisse avant de publier une photo ou une opinion."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "À mon avis, supprimer complètement les réseaux n’est pas une solution réaliste pour tout le monde."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Nous pouvons plutôt créer un meilleur équilibre : désactiver certaines notifications, limiter le temps d’écran et vérifier les sources."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations."
-        }
-      ],
-      "listeningComprehension": {
-        "id": "french-b1-technologie-et-societe-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Réseaux sociaux : trouver l’équilibre », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Les réseaux sociaux occupent une place importante dans notre vie quotidienne."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, la technologie n’est pas seule responsable de ces difficultés."
-              },
-              {
-                "id": "o3",
-                "text": "Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus."
-              },
-              {
-                "id": "o4",
-                "text": "La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Les réseaux sociaux occupent une place importante dans notre vie… », que se passe-t-il ensuite dans « Réseaux sociaux : trouver l’équilibre » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Les réseaux sociaux occupent une place importante dans notre vie quotidienne."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, la technologie n’est pas seule responsable de ces difficultés."
-              },
-              {
-                "id": "o3",
-                "text": "Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus."
-              },
-              {
-                "id": "o4",
-                "text": "La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Réseaux sociaux : trouver l’équilibre » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Les réseaux sociaux occupent une place importante dans notre vie quotidienne."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, la technologie n’est pas seule responsable de ces difficultés."
-              },
-              {
-                "id": "o3",
-                "text": "Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus."
-              },
-              {
-                "id": "o4",
-                "text": "La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Réseaux sociaux : trouver l’équilibre » après « Il faut aussi que les plateformes expliquent plus clairement comment… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Les réseaux sociaux occupent une place importante dans notre vie quotidienne."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, la technologie n’est pas seule responsable de ces difficultés."
-              },
-              {
-                "id": "o3",
-                "text": "Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus."
-              },
-              {
-                "id": "o4",
-                "text": "La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Réseaux sociaux : trouver l’équilibre », quel détail présente la situation ?",
-        "options": [
-          "Les réseaux sociaux occupent une place importante dans notre vie quotidienne.",
-          "Cependant, la technologie n’est pas seule responsable de ces difficultés.",
-          "Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus.",
-          "La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Les réseaux sociaux occupent une place importante dans notre vie… », que se passe-t-il ensuite dans « Réseaux sociaux : trouver l’équilibre » ?",
-        "options": [
-          "Les réseaux sociaux occupent une place importante dans notre vie quotidienne.",
-          "Cependant, la technologie n’est pas seule responsable de ces difficultés.",
-          "Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus.",
-          "La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Réseaux sociaux : trouver l’équilibre » ?",
-        "options": [
-          "Les réseaux sociaux occupent une place importante dans notre vie quotidienne.",
-          "Cependant, la technologie n’est pas seule responsable de ces difficultés.",
-          "Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus.",
-          "La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Réseaux sociaux : trouver l’équilibre » après « Il faut aussi que les plateformes expliquent plus clairement comment… » ?",
-        "options": [
-          "Les réseaux sociaux occupent une place importante dans notre vie quotidienne.",
-          "Cependant, la technologie n’est pas seule responsable de ces difficultés.",
-          "Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus.",
-          "La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-justice-sociale-et-inegalites-listening",
     "level": "C1",
     "skill": "listening",
@@ -31198,6 +29923,124 @@
     ]
   },
   {
+    "slug": "french-b1-technologie-et-societe-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "technologie-et-societe",
+    "title": "Réseaux sociaux : trouver l’équilibre",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 61,
+    "estimatedMinutes": 12,
+    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "D’une part... cependant...",
+      "Il est important de...",
+      "Ça dépend de...",
+      "L’équilibre est la clé."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Les réseaux sociaux occupent une place importante dans notre vie quotidienne. D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information. D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée. Cependant, la technologie n’est pas seule responsable de ces difficultés. Tout dépend de la manière dont nous l’utilisons. Il est important que chaque utilisateur connaisse les paramètres de confidentialité et réfléchisse avant de publier une photo ou une opinion. Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus. À mon avis, supprimer complètement les réseaux n’est pas une solution réaliste pour tout le monde. Nous pouvons plutôt créer un meilleur équilibre : désactiver certaines notifications, limiter le temps d’écran et vérifier les sources. La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "editorial",
+      "storyTitle": "Réseaux sociaux : trouver l’équilibre",
+      "mainTranscript": "Les réseaux sociaux occupent une place importante dans notre vie quotidienne. D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information. D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée. Cependant, la technologie n’est pas seule responsable de ces difficultés. Tout dépend de la manière dont nous l’utilisons. Il est important que chaque utilisateur connaisse les paramètres de confidentialité et réfléchisse avant de publier une photo ou une opinion. Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus. À mon avis, supprimer complètement les réseaux n’est pas une solution réaliste pour tout le monde. Nous pouvons plutôt créer un meilleur équilibre : désactiver certaines notifications, limiter le temps d’écran et vérifier les sources. La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Les réseaux sociaux occupent une place importante dans notre vie quotidienne."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "D’une part, ils permettent de garder contact, de découvrir des projets et de partager rapidement une information."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "D’autre part, ils présentent des risques : comparaison permanente, perte de temps, désinformation et problèmes de vie privée."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Cependant, la technologie n’est pas seule responsable de ces difficultés."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Tout dépend de la manière dont nous l’utilisons."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Il est important que chaque utilisateur connaisse les paramètres de confidentialité et réfléchisse avant de publier une photo ou une opinion."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Il faut aussi que les plateformes expliquent plus clairement comment leurs algorithmes sélectionnent les contenus."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "À mon avis, supprimer complètement les réseaux n’est pas une solution réaliste pour tout le monde."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Nous pouvons plutôt créer un meilleur équilibre : désactiver certaines notifications, limiter le temps d’écran et vérifier les sources."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "La question n’est donc pas seulement de savoir si les réseaux sont bons ou mauvais, mais de décider quelles habitudes numériques protègent réellement notre attention et nos relations."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Quel argument Karim présente-t-il ?",
+        "options": [
+          "Les réseaux sociaux sont dangereux",
+          "Les réseaux sociaux aident à rester connectés",
+          "Il ne les utilise jamais",
+          "Il préfère les lettres"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "À quoi Léa fait-elle attention ?",
+        "options": [
+          "Au temps passé en ligne",
+          "Aux informations partagées",
+          "Au prix du téléphone",
+          "À la vitesse d’internet"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Sur quoi Karim et Léa sont-ils finalement d’accord ?",
+        "options": [
+          "Que les réseaux sociaux sont inutiles",
+          "Que l’équilibre est important",
+          "Qu’il faut les interdire",
+          "Qu’il faut les utiliser sans limite"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-b2-cinema-et-critique-listening",
     "level": "B2",
     "skill": "listening",
@@ -31213,8 +30056,8 @@
     "mission": "",
     "grammar": "",
     "phrases": [
-      "Qu’est-ce que vous en avez pensé ?",
-      "Ce qui m’a marqué, c’est...",
+      "Qu’est-ce que tu en as pensé ?",
+      "Ce qui m’a marqué(e), c’est...",
       "J’ai trouvé... un peu...",
       "Ça valait la peine."
     ],
@@ -31294,145 +30137,38 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "listeningComprehension": {
-        "id": "french-b2-cinema-et-critique-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Une ville en silence : notre critique », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
-              },
-              {
-                "id": "o2",
-                "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
-              },
-              {
-                "id": "o3",
-                "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
-              },
-              {
-                "id": "o4",
-                "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Le film « Une ville en silence » raconte vingt-quatre heures dans la… », que se passe-t-il ensuite dans « Une ville en silence : notre critique » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
-              },
-              {
-                "id": "o2",
-                "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
-              },
-              {
-                "id": "o3",
-                "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
-              },
-              {
-                "id": "o4",
-                "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une ville en silence : notre critique » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
-              },
-              {
-                "id": "o2",
-                "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
-              },
-              {
-                "id": "o3",
-                "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
-              },
-              {
-                "id": "o4",
-                "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Une ville en silence : notre critique » après « Le rythme est parfois lent, mais cette lenteur me paraît nécessaire. » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser."
-              },
-              {
-                "id": "o2",
-                "text": "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin."
-              },
-              {
-                "id": "o3",
-                "text": "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire."
-              },
-              {
-                "id": "o4",
-                "text": "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Une ville en silence : notre critique », quel détail présente la situation ?",
+        "prompt": "Qu’est-ce qui a le plus marqué Camila ?",
         "options": [
-          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
-          "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.",
-          "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.",
-          "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
+          "La musique",
+          "Le jeu des actrices",
+          "Les décors",
+          "La durée du film"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Le film « Une ville en silence » raconte vingt-quatre heures dans la… », que se passe-t-il ensuite dans « Une ville en silence : notre critique » ?",
+        "prompt": "Que pense Sofía du début du film ?",
         "options": [
-          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
-          "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.",
-          "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.",
-          "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
+          "Qu’il est trop rapide",
+          "Qu’il est un peu lent",
+          "Qu’il est parfait",
+          "Qu’il est incompréhensible"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une ville en silence : notre critique » ?",
+        "prompt": "Comment Camila conclut-elle la conversation ?",
         "options": [
-          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
-          "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.",
-          "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.",
-          "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Une ville en silence : notre critique » après « Le rythme est parfois lent, mais cette lenteur me paraît nécessaire. » ?",
-        "options": [
-          "Le film « Une ville en silence » raconte vingt-quatre heures dans la vie de trois inconnus dont les chemins finissent par se croiser.",
-          "Un ticket oublié et une porte mal fermée préparent un rebondissement que le spectateur ne comprend qu’à la fin.",
-          "Le rythme est parfois lent, mais cette lenteur me paraît nécessaire.",
-          "Je le recommande aux spectateurs qui aiment observer, interpréter et accepter qu’une œuvre ne fournisse pas toutes les réponses."
+          "Que le film ne valait pas la peine",
+          "Que ça valait vraiment la peine d’attendre",
+          "Qu’elle ne recommande pas le film",
+          "Qu’elle veut le revoir immédiatement"
         ]
       }
     ]
@@ -31529,49 +30265,6 @@
       {
         "type": "practice",
         "prompt": "Écoute l’expérience d’un/une camarade et pose-lui deux questions sur son récit."
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-technologie-et-societe-speaking",
-    "level": "B1",
-    "skill": "speaking",
-    "unitId": "technologie-et-societe",
-    "title": "Débattre d’un sujet de société",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 62,
-    "estimatedMinutes": 12,
-    "description": "Présente et défends une opinion nuancée sur un sujet technologique.",
-    "intro": "Présente et défends une opinion nuancée sur un sujet technologique.",
-    "mission": "Présente les avantages et les inconvénients d’un outil technologique de ton choix (téléphone, réseaux sociaux, intelligence artificielle), avec une opinion nuancée.",
-    "grammar": "",
-    "phrases": [
-      "D’une part... d’autre part...",
-      "Cependant...",
-      "Il est important que...",
-      "À mon avis, ça dépend de..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "D’une part, le téléphone facilite la communication. D’autre part, il peut créer une dépendance. À mon avis, ça dépend de la façon dont on l’utilise.",
-        "translation": "Por un lado, el teléfono facilita la comunicación. Por otro lado, puede crear dependencia. En mi opinión, depende de cómo se use."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Présente une opinion nuancée sur un outil technologique, avec des avantages et des inconvénients."
-      },
-      {
-        "type": "practice",
-        "prompt": "Organise un mini-débat avec un/une camarade sur les réseaux sociaux."
       }
     ]
   },
@@ -31726,6 +30419,49 @@
     ]
   },
   {
+    "slug": "french-b1-technologie-et-societe-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "technologie-et-societe",
+    "title": "Débattre d’un sujet de société",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 62,
+    "estimatedMinutes": 12,
+    "description": "Présente et défends une opinion nuancée sur un sujet technologique.",
+    "intro": "Présente et défends une opinion nuancée sur un sujet technologique.",
+    "mission": "Présente les avantages et les inconvénients d’un outil technologique de ton choix (téléphone, réseaux sociaux, intelligence artificielle), avec une opinion nuancée.",
+    "grammar": "",
+    "phrases": [
+      "D’une part... d’autre part...",
+      "Cependant...",
+      "Il est important que...",
+      "À mon avis, ça dépend de..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "D’une part, le téléphone facilite la communication. D’autre part, il peut créer une dépendance. À mon avis, ça dépend de la façon dont on l’utilise.",
+        "translation": "Por un lado, el teléfono facilita la comunicación. Por otro lado, puede crear dependencia. En mi opinión, depende de cómo se use."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Présente une opinion nuancée sur un outil technologique, avec des avantages et des inconvénients."
+      },
+      {
+        "type": "practice",
+        "prompt": "Organise un mini-débat avec un/une camarade sur les réseaux sociaux."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-cinema-et-critique-speaking",
     "level": "B2",
     "skill": "speaking",
@@ -31864,45 +30600,6 @@
     ]
   },
   {
-    "slug": "french-b1-technologie-et-societe-writing",
-    "level": "B1",
-    "skill": "writing",
-    "unitId": "technologie-et-societe",
-    "title": "Avantages et inconvénients de la technologie",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 63,
-    "estimatedMinutes": 16,
-    "description": "Écris un texte argumentatif sur les avantages et inconvénients de la technologie.",
-    "intro": "Écris un texte argumentatif sur les avantages et inconvénients de la technologie.",
-    "mission": "Écris 150 à 200 mots présentant les avantages et les inconvénients d’une technologie (réseaux sociaux, intelligence artificielle, téléphone), avec ton opinion personnelle.",
-    "grammar": "",
-    "phrases": [
-      "D’une part... d’autre part...",
-      "Cependant...",
-      "Il est important que...",
-      "En conclusion, je pense que..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "D’une part, les réseaux sociaux permettent de rester en contact avec des amis éloignés. D’autre part, ils peuvent créer une dépendance chez certaines personnes. En conclusion, je pense qu’il est important de les utiliser avec modération.",
-        "translation": "Por un lado, las redes sociales permiten mantenerse en contacto con amigos lejanos. Por otro lado, pueden crear dependencia en algunas personas. En conclusión, creo que es importante usarlas con moderación."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris 150 à 200 mots sur les avantages et les inconvénients d’une technologie, avec des connecteurs d’argumentation."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-justice-sociale-et-inegalites-writing",
     "level": "C1",
     "skill": "writing",
@@ -32015,6 +30712,45 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-technologie-et-societe-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "technologie-et-societe",
+    "title": "Avantages et inconvénients de la technologie",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 63,
+    "estimatedMinutes": 16,
+    "description": "Écris un texte argumentatif sur les avantages et inconvénients de la technologie.",
+    "intro": "Écris un texte argumentatif sur les avantages et inconvénients de la technologie.",
+    "mission": "Écris 150 à 200 mots présentant les avantages et les inconvénients d’une technologie (réseaux sociaux, intelligence artificielle, téléphone), avec ton opinion personnelle.",
+    "grammar": "",
+    "phrases": [
+      "D’une part... d’autre part...",
+      "Cependant...",
+      "Il est important que...",
+      "En conclusion, je pense que..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "D’une part, les réseaux sociaux permettent de rester en contact avec des amis éloignés. D’autre part, ils peuvent créer une dépendance chez certaines personnes. En conclusion, je pense qu’il est important de les utiliser avec modération.",
+        "translation": "Por un lado, las redes sociales permiten mantenerse en contacto con amigos lejanos. Por otro lado, pueden crear dependencia en algunas personas. En conclusión, creo que es importante usarlas con moderación."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris 150 à 200 mots sur les avantages et les inconvénients d’une technologie, avec des connecteurs d’argumentation."
       }
     ]
   },
@@ -32635,339 +31371,6 @@
           "Arriver",
           "Acheter"
         ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-technologie-et-societe-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "technologie-et-societe",
-    "title": "Les connecteurs d’argumentation et le subjonctif introductif",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 64,
-    "estimatedMinutes": 12,
-    "description": "Structurer une argumentation et introduire le subjonctif avec « il est important que ».",
-    "intro": "Structurer une argumentation et introduire le subjonctif avec « il est important que ».",
-    "mission": "",
-    "grammar": "« D’une part... d’autre part... » et « cependant » structurent une argumentation avec deux points de vue. « Il est important que » introduit le subjonctif présent : « Il est important que les jeunes fassent attention. » Le subjonctif de « faire » est je fasse, tu fasses, il/elle fasse.",
-    "phrases": [
-      "D’une part... d’autre part...",
-      "Cependant...",
-      "Il est important que...",
-      "Il faut que..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b1-technologie-et-societe-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b1-technologie-et-societe-grammar-q1",
-            "type": "mcq",
-            "prompt": "Il est important que tu ___ attention à ta vie privée.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "fasses"
-              },
-              {
-                "id": "a",
-                "text": "fais"
-              },
-              {
-                "id": "c",
-                "text": "faisais"
-              },
-              {
-                "id": "d",
-                "text": "feras"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-technologie-et-societe-grammar-q2",
-            "type": "mcq",
-            "prompt": "Quel connecteur introduit une opposition ?",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "Donc"
-              },
-              {
-                "id": "b",
-                "text": "Cependant"
-              },
-              {
-                "id": "c",
-                "text": "Ainsi"
-              },
-              {
-                "id": "d",
-                "text": "Parce que"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-technologie-et-societe-grammar-q3",
-            "type": "mcq",
-            "prompt": "___, les réseaux sociaux facilitent la communication.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Cependant"
-              },
-              {
-                "id": "c",
-                "text": "Donc"
-              },
-              {
-                "id": "b",
-                "text": "D’une part"
-              },
-              {
-                "id": "d",
-                "text": "Ainsi"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-technologie-et-societe-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle structure introduit le subjonctif ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Je pense que"
-              },
-              {
-                "id": "c",
-                "text": "Il est vrai que"
-              },
-              {
-                "id": "d",
-                "text": "Je sais que"
-              },
-              {
-                "id": "b",
-                "text": "Il est important que"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-technologie-et-societe-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Il est important que tu fais attention à ta vie privée. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Il est important que tu fasses attention à ta vie privée."
-              },
-              {
-                "id": "a",
-                "text": "Il est important que tu fais attention à ta vie privée."
-              },
-              {
-                "id": "c",
-                "text": "Il est important que tu faisais attention à ta vie privée."
-              },
-              {
-                "id": "d",
-                "text": "Il est important que tu feras attention à ta vie privée."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-technologie-et-societe-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Donc » dans ce contexte : « Quel connecteur introduit une opposition ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Donc"
-              },
-              {
-                "id": "b",
-                "text": "Cependant"
-              },
-              {
-                "id": "c",
-                "text": "Ainsi"
-              },
-              {
-                "id": "d",
-                "text": "Parce que"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-technologie-et-societe-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Cependant, les réseaux sociaux facilitent la communication. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Cependant, les réseaux sociaux facilitent la communication."
-              },
-              {
-                "id": "c",
-                "text": "Donc, les réseaux sociaux facilitent la communication."
-              },
-              {
-                "id": "b",
-                "text": "D’une part, les réseaux sociaux facilitent la communication."
-              },
-              {
-                "id": "d",
-                "text": "Ainsi, les réseaux sociaux facilitent la communication."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-technologie-et-societe-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Je pense que » dans ce contexte : « Quelle structure introduit le subjonctif ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Je pense que"
-              },
-              {
-                "id": "c",
-                "text": "Il est vrai que"
-              },
-              {
-                "id": "d",
-                "text": "Je sais que"
-              },
-              {
-                "id": "b",
-                "text": "Il est important que"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Les connecteurs d’argumentation et le subjonctif introductif",
-        "definition": "« D’une part... d’autre part... » et « cependant » structurent une argumentation avec deux points de vue. « Il est important que » introduit le subjonctif présent : « Il est important que les jeunes fassent attention. » Le subjonctif de « faire » est je fasse, tu fasses, il/elle fasse.",
-        "structure": "Forme à observer : Les connecteurs d’argumentation et le subjonctif introductif. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Structurer une argumentation et introduire le subjonctif avec « il est important que ».",
-        "examples": [
-          "Il est important que tu fasses attention à ta vie privée.",
-          "Cependant",
-          "D’une part, les réseaux sociaux facilitent la communication.",
-          "Il est important que"
-        ],
-        "explanation": "« D’une part... d’autre part... » et « cependant » structurent une argumentation avec deux points de vue. « Il est important que » introduit le subjonctif présent : « Il est important que les jeunes fassent attention. » Le subjonctif de « faire » est je fasse, tu fasses, il/elle fasse.",
-        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
-        "cefrLevel": "B1",
-        "unitContext": "Structurer une argumentation et introduire le subjonctif avec « il est important que »."
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Il est important que tu ___ attention à ta vie privée.",
-        "options": [
-          "fasses",
-          "fais",
-          "faisais",
-          "feras"
-        ],
-        "explanation": "La bonne réponse est « fasses » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel connecteur introduit une opposition ?",
-        "options": [
-          "Donc",
-          "Cependant",
-          "Ainsi",
-          "Parce que"
-        ],
-        "explanation": "La bonne réponse est « Cependant » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "___, les réseaux sociaux facilitent la communication.",
-        "options": [
-          "Cependant",
-          "Donc",
-          "D’une part",
-          "Ainsi"
-        ],
-        "explanation": "La bonne réponse est « D’une part » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle structure introduit le subjonctif ?",
-        "options": [
-          "Je pense que",
-          "Il est vrai que",
-          "Je sais que",
-          "Il est important que"
-        ],
-        "explanation": "La bonne réponse est « Il est important que » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Il est important que tu fais attention à ta vie privée. » ?",
-        "options": [
-          "Il est important que tu fasses attention à ta vie privée.",
-          "Il est important que tu fais attention à ta vie privée.",
-          "Il est important que tu faisais attention à ta vie privée.",
-          "Il est important que tu feras attention à ta vie privée."
-        ],
-        "explanation": "La phrase correcte est : « Il est important que tu fasses attention à ta vie privée. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « Donc » dans ce contexte : « Quel connecteur introduit une opposition ? » ?",
-        "options": [
-          "Donc",
-          "Cependant",
-          "Ainsi",
-          "Parce que"
-        ],
-        "explanation": "La bonne réponse est « Cependant »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Cependant, les réseaux sociaux facilitent la communication. » ?",
-        "options": [
-          "Cependant, les réseaux sociaux facilitent la communication.",
-          "Donc, les réseaux sociaux facilitent la communication.",
-          "D’une part, les réseaux sociaux facilitent la communication.",
-          "Ainsi, les réseaux sociaux facilitent la communication."
-        ],
-        "explanation": "La phrase correcte est : « D’une part, les réseaux sociaux facilitent la communication. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « Je pense que » dans ce contexte : « Quelle structure introduit le subjonctif ? » ?",
-        "options": [
-          "Je pense que",
-          "Il est vrai que",
-          "Je sais que",
-          "Il est important que"
-        ],
-        "explanation": "La bonne réponse est « Il est important que »."
       }
     ]
   },
@@ -33635,6 +32038,339 @@
     ]
   },
   {
+    "slug": "french-b1-technologie-et-societe-grammar",
+    "level": "B1",
+    "skill": "grammar",
+    "unitId": "technologie-et-societe",
+    "title": "Les connecteurs d’argumentation et le subjonctif introductif",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 64,
+    "estimatedMinutes": 12,
+    "description": "Structurer une argumentation et introduire le subjonctif avec « il est important que ».",
+    "intro": "Structurer une argumentation et introduire le subjonctif avec « il est important que ».",
+    "mission": "",
+    "grammar": "« D’une part... d’autre part... » et « cependant » structurent une argumentation avec deux points de vue. « Il est important que » introduit le subjonctif présent : « Il est important que les jeunes fassent attention. » Le subjonctif de « faire » est je fasse, tu fasses, il/elle fasse.",
+    "phrases": [
+      "D’une part... d’autre part...",
+      "Cependant...",
+      "Il est important que...",
+      "Il faut que..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b1-technologie-et-societe-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b1-technologie-et-societe-grammar-q1",
+            "type": "mcq",
+            "prompt": "Il est important que tu ___ attention à ta vie privée.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "fasses"
+              },
+              {
+                "id": "a",
+                "text": "fais"
+              },
+              {
+                "id": "c",
+                "text": "faisais"
+              },
+              {
+                "id": "d",
+                "text": "feras"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-technologie-et-societe-grammar-q2",
+            "type": "mcq",
+            "prompt": "Quel connecteur introduit une opposition ?",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "Donc"
+              },
+              {
+                "id": "b",
+                "text": "Cependant"
+              },
+              {
+                "id": "c",
+                "text": "Ainsi"
+              },
+              {
+                "id": "d",
+                "text": "Parce que"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-technologie-et-societe-grammar-q3",
+            "type": "mcq",
+            "prompt": "___, les réseaux sociaux facilitent la communication.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cependant"
+              },
+              {
+                "id": "c",
+                "text": "Donc"
+              },
+              {
+                "id": "b",
+                "text": "D’une part"
+              },
+              {
+                "id": "d",
+                "text": "Ainsi"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-technologie-et-societe-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle structure introduit le subjonctif ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Je pense que"
+              },
+              {
+                "id": "c",
+                "text": "Il est vrai que"
+              },
+              {
+                "id": "d",
+                "text": "Je sais que"
+              },
+              {
+                "id": "b",
+                "text": "Il est important que"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-technologie-et-societe-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Il est important que tu fais attention à ta vie privée. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Il est important que tu fasses attention à ta vie privée."
+              },
+              {
+                "id": "a",
+                "text": "Il est important que tu fais attention à ta vie privée."
+              },
+              {
+                "id": "c",
+                "text": "Il est important que tu faisais attention à ta vie privée."
+              },
+              {
+                "id": "d",
+                "text": "Il est important que tu feras attention à ta vie privée."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-technologie-et-societe-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Donc » dans ce contexte : « Quel connecteur introduit une opposition ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Donc"
+              },
+              {
+                "id": "b",
+                "text": "Cependant"
+              },
+              {
+                "id": "c",
+                "text": "Ainsi"
+              },
+              {
+                "id": "d",
+                "text": "Parce que"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-technologie-et-societe-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Cependant, les réseaux sociaux facilitent la communication. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cependant, les réseaux sociaux facilitent la communication."
+              },
+              {
+                "id": "c",
+                "text": "Donc, les réseaux sociaux facilitent la communication."
+              },
+              {
+                "id": "b",
+                "text": "D’une part, les réseaux sociaux facilitent la communication."
+              },
+              {
+                "id": "d",
+                "text": "Ainsi, les réseaux sociaux facilitent la communication."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-technologie-et-societe-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Je pense que » dans ce contexte : « Quelle structure introduit le subjonctif ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Je pense que"
+              },
+              {
+                "id": "c",
+                "text": "Il est vrai que"
+              },
+              {
+                "id": "d",
+                "text": "Je sais que"
+              },
+              {
+                "id": "b",
+                "text": "Il est important que"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Les connecteurs d’argumentation et le subjonctif introductif",
+        "definition": "« D’une part... d’autre part... » et « cependant » structurent une argumentation avec deux points de vue. « Il est important que » introduit le subjonctif présent : « Il est important que les jeunes fassent attention. » Le subjonctif de « faire » est je fasse, tu fasses, il/elle fasse.",
+        "explanation": "« D’une part... d’autre part... » et « cependant » structurent une argumentation avec deux points de vue. « Il est important que » introduit le subjonctif présent : « Il est important que les jeunes fassent attention. » Le subjonctif de « faire » est je fasse, tu fasses, il/elle fasse.",
+        "structure": "Estructura central: Les connecteurs d’argumentation et le subjonctif introductif.",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "function": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Structurer une argumentation et introduire le subjonctif avec « il est important que ».",
+        "examples": [
+          "Il est important que tu fasses attention à ta vie privée.",
+          "Cependant",
+          "D’une part, les réseaux sociaux facilitent la communication.",
+          "Il est important que"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Il est important que tu ___ attention à ta vie privée.",
+        "options": [
+          "fais",
+          "fasses",
+          "faisais",
+          "feras"
+        ],
+        "explanation": "La bonne réponse est « fasses » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel connecteur introduit une opposition ?",
+        "options": [
+          "Donc",
+          "Cependant",
+          "Ainsi",
+          "Parce que"
+        ],
+        "explanation": "La bonne réponse est « Cependant » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "___, les réseaux sociaux facilitent la communication.",
+        "options": [
+          "Cependant",
+          "D’une part",
+          "Donc",
+          "Ainsi"
+        ],
+        "explanation": "La bonne réponse est « D’une part » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle structure introduit le subjonctif ?",
+        "options": [
+          "Je pense que",
+          "Il est important que",
+          "Il est vrai que",
+          "Je sais que"
+        ],
+        "explanation": "La bonne réponse est « Il est important que » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il est important que tu fais attention à ta vie privée. » ?",
+        "options": [
+          "Il est important que tu fais attention à ta vie privée.",
+          "Il est important que tu fasses attention à ta vie privée.",
+          "Il est important que tu faisais attention à ta vie privée.",
+          "Il est important que tu feras attention à ta vie privée."
+        ],
+        "explanation": "La phrase correcte est : « Il est important que tu fasses attention à ta vie privée. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Donc » dans ce contexte : « Quel connecteur introduit une opposition ? » ?",
+        "options": [
+          "Donc",
+          "Cependant",
+          "Ainsi",
+          "Parce que"
+        ],
+        "explanation": "La bonne réponse est « Cependant »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Cependant, les réseaux sociaux facilitent la communication. » ?",
+        "options": [
+          "Cependant, les réseaux sociaux facilitent la communication.",
+          "D’une part, les réseaux sociaux facilitent la communication.",
+          "Donc, les réseaux sociaux facilitent la communication.",
+          "Ainsi, les réseaux sociaux facilitent la communication."
+        ],
+        "explanation": "La phrase correcte est : « D’une part, les réseaux sociaux facilitent la communication. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Je pense que » dans ce contexte : « Quelle structure introduit le subjonctif ? » ?",
+        "options": [
+          "Je pense que",
+          "Il est important que",
+          "Il est vrai que",
+          "Je sais que"
+        ],
+        "explanation": "La bonne réponse est « Il est important que »."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-cinema-et-critique-grammar",
     "level": "B2",
     "skill": "grammar",
@@ -33861,18 +32597,18 @@
       "grammarProfile": {
         "name": "Ce qui / ce que et les superlatifs avancés",
         "definition": "« Ce qui » remplace un sujet sans antécédent précis, « ce que » remplace un complément d’objet direct : « Ce qui m’a marqué, c’est... / Ce que j’ai aimé, c’est... » Les superlatifs nuancés (l’un des plus..., parmi les plus...) évitent une affirmation trop catégorique : « C’est l’un des films les plus émouvants que j’aie vus. »",
-        "structure": "Forme à observer : Ce qui / ce que et les superlatifs avancés. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Utiliser ce qui/ce que pour résumer une impression et des superlatifs nuancés.",
+        "explanation": "« Ce qui » remplace un sujet sans antécédent précis, « ce que » remplace un complément d’objet direct : « Ce qui m’a marqué, c’est... / Ce que j’ai aimé, c’est... » Les superlatifs nuancés (l’un des plus..., parmi les plus...) évitent une affirmation trop catégorique : « C’est l’un des films les plus émouvants que j’aie vus. »",
+        "structure": "Estructura central: Ce qui / ce que et les superlatifs avancés.",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "function": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Utiliser ce qui/ce que pour résumer une impression et des superlatifs nuancés.",
         "examples": [
           "Ce qui m’a le plus marquée, c’est le jeu des actrices.",
           "Ce que j’ai apprécié, c’est la mise en scène.",
           "C’est l’un des films les plus émouvants que j’aie vus.",
           "C’est l’un des meilleurs films"
-        ],
-        "explanation": "« Ce qui » remplace un sujet sans antécédent précis, « ce que » remplace un complément d’objet direct : « Ce qui m’a marqué, c’est... / Ce que j’ai aimé, c’est... » Les superlatifs nuancés (l’un des plus..., parmi les plus...) évitent une affirmation trop catégorique : « C’est l’un des films les plus émouvants que j’aie vus. »",
-        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
-        "cefrLevel": "B2",
-        "unitContext": "Utiliser ce qui/ce que pour résumer une impression et des superlatifs nuancés."
+        ]
       },
       "listeningComprehension": null
     },
@@ -33881,8 +32617,8 @@
         "type": "mcq",
         "prompt": "___ m’a le plus marquée, c’est le jeu des actrices.",
         "options": [
-          "Ce qui",
           "Ce que",
+          "Ce qui",
           "Ce dont",
           "Ce à quoi"
         ],
@@ -33903,9 +32639,9 @@
         "type": "mcq",
         "prompt": "C’est l’un des films les plus émouvants ___ j’aie vus.",
         "options": [
+          "que",
           "qui",
           "dont",
-          "que",
           "où"
         ],
         "explanation": "La bonne réponse est « que » : elle respecte la structure étudiée dans cette leçon."
@@ -33915,9 +32651,9 @@
         "prompt": "Quelle expression nuance une affirmation catégorique ?",
         "options": [
           "C’est le meilleur film",
+          "C’est l’un des meilleurs films",
           "C’est un film nul",
-          "C’est un film parfait",
-          "C’est l’un des meilleurs films"
+          "C’est un film parfait"
         ],
         "explanation": "La bonne réponse est « C’est l’un des meilleurs films » : elle respecte la structure étudiée dans cette leçon."
       },
@@ -33925,8 +32661,8 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Ce que m’a le plus marquée, c’est le jeu des actrices. » ?",
         "options": [
-          "Ce qui m’a le plus marquée, c’est le jeu des actrices.",
           "Ce que m’a le plus marquée, c’est le jeu des actrices.",
+          "Ce qui m’a le plus marquée, c’est le jeu des actrices.",
           "Ce dont m’a le plus marquée, c’est le jeu des actrices.",
           "Ce à quoi m’a le plus marquée, c’est le jeu des actrices."
         ],
@@ -33947,9 +32683,9 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « C’est l’un des films les plus émouvants qui j’aie vus. » ?",
         "options": [
+          "C’est l’un des films les plus émouvants que j’aie vus.",
           "C’est l’un des films les plus émouvants qui j’aie vus.",
           "C’est l’un des films les plus émouvants dont j’aie vus.",
-          "C’est l’un des films les plus émouvants que j’aie vus.",
           "C’est l’un des films les plus émouvants où j’aie vus."
         ],
         "explanation": "La phrase correcte est : « C’est l’un des films les plus émouvants que j’aie vus. »"
@@ -33959,9 +32695,9 @@
         "prompt": "Quelle réponse corrige l’erreur « C’est le meilleur film » dans ce contexte : « Quelle expression nuance une affirmation catégorique ? » ?",
         "options": [
           "C’est le meilleur film",
+          "C’est l’un des meilleurs films",
           "C’est un film nul",
-          "C’est un film parfait",
-          "C’est l’un des meilleurs films"
+          "C’est un film parfait"
         ],
         "explanation": "La bonne réponse est « C’est l’un des meilleurs films »."
       }
@@ -34148,86 +32884,6 @@
           "A veces",
           "La primera vez",
           "Nunca"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-technologie-et-societe-vocabulary",
-    "level": "B1",
-    "skill": "vocabulary",
-    "unitId": "technologie-et-societe",
-    "title": "Le vocabulaire de la technologie et de la société",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 65,
-    "estimatedMinutes": 8,
-    "description": "Le vocabulaire essentiel pour débattre de sujets technologiques.",
-    "intro": "Le vocabulaire essentiel pour débattre de sujets technologiques.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "un avantage / un inconvénient",
-        "translation": "una ventaja / una desventaja",
-        "example": "Chaque technologie a des avantages et des inconvénients."
-      },
-      {
-        "word": "dépendre de",
-        "translation": "depender de",
-        "example": "Ça dépend de la façon dont on l’utilise."
-      },
-      {
-        "word": "un risque",
-        "translation": "un riesgo",
-        "example": "Il y a des risques à partager trop d’informations."
-      },
-      {
-        "word": "la vie privée",
-        "translation": "la vida privada",
-        "example": "Il faut protéger sa vie privée en ligne."
-      },
-      {
-        "word": "l’équilibre",
-        "translation": "el equilibrio",
-        "example": "L’équilibre est la clé pour bien utiliser la technologie."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un risque » ?",
-        "options": [
-          "Un riesgo",
-          "Una ventaja",
-          "Un equilibrio",
-          "Una opinión"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « dépendre de » ?",
-        "options": [
-          "Depender de",
-          "Rechazar",
-          "Compartir",
-          "Olvidar"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « la vie privée » ?",
-        "options": [
-          "La vida pública",
-          "La vida privada",
-          "La vida escolar",
-          "La vida familiar"
         ]
       }
     ]
@@ -34723,6 +33379,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-technologie-et-societe-vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unitId": "technologie-et-societe",
+    "title": "Le vocabulaire de la technologie et de la société",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 65,
+    "estimatedMinutes": 8,
+    "description": "Le vocabulaire essentiel pour débattre de sujets technologiques.",
+    "intro": "Le vocabulaire essentiel pour débattre de sujets technologiques.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "un avantage / un inconvénient",
+        "translation": "una ventaja / una desventaja",
+        "example": "Chaque technologie a des avantages et des inconvénients."
+      },
+      {
+        "word": "dépendre de",
+        "translation": "depender de",
+        "example": "Ça dépend de la façon dont on l’utilise."
+      },
+      {
+        "word": "un risque",
+        "translation": "un riesgo",
+        "example": "Il y a des risques à partager trop d’informations."
+      },
+      {
+        "word": "la vie privée",
+        "translation": "la vida privada",
+        "example": "Il faut protéger sa vie privée en ligne."
+      },
+      {
+        "word": "l’équilibre",
+        "translation": "el equilibrio",
+        "example": "L’équilibre est la clé pour bien utiliser la technologie."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un risque » ?",
+        "options": [
+          "Un riesgo",
+          "Una ventaja",
+          "Un equilibrio",
+          "Una opinión"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « dépendre de » ?",
+        "options": [
+          "Depender de",
+          "Rechazar",
+          "Compartir",
+          "Olvidar"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « la vie privée » ?",
+        "options": [
+          "La vida pública",
+          "La vida privada",
+          "La vida escolar",
+          "La vida familiar"
+        ]
       }
     ]
   },
@@ -35321,96 +34057,6 @@
     ]
   },
   {
-    "slug": "french-b1-sante-et-mode-de-vie-reading",
-    "level": "B1",
-    "skill": "reading",
-    "unitId": "sante-et-mode-de-vie",
-    "title": "Des habitudes de santé réalistes",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 70,
-    "estimatedMinutes": 15,
-    "description": "Pourquoi les routines simples comptent sur la durée, selon les recommandations de santé publique.",
-    "intro": "Pourquoi les routines simples comptent sur la durée, selon les recommandations de santé publique.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Des habitudes de santé réalistes",
-      "parts": [
-        "Dix mille pas par jour : ce chiffre, devenu un standard mondial, ne vient en réalité d’aucune étude scientifique sérieuse, mais d’une campagne publicitaire japonaise des années 1960 pour un podomètre baptisé littéralement « compteur de dix mille pas ». Santé publique France recommande aujourd’hui un objectif plus réaliste et surtout plus flexible : au moins trente minutes d’activité physique modérée par jour, réparties si besoin en plusieurs courtes séances.",
-        "Il est essentiel que chacun adapte ces recommandations à sa propre vie, plutôt que de suivre un modèle unique impossible à tenir. Marchez une partie du trajet vers le lycée, prenez les escaliers plutôt que l’ascenseur, préparez un repas la veille pour éviter la restauration rapide entre deux cours : ces gestes modestes, répétés chaque jour, produisent sur la durée un effet plus important qu’un changement radical abandonné après deux semaines.",
-        "Le sommeil mérite une attention particulière chez les adolescents. Les spécialistes recommandent entre huit et dix heures de sommeil par nuit à cet âge, alors que les enquêtes montrent qu’un lycéen sur trois en France dort en réalité moins de sept heures, souvent à cause des écrans consultés tard le soir ou du stress lié aux examens. Il faudrait que les jeunes limitent les écrans au moins trente minutes avant le coucher, car la lumière bleue retarde la production naturelle de mélatonine, l’hormone du sommeil.",
-        "Quand la fatigue, le stress ou une douleur deviennent importants et durables, ces conseils du quotidien ne remplacent jamais un avis médical. Consultez un professionnel dès que la situation semble se prolonger anormalement : ce n’est pas un signe de faiblesse, mais une décision responsable qui évite souvent que le problème ne s’aggrave davantage."
-      ],
-      "questions": [
-        "D’où vient réellement le chiffre de « dix mille pas par jour », selon le texte ?",
-        "Que recommande Santé publique France comme objectif d’activité physique, selon le texte ?",
-        "Combien d’heures de sommeil les spécialistes recommandent-ils aux adolescents, selon le texte ?",
-        "Selon les enquêtes citées, quelle proportion de lycéens dort moins de sept heures ?",
-        "Pourquoi faut-il limiter les écrans avant le coucher, selon le texte ?"
-      ],
-      "text": "Dix mille pas par jour : ce chiffre, devenu un standard mondial, ne vient en réalité d’aucune étude scientifique sérieuse, mais d’une campagne publicitaire japonaise des années 1960 pour un podomètre baptisé littéralement « compteur de dix mille pas ». Santé publique France recommande aujourd’hui un objectif plus réaliste et surtout plus flexible : au moins trente minutes d’activité physique modérée par jour, réparties si besoin en plusieurs courtes séances.\n\nIl est essentiel que chacun adapte ces recommandations à sa propre vie, plutôt que de suivre un modèle unique impossible à tenir. Marchez une partie du trajet vers le lycée, prenez les escaliers plutôt que l’ascenseur, préparez un repas la veille pour éviter la restauration rapide entre deux cours : ces gestes modestes, répétés chaque jour, produisent sur la durée un effet plus important qu’un changement radical abandonné après deux semaines.\n\nLe sommeil mérite une attention particulière chez les adolescents. Les spécialistes recommandent entre huit et dix heures de sommeil par nuit à cet âge, alors que les enquêtes montrent qu’un lycéen sur trois en France dort en réalité moins de sept heures, souvent à cause des écrans consultés tard le soir ou du stress lié aux examens. Il faudrait que les jeunes limitent les écrans au moins trente minutes avant le coucher, car la lumière bleue retarde la production naturelle de mélatonine, l’hormone du sommeil.\n\nQuand la fatigue, le stress ou une douleur deviennent importants et durables, ces conseils du quotidien ne remplacent jamais un avis médical. Consultez un professionnel dès que la situation semble se prolonger anormalement : ce n’est pas un signe de faiblesse, mais une décision responsable qui évite souvent que le problème ne s’aggrave davantage."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "D’où vient réellement le chiffre de « dix mille pas par jour », selon le texte ?",
-        "options": [
-          "D’une étude médicale récente",
-          "D’une campagne publicitaire japonaise des années 1960 pour un podomètre",
-          "D’une recommandation de l’Organisation mondiale de la santé",
-          "D’un livre de sport américain"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que recommande Santé publique France comme objectif d’activité physique, selon le texte ?",
-        "options": [
-          "Dix mille pas obligatoires chaque jour",
-          "Au moins trente minutes d’activité physique modérée par jour",
-          "Une heure de sport intense quotidienne",
-          "Aucune activité physique n’est nécessaire"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Combien d’heures de sommeil les spécialistes recommandent-ils aux adolescents, selon le texte ?",
-        "options": [
-          "Entre huit et dix heures",
-          "Quatre heures",
-          "Douze heures",
-          "Le texte ne le précise pas"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selon les enquêtes citées, quelle proportion de lycéens dort moins de sept heures ?",
-        "options": [
-          "Un lycéen sur trois",
-          "Tous les lycéens",
-          "Un lycéen sur cent",
-          "Aucun lycéen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi faut-il limiter les écrans avant le coucher, selon le texte ?",
-        "options": [
-          "Parce que la lumière bleue retarde la production de mélatonine",
-          "Parce que les écrans consomment trop de batterie",
-          "Parce que c’est interdit par la loi",
-          "Parce que cela abîme les yeux définitivement"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-ecologie-et-responsabilite-collective-reading",
     "level": "C1",
     "skill": "reading",
@@ -35619,6 +34265,96 @@
           "Une exemption de tout contrôle réglementaire"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Corriger le génome, corriger le jugement : deux frontières médicales »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-sante-et-mode-de-vie-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "sante-et-mode-de-vie",
+    "title": "Des habitudes de santé réalistes",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 70,
+    "estimatedMinutes": 15,
+    "description": "Pourquoi les routines simples comptent sur la durée, selon les recommandations de santé publique.",
+    "intro": "Pourquoi les routines simples comptent sur la durée, selon les recommandations de santé publique.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Des habitudes de santé réalistes",
+      "parts": [
+        "Dix mille pas par jour : ce chiffre, devenu un standard mondial, ne vient en réalité d’aucune étude scientifique sérieuse, mais d’une campagne publicitaire japonaise des années 1960 pour un podomètre baptisé littéralement « compteur de dix mille pas ». Santé publique France recommande aujourd’hui un objectif plus réaliste et surtout plus flexible : au moins trente minutes d’activité physique modérée par jour, réparties si besoin en plusieurs courtes séances.",
+        "Il est essentiel que chacun adapte ces recommandations à sa propre vie, plutôt que de suivre un modèle unique impossible à tenir. Marchez une partie du trajet vers le lycée, prenez les escaliers plutôt que l’ascenseur, préparez un repas la veille pour éviter la restauration rapide entre deux cours : ces gestes modestes, répétés chaque jour, produisent sur la durée un effet plus important qu’un changement radical abandonné après deux semaines.",
+        "Le sommeil mérite une attention particulière chez les adolescents. Les spécialistes recommandent entre huit et dix heures de sommeil par nuit à cet âge, alors que les enquêtes montrent qu’un lycéen sur trois en France dort en réalité moins de sept heures, souvent à cause des écrans consultés tard le soir ou du stress lié aux examens. Il faudrait que les jeunes limitent les écrans au moins trente minutes avant le coucher, car la lumière bleue retarde la production naturelle de mélatonine, l’hormone du sommeil.",
+        "Quand la fatigue, le stress ou une douleur deviennent importants et durables, ces conseils du quotidien ne remplacent jamais un avis médical. Consultez un professionnel dès que la situation semble se prolonger anormalement : ce n’est pas un signe de faiblesse, mais une décision responsable qui évite souvent que le problème ne s’aggrave davantage."
+      ],
+      "questions": [
+        "D’où vient réellement le chiffre de « dix mille pas par jour », selon le texte ?",
+        "Que recommande Santé publique France comme objectif d’activité physique, selon le texte ?",
+        "Combien d’heures de sommeil les spécialistes recommandent-ils aux adolescents, selon le texte ?",
+        "Selon les enquêtes citées, quelle proportion de lycéens dort moins de sept heures ?",
+        "Pourquoi faut-il limiter les écrans avant le coucher, selon le texte ?"
+      ],
+      "text": "Dix mille pas par jour : ce chiffre, devenu un standard mondial, ne vient en réalité d’aucune étude scientifique sérieuse, mais d’une campagne publicitaire japonaise des années 1960 pour un podomètre baptisé littéralement « compteur de dix mille pas ». Santé publique France recommande aujourd’hui un objectif plus réaliste et surtout plus flexible : au moins trente minutes d’activité physique modérée par jour, réparties si besoin en plusieurs courtes séances.\n\nIl est essentiel que chacun adapte ces recommandations à sa propre vie, plutôt que de suivre un modèle unique impossible à tenir. Marchez une partie du trajet vers le lycée, prenez les escaliers plutôt que l’ascenseur, préparez un repas la veille pour éviter la restauration rapide entre deux cours : ces gestes modestes, répétés chaque jour, produisent sur la durée un effet plus important qu’un changement radical abandonné après deux semaines.\n\nLe sommeil mérite une attention particulière chez les adolescents. Les spécialistes recommandent entre huit et dix heures de sommeil par nuit à cet âge, alors que les enquêtes montrent qu’un lycéen sur trois en France dort en réalité moins de sept heures, souvent à cause des écrans consultés tard le soir ou du stress lié aux examens. Il faudrait que les jeunes limitent les écrans au moins trente minutes avant le coucher, car la lumière bleue retarde la production naturelle de mélatonine, l’hormone du sommeil.\n\nQuand la fatigue, le stress ou une douleur deviennent importants et durables, ces conseils du quotidien ne remplacent jamais un avis médical. Consultez un professionnel dès que la situation semble se prolonger anormalement : ce n’est pas un signe de faiblesse, mais une décision responsable qui évite souvent que le problème ne s’aggrave davantage."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "D’où vient réellement le chiffre de « dix mille pas par jour », selon le texte ?",
+        "options": [
+          "D’une étude médicale récente",
+          "D’une campagne publicitaire japonaise des années 1960 pour un podomètre",
+          "D’une recommandation de l’Organisation mondiale de la santé",
+          "D’un livre de sport américain"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que recommande Santé publique France comme objectif d’activité physique, selon le texte ?",
+        "options": [
+          "Dix mille pas obligatoires chaque jour",
+          "Au moins trente minutes d’activité physique modérée par jour",
+          "Une heure de sport intense quotidienne",
+          "Aucune activité physique n’est nécessaire"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Combien d’heures de sommeil les spécialistes recommandent-ils aux adolescents, selon le texte ?",
+        "options": [
+          "Entre huit et dix heures",
+          "Quatre heures",
+          "Douze heures",
+          "Le texte ne le précise pas"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Selon les enquêtes citées, quelle proportion de lycéens dort moins de sept heures ?",
+        "options": [
+          "Un lycéen sur trois",
+          "Tous les lycéens",
+          "Un lycéen sur cent",
+          "Aucun lycéen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Pourquoi faut-il limiter les écrans avant le coucher, selon le texte ?",
+        "options": [
+          "Parce que la lumière bleue retarde la production de mélatonine",
+          "Parce que les écrans consomment trop de batterie",
+          "Parce que c’est interdit par la loi",
+          "Parce que cela abîme les yeux définitivement"
+        ]
       }
     ]
   },
@@ -36204,236 +34940,6 @@
     ]
   },
   {
-    "slug": "french-b1-sante-et-mode-de-vie-listening",
-    "level": "B1",
-    "skill": "listening",
-    "unitId": "sante-et-mode-de-vie",
-    "title": "Une minute santé : apprivoiser le stress",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 71,
-    "estimatedMinutes": 12,
-    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Il faut que tu...",
-      "Il vaut mieux que tu...",
-      "Plutôt que de...",
-      "Je vais essayer de..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen. Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration. Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée. Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables. Il faut aussi que vous dormiez suffisamment et que vous gardiez une activité physique régulière. Une marche de vingt minutes peut déjà aider le corps à se détendre. Pendant les révisions, respirez lentement et faites une courte pause lorsque votre attention diminue. Évitez de comparer votre rythme à celui des autres. Prendre soin de soi ne signifie pas abandonner son travail ; cela permet de travailler plus efficacement. Si le stress devient trop fort ou dure plusieurs semaines, parlez-en à un professionnel de santé. Demander de l’aide est une décision responsable, pas un signe de faiblesse.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "public-service",
-      "storyTitle": "Une minute santé : apprivoiser le stress",
-      "mainTranscript": "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen. Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration. Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée. Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables. Il faut aussi que vous dormiez suffisamment et que vous gardiez une activité physique régulière. Une marche de vingt minutes peut déjà aider le corps à se détendre. Pendant les révisions, respirez lentement et faites une courte pause lorsque votre attention diminue. Évitez de comparer votre rythme à celui des autres. Prendre soin de soi ne signifie pas abandonner son travail ; cela permet de travailler plus efficacement. Si le stress devient trop fort ou dure plusieurs semaines, parlez-en à un professionnel de santé. Demander de l’aide est une décision responsable, pas un signe de faiblesse.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Il faut aussi que vous dormiez suffisamment et que vous gardiez une activité physique régulière."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Une marche de vingt minutes peut déjà aider le corps à se détendre."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Pendant les révisions, respirez lentement et faites une courte pause lorsque votre attention diminue."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Évitez de comparer votre rythme à celui des autres."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Prendre soin de soi ne signifie pas abandonner son travail ; cela permet de travailler plus efficacement."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Si le stress devient trop fort ou dure plusieurs semaines, parlez-en à un professionnel de santé."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Demander de l’aide est une décision responsable, pas un signe de faiblesse."
-        }
-      ],
-      "listeningComprehension": {
-        "id": "french-b1-sante-et-mode-de-vie-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Une minute santé : apprivoiser le stress », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen."
-              },
-              {
-                "id": "o2",
-                "text": "Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables."
-              },
-              {
-                "id": "o3",
-                "text": "Évitez de comparer votre rythme à celui des autres."
-              },
-              {
-                "id": "o4",
-                "text": "Demander de l’aide est une décision responsable, pas un signe de faiblesse."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Cette minute santé s’adresse aux étudiants qui ressentent du stress… », que se passe-t-il ensuite dans « Une minute santé : apprivoiser le stress » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen."
-              },
-              {
-                "id": "o2",
-                "text": "Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables."
-              },
-              {
-                "id": "o3",
-                "text": "Évitez de comparer votre rythme à celui des autres."
-              },
-              {
-                "id": "o4",
-                "text": "Demander de l’aide est une décision responsable, pas un signe de faiblesse."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une minute santé : apprivoiser le stress » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen."
-              },
-              {
-                "id": "o2",
-                "text": "Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables."
-              },
-              {
-                "id": "o3",
-                "text": "Évitez de comparer votre rythme à celui des autres."
-              },
-              {
-                "id": "o4",
-                "text": "Demander de l’aide est une décision responsable, pas un signe de faiblesse."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Une minute santé : apprivoiser le stress » après « Évitez de comparer votre rythme à celui des autres. » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen."
-              },
-              {
-                "id": "o2",
-                "text": "Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables."
-              },
-              {
-                "id": "o3",
-                "text": "Évitez de comparer votre rythme à celui des autres."
-              },
-              {
-                "id": "o4",
-                "text": "Demander de l’aide est une décision responsable, pas un signe de faiblesse."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Une minute santé : apprivoiser le stress », quel détail présente la situation ?",
-        "options": [
-          "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen.",
-          "Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables.",
-          "Évitez de comparer votre rythme à celui des autres.",
-          "Demander de l’aide est une décision responsable, pas un signe de faiblesse."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Cette minute santé s’adresse aux étudiants qui ressentent du stress… », que se passe-t-il ensuite dans « Une minute santé : apprivoiser le stress » ?",
-        "options": [
-          "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen.",
-          "Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables.",
-          "Évitez de comparer votre rythme à celui des autres.",
-          "Demander de l’aide est une décision responsable, pas un signe de faiblesse."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une minute santé : apprivoiser le stress » ?",
-        "options": [
-          "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen.",
-          "Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables.",
-          "Évitez de comparer votre rythme à celui des autres.",
-          "Demander de l’aide est une décision responsable, pas un signe de faiblesse."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Une minute santé : apprivoiser le stress » après « Évitez de comparer votre rythme à celui des autres. » ?",
-        "options": [
-          "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen.",
-          "Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables.",
-          "Évitez de comparer votre rythme à celui des autres.",
-          "Demander de l’aide est une décision responsable, pas un signe de faiblesse."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-ecologie-et-responsabilite-collective-listening",
     "level": "C1",
     "skill": "listening",
@@ -36946,6 +35452,129 @@
     ]
   },
   {
+    "slug": "french-b1-sante-et-mode-de-vie-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "sante-et-mode-de-vie",
+    "title": "Une minute santé : apprivoiser le stress",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 71,
+    "estimatedMinutes": 12,
+    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Il faut que tu...",
+      "Il vaut mieux que tu...",
+      "Plutôt que de...",
+      "Je vais essayer de..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen. Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration. Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée. Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables. Il faut aussi que vous dormiez suffisamment et que vous gardiez une activité physique régulière. Une marche de vingt minutes peut déjà aider le corps à se détendre. Pendant les révisions, respirez lentement et faites une courte pause lorsque votre attention diminue. Évitez de comparer votre rythme à celui des autres. Prendre soin de soi ne signifie pas abandonner son travail ; cela permet de travailler plus efficacement. Si le stress devient trop fort ou dure plusieurs semaines, parlez-en à un professionnel de santé. Demander de l’aide est une décision responsable, pas un signe de faiblesse.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "public-service",
+      "storyTitle": "Une minute santé : apprivoiser le stress",
+      "mainTranscript": "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen. Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration. Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée. Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables. Il faut aussi que vous dormiez suffisamment et que vous gardiez une activité physique régulière. Une marche de vingt minutes peut déjà aider le corps à se détendre. Pendant les révisions, respirez lentement et faites une courte pause lorsque votre attention diminue. Évitez de comparer votre rythme à celui des autres. Prendre soin de soi ne signifie pas abandonner son travail ; cela permet de travailler plus efficacement. Si le stress devient trop fort ou dure plusieurs semaines, parlez-en à un professionnel de santé. Demander de l’aide est une décision responsable, pas un signe de faiblesse.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Cette minute santé s’adresse aux étudiants qui ressentent du stress avant un examen."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Tout d’abord, il faut que vous reconnaissiez les signes : sommeil difficile, respiration rapide, irritabilité ou manque de concentration."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Ces réactions sont normales, mais il est important qu’elles ne contrôlent pas toute votre journée."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Il vaut mieux que vous prépariez un programme simple, avec des objectifs réalisables."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Il faut aussi que vous dormiez suffisamment et que vous gardiez une activité physique régulière."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Une marche de vingt minutes peut déjà aider le corps à se détendre."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Pendant les révisions, respirez lentement et faites une courte pause lorsque votre attention diminue."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Évitez de comparer votre rythme à celui des autres."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Prendre soin de soi ne signifie pas abandonner son travail ; cela permet de travailler plus efficacement."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Si le stress devient trop fort ou dure plusieurs semaines, parlez-en à un professionnel de santé."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Demander de l’aide est une décision responsable, pas un signe de faiblesse."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Quel conseil Madame Lambert donne-t-elle sur les révisions ?",
+        "options": [
+          "Réviser sans pause",
+          "Faire des pauses régulières",
+          "Réviser seulement la nuit",
+          "Ne pas réviser du tout"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Combien d’heures de sommeil recommande-t-elle ?",
+        "options": [
+          "Cinq heures",
+          "Sept heures",
+          "Neuf heures",
+          "Dix heures"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Comment Camila réagit-elle aux conseils ?",
+        "options": [
+          "Elle les refuse",
+          "Elle accepte de les essayer",
+          "Elle ne répond pas",
+          "Elle se fâche"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-b2-dilemmes-ethiques-listening",
     "level": "B2",
     "skill": "listening",
@@ -36961,10 +35590,10 @@
     "mission": "",
     "grammar": "",
     "phrases": [
-      "Pourquoi continue-t-elle de... ?",
-      "Elle oblige à...",
-      "Quel lien avec... ?",
-      "Le dilemme redevient concret."
+      "Si j’avais découvert...",
+      "J’aurais confronté...",
+      "Tout dépendrait de...",
+      "Chacun réagit différemment."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -37057,145 +35686,38 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "listeningComprehension": {
-        "id": "french-b2-dilemmes-ethiques-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Aurais-je dû intervenir ? », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
-              },
-              {
-                "id": "o2",
-                "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
-              },
-              {
-                "id": "o3",
-                "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
-              },
-              {
-                "id": "o4",
-                "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Il y a quelques mois, j’ai été témoin d’une situation qui me fait… », que se passe-t-il ensuite dans « Aurais-je dû intervenir ? » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
-              },
-              {
-                "id": "o2",
-                "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
-              },
-              {
-                "id": "o3",
-                "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
-              },
-              {
-                "id": "o4",
-                "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Aurais-je dû intervenir ? » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
-              },
-              {
-                "id": "o2",
-                "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
-              },
-              {
-                "id": "o3",
-                "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
-              },
-              {
-                "id": "o4",
-                "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Aurais-je dû intervenir ? » après « Elle a organisé une discussion et la contribution de la stagiaire a… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir."
-              },
-              {
-                "id": "o2",
-                "text": "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure."
-              },
-              {
-                "id": "o3",
-                "text": "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue."
-              },
-              {
-                "id": "o4",
-                "text": "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Aurais-je dû intervenir ? », quel détail présente la situation ?",
+        "prompt": "Qu’aurait fait le participant argentin ?",
         "options": [
-          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
-          "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.",
-          "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.",
-          "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
+          "Il aurait ignoré la situation",
+          "Il aurait confronté son ami directement",
+          "Il aurait dénoncé publiquement",
+          "Il n’aurait rien fait"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Il y a quelques mois, j’ai été témoin d’une situation qui me fait… », que se passe-t-il ensuite dans « Aurais-je dû intervenir ? » ?",
+        "prompt": "De quoi dépendrait la décision de l’étudiante sénégalaise ?",
         "options": [
-          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
-          "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.",
-          "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.",
-          "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
+          "De son humeur",
+          "Des conséquences réelles du mensonge",
+          "De l’opinion générale",
+          "De l’âge de son ami"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Aurais-je dû intervenir ? » ?",
+        "prompt": "Sur quoi les deux participants sont-ils d’accord à la fin ?",
         "options": [
-          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
-          "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.",
-          "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.",
-          "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Aurais-je dû intervenir ? » après « Elle a organisé une discussion et la contribution de la stagiaire a… » ?",
-        "options": [
-          "Il y a quelques mois, j’ai été témoin d’une situation qui me fait encore réfléchir.",
-          "Si j’avais parlé immédiatement, j’aurais peut-être évité que la situation dure.",
-          "Elle a organisé une discussion et la contribution de la stagiaire a été reconnue.",
-          "Mais nos valeurs deviennent concrètes seulement lorsque nous acceptons d’agir malgré l’inconfort."
+          "Qu’il faut toujours dénoncer",
+          "Que chacun réagit différemment",
+          "Qu’il ne faut jamais rien dire",
+          "Qu’ils ont totalement tort tous les deux"
         ]
       }
     ]
@@ -37292,49 +35814,6 @@
       {
         "type": "practice",
         "prompt": "Compare ton projet de voyage avec celui d’un/une camarade."
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-sante-et-mode-de-vie-speaking",
-    "level": "B1",
-    "skill": "speaking",
-    "unitId": "sante-et-mode-de-vie",
-    "title": "Donner des conseils de bien-être",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 72,
-    "estimatedMinutes": 12,
-    "description": "Donne des conseils de bien-être à une personne stressée.",
-    "intro": "Donne des conseils de bien-être à une personne stressée.",
-    "mission": "Imagine qu’un ami est très stressé par les examens. Donne-lui trois recommandations en utilisant « il faut que » ou « il est important que ».",
-    "grammar": "",
-    "phrases": [
-      "Il faut que tu...",
-      "Il est important que tu...",
-      "Il vaut mieux que tu...",
-      "Ça t’aiderait de..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Il faut que tu fasses des pauses régulières. Il est important que tu dormes suffisamment avant l’examen.",
-        "translation": "Es necesario que hagas pausas regulares. Es importante que duermas lo suficiente antes del examen."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Donne trois recommandations de bien-être à un ami stressé, en utilisant le subjonctif."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, échangez des conseils sur la gestion du stress."
       }
     ]
   },
@@ -37489,6 +35968,49 @@
     ]
   },
   {
+    "slug": "french-b1-sante-et-mode-de-vie-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "sante-et-mode-de-vie",
+    "title": "Donner des conseils de bien-être",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 72,
+    "estimatedMinutes": 12,
+    "description": "Donne des conseils de bien-être à une personne stressée.",
+    "intro": "Donne des conseils de bien-être à une personne stressée.",
+    "mission": "Imagine qu’un ami est très stressé par les examens. Donne-lui trois recommandations en utilisant « il faut que » ou « il est important que ».",
+    "grammar": "",
+    "phrases": [
+      "Il faut que tu...",
+      "Il est important que tu...",
+      "Il vaut mieux que tu...",
+      "Ça t’aiderait de..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Il faut que tu fasses des pauses régulières. Il est important que tu dormes suffisamment avant l’examen.",
+        "translation": "Es necesario que hagas pausas regulares. Es importante que duermas lo suficiente antes del examen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Donne trois recommandations de bien-être à un ami stressé, en utilisant le subjonctif."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, échangez des conseils sur la gestion du stress."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-dilemmes-ethiques-speaking",
     "level": "B2",
     "skill": "speaking",
@@ -37627,45 +36149,6 @@
     ]
   },
   {
-    "slug": "french-b1-sante-et-mode-de-vie-writing",
-    "level": "B1",
-    "skill": "writing",
-    "unitId": "sante-et-mode-de-vie",
-    "title": "Mes habitudes saines",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 73,
-    "estimatedMinutes": 16,
-    "description": "Écris un texte sur tes habitudes de vie saine.",
-    "intro": "Écris un texte sur tes habitudes de vie saine.",
-    "mission": "Écris 150 à 200 mots décrivant tes habitudes de vie (ou celles que tu voudrais avoir) pour rester en bonne santé et gérer le stress.",
-    "grammar": "",
-    "phrases": [
-      "Il est important que je...",
-      "J’essaie de...",
-      "Ça m’aide à...",
-      "Pour rester en bonne santé, je..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Pour rester en bonne santé, il est important que je dorme suffisamment et que je fasse de l’exercice régulièrement. J’essaie aussi de faire des pauses pendant mes études, ça m’aide beaucoup à réduire le stress.",
-        "translation": "Para mantenerme sano, es importante que duerma lo suficiente y haga ejercicio regularmente. También intento hacer pausas durante mis estudios, eso me ayuda mucho a reducir el estrés."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris 150 à 200 mots sur tes habitudes de vie saine, avec au moins deux phrases au subjonctif."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-ecologie-et-responsabilite-collective-writing",
     "level": "C1",
     "skill": "writing",
@@ -37778,6 +36261,45 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-sante-et-mode-de-vie-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "sante-et-mode-de-vie",
+    "title": "Mes habitudes saines",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 73,
+    "estimatedMinutes": 16,
+    "description": "Écris un texte sur tes habitudes de vie saine.",
+    "intro": "Écris un texte sur tes habitudes de vie saine.",
+    "mission": "Écris 150 à 200 mots décrivant tes habitudes de vie (ou celles que tu voudrais avoir) pour rester en bonne santé et gérer le stress.",
+    "grammar": "",
+    "phrases": [
+      "Il est important que je...",
+      "J’essaie de...",
+      "Ça m’aide à...",
+      "Pour rester en bonne santé, je..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Pour rester en bonne santé, il est important que je dorme suffisamment et que je fasse de l’exercice régulièrement. J’essaie aussi de faire des pauses pendant mes études, ça m’aide beaucoup à réduire le stress.",
+        "translation": "Para mantenerme sano, es importante que duerma lo suficiente y haga ejercicio regularmente. También intento hacer pausas durante mis estudios, eso me ayuda mucho a reducir el estrés."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris 150 à 200 mots sur tes habitudes de vie saine, avec au moins deux phrases au subjonctif."
       }
     ]
   },
@@ -38398,339 +36920,6 @@
           "Avoir + infinitif",
           "Être + gérondif"
         ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-sante-et-mode-de-vie-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "sante-et-mode-de-vie",
-    "title": "Le subjonctif présent pour les recommandations",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 74,
-    "estimatedMinutes": 12,
-    "description": "Utiliser le subjonctif présent après « il faut que » et « il est important que ».",
-    "intro": "Utiliser le subjonctif présent après « il faut que » et « il est important que ».",
-    "mission": "",
-    "grammar": "Après des expressions comme « il faut que », « il est important que » ou « il vaut mieux que », le verbe suivant se met au subjonctif présent : « Il faut que tu dormes. Il est important que tu fasses des pauses. » Pour les verbes réguliers en -er, le subjonctif ressemble beaucoup au présent : que je dorme, que tu dormes, qu’il/elle dorme.",
-    "phrases": [
-      "Il faut que tu...",
-      "Il est important que tu...",
-      "Il vaut mieux que tu...",
-      "Il est essentiel que..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b1-sante-et-mode-de-vie-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b1-sante-et-mode-de-vie-grammar-q1",
-            "type": "mcq",
-            "prompt": "Il faut que tu ___ suffisamment.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "dormes"
-              },
-              {
-                "id": "a",
-                "text": "dors"
-              },
-              {
-                "id": "c",
-                "text": "dormais"
-              },
-              {
-                "id": "d",
-                "text": "dormiras"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-sante-et-mode-de-vie-grammar-q2",
-            "type": "mcq",
-            "prompt": "Il est important que je ___ des pauses.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "fais"
-              },
-              {
-                "id": "b",
-                "text": "fasse"
-              },
-              {
-                "id": "c",
-                "text": "faisais"
-              },
-              {
-                "id": "d",
-                "text": "ferai"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-sante-et-mode-de-vie-grammar-q3",
-            "type": "mcq",
-            "prompt": "Il vaut mieux que nous ___ du sport.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "faisons"
-              },
-              {
-                "id": "c",
-                "text": "ferons"
-              },
-              {
-                "id": "b",
-                "text": "fassions"
-              },
-              {
-                "id": "d",
-                "text": "faisions"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-sante-et-mode-de-vie-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle expression introduit le subjonctif ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Je sais que"
-              },
-              {
-                "id": "c",
-                "text": "Je vois que"
-              },
-              {
-                "id": "d",
-                "text": "Il est vrai que"
-              },
-              {
-                "id": "b",
-                "text": "Il faut que"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-sante-et-mode-de-vie-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Il faut que tu dors suffisamment. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Il faut que tu dormes suffisamment."
-              },
-              {
-                "id": "a",
-                "text": "Il faut que tu dors suffisamment."
-              },
-              {
-                "id": "c",
-                "text": "Il faut que tu dormais suffisamment."
-              },
-              {
-                "id": "d",
-                "text": "Il faut que tu dormiras suffisamment."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-sante-et-mode-de-vie-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Il est important que je fais des pauses. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Il est important que je fais des pauses."
-              },
-              {
-                "id": "b",
-                "text": "Il est important que je fasse des pauses."
-              },
-              {
-                "id": "c",
-                "text": "Il est important que je faisais des pauses."
-              },
-              {
-                "id": "d",
-                "text": "Il est important que je ferai des pauses."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-sante-et-mode-de-vie-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Il vaut mieux que nous faisons du sport. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Il vaut mieux que nous faisons du sport."
-              },
-              {
-                "id": "c",
-                "text": "Il vaut mieux que nous ferons du sport."
-              },
-              {
-                "id": "b",
-                "text": "Il vaut mieux que nous fassions du sport."
-              },
-              {
-                "id": "d",
-                "text": "Il vaut mieux que nous faisions du sport."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-sante-et-mode-de-vie-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Je sais que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Je sais que"
-              },
-              {
-                "id": "c",
-                "text": "Je vois que"
-              },
-              {
-                "id": "d",
-                "text": "Il est vrai que"
-              },
-              {
-                "id": "b",
-                "text": "Il faut que"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Le subjonctif présent pour les recommandations",
-        "definition": "Après des expressions comme « il faut que », « il est important que » ou « il vaut mieux que », le verbe suivant se met au subjonctif présent : « Il faut que tu dormes. Il est important que tu fasses des pauses. » Pour les verbes réguliers en -er, le subjonctif ressemble beaucoup au présent : que je dorme, que tu dormes, qu’il/elle dorme.",
-        "structure": "Forme à observer : Le subjonctif présent pour les recommandations. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Utiliser le subjonctif présent après « il faut que » et « il est important que ».",
-        "examples": [
-          "Il faut que tu dormes suffisamment.",
-          "Il est important que je fasse des pauses.",
-          "Il vaut mieux que nous fassions du sport.",
-          "Il faut que"
-        ],
-        "explanation": "Après des expressions comme « il faut que », « il est important que » ou « il vaut mieux que », le verbe suivant se met au subjonctif présent : « Il faut que tu dormes. Il est important que tu fasses des pauses. » Pour les verbes réguliers en -er, le subjonctif ressemble beaucoup au présent : que je dorme, que tu dormes, qu’il/elle dorme.",
-        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
-        "cefrLevel": "B1",
-        "unitContext": "Utiliser le subjonctif présent après « il faut que » et « il est important que »."
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Il faut que tu ___ suffisamment.",
-        "options": [
-          "dormes",
-          "dors",
-          "dormais",
-          "dormiras"
-        ],
-        "explanation": "La bonne réponse est « dormes » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Il est important que je ___ des pauses.",
-        "options": [
-          "fais",
-          "fasse",
-          "faisais",
-          "ferai"
-        ],
-        "explanation": "La bonne réponse est « fasse » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Il vaut mieux que nous ___ du sport.",
-        "options": [
-          "faisons",
-          "ferons",
-          "fassions",
-          "faisions"
-        ],
-        "explanation": "La bonne réponse est « fassions » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle expression introduit le subjonctif ?",
-        "options": [
-          "Je sais que",
-          "Je vois que",
-          "Il est vrai que",
-          "Il faut que"
-        ],
-        "explanation": "La bonne réponse est « Il faut que » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Il faut que tu dors suffisamment. » ?",
-        "options": [
-          "Il faut que tu dormes suffisamment.",
-          "Il faut que tu dors suffisamment.",
-          "Il faut que tu dormais suffisamment.",
-          "Il faut que tu dormiras suffisamment."
-        ],
-        "explanation": "La phrase correcte est : « Il faut que tu dormes suffisamment. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Il est important que je fais des pauses. » ?",
-        "options": [
-          "Il est important que je fais des pauses.",
-          "Il est important que je fasse des pauses.",
-          "Il est important que je faisais des pauses.",
-          "Il est important que je ferai des pauses."
-        ],
-        "explanation": "La phrase correcte est : « Il est important que je fasse des pauses. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Il vaut mieux que nous faisons du sport. » ?",
-        "options": [
-          "Il vaut mieux que nous faisons du sport.",
-          "Il vaut mieux que nous ferons du sport.",
-          "Il vaut mieux que nous fassions du sport.",
-          "Il vaut mieux que nous faisions du sport."
-        ],
-        "explanation": "La phrase correcte est : « Il vaut mieux que nous fassions du sport. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « Je sais que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
-        "options": [
-          "Je sais que",
-          "Je vois que",
-          "Il est vrai que",
-          "Il faut que"
-        ],
-        "explanation": "La bonne réponse est « Il faut que »."
       }
     ]
   },
@@ -39398,6 +37587,339 @@
     ]
   },
   {
+    "slug": "french-b1-sante-et-mode-de-vie-grammar",
+    "level": "B1",
+    "skill": "grammar",
+    "unitId": "sante-et-mode-de-vie",
+    "title": "Le subjonctif présent pour les recommandations",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 74,
+    "estimatedMinutes": 12,
+    "description": "Utiliser le subjonctif présent après « il faut que » et « il est important que ».",
+    "intro": "Utiliser le subjonctif présent après « il faut que » et « il est important que ».",
+    "mission": "",
+    "grammar": "Après des expressions comme « il faut que », « il est important que » ou « il vaut mieux que », le verbe suivant se met au subjonctif présent : « Il faut que tu dormes. Il est important que tu fasses des pauses. » Pour les verbes réguliers en -er, le subjonctif ressemble beaucoup au présent : que je dorme, que tu dormes, qu’il/elle dorme.",
+    "phrases": [
+      "Il faut que tu...",
+      "Il est important que tu...",
+      "Il vaut mieux que tu...",
+      "Il est essentiel que..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b1-sante-et-mode-de-vie-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b1-sante-et-mode-de-vie-grammar-q1",
+            "type": "mcq",
+            "prompt": "Il faut que tu ___ suffisamment.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "dormes"
+              },
+              {
+                "id": "a",
+                "text": "dors"
+              },
+              {
+                "id": "c",
+                "text": "dormais"
+              },
+              {
+                "id": "d",
+                "text": "dormiras"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-sante-et-mode-de-vie-grammar-q2",
+            "type": "mcq",
+            "prompt": "Il est important que je ___ des pauses.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "fais"
+              },
+              {
+                "id": "b",
+                "text": "fasse"
+              },
+              {
+                "id": "c",
+                "text": "faisais"
+              },
+              {
+                "id": "d",
+                "text": "ferai"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-sante-et-mode-de-vie-grammar-q3",
+            "type": "mcq",
+            "prompt": "Il vaut mieux que nous ___ du sport.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "faisons"
+              },
+              {
+                "id": "c",
+                "text": "ferons"
+              },
+              {
+                "id": "b",
+                "text": "fassions"
+              },
+              {
+                "id": "d",
+                "text": "faisions"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-sante-et-mode-de-vie-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle expression introduit le subjonctif ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Je sais que"
+              },
+              {
+                "id": "c",
+                "text": "Je vois que"
+              },
+              {
+                "id": "d",
+                "text": "Il est vrai que"
+              },
+              {
+                "id": "b",
+                "text": "Il faut que"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-sante-et-mode-de-vie-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Il faut que tu dors suffisamment. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Il faut que tu dormes suffisamment."
+              },
+              {
+                "id": "a",
+                "text": "Il faut que tu dors suffisamment."
+              },
+              {
+                "id": "c",
+                "text": "Il faut que tu dormais suffisamment."
+              },
+              {
+                "id": "d",
+                "text": "Il faut que tu dormiras suffisamment."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-sante-et-mode-de-vie-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Il est important que je fais des pauses. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Il est important que je fais des pauses."
+              },
+              {
+                "id": "b",
+                "text": "Il est important que je fasse des pauses."
+              },
+              {
+                "id": "c",
+                "text": "Il est important que je faisais des pauses."
+              },
+              {
+                "id": "d",
+                "text": "Il est important que je ferai des pauses."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-sante-et-mode-de-vie-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Il vaut mieux que nous faisons du sport. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Il vaut mieux que nous faisons du sport."
+              },
+              {
+                "id": "c",
+                "text": "Il vaut mieux que nous ferons du sport."
+              },
+              {
+                "id": "b",
+                "text": "Il vaut mieux que nous fassions du sport."
+              },
+              {
+                "id": "d",
+                "text": "Il vaut mieux que nous faisions du sport."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-sante-et-mode-de-vie-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Je sais que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Je sais que"
+              },
+              {
+                "id": "c",
+                "text": "Je vois que"
+              },
+              {
+                "id": "d",
+                "text": "Il est vrai que"
+              },
+              {
+                "id": "b",
+                "text": "Il faut que"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le subjonctif présent pour les recommandations",
+        "definition": "Après des expressions comme « il faut que », « il est important que » ou « il vaut mieux que », le verbe suivant se met au subjonctif présent : « Il faut que tu dormes. Il est important que tu fasses des pauses. » Pour les verbes réguliers en -er, le subjonctif ressemble beaucoup au présent : que je dorme, que tu dormes, qu’il/elle dorme.",
+        "explanation": "Après des expressions comme « il faut que », « il est important que » ou « il vaut mieux que », le verbe suivant se met au subjonctif présent : « Il faut que tu dormes. Il est important que tu fasses des pauses. » Pour les verbes réguliers en -er, le subjonctif ressemble beaucoup au présent : que je dorme, que tu dormes, qu’il/elle dorme.",
+        "structure": "Estructura central: Le subjonctif présent pour les recommandations.",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "function": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Utiliser le subjonctif présent après « il faut que » et « il est important que ».",
+        "examples": [
+          "Il faut que tu dormes suffisamment.",
+          "Il est important que je fasse des pauses.",
+          "Il vaut mieux que nous fassions du sport.",
+          "Il faut que"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Il faut que tu ___ suffisamment.",
+        "options": [
+          "dors",
+          "dormes",
+          "dormais",
+          "dormiras"
+        ],
+        "explanation": "La bonne réponse est « dormes » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Il est important que je ___ des pauses.",
+        "options": [
+          "fais",
+          "fasse",
+          "faisais",
+          "ferai"
+        ],
+        "explanation": "La bonne réponse est « fasse » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Il vaut mieux que nous ___ du sport.",
+        "options": [
+          "faisons",
+          "fassions",
+          "ferons",
+          "faisions"
+        ],
+        "explanation": "La bonne réponse est « fassions » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle expression introduit le subjonctif ?",
+        "options": [
+          "Je sais que",
+          "Il faut que",
+          "Je vois que",
+          "Il est vrai que"
+        ],
+        "explanation": "La bonne réponse est « Il faut que » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il faut que tu dors suffisamment. » ?",
+        "options": [
+          "Il faut que tu dors suffisamment.",
+          "Il faut que tu dormes suffisamment.",
+          "Il faut que tu dormais suffisamment.",
+          "Il faut que tu dormiras suffisamment."
+        ],
+        "explanation": "La phrase correcte est : « Il faut que tu dormes suffisamment. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il est important que je fais des pauses. » ?",
+        "options": [
+          "Il est important que je fais des pauses.",
+          "Il est important que je fasse des pauses.",
+          "Il est important que je faisais des pauses.",
+          "Il est important que je ferai des pauses."
+        ],
+        "explanation": "La phrase correcte est : « Il est important que je fasse des pauses. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il vaut mieux que nous faisons du sport. » ?",
+        "options": [
+          "Il vaut mieux que nous faisons du sport.",
+          "Il vaut mieux que nous fassions du sport.",
+          "Il vaut mieux que nous ferons du sport.",
+          "Il vaut mieux que nous faisions du sport."
+        ],
+        "explanation": "La phrase correcte est : « Il vaut mieux que nous fassions du sport. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Je sais que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
+        "options": [
+          "Je sais que",
+          "Il faut que",
+          "Je vois que",
+          "Il est vrai que"
+        ],
+        "explanation": "La bonne réponse est « Il faut que »."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-dilemmes-ethiques-grammar",
     "level": "B2",
     "skill": "grammar",
@@ -39624,18 +38146,18 @@
       "grammarProfile": {
         "name": "Hypothèse avec si + plus-que-parfait et le conditionnel passé",
         "definition": "Pour une hypothèse irréelle sur le passé : « Si + plus-que-parfait, conditionnel passé » : « Si j’avais su, je serais venu. » Le conditionnel passé (avoir/être au conditionnel présent + participe passé) exprime aussi un regret ou un reproche : « J’aurais dû lui parler. Tu aurais pu me le dire. »",
-        "structure": "Forme à observer : Hypothèse avec si + plus-que-parfait et le conditionnel passé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Formuler une hypothèse irréelle sur le passé et exprimer un regret ou un reproche.",
+        "explanation": "Pour une hypothèse irréelle sur le passé : « Si + plus-que-parfait, conditionnel passé » : « Si j’avais su, je serais venu. » Le conditionnel passé (avoir/être au conditionnel présent + participe passé) exprime aussi un regret ou un reproche : « J’aurais dû lui parler. Tu aurais pu me le dire. »",
+        "structure": "Estructura central: Hypothèse avec si + plus-que-parfait et le conditionnel passé.",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "function": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Formuler une hypothèse irréelle sur le passé et exprimer un regret ou un reproche.",
         "examples": [
           "Si j’avais découvert ce mensonge, j’aurais réagi immédiatement.",
           "Si tu avais su, tu aurais agi différemment.",
           "J’aurais dû lui parler plus tôt.",
           "Si + plus-que-parfait, conditionnel passé"
-        ],
-        "explanation": "Pour une hypothèse irréelle sur le passé : « Si + plus-que-parfait, conditionnel passé » : « Si j’avais su, je serais venu. » Le conditionnel passé (avoir/être au conditionnel présent + participe passé) exprime aussi un regret ou un reproche : « J’aurais dû lui parler. Tu aurais pu me le dire. »",
-        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
-        "cefrLevel": "B2",
-        "unitContext": "Formuler une hypothèse irréelle sur le passé et exprimer un regret ou un reproche."
+        ]
       },
       "listeningComprehension": null
     },
@@ -39644,8 +38166,8 @@
         "type": "mcq",
         "prompt": "Si j’___ ce mensonge, j’aurais réagi immédiatement.",
         "options": [
-          "avais découvert",
           "découvre",
+          "avais découvert",
           "découvrirai",
           "découvrais"
         ],
@@ -39656,8 +38178,8 @@
         "prompt": "Si tu avais su, tu ___ différemment.",
         "options": [
           "agis",
-          "aurais agi",
           "agirais",
+          "aurais agi",
           "agissais"
         ],
         "explanation": "La bonne réponse est « aurais agi » : elle respecte la structure étudiée dans cette leçon."
@@ -39667,8 +38189,8 @@
         "prompt": "J’___ dû lui parler plus tôt.",
         "options": [
           "ai",
-          "avais",
           "aurais",
+          "avais",
           "aurai"
         ],
         "explanation": "La bonne réponse est « aurais » : elle respecte la structure étudiée dans cette leçon."
@@ -39679,8 +38201,8 @@
         "options": [
           "Si + présent, futur",
           "Si + imparfait, conditionnel présent",
-          "Si + subjonctif, indicatif",
-          "Si + plus-que-parfait, conditionnel passé"
+          "Si + plus-que-parfait, conditionnel passé",
+          "Si + subjonctif, indicatif"
         ],
         "explanation": "La bonne réponse est « Si + plus-que-parfait, conditionnel passé » : elle respecte la structure étudiée dans cette leçon."
       },
@@ -39688,8 +38210,8 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Si j’découvre ce mensonge, j’aurais réagi immédiatement. » ?",
         "options": [
-          "Si j’avais découvert ce mensonge, j’aurais réagi immédiatement.",
           "Si j’découvre ce mensonge, j’aurais réagi immédiatement.",
+          "Si j’avais découvert ce mensonge, j’aurais réagi immédiatement.",
           "Si j’découvrirai ce mensonge, j’aurais réagi immédiatement.",
           "Si j’découvrais ce mensonge, j’aurais réagi immédiatement."
         ],
@@ -39700,8 +38222,8 @@
         "prompt": "Quelle version corrige entièrement la phrase « Si tu avais su, tu agis différemment. » ?",
         "options": [
           "Si tu avais su, tu agis différemment.",
-          "Si tu avais su, tu aurais agi différemment.",
           "Si tu avais su, tu agirais différemment.",
+          "Si tu avais su, tu aurais agi différemment.",
           "Si tu avais su, tu agissais différemment."
         ],
         "explanation": "La phrase correcte est : « Si tu avais su, tu aurais agi différemment. »"
@@ -39711,8 +38233,8 @@
         "prompt": "Quelle version corrige entièrement la phrase « J’ai dû lui parler plus tôt. » ?",
         "options": [
           "J’ai dû lui parler plus tôt.",
-          "J’avais dû lui parler plus tôt.",
           "J’aurais dû lui parler plus tôt.",
+          "J’avais dû lui parler plus tôt.",
           "J’aurai dû lui parler plus tôt."
         ],
         "explanation": "La phrase correcte est : « J’aurais dû lui parler plus tôt. »"
@@ -39723,8 +38245,8 @@
         "options": [
           "Si + présent, futur",
           "Si + imparfait, conditionnel présent",
-          "Si + subjonctif, indicatif",
-          "Si + plus-que-parfait, conditionnel passé"
+          "Si + plus-que-parfait, conditionnel passé",
+          "Si + subjonctif, indicatif"
         ],
         "explanation": "La bonne réponse est « Si + plus-que-parfait, conditionnel passé »."
       }
@@ -39931,86 +38453,6 @@
           "Caminar",
           "Comer",
           "Dormir"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-sante-et-mode-de-vie-vocabulary",
-    "level": "B1",
-    "skill": "vocabulary",
-    "unitId": "sante-et-mode-de-vie",
-    "title": "Le vocabulaire de la santé et du bien-être",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 75,
-    "estimatedMinutes": 8,
-    "description": "Le vocabulaire essentiel pour parler du stress et des habitudes saines.",
-    "intro": "Le vocabulaire essentiel pour parler du stress et des habitudes saines.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "le stress",
-        "translation": "el estrés",
-        "example": "Le stress des examens est difficile à gérer."
-      },
-      {
-        "word": "se détendre",
-        "translation": "relajarse",
-        "example": "Il faut prendre du temps pour se détendre."
-      },
-      {
-        "word": "une habitude saine",
-        "translation": "un hábito saludable",
-        "example": "Dormir suffisamment est une habitude saine."
-      },
-      {
-        "word": "l’activité physique",
-        "translation": "la actividad física",
-        "example": "L’activité physique aide à réduire le stress."
-      },
-      {
-        "word": "prendre soin de soi",
-        "translation": "cuidarse a uno mismo",
-        "example": "Il faut prendre soin de soi, pas seulement de ses études."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « se détendre » ?",
-        "options": [
-          "Relajarse",
-          "Estresarse",
-          "Trabajar",
-          "Correr"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « l’activité physique » ?",
-        "options": [
-          "El descanso",
-          "La actividad física",
-          "La comida",
-          "El sueño"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « prendre soin de soi » ?",
-        "options": [
-          "Cuidarse a uno mismo",
-          "Ignorarse",
-          "Trabajar mucho",
-          "Estudiar sin parar"
         ]
       }
     ]
@@ -40506,6 +38948,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-sante-et-mode-de-vie-vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unitId": "sante-et-mode-de-vie",
+    "title": "Le vocabulaire de la santé et du bien-être",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 75,
+    "estimatedMinutes": 8,
+    "description": "Le vocabulaire essentiel pour parler du stress et des habitudes saines.",
+    "intro": "Le vocabulaire essentiel pour parler du stress et des habitudes saines.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "le stress",
+        "translation": "el estrés",
+        "example": "Le stress des examens est difficile à gérer."
+      },
+      {
+        "word": "se détendre",
+        "translation": "relajarse",
+        "example": "Il faut prendre du temps pour se détendre."
+      },
+      {
+        "word": "une habitude saine",
+        "translation": "un hábito saludable",
+        "example": "Dormir suffisamment est une habitude saine."
+      },
+      {
+        "word": "l’activité physique",
+        "translation": "la actividad física",
+        "example": "L’activité physique aide à réduire le stress."
+      },
+      {
+        "word": "prendre soin de soi",
+        "translation": "cuidarse a uno mismo",
+        "example": "Il faut prendre soin de soi, pas seulement de ses études."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « se détendre » ?",
+        "options": [
+          "Relajarse",
+          "Estresarse",
+          "Trabajar",
+          "Correr"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « l’activité physique » ?",
+        "options": [
+          "El descanso",
+          "La actividad física",
+          "La comida",
+          "El sueño"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « prendre soin de soi » ?",
+        "options": [
+          "Cuidarse a uno mismo",
+          "Ignorarse",
+          "Trabajar mucho",
+          "Estudiar sin parar"
+        ]
       }
     ]
   },
@@ -41105,96 +39627,6 @@
     ]
   },
   {
-    "slug": "french-b1-environnement-et-consommation-reading",
-    "level": "B1",
-    "skill": "reading",
-    "unitId": "environnement-et-consommation",
-    "title": "Consommer avec moins de déchets",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 80,
-    "estimatedMinutes": 15,
-    "description": "Pourquoi prévenir les déchets est aussi important que les recycler, selon les experts en économie circulaire.",
-    "intro": "Pourquoi prévenir les déchets est aussi important que les recycler, selon les experts en économie circulaire.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Consommer avec moins de déchets",
-      "parts": [
-        "En Allemagne, le système de consigne pour les bouteilles en plastique fonctionne depuis des décennies : plus de 98 % des bouteilles consignées y sont rapportées et recyclées, contre une proportion beaucoup plus faible dans les pays sans consigne. Ce chiffre intéresse de près les experts en économie circulaire, car il montre qu’un geste individuel devient presque automatique dès que le système collectif est bien conçu.",
-        "Le recyclage intervient pourtant à la toute fin du cycle de vie d’un produit, après sa fabrication et son transport. C’est pourquoi de nombreux spécialistes insistent d’abord sur la prévention : choisir un objet durable plutôt que jetable, réparer un appareil qui fonctionne encore, refuser un emballage inutile à la caisse. Il faudrait que ces gestes deviennent aussi naturels que le tri lui-même, car ils réduisent la quantité de matière avant même qu’elle n’entre dans le système de traitement des déchets.",
-        "Plusieurs lycées français ont mis en place des gourdes réutilisables et des poubelles de tri clairement identifiées dans leurs cantines. Dans certains établissements, la quantité de bouteilles en plastique jetées a diminué de plus de moitié en moins d’un an, parce que le nouveau réflexe est devenu plus simple que l’ancien. Moins de plastique à usage unique signifie donc moins de déchets à traiter, mais aussi moins de dépenses pour la cantine, qui n’achète plus de bouteilles chaque semaine.",
-        "Ces décisions ne reposent cependant pas uniquement sur les individus. Un système de consigne ne fonctionne que si les commerces acceptent facilement de reprendre les emballages, c’est pourquoi plusieurs villes françaises ont commencé à installer des points de collecte automatiques. L’objectif, selon les experts en économie circulaire, n’est pas de faire porter toute la responsabilité à une seule personne, mais de rendre le meilleur choix le plus simple possible pour tout le monde."
-      ],
-      "questions": [
-        "Quel pourcentage de bouteilles consignées est rapporté et recyclé en Allemagne, selon le texte ?",
-        "À quel moment du cycle de vie d’un produit le recyclage intervient-il, selon le texte ?",
-        "Que s’est-il passé dans certains lycées ayant adopté gourdes réutilisables et poubelles de tri, selon le texte ?",
-        "À quelle condition un système de consigne fonctionne-t-il, selon le texte ?",
-        "Quel est l’objectif final décrit par les experts en économie circulaire cités dans le texte ?"
-      ],
-      "text": "En Allemagne, le système de consigne pour les bouteilles en plastique fonctionne depuis des décennies : plus de 98 % des bouteilles consignées y sont rapportées et recyclées, contre une proportion beaucoup plus faible dans les pays sans consigne. Ce chiffre intéresse de près les experts en économie circulaire, car il montre qu’un geste individuel devient presque automatique dès que le système collectif est bien conçu.\n\nLe recyclage intervient pourtant à la toute fin du cycle de vie d’un produit, après sa fabrication et son transport. C’est pourquoi de nombreux spécialistes insistent d’abord sur la prévention : choisir un objet durable plutôt que jetable, réparer un appareil qui fonctionne encore, refuser un emballage inutile à la caisse. Il faudrait que ces gestes deviennent aussi naturels que le tri lui-même, car ils réduisent la quantité de matière avant même qu’elle n’entre dans le système de traitement des déchets.\n\nPlusieurs lycées français ont mis en place des gourdes réutilisables et des poubelles de tri clairement identifiées dans leurs cantines. Dans certains établissements, la quantité de bouteilles en plastique jetées a diminué de plus de moitié en moins d’un an, parce que le nouveau réflexe est devenu plus simple que l’ancien. Moins de plastique à usage unique signifie donc moins de déchets à traiter, mais aussi moins de dépenses pour la cantine, qui n’achète plus de bouteilles chaque semaine.\n\nCes décisions ne reposent cependant pas uniquement sur les individus. Un système de consigne ne fonctionne que si les commerces acceptent facilement de reprendre les emballages, c’est pourquoi plusieurs villes françaises ont commencé à installer des points de collecte automatiques. L’objectif, selon les experts en économie circulaire, n’est pas de faire porter toute la responsabilité à une seule personne, mais de rendre le meilleur choix le plus simple possible pour tout le monde."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quel pourcentage de bouteilles consignées est rapporté et recyclé en Allemagne, selon le texte ?",
-        "options": [
-          "Plus de 98 %",
-          "Environ 20 %",
-          "Moins de 10 %",
-          "Le texte ne le précise pas"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "À quel moment du cycle de vie d’un produit le recyclage intervient-il, selon le texte ?",
-        "options": [
-          "Avant sa fabrication",
-          "À la toute fin, après la fabrication et le transport",
-          "Pendant sa conception uniquement",
-          "Il n’intervient jamais"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que s’est-il passé dans certains lycées ayant adopté gourdes réutilisables et poubelles de tri, selon le texte ?",
-        "options": [
-          "Les bouteilles jetées ont diminué de plus de moitié en moins d’un an",
-          "Rien n’a changé",
-          "Les déchets ont doublé",
-          "Les cantines ont dépensé plus qu’avant"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "À quelle condition un système de consigne fonctionne-t-il, selon le texte ?",
-        "options": [
-          "Si les commerces acceptent facilement de reprendre les emballages",
-          "Si le gouvernement l’interdit",
-          "Si les bouteilles sont en verre uniquement",
-          "Cela ne dépend d’aucune condition"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est l’objectif final décrit par les experts en économie circulaire cités dans le texte ?",
-        "options": [
-          "Rendre le meilleur choix le plus simple possible pour tout le monde",
-          "Punir les personnes qui produisent des déchets",
-          "Supprimer totalement la consommation",
-          "Rendre le recyclage obligatoire uniquement en Allemagne"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-langues-pouvoir-et-inclusion-reading",
     "level": "C1",
     "skill": "reading",
@@ -41403,6 +39835,96 @@
           "Aucun effet mesurable sur le bien-être des salariés"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « L’épuisement professionnel est-il un problème individuel ou organisationnel ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-environnement-et-consommation-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "environnement-et-consommation",
+    "title": "Consommer avec moins de déchets",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 80,
+    "estimatedMinutes": 15,
+    "description": "Pourquoi prévenir les déchets est aussi important que les recycler, selon les experts en économie circulaire.",
+    "intro": "Pourquoi prévenir les déchets est aussi important que les recycler, selon les experts en économie circulaire.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Consommer avec moins de déchets",
+      "parts": [
+        "En Allemagne, le système de consigne pour les bouteilles en plastique fonctionne depuis des décennies : plus de 98 % des bouteilles consignées y sont rapportées et recyclées, contre une proportion beaucoup plus faible dans les pays sans consigne. Ce chiffre intéresse de près les experts en économie circulaire, car il montre qu’un geste individuel devient presque automatique dès que le système collectif est bien conçu.",
+        "Le recyclage intervient pourtant à la toute fin du cycle de vie d’un produit, après sa fabrication et son transport. C’est pourquoi de nombreux spécialistes insistent d’abord sur la prévention : choisir un objet durable plutôt que jetable, réparer un appareil qui fonctionne encore, refuser un emballage inutile à la caisse. Il faudrait que ces gestes deviennent aussi naturels que le tri lui-même, car ils réduisent la quantité de matière avant même qu’elle n’entre dans le système de traitement des déchets.",
+        "Plusieurs lycées français ont mis en place des gourdes réutilisables et des poubelles de tri clairement identifiées dans leurs cantines. Dans certains établissements, la quantité de bouteilles en plastique jetées a diminué de plus de moitié en moins d’un an, parce que le nouveau réflexe est devenu plus simple que l’ancien. Moins de plastique à usage unique signifie donc moins de déchets à traiter, mais aussi moins de dépenses pour la cantine, qui n’achète plus de bouteilles chaque semaine.",
+        "Ces décisions ne reposent cependant pas uniquement sur les individus. Un système de consigne ne fonctionne que si les commerces acceptent facilement de reprendre les emballages, c’est pourquoi plusieurs villes françaises ont commencé à installer des points de collecte automatiques. L’objectif, selon les experts en économie circulaire, n’est pas de faire porter toute la responsabilité à une seule personne, mais de rendre le meilleur choix le plus simple possible pour tout le monde."
+      ],
+      "questions": [
+        "Quel pourcentage de bouteilles consignées est rapporté et recyclé en Allemagne, selon le texte ?",
+        "À quel moment du cycle de vie d’un produit le recyclage intervient-il, selon le texte ?",
+        "Que s’est-il passé dans certains lycées ayant adopté gourdes réutilisables et poubelles de tri, selon le texte ?",
+        "À quelle condition un système de consigne fonctionne-t-il, selon le texte ?",
+        "Quel est l’objectif final décrit par les experts en économie circulaire cités dans le texte ?"
+      ],
+      "text": "En Allemagne, le système de consigne pour les bouteilles en plastique fonctionne depuis des décennies : plus de 98 % des bouteilles consignées y sont rapportées et recyclées, contre une proportion beaucoup plus faible dans les pays sans consigne. Ce chiffre intéresse de près les experts en économie circulaire, car il montre qu’un geste individuel devient presque automatique dès que le système collectif est bien conçu.\n\nLe recyclage intervient pourtant à la toute fin du cycle de vie d’un produit, après sa fabrication et son transport. C’est pourquoi de nombreux spécialistes insistent d’abord sur la prévention : choisir un objet durable plutôt que jetable, réparer un appareil qui fonctionne encore, refuser un emballage inutile à la caisse. Il faudrait que ces gestes deviennent aussi naturels que le tri lui-même, car ils réduisent la quantité de matière avant même qu’elle n’entre dans le système de traitement des déchets.\n\nPlusieurs lycées français ont mis en place des gourdes réutilisables et des poubelles de tri clairement identifiées dans leurs cantines. Dans certains établissements, la quantité de bouteilles en plastique jetées a diminué de plus de moitié en moins d’un an, parce que le nouveau réflexe est devenu plus simple que l’ancien. Moins de plastique à usage unique signifie donc moins de déchets à traiter, mais aussi moins de dépenses pour la cantine, qui n’achète plus de bouteilles chaque semaine.\n\nCes décisions ne reposent cependant pas uniquement sur les individus. Un système de consigne ne fonctionne que si les commerces acceptent facilement de reprendre les emballages, c’est pourquoi plusieurs villes françaises ont commencé à installer des points de collecte automatiques. L’objectif, selon les experts en économie circulaire, n’est pas de faire porter toute la responsabilité à une seule personne, mais de rendre le meilleur choix le plus simple possible pour tout le monde."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Quel pourcentage de bouteilles consignées est rapporté et recyclé en Allemagne, selon le texte ?",
+        "options": [
+          "Plus de 98 %",
+          "Environ 20 %",
+          "Moins de 10 %",
+          "Le texte ne le précise pas"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "À quel moment du cycle de vie d’un produit le recyclage intervient-il, selon le texte ?",
+        "options": [
+          "Avant sa fabrication",
+          "À la toute fin, après la fabrication et le transport",
+          "Pendant sa conception uniquement",
+          "Il n’intervient jamais"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que s’est-il passé dans certains lycées ayant adopté gourdes réutilisables et poubelles de tri, selon le texte ?",
+        "options": [
+          "Les bouteilles jetées ont diminué de plus de moitié en moins d’un an",
+          "Rien n’a changé",
+          "Les déchets ont doublé",
+          "Les cantines ont dépensé plus qu’avant"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "À quelle condition un système de consigne fonctionne-t-il, selon le texte ?",
+        "options": [
+          "Si les commerces acceptent facilement de reprendre les emballages",
+          "Si le gouvernement l’interdit",
+          "Si les bouteilles sont en verre uniquement",
+          "Cela ne dépend d’aucune condition"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel est l’objectif final décrit par les experts en économie circulaire cités dans le texte ?",
+        "options": [
+          "Rendre le meilleur choix le plus simple possible pour tout le monde",
+          "Punir les personnes qui produisent des déchets",
+          "Supprimer totalement la consommation",
+          "Rendre le recyclage obligatoire uniquement en Allemagne"
+        ]
       }
     ]
   },
@@ -41988,231 +40510,6 @@
     ]
   },
   {
-    "slug": "french-b1-environnement-et-consommation-listening",
-    "level": "B1",
-    "skill": "listening",
-    "unitId": "environnement-et-consommation",
-    "title": "Une école réduit ses déchets",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 81,
-    "estimatedMinutes": 12,
-    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Nous produisons trop de...",
-      "Quelle solution proposez-vous ?",
-      "Nous proposons...",
-      "Nous allons l’étudier."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Voici une initiative environnementale menée dans un collège de Bordeaux. Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés. Ils ont donc créé un projet de réduction des déchets. D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles. Ensuite, la cantine a proposé des portions de tailles différentes. Les élèves choisissent mieux la quantité dont ils ont besoin ; c’est pourquoi il reste moins de nourriture sur les plateaux. Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe. Après trois mois, le volume des déchets a diminué de près de trente pour cent. La direction souhaite maintenant installer un composteur. Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "news",
-      "storyTitle": "Une école réduit ses déchets",
-      "mainTranscript": "Voici une initiative environnementale menée dans un collège de Bordeaux. Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés. Ils ont donc créé un projet de réduction des déchets. D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles. Ensuite, la cantine a proposé des portions de tailles différentes. Les élèves choisissent mieux la quantité dont ils ont besoin ; c’est pourquoi il reste moins de nourriture sur les plateaux. Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe. Après trois mois, le volume des déchets a diminué de près de trente pour cent. La direction souhaite maintenant installer un composteur. Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Voici une initiative environnementale menée dans un collège de Bordeaux."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Ils ont donc créé un projet de réduction des déchets."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Ensuite, la cantine a proposé des portions de tailles différentes."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Les élèves choisissent mieux la quantité dont ils ont besoin ; c’est pourquoi il reste moins de nourriture sur les plateaux."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Après trois mois, le volume des déchets a diminué de près de trente pour cent."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "La direction souhaite maintenant installer un composteur."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution."
-        }
-      ],
-      "listeningComprehension": {
-        "id": "french-b1-environnement-et-consommation-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Une école réduit ses déchets », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Voici une initiative environnementale menée dans un collège de Bordeaux."
-              },
-              {
-                "id": "o2",
-                "text": "D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles."
-              },
-              {
-                "id": "o3",
-                "text": "Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe."
-              },
-              {
-                "id": "o4",
-                "text": "Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Voici une initiative environnementale menée dans un collège de Bordeaux. », que se passe-t-il ensuite dans « Une école réduit ses déchets » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Voici une initiative environnementale menée dans un collège de Bordeaux."
-              },
-              {
-                "id": "o2",
-                "text": "D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles."
-              },
-              {
-                "id": "o3",
-                "text": "Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe."
-              },
-              {
-                "id": "o4",
-                "text": "Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une école réduit ses déchets » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Voici une initiative environnementale menée dans un collège de Bordeaux."
-              },
-              {
-                "id": "o2",
-                "text": "Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe."
-              },
-              {
-                "id": "o3",
-                "text": "D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles."
-              },
-              {
-                "id": "o4",
-                "text": "Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Une école réduit ses déchets » après « D’abord, chaque élève a reçu une gourde réutilisable, parce que les… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Voici une initiative environnementale menée dans un collège de Bordeaux."
-              },
-              {
-                "id": "o2",
-                "text": "D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles."
-              },
-              {
-                "id": "o3",
-                "text": "Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe."
-              },
-              {
-                "id": "o4",
-                "text": "Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Une école réduit ses déchets », quel détail présente la situation ?",
-        "options": [
-          "Voici une initiative environnementale menée dans un collège de Bordeaux.",
-          "D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles.",
-          "Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe.",
-          "Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Voici une initiative environnementale menée dans un collège de Bordeaux. », que se passe-t-il ensuite dans « Une école réduit ses déchets » ?",
-        "options": [
-          "Voici une initiative environnementale menée dans un collège de Bordeaux.",
-          "D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles.",
-          "Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe.",
-          "Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une école réduit ses déchets » ?",
-        "options": [
-          "Voici une initiative environnementale menée dans un collège de Bordeaux.",
-          "Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe.",
-          "D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles.",
-          "Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Une école réduit ses déchets » après « D’abord, chaque élève a reçu une gourde réutilisable, parce que les… » ?",
-        "options": [
-          "Voici une initiative environnementale menée dans un collège de Bordeaux.",
-          "D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles.",
-          "Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe.",
-          "Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-langues-pouvoir-et-inclusion-listening",
     "level": "C1",
     "skill": "listening",
@@ -42730,6 +41027,124 @@
     ]
   },
   {
+    "slug": "french-b1-environnement-et-consommation-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "environnement-et-consommation",
+    "title": "Une école réduit ses déchets",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 81,
+    "estimatedMinutes": 12,
+    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Nous produisons trop de...",
+      "Quelle solution proposez-vous ?",
+      "Nous proposons...",
+      "Nous allons l’étudier."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Voici une initiative environnementale menée dans un collège de Bordeaux. Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés. Ils ont donc créé un projet de réduction des déchets. D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles. Ensuite, la cantine a proposé des portions de tailles différentes. Les élèves choisissent mieux la quantité dont ils ont besoin ; c’est pourquoi il reste moins de nourriture sur les plateaux. Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe. Après trois mois, le volume des déchets a diminué de près de trente pour cent. La direction souhaite maintenant installer un composteur. Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "news",
+      "storyTitle": "Une école réduit ses déchets",
+      "mainTranscript": "Voici une initiative environnementale menée dans un collège de Bordeaux. Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés. Ils ont donc créé un projet de réduction des déchets. D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles. Ensuite, la cantine a proposé des portions de tailles différentes. Les élèves choisissent mieux la quantité dont ils ont besoin ; c’est pourquoi il reste moins de nourriture sur les plateaux. Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe. Après trois mois, le volume des déchets a diminué de près de trente pour cent. La direction souhaite maintenant installer un composteur. Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Voici une initiative environnementale menée dans un collège de Bordeaux."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Les élèves ont constaté que la cantine produisait beaucoup de déchets, notamment des bouteilles en plastique et des aliments non consommés."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Ils ont donc créé un projet de réduction des déchets."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "D’abord, chaque élève a reçu une gourde réutilisable, parce que les bouteilles représentaient une grande partie des poubelles."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Ensuite, la cantine a proposé des portions de tailles différentes."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Les élèves choisissent mieux la quantité dont ils ont besoin ; c’est pourquoi il reste moins de nourriture sur les plateaux."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Un groupe de volontaires organise aussi le recyclage du papier et explique les nouvelles règles dans chaque classe."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Après trois mois, le volume des déchets a diminué de près de trente pour cent."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "La direction souhaite maintenant installer un composteur."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Ce projet montre qu’une action locale peut produire un résultat mesurable lorsque les élèves comprennent la cause du problème et participent directement à la solution."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Quel problème Camila présente-t-elle ?",
+        "options": [
+          "Le bruit",
+          "Les déchets plastiques",
+          "Le manque de professeurs",
+          "Le prix de la cantine"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelles solutions Karim propose-t-il ?",
+        "options": [
+          "Fermer la cantine",
+          "Le tri sélectif et les gourdes réutilisables",
+          "Plus de vacances",
+          "Rien de spécial"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Comment réagit le directeur ?",
+        "options": [
+          "Il refuse immédiatement",
+          "Il trouve l’idée excellente",
+          "Il ne répond pas",
+          "Il se fâche"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-b2-sciences-et-innovations-listening",
     "level": "B2",
     "skill": "listening",
@@ -42826,145 +41241,38 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "listeningComprehension": {
-        "id": "french-b2-sciences-et-innovations-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « L’intelligence artificielle transforme le diagnostic », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
-              },
-              {
-                "id": "o3",
-                "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
-              },
-              {
-                "id": "o4",
-                "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Une équipe européenne vient de présenter un algorithme capable d’aider… », que se passe-t-il ensuite dans « L’intelligence artificielle transforme le diagnostic » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
-              },
-              {
-                "id": "o3",
-                "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
-              },
-              {
-                "id": "o4",
-                "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « L’intelligence artificielle transforme le diagnostic » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
-              },
-              {
-                "id": "o3",
-                "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
-              },
-              {
-                "id": "o4",
-                "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « L’intelligence artificielle transforme le diagnostic » après « Les répercussions concernent aussi la vie privée, car ces images… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares."
-              },
-              {
-                "id": "o2",
-                "text": "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale."
-              },
-              {
-                "id": "o3",
-                "text": "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles."
-              },
-              {
-                "id": "o4",
-                "text": "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « L’intelligence artificielle transforme le diagnostic », quel détail présente la situation ?",
+        "prompt": "Quelle est la condition de l’optimisme de Karim ?",
         "options": [
-          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
-          "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.",
-          "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.",
-          "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
+          "Que l’IA soit gratuite",
+          "Que l’IA reste contrôlée par des humains",
+          "Que l’IA remplace tous les métiers",
+          "Aucune condition"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Une équipe européenne vient de présenter un algorithme capable d’aider… », que se passe-t-il ensuite dans « L’intelligence artificielle transforme le diagnostic » ?",
+        "prompt": "Que répond Camila à Karim ?",
         "options": [
-          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
-          "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.",
-          "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.",
-          "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
+          "Qu’il a complètement tort",
+          "Qu’il a peut-être raison, mais qu’il faut rester vigilant",
+          "Qu’elle est totalement d’accord sans réserve",
+          "Qu’elle ne veut plus en parler"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « L’intelligence artificielle transforme le diagnostic » ?",
+        "prompt": "Sur quoi Karim et Camila sont-ils finalement d’accord ?",
         "options": [
-          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
-          "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.",
-          "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.",
-          "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « L’intelligence artificielle transforme le diagnostic » après « Les répercussions concernent aussi la vie privée, car ces images… » ?",
-        "options": [
-          "Une équipe européenne vient de présenter un algorithme capable d’aider les médecins à repérer plus tôt certaines maladies rares.",
-          "Cependant, les chercheurs insistent sur un point : l’outil ne remplace pas la décision médicale.",
-          "Les répercussions concernent aussi la vie privée, car ces images contiennent des informations sensibles.",
-          "Selon eux, une attitude proactive consiste à tester l’innovation dans des conditions réelles tout en conservant une responsabilité humaine clairement identifiable."
+          "Que la technologie n’est jamais neutre",
+          "Que l’IA est complètement mauvaise",
+          "Que l’IA est complètement bonne",
+          "Ils ne sont d’accord sur rien"
         ]
       }
     ]
@@ -43062,49 +41370,6 @@
       {
         "type": "practice",
         "prompt": "Compare ton logement avec celui d’un/une camarade."
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-environnement-et-consommation-speaking",
-    "level": "B1",
-    "skill": "speaking",
-    "unitId": "environnement-et-consommation",
-    "title": "Proposer une solution écologique",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 82,
-    "estimatedMinutes": 12,
-    "description": "Propose une solution à un problème environnemental.",
-    "intro": "Propose une solution à un problème environnemental.",
-    "mission": "Identifie un problème environnemental dans ton école ou ta ville, et propose une solution concrète avec « il faut que ».",
-    "grammar": "",
-    "phrases": [
-      "Le problème, c’est que...",
-      "C’est pourquoi...",
-      "Il faut que nous...",
-      "Je propose de..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Le problème, c’est que nous utilisons trop de plastique. C’est pourquoi il faut que nous installions des poubelles de tri.",
-        "translation": "El problema es que usamos demasiado plástico. Por eso es necesario que instalemos contenedores de reciclaje."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Identifie un problème environnemental et propose une solution concrète."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, préparez une courte présentation pour convaincre la direction de votre école."
       }
     ]
   },
@@ -43259,6 +41524,49 @@
     ]
   },
   {
+    "slug": "french-b1-environnement-et-consommation-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "environnement-et-consommation",
+    "title": "Proposer une solution écologique",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 82,
+    "estimatedMinutes": 12,
+    "description": "Propose une solution à un problème environnemental.",
+    "intro": "Propose une solution à un problème environnemental.",
+    "mission": "Identifie un problème environnemental dans ton école ou ta ville, et propose une solution concrète avec « il faut que ».",
+    "grammar": "",
+    "phrases": [
+      "Le problème, c’est que...",
+      "C’est pourquoi...",
+      "Il faut que nous...",
+      "Je propose de..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Le problème, c’est que nous utilisons trop de plastique. C’est pourquoi il faut que nous installions des poubelles de tri.",
+        "translation": "El problema es que usamos demasiado plástico. Por eso es necesario que instalemos contenedores de reciclaje."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Identifie un problème environnemental et propose une solution concrète."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, préparez une courte présentation pour convaincre la direction de votre école."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-sciences-et-innovations-speaking",
     "level": "B2",
     "skill": "speaking",
@@ -43397,45 +41705,6 @@
     ]
   },
   {
-    "slug": "french-b1-environnement-et-consommation-writing",
-    "level": "B1",
-    "skill": "writing",
-    "unitId": "environnement-et-consommation",
-    "title": "Une proposition écologique",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 83,
-    "estimatedMinutes": 16,
-    "description": "Écris une proposition pour résoudre un problème environnemental.",
-    "intro": "Écris une proposition pour résoudre un problème environnemental.",
-    "mission": "Écris 150 à 200 mots présentant un problème environnemental et une solution concrète, en utilisant cause et conséquence.",
-    "grammar": "",
-    "phrases": [
-      "Le problème principal est que...",
-      "C’est pourquoi je propose de...",
-      "Il faut que nous...",
-      "Cette solution permettrait de..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Le problème principal est que nous produisons trop de déchets plastiques. C’est pourquoi je propose d’installer des poubelles de tri sélectif dans toute l’école. Il faut que chaque élève participe pour que cette solution fonctionne vraiment.",
-        "translation": "El problema principal es que producimos demasiados residuos plásticos. Por eso propongo instalar contenedores de reciclaje selectivo en toda la escuela. Es necesario que cada estudiante participe para que esta solución realmente funcione."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris 150 à 200 mots présentant un problème environnemental et une solution, avec cause et conséquence."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-langues-pouvoir-et-inclusion-writing",
     "level": "C1",
     "skill": "writing",
@@ -43548,6 +41817,45 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-environnement-et-consommation-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "environnement-et-consommation",
+    "title": "Une proposition écologique",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 83,
+    "estimatedMinutes": 16,
+    "description": "Écris une proposition pour résoudre un problème environnemental.",
+    "intro": "Écris une proposition pour résoudre un problème environnemental.",
+    "mission": "Écris 150 à 200 mots présentant un problème environnemental et une solution concrète, en utilisant cause et conséquence.",
+    "grammar": "",
+    "phrases": [
+      "Le problème principal est que...",
+      "C’est pourquoi je propose de...",
+      "Il faut que nous...",
+      "Cette solution permettrait de..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Le problème principal est que nous produisons trop de déchets plastiques. C’est pourquoi je propose d’installer des poubelles de tri sélectif dans toute l’école. Il faut que chaque élève participe pour que cette solution fonctionne vraiment.",
+        "translation": "El problema principal es que producimos demasiados residuos plásticos. Por eso propongo instalar contenedores de reciclaje selectivo en toda la escuela. Es necesario que cada estudiante participe para que esta solución realmente funcione."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris 150 à 200 mots présentant un problème environnemental et une solution, avec cause et conséquence."
       }
     ]
   },
@@ -44167,339 +42475,6 @@
           "plus",
           "que"
         ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-environnement-et-consommation-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "environnement-et-consommation",
-    "title": "Cause et conséquence : parce que, c’est pourquoi",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 84,
-    "estimatedMinutes": 12,
-    "description": "Exprimer une cause et sa conséquence dans un texte argumentatif.",
-    "intro": "Exprimer une cause et sa conséquence dans un texte argumentatif.",
-    "mission": "",
-    "grammar": "« Parce que » introduit une cause (répond à « pourquoi ? ») : « On recycle parce que c’est important pour la planète. » « C’est pourquoi » introduit une conséquence : « Nous produisons trop de déchets, c’est pourquoi nous devons agir. »",
-    "phrases": [
-      "... parce que...",
-      "C’est pourquoi...",
-      "... donc...",
-      "... c’est la raison pour laquelle..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b1-environnement-et-consommation-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b1-environnement-et-consommation-grammar-q1",
-            "type": "mcq",
-            "prompt": "On recycle ___ c’est important pour la planète.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "parce que"
-              },
-              {
-                "id": "b",
-                "text": "c’est pourquoi"
-              },
-              {
-                "id": "c",
-                "text": "donc"
-              },
-              {
-                "id": "d",
-                "text": "alors que"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-environnement-et-consommation-grammar-q2",
-            "type": "mcq",
-            "prompt": "Nous produisons trop de déchets, ___ nous devons agir.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "parce que"
-              },
-              {
-                "id": "b",
-                "text": "c’est pourquoi"
-              },
-              {
-                "id": "c",
-                "text": "bien que"
-              },
-              {
-                "id": "d",
-                "text": "tandis que"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-environnement-et-consommation-grammar-q3",
-            "type": "mcq",
-            "prompt": "Quelle expression introduit une conséquence ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Parce que"
-              },
-              {
-                "id": "c",
-                "text": "Bien que"
-              },
-              {
-                "id": "b",
-                "text": "C’est pourquoi"
-              },
-              {
-                "id": "d",
-                "text": "Tandis que"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-environnement-et-consommation-grammar-q4",
-            "type": "mcq",
-            "prompt": "Il faut trier les déchets ___ ça aide l’environnement.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "b",
-                "text": "c’est pourquoi"
-              },
-              {
-                "id": "c",
-                "text": "cependant"
-              },
-              {
-                "id": "d",
-                "text": "or"
-              },
-              {
-                "id": "a",
-                "text": "parce que"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-environnement-et-consommation-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « On recycle c’est pourquoi c’est important pour la planète. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "On recycle parce que c’est important pour la planète."
-              },
-              {
-                "id": "b",
-                "text": "On recycle c’est pourquoi c’est important pour la planète."
-              },
-              {
-                "id": "c",
-                "text": "On recycle donc c’est important pour la planète."
-              },
-              {
-                "id": "d",
-                "text": "On recycle alors que c’est important pour la planète."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-environnement-et-consommation-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Nous produisons trop de déchets, parce que nous devons agir. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Nous produisons trop de déchets, parce que nous devons agir."
-              },
-              {
-                "id": "b",
-                "text": "Nous produisons trop de déchets, c’est pourquoi nous devons agir."
-              },
-              {
-                "id": "c",
-                "text": "Nous produisons trop de déchets, bien que nous devons agir."
-              },
-              {
-                "id": "d",
-                "text": "Nous produisons trop de déchets, tandis que nous devons agir."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-environnement-et-consommation-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quelle expression introduit une conséquence ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Parce que"
-              },
-              {
-                "id": "c",
-                "text": "Bien que"
-              },
-              {
-                "id": "b",
-                "text": "C’est pourquoi"
-              },
-              {
-                "id": "d",
-                "text": "Tandis que"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-environnement-et-consommation-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Il faut trier les déchets c’est pourquoi ça aide l’environnement. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Il faut trier les déchets c’est pourquoi ça aide l’environnement."
-              },
-              {
-                "id": "c",
-                "text": "Il faut trier les déchets cependant ça aide l’environnement."
-              },
-              {
-                "id": "d",
-                "text": "Il faut trier les déchets or ça aide l’environnement."
-              },
-              {
-                "id": "a",
-                "text": "Il faut trier les déchets parce que ça aide l’environnement."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Cause et conséquence : parce que, c’est pourquoi",
-        "definition": "« Parce que » introduit une cause (répond à « pourquoi ? ») : « On recycle parce que c’est important pour la planète. » « C’est pourquoi » introduit une conséquence : « Nous produisons trop de déchets, c’est pourquoi nous devons agir. »",
-        "structure": "Forme à observer : Cause et conséquence : parce que, c’est pourquoi. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Exprimer une cause et sa conséquence dans un texte argumentatif.",
-        "examples": [
-          "On recycle parce que c’est important pour la planète.",
-          "Nous produisons trop de déchets, c’est pourquoi nous devons agir.",
-          "C’est pourquoi",
-          "Il faut trier les déchets parce que ça aide l’environnement."
-        ],
-        "explanation": "« Parce que » introduit une cause (répond à « pourquoi ? ») : « On recycle parce que c’est important pour la planète. » « C’est pourquoi » introduit une conséquence : « Nous produisons trop de déchets, c’est pourquoi nous devons agir. »",
-        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
-        "cefrLevel": "B1",
-        "unitContext": "Exprimer une cause et sa conséquence dans un texte argumentatif."
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "On recycle ___ c’est important pour la planète.",
-        "options": [
-          "parce que",
-          "c’est pourquoi",
-          "donc",
-          "alors que"
-        ],
-        "explanation": "La bonne réponse est « parce que » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Nous produisons trop de déchets, ___ nous devons agir.",
-        "options": [
-          "parce que",
-          "c’est pourquoi",
-          "bien que",
-          "tandis que"
-        ],
-        "explanation": "La bonne réponse est « c’est pourquoi » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle expression introduit une conséquence ?",
-        "options": [
-          "Parce que",
-          "Bien que",
-          "C’est pourquoi",
-          "Tandis que"
-        ],
-        "explanation": "La bonne réponse est « C’est pourquoi » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Il faut trier les déchets ___ ça aide l’environnement.",
-        "options": [
-          "c’est pourquoi",
-          "cependant",
-          "or",
-          "parce que"
-        ],
-        "explanation": "La bonne réponse est « parce que » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « On recycle c’est pourquoi c’est important pour la planète. » ?",
-        "options": [
-          "On recycle parce que c’est important pour la planète.",
-          "On recycle c’est pourquoi c’est important pour la planète.",
-          "On recycle donc c’est important pour la planète.",
-          "On recycle alors que c’est important pour la planète."
-        ],
-        "explanation": "La phrase correcte est : « On recycle parce que c’est important pour la planète. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Nous produisons trop de déchets, parce que nous devons agir. » ?",
-        "options": [
-          "Nous produisons trop de déchets, parce que nous devons agir.",
-          "Nous produisons trop de déchets, c’est pourquoi nous devons agir.",
-          "Nous produisons trop de déchets, bien que nous devons agir.",
-          "Nous produisons trop de déchets, tandis que nous devons agir."
-        ],
-        "explanation": "La phrase correcte est : « Nous produisons trop de déchets, c’est pourquoi nous devons agir. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quelle expression introduit une conséquence ? » ?",
-        "options": [
-          "Parce que",
-          "Bien que",
-          "C’est pourquoi",
-          "Tandis que"
-        ],
-        "explanation": "La bonne réponse est « C’est pourquoi »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Il faut trier les déchets c’est pourquoi ça aide l’environnement. » ?",
-        "options": [
-          "Il faut trier les déchets c’est pourquoi ça aide l’environnement.",
-          "Il faut trier les déchets cependant ça aide l’environnement.",
-          "Il faut trier les déchets or ça aide l’environnement.",
-          "Il faut trier les déchets parce que ça aide l’environnement."
-        ],
-        "explanation": "La phrase correcte est : « Il faut trier les déchets parce que ça aide l’environnement. »"
       }
     ]
   },
@@ -45167,6 +43142,339 @@
     ]
   },
   {
+    "slug": "french-b1-environnement-et-consommation-grammar",
+    "level": "B1",
+    "skill": "grammar",
+    "unitId": "environnement-et-consommation",
+    "title": "Cause et conséquence : parce que, c’est pourquoi",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 84,
+    "estimatedMinutes": 12,
+    "description": "Exprimer une cause et sa conséquence dans un texte argumentatif.",
+    "intro": "Exprimer une cause et sa conséquence dans un texte argumentatif.",
+    "mission": "",
+    "grammar": "« Parce que » introduit une cause (répond à « pourquoi ? ») : « On recycle parce que c’est important pour la planète. » « C’est pourquoi » introduit une conséquence : « Nous produisons trop de déchets, c’est pourquoi nous devons agir. »",
+    "phrases": [
+      "... parce que...",
+      "C’est pourquoi...",
+      "... donc...",
+      "... c’est la raison pour laquelle..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b1-environnement-et-consommation-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b1-environnement-et-consommation-grammar-q1",
+            "type": "mcq",
+            "prompt": "On recycle ___ c’est important pour la planète.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "parce que"
+              },
+              {
+                "id": "b",
+                "text": "c’est pourquoi"
+              },
+              {
+                "id": "c",
+                "text": "donc"
+              },
+              {
+                "id": "d",
+                "text": "alors que"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-environnement-et-consommation-grammar-q2",
+            "type": "mcq",
+            "prompt": "Nous produisons trop de déchets, ___ nous devons agir.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "parce que"
+              },
+              {
+                "id": "b",
+                "text": "c’est pourquoi"
+              },
+              {
+                "id": "c",
+                "text": "bien que"
+              },
+              {
+                "id": "d",
+                "text": "tandis que"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-environnement-et-consommation-grammar-q3",
+            "type": "mcq",
+            "prompt": "Quelle expression introduit une conséquence ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Parce que"
+              },
+              {
+                "id": "c",
+                "text": "Bien que"
+              },
+              {
+                "id": "b",
+                "text": "C’est pourquoi"
+              },
+              {
+                "id": "d",
+                "text": "Tandis que"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-environnement-et-consommation-grammar-q4",
+            "type": "mcq",
+            "prompt": "Il faut trier les déchets ___ ça aide l’environnement.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "b",
+                "text": "c’est pourquoi"
+              },
+              {
+                "id": "c",
+                "text": "cependant"
+              },
+              {
+                "id": "d",
+                "text": "or"
+              },
+              {
+                "id": "a",
+                "text": "parce que"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-environnement-et-consommation-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « On recycle c’est pourquoi c’est important pour la planète. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "On recycle parce que c’est important pour la planète."
+              },
+              {
+                "id": "b",
+                "text": "On recycle c’est pourquoi c’est important pour la planète."
+              },
+              {
+                "id": "c",
+                "text": "On recycle donc c’est important pour la planète."
+              },
+              {
+                "id": "d",
+                "text": "On recycle alors que c’est important pour la planète."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-environnement-et-consommation-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Nous produisons trop de déchets, parce que nous devons agir. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Nous produisons trop de déchets, parce que nous devons agir."
+              },
+              {
+                "id": "b",
+                "text": "Nous produisons trop de déchets, c’est pourquoi nous devons agir."
+              },
+              {
+                "id": "c",
+                "text": "Nous produisons trop de déchets, bien que nous devons agir."
+              },
+              {
+                "id": "d",
+                "text": "Nous produisons trop de déchets, tandis que nous devons agir."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-environnement-et-consommation-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quelle expression introduit une conséquence ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Parce que"
+              },
+              {
+                "id": "c",
+                "text": "Bien que"
+              },
+              {
+                "id": "b",
+                "text": "C’est pourquoi"
+              },
+              {
+                "id": "d",
+                "text": "Tandis que"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-environnement-et-consommation-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Il faut trier les déchets c’est pourquoi ça aide l’environnement. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Il faut trier les déchets c’est pourquoi ça aide l’environnement."
+              },
+              {
+                "id": "c",
+                "text": "Il faut trier les déchets cependant ça aide l’environnement."
+              },
+              {
+                "id": "d",
+                "text": "Il faut trier les déchets or ça aide l’environnement."
+              },
+              {
+                "id": "a",
+                "text": "Il faut trier les déchets parce que ça aide l’environnement."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Cause et conséquence : parce que, c’est pourquoi",
+        "definition": "« Parce que » introduit une cause (répond à « pourquoi ? ») : « On recycle parce que c’est important pour la planète. » « C’est pourquoi » introduit une conséquence : « Nous produisons trop de déchets, c’est pourquoi nous devons agir. »",
+        "explanation": "« Parce que » introduit une cause (répond à « pourquoi ? ») : « On recycle parce que c’est important pour la planète. » « C’est pourquoi » introduit une conséquence : « Nous produisons trop de déchets, c’est pourquoi nous devons agir. »",
+        "structure": "Estructura central: Cause et conséquence : parce que, c’est pourquoi.",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "function": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Exprimer une cause et sa conséquence dans un texte argumentatif.",
+        "examples": [
+          "On recycle parce que c’est important pour la planète.",
+          "Nous produisons trop de déchets, c’est pourquoi nous devons agir.",
+          "C’est pourquoi",
+          "Il faut trier les déchets parce que ça aide l’environnement."
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "On recycle ___ c’est important pour la planète.",
+        "options": [
+          "parce que",
+          "c’est pourquoi",
+          "donc",
+          "alors que"
+        ],
+        "explanation": "La bonne réponse est « parce que » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Nous produisons trop de déchets, ___ nous devons agir.",
+        "options": [
+          "parce que",
+          "c’est pourquoi",
+          "bien que",
+          "tandis que"
+        ],
+        "explanation": "La bonne réponse est « c’est pourquoi » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle expression introduit une conséquence ?",
+        "options": [
+          "Parce que",
+          "C’est pourquoi",
+          "Bien que",
+          "Tandis que"
+        ],
+        "explanation": "La bonne réponse est « C’est pourquoi » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Il faut trier les déchets ___ ça aide l’environnement.",
+        "options": [
+          "parce que",
+          "c’est pourquoi",
+          "cependant",
+          "or"
+        ],
+        "explanation": "La bonne réponse est « parce que » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « On recycle c’est pourquoi c’est important pour la planète. » ?",
+        "options": [
+          "On recycle parce que c’est important pour la planète.",
+          "On recycle c’est pourquoi c’est important pour la planète.",
+          "On recycle donc c’est important pour la planète.",
+          "On recycle alors que c’est important pour la planète."
+        ],
+        "explanation": "La phrase correcte est : « On recycle parce que c’est important pour la planète. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Nous produisons trop de déchets, parce que nous devons agir. » ?",
+        "options": [
+          "Nous produisons trop de déchets, parce que nous devons agir.",
+          "Nous produisons trop de déchets, c’est pourquoi nous devons agir.",
+          "Nous produisons trop de déchets, bien que nous devons agir.",
+          "Nous produisons trop de déchets, tandis que nous devons agir."
+        ],
+        "explanation": "La phrase correcte est : « Nous produisons trop de déchets, c’est pourquoi nous devons agir. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quelle expression introduit une conséquence ? » ?",
+        "options": [
+          "Parce que",
+          "C’est pourquoi",
+          "Bien que",
+          "Tandis que"
+        ],
+        "explanation": "La bonne réponse est « C’est pourquoi »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il faut trier les déchets c’est pourquoi ça aide l’environnement. » ?",
+        "options": [
+          "Il faut trier les déchets parce que ça aide l’environnement.",
+          "Il faut trier les déchets c’est pourquoi ça aide l’environnement.",
+          "Il faut trier les déchets cependant ça aide l’environnement.",
+          "Il faut trier les déchets or ça aide l’environnement."
+        ],
+        "explanation": "La phrase correcte est : « Il faut trier les déchets parce que ça aide l’environnement. »"
+      }
+    ]
+  },
+  {
     "slug": "french-b2-sciences-et-innovations-grammar",
     "level": "B2",
     "skill": "grammar",
@@ -45393,18 +43701,18 @@
       "grammarProfile": {
         "name": "Le subjonctif d’incertitude et les connecteurs de cause avancés",
         "definition": "« Il est possible que » et « il se peut que » introduisent le subjonctif pour exprimer une incertitude : « Il se peut que ce métier disparaisse. » « Étant donné que » et « dans la mesure où » introduisent une cause, suivies de l’indicatif : « Étant donné que la technologie évolue vite, il faut s’adapter. »",
-        "structure": "Forme à observer : Le subjonctif d’incertitude et les connecteurs de cause avancés. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Exprimer une incertitude scientifique et utiliser étant donné que/dans la mesure où.",
+        "explanation": "« Il est possible que » et « il se peut que » introduisent le subjonctif pour exprimer une incertitude : « Il se peut que ce métier disparaisse. » « Étant donné que » et « dans la mesure où » introduisent une cause, suivies de l’indicatif : « Étant donné que la technologie évolue vite, il faut s’adapter. »",
+        "structure": "Estructura central: Le subjonctif d’incertitude et les connecteurs de cause avancés.",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "function": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Exprimer une incertitude scientifique et utiliser étant donné que/dans la mesure où.",
         "examples": [
           "Il se peut que certains métiers disparaissent dans le futur.",
           "Étant donné que cette technologie évolue rapidement, il faut rester informé.",
           "Il est possible que tu aies raison sur ce point.",
           "Dans la mesure où"
-        ],
-        "explanation": "« Il est possible que » et « il se peut que » introduisent le subjonctif pour exprimer une incertitude : « Il se peut que ce métier disparaisse. » « Étant donné que » et « dans la mesure où » introduisent une cause, suivies de l’indicatif : « Étant donné que la technologie évolue vite, il faut s’adapter. »",
-        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
-        "cefrLevel": "B2",
-        "unitContext": "Exprimer une incertitude scientifique et utiliser étant donné que/dans la mesure où."
+        ]
       },
       "listeningComprehension": null
     },
@@ -45424,8 +43732,8 @@
         "type": "mcq",
         "prompt": "___ cette technologie évolue rapidement, il faut rester informé.",
         "options": [
-          "Bien que",
           "Étant donné que",
+          "Bien que",
           "Pour que",
           "Sans que"
         ],
@@ -45436,8 +43744,8 @@
         "prompt": "Il est possible que tu ___ raison sur ce point.",
         "options": [
           "as",
-          "auras",
           "aies",
+          "auras",
           "avais"
         ],
         "explanation": "La bonne réponse est « aies » : elle respecte la structure étudiée dans cette leçon."
@@ -45448,8 +43756,8 @@
         "options": [
           "Il est possible que",
           "Il se peut que",
-          "Il n’est pas certain que",
-          "Dans la mesure où"
+          "Dans la mesure où",
+          "Il n’est pas certain que"
         ],
         "explanation": "La bonne réponse est « Dans la mesure où » : elle respecte la structure étudiée dans cette leçon."
       },
@@ -45468,8 +43776,8 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Bien que cette technologie évolue rapidement, il faut rester informé. » ?",
         "options": [
-          "Bien que cette technologie évolue rapidement, il faut rester informé.",
           "Étant donné que cette technologie évolue rapidement, il faut rester informé.",
+          "Bien que cette technologie évolue rapidement, il faut rester informé.",
           "Pour que cette technologie évolue rapidement, il faut rester informé.",
           "Sans que cette technologie évolue rapidement, il faut rester informé."
         ],
@@ -45480,8 +43788,8 @@
         "prompt": "Quelle version corrige entièrement la phrase « Il est possible que tu as raison sur ce point. » ?",
         "options": [
           "Il est possible que tu as raison sur ce point.",
-          "Il est possible que tu auras raison sur ce point.",
           "Il est possible que tu aies raison sur ce point.",
+          "Il est possible que tu auras raison sur ce point.",
           "Il est possible que tu avais raison sur ce point."
         ],
         "explanation": "La phrase correcte est : « Il est possible que tu aies raison sur ce point. »"
@@ -45492,8 +43800,8 @@
         "options": [
           "Il est possible que",
           "Il se peut que",
-          "Il n’est pas certain que",
-          "Dans la mesure où"
+          "Dans la mesure où",
+          "Il n’est pas certain que"
         ],
         "explanation": "La bonne réponse est « Dans la mesure où »."
       }
@@ -45695,86 +44003,6 @@
           "El piso",
           "La ciudad",
           "El país"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-environnement-et-consommation-vocabulary",
-    "level": "B1",
-    "skill": "vocabulary",
-    "unitId": "environnement-et-consommation",
-    "title": "Le vocabulaire de l’environnement",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 85,
-    "estimatedMinutes": 8,
-    "description": "Le vocabulaire essentiel pour parler de l’environnement et de la consommation responsable.",
-    "intro": "Le vocabulaire essentiel pour parler de l’environnement et de la consommation responsable.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "le recyclage",
-        "translation": "el reciclaje",
-        "example": "Le recyclage aide à protéger l’environnement."
-      },
-      {
-        "word": "les déchets",
-        "translation": "los desechos",
-        "example": "Nous produisons trop de déchets à la cantine."
-      },
-      {
-        "word": "l’environnement",
-        "translation": "el medioambiente",
-        "example": "Il faut protéger l’environnement."
-      },
-      {
-        "word": "réduire",
-        "translation": "reducir",
-        "example": "Nous devons réduire notre consommation de plastique."
-      },
-      {
-        "word": "une gourde réutilisable",
-        "translation": "una botella reutilizable",
-        "example": "J’utilise une gourde réutilisable tous les jours."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « le recyclage » ?",
-        "options": [
-          "El reciclaje",
-          "La basura",
-          "El agua",
-          "El aire"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « réduire » ?",
-        "options": [
-          "Aumentar",
-          "Reducir",
-          "Comprar",
-          "Vender"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « les déchets » ?",
-        "options": [
-          "Los desechos",
-          "Los recursos",
-          "Los productos",
-          "Los envases"
         ]
       }
     ]
@@ -46270,6 +44498,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-environnement-et-consommation-vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unitId": "environnement-et-consommation",
+    "title": "Le vocabulaire de l’environnement",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 85,
+    "estimatedMinutes": 8,
+    "description": "Le vocabulaire essentiel pour parler de l’environnement et de la consommation responsable.",
+    "intro": "Le vocabulaire essentiel pour parler de l’environnement et de la consommation responsable.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "le recyclage",
+        "translation": "el reciclaje",
+        "example": "Le recyclage aide à protéger l’environnement."
+      },
+      {
+        "word": "les déchets",
+        "translation": "los desechos",
+        "example": "Nous produisons trop de déchets à la cantine."
+      },
+      {
+        "word": "l’environnement",
+        "translation": "el medioambiente",
+        "example": "Il faut protéger l’environnement."
+      },
+      {
+        "word": "réduire",
+        "translation": "reducir",
+        "example": "Nous devons réduire notre consommation de plastique."
+      },
+      {
+        "word": "une gourde réutilisable",
+        "translation": "una botella reutilizable",
+        "example": "J’utilise une gourde réutilisable tous les jours."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « le recyclage » ?",
+        "options": [
+          "El reciclaje",
+          "La basura",
+          "El agua",
+          "El aire"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « réduire » ?",
+        "options": [
+          "Aumentar",
+          "Reducir",
+          "Comprar",
+          "Vender"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « les déchets » ?",
+        "options": [
+          "Los desechos",
+          "Los recursos",
+          "Los productos",
+          "Los envases"
+        ]
       }
     ]
   },
@@ -46869,96 +45177,6 @@
     ]
   },
   {
-    "slug": "french-b1-medias-et-information-reading",
-    "level": "B1",
-    "skill": "reading",
-    "unitId": "medias-et-information",
-    "title": "Vérifier avant de partager",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 90,
-    "estimatedMinutes": 15,
-    "description": "Les réflexes utiles face à une information en ligne, selon les journalistes spécialisés en vérification des faits.",
-    "intro": "Les réflexes utiles face à une information en ligne, selon les journalistes spécialisés en vérification des faits.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Vérifier avant de partager",
-      "parts": [
-        "En une seule journée, une photo présentée comme récente peut être partagée des dizaines de milliers de fois avant qu’un vérificateur ne découvre qu’elle date en réalité de plusieurs années. AFP Factuel, l’un des principaux services de vérification des faits en France, traite chaque semaine des centaines de signalements de ce type : une image authentique, mais sortie de son contexte d’origine, dont le sens a été complètement modifié par la légende qui l’accompagne.",
-        "Les vérificateurs expliquent qu’une information circule d’autant plus vite qu’elle provoque une émotion forte, c’est-à-dire la surprise, la colère ou la peur. Avant de partager un contenu, il est donc utile de vérifier la date de publication, l’auteur et la source originale. Une organisation de vérification a récemment indiqué que le nombre de signalements douteux avait presque triplé pendant les périodes électorales, ce qui confirme que la désinformation suit généralement l’actualité la plus sensible.",
-        "Les plateformes numériques ont mis en place des outils pour limiter cette propagation : des étiquettes signalant un contenu contesté, ou des liens automatiques vers des sources fiables. Ces outils ne suffisent cependant pas, en effet, car les formes de désinformation évoluent constamment pour les contourner, notamment grâce à des images générées par intelligence artificielle, de plus en plus difficiles à distinguer d’une photo réelle.",
-        "Un journaliste spécialisé en vérification a expliqué qu’il valait mieux douter d’abord et vérifier ensuite, plutôt que de partager immédiatement par réflexe. Ce doute méthodique, disait-il, n’est pas un manque de confiance envers l’information en général, mais une habitude de prudence, comparable au réflexe de regarder à gauche et à droite avant de traverser une rue."
-      ],
-      "questions": [
-        "Que traite AFP Factuel chaque semaine, selon le texte ?",
-        "Pourquoi une image authentique peut-elle induire en erreur, selon le texte ?",
-        "Que confirme la hausse des signalements douteux pendant les périodes électorales, selon le texte ?",
-        "Pourquoi les outils automatiques des plateformes ne suffisent-ils pas, selon le texte ?",
-        "Que recommande le journaliste spécialisé en vérification cité à la fin du texte ?"
-      ],
-      "text": "En une seule journée, une photo présentée comme récente peut être partagée des dizaines de milliers de fois avant qu’un vérificateur ne découvre qu’elle date en réalité de plusieurs années. AFP Factuel, l’un des principaux services de vérification des faits en France, traite chaque semaine des centaines de signalements de ce type : une image authentique, mais sortie de son contexte d’origine, dont le sens a été complètement modifié par la légende qui l’accompagne.\n\nLes vérificateurs expliquent qu’une information circule d’autant plus vite qu’elle provoque une émotion forte, c’est-à-dire la surprise, la colère ou la peur. Avant de partager un contenu, il est donc utile de vérifier la date de publication, l’auteur et la source originale. Une organisation de vérification a récemment indiqué que le nombre de signalements douteux avait presque triplé pendant les périodes électorales, ce qui confirme que la désinformation suit généralement l’actualité la plus sensible.\n\nLes plateformes numériques ont mis en place des outils pour limiter cette propagation : des étiquettes signalant un contenu contesté, ou des liens automatiques vers des sources fiables. Ces outils ne suffisent cependant pas, en effet, car les formes de désinformation évoluent constamment pour les contourner, notamment grâce à des images générées par intelligence artificielle, de plus en plus difficiles à distinguer d’une photo réelle.\n\nUn journaliste spécialisé en vérification a expliqué qu’il valait mieux douter d’abord et vérifier ensuite, plutôt que de partager immédiatement par réflexe. Ce doute méthodique, disait-il, n’est pas un manque de confiance envers l’information en général, mais une habitude de prudence, comparable au réflexe de regarder à gauche et à droite avant de traverser une rue."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que traite AFP Factuel chaque semaine, selon le texte ?",
-        "options": [
-          "Des centaines de signalements de contenus douteux",
-          "Uniquement des articles sportifs",
-          "Des publicités",
-          "Rien de particulier"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi une image authentique peut-elle induire en erreur, selon le texte ?",
-        "options": [
-          "Parce qu’elle est sortie de son contexte et sa légende en modifie le sens",
-          "Parce qu’elle est toujours truquée",
-          "Parce qu’elle n’a jamais existé",
-          "Parce que les vérificateurs la refusent systématiquement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que confirme la hausse des signalements douteux pendant les périodes électorales, selon le texte ?",
-        "options": [
-          "Que la désinformation suit l’actualité la plus sensible",
-          "Que les élections n’intéressent personne",
-          "Que les vérificateurs travaillent moins pendant ces périodes",
-          "Que les images sont toujours fausses pendant les élections"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi les outils automatiques des plateformes ne suffisent-ils pas, selon le texte ?",
-        "options": [
-          "Parce que les formes de désinformation évoluent pour les contourner, notamment via l’intelligence artificielle",
-          "Parce qu’ils sont trop chers",
-          "Parce que personne ne les active",
-          "Parce qu’ils bloquent tous les contenus, y compris les vrais"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que recommande le journaliste spécialisé en vérification cité à la fin du texte ?",
-        "options": [
-          "Partager immédiatement par réflexe",
-          "Douter d’abord et vérifier ensuite, avant de partager",
-          "Ne jamais faire confiance à aucune source",
-          "Ignorer complètement les réseaux sociaux"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-science-doute-et-esprit-critique-reading",
     "level": "C1",
     "skill": "reading",
@@ -47179,6 +45397,96 @@
           "L’interdiction de toute migration économique"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « Les frontières peuvent-elles contenir des mouvements structurels ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-medias-et-information-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "medias-et-information",
+    "title": "Vérifier avant de partager",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 90,
+    "estimatedMinutes": 15,
+    "description": "Les réflexes utiles face à une information en ligne, selon les journalistes spécialisés en vérification des faits.",
+    "intro": "Les réflexes utiles face à une information en ligne, selon les journalistes spécialisés en vérification des faits.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Vérifier avant de partager",
+      "parts": [
+        "En une seule journée, une photo présentée comme récente peut être partagée des dizaines de milliers de fois avant qu’un vérificateur ne découvre qu’elle date en réalité de plusieurs années. AFP Factuel, l’un des principaux services de vérification des faits en France, traite chaque semaine des centaines de signalements de ce type : une image authentique, mais sortie de son contexte d’origine, dont le sens a été complètement modifié par la légende qui l’accompagne.",
+        "Les vérificateurs expliquent qu’une information circule d’autant plus vite qu’elle provoque une émotion forte, c’est-à-dire la surprise, la colère ou la peur. Avant de partager un contenu, il est donc utile de vérifier la date de publication, l’auteur et la source originale. Une organisation de vérification a récemment indiqué que le nombre de signalements douteux avait presque triplé pendant les périodes électorales, ce qui confirme que la désinformation suit généralement l’actualité la plus sensible.",
+        "Les plateformes numériques ont mis en place des outils pour limiter cette propagation : des étiquettes signalant un contenu contesté, ou des liens automatiques vers des sources fiables. Ces outils ne suffisent cependant pas, en effet, car les formes de désinformation évoluent constamment pour les contourner, notamment grâce à des images générées par intelligence artificielle, de plus en plus difficiles à distinguer d’une photo réelle.",
+        "Un journaliste spécialisé en vérification a expliqué qu’il valait mieux douter d’abord et vérifier ensuite, plutôt que de partager immédiatement par réflexe. Ce doute méthodique, disait-il, n’est pas un manque de confiance envers l’information en général, mais une habitude de prudence, comparable au réflexe de regarder à gauche et à droite avant de traverser une rue."
+      ],
+      "questions": [
+        "Que traite AFP Factuel chaque semaine, selon le texte ?",
+        "Pourquoi une image authentique peut-elle induire en erreur, selon le texte ?",
+        "Que confirme la hausse des signalements douteux pendant les périodes électorales, selon le texte ?",
+        "Pourquoi les outils automatiques des plateformes ne suffisent-ils pas, selon le texte ?",
+        "Que recommande le journaliste spécialisé en vérification cité à la fin du texte ?"
+      ],
+      "text": "En une seule journée, une photo présentée comme récente peut être partagée des dizaines de milliers de fois avant qu’un vérificateur ne découvre qu’elle date en réalité de plusieurs années. AFP Factuel, l’un des principaux services de vérification des faits en France, traite chaque semaine des centaines de signalements de ce type : une image authentique, mais sortie de son contexte d’origine, dont le sens a été complètement modifié par la légende qui l’accompagne.\n\nLes vérificateurs expliquent qu’une information circule d’autant plus vite qu’elle provoque une émotion forte, c’est-à-dire la surprise, la colère ou la peur. Avant de partager un contenu, il est donc utile de vérifier la date de publication, l’auteur et la source originale. Une organisation de vérification a récemment indiqué que le nombre de signalements douteux avait presque triplé pendant les périodes électorales, ce qui confirme que la désinformation suit généralement l’actualité la plus sensible.\n\nLes plateformes numériques ont mis en place des outils pour limiter cette propagation : des étiquettes signalant un contenu contesté, ou des liens automatiques vers des sources fiables. Ces outils ne suffisent cependant pas, en effet, car les formes de désinformation évoluent constamment pour les contourner, notamment grâce à des images générées par intelligence artificielle, de plus en plus difficiles à distinguer d’une photo réelle.\n\nUn journaliste spécialisé en vérification a expliqué qu’il valait mieux douter d’abord et vérifier ensuite, plutôt que de partager immédiatement par réflexe. Ce doute méthodique, disait-il, n’est pas un manque de confiance envers l’information en général, mais une habitude de prudence, comparable au réflexe de regarder à gauche et à droite avant de traverser une rue."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que traite AFP Factuel chaque semaine, selon le texte ?",
+        "options": [
+          "Des centaines de signalements de contenus douteux",
+          "Uniquement des articles sportifs",
+          "Des publicités",
+          "Rien de particulier"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Pourquoi une image authentique peut-elle induire en erreur, selon le texte ?",
+        "options": [
+          "Parce qu’elle est sortie de son contexte et sa légende en modifie le sens",
+          "Parce qu’elle est toujours truquée",
+          "Parce qu’elle n’a jamais existé",
+          "Parce que les vérificateurs la refusent systématiquement"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que confirme la hausse des signalements douteux pendant les périodes électorales, selon le texte ?",
+        "options": [
+          "Que la désinformation suit l’actualité la plus sensible",
+          "Que les élections n’intéressent personne",
+          "Que les vérificateurs travaillent moins pendant ces périodes",
+          "Que les images sont toujours fausses pendant les élections"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Pourquoi les outils automatiques des plateformes ne suffisent-ils pas, selon le texte ?",
+        "options": [
+          "Parce que les formes de désinformation évoluent pour les contourner, notamment via l’intelligence artificielle",
+          "Parce qu’ils sont trop chers",
+          "Parce que personne ne les active",
+          "Parce qu’ils bloquent tous les contenus, y compris les vrais"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que recommande le journaliste spécialisé en vérification cité à la fin du texte ?",
+        "options": [
+          "Partager immédiatement par réflexe",
+          "Douter d’abord et vérifier ensuite, avant de partager",
+          "Ne jamais faire confiance à aucune source",
+          "Ignorer complètement les réseaux sociaux"
+        ]
       }
     ]
   },
@@ -47754,256 +46062,6 @@
     ]
   },
   {
-    "slug": "french-b1-medias-et-information-listening",
-    "level": "B1",
-    "skill": "listening",
-    "unitId": "medias-et-information",
-    "title": "Les trois réflexes contre la désinformation",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 91,
-    "estimatedMinutes": 12,
-    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Je doute que...",
-      "Il n’y a pas de source.",
-      "Vérifions sur...",
-      "C’est de la désinformation."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Avant de partager une information, adoptez trois réflexes simples. Premier réflexe : identifiez la source. Un article sérieux indique généralement son auteur, sa date et les documents utilisés. Si ces éléments manquent, soyez prudent. Deuxième réflexe : comparez. Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer. Je doute qu’une information importante soit connue d’un seul compte anonyme. Troisième réflexe : observez les images. Une photo peut être ancienne, modifiée ou sortie de son contexte. Des outils de recherche permettent souvent de retrouver sa première publication. N’oubliez pas non plus que nos émotions influencent nos décisions. Une fausse nouvelle cherche fréquemment à provoquer la peur ou la colère pour être partagée rapidement. Un journaliste a expliqué que la vérification prenait parfois quelques minutes seulement. Ces quelques minutes peuvent éviter de diffuser une erreur. Face à la désinformation, ralentir est déjà une forme de responsabilité.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "tutorial",
-      "storyTitle": "Les trois réflexes contre la désinformation",
-      "mainTranscript": "Avant de partager une information, adoptez trois réflexes simples. Premier réflexe : identifiez la source. Un article sérieux indique généralement son auteur, sa date et les documents utilisés. Si ces éléments manquent, soyez prudent. Deuxième réflexe : comparez. Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer. Je doute qu’une information importante soit connue d’un seul compte anonyme. Troisième réflexe : observez les images. Une photo peut être ancienne, modifiée ou sortie de son contexte. Des outils de recherche permettent souvent de retrouver sa première publication. N’oubliez pas non plus que nos émotions influencent nos décisions. Une fausse nouvelle cherche fréquemment à provoquer la peur ou la colère pour être partagée rapidement. Un journaliste a expliqué que la vérification prenait parfois quelques minutes seulement. Ces quelques minutes peuvent éviter de diffuser une erreur. Face à la désinformation, ralentir est déjà une forme de responsabilité.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Avant de partager une information, adoptez trois réflexes simples."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Premier réflexe : identifiez la source."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Un article sérieux indique généralement son auteur, sa date et les documents utilisés."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Si ces éléments manquent, soyez prudent."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Deuxième réflexe : comparez."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer."
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Je doute qu’une information importante soit connue d’un seul compte anonyme."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "Troisième réflexe : observez les images."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Une photo peut être ancienne, modifiée ou sortie de son contexte."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Des outils de recherche permettent souvent de retrouver sa première publication."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "N’oubliez pas non plus que nos émotions influencent nos décisions."
-        },
-        {
-          "id": "segment-12",
-          "order": 12,
-          "text": "Une fausse nouvelle cherche fréquemment à provoquer la peur ou la colère pour être partagée rapidement."
-        },
-        {
-          "id": "segment-13",
-          "order": 13,
-          "text": "Un journaliste a expliqué que la vérification prenait parfois quelques minutes seulement."
-        },
-        {
-          "id": "segment-14",
-          "order": 14,
-          "text": "Ces quelques minutes peuvent éviter de diffuser une erreur."
-        },
-        {
-          "id": "segment-15",
-          "order": 15,
-          "text": "Face à la désinformation, ralentir est déjà une forme de responsabilité."
-        }
-      ],
-      "listeningComprehension": {
-        "id": "french-b1-medias-et-information-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Les trois réflexes contre la désinformation », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Avant de partager une information, adoptez trois réflexes simples."
-              },
-              {
-                "id": "o2",
-                "text": "Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer."
-              },
-              {
-                "id": "o3",
-                "text": "Des outils de recherche permettent souvent de retrouver sa première publication."
-              },
-              {
-                "id": "o4",
-                "text": "Face à la désinformation, ralentir est déjà une forme de responsabilité."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Avant de partager une information, adoptez trois réflexes simples. », que se passe-t-il ensuite dans « Les trois réflexes contre la désinformation » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Avant de partager une information, adoptez trois réflexes simples."
-              },
-              {
-                "id": "o2",
-                "text": "Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer."
-              },
-              {
-                "id": "o3",
-                "text": "Des outils de recherche permettent souvent de retrouver sa première publication."
-              },
-              {
-                "id": "o4",
-                "text": "Face à la désinformation, ralentir est déjà une forme de responsabilité."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Les trois réflexes contre la désinformation » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Avant de partager une information, adoptez trois réflexes simples."
-              },
-              {
-                "id": "o2",
-                "text": "Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer."
-              },
-              {
-                "id": "o3",
-                "text": "Des outils de recherche permettent souvent de retrouver sa première publication."
-              },
-              {
-                "id": "o4",
-                "text": "Face à la désinformation, ralentir est déjà une forme de responsabilité."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Les trois réflexes contre la désinformation » après « Des outils de recherche permettent souvent de retrouver sa première… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Avant de partager une information, adoptez trois réflexes simples."
-              },
-              {
-                "id": "o2",
-                "text": "Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer."
-              },
-              {
-                "id": "o3",
-                "text": "Des outils de recherche permettent souvent de retrouver sa première publication."
-              },
-              {
-                "id": "o4",
-                "text": "Face à la désinformation, ralentir est déjà une forme de responsabilité."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Les trois réflexes contre la désinformation », quel détail présente la situation ?",
-        "options": [
-          "Avant de partager une information, adoptez trois réflexes simples.",
-          "Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer.",
-          "Des outils de recherche permettent souvent de retrouver sa première publication.",
-          "Face à la désinformation, ralentir est déjà une forme de responsabilité."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Avant de partager une information, adoptez trois réflexes simples. », que se passe-t-il ensuite dans « Les trois réflexes contre la désinformation » ?",
-        "options": [
-          "Avant de partager une information, adoptez trois réflexes simples.",
-          "Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer.",
-          "Des outils de recherche permettent souvent de retrouver sa première publication.",
-          "Face à la désinformation, ralentir est déjà une forme de responsabilité."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Les trois réflexes contre la désinformation » ?",
-        "options": [
-          "Avant de partager une information, adoptez trois réflexes simples.",
-          "Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer.",
-          "Des outils de recherche permettent souvent de retrouver sa première publication.",
-          "Face à la désinformation, ralentir est déjà une forme de responsabilité."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Les trois réflexes contre la désinformation » après « Des outils de recherche permettent souvent de retrouver sa première… » ?",
-        "options": [
-          "Avant de partager une information, adoptez trois réflexes simples.",
-          "Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer.",
-          "Des outils de recherche permettent souvent de retrouver sa première publication.",
-          "Face à la désinformation, ralentir est déjà une forme de responsabilité."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-science-doute-et-esprit-critique-listening",
     "level": "C1",
     "skill": "listening",
@@ -48526,6 +46584,149 @@
     ]
   },
   {
+    "slug": "french-b1-medias-et-information-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "medias-et-information",
+    "title": "Les trois réflexes contre la désinformation",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 91,
+    "estimatedMinutes": 12,
+    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Je doute que...",
+      "Il n’y a pas de source.",
+      "Vérifions sur...",
+      "C’est de la désinformation."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Avant de partager une information, adoptez trois réflexes simples. Premier réflexe : identifiez la source. Un article sérieux indique généralement son auteur, sa date et les documents utilisés. Si ces éléments manquent, soyez prudent. Deuxième réflexe : comparez. Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer. Je doute qu’une information importante soit connue d’un seul compte anonyme. Troisième réflexe : observez les images. Une photo peut être ancienne, modifiée ou sortie de son contexte. Des outils de recherche permettent souvent de retrouver sa première publication. N’oubliez pas non plus que nos émotions influencent nos décisions. Une fausse nouvelle cherche fréquemment à provoquer la peur ou la colère pour être partagée rapidement. Un journaliste a expliqué que la vérification prenait parfois quelques minutes seulement. Ces quelques minutes peuvent éviter de diffuser une erreur. Face à la désinformation, ralentir est déjà une forme de responsabilité.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "tutorial",
+      "storyTitle": "Les trois réflexes contre la désinformation",
+      "mainTranscript": "Avant de partager une information, adoptez trois réflexes simples. Premier réflexe : identifiez la source. Un article sérieux indique généralement son auteur, sa date et les documents utilisés. Si ces éléments manquent, soyez prudent. Deuxième réflexe : comparez. Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer. Je doute qu’une information importante soit connue d’un seul compte anonyme. Troisième réflexe : observez les images. Une photo peut être ancienne, modifiée ou sortie de son contexte. Des outils de recherche permettent souvent de retrouver sa première publication. N’oubliez pas non plus que nos émotions influencent nos décisions. Une fausse nouvelle cherche fréquemment à provoquer la peur ou la colère pour être partagée rapidement. Un journaliste a expliqué que la vérification prenait parfois quelques minutes seulement. Ces quelques minutes peuvent éviter de diffuser une erreur. Face à la désinformation, ralentir est déjà une forme de responsabilité.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Avant de partager une information, adoptez trois réflexes simples."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Premier réflexe : identifiez la source."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Un article sérieux indique généralement son auteur, sa date et les documents utilisés."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Si ces éléments manquent, soyez prudent."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Deuxième réflexe : comparez."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Une publication affirme peut-être qu’un événement exceptionnel a eu lieu, mais d’autres médias fiables doivent pouvoir le confirmer."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Je doute qu’une information importante soit connue d’un seul compte anonyme."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Troisième réflexe : observez les images."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Une photo peut être ancienne, modifiée ou sortie de son contexte."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Des outils de recherche permettent souvent de retrouver sa première publication."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "N’oubliez pas non plus que nos émotions influencent nos décisions."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "Une fausse nouvelle cherche fréquemment à provoquer la peur ou la colère pour être partagée rapidement."
+        },
+        {
+          "id": "segment-13",
+          "order": 13,
+          "text": "Un journaliste a expliqué que la vérification prenait parfois quelques minutes seulement."
+        },
+        {
+          "id": "segment-14",
+          "order": 14,
+          "text": "Ces quelques minutes peuvent éviter de diffuser une erreur."
+        },
+        {
+          "id": "segment-15",
+          "order": 15,
+          "text": "Face à la désinformation, ralentir est déjà une forme de responsabilité."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que prétend l’article ?",
+        "options": [
+          "Qu’un fruit guérit tout",
+          "Qu’il va pleuvoir",
+          "Qu’une école ferme",
+          "Qu’un examen est reporté"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Pourquoi Karim doute-t-il de l’article ?",
+        "options": [
+          "Il n’aime pas les fruits",
+          "Il n’y a pas de source citée",
+          "L’article est trop court",
+          "Il ne l’a pas lu"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que décident de faire Camila et Karim ?",
+        "options": [
+          "Partager l’article",
+          "Vérifier sur un site fiable",
+          "Ignorer le problème",
+          "Croire l’article sans vérifier"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-b2-histoire-et-memoire-listening",
     "level": "B2",
     "skill": "listening",
@@ -48627,145 +46828,38 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "listeningComprehension": {
-        "id": "french-b2-histoire-et-memoire-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « La voix conservée dans une cassette », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
-              },
-              {
-                "id": "o2",
-                "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
-              },
-              {
-                "id": "o3",
-                "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Dans les archives d’une petite ville, une équipe a retrouvé plusieurs… », que se passe-t-il ensuite dans « La voix conservée dans une cassette » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
-              },
-              {
-                "id": "o2",
-                "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
-              },
-              {
-                "id": "o3",
-                "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « La voix conservée dans une cassette » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
-              },
-              {
-                "id": "o2",
-                "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
-              },
-              {
-                "id": "o3",
-                "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « La voix conservée dans une cassette » après « Ce travail montre que la mémoire collective ne se limite pas aux… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt."
-              },
-              {
-                "id": "o2",
-                "text": "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé."
-              },
-              {
-                "id": "o3",
-                "text": "Ce travail montre que la mémoire collective ne se limite pas aux grands événements."
-              },
-              {
-                "id": "o4",
-                "text": "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « La voix conservée dans une cassette », quel détail présente la situation ?",
+        "prompt": "De qui la grand-mère se souvient-elle le mieux ?",
         "options": [
-          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
-          "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.",
-          "Ce travail montre que la mémoire collective ne se limite pas aux grands événements.",
-          "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
+          "De sa propre mère",
+          "De l’arrière-arrière-grand-mère de Camila",
+          "D’une voisine actuelle",
+          "D’une amie d’école"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Dans les archives d’une petite ville, une équipe a retrouvé plusieurs… », que se passe-t-il ensuite dans « La voix conservée dans une cassette » ?",
+        "prompt": "Qu’avait fait cette ancêtre ?",
         "options": [
-          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
-          "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.",
-          "Ce travail montre que la mémoire collective ne se limite pas aux grands événements.",
-          "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
+          "Elle avait voyagé en Europe",
+          "Elle avait accueilli des voisins haïtiens chez elle",
+          "Elle avait écrit un livre",
+          "Elle avait fondé une école"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « La voix conservée dans une cassette » ?",
+        "prompt": "Comment Camila réagit-elle à ce récit ?",
         "options": [
-          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
-          "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.",
-          "Ce travail montre que la mémoire collective ne se limite pas aux grands événements.",
-          "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « La voix conservée dans une cassette » après « Ce travail montre que la mémoire collective ne se limite pas aux… » ?",
-        "options": [
-          "Dans les archives d’une petite ville, une équipe a retrouvé plusieurs cassettes enregistrées dans les années quatre-vingt.",
-          "Elle décrit les fêtes, les difficultés économiques et les réseaux de solidarité auxquels les familles avaient participé.",
-          "Ce travail montre que la mémoire collective ne se limite pas aux grands événements.",
-          "Elle permet au contraire de comparer plusieurs points de vue et de transmettre un héritage plus riche aux générations qui n’ont pas connu cette époque."
+          "Avec indifférence",
+          "Avec gratitude et intérêt",
+          "Avec colère",
+          "Avec incrédulité"
         ]
       }
     ]
@@ -48862,49 +46956,6 @@
       {
         "type": "practice",
         "prompt": "Compare tes préférences avec celles d’un/une camarade et trouvez un point commun."
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-medias-et-information-speaking",
-    "level": "B1",
-    "skill": "speaking",
-    "unitId": "medias-et-information",
-    "title": "Analyser une information",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 92,
-    "estimatedMinutes": 12,
-    "description": "Analyse la fiabilité d’une information et exprime ton opinion.",
-    "intro": "Analyse la fiabilité d’une information et exprime ton opinion.",
-    "mission": "Présente une information (réelle ou fictive) que tu as vue en ligne, et explique comment tu vérifierais si elle est fiable.",
-    "grammar": "",
-    "phrases": [
-      "J’ai vu que...",
-      "Je doute que...",
-      "Il faudrait vérifier si...",
-      "Une source fiable dirait que..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "J’ai vu un article qui dit que... Je doute que ce soit vrai, parce qu’il n’y a pas de source citée. Il faudrait vérifier sur un site officiel.",
-        "translation": "Vi un artículo que dice que... Dudo que sea verdad, porque no hay fuente citada. Habría que verificarlo en un sitio oficial."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Présente une information trouvée en ligne et explique comment vérifier sa fiabilité."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, analysez ensemble un titre d’actualité fictif pour décider s’il semble fiable."
       }
     ]
   },
@@ -49059,6 +47110,49 @@
     ]
   },
   {
+    "slug": "french-b1-medias-et-information-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "medias-et-information",
+    "title": "Analyser une information",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 92,
+    "estimatedMinutes": 12,
+    "description": "Analyse la fiabilité d’une information et exprime ton opinion.",
+    "intro": "Analyse la fiabilité d’une information et exprime ton opinion.",
+    "mission": "Présente une information (réelle ou fictive) que tu as vue en ligne, et explique comment tu vérifierais si elle est fiable.",
+    "grammar": "",
+    "phrases": [
+      "J’ai vu que...",
+      "Je doute que...",
+      "Il faudrait vérifier si...",
+      "Une source fiable dirait que..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "J’ai vu un article qui dit que... Je doute que ce soit vrai, parce qu’il n’y a pas de source citée. Il faudrait vérifier sur un site officiel.",
+        "translation": "Vi un artículo que dice que... Dudo que sea verdad, porque no hay fuente citada. Habría que verificarlo en un sitio oficial."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Présente une information trouvée en ligne et explique comment vérifier sa fiabilité."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, analysez ensemble un titre d’actualité fictif pour décider s’il semble fiable."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-histoire-et-memoire-speaking",
     "level": "B2",
     "skill": "speaking",
@@ -49196,45 +47290,6 @@
     ]
   },
   {
-    "slug": "french-b1-medias-et-information-writing",
-    "level": "B1",
-    "skill": "writing",
-    "unitId": "medias-et-information",
-    "title": "Comment reconnaître une fausse nouvelle",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 93,
-    "estimatedMinutes": 16,
-    "description": "Écris un guide pour aider les autres à reconnaître une fausse information.",
-    "intro": "Écris un guide pour aider les autres à reconnaître une fausse information.",
-    "mission": "Écris 150 à 200 mots expliquant comment reconnaître une fausse information en ligne, avec au moins trois conseils concrets.",
-    "grammar": "",
-    "phrases": [
-      "Il faut vérifier si...",
-      "Une source fiable...",
-      "Je doute que...",
-      "En effet..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Pour reconnaître une fausse information, il faut vérifier si l’article cite un auteur et des sources fiables. Il faut aussi comparer avec d’autres sites d’actualités reconnus. En effet, si aucune autre source ne confirme l’information, il faut douter de sa véracité.",
-        "translation": "Para reconocer una información falsa, hay que verificar si el artículo cita un autor y fuentes fiables. También hay que comparar con otros sitios de noticias reconocidos. En efecto, si ninguna otra fuente confirma la información, hay que dudar de su veracidad."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris 150 à 200 mots avec trois conseils pour reconnaître une fausse information en ligne."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-science-doute-et-esprit-critique-writing",
     "level": "C1",
     "skill": "writing",
@@ -49347,6 +47402,45 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-medias-et-information-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "medias-et-information",
+    "title": "Comment reconnaître une fausse nouvelle",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 93,
+    "estimatedMinutes": 16,
+    "description": "Écris un guide pour aider les autres à reconnaître une fausse information.",
+    "intro": "Écris un guide pour aider les autres à reconnaître une fausse information.",
+    "mission": "Écris 150 à 200 mots expliquant comment reconnaître une fausse information en ligne, avec au moins trois conseils concrets.",
+    "grammar": "",
+    "phrases": [
+      "Il faut vérifier si...",
+      "Une source fiable...",
+      "Je doute que...",
+      "En effet..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Pour reconnaître une fausse information, il faut vérifier si l’article cite un auteur et des sources fiables. Il faut aussi comparer avec d’autres sites d’actualités reconnus. En effet, si aucune autre source ne confirme l’information, il faut douter de sa véracité.",
+        "translation": "Para reconocer una información falsa, hay que verificar si el artículo cita un autor y fuentes fiables. También hay que comparar con otros sitios de noticias reconocidos. En efecto, si ninguna otra fuente confirma la información, hay que dudar de su veracidad."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris 150 à 200 mots avec trois conseils pour reconnaître une fausse information en ligne."
       }
     ]
   },
@@ -49967,339 +48061,6 @@
           "Leur",
           "Les"
         ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-medias-et-information-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "medias-et-information",
-    "title": "Le doute et le discours indirect simple",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 94,
-    "estimatedMinutes": 12,
-    "description": "Exprimer le doute avec le subjonctif et rapporter une information au discours indirect.",
-    "intro": "Exprimer le doute avec le subjonctif et rapporter une information au discours indirect.",
-    "mission": "",
-    "grammar": "« Je doute que » introduit le subjonctif : « Je doute que ce soit vrai. » Le discours indirect rapporte les paroles de quelqu’un sans les citer directement : « Il a dit que le fruit guérissait tout » (au lieu de « Il a dit : \"Le fruit guérit tout.\" »). Au discours indirect présent, le verbe reste souvent au même temps, introduit par « que ».",
-    "phrases": [
-      "Je doute que ce soit...",
-      "Il a dit que...",
-      "Elle pense que...",
-      "En effet, c’est vrai que..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b1-medias-et-information-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b1-medias-et-information-grammar-q1",
-            "type": "mcq",
-            "prompt": "Je doute que cette information ___ vraie.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "soit"
-              },
-              {
-                "id": "a",
-                "text": "est"
-              },
-              {
-                "id": "c",
-                "text": "était"
-              },
-              {
-                "id": "d",
-                "text": "sera"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-medias-et-information-grammar-q2",
-            "type": "mcq",
-            "prompt": "Il a dit que l’article ___ pas fiable.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "n’est"
-              },
-              {
-                "id": "b",
-                "text": "n’était"
-              },
-              {
-                "id": "c",
-                "text": "ne soit"
-              },
-              {
-                "id": "d",
-                "text": "ne sera"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-medias-et-information-grammar-q3",
-            "type": "mcq",
-            "prompt": "Quelle expression introduit le subjonctif ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Je suis sûr que"
-              },
-              {
-                "id": "c",
-                "text": "Je sais que"
-              },
-              {
-                "id": "b",
-                "text": "Je doute que"
-              },
-              {
-                "id": "d",
-                "text": "Il est vrai que"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-medias-et-information-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle phrase est au discours indirect ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Elle a dit : « C’est faux. »"
-              },
-              {
-                "id": "c",
-                "text": "Est-ce que c’est faux ?"
-              },
-              {
-                "id": "d",
-                "text": "C’est faux !"
-              },
-              {
-                "id": "b",
-                "text": "Elle a dit que c’était faux."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-medias-et-information-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Je doute que cette information est vraie. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Je doute que cette information soit vraie."
-              },
-              {
-                "id": "a",
-                "text": "Je doute que cette information est vraie."
-              },
-              {
-                "id": "c",
-                "text": "Je doute que cette information était vraie."
-              },
-              {
-                "id": "d",
-                "text": "Je doute que cette information sera vraie."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-medias-et-information-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Il a dit que l’article n’est pas fiable. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Il a dit que l’article n’est pas fiable."
-              },
-              {
-                "id": "b",
-                "text": "Il a dit que l’article n’était pas fiable."
-              },
-              {
-                "id": "c",
-                "text": "Il a dit que l’article ne soit pas fiable."
-              },
-              {
-                "id": "d",
-                "text": "Il a dit que l’article ne sera pas fiable."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-medias-et-information-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Je suis sûr que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Je suis sûr que"
-              },
-              {
-                "id": "c",
-                "text": "Je sais que"
-              },
-              {
-                "id": "b",
-                "text": "Je doute que"
-              },
-              {
-                "id": "d",
-                "text": "Il est vrai que"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-medias-et-information-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Elle a dit : « C’est faux. » » dans ce contexte : « Quelle phrase est au discours indirect ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Elle a dit : « C’est faux. »"
-              },
-              {
-                "id": "c",
-                "text": "Est-ce que c’est faux ?"
-              },
-              {
-                "id": "d",
-                "text": "C’est faux !"
-              },
-              {
-                "id": "b",
-                "text": "Elle a dit que c’était faux."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Le doute et le discours indirect simple",
-        "definition": "« Je doute que » introduit le subjonctif : « Je doute que ce soit vrai. » Le discours indirect rapporte les paroles de quelqu’un sans les citer directement : « Il a dit que le fruit guérissait tout » (au lieu de « Il a dit : \"Le fruit guérit tout.\" »). Au discours indirect présent, le verbe reste souvent au même temps, introduit par « que ».",
-        "structure": "Forme à observer : Le doute et le discours indirect simple. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Exprimer le doute avec le subjonctif et rapporter une information au discours indirect.",
-        "examples": [
-          "Je doute que cette information soit vraie.",
-          "Il a dit que l’article n’était pas fiable.",
-          "Je doute que",
-          "Elle a dit que c’était faux."
-        ],
-        "explanation": "« Je doute que » introduit le subjonctif : « Je doute que ce soit vrai. » Le discours indirect rapporte les paroles de quelqu’un sans les citer directement : « Il a dit que le fruit guérissait tout » (au lieu de « Il a dit : \"Le fruit guérit tout.\" »). Au discours indirect présent, le verbe reste souvent au même temps, introduit par « que ».",
-        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
-        "cefrLevel": "B1",
-        "unitContext": "Exprimer le doute avec le subjonctif et rapporter une information au discours indirect."
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Je doute que cette information ___ vraie.",
-        "options": [
-          "soit",
-          "est",
-          "était",
-          "sera"
-        ],
-        "explanation": "La bonne réponse est « soit » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Il a dit que l’article ___ pas fiable.",
-        "options": [
-          "n’est",
-          "n’était",
-          "ne soit",
-          "ne sera"
-        ],
-        "explanation": "La bonne réponse est « n’était » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle expression introduit le subjonctif ?",
-        "options": [
-          "Je suis sûr que",
-          "Je sais que",
-          "Je doute que",
-          "Il est vrai que"
-        ],
-        "explanation": "La bonne réponse est « Je doute que » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase est au discours indirect ?",
-        "options": [
-          "Elle a dit : « C’est faux. »",
-          "Est-ce que c’est faux ?",
-          "C’est faux !",
-          "Elle a dit que c’était faux."
-        ],
-        "explanation": "La bonne réponse est « Elle a dit que c’était faux. » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Je doute que cette information est vraie. » ?",
-        "options": [
-          "Je doute que cette information soit vraie.",
-          "Je doute que cette information est vraie.",
-          "Je doute que cette information était vraie.",
-          "Je doute que cette information sera vraie."
-        ],
-        "explanation": "La phrase correcte est : « Je doute que cette information soit vraie. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Il a dit que l’article n’est pas fiable. » ?",
-        "options": [
-          "Il a dit que l’article n’est pas fiable.",
-          "Il a dit que l’article n’était pas fiable.",
-          "Il a dit que l’article ne soit pas fiable.",
-          "Il a dit que l’article ne sera pas fiable."
-        ],
-        "explanation": "La phrase correcte est : « Il a dit que l’article n’était pas fiable. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « Je suis sûr que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
-        "options": [
-          "Je suis sûr que",
-          "Je sais que",
-          "Je doute que",
-          "Il est vrai que"
-        ],
-        "explanation": "La bonne réponse est « Je doute que »."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « Elle a dit : « C’est faux. » » dans ce contexte : « Quelle phrase est au discours indirect ? » ?",
-        "options": [
-          "Elle a dit : « C’est faux. »",
-          "Est-ce que c’est faux ?",
-          "C’est faux !",
-          "Elle a dit que c’était faux."
-        ],
-        "explanation": "La bonne réponse est « Elle a dit que c’était faux. »."
       }
     ]
   },
@@ -50967,6 +48728,339 @@
     ]
   },
   {
+    "slug": "french-b1-medias-et-information-grammar",
+    "level": "B1",
+    "skill": "grammar",
+    "unitId": "medias-et-information",
+    "title": "Le doute et le discours indirect simple",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 94,
+    "estimatedMinutes": 12,
+    "description": "Exprimer le doute avec le subjonctif et rapporter une information au discours indirect.",
+    "intro": "Exprimer le doute avec le subjonctif et rapporter une information au discours indirect.",
+    "mission": "",
+    "grammar": "« Je doute que » introduit le subjonctif : « Je doute que ce soit vrai. » Le discours indirect rapporte les paroles de quelqu’un sans les citer directement : « Il a dit que le fruit guérissait tout » (au lieu de « Il a dit : \"Le fruit guérit tout.\" »). Au discours indirect présent, le verbe reste souvent au même temps, introduit par « que ».",
+    "phrases": [
+      "Je doute que ce soit...",
+      "Il a dit que...",
+      "Elle pense que...",
+      "En effet, c’est vrai que..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b1-medias-et-information-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b1-medias-et-information-grammar-q1",
+            "type": "mcq",
+            "prompt": "Je doute que cette information ___ vraie.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "soit"
+              },
+              {
+                "id": "a",
+                "text": "est"
+              },
+              {
+                "id": "c",
+                "text": "était"
+              },
+              {
+                "id": "d",
+                "text": "sera"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-medias-et-information-grammar-q2",
+            "type": "mcq",
+            "prompt": "Il a dit que l’article ___ pas fiable.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "n’est"
+              },
+              {
+                "id": "b",
+                "text": "n’était"
+              },
+              {
+                "id": "c",
+                "text": "ne soit"
+              },
+              {
+                "id": "d",
+                "text": "ne sera"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-medias-et-information-grammar-q3",
+            "type": "mcq",
+            "prompt": "Quelle expression introduit le subjonctif ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Je suis sûr que"
+              },
+              {
+                "id": "c",
+                "text": "Je sais que"
+              },
+              {
+                "id": "b",
+                "text": "Je doute que"
+              },
+              {
+                "id": "d",
+                "text": "Il est vrai que"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-medias-et-information-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle phrase est au discours indirect ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Elle a dit : « C’est faux. »"
+              },
+              {
+                "id": "c",
+                "text": "Est-ce que c’est faux ?"
+              },
+              {
+                "id": "d",
+                "text": "C’est faux !"
+              },
+              {
+                "id": "b",
+                "text": "Elle a dit que c’était faux."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-medias-et-information-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Je doute que cette information est vraie. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Je doute que cette information soit vraie."
+              },
+              {
+                "id": "a",
+                "text": "Je doute que cette information est vraie."
+              },
+              {
+                "id": "c",
+                "text": "Je doute que cette information était vraie."
+              },
+              {
+                "id": "d",
+                "text": "Je doute que cette information sera vraie."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-medias-et-information-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Il a dit que l’article n’est pas fiable. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Il a dit que l’article n’est pas fiable."
+              },
+              {
+                "id": "b",
+                "text": "Il a dit que l’article n’était pas fiable."
+              },
+              {
+                "id": "c",
+                "text": "Il a dit que l’article ne soit pas fiable."
+              },
+              {
+                "id": "d",
+                "text": "Il a dit que l’article ne sera pas fiable."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-medias-et-information-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Je suis sûr que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Je suis sûr que"
+              },
+              {
+                "id": "c",
+                "text": "Je sais que"
+              },
+              {
+                "id": "b",
+                "text": "Je doute que"
+              },
+              {
+                "id": "d",
+                "text": "Il est vrai que"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-medias-et-information-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Elle a dit : « C’est faux. » » dans ce contexte : « Quelle phrase est au discours indirect ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Elle a dit : « C’est faux. »"
+              },
+              {
+                "id": "c",
+                "text": "Est-ce que c’est faux ?"
+              },
+              {
+                "id": "d",
+                "text": "C’est faux !"
+              },
+              {
+                "id": "b",
+                "text": "Elle a dit que c’était faux."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le doute et le discours indirect simple",
+        "definition": "« Je doute que » introduit le subjonctif : « Je doute que ce soit vrai. » Le discours indirect rapporte les paroles de quelqu’un sans les citer directement : « Il a dit que le fruit guérissait tout » (au lieu de « Il a dit : \"Le fruit guérit tout.\" »). Au discours indirect présent, le verbe reste souvent au même temps, introduit par « que ».",
+        "explanation": "« Je doute que » introduit le subjonctif : « Je doute que ce soit vrai. » Le discours indirect rapporte les paroles de quelqu’un sans les citer directement : « Il a dit que le fruit guérissait tout » (au lieu de « Il a dit : \"Le fruit guérit tout.\" »). Au discours indirect présent, le verbe reste souvent au même temps, introduit par « que ».",
+        "structure": "Estructura central: Le doute et le discours indirect simple.",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "function": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Exprimer le doute avec le subjonctif et rapporter une information au discours indirect.",
+        "examples": [
+          "Je doute que cette information soit vraie.",
+          "Il a dit que l’article n’était pas fiable.",
+          "Je doute que",
+          "Elle a dit que c’était faux."
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Je doute que cette information ___ vraie.",
+        "options": [
+          "est",
+          "soit",
+          "était",
+          "sera"
+        ],
+        "explanation": "La bonne réponse est « soit » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Il a dit que l’article ___ pas fiable.",
+        "options": [
+          "n’est",
+          "n’était",
+          "ne soit",
+          "ne sera"
+        ],
+        "explanation": "La bonne réponse est « n’était » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle expression introduit le subjonctif ?",
+        "options": [
+          "Je suis sûr que",
+          "Je doute que",
+          "Je sais que",
+          "Il est vrai que"
+        ],
+        "explanation": "La bonne réponse est « Je doute que » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle phrase est au discours indirect ?",
+        "options": [
+          "Elle a dit : « C’est faux. »",
+          "Elle a dit que c’était faux.",
+          "Est-ce que c’est faux ?",
+          "C’est faux !"
+        ],
+        "explanation": "La bonne réponse est « Elle a dit que c’était faux. » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Je doute que cette information est vraie. » ?",
+        "options": [
+          "Je doute que cette information est vraie.",
+          "Je doute que cette information soit vraie.",
+          "Je doute que cette information était vraie.",
+          "Je doute que cette information sera vraie."
+        ],
+        "explanation": "La phrase correcte est : « Je doute que cette information soit vraie. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il a dit que l’article n’est pas fiable. » ?",
+        "options": [
+          "Il a dit que l’article n’est pas fiable.",
+          "Il a dit que l’article n’était pas fiable.",
+          "Il a dit que l’article ne soit pas fiable.",
+          "Il a dit que l’article ne sera pas fiable."
+        ],
+        "explanation": "La phrase correcte est : « Il a dit que l’article n’était pas fiable. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Je suis sûr que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
+        "options": [
+          "Je suis sûr que",
+          "Je doute que",
+          "Je sais que",
+          "Il est vrai que"
+        ],
+        "explanation": "La bonne réponse est « Je doute que »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Elle a dit : « C’est faux. » » dans ce contexte : « Quelle phrase est au discours indirect ? » ?",
+        "options": [
+          "Elle a dit : « C’est faux. »",
+          "Elle a dit que c’était faux.",
+          "Est-ce que c’est faux ?",
+          "C’est faux !"
+        ],
+        "explanation": "La bonne réponse est « Elle a dit que c’était faux. »."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-histoire-et-memoire-grammar",
     "level": "B2",
     "skill": "grammar",
@@ -51193,18 +49287,18 @@
       "grammarProfile": {
         "name": "Les pronoms démonstratifs et l’accord du participe passé",
         "definition": "Les pronoms démonstratifs (celui, celle, ceux, celles) remplacent un nom déjà mentionné : « Celle dont je me souviens le mieux... » Avec avoir, le participe passé s’accorde avec le complément d’objet direct seulement s’il est placé avant le verbe : « Cette histoire, je l’ai entendue hier » (accord avec « l’ », féminin).",
-        "structure": "Forme à observer : Les pronoms démonstratifs et l’accord du participe passé. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Utiliser celui/celle/ceux/celles et accorder le participe passé avec un complément direct antéposé.",
+        "explanation": "Les pronoms démonstratifs (celui, celle, ceux, celles) remplacent un nom déjà mentionné : « Celle dont je me souviens le mieux... » Avec avoir, le participe passé s’accorde avec le complément d’objet direct seulement s’il est placé avant le verbe : « Cette histoire, je l’ai entendue hier » (accord avec « l’ », féminin).",
+        "structure": "Estructura central: Les pronoms démonstratifs et l’accord du participe passé.",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "function": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Utiliser celui/celle/ceux/celles et accorder le participe passé avec un complément direct antéposé.",
         "examples": [
           "Celle dont je me souviens le mieux, c’est cette histoire.",
           "Cette histoire, je l’ai entendue hier soir.",
           "Les récits qu’elle nous a racontés étaient émouvants.",
           "Quand le complément est placé avant le verbe"
-        ],
-        "explanation": "Les pronoms démonstratifs (celui, celle, ceux, celles) remplacent un nom déjà mentionné : « Celle dont je me souviens le mieux... » Avec avoir, le participe passé s’accorde avec le complément d’objet direct seulement s’il est placé avant le verbe : « Cette histoire, je l’ai entendue hier » (accord avec « l’ », féminin).",
-        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
-        "cefrLevel": "B2",
-        "unitContext": "Utiliser celui/celle/ceux/celles et accorder le participe passé avec un complément direct antéposé."
+        ]
       },
       "listeningComprehension": null
     },
@@ -51213,8 +49307,8 @@
         "type": "mcq",
         "prompt": "___ dont je me souviens le mieux, c’est cette histoire.",
         "options": [
-          "Celle",
           "Celui",
+          "Celle",
           "Ceux",
           "Celles"
         ],
@@ -51248,8 +49342,8 @@
         "options": [
           "Toujours",
           "Jamais",
-          "Seulement au féminin",
-          "Quand le complément est placé avant le verbe"
+          "Quand le complément est placé avant le verbe",
+          "Seulement au féminin"
         ],
         "explanation": "La bonne réponse est « Quand le complément est placé avant le verbe » : elle respecte la structure étudiée dans cette leçon."
       },
@@ -51257,8 +49351,8 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Celui dont je me souviens le mieux, c’est cette histoire. » ?",
         "options": [
-          "Celle dont je me souviens le mieux, c’est cette histoire.",
           "Celui dont je me souviens le mieux, c’est cette histoire.",
+          "Celle dont je me souviens le mieux, c’est cette histoire.",
           "Ceux dont je me souviens le mieux, c’est cette histoire.",
           "Celles dont je me souviens le mieux, c’est cette histoire."
         ],
@@ -51292,8 +49386,8 @@
         "options": [
           "Toujours",
           "Jamais",
-          "Seulement au féminin",
-          "Quand le complément est placé avant le verbe"
+          "Quand le complément est placé avant le verbe",
+          "Seulement au féminin"
         ],
         "explanation": "La bonne réponse est « Quand le complément est placé avant le verbe »."
       }
@@ -51490,86 +49584,6 @@
           "A veces",
           "Nunca",
           "Por supuesto"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-medias-et-information-vocabulary",
-    "level": "B1",
-    "skill": "vocabulary",
-    "unitId": "medias-et-information",
-    "title": "Le vocabulaire des médias et de l’information",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 95,
-    "estimatedMinutes": 8,
-    "description": "Le vocabulaire essentiel pour parler de la fiabilité des informations.",
-    "intro": "Le vocabulaire essentiel pour parler de la fiabilité des informations.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "une source fiable",
-        "translation": "una fuente fiable",
-        "example": "Il faut toujours vérifier une source fiable."
-      },
-      {
-        "word": "une fausse nouvelle",
-        "translation": "una noticia falsa",
-        "example": "Cet article est une fausse nouvelle."
-      },
-      {
-        "word": "vérifier",
-        "translation": "verificar",
-        "example": "Il faut vérifier l’information avant de la partager."
-      },
-      {
-        "word": "douter de",
-        "translation": "dudar de",
-        "example": "Je doute de la véracité de cet article."
-      },
-      {
-        "word": "la désinformation",
-        "translation": "la desinformación",
-        "example": "La désinformation se propage vite sur internet."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « une fausse nouvelle » ?",
-        "options": [
-          "Una noticia falsa",
-          "Una noticia real",
-          "Un artículo largo",
-          "Una fuente fiable"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « vérifier » ?",
-        "options": [
-          "Ignorar",
-          "Verificar",
-          "Compartir",
-          "Escribir"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « douter de » ?",
-        "options": [
-          "Confiar en",
-          "Dudar de",
-          "Compartir",
-          "Aceptar"
         ]
       }
     ]
@@ -52065,6 +50079,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-medias-et-information-vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unitId": "medias-et-information",
+    "title": "Le vocabulaire des médias et de l’information",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 95,
+    "estimatedMinutes": 8,
+    "description": "Le vocabulaire essentiel pour parler de la fiabilité des informations.",
+    "intro": "Le vocabulaire essentiel pour parler de la fiabilité des informations.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "une source fiable",
+        "translation": "una fuente fiable",
+        "example": "Il faut toujours vérifier une source fiable."
+      },
+      {
+        "word": "une fausse nouvelle",
+        "translation": "una noticia falsa",
+        "example": "Cet article est une fausse nouvelle."
+      },
+      {
+        "word": "vérifier",
+        "translation": "verificar",
+        "example": "Il faut vérifier l’information avant de la partager."
+      },
+      {
+        "word": "douter de",
+        "translation": "dudar de",
+        "example": "Je doute de la véracité de cet article."
+      },
+      {
+        "word": "la désinformation",
+        "translation": "la desinformación",
+        "example": "La désinformation se propage vite sur internet."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « une fausse nouvelle » ?",
+        "options": [
+          "Una noticia falsa",
+          "Una noticia real",
+          "Un artículo largo",
+          "Una fuente fiable"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « vérifier » ?",
+        "options": [
+          "Ignorar",
+          "Verificar",
+          "Compartir",
+          "Escribir"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « douter de » ?",
+        "options": [
+          "Confiar en",
+          "Dudar de",
+          "Compartir",
+          "Aceptar"
+        ]
       }
     ]
   },
@@ -52664,96 +50758,6 @@
     ]
   },
   {
-    "slug": "french-b1-relations-et-conflits-reading",
-    "level": "B1",
-    "skill": "reading",
-    "unitId": "relations-et-conflits",
-    "title": "Parler pour trouver un accord",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 100,
-    "estimatedMinutes": 15,
-    "description": "Comment exprimer un désaccord sans rompre le dialogue, selon les spécialistes de la communication et de la médiation.",
-    "intro": "Comment exprimer un désaccord sans rompre le dialogue, selon les spécialistes de la communication et de la médiation.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": {
-      "title": "Parler pour trouver un accord",
-      "parts": [
-        "« Ça me dérange que tu changes toujours le plan au dernier moment » exprime une émotion précise. « Tu ne penses jamais à moi » est une accusation. Cette distinction, au cœur de la méthode de communication non violente développée par le psychologue américain Marshall Rosenberg dans les années 1960, change presque tout dans la façon dont un désaccord évolue : la première phrase invite à une réponse, la seconde pousse presque toujours à la défense.",
-        "Les médiateurs professionnels, formés pour intervenir en cas de conflit au travail ou à l’école, utilisent une méthode en trois temps qui reprend directement ce principe. D’abord, chaque personne décrit la situation sans être interrompue. Ensuite, elle exprime ce qu’elle ressent, sans accuser l’autre directement. Enfin, les deux parties proposent ensemble une solution concrète. Cette méthode fonctionne aussi bien pour un désaccord entre camarades de classe que pour un conflit entre collègues, même si les enjeux paraissent très différents d’une situation à l’autre.",
-        "Un compromis n’oblige personne à abandonner complètement son opinion. Il s’agit plutôt d’identifier les priorités de chacun, puis de vérifier que la solution reste équitable pour les deux parties. Dire précisément qui fera quoi, et à quel moment, évite de nombreux malentendus, alors qu’un accord resté vague — « on va faire un effort » — se termine presque toujours par une nouvelle frustration quelques jours plus tard.",
-        "Il est rare qu’un conflit se résolve dès la première conversation, même si les deux personnes le souhaitent sincèrement. Les formations à la gestion de conflit, de plus en plus proposées dans les établissements scolaires français, montrent que ces compétences s’apprennent, se pratiquent, et renforcent presque toujours une relation plutôt que de l’affaiblir durablement."
-      ],
-      "questions": [
-        "Qui a développé la méthode de communication non violente citée dans le texte ?",
-        "Quelle est la différence entre les deux phrases données en exemple au début du texte ?",
-        "Quelles sont les trois étapes de la méthode utilisée par les médiateurs professionnels, selon le texte ?",
-        "Pourquoi un accord trop vague comme « on va faire un effort » pose-t-il souvent problème, selon le texte ?",
-        "Que montrent les formations à la gestion de conflit proposées dans les écoles françaises, selon le texte ?"
-      ],
-      "text": "« Ça me dérange que tu changes toujours le plan au dernier moment » exprime une émotion précise. « Tu ne penses jamais à moi » est une accusation. Cette distinction, au cœur de la méthode de communication non violente développée par le psychologue américain Marshall Rosenberg dans les années 1960, change presque tout dans la façon dont un désaccord évolue : la première phrase invite à une réponse, la seconde pousse presque toujours à la défense.\n\nLes médiateurs professionnels, formés pour intervenir en cas de conflit au travail ou à l’école, utilisent une méthode en trois temps qui reprend directement ce principe. D’abord, chaque personne décrit la situation sans être interrompue. Ensuite, elle exprime ce qu’elle ressent, sans accuser l’autre directement. Enfin, les deux parties proposent ensemble une solution concrète. Cette méthode fonctionne aussi bien pour un désaccord entre camarades de classe que pour un conflit entre collègues, même si les enjeux paraissent très différents d’une situation à l’autre.\n\nUn compromis n’oblige personne à abandonner complètement son opinion. Il s’agit plutôt d’identifier les priorités de chacun, puis de vérifier que la solution reste équitable pour les deux parties. Dire précisément qui fera quoi, et à quel moment, évite de nombreux malentendus, alors qu’un accord resté vague — « on va faire un effort » — se termine presque toujours par une nouvelle frustration quelques jours plus tard.\n\nIl est rare qu’un conflit se résolve dès la première conversation, même si les deux personnes le souhaitent sincèrement. Les formations à la gestion de conflit, de plus en plus proposées dans les établissements scolaires français, montrent que ces compétences s’apprennent, se pratiquent, et renforcent presque toujours une relation plutôt que de l’affaiblir durablement."
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Qui a développé la méthode de communication non violente citée dans le texte ?",
-        "options": [
-          "Le psychologue américain Marshall Rosenberg",
-          "Un médiateur scolaire français",
-          "Un chercheur en économie circulaire",
-          "Un journaliste spécialisé en vérification des faits"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est la différence entre les deux phrases données en exemple au début du texte ?",
-        "options": [
-          "L’une exprime une émotion précise, l’autre est une accusation",
-          "Elles signifient exactement la même chose",
-          "L’une est en anglais, l’autre en français",
-          "Aucune différence n’est mentionnée"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelles sont les trois étapes de la méthode utilisée par les médiateurs professionnels, selon le texte ?",
-        "options": [
-          "Décrire la situation, exprimer son ressenti, proposer une solution ensemble",
-          "Accuser, se défendre, puis se réconcilier",
-          "Ignorer, attendre, oublier",
-          "Choisir un gagnant et un perdant"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi un accord trop vague comme « on va faire un effort » pose-t-il souvent problème, selon le texte ?",
-        "options": [
-          "Il se termine presque toujours par une nouvelle frustration",
-          "Il est toujours très efficace",
-          "Il est interdit entre collègues",
-          "Personne ne s’en souvient jamais"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que montrent les formations à la gestion de conflit proposées dans les écoles françaises, selon le texte ?",
-        "options": [
-          "Que ces compétences s’apprennent et renforcent la relation",
-          "Qu’elles sont réservées aux adultes",
-          "Qu’elles créent davantage de disputes",
-          "Qu’elles ne servent à rien à l’école"
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-art-censure-et-liberte-reading",
     "level": "C1",
     "skill": "reading",
@@ -52962,6 +50966,96 @@
           "Un abonnement payant obligatoire pour accéder à l’information"
         ],
         "explanation": "La réponse s'appuie sur les résultats, les limites et la conclusion de « La désinformation détermine-t-elle réellement les élections ? »."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-relations-et-conflits-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "relations-et-conflits",
+    "title": "Parler pour trouver un accord",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 100,
+    "estimatedMinutes": 15,
+    "description": "Comment exprimer un désaccord sans rompre le dialogue, selon les spécialistes de la communication et de la médiation.",
+    "intro": "Comment exprimer un désaccord sans rompre le dialogue, selon les spécialistes de la communication et de la médiation.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Parler pour trouver un accord",
+      "parts": [
+        "« Ça me dérange que tu changes toujours le plan au dernier moment » exprime une émotion précise. « Tu ne penses jamais à moi » est une accusation. Cette distinction, au cœur de la méthode de communication non violente développée par le psychologue américain Marshall Rosenberg dans les années 1960, change presque tout dans la façon dont un désaccord évolue : la première phrase invite à une réponse, la seconde pousse presque toujours à la défense.",
+        "Les médiateurs professionnels, formés pour intervenir en cas de conflit au travail ou à l’école, utilisent une méthode en trois temps qui reprend directement ce principe. D’abord, chaque personne décrit la situation sans être interrompue. Ensuite, elle exprime ce qu’elle ressent, sans accuser l’autre directement. Enfin, les deux parties proposent ensemble une solution concrète. Cette méthode fonctionne aussi bien pour un désaccord entre camarades de classe que pour un conflit entre collègues, même si les enjeux paraissent très différents d’une situation à l’autre.",
+        "Un compromis n’oblige personne à abandonner complètement son opinion. Il s’agit plutôt d’identifier les priorités de chacun, puis de vérifier que la solution reste équitable pour les deux parties. Dire précisément qui fera quoi, et à quel moment, évite de nombreux malentendus, alors qu’un accord resté vague — « on va faire un effort » — se termine presque toujours par une nouvelle frustration quelques jours plus tard.",
+        "Il est rare qu’un conflit se résolve dès la première conversation, même si les deux personnes le souhaitent sincèrement. Les formations à la gestion de conflit, de plus en plus proposées dans les établissements scolaires français, montrent que ces compétences s’apprennent, se pratiquent, et renforcent presque toujours une relation plutôt que de l’affaiblir durablement."
+      ],
+      "questions": [
+        "Qui a développé la méthode de communication non violente citée dans le texte ?",
+        "Quelle est la différence entre les deux phrases données en exemple au début du texte ?",
+        "Quelles sont les trois étapes de la méthode utilisée par les médiateurs professionnels, selon le texte ?",
+        "Pourquoi un accord trop vague comme « on va faire un effort » pose-t-il souvent problème, selon le texte ?",
+        "Que montrent les formations à la gestion de conflit proposées dans les écoles françaises, selon le texte ?"
+      ],
+      "text": "« Ça me dérange que tu changes toujours le plan au dernier moment » exprime une émotion précise. « Tu ne penses jamais à moi » est une accusation. Cette distinction, au cœur de la méthode de communication non violente développée par le psychologue américain Marshall Rosenberg dans les années 1960, change presque tout dans la façon dont un désaccord évolue : la première phrase invite à une réponse, la seconde pousse presque toujours à la défense.\n\nLes médiateurs professionnels, formés pour intervenir en cas de conflit au travail ou à l’école, utilisent une méthode en trois temps qui reprend directement ce principe. D’abord, chaque personne décrit la situation sans être interrompue. Ensuite, elle exprime ce qu’elle ressent, sans accuser l’autre directement. Enfin, les deux parties proposent ensemble une solution concrète. Cette méthode fonctionne aussi bien pour un désaccord entre camarades de classe que pour un conflit entre collègues, même si les enjeux paraissent très différents d’une situation à l’autre.\n\nUn compromis n’oblige personne à abandonner complètement son opinion. Il s’agit plutôt d’identifier les priorités de chacun, puis de vérifier que la solution reste équitable pour les deux parties. Dire précisément qui fera quoi, et à quel moment, évite de nombreux malentendus, alors qu’un accord resté vague — « on va faire un effort » — se termine presque toujours par une nouvelle frustration quelques jours plus tard.\n\nIl est rare qu’un conflit se résolve dès la première conversation, même si les deux personnes le souhaitent sincèrement. Les formations à la gestion de conflit, de plus en plus proposées dans les établissements scolaires français, montrent que ces compétences s’apprennent, se pratiquent, et renforcent presque toujours une relation plutôt que de l’affaiblir durablement."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Qui a développé la méthode de communication non violente citée dans le texte ?",
+        "options": [
+          "Le psychologue américain Marshall Rosenberg",
+          "Un médiateur scolaire français",
+          "Un chercheur en économie circulaire",
+          "Un journaliste spécialisé en vérification des faits"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle est la différence entre les deux phrases données en exemple au début du texte ?",
+        "options": [
+          "L’une exprime une émotion précise, l’autre est une accusation",
+          "Elles signifient exactement la même chose",
+          "L’une est en anglais, l’autre en français",
+          "Aucune différence n’est mentionnée"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelles sont les trois étapes de la méthode utilisée par les médiateurs professionnels, selon le texte ?",
+        "options": [
+          "Décrire la situation, exprimer son ressenti, proposer une solution ensemble",
+          "Accuser, se défendre, puis se réconcilier",
+          "Ignorer, attendre, oublier",
+          "Choisir un gagnant et un perdant"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Pourquoi un accord trop vague comme « on va faire un effort » pose-t-il souvent problème, selon le texte ?",
+        "options": [
+          "Il se termine presque toujours par une nouvelle frustration",
+          "Il est toujours très efficace",
+          "Il est interdit entre collègues",
+          "Personne ne s’en souvient jamais"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que montrent les formations à la gestion de conflit proposées dans les écoles françaises, selon le texte ?",
+        "options": [
+          "Que ces compétences s’apprennent et renforcent la relation",
+          "Qu’elles sont réservées aux adultes",
+          "Qu’elles créent davantage de disputes",
+          "Qu’elles ne servent à rien à l’école"
+        ]
       }
     ]
   },
@@ -53537,236 +51631,6 @@
     ]
   },
   {
-    "slug": "french-b1-relations-et-conflits-listening",
-    "level": "B1",
-    "skill": "listening",
-    "unitId": "relations-et-conflits",
-    "title": "Quand un désaccord devient utile",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 101,
-    "estimatedMinutes": 12,
-    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
-    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [
-      "Excuse-moi, je crois que...",
-      "Je comprends.",
-      "On pourrait trouver un compromis ?",
-      "Bonne idée."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "Bienvenue dans notre podcast sur les relations. Aujourd’hui, nous parlons des désaccords. Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire. Cela me dérange que certaines discussions deviennent immédiatement une compétition. Pour trouver un compromis, il faut d’abord décrire les faits sans accuser. On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. » Il est également utile que chacun explique ce dont il a besoin. L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable. Parfois, une pause permet aux émotions de diminuer. Se réconcilier ne signifie pas oublier le problème ; cela signifie le comprendre et décider comment avancer. Un désaccord bien géré peut finalement renforcer une relation, car il apprend aux personnes à communiquer avec plus d’honnêteté.",
-    "extra": {
-      "listeningType": "monologue",
-      "listeningFormat": "podcast",
-      "storyTitle": "Quand un désaccord devient utile",
-      "mainTranscript": "Bienvenue dans notre podcast sur les relations. Aujourd’hui, nous parlons des désaccords. Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire. Cela me dérange que certaines discussions deviennent immédiatement une compétition. Pour trouver un compromis, il faut d’abord décrire les faits sans accuser. On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. » Il est également utile que chacun explique ce dont il a besoin. L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable. Parfois, une pause permet aux émotions de diminuer. Se réconcilier ne signifie pas oublier le problème ; cela signifie le comprendre et décider comment avancer. Un désaccord bien géré peut finalement renforcer une relation, car il apprend aux personnes à communiquer avec plus d’honnêteté.",
-      "transcriptSegments": [
-        {
-          "id": "segment-01",
-          "order": 1,
-          "text": "Bienvenue dans notre podcast sur les relations."
-        },
-        {
-          "id": "segment-02",
-          "order": 2,
-          "text": "Aujourd’hui, nous parlons des désaccords."
-        },
-        {
-          "id": "segment-03",
-          "order": 3,
-          "text": "Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire."
-        },
-        {
-          "id": "segment-04",
-          "order": 4,
-          "text": "Cela me dérange que certaines discussions deviennent immédiatement une compétition."
-        },
-        {
-          "id": "segment-05",
-          "order": 5,
-          "text": "Pour trouver un compromis, il faut d’abord décrire les faits sans accuser."
-        },
-        {
-          "id": "segment-06",
-          "order": 6,
-          "text": "On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. »"
-        },
-        {
-          "id": "segment-07",
-          "order": 7,
-          "text": "Il est également utile que chacun explique ce dont il a besoin."
-        },
-        {
-          "id": "segment-08",
-          "order": 8,
-          "text": "L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable."
-        },
-        {
-          "id": "segment-09",
-          "order": 9,
-          "text": "Parfois, une pause permet aux émotions de diminuer."
-        },
-        {
-          "id": "segment-10",
-          "order": 10,
-          "text": "Se réconcilier ne signifie pas oublier le problème ; cela signifie le comprendre et décider comment avancer."
-        },
-        {
-          "id": "segment-11",
-          "order": 11,
-          "text": "Un désaccord bien géré peut finalement renforcer une relation, car il apprend aux personnes à communiquer avec plus d’honnêteté."
-        }
-      ],
-      "listeningComprehension": {
-        "id": "french-b1-relations-et-conflits-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Quand un désaccord devient utile », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast sur les relations."
-              },
-              {
-                "id": "o2",
-                "text": "Pour trouver un compromis, il faut d’abord décrire les faits sans accuser."
-              },
-              {
-                "id": "o3",
-                "text": "L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable."
-              },
-              {
-                "id": "o4",
-                "text": "On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. » Il est également utile que chacun explique ce dont il a besoin."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Bienvenue dans notre podcast sur les relations. », que se passe-t-il ensuite dans « Quand un désaccord devient utile » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast sur les relations."
-              },
-              {
-                "id": "o2",
-                "text": "Pour trouver un compromis, il faut d’abord décrire les faits sans accuser."
-              },
-              {
-                "id": "o3",
-                "text": "L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable."
-              },
-              {
-                "id": "o4",
-                "text": "On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. » Il est également utile que chacun explique ce dont il a besoin."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Quand un désaccord devient utile » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast sur les relations."
-              },
-              {
-                "id": "o2",
-                "text": "Pour trouver un compromis, il faut d’abord décrire les faits sans accuser."
-              },
-              {
-                "id": "o3",
-                "text": "Il est également utile que chacun explique ce dont il a besoin."
-              },
-              {
-                "id": "o4",
-                "text": "L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Quand un désaccord devient utile » après « Il est également utile que chacun explique ce dont il a besoin. » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Bienvenue dans notre podcast sur les relations."
-              },
-              {
-                "id": "o2",
-                "text": "Pour trouver un compromis, il faut d’abord décrire les faits sans accuser."
-              },
-              {
-                "id": "o3",
-                "text": "L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable."
-              },
-              {
-                "id": "o4",
-                "text": "On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. » Il est également utile que chacun explique ce dont il a besoin."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Dans « Quand un désaccord devient utile », quel détail présente la situation ?",
-        "options": [
-          "Bienvenue dans notre podcast sur les relations.",
-          "Pour trouver un compromis, il faut d’abord décrire les faits sans accuser.",
-          "L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable.",
-          "On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. » Il est également utile que chacun explique ce dont il a besoin."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après « Bienvenue dans notre podcast sur les relations. », que se passe-t-il ensuite dans « Quand un désaccord devient utile » ?",
-        "options": [
-          "Bienvenue dans notre podcast sur les relations.",
-          "Pour trouver un compromis, il faut d’abord décrire les faits sans accuser.",
-          "L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable.",
-          "On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. » Il est également utile que chacun explique ce dont il a besoin."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Quand un désaccord devient utile » ?",
-        "options": [
-          "Bienvenue dans notre podcast sur les relations.",
-          "Pour trouver un compromis, il faut d’abord décrire les faits sans accuser.",
-          "Il est également utile que chacun explique ce dont il a besoin.",
-          "L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Quand un désaccord devient utile » après « Il est également utile que chacun explique ce dont il a besoin. » ?",
-        "options": [
-          "Bienvenue dans notre podcast sur les relations.",
-          "Pour trouver un compromis, il faut d’abord décrire les faits sans accuser.",
-          "L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable.",
-          "On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. » Il est également utile que chacun explique ce dont il a besoin."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "french-c1-art-censure-et-liberte-listening",
     "level": "C1",
     "skill": "listening",
@@ -54289,6 +52153,129 @@
     ]
   },
   {
+    "slug": "french-b1-relations-et-conflits-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "relations-et-conflits",
+    "title": "Quand un désaccord devient utile",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 101,
+    "estimatedMinutes": 12,
+    "description": "Écoute ce contenu de niveau B1 et identifie les idées, les nuances et les preuves.",
+    "intro": "Une seule personne parle. Écoute d’abord l’idée générale, puis repère l’organisation et les détails.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Excuse-moi, je crois que...",
+      "Je comprends.",
+      "On pourrait trouver un compromis ?",
+      "Bonne idée."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Bienvenue dans notre podcast sur les relations. Aujourd’hui, nous parlons des désaccords. Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire. Cela me dérange que certaines discussions deviennent immédiatement une compétition. Pour trouver un compromis, il faut d’abord décrire les faits sans accuser. On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. » Il est également utile que chacun explique ce dont il a besoin. L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable. Parfois, une pause permet aux émotions de diminuer. Se réconcilier ne signifie pas oublier le problème ; cela signifie le comprendre et décider comment avancer. Un désaccord bien géré peut finalement renforcer une relation, car il apprend aux personnes à communiquer avec plus d’honnêteté.",
+    "extra": {
+      "listeningType": "monologue",
+      "listeningFormat": "podcast",
+      "storyTitle": "Quand un désaccord devient utile",
+      "mainTranscript": "Bienvenue dans notre podcast sur les relations. Aujourd’hui, nous parlons des désaccords. Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire. Cela me dérange que certaines discussions deviennent immédiatement une compétition. Pour trouver un compromis, il faut d’abord décrire les faits sans accuser. On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. » Il est également utile que chacun explique ce dont il a besoin. L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable. Parfois, une pause permet aux émotions de diminuer. Se réconcilier ne signifie pas oublier le problème ; cela signifie le comprendre et décider comment avancer. Un désaccord bien géré peut finalement renforcer une relation, car il apprend aux personnes à communiquer avec plus d’honnêteté.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Bienvenue dans notre podcast sur les relations."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "Aujourd’hui, nous parlons des désaccords."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Un conflit commence souvent par une interprétation différente : une personne pense ne pas être écoutée, tandis que l’autre croit avoir été claire."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "Cela me dérange que certaines discussions deviennent immédiatement une compétition."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Pour trouver un compromis, il faut d’abord décrire les faits sans accuser."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "On peut dire : « Je suis déçu que tu aies changé le projet sans me prévenir », plutôt que : « Tu ne respectes jamais personne. »"
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Il est également utile que chacun explique ce dont il a besoin."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "L’objectif n’est pas de prouver que l’un a raison et que l’autre a tort, mais de chercher une solution acceptable."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Parfois, une pause permet aux émotions de diminuer."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Se réconcilier ne signifie pas oublier le problème ; cela signifie le comprendre et décider comment avancer."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Un désaccord bien géré peut finalement renforcer une relation, car il apprend aux personnes à communiquer avec plus d’honnêteté."
+        }
+      ],
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Pourquoi Léa s’excuse-t-elle ?",
+        "options": [
+          "Parce qu’elle a menti",
+          "Parce qu’elle était stressée",
+          "Parce qu’elle est en retard",
+          "Parce qu’elle a oublié le projet"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que propose Léa pour résoudre le conflit ?",
+        "options": [
+          "D’arrêter le projet",
+          "De trouver un compromis",
+          "De travailler séparément",
+          "De changer de sujet"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quel compromis acceptent-elles ?",
+        "options": [
+          "Léa fait tout",
+          "Camila fait tout",
+          "Léa la structure, Camila les idées créatives",
+          "Elles ne décident rien"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "french-b2-ecologie-et-engagement-citoyen-listening",
     "level": "B2",
     "skill": "listening",
@@ -54390,145 +52377,38 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "listeningComprehension": {
-        "id": "french-b2-ecologie-et-engagement-citoyen-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Une coalition pour restaurer la mangrove », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
-              },
-              {
-                "id": "o2",
-                "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
-              },
-              {
-                "id": "o3",
-                "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
-              },
-              {
-                "id": "o4",
-                "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Dans une région côtière, des habitants, des scientifiques et des… », que se passe-t-il ensuite dans « Une coalition pour restaurer la mangrove » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
-              },
-              {
-                "id": "o2",
-                "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
-              },
-              {
-                "id": "o3",
-                "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
-              },
-              {
-                "id": "o4",
-                "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une coalition pour restaurer la mangrove » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
-              },
-              {
-                "id": "o2",
-                "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
-              },
-              {
-                "id": "o3",
-                "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
-              },
-              {
-                "id": "o4",
-                "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Une coalition pour restaurer la mangrove » après « Certains responsables ne pensent pas que les actions locales… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove."
-              },
-              {
-                "id": "o2",
-                "text": "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage."
-              },
-              {
-                "id": "o3",
-                "text": "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes."
-              },
-              {
-                "id": "o4",
-                "text": "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Une coalition pour restaurer la mangrove », quel détail présente la situation ?",
+        "prompt": "Que protègent les mangroves, selon Ana ?",
         "options": [
-          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
-          "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.",
-          "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.",
-          "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
+          "Rien de particulier",
+          "La côte et la biodiversité",
+          "Seulement les poissons",
+          "Les routes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Dans une région côtière, des habitants, des scientifiques et des… », que se passe-t-il ensuite dans « Une coalition pour restaurer la mangrove » ?",
+        "prompt": "Quelles menaces pèsent sur les mangroves ?",
         "options": [
-          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
-          "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.",
-          "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.",
-          "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
+          "Le vent",
+          "La construction et la pollution",
+          "Les oiseaux",
+          "Le soleil"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Une coalition pour restaurer la mangrove » ?",
+        "prompt": "Que veut faire Camila après cette explication ?",
         "options": [
-          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
-          "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.",
-          "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.",
-          "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Une coalition pour restaurer la mangrove » après « Certains responsables ne pensent pas que les actions locales… » ?",
-        "options": [
-          "Dans une région côtière, des habitants, des scientifiques et des pêcheurs ont créé un partenariat pour restaurer la mangrove.",
-          "Les citoyens ont lancé une pétition afin que les autorités limitent les nouveaux projets près du rivage.",
-          "Certains responsables ne pensent pas que les actions locales suffisent, car les pressions économiques restent importantes.",
-          "Le projet ne consiste donc pas seulement à planter des arbres : il cherche à construire un équilibre entre protection de la biodiversité, activité économique et participation des habitants."
+          "Partir immédiatement",
+          "S’impliquer pour aider à les protéger",
+          "Ignorer le problème",
+          "Changer de sujet"
         ]
       }
     ]
@@ -54626,49 +52506,6 @@
       {
         "type": "practice",
         "prompt": "Écoute la description d’un/une camarade et pose-lui une question sur cette relation."
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-relations-et-conflits-speaking",
-    "level": "B1",
-    "skill": "speaking",
-    "unitId": "relations-et-conflits",
-    "title": "Négocier une solution",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 102,
-    "estimatedMinutes": 12,
-    "description": "Simule la résolution d’un petit conflit entre amis.",
-    "intro": "Simule la résolution d’un petit conflit entre amis.",
-    "mission": "Imagine un désaccord avec un ami sur un projet commun, et simule une conversation pour trouver un compromis, en exprimant tes émotions calmement.",
-    "grammar": "",
-    "phrases": [
-      "Ça me dérange que...",
-      "Je suis triste que...",
-      "Peut-être qu’on pourrait...",
-      "Je comprends ton point de vue."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Toi",
-        "line": "Ça me dérange un peu que tu changes toujours nos plans. Peut-être qu’on pourrait décider ensemble la prochaine fois ?",
-        "translation": "Me molesta un poco que siempre cambies nuestros planes. ¿Quizás podríamos decidir juntos la próxima vez?"
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Simule la résolution d’un petit conflit, en exprimant une émotion et en proposant un compromis."
-      },
-      {
-        "type": "practice",
-        "prompt": "Avec un/une camarade, jouez une scène de désaccord suivie d’une réconciliation."
       }
     ]
   },
@@ -54823,6 +52660,49 @@
     ]
   },
   {
+    "slug": "french-b1-relations-et-conflits-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "relations-et-conflits",
+    "title": "Négocier une solution",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 102,
+    "estimatedMinutes": 12,
+    "description": "Simule la résolution d’un petit conflit entre amis.",
+    "intro": "Simule la résolution d’un petit conflit entre amis.",
+    "mission": "Imagine un désaccord avec un ami sur un projet commun, et simule une conversation pour trouver un compromis, en exprimant tes émotions calmement.",
+    "grammar": "",
+    "phrases": [
+      "Ça me dérange que...",
+      "Je suis triste que...",
+      "Peut-être qu’on pourrait...",
+      "Je comprends ton point de vue."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Toi",
+        "line": "Ça me dérange un peu que tu changes toujours nos plans. Peut-être qu’on pourrait décider ensemble la prochaine fois ?",
+        "translation": "Me molesta un poco que siempre cambies nuestros planes. ¿Quizás podríamos decidir juntos la próxima vez?"
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Simule la résolution d’un petit conflit, en exprimant une émotion et en proposant un compromis."
+      },
+      {
+        "type": "practice",
+        "prompt": "Avec un/une camarade, jouez une scène de désaccord suivie d’une réconciliation."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-ecologie-et-engagement-citoyen-speaking",
     "level": "B2",
     "skill": "speaking",
@@ -54961,45 +52841,6 @@
     ]
   },
   {
-    "slug": "french-b1-relations-et-conflits-writing",
-    "level": "B1",
-    "skill": "writing",
-    "unitId": "relations-et-conflits",
-    "title": "Un conflit résolu",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 30,
-    "orderIndex": 103,
-    "estimatedMinutes": 16,
-    "description": "Raconte un conflit (réel ou imaginaire) et comment il a été résolu.",
-    "intro": "Raconte un conflit (réel ou imaginaire) et comment il a été résolu.",
-    "mission": "Écris 150 à 200 mots racontant un désaccord (réel ou imaginaire) avec un ami ou un membre de ta famille, et comment vous l’avez résolu.",
-    "grammar": "",
-    "phrases": [
-      "Nous n’étions pas d’accord sur...",
-      "Je me sentais...",
-      "Nous avons trouvé un compromis...",
-      "Depuis, notre relation..."
-    ],
-    "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "Modèle",
-        "line": "Nous n’étions pas d’accord sur la façon d’organiser notre projet. Je me sentais un peu blessé(e), mais nous avons parlé calmement et trouvé un compromis. Depuis, notre relation est encore plus forte.",
-        "translation": "No estábamos de acuerdo sobre cómo organizar nuestro proyecto. Me sentía un poco herido/a, pero hablamos con calma y encontramos un compromiso. Desde entonces, nuestra relación es aún más fuerte."
-      }
-    ],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "writing",
-        "prompt": "Écris 150 à 200 mots racontant un désaccord et sa résolution, avec au moins une expression d’émotion au subjonctif."
-      }
-    ]
-  },
-  {
     "slug": "french-c1-art-censure-et-liberte-writing",
     "level": "C1",
     "skill": "writing",
@@ -55112,6 +52953,45 @@
       {
         "type": "writing",
         "prompt": "Rédige 300–350 mots. Avant l’envoi, vérifie la présence d’une thèse, de deux arguments développés, d’une objection et d’une conclusion nuancée."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-relations-et-conflits-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "relations-et-conflits",
+    "title": "Un conflit résolu",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 30,
+    "orderIndex": 103,
+    "estimatedMinutes": 16,
+    "description": "Raconte un conflit (réel ou imaginaire) et comment il a été résolu.",
+    "intro": "Raconte un conflit (réel ou imaginaire) et comment il a été résolu.",
+    "mission": "Écris 150 à 200 mots racontant un désaccord (réel ou imaginaire) avec un ami ou un membre de ta famille, et comment vous l’avez résolu.",
+    "grammar": "",
+    "phrases": [
+      "Nous n’étions pas d’accord sur...",
+      "Je me sentais...",
+      "Nous avons trouvé un compromis...",
+      "Depuis, notre relation..."
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Modèle",
+        "line": "Nous n’étions pas d’accord sur la façon d’organiser notre projet. Je me sentais un peu blessé(e), mais nous avons parlé calmement et trouvé un compromis. Depuis, notre relation est encore plus forte.",
+        "translation": "No estábamos de acuerdo sobre cómo organizar nuestro proyecto. Me sentía un poco herido/a, pero hablamos con calma y encontramos un compromiso. Desde entonces, nuestra relación es aún más fuerte."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Écris 150 à 200 mots racontant un désaccord et sa résolution, avec au moins une expression d’émotion au subjonctif."
       }
     ]
   },
@@ -55731,339 +53611,6 @@
           "où",
           "quoi"
         ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-relations-et-conflits-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "relations-et-conflits",
-    "title": "Le subjonctif après les expressions d’émotion",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 25,
-    "orderIndex": 104,
-    "estimatedMinutes": 12,
-    "description": "Utiliser le subjonctif après des expressions comme « je suis triste que » ou « ça me dérange que ».",
-    "intro": "Utiliser le subjonctif après des expressions comme « je suis triste que » ou « ça me dérange que ».",
-    "mission": "",
-    "grammar": "Après une expression d’émotion (je suis content(e) que, je suis triste que, ça me dérange que), le verbe se met au subjonctif : « Je suis triste que tu penses ça. Ça me dérange que tu changes le plan. » Cette règle suit la même logique que « il faut que » ou « il est important que ».",
-    "phrases": [
-      "Je suis triste que...",
-      "Ça me dérange que...",
-      "Je suis content(e) que...",
-      "J’ai peur que..."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarTest": {
-        "id": "french-b1-relations-et-conflits-grammar-test",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "french-b1-relations-et-conflits-grammar-q1",
-            "type": "mcq",
-            "prompt": "Je suis triste que tu ___ ça de moi.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "a",
-                "text": "penses"
-              },
-              {
-                "id": "b",
-                "text": "pense"
-              },
-              {
-                "id": "c",
-                "text": "pensais"
-              },
-              {
-                "id": "d",
-                "text": "penseras"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-relations-et-conflits-grammar-q2",
-            "type": "mcq",
-            "prompt": "Ça me dérange que tu ___ toujours le plan.",
-            "difficulty": "application",
-            "options": [
-              {
-                "id": "b",
-                "text": "change"
-              },
-              {
-                "id": "a",
-                "text": "changes"
-              },
-              {
-                "id": "c",
-                "text": "changeais"
-              },
-              {
-                "id": "d",
-                "text": "changeras"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-relations-et-conflits-grammar-q3",
-            "type": "mcq",
-            "prompt": "Je suis content(e) que nous ___ un compromis.",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "trouvons"
-              },
-              {
-                "id": "c",
-                "text": "trouverons"
-              },
-              {
-                "id": "b",
-                "text": "trouvions"
-              },
-              {
-                "id": "d",
-                "text": "trouvions"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-relations-et-conflits-grammar-q4",
-            "type": "mcq",
-            "prompt": "Quelle expression introduit le subjonctif ?",
-            "difficulty": "analysis",
-            "options": [
-              {
-                "id": "a",
-                "text": "Je sais que"
-              },
-              {
-                "id": "c",
-                "text": "Je vois que"
-              },
-              {
-                "id": "d",
-                "text": "Je pense que"
-              },
-              {
-                "id": "b",
-                "text": "Je suis content que"
-              }
-            ]
-          },
-          {
-            "id": "french-b1-relations-et-conflits-grammar-q5",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Je suis triste que tu pense ça de moi. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Je suis triste que tu penses ça de moi."
-              },
-              {
-                "id": "b",
-                "text": "Je suis triste que tu pense ça de moi."
-              },
-              {
-                "id": "c",
-                "text": "Je suis triste que tu pensais ça de moi."
-              },
-              {
-                "id": "d",
-                "text": "Je suis triste que tu penseras ça de moi."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-relations-et-conflits-grammar-q6",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Ça me dérange que tu change toujours le plan. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "b",
-                "text": "Ça me dérange que tu change toujours le plan."
-              },
-              {
-                "id": "a",
-                "text": "Ça me dérange que tu changes toujours le plan."
-              },
-              {
-                "id": "c",
-                "text": "Ça me dérange que tu changeais toujours le plan."
-              },
-              {
-                "id": "d",
-                "text": "Ça me dérange que tu changeras toujours le plan."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-relations-et-conflits-grammar-q7",
-            "type": "mcq",
-            "prompt": "Quelle version corrige entièrement la phrase « Je suis content(e) que nous trouvons un compromis. » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Je suis content(e) que nous trouvons un compromis."
-              },
-              {
-                "id": "c",
-                "text": "Je suis content(e) que nous trouverons un compromis."
-              },
-              {
-                "id": "b",
-                "text": "Je suis content(e) que nous trouvions un compromis."
-              },
-              {
-                "id": "d",
-                "text": "Je suis content(e) que nous trouvions un compromis."
-              }
-            ]
-          },
-          {
-            "id": "french-b1-relations-et-conflits-grammar-q8",
-            "type": "mcq",
-            "prompt": "Quelle réponse corrige l’erreur « Je sais que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
-            "difficulty": "precision",
-            "options": [
-              {
-                "id": "a",
-                "text": "Je sais que"
-              },
-              {
-                "id": "c",
-                "text": "Je vois que"
-              },
-              {
-                "id": "d",
-                "text": "Je pense que"
-              },
-              {
-                "id": "b",
-                "text": "Je suis content que"
-              }
-            ]
-          }
-        ]
-      },
-      "grammarProfile": {
-        "name": "Le subjonctif après les expressions d’émotion",
-        "definition": "Après une expression d’émotion (je suis content(e) que, je suis triste que, ça me dérange que), le verbe se met au subjonctif : « Je suis triste que tu penses ça. Ça me dérange que tu changes le plan. » Cette règle suit la même logique que « il faut que » ou « il est important que ».",
-        "structure": "Forme à observer : Le subjonctif après les expressions d’émotion. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Utiliser le subjonctif après des expressions comme « je suis triste que » ou « ça me dérange que ».",
-        "examples": [
-          "Je suis triste que tu penses ça de moi.",
-          "Ça me dérange que tu changes toujours le plan.",
-          "Je suis content(e) que nous trouvions un compromis.",
-          "Je suis content que"
-        ],
-        "explanation": "Après une expression d’émotion (je suis content(e) que, je suis triste que, ça me dérange que), le verbe se met au subjonctif : « Je suis triste que tu penses ça. Ça me dérange que tu changes le plan. » Cette règle suit la même logique que « il faut que » ou « il est important que ».",
-        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
-        "cefrLevel": "B1",
-        "unitContext": "Utiliser le subjonctif après des expressions comme « je suis triste que » ou « ça me dérange que »."
-      },
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Je suis triste que tu ___ ça de moi.",
-        "options": [
-          "penses",
-          "pense",
-          "pensais",
-          "penseras"
-        ],
-        "explanation": "La bonne réponse est « penses » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Ça me dérange que tu ___ toujours le plan.",
-        "options": [
-          "change",
-          "changes",
-          "changeais",
-          "changeras"
-        ],
-        "explanation": "La bonne réponse est « changes » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Je suis content(e) que nous ___ un compromis.",
-        "options": [
-          "trouvons",
-          "trouverons",
-          "trouvions",
-          "trouvions"
-        ],
-        "explanation": "La bonne réponse est « trouvions » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle expression introduit le subjonctif ?",
-        "options": [
-          "Je sais que",
-          "Je vois que",
-          "Je pense que",
-          "Je suis content que"
-        ],
-        "explanation": "La bonne réponse est « Je suis content que » : elle respecte la structure étudiée dans cette leçon."
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Je suis triste que tu pense ça de moi. » ?",
-        "options": [
-          "Je suis triste que tu penses ça de moi.",
-          "Je suis triste que tu pense ça de moi.",
-          "Je suis triste que tu pensais ça de moi.",
-          "Je suis triste que tu penseras ça de moi."
-        ],
-        "explanation": "La phrase correcte est : « Je suis triste que tu penses ça de moi. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Ça me dérange que tu change toujours le plan. » ?",
-        "options": [
-          "Ça me dérange que tu change toujours le plan.",
-          "Ça me dérange que tu changes toujours le plan.",
-          "Ça me dérange que tu changeais toujours le plan.",
-          "Ça me dérange que tu changeras toujours le plan."
-        ],
-        "explanation": "La phrase correcte est : « Ça me dérange que tu changes toujours le plan. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle version corrige entièrement la phrase « Je suis content(e) que nous trouvons un compromis. » ?",
-        "options": [
-          "Je suis content(e) que nous trouvons un compromis.",
-          "Je suis content(e) que nous trouverons un compromis.",
-          "Je suis content(e) que nous trouvions un compromis.",
-          "Je suis content(e) que nous trouvions un compromis."
-        ],
-        "explanation": "La phrase correcte est : « Je suis content(e) que nous trouvions un compromis. »"
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle réponse corrige l’erreur « Je sais que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
-        "options": [
-          "Je sais que",
-          "Je vois que",
-          "Je pense que",
-          "Je suis content que"
-        ],
-        "explanation": "La bonne réponse est « Je suis content que »."
       }
     ]
   },
@@ -56731,6 +54278,339 @@
     ]
   },
   {
+    "slug": "french-b1-relations-et-conflits-grammar",
+    "level": "B1",
+    "skill": "grammar",
+    "unitId": "relations-et-conflits",
+    "title": "Le subjonctif après les expressions d’émotion",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 104,
+    "estimatedMinutes": 12,
+    "description": "Utiliser le subjonctif après des expressions comme « je suis triste que » ou « ça me dérange que ».",
+    "intro": "Utiliser le subjonctif après des expressions comme « je suis triste que » ou « ça me dérange que ».",
+    "mission": "",
+    "grammar": "Après une expression d’émotion (je suis content(e) que, je suis triste que, ça me dérange que), le verbe se met au subjonctif : « Je suis triste que tu penses ça. Ça me dérange que tu changes le plan. » Cette règle suit la même logique que « il faut que » ou « il est important que ».",
+    "phrases": [
+      "Je suis triste que...",
+      "Ça me dérange que...",
+      "Je suis content(e) que...",
+      "J’ai peur que..."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": {
+      "grammarTest": {
+        "id": "french-b1-relations-et-conflits-grammar-test",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "french-b1-relations-et-conflits-grammar-q1",
+            "type": "mcq",
+            "prompt": "Je suis triste que tu ___ ça de moi.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "a",
+                "text": "penses"
+              },
+              {
+                "id": "b",
+                "text": "pense"
+              },
+              {
+                "id": "c",
+                "text": "pensais"
+              },
+              {
+                "id": "d",
+                "text": "penseras"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-relations-et-conflits-grammar-q2",
+            "type": "mcq",
+            "prompt": "Ça me dérange que tu ___ toujours le plan.",
+            "difficulty": "application",
+            "options": [
+              {
+                "id": "b",
+                "text": "change"
+              },
+              {
+                "id": "a",
+                "text": "changes"
+              },
+              {
+                "id": "c",
+                "text": "changeais"
+              },
+              {
+                "id": "d",
+                "text": "changeras"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-relations-et-conflits-grammar-q3",
+            "type": "mcq",
+            "prompt": "Je suis content(e) que nous ___ un compromis.",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "trouvons"
+              },
+              {
+                "id": "c",
+                "text": "trouverons"
+              },
+              {
+                "id": "b",
+                "text": "trouvions"
+              },
+              {
+                "id": "d",
+                "text": "trouvions"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-relations-et-conflits-grammar-q4",
+            "type": "mcq",
+            "prompt": "Quelle expression introduit le subjonctif ?",
+            "difficulty": "analysis",
+            "options": [
+              {
+                "id": "a",
+                "text": "Je sais que"
+              },
+              {
+                "id": "c",
+                "text": "Je vois que"
+              },
+              {
+                "id": "d",
+                "text": "Je pense que"
+              },
+              {
+                "id": "b",
+                "text": "Je suis content que"
+              }
+            ]
+          },
+          {
+            "id": "french-b1-relations-et-conflits-grammar-q5",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Je suis triste que tu pense ça de moi. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Je suis triste que tu penses ça de moi."
+              },
+              {
+                "id": "b",
+                "text": "Je suis triste que tu pense ça de moi."
+              },
+              {
+                "id": "c",
+                "text": "Je suis triste que tu pensais ça de moi."
+              },
+              {
+                "id": "d",
+                "text": "Je suis triste que tu penseras ça de moi."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-relations-et-conflits-grammar-q6",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Ça me dérange que tu change toujours le plan. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "b",
+                "text": "Ça me dérange que tu change toujours le plan."
+              },
+              {
+                "id": "a",
+                "text": "Ça me dérange que tu changes toujours le plan."
+              },
+              {
+                "id": "c",
+                "text": "Ça me dérange que tu changeais toujours le plan."
+              },
+              {
+                "id": "d",
+                "text": "Ça me dérange que tu changeras toujours le plan."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-relations-et-conflits-grammar-q7",
+            "type": "mcq",
+            "prompt": "Quelle version corrige entièrement la phrase « Je suis content(e) que nous trouvons un compromis. » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Je suis content(e) que nous trouvons un compromis."
+              },
+              {
+                "id": "c",
+                "text": "Je suis content(e) que nous trouverons un compromis."
+              },
+              {
+                "id": "b",
+                "text": "Je suis content(e) que nous trouvions un compromis."
+              },
+              {
+                "id": "d",
+                "text": "Je suis content(e) que nous trouvions un compromis."
+              }
+            ]
+          },
+          {
+            "id": "french-b1-relations-et-conflits-grammar-q8",
+            "type": "mcq",
+            "prompt": "Quelle réponse corrige l’erreur « Je sais que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
+            "difficulty": "precision",
+            "options": [
+              {
+                "id": "a",
+                "text": "Je sais que"
+              },
+              {
+                "id": "c",
+                "text": "Je vois que"
+              },
+              {
+                "id": "d",
+                "text": "Je pense que"
+              },
+              {
+                "id": "b",
+                "text": "Je suis content que"
+              }
+            ]
+          }
+        ]
+      },
+      "grammarProfile": {
+        "name": "Le subjonctif après les expressions d’émotion",
+        "definition": "Après une expression d’émotion (je suis content(e) que, je suis triste que, ça me dérange que), le verbe se met au subjonctif : « Je suis triste que tu penses ça. Ça me dérange que tu changes le plan. » Cette règle suit la même logique que « il faut que » ou « il est important que ».",
+        "explanation": "Après une expression d’émotion (je suis content(e) que, je suis triste que, ça me dérange que), le verbe se met au subjonctif : « Je suis triste que tu penses ça. Ça me dérange que tu changes le plan. » Cette règle suit la même logique que « il faut que » ou « il est important que ».",
+        "structure": "Estructura central: Le subjonctif après les expressions d’émotion.",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "function": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Utiliser le subjonctif après des expressions comme « je suis triste que » ou « ça me dérange que ».",
+        "examples": [
+          "Je suis triste que tu penses ça de moi.",
+          "Ça me dérange que tu changes toujours le plan.",
+          "Je suis content(e) que nous trouvions un compromis.",
+          "Je suis content que"
+        ]
+      },
+      "listeningComprehension": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Je suis triste que tu ___ ça de moi.",
+        "options": [
+          "penses",
+          "pense",
+          "pensais",
+          "penseras"
+        ],
+        "explanation": "La bonne réponse est « penses » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Ça me dérange que tu ___ toujours le plan.",
+        "options": [
+          "changes",
+          "change",
+          "changeais",
+          "changeras"
+        ],
+        "explanation": "La bonne réponse est « changes » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Je suis content(e) que nous ___ un compromis.",
+        "options": [
+          "trouvons",
+          "trouvions",
+          "trouverons",
+          "trouvions"
+        ],
+        "explanation": "La bonne réponse est « trouvions » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle expression introduit le subjonctif ?",
+        "options": [
+          "Je sais que",
+          "Je suis content que",
+          "Je vois que",
+          "Je pense que"
+        ],
+        "explanation": "La bonne réponse est « Je suis content que » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Je suis triste que tu pense ça de moi. » ?",
+        "options": [
+          "Je suis triste que tu penses ça de moi.",
+          "Je suis triste que tu pense ça de moi.",
+          "Je suis triste que tu pensais ça de moi.",
+          "Je suis triste que tu penseras ça de moi."
+        ],
+        "explanation": "La phrase correcte est : « Je suis triste que tu penses ça de moi. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Ça me dérange que tu change toujours le plan. » ?",
+        "options": [
+          "Ça me dérange que tu changes toujours le plan.",
+          "Ça me dérange que tu change toujours le plan.",
+          "Ça me dérange que tu changeais toujours le plan.",
+          "Ça me dérange que tu changeras toujours le plan."
+        ],
+        "explanation": "La phrase correcte est : « Ça me dérange que tu changes toujours le plan. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Je suis content(e) que nous trouvons un compromis. » ?",
+        "options": [
+          "Je suis content(e) que nous trouvons un compromis.",
+          "Je suis content(e) que nous trouvions un compromis.",
+          "Je suis content(e) que nous trouverons un compromis.",
+          "Je suis content(e) que nous trouvions un compromis."
+        ],
+        "explanation": "La phrase correcte est : « Je suis content(e) que nous trouvions un compromis. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Je sais que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
+        "options": [
+          "Je sais que",
+          "Je suis content que",
+          "Je vois que",
+          "Je pense que"
+        ],
+        "explanation": "La bonne réponse est « Je suis content que »."
+      }
+    ]
+  },
+  {
     "slug": "french-b2-ecologie-et-engagement-citoyen-grammar",
     "level": "B2",
     "skill": "grammar",
@@ -56957,18 +54837,18 @@
       "grammarProfile": {
         "name": "Le but (afin que) et l’opinion négative (subjonctif)",
         "definition": "« Afin que » et « pour que » expriment un but et sont suivis du subjonctif : « Nous agissons afin que la biodiversité soit préservée. » Les verbes d’opinion à la forme négative (je ne pense pas que, je ne crois pas que) sont aussi suivis du subjonctif, car ils expriment un doute : « Je ne pense pas que ce soit suffisant. »",
-        "structure": "Forme à observer : Le but (afin que) et l’opinion négative (subjonctif). Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Exprimer un but avec afin que/pour que et une opinion négative avec le subjonctif.",
+        "explanation": "« Afin que » et « pour que » expriment un but et sont suivis du subjonctif : « Nous agissons afin que la biodiversité soit préservée. » Les verbes d’opinion à la forme négative (je ne pense pas que, je ne crois pas que) sont aussi suivis du subjonctif, car ils expriment un doute : « Je ne pense pas que ce soit suffisant. »",
+        "structure": "Estructura central: Le but (afin que) et l’opinion négative (subjonctif).",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "function": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Exprimer un but avec afin que/pour que et une opinion négative avec le subjonctif.",
         "examples": [
           "Nous agissons afin que la biodiversité soit préservée.",
           "Je ne pense pas que ce problème soit facile à résoudre.",
           "Elle écrit cette lettre pour que le message soit bien compris.",
           "Afin que"
-        ],
-        "explanation": "« Afin que » et « pour que » expriment un but et sont suivis du subjonctif : « Nous agissons afin que la biodiversité soit préservée. » Les verbes d’opinion à la forme négative (je ne pense pas que, je ne crois pas que) sont aussi suivis du subjonctif, car ils expriment un doute : « Je ne pense pas que ce soit suffisant. »",
-        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
-        "cefrLevel": "B2",
-        "unitContext": "Exprimer un but avec afin que/pour que et une opinion négative avec le subjonctif."
+        ]
       },
       "listeningComprehension": null
     },
@@ -56977,8 +54857,8 @@
         "type": "mcq",
         "prompt": "Nous agissons afin que la biodiversité ___ préservée.",
         "options": [
-          "soit",
           "est",
+          "soit",
           "sera",
           "était"
         ],
@@ -57000,8 +54880,8 @@
         "prompt": "Elle écrit cette lettre pour que le message ___ bien compris.",
         "options": [
           "est",
-          "sera",
           "soit",
+          "sera",
           "était"
         ],
         "explanation": "La bonne réponse est « soit » : elle respecte la structure étudiée dans cette leçon."
@@ -57011,9 +54891,9 @@
         "prompt": "Quelle structure exprime un but ?",
         "options": [
           "Parce que",
+          "Afin que",
           "Donc",
-          "Cependant",
-          "Afin que"
+          "Cependant"
         ],
         "explanation": "La bonne réponse est « Afin que » : elle respecte la structure étudiée dans cette leçon."
       },
@@ -57021,8 +54901,8 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Nous agissons afin que la biodiversité est préservée. » ?",
         "options": [
-          "Nous agissons afin que la biodiversité soit préservée.",
           "Nous agissons afin que la biodiversité est préservée.",
+          "Nous agissons afin que la biodiversité soit préservée.",
           "Nous agissons afin que la biodiversité sera préservée.",
           "Nous agissons afin que la biodiversité était préservée."
         ],
@@ -57044,8 +54924,8 @@
         "prompt": "Quelle version corrige entièrement la phrase « Elle écrit cette lettre pour que le message est bien compris. » ?",
         "options": [
           "Elle écrit cette lettre pour que le message est bien compris.",
-          "Elle écrit cette lettre pour que le message sera bien compris.",
           "Elle écrit cette lettre pour que le message soit bien compris.",
+          "Elle écrit cette lettre pour que le message sera bien compris.",
           "Elle écrit cette lettre pour que le message était bien compris."
         ],
         "explanation": "La phrase correcte est : « Elle écrit cette lettre pour que le message soit bien compris. »"
@@ -57055,9 +54935,9 @@
         "prompt": "Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quelle structure exprime un but ? » ?",
         "options": [
           "Parce que",
+          "Afin que",
           "Donc",
-          "Cependant",
-          "Afin que"
+          "Cependant"
         ],
         "explanation": "La bonne réponse est « Afin que »."
       }
@@ -57254,86 +55134,6 @@
           "Estar enojado",
           "Estar cansado",
           "Estar solo"
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "french-b1-relations-et-conflits-vocabulary",
-    "level": "B1",
-    "skill": "vocabulary",
-    "unitId": "relations-et-conflits",
-    "title": "Le vocabulaire des relations et conflits",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 105,
-    "estimatedMinutes": 8,
-    "description": "Le vocabulaire essentiel pour parler d’émotions et résoudre un conflit.",
-    "intro": "Le vocabulaire essentiel pour parler d’émotions et résoudre un conflit.",
-    "mission": "",
-    "grammar": "",
-    "phrases": [],
-    "vocabulary": [
-      {
-        "word": "un désaccord",
-        "translation": "un desacuerdo",
-        "example": "Nous avons eu un petit désaccord."
-      },
-      {
-        "word": "se sentir blessé(e)",
-        "translation": "sentirse herido/a",
-        "example": "Je me suis sentie blessée par ce commentaire."
-      },
-      {
-        "word": "trouver un compromis",
-        "translation": "encontrar un compromiso",
-        "example": "Nous avons trouvé un compromis ensemble."
-      },
-      {
-        "word": "se réconcilier",
-        "translation": "reconciliarse",
-        "example": "Nous nous sommes réconciliées après la dispute."
-      },
-      {
-        "word": "ça me dérange que",
-        "translation": "me molesta que",
-        "example": "Ça me dérange que tu sois toujours en retard."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « un désaccord » ?",
-        "options": [
-          "Un desacuerdo",
-          "Un acuerdo",
-          "Una amistad",
-          "Un compromiso"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « se réconcilier » ?",
-        "options": [
-          "Pelearse",
-          "Reconciliarse",
-          "Ignorarse",
-          "Mudarse"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que signifie « trouver un compromis » ?",
-        "options": [
-          "Encontrar un compromiso",
-          "Perder una amistad",
-          "Evitar el problema",
-          "Ganar una discusión"
         ]
       }
     ]
@@ -57829,6 +55629,86 @@
           "dans une direction opposée à une idée ou à une tendance dominante"
         ],
         "explanation": "« à rebours de » désigne dans une direction opposée à une idée ou à une tendance dominante."
+      }
+    ]
+  },
+  {
+    "slug": "french-b1-relations-et-conflits-vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unitId": "relations-et-conflits",
+    "title": "Le vocabulaire des relations et conflits",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 105,
+    "estimatedMinutes": 8,
+    "description": "Le vocabulaire essentiel pour parler d’émotions et résoudre un conflit.",
+    "intro": "Le vocabulaire essentiel pour parler d’émotions et résoudre un conflit.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "un désaccord",
+        "translation": "un desacuerdo",
+        "example": "Nous avons eu un petit désaccord."
+      },
+      {
+        "word": "se sentir blessé(e)",
+        "translation": "sentirse herido/a",
+        "example": "Je me suis sentie blessée par ce commentaire."
+      },
+      {
+        "word": "trouver un compromis",
+        "translation": "encontrar un compromiso",
+        "example": "Nous avons trouvé un compromis ensemble."
+      },
+      {
+        "word": "se réconcilier",
+        "translation": "reconciliarse",
+        "example": "Nous nous sommes réconciliées après la dispute."
+      },
+      {
+        "word": "ça me dérange que",
+        "translation": "me molesta que",
+        "example": "Ça me dérange que tu sois toujours en retard."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « un désaccord » ?",
+        "options": [
+          "Un desacuerdo",
+          "Un acuerdo",
+          "Una amistad",
+          "Un compromiso"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « se réconcilier » ?",
+        "options": [
+          "Pelearse",
+          "Reconciliarse",
+          "Ignorarse",
+          "Mudarse"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Que signifie « trouver un compromis » ?",
+        "options": [
+          "Encontrar un compromiso",
+          "Perder una amistad",
+          "Evitar el problema",
+          "Ganar una discusión"
+        ]
       }
     ]
   },
@@ -59755,10 +57635,10 @@
     "mission": "",
     "grammar": "",
     "phrases": [
-      "Comment a-t-il commencé... ?",
-      "Tout commence par...",
-      "Qu’est-ce qui l’inspire ?",
-      "À la croisée de..."
+      "Comment commence votre processus... ?",
+      "Toujours par...",
+      "Qu’est-ce qui vous inspire ?",
+      "Je m’inspire de..."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -59851,145 +57731,38 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "listeningComprehension": {
-        "id": "french-b2-art-et-creativite-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Le portrait sonore de Mireille », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
-              },
-              {
-                "id": "o2",
-                "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
-              },
-              {
-                "id": "o3",
-                "text": "Mireille affirme que le public participe aussi au processus."
-              },
-              {
-                "id": "o4",
-                "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Mireille crée des œuvres qui mélangent peinture, textile et… », que se passe-t-il ensuite dans « Le portrait sonore de Mireille » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
-              },
-              {
-                "id": "o2",
-                "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
-              },
-              {
-                "id": "o3",
-                "text": "Mireille affirme que le public participe aussi au processus."
-              },
-              {
-                "id": "o4",
-                "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le portrait sonore de Mireille » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
-              },
-              {
-                "id": "o2",
-                "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
-              },
-              {
-                "id": "o3",
-                "text": "Mireille affirme que le public participe aussi au processus."
-              },
-              {
-                "id": "o4",
-                "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Le portrait sonore de Mireille » après « Mireille affirme que le public participe aussi au processus. » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores."
-              },
-              {
-                "id": "o2",
-                "text": "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels."
-              },
-              {
-                "id": "o3",
-                "text": "Mireille affirme que le public participe aussi au processus."
-              },
-              {
-                "id": "o4",
-                "text": "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Le portrait sonore de Mireille », quel détail présente la situation ?",
+        "prompt": "Par quoi commence le processus créatif de Mireille ?",
         "options": [
-          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
-          "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.",
-          "Mireille affirme que le public participe aussi au processus.",
-          "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
+          "Par la vente",
+          "Par une période d’observation",
+          "Par un voyage",
+          "Par un cours"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Mireille crée des œuvres qui mélangent peinture, textile et… », que se passe-t-il ensuite dans « Le portrait sonore de Mireille » ?",
+        "prompt": "Qu’est-ce qui inspire le plus Mireille ?",
         "options": [
-          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
-          "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.",
-          "Mireille affirme que le public participe aussi au processus.",
-          "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
+          "La musique",
+          "Les couleurs et textures du quotidien",
+          "Les livres",
+          "Les films"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Le portrait sonore de Mireille » ?",
+        "prompt": "Quel type de question Camila pose-t-elle dans cet extrait ?",
         "options": [
-          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
-          "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.",
-          "Mireille affirme que le public participe aussi au processus.",
-          "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Le portrait sonore de Mireille » après « Mireille affirme que le public participe aussi au processus. » ?",
-        "options": [
-          "Mireille crée des œuvres qui mélangent peinture, textile et enregistrements sonores.",
-          "Sa préparation devient de moins en moins solitaire : elle invite des habitants à raconter un souvenir, puis transforme certains mots en motifs visuels.",
-          "Mireille affirme que le public participe aussi au processus.",
-          "Elle considère cette ouverture non comme une faiblesse, mais comme la partie la plus vivante de sa création."
+          "Des questions personnelles sans rapport",
+          "Des questions sur le processus créatif",
+          "Des questions sur le prix des œuvres",
+          "Des questions sur sa famille"
         ]
       }
     ]
@@ -61996,18 +59769,18 @@
       "grammarProfile": {
         "name": "Les comparatifs avancés (de plus en plus, de moins en moins, autant que)",
         "definition": "« De plus en plus » et « de moins en moins » expriment une évolution progressive : « Elle se sent de plus en plus libre. » « Autant que » compare deux intensités égales : « Sa préparation compte autant que son écoute. »",
-        "structure": "Forme à observer : Les comparatifs avancés (de plus en plus, de moins en moins, autant que). Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Exprimer une évolution progressive et une comparaison d’intensité égale.",
+        "explanation": "« De plus en plus » et « de moins en moins » expriment une évolution progressive : « Elle se sent de plus en plus libre. » « Autant que » compare deux intensités égales : « Sa préparation compte autant que son écoute. »",
+        "structure": "Estructura central: Les comparatifs avancés (de plus en plus, de moins en moins, autant que).",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "function": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Exprimer une évolution progressive et une comparaison d’intensité égale.",
         "examples": [
           "Elle se sent de plus en plus libre dans son travail au fil du temps.",
           "Sa préparation compte autant que sa capacité d’écoute.",
           "Elle reçoit de moins en moins ce genre de remarque aujourd’hui.",
           "De plus en plus"
-        ],
-        "explanation": "« De plus en plus » et « de moins en moins » expriment une évolution progressive : « Elle se sent de plus en plus libre. » « Autant que » compare deux intensités égales : « Sa préparation compte autant que son écoute. »",
-        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
-        "cefrLevel": "B2",
-        "unitContext": "Exprimer une évolution progressive et une comparaison d’intensité égale."
+        ]
       },
       "listeningComprehension": null
     },
@@ -62039,8 +59812,8 @@
         "prompt": "Elle reçoit ___ ce genre de remarque aujourd’hui.",
         "options": [
           "de plus en plus",
-          "aussi",
           "de moins en moins",
+          "aussi",
           "que"
         ],
         "explanation": "La bonne réponse est « de moins en moins » : elle respecte la structure étudiée dans cette leçon."
@@ -62050,9 +59823,9 @@
         "prompt": "Quelle structure exprime une évolution progressive ?",
         "options": [
           "Plus... que",
+          "De plus en plus",
           "Aussi... que",
-          "Moins... que",
-          "De plus en plus"
+          "Moins... que"
         ],
         "explanation": "La bonne réponse est « De plus en plus » : elle respecte la structure étudiée dans cette leçon."
       },
@@ -62083,8 +59856,8 @@
         "prompt": "Quelle version corrige entièrement la phrase « Elle reçoit de plus en plus ce genre de remarque aujourd’hui. » ?",
         "options": [
           "Elle reçoit de plus en plus ce genre de remarque aujourd’hui.",
-          "Elle reçoit aussi ce genre de remarque aujourd’hui.",
           "Elle reçoit de moins en moins ce genre de remarque aujourd’hui.",
+          "Elle reçoit aussi ce genre de remarque aujourd’hui.",
           "Elle reçoit que ce genre de remarque aujourd’hui."
         ],
         "explanation": "La phrase correcte est : « Elle reçoit de moins en moins ce genre de remarque aujourd’hui. »"
@@ -62094,9 +59867,9 @@
         "prompt": "Quelle réponse corrige l’erreur « Plus... que » dans ce contexte : « Quelle structure exprime une évolution progressive ? » ?",
         "options": [
           "Plus... que",
+          "De plus en plus",
           "Aussi... que",
-          "Moins... que",
-          "De plus en plus"
+          "Moins... que"
         ],
         "explanation": "La bonne réponse est « De plus en plus »."
       }
@@ -64624,10 +62397,10 @@
     "mission": "",
     "grammar": "",
     "phrases": [
-      "Avec le recul...",
-      "Qu’avez-vous observé ?",
-      "S’ils avaient annulé..., ils n’auraient jamais...",
-      "Cette expérience a changé..."
+      "J’ai une nouvelle incroyable.",
+      "C’est fantastique !",
+      "On va enfin pouvoir...",
+      "Je n’arrive pas à y croire."
     ],
     "vocabulary": [],
     "dialogue": [],
@@ -64710,145 +62483,38 @@
         "difficultSounds": [],
         "reviewStatus": "verified"
       },
-      "listeningComprehension": {
-        "id": "french-b2-bilan-et-projets-davenir-listening-listening-comprehension",
-        "passingScore": 70,
-        "questions": [
-          {
-            "id": "q1",
-            "type": "mcq",
-            "prompt": "Dans « Avec le recul », quel détail présente la situation ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
-              },
-              {
-                "id": "o2",
-                "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
-              },
-              {
-                "id": "o3",
-                "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
-              },
-              {
-                "id": "o4",
-                "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Après « Avec le recul, je mesure moins mon parcours par les résultats obtenus… », que se passe-t-il ensuite dans « Avec le recul » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
-              },
-              {
-                "id": "o2",
-                "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
-              },
-              {
-                "id": "o3",
-                "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
-              },
-              {
-                "id": "o4",
-                "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Avec le recul » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
-              },
-              {
-                "id": "o2",
-                "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
-              },
-              {
-                "id": "o3",
-                "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
-              },
-              {
-                "id": "o4",
-                "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Quel résultat conclut « Avec le recul » après « Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne… » ?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée."
-              },
-              {
-                "id": "o2",
-                "text": "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé."
-              },
-              {
-                "id": "o3",
-                "text": "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité."
-              },
-              {
-                "id": "o4",
-                "text": "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
-              }
-            ]
-          }
-        ]
-      },
-      "grammarTest": null
+      "grammarTest": null,
+      "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Dans « Avec le recul », quel détail présente la situation ?",
+        "prompt": "Quelle nouvelle Camila annonce-t-elle ?",
         "options": [
-          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
-          "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.",
-          "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.",
-          "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
+          "Qu’elle déménage",
+          "Qu’elle est acceptée à l’université de Tours",
+          "Qu’elle change de métier",
+          "Qu’elle part en vacances"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Après « Avec le recul, je mesure moins mon parcours par les résultats obtenus… », que se passe-t-il ensuite dans « Avec le recul » ?",
+        "prompt": "Comment réagit Léa ?",
         "options": [
-          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
-          "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.",
-          "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.",
-          "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
+          "Avec indifférence",
+          "Avec une grande joie",
+          "Avec tristesse",
+          "Avec surprise négative"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quelle phrase révèle le mieux une intention ou une décision dans « Avec le recul » ?",
+        "prompt": "Que se réjouit de faire Karim ?",
         "options": [
-          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
-          "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.",
-          "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.",
-          "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel résultat conclut « Avec le recul » après « Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne… » ?",
-        "options": [
-          "Avec le recul, je mesure moins mon parcours par les résultats obtenus que par les décisions qui m’ont transformée.",
-          "Certains accomplissements sont visibles, comme un diplôme ou un projet terminé.",
-          "Aujourd’hui, je suis déterminée à poursuivre mes études, mais je ne veux plus confondre détermination et rigidité.",
-          "Il ressemble plutôt à un point de départ conscient : je sais mieux ce que j’ai construit, ce qui reste fragile et la direction dans laquelle je souhaite avancer."
+          "De déménager lui-même",
+          "De revoir Camila en vrai",
+          "De ne plus lui parler",
+          "De changer d’université"
         ]
       }
     ]
@@ -66855,18 +64521,18 @@
       "grammarProfile": {
         "name": "Récapitulatif : hypothèses complexes et expressions de bilan",
         "definition": "Ce récapitulatif combine les points du niveau B2 : hypothèse irréelle du passé (si + plus-que-parfait, conditionnel passé), expressions de bilan (avec le recul, en fin de compte), et détermination (être déterminé(e) à + infinitif) : « Si j’avais renoncé, je n’aurais jamais grandi. Avec le recul, je suis déterminée à continuer. »",
-        "structure": "Forme à observer : Récapitulatif : hypothèses complexes et expressions de bilan. Comparez le sujet, le temps, les marqueurs et l’ordre des mots dans les exemples.",
-        "function": "Réviser les hypothèses avec si + plus-que-parfait et les expressions de bilan personnel.",
+        "explanation": "Ce récapitulatif combine les points du niveau B2 : hypothèse irréelle du passé (si + plus-que-parfait, conditionnel passé), expressions de bilan (avec le recul, en fin de compte), et détermination (être déterminé(e) à + infinitif) : « Si j’avais renoncé, je n’aurais jamais grandi. Avec le recul, je suis déterminée à continuer. »",
+        "structure": "Estructura central: Récapitulatif : hypothèses complexes et expressions de bilan.",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "function": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Réviser les hypothèses avec si + plus-que-parfait et les expressions de bilan personnel.",
         "examples": [
           "Si elle avait annulé ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
           "Avec le recul, elle est fière de sa décision.",
           "Elle est déterminée à continuer ses études en France.",
           "En fin de compte"
-        ],
-        "explanation": "Ce récapitulatif combine les points du niveau B2 : hypothèse irréelle du passé (si + plus-que-parfait, conditionnel passé), expressions de bilan (avec le recul, en fin de compte), et détermination (être déterminé(e) à + infinitif) : « Si j’avais renoncé, je n’aurais jamais grandi. Avec le recul, je suis déterminée à continuer. »",
-        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
-        "cefrLevel": "B2",
-        "unitContext": "Réviser les hypothèses avec si + plus-que-parfait et les expressions de bilan personnel."
+        ]
       },
       "listeningComprehension": null
     },
@@ -66875,8 +64541,8 @@
         "type": "mcq",
         "prompt": "Si elle ___ ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
         "options": [
-          "avait annulé",
           "annule",
+          "avait annulé",
           "annulerait",
           "annulait"
         ],
@@ -66886,8 +64552,8 @@
         "type": "mcq",
         "prompt": "Avec le recul, elle ___ fière de sa décision.",
         "options": [
-          "était",
           "est",
+          "était",
           "sera",
           "soit"
         ],
@@ -66898,8 +64564,8 @@
         "prompt": "Elle est déterminée ___ continuer ses études en France.",
         "options": [
           "de",
-          "pour",
           "à",
+          "pour",
           "que"
         ],
         "explanation": "La bonne réponse est « à » : elle respecte la structure étudiée dans cette leçon."
@@ -66909,9 +64575,9 @@
         "prompt": "Quelle expression introduit un bilan final ?",
         "options": [
           "Étant donné que",
+          "En fin de compte",
           "Afin que",
-          "Bien que",
-          "En fin de compte"
+          "Bien que"
         ],
         "explanation": "La bonne réponse est « En fin de compte » : elle respecte la structure étudiée dans cette leçon."
       },
@@ -66919,8 +64585,8 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Si elle annule ce voyage, elle n’aurait jamais rencontré ses amis les plus chers. » ?",
         "options": [
-          "Si elle avait annulé ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
           "Si elle annule ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
+          "Si elle avait annulé ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
           "Si elle annulerait ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
           "Si elle annulait ce voyage, elle n’aurait jamais rencontré ses amis les plus chers."
         ],
@@ -66930,8 +64596,8 @@
         "type": "mcq",
         "prompt": "Quelle version corrige entièrement la phrase « Avec le recul, elle était fière de sa décision. » ?",
         "options": [
-          "Avec le recul, elle était fière de sa décision.",
           "Avec le recul, elle est fière de sa décision.",
+          "Avec le recul, elle était fière de sa décision.",
           "Avec le recul, elle sera fière de sa décision.",
           "Avec le recul, elle soit fière de sa décision."
         ],
@@ -66942,8 +64608,8 @@
         "prompt": "Quelle version corrige entièrement la phrase « Elle est déterminée de continuer ses études en France. » ?",
         "options": [
           "Elle est déterminée de continuer ses études en France.",
-          "Elle est déterminée pour continuer ses études en France.",
           "Elle est déterminée à continuer ses études en France.",
+          "Elle est déterminée pour continuer ses études en France.",
           "Elle est déterminée que continuer ses études en France."
         ],
         "explanation": "La phrase correcte est : « Elle est déterminée à continuer ses études en France. »"
@@ -66953,9 +64619,9 @@
         "prompt": "Quelle réponse corrige l’erreur « Étant donné que » dans ce contexte : « Quelle expression introduit un bilan final ? » ?",
         "options": [
           "Étant donné que",
+          "En fin de compte",
           "Afin que",
-          "Bien que",
-          "En fin de compte"
+          "Bien que"
         ],
         "explanation": "La bonne réponse est « En fin de compte »."
       }
@@ -68046,37 +65712,6 @@
     }
   },
   {
-    "id": "projets-et-avenir",
-    "slug": "projets-et-avenir",
-    "level": "B1",
-    "title": "Projets et avenir",
-    "titleEs": "Proyectos y futuro",
-    "description": "Comment transformer une ambition professionnelle en un projet réaliste, étape par étape.",
-    "order": 1,
-    "unitOverview": {
-      "objective": "Exprimer un projet, formuler une hypothèse et justifier un choix.",
-      "outcomes": [
-        "parler de projets avec le futur simple",
-        "exprimer une hypothèse avec si + présent",
-        "donner son opinion et la justifier",
-        "comparer deux options avec nuance"
-      ],
-      "grammar": [
-        "futur simple",
-        "hypothèse avec si + présent",
-        "conditionnel présent (politesse et hypothèse)",
-        "connecteurs d’opinion"
-      ],
-      "vocabulary": [
-        "le projet",
-        "l’avenir",
-        "à mon avis",
-        "d’un côté / de l’autre côté"
-      ],
-      "scenario": "De nombreux lycéens doivent transformer une ambition professionnelle vague en un projet concret, étape par étape."
-    }
-  },
-  {
     "id": "la-rentree-universitaire",
     "slug": "la-rentree-universitaire",
     "level": "C1",
@@ -68139,6 +65774,37 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "projets-et-avenir",
+    "slug": "projets-et-avenir",
+    "level": "B1",
+    "title": "Projets et avenir",
+    "titleEs": "Proyectos y futuro",
+    "description": "Comment transformer une ambition professionnelle en un projet réaliste, étape par étape.",
+    "order": 1,
+    "unitOverview": {
+      "objective": "Exprimer un projet, formuler une hypothèse et justifier un choix.",
+      "outcomes": [
+        "parler de projets avec le futur simple",
+        "exprimer une hypothèse avec si + présent",
+        "donner son opinion et la justifier",
+        "comparer deux options avec nuance"
+      ],
+      "grammar": [
+        "futur simple",
+        "hypothèse avec si + présent",
+        "conditionnel présent (politesse et hypothèse)",
+        "connecteurs d’opinion"
+      ],
+      "vocabulary": [
+        "le projet",
+        "l’avenir",
+        "à mon avis",
+        "d’un côté / de l’autre côté"
+      ],
+      "scenario": "De nombreux lycéens doivent transformer une ambition professionnelle vague en un projet concret, étape par étape."
     }
   },
   {
@@ -68212,36 +65878,6 @@
     }
   },
   {
-    "id": "identite-et-parcours-personnel",
-    "slug": "identite-et-parcours-personnel",
-    "level": "B1",
-    "title": "Identité et parcours personnel",
-    "titleEs": "Identidad y trayectoria personal",
-    "description": "Comment l’identité se construit à travers les expériences vécues, selon les chercheurs en psychologie sociale.",
-    "order": 2,
-    "unitOverview": {
-      "objective": "Raconter son parcours personnel et décrire comment on a changé.",
-      "outcomes": [
-        "raconter une biographie simple",
-        "décrire un changement personnel",
-        "consolider l’usage du passé composé et de l’imparfait",
-        "exprimer une évolution dans le temps"
-      ],
-      "grammar": [
-        "imparfait (introduction)",
-        "contraste passé composé / imparfait",
-        "expressions de temps (avant, maintenant, depuis)"
-      ],
-      "vocabulary": [
-        "le parcours",
-        "changer",
-        "grandir",
-        "devenir"
-      ],
-      "scenario": "Beaucoup de jeunes racontent comment ils ont changé après une expérience marquante, comme un séjour à l’étranger."
-    }
-  },
-  {
     "id": "un-exposer-a-preparer",
     "slug": "un-exposer-a-preparer",
     "level": "C1",
@@ -68304,6 +65940,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "identite-et-parcours-personnel",
+    "slug": "identite-et-parcours-personnel",
+    "level": "B1",
+    "title": "Identité et parcours personnel",
+    "titleEs": "Identidad y trayectoria personal",
+    "description": "Comment l’identité se construit à travers les expériences vécues, selon les chercheurs en psychologie sociale.",
+    "order": 2,
+    "unitOverview": {
+      "objective": "Raconter son parcours personnel et décrire comment on a changé.",
+      "outcomes": [
+        "raconter une biographie simple",
+        "décrire un changement personnel",
+        "consolider l’usage du passé composé et de l’imparfait",
+        "exprimer une évolution dans le temps"
+      ],
+      "grammar": [
+        "imparfait (introduction)",
+        "contraste passé composé / imparfait",
+        "expressions de temps (avant, maintenant, depuis)"
+      ],
+      "vocabulary": [
+        "le parcours",
+        "changer",
+        "grandir",
+        "devenir"
+      ],
+      "scenario": "Beaucoup de jeunes racontent comment ils ont changé après une expérience marquante, comme un séjour à l’étranger."
     }
   },
   {
@@ -68377,36 +66043,6 @@
     }
   },
   {
-    "id": "etudes-et-apprentissage",
-    "slug": "etudes-et-apprentissage",
-    "level": "B1",
-    "title": "Études et apprentissage",
-    "titleEs": "Estudios y aprendizaje",
-    "description": "Les techniques de révision les plus efficaces selon les sciences cognitives : rappel actif, espacement et explication à voix haute.",
-    "order": 3,
-    "unitOverview": {
-      "objective": "Parler de stratégies d’apprentissage et exprimer des difficultés et des progrès scolaires.",
-      "outcomes": [
-        "décrire des stratégies d’apprentissage",
-        "exprimer une difficulté et un progrès",
-        "donner un conseil académique",
-        "utiliser le conditionnel présent pour suggérer"
-      ],
-      "grammar": [
-        "conditionnel présent (suggestion)",
-        "expressions de difficulté et de progrès",
-        "gérondif introductoire (en + participe présent)"
-      ],
-      "vocabulary": [
-        "réviser",
-        "progresser",
-        "une difficulté",
-        "un conseil"
-      ],
-      "scenario": "Avant un examen de mathématiques important, un élève demande des conseils d’étude à un camarade plus expérimenté."
-    }
-  },
-  {
     "id": "les-medias-et-la-fabrique-de-lopinion",
     "slug": "les-medias-et-la-fabrique-de-lopinion",
     "level": "C1",
@@ -68467,6 +66103,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "etudes-et-apprentissage",
+    "slug": "etudes-et-apprentissage",
+    "level": "B1",
+    "title": "Études et apprentissage",
+    "titleEs": "Estudios y aprendizaje",
+    "description": "Les techniques de révision les plus efficaces selon les sciences cognitives : rappel actif, espacement et explication à voix haute.",
+    "order": 3,
+    "unitOverview": {
+      "objective": "Parler de stratégies d’apprentissage et exprimer des difficultés et des progrès scolaires.",
+      "outcomes": [
+        "décrire des stratégies d’apprentissage",
+        "exprimer une difficulté et un progrès",
+        "donner un conseil académique",
+        "utiliser le conditionnel présent pour suggérer"
+      ],
+      "grammar": [
+        "conditionnel présent (suggestion)",
+        "expressions de difficulté et de progrès",
+        "gérondif introductoire (en + participe présent)"
+      ],
+      "vocabulary": [
+        "réviser",
+        "progresser",
+        "une difficulté",
+        "un conseil"
+      ],
+      "scenario": "Avant un examen de mathématiques important, un élève demande des conseils d’étude à un camarade plus expérimenté."
     }
   },
   {
@@ -68540,36 +66206,6 @@
     }
   },
   {
-    "id": "monde-du-travail",
-    "slug": "monde-du-travail",
-    "level": "B1",
-    "title": "Monde du travail",
-    "titleEs": "El mundo laboral",
-    "description": "Comment bien se préparer à un entretien d’embauche et rédiger un e-mail de candidature efficace.",
-    "order": 4,
-    "unitOverview": {
-      "objective": "Comprendre et simuler un entretien d’embauche, écrire un e-mail formel.",
-      "outcomes": [
-        "parler de professions et de compétences",
-        "simuler un entretien d’embauche",
-        "écrire un e-mail formel",
-        "utiliser le conditionnel de politesse dans un contexte professionnel"
-      ],
-      "grammar": [
-        "conditionnel de politesse (révision approfondie)",
-        "vocabulaire formel vs informel",
-        "structure d’un e-mail formel"
-      ],
-      "vocabulary": [
-        "le CV",
-        "un entretien d’embauche",
-        "les compétences",
-        "postuler"
-      ],
-      "scenario": "Chaque été, de nombreux jeunes préparent un entretien pour un premier stage et s’entraînent avec un conseiller ou un camarade."
-    }
-  },
-  {
     "id": "intelligence-artificielle-et-traduction",
     "slug": "intelligence-artificielle-et-traduction",
     "level": "C1",
@@ -68630,6 +66266,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "monde-du-travail",
+    "slug": "monde-du-travail",
+    "level": "B1",
+    "title": "Monde du travail",
+    "titleEs": "El mundo laboral",
+    "description": "Comment bien se préparer à un entretien d’embauche et rédiger un e-mail de candidature efficace.",
+    "order": 4,
+    "unitOverview": {
+      "objective": "Comprendre et simuler un entretien d’embauche, écrire un e-mail formel.",
+      "outcomes": [
+        "parler de professions et de compétences",
+        "simuler un entretien d’embauche",
+        "écrire un e-mail formel",
+        "utiliser le conditionnel de politesse dans un contexte professionnel"
+      ],
+      "grammar": [
+        "conditionnel de politesse (révision approfondie)",
+        "vocabulaire formel vs informel",
+        "structure d’un e-mail formel"
+      ],
+      "vocabulary": [
+        "le CV",
+        "un entretien d’embauche",
+        "les compétences",
+        "postuler"
+      ],
+      "scenario": "Chaque été, de nombreux jeunes préparent un entretien pour un premier stage et s’entraînent avec un conseiller ou un camarade."
     }
   },
   {
@@ -68703,36 +66369,6 @@
     }
   },
   {
-    "id": "voyages-et-interculturalite",
-    "slug": "voyages-et-interculturalite",
-    "level": "B1",
-    "title": "Voyages et interculturalité",
-    "titleEs": "Viajes e interculturalidad",
-    "description": "Comment voyager en respectant les lieux visités, et comparer des habitudes culturelles différentes.",
-    "order": 5,
-    "unitOverview": {
-      "objective": "Comparer des habitudes culturelles et raconter une expérience interculturelle.",
-      "outcomes": [
-        "comparer deux cultures",
-        "décrire un choc culturel",
-        "raconter une expérience de voyage marquante",
-        "exprimer une opinion sur d’autres pays avec nuance"
-      ],
-      "grammar": [
-        "comparaison avancée",
-        "connecteurs d’opposition (alors que, tandis que)",
-        "discours rapporté simple"
-      ],
-      "vocabulary": [
-        "une habitude culturelle",
-        "un choc culturel",
-        "ce qui m’a surpris",
-        "tandis que"
-      ],
-      "scenario": "De nombreux élèves en échange préparent un exposé comparant une habitude culturelle française et une habitude de leur pays d’origine."
-    }
-  },
-  {
     "id": "memoire-migration-et-identite",
     "slug": "memoire-migration-et-identite",
     "level": "C1",
@@ -68793,6 +66429,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "voyages-et-interculturalite",
+    "slug": "voyages-et-interculturalite",
+    "level": "B1",
+    "title": "Voyages et interculturalité",
+    "titleEs": "Viajes e interculturalidad",
+    "description": "Comment voyager en respectant les lieux visités, et comparer des habitudes culturelles différentes.",
+    "order": 5,
+    "unitOverview": {
+      "objective": "Comparer des habitudes culturelles et raconter une expérience interculturelle.",
+      "outcomes": [
+        "comparer deux cultures",
+        "décrire un choc culturel",
+        "raconter une expérience de voyage marquante",
+        "exprimer une opinion sur d’autres pays avec nuance"
+      ],
+      "grammar": [
+        "comparaison avancée",
+        "connecteurs d’opposition (alors que, tandis que)",
+        "discours rapporté simple"
+      ],
+      "vocabulary": [
+        "une habitude culturelle",
+        "un choc culturel",
+        "ce qui m’a surpris",
+        "tandis que"
+      ],
+      "scenario": "De nombreux élèves en échange préparent un exposé comparant une habitude culturelle française et une habitude de leur pays d’origine."
     }
   },
   {
@@ -68866,36 +66532,6 @@
     }
   },
   {
-    "id": "technologie-et-societe",
-    "slug": "technologie-et-societe",
-    "level": "B1",
-    "title": "Technologie et société",
-    "titleEs": "Tecnología y sociedad",
-    "description": "Comment choisir ses usages numériques pour éviter que les notifications ne contrôlent notre attention.",
-    "order": 6,
-    "unitOverview": {
-      "objective": "Argumenter sur les avantages et les risques de la technologie de façon simple.",
-      "outcomes": [
-        "présenter des avantages et des inconvénients",
-        "exprimer un accord/désaccord nuancé",
-        "utiliser des connecteurs d’argumentation",
-        "comprendre un débat simple"
-      ],
-      "grammar": [
-        "connecteurs d’argumentation (d’une part/d’autre part, cependant)",
-        "expression de l’opinion nuancée",
-        "subjonctif présent introductorio (il est important que)"
-      ],
-      "vocabulary": [
-        "un avantage / un inconvénient",
-        "dépendre de",
-        "un risque",
-        "la vie privée"
-      ],
-      "scenario": "En cours d’éducation civique, une classe débat de l’impact des réseaux sociaux sur les jeunes."
-    }
-  },
-  {
     "id": "justice-sociale-et-inegalites",
     "slug": "justice-sociale-et-inegalites",
     "level": "C1",
@@ -68956,6 +66592,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "technologie-et-societe",
+    "slug": "technologie-et-societe",
+    "level": "B1",
+    "title": "Technologie et société",
+    "titleEs": "Tecnología y sociedad",
+    "description": "Comment choisir ses usages numériques pour éviter que les notifications ne contrôlent notre attention.",
+    "order": 6,
+    "unitOverview": {
+      "objective": "Argumenter sur les avantages et les risques de la technologie de façon simple.",
+      "outcomes": [
+        "présenter des avantages et des inconvénients",
+        "exprimer un accord/désaccord nuancé",
+        "utiliser des connecteurs d’argumentation",
+        "comprendre un débat simple"
+      ],
+      "grammar": [
+        "connecteurs d’argumentation (d’une part/d’autre part, cependant)",
+        "expression de l’opinion nuancée",
+        "subjonctif présent introductorio (il est important que)"
+      ],
+      "vocabulary": [
+        "un avantage / un inconvénient",
+        "dépendre de",
+        "un risque",
+        "la vie privée"
+      ],
+      "scenario": "En cours d’éducation civique, une classe débat de l’impact des réseaux sociaux sur les jeunes."
     }
   },
   {
@@ -69029,36 +66695,6 @@
     }
   },
   {
-    "id": "sante-et-mode-de-vie",
-    "slug": "sante-et-mode-de-vie",
-    "level": "B1",
-    "title": "Santé et mode de vie",
-    "titleEs": "Salud y estilo de vida",
-    "description": "Comment gérer le stress des examens et adopter des habitudes de vie plus saines, selon les médecins scolaires.",
-    "order": 7,
-    "unitOverview": {
-      "objective": "Parler du stress, des habitudes saines et donner des recommandations de bien-être.",
-      "outcomes": [
-        "décrire le stress et ses causes",
-        "proposer des habitudes de vie saines",
-        "donner des recommandations avec le subjonctif",
-        "comprendre un conseil médical simple"
-      ],
-      "grammar": [
-        "subjonctif présent (recommandations)",
-        "expressions liées au bien-être",
-        "impératif (révision, conseils)"
-      ],
-      "vocabulary": [
-        "le stress",
-        "se détendre",
-        "une habitude saine",
-        "l’activité physique"
-      ],
-      "scenario": "À l’approche des examens de fin d’année, de nombreux élèves se sentent de plus en plus stressés et cherchent des conseils."
-    }
-  },
-  {
     "id": "ecologie-et-responsabilite-collective",
     "slug": "ecologie-et-responsabilite-collective",
     "level": "C1",
@@ -69119,6 +66755,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "sante-et-mode-de-vie",
+    "slug": "sante-et-mode-de-vie",
+    "level": "B1",
+    "title": "Santé et mode de vie",
+    "titleEs": "Salud y estilo de vida",
+    "description": "Comment gérer le stress des examens et adopter des habitudes de vie plus saines, selon les médecins scolaires.",
+    "order": 7,
+    "unitOverview": {
+      "objective": "Parler du stress, des habitudes saines et donner des recommandations de bien-être.",
+      "outcomes": [
+        "décrire le stress et ses causes",
+        "proposer des habitudes de vie saines",
+        "donner des recommandations avec le subjonctif",
+        "comprendre un conseil médical simple"
+      ],
+      "grammar": [
+        "subjonctif présent (recommandations)",
+        "expressions liées au bien-être",
+        "impératif (révision, conseils)"
+      ],
+      "vocabulary": [
+        "le stress",
+        "se détendre",
+        "une habitude saine",
+        "l’activité physique"
+      ],
+      "scenario": "À l’approche des examens de fin d’année, de nombreux élèves se sentent de plus en plus stressés et cherchent des conseils."
     }
   },
   {
@@ -69192,36 +66858,6 @@
     }
   },
   {
-    "id": "environnement-et-consommation",
-    "slug": "environnement-et-consommation",
-    "level": "B1",
-    "title": "Environnement et consommation",
-    "titleEs": "Medioambiente y consumo",
-    "description": "Comment un projet scolaire de réduction des déchets peut faire évoluer les habitudes de tout un établissement.",
-    "order": 8,
-    "unitOverview": {
-      "objective": "Discuter de problèmes environnementaux et proposer des solutions concrètes.",
-      "outcomes": [
-        "parler des problèmes environnementaux",
-        "proposer des solutions et des projets écologiques",
-        "exprimer la cause et la conséquence",
-        "utiliser il faut que pour proposer une action collective"
-      ],
-      "grammar": [
-        "cause et conséquence (parce que, donc, c’est pourquoi)",
-        "subjonctif (proposition d’action)",
-        "quantificateurs (trop de, moins de)"
-      ],
-      "vocabulary": [
-        "le recyclage",
-        "les déchets",
-        "l’environnement",
-        "réduire"
-      ],
-      "scenario": "Une classe de lycée organise un projet écologique pour réduire les déchets dans son établissement."
-    }
-  },
-  {
     "id": "langues-pouvoir-et-inclusion",
     "slug": "langues-pouvoir-et-inclusion",
     "level": "C1",
@@ -69282,6 +66918,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "environnement-et-consommation",
+    "slug": "environnement-et-consommation",
+    "level": "B1",
+    "title": "Environnement et consommation",
+    "titleEs": "Medioambiente y consumo",
+    "description": "Comment un projet scolaire de réduction des déchets peut faire évoluer les habitudes de tout un établissement.",
+    "order": 8,
+    "unitOverview": {
+      "objective": "Discuter de problèmes environnementaux et proposer des solutions concrètes.",
+      "outcomes": [
+        "parler des problèmes environnementaux",
+        "proposer des solutions et des projets écologiques",
+        "exprimer la cause et la conséquence",
+        "utiliser il faut que pour proposer une action collective"
+      ],
+      "grammar": [
+        "cause et conséquence (parce que, donc, c’est pourquoi)",
+        "subjonctif (proposition d’action)",
+        "quantificateurs (trop de, moins de)"
+      ],
+      "vocabulary": [
+        "le recyclage",
+        "les déchets",
+        "l’environnement",
+        "réduire"
+      ],
+      "scenario": "Une classe de lycée organise un projet écologique pour réduire les déchets dans son établissement."
     }
   },
   {
@@ -69355,36 +67021,6 @@
     }
   },
   {
-    "id": "medias-et-information",
-    "slug": "medias-et-information",
-    "level": "B1",
-    "title": "Médias et information",
-    "titleEs": "Medios e información",
-    "description": "Comment reconnaître une fausse information en ligne et vérifier la fiabilité d’une source, selon les journalistes spécialisés.",
-    "order": 9,
-    "unitOverview": {
-      "objective": "Distinguer une source fiable d’une désinformation et exprimer une opinion sur une information.",
-      "outcomes": [
-        "identifier une source d’information fiable",
-        "exprimer un doute ou une certitude",
-        "reformuler une information au discours indirect",
-        "donner son opinion sur une nouvelle"
-      ],
-      "grammar": [
-        "discours indirect simple (il a dit que)",
-        "expression du doute et de la certitude",
-        "connecteurs d’explication (c’est-à-dire, en effet)"
-      ],
-      "vocabulary": [
-        "une source fiable",
-        "une fausse nouvelle",
-        "vérifier",
-        "douter de"
-      ],
-      "scenario": "En cours d’éducation aux médias, une classe analyse un article partagé sur les réseaux sociaux pour vérifier s’il est fiable."
-    }
-  },
-  {
     "id": "science-doute-et-esprit-critique",
     "slug": "science-doute-et-esprit-critique",
     "level": "C1",
@@ -69445,6 +67081,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "medias-et-information",
+    "slug": "medias-et-information",
+    "level": "B1",
+    "title": "Médias et information",
+    "titleEs": "Medios e información",
+    "description": "Comment reconnaître une fausse information en ligne et vérifier la fiabilité d’une source, selon les journalistes spécialisés.",
+    "order": 9,
+    "unitOverview": {
+      "objective": "Distinguer une source fiable d’une désinformation et exprimer une opinion sur une information.",
+      "outcomes": [
+        "identifier une source d’information fiable",
+        "exprimer un doute ou une certitude",
+        "reformuler une information au discours indirect",
+        "donner son opinion sur une nouvelle"
+      ],
+      "grammar": [
+        "discours indirect simple (il a dit que)",
+        "expression du doute et de la certitude",
+        "connecteurs d’explication (c’est-à-dire, en effet)"
+      ],
+      "vocabulary": [
+        "une source fiable",
+        "une fausse nouvelle",
+        "vérifier",
+        "douter de"
+      ],
+      "scenario": "En cours d’éducation aux médias, une classe analyse un article partagé sur les réseaux sociaux pour vérifier s’il est fiable."
     }
   },
   {
@@ -69518,36 +67184,6 @@
     }
   },
   {
-    "id": "relations-et-conflits",
-    "slug": "relations-et-conflits",
-    "level": "B1",
-    "title": "Relations et conflits",
-    "titleEs": "Relaciones y conflictos",
-    "description": "Comment exprimer un désaccord sans rompre le dialogue et trouver un compromis, selon les spécialistes de la médiation.",
-    "order": 10,
-    "unitOverview": {
-      "objective": "Exprimer un désaccord, une émotion, et négocier une solution à un conflit.",
-      "outcomes": [
-        "exprimer une émotion avec précision",
-        "exposer un désaccord respectueusement",
-        "négocier une solution à un petit conflit",
-        "utiliser le subjonctif après des expressions d’émotion"
-      ],
-      "grammar": [
-        "subjonctif après les expressions d’émotion (je suis triste que, ça me dérange que)",
-        "expressions de négociation",
-        "connecteurs de concession (même si)"
-      ],
-      "vocabulary": [
-        "un désaccord",
-        "se sentir blessé(e)",
-        "trouver un compromis",
-        "se réconcilier"
-      ],
-      "scenario": "Deux camarades de classe se disputent à propos d’un projet scolaire commun, et doivent apprendre à résoudre le conflit calmement."
-    }
-  },
-  {
     "id": "art-censure-et-liberte",
     "slug": "art-censure-et-liberte",
     "level": "C1",
@@ -69608,6 +67244,36 @@
         "étendue et contrôle du vocabulaire",
         "correction grammaticale constante"
       ]
+    }
+  },
+  {
+    "id": "relations-et-conflits",
+    "slug": "relations-et-conflits",
+    "level": "B1",
+    "title": "Relations et conflits",
+    "titleEs": "Relaciones y conflictos",
+    "description": "Comment exprimer un désaccord sans rompre le dialogue et trouver un compromis, selon les spécialistes de la médiation.",
+    "order": 10,
+    "unitOverview": {
+      "objective": "Exprimer un désaccord, une émotion, et négocier une solution à un conflit.",
+      "outcomes": [
+        "exprimer une émotion avec précision",
+        "exposer un désaccord respectueusement",
+        "négocier une solution à un petit conflit",
+        "utiliser le subjonctif après des expressions d’émotion"
+      ],
+      "grammar": [
+        "subjonctif après les expressions d’émotion (je suis triste que, ça me dérange que)",
+        "expressions de négociation",
+        "connecteurs de concession (même si)"
+      ],
+      "vocabulary": [
+        "un désaccord",
+        "se sentir blessé(e)",
+        "trouver un compromis",
+        "se réconcilier"
+      ],
+      "scenario": "Deux camarades de classe se disputent à propos d’un projet scolaire commun, et doivent apprendre à résoudre le conflit calmement."
     }
   },
   {
