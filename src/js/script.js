@@ -20612,8 +20612,8 @@ function setupTranslator() {
     }
     // Small visual tag per suggestion kind - autocompletado has none (the
     // default/expected case), corrección ortográfica gets ✎, predicción
-    // contextual gets →, so the three stay visually distinct as required.
-    const typeGlyph = { spelling: '✎ ', contextual: '→ ' };
+    // contextual gets →, puntuación gets ·, so they stay visually distinct.
+    const typeGlyph = { spelling: '✎ ', contextual: '→ ', punctuation: '· ' };
     suggestionsList.innerHTML = items
       .map(
         (item, index) => `
@@ -20647,6 +20647,30 @@ function setupTranslator() {
     const caret = input.selectionStart ?? input.value.length;
     const before = input.value.slice(0, caret);
     const after = input.value.slice(caret);
+    // Punctuation attaches directly to the word just typed (no leading
+    // space) instead of replacing/completing it like a word suggestion -
+    // same convention as the Corrector's predictive punctuation. ¿…?/¡…!
+    // insert BOTH marks: the opening one right at the current sentence's
+    // start (only if it isn't already there) and the closing one here,
+    // leaving the caret at the end so the student keeps typing normally.
+    if (item.type === 'punctuation') {
+      const closing = item.text === '¿…?' ? '?' : item.text === '¡…!' ? '!' : item.text;
+      let nextBefore = before.replace(/\s+$/, '');
+      if ((item.text === '¿…?' || item.text === '¡…!') && (sourceSelect?.value || 'english') === 'spanish') {
+        const opening = item.text[0];
+        const sentenceStart = Math.max(nextBefore.lastIndexOf('.'), nextBefore.lastIndexOf('!'), nextBefore.lastIndexOf('?')) + 1;
+        const prefix = nextBefore.slice(0, sentenceStart);
+        const sentence = nextBefore.slice(sentenceStart).trimStart();
+        if (sentence && !sentence.startsWith(opening)) nextBefore = `${prefix}${prefix && !/\s$/.test(prefix) ? ' ' : ''}${opening}${sentence}`;
+      }
+      nextBefore = `${nextBefore}${closing} `;
+      input.value = nextBefore + after.replace(/^\s+/, '');
+      input.setSelectionRange(nextBefore.length, nextBefore.length);
+      hideSuggestions();
+      input.dispatchEvent(new Event('input'));
+      input.focus();
+      return;
+    }
     const wordMatch = /(\S*)$/.exec(before);
     const wordStart = caret - (wordMatch ? wordMatch[1].length : 0);
     const newBefore = `${before.slice(0, wordStart)}${item.text} `;
@@ -20672,7 +20696,21 @@ function setupTranslator() {
     }
     suggestionsDebounceId = window.setTimeout(() => {
       const caret = input.selectionStart ?? input.value.length;
-      renderSuggestions(engine.getSuggestions(language, input.value.slice(0, caret)));
+      const before = input.value.slice(0, caret);
+      const wordSuggestions = engine.getSuggestions(language, before).slice(0, 3);
+      // Offered right after any finished word/closing parenthesis that
+      // doesn't already end in punctuation - a Spanish source additionally
+      // offers the inverted opening+closing pair for questions/exclamations,
+      // built and inserted together by acceptSuggestion() above.
+      const trimmed = before.trimEnd();
+      const canPunctuate = /[\p{L}\p{N}\)]$/u.test(trimmed) && !/[.!?,:;…]$/.test(trimmed);
+      const punctuation = canPunctuate
+        ? (language === 'spanish'
+            ? ['.', ',', ':', ';', '…', '¿…?', '¡…!']
+            : ['.', ',', ':', ';', '…', '?', '!']
+          ).map((text) => ({ type: 'punctuation', text }))
+        : [];
+      renderSuggestions([...wordSuggestions, ...punctuation]);
     }, SUGGESTIONS_DEBOUNCE_MS);
   }
 
