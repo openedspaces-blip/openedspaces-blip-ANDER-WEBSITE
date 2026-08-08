@@ -17091,8 +17091,8 @@ const gamesState = {
 };
 const GAME_DIFFICULTIES = {
   easy: { label: 'Fácil', wordSearchColumns: 15, wordSearchRows: 12, wordSearchWords: 5, crosswordWords: 5, hangmanLives: 8, matchPairs: 4 },
-  normal: { label: 'Normal', wordSearchColumns: 15, wordSearchRows: 12, wordSearchWords: 6, crosswordWords: 6, hangmanLives: 6, matchPairs: 5 },
-  challenge: { label: 'Desafío', wordSearchColumns: 15, wordSearchRows: 12, wordSearchWords: 8, crosswordWords: 8, hangmanLives: 5, matchPairs: 6 }
+  normal: { label: 'Normal', wordSearchColumns: 15, wordSearchRows: 12, wordSearchWords: 10, crosswordWords: 6, hangmanLives: 6, matchPairs: 5 },
+  challenge: { label: 'Desafío', wordSearchColumns: 15, wordSearchRows: 12, wordSearchWords: 10, wordSearchReversed: true, crosswordWords: 8, hangmanLives: 5, hangmanLongWords: true, matchPairs: 6 }
 };
 
 function getGamesDifficulty() {
@@ -17155,21 +17155,41 @@ function normalizeGameText(value) {
     .replace(/[^\p{L}]/gu, '');
 }
 
-async function loadGamesVocabulary(language) {
-  await ensureLanguageWorld(language);
-  const lessons = getLocalFallbackLessons(language, 'A1');
+// Shared by loadGamesVocabulary (A1-only, short words for the word
+// search/match games) and getHangmanChallengeWords (higher levels, long
+// words for Ahorcado on Desafío) so both read lesson vocabulary the same way.
+function vocabularyFromLessons(lessons, { minLength, maxLength }) {
   const seen = new Set();
-  const words = lessons
+  return lessons
     .flatMap((lesson) => lesson.vocabulary || [])
     .map((item) => ({ term: item.term || item.word || item.text || '', translation: item.translation || item.meaning || item.es || '' }))
     .filter(({ term, translation }) => {
       const normalized = normalizeGameText(term);
-      if (normalized.length < 3 || normalized.length > 9 || seen.has(normalized)) return false;
+      if (normalized.length < minLength || normalized.length > maxLength || seen.has(normalized)) return false;
       seen.add(normalized);
       return Boolean(translation);
-    })
-    .slice(0, 18);
+    });
+}
+
+async function loadGamesVocabulary(language) {
+  await ensureLanguageWorld(language);
+  const lessons = getLocalFallbackLessons(language, 'A1');
+  const words = vocabularyFromLessons(lessons, { minLength: 3, maxLength: 9 }).slice(0, 18);
   return words.length >= 4 ? words : GAME_FALLBACK_VOCABULARY[language].map(([term, translation]) => ({ term, translation }));
+}
+
+// Ahorcado on Desafío asks for long (10-12 letter) words specifically. A1
+// vocabulary (loadGamesVocabulary's source) is deliberately short/basic, so
+// this pulls from higher CEFR levels instead - the language world is already
+// loaded by loadGamesVocabulary's ensureLanguageWorld() by the time this
+// runs, so it can read window.ANDERGO_LANGUAGE_WORLDS synchronously. Falls
+// back to the regular A1 pool if a language's B1-C1 content has no match, so
+// Ahorcado never has zero words to choose from.
+const HANGMAN_CHALLENGE_LEVELS = ['B1', 'B2', 'C1'];
+function getHangmanChallengeWords(language, fallbackWords) {
+  const lessons = HANGMAN_CHALLENGE_LEVELS.flatMap((level) => getLocalFallbackLessons(language, level));
+  const words = vocabularyFromLessons(lessons, { minLength: 10, maxLength: 12 }).slice(0, 18);
+  return words.length ? words : fallbackWords;
 }
 
 function getGamesLocale() {
@@ -17198,12 +17218,21 @@ function makeWordSearch(words) {
   const columns = difficulty.wordSearchColumns || difficulty.wordSearchSize;
   const rows = difficulty.wordSearchRows || difficulty.wordSearchSize;
   const letters = Array.from({ length: columns * rows }, () => String.fromCharCode(65 + Math.floor(Math.random() * 26)));
-  const directions = [
+  const forwardDirections = [
     { row: 0, column: 1, label: 'horizontal' },
     { row: 1, column: 0, label: 'vertical' },
     { row: 1, column: 1, label: 'diagonal' },
     { row: 1, column: -1, label: 'diagonal' }
   ];
+  // Only Desafío mixes in the reversed direction of each of the four axes
+  // above (right-to-left, bottom-to-top, etc.) - easy/normal keep the
+  // "No hay palabras al revés" guarantee their instructions text promises.
+  const directions = difficulty.wordSearchReversed
+    ? forwardDirections.flatMap((direction) => [
+        direction,
+        { row: -direction.row, column: -direction.column, label: direction.label }
+      ])
+    : forwardDirections;
   const targets = getGameRoundWords(words, difficulty.wordSearchWords)
     .map((item) => ({ ...item, word: normalizeGameText(item.term).toUpperCase() }))
     .filter((item) => item.word.length <= Math.max(columns, rows));
@@ -17443,7 +17472,10 @@ function renderWordSearchGame(content, words) {
   const picked = new Set();
   const found = new Set();
   setGamesRoundProgress(0, puzzle.targets.length);
-  content.innerHTML = `<p class="games-search-directions">Encuentra ${puzzle.targets.length} palabras de izquierda a derecha, de arriba abajo o en diagonal. No hay palabras al revés.</p><div class="games-word-search-layout"><div class="games-word-grid" style="--word-grid-columns:${puzzle.columns};--word-grid-rows:${puzzle.rows}" aria-label="Sopa de letras">${puzzle.letters.map((letter, index) => `<button type="button" class="games-letter-cell" data-letter-index="${index}" aria-label="Letra ${letter}">${letter}</button>`).join('')}</div><div class="games-word-bank">${puzzle.targets.map((target, index) => `<span data-word-index="${index}">${escapeHtml(target.term)}</span>`).join('')}</div></div><div class="games-action-row"><button type="button" class="secondary-btn games-clear-search">Limpiar selección</button><button type="button" class="secondary-btn games-speak-target">🔊 Pista de audio</button></div>`;
+  const directionsNote = getGamesDifficulty().wordSearchReversed
+    ? `Encuentra ${puzzle.targets.length} palabras en horizontal, vertical, diagonal y también al revés.`
+    : `Encuentra ${puzzle.targets.length} palabras de izquierda a derecha, de arriba abajo o en diagonal. No hay palabras al revés.`;
+  content.innerHTML = `<p class="games-search-directions">${directionsNote}</p><div class="games-word-search-layout"><div class="games-word-grid" style="--word-grid-columns:${puzzle.columns};--word-grid-rows:${puzzle.rows}" aria-label="Sopa de letras">${puzzle.letters.map((letter, index) => `<button type="button" class="games-letter-cell" data-letter-index="${index}" aria-label="Letra ${letter}">${letter}</button>`).join('')}</div><div class="games-word-bank">${puzzle.targets.map((target, index) => `<span data-word-index="${index}">${escapeHtml(target.term)}</span>`).join('')}</div></div><div class="games-action-row"><button type="button" class="secondary-btn games-clear-search">Limpiar selección</button><button type="button" class="secondary-btn games-speak-target">🔊 Pista de audio</button></div>`;
   const check = () => {
     const selected = [...picked].join(',');
     const targetIndex = puzzle.targets.findIndex((target) => target.positions.join(',') === selected);
@@ -17679,10 +17711,14 @@ function renderCrosswordGame(content, topic, bridgeTopic) {
 }
 
 function renderHangmanGame(content, words) {
-  const item = getGameRoundWords(words, 1, 4)[0];
+  const difficulty = getGamesDifficulty();
+  const wordPool = difficulty.hangmanLongWords
+    ? getHangmanChallengeWords(gamesState.language, words)
+    : words;
+  const item = getGameRoundWords(wordPool, 1, 4)[0];
   const answer = normalizeGameText(item.term).toUpperCase();
   const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-  const maximumMisses = getGamesDifficulty().hangmanLives;
+  const maximumMisses = difficulty.hangmanLives;
   const repeatedCount = answer.length - new Set(answer).size;
   const maskedMeaning = String(item.translation || '')
     .split(/(\s+|[-/])/)

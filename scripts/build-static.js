@@ -5,6 +5,7 @@
 // project root and public/ can be deployed identically. Run via `npm run build`.
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 const { execSync } = require('child_process');
 
 const ROOT = path.join(__dirname, '..');
@@ -217,6 +218,30 @@ function main() {
     path.join(ROOT, 'node_modules', '@paddle', 'paddle-js', 'dist', 'index.esm.js'),
     path.join(PUBLIC_DIR, 'vendor', 'paddle', 'index.esm.js')
   );
+
+  // Both index.html's <link>/<script> tags hardcoded a manually-maintained
+  // "?v=20260805-games-upgrade" cache-busting string shared by script.js and
+  // styles.css. Every commit since that date changed one or both files
+  // without anyone bumping it, so a browser (or CDN) that had already cached
+  // that exact URL kept serving stale JS/CSS after every deploy - e.g. a
+  // Tutor fix landing in script.js never reached a returning visitor. Content
+  // hashes replace the manual string so a real content change always
+  // produces a new URL, with nothing left to remember to bump by hand.
+  console.log('Content-hashing script.js/styles.css cache-busting query strings...');
+  const hashFileContents = (relativePath) =>
+    crypto
+      .createHash('sha1')
+      .update(fs.readFileSync(path.join(PUBLIC_DIR, relativePath)))
+      .digest('hex')
+      .slice(0, 10);
+  const scriptHash = hashFileContents('src/js/script.js');
+  const stylesHash = hashFileContents('src/css/styles.css');
+  const publicIndexPath = path.join(PUBLIC_DIR, 'index.html');
+  const indexHtml = fs
+    .readFileSync(publicIndexPath, 'utf8')
+    .replace(/(src="\/src\/js\/script\.js)\?v=[^"]*(")/, `$1?v=${scriptHash}$2`)
+    .replace(/(href="\/src\/css\/styles\.css)\?v=[^"]*(")/, `$1?v=${stylesHash}$2`);
+  fs.writeFileSync(publicIndexPath, indexHtml);
 
   console.log('Build complete: root and public/ are in sync.');
 }

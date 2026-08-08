@@ -429,40 +429,6 @@
           "Il quitte le football",
           "Il déménage en Algérie"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Zinédine Zidane est timide quand il est jeune.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Zidane est entraîneur avant d'être joueur.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Zidane entraîne le Real Madrid, en Espagne.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Les gens du quartier disent que ce garçon est ___.",
-        "options": [
-          "fâché",
-          "spécial",
-          "triste",
-          "fatigué"
-        ]
       }
     ]
   },
@@ -560,54 +526,6 @@
           "C’est plus frais et plus sympa",
           "C’est plus proche de l’école",
           "Il n’y a personne"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que font les vendeurs, selon le texte ?",
-        "options": [
-          "Ils ignorent les clients",
-          "Ils font découvrir de nouveaux produits",
-          "Ils vendent seulement des vêtements",
-          "Ils travaillent seulement le dimanche"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Certains visiteurs n’ont jamais goûté autant de fromages avant leur premier marché.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « savoureux » signifie...",
-        "options": [
-          "Cher",
-          "Qui a bon goût",
-          "Froid",
-          "Difficile à trouver"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle expression montre que les fraises sont de bonne qualité cette semaine ?",
-        "options": [
-          "« C’est moins cher »",
-          "« Elles sont très bonnes cette semaine »",
-          "« On en prend deux kilos »",
-          "« Un fromage plus fort »"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le ton général du texte ?",
-        "options": [
-          "Triste et déçu",
-          "Joyeux et curieux",
-          "Fâché et pressé",
-          "Ennuyé et indifférent"
         ]
       }
     ]
@@ -3972,7 +3890,11 @@
           "Si tu pars, tu retrouveras ta famille.",
           "Si je suis riche, je voyagerai.",
           "Mes amis viendront me rendre visite un jour."
-        ]
+        ],
+        "explanation": "Le futur simple se forme généralement à partir de l’infinitif + terminaisons -ai, -as, -a, -ons, -ez, -ont : je resterai, tu partiras, elle décidera. Pour exprimer une hypothèse probable, on utilise « si + présent, futur simple » : « Si je reste, je progresserai en français. » Le verbe après « si » reste toujours au présent, jamais au futur.",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Exprimer un projet futur et une conséquence probable."
       },
       "listeningComprehension": null
     },
@@ -3981,41 +3903,89 @@
         "type": "mcq",
         "prompt": "Si je reste en France, je ___ mon français.",
         "options": [
-          "améliore",
           "améliorerai",
+          "améliore",
           "améliorerais",
           "ai amélioré"
-        ]
+        ],
+        "explanation": "La bonne réponse est « améliorerai » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Si tu ___, tu retrouveras ta famille.",
         "options": [
-          "pars",
           "partiras",
+          "pars",
           "partirais",
           "es parti"
-        ]
+        ],
+        "explanation": "La bonne réponse est « pars » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle phrase est correcte ?",
         "options": [
           "Si je serai riche, je voyagerai.",
-          "Si je suis riche, je voyagerai.",
           "Si je suis riche, je voyage.",
+          "Si je suis riche, je voyagerai.",
           "Si je serais riche, je voyagerais."
-        ]
+        ],
+        "explanation": "La bonne réponse est « Si je suis riche, je voyagerai. » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Mes amis ___ me rendre visite un jour.",
         "options": [
-          "viendront",
           "viennent",
           "venir",
-          "sont venus"
-        ]
+          "sont venus",
+          "viendront"
+        ],
+        "explanation": "La bonne réponse est « viendront » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Si je reste en France, j’améliore mon français. » ?",
+        "options": [
+          "Si je reste en France, j’améliorerai mon français.",
+          "Si je reste en France, j’améliore mon français.",
+          "Si je reste en France, j’améliorerais mon français.",
+          "Si je reste en France, j’ai amélioré mon français."
+        ],
+        "explanation": "La phrase correcte est : « Si je reste en France, j’améliorerai mon français. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Si tu partiras, tu retrouveras ta famille. » ?",
+        "options": [
+          "Si tu partiras, tu retrouveras ta famille.",
+          "Si tu pars, tu retrouveras ta famille.",
+          "Si tu partirais, tu retrouveras ta famille.",
+          "Si tu es parti, tu retrouveras ta famille."
+        ],
+        "explanation": "La phrase correcte est : « Si tu pars, tu retrouveras ta famille. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Si je serai riche, je voyagerai. » dans ce contexte : « Quelle phrase est correcte ? » ?",
+        "options": [
+          "Si je serai riche, je voyagerai.",
+          "Si je suis riche, je voyage.",
+          "Si je suis riche, je voyagerai.",
+          "Si je serais riche, je voyagerais."
+        ],
+        "explanation": "La bonne réponse est « Si je suis riche, je voyagerai. »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Mes amis viennent me rendre visite un jour. » ?",
+        "options": [
+          "Mes amis viennent me rendre visite un jour.",
+          "Mes amis venir me rendre visite un jour.",
+          "Mes amis sont venus me rendre visite un jour.",
+          "Mes amis viendront me rendre visite un jour."
+        ],
+        "explanation": "La phrase correcte est : « Mes amis viendront me rendre visite un jour. »"
       }
     ]
   },
@@ -4253,7 +4223,11 @@
           "C’est à elle que il revient d’organiser son parcours.",
           "Il semble que cette expérience lui ait énormément appris.",
           "C’est... qui"
-        ]
+        ],
+        "explanation": "La mise en relief avec « c’est... qui » (pour un sujet) ou « c’est... que » (pour un complément) permet d’insister sur un élément précis de la phrase à l’écrit soutenu : « C’est cette différence d’échelle qui la déstabilise. » « C’est à elle qu’il revient d’organiser son parcours. » Après certains verbes d’opinion nuancée (il semble que, il se peut que, il n’est pas certain que), on utilise le subjonctif pour marquer un degré d’incertitude, même en registre soutenu.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Mettre en valeur un élément de la phrase et exprimer une opinion nuancée avec le subjonctif."
       },
       "listeningComprehension": null
     },
@@ -4262,11 +4236,12 @@
         "type": "mcq",
         "prompt": "___ cette liberté qui l’impressionne le plus.",
         "options": [
-          "Ça",
           "C’est",
+          "Ça",
           "Il est",
           "Elle est"
-        ]
+        ],
+        "explanation": "La bonne réponse est « C’est » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -4276,27 +4251,74 @@
           "que",
           "dont",
           "où"
-        ]
+        ],
+        "explanation": "La bonne réponse est « que » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Il semble que cette expérience lui ___ énormément appris.",
         "options": [
           "a",
-          "ait",
           "avait",
+          "ait",
           "aura"
-        ]
+        ],
+        "explanation": "La bonne réponse est « ait » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle structure met en relief le sujet de la phrase ?",
         "options": [
           "C’est... que",
-          "C’est... qui",
           "C’est... dont",
-          "C’est... où"
-        ]
+          "C’est... où",
+          "C’est... qui"
+        ],
+        "explanation": "La bonne réponse est « C’est... qui » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Ça cette liberté qui l’impressionne le plus. » ?",
+        "options": [
+          "C’est cette liberté qui l’impressionne le plus.",
+          "Ça cette liberté qui l’impressionne le plus.",
+          "Il est cette liberté qui l’impressionne le plus.",
+          "Elle est cette liberté qui l’impressionne le plus."
+        ],
+        "explanation": "La phrase correcte est : « C’est cette liberté qui l’impressionne le plus. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « C’est à elle qui il revient d’organiser son parcours. » ?",
+        "options": [
+          "C’est à elle qui il revient d’organiser son parcours.",
+          "C’est à elle qu’il revient d’organiser son parcours.",
+          "C’est à elle dont il revient d’organiser son parcours.",
+          "C’est à elle où il revient d’organiser son parcours."
+        ],
+        "explanation": "La phrase correcte est : « C’est à elle qu’il revient d’organiser son parcours. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il semble que cette expérience lui a énormément appris. » ?",
+        "options": [
+          "Il semble que cette expérience lui a énormément appris.",
+          "Il semble que cette expérience lui avait énormément appris.",
+          "Il semble que cette expérience lui ait énormément appris.",
+          "Il semble que cette expérience lui aura énormément appris."
+        ],
+        "explanation": "La phrase correcte est : « Il semble que cette expérience lui ait énormément appris. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « C’est... que » dans ce contexte : « Quelle structure met en relief le sujet de la phrase ? » ?",
+        "options": [
+          "C’est... que",
+          "C’est... dont",
+          "C’est... où",
+          "C’est... qui"
+        ],
+        "explanation": "La bonne réponse est « C’est... qui »."
       }
     ]
   },
@@ -4534,7 +4556,11 @@
           "Elle emploie le conditionnel de prudence et les tournures impersonnelles afin de évaluer les promesses de l’intelligence artificielle sans certitude excessive : « Quand bien même l’image générée serait esthétiquement irréprochable, elle ne prouverait pas à elle seule une intention créatrice. »",
           "Pour habile que soit la recombinaison stylistique, elle ne suffit pas à établir un projet esthétique propre.",
           "Elle emploie le conditionnel de prudence et les tournures impersonnelles afin de évaluer les promesses de l’intelligence artificielle sans certitude excessive : « Pour habile que soit la recombinaison stylistique, elle ne suffit pas à établir un projet esthétique propre. »"
-        ]
+        ],
+        "explanation": "Le conditionnel marque l’information rapportée ou l’hypothèse ; il semblerait que et il se pourrait que calibrent la prudence.",
+        "purpose": "choisir la ressource avec une précision stylistique, pragmatique et discursive",
+        "cefrLevel": "C2",
+        "unitContext": "Maîtriser le conditionnel de prudence et les tournures impersonnelles dans un contexte argumentatif C2."
       },
       "listeningComprehension": null
     },
@@ -4863,7 +4889,11 @@
           "Elle était partie un an plus tôt, pleine d’appréhension.",
           "Elle n’avait pas anticipé que le retour serait difficile.",
           "Avoir/être à l’imparfait + participe passé"
-        ]
+        ],
+        "explanation": "Le plus-que-parfait se forme avec avoir/être à l’imparfait + participe passé : « J’avais oublié à quel point il faisait chaud. Elle était partie un an plus tôt. » Il exprime une action antérieure à une autre action passée, souvent racontée au passé composé ou à l’imparfait : « Elle comprit ce que son amie avait voulu dire. »",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Situer un événement antérieur à un autre moment du passé."
       },
       "listeningComprehension": null
     },
@@ -4872,41 +4902,89 @@
         "type": "mcq",
         "prompt": "Elle ___ presque oublié la chaleur de Saint-Domingue.",
         "options": [
-          "a",
           "avait",
+          "a",
           "ait",
           "aura"
-        ]
+        ],
+        "explanation": "La bonne réponse est « avait » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Elle ___ un an plus tôt, pleine d’appréhension.",
         "options": [
-          "était partie",
           "est partie",
+          "était partie",
           "partait",
           "sera partie"
-        ]
+        ],
+        "explanation": "La bonne réponse est « était partie » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Elle n’___ pas anticipé que le retour serait difficile.",
         "options": [
           "a",
-          "avait",
           "ait",
+          "avait",
           "aurait"
-        ]
+        ],
+        "explanation": "La bonne réponse est « avait » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle structure forme le plus-que-parfait ?",
         "options": [
           "Avoir/être au présent + participe passé",
-          "Avoir/être à l’imparfait + participe passé",
           "Avoir au futur + infinitif",
-          "Être au conditionnel + gérondif"
-        ]
+          "Être au conditionnel + gérondif",
+          "Avoir/être à l’imparfait + participe passé"
+        ],
+        "explanation": "La bonne réponse est « Avoir/être à l’imparfait + participe passé » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Elle a presque oublié la chaleur de Saint-Domingue. » ?",
+        "options": [
+          "Elle avait presque oublié la chaleur de Saint-Domingue.",
+          "Elle a presque oublié la chaleur de Saint-Domingue.",
+          "Elle ait presque oublié la chaleur de Saint-Domingue.",
+          "Elle aura presque oublié la chaleur de Saint-Domingue."
+        ],
+        "explanation": "La phrase correcte est : « Elle avait presque oublié la chaleur de Saint-Domingue. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Elle est partie un an plus tôt, pleine d’appréhension. » ?",
+        "options": [
+          "Elle est partie un an plus tôt, pleine d’appréhension.",
+          "Elle était partie un an plus tôt, pleine d’appréhension.",
+          "Elle partait un an plus tôt, pleine d’appréhension.",
+          "Elle sera partie un an plus tôt, pleine d’appréhension."
+        ],
+        "explanation": "La phrase correcte est : « Elle était partie un an plus tôt, pleine d’appréhension. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Elle n’a pas anticipé que le retour serait difficile. » ?",
+        "options": [
+          "Elle n’a pas anticipé que le retour serait difficile.",
+          "Elle n’ait pas anticipé que le retour serait difficile.",
+          "Elle n’avait pas anticipé que le retour serait difficile.",
+          "Elle n’aurait pas anticipé que le retour serait difficile."
+        ],
+        "explanation": "La phrase correcte est : « Elle n’avait pas anticipé que le retour serait difficile. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Avoir/être au présent + participe passé » dans ce contexte : « Quelle structure forme le plus-que-parfait ? » ?",
+        "options": [
+          "Avoir/être au présent + participe passé",
+          "Avoir au futur + infinitif",
+          "Être au conditionnel + gérondif",
+          "Avoir/être à l’imparfait + participe passé"
+        ],
+        "explanation": "La bonne réponse est « Avoir/être à l’imparfait + participe passé »."
       }
     ]
   },
@@ -6273,40 +6351,6 @@
           "Cuisinier",
           "Musicien"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Kylian Mbappé est né à Paris.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Sa famille n'a pas d'origines étrangères.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Kylian a vingt-cinq ans.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Le football français a des joueurs de plusieurs origines, et c'est une ___.",
-        "options": [
-          "problème",
-          "richesse",
-          "erreur",
-          "surprise triste"
-        ]
       }
     ]
   },
@@ -6404,54 +6448,6 @@
           "Parce que sa soupe n’est plus chaude",
           "Pour changer de table",
           "Pour commander un dessert"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment le serveur réagit-il à cette remarque ?",
-        "options": [
-          "Il l’ignore",
-          "Il s’excuse et réchauffe le plat",
-          "Il se fâche",
-          "Il annule la commande"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que font souvent les restaurants pour un anniversaire ?",
-        "options": [
-          "Ils demandent l’addition immédiatement",
-          "Ils offrent un dessert gratuit",
-          "Ils proposent une autre table",
-          "Ils ferment le restaurant"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Il est fréquent que les plus jeunes commandent une pizza.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « sans hésiter » signifie...",
-        "options": [
-          "Après beaucoup de réflexion",
-          "Immédiatement, sans doute",
-          "En refusant",
-          "En pleurant"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le sentiment général à la fin du texte ?",
-        "options": [
-          "La déception",
-          "La joie et la célébration",
-          "La colère",
-          "L’ennui"
         ]
       }
     ]
@@ -9799,7 +9795,11 @@
           "Un jour, j’ai décidé de participer au projet.",
           "Je mangeais souvent des tartines.",
           "Le passé composé"
-        ]
+        ],
+        "explanation": "L’imparfait décrit une situation, une habitude ou un état dans le passé, sans limite de temps précise : « J’étais timide. Je parlais peu. » Le passé composé décrit une action ponctuelle et terminée : « Un jour, j’ai décidé de changer. » On utilise souvent les deux ensemble : l’imparfait pour le contexte, le passé composé pour l’événement précis.",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Décrire une situation passée habituelle avec l’imparfait, et distinguer son usage du passé composé."
       },
       "listeningComprehension": null
     },
@@ -9808,41 +9808,89 @@
         "type": "mcq",
         "prompt": "Avant, je ___ très timide.",
         "options": [
-          "ai été",
           "étais",
+          "ai été",
           "suis",
           "serai"
-        ]
+        ],
+        "explanation": "La bonne réponse est « étais » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Un jour, j’___ de participer au projet.",
         "options": [
-          "ai décidé",
           "décidais",
+          "ai décidé",
           "décide",
           "déciderai"
-        ]
+        ],
+        "explanation": "La bonne réponse est « ai décidé » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle phrase utilise correctement l’imparfait pour une habitude passée ?",
         "options": [
           "J’ai mangé souvent des tartines.",
-          "Je mangeais souvent des tartines.",
           "Je vais manger souvent des tartines.",
+          "Je mangeais souvent des tartines.",
           "J’aurais mangé souvent des tartines."
-        ]
+        ],
+        "explanation": "La bonne réponse est « Je mangeais souvent des tartines. » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quel temps utilise-t-on pour une action ponctuelle terminée ?",
         "options": [
           "L’imparfait",
-          "Le passé composé",
           "Le présent",
-          "Le futur simple"
-        ]
+          "Le futur simple",
+          "Le passé composé"
+        ],
+        "explanation": "La bonne réponse est « Le passé composé » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Avant, j’ai été très timide. » ?",
+        "options": [
+          "Avant, j’étais très timide.",
+          "Avant, j’ai été très timide.",
+          "Avant, je suis très timide.",
+          "Avant, je serai très timide."
+        ],
+        "explanation": "La phrase correcte est : « Avant, j’étais très timide. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Un jour, j’décidais de participer au projet. » ?",
+        "options": [
+          "Un jour, j’décidais de participer au projet.",
+          "Un jour, j’ai décidé de participer au projet.",
+          "Un jour, j’décide de participer au projet.",
+          "Un jour, j’déciderai de participer au projet."
+        ],
+        "explanation": "La phrase correcte est : « Un jour, j’ai décidé de participer au projet. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « J’ai mangé souvent des tartines. » dans ce contexte : « Quelle phrase utilise correctement l’imparfait pour une habitude passée ? » ?",
+        "options": [
+          "J’ai mangé souvent des tartines.",
+          "Je vais manger souvent des tartines.",
+          "Je mangeais souvent des tartines.",
+          "J’aurais mangé souvent des tartines."
+        ],
+        "explanation": "La bonne réponse est « Je mangeais souvent des tartines. »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « L’imparfait » dans ce contexte : « Quel temps utilise-t-on pour une action ponctuelle terminée ? » ?",
+        "options": [
+          "L’imparfait",
+          "Le présent",
+          "Le futur simple",
+          "Le passé composé"
+        ],
+        "explanation": "La bonne réponse est « Le passé composé »."
       }
     ]
   },
@@ -10080,7 +10128,11 @@
           "Il avait ajouté qu’il jugeait cette compétence tout aussi précieuse.",
           "Il est probable que le groupe trouve un compromis.",
           "Le conditionnel présent"
-        ]
+        ],
+        "explanation": "Au discours rapporté avec un verbe introducteur au passé, la concordance des temps est complète : présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel présent : « Il avait répondu qu’il n’était pas exclu qu’un travail interdisciplinaire produise un résultat plus riche. » En registre soutenu, la probabilité s’exprime avec des tournures comme « il est probable que », « il n’est pas exclu que » (suivies du subjonctif ou de l’indicatif selon le degré de certitude).",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Rapporter des propos avec une concordance des temps complète et exprimer la probabilité en registre soutenu."
       },
       "listeningComprehension": null
     },
@@ -10089,11 +10141,12 @@
         "type": "mcq",
         "prompt": "Le professeur avait répondu qu’il ___ pas exclu qu’un tel travail soit plus riche.",
         "options": [
-          "n’est",
           "n’était",
+          "n’est",
           "ne sera",
           "ne soit"
-        ]
+        ],
+        "explanation": "La bonne réponse est « n’était » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -10103,27 +10156,74 @@
           "jugeait",
           "jugera",
           "jugerait"
-        ]
+        ],
+        "explanation": "La bonne réponse est « jugeait » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Il est probable que le groupe ___ un compromis.",
         "options": [
-          "trouve",
           "trouvera",
           "a trouvé",
+          "trouve",
           "trouverait"
-        ]
+        ],
+        "explanation": "La bonne réponse est « trouve » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Au discours rapporté au passé, le futur simple devient...",
         "options": [
           "Le passé composé",
-          "Le conditionnel présent",
           "L’imparfait",
-          "Le subjonctif"
-        ]
+          "Le subjonctif",
+          "Le conditionnel présent"
+        ],
+        "explanation": "La bonne réponse est « Le conditionnel présent » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Le professeur avait répondu qu’il n’est pas exclu qu’un tel travail soit plus riche. » ?",
+        "options": [
+          "Le professeur avait répondu qu’il n’était pas exclu qu’un tel travail soit plus riche.",
+          "Le professeur avait répondu qu’il n’est pas exclu qu’un tel travail soit plus riche.",
+          "Le professeur avait répondu qu’il ne sera pas exclu qu’un tel travail soit plus riche.",
+          "Le professeur avait répondu qu’il ne soit pas exclu qu’un tel travail soit plus riche."
+        ],
+        "explanation": "La phrase correcte est : « Le professeur avait répondu qu’il n’était pas exclu qu’un tel travail soit plus riche. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il avait ajouté qu’il juge cette compétence tout aussi précieuse. » ?",
+        "options": [
+          "Il avait ajouté qu’il juge cette compétence tout aussi précieuse.",
+          "Il avait ajouté qu’il jugeait cette compétence tout aussi précieuse.",
+          "Il avait ajouté qu’il jugera cette compétence tout aussi précieuse.",
+          "Il avait ajouté qu’il jugerait cette compétence tout aussi précieuse."
+        ],
+        "explanation": "La phrase correcte est : « Il avait ajouté qu’il jugeait cette compétence tout aussi précieuse. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il est probable que le groupe trouvera un compromis. » ?",
+        "options": [
+          "Il est probable que le groupe trouvera un compromis.",
+          "Il est probable que le groupe a trouvé un compromis.",
+          "Il est probable que le groupe trouve un compromis.",
+          "Il est probable que le groupe trouverait un compromis."
+        ],
+        "explanation": "La phrase correcte est : « Il est probable que le groupe trouve un compromis. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Le passé composé » dans ce contexte : « Au discours rapporté au passé, le futur simple devient... » ?",
+        "options": [
+          "Le passé composé",
+          "L’imparfait",
+          "Le subjonctif",
+          "Le conditionnel présent"
+        ],
+        "explanation": "La bonne réponse est « Le conditionnel présent »."
       }
     ]
   },
@@ -10361,7 +10461,11 @@
           "Elle emploie les systèmes hypothétiques complexes et l’irréel afin de raisonner sur des trajectoires climatiques et énergétiques alternatives sans confondre scénario et prédiction : « Si les investissements s’étaient orientés plus tôt vers les énergies propres, l’écart avec la trajectoire nécessaire serait aujourd’hui moindre. »",
           "La demande énergétique mondiale pourrait continuer de croître, quoique la part des énergies propres progresse déjà rapidement.",
           "Elle emploie les systèmes hypothétiques complexes et l’irréel afin de raisonner sur des trajectoires climatiques et énergétiques alternatives sans confondre scénario et prédiction : « La demande énergétique mondiale pourrait continuer de croître, quoique la part des énergies propres progresse déjà rapidement. »"
-        ]
+        ],
+        "explanation": "Si plus-que-parfait appelle le conditionnel passé ; si imparfait appelle le conditionnel présent ; à moins que et pour peu que exigent le subjonctif.",
+        "purpose": "choisir la ressource avec une précision stylistique, pragmatique et discursive",
+        "cefrLevel": "C2",
+        "unitContext": "Maîtriser les systèmes hypothétiques complexes et l’irréel dans un contexte argumentatif C2."
       },
       "listeningComprehension": null
     },
@@ -10690,7 +10794,11 @@
           "Il est important que nous ayons vécu cette expérience ensemble.",
           "Bien qu’elle ait été nerveuse, elle a envoyé sa lettre.",
           "Avoir/être au subjonctif présent + participe passé"
-        ]
+        ],
+        "explanation": "Le subjonctif passé se forme avec avoir/être au subjonctif présent + participe passé : « Je suis content(e) que tu aies réussi. Il est important que nous ayons vécu cette expérience. » Il s’utilise après les mêmes expressions que le subjonctif présent, mais pour une action déjà accomplie au moment où l’on parle.",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Exprimer une expérience accomplie après une expression subjective ou émotionnelle."
       },
       "listeningComprehension": null
     },
@@ -10699,11 +10807,12 @@
         "type": "mcq",
         "prompt": "Je suis fière que tu ___ cette candidature.",
         "options": [
-          "envoies",
           "aies envoyé",
+          "envoies",
           "enverrais",
           "envoyais"
-        ]
+        ],
+        "explanation": "La bonne réponse est « aies envoyé » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -10713,27 +10822,74 @@
           "ayons vécu",
           "vivrons",
           "vivions"
-        ]
+        ],
+        "explanation": "La bonne réponse est « ayons vécu » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Bien qu’elle ___ nerveuse, elle a envoyé sa lettre.",
         "options": [
           "soit",
-          "ait été",
           "était",
+          "ait été",
           "sera"
-        ]
+        ],
+        "explanation": "La bonne réponse est « ait été » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle structure forme le subjonctif passé ?",
         "options": [
-          "Avoir/être au subjonctif présent + participe passé",
           "Avoir au futur + infinitif",
           "Être à l’imparfait + gérondif",
-          "Avoir au conditionnel + infinitif"
-        ]
+          "Avoir au conditionnel + infinitif",
+          "Avoir/être au subjonctif présent + participe passé"
+        ],
+        "explanation": "La bonne réponse est « Avoir/être au subjonctif présent + participe passé » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Je suis fière que tu envoies cette candidature. » ?",
+        "options": [
+          "Je suis fière que tu aies envoyé cette candidature.",
+          "Je suis fière que tu envoies cette candidature.",
+          "Je suis fière que tu enverrais cette candidature.",
+          "Je suis fière que tu envoyais cette candidature."
+        ],
+        "explanation": "La phrase correcte est : « Je suis fière que tu aies envoyé cette candidature. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il est important que nous vivons cette expérience ensemble. » ?",
+        "options": [
+          "Il est important que nous vivons cette expérience ensemble.",
+          "Il est important que nous ayons vécu cette expérience ensemble.",
+          "Il est important que nous vivrons cette expérience ensemble.",
+          "Il est important que nous vivions cette expérience ensemble."
+        ],
+        "explanation": "La phrase correcte est : « Il est important que nous ayons vécu cette expérience ensemble. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Bien qu’elle soit nerveuse, elle a envoyé sa lettre. » ?",
+        "options": [
+          "Bien qu’elle soit nerveuse, elle a envoyé sa lettre.",
+          "Bien qu’elle était nerveuse, elle a envoyé sa lettre.",
+          "Bien qu’elle ait été nerveuse, elle a envoyé sa lettre.",
+          "Bien qu’elle sera nerveuse, elle a envoyé sa lettre."
+        ],
+        "explanation": "La phrase correcte est : « Bien qu’elle ait été nerveuse, elle a envoyé sa lettre. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Avoir au futur + infinitif » dans ce contexte : « Quelle structure forme le subjonctif passé ? » ?",
+        "options": [
+          "Avoir au futur + infinitif",
+          "Être à l’imparfait + gérondif",
+          "Avoir au conditionnel + infinitif",
+          "Avoir/être au subjonctif présent + participe passé"
+        ],
+        "explanation": "La bonne réponse est « Avoir/être au subjonctif présent + participe passé »."
       }
     ]
   },
@@ -11900,40 +12056,6 @@
           "Cannelle",
           "Fido"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Marie Curie est la première femme professeure à la Sorbonne.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Ève préfère les sciences à la musique.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Marie Curie est née en France.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Marie Curie est très ___ avec ses étudiants.",
-        "options": [
-          "accueillante",
-          "fâchée",
-          "fatiguée",
-          "triste"
-        ]
       }
     ]
   },
@@ -12031,54 +12153,6 @@
           "Fiers d’eux-mêmes",
           "Tristes",
           "Fatigués"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Prendre le bus seul pour la première fois est une petite aventure.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « valider son ticket » signifie...",
-        "options": [
-          "Acheter un ticket",
-          "Composter/activer le ticket",
-          "Jeter le ticket",
-          "Perdre le ticket"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Combien de minutes dure le trajet en bus jusqu’à l’arrêt ?",
-        "options": [
-          "Cinq minutes",
-          "Dix minutes",
-          "Quinze minutes",
-          "Trente minutes"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Combien de temps faut-il marcher après l’arrêt de bus ?",
-        "options": [
-          "Cinq minutes",
-          "Dix minutes",
-          "Vingt minutes",
-          "Une heure"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le thème principal du texte ?",
-        "options": [
-          "Un problème de bus non résolu",
-          "L’autonomie dans une nouvelle ville",
-          "Une dispute entre amis",
-          "Un cours de géographie"
         ]
       }
     ]
@@ -15419,7 +15493,11 @@
           "Tu devrais réviser chaque soir.",
           "Il serait utile de refaire les exercices.",
           "-ais, -ais, -ait"
-        ]
+        ],
+        "explanation": "Le conditionnel présent se forme avec le radical du futur simple + les terminaisons de l’imparfait : je commencerais, tu devrais, il/elle serait. On l’utilise souvent pour donner un conseil de façon polie : « À ta place, je commencerais par les exercices simples. Tu devrais réviser chaque soir. »",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Utiliser le conditionnel présent pour donner un conseil."
       },
       "listeningComprehension": null
     },
@@ -15428,21 +15506,23 @@
         "type": "mcq",
         "prompt": "À ta place, je ___ par les exercices simples.",
         "options": [
-          "commence",
           "commencerais",
+          "commence",
           "ai commencé",
           "commencerai"
-        ]
+        ],
+        "explanation": "La bonne réponse est « commencerais » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Tu ___ réviser chaque soir.",
         "options": [
-          "devrais",
           "dois",
+          "devrais",
           "devras",
           "devais"
-        ]
+        ],
+        "explanation": "La bonne réponse est « devrais » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -15452,17 +15532,63 @@
           "sera",
           "serait",
           "était"
-        ]
+        ],
+        "explanation": "La bonne réponse est « serait » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle terminaison caractérise le conditionnel présent ?",
         "options": [
           "-ai, -as, -a",
-          "-ais, -ais, -ait",
           "-é, -is, -u",
-          "-ant"
-        ]
+          "-ant",
+          "-ais, -ais, -ait"
+        ],
+        "explanation": "La bonne réponse est « -ais, -ais, -ait » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « À ta place, je commence par les exercices simples. » ?",
+        "options": [
+          "À ta place, je commencerais par les exercices simples.",
+          "À ta place, je commence par les exercices simples.",
+          "À ta place, j’ai commencé par les exercices simples.",
+          "À ta place, je commencerai par les exercices simples."
+        ],
+        "explanation": "La phrase correcte est : « À ta place, je commencerais par les exercices simples. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Tu dois réviser chaque soir. » ?",
+        "options": [
+          "Tu dois réviser chaque soir.",
+          "Tu devrais réviser chaque soir.",
+          "Tu devras réviser chaque soir.",
+          "Tu devais réviser chaque soir."
+        ],
+        "explanation": "La phrase correcte est : « Tu devrais réviser chaque soir. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il est utile de refaire les exercices. » ?",
+        "options": [
+          "Il est utile de refaire les exercices.",
+          "Il sera utile de refaire les exercices.",
+          "Il serait utile de refaire les exercices.",
+          "Il était utile de refaire les exercices."
+        ],
+        "explanation": "La phrase correcte est : « Il serait utile de refaire les exercices. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « -ai, -as, -a » dans ce contexte : « Quelle terminaison caractérise le conditionnel présent ? » ?",
+        "options": [
+          "-ai, -as, -a",
+          "-é, -is, -u",
+          "-ant",
+          "-ais, -ais, -ait"
+        ],
+        "explanation": "La bonne réponse est « -ais, -ais, -ait »."
       }
     ]
   },
@@ -15697,7 +15823,11 @@
           "Il convient de comparer les sources avant de conclure.",
           "Il ressort de l’analyse que les titres orientent la lecture.",
           "la contestation de la mesure par les étudiants"
-        ]
+        ],
+        "explanation": "La nominalisation condense une proposition et densifie le registre analytique : « le gouvernement réforme » devient « la réforme gouvernementale ». Les tournures « il ressort que », « il convient de » et « force est de constater que » permettent de structurer une analyse sans effacer la responsabilité des acteurs.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser la nominalisation et les tournures impersonnelles dans un contexte argumentatif C1."
       },
       "listeningComprehension": null
     },
@@ -16026,7 +16156,11 @@
           "Elle emploie la polyphonie et le discours rapporté complexe afin de attribuer précisément déclarations officielles, contestations et interprétations concurrentes : « Selon certains analystes, la multipolarité aggraverait l’instabilité ; d’après d’autres, elle multiplierait au contraire les canaux de médiation. »",
           "À en croire les partisans du multilatéralisme, la robustesse institutionnelle compterait davantage que le nombre de pôles rivaux.",
           "Elle emploie la polyphonie et le discours rapporté complexe afin de attribuer précisément déclarations officielles, contestations et interprétations concurrentes : « À en croire les partisans du multilatéralisme, la robustesse institutionnelle compterait davantage que le nombre de pôles rivaux. »"
-        ]
+        ],
+        "explanation": "Selon, d’après, à en croire, le conditionnel de reprise et les incises signalent la source et la distance du rédacteur.",
+        "purpose": "choisir la ressource avec une précision stylistique, pragmatique et discursive",
+        "cefrLevel": "C2",
+        "unitContext": "Maîtriser la polyphonie et le discours rapporté complexe dans un contexte argumentatif C2."
       },
       "listeningComprehension": null
     },
@@ -16355,7 +16489,11 @@
           "Aucun argument n’a été complètement réfuté.",
           "Le contenu est contrôlé par les parents.",
           "Les risques d’addiction sont bien documentés par les chercheurs."
-        ]
+        ],
+        "explanation": "La voix passive se forme avec être + participe passé, le sujet de la phrase active devenant le complément d’agent introduit par « par » : « Ce contenu est rarement contrôlé par les parents » (au lieu de « Les parents contrôlent rarement ce contenu »). Elle est fréquente à l’écrit argumentatif pour mettre l’accent sur l’action plutôt que sur celui qui la fait.",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Utiliser la voix passive dans un contexte argumentatif."
       },
       "listeningComprehension": null
     },
@@ -16368,37 +16506,85 @@
           "a",
           "sera",
           "était"
-        ]
+        ],
+        "explanation": "La bonne réponse est « est » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Aucun argument n’___ complètement réfuté.",
         "options": [
-          "a été",
           "est",
+          "a été",
           "sera",
           "avait"
-        ]
+        ],
+        "explanation": "La bonne réponse est « a été » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle phrase est à la voix passive ?",
         "options": [
           "Les parents contrôlent le contenu.",
-          "Le contenu est contrôlé par les parents.",
           "Les parents vont contrôler le contenu.",
+          "Le contenu est contrôlé par les parents.",
           "Les parents contrôlaient le contenu."
-        ]
+        ],
+        "explanation": "La bonne réponse est « Le contenu est contrôlé par les parents. » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Les risques d’addiction ___ bien documentés par les chercheurs.",
         "options": [
-          "sont",
           "ont",
           "seront",
-          "étaient"
-        ]
+          "étaient",
+          "sont"
+        ],
+        "explanation": "La bonne réponse est « sont » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Ce contenu a rarement contrôlé par les parents. » ?",
+        "options": [
+          "Ce contenu est rarement contrôlé par les parents.",
+          "Ce contenu a rarement contrôlé par les parents.",
+          "Ce contenu sera rarement contrôlé par les parents.",
+          "Ce contenu était rarement contrôlé par les parents."
+        ],
+        "explanation": "La phrase correcte est : « Ce contenu est rarement contrôlé par les parents. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Aucun argument n’est complètement réfuté. » ?",
+        "options": [
+          "Aucun argument n’est complètement réfuté.",
+          "Aucun argument n’a été complètement réfuté.",
+          "Aucun argument n’sera complètement réfuté.",
+          "Aucun argument n’avait complètement réfuté."
+        ],
+        "explanation": "La phrase correcte est : « Aucun argument n’a été complètement réfuté. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Les parents contrôlent le contenu. » dans ce contexte : « Quelle phrase est à la voix passive ? » ?",
+        "options": [
+          "Les parents contrôlent le contenu.",
+          "Les parents vont contrôler le contenu.",
+          "Le contenu est contrôlé par les parents.",
+          "Les parents contrôlaient le contenu."
+        ],
+        "explanation": "La bonne réponse est « Le contenu est contrôlé par les parents. »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Les risques d’addiction ont bien documentés par les chercheurs. » ?",
+        "options": [
+          "Les risques d’addiction ont bien documentés par les chercheurs.",
+          "Les risques d’addiction seront bien documentés par les chercheurs.",
+          "Les risques d’addiction étaient bien documentés par les chercheurs.",
+          "Les risques d’addiction sont bien documentés par les chercheurs."
+        ],
+        "explanation": "La phrase correcte est : « Les risques d’addiction sont bien documentés par les chercheurs. »"
       }
     ]
   },
@@ -17691,40 +17877,6 @@
           "Six",
           "Sept"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Il y a un gymnase dans le collège.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Les élèves ont une calculatrice dans leur sac.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Il y a cours le mercredi après-midi.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Dans une trousse, il y a un stylo, un crayon, une gomme et une ___.",
-        "options": [
-          "règle",
-          "chaise",
-          "cantine",
-          "bibliothèque"
-        ]
       }
     ]
   },
@@ -17822,54 +17974,6 @@
           "Pour ne pas contaminer les autres",
           "Parce que l’école est fermée",
           "Parce que c’est obligatoire"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que fait-on après la consultation ?",
-        "options": [
-          "On rentre directement sans rien faire",
-          "On achète le médicament à la pharmacie",
-          "On va au restaurant",
-          "On appelle un ami"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Beaucoup de patients sont contents de manquer l’école ou le travail.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « rassurée » signifie...",
-        "options": [
-          "Encore plus inquiète",
-          "Soulagée, moins inquiète",
-          "En colère",
-          "Fatiguée"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Après combien de jours la plupart des patients se sentent-ils mieux ?",
-        "options": [
-          "Le jour même",
-          "Le lendemain",
-          "Après quelques jours de repos",
-          "Jamais"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le ton général du texte ?",
-        "options": [
-          "Inquiétant du début à la fin",
-          "Rassurant, avec une bonne résolution",
-          "Triste et sans espoir",
-          "Comique"
         ]
       }
     ]
@@ -21204,7 +21308,11 @@
           "Pourriez-vous me donner plus d’informations sur le poste ?",
           "Vous",
           "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
-        ]
+        ],
+        "explanation": "Dans un contexte professionnel, on remplace « je veux » par « je voudrais », « pouvez-vous » par « pourriez-vous », et « tu » par « vous ». Cela rend le discours plus poli et adapté à une situation formelle : « Je voudrais ce stage. Pourriez-vous me donner plus d’informations ? »",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Utiliser le conditionnel de politesse pour un langage formel."
       },
       "listeningComprehension": null
     },
@@ -21213,11 +21321,12 @@
         "type": "mcq",
         "prompt": "Dans un e-mail formel, on préfère dire...",
         "options": [
-          "Je veux ce stage.",
           "Je voudrais ce stage.",
+          "Je veux ce stage.",
           "Donne-moi ce stage.",
           "Je dois avoir ce stage."
-        ]
+        ],
+        "explanation": "La bonne réponse est « Je voudrais ce stage. » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -21227,17 +21336,19 @@
           "Pourriez-vous",
           "Peux-tu",
           "Pourrais-tu"
-        ]
+        ],
+        "explanation": "La bonne réponse est « Pourriez-vous » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Dans un contexte formel, on utilise généralement...",
         "options": [
           "Tu",
-          "Vous",
           "Toi",
+          "Vous",
           "Te"
-        ]
+        ],
+        "explanation": "La bonne réponse est « Vous » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -21245,9 +21356,54 @@
         "options": [
           "Bisous !",
           "À plus !",
-          "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées.",
-          "Salut, à bientôt !"
-        ]
+          "Salut, à bientôt !",
+          "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
+        ],
+        "explanation": "La bonne réponse est « Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées. » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Je veux ce stage. » dans ce contexte : « Dans un e-mail formel, on préfère dire... » ?",
+        "options": [
+          "Je voudrais ce stage.",
+          "Je veux ce stage.",
+          "Donne-moi ce stage.",
+          "Je dois avoir ce stage."
+        ],
+        "explanation": "La bonne réponse est « Je voudrais ce stage. »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Pouvez-vous me donner plus d’informations sur le poste ? » ?",
+        "options": [
+          "Pouvez-vous me donner plus d’informations sur le poste ?",
+          "Pourriez-vous me donner plus d’informations sur le poste ?",
+          "Peux-tu me donner plus d’informations sur le poste ?",
+          "Pourrais-tu me donner plus d’informations sur le poste ?"
+        ],
+        "explanation": "La phrase correcte est : « Pourriez-vous me donner plus d’informations sur le poste ? »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Tu » dans ce contexte : « Dans un contexte formel, on utilise généralement... » ?",
+        "options": [
+          "Tu",
+          "Toi",
+          "Vous",
+          "Te"
+        ],
+        "explanation": "La bonne réponse est « Vous »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Bisous ! » dans ce contexte : « Quelle formule est appropriée pour terminer un e-mail formel ? » ?",
+        "options": [
+          "Bisous !",
+          "À plus !",
+          "Salut, à bientôt !",
+          "Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées."
+        ],
+        "explanation": "La bonne réponse est « Dans l’attente de votre réponse, je vous prie d’agréer mes salutations distinguées. »."
       }
     ]
   },
@@ -21482,7 +21638,11 @@
           "Quand bien même la machine progresserait, une révision resterait nécessaire.",
           "Le traducteur a beau relire le résultat, une nuance lui échappe.",
           "Quoique cette version soit fluide, elle manque de rythme."
-        ]
+        ],
+        "explanation": "La concession met en relation deux faits dont le second résiste au premier : « Quoique l’outil soit rapide, il simplifie le style. » « Quand bien même il progresserait, une révision resterait nécessaire. » « Elle a beau corriger le texte, certaines nuances lui échappent. »",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser la concession avancée : quoique, quand bien même, avoir beau dans un contexte argumentatif C1."
       },
       "listeningComprehension": null
     },
@@ -21811,7 +21971,11 @@
           "Elle emploie le subjonctif dans l’évaluation, la restriction et le doute afin de formuler un lien entre usage numérique et bien-être sans le présenter comme définitivement établi : « Il est essentiel que l’étude distingue l’usage passif de l’usage actif avant de conclure à un effet uniforme. »",
           "Les auteurs recommandent que chaque association soit interprétée avec prudence, sans qu’un lien causal soit présupposé.",
           "Elle emploie le subjonctif dans l’évaluation, la restriction et le doute afin de formuler un lien entre usage numérique et bien-être sans le présenter comme définitivement établi : « Les auteurs recommandent que chaque association soit interprétée avec prudence, sans qu’un lien causal soit présupposé. »"
-        ]
+        ],
+        "explanation": "Pour autant que, à supposer que, sans qu’il soit certain que et bien que sélectionnent le subjonctif.",
+        "purpose": "choisir la ressource avec une précision stylistique, pragmatique et discursive",
+        "cefrLevel": "C2",
+        "unitContext": "Maîtriser le subjonctif dans l’évaluation, la restriction et le doute dans un contexte argumentatif C2."
       },
       "listeningComprehension": null
     },
@@ -22140,7 +22304,11 @@
           "C’est le métier dont elle rêve depuis longtemps.",
           "Ce dont elle a le plus besoin, c’est de présence humaine.",
           "En + participe présent"
-        ]
+        ],
+        "explanation": "Le gérondif (en + participe présent) exprime une action simultanée : « En travaillant seule, elle a réalisé... » « Dont » remplace un complément introduit par « de » : « Le métier dont elle rêve. » « Ce dont » s’utilise sans antécédent précis : « Ce dont elle a besoin, c’est de présence humaine. »",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Exprimer la simultanéité avec le gérondif et utiliser dont/ce dont."
       },
       "listeningComprehension": null
     },
@@ -22153,7 +22321,8 @@
           "Dans",
           "Par",
           "Pour"
-        ]
+        ],
+        "explanation": "La bonne réponse est « En » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -22163,27 +22332,74 @@
           "dont",
           "où",
           "qui"
-        ]
+        ],
+        "explanation": "La bonne réponse est « dont » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "___ elle a le plus besoin, c’est de présence humaine.",
         "options": [
           "Ce que",
-          "Ce dont",
           "Ce qui",
+          "Ce dont",
           "Ce à quoi"
-        ]
+        ],
+        "explanation": "La bonne réponse est « Ce dont » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle structure exprime la simultanéité ?",
         "options": [
-          "En + participe présent",
           "Avoir + participe passé",
           "Aller + infinitif",
-          "Être + adjectif"
-        ]
+          "Être + adjectif",
+          "En + participe présent"
+        ],
+        "explanation": "La bonne réponse est « En + participe présent » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Dans travaillant seule, elle a réalisé qu’elle avait besoin de contact humain. » ?",
+        "options": [
+          "En travaillant seule, elle a réalisé qu’elle avait besoin de contact humain.",
+          "Dans travaillant seule, elle a réalisé qu’elle avait besoin de contact humain.",
+          "Par travaillant seule, elle a réalisé qu’elle avait besoin de contact humain.",
+          "Pour travaillant seule, elle a réalisé qu’elle avait besoin de contact humain."
+        ],
+        "explanation": "La phrase correcte est : « En travaillant seule, elle a réalisé qu’elle avait besoin de contact humain. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « C’est le métier qu’elle rêve depuis longtemps. » ?",
+        "options": [
+          "C’est le métier qu’elle rêve depuis longtemps.",
+          "C’est le métier dont elle rêve depuis longtemps.",
+          "C’est le métier où elle rêve depuis longtemps.",
+          "C’est le métier qui elle rêve depuis longtemps."
+        ],
+        "explanation": "La phrase correcte est : « C’est le métier dont elle rêve depuis longtemps. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Ce qu’elle a le plus besoin, c’est de présence humaine. » ?",
+        "options": [
+          "Ce qu’elle a le plus besoin, c’est de présence humaine.",
+          "Ce qui elle a le plus besoin, c’est de présence humaine.",
+          "Ce dont elle a le plus besoin, c’est de présence humaine.",
+          "Ce à quoi elle a le plus besoin, c’est de présence humaine."
+        ],
+        "explanation": "La phrase correcte est : « Ce dont elle a le plus besoin, c’est de présence humaine. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Avoir + participe passé » dans ce contexte : « Quelle structure exprime la simultanéité ? » ?",
+        "options": [
+          "Avoir + participe passé",
+          "Aller + infinitif",
+          "Être + adjectif",
+          "En + participe présent"
+        ],
+        "explanation": "La bonne réponse est « En + participe présent »."
       }
     ]
   },
@@ -23470,40 +23686,6 @@
           "Il téléphone à sa mère",
           "Il fait du sport"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Teddy Riner va à l'entraînement en voiture.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Les entraînements finissent à seize heures trente.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Teddy Riner se couche à minuit.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Le soir, Teddy Riner ___ en famille.",
-        "options": [
-          "dîne",
-          "se lève",
-          "s'habille",
-          "se réveille"
-        ]
       }
     ]
   },
@@ -23601,54 +23783,6 @@
           "Dix-neuf heures trente",
           "Vingt et une heures",
           "Vingt-deux heures"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que font ces élèves le week-end, selon le texte ?",
-        "options": [
-          "Ils restent toujours seuls",
-          "Ils sortent parfois avec des amis",
-          "Ils travaillent",
-          "Ils voyagent chaque semaine"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Ces élèves s’ennuient souvent dans leur nouvelle routine.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « je m’y suis vite habitué(e) » signifie...",
-        "options": [
-          "J’ai mis longtemps à m’adapter",
-          "Je me suis adapté(e) rapidement",
-          "Je n’aime pas ma routine",
-          "J’ai changé de routine"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est souvent l’activité préférée de la semaine ?",
-        "options": [
-          "Les devoirs à la bibliothèque",
-          "Le dîner en famille",
-          "L’activité extrascolaire",
-          "Le petit-déjeuner"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le ton général de la conversation ?",
-        "options": [
-          "Inquiet et tendu",
-          "Chaleureux et rassurant",
-          "Fâché",
-          "Indifférent"
         ]
       }
     ]
@@ -26964,7 +27098,11 @@
           "Alors que",
           "Les Français passent du temps à table, tandis que les repas sont plus rapides ailleurs.",
           "Je mange lentement, tandis que mon frère mange vite."
-        ]
+        ],
+        "explanation": "« Tandis que » et « alors que » servent à opposer deux idées dans une même phrase : « En France, on dîne vers vingt heures, tandis qu’à Saint-Domingue, on dîne souvent plus tard. » Ils sont suivis d’un sujet et d’un verbe conjugué, comme « parce que ».",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Comparer deux idées opposées avec des connecteurs."
       },
       "listeningComprehension": null
     },
@@ -26973,41 +27111,89 @@
         "type": "mcq",
         "prompt": "En France, on dîne tôt, ___ à Saint-Domingue, on dîne plus tard.",
         "options": [
-          "parce que",
           "tandis que",
+          "parce que",
           "donc",
           "car"
-        ]
+        ],
+        "explanation": "La bonne réponse est « tandis que » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quel connecteur exprime une opposition ?",
         "options": [
           "Parce que",
-          "Donc",
           "Alors que",
+          "Donc",
           "Si bien que"
-        ]
+        ],
+        "explanation": "La bonne réponse est « Alors que » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Les Français passent du temps à table, ___ les repas sont plus rapides ailleurs.",
         "options": [
-          "tandis que",
           "parce que",
           "donc",
+          "tandis que",
           "ainsi"
-        ]
+        ],
+        "explanation": "La bonne réponse est « tandis que » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle phrase utilise correctement un connecteur d’opposition ?",
         "options": [
           "Je mange vite parce que je suis pressé.",
-          "Je mange lentement, tandis que mon frère mange vite.",
           "Je mange donc je suis en retard.",
-          "Je mange si j’ai faim."
-        ]
+          "Je mange si j’ai faim.",
+          "Je mange lentement, tandis que mon frère mange vite."
+        ],
+        "explanation": "La bonne réponse est « Je mange lentement, tandis que mon frère mange vite. » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « En France, on dîne tôt, parce que à Saint-Domingue, on dîne plus tard. » ?",
+        "options": [
+          "En France, on dîne tôt, tandis que à Saint-Domingue, on dîne plus tard.",
+          "En France, on dîne tôt, parce que à Saint-Domingue, on dîne plus tard.",
+          "En France, on dîne tôt, donc à Saint-Domingue, on dîne plus tard.",
+          "En France, on dîne tôt, car à Saint-Domingue, on dîne plus tard."
+        ],
+        "explanation": "La phrase correcte est : « En France, on dîne tôt, tandis que à Saint-Domingue, on dîne plus tard. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quel connecteur exprime une opposition ? » ?",
+        "options": [
+          "Parce que",
+          "Alors que",
+          "Donc",
+          "Si bien que"
+        ],
+        "explanation": "La bonne réponse est « Alors que »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Les Français passent du temps à table, parce que les repas sont plus rapides ailleurs. » ?",
+        "options": [
+          "Les Français passent du temps à table, parce que les repas sont plus rapides ailleurs.",
+          "Les Français passent du temps à table, donc les repas sont plus rapides ailleurs.",
+          "Les Français passent du temps à table, tandis que les repas sont plus rapides ailleurs.",
+          "Les Français passent du temps à table, ainsi les repas sont plus rapides ailleurs."
+        ],
+        "explanation": "La phrase correcte est : « Les Français passent du temps à table, tandis que les repas sont plus rapides ailleurs. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Je mange vite parce que je suis pressé. » dans ce contexte : « Quelle phrase utilise correctement un connecteur d’opposition ? » ?",
+        "options": [
+          "Je mange vite parce que je suis pressé.",
+          "Je mange donc je suis en retard.",
+          "Je mange si j’ai faim.",
+          "Je mange lentement, tandis que mon frère mange vite."
+        ],
+        "explanation": "La bonne réponse est « Je mange lentement, tandis que mon frère mange vite. »."
       }
     ]
   },
@@ -27242,7 +27428,11 @@
           "La boîte attendait depuis des années dans l’armoire.",
           "La grande-tante était partie en France avant d’écrire ces lettres.",
           "du discours indirect libre"
-        ]
+        ],
+        "explanation": "Le passé simple structure les événements d’un récit soutenu, l’imparfait installe le cadre et le plus-que-parfait marque l’antériorité. Le discours indirect libre rapporte une pensée sans verbe introducteur ni guillemets, en conservant la perspective du personnage.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser les temps du récit et le discours indirect libre dans un contexte argumentatif C1."
       },
       "listeningComprehension": null
     },
@@ -27571,7 +27761,11 @@
           "Elle emploie la nominalisation critique et la restitution de l’agent afin de densifier l’analyse économique sans effacer qui décide, redistribue ou supporte le coût : « La réduction de la pauvreté absolue a été portée par la croissance asiatique, mais les inégalités relatives ont été laissées largement inchangées par les gouvernements. »",
           "La concentration patrimoniale mondiale est probablement sous-estimée par les statistiques officielles, en raison de l’optimisation fiscale internationale.",
           "Elle emploie la nominalisation critique et la restitution de l’agent afin de densifier l’analyse économique sans effacer qui décide, redistribue ou supporte le coût : « La concentration patrimoniale mondiale est probablement sous-estimée par les statistiques officielles, en raison de l’optimisation fiscale internationale. »"
-        ]
+        ],
+        "explanation": "La nominalisation condense une proposition ; un complément en par, de la part de ou un possessif restitue l’agent pertinent.",
+        "purpose": "choisir la ressource avec une précision stylistique, pragmatique et discursive",
+        "cefrLevel": "C2",
+        "unitContext": "Maîtriser la nominalisation critique et la restitution de l’agent dans un contexte argumentatif C2."
       },
       "listeningComprehension": null
     },
@@ -27900,7 +28094,11 @@
           "L’autrice a expliqué qu’elle avait écrit ce roman pendant deux ans.",
           "Le roman auquel je pensais beaucoup était passionnant.",
           "L’imparfait"
-        ]
+        ],
+        "explanation": "Au discours indirect au passé, le présent devient l’imparfait et le passé composé devient le plus-que-parfait : « Elle a dit : \"Je veux explorer ce thème.\" » → « Elle a dit qu’elle voulait explorer ce thème. » « Lequel/auquel/duquel » remplacent un nom précédé d’une préposition : « Le roman auquel je pensais. »",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Rapporter des propos passés et utiliser lequel/auquel comme pronoms relatifs."
       },
       "listeningComprehension": null
     },
@@ -27909,11 +28107,12 @@
         "type": "mcq",
         "prompt": "Elle a dit qu’elle ___ explorer ce thème.",
         "options": [
-          "veut",
           "voulait",
+          "veut",
           "voudra",
           "a voulu"
-        ]
+        ],
+        "explanation": "La bonne réponse est « voulait » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -27923,7 +28122,8 @@
           "avait écrit",
           "écrira",
           "écrivant"
-        ]
+        ],
+        "explanation": "La bonne réponse est « avait écrit » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -27933,17 +28133,63 @@
           "dont",
           "auquel",
           "où"
-        ]
+        ],
+        "explanation": "La bonne réponse est « auquel » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Au discours indirect passé, le présent devient...",
         "options": [
           "Le futur",
-          "L’imparfait",
           "Le conditionnel",
-          "Le subjonctif"
-        ]
+          "Le subjonctif",
+          "L’imparfait"
+        ],
+        "explanation": "La bonne réponse est « L’imparfait » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Elle a dit qu’elle veut explorer ce thème. » ?",
+        "options": [
+          "Elle a dit qu’elle voulait explorer ce thème.",
+          "Elle a dit qu’elle veut explorer ce thème.",
+          "Elle a dit qu’elle voudra explorer ce thème.",
+          "Elle a dit qu’elle a voulu explorer ce thème."
+        ],
+        "explanation": "La phrase correcte est : « Elle a dit qu’elle voulait explorer ce thème. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « L’autrice a expliqué qu’elle écrit ce roman pendant deux ans. » ?",
+        "options": [
+          "L’autrice a expliqué qu’elle écrit ce roman pendant deux ans.",
+          "L’autrice a expliqué qu’elle avait écrit ce roman pendant deux ans.",
+          "L’autrice a expliqué qu’elle écrira ce roman pendant deux ans.",
+          "L’autrice a expliqué qu’elle écrivant ce roman pendant deux ans."
+        ],
+        "explanation": "La phrase correcte est : « L’autrice a expliqué qu’elle avait écrit ce roman pendant deux ans. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Le roman que je pensais beaucoup était passionnant. » ?",
+        "options": [
+          "Le roman que je pensais beaucoup était passionnant.",
+          "Le roman dont je pensais beaucoup était passionnant.",
+          "Le roman auquel je pensais beaucoup était passionnant.",
+          "Le roman où je pensais beaucoup était passionnant."
+        ],
+        "explanation": "La phrase correcte est : « Le roman auquel je pensais beaucoup était passionnant. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Le futur » dans ce contexte : « Au discours indirect passé, le présent devient... » ?",
+        "options": [
+          "Le futur",
+          "Le conditionnel",
+          "Le subjonctif",
+          "L’imparfait"
+        ],
+        "explanation": "La bonne réponse est « L’imparfait »."
       }
     ]
   },
@@ -29225,40 +29471,6 @@
           "Trois heures",
           "Quatre heures"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Le feu d'artifice commence à vingt-deux heures.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Il n'y a jamais de bal populaire le 14 juillet.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Le feu d'artifice a lieu près de la tour Eiffel.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Le soir, un feu d'artifice ___ le ciel.",
-        "options": [
-          "illumine",
-          "dort",
-          "pleure",
-          "part"
-        ]
       }
     ]
   },
@@ -29356,54 +29568,6 @@
           "Ses amis et sa famille d’accueil",
           "Le directeur de l’école",
           "Le médecin seulement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’élève décrit-il/elle ses nouvelles amitiés ?",
-        "options": [
-          "Ennuyeuses",
-          "Inoubliables",
-          "Difficiles",
-          "Sans importance"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : l’accident de vélo était très grave.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « à quel point » signifie...",
-        "options": [
-          "Combien / à quel degré",
-          "À quel endroit",
-          "Quand exactement",
-          "Pourquoi"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel sentiment domine ce journal ?",
-        "options": [
-          "La déception",
-          "La gratitude et l’enthousiasme",
-          "La colère",
-          "L’indifférence"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle inférence peut-on faire sur la relation de l’élève avec sa famille d’accueil ?",
-        "options": [
-          "Elle est distante",
-          "Elle est devenue proche et importante",
-          "L’élève veut déménager",
-          "Il/elle ne la voit presque jamais"
         ]
       }
     ]
@@ -32708,7 +32872,11 @@
           "Cependant",
           "D’une part, les réseaux sociaux facilitent la communication.",
           "Il est important que"
-        ]
+        ],
+        "explanation": "« D’une part... d’autre part... » et « cependant » structurent une argumentation avec deux points de vue. « Il est important que » introduit le subjonctif présent : « Il est important que les jeunes fassent attention. » Le subjonctif de « faire » est je fasse, tu fasses, il/elle fasse.",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Structurer une argumentation et introduire le subjonctif avec « il est important que »."
       },
       "listeningComprehension": null
     },
@@ -32717,11 +32885,12 @@
         "type": "mcq",
         "prompt": "Il est important que tu ___ attention à ta vie privée.",
         "options": [
-          "fais",
           "fasses",
+          "fais",
           "faisais",
           "feras"
-        ]
+        ],
+        "explanation": "La bonne réponse est « fasses » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -32731,27 +32900,74 @@
           "Cependant",
           "Ainsi",
           "Parce que"
-        ]
+        ],
+        "explanation": "La bonne réponse est « Cependant » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "___, les réseaux sociaux facilitent la communication.",
         "options": [
           "Cependant",
-          "D’une part",
           "Donc",
+          "D’une part",
           "Ainsi"
-        ]
+        ],
+        "explanation": "La bonne réponse est « D’une part » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle structure introduit le subjonctif ?",
         "options": [
           "Je pense que",
-          "Il est important que",
           "Il est vrai que",
-          "Je sais que"
-        ]
+          "Je sais que",
+          "Il est important que"
+        ],
+        "explanation": "La bonne réponse est « Il est important que » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il est important que tu fais attention à ta vie privée. » ?",
+        "options": [
+          "Il est important que tu fasses attention à ta vie privée.",
+          "Il est important que tu fais attention à ta vie privée.",
+          "Il est important que tu faisais attention à ta vie privée.",
+          "Il est important que tu feras attention à ta vie privée."
+        ],
+        "explanation": "La phrase correcte est : « Il est important que tu fasses attention à ta vie privée. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Donc » dans ce contexte : « Quel connecteur introduit une opposition ? » ?",
+        "options": [
+          "Donc",
+          "Cependant",
+          "Ainsi",
+          "Parce que"
+        ],
+        "explanation": "La bonne réponse est « Cependant »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Cependant, les réseaux sociaux facilitent la communication. » ?",
+        "options": [
+          "Cependant, les réseaux sociaux facilitent la communication.",
+          "Donc, les réseaux sociaux facilitent la communication.",
+          "D’une part, les réseaux sociaux facilitent la communication.",
+          "Ainsi, les réseaux sociaux facilitent la communication."
+        ],
+        "explanation": "La phrase correcte est : « D’une part, les réseaux sociaux facilitent la communication. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Je pense que » dans ce contexte : « Quelle structure introduit le subjonctif ? » ?",
+        "options": [
+          "Je pense que",
+          "Il est vrai que",
+          "Je sais que",
+          "Il est important que"
+        ],
+        "explanation": "La bonne réponse est « Il est important que »."
       }
     ]
   },
@@ -32986,7 +33202,11 @@
           "La procédure est identique ; néanmoins, ses effets diffèrent.",
           "Encore faut-il que les candidats aient accès à l’information.",
           "Loin de supprimer la responsabilité, cette analyse la précise."
-        ]
+        ],
+        "explanation": "Une argumentation C1 articule concession, réfutation et reformulation : « certes..., néanmoins... », « encore faut-il que... », « loin de..., cette mesure... ». Ces structures évitent la juxtaposition d’opinions et rendent explicite le rapport logique entre les propositions.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser les articulateurs logiques et la réfutation dans un contexte argumentatif C1."
       },
       "listeningComprehension": null
     },
@@ -33315,7 +33535,11 @@
           "Elle emploie la temporalité complexe et le futur antérieur afin de ordonner découverte, confirmation et exploration sans confondre succession et causalité : « Lorsque les astronomes auront confirmé une biosignature de façon indépendante, ils auront franchi un seuil que l’observation actuelle n’atteint pas encore. »",
           "Le signal avait été détecté avant que sa robustesse statistique ne soit pleinement établie.",
           "Elle emploie la temporalité complexe et le futur antérieur afin de ordonner découverte, confirmation et exploration sans confondre succession et causalité : « Le signal avait été détecté avant que sa robustesse statistique ne soit pleinement établie. »"
-        ]
+        ],
+        "explanation": "Le plus-que-parfait situe un événement antérieur à un repère passé ; le futur antérieur présente un accomplissement futur ou un bilan conjectural.",
+        "purpose": "choisir la ressource avec une précision stylistique, pragmatique et discursive",
+        "cefrLevel": "C2",
+        "unitContext": "Maîtriser la temporalité complexe et le futur antérieur dans un contexte argumentatif C2."
       },
       "listeningComprehension": null
     },
@@ -33644,7 +33868,11 @@
           "Ce que j’ai apprécié, c’est la mise en scène.",
           "C’est l’un des films les plus émouvants que j’aie vus.",
           "C’est l’un des meilleurs films"
-        ]
+        ],
+        "explanation": "« Ce qui » remplace un sujet sans antécédent précis, « ce que » remplace un complément d’objet direct : « Ce qui m’a marqué, c’est... / Ce que j’ai aimé, c’est... » Les superlatifs nuancés (l’un des plus..., parmi les plus...) évitent une affirmation trop catégorique : « C’est l’un des films les plus émouvants que j’aie vus. »",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Utiliser ce qui/ce que pour résumer une impression et des superlatifs nuancés."
       },
       "listeningComprehension": null
     },
@@ -33653,11 +33881,12 @@
         "type": "mcq",
         "prompt": "___ m’a le plus marquée, c’est le jeu des actrices.",
         "options": [
-          "Ce que",
           "Ce qui",
+          "Ce que",
           "Ce dont",
           "Ce à quoi"
-        ]
+        ],
+        "explanation": "La bonne réponse est « Ce qui » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -33667,27 +33896,74 @@
           "Ce que",
           "Ce dont",
           "Lequel"
-        ]
+        ],
+        "explanation": "La bonne réponse est « Ce que » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "C’est l’un des films les plus émouvants ___ j’aie vus.",
         "options": [
-          "que",
           "qui",
           "dont",
+          "que",
           "où"
-        ]
+        ],
+        "explanation": "La bonne réponse est « que » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle expression nuance une affirmation catégorique ?",
         "options": [
           "C’est le meilleur film",
-          "C’est l’un des meilleurs films",
           "C’est un film nul",
-          "C’est un film parfait"
-        ]
+          "C’est un film parfait",
+          "C’est l’un des meilleurs films"
+        ],
+        "explanation": "La bonne réponse est « C’est l’un des meilleurs films » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Ce que m’a le plus marquée, c’est le jeu des actrices. » ?",
+        "options": [
+          "Ce qui m’a le plus marquée, c’est le jeu des actrices.",
+          "Ce que m’a le plus marquée, c’est le jeu des actrices.",
+          "Ce dont m’a le plus marquée, c’est le jeu des actrices.",
+          "Ce à quoi m’a le plus marquée, c’est le jeu des actrices."
+        ],
+        "explanation": "La phrase correcte est : « Ce qui m’a le plus marquée, c’est le jeu des actrices. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Ce qui j’ai apprécié, c’est la mise en scène. » ?",
+        "options": [
+          "Ce qui j’ai apprécié, c’est la mise en scène.",
+          "Ce que j’ai apprécié, c’est la mise en scène.",
+          "Ce dont j’ai apprécié, c’est la mise en scène.",
+          "Lequel j’ai apprécié, c’est la mise en scène."
+        ],
+        "explanation": "La phrase correcte est : « Ce que j’ai apprécié, c’est la mise en scène. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « C’est l’un des films les plus émouvants qui j’aie vus. » ?",
+        "options": [
+          "C’est l’un des films les plus émouvants qui j’aie vus.",
+          "C’est l’un des films les plus émouvants dont j’aie vus.",
+          "C’est l’un des films les plus émouvants que j’aie vus.",
+          "C’est l’un des films les plus émouvants où j’aie vus."
+        ],
+        "explanation": "La phrase correcte est : « C’est l’un des films les plus émouvants que j’aie vus. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « C’est le meilleur film » dans ce contexte : « Quelle expression nuance une affirmation catégorique ? » ?",
+        "options": [
+          "C’est le meilleur film",
+          "C’est un film nul",
+          "C’est un film parfait",
+          "C’est l’un des meilleurs films"
+        ],
+        "explanation": "La bonne réponse est « C’est l’un des meilleurs films »."
       }
     ]
   },
@@ -34943,40 +35219,6 @@
           "À bientôt",
           "Bonne nuit"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Le pain accompagne souvent les repas français.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Personne ne prend de fromage en France.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Toute la famille aide à débarrasser la table.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : On mange souvent du fromage et de la ___.",
-        "options": [
-          "salade",
-          "chaise",
-          "trousse",
-          "cour"
-        ]
       }
     ]
   },
@@ -35074,54 +35316,6 @@
           "Ils se baignent",
           "Ils font du shopping",
           "Ils restent à l’hôtel"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel plat local goûtent-ils ?",
-        "options": [
-          "La bouillabaisse",
-          "La salade niçoise",
-          "La ratatouille",
-          "La quiche lorraine"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : pour certains touristes, c’est leur première fois devant la mer Méditerranée.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « à perte de vue » signifie...",
-        "options": [
-          "Très petite",
-          "Aussi loin que l’œil peut voir",
-          "Cachée",
-          "Dangereuse"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Pourquoi les voyageurs prennent-ils beaucoup de photos ?",
-        "options": [
-          "Pour les vendre",
-          "Pour les montrer à leur famille",
-          "Parce que c’est obligatoire",
-          "Pour un devoir scolaire"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quel est le sentiment général décrit à propos de ce voyage ?",
-        "options": [
-          "La déception",
-          "L’enthousiasme et la joie",
-          "L’ennui",
-          "La peur"
         ]
       }
     ]
@@ -38441,7 +38635,11 @@
           "Il est important que je fasse des pauses.",
           "Il vaut mieux que nous fassions du sport.",
           "Il faut que"
-        ]
+        ],
+        "explanation": "Après des expressions comme « il faut que », « il est important que » ou « il vaut mieux que », le verbe suivant se met au subjonctif présent : « Il faut que tu dormes. Il est important que tu fasses des pauses. » Pour les verbes réguliers en -er, le subjonctif ressemble beaucoup au présent : que je dorme, que tu dormes, qu’il/elle dorme.",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Utiliser le subjonctif présent après « il faut que » et « il est important que »."
       },
       "listeningComprehension": null
     },
@@ -38450,11 +38648,12 @@
         "type": "mcq",
         "prompt": "Il faut que tu ___ suffisamment.",
         "options": [
-          "dors",
           "dormes",
+          "dors",
           "dormais",
           "dormiras"
-        ]
+        ],
+        "explanation": "La bonne réponse est « dormes » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -38464,27 +38663,74 @@
           "fasse",
           "faisais",
           "ferai"
-        ]
+        ],
+        "explanation": "La bonne réponse est « fasse » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Il vaut mieux que nous ___ du sport.",
         "options": [
           "faisons",
-          "fassions",
           "ferons",
+          "fassions",
           "faisions"
-        ]
+        ],
+        "explanation": "La bonne réponse est « fassions » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle expression introduit le subjonctif ?",
         "options": [
           "Je sais que",
-          "Il faut que",
           "Je vois que",
-          "Il est vrai que"
-        ]
+          "Il est vrai que",
+          "Il faut que"
+        ],
+        "explanation": "La bonne réponse est « Il faut que » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il faut que tu dors suffisamment. » ?",
+        "options": [
+          "Il faut que tu dormes suffisamment.",
+          "Il faut que tu dors suffisamment.",
+          "Il faut que tu dormais suffisamment.",
+          "Il faut que tu dormiras suffisamment."
+        ],
+        "explanation": "La phrase correcte est : « Il faut que tu dormes suffisamment. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il est important que je fais des pauses. » ?",
+        "options": [
+          "Il est important que je fais des pauses.",
+          "Il est important que je fasse des pauses.",
+          "Il est important que je faisais des pauses.",
+          "Il est important que je ferai des pauses."
+        ],
+        "explanation": "La phrase correcte est : « Il est important que je fasse des pauses. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il vaut mieux que nous faisons du sport. » ?",
+        "options": [
+          "Il vaut mieux que nous faisons du sport.",
+          "Il vaut mieux que nous ferons du sport.",
+          "Il vaut mieux que nous fassions du sport.",
+          "Il vaut mieux que nous faisions du sport."
+        ],
+        "explanation": "La phrase correcte est : « Il vaut mieux que nous fassions du sport. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Je sais que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
+        "options": [
+          "Je sais que",
+          "Je vois que",
+          "Il est vrai que",
+          "Il faut que"
+        ],
+        "explanation": "La bonne réponse est « Il faut que »."
       }
     ]
   },
@@ -38719,7 +38965,11 @@
           "Si la bibliothèque avait fermé, certains étudiants auraient été exclus.",
           "D’après le rapport, les émissions auraient déjà diminué.",
           "Sans cette consultation, la mesure aurait été moins équitable."
-        ]
+        ],
+        "explanation": "Les hypothèses irréelles du passé utilisent si + plus-que-parfait, puis conditionnel passé : « Si l’université avait isolé les bâtiments, elle aurait réduit sa consommation. » Le conditionnel peut aussi rapporter une information non confirmée.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser l’hypothèse complexe et le conditionnel passé dans un contexte argumentatif C1."
       },
       "listeningComprehension": null
     },
@@ -39048,7 +39298,11 @@
           "Elle emploie la concession stratifiée et la contre-attente afin de accorder une part de validité à une objection bioéthique sans abandonner une position délimitée : « Quand bien même la précision de CRISPR serait remarquable, elle n’éliminerait pas entièrement le risque d’effets hors cible. »",
           "Pour rigoureux que soit le suivi clinique, il ne suffit pas à garantir l’innocuité d’une modification germinale.",
           "Elle emploie la concession stratifiée et la contre-attente afin de accorder une part de validité à une objection bioéthique sans abandonner une position délimitée : « Pour rigoureux que soit le suivi clinique, il ne suffit pas à garantir l’innocuité d’une modification germinale. »"
-        ]
+        ],
+        "explanation": "Quoique et encore que appellent le subjonctif ; quand bien même se construit avec le conditionnel ; avoir beau introduit une concession factuelle.",
+        "purpose": "choisir la ressource avec une précision stylistique, pragmatique et discursive",
+        "cefrLevel": "C2",
+        "unitContext": "Maîtriser la concession stratifiée et la contre-attente dans un contexte argumentatif C2."
       },
       "listeningComprehension": null
     },
@@ -39377,7 +39631,11 @@
           "Si tu avais su, tu aurais agi différemment.",
           "J’aurais dû lui parler plus tôt.",
           "Si + plus-que-parfait, conditionnel passé"
-        ]
+        ],
+        "explanation": "Pour une hypothèse irréelle sur le passé : « Si + plus-que-parfait, conditionnel passé » : « Si j’avais su, je serais venu. » Le conditionnel passé (avoir/être au conditionnel présent + participe passé) exprime aussi un regret ou un reproche : « J’aurais dû lui parler. Tu aurais pu me le dire. »",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Formuler une hypothèse irréelle sur le passé et exprimer un regret ou un reproche."
       },
       "listeningComprehension": null
     },
@@ -39386,31 +39644,34 @@
         "type": "mcq",
         "prompt": "Si j’___ ce mensonge, j’aurais réagi immédiatement.",
         "options": [
-          "découvre",
           "avais découvert",
+          "découvre",
           "découvrirai",
           "découvrais"
-        ]
+        ],
+        "explanation": "La bonne réponse est « avais découvert » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Si tu avais su, tu ___ différemment.",
         "options": [
           "agis",
-          "agirais",
           "aurais agi",
+          "agirais",
           "agissais"
-        ]
+        ],
+        "explanation": "La bonne réponse est « aurais agi » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "J’___ dû lui parler plus tôt.",
         "options": [
           "ai",
-          "aurais",
           "avais",
+          "aurais",
           "aurai"
-        ]
+        ],
+        "explanation": "La bonne réponse est « aurais » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -39418,9 +39679,54 @@
         "options": [
           "Si + présent, futur",
           "Si + imparfait, conditionnel présent",
-          "Si + plus-que-parfait, conditionnel passé",
-          "Si + subjonctif, indicatif"
-        ]
+          "Si + subjonctif, indicatif",
+          "Si + plus-que-parfait, conditionnel passé"
+        ],
+        "explanation": "La bonne réponse est « Si + plus-que-parfait, conditionnel passé » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Si j’découvre ce mensonge, j’aurais réagi immédiatement. » ?",
+        "options": [
+          "Si j’avais découvert ce mensonge, j’aurais réagi immédiatement.",
+          "Si j’découvre ce mensonge, j’aurais réagi immédiatement.",
+          "Si j’découvrirai ce mensonge, j’aurais réagi immédiatement.",
+          "Si j’découvrais ce mensonge, j’aurais réagi immédiatement."
+        ],
+        "explanation": "La phrase correcte est : « Si j’avais découvert ce mensonge, j’aurais réagi immédiatement. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Si tu avais su, tu agis différemment. » ?",
+        "options": [
+          "Si tu avais su, tu agis différemment.",
+          "Si tu avais su, tu aurais agi différemment.",
+          "Si tu avais su, tu agirais différemment.",
+          "Si tu avais su, tu agissais différemment."
+        ],
+        "explanation": "La phrase correcte est : « Si tu avais su, tu aurais agi différemment. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « J’ai dû lui parler plus tôt. » ?",
+        "options": [
+          "J’ai dû lui parler plus tôt.",
+          "J’avais dû lui parler plus tôt.",
+          "J’aurais dû lui parler plus tôt.",
+          "J’aurai dû lui parler plus tôt."
+        ],
+        "explanation": "La phrase correcte est : « J’aurais dû lui parler plus tôt. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Si + présent, futur » dans ce contexte : « Quelle structure exprime une hypothèse irréelle sur le passé ? » ?",
+        "options": [
+          "Si + présent, futur",
+          "Si + imparfait, conditionnel présent",
+          "Si + subjonctif, indicatif",
+          "Si + plus-que-parfait, conditionnel passé"
+        ],
+        "explanation": "La bonne réponse est « Si + plus-que-parfait, conditionnel passé »."
       }
     ]
   },
@@ -40697,40 +41003,6 @@
           "Les Tournesols",
           "Le Café de nuit"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : La chambre de Van Gogh à Arles est très grande.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Van Gogh écrit à son frère Théo.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Il y a un miroir entre la table et l'armoire.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : La chambre de Van Gogh est petite mais très ___.",
-        "options": [
-          "confortable",
-          "fâchée",
-          "triste",
-          "fermée"
-        ]
       }
     ]
   },
@@ -40828,54 +41100,6 @@
           "Non",
           "Le texte ne le dit pas",
           "Seulement en hiver"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que recommandent les élèves pour un étudiant seul ?",
-        "options": [
-          "L’appartement",
-          "Le studio",
-          "Aucun des deux",
-          "Un troisième logement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : le studio a un balcon.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « charges comprises » signifie...",
-        "options": [
-          "Les charges sont en plus du loyer",
-          "Les charges sont incluses dans le prix",
-          "Il n’y a pas de charges",
-          "Les charges sont très élevées"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est l’intention principale des élèves dans ce texte ?",
-        "options": [
-          "Choisir un logement pour eux-mêmes",
-          "Comparer deux annonces pour un projet scolaire",
-          "Vendre un appartement",
-          "Se plaindre d’un logement"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle conclusion tirent-ils finalement ?",
-        "options": [
-          "Le studio est toujours meilleur",
-          "L’appartement est toujours meilleur",
-          "Le meilleur choix dépend des besoins de chaque personne",
-          "Aucun des deux logements n’est bon"
         ]
       }
     ]
@@ -44180,7 +44404,11 @@
           "Nous produisons trop de déchets, c’est pourquoi nous devons agir.",
           "C’est pourquoi",
           "Il faut trier les déchets parce que ça aide l’environnement."
-        ]
+        ],
+        "explanation": "« Parce que » introduit une cause (répond à « pourquoi ? ») : « On recycle parce que c’est important pour la planète. » « C’est pourquoi » introduit une conséquence : « Nous produisons trop de déchets, c’est pourquoi nous devons agir. »",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Exprimer une cause et sa conséquence dans un texte argumentatif."
       },
       "listeningComprehension": null
     },
@@ -44193,7 +44421,8 @@
           "c’est pourquoi",
           "donc",
           "alors que"
-        ]
+        ],
+        "explanation": "La bonne réponse est « parce que » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -44203,27 +44432,74 @@
           "c’est pourquoi",
           "bien que",
           "tandis que"
-        ]
+        ],
+        "explanation": "La bonne réponse est « c’est pourquoi » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle expression introduit une conséquence ?",
         "options": [
           "Parce que",
-          "C’est pourquoi",
           "Bien que",
+          "C’est pourquoi",
           "Tandis que"
-        ]
+        ],
+        "explanation": "La bonne réponse est « C’est pourquoi » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Il faut trier les déchets ___ ça aide l’environnement.",
         "options": [
-          "parce que",
           "c’est pourquoi",
           "cependant",
-          "or"
-        ]
+          "or",
+          "parce que"
+        ],
+        "explanation": "La bonne réponse est « parce que » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « On recycle c’est pourquoi c’est important pour la planète. » ?",
+        "options": [
+          "On recycle parce que c’est important pour la planète.",
+          "On recycle c’est pourquoi c’est important pour la planète.",
+          "On recycle donc c’est important pour la planète.",
+          "On recycle alors que c’est important pour la planète."
+        ],
+        "explanation": "La phrase correcte est : « On recycle parce que c’est important pour la planète. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Nous produisons trop de déchets, parce que nous devons agir. » ?",
+        "options": [
+          "Nous produisons trop de déchets, parce que nous devons agir.",
+          "Nous produisons trop de déchets, c’est pourquoi nous devons agir.",
+          "Nous produisons trop de déchets, bien que nous devons agir.",
+          "Nous produisons trop de déchets, tandis que nous devons agir."
+        ],
+        "explanation": "La phrase correcte est : « Nous produisons trop de déchets, c’est pourquoi nous devons agir. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quelle expression introduit une conséquence ? » ?",
+        "options": [
+          "Parce que",
+          "Bien que",
+          "C’est pourquoi",
+          "Tandis que"
+        ],
+        "explanation": "La bonne réponse est « C’est pourquoi »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il faut trier les déchets c’est pourquoi ça aide l’environnement. » ?",
+        "options": [
+          "Il faut trier les déchets c’est pourquoi ça aide l’environnement.",
+          "Il faut trier les déchets cependant ça aide l’environnement.",
+          "Il faut trier les déchets or ça aide l’environnement.",
+          "Il faut trier les déchets parce que ça aide l’environnement."
+        ],
+        "explanation": "La phrase correcte est : « Il faut trier les déchets parce que ça aide l’environnement. »"
       }
     ]
   },
@@ -44458,7 +44734,11 @@
           "Voilà ce dont elle doute.",
           "Le contexte dans lequel elle parle est formel.",
           "Ce à quoi elle tient, c’est le respect des voix."
-        ]
+        ],
+        "explanation": "Les pronoms relatifs complexes évitent les répétitions et précisent les rapports syntaxiques : « la norme à laquelle on se conforme », « ce dont elle doute », « le contexte dans lequel elle parle ». Le choix dépend de la préposition exigée.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser les relatives complexes : dont, lequel, ce à quoi, ce dont dans un contexte argumentatif C1."
       },
       "listeningComprehension": null
     },
@@ -44787,7 +45067,11 @@
           "Elle emploie le passif, l’agentivité et la responsabilité discursive afin de mettre en avant l’organisation du travail sans dissoudre la responsabilité managériale : « La charge de travail a été maintenue par plusieurs organisations sans que les ressources correspondantes soient accrues. »",
           "Un déséquilibre a été identifié par les chercheurs entre les exigences imposées et les ressources disponibles.",
           "Elle emploie le passif, l’agentivité et la responsabilité discursive afin de mettre en avant l’organisation du travail sans dissoudre la responsabilité managériale : « Un déséquilibre a été identifié par les chercheurs entre les exigences imposées et les ressources disponibles. »"
-        ]
+        ],
+        "explanation": "Le passif thématise le patient ou le résultat ; le complément d’agent réapparaît lorsque son omission fausse l’interprétation.",
+        "purpose": "choisir la ressource avec une précision stylistique, pragmatique et discursive",
+        "cefrLevel": "C2",
+        "unitContext": "Maîtriser le passif, l’agentivité et la responsabilité discursive dans un contexte argumentatif C2."
       },
       "listeningComprehension": null
     },
@@ -45116,7 +45400,11 @@
           "Étant donné que cette technologie évolue rapidement, il faut rester informé.",
           "Il est possible que tu aies raison sur ce point.",
           "Dans la mesure où"
-        ]
+        ],
+        "explanation": "« Il est possible que » et « il se peut que » introduisent le subjonctif pour exprimer une incertitude : « Il se peut que ce métier disparaisse. » « Étant donné que » et « dans la mesure où » introduisent une cause, suivies de l’indicatif : « Étant donné que la technologie évolue vite, il faut s’adapter. »",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Exprimer une incertitude scientifique et utiliser étant donné que/dans la mesure où."
       },
       "listeningComprehension": null
     },
@@ -45129,27 +45417,30 @@
           "disparaissent",
           "disparaîtront",
           "disparaissaient"
-        ]
+        ],
+        "explanation": "La bonne réponse est « disparaissent » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "___ cette technologie évolue rapidement, il faut rester informé.",
         "options": [
-          "Étant donné que",
           "Bien que",
+          "Étant donné que",
           "Pour que",
           "Sans que"
-        ]
+        ],
+        "explanation": "La bonne réponse est « Étant donné que » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Il est possible que tu ___ raison sur ce point.",
         "options": [
           "as",
-          "aies",
           "auras",
+          "aies",
           "avais"
-        ]
+        ],
+        "explanation": "La bonne réponse est « aies » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -45157,9 +45448,54 @@
         "options": [
           "Il est possible que",
           "Il se peut que",
-          "Dans la mesure où",
-          "Il n’est pas certain que"
-        ]
+          "Il n’est pas certain que",
+          "Dans la mesure où"
+        ],
+        "explanation": "La bonne réponse est « Dans la mesure où » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il se peut que certains métiers disparaissent dans le futur. » ?",
+        "options": [
+          "Il se peut que certains métiers disparaissent dans le futur.",
+          "Il se peut que certains métiers disparaissent dans le futur.",
+          "Il se peut que certains métiers disparaîtront dans le futur.",
+          "Il se peut que certains métiers disparaissaient dans le futur."
+        ],
+        "explanation": "La phrase correcte est : « Il se peut que certains métiers disparaissent dans le futur. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Bien que cette technologie évolue rapidement, il faut rester informé. » ?",
+        "options": [
+          "Bien que cette technologie évolue rapidement, il faut rester informé.",
+          "Étant donné que cette technologie évolue rapidement, il faut rester informé.",
+          "Pour que cette technologie évolue rapidement, il faut rester informé.",
+          "Sans que cette technologie évolue rapidement, il faut rester informé."
+        ],
+        "explanation": "La phrase correcte est : « Étant donné que cette technologie évolue rapidement, il faut rester informé. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il est possible que tu as raison sur ce point. » ?",
+        "options": [
+          "Il est possible que tu as raison sur ce point.",
+          "Il est possible que tu auras raison sur ce point.",
+          "Il est possible que tu aies raison sur ce point.",
+          "Il est possible que tu avais raison sur ce point."
+        ],
+        "explanation": "La phrase correcte est : « Il est possible que tu aies raison sur ce point. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Il est possible que » dans ce contexte : « Quelle expression introduit l’indicatif, pas le subjonctif ? » ?",
+        "options": [
+          "Il est possible que",
+          "Il se peut que",
+          "Il n’est pas certain que",
+          "Dans la mesure où"
+        ],
+        "explanation": "La bonne réponse est « Dans la mesure où »."
       }
     ]
   },
@@ -46431,40 +46767,6 @@
           "Le dimanche soir",
           "Le mercredi"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : On passe devant la cathédrale.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : On va au marché en voiture.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : On achète du pain à la boulangerie.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Le centre-ville de Tours est joli, avec de vieilles maisons et de petites ___.",
-        "options": [
-          "rues",
-          "piscines",
-          "voitures",
-          "écoles"
-        ]
       }
     ]
   },
@@ -46562,54 +46864,6 @@
           "Les océans",
           "Les animaux d’Afrique",
           "L’histoire de France"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment réagit le groupe après le documentaire ?",
-        "options": [
-          "Il n’aime pas du tout",
-          "Il est surpris et il adore",
-          "Il s’endort",
-          "Il refuse de commenter"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : tout le groupe aime habituellement les documentaires.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « ça devrait convenir à tout le monde » signifie...",
-        "options": [
-          "Ça ne va plaire à personne",
-          "Ça devrait satisfaire tout le monde",
-          "C’est interdit",
-          "Personne ne le sait"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle leçon peut-on tirer de cette soirée ?",
-        "options": [
-          "Il est impossible de se mettre d’accord",
-          "Il existe toujours une solution qui satisfait tout le monde",
-          "Il faut toujours choisir seul",
-          "Les documentaires sont ennuyeux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase exprime une opinion, pas un fait ?",
-        "options": [
-          "Ils se retrouvent pour une soirée cinéma.",
-          "Personnellement, je préfère les films d’action.",
-          "Ils regardent un documentaire sur les océans.",
-          "On propose une série."
         ]
       }
     ]
@@ -49950,7 +50204,11 @@
           "Il a dit que l’article n’était pas fiable.",
           "Je doute que",
           "Elle a dit que c’était faux."
-        ]
+        ],
+        "explanation": "« Je doute que » introduit le subjonctif : « Je doute que ce soit vrai. » Le discours indirect rapporte les paroles de quelqu’un sans les citer directement : « Il a dit que le fruit guérissait tout » (au lieu de « Il a dit : \"Le fruit guérit tout.\" »). Au discours indirect présent, le verbe reste souvent au même temps, introduit par « que ».",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Exprimer le doute avec le subjonctif et rapporter une information au discours indirect."
       },
       "listeningComprehension": null
     },
@@ -49959,11 +50217,12 @@
         "type": "mcq",
         "prompt": "Je doute que cette information ___ vraie.",
         "options": [
-          "est",
           "soit",
+          "est",
           "était",
           "sera"
-        ]
+        ],
+        "explanation": "La bonne réponse est « soit » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -49973,27 +50232,74 @@
           "n’était",
           "ne soit",
           "ne sera"
-        ]
+        ],
+        "explanation": "La bonne réponse est « n’était » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle expression introduit le subjonctif ?",
         "options": [
           "Je suis sûr que",
-          "Je doute que",
           "Je sais que",
+          "Je doute que",
           "Il est vrai que"
-        ]
+        ],
+        "explanation": "La bonne réponse est « Je doute que » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle phrase est au discours indirect ?",
         "options": [
           "Elle a dit : « C’est faux. »",
-          "Elle a dit que c’était faux.",
           "Est-ce que c’est faux ?",
-          "C’est faux !"
-        ]
+          "C’est faux !",
+          "Elle a dit que c’était faux."
+        ],
+        "explanation": "La bonne réponse est « Elle a dit que c’était faux. » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Je doute que cette information est vraie. » ?",
+        "options": [
+          "Je doute que cette information soit vraie.",
+          "Je doute que cette information est vraie.",
+          "Je doute que cette information était vraie.",
+          "Je doute que cette information sera vraie."
+        ],
+        "explanation": "La phrase correcte est : « Je doute que cette information soit vraie. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Il a dit que l’article n’est pas fiable. » ?",
+        "options": [
+          "Il a dit que l’article n’est pas fiable.",
+          "Il a dit que l’article n’était pas fiable.",
+          "Il a dit que l’article ne soit pas fiable.",
+          "Il a dit que l’article ne sera pas fiable."
+        ],
+        "explanation": "La phrase correcte est : « Il a dit que l’article n’était pas fiable. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Je suis sûr que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
+        "options": [
+          "Je suis sûr que",
+          "Je sais que",
+          "Je doute que",
+          "Il est vrai que"
+        ],
+        "explanation": "La bonne réponse est « Je doute que »."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Elle a dit : « C’est faux. » » dans ce contexte : « Quelle phrase est au discours indirect ? » ?",
+        "options": [
+          "Elle a dit : « C’est faux. »",
+          "Est-ce que c’est faux ?",
+          "C’est faux !",
+          "Elle a dit que c’était faux."
+        ],
+        "explanation": "La bonne réponse est « Elle a dit que c’était faux. »."
       }
     ]
   },
@@ -50228,7 +50534,11 @@
           "Il est peu probable que cette hypothèse soit suffisante.",
           "Rien ne prouve que l’étude soit fausse.",
           "Il semble que les résultats doivent être révisés."
-        ]
+        ],
+        "explanation": "Les modalisateurs calibrent l’engagement du locuteur : « il est établi que » + indicatif ; « il est peu probable que », « rien ne prouve que » + subjonctif. Le choix du mode dépend de la manière dont le fait est présenté, non d’une simple liste mécanique.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser les modalisateurs de certitude et le subjonctif dans un contexte argumentatif C1."
       },
       "listeningComprehension": null
     },
@@ -50557,7 +50867,11 @@
           "Elle emploie les relatives complexes : dont, lequel et préposition + relatif afin de enchaîner des précisions juridiques et humaines sur les parcours migratoires sans perdre l’antécédent : « La plupart des personnes déplacées, dont le nombre dépasse cent millions, restent dans un pays limitrophe. »",
           "Les routes migratoires, lesquelles se sont déplacées vers des trajets plus dangereux, n’ont pas réduit le volume global des départs.",
           "Elle emploie les relatives complexes : dont, lequel et préposition + relatif afin de enchaîner des précisions juridiques et humaines sur les parcours migratoires sans perdre l’antécédent : « Les routes migratoires, lesquelles se sont déplacées vers des trajets plus dangereux, n’ont pas réduit le volume global des départs. »"
-        ]
+        ],
+        "explanation": "Dont remplace de plus nom ; lequel varie après une préposition ; ce à quoi et ce dont reprennent une proposition.",
+        "purpose": "choisir la ressource avec une précision stylistique, pragmatique et discursive",
+        "cefrLevel": "C2",
+        "unitContext": "Maîtriser les relatives complexes : dont, lequel et préposition + relatif dans un contexte argumentatif C2."
       },
       "listeningComprehension": null
     },
@@ -50886,7 +51200,11 @@
           "Cette histoire, je l’ai entendue hier soir.",
           "Les récits qu’elle nous a racontés étaient émouvants.",
           "Quand le complément est placé avant le verbe"
-        ]
+        ],
+        "explanation": "Les pronoms démonstratifs (celui, celle, ceux, celles) remplacent un nom déjà mentionné : « Celle dont je me souviens le mieux... » Avec avoir, le participe passé s’accorde avec le complément d’objet direct seulement s’il est placé avant le verbe : « Cette histoire, je l’ai entendue hier » (accord avec « l’ », féminin).",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Utiliser celui/celle/ceux/celles et accorder le participe passé avec un complément direct antéposé."
       },
       "listeningComprehension": null
     },
@@ -50895,11 +51213,12 @@
         "type": "mcq",
         "prompt": "___ dont je me souviens le mieux, c’est cette histoire.",
         "options": [
-          "Celui",
           "Celle",
+          "Celui",
           "Ceux",
           "Celles"
-        ]
+        ],
+        "explanation": "La bonne réponse est « Celle » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -50909,7 +51228,8 @@
           "entendue",
           "entendus",
           "entendues"
-        ]
+        ],
+        "explanation": "La bonne réponse est « entendue » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -50919,7 +51239,8 @@
           "racontée",
           "racontés",
           "racontant"
-        ]
+        ],
+        "explanation": "La bonne réponse est « racontés » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -50927,9 +51248,54 @@
         "options": [
           "Toujours",
           "Jamais",
-          "Quand le complément est placé avant le verbe",
-          "Seulement au féminin"
-        ]
+          "Seulement au féminin",
+          "Quand le complément est placé avant le verbe"
+        ],
+        "explanation": "La bonne réponse est « Quand le complément est placé avant le verbe » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Celui dont je me souviens le mieux, c’est cette histoire. » ?",
+        "options": [
+          "Celle dont je me souviens le mieux, c’est cette histoire.",
+          "Celui dont je me souviens le mieux, c’est cette histoire.",
+          "Ceux dont je me souviens le mieux, c’est cette histoire.",
+          "Celles dont je me souviens le mieux, c’est cette histoire."
+        ],
+        "explanation": "La phrase correcte est : « Celle dont je me souviens le mieux, c’est cette histoire. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Cette histoire, je l’ai entendu hier soir. » ?",
+        "options": [
+          "Cette histoire, je l’ai entendu hier soir.",
+          "Cette histoire, je l’ai entendue hier soir.",
+          "Cette histoire, je l’ai entendus hier soir.",
+          "Cette histoire, je l’ai entendues hier soir."
+        ],
+        "explanation": "La phrase correcte est : « Cette histoire, je l’ai entendue hier soir. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Les récits qu’elle nous a raconté étaient émouvants. » ?",
+        "options": [
+          "Les récits qu’elle nous a raconté étaient émouvants.",
+          "Les récits qu’elle nous a racontée étaient émouvants.",
+          "Les récits qu’elle nous a racontés étaient émouvants.",
+          "Les récits qu’elle nous a racontant étaient émouvants."
+        ],
+        "explanation": "La phrase correcte est : « Les récits qu’elle nous a racontés étaient émouvants. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Toujours » dans ce contexte : « Quand le participe passé avec avoir s’accorde-t-il avec le complément direct ? » ?",
+        "options": [
+          "Toujours",
+          "Jamais",
+          "Seulement au féminin",
+          "Quand le complément est placé avant le verbe"
+        ],
+        "explanation": "La bonne réponse est « Quand le complément est placé avant le verbe »."
       }
     ]
   },
@@ -52196,40 +52562,6 @@
           "Plus de quarante ans",
           "Cinq ans"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : La bachata n'est pas populaire en dehors de la République dominicaine.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Juan Luis Guerra chante seulement en espagnol.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : On peut apprendre la bachata dans des cours de danse en France.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Les gens ___ leurs passions et apprennent des autres.",
-        "options": [
-          "partagent",
-          "détestent",
-          "oublient",
-          "cachent"
-        ]
       }
     ]
   },
@@ -52327,54 +52659,6 @@
           "Il/elle envoie des photos de Tours",
           "Il/elle veut déménager",
           "Il/elle n’en parle pas"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment l’auteur décrit-il/elle sa relation avec ses nouveaux amis ?",
-        "options": [
-          "Distante et froide",
-          "Proche, malgré quelques désaccords",
-          "Conflictuelle",
-          "Sans importance"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : l’auteur regrette d’être parti(e) en France.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Dans le texte, « j’ai hâte de » signifie...",
-        "options": [
-          "Je n’ai pas envie de",
-          "J’attends avec impatience",
-          "J’ai peur de",
-          "Je refuse de"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle est l’intention principale de cet e-mail ?",
-        "options": [
-          "Se plaindre de la France",
-          "Partager des nouvelles et maintenir le lien d’amitié",
-          "Demander de l’argent",
-          "Annoncer un retour définitif"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle phrase du texte exprime un sentiment, et non un fait ?",
-        "options": [
-          "C’est la fille de la famille qui m’héberge.",
-          "Tu me manques énormément.",
-          "C’est un camarade de ma classe.",
-          "J’habite à Tours maintenant."
         ]
       }
     ]
@@ -55684,7 +55968,11 @@
           "Ça me dérange que tu changes toujours le plan.",
           "Je suis content(e) que nous trouvions un compromis.",
           "Je suis content que"
-        ]
+        ],
+        "explanation": "Après une expression d’émotion (je suis content(e) que, je suis triste que, ça me dérange que), le verbe se met au subjonctif : « Je suis triste que tu penses ça. Ça me dérange que tu changes le plan. » Cette règle suit la même logique que « il faut que » ou « il est important que ».",
+        "purpose": "employer la structure avec autonomie dans des situations courantes et des récits clairs",
+        "cefrLevel": "B1",
+        "unitContext": "Utiliser le subjonctif après des expressions comme « je suis triste que » ou « ça me dérange que »."
       },
       "listeningComprehension": null
     },
@@ -55697,37 +55985,85 @@
           "pense",
           "pensais",
           "penseras"
-        ]
+        ],
+        "explanation": "La bonne réponse est « penses » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Ça me dérange que tu ___ toujours le plan.",
         "options": [
-          "changes",
           "change",
+          "changes",
           "changeais",
           "changeras"
-        ]
+        ],
+        "explanation": "La bonne réponse est « changes » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Je suis content(e) que nous ___ un compromis.",
         "options": [
           "trouvons",
-          "trouvions",
           "trouverons",
+          "trouvions",
           "trouvions"
-        ]
+        ],
+        "explanation": "La bonne réponse est « trouvions » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle expression introduit le subjonctif ?",
         "options": [
           "Je sais que",
-          "Je suis content que",
           "Je vois que",
-          "Je pense que"
-        ]
+          "Je pense que",
+          "Je suis content que"
+        ],
+        "explanation": "La bonne réponse est « Je suis content que » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Je suis triste que tu pense ça de moi. » ?",
+        "options": [
+          "Je suis triste que tu penses ça de moi.",
+          "Je suis triste que tu pense ça de moi.",
+          "Je suis triste que tu pensais ça de moi.",
+          "Je suis triste que tu penseras ça de moi."
+        ],
+        "explanation": "La phrase correcte est : « Je suis triste que tu penses ça de moi. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Ça me dérange que tu change toujours le plan. » ?",
+        "options": [
+          "Ça me dérange que tu change toujours le plan.",
+          "Ça me dérange que tu changes toujours le plan.",
+          "Ça me dérange que tu changeais toujours le plan.",
+          "Ça me dérange que tu changeras toujours le plan."
+        ],
+        "explanation": "La phrase correcte est : « Ça me dérange que tu changes toujours le plan. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Je suis content(e) que nous trouvons un compromis. » ?",
+        "options": [
+          "Je suis content(e) que nous trouvons un compromis.",
+          "Je suis content(e) que nous trouverons un compromis.",
+          "Je suis content(e) que nous trouvions un compromis.",
+          "Je suis content(e) que nous trouvions un compromis."
+        ],
+        "explanation": "La phrase correcte est : « Je suis content(e) que nous trouvions un compromis. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Je sais que » dans ce contexte : « Quelle expression introduit le subjonctif ? » ?",
+        "options": [
+          "Je sais que",
+          "Je vois que",
+          "Je pense que",
+          "Je suis content que"
+        ],
+        "explanation": "La bonne réponse est « Je suis content que »."
       }
     ]
   },
@@ -55962,7 +56298,11 @@
           "Le musée a fait retirer l’affiche.",
           "Cette œuvre se lit à plusieurs niveaux.",
           "Les témoignages doivent être documentés correctement."
-        ]
+        ],
+        "explanation": "Le passif met l’accent sur le résultat ou l’objet : « l’exposition a été annulée ». Le passif pronominal décrit un usage : « cette œuvre se lit à plusieurs niveaux ». Faire + infinitif distingue le commanditaire de l’exécutant : « le musée a fait retirer l’affiche ».",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser la voix passive, le passif pronominal et faire + infinitif dans un contexte argumentatif C1."
       },
       "listeningComprehension": null
     },
@@ -56291,7 +56631,11 @@
           "Elle emploie les connecteurs de cause, corrélation et conséquence afin de éviter de transformer une corrélation entre désinformation et vote en mécanisme causal démontré : « Puisque la désinformation vise surtout des convictions déjà établies, dès lors la conversion massive d’électeurs indécis paraît peu probable. »",
           "Un contenu suscite une indignation forte ; par conséquent, sa diffusion dépasse presque toujours celle de son démenti ultérieur.",
           "Elle emploie les connecteurs de cause, corrélation et conséquence afin de éviter de transformer une corrélation entre désinformation et vote en mécanisme causal démontré : « Un contenu suscite une indignation forte ; par conséquent, sa diffusion dépasse presque toujours celle de son démenti ultérieur. »"
-        ]
+        ],
+        "explanation": "Parce que, puisque, de sorte que, dès lors et pour autant que ne codent ni la même relation ni le même degré de certitude.",
+        "purpose": "choisir la ressource avec une précision stylistique, pragmatique et discursive",
+        "cefrLevel": "C2",
+        "unitContext": "Maîtriser les connecteurs de cause, corrélation et conséquence dans un contexte argumentatif C2."
       },
       "listeningComprehension": null
     },
@@ -56620,7 +56964,11 @@
           "Je ne pense pas que ce problème soit facile à résoudre.",
           "Elle écrit cette lettre pour que le message soit bien compris.",
           "Afin que"
-        ]
+        ],
+        "explanation": "« Afin que » et « pour que » expriment un but et sont suivis du subjonctif : « Nous agissons afin que la biodiversité soit préservée. » Les verbes d’opinion à la forme négative (je ne pense pas que, je ne crois pas que) sont aussi suivis du subjonctif, car ils expriment un doute : « Je ne pense pas que ce soit suffisant. »",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Exprimer un but avec afin que/pour que et une opinion négative avec le subjonctif."
       },
       "listeningComprehension": null
     },
@@ -56629,11 +56977,12 @@
         "type": "mcq",
         "prompt": "Nous agissons afin que la biodiversité ___ préservée.",
         "options": [
-          "est",
           "soit",
+          "est",
           "sera",
           "était"
-        ]
+        ],
+        "explanation": "La bonne réponse est « soit » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -56643,27 +56992,74 @@
           "soit",
           "sera",
           "était"
-        ]
+        ],
+        "explanation": "La bonne réponse est « soit » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Elle écrit cette lettre pour que le message ___ bien compris.",
         "options": [
           "est",
-          "soit",
           "sera",
+          "soit",
           "était"
-        ]
+        ],
+        "explanation": "La bonne réponse est « soit » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle structure exprime un but ?",
         "options": [
           "Parce que",
-          "Afin que",
           "Donc",
-          "Cependant"
-        ]
+          "Cependant",
+          "Afin que"
+        ],
+        "explanation": "La bonne réponse est « Afin que » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Nous agissons afin que la biodiversité est préservée. » ?",
+        "options": [
+          "Nous agissons afin que la biodiversité soit préservée.",
+          "Nous agissons afin que la biodiversité est préservée.",
+          "Nous agissons afin que la biodiversité sera préservée.",
+          "Nous agissons afin que la biodiversité était préservée."
+        ],
+        "explanation": "La phrase correcte est : « Nous agissons afin que la biodiversité soit préservée. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Je ne pense pas que ce problème est facile à résoudre. » ?",
+        "options": [
+          "Je ne pense pas que ce problème est facile à résoudre.",
+          "Je ne pense pas que ce problème soit facile à résoudre.",
+          "Je ne pense pas que ce problème sera facile à résoudre.",
+          "Je ne pense pas que ce problème était facile à résoudre."
+        ],
+        "explanation": "La phrase correcte est : « Je ne pense pas que ce problème soit facile à résoudre. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Elle écrit cette lettre pour que le message est bien compris. » ?",
+        "options": [
+          "Elle écrit cette lettre pour que le message est bien compris.",
+          "Elle écrit cette lettre pour que le message sera bien compris.",
+          "Elle écrit cette lettre pour que le message soit bien compris.",
+          "Elle écrit cette lettre pour que le message était bien compris."
+        ],
+        "explanation": "La phrase correcte est : « Elle écrit cette lettre pour que le message soit bien compris. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Parce que » dans ce contexte : « Quelle structure exprime un but ? » ?",
+        "options": [
+          "Parce que",
+          "Donc",
+          "Cependant",
+          "Afin que"
+        ],
+        "explanation": "La bonne réponse est « Afin que »."
       }
     ]
   },
@@ -57930,40 +58326,6 @@
           "Un restaurant",
           "Un journal"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Coco Chanel préfère des couleurs simples.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Coco Chanel n'a jamais créé de parfum.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : La maison Chanel existe encore aujourd'hui.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Combien ___ cette robe ?",
-        "options": [
-          "coûte",
-          "cherche",
-          "prend",
-          "porte"
-        ]
       }
     ]
   },
@@ -58052,36 +58414,6 @@
           "L’après-midi",
           "Le soir",
           "Le dimanche"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qu’emprunte Nora après son inscription ?",
-        "options": [
-          "Deux films",
-          "Deux romans",
-          "Un ordinateur",
-          "Un formulaire"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "À quelle activité s’inscrit-elle ?",
-        "options": [
-          "Un cours de cuisine",
-          "Un atelier de conversation",
-          "Une visite de la mairie",
-          "Un club sportif"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quelle conclusion correspond au texte ?",
-        "options": [
-          "La démarche reste impossible",
-          "Les explications rendent la démarche plus simple",
-          "Nora préfère renoncer",
-          "La médiathèque est fermée"
         ]
       }
     ]
@@ -61005,7 +61337,11 @@
           "Elle savait qu’elle devrait choisir.",
           "D’ici septembre, elle aura contacté tous les étudiants.",
           "un accomplissement avant un repère futur"
-        ]
+        ],
+        "explanation": "Le futur antérieur marque l’accomplissement avant un repère futur ou une supposition : « quand elle aura terminé ». Dans un récit au passé, le conditionnel exprime le futur dans le passé : « elle savait qu’elle devrait choisir ». Ces temps structurent les projections complexes.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser le futur antérieur et les projections dans le passé dans un contexte argumentatif C1."
       },
       "listeningComprehension": null
     },
@@ -61334,7 +61670,11 @@
           "Elle emploie les propositions participiales et la condensation maîtrisée afin de relier plusieurs opérations du marché de l’art en maintenant un sujet non ambigu : « Les trois légitimations convergeant sur un même artiste, elles produisent un effet cumulatif difficile à inverser. »",
           "Le prix ayant explosé sur le marché secondaire, l’artiste vivant n’en a tiré aucun bénéfice direct.",
           "Elle emploie les propositions participiales et la condensation maîtrisée afin de relier plusieurs opérations du marché de l’art en maintenant un sujet non ambigu : « Le prix ayant explosé sur le marché secondaire, l’artiste vivant n’en a tiré aucun bénéfice direct. »"
-        ]
+        ],
+        "explanation": "Le participe présent, le participe passé composé et la proposition absolue condensent le discours lorsque leur sujet reste identifiable.",
+        "purpose": "choisir la ressource avec une précision stylistique, pragmatique et discursive",
+        "cefrLevel": "C2",
+        "unitContext": "Maîtriser les propositions participiales et la condensation maîtrisée dans un contexte argumentatif C2."
       },
       "listeningComprehension": null
     },
@@ -61663,7 +62003,11 @@
           "Sa préparation compte autant que sa capacité d’écoute.",
           "Elle reçoit de moins en moins ce genre de remarque aujourd’hui.",
           "De plus en plus"
-        ]
+        ],
+        "explanation": "« De plus en plus » et « de moins en moins » expriment une évolution progressive : « Elle se sent de plus en plus libre. » « Autant que » compare deux intensités égales : « Sa préparation compte autant que son écoute. »",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Exprimer une évolution progressive et une comparaison d’intensité égale."
       },
       "listeningComprehension": null
     },
@@ -61676,7 +62020,8 @@
           "de moins en moins",
           "autant que",
           "aussi"
-        ]
+        ],
+        "explanation": "La bonne réponse est « de plus en plus » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
@@ -61686,27 +62031,74 @@
           "autant que",
           "moins que",
           "aussi bon que"
-        ]
+        ],
+        "explanation": "La bonne réponse est « autant que » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Elle reçoit ___ ce genre de remarque aujourd’hui.",
         "options": [
           "de plus en plus",
-          "de moins en moins",
           "aussi",
+          "de moins en moins",
           "que"
-        ]
+        ],
+        "explanation": "La bonne réponse est « de moins en moins » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle structure exprime une évolution progressive ?",
         "options": [
           "Plus... que",
-          "De plus en plus",
           "Aussi... que",
-          "Moins... que"
-        ]
+          "Moins... que",
+          "De plus en plus"
+        ],
+        "explanation": "La bonne réponse est « De plus en plus » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Elle se sent de moins en moins libre dans son travail au fil du temps. » ?",
+        "options": [
+          "Elle se sent de plus en plus libre dans son travail au fil du temps.",
+          "Elle se sent de moins en moins libre dans son travail au fil du temps.",
+          "Elle se sent autant que libre dans son travail au fil du temps.",
+          "Elle se sent aussi libre dans son travail au fil du temps."
+        ],
+        "explanation": "La phrase correcte est : « Elle se sent de plus en plus libre dans son travail au fil du temps. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Sa préparation compte plus que sa capacité d’écoute. » ?",
+        "options": [
+          "Sa préparation compte plus que sa capacité d’écoute.",
+          "Sa préparation compte autant que sa capacité d’écoute.",
+          "Sa préparation compte moins que sa capacité d’écoute.",
+          "Sa préparation compte aussi bon que sa capacité d’écoute."
+        ],
+        "explanation": "La phrase correcte est : « Sa préparation compte autant que sa capacité d’écoute. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Elle reçoit de plus en plus ce genre de remarque aujourd’hui. » ?",
+        "options": [
+          "Elle reçoit de plus en plus ce genre de remarque aujourd’hui.",
+          "Elle reçoit aussi ce genre de remarque aujourd’hui.",
+          "Elle reçoit de moins en moins ce genre de remarque aujourd’hui.",
+          "Elle reçoit que ce genre de remarque aujourd’hui."
+        ],
+        "explanation": "La phrase correcte est : « Elle reçoit de moins en moins ce genre de remarque aujourd’hui. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Plus... que » dans ce contexte : « Quelle structure exprime une évolution progressive ? » ?",
+        "options": [
+          "Plus... que",
+          "Aussi... que",
+          "Moins... que",
+          "De plus en plus"
+        ],
+        "explanation": "La bonne réponse est « De plus en plus »."
       }
     ]
   },
@@ -62813,40 +63205,6 @@
           "Il pleut un peu",
           "Il fait très froid"
         ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Pour beaucoup de jeunes voyageurs, c'est parfois leur premier voyage à Paris.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Les voyageurs prennent un parapluie parce qu'il va neiger.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Vrai ou faux : Le train part de la gare de Tours.",
-        "options": [
-          "Vrai",
-          "Faux"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Choisis le bon mot : Le train va ___ à Paris vers midi.",
-        "options": [
-          "arriver",
-          "pleuvoir",
-          "voyager",
-          "partir"
-        ]
       }
     ]
   },
@@ -62935,36 +63293,6 @@
           "Non, il est facultatif",
           "Seulement pour les bénévoles",
           "Le texte ne le précise pas"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Que font les bénévoles avec les dons ?",
-        "options": [
-          "Ils les jettent",
-          "Ils les trient et préparent des sacs",
-          "Ils les vendent en ligne",
-          "Ils les renvoient"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Combien de vêtements ont-ils collectés ?",
-        "options": [
-          "Quarante",
-          "Quatre-vingts",
-          "Cent",
-          "Cent vingt"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Comment les participants se sentent-ils à la fin ?",
-        "options": [
-          "Fatigués mais heureux",
-          "Déçus et en colère",
-          "Indifférents",
-          "Inquiets"
         ]
       }
     ]
@@ -65868,7 +66196,11 @@
           "Ce constat",
           "Une ancienne étudiante anime un atelier. Cette rencontre lui permet de transmettre.",
           "un déplacement de cette nature"
-        ]
+        ],
+        "explanation": "Un texte C1 évite la répétition par des reprises nominales, pronominales et conceptuelles : « cette expérience », « un tel déplacement », « ce constat ». Les connecteurs organisent la progression sans devenir mécaniques. Chaque reprise doit avoir un antécédent clair.",
+        "purpose": "maîtriser la structure dans un discours complexe, cohérent et adapté au registre",
+        "cefrLevel": "C1",
+        "unitContext": "Maîtriser la reprise et la cohésion d’un texte complexe dans un contexte argumentatif C1."
       },
       "listeningComprehension": null
     },
@@ -66197,7 +66529,11 @@
           "Elle emploie la modalisation épistémique de haute précision afin de distinguer nécessité logique, probabilité empirique et simple possibilité dans l’éthique algorithmique : « Il se pourrait qu’un système paraisse neutre alors même qu’il encoderait une hiérarchie de valeurs à travers un simple choix de proxy. »",
           "Il semblerait que l’explicabilité et la performance prédictive s’opposent souvent dans les systèmes les plus complexes.",
           "Elle emploie la modalisation épistémique de haute précision afin de distinguer nécessité logique, probabilité empirique et simple possibilité dans l’éthique algorithmique : « Il semblerait que l’explicabilité et la performance prédictive s’opposent souvent dans les systèmes les plus complexes. »"
-        ]
+        ],
+        "explanation": "Le conditionnel, devoir, pouvoir, sembler et les adverbes de degré règlent précisément l’engagement du locuteur.",
+        "purpose": "choisir la ressource avec une précision stylistique, pragmatique et discursive",
+        "cefrLevel": "C2",
+        "unitContext": "Maîtriser la modalisation épistémique de haute précision dans un contexte argumentatif C2."
       },
       "listeningComprehension": null
     },
@@ -66526,7 +66862,11 @@
           "Avec le recul, elle est fière de sa décision.",
           "Elle est déterminée à continuer ses études en France.",
           "En fin de compte"
-        ]
+        ],
+        "explanation": "Ce récapitulatif combine les points du niveau B2 : hypothèse irréelle du passé (si + plus-que-parfait, conditionnel passé), expressions de bilan (avec le recul, en fin de compte), et détermination (être déterminé(e) à + infinitif) : « Si j’avais renoncé, je n’aurais jamais grandi. Avec le recul, je suis déterminée à continuer. »",
+        "purpose": "combiner forme, sens et nuance pour argumenter sur le thème de l’unité",
+        "cefrLevel": "B2",
+        "unitContext": "Réviser les hypothèses avec si + plus-que-parfait et les expressions de bilan personnel."
       },
       "listeningComprehension": null
     },
@@ -66535,41 +66875,89 @@
         "type": "mcq",
         "prompt": "Si elle ___ ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
         "options": [
-          "annule",
           "avait annulé",
+          "annule",
           "annulerait",
           "annulait"
-        ]
+        ],
+        "explanation": "La bonne réponse est « avait annulé » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Avec le recul, elle ___ fière de sa décision.",
         "options": [
-          "est",
           "était",
+          "est",
           "sera",
           "soit"
-        ]
+        ],
+        "explanation": "La bonne réponse est « est » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Elle est déterminée ___ continuer ses études en France.",
         "options": [
           "de",
-          "à",
           "pour",
+          "à",
           "que"
-        ]
+        ],
+        "explanation": "La bonne réponse est « à » : elle respecte la structure étudiée dans cette leçon."
       },
       {
         "type": "mcq",
         "prompt": "Quelle expression introduit un bilan final ?",
         "options": [
           "Étant donné que",
-          "En fin de compte",
           "Afin que",
-          "Bien que"
-        ]
+          "Bien que",
+          "En fin de compte"
+        ],
+        "explanation": "La bonne réponse est « En fin de compte » : elle respecte la structure étudiée dans cette leçon."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Si elle annule ce voyage, elle n’aurait jamais rencontré ses amis les plus chers. » ?",
+        "options": [
+          "Si elle avait annulé ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
+          "Si elle annule ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
+          "Si elle annulerait ce voyage, elle n’aurait jamais rencontré ses amis les plus chers.",
+          "Si elle annulait ce voyage, elle n’aurait jamais rencontré ses amis les plus chers."
+        ],
+        "explanation": "La phrase correcte est : « Si elle avait annulé ce voyage, elle n’aurait jamais rencontré ses amis les plus chers. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Avec le recul, elle était fière de sa décision. » ?",
+        "options": [
+          "Avec le recul, elle était fière de sa décision.",
+          "Avec le recul, elle est fière de sa décision.",
+          "Avec le recul, elle sera fière de sa décision.",
+          "Avec le recul, elle soit fière de sa décision."
+        ],
+        "explanation": "La phrase correcte est : « Avec le recul, elle est fière de sa décision. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle version corrige entièrement la phrase « Elle est déterminée de continuer ses études en France. » ?",
+        "options": [
+          "Elle est déterminée de continuer ses études en France.",
+          "Elle est déterminée pour continuer ses études en France.",
+          "Elle est déterminée à continuer ses études en France.",
+          "Elle est déterminée que continuer ses études en France."
+        ],
+        "explanation": "La phrase correcte est : « Elle est déterminée à continuer ses études en France. »"
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quelle réponse corrige l’erreur « Étant donné que » dans ce contexte : « Quelle expression introduit un bilan final ? » ?",
+        "options": [
+          "Étant donné que",
+          "Afin que",
+          "Bien que",
+          "En fin de compte"
+        ],
+        "explanation": "La bonne réponse est « En fin de compte »."
       }
     ]
   },
