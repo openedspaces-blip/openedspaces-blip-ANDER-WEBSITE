@@ -1,7 +1,12 @@
 {
   "cli": { "version": ">= 16.0.0", "appVersionSource": "remote" },
   "build": {
-    "preview": { "distribution": "internal", "android": { "buildType": "apk" } },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "gradleCommand": ":app:assembleRelease -PreactNativeArchitectures=arm64-v8a,armeabi-v7a"
+      }
+    },
     "production": { "autoIncrement": true }
   }
 }

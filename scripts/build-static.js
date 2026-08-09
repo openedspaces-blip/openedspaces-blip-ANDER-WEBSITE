@@ -214,6 +214,9 @@ function main() {
   // SPA HTML fallback in production.
   copyDirectoryEnsuringDir(path.join(ROOT, 'assets'), path.join(PUBLIC_DIR, 'assets'));
 
+  // Signed mobile packages published by the Downloads section.
+  copyDirectoryEnsuringDir(path.join(ROOT, 'downloads'), path.join(PUBLIC_DIR, 'downloads'));
+
   // @paddle/paddle-js is the official loader/type-safe wrapper. The app has
   // no bundler, so publish its ESM build as a first-party static dependency.
   copyFileEnsuringDir(
