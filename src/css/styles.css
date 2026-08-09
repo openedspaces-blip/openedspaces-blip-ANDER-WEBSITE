@@ -16327,6 +16327,24 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 .tutor-language-options button.is-active,
 .tutor-language-options button[aria-pressed="true"] { background: linear-gradient(135deg,#2563eb,#4f46e5); color: #fff; box-shadow: 0 5px 12px rgba(37,99,235,.24); }
 
+#tutor .tutor-language-options {
+  flex-wrap: wrap;
+}
+
+#tutor .tutor-perfect-spanish-btn {
+  border-color: rgba(124, 58, 237, 0.28);
+  background: #f5f3ff;
+  color: #6d28d9;
+}
+
+#tutor .tutor-perfect-spanish-btn.is-active,
+#tutor .tutor-perfect-spanish-btn[aria-pressed="true"] {
+  border-color: #7c3aed;
+  background: linear-gradient(135deg, #7c3aed, #2563eb);
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(109, 40, 217, 0.24);
+}
+
 #tutor .tutor-presence-panel { grid-template-columns: auto minmax(170px,1fr); gap: .65rem .8rem; padding: .85rem 1rem; }
 #tutor .tutor-language-control { grid-column: 1 / -1; width: 100%; }
 .tutor-presence-title-row { display: flex; align-items: center; justify-content: space-between; gap: .6rem; }
@@ -23562,6 +23580,7 @@ body {
 .infographic-canvas-card header > strong { display: grid; place-items: center; width: 64px; height: 64px; border-radius: 50%; background: var(--navy-2); color: #fff; font-size: 1.05rem; }
 .infographic-canvas { display: block; width: min(100%,650px); max-height: 62vh; margin: .25rem auto 0; }
 .info-art { fill: #dbeafe; stroke: #1d4ed8; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.info-realistic-art { pointer-events: none; }
 .info-hotspot { cursor: pointer; outline: none; }
 .info-hotspot circle { fill: #fff; stroke: #2563eb; stroke-width: 4; filter: drop-shadow(0 4px 5px rgba(30,64,175,.22)); transition: transform .15s ease,fill .15s ease; transform-box: fill-box; transform-origin: center; }
 .info-hotspot:hover circle,.info-hotspot:focus circle { fill: #fef3c7; transform: scale(1.16); }
@@ -26431,4 +26450,42 @@ body.tutor-robot-speaking #tutor .tutor-coach-portrait .tutor-bot-status {
   }
   #tutor .tutor-conversation { min-height: 220px; max-height: 48dvh; }
   #tutor .tutor-input { min-height: 68px; }
+}
+
+/* Keep the tutor beside the reply box, where it supports the conversation
+   instead of competing with the lesson and language controls above. */
+#tutor .tutor-hero {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+#tutor .tutor-composer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(180px, 20vw, 250px);
+  align-items: end;
+  gap: 0.9rem;
+}
+
+#tutor .tutor-composer-content {
+  min-width: 0;
+}
+
+#tutor .tutor-composer-bot {
+  display: grid;
+  min-height: 0;
+  height: clamp(205px, 22vw, 270px);
+  align-self: end;
+  border-radius: 20px;
+}
+
+#tutor .tutor-composer-bot .tutor-realistic-robot {
+  object-position: center bottom;
+}
+
+#tutor .tutor-composer-bot .tutor-avatar-voice {
+  bottom: 0.75rem;
+}
+
+@media (max-width: 700px) {
+  #tutor .tutor-composer { grid-template-columns: minmax(0, 1fr); }
+  #tutor .tutor-composer-bot { display: none; }
 }

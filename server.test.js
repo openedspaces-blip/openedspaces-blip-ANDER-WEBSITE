@@ -3652,23 +3652,25 @@ test('Listening displayed text uses the same lesson title as the official audio 
   assert.match(storyPanel, /<p>\$\{escapeHtml\(text\)\}<\/p>/);
 });
 
-test('Listening displays the canonical editorial transcript without rewriting its paragraphs', () => {
+test('Listening displays the transcript registered with the official audio without rewriting it', () => {
   const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
   const canonicalBody =
     script.match(/function canonicalListeningTranscript\(lesson, registeredAudioTranscript = ''\) \{([\s\S]*?)\n\}/)?.[1] ||
     '';
 
+  assert.match(canonicalBody, /registeredAudioTranscript/);
   assert.match(canonicalBody, /lesson\.extra\?\.mainTranscript/);
   assert.ok(
-    canonicalBody.indexOf('lesson.extra?.mainTranscript') <
-      canonicalBody.indexOf('registeredAudioTranscript')
+    canonicalBody.indexOf('registeredAudioTranscript') <
+      canonicalBody.indexOf('lesson.extra?.mainTranscript')
   );
   assert.match(
     script,
     /const text = canonicalListeningTranscript\(lesson, runtime\.transcript \|\| ''\);/
   );
   assert.match(css, /\.listening-story-body p\s*\{[^}]*white-space:\s*pre-line;/s);
+  assert.match(script, /runtime\.transcript = transcript;/);
 });
 
 test('back-to-route keeps the active language, level, unit and lesson context', () => {
@@ -4311,7 +4313,7 @@ test('all French Listening transcripts share one canonical reviewed text across 
   );
   assert.match(
     source,
-    /lesson\.extra\?\.mainTranscript[\s\S]*?lesson\.transcript[\s\S]*?registeredAudioTranscript/
+    /registeredAudioTranscript[\s\S]*?lesson\.extra\?\.mainTranscript[\s\S]*?lesson\.transcript/
   );
   assert.match(syncScript, /update public\.course_lessons[\s\S]*?\{mainTranscript\}/);
   assert.match(syncScript, /set title = \$2/);

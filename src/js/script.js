@@ -1047,6 +1047,7 @@ function applyInterfaceLanguage(bridgeLanguage) {
     el.setAttribute('placeholder', LanguagePair.t(el.dataset.i18nPlaceholder, interfaceLanguage));
   });
   refreshLanguagePairChrome();
+  if (infographicState?.initialized) renderInfographicApp();
 }
 
 // A1-A2-B1 keep bilingual support. B2-C1-C2 use L2 immersion throughout the
@@ -15453,7 +15454,8 @@ let tutorConversationMode = false;
 let tutorConversationSurfaceKey = null;
 const TUTOR_CONVERSATION_SILENCE_MS = 700;
 const TUTOR_LANGUAGE_STORAGE_KEY = 'andergo_tutor_language';
-const TUTOR_SUPPORTED_LANGUAGES = ['english', 'spanish', 'french'];
+const TUTOR_SUPPORTED_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'portuguese'];
+let tutorSpanishPerfectedMode = false;
 let tutorLanguagePreference = (() => {
   try {
     const saved = localStorage.getItem(TUTOR_LANGUAGE_STORAGE_KEY);
@@ -15475,6 +15477,7 @@ function setTutorLanguage(language) {
   if (tutorDictation.status === 'listening') stopTutorDictation();
   stopAllTutorAudio();
   tutorLanguagePreference = language;
+  if (language !== 'spanish') setTutorSpanishPerfectedMode(false, { preserveLanguage: true });
   try {
     localStorage.setItem(TUTOR_LANGUAGE_STORAGE_KEY, language);
   } catch {
@@ -15491,10 +15494,28 @@ function setTutorLanguage(language) {
   updateTutorPresenceState(
     language === 'french'
       ? 'Je suis prêt à parler français avec toi.'
+      : language === 'italian'
+        ? 'Sono pronto a parlare italiano con te.'
+        : language === 'portuguese'
+          ? 'Estou pronto para conversar em português com você.'
       : language === 'spanish'
         ? 'Estoy listo para conversar contigo en español.'
         : 'I’m ready to speak English with you.'
   );
+}
+
+function setTutorSpanishPerfectedMode(enabled, { preserveLanguage = false } = {}) {
+  tutorSpanishPerfectedMode = Boolean(enabled);
+  if (tutorSpanishPerfectedMode && !preserveLanguage && getTutorLanguage() !== 'spanish') {
+    setTutorLanguage('spanish');
+  }
+  document.querySelectorAll('[data-tutor-mode="spanish-perfected"]').forEach((button) => {
+    button.classList.toggle('is-active', tutorSpanishPerfectedMode);
+    button.setAttribute('aria-pressed', String(tutorSpanishPerfectedMode));
+  });
+  if (tutorSpanishPerfectedMode) {
+    updateTutorPresenceState('Español perfeccionado activo: revisaré cada frase y te mostraré cómo sonar más natural.');
+  }
 }
 
 function updateTutorPresenceState(text) {
@@ -15834,7 +15855,7 @@ async function sendTutorMessage({
         lessonIntro: lessonIntro || '',
         lessonSlug: lessonSlug || '',
         currentActivity: currentActivity || '',
-        supportMode: supportMode || 'practice',
+        supportMode: tutorSpanishPerfectedMode ? 'spanish_perfected' : (supportMode || 'practice'),
         contextScope,
         selectedSuggestion: selectedSuggestion || '',
         history: topicState ? topicState.session.turns.slice(-12) : undefined,
@@ -17129,9 +17150,29 @@ const INFOGRAPHIC_SCENES = [
   { id: 'bicycle', title: 'Parts of a Bicycle', icon: '🚲', parts: [['Handlebars',72,35],['Seat',43,37],['Frame',52,57],['Pedal',51,63],['Chain',56,70],['Wheel',27,69],['Tire',77,69]] }
 ];
 
-const infographicState = { sceneId: 'body-front', selectedLabel: '', answers: {}, initialized: false };
+const INFOGRAPHIC_LOCALIZATION = {
+  spanish: {
+    titles: ['Cuerpo humano · frente','Cuerpo humano · espalda','Partes de un automóvil','Partes de una casa','Partes de un árbol','El tiempo','El sistema solar','Partes de la cara','El aula','Partes de una bicicleta'],
+    words: [['Cabeza','Hombro','Pecho','Brazo','Mano','Rodilla','Pie'],['Cabeza','Cuello','Espalda','Codo','Cintura','Pierna','Talón'],['Parabrisas','Puerta','Espejo','Capó','Rueda','Faro','Maletero'],['Techo','Chimenea','Ventana','Puerta','Pared','Garaje','Jardín'],['Copa','Rama','Hoja','Tronco','Corteza','Raíz','Fruta'],['Sol','Nube','Lluvia','Relámpago','Viento','Nieve','Arcoíris'],['Sol','Mercurio','Venus','Tierra','Marte','Júpiter','Saturno','Neptuno'],['Cabello','Frente','Ojo','Oreja','Nariz','Boca','Mentón'],['Pizarra','Reloj','Escritorio','Silla','Libro','Lápiz','Mochila'],['Manubrio','Asiento','Cuadro','Pedal','Cadena','Rueda','Neumático']],
+    ui: ['Diccionario visual interactivo','Banco de palabras','Coloca cada nombre en su lugar','Elige o arrastra una palabra y toca el punto correcto.','Progreso','Intentar otra vez','¡Perfecto! Todas las partes son correctas.']
+  },
+  french: {
+    titles: ['Corps humain · face','Corps humain · dos','Les parties d’une voiture','Les parties d’une maison','Les parties d’un arbre','La météo','Le système solaire','Les parties du visage','La salle de classe','Les parties d’un vélo'],
+    words: [['Tête','Épaule','Poitrine','Bras','Main','Genou','Pied'],['Tête','Cou','Dos','Coude','Taille','Jambe','Talon'],['Pare-brise','Porte','Rétroviseur','Capot','Roue','Phare','Coffre'],['Toit','Cheminée','Fenêtre','Porte','Mur','Garage','Jardin'],['Cime','Branche','Feuille','Tronc','Écorce','Racine','Fruit'],['Soleil','Nuage','Pluie','Éclair','Vent','Neige','Arc-en-ciel'],['Soleil','Mercure','Vénus','Terre','Mars','Jupiter','Saturne','Neptune'],['Cheveux','Front','Œil','Oreille','Nez','Bouche','Menton'],['Tableau','Horloge','Bureau','Chaise','Livre','Crayon','Sac à dos'],['Guidon','Selle','Cadre','Pédale','Chaîne','Roue','Pneu']],
+    ui: ['Dictionnaire visuel interactif','Banque de mots','Place chaque nom au bon endroit','Sélectionne ou fais glisser un mot, puis touche le bon point.','Progression','Réessayer','Parfait ! Toutes les parties sont correctes.']
+  }
+};
+const INFOGRAPHIC_DEFAULT_UI = ['Interactive picture dictionary','Word bank','Put each name in its place','Select or drag a word, then touch the correct numbered point.','Progress','Try again','Perfect! All the parts are correct.'];
+const infographicState = { sceneId: 'body-front', selectedLabel: '', answers: {}, initialized: false, language: '' };
 
-function infographicSceneArtwork(scene) {
+function getLocalizedInfographicScene(baseScene, language = getEffectiveInterfaceLanguage()) {
+  const sceneIndex = INFOGRAPHIC_SCENES.findIndex((scene) => scene.id === baseScene.id);
+  const localized = INFOGRAPHIC_LOCALIZATION[language];
+  if (!localized || sceneIndex < 0) return baseScene;
+  return { ...baseScene, title: localized.titles[sceneIndex], parts: baseScene.parts.map(([, x, y], index) => [localized.words[sceneIndex][index], x, y]) };
+}
+
+function legacyInfographicSceneArtwork(scene) {
   if (scene.id.startsWith('body')) return `<g class="info-art"><circle cx="200" cy="58" r="34"/><path d="M178 95 Q200 82 222 95 L245 205 229 335 210 335 200 218 190 335 171 335 155 205Z"/><path d="M167 112 112 226M233 112 288 226"/></g>`;
   if (scene.id === 'car') return `<g class="info-art"><path d="M62 220 83 151 139 118 276 118 324 158 347 220Z"/><path d="M136 128 106 164H196V128ZM210 128V164H308L270 128Z"/><circle cx="125" cy="224" r="34"/><circle cx="286" cy="224" r="34"/></g>`;
   if (scene.id === 'house') return `<g class="info-art"><path d="M70 155 200 58 330 155V310H70Z"/><path d="M45 166 200 45 355 166"/><rect x="166" y="218" width="68" height="92"/><rect x="96" y="187" width="58" height="52"/><rect x="257" y="187" width="48" height="52"/><path d="M267 105V56H300V130"/></g>`;
@@ -17143,23 +17184,43 @@ function infographicSceneArtwork(scene) {
   return `<g class="info-art"><circle cx="108" cy="275" r="68"/><circle cx="308" cy="275" r="68"/><path d="M108 275 178 174 242 275 108 275 193 275 148 211M178 174h54M242 275l50-121M273 154h52M194 275l48-99"/><circle cx="194" cy="275" r="13"/></g>`;
 }
 
+// A single photo atlas keeps loading light while giving every interactive
+// dictionary scene a realistic, editorial-quality image rather than an
+// illustrative outline. The numbered SVG hotspots remain on top.
+const INFOGRAPHIC_ATLAS_PANELS = {
+  'body-front': 0, 'body-rear': 1, car: 2, house: 3, tree: 4,
+  weather: 5, 'solar-system': 6, face: 7, classroom: 8, bicycle: 9
+};
+
+function infographicSceneArtwork(scene) {
+  const panel = INFOGRAPHIC_ATLAS_PANELS[scene.id] ?? 0;
+  const column = panel % 4;
+  const row = Math.floor(panel / 4);
+  return `<image class="info-realistic-art" href="/images/infographics/realistic-picture-dictionary-atlas-v1.png" x="${-column * 400}" y="${-row * 400}" width="1600" height="1200" preserveAspectRatio="none" />`;
+}
+
 function renderInfographicApp() {
   const app = document.getElementById('infographicApp');
   if (!app) return;
-  const scene = INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId) || INFOGRAPHIC_SCENES[0];
+  const language = getEffectiveInterfaceLanguage();
+  if (infographicState.language && infographicState.language !== language) infographicState.answers = {};
+  infographicState.language = language;
+  const baseScene = INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId) || INFOGRAPHIC_SCENES[0];
+  const scene = getLocalizedInfographicScene(baseScene, language);
+  const ui = INFOGRAPHIC_LOCALIZATION[language]?.ui || INFOGRAPHIC_DEFAULT_UI;
   const answers = infographicState.answers[scene.id] || {};
   const completed = scene.parts.filter(([name], index) => answers[index] === name).length;
   const score = Math.round((completed / scene.parts.length) * 100);
   const placed = new Set(Object.values(answers));
   const labels = [...scene.parts.map(([name]) => name)].sort((a, b) => a.localeCompare(b));
   app.innerHTML = `
-    <nav class="infographic-scene-tabs" aria-label="Choose an infographic">${INFOGRAPHIC_SCENES.map((item) => `<button type="button" class="infographic-scene-btn${item.id === scene.id ? ' is-active' : ''}" data-info-scene="${item.id}"><span>${item.icon}</span>${item.title}</button>`).join('')}</nav>
+    <nav class="infographic-scene-tabs" aria-label="${ui[0]}">${INFOGRAPHIC_SCENES.map((item) => { const localized = getLocalizedInfographicScene(item, language); return `<button type="button" class="infographic-scene-btn${item.id === scene.id ? ' is-active' : ''}" data-info-scene="${item.id}"><span>${item.icon}</span>${localized.title}</button>`; }).join('')}</nav>
     <div class="infographic-workbench">
       <article class="infographic-canvas-card">
-        <header><div><span>Interactive picture dictionary</span><h3>${scene.title}</h3></div><strong>${score}%</strong></header>
+        <header><div><span>${ui[0]}</span><h3>${scene.title}</h3></div><strong>${score}%</strong></header>
         <svg class="infographic-canvas" viewBox="0 0 400 400" role="img" aria-label="${scene.title}">${infographicSceneArtwork(scene)}${scene.parts.map(([name,x,y], index) => `<g class="info-hotspot${answers[index] ? ' is-filled' : ''}${answers[index] === name ? ' is-correct' : ''}" data-info-slot="${index}" tabindex="0" role="button" aria-label="Point ${index + 1}: ${answers[index] || 'empty'}"><circle cx="${x * 4}" cy="${y * 4}" r="15"/><text x="${x * 4}" y="${y * 4 + 5}">${index + 1}</text></g>`).join('')}</svg>
       </article>
-      <aside class="infographic-label-panel"><span class="infographic-kicker">Word bank</span><h3>Put each name in its place</h3><p>Select or drag a word, then touch the correct numbered point.</p><div class="infographic-word-bank">${labels.map((name) => `<button type="button" draggable="true" class="infographic-word${infographicState.selectedLabel === name ? ' is-selected' : ''}${placed.has(name) ? ' is-used' : ''}" data-info-label="${name}">🔊 ${name}</button>`).join('')}</div><div class="infographic-score"><span>Progress</span><strong>${completed}/${scene.parts.length} · ${score}%</strong><div><i style="width:${score}%"></i></div></div><button type="button" class="secondary-btn infographic-reset-btn">Try again</button>${score === 100 ? '<div class="infographic-success">🏆 Perfect! 100% · All the parts are correct.</div>' : ''}</aside>
+      <aside class="infographic-label-panel"><span class="infographic-kicker">${ui[1]}</span><h3>${ui[2]}</h3><p>${ui[3]}</p><div class="infographic-word-bank">${labels.map((name) => `<button type="button" draggable="true" class="infographic-word${infographicState.selectedLabel === name ? ' is-selected' : ''}${placed.has(name) ? ' is-used' : ''}" data-info-label="${name}">🔊 ${name}</button>`).join('')}</div><div class="infographic-score"><span>${ui[4]}</span><strong>${completed}/${scene.parts.length} · ${score}%</strong><div><i style="width:${score}%"></i></div></div><button type="button" class="secondary-btn infographic-reset-btn">${ui[5]}</button>${score === 100 ? `<div class="infographic-success">🏆 ${ui[6]}</div>` : ''}</aside>
     </div>`;
 }
 
@@ -17171,10 +17232,10 @@ function initInfographicApp() {
     const sceneBtn = event.target.closest('[data-info-scene]');
     if (sceneBtn) { infographicState.sceneId = sceneBtn.dataset.infoScene; infographicState.selectedLabel = ''; renderInfographicApp(); return; }
     const word = event.target.closest('[data-info-label]');
-    if (word && !word.classList.contains('is-used')) { infographicState.selectedLabel = word.dataset.infoLabel; speakText(infographicState.selectedLabel, { locale: 'en-US' }); renderInfographicApp(); return; }
+    if (word && !word.classList.contains('is-used')) { infographicState.selectedLabel = word.dataset.infoLabel; speakText(infographicState.selectedLabel, { locale: LANGUAGE_LOCALES[getEffectiveInterfaceLanguage()] || 'en-US' }); renderInfographicApp(); return; }
     const slot = event.target.closest('[data-info-slot]');
     if (slot && infographicState.selectedLabel) {
-      const scene = INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId);
+      const scene = getLocalizedInfographicScene(INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId));
       const index = Number(slot.dataset.infoSlot);
       infographicState.answers[scene.id] ||= {};
       if (scene.parts[index][0] === infographicState.selectedLabel) {
@@ -20263,6 +20324,11 @@ function enableHomepageActions() {
   document.getElementById('tutorMainVoiceStop')?.addEventListener('click', stopTutorMainConversation);
   document.querySelectorAll('[data-tutor-language]').forEach((button) => {
     button.addEventListener('click', () => setTutorLanguage(button.dataset.tutorLanguage));
+  });
+  document.querySelectorAll('[data-tutor-mode="spanish-perfected"]').forEach((button) => {
+    button.addEventListener('click', () => {
+      setTutorSpanishPerfectedMode(!tutorSpanishPerfectedMode);
+    });
   });
   setTutorLanguage(getTutorLanguage());
 
