@@ -15454,7 +15454,7 @@ let tutorConversationMode = false;
 let tutorConversationSurfaceKey = null;
 const TUTOR_CONVERSATION_SILENCE_MS = 700;
 const TUTOR_LANGUAGE_STORAGE_KEY = 'andergo_tutor_language';
-const TUTOR_SUPPORTED_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'portuguese'];
+const TUTOR_SUPPORTED_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'portuguese', 'haitianCreole'];
 let tutorSpanishPerfectedMode = false;
 let tutorLanguagePreference = (() => {
   try {
@@ -15477,7 +15477,7 @@ function setTutorLanguage(language) {
   if (tutorDictation.status === 'listening') stopTutorDictation();
   stopAllTutorAudio();
   tutorLanguagePreference = language;
-  if (language !== 'spanish') setTutorSpanishPerfectedMode(false, { preserveLanguage: true });
+  setTutorSpanishPerfectedMode(language === 'spanish', { preserveLanguage: true });
   try {
     localStorage.setItem(TUTOR_LANGUAGE_STORAGE_KEY, language);
   } catch {
@@ -15498,6 +15498,8 @@ function setTutorLanguage(language) {
         ? 'Sono pronto a parlare italiano con te.'
         : language === 'portuguese'
           ? 'Estou pronto para conversar em português com você.'
+        : language === 'haitianCreole'
+          ? 'Mwen pare pou pale kreyòl ayisyen avè w.'
       : language === 'spanish'
         ? 'Estoy listo para conversar contigo en español.'
         : 'I’m ready to speak English with you.'
@@ -19895,7 +19897,15 @@ function enableHomepageActions() {
     }
     const tutorVoiceStopBtn = event.target.closest('.tutor-voice-stop');
     if (tutorVoiceStopBtn) {
-      stopAllTutorAudio();
+      // The stop control embedded in a spoken answer is the same stop action
+      // as the conversation header: halt TTS and disarm hands-free listening
+      // so the tutor cannot restart the microphone after playback ends.
+      if (tutorVoiceStopBtn.closest('#tutor')) stopTutorMainConversation();
+      else {
+        setTutorConversationMode(false, 'drawer');
+        stopTutorDictation();
+        stopAllTutorAudio();
+      }
       return;
     }
     const tutorVoiceSpeedBtn = event.target.closest('.tutor-voice-speed-btn');
@@ -20328,11 +20338,6 @@ function enableHomepageActions() {
   document.getElementById('tutorMainVoiceStop')?.addEventListener('click', stopTutorMainConversation);
   document.querySelectorAll('[data-tutor-language]').forEach((button) => {
     button.addEventListener('click', () => setTutorLanguage(button.dataset.tutorLanguage));
-  });
-  document.querySelectorAll('[data-tutor-mode="spanish-perfected"]').forEach((button) => {
-    button.addEventListener('click', () => {
-      setTutorSpanishPerfectedMode(!tutorSpanishPerfectedMode);
-    });
   });
   setTutorLanguage(getTutorLanguage());
 

@@ -26418,6 +26418,7 @@ body.tutor-robot-speaking #tutor .tutor-coach-portrait .tutor-bot-status {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  #tutor .tutor-hero-bot,
   #tutor .tutor-realistic-robot,
   #tutor .tutor-avatar-voice i,
   #tutor .tutor-coach-portrait,
@@ -26682,4 +26683,26 @@ body.tutor-robot-speaking #tutor .tutor-coach-portrait .tutor-bot-status {
   #tutor .tutor-composer { padding: 0.6rem; }
   #tutor .tutor-input { min-height: 60px; max-height: 118px; }
   #tutor .tutor-buttons { gap: 0.45rem; }
+}
+
+/* Move the complete portrait as one unit. The cap and jacket marks are
+   positioned over the image, so animating only the image made them appear to
+   float away from the uniform. */
+#tutor .tutor-hero-bot {
+  transform-origin: center bottom;
+  animation: tutor-avatar-idle 5.5s ease-in-out infinite;
+}
+
+#tutor .tutor-realistic-robot {
+  animation: none !important;
+}
+
+body.tutor-robot-speaking #tutor .tutor-hero-bot {
+  animation: tutor-avatar-speak .56s ease-in-out infinite alternate;
+  box-shadow: inset 0 0 0 2px rgba(37,99,235,.18), 0 22px 28px rgba(37,99,235,.24);
+}
+
+body.tutor-robot-listening #tutor .tutor-hero-bot {
+  animation: tutor-avatar-listen 1.35s ease-in-out infinite;
+  box-shadow: inset 0 0 0 2px rgba(14,165,233,.2), 0 20px 28px rgba(14,165,233,.2);
 }
