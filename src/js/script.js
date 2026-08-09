@@ -15549,7 +15549,7 @@ function setTutorConversationMode(enabled, surfaceKey = 'drawer') {
   if (surfaceKey === 'main') {
     updateTutorPresenceState(
       enabled
-        ? 'Conversación activa. Toca “Hablar” y responde con naturalidad.'
+        ? 'Conversación activa. Te escucho; responde con naturalidad.'
         : 'Puedes escribir o iniciar una conversación por voz.'
     );
   }
@@ -15558,7 +15558,7 @@ function setTutorConversationMode(enabled, surfaceKey = 'drawer') {
     if (!note) return;
     const activeHere = enabled && tutorConversationSurfaceKey === surface.key;
     note.textContent = activeHere
-      ? 'Modo conversación activo: habla y el Tutor te responderá en voz automáticamente. Pulsa "Hablar" para empezar.'
+      ? 'Modo conversación activo: habla y el Tutor te responderá en voz automáticamente.'
       : 'Tu voz se convierte en texto y no se conserva.';
   });
 }
@@ -20250,7 +20250,15 @@ function enableHomepageActions() {
     handleTutorConversationToggleClick('drawer');
   });
   document.getElementById('tutorMainConversationToggle')?.addEventListener('click', () => {
+    const enabling = !(tutorConversationMode && tutorConversationSurfaceKey === 'main');
     handleTutorConversationToggleClick('main');
+    if (enabling) {
+      startTutorDictation('aiTutorPrompt', {
+        continuous: true,
+        silenceMs: TUTOR_CONVERSATION_SILENCE_MS,
+        autoSend: true
+      });
+    }
   });
   document.getElementById('tutorMainVoiceStop')?.addEventListener('click', stopTutorMainConversation);
   document.querySelectorAll('[data-tutor-language]').forEach((button) => {

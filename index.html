@@ -1134,13 +1134,6 @@
             <div class="tutor-presence-title-row">
               <strong class="tutor-presence-title">Habla naturalmente con tu Tutor</strong>
               <div class="tutor-presence-actions" aria-label="Controles de conversación">
-                <button
-                  type="button"
-                  class="tutor-conversation-toggle"
-                  id="tutorMainConversationToggle"
-                  aria-pressed="false"
-                  title="Conversar por voz con cupo mensual"
-                ><span aria-hidden="true">🎙</span> Conversar <span class="tutor-conversation-toggle-badge">30/500</span></button>
                 <button type="button" class="tutor-main-stop-btn" id="tutorMainVoiceStop" title="Detener conversación y audio"><span aria-hidden="true">⏹</span> Detener</button>
               </div>
             </div>
@@ -1296,12 +1289,13 @@
           <div class="tutor-buttons">
             <button
               type="button"
-              class="tutor-dictate-btn"
-              data-dictate-target="aiTutorPrompt"
-              aria-label="Hablar con el Tutor"
+              class="tutor-conversation-toggle tutor-conversation-composer-btn"
+              id="tutorMainConversationToggle"
+              aria-label="Conversar con el Tutor"
               aria-pressed="false"
             >
-              <span aria-hidden="true">🎙</span> Hablar
+              <span aria-hidden="true">🎙</span> Conversar
+              <span class="tutor-conversation-toggle-badge">30/mes</span>
             </button>
             <button
               type="button"

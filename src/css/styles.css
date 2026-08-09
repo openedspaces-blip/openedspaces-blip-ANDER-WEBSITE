@@ -16178,7 +16178,7 @@ body.tutor-robot-listening .tutor-bot-signal { animation:tutor-bot-listen 1s eas
 #tutor .tutor-avatar-mouth {
   position: absolute;
   z-index: 4;
-  top: 55%;
+  top: 43.2%;
   left: 50%;
   width: 12%;
   height: 3px;
@@ -16212,7 +16212,7 @@ body.tutor-robot-speaking #tutor .tutor-avatar-mouth {
 }
 
 #tutor .tutor-brand-badge--cap {
-  top: 12%;
+  top: 6.5%;
   left: 50%;
   width: clamp(28px, 13%, 42px);
   aspect-ratio: 1;
@@ -26325,6 +26325,70 @@ body.tutor-robot-speaking #tutor .tutor-coach-portrait .tutor-bot-status {
   padding: clamp(0.9rem, 1.8vw, 1.5rem);
 }
 
+/* Compact conversational layout: keep more turns visible without sacrificing
+   legibility, and make the continuous conversation control the main voice CTA. */
+#tutor .tutor-welcome {
+  max-width: 72%;
+  padding: 0.68rem 0.78rem;
+  font-size: 0.82rem;
+  line-height: 1.42;
+}
+
+#tutor .tutor-welcome-avatar {
+  flex-basis: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#tutor .tutor-message {
+  gap: 0.12rem;
+  max-width: 82%;
+  padding: 0.62rem 0.78rem;
+  font-size: 0.84rem;
+  line-height: 1.44;
+}
+
+#tutor .tutor-message--tutor {
+  width: auto;
+  max-width: 84%;
+  padding: 0.68rem 0.82rem;
+  font-size: 0.84rem;
+  line-height: 1.46;
+}
+
+#tutor .tutor-message--tutor p,
+#tutor .tutor-message--user p {
+  font-size: 0.84rem;
+  line-height: 1.46;
+}
+
+#tutor .tutor-message-label { font-size: 0.66rem; }
+#tutor .tutor-input { min-height: 76px; }
+
+#tutor .tutor-conversation-composer-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.42rem;
+  min-height: 2.65rem;
+  padding: 0.62rem 0.9rem;
+  border: 1px solid rgba(37, 99, 235, 0.28);
+  border-radius: 14px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font: inherit;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+#tutor .tutor-conversation-composer-btn.is-active {
+  border-color: #16a34a;
+  background: #eafaf0;
+  color: #087f5b;
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.12);
+}
+
 #tutor .tutor-action > * {
   grid-column: 1 / -1;
 }
@@ -26345,8 +26409,8 @@ body.tutor-robot-speaking #tutor .tutor-coach-portrait .tutor-bot-status {
 }
 
 #tutor .tutor-input {
-  min-height: 104px;
-  max-height: 220px;
+  min-height: 76px;
+  max-height: 150px;
   resize: vertical;
 }
 
@@ -26366,5 +26430,5 @@ body.tutor-robot-speaking #tutor .tutor-coach-portrait .tutor-bot-status {
     border-radius: 18px;
   }
   #tutor .tutor-conversation { min-height: 220px; max-height: 48dvh; }
-  #tutor .tutor-input { min-height: 82px; }
+  #tutor .tutor-input { min-height: 68px; }
 }
