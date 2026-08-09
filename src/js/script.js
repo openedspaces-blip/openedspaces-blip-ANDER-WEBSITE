@@ -6178,6 +6178,11 @@ function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {}) {
 
   const onEnd = () => {
     setTutorRobotState('idle');
+    if (messageEl.closest('#tutor')) {
+      updateTutorPresenceState(
+        tutorConversationMode ? 'Tu turno. Te escucho cuando quieras.' : 'Respuesta lista. Puedes continuar.'
+      );
+    }
     messageEl.classList.remove('is-playing', 'is-tts-paused');
     if (currentTutorAudio.messageEl === messageEl) currentTutorAudio = { element: null, messageEl: null };
     if (onPlaybackEnd) onPlaybackEnd();
@@ -6214,6 +6219,7 @@ function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {}) {
 
   currentTutorAudio = { element: null, messageEl };
   setTutorRobotState('speaking');
+  if (messageEl.closest('#tutor')) updateTutorPresenceState('El Tutor está hablando…');
   speakText(text, {
     locale,
     rate: speed === 'slow' ? 0.75 : 1,
@@ -6594,6 +6600,7 @@ async function ensureMicrophonePermission() {
 function setDictationStatusText(textareaId, text) {
   const statusEl = document.getElementById(`${textareaId}DictateStatus`);
   if (statusEl) statusEl.textContent = text;
+  if (textareaId === 'aiTutorPrompt' && text) updateTutorPresenceState(text);
 }
 
 function getDictationSendButton(textareaId) {
@@ -6691,7 +6698,7 @@ async function startTutorDictation(textareaId, { continuous = false, silenceMs =
   }
 
   const recognition = new Ctor();
-  recognition.lang = DICTATION_LANGUAGE_CODES[learningPathState.language] || 'en-US';
+  recognition.lang = DICTATION_LANGUAGE_CODES[getTutorLanguage()] || 'en-US';
   recognition.interimResults = true;
   // continuous=true is unreliable on mobile Safari/Chrome. A single mobile
   // utterance still auto-sends on `end`; Premium conversation mode re-arms
@@ -7353,6 +7360,22 @@ const UNIT_ROUTE_ARTWORK_SHEETS = {
     B2: '/images/route-artwork/english-b2-route-grid.png',
     C1: '/images/route-artwork/english-c1-route-grid.png',
     C2: '/images/route-artwork/english-c2-route-grid.png'
+  },
+  french: {
+    A1: '/images/route-artwork/french-a1-route-grid.png',
+    A2: '/images/route-artwork/french-a2-route-grid.png',
+    B1: '/images/route-artwork/french-b1-route-grid.png',
+    B2: '/images/route-artwork/french-b2-route-grid.png',
+    C1: '/images/route-artwork/french-c1-route-grid.png',
+    C2: '/images/route-artwork/french-c2-route-grid.png'
+  },
+  spanish: {
+    A1: '/images/route-artwork/spanish-a1-route-grid.png',
+    A2: '/images/route-artwork/spanish-a2-route-grid.png',
+    B1: '/images/route-artwork/spanish-b1-route-grid.png',
+    B2: '/images/route-artwork/spanish-b2-route-grid.png',
+    C1: '/images/route-artwork/spanish-c1-route-grid.png',
+    C2: '/images/route-artwork/spanish-c2-route-grid.png'
   }
 };
 
@@ -9159,7 +9182,7 @@ function getReadingIllustrationTheme(lesson = {}) {
 function getLessonRouteArtworkSprite(lesson = {}) {
   const unit = learningPathState.units.find(
     (item) => item.id === lesson.unitId || item.slug === lesson.unitId || item.id === lesson.unitSlug
-  );
+  ) || learningPathState.units.find((item) => item.id === learningPathState.unitId);
   return unit ? getUnitRouteArtworkSprite(unit) : null;
 }
 
@@ -14999,9 +15022,9 @@ async function submitDictationCheck(lesson, runtime, content) {
 }
 
 function renderListeningStoryPanel(lesson, runtime) {
-  // One editorial source of truth: the text displayed to the learner must be
-  // the exact script used for exports/audio, never a second rewritten copy
-  // returned by the registered-audio status endpoint.
+  // The official recording is the source of truth. Its registered transcript
+  // is stored with the uploaded audio, so the hidden/shown text can never drift
+  // after editorial content is later revised in the lesson database.
   const text = canonicalListeningTranscript(lesson, runtime.transcript || '');
   const storyTitle =
     lesson.extra?.storyTitle ||
@@ -15131,10 +15154,10 @@ function wireListeningExtraModes(content, lesson, runtime) {
 
 function canonicalListeningTranscript(lesson, registeredAudioTranscript = '') {
   return (
+    registeredAudioTranscript ||
     lesson.extra?.mainTranscript ||
     (lesson.extra?.transcriptSegments || []).map((segment) => segment.text || segment).join(' ') ||
     lesson.transcript ||
-    registeredAudioTranscript ||
     ''
   );
 }
@@ -15152,6 +15175,9 @@ function renderListeningOfficial(content, lesson, runtime, audio, status = 'offi
   const objective = lesson.mission || lesson.intro || lesson.description || '';
   const tutorCtx = computeListeningTutorQuestionContext(lesson);
   const transcript = canonicalListeningTranscript(lesson, audio.transcript);
+  // Make the official transcript available before the Show Text and
+  // Transcription panels are rendered, not only after the player is wired.
+  runtime.transcript = transcript;
 
   content.innerHTML = `
     ${
@@ -15411,6 +15437,55 @@ const TUTOR_CONVERSATION_SURFACES = {
 let tutorConversationMode = false;
 let tutorConversationSurfaceKey = null;
 const TUTOR_CONVERSATION_SILENCE_MS = 700;
+const TUTOR_LANGUAGE_STORAGE_KEY = 'andergo_tutor_language';
+const TUTOR_SUPPORTED_LANGUAGES = ['english', 'spanish', 'french'];
+let tutorLanguagePreference = (() => {
+  try {
+    const saved = localStorage.getItem(TUTOR_LANGUAGE_STORAGE_KEY);
+    if (TUTOR_SUPPORTED_LANGUAGES.includes(saved)) return saved;
+  } catch {
+    /* local storage may be unavailable */
+  }
+  return TUTOR_SUPPORTED_LANGUAGES.includes(learningPathState.language)
+    ? learningPathState.language
+    : 'english';
+})();
+
+function getTutorLanguage() {
+  return tutorLanguagePreference;
+}
+
+function setTutorLanguage(language) {
+  if (!TUTOR_SUPPORTED_LANGUAGES.includes(language)) return;
+  if (tutorDictation.status === 'listening') stopTutorDictation();
+  stopAllTutorAudio();
+  tutorLanguagePreference = language;
+  try {
+    localStorage.setItem(TUTOR_LANGUAGE_STORAGE_KEY, language);
+  } catch {
+    /* preference remains active for this session */
+  }
+  document.querySelectorAll('[data-tutor-language]').forEach((button) => {
+    const active = button.dataset.tutorLanguage === language;
+    button.classList.toggle('is-active', active);
+    button.setAttribute('aria-pressed', String(active));
+  });
+  document.querySelectorAll('#tutor [data-ai-context="language"]').forEach((label) => {
+    label.textContent = languageDisplayNames[language] || language;
+  });
+  updateTutorPresenceState(
+    language === 'french'
+      ? 'Je suis prêt à parler français avec toi.'
+      : language === 'spanish'
+        ? 'Estoy listo para conversar contigo en español.'
+        : 'I’m ready to speak English with you.'
+  );
+}
+
+function updateTutorPresenceState(text) {
+  const state = document.getElementById('tutorPresenceState');
+  if (state) state.textContent = text;
+}
 
 function tutorReplyEndsWithQuestion(text) {
   return /[?？]\s*["'»”’)\]]*\s*$/.test(String(text || '').trim());
@@ -15456,6 +15531,13 @@ function setTutorConversationMode(enabled, surfaceKey = 'drawer') {
   tutorConversationSurfaceKey = enabled ? surfaceKey : null;
   if (!enabled) stopTutorDictation();
   updateTutorConversationToggleUI();
+  if (surfaceKey === 'main') {
+    updateTutorPresenceState(
+      enabled
+        ? 'Conversación activa. Toca “Hablar” y responde con naturalidad.'
+        : 'Puedes escribir o iniciar una conversación por voz.'
+    );
+  }
   Object.values(TUTOR_CONVERSATION_SURFACES).forEach((surface) => {
     const note = document.getElementById(surface.dictateNoteId);
     if (!note) return;
@@ -15503,7 +15585,7 @@ function openTutorDrawer(overrides = {}) {
   const languageEl = tutorPage.querySelector('[data-ai-context="language"]');
   const levelEl = tutorPage.querySelector('[data-ai-context="level"]');
   const lessonEl = tutorPage.querySelector('[data-ai-context="lesson"]');
-  if (languageEl) languageEl.textContent = languageDisplayNames[learningPathState.language] || learningPathState.language || 'English';
+  if (languageEl) languageEl.textContent = languageDisplayNames[getTutorLanguage()] || getTutorLanguage();
   if (levelEl) levelEl.textContent = learningPathState.level || 'A1';
   if (lessonEl) {
     lessonEl.textContent = tutorDrawerContext.contextScope === 'general'
@@ -15532,6 +15614,7 @@ function openTutorDrawer(overrides = {}) {
 
   const autoplayToggle = document.getElementById('tutorMainAutoplayToggle');
   if (autoplayToggle) autoplayToggle.checked = getTutorAutoplayPref();
+  setTutorLanguage(getTutorLanguage());
   updateTutorConversationToggleUI();
 
   const prompt = document.getElementById('aiTutorPrompt');
@@ -15687,6 +15770,7 @@ async function sendTutorMessage({
   if (conversationEl) appendTutorMessage(conversationEl, 'user', finalPrompt);
   if (promptEl) promptEl.value = '';
   if (thinkingEl) thinkingEl.hidden = false;
+  if (conversationEl?.id === 'tutorConversation') updateTutorPresenceState('Pensando en tu respuesta…');
   if (connectionStatusEl) connectionStatusEl.textContent = 'Comprobando conexión…';
   if (sendBtn) sendBtn.disabled = true;
 
@@ -15855,6 +15939,9 @@ async function sendTutorMessage({
     }
 
     if (connectionStatusEl) connectionStatusEl.textContent = 'Conectado';
+    if (conversationEl?.id === 'tutorConversation' && !sentByVoice) {
+      updateTutorPresenceState('Respuesta lista. Puedes escribir o hablar para continuar.');
+    }
 
     // Fire-and-forget: starts the reply's audio as soon as it's ready
     // (§3 of the Tutor voice spec) without delaying sendTutorMessage's own
@@ -15897,6 +15984,9 @@ async function sendTutorMessage({
         { isError: true }
       );
     if (connectionStatusEl) connectionStatusEl.textContent = 'No disponible';
+    if (conversationEl?.id === 'tutorConversation') {
+      updateTutorPresenceState('No pude responder ahora. Intenta de nuevo en un momento.');
+    }
     return null;
   } finally {
     if (activeTutorRequestController === requestController) {
@@ -19456,7 +19546,7 @@ function enableHomepageActions() {
         sendBtn: tutorButton,
         skill: tutorDrawerContext.skill || 'general',
         level: learningPathState.level || 'A1',
-        language: learningPathState.language,
+        language: getTutorLanguage(),
         bridgeLanguage: learningPathState.bridgeLanguage,
         lessonTitle: tutorDrawerContext.lessonTitle,
         lessonIntro: tutorDrawerContext.lessonIntro,
@@ -19919,7 +20009,7 @@ function enableHomepageActions() {
       sendBtn,
       skill: tutorDrawerContext.skill,
       level: learningPathState.level || 'A1',
-      language: learningPathState.language,
+      language: getTutorLanguage(),
       bridgeLanguage: learningPathState.bridgeLanguage,
       lessonTitle: tutorDrawerContext.lessonTitle,
       lessonIntro: tutorDrawerContext.lessonIntro,
@@ -19999,6 +20089,10 @@ function enableHomepageActions() {
   document.getElementById('tutorMainConversationToggle')?.addEventListener('click', () => {
     handleTutorConversationToggleClick('main');
   });
+  document.querySelectorAll('[data-tutor-language]').forEach((button) => {
+    button.addEventListener('click', () => setTutorLanguage(button.dataset.tutorLanguage));
+  });
+  setTutorLanguage(getTutorLanguage());
 
   document.addEventListener('input', (event) => {
     const input = event.target.closest('.grammar-test-fill-input');

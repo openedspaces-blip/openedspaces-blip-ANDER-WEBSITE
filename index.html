@@ -1163,29 +1163,55 @@
           >
         </div>
 
-        <div class="tutor-voice-controls-row">
-          <button
-            type="button"
-            class="tutor-conversation-toggle"
-            id="tutorMainConversationToggle"
-            aria-pressed="false"
-            title="Conversar por voz con cupo mensual"
-          >
-            🎧 Conversar <span class="tutor-conversation-toggle-badge">30/500 al mes</span>
-          </button>
-          <label class="tutor-autoplay-toggle" title="Las respuestas habladas se leen automáticamente" hidden>
-            <input
-              type="checkbox"
-              id="tutorMainAutoplayToggle"
-              checked
-              aria-label="Reproducir respuestas automáticamente"
-            />
-            🔊 Auto
-          </label>
+        <div class="tutor-presence-panel" aria-label="Modo de conversación con el Tutor">
+          <div class="tutor-presence-visual" aria-hidden="true">
+            <span class="tutor-presence-orb"><span></span></span>
+            <span class="tutor-presence-wave">
+              <i></i><i></i><i></i><i></i><i></i>
+            </span>
+          </div>
+          <div class="tutor-presence-copy">
+            <span class="tutor-presence-eyebrow">CONVERSACIÓN EN TIEMPO REAL</span>
+            <strong class="tutor-presence-title">Habla naturalmente con tu Tutor</strong>
+            <span class="tutor-presence-state" id="tutorPresenceState" aria-live="polite">
+              Puedes escribir o iniciar una conversación por voz.
+            </span>
+          </div>
+          <div class="tutor-language-control" aria-label="Idioma del Tutor y voz">
+            <span>Idioma del Tutor y voz</span>
+            <div class="tutor-language-options" role="group">
+              <button type="button" data-tutor-language="english" aria-pressed="true">🇺🇸 English</button>
+              <button type="button" data-tutor-language="spanish" aria-pressed="false">🇪🇸 Español</button>
+              <button type="button" data-tutor-language="french" aria-pressed="false">🇫🇷 Français</button>
+            </div>
+          </div>
+          <div class="tutor-voice-controls-row">
+            <button
+              type="button"
+              class="tutor-conversation-toggle"
+              id="tutorMainConversationToggle"
+              aria-pressed="false"
+              title="Conversar por voz con cupo mensual"
+            >
+              <span class="tutor-conversation-toggle-icon" aria-hidden="true">🎙</span>
+              <span class="tutor-conversation-toggle-copy"><strong>Iniciar conversación</strong><small>Escucho, respondo y sigo contigo</small></span>
+              <span class="tutor-conversation-toggle-badge">30/500 al mes</span>
+            </button>
+            <label class="tutor-autoplay-toggle" title="Las respuestas habladas se leen automáticamente" hidden>
+              <input
+                type="checkbox"
+                id="tutorMainAutoplayToggle"
+                checked
+                aria-label="Reproducir respuestas automáticamente"
+              />
+              🔊 Auto
+            </label>
+          </div>
         </div>
 
           </div>
           <div class="tutor-hero-bot" aria-hidden="true">
+            <img class="tutor-realistic-robot" src="/images/tutor/andergo-tutor-robot-v2.png" alt="" />
             <span class="tutor-bot-mark tutor-bot-mark--hero">
               <svg viewBox="0 0 80 96" focusable="false">
                 <path class="tutor-bot-antenna" d="M40 8v8" />
@@ -1283,15 +1309,16 @@
             aria-live="polite"
             aria-label="Conversación con el tutor IA"
           >
-            <p class="tutor-welcome">
-              👋 Soy el Tutor IA ANDERGO Academy. Puedes preguntarme lo que quieras, en el idioma que prefieras.
-            </p>
+            <div class="tutor-welcome">
+              <span class="tutor-welcome-avatar" aria-hidden="true">A</span>
+              <span><strong>Hola, soy tu Tutor ANDERGO.</strong> Cuéntame qué quieres practicar. Puedo escucharte, conversar contigo, corregirte con tacto y ayudarte a continuar cuando te quedes sin palabras.</span>
+            </div>
           </div>
           <p class="tutor-thinking" id="tutorThinking" hidden aria-hidden="true">
             Tutor IA ANDERGO está escribiendo…
           </p>
 
-          <div class="tutor-start-label">Elige una misión o escribe la tuya</div>
+          <div class="tutor-start-label">¿Cómo quieres comenzar?</div>
           <div class="tutor-quick-actions tutor-main-quick-actions" aria-label="Formas rápidas de empezar">
             <button type="button" class="tutor-quick-action" data-tutor-quick-prompt="Explícame esta actividad de forma sencilla.">✨ Explícame</button>
             <button type="button" class="tutor-quick-action" data-tutor-quick-prompt="Dame un ejemplo breve relacionado con esta actividad.">💡 Un ejemplo</button>
@@ -1299,20 +1326,18 @@
             <button type="button" class="tutor-quick-action" data-tutor-quick-prompt="Ayúdame a corregir esta frase: ">✓ Corrige mi frase</button>
           </div>
 
+          <div class="tutor-composer">
           <label class="tutor-input-group" for="aiTutorPrompt">
-            <span>Escribe qué quieres practicar</span>
+            <span class="sr-only">Escribe qué quieres practicar</span>
             <textarea
               id="aiTutorPrompt"
               class="tutor-input"
               rows="3"
-              placeholder="Ej.: Corrige este texto y dame una mini práctica para seguir."
+              placeholder="Escribe un mensaje o toca el micrófono para hablar…"
               aria-describedby="tutorHelperText"
             ></textarea>
           </label>
-          <p class="tutor-helper" id="tutorHelperText">
-            Puedes tocar una sugerencia y luego personalizarla antes de enviar. Presiona Enter para
-            enviar, Shift+Enter para salto de línea.
-          </p>
+          <p class="tutor-helper" id="tutorHelperText">Enter para enviar · Shift+Enter para una nueva línea</p>
           <p class="tutor-dictate-status" id="aiTutorPromptDictateStatus" aria-live="polite"></p>
           <p class="tutor-dictate-note" id="tutorMainDictateNote">Tu voz se convierte en texto y no se conserva.</p>
           <div class="tutor-buttons">
@@ -1323,7 +1348,7 @@
               aria-label="Hablar con el Tutor"
               aria-pressed="false"
             >
-              🎙 Hablar
+              <span aria-hidden="true">🎙</span> Hablar
             </button>
             <button
               type="button"
@@ -1342,6 +1367,7 @@
             >
               Limpiar conversación
             </button>
+          </div>
           </div>
         </div>
       </section>
