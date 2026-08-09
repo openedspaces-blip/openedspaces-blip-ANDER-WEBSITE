@@ -5880,7 +5880,7 @@ let activeTutorRequestController = null;
 function setTutorRobotState(state = 'idle') {
   document.body.classList.toggle('tutor-robot-speaking', state === 'speaking');
   document.body.classList.toggle('tutor-robot-listening', state === 'listening');
-  document.querySelectorAll('.tutor-hero-bot > span:last-child').forEach((label) => {
+  document.querySelectorAll('.tutor-hero-label').forEach((label) => {
     const title = document.createElement('strong');
     const status = document.createElement('small');
     title.textContent = 'Profesor ANDERGO';
@@ -9250,7 +9250,8 @@ function getReadingComprehensionRuntime(slug) {
       graded: false,
       grading: false,
       error: '',
-      questionCount: null
+      questionCount: null,
+      currentIndex: 0
     };
     readingComprehensionState.set(slug, runtime);
   }
@@ -9266,7 +9267,8 @@ function resetReadingComprehensionRuntime(slug, questionCount = null) {
     graded: false,
     grading: false,
     error: '',
-    questionCount: questionCount ?? current?.questionCount ?? null
+    questionCount: questionCount ?? current?.questionCount ?? null,
+    currentIndex: 0
   });
 }
 
@@ -9379,6 +9381,7 @@ function renderReadingComprehensionQuiz(lesson, entries) {
   const { choices, selected, canChooseCount } = getReadingQuestionCountConfig(lesson, entries, runtime);
   const visibleEntries = entries.slice(0, selected);
   const total = visibleEntries.length;
+  runtime.currentIndex = Math.max(0, Math.min(total - 1, Number(runtime.currentIndex) || 0));
   const answeredCount = visibleEntries.filter(
     ({ exerciseIndex }) => runtime.selections[exerciseIndex] != null
   ).length;
@@ -9433,8 +9436,9 @@ function renderReadingComprehensionQuiz(lesson, entries) {
           : `<span class="reading-comp-feedback is-incorrect">❌ ${french ? 'Incorrect' : 'Incorrecto'}${result.correctLabel ? ` · ${french ? 'Bonne réponse' : 'Respuesta correcta'} : ${escapeHtml(result.correctLabel)}` : ''}</span>`;
       }
 
+      const isCurrent = displayIndex === runtime.currentIndex;
       return `
-        <div class="reading-comp-question" data-exercise-index="${exerciseIndex}" data-lesson-slug="${escapeHtml(lesson.slug || '')}">
+        <div class="reading-comp-question${isCurrent ? ' is-current' : ''}" data-question-position="${displayIndex}" data-exercise-index="${exerciseIndex}" data-lesson-slug="${escapeHtml(lesson.slug || '')}" ${isCurrent ? '' : 'hidden'}>
           <div class="reading-comp-question-heading"><span class="reading-comp-question-number">${displayIndex + 1}</span><strong class="reading-comp-prompt">${escapeHtml(item.prompt)}</strong></div>
           <div class="reading-comp-options">${optionsHtml}</div>
           ${isChecking ? `<span class="reading-comp-feedback">${french ? 'Vérification de la réponse…' : 'Comprobando respuesta…'}</span>` : ''}
@@ -9443,6 +9447,16 @@ function renderReadingComprehensionQuiz(lesson, entries) {
       `;
     })
     .join('');
+
+  const currentResult = runtime.results[visibleEntries[runtime.currentIndex]?.exerciseIndex];
+  const navigationHtml = `
+    <div class="reading-comp-navigation" aria-label="${french ? 'Navigation du test' : 'Navegación del test'}">
+      <button type="button" class="secondary-btn reading-comp-nav-btn" data-reading-direction="prev" data-lesson-slug="${escapeHtml(lesson.slug)}" ${runtime.currentIndex === 0 ? 'disabled' : ''}>← ${french ? 'Précédente' : 'Anterior'}</button>
+      <div class="reading-comp-steps" role="tablist" aria-label="Questions">
+        ${visibleEntries.map(({ exerciseIndex }, index) => `<button type="button" class="reading-comp-step${index === runtime.currentIndex ? ' is-current' : ''}${runtime.results[exerciseIndex] ? (runtime.results[exerciseIndex].correct ? ' is-correct' : ' is-incorrect') : ''}" data-reading-question-index="${index}" data-lesson-slug="${escapeHtml(lesson.slug)}" aria-label="${french ? 'Question' : 'Pregunta'} ${index + 1}" aria-selected="${index === runtime.currentIndex}">${runtime.results[exerciseIndex] ? (runtime.results[exerciseIndex].correct ? '✓' : '×') : index + 1}</button>`).join('')}
+      </div>
+      <button type="button" class="primary-btn reading-comp-nav-btn" data-reading-direction="next" data-lesson-slug="${escapeHtml(lesson.slug)}" ${runtime.currentIndex >= total - 1 || !currentResult ? 'disabled' : ''}>${french ? 'Suivante' : 'Siguiente'} →</button>
+    </div>`;
 
   const allAnswered =
     answeredCount === total &&
@@ -9474,6 +9488,7 @@ function renderReadingComprehensionQuiz(lesson, entries) {
       </div>
       ${countControlsHtml}
       <div class="reading-comp-question-track">${questionsHtml}</div>
+      ${navigationHtml}
       <div class="reading-comp-actions">${actionsHtml}</div>
       ${errorHtml}
       ${resultHtml}
@@ -15553,6 +15568,13 @@ function handleTutorConversationToggleClick(surfaceKey = 'drawer') {
   setTutorConversationMode(enabling, surfaceKey);
 }
 
+function stopTutorMainConversation() {
+  setTutorConversationMode(false, 'main');
+  stopTutorDictation();
+  stopAllTutorAudio();
+  updateTutorPresenceState('Conversación detenida. Puedes volver a iniciarla cuando quieras.');
+}
+
 // Restarts listening once the tutor's spoken reply has finished playing (or
 // immediately if there was nothing to play) - only while conversation mode
 // is still armed and its surface is still open/visible, so closing the
@@ -16136,6 +16158,32 @@ function getLocalFallbackLessons(language, level) {
     });
 }
 
+// The database can temporarily lag behind the bundled course after a content
+// migration. Preserve authoritative server IDs/progress, but restore missing
+// public MCQ choices from the canonical language world so a comprehension
+// challenge can never render as a list of questions with nothing to select.
+function hydrateMissingExerciseOptions(lessons, language, level) {
+  const canonicalBySlug = new Map(
+    getLocalFallbackLessons(language, level).map((lesson) => [lesson.slug, lesson])
+  );
+  return (lessons || []).map((lesson) => {
+    const canonical = canonicalBySlug.get(lesson.slug);
+    if (!canonical?.exercises?.length || !lesson.exercises?.length) return lesson;
+    const canonicalByPrompt = new Map(
+      canonical.exercises.map((exercise) => [String(exercise.prompt || '').trim(), exercise])
+    );
+    return {
+      ...lesson,
+      exercises: lesson.exercises.map((exercise, index) => {
+        if (Array.isArray(exercise.options) && exercise.options.length >= 2) return exercise;
+        const fallback =
+          canonicalByPrompt.get(String(exercise.prompt || '').trim()) || canonical.exercises[index];
+        return fallback?.options?.length ? { ...exercise, options: fallback.options } : exercise;
+      })
+    };
+  });
+}
+
 // The English B1–C2 Listening scripts are edited as a canonical curriculum
 // in scripts/content and mirrored into the generated English world. The
 // backend remains the source for progress, access and audio URLs, but an
@@ -16356,7 +16404,11 @@ async function performLearningPathLoad(options = {}) {
       ? data.lessons
       : getLocalFallbackLessons(learningPathState.language, learningPathState.level);
     learningPathState.lessons = applyCanonicalEnglishListeningContent(
-      loadedLessons,
+      hydrateMissingExerciseOptions(
+        loadedLessons,
+        learningPathState.language,
+        learningPathState.level
+      ),
       learningPathState.language,
       learningPathState.level
     ).map((lesson) =>
@@ -16854,9 +16906,11 @@ function renderLessonTest() {
     stage.innerHTML = '<div class="tests-welcome"><h3>Este examen se está preparando</h3><p>La lección todavía no tiene suficientes preguntas publicadas.</p></div>';
     return;
   }
+  const totalQuestions = lessonTestState.questions.length;
   stage.innerHTML = `<div class="tests-paper" id="lessonTestPaper">
-    <header class="tests-paper-head"><div><span>${lessonTestState.language === 'french' ? 'Français' : lessonTestState.language === 'spanish' ? 'Español' : 'English'} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.title || `Lesson ${unit.order}`)}</h3><p>Gramática · Vocabulario · Verbos · ${lessonTestState.questions.length} ${lessonTestState.language === 'spanish' ? 'preguntas' : 'questions'}</p></div><strong>100<small>puntos</small></strong></header>
-    <form id="lessonTestForm" class="tests-question-list">${lessonTestState.questions.map((question, index) => `<fieldset class="tests-question" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span><small>${escapeHtml(question.area || '')}</small>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span>${escapeHtml(option)}</span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite">Selecciona una respuesta.</p></fieldset>`).join('')}
+    <header class="tests-paper-head"><div><span>${lessonTestState.language === 'french' ? 'Français' : lessonTestState.language === 'spanish' ? 'Español' : 'English'} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.title || `Lesson ${unit.order}`)}</h3><p>Reto de la lección · ${totalQuestions} ${lessonTestState.language === 'spanish' ? 'preguntas' : 'questions'} · recibe respuesta al instante</p></div><strong>100<small>puntos</small></strong></header>
+    <nav class="tests-challenge-map" aria-label="Progreso del reto">${lessonTestState.questions.map((_, index) => `<button type="button" class="tests-challenge-map-item" data-test-jump="${index}" aria-label="Ir a la pregunta ${index + 1}">${index + 1}</button>`).join('')}<span class="tests-challenge-progress" id="testsChallengeProgress">0/${totalQuestions} respondidas</span></nav>
+    <form id="lessonTestForm" class="tests-question-list">${lessonTestState.questions.map((question, index) => `<fieldset class="tests-question" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span>${escapeHtml(option)}</span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite">Elige la opción que mejor complete la situación.</p></fieldset>`).join('')}
       <button type="submit" class="primary-btn tests-submit" disabled>Evaluar resultado total · 0/${lessonTestState.questions.length}</button>
       <div class="tests-export-actions no-print" aria-label="Opciones de descarga del examen">
         <button type="button" class="secondary-btn" data-test-action="pdf">Descargar PDF</button>
@@ -16865,6 +16919,9 @@ function renderLessonTest() {
     </form></div>`;
   stage.querySelector('#lessonTestForm')?.addEventListener('submit', gradeLessonTest);
   stage.querySelector('#lessonTestForm')?.addEventListener('change', handleLessonTestAnswer);
+  stage.querySelectorAll('[data-test-jump]').forEach((button) => button.addEventListener('click', () => {
+    stage.querySelector(`.tests-question[data-question-index="${button.dataset.testJump}"]`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }));
   stage.querySelector('[data-test-action="pdf"]')?.addEventListener('click', printLessonTest);
   stage.querySelector('[data-test-action="word"]')?.addEventListener('click', downloadLessonTestWord);
 }
@@ -16909,6 +16966,9 @@ async function handleLessonTestAnswer(event) {
     if (feedback) feedback.innerHTML = data.correct ? '<strong>¡Muy bien!</strong> Respuesta correcta.' : `Aún no. La respuesta correcta es <strong>${escapeHtml(data.correctAnswer)}</strong>.`;
     playTestFeedbackSound(data.correct);
     const checked = form.querySelectorAll('.tests-question[data-checked="true"]').length;
+    form.closest('.tests-paper')?.querySelector(`[data-test-jump="${fieldset.dataset.questionIndex}"]`)?.classList.add('is-answered');
+    const challengeProgress = form.closest('.tests-paper')?.querySelector('#testsChallengeProgress');
+    if (challengeProgress) challengeProgress.textContent = `${checked}/${lessonTestState.questions.length} respondidas`;
     const submit = form.querySelector('.tests-submit');
     if (submit) { submit.disabled = checked !== lessonTestState.questions.length; submit.textContent = checked === lessonTestState.questions.length ? 'Ver mi evaluación total' : `Evaluar resultado total · ${checked}/${lessonTestState.questions.length}`; }
   } catch (error) {
@@ -17055,6 +17115,83 @@ function setupTestsView() {
 }
 
 const musicState = { tracks: [], activeId: null, loadedAt: 0, initialized: false };
+
+const INFOGRAPHIC_SCENES = [
+  { id: 'body-front', title: 'Human Body · Front', icon: '🧑', parts: [['Head',50,12],['Shoulder',38,29],['Chest',50,36],['Arm',28,44],['Hand',21,61],['Knee',43,73],['Foot',43,94]] },
+  { id: 'body-rear', title: 'Human Body · Rear', icon: '🧑', parts: [['Head',50,12],['Neck',50,23],['Back',50,39],['Elbow',29,48],['Waist',50,56],['Leg',43,75],['Heel',43,92]] },
+  { id: 'car', title: 'Parts of a Car', icon: '🚗', parts: [['Windshield',51,31],['Door',53,55],['Mirror',27,42],['Hood',22,52],['Wheel',31,72],['Headlight',13,59],['Trunk',82,52]] },
+  { id: 'house', title: 'Parts of a House', icon: '🏠', parts: [['Roof',50,19],['Chimney',72,16],['Window',34,49],['Door',54,67],['Wall',78,55],['Garage',77,70],['Garden',18,83]] },
+  { id: 'tree', title: 'Parts of a Tree', icon: '🌳', parts: [['Crown',50,22],['Branch',62,37],['Leaf',33,29],['Trunk',50,62],['Bark',54,69],['Root',43,88],['Fruit',68,27]] },
+  { id: 'weather', title: 'The Weather', icon: '⛅', parts: [['Sun',18,20],['Cloud',48,24],['Rain',47,48],['Lightning',67,47],['Wind',22,62],['Snow',76,72],['Rainbow',48,79]] },
+  { id: 'solar-system', title: 'The Solar System', icon: '🪐', parts: [['Sun',10,50],['Mercury',24,50],['Venus',34,50],['Earth',45,50],['Mars',55,50],['Jupiter',68,50],['Saturn',82,50],['Neptune',93,50]] },
+  { id: 'face', title: 'Parts of the Face', icon: '😊', parts: [['Hair',50,17],['Forehead',50,28],['Eye',37,42],['Ear',20,48],['Nose',50,54],['Mouth',50,68],['Chin',50,82]] },
+  { id: 'classroom', title: 'The Classroom', icon: '🏫', parts: [['Board',50,22],['Clock',82,15],['Desk',50,63],['Chair',69,72],['Book',34,58],['Pencil',46,57],['Backpack',18,77]] },
+  { id: 'bicycle', title: 'Parts of a Bicycle', icon: '🚲', parts: [['Handlebars',72,35],['Seat',43,37],['Frame',52,57],['Pedal',51,63],['Chain',56,70],['Wheel',27,69],['Tire',77,69]] }
+];
+
+const infographicState = { sceneId: 'body-front', selectedLabel: '', answers: {}, initialized: false };
+
+function infographicSceneArtwork(scene) {
+  if (scene.id.startsWith('body')) return `<g class="info-art"><circle cx="200" cy="58" r="34"/><path d="M178 95 Q200 82 222 95 L245 205 229 335 210 335 200 218 190 335 171 335 155 205Z"/><path d="M167 112 112 226M233 112 288 226"/></g>`;
+  if (scene.id === 'car') return `<g class="info-art"><path d="M62 220 83 151 139 118 276 118 324 158 347 220Z"/><path d="M136 128 106 164H196V128ZM210 128V164H308L270 128Z"/><circle cx="125" cy="224" r="34"/><circle cx="286" cy="224" r="34"/></g>`;
+  if (scene.id === 'house') return `<g class="info-art"><path d="M70 155 200 58 330 155V310H70Z"/><path d="M45 166 200 45 355 166"/><rect x="166" y="218" width="68" height="92"/><rect x="96" y="187" width="58" height="52"/><rect x="257" y="187" width="48" height="52"/><path d="M267 105V56H300V130"/></g>`;
+  if (scene.id === 'tree') return `<g class="info-art"><path d="M185 190 172 334H228L215 190Z"/><path d="M200 214 132 150M202 185 267 126M193 158 151 92"/><circle cx="146" cy="104" r="70"/><circle cx="232" cy="105" r="76"/><circle cx="194" cy="64" r="73"/><path d="M176 333 115 360M222 333 285 360"/></g>`;
+  if (scene.id === 'weather') return `<g class="info-art"><circle cx="72" cy="80" r="38"/><path d="M125 112h153c42 0 45-61 4-67-15-37-76-34-88 5-33-17-69 10-69 62Z"/><path d="M157 164 141 213M201 164 185 213M245 164 229 213M279 170l-28 43h25l-24 43M58 250q68-61 136 0M58 250q68-35 136 0"/></g>`;
+  if (scene.id === 'solar-system') return `<g class="info-art"><circle cx="42" cy="200" r="39"/><circle cx="96" cy="200" r="8"/><circle cx="136" cy="200" r="12"/><circle cx="180" cy="200" r="14"/><circle cx="220" cy="200" r="10"/><circle cx="272" cy="200" r="25"/><circle cx="328" cy="200" r="19"/><ellipse cx="328" cy="200" rx="34" ry="9"/><circle cx="372" cy="200" r="13"/></g>`;
+  if (scene.id === 'face') return `<g class="info-art"><ellipse cx="200" cy="205" rx="112" ry="146"/><path d="M95 151q15-125 105-112 90-13 105 112-33-75-105-58-72-17-105 58Z"/><path d="M139 172q23-19 46 0M215 172q23-19 46 0M200 179l-18 70h36M159 276q41 32 82 0"/><circle cx="163" cy="177" r="7"/><circle cx="237" cy="177" r="7"/></g>`;
+  if (scene.id === 'classroom') return `<g class="info-art"><rect x="72" y="55" width="256" height="110"/><circle cx="326" cy="50" r="25"/><path d="M85 255h230l25 91H60Z"/><path d="M126 258v89M276 258v89M242 240v-56h72v152M104 298H38v48h66"/><rect x="126" y="224" width="55" height="25"/></g>`;
+  return `<g class="info-art"><circle cx="108" cy="275" r="68"/><circle cx="308" cy="275" r="68"/><path d="M108 275 178 174 242 275 108 275 193 275 148 211M178 174h54M242 275l50-121M273 154h52M194 275l48-99"/><circle cx="194" cy="275" r="13"/></g>`;
+}
+
+function renderInfographicApp() {
+  const app = document.getElementById('infographicApp');
+  if (!app) return;
+  const scene = INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId) || INFOGRAPHIC_SCENES[0];
+  const answers = infographicState.answers[scene.id] || {};
+  const completed = scene.parts.filter(([name], index) => answers[index] === name).length;
+  const score = Math.round((completed / scene.parts.length) * 100);
+  const placed = new Set(Object.values(answers));
+  const labels = [...scene.parts.map(([name]) => name)].sort((a, b) => a.localeCompare(b));
+  app.innerHTML = `
+    <nav class="infographic-scene-tabs" aria-label="Choose an infographic">${INFOGRAPHIC_SCENES.map((item) => `<button type="button" class="infographic-scene-btn${item.id === scene.id ? ' is-active' : ''}" data-info-scene="${item.id}"><span>${item.icon}</span>${item.title}</button>`).join('')}</nav>
+    <div class="infographic-workbench">
+      <article class="infographic-canvas-card">
+        <header><div><span>Interactive picture dictionary</span><h3>${scene.title}</h3></div><strong>${score}%</strong></header>
+        <svg class="infographic-canvas" viewBox="0 0 400 400" role="img" aria-label="${scene.title}">${infographicSceneArtwork(scene)}${scene.parts.map(([name,x,y], index) => `<g class="info-hotspot${answers[index] ? ' is-filled' : ''}${answers[index] === name ? ' is-correct' : ''}" data-info-slot="${index}" tabindex="0" role="button" aria-label="Point ${index + 1}: ${answers[index] || 'empty'}"><circle cx="${x * 4}" cy="${y * 4}" r="15"/><text x="${x * 4}" y="${y * 4 + 5}">${index + 1}</text></g>`).join('')}</svg>
+      </article>
+      <aside class="infographic-label-panel"><span class="infographic-kicker">Word bank</span><h3>Put each name in its place</h3><p>Select or drag a word, then touch the correct numbered point.</p><div class="infographic-word-bank">${labels.map((name) => `<button type="button" draggable="true" class="infographic-word${infographicState.selectedLabel === name ? ' is-selected' : ''}${placed.has(name) ? ' is-used' : ''}" data-info-label="${name}">🔊 ${name}</button>`).join('')}</div><div class="infographic-score"><span>Progress</span><strong>${completed}/${scene.parts.length} · ${score}%</strong><div><i style="width:${score}%"></i></div></div><button type="button" class="secondary-btn infographic-reset-btn">Try again</button>${score === 100 ? '<div class="infographic-success">🏆 Perfect! 100% · All the parts are correct.</div>' : ''}</aside>
+    </div>`;
+}
+
+function initInfographicApp() {
+  if (infographicState.initialized) { renderInfographicApp(); return; }
+  infographicState.initialized = true;
+  const app = document.getElementById('infographicApp');
+  app?.addEventListener('click', (event) => {
+    const sceneBtn = event.target.closest('[data-info-scene]');
+    if (sceneBtn) { infographicState.sceneId = sceneBtn.dataset.infoScene; infographicState.selectedLabel = ''; renderInfographicApp(); return; }
+    const word = event.target.closest('[data-info-label]');
+    if (word && !word.classList.contains('is-used')) { infographicState.selectedLabel = word.dataset.infoLabel; speakText(infographicState.selectedLabel, { locale: 'en-US' }); renderInfographicApp(); return; }
+    const slot = event.target.closest('[data-info-slot]');
+    if (slot && infographicState.selectedLabel) {
+      const scene = INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId);
+      const index = Number(slot.dataset.infoSlot);
+      infographicState.answers[scene.id] ||= {};
+      if (scene.parts[index][0] === infographicState.selectedLabel) {
+        infographicState.answers[scene.id][index] = infographicState.selectedLabel;
+        window.playExerciseFeedbackSound?.(true);
+      } else window.playExerciseFeedbackSound?.(false);
+      infographicState.selectedLabel = '';
+      renderInfographicApp();
+      return;
+    }
+    if (event.target.closest('.infographic-reset-btn')) { infographicState.answers[infographicState.sceneId] = {}; infographicState.selectedLabel = ''; renderInfographicApp(); }
+  });
+  app?.addEventListener('dragstart', (event) => { const word = event.target.closest('[data-info-label]'); if (word) { infographicState.selectedLabel = word.dataset.infoLabel; event.dataTransfer?.setData('text/plain', word.dataset.infoLabel); } });
+  app?.addEventListener('dragover', (event) => { if (event.target.closest('[data-info-slot]')) event.preventDefault(); });
+  app?.addEventListener('drop', (event) => { const slot = event.target.closest('[data-info-slot]'); if (!slot) return; event.preventDefault(); slot.dispatchEvent(new MouseEvent('click', { bubbles: true })); });
+  renderInfographicApp();
+}
 
 function selectMusicTrack(trackId) {
   const track = musicState.tracks.find((item) => item.id === trackId);
@@ -18175,7 +18312,7 @@ function showView(viewId) {
   }
   if (resolved === 'translator') syncTranslatorLanguagesFromState();
   if (resolved === 'tests') loadTestsView();
-  if (resolved === 'music') loadMusicLibrary();
+  if (resolved === 'music') initInfographicApp();
   if (resolved === 'games') loadGamesView();
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
   if (resolved === 'security') loadSecurityStatus();
@@ -18799,6 +18936,32 @@ function enableHomepageActions() {
     // Reading comprehension quiz (see renderReadingComprehensionQuiz above):
     // every selection is checked immediately, while "Evaluar" remains the
     // final score/summary action after all items have individual feedback.
+    const readingQuestionNav = event.target.closest(
+      '.reading-comp-nav-btn, .reading-comp-step'
+    );
+    if (readingQuestionNav) {
+      if (readingQuestionNav.disabled) return;
+      const slug = readingQuestionNav.dataset.lessonSlug;
+      const lesson = learningPathState.lessons.find((item) => item.slug === slug);
+      if (!lesson) return;
+      const runtime = getReadingComprehensionRuntime(slug);
+      const entries = getVisibleReadingComprehensionEntries(
+        lesson,
+        (lesson.exercises || [])
+          .map((item, exerciseIndex) => ({ item, exerciseIndex }))
+          .filter(({ item }) => item.type === 'mcq' && !isTrueFalseExercise(item))
+      );
+      const directIndex = Number(readingQuestionNav.dataset.readingQuestionIndex);
+      const direction = readingQuestionNav.dataset.readingDirection;
+      const nextIndex = Number.isInteger(directIndex)
+        ? directIndex
+        : runtime.currentIndex + (direction === 'prev' ? -1 : 1);
+      runtime.currentIndex = Math.max(0, Math.min(entries.length - 1, nextIndex));
+      if (SKILL_VIEWS.includes(getViewFromHash())) renderSkillView(getViewFromHash());
+      else renderLessonWorkspace();
+      return;
+    }
+
     const readingCompOption = event.target.closest('.reading-comp-option');
     if (readingCompOption) {
       if (readingCompOption.disabled) return;
@@ -20089,6 +20252,7 @@ function enableHomepageActions() {
   document.getElementById('tutorMainConversationToggle')?.addEventListener('click', () => {
     handleTutorConversationToggleClick('main');
   });
+  document.getElementById('tutorMainVoiceStop')?.addEventListener('click', stopTutorMainConversation);
   document.querySelectorAll('[data-tutor-language]').forEach((button) => {
     button.addEventListener('click', () => setTutorLanguage(button.dataset.tutorLanguage));
   });
@@ -20324,8 +20488,22 @@ function setupLearningPathControls() {
   const bridgeSelect = document.getElementById('pathBridgeSelect');
 
   languageSelect?.addEventListener('change', () => {
+    const requestedLanguage = normalizeLanguageKey(languageSelect.value);
+
+    // If the learner picks the current support language as L2, preserve both
+    // useful choices by swapping the pair instead of rejecting the selection.
+    // Example: Español (support) + Français (L2), then choosing Español as
+    // L2 becomes Français (support) + Español (L2). This makes Spanish
+    // directly selectable while keeping L1 and L2 distinct.
+    if (
+      requestedLanguage === learningPathState.bridgeLanguage &&
+      requestedLanguage !== learningPathState.language
+    ) {
+      if (swapLearningPathLanguages()) return;
+    }
+
     const level = levelSelect?.value || learningPathState.level;
-    if (!setTargetLanguage(languageSelect.value, { level })) {
+    if (!setTargetLanguage(requestedLanguage, { level })) {
       languageSelect.value = learningPathState.language;
     }
   });
@@ -21237,6 +21415,19 @@ function setupInterpreter() {
     if (mode) status.classList.add(mode);
   };
 
+  // Strict turn taking for hands-free interpreting: the opposite microphone
+  // remains unavailable until the current speaker's translated voice ends.
+  const setTurnControls = (activeSide = null) => {
+    const isInTurn = Boolean(activeSide);
+    talkA.disabled = isInTurn && activeSide !== 'a';
+    talkB.disabled = isInTurn && activeSide !== 'b';
+    langA.disabled = isInTurn;
+    langB.disabled = isInTurn;
+    if (swapBtn) swapBtn.disabled = isInTurn;
+    talkA.classList.toggle('is-waiting', isInTurn && activeSide === 'b');
+    talkB.classList.toggle('is-waiting', isInTurn && activeSide === 'a');
+  };
+
   const updateLabels = () => {
     labelA.textContent = languageLabel(langA.value);
     labelB.textContent = languageLabel(langB.value);
@@ -21273,8 +21464,7 @@ function setupInterpreter() {
     activeButton = null;
     window.speechSynthesis?.cancel();
     busy = false;
-    talkA.disabled = false;
-    talkB.disabled = false;
+    setTurnControls();
     setStatus('Detenido.');
   };
 
@@ -21282,8 +21472,7 @@ function setupInterpreter() {
     busy = true;
     const turnToken = ++playbackToken;
     setStatus('Interpretando…', 'is-loading');
-    talkA.disabled = true;
-    talkB.disabled = true;
+    setTurnControls('playback');
     try {
       const data = await postJson('/api/translate', { text, sourceLanguage, targetLanguage }, { auth: true });
       if (turnToken !== playbackToken) return;
@@ -21294,8 +21483,7 @@ function setupInterpreter() {
       const finishTurn = () => {
         if (turnToken !== playbackToken) return;
         busy = false;
-        talkA.disabled = false;
-        talkB.disabled = false;
+        setTurnControls();
         // The translation was just spoken aloud TO the other side, so it's
         // now naturally their turn to reply - open their microphone
         // automatically instead of making them tap again, so a live
@@ -21311,8 +21499,7 @@ function setupInterpreter() {
     } catch (error) {
       if (turnToken !== playbackToken) return;
       busy = false;
-      talkA.disabled = false;
-      talkB.disabled = false;
+      setTurnControls();
       setStatus(error.message || 'No se pudo interpretar. Inténtalo de nuevo.', 'is-unavailable');
     }
   }
@@ -21323,8 +21510,7 @@ function setupInterpreter() {
     if (!turn?.translation) return;
     busy = true;
     const turnToken = ++playbackToken;
-    talkA.disabled = true;
-    talkB.disabled = true;
+    setTurnControls('playback');
     setStatus(`Reproduciendo ${languageLabel(turn.targetLanguage)}…`, 'is-success');
     const sourceButton = turn.side === 'a' ? talkA : talkB;
     speakText(turn.translation, {
@@ -21332,8 +21518,7 @@ function setupInterpreter() {
       onEnd: () => {
         if (turnToken !== playbackToken) return;
         busy = false;
-        talkA.disabled = false;
-        talkB.disabled = false;
+        setTurnControls();
         setStatus(`Listo. Puedes hablar en ${languageLabel(turn.sourceLanguage)}.`, 'is-success');
         sourceButton.focus({ preventScroll: true });
       }
@@ -21341,22 +21526,23 @@ function setupInterpreter() {
   }
 
   async function startTurn(side) {
-    if (busy) return;
+    if (busy || recognition) return;
     const Ctor = getSpeechRecognitionCtor();
     if (!Ctor) {
       setStatus('El reconocimiento de voz no está disponible en este navegador.', 'is-unavailable');
       return;
     }
-    stop();
     try {
       await ensureMicrophonePermission();
     } catch (error) {
+      setTurnControls();
       setStatus(microphonePermissionMessage(error), 'is-unavailable');
       return;
     }
     const sourceLanguage = side === 'a' ? langA.value : langB.value;
     const targetLanguage = side === 'a' ? langB.value : langA.value;
     if (sourceLanguage === targetLanguage) {
+      setTurnControls();
       setStatus('Selecciona dos idiomas diferentes.', 'is-unavailable');
       return;
     }
@@ -21367,6 +21553,7 @@ function setupInterpreter() {
     instance.continuous = false;
     recognition = instance;
     activeButton = button;
+    setTurnControls(side);
     button.classList.add('is-listening');
     setStatus(`Escuchando ${languageLabel(sourceLanguage)}…`, 'is-loading');
     let transcript = '';
@@ -21382,6 +21569,7 @@ function setupInterpreter() {
       if (recognition !== instance) return;
       recognition = null;
       activeButton = null;
+      setTurnControls();
       if (transcript) translateTurn(transcript, sourceLanguage, targetLanguage, side);
       else setStatus('Toca Hablar e inténtalo de nuevo.');
     });

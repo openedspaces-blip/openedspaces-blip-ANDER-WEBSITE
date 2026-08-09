@@ -80,7 +80,7 @@
         <a href="#learn"><span aria-hidden="true">📘</span>Aprender</a>
         <a href="#tests"><span aria-hidden="true">✓</span>Tests</a>
         <a href="#verbs"><span aria-hidden="true">Aa</span>Verbos</a>
-        <a href="#music"><span aria-hidden="true">♪</span>Música</a>
+        <a href="#music"><span aria-hidden="true">◉</span>Infografías</a>
         <a href="#games"><span aria-hidden="true">♟</span>Juegos</a>
         <a href="#tutor"><span aria-hidden="true">✦</span>Tutor</a>
         <a href="#translator"><span aria-hidden="true">文</span>Traductor</a>
@@ -111,7 +111,7 @@
           <a href="#learn" data-i18n="navLearnMember">Aprender</a>
           <a href="#tests">Tests</a>
           <a href="#verbs" data-i18n="navVerbs">Verbos</a>
-          <a href="#music">Música</a>
+          <a href="#music">Infografías</a>
           <a href="#games">Juegos</a>
           <a href="#tutor" data-i18n="navTutor">Tutor I.A.</a>
           <a href="#translator" data-i18n="navTranslator">Traductor</a>
@@ -922,7 +922,7 @@
         <div class="section-heading section-heading-compact">
           <span>Tests</span>
           <h2 tabindex="-1">Demuestra lo que aprendiste</h2>
-          <p>Pruebas de gramática, vocabulario y verbos correspondientes a cada nivel y lección.</p>
+          <p>Retos interactivos que ponen en práctica lo aprendido en cada nivel y lección.</p>
         </div>
         <div class="tests-shell">
           <aside class="tests-sidebar">
@@ -946,7 +946,7 @@
               <select id="testLessonSelect"><option>Cargando lecciones…</option></select>
             </label>
             <button type="button" class="primary-btn" id="startLessonTestBtn">Comenzar test</button>
-            <div class="tests-spec"><strong id="testQuestionCount">15 preguntas</strong><span>Gramática + vocabulario + verbos</span><span>Sin depender del Reading · Nota sobre 100</span></div>
+            <div class="tests-spec"><strong id="testQuestionCount">15 preguntas</strong><span>Respuestas con retroalimentación al instante</span><span>Reto de la lección · Nota sobre 100</span></div>
           </aside>
           <article class="tests-stage" id="testsStage" aria-live="polite">
             <div class="tests-welcome"><span aria-hidden="true">✓</span><h3>Un examen a tu medida</h3><p>Selecciona un nivel y una lección. Podrás responder aquí, revisar tu resultado y descargarlo.</p></div>
@@ -954,54 +954,13 @@
         </div>
       </section>
 
-      <section id="music" class="section music-section compact-hidden-section" aria-label="Música">
+      <section id="music" class="section infographic-section compact-hidden-section" aria-label="Infografías interactivas">
         <div class="section-heading section-heading-compact">
-          <span>Música</span>
-          <h2 tabindex="-1">Escucha y sigue la letra</h2>
-          <p>Elige una canción y acompaña cada línea mientras suena.</p>
+          <span>Visual Pictionary</span>
+          <h2 tabindex="-1">Aprende inglés explorando cada parte</h2>
+          <p>Selecciona una infografía, relaciona los nombres con sus puntos y consigue 100%.</p>
         </div>
-
-        <div class="music-shell">
-          <aside class="music-library" aria-label="Canciones disponibles">
-            <div class="music-library-heading">
-              <span>Biblioteca</span>
-              <strong id="musicTrackCount">0 canciones</strong>
-            </div>
-            <div class="music-track-list" id="musicTrackList" aria-live="polite">
-              <p class="skill-graph-empty">Cargando canciones…</p>
-            </div>
-          </aside>
-
-          <article class="music-player-card" id="musicPlayerCard">
-            <div class="music-now-playing">
-              <div class="music-cover" id="musicCover" aria-hidden="true">♪</div>
-              <div>
-                <span>Ahora suena</span>
-                <h3 id="musicTitle">Selecciona una canción</h3>
-                <p id="musicArtist">Tu biblioteca aparecerá aquí.</p>
-              </div>
-            </div>
-
-            <audio id="musicAudio" controls preload="metadata"></audio>
-
-            <div class="music-controls">
-              <label for="musicSpeed">Velocidad
-                <select id="musicSpeed">
-                  <option value="0.75">0.75×</option>
-                  <option value="0.9">0.9×</option>
-                  <option value="1" selected>1×</option>
-                </select>
-              </label>
-              <button type="button" class="secondary-btn" id="musicLyricsToggle" aria-expanded="true">
-                Ocultar letra
-              </button>
-            </div>
-
-            <div class="music-lyrics" id="musicLyrics" aria-live="polite">
-              <p class="music-empty-lyrics">Selecciona una canción para ver la letra sincronizada.</p>
-            </div>
-          </article>
-        </div>
+        <div id="infographicApp" class="infographic-app" aria-live="polite"></div>
       </section>
 
       <section id="games" class="section games-section compact-hidden-section" aria-label="Juegos de idiomas">
@@ -1142,9 +1101,9 @@
         <div class="tutor-hero">
           <div class="tutor-hero-copy">
             <div class="section-heading tutor-section-heading">
-          <span>Tutor IA ANDERGO Academy</span>
+          <span data-i18n="tutorHeroBrand">ANDERGO A.I. Tutor</span>
           <h2 tabindex="-1">¿Qué practicamos hoy?</h2>
-          <p>Corrige, explica y propone ejercicios según tu idioma, nivel y habilidad.</p>
+          <p data-i18n="tutorHeroSlogan">Tu profe que nunca duerme.</p>
         </div>
 
         <div class="tutor-context" aria-live="polite">
@@ -1172,7 +1131,19 @@
           </div>
           <div class="tutor-presence-copy">
             <span class="tutor-presence-eyebrow">CONVERSACIÓN EN TIEMPO REAL</span>
-            <strong class="tutor-presence-title">Habla naturalmente con tu Tutor</strong>
+            <div class="tutor-presence-title-row">
+              <strong class="tutor-presence-title">Habla naturalmente con tu Tutor</strong>
+              <div class="tutor-presence-actions" aria-label="Controles de conversación">
+                <button
+                  type="button"
+                  class="tutor-conversation-toggle"
+                  id="tutorMainConversationToggle"
+                  aria-pressed="false"
+                  title="Conversar por voz con cupo mensual"
+                ><span aria-hidden="true">🎙</span> Conversar <span class="tutor-conversation-toggle-badge">30/500</span></button>
+                <button type="button" class="tutor-main-stop-btn" id="tutorMainVoiceStop" title="Detener conversación y audio"><span aria-hidden="true">⏹</span> Detener</button>
+              </div>
+            </div>
             <span class="tutor-presence-state" id="tutorPresenceState" aria-live="polite">
               Puedes escribir o iniciar una conversación por voz.
             </span>
@@ -1185,33 +1156,15 @@
               <button type="button" data-tutor-language="french" aria-pressed="false">🇫🇷 Français</button>
             </div>
           </div>
-          <div class="tutor-voice-controls-row">
-            <button
-              type="button"
-              class="tutor-conversation-toggle"
-              id="tutorMainConversationToggle"
-              aria-pressed="false"
-              title="Conversar por voz con cupo mensual"
-            >
-              <span class="tutor-conversation-toggle-icon" aria-hidden="true">🎙</span>
-              <span class="tutor-conversation-toggle-copy"><strong>Iniciar conversación</strong><small>Escucho, respondo y sigo contigo</small></span>
-              <span class="tutor-conversation-toggle-badge">30/500 al mes</span>
-            </button>
-            <label class="tutor-autoplay-toggle" title="Las respuestas habladas se leen automáticamente" hidden>
-              <input
-                type="checkbox"
-                id="tutorMainAutoplayToggle"
-                checked
-                aria-label="Reproducir respuestas automáticamente"
-              />
-              🔊 Auto
-            </label>
-          </div>
         </div>
 
           </div>
           <div class="tutor-hero-bot" aria-hidden="true">
-            <img class="tutor-realistic-robot" src="/images/tutor/andergo-tutor-robot-v2.png" alt="" />
+            <img class="tutor-realistic-robot" src="/images/tutor/andergo-tutor-robot-v4-uniform.png" alt="" />
+            <span class="tutor-brand-badge tutor-brand-badge--cap" aria-hidden="true"></span>
+            <span class="tutor-brand-badge tutor-brand-badge--chest" aria-hidden="true"></span>
+            <span class="tutor-avatar-mouth" aria-hidden="true"></span>
+            <span class="tutor-avatar-voice" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
             <span class="tutor-bot-mark tutor-bot-mark--hero">
               <svg viewBox="0 0 80 96" focusable="false">
                 <path class="tutor-bot-antenna" d="M40 8v8" />
@@ -1234,7 +1187,7 @@
               </svg>
               <span class="tutor-bot-status"></span>
             </span>
-            <span><strong>Tutor ANDERGO</strong><small>Listo para practicar</small></span>
+            <span class="tutor-hero-label"><strong>Profesor ANDERGO</strong><small>Listo para practicar</small></span>
           </div>
         </div>
 
@@ -1587,7 +1540,7 @@
               <div>
                 <span class="tests-eyebrow">Conversación por voz</span>
                 <h3>Modo intérprete</h3>
-                <p>Elige desde qué idioma hablas y hacia cuál quieres interpretar, luego toca quién va a hablar.</p>
+                <p>Elige los idiomas y toca quién inicia. En modo manos libres, el siguiente micrófono se abre sólo cuando termina la interpretación.</p>
               </div>
               <button type="button" class="secondary-btn" id="interpreterClearBtn">Limpiar conversación</button>
             </div>
@@ -2539,7 +2492,7 @@
             <a href="#learn" data-i18n="navLearnVisitor">Idiomas</a>
             <a href="#premium" data-i18n="navPremium">Premium</a>
             <a href="#translator" data-i18n="navTranslator">Traductor</a>
-            <a href="#music">Música</a>
+            <a href="#music">Infografías</a>
             <a href="#games">Juegos</a>
             <a href="#about" data-i18n="navAbout">Acerca de</a>
             <a href="#about" data-i18n="footerSupport">Soporte</a>
