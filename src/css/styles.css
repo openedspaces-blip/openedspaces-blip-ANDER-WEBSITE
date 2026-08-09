@@ -23712,12 +23712,12 @@ body {
 .info-art { fill: #dbeafe; stroke: #1d4ed8; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
 .info-realistic-art { pointer-events: none; }
 .info-hotspot { cursor: pointer; outline: none; }
-.info-hotspot line { stroke: #fff; stroke-width: 3.5; stroke-linecap: round; filter: drop-shadow(0 1px 2px rgba(15,23,42,.55)); pointer-events: none; }
-.info-hotspot-target { fill: #fff; stroke: #2563eb; stroke-width: 1.8; filter: drop-shadow(0 1px 2px rgba(15,23,42,.48)); pointer-events: none; }
-.info-hotspot circle { fill: #fff; stroke: #2563eb; stroke-width: 4; filter: drop-shadow(0 4px 5px rgba(30,64,175,.22)); transition: transform .15s ease,fill .15s ease; transform-box: fill-box; transform-origin: center; }
-.info-hotspot:hover circle,.info-hotspot:focus circle { fill: #fef3c7; transform: scale(1.16); }
-.info-hotspot.is-correct circle { fill: #22c55e; stroke: #087f5b; }
-.info-hotspot text { fill: #1d4ed8; font: 900 14px system-ui; text-anchor: middle; pointer-events: none; }
+.info-hotspot line { stroke: #fff; stroke-width: 4; stroke-linecap: round; filter: drop-shadow(0 1px 2px rgba(15,23,42,.7)); pointer-events: none; }
+.info-hotspot-target { fill: #fff; stroke: #1459db; stroke-width: 3; filter: drop-shadow(0 1px 2px rgba(15,23,42,.64)); pointer-events: none; }
+.info-hotspot circle:not(.info-hotspot-target) { fill: #2563eb; stroke: #fff; stroke-width: 3; filter: drop-shadow(0 4px 5px rgba(15,23,42,.42)); transition: transform .15s ease,fill .15s ease; transform-box: fill-box; transform-origin: center; }
+.info-hotspot:hover circle:not(.info-hotspot-target),.info-hotspot:focus circle:not(.info-hotspot-target) { fill: #1d4ed8; transform: scale(1.16); }
+.info-hotspot.is-correct circle:not(.info-hotspot-target) { fill: #22c55e; stroke: #fff; }
+.info-hotspot text { fill: #fff; font: 900 14px system-ui; text-anchor: middle; pointer-events: none; }
 .info-hotspot.is-correct text { fill: #fff; }
 .infographic-label-panel { display: flex; flex-direction: column; padding: clamp(1rem,2vw,1.4rem); }
 .infographic-label-panel > p { margin: .2rem 0 1rem; color: var(--muted); font-size: .82rem; line-height: 1.5; }
@@ -27302,5 +27302,169 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 
   #tutor .tutor-output-companion .tutor-output-bot {
     height: 128px;
+  }
+}
+
+/* Audited Tutor presentation. The portrait now uses a true-alpha copy of the
+   original artwork. Both uniform badges use an exact crop of the official
+   ANDERGO mark, and their scale stays proportional to the character. */
+#tutor .tutor-brand-badge {
+  background-image: url('/images/tutor/andergo-logo-mark.png');
+  background-size: contain;
+  background-position: center;
+}
+
+#tutor .tutor-output-bot {
+  background:
+    radial-gradient(circle at 50% 32%, rgba(255,255,255,.98), transparent 38%),
+    linear-gradient(160deg, #eaf3ff, #f8fbff 58%, #e5f5ff);
+}
+
+@media (min-width: 701px) {
+  #tutor .tutor-presence-panel {
+    padding: 0.72rem 0.9rem;
+  }
+
+  #tutor .tutor-language-options button {
+    min-height: 34px;
+    padding-block: 0.36rem;
+  }
+
+  #tutor .tutor-output-stage {
+    grid-template-columns: minmax(0, 1fr) clamp(245px, 23vw, 310px);
+  }
+
+  #tutor .tutor-output-stage .tutor-conversation {
+    min-height: 260px;
+  }
+
+  #tutor .tutor-output-stage .tutor-conversation:has(.tutor-message) {
+    min-height: clamp(310px, 35dvh, 430px);
+  }
+
+  #tutor .tutor-output-companion .tutor-output-bot {
+    min-height: 260px;
+  }
+
+  #tutor .tutor-output-companion .tutor-brand-badge--cap {
+    top: 5.7%;
+    width: clamp(25px, 11%, 34px);
+    border-width: 1px;
+  }
+
+  #tutor .tutor-output-companion .tutor-brand-badge--chest {
+    top: 65%;
+    right: 16%;
+    width: clamp(31px, 14%, 42px);
+    border-width: 1px;
+    border-radius: 10px;
+  }
+
+  #tutor .tutor-composer {
+    padding: 0.75rem;
+  }
+
+  #tutor .tutor-input {
+    min-height: 64px;
+  }
+}
+
+@media (max-width: 700px) {
+  #tutor .tutor-output-stage {
+    grid-template-columns: minmax(0, 1fr) 108px;
+  }
+
+  #tutor .tutor-output-companion {
+    width: 108px;
+  }
+
+  #tutor .tutor-output-companion .tutor-output-bot {
+    height: 150px;
+  }
+
+  #tutor .tutor-output-companion .tutor-brand-badge--cap {
+    top: 6%;
+    width: 16px;
+  }
+
+  #tutor .tutor-output-companion .tutor-brand-badge--chest {
+    top: 64%;
+    right: 14%;
+    width: 20px;
+  }
+
+  #tutor .tutor-conversation {
+    min-height: 190px;
+  }
+}
+
+/* Keep the Tutor visible throughout the conversation workspace. On desktop
+   the character occupies a sticky companion rail: it follows the current
+   Tutor task, but stops naturally at the end of the Tutor section and never
+   floats over unrelated pages. */
+@media (min-width: 701px) {
+  #tutor .tutor-action,
+  #tutor .tutor-action.is-open {
+    grid-template-columns: minmax(0, 1fr) clamp(245px, 23vw, 310px);
+    grid-template-rows: auto auto auto auto auto;
+    align-items: start;
+    column-gap: 0.85rem;
+  }
+
+  #tutor .tutor-output-stage {
+    display: contents;
+  }
+
+  #tutor .tutor-output-stage .tutor-conversation {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+  }
+
+  #tutor .tutor-output-companion {
+    position: sticky;
+    top: 5.6rem;
+    z-index: 8;
+    grid-column: 2;
+    grid-row: 1 / span 5;
+    width: 100%;
+    align-self: start;
+  }
+
+  #tutor .tutor-action > .tutor-thinking {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #tutor .tutor-action > .tutor-start-label {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  #tutor .tutor-action > .tutor-main-quick-actions {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  #tutor .tutor-action > .tutor-composer {
+    grid-column: 1;
+    grid-row: 5;
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  #tutor .tutor-action,
+  #tutor .tutor-action.is-open {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto;
+  }
+
+  #tutor .tutor-output-stage {
+    display: grid;
+  }
+
+  #tutor .tutor-output-companion {
+    position: static;
   }
 }
