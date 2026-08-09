@@ -17196,7 +17196,9 @@ function infographicSceneArtwork(scene) {
   const panel = INFOGRAPHIC_ATLAS_PANELS[scene.id] ?? 0;
   const column = panel % 4;
   const row = Math.floor(panel / 4);
-  return `<image class="info-realistic-art" href="/images/infographics/realistic-picture-dictionary-atlas-v1.png" x="${-column * 400}" y="${-row * 400}" width="1600" height="1200" preserveAspectRatio="none" />`;
+  const xPosition = [0, 33.333, 66.667, 100][column];
+  const yPosition = [0, 50, 100][row];
+  return `<foreignObject class="info-realistic-art" x="0" y="0" width="400" height="400"><div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;background:url('/images/infographics/realistic-picture-dictionary-atlas-v1.png') ${xPosition}% ${yPosition}% / 400% 300% no-repeat;"></div></foreignObject>`;
 }
 
 function renderInfographicApp() {

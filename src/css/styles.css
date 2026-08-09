@@ -26606,3 +26606,80 @@ body.tutor-robot-speaking #tutor .tutor-coach-portrait .tutor-bot-status {
   #tutor .tutor-composer { grid-template-columns: minmax(0, 1fr); }
   #tutor .tutor-composer-bot { display: none; }
 }
+
+/* First-time visitors only need enough room for the welcome message. Reserve
+   the taller scrollable surface for a real conversation, so the quick starts
+   and composer remain together in the initial view. */
+#tutor .tutor-action,
+#tutor .tutor-action.is-open {
+  gap: 0.45rem;
+  margin-top: 0.55rem;
+  padding: clamp(0.72rem, 1.4vw, 1rem);
+}
+
+#tutor .tutor-conversation {
+  min-height: clamp(140px, 16dvh, 210px);
+  max-height: min(46dvh, 520px);
+  padding: 0.58rem;
+}
+
+#tutor .tutor-main-quick-actions {
+  margin: 0.05rem 0 0.28rem;
+  padding-bottom: 0.12rem;
+}
+
+/* The portrait belongs with the answer: it stays visible beside the text as
+   the response grows, while the input remains a focused writing surface. */
+#tutor .tutor-output-stage {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(185px, 20vw, 250px);
+  align-items: stretch;
+  gap: 0.9rem;
+}
+
+#tutor .tutor-output-stage .tutor-conversation {
+  min-width: 0;
+}
+
+#tutor .tutor-output-bot {
+  display: grid;
+  min-height: clamp(180px, 19vw, 245px);
+  height: auto;
+  align-self: stretch;
+  border-radius: 20px;
+}
+
+#tutor .tutor-composer {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (max-width: 700px) {
+  #tutor .tutor-output-stage { grid-template-columns: minmax(0, 1fr); }
+  #tutor .tutor-output-bot { display: none; }
+}
+
+@media (max-width: 700px) {
+  #tutor .tutor-conversation {
+    min-height: 150px;
+    max-height: 44dvh;
+  }
+
+  #tutor .tutor-welcome {
+    max-width: 100%;
+    padding: 0.62rem 0.68rem;
+  }
+
+  #tutor .tutor-main-quick-actions {
+    gap: 0.4rem;
+  }
+
+  #tutor .tutor-main-quick-actions .tutor-quick-action {
+    min-height: 2.05rem;
+    padding-inline: 0.58rem;
+    font-size: 0.78rem;
+  }
+
+  #tutor .tutor-composer { padding: 0.6rem; }
+  #tutor .tutor-input { min-height: 60px; max-height: 118px; }
+  #tutor .tutor-buttons { gap: 0.45rem; }
+}
