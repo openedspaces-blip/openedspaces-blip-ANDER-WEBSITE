@@ -27468,3 +27468,38 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
     position: static;
   }
 }
+
+/* Uniform wordmark: replace the oversized arm badge with a discreet white
+   ANDERGO signature on the Tutor's left chest. The cap keeps the exact
+   official logo mark. */
+#tutor .tutor-output-companion .tutor-brand-badge--chest {
+  top: 69%;
+  right: 18%;
+  bottom: auto;
+  width: auto;
+  aspect-ratio: auto;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  color: #fff;
+  font-size: clamp(0.48rem, 0.72vw, 0.68rem);
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  text-shadow: 0 1px 3px rgba(7, 21, 47, 0.72);
+}
+
+#tutor .tutor-output-companion .tutor-brand-badge--chest::before {
+  content: 'ANDERGO';
+}
+
+@media (max-width: 700px) {
+  #tutor .tutor-output-companion .tutor-brand-badge--chest {
+    top: 69%;
+    right: 14%;
+    width: auto;
+    font-size: 0.36rem;
+    letter-spacing: 0.08em;
+  }
+}
