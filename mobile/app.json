@@ -39,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4d9dfa33-5b67-4823-a030-ffa4ca5cf3e6"
+      }
+    },
+    "owner": "andergo_app"
   }
 }

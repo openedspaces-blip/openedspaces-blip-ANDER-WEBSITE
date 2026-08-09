@@ -1403,19 +1403,6 @@
             </label>
           </div>
 
-          <div class="translator-primary-actions" aria-label="Acciones del traductor">
-            <button type="button" class="primary-btn" id="translatorSubmitBtn">Traducir →</button>
-            <button
-              type="button"
-              class="secondary-btn translator-stop-btn"
-              id="translatorStopBtn"
-              aria-label="Detener audio o dictado"
-            >
-              ⏹ Detener
-            </button>
-            <span class="translator-status" id="translatorStatus" role="status" aria-live="polite">Listo</span>
-          </div>
-
           <div class="translator-grid">
             <div class="translator-field translator-field--source">
               <label for="translatorInput">Texto original</label>
@@ -1465,6 +1452,9 @@
                 >
                   🎙 Hablar
                 </button>
+                <button type="button" class="primary-btn translator-submit-btn" id="translatorSubmitBtn">
+                  Traducir →
+                </button>
                 <button
                   type="button"
                   class="translator-dictate-stop-btn"
@@ -1505,6 +1495,15 @@
                 >
                   🔊 Escuchar
                 </button>
+                <button
+                  type="button"
+                  class="secondary-btn translator-stop-btn"
+                  id="translatorStopBtn"
+                  aria-label="Detener audio o dictado"
+                >
+                  ⏹ Detener
+                </button>
+                <span class="translator-status" id="translatorStatus" role="status" aria-live="polite">Listo</span>
               </div>
             </div>
           </div>

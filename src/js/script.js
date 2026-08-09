@@ -4947,16 +4947,17 @@ function speakText(text, { locale, rate = 1, voice, exactLocaleOnly = false, onE
       'english';
     const requestedBase = utterance.lang.toLowerCase().split('-')[0];
     const allVoices = window.speechSynthesis.getVoices() || [];
-    const preferredVoices = exactLocaleOnly
+    const preferredVoices = getReadingVoicesForLocale(utterance.lang);
+    const eligibleVoices = exactLocaleOnly
       ? allVoices.filter(
           (candidate) =>
             String(candidate.lang || '').toLocaleLowerCase() === utterance.lang.toLocaleLowerCase()
         )
-      : getReadingVoicesForLocale(utterance.lang);
+      : preferredVoices;
     const storedVoiceName = getStoredReadingVoiceName(speechLanguage);
     const matchingVoice =
-      preferredVoices.find((voice) => voice.name === storedVoiceName) ||
-      preferredVoices[0] ||
+      eligibleVoices.find((voice) => voice.name === storedVoiceName) ||
+      eligibleVoices[0] ||
       (!exactLocaleOnly && allVoices.find(
         (voice) => voice.lang?.toLowerCase().split('-')[0] === requestedBase
       ));
@@ -17001,8 +17002,17 @@ function renderLessonTest() {
     return;
   }
   const totalQuestions = lessonTestState.questions.length;
+  const grammarExamplesHtml = (unit.grammarExamples || []).slice(0, 2).map((example) => {
+    const text = String(example?.text || '');
+    const highlight = String(example?.highlight || '');
+    const index = highlight ? text.toLocaleLowerCase().indexOf(highlight.toLocaleLowerCase()) : -1;
+    const sentence = index >= 0
+      ? `${escapeHtml(text.slice(0, index))}<mark>${escapeHtml(text.slice(index, index + highlight.length))}</mark>${escapeHtml(text.slice(index + highlight.length))}`
+      : escapeHtml(text);
+    return `<li>${sentence}</li>`;
+  }).join('');
   stage.innerHTML = `<div class="tests-paper" id="lessonTestPaper">
-    <header class="tests-paper-head"><div><span>${lessonTestState.language === 'french' ? 'Français' : lessonTestState.language === 'spanish' ? 'Español' : 'English'} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>Evaluación gramatical · ${totalQuestions} ${lessonTestState.language === 'spanish' ? 'preguntas' : 'questions'} · recibe respuesta al instante</p></div><strong>100<small>puntos</small></strong></header>
+    <header class="tests-paper-head"><div><span>${lessonTestState.language === 'french' ? 'Français' : lessonTestState.language === 'spanish' ? 'Español' : 'English'} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>Evaluación gramatical · ${totalQuestions} ${lessonTestState.language === 'spanish' ? 'preguntas' : 'questions'} · recibe respuesta al instante</p>${grammarExamplesHtml ? `<div class="tests-grammar-examples"><strong>Ejemplos prácticos</strong><ol>${grammarExamplesHtml}</ol></div>` : ''}</div><strong>100<small>puntos</small></strong></header>
     <nav class="tests-challenge-map" aria-label="Progreso del reto">${lessonTestState.questions.map((_, index) => `<button type="button" class="tests-challenge-map-item" data-test-jump="${index}" aria-label="Ir a la pregunta ${index + 1}">${index + 1}</button>`).join('')}<span class="tests-challenge-progress" id="testsChallengeProgress">0/${totalQuestions} respondidas</span></nav>
     <form id="lessonTestForm" class="tests-question-list">${lessonTestState.questions.map((question, index) => `<fieldset class="tests-question" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span class="tests-option-content"><strong class="tests-option-letter" aria-hidden="true">${String.fromCharCode(97 + optionIndex)})</strong><span class="tests-option-text">${escapeHtml(option)}</span></span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite">Elige la opción que mejor complete la situación.</p></fieldset>`).join('')}
       <button type="submit" class="primary-btn tests-submit" disabled>Evaluar resultado total · 0/${lessonTestState.questions.length}</button>
@@ -17130,9 +17140,25 @@ async function shareLessonTestResult() {
   }
 }
 
-function printLessonTest() {
+async function printLessonTest() {
+  const paper = document.getElementById('lessonTestPaper');
+  if (!paper) return;
+  paper.querySelector('.tests-print-answer-key')?.remove();
+  try {
+    const response = await fetch(`${backendBaseUrl}/api/tests/answer-key?language=${encodeURIComponent(lessonTestState.language)}&level=${encodeURIComponent(lessonTestState.level)}&unitSlug=${encodeURIComponent(lessonTestState.unitId)}`);
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok || !Array.isArray(data.answers)) throw new Error(data.error || 'No se pudo preparar la clave de respuestas.');
+    paper.insertAdjacentHTML('beforeend', `<section class="tests-print-answer-key"><h3>Clave de respuestas</h3><ol>${data.answers.map((answer) => `<li><strong>${escapeHtml(answer.letter)})</strong> ${escapeHtml(answer.text)}</li>`).join('')}</ol></section>`);
+  } catch (error) {
+    showHomeToast(error.message);
+    return;
+  }
   document.body.classList.add('printing-tests');
-  window.addEventListener('afterprint', () => document.body.classList.remove('printing-tests'), { once: true });
+  const cleanup = () => {
+    document.body.classList.remove('printing-tests');
+    paper.querySelector('.tests-print-answer-key')?.remove();
+  };
+  window.addEventListener('afterprint', cleanup, { once: true });
   window.print();
 }
 
@@ -17211,27 +17237,27 @@ function setupTestsView() {
 const musicState = { tracks: [], activeId: null, loadedAt: 0, initialized: false };
 
 const INFOGRAPHIC_SCENES = [
-  { id: 'body-front', title: 'Human Body · Front', icon: '🧑', parts: [['Head',50,12],['Shoulder',38,29],['Chest',50,36],['Arm',28,44],['Hand',21,61],['Knee',43,73],['Foot',43,94]] },
-  { id: 'body-rear', title: 'Human Body · Rear', icon: '🧑', parts: [['Head',50,12],['Neck',50,23],['Back',50,39],['Elbow',29,48],['Waist',50,56],['Leg',43,75],['Heel',43,92]] },
-  { id: 'car', title: 'Parts of a Car', icon: '🚗', parts: [['Windshield',48,40],['Door',61,55],['Mirror',51,45],['Hood',31,52],['Wheel',43,69],['Headlight',24,59],['Trunk',78,48]] },
-  { id: 'house', title: 'Parts of a House', icon: '🏠', parts: [['Roof',50,19],['Chimney',72,16],['Window',34,49],['Door',54,67],['Wall',78,55],['Garage',77,70],['Garden',18,83]] },
-  { id: 'tree', title: 'Parts of a Tree', icon: '🌳', parts: [['Crown',50,22],['Branch',58,43],['Leaf',34,31],['Trunk',49,64],['Bark',52,70],['Root',46,82],['Fruit',68,31]] },
-  { id: 'weather', title: 'The Weather', icon: '⛅', parts: [['Sun',18,20],['Cloud',48,24],['Rain',47,48],['Lightning',67,47],['Wind',22,62],['Snow',76,72],['Rainbow',48,79]] },
-  { id: 'solar-system', title: 'The Solar System', icon: '🪐', parts: [['Sun',10,50],['Mercury',24,50],['Venus',34,50],['Earth',45,50],['Mars',55,50],['Jupiter',68,50],['Saturn',82,50],['Neptune',93,50]] },
-  { id: 'face', title: 'Parts of the Face', icon: '😊', parts: [['Hair',50,17],['Forehead',50,28],['Eye',37,42],['Ear',20,48],['Nose',50,54],['Mouth',50,68],['Chin',50,82]] },
-  { id: 'classroom', title: 'The Classroom', icon: '🏫', parts: [['Board',50,22],['Clock',82,15],['Desk',50,63],['Chair',69,72],['Book',34,58],['Pencil',46,57],['Backpack',18,77]] },
-  { id: 'bicycle', title: 'Parts of a Bicycle', icon: '🚲', parts: [['Handlebars',72,35],['Seat',43,37],['Frame',52,57],['Pedal',51,63],['Chain',56,70],['Wheel',27,69],['Tire',77,69]] }
+  { id: 'body-front', title: 'Human Body · Front', icon: '🧑', parts: [['Head',50,13],['Shoulder',39,29],['Chest',50,36],['Arm',31,43],['Hand',29,55],['Knee',43,73],['Foot',43,93]] },
+  { id: 'body-rear', title: 'Human Body · Rear', icon: '🧑', parts: [['Head',50,13],['Neck',50,24],['Back',50,39],['Elbow',31,47],['Waist',50,55],['Leg',43,75],['Heel',43,92]] },
+  { id: 'car', title: 'Parts of a Car', icon: '🚗', parts: [['Windshield',48,41],['Door',64,55],['Mirror',57,43],['Hood',29,52],['Wheel',70,67],['Headlight',18,56],['Trunk',87,48]] },
+  { id: 'house', title: 'Parts of a House', icon: '🏠', parts: [['Roof',50,27],['Chimney',39,13],['Window',70,43],['Door',57,58],['Wall',30,47],['Porch',48,67],['Garden',22,77]] },
+  { id: 'tree', title: 'Parts of a Tree', icon: '🌳', parts: [['Crown',50,20],['Branch',56,40],['Leaf',25,28],['Trunk',50,60],['Bark',52,69],['Root',50,84],['Fruit',67,24]] },
+  { id: 'weather', title: 'The Weather', icon: '⛅', parts: [['Sun',18,20],['Cloud',51,20],['Rain',49,48],['Lightning',60,45],['Wind',20,59],['Snow',75,74],['Rainbow',76,49]] },
+  { id: 'solar-system', title: 'The Solar System', icon: '🪐', parts: [['Sun',4,52],['Mercury',17,52],['Venus',23,52],['Earth',29,52],['Mars',36,52],['Jupiter',52,52],['Saturn',65,52],['Uranus',82,52],['Neptune',91,52]] },
+  { id: 'face', title: 'Parts of the Face', icon: '😊', parts: [['Hair',50,13],['Forehead',50,27],['Eye',37,42],['Ear',17,47],['Nose',50,54],['Mouth',50,68],['Chin',50,82]] },
+  { id: 'classroom', title: 'The Classroom', icon: '🏫', parts: [['Board',50,25],['Clock',79,16],['Desk',52,70],['Chair',75,72],['Book',22,78],['Pencil',57,84],['Backpack',80,89]] },
+  { id: 'bicycle', title: 'Parts of a Bicycle', icon: '🚲', parts: [['Handlebars',69,42],['Seat',31,38],['Frame',52,57],['Pedal',49,67],['Chain',45,71],['Wheel',25,67],['Tire',78,67]] }
 ];
 
 const INFOGRAPHIC_LOCALIZATION = {
   spanish: {
     titles: ['Cuerpo humano · frente','Cuerpo humano · espalda','Partes de un automóvil','Partes de una casa','Partes de un árbol','El tiempo','El sistema solar','Partes de la cara','El aula','Partes de una bicicleta'],
-    words: [['Cabeza','Hombro','Pecho','Brazo','Mano','Rodilla','Pie'],['Cabeza','Cuello','Espalda','Codo','Cintura','Pierna','Talón'],['Parabrisas','Puerta','Espejo','Capó','Rueda','Faro','Maletero'],['Techo','Chimenea','Ventana','Puerta','Pared','Garaje','Jardín'],['Copa','Rama','Hoja','Tronco','Corteza','Raíz','Fruta'],['Sol','Nube','Lluvia','Relámpago','Viento','Nieve','Arcoíris'],['Sol','Mercurio','Venus','Tierra','Marte','Júpiter','Saturno','Neptuno'],['Cabello','Frente','Ojo','Oreja','Nariz','Boca','Mentón'],['Pizarra','Reloj','Escritorio','Silla','Libro','Lápiz','Mochila'],['Manubrio','Asiento','Cuadro','Pedal','Cadena','Rueda','Neumático']],
+    words: [['Cabeza','Hombro','Pecho','Brazo','Mano','Rodilla','Pie'],['Cabeza','Cuello','Espalda','Codo','Cintura','Pierna','Talón'],['Parabrisas','Puerta','Espejo','Capó','Rueda','Faro','Maletero'],['Techo','Chimenea','Ventana','Puerta','Pared','Porche','Jardín'],['Copa','Rama','Hoja','Tronco','Corteza','Raíz','Fruta'],['Sol','Nube','Lluvia','Relámpago','Viento','Nieve','Arcoíris'],['Sol','Mercurio','Venus','Tierra','Marte','Júpiter','Saturno','Urano','Neptuno'],['Cabello','Frente','Ojo','Oreja','Nariz','Boca','Mentón'],['Pizarra','Reloj','Escritorio','Silla','Libro','Lápiz','Mochila'],['Manubrio','Asiento','Cuadro','Pedal','Cadena','Rueda','Neumático']],
     ui: ['Diccionario visual interactivo','Banco de palabras','Coloca cada nombre en su lugar','Elige o arrastra una palabra y toca el punto correcto.','Progreso','Intentar otra vez','¡Perfecto! Todas las partes son correctas.']
   },
   french: {
     titles: ['Corps humain · face','Corps humain · dos','Les parties d’une voiture','Les parties d’une maison','Les parties d’un arbre','La météo','Le système solaire','Les parties du visage','La salle de classe','Les parties d’un vélo'],
-    words: [['Tête','Épaule','Poitrine','Bras','Main','Genou','Pied'],['Tête','Cou','Dos','Coude','Taille','Jambe','Talon'],['Pare-brise','Porte','Rétroviseur','Capot','Roue','Phare','Coffre'],['Toit','Cheminée','Fenêtre','Porte','Mur','Garage','Jardin'],['Cime','Branche','Feuille','Tronc','Écorce','Racine','Fruit'],['Soleil','Nuage','Pluie','Éclair','Vent','Neige','Arc-en-ciel'],['Soleil','Mercure','Vénus','Terre','Mars','Jupiter','Saturne','Neptune'],['Cheveux','Front','Œil','Oreille','Nez','Bouche','Menton'],['Tableau','Horloge','Bureau','Chaise','Livre','Crayon','Sac à dos'],['Guidon','Selle','Cadre','Pédale','Chaîne','Roue','Pneu']],
+    words: [['Tête','Épaule','Poitrine','Bras','Main','Genou','Pied'],['Tête','Cou','Dos','Coude','Taille','Jambe','Talon'],['Pare-brise','Porte','Rétroviseur','Capot','Roue','Phare','Coffre'],['Toit','Cheminée','Fenêtre','Porte','Mur','Porche','Jardin'],['Cime','Branche','Feuille','Tronc','Écorce','Racine','Fruit'],['Soleil','Nuage','Pluie','Éclair','Vent','Neige','Arc-en-ciel'],['Soleil','Mercure','Vénus','Terre','Mars','Jupiter','Saturne','Uranus','Neptune'],['Cheveux','Front','Œil','Oreille','Nez','Bouche','Menton'],['Tableau','Horloge','Bureau','Chaise','Livre','Crayon','Sac à dos'],['Guidon','Selle','Cadre','Pédale','Chaîne','Roue','Pneu']],
     ui: ['Dictionnaire visuel interactif','Banque de mots','Place chaque nom au bon endroit','Sélectionne ou fais glisser un mot, puis touche le bon point.','Progression','Réessayer','Parfait ! Toutes les parties sont correctes.']
   }
 };
@@ -17241,7 +17267,13 @@ const INFOGRAPHIC_CALLOUT_OFFSETS = [[0, -9], [12, -6], [14, 4], [-14, 5], [-12,
 // keep the number, its white leader line and the exact target from competing
 // with one another (the tree's fruit and branch were particularly close).
 const INFOGRAPHIC_CALLOUT_LAYOUTS = {
-  tree: [[50, 10], [70, 37], [25, 28], [33, 64], [38, 77], [52, 92], [78, 26]]
+  car: [[47,31],[72,51],[63,35],[22,43],[79,77],[9,63],[92,39]],
+  house: [[55,17],[29,8],[80,36],[66,64],[20,40],[38,62],[12,84]],
+  tree: [[50, 10], [70, 37], [17, 25], [34, 61], [38, 75], [53, 93], [78, 20]],
+  weather: [[10,12],[53,10],[42,56],[68,39],[10,61],[84,82],[88,42]],
+  'solar-system': [[7,38],[17,63],[23,41],[29,65],[36,40],[52,66],[65,38],[82,66],[92,38]],
+  classroom: [[50,14],[88,10],[51,61],[88,69],[12,70],[58,92],[88,93]],
+  bicycle: [[78,34],[25,30],[52,49],[53,78],[39,79],[16,76],[88,76]]
 };
 const infographicState = { sceneId: 'body-front', selectedLabel: '', answers: {}, initialized: false, language: '', selectedLanguage: '', feedback: '' };
 
