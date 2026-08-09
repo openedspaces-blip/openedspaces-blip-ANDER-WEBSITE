@@ -105,6 +105,7 @@
           <a href="#learn" data-i18n="navLearnVisitor">Idiomas</a>
           <a href="#premium" data-i18n="navPremium">Premium</a>
           <a href="#translator" data-i18n="navTranslator">Traductor</a>
+          <a href="#downloads">Descargas</a>
           <a href="#about" data-i18n="navAbout">Acerca de</a>
         </span>
         <span class="nav-group nav-group-member" hidden>
@@ -121,6 +122,7 @@
               <a href="#progress" data-i18n="navProgress">Progreso</a>
               <a href="#goals" data-i18n="navGoals">Objetivos</a>
               <a href="#security" data-i18n="navSecurity">Seguridad</a>
+              <a href="#downloads">Descargas</a>
               <a href="#about" data-i18n="navAbout">Acerca de</a>
               <a href="#teacher-curriculum" class="teacher-only-nav" hidden>Panel docente</a>
             </span>
@@ -1599,6 +1601,57 @@
         </div>
       </section>
 
+      <section id="downloads" class="section downloads-section compact-hidden-section" aria-label="Descargar ANDERGO APP">
+        <div class="section-heading downloads-heading">
+          <span>ANDERGO APP</span>
+          <h2 tabindex="-1">Aprende donde quieras</h2>
+          <p>Instala ANDERGO en tu teléfono, tableta o computadora y entra a tu ruta con un solo toque.</p>
+        </div>
+
+        <div class="download-platform-grid">
+          <article class="download-platform-card download-platform-card--android">
+            <div class="download-platform-icon" aria-hidden="true">A</div>
+            <div class="download-platform-copy">
+              <span class="download-platform-kicker">ANDROID</span>
+              <h3>ANDERGO para Android</h3>
+              <p>Instálala desde Chrome ahora. El APK directo se habilitará aquí cuando termine la compilación firmada.</p>
+            </div>
+            <div class="download-platform-actions">
+              <button type="button" class="primary-btn" data-install-app data-platform="android">Instalar en Android</button>
+              <a class="download-secondary-link is-disabled" href="/downloads/andergo-android.apk" download aria-disabled="true" tabindex="-1">APK en preparación</a>
+            </div>
+          </article>
+
+          <article class="download-platform-card download-platform-card--ios">
+            <div class="download-platform-icon" aria-hidden="true"></div>
+            <div class="download-platform-copy">
+              <span class="download-platform-kicker">IPHONE Y IPAD</span>
+              <h3>ANDERGO para iOS</h3>
+              <p>Se instala desde Safari en la pantalla de inicio, sin requerir una descarga de la App Store.</p>
+            </div>
+            <div class="download-platform-actions">
+              <button type="button" class="primary-btn" data-install-app data-platform="ios">Ver cómo instalar</button>
+            </div>
+          </article>
+
+          <article class="download-platform-card download-platform-card--desktop">
+            <div class="download-platform-icon" aria-hidden="true">▣</div>
+            <div class="download-platform-copy">
+              <span class="download-platform-kicker">WINDOWS · MAC · LINUX</span>
+              <h3>ANDERGO para computadora</h3>
+              <p>Úsala en una ventana independiente desde Chrome o Edge, con acceso directo en el escritorio.</p>
+            </div>
+            <div class="download-platform-actions">
+              <button type="button" class="primary-btn" data-install-app data-platform="desktop">Instalar en computadora</button>
+            </div>
+          </article>
+        </div>
+
+        <div class="download-install-note" data-install-status role="status" aria-live="polite">
+          Elige tu dispositivo para ver la opción de instalación disponible.
+        </div>
+      </section>
+
       <section id="about" class="section about-section compact-hidden-section" aria-label="Acerca de">
         <div class="section-heading">
           <span data-i18n="aboutBadge">Acerca de</span>
@@ -2505,6 +2558,7 @@
     <script src="/src/js/language-pair.js"></script>
     <script src="/src/js/translator-languages.js"></script>
     <script src="/src/js/translator-predictive.js"></script>
+    <script src="/src/js/app-install.js"></script>
     <!-- Verb data and its view are loaded when #verbs is opened. -->
     <script src="/src/js/script.js?v=20260805-games-upgrade"></script>
   </body>
