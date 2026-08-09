@@ -1151,7 +1151,6 @@
               <button type="button" data-tutor-language="french" aria-pressed="false">🇫🇷 Français</button>
               <button type="button" data-tutor-language="italian" aria-pressed="false">🇮🇹 Italiano</button>
               <button type="button" data-tutor-language="portuguese" aria-pressed="false">🇧🇷 Português</button>
-              <button type="button" data-tutor-language="englishBritish" aria-pressed="false">🇬🇧 English UK</button>
               <button type="button" data-tutor-language="haitianCreole" aria-pressed="false">🇭🇹 Kreyòl Ayisyen</button>
             </div>
           </div>
@@ -1273,33 +1272,37 @@
           <p class="tutor-dictate-status" id="aiTutorPromptDictateStatus" aria-live="polite"></p>
           <p class="tutor-dictate-note" id="tutorMainDictateNote">Tu voz se convierte en texto y no se conserva.</p>
           <div class="tutor-buttons">
-            <button
-              type="button"
-              class="tutor-conversation-toggle tutor-conversation-composer-btn"
-              id="tutorMainConversationToggle"
-              aria-label="Conversar con el Tutor"
-              aria-pressed="false"
-            >
-              <span aria-hidden="true">🎙</span> Conversar
-              <span class="tutor-conversation-toggle-badge">30/mes</span>
-            </button>
-            <button
-              type="button"
-              class="tutor-dictate-stop-btn"
-              data-dictate-target="aiTutorPrompt"
-              aria-label="Detener dictado"
-              hidden
-            >
-              ⏹ Detener
-            </button>
-            <button class="primary-btn tutor-chat-btn" type="button">Enviar mensaje →</button>
-            <button
-              class="tutor-clear-btn"
-              type="button"
-              aria-label="Limpiar conversación con el tutor"
-            >
-              Limpiar conversación
-            </button>
+            <div class="tutor-primary-actions">
+              <button
+                type="button"
+                class="tutor-conversation-toggle tutor-conversation-composer-btn"
+                id="tutorMainConversationToggle"
+                aria-label="Conversar con el Tutor"
+                aria-pressed="false"
+              >
+                <span aria-hidden="true">🎙</span> Conversar
+                <span class="tutor-conversation-toggle-badge">30/mes</span>
+              </button>
+              <button class="primary-btn tutor-chat-btn" type="button">Enviar <span aria-hidden="true">→</span></button>
+            </div>
+            <div class="tutor-utility-actions">
+              <button
+                type="button"
+                class="tutor-dictate-stop-btn"
+                data-dictate-target="aiTutorPrompt"
+                aria-label="Detener dictado"
+                hidden
+              >
+                ⏹ Detener
+              </button>
+              <button
+                class="tutor-clear-btn"
+                type="button"
+                aria-label="Limpiar conversación con el tutor"
+              >
+                Limpiar
+              </button>
+            </div>
           </div>
           </div>
           </div>

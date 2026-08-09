@@ -4870,7 +4870,6 @@ function getExerciseProgress(lesson) {
 
 const languageDisplayNames = {
   english: 'English',
-  englishBritish: 'British English',
   spanish: 'Español',
   french: 'Français',
   italian: 'Italiano',
@@ -4896,7 +4895,6 @@ const languageDisplayNames = {
 // this app already uses across its language tables.
 const LANGUAGE_LOCALES = {
   english: 'en-US',
-  englishBritish: 'en-GB',
   french: 'fr-FR',
   spanish: 'es-419',
   italian: 'it-IT',
@@ -5813,6 +5811,25 @@ function appendTutorMessage(container, role, text, { isError = false } = {}) {
   return message;
 }
 
+// Keep the Tutor surface focused on one exchange at a time. The previous
+// question and answer remain available until the learner actually submits a
+// new message; only then are their visual bubbles removed. Conversation
+// memory lives in the topic session used by sendTutorMessage(), so pruning
+// the DOM does not make the Tutor forget the ongoing topic.
+function prepareTutorConversationForNextTurn(container) {
+  if (!container) return;
+  const hasPreviousExchange = !!container.querySelector(
+    '.tutor-message--user, .tutor-message--tutor'
+  );
+  if (hasPreviousExchange) {
+    container
+      .querySelectorAll('.tutor-message, .tutor-usage-notice')
+      .forEach((node) => node.remove());
+  }
+  container.querySelector('.tutor-welcome')?.remove();
+  container.scrollTop = 0;
+}
+
 // Discreet inline status/paywall notice for the Tutor's monthly free-query
 // cap (lib/usageLimitService.js, feature='tutor_query') - visually
 // distinct from a normal tutor/user bubble (no "Tú"/"Tutor AI" label).
@@ -6516,7 +6533,6 @@ function normalizeSpeechTranscript(text, language) {
 // typed it. Only one dictation session may run at a time app-wide.
 const DICTATION_LANGUAGE_CODES = {
   english: 'en-US',
-  englishBritish: 'en-GB',
   spanish: 'es-ES',
   french: 'fr-FR',
   italian: 'it-IT',
@@ -6705,10 +6721,11 @@ async function startTutorDictation(textareaId, { continuous = false, silenceMs =
   stopDictationRecognizer();
 
   setDictationStatusText(textareaId, 'Solicitando permiso para usar el micrófono…');
-  try {
-    await ensureMicrophonePermission();
-  } catch (error) {
-    setDictationStatusText(textareaId, microphonePermissionMessage(error));
+  // Start SpeechRecognition from the original button gesture. Awaiting a
+  // separate getUserMedia request can prevent recognition from returning
+  // results in Chromium even when the microphone permission is granted.
+  if (!window.isSecureContext) {
+    setDictationStatusText(textareaId, 'El micrófono requiere HTTPS.');
     resetDictationUI(textareaId);
     return;
   }
@@ -13340,11 +13357,19 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
     item.learningMode !== 'direct' && item.translation
       ? `<p class="vocab-card-front-support" lang="${escapeHtml(bridgeLanguageToHtmlLang[item.bridgeLanguage] || '')}">${escapeHtml(item.translation)}</p>`
       : '';
+  const compactIconText = String(item.targetWord || '')
+    .trim()
+    .split(/\s+/)
+    .slice(0, 2)
+    .map((part) => part.charAt(0))
+    .join('')
+    .toLocaleUpperCase();
 
   return `
     <div class="vocab-card" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-flipped="false" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" role="button" tabindex="0" aria-expanded="false" aria-label="${escapeHtml(vocabCardAriaLabel(item.targetWord, false, isFrench))}">
       <div class="vocab-card-inner">
         <div class="vocab-card-face vocab-card-front">
+          <span class="vocab-card-compact-icon" aria-hidden="true">${escapeHtml(compactIconText || '•')}</span>
           <div class="vocab-card-header">
             <span class="vocab-card-side-label">${escapeHtml(cardUi.front)}</span>
             ${
@@ -15469,7 +15494,7 @@ let tutorConversationMode = false;
 let tutorConversationSurfaceKey = null;
 const TUTOR_CONVERSATION_SILENCE_MS = 700;
 const TUTOR_LANGUAGE_STORAGE_KEY = 'andergo_tutor_language';
-const TUTOR_SUPPORTED_LANGUAGES = ['english', 'englishBritish', 'spanish', 'french', 'italian', 'portuguese', 'haitianCreole'];
+const TUTOR_SUPPORTED_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'portuguese', 'haitianCreole'];
 let tutorSpanishPerfectedMode = false;
 let tutorLanguagePreference = (() => {
   try {
@@ -15492,7 +15517,10 @@ function setTutorLanguage(language) {
   if (tutorDictation.status === 'listening') stopTutorDictation();
   stopAllTutorAudio();
   tutorLanguagePreference = language;
-  setTutorSpanishPerfectedMode(language === 'spanish', { preserveLanguage: true });
+  // Spanish is a normal conversation language. It must not silently turn
+  // every reply into a correction exercise; that stricter mode is reserved
+  // for an explicit correction request from the learner.
+  setTutorSpanishPerfectedMode(false, { preserveLanguage: true });
   try {
     localStorage.setItem(TUTOR_LANGUAGE_STORAGE_KEY, language);
   } catch {
@@ -15513,8 +15541,6 @@ function setTutorLanguage(language) {
         ? 'Sono pronto a parlare italiano con te.'
         : language === 'portuguese'
           ? 'Estou pronto para conversar em português com você.'
-        : language === 'englishBritish'
-          ? 'I’m ready to speak British English with you.'
         : language === 'haitianCreole'
           ? 'Mwen pare pou pale kreyòl ayisyen avè w.'
       : language === 'spanish'
@@ -15829,7 +15855,10 @@ async function sendTutorMessage({
   if (promptEl) delete promptEl.dataset.tutorInputSource;
   tutorLastAutoSentTranscript = customPrompt;
 
-  if (conversationEl) appendTutorMessage(conversationEl, 'user', finalPrompt);
+  if (conversationEl) {
+    prepareTutorConversationForNextTurn(conversationEl);
+    appendTutorMessage(conversationEl, 'user', finalPrompt);
+  }
   if (promptEl) promptEl.value = '';
   if (thinkingEl) thinkingEl.hidden = false;
   if (conversationEl?.id === 'tutorConversation') updateTutorPresenceState('Pensando en tu respuesta…');
@@ -16948,9 +16977,9 @@ function renderLessonTest() {
   }
   const totalQuestions = lessonTestState.questions.length;
   stage.innerHTML = `<div class="tests-paper" id="lessonTestPaper">
-    <header class="tests-paper-head"><div><span>${lessonTestState.language === 'french' ? 'Français' : lessonTestState.language === 'spanish' ? 'Español' : 'English'} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.title || `Lesson ${unit.order}`)}</h3><p>Reto de la lección · ${totalQuestions} ${lessonTestState.language === 'spanish' ? 'preguntas' : 'questions'} · recibe respuesta al instante</p></div><strong>100<small>puntos</small></strong></header>
+    <header class="tests-paper-head"><div><span>${lessonTestState.language === 'french' ? 'Français' : lessonTestState.language === 'spanish' ? 'Español' : 'English'} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>Evaluación gramatical · ${totalQuestions} ${lessonTestState.language === 'spanish' ? 'preguntas' : 'questions'} · recibe respuesta al instante</p></div><strong>100<small>puntos</small></strong></header>
     <nav class="tests-challenge-map" aria-label="Progreso del reto">${lessonTestState.questions.map((_, index) => `<button type="button" class="tests-challenge-map-item" data-test-jump="${index}" aria-label="Ir a la pregunta ${index + 1}">${index + 1}</button>`).join('')}<span class="tests-challenge-progress" id="testsChallengeProgress">0/${totalQuestions} respondidas</span></nav>
-    <form id="lessonTestForm" class="tests-question-list">${lessonTestState.questions.map((question, index) => `<fieldset class="tests-question" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span>${escapeHtml(option)}</span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite">Elige la opción que mejor complete la situación.</p></fieldset>`).join('')}
+    <form id="lessonTestForm" class="tests-question-list">${lessonTestState.questions.map((question, index) => `<fieldset class="tests-question" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span class="tests-option-content"><strong class="tests-option-letter" aria-hidden="true">${String.fromCharCode(97 + optionIndex)})</strong><span class="tests-option-text">${escapeHtml(option)}</span></span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite">Elige la opción que mejor complete la situación.</p></fieldset>`).join('')}
       <button type="submit" class="primary-btn tests-submit" disabled>Evaluar resultado total · 0/${lessonTestState.questions.length}</button>
       <div class="tests-export-actions no-print" aria-label="Opciones de descarga del examen">
         <button type="button" class="secondary-btn" data-test-action="pdf">Descargar PDF</button>
@@ -17159,7 +17188,7 @@ const musicState = { tracks: [], activeId: null, loadedAt: 0, initialized: false
 const INFOGRAPHIC_SCENES = [
   { id: 'body-front', title: 'Human Body · Front', icon: '🧑', parts: [['Head',50,12],['Shoulder',38,29],['Chest',50,36],['Arm',28,44],['Hand',21,61],['Knee',43,73],['Foot',43,94]] },
   { id: 'body-rear', title: 'Human Body · Rear', icon: '🧑', parts: [['Head',50,12],['Neck',50,23],['Back',50,39],['Elbow',29,48],['Waist',50,56],['Leg',43,75],['Heel',43,92]] },
-  { id: 'car', title: 'Parts of a Car', icon: '🚗', parts: [['Windshield',51,31],['Door',53,55],['Mirror',27,42],['Hood',22,52],['Wheel',31,72],['Headlight',13,59],['Trunk',82,52]] },
+  { id: 'car', title: 'Parts of a Car', icon: '🚗', parts: [['Windshield',48,40],['Door',61,55],['Mirror',51,45],['Hood',31,52],['Wheel',43,69],['Headlight',24,59],['Trunk',78,48]] },
   { id: 'house', title: 'Parts of a House', icon: '🏠', parts: [['Roof',50,19],['Chimney',72,16],['Window',34,49],['Door',54,67],['Wall',78,55],['Garage',77,70],['Garden',18,83]] },
   { id: 'tree', title: 'Parts of a Tree', icon: '🌳', parts: [['Crown',50,22],['Branch',62,37],['Leaf',33,29],['Trunk',50,62],['Bark',54,69],['Root',43,88],['Fruit',68,27]] },
   { id: 'weather', title: 'The Weather', icon: '⛅', parts: [['Sun',18,20],['Cloud',48,24],['Rain',47,48],['Lightning',67,47],['Wind',22,62],['Snow',76,72],['Rainbow',48,79]] },
@@ -17183,21 +17212,21 @@ const INFOGRAPHIC_LOCALIZATION = {
 };
 const INFOGRAPHIC_DEFAULT_UI = ['Interactive picture dictionary','Word bank','Put each name in its place','Select or drag a word, then touch the correct numbered point.','Progress','Try again','Perfect! All the parts are correct.'];
 const INFOGRAPHIC_CALLOUT_OFFSETS = [[0, -9], [12, -6], [14, 4], [-14, 5], [-12, 10], [11, 10], [0, 11], [12, -9]];
-const infographicState = { sceneId: 'body-front', selectedLabel: '', answers: {}, initialized: false, language: '' };
+const infographicState = { sceneId: 'body-front', selectedLabel: '', answers: {}, initialized: false, language: '', selectedLanguage: '', feedback: '' };
 
 function renderInfographicHotspot(name, x, y, index, answer) {
   const [offsetX, offsetY] = INFOGRAPHIC_CALLOUT_OFFSETS[index % INFOGRAPHIC_CALLOUT_OFFSETS.length];
   const labelX = Math.max(7, Math.min(93, x + offsetX));
   const labelY = Math.max(7, Math.min(93, y + offsetY));
   const isCorrect = answer === name;
-  return `<g class="info-hotspot${answer ? ' is-filled' : ''}${isCorrect ? ' is-correct' : ''}" data-info-slot="${index}" tabindex="0" role="button" aria-label="Point ${index + 1}: ${answer || 'empty'}"><line x1="${x * 4}" y1="${y * 4}" x2="${labelX * 4}" y2="${labelY * 4}"/><circle cx="${labelX * 4}" cy="${labelY * 4}" r="15"/><text x="${labelX * 4}" y="${labelY * 4 + 5}">${index + 1}</text></g>`;
+  return `<g class="info-hotspot${answer ? ' is-filled' : ''}${isCorrect ? ' is-correct' : ''}" data-info-slot="${index}" tabindex="0" role="button" aria-label="Point ${index + 1}: ${answer || 'empty'}"><line x1="${labelX * 4}" y1="${labelY * 4}" x2="${x * 4}" y2="${y * 4}"/><circle class="info-hotspot-target" cx="${x * 4}" cy="${y * 4}" r="3.4"/><circle cx="${labelX * 4}" cy="${labelY * 4}" r="15"/><text x="${labelX * 4}" y="${labelY * 4 + 5}">${index + 1}</text></g>`;
 }
 
 function getLocalizedInfographicScene(baseScene, language = getEffectiveInterfaceLanguage()) {
   const sceneIndex = INFOGRAPHIC_SCENES.findIndex((scene) => scene.id === baseScene.id);
   const localized = INFOGRAPHIC_LOCALIZATION[language];
-  if (!localized || sceneIndex < 0) return baseScene;
-  return { ...baseScene, title: localized.titles[sceneIndex], parts: baseScene.parts.map(([, x, y], index) => [localized.words[sceneIndex][index], x, y]) };
+  const labels = localized?.words?.[sceneIndex] || baseScene.parts.map(([name]) => name);
+  return { ...baseScene, title: localized?.titles?.[sceneIndex] || baseScene.title, parts: baseScene.parts.map(([id, x, y], index) => [id, labels[index] || id, x, y]) };
 }
 
 function legacyInfographicSceneArtwork(scene) {
@@ -17232,25 +17261,35 @@ function infographicSceneArtwork(scene) {
 function renderInfographicApp() {
   const app = document.getElementById('infographicApp');
   if (!app) return;
-  const language = getEffectiveInterfaceLanguage();
+  const language = infographicState.selectedLanguage || getEffectiveInterfaceLanguage();
   if (infographicState.language && infographicState.language !== language) infographicState.answers = {};
   infographicState.language = language;
   const baseScene = INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId) || INFOGRAPHIC_SCENES[0];
   const scene = getLocalizedInfographicScene(baseScene, language);
   const ui = INFOGRAPHIC_LOCALIZATION[language]?.ui || INFOGRAPHIC_DEFAULT_UI;
   const answers = infographicState.answers[scene.id] || {};
-  const completed = scene.parts.filter(([name], index) => answers[index] === name).length;
+  const completed = scene.parts.filter(([id], index) => answers[index] === id).length;
   const score = Math.round((completed / scene.parts.length) * 100);
   const placed = new Set(Object.values(answers));
-  const labels = [...scene.parts.map(([name]) => name)].sort((a, b) => a.localeCompare(b));
+  const labels = [...scene.parts.map(([id, label]) => ({ id, label }))].sort((a, b) => a.label.localeCompare(b.label));
   app.innerHTML = `
+    <div class="infographic-toolbar">
+      <div class="infographic-language-picker" role="group" aria-label="${language === 'spanish' ? 'Idioma de las infografías' : language === 'french' ? 'Langue des infographies' : 'Infographic language'}">
+        <span class="infographic-language-label">${language === 'spanish' ? 'Idioma de práctica' : language === 'french' ? 'Langue de pratique' : 'Practice language'}</span>
+        <div class="infographic-language-options">
+          <button type="button" data-info-language="english" class="${language === 'english' ? 'is-active' : ''}" aria-pressed="${language === 'english'}">English</button>
+          <button type="button" data-info-language="spanish" class="${language === 'spanish' ? 'is-active' : ''}" aria-pressed="${language === 'spanish'}">Español</button>
+          <button type="button" data-info-language="french" class="${language === 'french' ? 'is-active' : ''}" aria-pressed="${language === 'french'}">Français</button>
+        </div>
+      </div>
+    </div>
     <nav class="infographic-scene-tabs" aria-label="${ui[0]}">${INFOGRAPHIC_SCENES.map((item) => { const localized = getLocalizedInfographicScene(item, language); return `<button type="button" class="infographic-scene-btn${item.id === scene.id ? ' is-active' : ''}" data-info-scene="${item.id}"><span>${item.icon}</span>${localized.title}</button>`; }).join('')}</nav>
     <div class="infographic-workbench">
       <article class="infographic-canvas-card">
         <header><div><span>${ui[0]}</span><h3>${scene.title}</h3></div><strong>${score}%</strong></header>
-        <svg class="infographic-canvas" viewBox="0 0 400 400" role="img" aria-label="${scene.title}">${infographicSceneArtwork(scene)}${scene.parts.map(([name,x,y], index) => renderInfographicHotspot(name, x, y, index, answers[index])).join('')}</svg>
+        <svg class="infographic-canvas" viewBox="0 0 400 400" role="img" aria-label="${scene.title}">${infographicSceneArtwork(scene)}${scene.parts.map(([id,,x,y], index) => renderInfographicHotspot(id, x, y, index, answers[index])).join('')}</svg>
       </article>
-      <aside class="infographic-label-panel"><span class="infographic-kicker">${ui[1]}</span><h3>${ui[2]}</h3><p>${ui[3]}</p><div class="infographic-word-bank">${labels.map((name) => `<button type="button" draggable="true" class="infographic-word${infographicState.selectedLabel === name ? ' is-selected' : ''}${placed.has(name) ? ' is-used' : ''}" data-info-label="${name}">🔊 ${name}</button>`).join('')}</div><div class="infographic-score"><span>${ui[4]}</span><strong>${completed}/${scene.parts.length} · ${score}%</strong><div><i style="width:${score}%"></i></div></div><button type="button" class="secondary-btn infographic-reset-btn">${ui[5]}</button>${score === 100 ? `<div class="infographic-success">🏆 ${ui[6]}</div>` : ''}</aside>
+      <aside class="infographic-label-panel"><span class="infographic-kicker">${ui[1]}</span><h3>${ui[2]}</h3><p>${ui[3]}</p><div class="infographic-word-bank">${labels.map(({ id, label }) => `<button type="button" draggable="true" class="infographic-word${infographicState.selectedLabel === id ? ' is-selected' : ''}${placed.has(id) ? ' is-used' : ''}" data-info-label="${id}" data-info-speech="${label}">🔊 ${label}</button>`).join('')}</div>${infographicState.feedback ? `<p class="infographic-answer-feedback">${infographicState.feedback}</p>` : ''}<div class="infographic-score"><span>${ui[4]}</span><strong>${completed}/${scene.parts.length} · ${score}%</strong><div><i style="width:${score}%"></i></div></div><button type="button" class="secondary-btn infographic-reset-btn">${ui[5]}</button>${score === 100 ? `<div class="infographic-success">🏆 ${ui[6]}</div>` : ''}</aside>
     </div>`;
 }
 
@@ -17259,10 +17298,19 @@ function initInfographicApp() {
   infographicState.initialized = true;
   const app = document.getElementById('infographicApp');
   app?.addEventListener('click', (event) => {
+    const languageBtn = event.target.closest('[data-info-language]');
+    if (languageBtn) {
+      infographicState.selectedLanguage = languageBtn.dataset.infoLanguage;
+      infographicState.answers = {};
+      infographicState.selectedLabel = '';
+      infographicState.feedback = '';
+      renderInfographicApp();
+      return;
+    }
     const sceneBtn = event.target.closest('[data-info-scene]');
-    if (sceneBtn) { infographicState.sceneId = sceneBtn.dataset.infoScene; infographicState.selectedLabel = ''; renderInfographicApp(); return; }
+    if (sceneBtn) { infographicState.sceneId = sceneBtn.dataset.infoScene; infographicState.selectedLabel = ''; infographicState.feedback = ''; renderInfographicApp(); return; }
     const word = event.target.closest('[data-info-label]');
-    if (word && !word.classList.contains('is-used')) { infographicState.selectedLabel = word.dataset.infoLabel; speakText(infographicState.selectedLabel, { locale: LANGUAGE_LOCALES[getEffectiveInterfaceLanguage()] || 'en-US' }); renderInfographicApp(); return; }
+    if (word && !word.classList.contains('is-used')) { infographicState.selectedLabel = word.dataset.infoLabel; infographicState.feedback = ''; speakText(word.dataset.infoSpeech, { locale: LANGUAGE_LOCALES[getEffectiveInterfaceLanguage()] || 'en-US' }); renderInfographicApp(); return; }
     const slot = event.target.closest('[data-info-slot]');
     if (slot && infographicState.selectedLabel) {
       const scene = getLocalizedInfographicScene(INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId));
@@ -17270,8 +17318,9 @@ function initInfographicApp() {
       infographicState.answers[scene.id] ||= {};
       if (scene.parts[index][0] === infographicState.selectedLabel) {
         infographicState.answers[scene.id][index] = infographicState.selectedLabel;
+        infographicState.feedback = '✓';
         window.playExerciseFeedbackSound?.(true);
-      } else window.playExerciseFeedbackSound?.(false);
+      } else { infographicState.feedback = '✕'; window.playExerciseFeedbackSound?.(false); }
       infographicState.selectedLabel = '';
       renderInfographicApp();
       return;
