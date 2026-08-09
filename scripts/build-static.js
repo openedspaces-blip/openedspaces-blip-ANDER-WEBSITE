@@ -32,6 +32,8 @@ const REQUIRED_FILES = [
   // below).
   'src/js/translator-languages.js',
   'src/js/translator-predictive.js',
+  'src/js/app-install.js',
+  'service-worker.js',
   'favicon.svg',
   'andergo-social.png',
   'robots.txt',
