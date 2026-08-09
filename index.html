@@ -1135,9 +1135,6 @@
             <span class="tutor-presence-eyebrow">CONVERSACIÓN EN TIEMPO REAL</span>
             <div class="tutor-presence-title-row">
               <strong class="tutor-presence-title">Habla naturalmente con tu Tutor</strong>
-              <div class="tutor-presence-actions" aria-label="Controles de conversación">
-                <button type="button" class="tutor-main-stop-btn" id="tutorMainVoiceStop" title="Detener conversación y audio"><span aria-hidden="true">⏹</span> Detener</button>
-              </div>
             </div>
             <span class="tutor-presence-state" id="tutorPresenceState" aria-live="polite">
               Puedes escribir o iniciar una conversación por voz.
@@ -1236,12 +1233,29 @@
               <span><strong>Hola, soy tu Tutor ANDERGO.</strong> Cuéntame qué quieres practicar. Puedo escucharte, conversar contigo, corregirte con tacto y ayudarte a continuar cuando te quedes sin palabras.</span>
               </div>
             </div>
-            <div class="tutor-hero-bot tutor-output-bot" aria-hidden="true">
-              <img class="tutor-realistic-robot" src="/images/tutor/andergo-tutor-robot-v4-uniform.png" alt="" />
-              <span class="tutor-brand-badge tutor-brand-badge--cap"></span>
-              <span class="tutor-brand-badge tutor-brand-badge--chest"></span>
-              <span class="tutor-avatar-mouth"></span>
-              <span class="tutor-avatar-voice"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+            <div class="tutor-output-companion">
+              <div class="tutor-hero-bot tutor-output-bot" aria-hidden="true">
+                <img class="tutor-realistic-robot" src="/images/tutor/andergo-tutor-robot-v4-uniform.png" alt="" />
+                <span class="tutor-brand-badge tutor-brand-badge--cap"></span>
+                <span class="tutor-brand-badge tutor-brand-badge--chest"></span>
+                <span class="tutor-avatar-mouth"></span>
+                <span class="tutor-avatar-voice"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+              </div>
+              <div class="tutor-avatar-controls" aria-label="Controles de voz del Tutor">
+                <button
+                  type="button"
+                  class="tutor-conversation-toggle tutor-conversation-composer-btn"
+                  id="tutorMainConversationToggle"
+                  aria-label="Conversar con el Tutor"
+                  aria-pressed="false"
+                >
+                  <span aria-hidden="true">🎙</span> <span class="tutor-avatar-control-label">Conversar</span>
+                  <span class="tutor-conversation-toggle-badge">30/mes</span>
+                </button>
+                <button type="button" class="tutor-main-stop-btn" id="tutorMainVoiceStop" title="Detener conversación y audio">
+                  <span aria-hidden="true">⏹</span> <span class="tutor-avatar-control-label">Detener</span>
+                </button>
+              </div>
             </div>
           </div>
           <p class="tutor-thinking" id="tutorThinking" hidden aria-hidden="true">
@@ -1273,16 +1287,6 @@
           <p class="tutor-dictate-note" id="tutorMainDictateNote">Tu voz se convierte en texto y no se conserva.</p>
           <div class="tutor-buttons">
             <div class="tutor-primary-actions">
-              <button
-                type="button"
-                class="tutor-conversation-toggle tutor-conversation-composer-btn"
-                id="tutorMainConversationToggle"
-                aria-label="Conversar con el Tutor"
-                aria-pressed="false"
-              >
-                <span aria-hidden="true">🎙</span> Conversar
-                <span class="tutor-conversation-toggle-badge">30/mes</span>
-              </button>
               <button class="primary-btn tutor-chat-btn" type="button">Enviar <span aria-hidden="true">→</span></button>
             </div>
             <div class="tutor-utility-actions">
