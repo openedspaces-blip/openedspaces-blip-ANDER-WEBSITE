@@ -27473,8 +27473,8 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
    ANDERGO signature on the Tutor's left chest. The cap keeps the exact
    official logo mark. */
 #tutor .tutor-output-companion .tutor-brand-badge--chest {
-  top: 69%;
-  right: 18%;
+  top: 72%;
+  right: 25%;
   bottom: auto;
   width: auto;
   aspect-ratio: auto;
@@ -27496,8 +27496,8 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 
 @media (max-width: 700px) {
   #tutor .tutor-output-companion .tutor-brand-badge--chest {
-    top: 69%;
-    right: 14%;
+    top: 72%;
+    right: 20%;
     width: auto;
     font-size: 0.36rem;
     letter-spacing: 0.08em;
