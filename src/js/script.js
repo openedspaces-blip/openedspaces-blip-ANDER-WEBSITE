@@ -4870,6 +4870,7 @@ function getExerciseProgress(lesson) {
 
 const languageDisplayNames = {
   english: 'English',
+  englishBritish: 'British English',
   spanish: 'Español',
   french: 'Français',
   italian: 'Italiano',
@@ -4895,6 +4896,7 @@ const languageDisplayNames = {
 // this app already uses across its language tables.
 const LANGUAGE_LOCALES = {
   english: 'en-US',
+  englishBritish: 'en-GB',
   french: 'fr-FR',
   spanish: 'es-419',
   italian: 'it-IT',
@@ -6171,6 +6173,18 @@ function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {}) {
     return;
   }
 
+  if (String(locale).toLowerCase().startsWith('ht') && !getReadingVoicesForLocale(locale).length) {
+    if (limitMsg) {
+      limitMsg.hidden = false;
+      limitMsg.textContent = 'La conversación en kreyòl está disponible por texto, pero este dispositivo no tiene instalada una voz haitiana para reproducirla.';
+    }
+    if (messageEl.closest('#tutor')) {
+      updateTutorPresenceState('Kreyòl disponible por texto. La voz haitiana no está instalada en este dispositivo.');
+    }
+    onPlaybackEnd?.();
+    return;
+  }
+
   // Always stops whatever was playing before (any earlier reply, or this
   // same one) - never two utterances overlapping.
   stopAllTutorAudio();
@@ -6502,6 +6516,7 @@ function normalizeSpeechTranscript(text, language) {
 // typed it. Only one dictation session may run at a time app-wide.
 const DICTATION_LANGUAGE_CODES = {
   english: 'en-US',
+  englishBritish: 'en-GB',
   spanish: 'es-ES',
   french: 'fr-FR',
   italian: 'it-IT',
@@ -15454,7 +15469,7 @@ let tutorConversationMode = false;
 let tutorConversationSurfaceKey = null;
 const TUTOR_CONVERSATION_SILENCE_MS = 700;
 const TUTOR_LANGUAGE_STORAGE_KEY = 'andergo_tutor_language';
-const TUTOR_SUPPORTED_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'portuguese', 'haitianCreole'];
+const TUTOR_SUPPORTED_LANGUAGES = ['english', 'englishBritish', 'spanish', 'french', 'italian', 'portuguese', 'haitianCreole'];
 let tutorSpanishPerfectedMode = false;
 let tutorLanguagePreference = (() => {
   try {
@@ -15498,6 +15513,8 @@ function setTutorLanguage(language) {
         ? 'Sono pronto a parlare italiano con te.'
         : language === 'portuguese'
           ? 'Estou pronto para conversar em português com você.'
+        : language === 'englishBritish'
+          ? 'I’m ready to speak British English with you.'
         : language === 'haitianCreole'
           ? 'Mwen pare pou pale kreyòl ayisyen avè w.'
       : language === 'spanish'
@@ -17165,7 +17182,16 @@ const INFOGRAPHIC_LOCALIZATION = {
   }
 };
 const INFOGRAPHIC_DEFAULT_UI = ['Interactive picture dictionary','Word bank','Put each name in its place','Select or drag a word, then touch the correct numbered point.','Progress','Try again','Perfect! All the parts are correct.'];
+const INFOGRAPHIC_CALLOUT_OFFSETS = [[0, -9], [12, -6], [14, 4], [-14, 5], [-12, 10], [11, 10], [0, 11], [12, -9]];
 const infographicState = { sceneId: 'body-front', selectedLabel: '', answers: {}, initialized: false, language: '' };
+
+function renderInfographicHotspot(name, x, y, index, answer) {
+  const [offsetX, offsetY] = INFOGRAPHIC_CALLOUT_OFFSETS[index % INFOGRAPHIC_CALLOUT_OFFSETS.length];
+  const labelX = Math.max(7, Math.min(93, x + offsetX));
+  const labelY = Math.max(7, Math.min(93, y + offsetY));
+  const isCorrect = answer === name;
+  return `<g class="info-hotspot${answer ? ' is-filled' : ''}${isCorrect ? ' is-correct' : ''}" data-info-slot="${index}" tabindex="0" role="button" aria-label="Point ${index + 1}: ${answer || 'empty'}"><line x1="${x * 4}" y1="${y * 4}" x2="${labelX * 4}" y2="${labelY * 4}"/><circle cx="${labelX * 4}" cy="${labelY * 4}" r="15"/><text x="${labelX * 4}" y="${labelY * 4 + 5}">${index + 1}</text></g>`;
+}
 
 function getLocalizedInfographicScene(baseScene, language = getEffectiveInterfaceLanguage()) {
   const sceneIndex = INFOGRAPHIC_SCENES.findIndex((scene) => scene.id === baseScene.id);
@@ -17222,7 +17248,7 @@ function renderInfographicApp() {
     <div class="infographic-workbench">
       <article class="infographic-canvas-card">
         <header><div><span>${ui[0]}</span><h3>${scene.title}</h3></div><strong>${score}%</strong></header>
-        <svg class="infographic-canvas" viewBox="0 0 400 400" role="img" aria-label="${scene.title}">${infographicSceneArtwork(scene)}${scene.parts.map(([name,x,y], index) => `<g class="info-hotspot${answers[index] ? ' is-filled' : ''}${answers[index] === name ? ' is-correct' : ''}" data-info-slot="${index}" tabindex="0" role="button" aria-label="Point ${index + 1}: ${answers[index] || 'empty'}"><circle cx="${x * 4}" cy="${y * 4}" r="15"/><text x="${x * 4}" y="${y * 4 + 5}">${index + 1}</text></g>`).join('')}</svg>
+        <svg class="infographic-canvas" viewBox="0 0 400 400" role="img" aria-label="${scene.title}">${infographicSceneArtwork(scene)}${scene.parts.map(([name,x,y], index) => renderInfographicHotspot(name, x, y, index, answers[index])).join('')}</svg>
       </article>
       <aside class="infographic-label-panel"><span class="infographic-kicker">${ui[1]}</span><h3>${ui[2]}</h3><p>${ui[3]}</p><div class="infographic-word-bank">${labels.map((name) => `<button type="button" draggable="true" class="infographic-word${infographicState.selectedLabel === name ? ' is-selected' : ''}${placed.has(name) ? ' is-used' : ''}" data-info-label="${name}">🔊 ${name}</button>`).join('')}</div><div class="infographic-score"><span>${ui[4]}</span><strong>${completed}/${scene.parts.length} · ${score}%</strong><div><i style="width:${score}%"></i></div></div><button type="button" class="secondary-btn infographic-reset-btn">${ui[5]}</button>${score === 100 ? `<div class="infographic-success">🏆 ${ui[6]}</div>` : ''}</aside>
     </div>`;

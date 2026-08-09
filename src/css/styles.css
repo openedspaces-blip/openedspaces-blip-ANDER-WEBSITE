@@ -23699,6 +23699,7 @@ body {
 .info-art { fill: #dbeafe; stroke: #1d4ed8; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
 .info-realistic-art { pointer-events: none; }
 .info-hotspot { cursor: pointer; outline: none; }
+.info-hotspot line { stroke: rgba(37, 99, 235, 0.72); stroke-width: 2.5; stroke-linecap: round; pointer-events: none; }
 .info-hotspot circle { fill: #fff; stroke: #2563eb; stroke-width: 4; filter: drop-shadow(0 4px 5px rgba(30,64,175,.22)); transition: transform .15s ease,fill .15s ease; transform-box: fill-box; transform-origin: center; }
 .info-hotspot:hover circle,.info-hotspot:focus circle { fill: #fef3c7; transform: scale(1.16); }
 .info-hotspot.is-correct circle { fill: #22c55e; stroke: #087f5b; }
@@ -26633,7 +26634,7 @@ body.tutor-robot-speaking #tutor .tutor-coach-portrait .tutor-bot-status {
    the response grows, while the input remains a focused writing surface. */
 #tutor .tutor-output-stage {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) clamp(185px, 20vw, 250px);
+  grid-template-columns: minmax(0, 1fr) clamp(165px, 16vw, 210px);
   align-items: stretch;
   gap: 0.9rem;
 }
@@ -26644,7 +26645,7 @@ body.tutor-robot-speaking #tutor .tutor-coach-portrait .tutor-bot-status {
 
 #tutor .tutor-output-bot {
   display: grid;
-  min-height: clamp(180px, 19vw, 245px);
+  min-height: clamp(160px, 15vw, 205px);
   height: auto;
   align-self: stretch;
   border-radius: 20px;
@@ -26655,8 +26656,23 @@ body.tutor-robot-speaking #tutor .tutor-coach-portrait .tutor-bot-status {
 }
 
 @media (max-width: 700px) {
-  #tutor .tutor-output-stage { grid-template-columns: minmax(0, 1fr); }
-  #tutor .tutor-output-bot { display: none; }
+  #tutor .tutor-output-stage {
+    grid-template-columns: minmax(0, 1fr) 78px;
+    align-items: end;
+    gap: 0.45rem;
+  }
+
+  #tutor .tutor-output-bot {
+    display: grid;
+    min-height: 112px;
+    height: 112px;
+    align-self: end;
+    border-radius: 16px;
+  }
+
+  #tutor .tutor-output-bot .tutor-brand-badge--cap { width: 18px; }
+  #tutor .tutor-output-bot .tutor-brand-badge--chest { width: 22px; }
+  #tutor .tutor-output-bot .tutor-avatar-voice { display: none; }
 }
 
 @media (max-width: 700px) {
@@ -26695,6 +26711,10 @@ body.tutor-robot-speaking #tutor .tutor-coach-portrait .tutor-bot-status {
 
 #tutor .tutor-realistic-robot {
   animation: none !important;
+}
+
+@media (min-width: 701px) {
+  #tutor .tutor-language-options { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 
 body.tutor-robot-speaking #tutor .tutor-hero-bot {
