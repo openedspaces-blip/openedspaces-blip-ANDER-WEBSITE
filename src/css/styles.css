@@ -27201,3 +27201,106 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
     display: none;
   }
 }
+
+/* Final Tutor workspace: preserve the original robot asset and its exact logo
+   overlays, but give the character a proper companion column instead of a
+   thumbnail floating over the answer. */
+@media (min-width: 701px) {
+  #tutor .tutor-output-stage {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) clamp(250px, 24vw, 330px);
+    align-items: stretch;
+    gap: 0.85rem;
+  }
+
+  #tutor .tutor-output-stage .tutor-conversation {
+    min-height: clamp(310px, 35dvh, 430px);
+    padding: 0.75rem;
+  }
+
+  #tutor .tutor-output-companion {
+    position: static;
+    z-index: auto;
+    width: 100%;
+    min-width: 0;
+    align-self: stretch;
+    grid-template-rows: minmax(0, 1fr) auto;
+    gap: 0.5rem;
+  }
+
+  #tutor .tutor-output-companion .tutor-output-bot {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    min-height: 310px;
+    height: 100%;
+    border-radius: 22px;
+  }
+
+  #tutor .tutor-output-companion .tutor-realistic-robot {
+    object-fit: contain;
+    object-position: center bottom;
+  }
+
+  #tutor .tutor-output-companion .tutor-brand-badge--cap {
+    top: 6.5%;
+    width: clamp(30px, 15%, 44px);
+  }
+
+  #tutor .tutor-output-companion .tutor-brand-badge--chest {
+    top: 63%;
+    right: 14%;
+    width: clamp(38px, 19%, 55px);
+  }
+
+  #tutor .tutor-output-companion .tutor-avatar-mouth {
+    top: 42.5%;
+  }
+
+  #tutor .tutor-avatar-controls {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.72fr);
+    gap: 0.45rem;
+  }
+
+  #tutor .tutor-avatar-controls .tutor-conversation-composer-btn,
+  #tutor .tutor-avatar-controls .tutor-main-stop-btn {
+    width: 100%;
+    min-height: 42px;
+    padding: 0.55rem 0.65rem;
+    font-size: 0.76rem;
+  }
+
+  #tutor .tutor-avatar-controls .tutor-main-stop-btn .tutor-avatar-control-label {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 700px) {
+  #tutor .tutor-output-stage {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 92px;
+    align-items: end;
+    gap: 0.45rem;
+  }
+
+  #tutor .tutor-output-stage .tutor-conversation {
+    padding-right: 0.62rem;
+    padding-bottom: 0.62rem;
+  }
+
+  #tutor .tutor-output-companion {
+    position: static;
+    width: 92px;
+    align-self: end;
+  }
+
+  #tutor .tutor-output-companion .tutor-output-bot {
+    height: 128px;
+  }
+}
