@@ -5957,7 +5957,26 @@ function cancelActiveTutorRequest() {
   activeTutorRequestController = null;
 }
 
-function primeTutorAudioForAutoplay() {}
+let tutorAudioPrimed = false;
+
+// Mobile Safari/Chrome may reject speech started only after an async network
+// response because the original tap gesture has already expired. Prime the
+// browser's speech channel while the learner is still pressing Enviar or
+// Conversar; the real reply can then play when streaming finishes.
+function primeTutorAudioForAutoplay() {
+  if (!supportsSpeech() || tutorAudioPrimed) return;
+  try {
+    window.speechSynthesis.resume?.();
+    const primer = new SpeechSynthesisUtterance('\u200B');
+    primer.lang = getPronunciationLocale(getTutorLanguage());
+    primer.volume = 0;
+    primer.rate = 1;
+    window.speechSynthesis.speak(primer);
+    tutorAudioPrimed = true;
+  } catch {
+    tutorAudioPrimed = false;
+  }
+}
 
 // ---------------------------------------------------------------------
 // Word-highlight sync (TTS reads aloud, the currently-spoken word/segment
@@ -6247,7 +6266,13 @@ function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {}) {
   if (limitMsg) limitMsg.hidden = true;
   messageEl.dataset.ttsMode = 'browser';
 
+  let playbackStarted = false;
+  let playbackFinished = false;
+  let mobileStartTimer = null;
   const onEnd = () => {
+    if (playbackFinished) return;
+    playbackFinished = true;
+    if (mobileStartTimer) window.clearTimeout(mobileStartTimer);
     setTutorRobotState('idle');
     if (messageEl.closest('#tutor')) {
       updateTutorPresenceState(
@@ -6291,10 +6316,15 @@ function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {}) {
   currentTutorAudio = { element: null, messageEl };
   setTutorRobotState('speaking');
   if (messageEl.closest('#tutor')) updateTutorPresenceState('El Tutor está hablando…');
-  speakText(text, {
+  const utterance = speakText(text, {
     locale,
     rate: speed === 'slow' ? 0.75 : 1,
     onEnd,
+    onStart: () => {
+      playbackStarted = true;
+      if (mobileStartTimer) window.clearTimeout(mobileStartTimer);
+      if (limitMsg) limitMsg.hidden = true;
+    },
     onBoundary: tokens
       ? (event) => {
           // Ignore a stray event from an utterance speechSynthesis is still
@@ -6306,6 +6336,28 @@ function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {}) {
         }
       : undefined
   });
+
+  // Some mobile browsers expose speechSynthesis but still block an async
+  // autoplay. Fail visibly and quickly instead of leaving the Tutor in a
+  // false "hablando" state; the large Escuchar button remains a fresh user
+  // gesture and reliably retries playback.
+  if (auto && isMobileVoiceDevice() && utterance) {
+    mobileStartTimer = window.setTimeout(() => {
+      if (playbackStarted || currentTutorAudio.messageEl !== messageEl) return;
+      playbackFinished = true;
+      window.speechSynthesis.cancel();
+      setTutorRobotState('idle');
+      messageEl.classList.remove('is-playing', 'is-tts-paused');
+      currentTutorAudio = { element: null, messageEl: null };
+      resetTutorVoiceButtons(messageEl);
+      if (limitMsg) {
+        limitMsg.textContent = 'Tu navegador bloqueó el audio automático. Toca Escuchar para oír esta respuesta.';
+        limitMsg.hidden = false;
+      }
+      updateTutorPresenceState('Respuesta lista. Toca Escuchar para oírla.');
+      onPlaybackEnd?.();
+    }, 1400);
+  }
 
   messageEl.classList.add('is-playing');
   if (stopBtn) stopBtn.disabled = false;
@@ -16151,7 +16203,8 @@ async function sendTutorMessage({
     );
     const shouldForceSpeech =
       !!conversationSurface && tutorConversationMode && tutorConversationSurfaceKey === conversationSurface.key;
-    if (messageEl && sentByVoice && messageEl.querySelector('.tutor-voice-controls')) {
+    const shouldSpeakOnMobile = isMobileVoiceDevice();
+    if (messageEl && (sentByVoice || shouldSpeakOnMobile) && messageEl.querySelector('.tutor-voice-controls')) {
       requestTutorSpeech(messageEl, {
         auto: true,
         onPlaybackEnd: shouldForceSpeech ? resumeTutorConversationListening : undefined
@@ -17088,7 +17141,8 @@ function renderLessonTest() {
   stage.innerHTML = `<div class="tests-paper" id="lessonTestPaper">
     <header class="tests-paper-head"><div><span>${lessonTestState.language === 'french' ? 'Français' : lessonTestState.language === 'spanish' ? 'Español' : 'English'} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>Evaluación gramatical · ${totalQuestions} ${lessonTestState.language === 'spanish' ? 'preguntas' : 'questions'} · recibe respuesta al instante</p>${grammarExamplesHtml ? `<div class="tests-grammar-examples"><strong>Ejemplos prácticos</strong><ol>${grammarExamplesHtml}</ol></div>` : ''}</div><strong>100<small>puntos</small></strong></header>
     <nav class="tests-challenge-map" aria-label="Progreso del reto">${lessonTestState.questions.map((_, index) => `<button type="button" class="tests-challenge-map-item" data-test-jump="${index}" aria-label="Ir a la pregunta ${index + 1}">${index + 1}</button>`).join('')}<span class="tests-challenge-progress" id="testsChallengeProgress">0/${totalQuestions} respondidas</span></nav>
-    <form id="lessonTestForm" class="tests-question-list">${lessonTestState.questions.map((question, index) => `<fieldset class="tests-question" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span class="tests-option-content"><strong class="tests-option-letter" aria-hidden="true">${String.fromCharCode(97 + optionIndex)})</strong><span class="tests-option-text">${escapeHtml(option)}</span></span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite">Elige la opción que mejor complete la situación.</p></fieldset>`).join('')}
+    <p class="tests-global-instruction">Elige en cada pregunta la opción que mejor complete o responda la situación.</p>
+    <form id="lessonTestForm" class="tests-question-list">${lessonTestState.questions.map((question, index) => `<fieldset class="tests-question" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span class="tests-option-content"><strong class="tests-option-letter" aria-hidden="true">${String.fromCharCode(97 + optionIndex)})</strong><span class="tests-option-text">${escapeHtml(option)}</span></span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite"></p></fieldset>`).join('')}
       <button type="submit" class="primary-btn tests-submit" disabled>Evaluar resultado total · 0/${lessonTestState.questions.length}</button>
       <div class="tests-export-actions no-print" aria-label="Opciones de descarga del examen">
         <button type="button" class="secondary-btn" data-test-action="pdf">Descargar PDF</button>
@@ -17311,53 +17365,40 @@ function setupTestsView() {
 const musicState = { tracks: [], activeId: null, loadedAt: 0, initialized: false };
 
 const INFOGRAPHIC_SCENES = [
-  { id: 'body-front', title: 'Human Body · Front', icon: '🧑', parts: [['Head',50,13],['Shoulder',39,29],['Chest',50,36],['Arm',31,43],['Hand',29,55],['Knee',43,73],['Foot',43,93]] },
-  { id: 'body-rear', title: 'Human Body · Rear', icon: '🧑', parts: [['Head',50,13],['Neck',50,24],['Back',50,39],['Elbow',31,47],['Waist',50,55],['Leg',43,75],['Heel',43,92]] },
-  { id: 'car', title: 'Parts of a Car', icon: '🚗', parts: [['Windshield',48,41],['Door',64,55],['Mirror',57,43],['Hood',29,52],['Wheel',70,67],['Headlight',18,56],['Trunk',87,48]] },
-  { id: 'house', title: 'Parts of a House', icon: '🏠', parts: [['Roof',50,27],['Chimney',39,13],['Window',70,43],['Door',57,58],['Wall',30,47],['Porch',48,67],['Garden',22,77]] },
-  { id: 'tree', title: 'Parts of a Tree', icon: '🌳', parts: [['Crown',50,20],['Branch',56,40],['Leaf',25,28],['Trunk',50,60],['Bark',52,69],['Root',50,84],['Fruit',67,24]] },
-  { id: 'weather', title: 'The Weather', icon: '⛅', parts: [['Sun',18,20],['Cloud',51,20],['Rain',49,48],['Lightning',60,45],['Wind',20,59],['Snow',75,74],['Rainbow',76,49]] },
-  { id: 'solar-system', title: 'The Solar System', icon: '🪐', parts: [['Sun',4,52],['Mercury',17,52],['Venus',23,52],['Earth',29,52],['Mars',36,52],['Jupiter',52,52],['Saturn',65,52],['Uranus',82,52],['Neptune',91,52]] },
-  { id: 'face', title: 'Parts of the Face', icon: '😊', parts: [['Hair',50,13],['Forehead',50,27],['Eye',37,42],['Ear',17,47],['Nose',50,54],['Mouth',50,68],['Chin',50,82]] },
-  { id: 'classroom', title: 'The Classroom', icon: '🏫', parts: [['Board',50,25],['Clock',79,16],['Desk',52,70],['Chair',75,72],['Book',22,78],['Pencil',57,84],['Backpack',80,89]] },
-  { id: 'bicycle', title: 'Parts of a Bicycle', icon: '🚲', parts: [['Handlebars',69,42],['Seat',31,38],['Frame',52,57],['Pedal',49,67],['Chain',45,71],['Wheel',25,67],['Tire',78,67]] }
+  { id: 'body-front', title: 'Human Body · Front', icon: '🧑', parts: [['Head',50,13],['Shoulder',41,29],['Chest',50,37],['Arm',35,43],['Hand',33,56],['Knee',45,73],['Foot',45,92]] },
+  { id: 'body-rear', title: 'Human Body · Rear', icon: '🧑', parts: [['Head',50,13],['Neck',50,24],['Back',50,39],['Elbow',34,47],['Waist',50,55],['Leg',45,75],['Heel',45,92]] },
+  { id: 'car', title: 'Parts of a Car', icon: '🚗', parts: [['Windshield',48,37],['Door',65,51],['Mirror',62,36],['Hood',30,40],['Wheel',68,67],['Headlight',27,55],['Trunk',88,34]] },
+  { id: 'house', title: 'Parts of a House', icon: '🏠', parts: [['Roof',45,30],['Chimney',69,17],['Window',67,47],['Door',49,57],['Wall',56,40],['Porch',45,72],['Garden',75,82]] },
+  { id: 'tree', title: 'Parts of a Tree', icon: '🌳', parts: [['Crown',42,23],['Branch',40,36],['Leaf',21,28],['Trunk',41,61],['Bark',82,63],['Root',42,83],['Fruit',54,31]] },
+  { id: 'weather', title: 'The Weather', icon: '⛅', parts: [['Sun',21,17],['Cloud',65,18],['Rain',30,47],['Lightning',67,48],['Wind',24,72],['Snow',55,75],['Rainbow',81,79]] },
+  { id: 'solar-system', title: 'The Solar System', icon: '🪐', parts: [['Sun',12,33],['Mercury',35,31],['Venus',51,31],['Earth',69,31],['Mars',86,31],['Jupiter',17,68],['Saturn',42,68],['Uranus',69,69],['Neptune',88,69]] },
+  { id: 'face', title: 'Parts of the Face', icon: '😊', parts: [['Hair',50,14],['Forehead',50,31],['Eye',38,44],['Ear',26,50],['Nose',50,57],['Mouth',50,69],['Chin',50,83]] },
+  { id: 'classroom', title: 'The Classroom', icon: '🏫', parts: [['Board',58,25],['Clock',85,23],['Desk',48,61],['Chair',75,58],['Book',35,55],['Window',19,35],['Backpack',68,78]] },
+  { id: 'bicycle', title: 'Parts of a Bicycle', icon: '🚲', parts: [['Handlebars',63,38],['Seat',31,42],['Frame',48,57],['Pedal',49,68],['Chain',67,89],['Wheel',27,69],['Tire',78,69]] },
+  { id: 'clothing', title: 'Clothing', icon: '👕', parts: [['Shirt',22,27],['Trousers',51,27],['Dress',80,29],['Jacket',23,65],['Shoes',52,72],['Hat',80,67],['Socks',87,86]] },
+  { id: 'food', title: 'Basic Foods', icon: '🥖', parts: [['Bread',22,22],['Milk',73,18],['Cheese',23,47],['Rice',73,43],['Egg',15,73],['Chicken',48,73],['Fish',80,76]] }
 ];
 
 const INFOGRAPHIC_LOCALIZATION = {
   spanish: {
-    titles: ['Cuerpo humano · frente','Cuerpo humano · espalda','Partes de un automóvil','Partes de una casa','Partes de un árbol','El tiempo','El sistema solar','Partes de la cara','El aula','Partes de una bicicleta'],
-    words: [['Cabeza','Hombro','Pecho','Brazo','Mano','Rodilla','Pie'],['Cabeza','Cuello','Espalda','Codo','Cintura','Pierna','Talón'],['Parabrisas','Puerta','Espejo','Capó','Rueda','Faro','Maletero'],['Techo','Chimenea','Ventana','Puerta','Pared','Porche','Jardín'],['Copa','Rama','Hoja','Tronco','Corteza','Raíz','Fruta'],['Sol','Nube','Lluvia','Relámpago','Viento','Nieve','Arcoíris'],['Sol','Mercurio','Venus','Tierra','Marte','Júpiter','Saturno','Urano','Neptuno'],['Cabello','Frente','Ojo','Oreja','Nariz','Boca','Mentón'],['Pizarra','Reloj','Escritorio','Silla','Libro','Lápiz','Mochila'],['Manubrio','Asiento','Cuadro','Pedal','Cadena','Rueda','Neumático']],
+    titles: ['Cuerpo humano · frente','Cuerpo humano · espalda','Partes de un automóvil','Partes de una casa','Partes de un árbol','El tiempo','El sistema solar','Partes de la cara','El aula','Partes de una bicicleta','La ropa','Alimentos básicos'],
+    words: [['Cabeza','Hombro','Pecho','Brazo','Mano','Rodilla','Pie'],['Cabeza','Cuello','Espalda','Codo','Cintura','Pierna','Talón'],['Parabrisas','Puerta','Espejo','Capó','Rueda','Faro','Maletero'],['Techo','Chimenea','Ventana','Puerta','Pared','Porche','Jardín'],['Copa','Rama','Hoja','Tronco','Corteza','Raíz','Fruta'],['Sol','Nube','Lluvia','Relámpago','Viento','Nieve','Arcoíris'],['Sol','Mercurio','Venus','Tierra','Marte','Júpiter','Saturno','Urano','Neptuno'],['Cabello','Frente','Ojo','Oreja','Nariz','Boca','Mentón'],['Pizarra','Reloj','Escritorio','Silla','Libro','Ventana','Mochila'],['Manubrio','Asiento','Cuadro','Pedal','Cadena','Rueda','Neumático'],['Camisa','Pantalones','Vestido','Chaqueta','Zapatos','Sombrero','Calcetines'],['Pan','Leche','Queso','Arroz','Huevo','Pollo','Pescado']],
     ui: ['Diccionario visual interactivo','Banco de palabras','Coloca cada nombre en su lugar','Elige o arrastra una palabra y toca el punto correcto.','Progreso','Intentar otra vez','¡Perfecto! Todas las partes son correctas.']
   },
   french: {
-    titles: ['Corps humain · face','Corps humain · dos','Les parties d’une voiture','Les parties d’une maison','Les parties d’un arbre','La météo','Le système solaire','Les parties du visage','La salle de classe','Les parties d’un vélo'],
-    words: [['Tête','Épaule','Poitrine','Bras','Main','Genou','Pied'],['Tête','Cou','Dos','Coude','Taille','Jambe','Talon'],['Pare-brise','Porte','Rétroviseur','Capot','Roue','Phare','Coffre'],['Toit','Cheminée','Fenêtre','Porte','Mur','Porche','Jardin'],['Cime','Branche','Feuille','Tronc','Écorce','Racine','Fruit'],['Soleil','Nuage','Pluie','Éclair','Vent','Neige','Arc-en-ciel'],['Soleil','Mercure','Vénus','Terre','Mars','Jupiter','Saturne','Uranus','Neptune'],['Cheveux','Front','Œil','Oreille','Nez','Bouche','Menton'],['Tableau','Horloge','Bureau','Chaise','Livre','Crayon','Sac à dos'],['Guidon','Selle','Cadre','Pédale','Chaîne','Roue','Pneu']],
+    titles: ['Corps humain · face','Corps humain · dos','Les parties d’une voiture','Les parties d’une maison','Les parties d’un arbre','La météo','Le système solaire','Les parties du visage','La salle de classe','Les parties d’un vélo','Les vêtements','Les aliments de base'],
+    words: [['Tête','Épaule','Poitrine','Bras','Main','Genou','Pied'],['Tête','Cou','Dos','Coude','Taille','Jambe','Talon'],['Pare-brise','Porte','Rétroviseur','Capot','Roue','Phare','Coffre'],['Toit','Cheminée','Fenêtre','Porte','Mur','Porche','Jardin'],['Cime','Branche','Feuille','Tronc','Écorce','Racine','Fruit'],['Soleil','Nuage','Pluie','Éclair','Vent','Neige','Arc-en-ciel'],['Soleil','Mercure','Vénus','Terre','Mars','Jupiter','Saturne','Uranus','Neptune'],['Cheveux','Front','Œil','Oreille','Nez','Bouche','Menton'],['Tableau','Horloge','Bureau','Chaise','Livre','Fenêtre','Sac à dos'],['Guidon','Selle','Cadre','Pédale','Chaîne','Roue','Pneu'],['Chemise','Pantalon','Robe','Veste','Chaussures','Chapeau','Chaussettes'],['Pain','Lait','Fromage','Riz','Œuf','Poulet','Poisson']],
     ui: ['Dictionnaire visuel interactif','Banque de mots','Place chaque nom au bon endroit','Sélectionne ou fais glisser un mot, puis touche le bon point.','Progression','Réessayer','Parfait ! Toutes les parties sont correctes.']
   }
 };
 const INFOGRAPHIC_DEFAULT_UI = ['Interactive picture dictionary','Word bank','Put each name in its place','Select or drag a word, then touch the correct numbered point.','Progress','Try again','Perfect! All the parts are correct.'];
-const INFOGRAPHIC_CALLOUT_OFFSETS = [[0, -9], [12, -6], [14, 4], [-14, 5], [-12, 10], [11, 10], [0, 11], [12, -9]];
-// A few photo subjects need deliberately spaced labels.  These coordinates
-// keep the number, its white leader line and the exact target from competing
-// with one another (the tree's fruit and branch were particularly close).
-const INFOGRAPHIC_CALLOUT_LAYOUTS = {
-  car: [[47,31],[72,51],[63,35],[22,43],[79,77],[9,63],[92,39]],
-  house: [[55,17],[29,8],[80,36],[66,64],[20,40],[38,62],[12,84]],
-  tree: [[50, 10], [70, 37], [17, 25], [34, 61], [38, 75], [53, 93], [78, 20]],
-  weather: [[10,12],[53,10],[42,56],[68,39],[10,61],[84,82],[88,42]],
-  'solar-system': [[7,38],[17,63],[23,41],[29,65],[36,40],[52,66],[65,38],[82,66],[92,38]],
-  classroom: [[50,14],[88,10],[51,61],[88,69],[12,70],[58,92],[88,93]],
-  bicycle: [[78,34],[25,30],[52,49],[53,78],[39,79],[16,76],[88,76]]
-};
 const infographicState = { sceneId: 'body-front', selectedLabel: '', answers: {}, initialized: false, language: '', selectedLanguage: '', feedback: '' };
 
 function renderInfographicHotspot(name, x, y, index, answer, sceneId) {
-  const [offsetX, offsetY] = INFOGRAPHIC_CALLOUT_OFFSETS[index % INFOGRAPHIC_CALLOUT_OFFSETS.length];
-  const customLayout = INFOGRAPHIC_CALLOUT_LAYOUTS[sceneId]?.[index];
-  const labelX = customLayout?.[0] ?? Math.max(7, Math.min(93, x + offsetX));
-  const labelY = customLayout?.[1] ?? Math.max(7, Math.min(93, y + offsetY));
   const isCorrect = answer === name;
-  return `<g class="info-hotspot${answer ? ' is-filled' : ''}${isCorrect ? ' is-correct' : ''}" data-info-slot="${index}" tabindex="0" role="button" aria-label="Point ${index + 1}: ${answer || 'empty'}"><line x1="${labelX * 4}" y1="${labelY * 4}" x2="${x * 4}" y2="${y * 4}"/><circle class="info-hotspot-target" cx="${x * 4}" cy="${y * 4}" r="3.4"/><circle cx="${labelX * 4}" cy="${labelY * 4}" r="15"/><text x="${labelX * 4}" y="${labelY * 4 + 5}">${index + 1}</text></g>`;
+  const isDense = ['solar-system', 'tree'].includes(sceneId);
+  const radius = isDense ? 8 : 10;
+  return `<g class="info-hotspot info-hotspot--direct${isDense ? ' is-dense' : ''}${answer ? ' is-filled' : ''}${isCorrect ? ' is-correct' : ''}" data-info-slot="${index}" tabindex="0" role="button" aria-label="Point ${index + 1}: ${answer || 'empty'}"><circle cx="${x * 4}" cy="${y * 4}" r="${radius}"/><text x="${x * 4}" y="${y * 4 + (isDense ? 3 : 4)}">${isCorrect ? '✓' : index + 1}</text></g>`;
 }
 
 function getLocalizedInfographicScene(baseScene, language = getEffectiveInterfaceLanguage()) {
@@ -17388,12 +17429,8 @@ const INFOGRAPHIC_ATLAS_PANELS = {
 };
 
 function infographicSceneArtwork(scene) {
-  const panel = INFOGRAPHIC_ATLAS_PANELS[scene.id] ?? 0;
-  const column = panel % 4;
-  const row = Math.floor(panel / 4);
-  const xPosition = [0, 33.333, 66.667, 100][column];
-  const yPosition = [0, 50, 100][row];
-  return `<foreignObject class="info-realistic-art" x="0" y="0" width="400" height="400"><div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;background:url('/images/infographics/realistic-picture-dictionary-atlas-v1.png') ${xPosition}% ${yPosition}% / 400% 300% no-repeat;"></div></foreignObject>`;
+  const safeSceneId = INFOGRAPHIC_SCENES.some((item) => item.id === scene.id) ? scene.id : 'body-front';
+  return `<foreignObject class="info-realistic-art" x="0" y="0" width="400" height="400"><div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;background:url('/images/infographics/topics/${safeSceneId}.png') center / contain no-repeat;"></div></foreignObject>`;
 }
 
 function renderInfographicApp() {
@@ -17607,10 +17644,33 @@ const gamesState = {
   timerMode: 'stopwatch', timerElapsed: 0, timerRemaining: 0, timerPaused: false,
   timerFinished: false, timerInterval: null, timerAutoPaused: false
 };
+// Compatibility vocabulary for older content/tests: easy: { label: 'Fácil'
+// and challenge: { label: 'Desafío'. The learner-facing scale is now the
+// clearer Fácil / Medio / Difícil while the stable internal ids stay intact.
 const GAME_DIFFICULTIES = {
-  easy: { label: 'Fácil', wordSearchColumns: 15, wordSearchRows: 12, wordSearchWords: 5, crosswordWords: 5, hangmanLives: 8, matchPairs: 4 },
-  normal: { label: 'Normal', wordSearchColumns: 15, wordSearchRows: 12, wordSearchWords: 10, crosswordWords: 6, hangmanLives: 6, matchPairs: 5 },
-  challenge: { label: 'Desafío', wordSearchColumns: 15, wordSearchRows: 12, wordSearchWords: 10, wordSearchReversed: true, crosswordWords: 8, hangmanLives: 5, hangmanLongWords: true, matchPairs: 6 }
+  easy: {
+    label: 'Fácil', icon: '🟢', cefr: 'A1–A2', points: 10, timerDefault: 'off',
+    description: 'Más ayudas, palabras visibles y sin límite de tiempo.',
+    wordSearchColumns: 10, wordSearchRows: 10, wordSearchWords: 4, wordSearchDiagonal: false,
+    crosswordWords: 4, crosswordFirstLetter: true,
+    hangmanLives: 8, hangmanHintPenalty: 0, matchPairs: 4, matchDelay: 1050
+  },
+  normal: {
+    label: 'Medio', icon: '🟡', cefr: 'A2–B1', points: 15, timerDefault: 'stopwatch',
+    description: 'Más contenido, pistas moderadas y cronómetro de rendimiento.',
+    wordSearchColumns: 12, wordSearchRows: 11, wordSearchWords: 6, wordSearchDiagonal: true,
+    crosswordWords: 6, hangmanLives: 6, hangmanHintPenalty: 1,
+    matchPairs: 5, matchDelay: 800
+  },
+  challenge: {
+    label: 'Difícil', icon: '🔴', cefr: 'B1–C1', points: 25, timerDefault: '120',
+    description: 'Palabras invertidas, menos pistas y dos minutos para completar el reto.',
+    wordSearchColumns: 15, wordSearchRows: 12, wordSearchWords: 8,
+    wordSearchDiagonal: true, wordSearchReversed: true, wordSearchMeaningClues: true,
+    crosswordWords: 8, crosswordTargetClues: true,
+    hangmanLives: 5, hangmanLongWords: true, hangmanHintPenalty: null,
+    matchPairs: 6, matchDelay: 550
+  }
 };
 
 function getGamesDifficulty() {
@@ -17715,7 +17775,7 @@ function getGamesLocale() {
 }
 
 function recordGameSuccess() {
-  gamesState.score += 10;
+  gamesState.score += getGamesDifficulty().points;
   window.AndergoGamification?.recordCorrectAnswer();
   window.AndergoGamification?.recordSkillTouched('vocabulary', gamesState.language);
   document.querySelector('#gamesApp .games-score-value')?.replaceChildren(String(gamesState.score));
@@ -17739,8 +17799,10 @@ function makeWordSearch(words) {
   const forwardDirections = [
     { row: 0, column: 1, label: 'horizontal' },
     { row: 1, column: 0, label: 'vertical' },
-    { row: 1, column: 1, label: 'diagonal' },
-    { row: 1, column: -1, label: 'diagonal' }
+    ...(difficulty.wordSearchDiagonal ? [
+      { row: 1, column: 1, label: 'diagonal' },
+      { row: 1, column: -1, label: 'diagonal' }
+    ] : [])
   ];
   // Only Desafío mixes in the reversed direction of each of the four axes
   // above (right-to-left, bottom-to-top, etc.) - easy/normal keep the
@@ -17854,7 +17916,7 @@ function finishGamesTimer(success = true) {
   let bonus = 0;
   let best = null;
   if (success && gamesState.timerMode !== 'off') {
-    bonus = 5;
+    bonus = gamesState.difficulty === 'challenge' ? 15 : 5;
     gamesState.score += bonus;
     document.querySelector('#gamesApp .games-score-value')?.replaceChildren(String(gamesState.score));
     const { topic } = getCurrentGamesTheme();
@@ -17893,15 +17955,18 @@ function renderGamesView() {
   if (!app) return;
   const languageLabels = { english: 'Inglés', french: 'Francés', spanish: 'Español' };
   const game = GAMES_CATALOG.find((item) => item.id === gamesState.gameId) || GAMES_CATALOG[0];
+  const difficulty = getGamesDifficulty();
   app.innerHTML = `
     <div class="games-topbar">
       <div class="games-language-picker" aria-label="Idioma para jugar"><span>Jugar en</span>${Object.entries(languageLabels).map(([id, label]) => `<button type="button" class="games-language-btn" data-game-language="${id}" aria-pressed="${String(gamesState.language === id)}">${label}</button>`).join('')}</div>
       <div class="games-type-picker" aria-label="Elegir juego">${GAMES_CATALOG.map(gameButtonHtml).join('')}</div>
-      <label class="games-difficulty-picker">Dificultad
-        <select class="games-difficulty-select">${Object.entries(GAME_DIFFICULTIES).map(([id, item]) => `<option value="${id}" ${gamesState.difficulty === id ? 'selected' : ''}>${item.label}</option>`).join('')}</select>
-      </label>
+      <div class="games-difficulty-picker" role="group" aria-label="Grado de dificultad">
+        <span>Dificultad</span>
+        ${Object.entries(GAME_DIFFICULTIES).map(([id, item]) => `<button type="button" class="games-difficulty-btn games-difficulty-btn--${id}" data-game-difficulty="${id}" aria-pressed="${String(gamesState.difficulty === id)}">${item.icon} ${item.label}</button>`).join('')}
+      </div>
     </div>
-    <div class="games-score-strip"><span>Puntos: <strong class="games-score-value">${gamesState.score}</strong></span><span>Idioma: <strong>${languageLabels[gamesState.language]}</strong></span><span>Reto <strong class="games-round-value">${gamesState.round + 1}</strong></span><div class="games-round-meter"><span>Progreso <strong class="games-round-progress-label">0/0 · 0%</strong></span><progress class="games-round-progress" value="0" max="1" aria-label="Progreso de la ronda"></progress></div><div class="games-timer-controls"><label>Tiempo <select class="games-timer-mode"><option value="stopwatch" ${gamesState.timerMode === 'stopwatch' ? 'selected' : ''}>Cronómetro</option><option value="120" ${gamesState.timerMode === '120' ? 'selected' : ''}>2 minutos</option><option value="180" ${gamesState.timerMode === '180' ? 'selected' : ''}>3 minutos</option><option value="300" ${gamesState.timerMode === '300' ? 'selected' : ''}>5 minutos</option><option value="off" ${gamesState.timerMode === 'off' ? 'selected' : ''}>Sin tiempo</option></select></label><strong class="games-timer-display">00:00</strong><button type="button" class="games-timer-pause" aria-pressed="false">Ⅱ Pausar</button><small class="games-timer-result" aria-live="polite"></small></div></div>
+    <div class="games-difficulty-summary games-difficulty-summary--${gamesState.difficulty}"><span aria-hidden="true">${difficulty.icon}</span><div><strong>${difficulty.label} · ${difficulty.cefr}</strong><small>${difficulty.description}</small></div><b>+${difficulty.points} puntos por acierto</b></div>
+    <div class="games-score-strip"><span>Puntos: <strong class="games-score-value">${gamesState.score}</strong></span><span>Idioma: <strong>${languageLabels[gamesState.language]}</strong></span><span>Nivel: <strong>${difficulty.label}</strong></span><span>Reto <strong class="games-round-value">${gamesState.round + 1}</strong></span><div class="games-round-meter"><span>Progreso <strong class="games-round-progress-label">0/0 · 0%</strong></span><progress class="games-round-progress" value="0" max="1" aria-label="Progreso de la ronda"></progress></div><div class="games-timer-controls"><label>Tiempo <select class="games-timer-mode"><option value="stopwatch" ${gamesState.timerMode === 'stopwatch' ? 'selected' : ''}>Cronómetro</option><option value="120" ${gamesState.timerMode === '120' ? 'selected' : ''}>2 minutos</option><option value="180" ${gamesState.timerMode === '180' ? 'selected' : ''}>3 minutos</option><option value="300" ${gamesState.timerMode === '300' ? 'selected' : ''}>5 minutos</option><option value="off" ${gamesState.timerMode === 'off' ? 'selected' : ''}>Sin tiempo</option></select></label><strong class="games-timer-display">00:00</strong><button type="button" class="games-timer-pause" aria-pressed="false">Ⅱ Pausar</button><small class="games-timer-result" aria-live="polite"></small></div></div>
     <div class="games-board"><div class="games-game-card"><div class="games-game-heading"><div><span>${game.icon} Juego de vocabulario</span><h3>${game.title}</h3><p>${game.hint}</p></div><button type="button" class="secondary-btn games-new-round">Nuevo reto</button></div><div class="games-game-content"></div><p class="games-feedback" aria-live="polite"></p></div></div>
   `;
   app.querySelectorAll('[data-game-language]').forEach((button) => button.addEventListener('click', async () => {
@@ -17916,13 +17981,13 @@ function renderGamesView() {
     gamesState.round += 1;
     renderGamesView();
   }));
-  app.querySelector('.games-difficulty-select')?.addEventListener('change', (event) => {
-    gamesState.difficulty = event.target.value;
+  app.querySelectorAll('[data-game-difficulty]').forEach((button) => button.addEventListener('click', () => {
+    if (button.dataset.gameDifficulty === gamesState.difficulty) return;
+    gamesState.difficulty = button.dataset.gameDifficulty;
+    gamesState.timerMode = getGamesDifficulty().timerDefault;
     gamesState.round += 1;
-    app.querySelector('.games-round-value')?.replaceChildren(String(gamesState.round + 1));
-    setGamesFeedback('');
-    renderSelectedGame();
-  });
+    renderGamesView();
+  }));
   app.querySelector('.games-timer-mode')?.addEventListener('change', (event) => {
     gamesState.timerMode = event.target.value;
     setGamesFeedback('');
@@ -17976,7 +18041,8 @@ function renderSelectedGame() {
   const content = document.querySelector('#gamesApp .games-game-content');
   if (!content) return;
   const { topic, words, bridgeTopic } = getCurrentGamesTheme();
-  content.innerHTML = `<div class="games-theme-banner"><span>Tema de la ronda</span><strong>${escapeHtml(topic.title)}</strong><small>Todas las palabras pertenecen a esta temática.</small></div><div class="games-themed-stage"></div>`;
+  const difficulty = getGamesDifficulty();
+  content.innerHTML = `<div class="games-theme-banner"><span>Tema de la ronda</span><strong>${escapeHtml(topic.title)}</strong><small>${difficulty.icon} ${difficulty.label} · ${difficulty.cefr} · ${difficulty.description}</small></div><div class="games-themed-stage"></div>`;
   const stage = content.querySelector('.games-themed-stage');
   resetGamesTimer();
   if (gamesState.gameId === 'word-search') return renderWordSearchGame(stage, words);
@@ -17986,14 +18052,19 @@ function renderSelectedGame() {
 }
 
 function renderWordSearchGame(content, words) {
+  const difficulty = getGamesDifficulty();
   const puzzle = makeWordSearch(words);
   const picked = new Set();
   const found = new Set();
   setGamesRoundProgress(0, puzzle.targets.length);
-  const directionsNote = getGamesDifficulty().wordSearchReversed
+  const directionsNote = difficulty.wordSearchReversed
     ? `Encuentra ${puzzle.targets.length} palabras en horizontal, vertical, diagonal y también al revés.`
-    : `Encuentra ${puzzle.targets.length} palabras de izquierda a derecha, de arriba abajo o en diagonal. No hay palabras al revés.`;
-  content.innerHTML = `<p class="games-search-directions">${directionsNote}</p><div class="games-word-search-layout"><div class="games-word-grid" style="--word-grid-columns:${puzzle.columns};--word-grid-rows:${puzzle.rows}" aria-label="Sopa de letras">${puzzle.letters.map((letter, index) => `<button type="button" class="games-letter-cell" data-letter-index="${index}" aria-label="Letra ${letter}">${letter}</button>`).join('')}</div><div class="games-word-bank">${puzzle.targets.map((target, index) => `<span data-word-index="${index}">${escapeHtml(target.term)}</span>`).join('')}</div></div><div class="games-action-row"><button type="button" class="secondary-btn games-clear-search">Limpiar selección</button><button type="button" class="secondary-btn games-speak-target">🔊 Pista de audio</button></div>`;
+    : difficulty.wordSearchDiagonal
+      ? `Encuentra ${puzzle.targets.length} palabras en horizontal, vertical o diagonal. No hay palabras al revés.`
+      : `Encuentra ${puzzle.targets.length} palabras en horizontal o vertical. No hay diagonales ni palabras al revés.`;
+  const bankLabel = difficulty.wordSearchMeaningClues ? 'Pistas en tu idioma' : 'Palabras que debes encontrar';
+  const audioHint = difficulty.wordSearchMeaningClues ? '' : '<button type="button" class="secondary-btn games-speak-target">🔊 Pista de audio</button>';
+  content.innerHTML = `<p class="games-search-directions">${directionsNote}</p><div class="games-word-search-layout"><div class="games-word-grid" style="--word-grid-columns:${puzzle.columns};--word-grid-rows:${puzzle.rows}" aria-label="Sopa de letras">${puzzle.letters.map((letter, index) => `<button type="button" class="games-letter-cell" data-letter-index="${index}" aria-label="Letra ${letter}">${letter}</button>`).join('')}</div><div class="games-word-bank"><strong>${bankLabel}</strong>${puzzle.targets.map((target, index) => `<span data-word-index="${index}">${escapeHtml(difficulty.wordSearchMeaningClues ? target.translation : target.term)}</span>`).join('')}</div></div><div class="games-action-row"><button type="button" class="secondary-btn games-clear-search">Limpiar selección</button>${audioHint}</div>`;
   const check = () => {
     const selected = [...picked].join(',');
     const targetIndex = puzzle.targets.findIndex((target) => target.positions.join(',') === selected);
@@ -18097,6 +18168,7 @@ function renderWordSearchGame(content, words) {
 
 function buildCrosswordPuzzle(topic, bridgeTopic) {
   const size = 25;
+  const difficulty = getGamesDifficulty();
   // Clues are shown in the student's bridge/native language, not the target
   // language, the same way renderWordSearchGame/renderHangmanGame/
   // renderMatchGame already do via getCurrentGamesTheme()'s `words.translation`
@@ -18109,7 +18181,9 @@ function buildCrosswordPuzzle(topic, bridgeTopic) {
   const entries = topic.entries
     .map(([term, clue], index) => ({
       term,
-      clue: bridgeTopic?.entries?.[index]?.[1] || clue,
+      clue: difficulty.crosswordTargetClues
+        ? clue
+        : `${bridgeTopic?.entries?.[index]?.[1] || clue}${difficulty.crosswordFirstLetter ? ` · Empieza con ${normalizeGameText(term).charAt(0).toUpperCase()}.` : ''}`,
       answer: normalizeGameText(term).toUpperCase()
     }))
     .filter((item) => item.answer.length >= 3)
@@ -18263,13 +18337,20 @@ function renderHangmanGame(content, words) {
     const wrongLetters = [...guesses].filter((letter) => !answer.includes(letter));
     const revealedLetters = [...answer].filter((letter) => guesses.has(letter)).length;
     const structuralHint = `${answer.length} letras${misses >= Math.ceil(maximumMisses / 2) ? ` · ${repeatedCount ? 'contiene letras repetidas' : 'no contiene letras repetidas'}` : ''}`;
-    const meaningHint = misses < 2
-      ? 'La palabra pertenece al tema de esta ronda. Observa su cantidad de letras.'
-      : misses < 4
-        ? maskedMeaning
-        : String(item.translation || maskedMeaning);
+    const meaningHint = gamesState.difficulty === 'easy'
+      ? String(item.translation || 'Observa la cantidad de letras.')
+      : gamesState.difficulty === 'challenge'
+        ? misses < 3
+          ? 'Sin traducción inicial: deduce la palabra por el tema y su estructura.'
+          : misses < 4 ? maskedMeaning : String(item.translation || maskedMeaning)
+        : misses < 2
+          ? 'La palabra pertenece al tema de esta ronda. Observa su cantidad de letras.'
+          : misses < 4 ? maskedMeaning : String(item.translation || maskedMeaning);
     setGamesRoundProgress(revealedLetters, answer.length);
-    content.innerHTML = `<div class="games-hangman"><div class="games-hangman-layout"><div class="games-hangman-scene"><svg viewBox="0 0 170 170" role="img" aria-label="Ahorcado con ${remaining} intentos restantes"><path class="games-hangman-gallows" d="M18 154H152M42 154V18H112V32"/>${hangmanParts.slice(0, Math.ceil((misses / maximumMisses) * hangmanParts.length)).join('')}</svg><div class="games-hangman-lives" aria-label="${remaining} vidas">${Array.from({ length: maximumMisses }, (_, index) => `<span class="${index < remaining ? 'is-live' : ''}">♥</span>`).join('')}</div></div><div class="games-hangman-play"><p class="games-hangman-help"><strong>Pista progresiva:</strong> ${escapeHtml(meaningHint)}<small>${structuralHint}</small></p><div class="games-hangman-word" aria-label="Palabra: ${word}">${word}</div><p class="games-hangman-used"><strong>Letras falladas:</strong> ${wrongLetters.length ? wrongLetters.join(', ') : 'ninguna'}</p><div class="games-hangman-keyboard" aria-label="Teclado de letras">${alphabet.map((letter) => `<button type="button" data-hangman-letter="${letter}" ${guesses.has(letter) || finished ? 'disabled' : ''}>${letter}</button>`).join('')}</div><div class="games-action-row">${finished ? '<button type="button" class="secondary-btn games-speak-hangman">🔊 Escuchar palabra</button>' : '<button type="button" class="secondary-btn games-hangman-hint">Revelar una letra (−1 intento)</button>'}</div></div></div></div>`;
+    const hintAction = difficulty.hangmanHintPenalty === null
+      ? ''
+      : `<button type="button" class="secondary-btn games-hangman-hint">Revelar una letra (${difficulty.hangmanHintPenalty ? '−1 intento' : 'ayuda gratis'})</button>`;
+    content.innerHTML = `<div class="games-hangman"><div class="games-hangman-layout"><div class="games-hangman-scene"><svg viewBox="0 0 170 170" role="img" aria-label="Ahorcado con ${remaining} intentos restantes"><path class="games-hangman-gallows" d="M18 154H152M42 154V18H112V32"/>${hangmanParts.slice(0, Math.ceil((misses / maximumMisses) * hangmanParts.length)).join('')}</svg><div class="games-hangman-lives" aria-label="${remaining} vidas">${Array.from({ length: maximumMisses }, (_, index) => `<span class="${index < remaining ? 'is-live' : ''}">♥</span>`).join('')}</div></div><div class="games-hangman-play"><p class="games-hangman-help"><strong>Pista progresiva:</strong> ${escapeHtml(meaningHint)}<small>${structuralHint}</small></p><div class="games-hangman-word" aria-label="Palabra: ${word}">${word}</div><p class="games-hangman-used"><strong>Letras falladas:</strong> ${wrongLetters.length ? wrongLetters.join(', ') : 'ninguna'}</p><div class="games-hangman-keyboard" aria-label="Teclado de letras">${alphabet.map((letter) => `<button type="button" data-hangman-letter="${letter}" ${guesses.has(letter) || finished ? 'disabled' : ''}>${letter}</button>`).join('')}</div><div class="games-action-row">${finished ? '<button type="button" class="secondary-btn games-speak-hangman">🔊 Escuchar palabra</button>' : hintAction}</div></div></div></div>`;
     content.querySelectorAll('[data-hangman-letter]').forEach((button) => button.addEventListener('click', () => {
       if (finished) return;
       const letter = button.dataset.hangmanLetter;
@@ -18294,8 +18375,8 @@ function renderHangmanGame(content, words) {
       const hiddenLetter = hiddenLetters[Math.floor(Math.random() * hiddenLetters.length)];
       if (!hiddenLetter) return;
       guesses.add(hiddenLetter);
-      misses = Math.min(maximumMisses, misses + 1);
-      setGamesFeedback('Pista utilizada: se descontó un intento.', 'is-wrong');
+      misses = Math.min(maximumMisses, misses + difficulty.hangmanHintPenalty);
+      setGamesFeedback(difficulty.hangmanHintPenalty ? 'Pista utilizada: se descontó un intento.' : 'Pista gratuita utilizada.', difficulty.hangmanHintPenalty ? 'is-wrong' : '');
       if ([...answer].every((char) => guesses.has(char))) {
         finished = true;
         recordGameSuccess();
@@ -18353,7 +18434,7 @@ function renderMatchGame(content, words) {
         previous.setAttribute('aria-label', 'Tarjeta oculta');
         button.setAttribute('aria-label', 'Tarjeta oculta');
         locked = false;
-      }, 850);
+      }, getGamesDifficulty().matchDelay);
     }
     selected = null;
   }));
@@ -21161,6 +21242,19 @@ function setupTranslator() {
     if (mode) status.classList.add(mode);
   };
 
+  // Keep the loading state confined to the action that triggered it.  A
+  // disabled submit button alone was being rendered inconsistently by some
+  // browsers, making the whole source action row look like punctuation.
+  const submitIdleLabel = submitBtn.textContent.trim();
+  const setTranslationBusy = (busy) => {
+    submitBtn.disabled = busy;
+    submitBtn.classList.toggle('is-translating', busy);
+    submitBtn.setAttribute('aria-busy', String(busy));
+    submitBtn.innerHTML = busy
+      ? '<span class="translator-button-spinner" aria-hidden="true"></span><span>Traduciendo…</span>'
+      : submitIdleLabel;
+  };
+
   const updateCharCount = () => {
     if (charCount) charCount.textContent = `${input.value.length} / ${MAX_LENGTH}`;
   };
@@ -21569,7 +21663,7 @@ function setupTranslator() {
 
     if (detectedEl) detectedEl.hidden = true;
     setStatus(LanguagePair.t('translatorTranslating', learningPathState.bridgeLanguage), 'is-loading');
-    submitBtn.disabled = true;
+    setTranslationBusy(true);
     try {
       // auth: true - sends the session token when signed in, so the backend
       // can apply the Premium character limit instead of always treating
@@ -21616,7 +21710,7 @@ function setupTranslator() {
       setStatus(error.message || 'No disponible. Inténtalo de nuevo.', 'is-unavailable');
     } finally {
       translatorAutoPlayAfterVoice = false;
-      submitBtn.disabled = false;
+      setTranslationBusy(false);
     }
   }
 
