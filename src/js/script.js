@@ -4464,6 +4464,7 @@ function renderUnitActivityFooter(section, lesson) {
       : nextLesson
         ? `${routeCopy.next}: ${getSkillLabel(nextLesson.skill)}`
         : `${routeCopy.next}: ${routeCopy.verbs}`;
+  const tutorRouteContext = getTutorRouteContext(lesson);
 
   const footer = document.createElement('nav');
   footer.className = 'unit-activity-footer no-print';
@@ -4477,6 +4478,14 @@ function renderUnitActivityFooter(section, lesson) {
       }
     </span>
     <div class="unit-activity-footer-actions">
+      <button
+        type="button"
+        class="secondary-btn open-tutor-btn unit-activity-tutor"
+        data-support-mode="practice"
+        data-tutor-prompt="${escapeHtml(tutorRouteContext.prompt)}"
+        data-tutor-transcript="${escapeHtml(tutorRouteContext.transcript)}"
+        data-tutor-vocabulary="${escapeHtml(tutorRouteContext.vocabulary)}"
+      >✦ Tutor IA</button>
       <button type="button" class="secondary-btn unit-activity-change">
         ${escapeHtml(routeCopy.changeLesson)}
       </button>
@@ -4520,6 +4529,29 @@ function renderUnitActivityFooter(section, lesson) {
     }
     openUnitSequenceStep('verbs');
   });
+}
+
+function getTutorRouteContext(lesson) {
+  const skill = lesson?.skill || 'general';
+  const prompts = {
+    reading: 'Ayúdame a comprender esta lectura. Primero pregúntame qué parte me resulta difícil y después dame una explicación o una pista sin revelar las respuestas.',
+    listening: 'Ayúdame a comprender esta actividad de Listening. Dame pistas basadas en el audio sin revelar directamente las respuestas.',
+    speaking: 'Practica conmigo el objetivo de Speaking de esta lección y corrige mis frases de forma breve y amable.',
+    grammar: 'Explícame la estructura gramatical de esta lección paso a paso y luego hazme una pregunta corta para comprobar si la entendí.',
+    vocabulary: 'Ayúdame a practicar el vocabulario de esta lección con ejemplos y una pregunta breve.',
+    writing: 'Ayúdame a planificar y mejorar mi texto sin escribirlo completo por mí.',
+  };
+  const readingText = skill === 'reading' ? getReadingParagraphs(lesson).join(' ') : '';
+  const transcript = readingText || lesson?.listening?.transcript || lesson?.grammar || lesson?.description || '';
+  const vocabulary = (lesson?.vocabulary || [])
+    .map((item) => item.word || item.term || '')
+    .filter(Boolean)
+    .join(', ');
+  return {
+    prompt: prompts[skill] || 'Ayúdame con esta actividad y guíame paso a paso.',
+    transcript,
+    vocabulary
+  };
 }
 
 function getUnitRouteCopy() {
@@ -15683,6 +15715,47 @@ function openTutorDrawer(overrides = {}) {
   setTutorConversationMode(false);
   tutorDrawerContext = { ...TUTOR_DRAWER_DEFAULT_CONTEXT, ...overrides };
   tutorDrawerReturnFocus = document.activeElement;
+
+  // En una ruta de aprendizaje el Tutor se abre sobre la actividad. Así el
+  // estudiante conserva a la vista el Reading, ejercicio o respuesta que
+  // originó la consulta. El acceso general continúa usando la página completa.
+  if (tutorDrawerContext.contextScope === 'lesson') {
+    const drawer = document.getElementById('tutorDrawer');
+    if (!drawer) return;
+    const skillLabel = getSkillLabel(tutorDrawerContext.skill);
+    const skillEl = drawer.querySelector('[data-drawer-context="skill"]');
+    const levelEl = drawer.querySelector('[data-drawer-context="level"]');
+    const lessonEl = drawer.querySelector('[data-drawer-context="lesson"]');
+    const titleEl = document.getElementById('tutorDrawerTitle');
+    if (skillEl) skillEl.textContent = skillLabel;
+    if (levelEl) levelEl.textContent = learningPathState.level || 'N/A';
+    if (lessonEl) lessonEl.textContent = tutorDrawerContext.lessonTitle || 'Actividad actual';
+    if (titleEl) titleEl.textContent = `Tutor IA · ${skillLabel}`;
+
+    const conversationEl = document.getElementById('tutorDrawerConversation');
+    const onlyWelcomePlaceholder =
+      conversationEl?.children.length === 1 &&
+      conversationEl.firstElementChild?.classList.contains('tutor-welcome');
+    if (conversationEl && onlyWelcomePlaceholder) {
+      conversationEl.firstElementChild.textContent =
+        tutorDrawerContext.welcomeMessage ||
+        `Estoy contigo en “${tutorDrawerContext.lessonTitle || skillLabel}”. Puedo explicarte, darte una pista o practicar sin sacarte de la lección.`;
+    }
+
+    const prompt = document.getElementById('tutorDrawerPrompt');
+    if (prompt) prompt.value = overrides.prefill || '';
+    drawer.classList.add('is-route-assistant', 'open');
+    drawer.removeAttribute('inert');
+    drawer.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('modal-open');
+    document.addEventListener('keydown', tutorDrawerFocusTrapHandler);
+    checkTutorConnection('tutorDrawerConnectionStatus');
+    refreshTutorUsageCounter();
+    updateTutorConversationToggleUI();
+    window.requestAnimationFrame(() => prompt?.focus());
+    return;
+  }
+
   if (window.location.hash !== '#tutor') tutorPageReturnHash = window.location.hash || '#learn';
 
   history.pushState(null, '', '#tutor');
@@ -15749,6 +15822,7 @@ function closeTutorDrawer() {
   stopTutorDictation();
   stopAllTutorAudio();
   drawer.classList.remove('open');
+  drawer.classList.remove('is-route-assistant');
   drawer.setAttribute('aria-hidden', 'true');
   drawer.setAttribute('inert', '');
   document.body.classList.remove('modal-open');

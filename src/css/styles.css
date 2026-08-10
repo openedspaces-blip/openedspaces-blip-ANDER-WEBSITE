@@ -824,6 +824,11 @@ a:focus-visible {
 
 .tutor-drawer { display: none !important; }
 
+/* Dentro de una ruta el Tutor funciona como acompañante contextual y no
+   sustituye la lección. La clase se activa únicamente desde los botones de
+   apoyo de cada actividad; el acceso general conserva su página completa. */
+.tutor-drawer.is-route-assistant { display: flex !important; }
+
 @media (max-width: 700px) {
   #tutor.tutor-section { width: 100%; padding: 0.65rem; }
   #tutor .tutor-page-navigation { align-items: flex-start; }
