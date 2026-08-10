@@ -3565,6 +3565,14 @@ test('Speaking Tutor accepts valid paraphrases and separates errors from optiona
   assert.match(service, /Do not compare against a hidden canonical sentence/);
 });
 
+test('lesson Tests assess CEFR vocabulary by topic instead of Reading-text recall', () => {
+  const server = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
+  assert.match(server, /The test uses the CEFR word bank for this lesson topic/);
+  assert.match(server, /row\.level === level/);
+  assert.match(server, /row\.unit_slug !== unitSlug/);
+  assert.match(server, /Which \$\{level\} vocabulary term belongs to the topic/);
+});
+
 test('Tutor word limits are maxima only and voice turns continue without a two-second send delay', () => {
   const service = fs.readFileSync(path.join(__dirname, 'lib', 'aiTutorService.js'), 'utf8');
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
