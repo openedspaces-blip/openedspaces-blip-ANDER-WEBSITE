@@ -40,7 +40,7 @@ const REQUIRED_FILES = [
   'sitemap.xml',
   'site.webmanifest'
 ];
-const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
+const WORLD_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'portuguese', 'german'];
 const GAMIFICATION_FILES = [
   'src/js/gamification/state.js',
   'src/js/gamification/xp.js',

@@ -342,6 +342,8 @@ const targetLanguageMap = {
   espanol: 'spanish',
   frances: 'french',
   italiano: 'italian',
+  portugues: 'portuguese',
+  português: 'portuguese',
   deutsch: 'german',
   'ai-tutor': 'ai'
 };
@@ -16253,6 +16255,7 @@ const LANGUAGE_WORLD_SOURCES = Object.freeze({
   french: '/src/worlds/french/content.js',
   spanish: '/src/worlds/spanish/content.js',
   italian: '/src/worlds/italian/content.js',
+  portuguese: '/src/worlds/portuguese/content.js',
   german: '/src/worlds/german/content.js'
 });
 const languageWorldLoads = new Map();

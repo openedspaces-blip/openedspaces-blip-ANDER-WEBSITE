@@ -30,7 +30,7 @@
     root.AndergoLanguagePair = api;
   }
 })(typeof self !== 'undefined' ? self : this, function () {
-  const SUPPORTED_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'german'];
+  const SUPPORTED_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'portuguese', 'german'];
 
   // Fully authored (not machine-translated) for english/spanish/french - the
   // three languages that currently have real A1 course content (English A1,
@@ -51,6 +51,7 @@
       english: 'inglés',
       french: 'francés',
       italian: 'italiano',
+      portuguese: 'portugués brasileño',
       german: 'alemán'
     },
     english: {
@@ -58,6 +59,7 @@
       english: 'English',
       french: 'French',
       italian: 'Italian',
+      portuguese: 'Brazilian Portuguese',
       german: 'German'
     },
     french: {
@@ -65,6 +67,7 @@
       english: 'anglais',
       french: 'français',
       italian: 'italien',
+      portuguese: 'portugais brésilien',
       german: 'allemand'
     },
     italian: {
@@ -72,6 +75,7 @@
       english: 'inglese',
       french: 'francese',
       italian: 'italiano',
+      portuguese: 'portoghese brasiliano',
       german: 'tedesco'
     },
     german: {
@@ -79,6 +83,7 @@
       english: 'Englisch',
       french: 'Französisch',
       italian: 'Italienisch',
+      portuguese: 'Brasilianisches Portugiesisch',
       german: 'Deutsch'
     }
   };

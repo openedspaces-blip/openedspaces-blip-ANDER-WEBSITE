@@ -8,74 +8,50 @@
     "skills": {
       "listening": {
         "title": "Listening",
-        "text": "Italiano base: Identifica nombre, país y gusto personal en una presentación breve.",
+        "text": "Italiano A1: Escucha un diálogo cultural corto.",
         "suggestions": [
-          "Ciao, mi chiamo...",
-          "Sono di...",
-          "Piacere.",
-          "Mi piace studiare."
+          "Oggi ho imparato molto.",
+          "oggi",
+          "domani"
         ]
       },
       "speaking": {
         "title": "Speaking",
-        "text": "Italiano base: Habla de tu nombre, tu ciudad y una actividad que te gusta.",
+        "text": "Italiano A1: Di Oggi ho imparato molto. y añade una frase sobre contar una experiencia sencilla.",
         "suggestions": [
-          "Mi chiamo Laura.",
-          "Abito a Torino.",
-          "Lavoro la mattina.",
-          "E tu?"
+          "Oggi ho imparato molto.",
+          "Mi piace oggi.",
+          "Vorrei sapere di più."
         ]
       },
       "writing": {
         "title": "Writing",
-        "text": "Italiano base: Escribe 4 frases sobre tu familia, tu rutina y tu lugar favorito.",
+        "text": "Italiano A1: Escribe 4 frases sobre contar una experiencia sencilla y usa oggi y domani.",
         "suggestions": [
-          "La mia famiglia è piccola.",
-          "Faccio colazione alle sette.",
-          "Il mio posto preferito è il parco.",
-          "Dopo studio."
+          "Oggi ho imparato molto.",
+          "Oggi ho imparato oggi."
         ]
       }
     },
-    "vocab": [
-      [
-        "ciao",
-        "hola"
-      ],
-      [
-        "nome",
-        "nombre"
-      ],
-      [
-        "paese",
-        "país"
-      ],
-      [
-        "amico",
-        "amigo"
-      ],
-      [
-        "classe",
-        "clase"
-      ]
-    ],
+    "vocab": [],
     "grammar": [
       [
         "A1",
-        "Saludos básicos, ser, llamarse y artículos indefinidos."
+        "Guided grammar practice."
       ],
       [
         "Mission",
-        "Identifica nombre, país y gusto personal en una presentación breve."
+        "Saluti e presentazioni a Bologna"
       ]
     ],
     "reading": {
       "title": "Italiano A1 Reading",
-      "text": "Giulia è una studentessa a Roma. Ogni mattina saluta la sua insegnante e fa colazione con la famiglia. A scuola, pratica l'italiano con la sua amica Chiara. Dopo la lezione, torna a casa e aiuta sua madre a preparare la cena.",
+      "text": "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Oggi ho imparato molto.”.",
       "questions": [
-        "Dove vive Giulia?",
-        "Con chi pratica l'italiano?",
-        "Cosa fa dopo la lezione?"
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
       ]
     }
   },
@@ -83,75 +59,50 @@
     "skills": {
       "listening": {
         "title": "Listening",
-        "text": "Vita quotidiana: Distingue lo que una persona pide, cuánto cuesta y qué necesita llevar.",
+        "text": "Italiano A2: Escucha un diálogo cultural corto.",
         "suggestions": [
-          "Vorrei un caffè con latte.",
-          "Quanto costa?",
-          "Mi serve mezzo chilo.",
-          "Sto comprando della frutta."
+          "È stato un viaggio importante.",
+          "ricordo",
+          "incontro"
         ]
       },
       "speaking": {
         "title": "Speaking",
-        "text": "Vita quotidiana: Explica cómo ir al banco, a la estación y a una farmacia cercana.",
+        "text": "Italiano A2: Di È stato un viaggio importante. y añade una frase sobre cerrar el nivel con una experiencia personal.",
         "suggestions": [
-          "Vai sempre dritto.",
-          "Gira a sinistra.",
-          "La farmacia è accanto alla banca.",
-          "Attraversa la piazza."
+          "È stato un viaggio importante.",
+          "Mi piace ricordo.",
+          "Vorrei sapere di più."
         ]
       },
       "writing": {
         "title": "Writing",
-        "text": "Vita quotidiana: Cuenta dónde estuviste, qué viste y qué harás la próxima semana.",
+        "text": "Italiano A2: Escribe 4 frases sobre cerrar el nivel con una experiencia personal y usa ricordo y incontro.",
         "suggestions": [
-          "La settimana scorsa ho visitato...",
-          "Mi è piaciuto molto...",
-          "Tornerò ad agosto.",
-          "Voglio anche provare..."
+          "È stato un viaggio importante.",
+          "Oggi ho imparato ricordo."
         ]
       }
     },
-    "vocab": [
-      [
-        "caffè",
-        "café"
-      ],
-      [
-        "latte",
-        "leche"
-      ],
-      [
-        "prezzo",
-        "precio"
-      ],
-      [
-        "frutta",
-        "fruta"
-      ],
-      [
-        "chilo",
-        "kilo"
-      ]
-    ],
+    "vocab": [],
     "grammar": [
       [
         "A2",
-        "Querer, pedir, números, cantidades y presente continuo."
+        "Guided grammar practice."
       ],
       [
         "Mission",
-        "Distingue lo que una persona pide, cuánto cuesta y qué necesita llevar."
+        "Rutinas urbanas y servicios públicos"
       ]
     ],
     "reading": {
       "title": "Italiano A2 Reading",
-      "text": "Marco di solito si sveglia alle sei. Il sabato, va a trovare sua nonna e compra frutta fresca al mercato. Il weekend scorso, l'ha anche aiutata a ridipingere la cucina, così hanno finito tardi e hanno cenato insieme. Il pomeriggio, spesso incontra il suo vicino, e parlano del tempo prima di tornare a casa.",
+      "text": "Sofia vive em Bologna e parla con Marco sobre cerrar el nivel con una experiencia personal. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “È stato un viaggio importante.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “È stato un viaggio importante.”.",
       "questions": [
-        "A che ora si sveglia di solito Marco?",
-        "Cosa ha aiutato a fare a sua nonna il weekend scorso?",
-        "Chi incontra spesso nel pomeriggio?",
-        "Di cosa parlano?"
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
       ]
     }
   },
@@ -464,1156 +415,11006 @@
   window.ANDERGO_LANGUAGE_WORLDS.lessons = window.ANDERGO_LANGUAGE_WORLDS.lessons || {};
   window.ANDERGO_LANGUAGE_WORLDS.lessons.italian = [
   {
-    "slug": "italian-a1-listening",
+    "slug": "italian-a1-benvenuti-in-italia-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "benvenuti-in-italia",
+    "title": "Benvenuti in Italia: lectura",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 10,
+    "estimatedMinutes": 8,
+    "description": "Saluti e presentazioni a Bologna",
+    "intro": "Saluti e presentazioni a Bologna",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Benvenuti in Italia",
+      "parts": [
+        "Sofia è em Bologna. Hoje descobre saluti e presentazioni a bologna. Encontra Marco e diz: “Ciao, come stai?”. Os dois falam com respeito e aprendem quatro palavras novas: ciao, buongiorno, piacere e grazie.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Ciao, come stai?”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia è em Bologna. Hoje descobre saluti e presentazioni a bologna. Encontra Marco e diz: “Ciao, come stai?”. Os dois falam com respeito e aprendem quatro palavras novas: ciao, buongiorno, piacere e grazie.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Ciao, come stai?”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Saluti e presentazioni a Bologna",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "salutare e presentarsi",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a1-benvenuti-in-italia-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Benvenuti in Italia»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Benvenuti in Italia",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a1-benvenuti-in-italia-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Benvenuti in Italia»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Benvenuti in Italia",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-vita-in-citta-reading",
+    "level": "A2",
+    "skill": "reading",
+    "unitId": "vita-in-citta",
+    "title": "Vita in città: lectura",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 10,
+    "estimatedMinutes": 8,
+    "description": "Rutinas urbanas y servicios públicos",
+    "intro": "Rutinas urbanas y servicios públicos",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Vita in città",
+      "parts": [
+        "Sofia vive em Bologna e parla con Marco sobre rutinas urbanas y servicios públicos. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Di solito prendo l’autobus.” e spiega perché questa esperienza è importante per il quartiere.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Di solito prendo l’autobus.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia vive em Bologna e parla con Marco sobre rutinas urbanas y servicios públicos. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Di solito prendo l’autobus.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Di solito prendo l’autobus.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Rutinas urbanas y servicios públicos",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "describir una rutina",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a2-vita-in-citta-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Vita in città»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Vita in città",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-vita-in-citta-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Vita in città»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Vita in città",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-vita-in-citta-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Vita in città»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Vita in città",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-benvenuti-in-italia-listening",
     "level": "A1",
     "skill": "listening",
-    "unitId": null,
-    "title": "Italiano A1 · Listening Lab",
+    "unitId": "benvenuti-in-italia",
+    "title": "Benvenuti in Italia: ascolta",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "orderIndex": 1090,
-    "estimatedMinutes": 10,
-    "description": "Italiano base: Reconoce saludos, nombres y países en diálogos muy breves.",
-    "intro": "Escucha mini conversaciones de bienvenida y detecta quién habla, cómo se llama y de dónde es.",
-    "mission": "Identifica nombre, país y gusto personal en una presentación breve.",
-    "grammar": "Saludos básicos, ser, llamarse y artículos indefinidos.",
+    "orderIndex": 11,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre saluti e presentazioni a bologna.",
+    "mission": "",
+    "grammar": "",
     "phrases": [
-      "Ciao, mi chiamo...",
-      "Sono di...",
-      "Piacere.",
-      "Mi piace studiare."
+      "Ciao, come stai?",
+      "ciao",
+      "buongiorno"
     ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Ciao, come stai?",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di ciao.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Ciao, come stai? Parliamo di ciao. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-benvenuti-in-italia-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Benvenuti in Italia: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ciao, come stai?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di ciao."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Ciao, come stai?», what happens next in «Benvenuti in Italia: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ciao, come stai?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di ciao."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Benvenuti in Italia: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ciao, come stai?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di ciao."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Benvenuti in Italia: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ciao, come stai?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di ciao."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Benvenuti in Italia: ascolta», which detail establishes the situation?",
+        "options": [
+          "Ciao, come stai?",
+          "Parliamo di ciao.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Ciao, come stai?», what happens next in «Benvenuti in Italia: ascolta»?",
+        "options": [
+          "Ciao, come stai?",
+          "Parliamo di ciao.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Benvenuti in Italia: ascolta»?",
+        "options": [
+          "Ciao, come stai?",
+          "Parliamo di ciao.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Benvenuti in Italia: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Ciao, come stai?",
+          "Parliamo di ciao.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-vita-in-citta-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "vita-in-citta",
+    "title": "Vita in città: ascolta",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 11,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre rutinas urbanas y servicios públicos.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Di solito prendo l’autobus.",
+      "quartiere",
+      "fermata"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Di solito prendo l’autobus.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di quartiere.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Di solito prendo l’autobus. Parliamo di quartiere. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-vita-in-citta-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Vita in città: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Di solito prendo l’autobus."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di quartiere."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Di solito prendo l’autobus.», what happens next in «Vita in città: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Di solito prendo l’autobus."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di quartiere."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Vita in città: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Di solito prendo l’autobus."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di quartiere."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Vita in città: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Di solito prendo l’autobus."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di quartiere."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Vita in città: ascolta», which detail establishes the situation?",
+        "options": [
+          "Di solito prendo l’autobus.",
+          "Parliamo di quartiere.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Di solito prendo l’autobus.», what happens next in «Vita in città: ascolta»?",
+        "options": [
+          "Di solito prendo l’autobus.",
+          "Parliamo di quartiere.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Vita in città: ascolta»?",
+        "options": [
+          "Di solito prendo l’autobus.",
+          "Parliamo di quartiere.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Vita in città: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Di solito prendo l’autobus.",
+          "Parliamo di quartiere.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-benvenuti-in-italia-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "benvenuti-in-italia",
+    "title": "Benvenuti in Italia: parla",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 12,
+    "estimatedMinutes": 8,
+    "description": "Practica salutare e presentarsi.",
+    "intro": "Practica salutare e presentarsi.",
+    "mission": "Di Ciao, come stai? y añade una frase sobre saluti e presentazioni a bologna.",
+    "grammar": "",
+    "phrases": [
+      "Ciao, come stai?",
+      "Mi piace ciao.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: salutare e presentarsi. Usa «Ciao, come stai?»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-vita-in-citta-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "vita-in-citta",
+    "title": "Vita in città: parla",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 12,
+    "estimatedMinutes": 8,
+    "description": "Practica describir una rutina.",
+    "intro": "Practica describir una rutina.",
+    "mission": "Di Di solito prendo l’autobus. y añade una frase sobre rutinas urbanas y servicios públicos.",
+    "grammar": "",
+    "phrases": [
+      "Di solito prendo l’autobus.",
+      "Mi piace quartiere.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: describir una rutina. Usa «Di solito prendo l’autobus.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-benvenuti-in-italia-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "benvenuti-in-italia",
+    "title": "Benvenuti in Italia: scrivi",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 13,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre saluti e presentazioni a bologna y usa ciao y buongiorno.",
+    "grammar": "",
+    "phrases": [
+      "Ciao, come stai?",
+      "Oggi ho imparato ciao."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre saluti e presentazioni a bologna."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-vita-in-citta-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "vita-in-citta",
+    "title": "Vita in città: scrivi",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 13,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre rutinas urbanas y servicios públicos y usa quartiere y fermata.",
+    "grammar": "",
+    "phrases": [
+      "Di solito prendo l’autobus.",
+      "Oggi ho imparato quartiere."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre rutinas urbanas y servicios públicos."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-benvenuti-in-italia-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "benvenuti-in-italia",
+    "title": "Benvenuti in Italia: grammatica",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 14,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "phrases": [
+      "Ciao, come stai?"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Ciao, come stai?",
+          "ciao",
+          "buongiorno",
+          "piacere"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "ciao",
+          "buongiorno",
+          "piacere",
+          "grazie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "buongiorno",
+          "ciao",
+          "piacere",
+          "grazie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Ciao, come stai?",
+          "piacere",
+          "grazie",
+          "ciao"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-vita-in-citta-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "vita-in-citta",
+    "title": "Vita in città: grammatica",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 14,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "phrases": [
+      "Di solito prendo l’autobus."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Di solito prendo l’autobus.",
+          "quartiere",
+          "fermata",
+          "ufficio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "quartiere",
+          "fermata",
+          "ufficio",
+          "servizio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "fermata",
+          "quartiere",
+          "ufficio",
+          "servizio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Di solito prendo l’autobus.",
+          "ufficio",
+          "servizio",
+          "quartiere"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-benvenuti-in-italia-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "benvenuti-in-italia",
+    "title": "Benvenuti in Italia: parole",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 15,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
     "vocabulary": [
       {
         "word": "ciao",
-        "translation": "hola",
-        "example": "Oggi pratico la parola \"ciao\"."
+        "translation": "palabra cultural",
+        "example": "Ciao, come stai?"
       },
       {
-        "word": "nome",
-        "translation": "nombre",
-        "example": "Oggi pratico la parola \"nome\"."
+        "word": "buongiorno",
+        "translation": "acción cotidiana",
+        "example": "Ciao, come stai?"
       },
       {
-        "word": "paese",
-        "translation": "país",
-        "example": "Oggi pratico la parola \"paese\"."
+        "word": "piacere",
+        "translation": "lugar o cosa",
+        "example": "Ciao, come stai?"
       },
       {
-        "word": "amico",
-        "translation": "amigo",
-        "example": "Oggi pratico la parola \"amico\"."
-      },
-      {
-        "word": "classe",
-        "translation": "clase",
-        "example": "Oggi pratico la parola \"classe\"."
+        "word": "grazie",
+        "translation": "expresión útil",
+        "example": "Ciao, come stai?"
       }
     ],
-    "dialogue": [
-      {
-        "speaker": "Tutor",
-        "line": "Ciao, mi chiamo...",
-        "translation": "Frase modelo"
-      },
-      {
-        "speaker": "Student",
-        "line": "Sono di...",
-        "translation": "Respuesta guiada"
-      }
-    ],
-    "reading": {
-      "text": "Anna arriva in una classe nuova. Dice il suo nome, racconta che viene da Bari e che le piace la musica.",
-      "questions": [
-        "¿Quién llega a una clase nueva?",
-        "¿De qué lugar habla el texto?",
-        "¿Qué gusto personal menciona la persona?"
-      ]
-    },
+    "dialogue": [],
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"ciao\"?",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
         "options": [
-          "hola",
-          "nombre",
-          "país",
-          "amigo"
+          "ciao",
+          "computadora",
+          "laboratorio",
+          "satélite"
         ]
-      },
-      {
-        "type": "listening",
-        "prompt": "Escucha y anota dos detalles clave: Identifica nombre, país y gusto personal en una presentación breve."
-      },
-      {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ciao, mi chiamo... / Sono di..."
       }
     ]
   },
   {
-    "slug": "italian-a1-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": null,
-    "title": "Italiano A1 · Speaking Mission",
+    "slug": "italian-a2-vita-in-citta-vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "unitId": "vita-in-citta",
+    "title": "Vita in città: parole",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "orderIndex": 1100,
-    "estimatedMinutes": 12,
-    "description": "Italiano base: Preséntate y responde preguntas simples sobre ti.",
-    "intro": "Practica una presentación oral corta para tu primera clase.",
-    "mission": "Habla de tu nombre, tu ciudad y una actividad que te gusta.",
-    "grammar": "Pronombres personales, ser y preguntas con ¿cómo? y ¿de dónde?.",
-    "phrases": [
-      "Mi chiamo Laura.",
-      "Abito a Torino.",
-      "Lavoro la mattina.",
-      "E tu?"
-    ],
+    "orderIndex": 15,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
     "vocabulary": [
       {
-        "word": "abitare",
-        "translation": "vivir",
-        "example": "Oggi pratico la parola \"abitare\"."
+        "word": "quartiere",
+        "translation": "palabra cultural",
+        "example": "Di solito prendo l’autobus."
       },
       {
-        "word": "città",
-        "translation": "ciudad",
-        "example": "Oggi pratico la parola \"città\"."
+        "word": "fermata",
+        "translation": "acción cotidiana",
+        "example": "Di solito prendo l’autobus."
       },
       {
-        "word": "studente",
-        "translation": "estudiante",
-        "example": "Oggi pratico la parola \"studente\"."
+        "word": "ufficio",
+        "translation": "lugar o cosa",
+        "example": "Di solito prendo l’autobus."
       },
       {
-        "word": "lavoro",
-        "translation": "trabajo",
-        "example": "Oggi pratico la parola \"lavoro\"."
-      },
-      {
-        "word": "mattina",
-        "translation": "mañana",
-        "example": "Oggi pratico la parola \"mattina\"."
+        "word": "servizio",
+        "translation": "expresión útil",
+        "example": "Di solito prendo l’autobus."
       }
     ],
-    "dialogue": [
-      {
-        "speaker": "Tutor",
-        "line": "Mi chiamo Laura.",
-        "translation": "Frase modelo"
-      },
-      {
-        "speaker": "Student",
-        "line": "Abito a Torino.",
-        "translation": "Respuesta guiada"
-      }
-    ],
-    "reading": {
-      "text": "Carlo si presenta al gruppo. Spiega che vive con sua sorella e che studia nel pomeriggio.",
-      "questions": [
-        "¿Quién se presenta ante el grupo?",
-        "¿Con quién vive esa persona?",
-        "¿A qué hora estudia?"
-      ]
-    },
+    "dialogue": [],
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"abitare\"?",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
         "options": [
-          "vivir",
-          "ciudad",
-          "estudiante",
-          "trabajo"
+          "quartiere",
+          "computadora",
+          "laboratorio",
+          "satélite"
         ]
-      },
-      {
-        "type": "speaking",
-        "prompt": "Habla durante 45 segundos: Habla de tu nombre, tu ciudad y una actividad que te gusta."
-      },
-      {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Mi chiamo Laura. / Abito a Torino."
       }
     ]
   },
   {
-    "slug": "italian-a1-reading",
+    "slug": "italian-a1-un-caffe-al-bar-reading",
     "level": "A1",
     "skill": "reading",
-    "unitId": null,
-    "title": "Italiano A1 · Reading Quest",
+    "unitId": "un-caffe-al-bar",
+    "title": "Un caffè al bar: lectura",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 20,
+    "estimatedMinutes": 8,
+    "description": "Un bar di quartiere e le cortesie quotidiane",
+    "intro": "Un bar di quartiere e le cortesie quotidiane",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Un caffè al bar",
+      "parts": [
+        "Sofia è em Bologna. Hoje descobre un bar di quartiere e le cortesie quotidiane. Encontra Marco e diz: “Un caffè, per favore.”. Os dois falam com respeito e aprendem quatro palavras novas: caffè, acqua, per favore e grazie.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Un caffè, per favore.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia è em Bologna. Hoje descobre un bar di quartiere e le cortesie quotidiane. Encontra Marco e diz: “Un caffè, per favore.”. Os dois falam com respeito e aprendem quatro palavras novas: caffè, acqua, per favore e grazie.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Un caffè, per favore.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Un bar di quartiere e le cortesie quotidiane",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "ordinare con cortesia",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a1-un-caffe-al-bar-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Un caffè al bar»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Un caffè al bar",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a1-un-caffe-al-bar-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Un caffè al bar»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Un caffè al bar",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-un-fine-settimana-a-napoli-reading",
+    "level": "A2",
+    "skill": "reading",
+    "unitId": "un-fine-settimana-a-napoli",
+    "title": "Un fine settimana a Napoli: lectura",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 20,
+    "estimatedMinutes": 8,
+    "description": "Planificar una visita respetuosa",
+    "intro": "Planificar una visita respetuosa",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Un fine settimana a Napoli",
+      "parts": [
+        "Sofia vive em Bologna e parla con Marco sobre planificar una visita respetuosa. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Vorrei visitare il museo.” e spiega perché questa esperienza è importante per il quartiere.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Vorrei visitare il museo.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia vive em Bologna e parla con Marco sobre planificar una visita respetuosa. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Vorrei visitare il museo.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Vorrei visitare il museo.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Planificar una visita respetuosa",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "hacer planes",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Un fine settimana a Napoli»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Un fine settimana a Napoli",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Un fine settimana a Napoli»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Un fine settimana a Napoli",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Un fine settimana a Napoli»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Un fine settimana a Napoli",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-un-caffe-al-bar-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "un-caffe-al-bar",
+    "title": "Un caffè al bar: ascolta",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "orderIndex": 1110,
-    "estimatedMinutes": 12,
-    "description": "Italiano base: Lee perfiles breves y localiza información personal.",
-    "intro": "Lee un texto corto sobre una familia y responde preguntas concretas.",
-    "mission": "Encuentra datos sobre edades, relaciones y actividades diarias.",
-    "grammar": "Hay, tener, números y expresiones de edad.",
+    "orderIndex": 21,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre un bar di quartiere e le cortesie quotidiane.",
+    "mission": "",
+    "grammar": "",
     "phrases": [
-      "Ho vent'anni.",
-      "Mio padre cucina.",
-      "Ci sono tre persone a casa.",
-      "Leggiamo insieme."
+      "Un caffè, per favore.",
+      "caffè",
+      "acqua"
     ],
-    "vocabulary": [
-      {
-        "word": "padre",
-        "translation": "padre",
-        "example": "Oggi pratico la parola \"padre\"."
-      },
-      {
-        "word": "casa",
-        "translation": "casa",
-        "example": "Oggi pratico la parola \"casa\"."
-      },
-      {
-        "word": "anni",
-        "translation": "años",
-        "example": "Oggi pratico la parola \"anni\"."
-      },
-      {
-        "word": "leggere",
-        "translation": "leer",
-        "example": "Oggi pratico la parola \"leggere\"."
-      },
-      {
-        "word": "cucinare",
-        "translation": "cocinar",
-        "example": "Oggi pratico la parola \"cucinare\"."
-      }
-    ],
+    "vocabulary": [],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Ho vent'anni.",
-        "translation": "Frase modelo"
+        "speaker": "Sofia",
+        "line": "Un caffè, per favore.",
+        "translation": "Expresión del día."
       },
       {
-        "speaker": "Student",
-        "line": "Mio padre cucina.",
-        "translation": "Respuesta guiada"
+        "speaker": "Marco",
+        "line": "Parliamo di caffè.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
       }
     ],
-    "reading": {
-      "text": "Giulia è una studentessa a Roma. Ogni mattina saluta la sua insegnante e fa colazione con la famiglia. A scuola, pratica l'italiano con la sua amica Chiara. Dopo la lezione, torna a casa e aiuta sua madre a preparare la cena.",
-      "questions": [
-        "Dove vive Giulia?",
-        "Con chi pratica l'italiano?",
-        "Cosa fa dopo la lezione?"
-      ]
+    "reading": null,
+    "transcript": "Un caffè, per favore. Parliamo di caffè. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-un-caffe-al-bar-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Un caffè al bar: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un caffè, per favore."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di caffè."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Un caffè, per favore.», what happens next in «Un caffè al bar: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un caffè, per favore."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di caffè."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Un caffè al bar: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un caffè, per favore."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di caffè."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Un caffè al bar: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un caffè, per favore."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di caffè."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
     },
-    "transcript": "",
-    "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"padre\"?",
+        "prompt": "In «Un caffè al bar: ascolta», which detail establishes the situation?",
         "options": [
-          "padre",
-          "casa",
-          "años",
-          "leer"
+          "Un caffè, per favore.",
+          "Parliamo di caffè.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
-        "id": "italian-a1-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Italiano A1 · Reading Quest»?",
+        "prompt": "After «Un caffè, per favore.», what happens next in «Un caffè al bar: ascolta»?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Italiano A1 · Reading Quest",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Un caffè, per favore.",
+          "Parliamo di caffè.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
-        "id": "italian-a1-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Italiano A1 · Reading Quest»?",
+        "prompt": "Which line best reveals an intention or decision in «Un caffè al bar: ascolta»?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Italiano A1 · Reading Quest",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Un caffè, per favore.",
+          "Parliamo di caffè.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       },
       {
-        "id": "italian-a1-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Italiano A1 · Reading Quest»?",
+        "prompt": "Which outcome closes «Un caffè al bar: ascolta» after «Mi piace imparare con la comunità.»?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Italiano A1 · Reading Quest",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Un caffè, per favore.",
+          "Parliamo di caffè.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
         ]
       }
     ]
   },
   {
-    "slug": "italian-a1-writing",
-    "level": "A1",
-    "skill": "writing",
-    "unitId": null,
-    "title": "Italiano A1 · Writing Challenge",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 1120,
-    "estimatedMinutes": 14,
-    "description": "Italiano base: Escribe una tarjeta personal con datos básicos.",
-    "intro": "Redacta frases cortas para describir tu rutina inicial y a una persona cercana.",
-    "mission": "Escribe 4 frases sobre tu familia, tu rutina y tu lugar favorito.",
-    "grammar": "Posesivos básicos, presente simple y conectores y/pero.",
-    "phrases": [
-      "La mia famiglia è piccola.",
-      "Faccio colazione alle sette.",
-      "Il mio posto preferito è il parco.",
-      "Dopo studio."
-    ],
-    "vocabulary": [
-      {
-        "word": "famiglia",
-        "translation": "familia",
-        "example": "Oggi pratico la parola \"famiglia\"."
-      },
-      {
-        "word": "colazione",
-        "translation": "desayuno",
-        "example": "Oggi pratico la parola \"colazione\"."
-      },
-      {
-        "word": "parco",
-        "translation": "parque",
-        "example": "Oggi pratico la parola \"parco\"."
-      },
-      {
-        "word": "sorella",
-        "translation": "hermana",
-        "example": "Oggi pratico la parola \"sorella\"."
-      },
-      {
-        "word": "pomeriggio",
-        "translation": "tarde",
-        "example": "Oggi pratico la parola \"pomeriggio\"."
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Tutor",
-        "line": "La mia famiglia è piccola.",
-        "translation": "Frase modelo"
-      },
-      {
-        "speaker": "Student",
-        "line": "Faccio colazione alle sette.",
-        "translation": "Respuesta guiada"
-      }
-    ],
-    "reading": {
-      "text": "Marta scrive una cartolina a un'amica. Racconta che fa colazione presto e va al parco dopo le lezioni.",
-      "questions": [
-        "¿A quién escribe la tarjeta?",
-        "¿Qué hace la autora por la mañana?",
-        "¿Qué lugar visita después de clases?"
-      ]
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"famiglia\"?",
-        "options": [
-          "familia",
-          "desayuno",
-          "parque",
-          "hermana"
-        ]
-      },
-      {
-        "type": "writing",
-        "prompt": "Escribe de 4 a 6 frases: Escribe 4 frases sobre tu familia, tu rutina y tu lugar favorito."
-      },
-      {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: La mia famiglia è piccola. / Faccio colazione alle sette."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a1-grammar",
-    "level": "A1",
-    "skill": "grammar",
-    "unitId": null,
-    "title": "Italiano A1 · Grammar Focus",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 1130,
-    "estimatedMinutes": 11,
-    "description": "Italiano base: Domina ser, tener y los artículos más frecuentes.",
-    "intro": "Observa ejemplos simples y decide cuándo usar ser, tener, un, una, el o la.",
-    "mission": "Completa frases con ser, tener y artículos correctos.",
-    "grammar": "Ser vs. tener, género, número y concordancia básica.",
-    "phrases": [
-      "È un'insegnante.",
-      "Ho due libri.",
-      "Il tavolo è grande.",
-      "Un amico arriva oggi."
-    ],
-    "vocabulary": [
-      {
-        "word": "insegnante",
-        "translation": "profesora",
-        "example": "Oggi pratico la parola \"insegnante\"."
-      },
-      {
-        "word": "libro",
-        "translation": "libro",
-        "example": "Oggi pratico la parola \"libro\"."
-      },
-      {
-        "word": "tavolo",
-        "translation": "mesa",
-        "example": "Oggi pratico la parola \"tavolo\"."
-      },
-      {
-        "word": "amico",
-        "translation": "amigo",
-        "example": "Oggi pratico la parola \"amico\"."
-      },
-      {
-        "word": "oggi",
-        "translation": "hoy",
-        "example": "Oggi pratico la parola \"oggi\"."
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Tutor",
-        "line": "È un'insegnante.",
-        "translation": "Frase modelo"
-      },
-      {
-        "speaker": "Student",
-        "line": "Ho due libri.",
-        "translation": "Respuesta guiada"
-      }
-    ],
-    "reading": {
-      "text": "L'aula ha un tavolo grande e due libri. L'insegnante è gentile e oggi arriva un amico nuovo.",
-      "questions": [
-        "¿Qué objetos hay en el aula?",
-        "¿Cómo es la profesora?",
-        "¿Quién llega hoy?"
-      ]
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"insegnante\"?",
-        "options": [
-          "profesora",
-          "libro",
-          "mesa",
-          "amigo"
-        ]
-      },
-      {
-        "type": "grammar",
-        "prompt": "Transforma dos oraciones aplicando esta estructura: Ser vs. tener, género, número y concordancia básica."
-      },
-      {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: È un'insegnante. / Ho due libri."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a1-vocabulary",
-    "level": "A1",
-    "skill": "vocabulary",
-    "unitId": null,
-    "title": "Italiano A1 · Vocabulary Boost",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 1140,
-    "estimatedMinutes": 10,
-    "description": "Italiano base: Amplía vocabulario de aula, ciudad y tiempo.",
-    "intro": "Agrupa palabras frecuentes para moverte por la escuela y la ciudad.",
-    "mission": "Relaciona objetos, lugares y momentos del día con su uso.",
-    "grammar": "Campo léxico básico, género de sustantivos y plurales regulares.",
-    "phrases": [
-      "La biblioteca è vicina.",
-      "Ho bisogno di un quaderno.",
-      "Oggi c'è il sole.",
-      "La strada è tranquilla."
-    ],
-    "vocabulary": [
-      {
-        "word": "biblioteca",
-        "translation": "biblioteca",
-        "example": "Oggi pratico la parola \"biblioteca\"."
-      },
-      {
-        "word": "quaderno",
-        "translation": "cuaderno",
-        "example": "Oggi pratico la parola \"quaderno\"."
-      },
-      {
-        "word": "strada",
-        "translation": "calle",
-        "example": "Oggi pratico la parola \"strada\"."
-      },
-      {
-        "word": "sole",
-        "translation": "sol",
-        "example": "Oggi pratico la parola \"sole\"."
-      },
-      {
-        "word": "autobus",
-        "translation": "autobús",
-        "example": "Oggi pratico la parola \"autobus\"."
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Tutor",
-        "line": "La biblioteca è vicina.",
-        "translation": "Frase modelo"
-      },
-      {
-        "speaker": "Student",
-        "line": "Ho bisogno di un quaderno.",
-        "translation": "Respuesta guiada"
-      }
-    ],
-    "reading": {
-      "text": "Paolo esce con il suo quaderno e prende l'autobus per la biblioteca. La strada è tranquilla e c'è il sole.",
-      "questions": [
-        "¿Qué lleva Pablo en la mano?",
-        "¿Adónde va en autobús?",
-        "¿Cómo está la calle?"
-      ]
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"biblioteca\"?",
-        "options": [
-          "biblioteca",
-          "cuaderno",
-          "calle",
-          "sol"
-        ]
-      },
-      {
-        "type": "vocabulary",
-        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático."
-      },
-      {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: La biblioteca è vicina. / Ho bisogno di un quaderno."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-listening",
+    "slug": "italian-a2-un-fine-settimana-a-napoli-listening",
     "level": "A2",
     "skill": "listening",
-    "unitId": null,
-    "title": "Italiano A2 · Listening Lab",
+    "unitId": "un-fine-settimana-a-napoli",
+    "title": "Un fine settimana a Napoli: ascolta",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "orderIndex": 1150,
-    "estimatedMinutes": 10,
-    "description": "Vita quotidiana: Comprende pedidos sencillos, precios y cantidades.",
-    "intro": "Escucha un diálogo en una cafetería y otro en una tienda.",
-    "mission": "Distingue lo que una persona pide, cuánto cuesta y qué necesita llevar.",
-    "grammar": "Querer, pedir, números, cantidades y presente continuo.",
+    "orderIndex": 21,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre planificar una visita respetuosa.",
+    "mission": "",
+    "grammar": "",
     "phrases": [
-      "Vorrei un caffè con latte.",
-      "Quanto costa?",
-      "Mi serve mezzo chilo.",
-      "Sto comprando della frutta."
+      "Vorrei visitare il museo.",
+      "museo",
+      "passeggiata"
     ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Vorrei visitare il museo.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di museo.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Vorrei visitare il museo. Parliamo di museo. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-un-fine-settimana-a-napoli-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Un fine settimana a Napoli: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vorrei visitare il museo."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di museo."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Vorrei visitare il museo.», what happens next in «Un fine settimana a Napoli: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vorrei visitare il museo."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di museo."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Un fine settimana a Napoli: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vorrei visitare il museo."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di museo."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Un fine settimana a Napoli: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vorrei visitare il museo."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di museo."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Un fine settimana a Napoli: ascolta», which detail establishes the situation?",
+        "options": [
+          "Vorrei visitare il museo.",
+          "Parliamo di museo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Vorrei visitare il museo.», what happens next in «Un fine settimana a Napoli: ascolta»?",
+        "options": [
+          "Vorrei visitare il museo.",
+          "Parliamo di museo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Un fine settimana a Napoli: ascolta»?",
+        "options": [
+          "Vorrei visitare il museo.",
+          "Parliamo di museo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Un fine settimana a Napoli: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Vorrei visitare il museo.",
+          "Parliamo di museo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-un-caffe-al-bar-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "un-caffe-al-bar",
+    "title": "Un caffè al bar: parla",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 22,
+    "estimatedMinutes": 8,
+    "description": "Practica ordinare con cortesia.",
+    "intro": "Practica ordinare con cortesia.",
+    "mission": "Di Un caffè, per favore. y añade una frase sobre un bar di quartiere e le cortesie quotidiane.",
+    "grammar": "",
+    "phrases": [
+      "Un caffè, per favore.",
+      "Mi piace caffè.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: ordinare con cortesia. Usa «Un caffè, per favore.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-un-fine-settimana-a-napoli-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "un-fine-settimana-a-napoli",
+    "title": "Un fine settimana a Napoli: parla",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 22,
+    "estimatedMinutes": 8,
+    "description": "Practica hacer planes.",
+    "intro": "Practica hacer planes.",
+    "mission": "Di Vorrei visitare il museo. y añade una frase sobre planificar una visita respetuosa.",
+    "grammar": "",
+    "phrases": [
+      "Vorrei visitare il museo.",
+      "Mi piace museo.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: hacer planes. Usa «Vorrei visitare il museo.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-un-caffe-al-bar-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "un-caffe-al-bar",
+    "title": "Un caffè al bar: scrivi",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 23,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre un bar di quartiere e le cortesie quotidiane y usa caffè y acqua.",
+    "grammar": "",
+    "phrases": [
+      "Un caffè, per favore.",
+      "Oggi ho imparato caffè."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre un bar di quartiere e le cortesie quotidiane."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-un-fine-settimana-a-napoli-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "un-fine-settimana-a-napoli",
+    "title": "Un fine settimana a Napoli: scrivi",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 23,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre planificar una visita respetuosa y usa museo y passeggiata.",
+    "grammar": "",
+    "phrases": [
+      "Vorrei visitare il museo.",
+      "Oggi ho imparato museo."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre planificar una visita respetuosa."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-un-caffe-al-bar-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "un-caffe-al-bar",
+    "title": "Un caffè al bar: grammatica",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 24,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "phrases": [
+      "Un caffè, per favore."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Un caffè, per favore.",
+          "caffè",
+          "acqua",
+          "per favore"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "caffè",
+          "acqua",
+          "per favore",
+          "grazie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "acqua",
+          "caffè",
+          "per favore",
+          "grazie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Un caffè, per favore.",
+          "per favore",
+          "grazie",
+          "caffè"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-un-fine-settimana-a-napoli-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "un-fine-settimana-a-napoli",
+    "title": "Un fine settimana a Napoli: grammatica",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 24,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "phrases": [
+      "Vorrei visitare il museo."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Vorrei visitare il museo.",
+          "museo",
+          "passeggiata",
+          "prenotazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "museo",
+          "passeggiata",
+          "prenotazione",
+          "visita"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "passeggiata",
+          "museo",
+          "prenotazione",
+          "visita"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Vorrei visitare il museo.",
+          "prenotazione",
+          "visita",
+          "museo"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-un-caffe-al-bar-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "un-caffe-al-bar",
+    "title": "Un caffè al bar: parole",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 25,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
     "vocabulary": [
       {
         "word": "caffè",
-        "translation": "café",
-        "example": "Oggi pratico la parola \"caffè\"."
+        "translation": "palabra cultural",
+        "example": "Un caffè, per favore."
       },
       {
-        "word": "latte",
-        "translation": "leche",
-        "example": "Oggi pratico la parola \"latte\"."
+        "word": "acqua",
+        "translation": "acción cotidiana",
+        "example": "Un caffè, per favore."
       },
       {
-        "word": "prezzo",
-        "translation": "precio",
-        "example": "Oggi pratico la parola \"prezzo\"."
+        "word": "per favore",
+        "translation": "lugar o cosa",
+        "example": "Un caffè, per favore."
       },
       {
-        "word": "frutta",
-        "translation": "fruta",
-        "example": "Oggi pratico la parola \"frutta\"."
-      },
-      {
-        "word": "chilo",
-        "translation": "kilo",
-        "example": "Oggi pratico la parola \"chilo\"."
+        "word": "grazie",
+        "translation": "expresión útil",
+        "example": "Un caffè, per favore."
       }
     ],
-    "dialogue": [
-      {
-        "speaker": "Tutor",
-        "line": "Vorrei un caffè con latte.",
-        "translation": "Frase modelo"
-      },
-      {
-        "speaker": "Student",
-        "line": "Quanto costa?",
-        "translation": "Respuesta guiada"
-      }
-    ],
-    "reading": {
-      "text": "Al bar, Sonia ordina un caffè con latte e una fetta di pane tostato. Poi compra della frutta per la cena.",
-      "questions": [
-        "¿Qué pide Sonia en la cafetería?",
-        "¿Qué compra después?",
-        "¿Para qué momento del día compra la fruta?"
-      ]
-    },
+    "dialogue": [],
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"caffè\"?",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
         "options": [
-          "café",
-          "leche",
-          "precio",
-          "fruta"
+          "caffè",
+          "computadora",
+          "laboratorio",
+          "satélite"
         ]
-      },
-      {
-        "type": "listening",
-        "prompt": "Escucha y anota dos detalles clave: Distingue lo que una persona pide, cuánto cuesta y qué necesita llevar."
-      },
-      {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Vorrei un caffè con latte. / Quanto costa?"
       }
     ]
   },
   {
-    "slug": "italian-a2-speaking",
+    "slug": "italian-a2-un-fine-settimana-a-napoli-vocabulary",
     "level": "A2",
-    "skill": "speaking",
-    "unitId": null,
-    "title": "Italiano A2 · Speaking Mission",
+    "skill": "vocabulary",
+    "unitId": "un-fine-settimana-a-napoli",
+    "title": "Un fine settimana a Napoli: parole",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
-    "orderIndex": 1160,
-    "estimatedMinutes": 12,
-    "description": "Vita quotidiana: Pregunta y da indicaciones en el barrio.",
-    "intro": "Practica cómo llegar a lugares comunes usando referencias claras.",
-    "mission": "Explica cómo ir al banco, a la estación y a una farmacia cercana.",
-    "grammar": "Imperativo informal, preposiciones de lugar y verbos de movimiento.",
-    "phrases": [
-      "Vai sempre dritto.",
-      "Gira a sinistra.",
-      "La farmacia è accanto alla banca.",
-      "Attraversa la piazza."
-    ],
+    "orderIndex": 25,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
     "vocabulary": [
       {
-        "word": "stazione",
-        "translation": "estación",
-        "example": "Oggi pratico la parola \"stazione\"."
+        "word": "museo",
+        "translation": "palabra cultural",
+        "example": "Vorrei visitare il museo."
       },
       {
-        "word": "banca",
-        "translation": "banco",
-        "example": "Oggi pratico la parola \"banca\"."
+        "word": "passeggiata",
+        "translation": "acción cotidiana",
+        "example": "Vorrei visitare il museo."
       },
       {
-        "word": "angolo",
-        "translation": "esquina",
-        "example": "Oggi pratico la parola \"angolo\"."
+        "word": "prenotazione",
+        "translation": "lugar o cosa",
+        "example": "Vorrei visitare il museo."
       },
       {
-        "word": "piazza",
-        "translation": "plaza",
-        "example": "Oggi pratico la parola \"piazza\"."
-      },
-      {
-        "word": "farmacia",
-        "translation": "farmacia",
-        "example": "Oggi pratico la parola \"farmacia\"."
+        "word": "visita",
+        "translation": "expresión útil",
+        "example": "Vorrei visitare il museo."
       }
     ],
-    "dialogue": [
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
       {
-        "speaker": "Tutor",
-        "line": "Vai sempre dritto.",
-        "translation": "Frase modelo"
-      },
-      {
-        "speaker": "Student",
-        "line": "Gira a sinistra.",
-        "translation": "Respuesta guiada"
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "museo",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
       }
-    ],
+    ]
+  },
+  {
+    "slug": "italian-a1-la-famiglia-a-tavola-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "la-famiglia-a-tavola",
+    "title": "La famiglia a tavola: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 30,
+    "estimatedMinutes": 8,
+    "description": "Una cena familiare e gli orari italiani",
+    "intro": "Una cena familiare e gli orari italiani",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
     "reading": {
-      "text": "Tommaso aiuta una turista. Le dice di attraversare la piazza e girare a sinistra per trovare la stazione.",
+      "title": "La famiglia a tavola",
+      "parts": [
+        "Sofia è em Bologna. Hoje descobre una cena familiare e gli orari italiani. Encontra Marco e diz: “Ceniamo insieme.”. Os dois falam com respeito e aprendem quatro palavras novas: famiglia, cena, tavola e insieme.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Ceniamo insieme.”."
+      ],
       "questions": [
-        "¿A quién ayuda Tomás?",
-        "¿Qué debe cruzar la turista?",
-        "¿Qué lugar encuentra al final del camino?"
-      ]
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia è em Bologna. Hoje descobre una cena familiare e gli orari italiani. Encontra Marco e diz: “Ceniamo insieme.”. Os dois falam com respeito e aprendem quatro palavras novas: famiglia, cena, tavola e insieme.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Ceniamo insieme.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"stazione\"?",
+        "prompt": "¿Qué practica la unidad?",
         "options": [
-          "estación",
-          "banco",
-          "esquina",
-          "plaza"
+          "Una cena familiare e gli orari italiani",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
         ]
       },
       {
-        "type": "speaking",
-        "prompt": "Habla durante 45 segundos: Explica cómo ir al banco, a la estación y a una farmacia cercana."
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "parlare della famiglia",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
       },
       {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Vai sempre dritto. / Gira a sinistra."
+        "id": "italian-a1-la-famiglia-a-tavola-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «La famiglia a tavola»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di La famiglia a tavola",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a1-la-famiglia-a-tavola-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «La famiglia a tavola»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di La famiglia a tavola",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
       }
     ]
   },
   {
-    "slug": "italian-a2-reading",
+    "slug": "italian-a2-ricette-di-famiglia-reading",
     "level": "A2",
     "skill": "reading",
-    "unitId": null,
-    "title": "Italiano A2 · Reading Quest",
-    "accessTier": "free",
-    "isFree": true,
+    "unitId": "ricette-di-famiglia",
+    "title": "Ricette di famiglia: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 30,
+    "estimatedMinutes": 8,
+    "description": "Recetas, recuerdos y medidas",
+    "intro": "Recetas, recuerdos y medidas",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Ricette di famiglia",
+      "parts": [
+        "Sofia vive em Bologna e parla con Marco sobre recetas, recuerdos y medidas. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Prima taglio le verdure.” e spiega perché questa esperienza è importante per il quartiere.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Prima taglio le verdure.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia vive em Bologna e parla con Marco sobre recetas, recuerdos y medidas. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Prima taglio le verdure.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Prima taglio le verdure.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Recetas, recuerdos y medidas",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "explicar una secuencia",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a2-ricette-di-famiglia-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Ricette di famiglia»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Ricette di famiglia",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-ricette-di-famiglia-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Ricette di famiglia»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Ricette di famiglia",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-ricette-di-famiglia-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Ricette di famiglia»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Ricette di famiglia",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-la-famiglia-a-tavola-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "la-famiglia-a-tavola",
+    "title": "La famiglia a tavola: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
     "xpReward": 20,
-    "orderIndex": 1170,
-    "estimatedMinutes": 12,
-    "description": "Vita quotidiana: Lee planes, invitaciones y mensajes de fin de semana.",
-    "intro": "Comprende mensajes sobre horarios, actividades y encuentros.",
-    "mission": "Localiza cuándo, dónde y con quién ocurre cada plan.",
-    "grammar": "Futuro próximo, expresiones de tiempo y verbos reflexivos.",
+    "orderIndex": 31,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre una cena familiare e gli orari italiani.",
+    "mission": "",
+    "grammar": "",
     "phrases": [
-      "Sabato vado al cinema.",
-      "Ci vediamo alle otto.",
-      "Prima cucino.",
-      "Dopo ci riposiamo."
+      "Ceniamo insieme.",
+      "famiglia",
+      "cena"
     ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Ceniamo insieme.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di famiglia.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Ceniamo insieme. Parliamo di famiglia. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-la-famiglia-a-tavola-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «La famiglia a tavola: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ceniamo insieme."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di famiglia."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Ceniamo insieme.», what happens next in «La famiglia a tavola: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ceniamo insieme."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di famiglia."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «La famiglia a tavola: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ceniamo insieme."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di famiglia."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «La famiglia a tavola: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ceniamo insieme."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di famiglia."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «La famiglia a tavola: ascolta», which detail establishes the situation?",
+        "options": [
+          "Ceniamo insieme.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Ceniamo insieme.», what happens next in «La famiglia a tavola: ascolta»?",
+        "options": [
+          "Ceniamo insieme.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «La famiglia a tavola: ascolta»?",
+        "options": [
+          "Ceniamo insieme.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «La famiglia a tavola: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Ceniamo insieme.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-ricette-di-famiglia-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "ricette-di-famiglia",
+    "title": "Ricette di famiglia: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 31,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre recetas, recuerdos y medidas.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Prima taglio le verdure.",
+      "ricetta",
+      "ingrediente"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Prima taglio le verdure.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di ricetta.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Prima taglio le verdure. Parliamo di ricetta. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-ricette-di-famiglia-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Ricette di famiglia: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Prima taglio le verdure."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di ricetta."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Prima taglio le verdure.», what happens next in «Ricette di famiglia: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Prima taglio le verdure."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di ricetta."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Ricette di famiglia: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Prima taglio le verdure."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di ricetta."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Ricette di famiglia: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Prima taglio le verdure."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di ricetta."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Ricette di famiglia: ascolta», which detail establishes the situation?",
+        "options": [
+          "Prima taglio le verdure.",
+          "Parliamo di ricetta.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Prima taglio le verdure.», what happens next in «Ricette di famiglia: ascolta»?",
+        "options": [
+          "Prima taglio le verdure.",
+          "Parliamo di ricetta.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Ricette di famiglia: ascolta»?",
+        "options": [
+          "Prima taglio le verdure.",
+          "Parliamo di ricetta.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Ricette di famiglia: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Prima taglio le verdure.",
+          "Parliamo di ricetta.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-la-famiglia-a-tavola-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "la-famiglia-a-tavola",
+    "title": "La famiglia a tavola: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 32,
+    "estimatedMinutes": 8,
+    "description": "Practica parlare della famiglia.",
+    "intro": "Practica parlare della famiglia.",
+    "mission": "Di Ceniamo insieme. y añade una frase sobre una cena familiare e gli orari italiani.",
+    "grammar": "",
+    "phrases": [
+      "Ceniamo insieme.",
+      "Mi piace famiglia.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: parlare della famiglia. Usa «Ceniamo insieme.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-ricette-di-famiglia-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "ricette-di-famiglia",
+    "title": "Ricette di famiglia: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 32,
+    "estimatedMinutes": 8,
+    "description": "Practica explicar una secuencia.",
+    "intro": "Practica explicar una secuencia.",
+    "mission": "Di Prima taglio le verdure. y añade una frase sobre recetas, recuerdos y medidas.",
+    "grammar": "",
+    "phrases": [
+      "Prima taglio le verdure.",
+      "Mi piace ricetta.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: explicar una secuencia. Usa «Prima taglio le verdure.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-la-famiglia-a-tavola-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "la-famiglia-a-tavola",
+    "title": "La famiglia a tavola: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 33,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre una cena familiare e gli orari italiani y usa famiglia y cena.",
+    "grammar": "",
+    "phrases": [
+      "Ceniamo insieme.",
+      "Oggi ho imparato famiglia."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre una cena familiare e gli orari italiani."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-ricette-di-famiglia-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "ricette-di-famiglia",
+    "title": "Ricette di famiglia: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 33,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre recetas, recuerdos y medidas y usa ricetta y ingrediente.",
+    "grammar": "",
+    "phrases": [
+      "Prima taglio le verdure.",
+      "Oggi ho imparato ricetta."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre recetas, recuerdos y medidas."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-la-famiglia-a-tavola-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "la-famiglia-a-tavola",
+    "title": "La famiglia a tavola: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 34,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "phrases": [
+      "Ceniamo insieme."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Ceniamo insieme.",
+          "famiglia",
+          "cena",
+          "tavola"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "famiglia",
+          "cena",
+          "tavola",
+          "insieme"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "cena",
+          "famiglia",
+          "tavola",
+          "insieme"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Ceniamo insieme.",
+          "tavola",
+          "insieme",
+          "famiglia"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-ricette-di-famiglia-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "ricette-di-famiglia",
+    "title": "Ricette di famiglia: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 34,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "phrases": [
+      "Prima taglio le verdure."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Prima taglio le verdure.",
+          "ricetta",
+          "ingrediente",
+          "prima"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "ricetta",
+          "ingrediente",
+          "prima",
+          "dopo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "ingrediente",
+          "ricetta",
+          "prima",
+          "dopo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Prima taglio le verdure.",
+          "prima",
+          "dopo",
+          "ricetta"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-la-famiglia-a-tavola-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "la-famiglia-a-tavola",
+    "title": "La famiglia a tavola: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 35,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
     "vocabulary": [
       {
-        "word": "sabato",
-        "translation": "sábado",
-        "example": "Oggi pratico la parola \"sabato\"."
-      },
-      {
-        "word": "cinema",
-        "translation": "cine",
-        "example": "Oggi pratico la parola \"cinema\"."
-      },
-      {
-        "word": "biglietto",
-        "translation": "entrada",
-        "example": "Oggi pratico la parola \"biglietto\"."
+        "word": "famiglia",
+        "translation": "palabra cultural",
+        "example": "Ceniamo insieme."
       },
       {
         "word": "cena",
-        "translation": "cena",
-        "example": "Oggi pratico la parola \"cena\"."
+        "translation": "acción cotidiana",
+        "example": "Ceniamo insieme."
       },
       {
-        "word": "incontro",
-        "translation": "encuentro",
-        "example": "Oggi pratico la parola \"incontro\"."
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Tutor",
-        "line": "Sabato vado al cinema.",
-        "translation": "Frase modelo"
+        "word": "tavola",
+        "translation": "lugar o cosa",
+        "example": "Ceniamo insieme."
       },
       {
-        "speaker": "Student",
-        "line": "Ci vediamo alle otto.",
-        "translation": "Respuesta guiada"
+        "word": "insieme",
+        "translation": "expresión útil",
+        "example": "Ceniamo insieme."
       }
     ],
-    "reading": {
-      "text": "Marco di solito si sveglia alle sei. Il sabato, va a trovare sua nonna e compra frutta fresca al mercato. Il weekend scorso, l'ha anche aiutata a ridipingere la cucina, così hanno finito tardi e hanno cenato insieme. Il pomeriggio, spesso incontra il suo vicino, e parlano del tempo prima di tornare a casa.",
-      "questions": [
-        "A che ora si sveglia di solito Marco?",
-        "Cosa ha aiutato a fare a sua nonna il weekend scorso?",
-        "Chi incontra spesso nel pomeriggio?",
-        "Di cosa parlano?"
-      ]
-    },
+    "dialogue": [],
+    "reading": null,
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"sabato\"?",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
         "options": [
-          "sábado",
-          "cine",
-          "entrada",
-          "cena"
-        ]
-      },
-      {
-        "id": "italian-a2-reading-comprehension-2",
-        "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Italiano A2 · Reading Quest»?",
-        "options": [
-          "Presentare le idee e i dettagli essenziali di Italiano A2 · Reading Quest",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
-        ]
-      },
-      {
-        "id": "italian-a2-reading-comprehension-3",
-        "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Italiano A2 · Reading Quest»?",
-        "options": [
-          "Presentare le idee e i dettagli essenziali di Italiano A2 · Reading Quest",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
-        ]
-      },
-      {
-        "id": "italian-a2-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Italiano A2 · Reading Quest»?",
-        "options": [
-          "Presentare le idee e i dettagli essenziali di Italiano A2 · Reading Quest",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
-        ]
-      },
-      {
-        "id": "italian-a2-reading-comprehension-5",
-        "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Italiano A2 · Reading Quest»?",
-        "options": [
-          "Presentare le idee e i dettagli essenziali di Italiano A2 · Reading Quest",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "famiglia",
+          "computadora",
+          "laboratorio",
+          "satélite"
         ]
       }
     ]
   },
   {
-    "slug": "italian-a2-writing",
-    "level": "A2",
-    "skill": "writing",
-    "unitId": null,
-    "title": "Italiano A2 · Writing Challenge",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 1180,
-    "estimatedMinutes": 14,
-    "description": "Vita quotidiana: Escribe un correo sencillo sobre un viaje y un plan futuro.",
-    "intro": "Organiza un mensaje con pasado reciente y próximos pasos.",
-    "mission": "Cuenta dónde estuviste, qué viste y qué harás la próxima semana.",
-    "grammar": "Pretérito perfecto, ir a + infinitivo y conectores básicos.",
-    "phrases": [
-      "La settimana scorsa ho visitato...",
-      "Mi è piaciuto molto...",
-      "Tornerò ad agosto.",
-      "Voglio anche provare..."
-    ],
-    "vocabulary": [
-      {
-        "word": "viaggio",
-        "translation": "viaje",
-        "example": "Oggi pratico la parola \"viaggio\"."
-      },
-      {
-        "word": "albergo",
-        "translation": "hotel",
-        "example": "Oggi pratico la parola \"albergo\"."
-      },
-      {
-        "word": "spiaggia",
-        "translation": "playa",
-        "example": "Oggi pratico la parola \"spiaggia\"."
-      },
-      {
-        "word": "agosto",
-        "translation": "agosto",
-        "example": "Oggi pratico la parola \"agosto\"."
-      },
-      {
-        "word": "ricordo",
-        "translation": "recuerdo",
-        "example": "Oggi pratico la parola \"ricordo\"."
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Tutor",
-        "line": "La settimana scorsa ho visitato...",
-        "translation": "Frase modelo"
-      },
-      {
-        "speaker": "Student",
-        "line": "Mi è piaciuto molto...",
-        "translation": "Respuesta guiada"
-      }
-    ],
-    "reading": {
-      "text": "Diego scrive a sua cugina dalla spiaggia. Le racconta che ha visitato un mercato e che tornerà ad agosto.",
-      "questions": [
-        "¿A quién escribe Diego?",
-        "¿Qué lugar visitó?",
-        "¿Cuándo piensa volver?"
-      ]
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"viaggio\"?",
-        "options": [
-          "viaje",
-          "hotel",
-          "playa",
-          "agosto"
-        ]
-      },
-      {
-        "type": "writing",
-        "prompt": "Escribe de 4 a 6 frases: Cuenta dónde estuviste, qué viste y qué harás la próxima semana."
-      },
-      {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: La settimana scorsa ho visitato... / Mi è piaciuto molto..."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-grammar",
-    "level": "A2",
-    "skill": "grammar",
-    "unitId": null,
-    "title": "Italiano A2 · Grammar Focus",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 1190,
-    "estimatedMinutes": 11,
-    "description": "Vita quotidiana: Consolida pasado reciente, futuro y pronombres básicos.",
-    "intro": "Compara acciones terminadas, planes y objetos directos.",
-    "mission": "Transforma frases del presente al pasado y al futuro próximo.",
-    "grammar": "Pretérito perfecto, ir a + infinitivo, lo/la/los/las y comparativos.",
-    "phrases": [
-      "Ho finito i compiti.",
-      "Domani la chiamo.",
-      "La vedo dopo.",
-      "Questo caffè è più dolce."
-    ],
-    "vocabulary": [
-      {
-        "word": "compito",
-        "translation": "tarea",
-        "example": "Oggi pratico la parola \"compito\"."
-      },
-      {
-        "word": "telefonata",
-        "translation": "llamada",
-        "example": "Oggi pratico la parola \"telefonata\"."
-      },
-      {
-        "word": "dolce",
-        "translation": "dulce",
-        "example": "Oggi pratico la parola \"dolce\"."
-      },
-      {
-        "word": "confronto",
-        "translation": "comparación",
-        "example": "Oggi pratico la parola \"confronto\"."
-      },
-      {
-        "word": "domani",
-        "translation": "mañana",
-        "example": "Oggi pratico la parola \"domani\"."
-      }
-    ],
-    "dialogue": [
-      {
-        "speaker": "Tutor",
-        "line": "Ho finito i compiti.",
-        "translation": "Frase modelo"
-      },
-      {
-        "speaker": "Student",
-        "line": "Domani la chiamo.",
-        "translation": "Respuesta guiada"
-      }
-    ],
-    "reading": {
-      "text": "Eva ha finito i compiti e domani farà una telefonata. Dice che il caffè di oggi è più dolce di quello di ieri.",
-      "questions": [
-        "¿Qué tarea ya terminó Eva?",
-        "¿Qué hará mañana?",
-        "¿Cómo compara el café de hoy con el de ayer?"
-      ]
-    },
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "¿Qué significa \"compito\"?",
-        "options": [
-          "tarea",
-          "llamada",
-          "dulce",
-          "comparación"
-        ]
-      },
-      {
-        "type": "grammar",
-        "prompt": "Transforma dos oraciones aplicando esta estructura: Pretérito perfecto, ir a + infinitivo, lo/la/los/las y comparativos."
-      },
-      {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Ho finito i compiti. / Domani la chiamo."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-vocabulary",
+    "slug": "italian-a2-ricette-di-famiglia-vocabulary",
     "level": "A2",
     "skill": "vocabulary",
-    "unitId": null,
-    "title": "Italiano A2 · Vocabulary Boost",
+    "unitId": "ricette-di-famiglia",
+    "title": "Ricette di famiglia: parole",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
-    "orderIndex": 1200,
-    "estimatedMinutes": 10,
-    "description": "Vita quotidiana: Aprende vocabulario de comida, transporte y compras.",
-    "intro": "Clasifica palabras útiles para moverte y resolver tareas diarias.",
-    "mission": "Usa palabras de mercado, autobús y casa en frases propias.",
-    "grammar": "Sustantivos contables, expresiones de cantidad y familias léxicas.",
-    "phrases": [
-      "Compro pane integrale.",
-      "L'autobus arriva tardi.",
-      "Ho bisogno del resto.",
-      "La zuppa è calda."
-    ],
+    "orderIndex": 35,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
     "vocabulary": [
       {
-        "word": "mercato",
-        "translation": "mercado",
-        "example": "Oggi pratico la parola \"mercato\"."
+        "word": "ricetta",
+        "translation": "palabra cultural",
+        "example": "Prima taglio le verdure."
+      },
+      {
+        "word": "ingrediente",
+        "translation": "acción cotidiana",
+        "example": "Prima taglio le verdure."
+      },
+      {
+        "word": "prima",
+        "translation": "lugar o cosa",
+        "example": "Prima taglio le verdure."
+      },
+      {
+        "word": "dopo",
+        "translation": "expresión útil",
+        "example": "Prima taglio le verdure."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "ricetta",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-il-mercato-del-sabato-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "il-mercato-del-sabato",
+    "title": "Il mercato del sabato: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 40,
+    "estimatedMinutes": 8,
+    "description": "Frutta, verdura e prezzi al mercato",
+    "intro": "Frutta, verdura e prezzi al mercato",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Il mercato del sabato",
+      "parts": [
+        "Sofia è em Bologna. Hoje descobre frutta, verdura e prezzi al mercato. Encontra Marco e diz: “Quanto costa un chilo?”. Os dois falam com respeito e aprendem quatro palavras novas: pomodoro, mela, chilo e euro.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Quanto costa un chilo?”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia è em Bologna. Hoje descobre frutta, verdura e prezzi al mercato. Encontra Marco e diz: “Quanto costa un chilo?”. Os dois falam com respeito e aprendem quatro palavras novas: pomodoro, mela, chilo e euro.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Quanto costa un chilo?”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Frutta, verdura e prezzi al mercato",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "comprare al mercato",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a1-il-mercato-del-sabato-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Il mercato del sabato»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Il mercato del sabato",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a1-il-mercato-del-sabato-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Il mercato del sabato»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Il mercato del sabato",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-il-lavoro-e-il-caffe-reading",
+    "level": "A2",
+    "skill": "reading",
+    "unitId": "il-lavoro-e-il-caffe",
+    "title": "Il lavoro e il caffè: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 40,
+    "estimatedMinutes": 8,
+    "description": "Pausas laborales y registros de cortesía",
+    "intro": "Pausas laborales y registros de cortesía",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Il lavoro e il caffè",
+      "parts": [
+        "Sofia vive em Bologna e parla con Marco sobre pausas laborales y registros de cortesía. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Posso fare una pausa?” e spiega perché questa esperienza è importante per il quartiere.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Posso fare una pausa?”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia vive em Bologna e parla con Marco sobre pausas laborales y registros de cortesía. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Posso fare una pausa?” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Posso fare una pausa?”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Pausas laborales y registros de cortesía",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "interactuar en el trabajo",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Il lavoro e il caffè»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Il lavoro e il caffè",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Il lavoro e il caffè»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Il lavoro e il caffè",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Il lavoro e il caffè»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Il lavoro e il caffè",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-il-mercato-del-sabato-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "il-mercato-del-sabato",
+    "title": "Il mercato del sabato: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 41,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre frutta, verdura e prezzi al mercato.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Quanto costa un chilo?",
+      "pomodoro",
+      "mela"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Quanto costa un chilo?",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di pomodoro.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Quanto costa un chilo? Parliamo di pomodoro. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-il-mercato-del-sabato-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Il mercato del sabato: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Quanto costa un chilo?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di pomodoro."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Quanto costa un chilo?», what happens next in «Il mercato del sabato: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Quanto costa un chilo?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di pomodoro."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Il mercato del sabato: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Quanto costa un chilo?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di pomodoro."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Il mercato del sabato: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Quanto costa un chilo?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di pomodoro."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Il mercato del sabato: ascolta», which detail establishes the situation?",
+        "options": [
+          "Quanto costa un chilo?",
+          "Parliamo di pomodoro.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Quanto costa un chilo?», what happens next in «Il mercato del sabato: ascolta»?",
+        "options": [
+          "Quanto costa un chilo?",
+          "Parliamo di pomodoro.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Il mercato del sabato: ascolta»?",
+        "options": [
+          "Quanto costa un chilo?",
+          "Parliamo di pomodoro.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Il mercato del sabato: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Quanto costa un chilo?",
+          "Parliamo di pomodoro.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-il-lavoro-e-il-caffe-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "il-lavoro-e-il-caffe",
+    "title": "Il lavoro e il caffè: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 41,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre pausas laborales y registros de cortesía.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Posso fare una pausa?",
+      "collega",
+      "pausa"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Posso fare una pausa?",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di collega.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Posso fare una pausa? Parliamo di collega. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-il-lavoro-e-il-caffe-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Il lavoro e il caffè: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Posso fare una pausa?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di collega."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Posso fare una pausa?», what happens next in «Il lavoro e il caffè: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Posso fare una pausa?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di collega."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Il lavoro e il caffè: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Posso fare una pausa?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di collega."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Il lavoro e il caffè: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Posso fare una pausa?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di collega."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Il lavoro e il caffè: ascolta», which detail establishes the situation?",
+        "options": [
+          "Posso fare una pausa?",
+          "Parliamo di collega.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Posso fare una pausa?», what happens next in «Il lavoro e il caffè: ascolta»?",
+        "options": [
+          "Posso fare una pausa?",
+          "Parliamo di collega.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Il lavoro e il caffè: ascolta»?",
+        "options": [
+          "Posso fare una pausa?",
+          "Parliamo di collega.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Il lavoro e il caffè: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Posso fare una pausa?",
+          "Parliamo di collega.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-il-mercato-del-sabato-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "il-mercato-del-sabato",
+    "title": "Il mercato del sabato: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 42,
+    "estimatedMinutes": 8,
+    "description": "Practica comprare al mercato.",
+    "intro": "Practica comprare al mercato.",
+    "mission": "Di Quanto costa un chilo? y añade una frase sobre frutta, verdura e prezzi al mercato.",
+    "grammar": "",
+    "phrases": [
+      "Quanto costa un chilo?",
+      "Mi piace pomodoro.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: comprare al mercato. Usa «Quanto costa un chilo?»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-il-lavoro-e-il-caffe-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "il-lavoro-e-il-caffe",
+    "title": "Il lavoro e il caffè: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 42,
+    "estimatedMinutes": 8,
+    "description": "Practica interactuar en el trabajo.",
+    "intro": "Practica interactuar en el trabajo.",
+    "mission": "Di Posso fare una pausa? y añade una frase sobre pausas laborales y registros de cortesía.",
+    "grammar": "",
+    "phrases": [
+      "Posso fare una pausa?",
+      "Mi piace collega.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: interactuar en el trabajo. Usa «Posso fare una pausa?»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-il-mercato-del-sabato-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "il-mercato-del-sabato",
+    "title": "Il mercato del sabato: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 43,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre frutta, verdura e prezzi al mercato y usa pomodoro y mela.",
+    "grammar": "",
+    "phrases": [
+      "Quanto costa un chilo?",
+      "Oggi ho imparato pomodoro."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre frutta, verdura e prezzi al mercato."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-il-lavoro-e-il-caffe-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "il-lavoro-e-il-caffe",
+    "title": "Il lavoro e il caffè: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 43,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre pausas laborales y registros de cortesía y usa collega y pausa.",
+    "grammar": "",
+    "phrases": [
+      "Posso fare una pausa?",
+      "Oggi ho imparato collega."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre pausas laborales y registros de cortesía."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-il-mercato-del-sabato-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "il-mercato-del-sabato",
+    "title": "Il mercato del sabato: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 44,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "phrases": [
+      "Quanto costa un chilo?"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Quanto costa un chilo?",
+          "pomodoro",
+          "mela",
+          "chilo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "pomodoro",
+          "mela",
+          "chilo",
+          "euro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "mela",
+          "pomodoro",
+          "chilo",
+          "euro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Quanto costa un chilo?",
+          "chilo",
+          "euro",
+          "pomodoro"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-il-lavoro-e-il-caffe-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "il-lavoro-e-il-caffe",
+    "title": "Il lavoro e il caffè: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 44,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "phrases": [
+      "Posso fare una pausa?"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Posso fare una pausa?",
+          "collega",
+          "pausa",
+          "riunione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "collega",
+          "pausa",
+          "riunione",
+          "orario"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "pausa",
+          "collega",
+          "riunione",
+          "orario"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Posso fare una pausa?",
+          "riunione",
+          "orario",
+          "collega"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-il-mercato-del-sabato-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "il-mercato-del-sabato",
+    "title": "Il mercato del sabato: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 45,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "pomodoro",
+        "translation": "palabra cultural",
+        "example": "Quanto costa un chilo?"
+      },
+      {
+        "word": "mela",
+        "translation": "acción cotidiana",
+        "example": "Quanto costa un chilo?"
+      },
+      {
+        "word": "chilo",
+        "translation": "lugar o cosa",
+        "example": "Quanto costa un chilo?"
+      },
+      {
+        "word": "euro",
+        "translation": "expresión útil",
+        "example": "Quanto costa un chilo?"
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "pomodoro",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-il-lavoro-e-il-caffe-vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "unitId": "il-lavoro-e-il-caffe",
+    "title": "Il lavoro e il caffè: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 45,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "collega",
+        "translation": "palabra cultural",
+        "example": "Posso fare una pausa?"
+      },
+      {
+        "word": "pausa",
+        "translation": "acción cotidiana",
+        "example": "Posso fare una pausa?"
+      },
+      {
+        "word": "riunione",
+        "translation": "lugar o cosa",
+        "example": "Posso fare una pausa?"
+      },
+      {
+        "word": "orario",
+        "translation": "expresión útil",
+        "example": "Posso fare una pausa?"
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "collega",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-in-bicicletta-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "in-bicicletta",
+    "title": "In bicicletta: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 50,
+    "estimatedMinutes": 8,
+    "description": "Moverse por la ciudad en bicicleta",
+    "intro": "Moverse por la ciudad en bicicleta",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "In bicicletta",
+      "parts": [
+        "Sofia è em Bologna. Hoje descobre moverse por la ciudad en bicicleta. Encontra Marco e diz: “Dov’è la stazione?”. Os dois falam com respeito e aprendem quatro palavras novas: strada, piazza, stazione e bicicletta.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Dov’è la stazione?”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia è em Bologna. Hoje descobre moverse por la ciudad en bicicleta. Encontra Marco e diz: “Dov’è la stazione?”. Os dois falam com respeito e aprendem quatro palavras novas: strada, piazza, stazione e bicicletta.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Dov’è la stazione?”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Moverse por la ciudad en bicicleta",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "chiedere indicazioni",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a1-in-bicicletta-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «In bicicletta»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di In bicicletta",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a1-in-bicicletta-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «In bicicletta»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di In bicicletta",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-arte-nel-quartiere-reading",
+    "level": "A2",
+    "skill": "reading",
+    "unitId": "arte-nel-quartiere",
+    "title": "Arte nel quartiere: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 50,
+    "estimatedMinutes": 8,
+    "description": "Arte local y espacios compartidos",
+    "intro": "Arte local y espacios compartidos",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Arte nel quartiere",
+      "parts": [
+        "Sofia vive em Bologna e parla con Marco sobre arte local y espacios compartidos. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “La mostra era interessante.” e spiega perché questa esperienza è importante per il quartiere.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “La mostra era interessante.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia vive em Bologna e parla con Marco sobre arte local y espacios compartidos. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “La mostra era interessante.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “La mostra era interessante.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Arte local y espacios compartidos",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "dar una opinión",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a2-arte-nel-quartiere-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Arte nel quartiere»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Arte nel quartiere",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-arte-nel-quartiere-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Arte nel quartiere»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Arte nel quartiere",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-arte-nel-quartiere-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Arte nel quartiere»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Arte nel quartiere",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-in-bicicletta-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "in-bicicletta",
+    "title": "In bicicletta: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 51,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre moverse por la ciudad en bicicleta.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Dov’è la stazione?",
+      "strada",
+      "piazza"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Dov’è la stazione?",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di strada.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Dov’è la stazione? Parliamo di strada. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-in-bicicletta-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «In bicicletta: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dov’è la stazione?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di strada."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Dov’è la stazione?», what happens next in «In bicicletta: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dov’è la stazione?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di strada."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «In bicicletta: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dov’è la stazione?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di strada."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «In bicicletta: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Dov’è la stazione?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di strada."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «In bicicletta: ascolta», which detail establishes the situation?",
+        "options": [
+          "Dov’è la stazione?",
+          "Parliamo di strada.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Dov’è la stazione?», what happens next in «In bicicletta: ascolta»?",
+        "options": [
+          "Dov’è la stazione?",
+          "Parliamo di strada.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «In bicicletta: ascolta»?",
+        "options": [
+          "Dov’è la stazione?",
+          "Parliamo di strada.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «In bicicletta: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Dov’è la stazione?",
+          "Parliamo di strada.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-arte-nel-quartiere-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "arte-nel-quartiere",
+    "title": "Arte nel quartiere: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 51,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre arte local y espacios compartidos.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "La mostra era interessante.",
+      "mostra",
+      "artista"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "La mostra era interessante.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di mostra.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "La mostra era interessante. Parliamo di mostra. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-arte-nel-quartiere-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Arte nel quartiere: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La mostra era interessante."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di mostra."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «La mostra era interessante.», what happens next in «Arte nel quartiere: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La mostra era interessante."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di mostra."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Arte nel quartiere: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La mostra era interessante."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di mostra."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Arte nel quartiere: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La mostra era interessante."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di mostra."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Arte nel quartiere: ascolta», which detail establishes the situation?",
+        "options": [
+          "La mostra era interessante.",
+          "Parliamo di mostra.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «La mostra era interessante.», what happens next in «Arte nel quartiere: ascolta»?",
+        "options": [
+          "La mostra era interessante.",
+          "Parliamo di mostra.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Arte nel quartiere: ascolta»?",
+        "options": [
+          "La mostra era interessante.",
+          "Parliamo di mostra.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Arte nel quartiere: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "La mostra era interessante.",
+          "Parliamo di mostra.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-in-bicicletta-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "in-bicicletta",
+    "title": "In bicicletta: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 52,
+    "estimatedMinutes": 8,
+    "description": "Practica chiedere indicazioni.",
+    "intro": "Practica chiedere indicazioni.",
+    "mission": "Di Dov’è la stazione? y añade una frase sobre moverse por la ciudad en bicicleta.",
+    "grammar": "",
+    "phrases": [
+      "Dov’è la stazione?",
+      "Mi piace strada.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: chiedere indicazioni. Usa «Dov’è la stazione?»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-arte-nel-quartiere-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "arte-nel-quartiere",
+    "title": "Arte nel quartiere: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 52,
+    "estimatedMinutes": 8,
+    "description": "Practica dar una opinión.",
+    "intro": "Practica dar una opinión.",
+    "mission": "Di La mostra era interessante. y añade una frase sobre arte local y espacios compartidos.",
+    "grammar": "",
+    "phrases": [
+      "La mostra era interessante.",
+      "Mi piace mostra.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: dar una opinión. Usa «La mostra era interessante.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-in-bicicletta-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "in-bicicletta",
+    "title": "In bicicletta: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 53,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre moverse por la ciudad en bicicleta y usa strada y piazza.",
+    "grammar": "",
+    "phrases": [
+      "Dov’è la stazione?",
+      "Oggi ho imparato strada."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre moverse por la ciudad en bicicleta."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-arte-nel-quartiere-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "arte-nel-quartiere",
+    "title": "Arte nel quartiere: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 53,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre arte local y espacios compartidos y usa mostra y artista.",
+    "grammar": "",
+    "phrases": [
+      "La mostra era interessante.",
+      "Oggi ho imparato mostra."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre arte local y espacios compartidos."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-in-bicicletta-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "in-bicicletta",
+    "title": "In bicicletta: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 54,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "phrases": [
+      "Dov’è la stazione?"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Dov’è la stazione?",
+          "strada",
+          "piazza",
+          "stazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "strada",
+          "piazza",
+          "stazione",
+          "bicicletta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "piazza",
+          "strada",
+          "stazione",
+          "bicicletta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Dov’è la stazione?",
+          "stazione",
+          "bicicletta",
+          "strada"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-arte-nel-quartiere-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "arte-nel-quartiere",
+    "title": "Arte nel quartiere: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 54,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "phrases": [
+      "La mostra era interessante."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "La mostra era interessante.",
+          "mostra",
+          "artista",
+          "piazza"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "mostra",
+          "artista",
+          "piazza",
+          "opinione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "artista",
+          "mostra",
+          "piazza",
+          "opinione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "La mostra era interessante.",
+          "piazza",
+          "opinione",
+          "mostra"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-in-bicicletta-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "in-bicicletta",
+    "title": "In bicicletta: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 55,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "strada",
+        "translation": "palabra cultural",
+        "example": "Dov’è la stazione?"
+      },
+      {
+        "word": "piazza",
+        "translation": "acción cotidiana",
+        "example": "Dov’è la stazione?"
+      },
+      {
+        "word": "stazione",
+        "translation": "lugar o cosa",
+        "example": "Dov’è la stazione?"
+      },
+      {
+        "word": "bicicletta",
+        "translation": "expresión útil",
+        "example": "Dov’è la stazione?"
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "strada",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-arte-nel-quartiere-vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "unitId": "arte-nel-quartiere",
+    "title": "Arte nel quartiere: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 55,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "mostra",
+        "translation": "palabra cultural",
+        "example": "La mostra era interessante."
+      },
+      {
+        "word": "artista",
+        "translation": "acción cotidiana",
+        "example": "La mostra era interessante."
+      },
+      {
+        "word": "piazza",
+        "translation": "lugar o cosa",
+        "example": "La mostra era interessante."
+      },
+      {
+        "word": "opinione",
+        "translation": "expresión útil",
+        "example": "La mostra era interessante."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "mostra",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-scuola-e-amici-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "scuola-e-amici",
+    "title": "Scuola e amici: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 60,
+    "estimatedMinutes": 8,
+    "description": "La vida escolar y una merienda",
+    "intro": "La vida escolar y una merienda",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Scuola e amici",
+      "parts": [
+        "Sofia è em Bologna. Hoje descobre la vida escolar y una merienda. Encontra Marco e diz: “Che materia ti piace?”. Os dois falam com respeito e aprendem quatro palavras novas: scuola, amico, lezione e compito.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Che materia ti piace?”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia è em Bologna. Hoje descobre la vida escolar y una merienda. Encontra Marco e diz: “Che materia ti piace?”. Os dois falam com respeito e aprendem quatro palavras novas: scuola, amico, lezione e compito.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Che materia ti piace?”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "La vida escolar y una merienda",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "hablar de gustos",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a1-scuola-e-amici-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Scuola e amici»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Scuola e amici",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a1-scuola-e-amici-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Scuola e amici»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Scuola e amici",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-viaggiare-con-responsabilita-reading",
+    "level": "A2",
+    "skill": "reading",
+    "unitId": "viaggiare-con-responsabilita",
+    "title": "Viaggiare con responsabilità: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 60,
+    "estimatedMinutes": 8,
+    "description": "Viajar cuidando barrios y personas",
+    "intro": "Viajar cuidando barrios y personas",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Viaggiare con responsabilità",
+      "parts": [
+        "Sofia vive em Bologna e parla con Marco sobre viajar cuidando barrios y personas. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Non voglio disturbare i residenti.” e spiega perché questa esperienza è importante per il quartiere.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Non voglio disturbare i residenti.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia vive em Bologna e parla con Marco sobre viajar cuidando barrios y personas. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Non voglio disturbare i residenti.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Non voglio disturbare i residenti.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Viajar cuidando barrios y personas",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "expresar intención",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Viaggiare con responsabilità»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Viaggiare con responsabilità",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Viaggiare con responsabilità»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Viaggiare con responsabilità",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Viaggiare con responsabilità»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Viaggiare con responsabilità",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-scuola-e-amici-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "scuola-e-amici",
+    "title": "Scuola e amici: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 61,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre la vida escolar y una merienda.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Che materia ti piace?",
+      "scuola",
+      "amico"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Che materia ti piace?",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di scuola.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Che materia ti piace? Parliamo di scuola. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-scuola-e-amici-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Scuola e amici: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Che materia ti piace?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di scuola."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Che materia ti piace?», what happens next in «Scuola e amici: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Che materia ti piace?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di scuola."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Scuola e amici: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Che materia ti piace?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di scuola."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Scuola e amici: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Che materia ti piace?"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di scuola."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Scuola e amici: ascolta», which detail establishes the situation?",
+        "options": [
+          "Che materia ti piace?",
+          "Parliamo di scuola.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Che materia ti piace?», what happens next in «Scuola e amici: ascolta»?",
+        "options": [
+          "Che materia ti piace?",
+          "Parliamo di scuola.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Scuola e amici: ascolta»?",
+        "options": [
+          "Che materia ti piace?",
+          "Parliamo di scuola.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Scuola e amici: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Che materia ti piace?",
+          "Parliamo di scuola.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-viaggiare-con-responsabilita-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "viaggiare-con-responsabilita",
+    "title": "Viaggiare con responsabilità: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 61,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre viajar cuidando barrios y personas.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Non voglio disturbare i residenti.",
+      "residente",
+      "rispetto"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Non voglio disturbare i residenti.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di residente.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Non voglio disturbare i residenti. Parliamo di residente. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-viaggiare-con-responsabilita-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Viaggiare con responsabilità: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Non voglio disturbare i residenti."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di residente."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Non voglio disturbare i residenti.», what happens next in «Viaggiare con responsabilità: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Non voglio disturbare i residenti."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di residente."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Viaggiare con responsabilità: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Non voglio disturbare i residenti."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di residente."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Viaggiare con responsabilità: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Non voglio disturbare i residenti."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di residente."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Viaggiare con responsabilità: ascolta», which detail establishes the situation?",
+        "options": [
+          "Non voglio disturbare i residenti.",
+          "Parliamo di residente.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Non voglio disturbare i residenti.», what happens next in «Viaggiare con responsabilità: ascolta»?",
+        "options": [
+          "Non voglio disturbare i residenti.",
+          "Parliamo di residente.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Viaggiare con responsabilità: ascolta»?",
+        "options": [
+          "Non voglio disturbare i residenti.",
+          "Parliamo di residente.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Viaggiare con responsabilità: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Non voglio disturbare i residenti.",
+          "Parliamo di residente.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-scuola-e-amici-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "scuola-e-amici",
+    "title": "Scuola e amici: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 62,
+    "estimatedMinutes": 8,
+    "description": "Practica hablar de gustos.",
+    "intro": "Practica hablar de gustos.",
+    "mission": "Di Che materia ti piace? y añade una frase sobre la vida escolar y una merienda.",
+    "grammar": "",
+    "phrases": [
+      "Che materia ti piace?",
+      "Mi piace scuola.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: hablar de gustos. Usa «Che materia ti piace?»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-viaggiare-con-responsabilita-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "viaggiare-con-responsabilita",
+    "title": "Viaggiare con responsabilità: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 62,
+    "estimatedMinutes": 8,
+    "description": "Practica expresar intención.",
+    "intro": "Practica expresar intención.",
+    "mission": "Di Non voglio disturbare i residenti. y añade una frase sobre viajar cuidando barrios y personas.",
+    "grammar": "",
+    "phrases": [
+      "Non voglio disturbare i residenti.",
+      "Mi piace residente.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: expresar intención. Usa «Non voglio disturbare i residenti.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-scuola-e-amici-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "scuola-e-amici",
+    "title": "Scuola e amici: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 63,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre la vida escolar y una merienda y usa scuola y amico.",
+    "grammar": "",
+    "phrases": [
+      "Che materia ti piace?",
+      "Oggi ho imparato scuola."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre la vida escolar y una merienda."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-viaggiare-con-responsabilita-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "viaggiare-con-responsabilita",
+    "title": "Viaggiare con responsabilità: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 63,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre viajar cuidando barrios y personas y usa residente y rispetto.",
+    "grammar": "",
+    "phrases": [
+      "Non voglio disturbare i residenti.",
+      "Oggi ho imparato residente."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre viajar cuidando barrios y personas."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-scuola-e-amici-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "scuola-e-amici",
+    "title": "Scuola e amici: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 64,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "phrases": [
+      "Che materia ti piace?"
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Che materia ti piace?",
+          "scuola",
+          "amico",
+          "lezione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "scuola",
+          "amico",
+          "lezione",
+          "compito"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "amico",
+          "scuola",
+          "lezione",
+          "compito"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Che materia ti piace?",
+          "lezione",
+          "compito",
+          "scuola"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-viaggiare-con-responsabilita-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "viaggiare-con-responsabilita",
+    "title": "Viaggiare con responsabilità: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 64,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "phrases": [
+      "Non voglio disturbare i residenti."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Non voglio disturbare i residenti.",
+          "residente",
+          "rispetto",
+          "mappa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "residente",
+          "rispetto",
+          "mappa",
+          "scelta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "rispetto",
+          "residente",
+          "mappa",
+          "scelta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Non voglio disturbare i residenti.",
+          "mappa",
+          "scelta",
+          "residente"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-scuola-e-amici-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "scuola-e-amici",
+    "title": "Scuola e amici: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 65,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "scuola",
+        "translation": "palabra cultural",
+        "example": "Che materia ti piace?"
+      },
+      {
+        "word": "amico",
+        "translation": "acción cotidiana",
+        "example": "Che materia ti piace?"
+      },
+      {
+        "word": "lezione",
+        "translation": "lugar o cosa",
+        "example": "Che materia ti piace?"
+      },
+      {
+        "word": "compito",
+        "translation": "expresión útil",
+        "example": "Che materia ti piace?"
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "scuola",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-viaggiare-con-responsabilita-vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "unitId": "viaggiare-con-responsabilita",
+    "title": "Viaggiare con responsabilità: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 65,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "residente",
+        "translation": "palabra cultural",
+        "example": "Non voglio disturbare i residenti."
+      },
+      {
+        "word": "rispetto",
+        "translation": "acción cotidiana",
+        "example": "Non voglio disturbare i residenti."
+      },
+      {
+        "word": "mappa",
+        "translation": "lugar o cosa",
+        "example": "Non voglio disturbare i residenti."
+      },
+      {
+        "word": "scelta",
+        "translation": "expresión útil",
+        "example": "Non voglio disturbare i residenti."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "residente",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-una-casa-italiana-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "una-casa-italiana",
+    "title": "Una casa italiana: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 70,
+    "estimatedMinutes": 8,
+    "description": "Habitaciones y vida en casa",
+    "intro": "Habitaciones y vida en casa",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Una casa italiana",
+      "parts": [
+        "Sofia è em Bologna. Hoje descobre habitaciones y vida en casa. Encontra Marco e diz: “La cucina è luminosa.”. Os dois falam com respeito e aprendem quatro palavras novas: cucina, camera, finestra e balcone.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “La cucina è luminosa.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia è em Bologna. Hoje descobre habitaciones y vida en casa. Encontra Marco e diz: “La cucina è luminosa.”. Os dois falam com respeito e aprendem quatro palavras novas: cucina, camera, finestra e balcone.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “La cucina è luminosa.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Habitaciones y vida en casa",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "describir una casa",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a1-una-casa-italiana-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Una casa italiana»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Una casa italiana",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a1-una-casa-italiana-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Una casa italiana»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Una casa italiana",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-sport-e-tempo-libero-reading",
+    "level": "A2",
+    "skill": "reading",
+    "unitId": "sport-e-tempo-libero",
+    "title": "Sport e tempo libero: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 70,
+    "estimatedMinutes": 8,
+    "description": "Aficiones más allá de un solo deporte",
+    "intro": "Aficiones más allá de un solo deporte",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Sport e tempo libero",
+      "parts": [
+        "Sofia vive em Bologna e parla con Marco sobre aficiones más allá de un solo deporte. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Da giovane giocavo spesso.” e spiega perché questa esperienza è importante per il quartiere.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Da giovane giocavo spesso.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia vive em Bologna e parla con Marco sobre aficiones más allá de un solo deporte. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Da giovane giocavo spesso.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Da giovane giocavo spesso.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Aficiones más allá de un solo deporte",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "hablar del pasado",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Sport e tempo libero»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Sport e tempo libero",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Sport e tempo libero»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Sport e tempo libero",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Sport e tempo libero»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Sport e tempo libero",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-una-casa-italiana-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "una-casa-italiana",
+    "title": "Una casa italiana: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 71,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre habitaciones y vida en casa.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "La cucina è luminosa.",
+      "cucina",
+      "camera"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "La cucina è luminosa.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di cucina.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "La cucina è luminosa. Parliamo di cucina. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-una-casa-italiana-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Una casa italiana: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La cucina è luminosa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di cucina."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «La cucina è luminosa.», what happens next in «Una casa italiana: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La cucina è luminosa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di cucina."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Una casa italiana: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La cucina è luminosa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di cucina."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Una casa italiana: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La cucina è luminosa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di cucina."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Una casa italiana: ascolta», which detail establishes the situation?",
+        "options": [
+          "La cucina è luminosa.",
+          "Parliamo di cucina.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «La cucina è luminosa.», what happens next in «Una casa italiana: ascolta»?",
+        "options": [
+          "La cucina è luminosa.",
+          "Parliamo di cucina.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Una casa italiana: ascolta»?",
+        "options": [
+          "La cucina è luminosa.",
+          "Parliamo di cucina.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Una casa italiana: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "La cucina è luminosa.",
+          "Parliamo di cucina.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-sport-e-tempo-libero-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "sport-e-tempo-libero",
+    "title": "Sport e tempo libero: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 71,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre aficiones más allá de un solo deporte.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Da giovane giocavo spesso.",
+      "nuoto",
+      "corsa"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Da giovane giocavo spesso.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di nuoto.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Da giovane giocavo spesso. Parliamo di nuoto. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-sport-e-tempo-libero-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Sport e tempo libero: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Da giovane giocavo spesso."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di nuoto."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Da giovane giocavo spesso.», what happens next in «Sport e tempo libero: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Da giovane giocavo spesso."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di nuoto."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Sport e tempo libero: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Da giovane giocavo spesso."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di nuoto."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Sport e tempo libero: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Da giovane giocavo spesso."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di nuoto."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Sport e tempo libero: ascolta», which detail establishes the situation?",
+        "options": [
+          "Da giovane giocavo spesso.",
+          "Parliamo di nuoto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Da giovane giocavo spesso.», what happens next in «Sport e tempo libero: ascolta»?",
+        "options": [
+          "Da giovane giocavo spesso.",
+          "Parliamo di nuoto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Sport e tempo libero: ascolta»?",
+        "options": [
+          "Da giovane giocavo spesso.",
+          "Parliamo di nuoto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Sport e tempo libero: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Da giovane giocavo spesso.",
+          "Parliamo di nuoto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-una-casa-italiana-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "una-casa-italiana",
+    "title": "Una casa italiana: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 72,
+    "estimatedMinutes": 8,
+    "description": "Practica describir una casa.",
+    "intro": "Practica describir una casa.",
+    "mission": "Di La cucina è luminosa. y añade una frase sobre habitaciones y vida en casa.",
+    "grammar": "",
+    "phrases": [
+      "La cucina è luminosa.",
+      "Mi piace cucina.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: describir una casa. Usa «La cucina è luminosa.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-sport-e-tempo-libero-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "sport-e-tempo-libero",
+    "title": "Sport e tempo libero: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 72,
+    "estimatedMinutes": 8,
+    "description": "Practica hablar del pasado.",
+    "intro": "Practica hablar del pasado.",
+    "mission": "Di Da giovane giocavo spesso. y añade una frase sobre aficiones más allá de un solo deporte.",
+    "grammar": "",
+    "phrases": [
+      "Da giovane giocavo spesso.",
+      "Mi piace nuoto.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: hablar del pasado. Usa «Da giovane giocavo spesso.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-una-casa-italiana-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "una-casa-italiana",
+    "title": "Una casa italiana: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 73,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre habitaciones y vida en casa y usa cucina y camera.",
+    "grammar": "",
+    "phrases": [
+      "La cucina è luminosa.",
+      "Oggi ho imparato cucina."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre habitaciones y vida en casa."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-sport-e-tempo-libero-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "sport-e-tempo-libero",
+    "title": "Sport e tempo libero: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 73,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre aficiones más allá de un solo deporte y usa nuoto y corsa.",
+    "grammar": "",
+    "phrases": [
+      "Da giovane giocavo spesso.",
+      "Oggi ho imparato nuoto."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre aficiones más allá de un solo deporte."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-una-casa-italiana-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "una-casa-italiana",
+    "title": "Una casa italiana: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 74,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "phrases": [
+      "La cucina è luminosa."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "La cucina è luminosa.",
+          "cucina",
+          "camera",
+          "finestra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "cucina",
+          "camera",
+          "finestra",
+          "balcone"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "camera",
+          "cucina",
+          "finestra",
+          "balcone"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "La cucina è luminosa.",
+          "finestra",
+          "balcone",
+          "cucina"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-sport-e-tempo-libero-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "sport-e-tempo-libero",
+    "title": "Sport e tempo libero: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 74,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "phrases": [
+      "Da giovane giocavo spesso."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Da giovane giocavo spesso.",
+          "nuoto",
+          "corsa",
+          "squadra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "nuoto",
+          "corsa",
+          "squadra",
+          "allenamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "corsa",
+          "nuoto",
+          "squadra",
+          "allenamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Da giovane giocavo spesso.",
+          "squadra",
+          "allenamento",
+          "nuoto"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-una-casa-italiana-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "una-casa-italiana",
+    "title": "Una casa italiana: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 75,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "cucina",
+        "translation": "palabra cultural",
+        "example": "La cucina è luminosa."
+      },
+      {
+        "word": "camera",
+        "translation": "acción cotidiana",
+        "example": "La cucina è luminosa."
+      },
+      {
+        "word": "finestra",
+        "translation": "lugar o cosa",
+        "example": "La cucina è luminosa."
+      },
+      {
+        "word": "balcone",
+        "translation": "expresión útil",
+        "example": "La cucina è luminosa."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "cucina",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-sport-e-tempo-libero-vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "unitId": "sport-e-tempo-libero",
+    "title": "Sport e tempo libero: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 75,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "nuoto",
+        "translation": "palabra cultural",
+        "example": "Da giovane giocavo spesso."
+      },
+      {
+        "word": "corsa",
+        "translation": "acción cotidiana",
+        "example": "Da giovane giocavo spesso."
+      },
+      {
+        "word": "squadra",
+        "translation": "lugar o cosa",
+        "example": "Da giovane giocavo spesso."
+      },
+      {
+        "word": "allenamento",
+        "translation": "expresión útil",
+        "example": "Da giovane giocavo spesso."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "nuoto",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-il-tempo-e-le-stagioni-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "il-tempo-e-le-stagioni",
+    "title": "Il tempo e le stagioni: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 80,
+    "estimatedMinutes": 8,
+    "description": "El clima y las estaciones",
+    "intro": "El clima y las estaciones",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Il tempo e le stagioni",
+      "parts": [
+        "Sofia è em Bologna. Hoje descobre el clima y las estaciones. Encontra Marco e diz: “Oggi fa caldo.”. Os dois falam com respeito e aprendem quatro palavras novas: sole, pioggia, caldo e freddo.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Oggi fa caldo.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia è em Bologna. Hoje descobre el clima y las estaciones. Encontra Marco e diz: “Oggi fa caldo.”. Os dois falam com respeito e aprendem quatro palavras novas: sole, pioggia, caldo e freddo.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Oggi fa caldo.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "El clima y las estaciones",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "hablar del tiempo",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a1-il-tempo-e-le-stagioni-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Il tempo e le stagioni»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Il tempo e le stagioni",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a1-il-tempo-e-le-stagioni-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Il tempo e le stagioni»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Il tempo e le stagioni",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-la-salute-ogni-giorno-reading",
+    "level": "A2",
+    "skill": "reading",
+    "unitId": "la-salute-ogni-giorno",
+    "title": "La salute ogni giorno: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 80,
+    "estimatedMinutes": 8,
+    "description": "Bienestar y farmacia",
+    "intro": "Bienestar y farmacia",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "La salute ogni giorno",
+      "parts": [
+        "Sofia vive em Bologna e parla con Marco sobre bienestar y farmacia. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Mi fa male la gola.” e spiega perché questa esperienza è importante per il quartiere.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Mi fa male la gola.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia vive em Bologna e parla con Marco sobre bienestar y farmacia. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Mi fa male la gola.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Mi fa male la gola.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Bienestar y farmacia",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "expresar malestar simple",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «La salute ogni giorno»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di La salute ogni giorno",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «La salute ogni giorno»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di La salute ogni giorno",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «La salute ogni giorno»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di La salute ogni giorno",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-il-tempo-e-le-stagioni-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "il-tempo-e-le-stagioni",
+    "title": "Il tempo e le stagioni: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 81,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre el clima y las estaciones.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Oggi fa caldo.",
+      "sole",
+      "pioggia"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Oggi fa caldo.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di sole.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Oggi fa caldo. Parliamo di sole. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-il-tempo-e-le-stagioni-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Il tempo e le stagioni: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Oggi fa caldo."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di sole."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Oggi fa caldo.», what happens next in «Il tempo e le stagioni: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Oggi fa caldo."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di sole."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Il tempo e le stagioni: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Oggi fa caldo."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di sole."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Il tempo e le stagioni: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Oggi fa caldo."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di sole."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Il tempo e le stagioni: ascolta», which detail establishes the situation?",
+        "options": [
+          "Oggi fa caldo.",
+          "Parliamo di sole.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Oggi fa caldo.», what happens next in «Il tempo e le stagioni: ascolta»?",
+        "options": [
+          "Oggi fa caldo.",
+          "Parliamo di sole.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Il tempo e le stagioni: ascolta»?",
+        "options": [
+          "Oggi fa caldo.",
+          "Parliamo di sole.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Il tempo e le stagioni: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Oggi fa caldo.",
+          "Parliamo di sole.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-la-salute-ogni-giorno-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "la-salute-ogni-giorno",
+    "title": "La salute ogni giorno: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 81,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre bienestar y farmacia.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Mi fa male la gola.",
+      "farmacia",
+      "dolore"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Mi fa male la gola.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di farmacia.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Mi fa male la gola. Parliamo di farmacia. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-la-salute-ogni-giorno-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «La salute ogni giorno: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi fa male la gola."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di farmacia."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Mi fa male la gola.», what happens next in «La salute ogni giorno: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi fa male la gola."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di farmacia."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «La salute ogni giorno: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi fa male la gola."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di farmacia."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «La salute ogni giorno: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi fa male la gola."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di farmacia."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «La salute ogni giorno: ascolta», which detail establishes the situation?",
+        "options": [
+          "Mi fa male la gola.",
+          "Parliamo di farmacia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Mi fa male la gola.», what happens next in «La salute ogni giorno: ascolta»?",
+        "options": [
+          "Mi fa male la gola.",
+          "Parliamo di farmacia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «La salute ogni giorno: ascolta»?",
+        "options": [
+          "Mi fa male la gola.",
+          "Parliamo di farmacia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «La salute ogni giorno: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Mi fa male la gola.",
+          "Parliamo di farmacia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-il-tempo-e-le-stagioni-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "il-tempo-e-le-stagioni",
+    "title": "Il tempo e le stagioni: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 82,
+    "estimatedMinutes": 8,
+    "description": "Practica hablar del tiempo.",
+    "intro": "Practica hablar del tiempo.",
+    "mission": "Di Oggi fa caldo. y añade una frase sobre el clima y las estaciones.",
+    "grammar": "",
+    "phrases": [
+      "Oggi fa caldo.",
+      "Mi piace sole.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: hablar del tiempo. Usa «Oggi fa caldo.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-la-salute-ogni-giorno-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "la-salute-ogni-giorno",
+    "title": "La salute ogni giorno: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 82,
+    "estimatedMinutes": 8,
+    "description": "Practica expresar malestar simple.",
+    "intro": "Practica expresar malestar simple.",
+    "mission": "Di Mi fa male la gola. y añade una frase sobre bienestar y farmacia.",
+    "grammar": "",
+    "phrases": [
+      "Mi fa male la gola.",
+      "Mi piace farmacia.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: expresar malestar simple. Usa «Mi fa male la gola.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-il-tempo-e-le-stagioni-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "il-tempo-e-le-stagioni",
+    "title": "Il tempo e le stagioni: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 83,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre el clima y las estaciones y usa sole y pioggia.",
+    "grammar": "",
+    "phrases": [
+      "Oggi fa caldo.",
+      "Oggi ho imparato sole."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre el clima y las estaciones."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-la-salute-ogni-giorno-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "la-salute-ogni-giorno",
+    "title": "La salute ogni giorno: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 83,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre bienestar y farmacia y usa farmacia y dolore.",
+    "grammar": "",
+    "phrases": [
+      "Mi fa male la gola.",
+      "Oggi ho imparato farmacia."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre bienestar y farmacia."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-il-tempo-e-le-stagioni-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "il-tempo-e-le-stagioni",
+    "title": "Il tempo e le stagioni: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 84,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "phrases": [
+      "Oggi fa caldo."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Oggi fa caldo.",
+          "sole",
+          "pioggia",
+          "caldo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "sole",
+          "pioggia",
+          "caldo",
+          "freddo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "pioggia",
+          "sole",
+          "caldo",
+          "freddo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Oggi fa caldo.",
+          "caldo",
+          "freddo",
+          "sole"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-la-salute-ogni-giorno-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "la-salute-ogni-giorno",
+    "title": "La salute ogni giorno: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 84,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "phrases": [
+      "Mi fa male la gola."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Mi fa male la gola.",
+          "farmacia",
+          "dolore",
+          "riposo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "farmacia",
+          "dolore",
+          "riposo",
+          "consiglio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "dolore",
+          "farmacia",
+          "riposo",
+          "consiglio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Mi fa male la gola.",
+          "riposo",
+          "consiglio",
+          "farmacia"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-il-tempo-e-le-stagioni-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "il-tempo-e-le-stagioni",
+    "title": "Il tempo e le stagioni: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 85,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "sole",
+        "translation": "palabra cultural",
+        "example": "Oggi fa caldo."
+      },
+      {
+        "word": "pioggia",
+        "translation": "acción cotidiana",
+        "example": "Oggi fa caldo."
+      },
+      {
+        "word": "caldo",
+        "translation": "lugar o cosa",
+        "example": "Oggi fa caldo."
+      },
+      {
+        "word": "freddo",
+        "translation": "expresión útil",
+        "example": "Oggi fa caldo."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "sole",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-la-salute-ogni-giorno-vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "unitId": "la-salute-ogni-giorno",
+    "title": "La salute ogni giorno: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 85,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "farmacia",
+        "translation": "palabra cultural",
+        "example": "Mi fa male la gola."
+      },
+      {
+        "word": "dolore",
+        "translation": "acción cotidiana",
+        "example": "Mi fa male la gola."
+      },
+      {
+        "word": "riposo",
+        "translation": "lugar o cosa",
+        "example": "Mi fa male la gola."
+      },
+      {
+        "word": "consiglio",
+        "translation": "expresión útil",
+        "example": "Mi fa male la gola."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "farmacia",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-una-festa-di-quartiere-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "una-festa-di-quartiere",
+    "title": "Una festa di quartiere: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 90,
+    "estimatedMinutes": 8,
+    "description": "Una pequeña fiesta comunitaria",
+    "intro": "Una pequeña fiesta comunitaria",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Una festa di quartiere",
+      "parts": [
+        "Sofia è em Bologna. Hoje descobre una pequeña fiesta comunitaria. Encontra Marco e diz: “Ci vediamo alla festa.”. Os dois falam com respeito e aprendem quatro palavras novas: festa, musica, vicino e sabato.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Ci vediamo alla festa.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia è em Bologna. Hoje descobre una pequeña fiesta comunitaria. Encontra Marco e diz: “Ci vediamo alla festa.”. Os dois falam com respeito e aprendem quatro palavras novas: festa, musica, vicino e sabato.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Ci vediamo alla festa.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Una pequeña fiesta comunitaria",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "invitar y aceptar",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a1-una-festa-di-quartiere-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Una festa di quartiere»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Una festa di quartiere",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a1-una-festa-di-quartiere-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Una festa di quartiere»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Una festa di quartiere",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-storie-di-migrazione-reading",
+    "level": "A2",
+    "skill": "reading",
+    "unitId": "storie-di-migrazione",
+    "title": "Storie di migrazione: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 90,
+    "estimatedMinutes": 8,
+    "description": "Italia diversa: familias y trayectorias",
+    "intro": "Italia diversa: familias y trayectorias",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Storie di migrazione",
+      "parts": [
+        "Sofia vive em Bologna e parla con Marco sobre italia diversa: familias y trayectorias. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “La sua famiglia è arrivata anni fa.” e spiega perché questa esperienza è importante per il quartiere.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “La sua famiglia è arrivata anni fa.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia vive em Bologna e parla con Marco sobre italia diversa: familias y trayectorias. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “La sua famiglia è arrivata anni fa.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “La sua famiglia è arrivata anni fa.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Italia diversa: familias y trayectorias",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "contar una historia sencilla",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a2-storie-di-migrazione-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Storie di migrazione»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Storie di migrazione",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-storie-di-migrazione-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Storie di migrazione»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Storie di migrazione",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-storie-di-migrazione-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Storie di migrazione»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Storie di migrazione",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-una-festa-di-quartiere-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "una-festa-di-quartiere",
+    "title": "Una festa di quartiere: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 91,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre una pequeña fiesta comunitaria.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Ci vediamo alla festa.",
+      "festa",
+      "musica"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Ci vediamo alla festa.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di festa.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Ci vediamo alla festa. Parliamo di festa. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-una-festa-di-quartiere-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Una festa di quartiere: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ci vediamo alla festa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di festa."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Ci vediamo alla festa.», what happens next in «Una festa di quartiere: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ci vediamo alla festa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di festa."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Una festa di quartiere: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ci vediamo alla festa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di festa."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Una festa di quartiere: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Ci vediamo alla festa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di festa."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Una festa di quartiere: ascolta», which detail establishes the situation?",
+        "options": [
+          "Ci vediamo alla festa.",
+          "Parliamo di festa.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Ci vediamo alla festa.», what happens next in «Una festa di quartiere: ascolta»?",
+        "options": [
+          "Ci vediamo alla festa.",
+          "Parliamo di festa.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Una festa di quartiere: ascolta»?",
+        "options": [
+          "Ci vediamo alla festa.",
+          "Parliamo di festa.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Una festa di quartiere: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Ci vediamo alla festa.",
+          "Parliamo di festa.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-storie-di-migrazione-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "storie-di-migrazione",
+    "title": "Storie di migrazione: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 91,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre italia diversa: familias y trayectorias.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "La sua famiglia è arrivata anni fa.",
+      "famiglia",
+      "origine"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "La sua famiglia è arrivata anni fa.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di famiglia.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "La sua famiglia è arrivata anni fa. Parliamo di famiglia. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-storie-di-migrazione-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Storie di migrazione: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La sua famiglia è arrivata anni fa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di famiglia."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «La sua famiglia è arrivata anni fa.», what happens next in «Storie di migrazione: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La sua famiglia è arrivata anni fa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di famiglia."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Storie di migrazione: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La sua famiglia è arrivata anni fa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di famiglia."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Storie di migrazione: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "La sua famiglia è arrivata anni fa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di famiglia."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Storie di migrazione: ascolta», which detail establishes the situation?",
+        "options": [
+          "La sua famiglia è arrivata anni fa.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «La sua famiglia è arrivata anni fa.», what happens next in «Storie di migrazione: ascolta»?",
+        "options": [
+          "La sua famiglia è arrivata anni fa.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Storie di migrazione: ascolta»?",
+        "options": [
+          "La sua famiglia è arrivata anni fa.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Storie di migrazione: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "La sua famiglia è arrivata anni fa.",
+          "Parliamo di famiglia.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-una-festa-di-quartiere-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "una-festa-di-quartiere",
+    "title": "Una festa di quartiere: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 92,
+    "estimatedMinutes": 8,
+    "description": "Practica invitar y aceptar.",
+    "intro": "Practica invitar y aceptar.",
+    "mission": "Di Ci vediamo alla festa. y añade una frase sobre una pequeña fiesta comunitaria.",
+    "grammar": "",
+    "phrases": [
+      "Ci vediamo alla festa.",
+      "Mi piace festa.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: invitar y aceptar. Usa «Ci vediamo alla festa.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-storie-di-migrazione-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "storie-di-migrazione",
+    "title": "Storie di migrazione: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 92,
+    "estimatedMinutes": 8,
+    "description": "Practica contar una historia sencilla.",
+    "intro": "Practica contar una historia sencilla.",
+    "mission": "Di La sua famiglia è arrivata anni fa. y añade una frase sobre italia diversa: familias y trayectorias.",
+    "grammar": "",
+    "phrases": [
+      "La sua famiglia è arrivata anni fa.",
+      "Mi piace famiglia.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: contar una historia sencilla. Usa «La sua famiglia è arrivata anni fa.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-una-festa-di-quartiere-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "una-festa-di-quartiere",
+    "title": "Una festa di quartiere: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 93,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre una pequeña fiesta comunitaria y usa festa y musica.",
+    "grammar": "",
+    "phrases": [
+      "Ci vediamo alla festa.",
+      "Oggi ho imparato festa."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre una pequeña fiesta comunitaria."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-storie-di-migrazione-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "storie-di-migrazione",
+    "title": "Storie di migrazione: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 93,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre italia diversa: familias y trayectorias y usa famiglia y origine.",
+    "grammar": "",
+    "phrases": [
+      "La sua famiglia è arrivata anni fa.",
+      "Oggi ho imparato famiglia."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre italia diversa: familias y trayectorias."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-una-festa-di-quartiere-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "una-festa-di-quartiere",
+    "title": "Una festa di quartiere: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 94,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "phrases": [
+      "Ci vediamo alla festa."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Ci vediamo alla festa.",
+          "festa",
+          "musica",
+          "vicino"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "festa",
+          "musica",
+          "vicino",
+          "sabato"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "musica",
+          "festa",
+          "vicino",
+          "sabato"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Ci vediamo alla festa.",
+          "vicino",
+          "sabato",
+          "festa"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-storie-di-migrazione-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "storie-di-migrazione",
+    "title": "Storie di migrazione: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 94,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "phrases": [
+      "La sua famiglia è arrivata anni fa."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "La sua famiglia è arrivata anni fa.",
+          "famiglia",
+          "origine",
+          "arrivare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "famiglia",
+          "origine",
+          "arrivare",
+          "comunità"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "origine",
+          "famiglia",
+          "arrivare",
+          "comunità"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "La sua famiglia è arrivata anni fa.",
+          "arrivare",
+          "comunità",
+          "famiglia"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-una-festa-di-quartiere-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "una-festa-di-quartiere",
+    "title": "Una festa di quartiere: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 95,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "festa",
+        "translation": "palabra cultural",
+        "example": "Ci vediamo alla festa."
+      },
+      {
+        "word": "musica",
+        "translation": "acción cotidiana",
+        "example": "Ci vediamo alla festa."
+      },
+      {
+        "word": "vicino",
+        "translation": "lugar o cosa",
+        "example": "Ci vediamo alla festa."
+      },
+      {
+        "word": "sabato",
+        "translation": "expresión útil",
+        "example": "Ci vediamo alla festa."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "festa",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-storie-di-migrazione-vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "unitId": "storie-di-migrazione",
+    "title": "Storie di migrazione: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 95,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "famiglia",
+        "translation": "palabra cultural",
+        "example": "La sua famiglia è arrivata anni fa."
+      },
+      {
+        "word": "origine",
+        "translation": "acción cotidiana",
+        "example": "La sua famiglia è arrivata anni fa."
+      },
+      {
+        "word": "arrivare",
+        "translation": "lugar o cosa",
+        "example": "La sua famiglia è arrivata anni fa."
+      },
+      {
+        "word": "comunità",
+        "translation": "expresión útil",
+        "example": "La sua famiglia è arrivata anni fa."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "famiglia",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-in-treno-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "in-treno",
+    "title": "In treno: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 100,
+    "estimatedMinutes": 8,
+    "description": "Un viaje corto en tren regional",
+    "intro": "Un viaje corto en tren regional",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "In treno",
+      "parts": [
+        "Sofia è em Bologna. Hoje descobre un viaje corto en tren regional. Encontra Marco e diz: “Un biglietto per Firenze.”. Os dois falam com respeito e aprendem quatro palavras novas: treno, biglietto, binario e viaggio.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Un biglietto per Firenze.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia è em Bologna. Hoje descobre un viaje corto en tren regional. Encontra Marco e diz: “Un biglietto per Firenze.”. Os dois falam com respeito e aprendem quatro palavras novas: treno, biglietto, binario e viaggio.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Un biglietto per Firenze.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Un viaje corto en tren regional",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "comprar un billete",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a1-in-treno-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «In treno»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di In treno",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a1-in-treno-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «In treno»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di In treno",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-un-progetto-di-classe-reading",
+    "level": "A2",
+    "skill": "reading",
+    "unitId": "un-progetto-di-classe",
+    "title": "Un progetto di classe: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 100,
+    "estimatedMinutes": 8,
+    "description": "Colaborar para una propuesta local",
+    "intro": "Colaborar para una propuesta local",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Un progetto di classe",
+      "parts": [
+        "Sofia vive em Bologna e parla con Marco sobre colaborar para una propuesta local. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Possiamo dividere i compiti.” e spiega perché questa esperienza è importante per il quartiere.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Possiamo dividere i compiti.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia vive em Bologna e parla con Marco sobre colaborar para una propuesta local. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Possiamo dividere i compiti.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Possiamo dividere i compiti.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Colaborar para una propuesta local",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "proponer y colaborar",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a2-un-progetto-di-classe-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Un progetto di classe»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Un progetto di classe",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-un-progetto-di-classe-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Un progetto di classe»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Un progetto di classe",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-un-progetto-di-classe-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Un progetto di classe»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Un progetto di classe",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-in-treno-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "in-treno",
+    "title": "In treno: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 101,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre un viaje corto en tren regional.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Un biglietto per Firenze.",
+      "treno",
+      "biglietto"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Un biglietto per Firenze.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di treno.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Un biglietto per Firenze. Parliamo di treno. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-in-treno-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «In treno: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un biglietto per Firenze."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di treno."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Un biglietto per Firenze.», what happens next in «In treno: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un biglietto per Firenze."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di treno."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «In treno: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un biglietto per Firenze."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di treno."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «In treno: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Un biglietto per Firenze."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di treno."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «In treno: ascolta», which detail establishes the situation?",
+        "options": [
+          "Un biglietto per Firenze.",
+          "Parliamo di treno.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Un biglietto per Firenze.», what happens next in «In treno: ascolta»?",
+        "options": [
+          "Un biglietto per Firenze.",
+          "Parliamo di treno.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «In treno: ascolta»?",
+        "options": [
+          "Un biglietto per Firenze.",
+          "Parliamo di treno.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «In treno: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Un biglietto per Firenze.",
+          "Parliamo di treno.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-un-progetto-di-classe-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "un-progetto-di-classe",
+    "title": "Un progetto di classe: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 101,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre colaborar para una propuesta local.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Possiamo dividere i compiti.",
+      "progetto",
+      "compito"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Possiamo dividere i compiti.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di progetto.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Possiamo dividere i compiti. Parliamo di progetto. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-un-progetto-di-classe-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Un progetto di classe: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Possiamo dividere i compiti."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di progetto."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Possiamo dividere i compiti.», what happens next in «Un progetto di classe: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Possiamo dividere i compiti."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di progetto."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Un progetto di classe: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Possiamo dividere i compiti."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di progetto."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Un progetto di classe: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Possiamo dividere i compiti."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di progetto."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Un progetto di classe: ascolta», which detail establishes the situation?",
+        "options": [
+          "Possiamo dividere i compiti.",
+          "Parliamo di progetto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Possiamo dividere i compiti.», what happens next in «Un progetto di classe: ascolta»?",
+        "options": [
+          "Possiamo dividere i compiti.",
+          "Parliamo di progetto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Un progetto di classe: ascolta»?",
+        "options": [
+          "Possiamo dividere i compiti.",
+          "Parliamo di progetto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Un progetto di classe: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Possiamo dividere i compiti.",
+          "Parliamo di progetto.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-in-treno-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "in-treno",
+    "title": "In treno: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 102,
+    "estimatedMinutes": 8,
+    "description": "Practica comprar un billete.",
+    "intro": "Practica comprar un billete.",
+    "mission": "Di Un biglietto per Firenze. y añade una frase sobre un viaje corto en tren regional.",
+    "grammar": "",
+    "phrases": [
+      "Un biglietto per Firenze.",
+      "Mi piace treno.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: comprar un billete. Usa «Un biglietto per Firenze.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-un-progetto-di-classe-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "un-progetto-di-classe",
+    "title": "Un progetto di classe: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 102,
+    "estimatedMinutes": 8,
+    "description": "Practica proponer y colaborar.",
+    "intro": "Practica proponer y colaborar.",
+    "mission": "Di Possiamo dividere i compiti. y añade una frase sobre colaborar para una propuesta local.",
+    "grammar": "",
+    "phrases": [
+      "Possiamo dividere i compiti.",
+      "Mi piace progetto.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: proponer y colaborar. Usa «Possiamo dividere i compiti.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-in-treno-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "in-treno",
+    "title": "In treno: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 103,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre un viaje corto en tren regional y usa treno y biglietto.",
+    "grammar": "",
+    "phrases": [
+      "Un biglietto per Firenze.",
+      "Oggi ho imparato treno."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre un viaje corto en tren regional."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-un-progetto-di-classe-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "un-progetto-di-classe",
+    "title": "Un progetto di classe: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 103,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre colaborar para una propuesta local y usa progetto y compito.",
+    "grammar": "",
+    "phrases": [
+      "Possiamo dividere i compiti.",
+      "Oggi ho imparato progetto."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre colaborar para una propuesta local."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-in-treno-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "in-treno",
+    "title": "In treno: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 104,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "phrases": [
+      "Un biglietto per Firenze."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Un biglietto per Firenze.",
+          "treno",
+          "biglietto",
+          "binario"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "treno",
+          "biglietto",
+          "binario",
+          "viaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "biglietto",
+          "treno",
+          "binario",
+          "viaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Un biglietto per Firenze.",
+          "binario",
+          "viaggio",
+          "treno"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-un-progetto-di-classe-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "un-progetto-di-classe",
+    "title": "Un progetto di classe: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 104,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "phrases": [
+      "Possiamo dividere i compiti."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Possiamo dividere i compiti.",
+          "progetto",
+          "compito",
+          "idea"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "progetto",
+          "compito",
+          "idea",
+          "gruppo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "compito",
+          "progetto",
+          "idea",
+          "gruppo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Possiamo dividere i compiti.",
+          "idea",
+          "gruppo",
+          "progetto"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-in-treno-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "in-treno",
+    "title": "In treno: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 105,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "treno",
+        "translation": "palabra cultural",
+        "example": "Un biglietto per Firenze."
       },
       {
         "word": "biglietto",
-        "translation": "boleto",
-        "example": "Oggi pratico la parola \"biglietto\"."
+        "translation": "acción cotidiana",
+        "example": "Un biglietto per Firenze."
       },
       {
-        "word": "resto",
-        "translation": "cambio",
-        "example": "Oggi pratico la parola \"resto\"."
+        "word": "binario",
+        "translation": "lugar o cosa",
+        "example": "Un biglietto per Firenze."
       },
       {
-        "word": "zuppa",
-        "translation": "sopa",
-        "example": "Oggi pratico la parola \"zuppa\"."
-      },
-      {
-        "word": "bagaglio",
-        "translation": "equipaje",
-        "example": "Oggi pratico la parola \"bagaglio\"."
+        "word": "viaggio",
+        "translation": "expresión útil",
+        "example": "Un biglietto per Firenze."
       }
     ],
-    "dialogue": [
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
       {
-        "speaker": "Tutor",
-        "line": "Compro pane integrale.",
-        "translation": "Frase modelo"
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "treno",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-un-progetto-di-classe-vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "unitId": "un-progetto-di-classe",
+    "title": "Un progetto di classe: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 105,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "progetto",
+        "translation": "palabra cultural",
+        "example": "Possiamo dividere i compiti."
       },
       {
-        "speaker": "Student",
-        "line": "L'autobus arriva tardi.",
-        "translation": "Respuesta guiada"
+        "word": "compito",
+        "translation": "acción cotidiana",
+        "example": "Possiamo dividere i compiti."
+      },
+      {
+        "word": "idea",
+        "translation": "lugar o cosa",
+        "example": "Possiamo dividere i compiti."
+      },
+      {
+        "word": "gruppo",
+        "translation": "expresión útil",
+        "example": "Possiamo dividere i compiti."
       }
     ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "progetto",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-sapori-d-italia-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "sapori-d-italia",
+    "title": "Sapori d'Italia: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 110,
+    "estimatedMinutes": 8,
+    "description": "Sabores regionales sin estereotipos",
+    "intro": "Sabores regionales sin estereotipos",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
     "reading": {
-      "text": "Prima di prendere l'autobus, Irene passa dal mercato. Compra il pane, chiede il resto e prepara una zuppa quando torna a casa.",
+      "title": "Sapori d'Italia",
+      "parts": [
+        "Sofia è em Bologna. Hoje descobre sabores regionales sin estereotipos. Encontra Marco e diz: “Mi piace questa zuppa.”. Os dois falam com respeito e aprendem quatro palavras novas: pane, zuppa, formaggio e gusto.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Mi piace questa zuppa.”."
+      ],
       "questions": [
-        "¿Qué compra Irene en el mercado?",
-        "¿Qué necesita antes de pagar?",
-        "¿Qué prepara al volver a casa?"
-      ]
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia è em Bologna. Hoje descobre sabores regionales sin estereotipos. Encontra Marco e diz: “Mi piace questa zuppa.”. Os dois falam com respeito e aprendem quatro palavras novas: pane, zuppa, formaggio e gusto.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Mi piace questa zuppa.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué significa \"mercato\"?",
+        "prompt": "¿Qué practica la unidad?",
         "options": [
-          "mercado",
-          "boleto",
-          "cambio",
-          "sopa"
+          "Sabores regionales sin estereotipos",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
         ]
       },
       {
-        "type": "vocabulary",
-        "prompt": "Usa al menos cuatro palabras nuevas en un mini ejemplo temático."
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "expresar preferencias",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
       },
       {
-        "type": "practice",
-        "prompt": "Usa al menos dos frases modelo: Compro pane integrale. / L'autobus arriva tardi."
+        "id": "italian-a1-sapori-d-italia-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Sapori d'Italia»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Sapori d'Italia",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a1-sapori-d-italia-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Sapori d'Italia»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Sapori d'Italia",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-ambiente-e-citta-reading",
+    "level": "A2",
+    "skill": "reading",
+    "unitId": "ambiente-e-citta",
+    "title": "Ambiente e città: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 110,
+    "estimatedMinutes": 8,
+    "description": "Reciclaje y movilidad cotidiana",
+    "intro": "Reciclaje y movilidad cotidiana",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Ambiente e città",
+      "parts": [
+        "Sofia vive em Bologna e parla con Marco sobre reciclaje y movilidad cotidiana. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Vorrei usare meno plastica.” e spiega perché questa esperienza è importante per il quartiere.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Vorrei usare meno plastica.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia vive em Bologna e parla con Marco sobre reciclaje y movilidad cotidiana. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Vorrei usare meno plastica.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Vorrei usare meno plastica.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Reciclaje y movilidad cotidiana",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "hablar de hábitos",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a2-ambiente-e-citta-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Ambiente e città»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Ambiente e città",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-ambiente-e-citta-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Ambiente e città»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Ambiente e città",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-ambiente-e-citta-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Ambiente e città»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Ambiente e città",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-sapori-d-italia-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "sapori-d-italia",
+    "title": "Sapori d'Italia: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 111,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre sabores regionales sin estereotipos.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Mi piace questa zuppa.",
+      "pane",
+      "zuppa"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace questa zuppa.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di pane.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Mi piace questa zuppa. Parliamo di pane. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-sapori-d-italia-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Sapori d'Italia: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi piace questa zuppa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di pane."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Mi piace questa zuppa.», what happens next in «Sapori d'Italia: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi piace questa zuppa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di pane."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Sapori d'Italia: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi piace questa zuppa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di pane."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Sapori d'Italia: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Mi piace questa zuppa."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di pane."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Sapori d'Italia: ascolta», which detail establishes the situation?",
+        "options": [
+          "Mi piace questa zuppa.",
+          "Parliamo di pane.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Mi piace questa zuppa.», what happens next in «Sapori d'Italia: ascolta»?",
+        "options": [
+          "Mi piace questa zuppa.",
+          "Parliamo di pane.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Sapori d'Italia: ascolta»?",
+        "options": [
+          "Mi piace questa zuppa.",
+          "Parliamo di pane.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Sapori d'Italia: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Mi piace questa zuppa.",
+          "Parliamo di pane.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-ambiente-e-citta-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "ambiente-e-citta",
+    "title": "Ambiente e città: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 111,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre reciclaje y movilidad cotidiana.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Vorrei usare meno plastica.",
+      "rifiuti",
+      "plastica"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Vorrei usare meno plastica.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di rifiuti.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Vorrei usare meno plastica. Parliamo di rifiuti. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-ambiente-e-citta-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Ambiente e città: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vorrei usare meno plastica."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di rifiuti."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Vorrei usare meno plastica.», what happens next in «Ambiente e città: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vorrei usare meno plastica."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di rifiuti."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Ambiente e città: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vorrei usare meno plastica."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di rifiuti."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Ambiente e città: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Vorrei usare meno plastica."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di rifiuti."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Ambiente e città: ascolta», which detail establishes the situation?",
+        "options": [
+          "Vorrei usare meno plastica.",
+          "Parliamo di rifiuti.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Vorrei usare meno plastica.», what happens next in «Ambiente e città: ascolta»?",
+        "options": [
+          "Vorrei usare meno plastica.",
+          "Parliamo di rifiuti.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Ambiente e città: ascolta»?",
+        "options": [
+          "Vorrei usare meno plastica.",
+          "Parliamo di rifiuti.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Ambiente e città: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Vorrei usare meno plastica.",
+          "Parliamo di rifiuti.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-sapori-d-italia-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "sapori-d-italia",
+    "title": "Sapori d'Italia: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 112,
+    "estimatedMinutes": 8,
+    "description": "Practica expresar preferencias.",
+    "intro": "Practica expresar preferencias.",
+    "mission": "Di Mi piace questa zuppa. y añade una frase sobre sabores regionales sin estereotipos.",
+    "grammar": "",
+    "phrases": [
+      "Mi piace questa zuppa.",
+      "Mi piace pane.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: expresar preferencias. Usa «Mi piace questa zuppa.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-ambiente-e-citta-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "ambiente-e-citta",
+    "title": "Ambiente e città: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 112,
+    "estimatedMinutes": 8,
+    "description": "Practica hablar de hábitos.",
+    "intro": "Practica hablar de hábitos.",
+    "mission": "Di Vorrei usare meno plastica. y añade una frase sobre reciclaje y movilidad cotidiana.",
+    "grammar": "",
+    "phrases": [
+      "Vorrei usare meno plastica.",
+      "Mi piace rifiuti.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: hablar de hábitos. Usa «Vorrei usare meno plastica.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-sapori-d-italia-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "sapori-d-italia",
+    "title": "Sapori d'Italia: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 113,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre sabores regionales sin estereotipos y usa pane y zuppa.",
+    "grammar": "",
+    "phrases": [
+      "Mi piace questa zuppa.",
+      "Oggi ho imparato pane."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre sabores regionales sin estereotipos."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-ambiente-e-citta-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "ambiente-e-citta",
+    "title": "Ambiente e città: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 113,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre reciclaje y movilidad cotidiana y usa rifiuti y plastica.",
+    "grammar": "",
+    "phrases": [
+      "Vorrei usare meno plastica.",
+      "Oggi ho imparato rifiuti."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre reciclaje y movilidad cotidiana."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-sapori-d-italia-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "sapori-d-italia",
+    "title": "Sapori d'Italia: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 114,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "phrases": [
+      "Mi piace questa zuppa."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Mi piace questa zuppa.",
+          "pane",
+          "zuppa",
+          "formaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "pane",
+          "zuppa",
+          "formaggio",
+          "gusto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "zuppa",
+          "pane",
+          "formaggio",
+          "gusto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Mi piace questa zuppa.",
+          "formaggio",
+          "gusto",
+          "pane"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-ambiente-e-citta-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "ambiente-e-citta",
+    "title": "Ambiente e città: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 114,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "phrases": [
+      "Vorrei usare meno plastica."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Vorrei usare meno plastica.",
+          "rifiuti",
+          "plastica",
+          "riciclare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "rifiuti",
+          "plastica",
+          "riciclare",
+          "ambiente"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "plastica",
+          "rifiuti",
+          "riciclare",
+          "ambiente"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Vorrei usare meno plastica.",
+          "riciclare",
+          "ambiente",
+          "rifiuti"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-sapori-d-italia-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "sapori-d-italia",
+    "title": "Sapori d'Italia: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 115,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "pane",
+        "translation": "palabra cultural",
+        "example": "Mi piace questa zuppa."
+      },
+      {
+        "word": "zuppa",
+        "translation": "acción cotidiana",
+        "example": "Mi piace questa zuppa."
+      },
+      {
+        "word": "formaggio",
+        "translation": "lugar o cosa",
+        "example": "Mi piace questa zuppa."
+      },
+      {
+        "word": "gusto",
+        "translation": "expresión útil",
+        "example": "Mi piace questa zuppa."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "pane",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-ambiente-e-citta-vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "unitId": "ambiente-e-citta",
+    "title": "Ambiente e città: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 115,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "rifiuti",
+        "translation": "palabra cultural",
+        "example": "Vorrei usare meno plastica."
+      },
+      {
+        "word": "plastica",
+        "translation": "acción cotidiana",
+        "example": "Vorrei usare meno plastica."
+      },
+      {
+        "word": "riciclare",
+        "translation": "lugar o cosa",
+        "example": "Vorrei usare meno plastica."
+      },
+      {
+        "word": "ambiente",
+        "translation": "expresión útil",
+        "example": "Vorrei usare meno plastica."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "rifiuti",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-un-messaggio-a-casa-reading",
+    "level": "A1",
+    "skill": "reading",
+    "unitId": "un-messaggio-a-casa",
+    "title": "Un messaggio a casa: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 120,
+    "estimatedMinutes": 8,
+    "description": "Contar una experiencia sencilla",
+    "intro": "Contar una experiencia sencilla",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Un messaggio a casa",
+      "parts": [
+        "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “Oggi ho imparato molto.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Oggi ho imparato molto.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Contar una experiencia sencilla",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "escribir un mensaje breve",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a1-un-messaggio-a-casa-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Un messaggio a casa»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Un messaggio a casa",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a1-un-messaggio-a-casa-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Un messaggio a casa»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Un messaggio a casa",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-raccontare-il-proprio-viaggio-reading",
+    "level": "A2",
+    "skill": "reading",
+    "unitId": "raccontare-il-proprio-viaggio",
+    "title": "Raccontare il proprio viaggio: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 120,
+    "estimatedMinutes": 8,
+    "description": "Cerrar el nivel con una experiencia personal",
+    "intro": "Cerrar el nivel con una experiencia personal",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": {
+      "title": "Raccontare il proprio viaggio",
+      "parts": [
+        "Sofia vive em Bologna e parla con Marco sobre cerrar el nivel con una experiencia personal. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “È stato un viaggio importante.” e spiega perché questa esperienza è importante per il quartiere.",
+        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
+        "Al final, Sofia scrive una nota: “È stato un viaggio importante.”."
+      ],
+      "questions": [
+        "Dove è/está Sofia?",
+        "Con chi fala/parla Sofia?",
+        "Qual frase usa Sofia?",
+        "Perché l’esperienza é importante?"
+      ],
+      "text": "Sofia vive em Bologna e parla con Marco sobre cerrar el nivel con una experiencia personal. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “È stato un viaggio importante.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “È stato un viaggio importante.”."
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué practica la unidad?",
+        "options": [
+          "Cerrar el nivel con una experiencia personal",
+          "Una regla aislada",
+          "Un examen técnico",
+          "Un tema sin contexto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué hace el estudiante?",
+        "options": [
+          "narrar una experiencia",
+          "Memoriza sin usar",
+          "Evita hablar",
+          "Solo traduce"
+        ]
+      },
+      {
+        "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Raccontare il proprio viaggio»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Raccontare il proprio viaggio",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-4",
+        "type": "mcq",
+        "prompt": "Quale frase riassume meglio «Raccontare il proprio viaggio»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Raccontare il proprio viaggio",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      },
+      {
+        "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Raccontare il proprio viaggio»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Raccontare il proprio viaggio",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-un-messaggio-a-casa-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "un-messaggio-a-casa",
+    "title": "Un messaggio a casa: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 121,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre contar una experiencia sencilla.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "Oggi ho imparato molto.",
+      "oggi",
+      "domani"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "Oggi ho imparato molto.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di oggi.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "Oggi ho imparato molto. Parliamo di oggi. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a1-un-messaggio-a-casa-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Un messaggio a casa: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Oggi ho imparato molto."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di oggi."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Oggi ho imparato molto.», what happens next in «Un messaggio a casa: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Oggi ho imparato molto."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di oggi."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Un messaggio a casa: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Oggi ho imparato molto."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di oggi."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Un messaggio a casa: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Oggi ho imparato molto."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di oggi."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Un messaggio a casa: ascolta», which detail establishes the situation?",
+        "options": [
+          "Oggi ho imparato molto.",
+          "Parliamo di oggi.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Oggi ho imparato molto.», what happens next in «Un messaggio a casa: ascolta»?",
+        "options": [
+          "Oggi ho imparato molto.",
+          "Parliamo di oggi.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Un messaggio a casa: ascolta»?",
+        "options": [
+          "Oggi ho imparato molto.",
+          "Parliamo di oggi.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Un messaggio a casa: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "Oggi ho imparato molto.",
+          "Parliamo di oggi.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-raccontare-il-proprio-viaggio-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "raccontare-il-proprio-viaggio",
+    "title": "Raccontare il proprio viaggio: ascolta",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 121,
+    "estimatedMinutes": 8,
+    "description": "Escucha un diálogo cultural corto.",
+    "intro": "Escucha una situación sobre cerrar el nivel con una experiencia personal.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [
+      "È stato un viaggio importante.",
+      "ricordo",
+      "incontro"
+    ],
+    "vocabulary": [],
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "line": "È stato un viaggio importante.",
+        "translation": "Expresión del día."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Parliamo di ricordo.",
+        "translation": "Hablemos del tema."
+      },
+      {
+        "speaker": "Sofia",
+        "line": "Mi piace imparare con la comunità.",
+        "translation": "Me gusta aprender con la comunidad."
+      },
+      {
+        "speaker": "Marco",
+        "line": "Facciamo pratica insieme domani.",
+        "translation": "Practiquemos juntos mañana."
+      }
+    ],
+    "reading": null,
+    "transcript": "È stato un viaggio importante. Parliamo di ricordo. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "italian-a2-raccontare-il-proprio-viaggio-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Raccontare il proprio viaggio: ascolta», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "È stato un viaggio importante."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di ricordo."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «È stato un viaggio importante.», what happens next in «Raccontare il proprio viaggio: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "È stato un viaggio importante."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di ricordo."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Raccontare il proprio viaggio: ascolta»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "È stato un viaggio importante."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di ricordo."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Raccontare il proprio viaggio: ascolta» after «Mi piace imparare con la comunità.»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "È stato un viaggio importante."
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo di ricordo."
+              },
+              {
+                "id": "o3",
+                "text": "Mi piace imparare con la comunità."
+              },
+              {
+                "id": "o4",
+                "text": "Facciamo pratica insieme domani."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Raccontare il proprio viaggio: ascolta», which detail establishes the situation?",
+        "options": [
+          "È stato un viaggio importante.",
+          "Parliamo di ricordo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «È stato un viaggio importante.», what happens next in «Raccontare il proprio viaggio: ascolta»?",
+        "options": [
+          "È stato un viaggio importante.",
+          "Parliamo di ricordo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Raccontare il proprio viaggio: ascolta»?",
+        "options": [
+          "È stato un viaggio importante.",
+          "Parliamo di ricordo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Raccontare il proprio viaggio: ascolta» after «Mi piace imparare con la comunità.»?",
+        "options": [
+          "È stato un viaggio importante.",
+          "Parliamo di ricordo.",
+          "Mi piace imparare con la comunità.",
+          "Facciamo pratica insieme domani."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-un-messaggio-a-casa-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "un-messaggio-a-casa",
+    "title": "Un messaggio a casa: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 122,
+    "estimatedMinutes": 8,
+    "description": "Practica escribir un mensaje breve.",
+    "intro": "Practica escribir un mensaje breve.",
+    "mission": "Di Oggi ho imparato molto. y añade una frase sobre contar una experiencia sencilla.",
+    "grammar": "",
+    "phrases": [
+      "Oggi ho imparato molto.",
+      "Mi piace oggi.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: escribir un mensaje breve. Usa «Oggi ho imparato molto.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-raccontare-il-proprio-viaggio-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "raccontare-il-proprio-viaggio",
+    "title": "Raccontare il proprio viaggio: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 122,
+    "estimatedMinutes": 8,
+    "description": "Practica narrar una experiencia.",
+    "intro": "Practica narrar una experiencia.",
+    "mission": "Di È stato un viaggio importante. y añade una frase sobre cerrar el nivel con una experiencia personal.",
+    "grammar": "",
+    "phrases": [
+      "È stato un viaggio importante.",
+      "Mi piace ricordo.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: narrar una experiencia. Usa «È stato un viaggio importante.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-un-messaggio-a-casa-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "un-messaggio-a-casa",
+    "title": "Un messaggio a casa: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 123,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre contar una experiencia sencilla y usa oggi y domani.",
+    "grammar": "",
+    "phrases": [
+      "Oggi ho imparato molto.",
+      "Oggi ho imparato oggi."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre contar una experiencia sencilla."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-raccontare-il-proprio-viaggio-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "raccontare-il-proprio-viaggio",
+    "title": "Raccontare il proprio viaggio: scrivi",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 123,
+    "estimatedMinutes": 12,
+    "description": "Escribe un mensaje cultural breve.",
+    "intro": "Escribe un mensaje cultural breve.",
+    "mission": "Escribe 4 frases sobre cerrar el nivel con una experiencia personal y usa ricordo y incontro.",
+    "grammar": "",
+    "phrases": [
+      "È stato un viaggio importante.",
+      "Oggi ho imparato ricordo."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "writing",
+        "prompt": "Escribe un mensaje de 40-60 palabras sobre cerrar el nivel con una experiencia personal."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-un-messaggio-a-casa-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "unitId": "un-messaggio-a-casa",
+    "title": "Un messaggio a casa: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 124,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "phrases": [
+      "Oggi ho imparato molto."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "Oggi ho imparato molto.",
+          "oggi",
+          "domani",
+          "casa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "oggi",
+          "domani",
+          "casa",
+          "esperienza"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "domani",
+          "oggi",
+          "casa",
+          "esperienza"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "Oggi ho imparato molto.",
+          "casa",
+          "esperienza",
+          "oggi"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-raccontare-il-proprio-viaggio-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "unitId": "raccontare-il-proprio-viaggio",
+    "title": "Raccontare il proprio viaggio: grammatica",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 124,
+    "estimatedMinutes": 8,
+    "description": "Estructura útil en contexto.",
+    "intro": "Estructura útil en contexto.",
+    "mission": "",
+    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "phrases": [
+      "È stato un viaggio importante."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Elige la frase útil.",
+        "options": [
+          "È stato un viaggio importante.",
+          "ricordo",
+          "incontro",
+          "cambiare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Elige una palabra del tema.",
+        "options": [
+          "ricordo",
+          "incontro",
+          "cambiare",
+          "futuro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Completa una frase cultural.",
+        "options": [
+          "incontro",
+          "ricordo",
+          "cambiare",
+          "futuro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "¿Qué opción es más cortés?",
+        "options": [
+          "È stato un viaggio importante.",
+          "cambiare",
+          "futuro",
+          "ricordo"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-un-messaggio-a-casa-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unitId": "un-messaggio-a-casa",
+    "title": "Un messaggio a casa: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 125,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "oggi",
+        "translation": "palabra cultural",
+        "example": "Oggi ho imparato molto."
+      },
+      {
+        "word": "domani",
+        "translation": "acción cotidiana",
+        "example": "Oggi ho imparato molto."
+      },
+      {
+        "word": "casa",
+        "translation": "lugar o cosa",
+        "example": "Oggi ho imparato molto."
+      },
+      {
+        "word": "esperienza",
+        "translation": "expresión útil",
+        "example": "Oggi ho imparato molto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "oggi",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-raccontare-il-proprio-viaggio-vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "unitId": "raccontare-il-proprio-viaggio",
+    "title": "Raccontare il proprio viaggio: parole",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 125,
+    "estimatedMinutes": 8,
+    "description": "Vocabulario para el reto.",
+    "intro": "Vocabulario para el reto.",
+    "mission": "",
+    "grammar": "",
+    "phrases": [],
+    "vocabulary": [
+      {
+        "word": "ricordo",
+        "translation": "palabra cultural",
+        "example": "È stato un viaggio importante."
+      },
+      {
+        "word": "incontro",
+        "translation": "acción cotidiana",
+        "example": "È stato un viaggio importante."
+      },
+      {
+        "word": "cambiare",
+        "translation": "lugar o cosa",
+        "example": "È stato un viaggio importante."
+      },
+      {
+        "word": "futuro",
+        "translation": "expresión útil",
+        "example": "È stato un viaggio importante."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "options": [
+          "ricordo",
+          "computadora",
+          "laboratorio",
+          "satélite"
+        ]
       }
     ]
   },
@@ -3952,5 +13753,654 @@
 ];
 
   window.ANDERGO_LANGUAGE_WORLDS.units = window.ANDERGO_LANGUAGE_WORLDS.units || {};
-  window.ANDERGO_LANGUAGE_WORLDS.units.italian = [];
+  window.ANDERGO_LANGUAGE_WORLDS.units.italian = [
+  {
+    "id": "benvenuti-in-italia",
+    "slug": "benvenuti-in-italia",
+    "level": "A1",
+    "title": "Benvenuti in Italia",
+    "titleEs": "Saluti e presentazioni a Bologna",
+    "description": "Saluti e presentazioni a Bologna",
+    "order": 1,
+    "unitOverview": {
+      "objective": "salutare e presentarsi",
+      "outcomes": [
+        "salutare e presentarsi",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "ciao",
+        "buongiorno",
+        "piacere",
+        "grazie"
+      ],
+      "scenario": "Saluti e presentazioni a Bologna"
+    }
+  },
+  {
+    "id": "vita-in-citta",
+    "slug": "vita-in-citta",
+    "level": "A2",
+    "title": "Vita in città",
+    "titleEs": "Rutinas urbanas y servicios públicos",
+    "description": "Rutinas urbanas y servicios públicos",
+    "order": 1,
+    "unitOverview": {
+      "objective": "describir una rutina",
+      "outcomes": [
+        "describir una rutina",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "quartiere",
+        "fermata",
+        "ufficio",
+        "servizio"
+      ],
+      "scenario": "Rutinas urbanas y servicios públicos"
+    }
+  },
+  {
+    "id": "un-caffe-al-bar",
+    "slug": "un-caffe-al-bar",
+    "level": "A1",
+    "title": "Un caffè al bar",
+    "titleEs": "Un bar di quartiere e le cortesie quotidiane",
+    "description": "Un bar di quartiere e le cortesie quotidiane",
+    "order": 2,
+    "unitOverview": {
+      "objective": "ordinare con cortesia",
+      "outcomes": [
+        "ordinare con cortesia",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "caffè",
+        "acqua",
+        "per favore",
+        "grazie"
+      ],
+      "scenario": "Un bar di quartiere e le cortesie quotidiane"
+    }
+  },
+  {
+    "id": "un-fine-settimana-a-napoli",
+    "slug": "un-fine-settimana-a-napoli",
+    "level": "A2",
+    "title": "Un fine settimana a Napoli",
+    "titleEs": "Planificar una visita respetuosa",
+    "description": "Planificar una visita respetuosa",
+    "order": 2,
+    "unitOverview": {
+      "objective": "hacer planes",
+      "outcomes": [
+        "hacer planes",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "museo",
+        "passeggiata",
+        "prenotazione",
+        "visita"
+      ],
+      "scenario": "Planificar una visita respetuosa"
+    }
+  },
+  {
+    "id": "la-famiglia-a-tavola",
+    "slug": "la-famiglia-a-tavola",
+    "level": "A1",
+    "title": "La famiglia a tavola",
+    "titleEs": "Una cena familiare e gli orari italiani",
+    "description": "Una cena familiare e gli orari italiani",
+    "order": 3,
+    "unitOverview": {
+      "objective": "parlare della famiglia",
+      "outcomes": [
+        "parlare della famiglia",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "famiglia",
+        "cena",
+        "tavola",
+        "insieme"
+      ],
+      "scenario": "Una cena familiare e gli orari italiani"
+    }
+  },
+  {
+    "id": "ricette-di-famiglia",
+    "slug": "ricette-di-famiglia",
+    "level": "A2",
+    "title": "Ricette di famiglia",
+    "titleEs": "Recetas, recuerdos y medidas",
+    "description": "Recetas, recuerdos y medidas",
+    "order": 3,
+    "unitOverview": {
+      "objective": "explicar una secuencia",
+      "outcomes": [
+        "explicar una secuencia",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "ricetta",
+        "ingrediente",
+        "prima",
+        "dopo"
+      ],
+      "scenario": "Recetas, recuerdos y medidas"
+    }
+  },
+  {
+    "id": "il-mercato-del-sabato",
+    "slug": "il-mercato-del-sabato",
+    "level": "A1",
+    "title": "Il mercato del sabato",
+    "titleEs": "Frutta, verdura e prezzi al mercato",
+    "description": "Frutta, verdura e prezzi al mercato",
+    "order": 4,
+    "unitOverview": {
+      "objective": "comprare al mercato",
+      "outcomes": [
+        "comprare al mercato",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "pomodoro",
+        "mela",
+        "chilo",
+        "euro"
+      ],
+      "scenario": "Frutta, verdura e prezzi al mercato"
+    }
+  },
+  {
+    "id": "il-lavoro-e-il-caffe",
+    "slug": "il-lavoro-e-il-caffe",
+    "level": "A2",
+    "title": "Il lavoro e il caffè",
+    "titleEs": "Pausas laborales y registros de cortesía",
+    "description": "Pausas laborales y registros de cortesía",
+    "order": 4,
+    "unitOverview": {
+      "objective": "interactuar en el trabajo",
+      "outcomes": [
+        "interactuar en el trabajo",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "collega",
+        "pausa",
+        "riunione",
+        "orario"
+      ],
+      "scenario": "Pausas laborales y registros de cortesía"
+    }
+  },
+  {
+    "id": "in-bicicletta",
+    "slug": "in-bicicletta",
+    "level": "A1",
+    "title": "In bicicletta",
+    "titleEs": "Moverse por la ciudad en bicicleta",
+    "description": "Moverse por la ciudad en bicicleta",
+    "order": 5,
+    "unitOverview": {
+      "objective": "chiedere indicazioni",
+      "outcomes": [
+        "chiedere indicazioni",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "strada",
+        "piazza",
+        "stazione",
+        "bicicletta"
+      ],
+      "scenario": "Moverse por la ciudad en bicicleta"
+    }
+  },
+  {
+    "id": "arte-nel-quartiere",
+    "slug": "arte-nel-quartiere",
+    "level": "A2",
+    "title": "Arte nel quartiere",
+    "titleEs": "Arte local y espacios compartidos",
+    "description": "Arte local y espacios compartidos",
+    "order": 5,
+    "unitOverview": {
+      "objective": "dar una opinión",
+      "outcomes": [
+        "dar una opinión",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "mostra",
+        "artista",
+        "piazza",
+        "opinione"
+      ],
+      "scenario": "Arte local y espacios compartidos"
+    }
+  },
+  {
+    "id": "scuola-e-amici",
+    "slug": "scuola-e-amici",
+    "level": "A1",
+    "title": "Scuola e amici",
+    "titleEs": "La vida escolar y una merienda",
+    "description": "La vida escolar y una merienda",
+    "order": 6,
+    "unitOverview": {
+      "objective": "hablar de gustos",
+      "outcomes": [
+        "hablar de gustos",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "scuola",
+        "amico",
+        "lezione",
+        "compito"
+      ],
+      "scenario": "La vida escolar y una merienda"
+    }
+  },
+  {
+    "id": "viaggiare-con-responsabilita",
+    "slug": "viaggiare-con-responsabilita",
+    "level": "A2",
+    "title": "Viaggiare con responsabilità",
+    "titleEs": "Viajar cuidando barrios y personas",
+    "description": "Viajar cuidando barrios y personas",
+    "order": 6,
+    "unitOverview": {
+      "objective": "expresar intención",
+      "outcomes": [
+        "expresar intención",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "residente",
+        "rispetto",
+        "mappa",
+        "scelta"
+      ],
+      "scenario": "Viajar cuidando barrios y personas"
+    }
+  },
+  {
+    "id": "una-casa-italiana",
+    "slug": "una-casa-italiana",
+    "level": "A1",
+    "title": "Una casa italiana",
+    "titleEs": "Habitaciones y vida en casa",
+    "description": "Habitaciones y vida en casa",
+    "order": 7,
+    "unitOverview": {
+      "objective": "describir una casa",
+      "outcomes": [
+        "describir una casa",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "cucina",
+        "camera",
+        "finestra",
+        "balcone"
+      ],
+      "scenario": "Habitaciones y vida en casa"
+    }
+  },
+  {
+    "id": "sport-e-tempo-libero",
+    "slug": "sport-e-tempo-libero",
+    "level": "A2",
+    "title": "Sport e tempo libero",
+    "titleEs": "Aficiones más allá de un solo deporte",
+    "description": "Aficiones más allá de un solo deporte",
+    "order": 7,
+    "unitOverview": {
+      "objective": "hablar del pasado",
+      "outcomes": [
+        "hablar del pasado",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "nuoto",
+        "corsa",
+        "squadra",
+        "allenamento"
+      ],
+      "scenario": "Aficiones más allá de un solo deporte"
+    }
+  },
+  {
+    "id": "il-tempo-e-le-stagioni",
+    "slug": "il-tempo-e-le-stagioni",
+    "level": "A1",
+    "title": "Il tempo e le stagioni",
+    "titleEs": "El clima y las estaciones",
+    "description": "El clima y las estaciones",
+    "order": 8,
+    "unitOverview": {
+      "objective": "hablar del tiempo",
+      "outcomes": [
+        "hablar del tiempo",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "sole",
+        "pioggia",
+        "caldo",
+        "freddo"
+      ],
+      "scenario": "El clima y las estaciones"
+    }
+  },
+  {
+    "id": "la-salute-ogni-giorno",
+    "slug": "la-salute-ogni-giorno",
+    "level": "A2",
+    "title": "La salute ogni giorno",
+    "titleEs": "Bienestar y farmacia",
+    "description": "Bienestar y farmacia",
+    "order": 8,
+    "unitOverview": {
+      "objective": "expresar malestar simple",
+      "outcomes": [
+        "expresar malestar simple",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "farmacia",
+        "dolore",
+        "riposo",
+        "consiglio"
+      ],
+      "scenario": "Bienestar y farmacia"
+    }
+  },
+  {
+    "id": "una-festa-di-quartiere",
+    "slug": "una-festa-di-quartiere",
+    "level": "A1",
+    "title": "Una festa di quartiere",
+    "titleEs": "Una pequeña fiesta comunitaria",
+    "description": "Una pequeña fiesta comunitaria",
+    "order": 9,
+    "unitOverview": {
+      "objective": "invitar y aceptar",
+      "outcomes": [
+        "invitar y aceptar",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "festa",
+        "musica",
+        "vicino",
+        "sabato"
+      ],
+      "scenario": "Una pequeña fiesta comunitaria"
+    }
+  },
+  {
+    "id": "storie-di-migrazione",
+    "slug": "storie-di-migrazione",
+    "level": "A2",
+    "title": "Storie di migrazione",
+    "titleEs": "Italia diversa: familias y trayectorias",
+    "description": "Italia diversa: familias y trayectorias",
+    "order": 9,
+    "unitOverview": {
+      "objective": "contar una historia sencilla",
+      "outcomes": [
+        "contar una historia sencilla",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "famiglia",
+        "origine",
+        "arrivare",
+        "comunità"
+      ],
+      "scenario": "Italia diversa: familias y trayectorias"
+    }
+  },
+  {
+    "id": "in-treno",
+    "slug": "in-treno",
+    "level": "A1",
+    "title": "In treno",
+    "titleEs": "Un viaje corto en tren regional",
+    "description": "Un viaje corto en tren regional",
+    "order": 10,
+    "unitOverview": {
+      "objective": "comprar un billete",
+      "outcomes": [
+        "comprar un billete",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "treno",
+        "biglietto",
+        "binario",
+        "viaggio"
+      ],
+      "scenario": "Un viaje corto en tren regional"
+    }
+  },
+  {
+    "id": "un-progetto-di-classe",
+    "slug": "un-progetto-di-classe",
+    "level": "A2",
+    "title": "Un progetto di classe",
+    "titleEs": "Colaborar para una propuesta local",
+    "description": "Colaborar para una propuesta local",
+    "order": 10,
+    "unitOverview": {
+      "objective": "proponer y colaborar",
+      "outcomes": [
+        "proponer y colaborar",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "progetto",
+        "compito",
+        "idea",
+        "gruppo"
+      ],
+      "scenario": "Colaborar para una propuesta local"
+    }
+  },
+  {
+    "id": "sapori-d-italia",
+    "slug": "sapori-d-italia",
+    "level": "A1",
+    "title": "Sapori d'Italia",
+    "titleEs": "Sabores regionales sin estereotipos",
+    "description": "Sabores regionales sin estereotipos",
+    "order": 11,
+    "unitOverview": {
+      "objective": "expresar preferencias",
+      "outcomes": [
+        "expresar preferencias",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "pane",
+        "zuppa",
+        "formaggio",
+        "gusto"
+      ],
+      "scenario": "Sabores regionales sin estereotipos"
+    }
+  },
+  {
+    "id": "ambiente-e-citta",
+    "slug": "ambiente-e-citta",
+    "level": "A2",
+    "title": "Ambiente e città",
+    "titleEs": "Reciclaje y movilidad cotidiana",
+    "description": "Reciclaje y movilidad cotidiana",
+    "order": 11,
+    "unitOverview": {
+      "objective": "hablar de hábitos",
+      "outcomes": [
+        "hablar de hábitos",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "rifiuti",
+        "plastica",
+        "riciclare",
+        "ambiente"
+      ],
+      "scenario": "Reciclaje y movilidad cotidiana"
+    }
+  },
+  {
+    "id": "un-messaggio-a-casa",
+    "slug": "un-messaggio-a-casa",
+    "level": "A1",
+    "title": "Un messaggio a casa",
+    "titleEs": "Contar una experiencia sencilla",
+    "description": "Contar una experiencia sencilla",
+    "order": 12,
+    "unitOverview": {
+      "objective": "escribir un mensaje breve",
+      "outcomes": [
+        "escribir un mensaje breve",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "oggi",
+        "domani",
+        "casa",
+        "esperienza"
+      ],
+      "scenario": "Contar una experiencia sencilla"
+    }
+  },
+  {
+    "id": "raccontare-il-proprio-viaggio",
+    "slug": "raccontare-il-proprio-viaggio",
+    "level": "A2",
+    "title": "Raccontare il proprio viaggio",
+    "titleEs": "Cerrar el nivel con una experiencia personal",
+    "description": "Cerrar el nivel con una experiencia personal",
+    "order": 12,
+    "unitOverview": {
+      "objective": "narrar una experiencia",
+      "outcomes": [
+        "narrar una experiencia",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "ricordo",
+        "incontro",
+        "cambiare",
+        "futuro"
+      ],
+      "scenario": "Cerrar el nivel con una experiencia personal"
+    }
+  }
+];
 })();

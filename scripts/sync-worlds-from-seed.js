@@ -26,6 +26,10 @@ const LANGUAGES = {
     label: 'Italiano',
     comment: 'Italian world: generated from lib/seed-lessons.json.'
   },
+  portuguese: {
+    label: 'Português (Brasil)',
+    comment: 'Brazilian Portuguese world: generated from lib/seed-lessons.json.'
+  },
   german: {
     label: 'Deutsch',
     comment: 'German world: generated from lib/seed-lessons.json.'
@@ -213,6 +217,7 @@ function main() {
 
   languages.forEach((language) => {
     const file = path.join(ROOT, 'src', 'worlds', language, 'content.js');
+    fs.mkdirSync(path.dirname(file), { recursive: true });
     fs.writeFileSync(file, buildFile(language), 'utf8');
     console.log(`Synced ${path.relative(ROOT, file)}`);
   });
