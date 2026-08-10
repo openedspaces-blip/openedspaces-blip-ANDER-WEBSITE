@@ -185,18 +185,16 @@ test(
       });
       assert.equal(response.status, 503);
       const body = await response.json();
-      // Cerebras is the primary provider - this is the actionable env var to
-      // set, matching lib/aiTutorService.js#tutorConfigError().
-      assert.match(body.error, /CEREBRAS_API_KEY/i);
+      assert.match(body.error, /OPENAI_API_KEY.*CEREBRAS_API_KEY/i);
     } finally {
       server.close();
     }
   }
 );
 
-// Deliberately does NOT assert this passes because "Cerebras was integrated"
+// Deliberately does NOT assert this passes because a particular provider was integrated
 // - it only runs (and only proves anything) when a real provider key
-// (CEREBRAS_API_KEY, GROQ_API_KEY, or GEMINI_API_KEY) is actually present
+// (OPENAI_API_KEY, CEREBRAS_API_KEY, GROQ_API_KEY, or GEMINI_API_KEY) is actually present
 // and working. It targets whichever provider ends up configured, not Gemini
 // specifically - see lib/aiTutorService.js's PROVIDERS cascade.
 test(
@@ -206,7 +204,7 @@ test(
       (!RUN_LIVE_AI_TESTS &&
         'Set RUN_LIVE_AI_TESTS=1 to call a real AI provider') ||
       (!isTutorConfigured() &&
-        'No AI provider (CEREBRAS_API_KEY/GROQ_API_KEY/GEMINI_API_KEY) is configured in this environment')
+        'No AI provider (OPENAI_API_KEY/CEREBRAS_API_KEY/GROQ_API_KEY/GEMINI_API_KEY) is configured in this environment')
   },
   async () => {
     const { server, port } = await startTestServer();
@@ -242,8 +240,9 @@ test('health endpoint reports AI tutor configuration without leaking keys or oth
     const body = await response.json();
     assert.deepEqual(body.aiTutor, {
       configured: isTutorConfigured(),
-      primaryProvider: 'cerebras',
-      streaming: true
+      primaryProvider: 'openai',
+      streaming: true,
+      automaticFallback: 'cerebras'
     });
   } finally {
     server.close();
