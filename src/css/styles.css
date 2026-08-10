@@ -27642,12 +27642,15 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 /* Identidad visible del acceso flotante: el retrato permanece en el centro y
    las dos leyendas ocupan el aro, sin invadir el rostro del Tutor. */
 .tutor-fab {
-  width: 84px;
-  height: 84px;
-  padding: 5px;
+  width: 72px;
+  height: 72px;
+  padding: 4px;
   border: 2px solid rgba(255, 255, 255, 0.94);
   background: linear-gradient(145deg, #f8fbff, #dbeafe 52%, #c7d2fe);
 }
+
+/* Un solo aro limpio: se elimina la esfera exterior que sobresalía arriba. */
+.tutor-fab::before { display: none; }
 
 .tutor-fab .tutor-bot-mark--realistic {
   border: 1px solid rgba(37, 99, 235, 0.25);
@@ -27671,7 +27674,7 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   position: absolute;
   z-index: 3;
   left: 50%;
-  width: 100%;
+  width: 90%;
   transform: translateX(-50%);
   color: #173f91;
   font-size: 7px;
@@ -27682,8 +27685,31 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   white-space: nowrap;
 }
 
-.tutor-fab-ring-label--top { top: 5px; }
-.tutor-fab-ring-label--bottom { bottom: 5px; font-size: 6px; letter-spacing: 0.16em; }
+.tutor-fab-ring-label--top {
+  top: 4px;
+  height: 15px;
+  font-size: 6px;
+  letter-spacing: 0;
+}
+
+.tutor-fab-ring-label--top span {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform-origin: 50% 36px;
+}
+
+.tutor-fab-ring-label--top span:nth-child(1) { transform: translateX(-50%) rotate(-47deg); }
+.tutor-fab-ring-label--top span:nth-child(2) { transform: translateX(-50%) rotate(-35deg); }
+.tutor-fab-ring-label--top span:nth-child(3) { transform: translateX(-50%) rotate(-24deg); }
+.tutor-fab-ring-label--top span:nth-child(4) { transform: translateX(-50%) rotate(-13deg); }
+.tutor-fab-ring-label--top span:nth-child(5) { transform: translateX(-50%) rotate(-2deg); }
+.tutor-fab-ring-label--top span:nth-child(6) { transform: translateX(-50%) rotate(10deg); }
+.tutor-fab-ring-label--top span:nth-child(7) { transform: translateX(-50%) rotate(21deg); }
+.tutor-fab-ring-label--top span:nth-child(8) { transform: translateX(-50%) rotate(33deg); }
+.tutor-fab-ring-label--top span:nth-child(9) { transform: translateX(-50%) rotate(45deg); }
+
+.tutor-fab-ring-label--bottom { bottom: 4px; font-size: 5.5px; letter-spacing: 0.14em; }
 
 .tutor-fab .tutor-bot-status {
   right: 5px;
@@ -27694,13 +27720,14 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 
 @media (max-width: 700px) {
   .tutor-fab {
-    width: 68px;
-    height: 68px;
+    width: 60px;
+    height: 60px;
     padding: 4px;
   }
 
   .tutor-fab-ring-label { font-size: 5.6px; letter-spacing: 0.1em; }
-  .tutor-fab-ring-label--top { top: 4px; }
+  .tutor-fab-ring-label--top { top: 3px; height: 12px; font-size: 4.7px; }
+  .tutor-fab-ring-label--top span { transform-origin: 50% 30px; }
   .tutor-fab-ring-label--bottom { bottom: 4px; font-size: 4.9px; }
   .tutor-fab .tutor-bot-status { right: 3px; bottom: 6px; width: 10px; height: 10px; }
 }
