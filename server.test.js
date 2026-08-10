@@ -3532,6 +3532,15 @@ test('Tutor IA teaches requested structures as a CEFR-adapted teacher-guide', ()
   assert.match(source, /isStructureExplanation/);
 });
 
+test('Tutor IA accepts free questions and safely carries the current activity context', () => {
+  const service = fs.readFileSync(path.join(__dirname, 'lib', 'aiTutorService.js'), 'utf8');
+  const server = fs.readFileSync(path.join(__dirname, 'lib', 'server.js'), 'utf8');
+  assert.match(service, /currentActivity = ''/);
+  assert.match(service, /Esta es una consulta libre fuera de una lección/);
+  assert.match(service, /también puedes conversar, responder preguntas generales/);
+  assert.match(server, /lessonIntro,\s+currentActivity,\s+selectedSuggestion/);
+});
+
 test('Speaking Tutor accepts valid paraphrases and separates errors from optional style improvements', () => {
   const service = fs.readFileSync(path.join(__dirname, 'lib', 'aiTutorService.js'), 'utf8');
   assert.match(service, /Evaluate communicative validity, not similarity to one expected or model answer/);
