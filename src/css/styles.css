@@ -25827,6 +25827,7 @@ body {
     grid-template-columns: minmax(0, 1fr) auto auto;
     grid-template-areas:
       'brand actions toggle'
+      'mobiletabs mobiletabs mobiletabs'
       'menu menu menu';
     min-height: 64px;
     gap: 0.35rem;
@@ -25834,7 +25835,68 @@ body {
   }
 
   .mobile-header-tabs {
-    display: none !important;
+    grid-area: mobiletabs;
+    display: block !important;
+    width: 100%;
+    padding: 0;
+    overflow: visible;
+  }
+
+  .mobile-header-tabs > a {
+    display: none;
+  }
+
+  .mobile-header-tabs > .nav-learn-cta {
+    display: flex;
+    width: 100%;
+    min-height: 46px;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    padding: 0.55rem 0.85rem;
+    border: 1px solid rgba(29, 78, 216, 0.28);
+    border-radius: 14px;
+    background: linear-gradient(105deg, #2563eb, #08aeea);
+    color: #fff;
+    font-size: 0.88rem;
+    font-weight: 850;
+    line-height: 1;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.24);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .mobile-header-tabs > .nav-learn-cta > span {
+    display: grid;
+    width: 25px;
+    height: 25px;
+    place-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.18);
+    color: #fff;
+    font-size: 0.86rem;
+  }
+
+  .mobile-header-tabs > .nav-learn-cta > strong {
+    font: inherit;
+  }
+
+  .mobile-header-tabs > .nav-learn-cta > small {
+    padding-left: 0.45rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.42);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.7rem;
+    font-weight: 720;
+  }
+
+  .mobile-header-tabs > .nav-learn-cta.active {
+    background: linear-gradient(105deg, #4f46e5, #2563eb);
+    box-shadow: 0 9px 22px rgba(37, 99, 235, 0.3);
+  }
+
+  .mobile-header-tabs > .nav-learn-cta:focus-visible {
+    outline: 3px solid rgba(14, 165, 233, 0.35);
+    outline-offset: 2px;
   }
 
   .brand {
@@ -25954,6 +26016,7 @@ body {
     grid-template-columns: minmax(0, 1fr) auto auto;
     grid-template-areas:
       'brand actions toggle'
+      'mobiletabs mobiletabs mobiletabs'
       'menu menu menu';
     padding-inline: 0.5rem;
   }
@@ -25965,6 +26028,15 @@ body {
 
   .nav-actions .user-chip {
     max-width: 6.5rem;
+  }
+
+  .mobile-header-tabs > .nav-learn-cta {
+    min-height: 44px;
+    font-size: 0.82rem;
+  }
+
+  .mobile-header-tabs > .nav-learn-cta > small {
+    font-size: 0.64rem;
   }
 }
 

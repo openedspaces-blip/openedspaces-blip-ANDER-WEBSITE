@@ -1241,6 +1241,16 @@ test('Infographic numbers sit away from their targets and keep responsive leader
   assert.match(css, /\.info-hotspot \.info-hotspot-number/);
 });
 
+test('phones keep a prominent and understandable learning-route entry point', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  assert.match(html, /class="nav-learn-cta" href="#learn" aria-label="Abrir mi ruta de aprendizaje"/);
+  assert.match(html, /<strong>Aprender<\/strong><small>Ruta de aprendizaje<\/small>/);
+  assert.match(css, /'mobiletabs mobiletabs mobiletabs'/);
+  assert.match(css, /\.mobile-header-tabs > \.nav-learn-cta\s*\{[\s\S]*?display: flex;[\s\S]*?min-height: 46px;/);
+  assert.match(css, /background: linear-gradient\(105deg, #2563eb, #08aeea\)/);
+});
+
 test('Learning activities keep a visible language level and lesson context bar', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
