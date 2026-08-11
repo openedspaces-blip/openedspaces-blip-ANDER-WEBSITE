@@ -1043,6 +1043,37 @@
   let rouletteRotation = 0;
   let rouletteChallenge = null;
   let rouletteCorrect = 0;
+  let rouletteLanguage = '';
+  let rouletteVerbDeck = [];
+  let rouletteSpinIndexes = [];
+
+  function shuffleRouletteItems(items) {
+    const shuffled = [...items];
+    for (let index = shuffled.length - 1; index > 0; index -= 1) {
+      const otherIndex = Math.floor(Math.random() * (index + 1));
+      [shuffled[index], shuffled[otherIndex]] = [shuffled[otherIndex], shuffled[index]];
+    }
+    return shuffled;
+  }
+
+  // A shuffled deck means the game visits every available verb before it
+  // repeats one. It is much more varied than always using the 12 top-ranked
+  // verbs, while still keeping only twelve readable segments on the wheel.
+  function nextRouletteVerbs() {
+    const language = currentVerbLanguage();
+    const available = getVerbsForLanguage(language);
+    if (language !== rouletteLanguage || !rouletteVerbDeck.length) {
+      rouletteLanguage = language;
+      rouletteVerbDeck = shuffleRouletteItems(available);
+    }
+    const selected = [];
+    while (selected.length < Math.min(12, available.length)) {
+      if (!rouletteVerbDeck.length) rouletteVerbDeck = shuffleRouletteItems(available);
+      const verb = rouletteVerbDeck.shift();
+      if (verb && !selected.some((item) => item.id === verb.id)) selected.push(verb);
+    }
+    return selected;
+  }
 
   function rouletteLevel() {
     return (typeof learningPathState !== 'undefined' && learningPathState.level) || 'A1';
@@ -1065,15 +1096,17 @@
   function renderVerbRoulette() {
     const wheel = document.getElementById('verbRouletteWheel');
     if (!wheel) return;
-    const verbs = getVerbsForLanguage(currentVerbLanguage()).slice().sort((a, b) => (a.rank || 0) - (b.rank || 0)).slice(0, 12);
+    const verbs = nextRouletteVerbs();
     const segment = 360 / Math.max(verbs.length, 1);
     const gradient = verbs.map((_, index) => `${ROULETTE_COLORS[index % ROULETTE_COLORS.length]} ${index * segment}deg ${(index + 1) * segment}deg`).join(',');
     wheel.style.background = `conic-gradient(from -${segment / 2}deg, ${gradient})`;
     wheel.dataset.verbIds = verbs.map((verb) => verb.id).join(',');
     wheel.innerHTML = verbs.map((verb, index) => {
       const angle = index * segment;
-      return `<span class="verb-roulette-segment" style="--segment-angle:${angle}deg">${escapeHtml(verb.infinitive)}</span>`;
+      return `<span class="verb-roulette-segment" style="--segment-angle:${angle}deg;--segment-label-rotation:${-(angle + 90)}deg"><span>${escapeHtml(verb.infinitive)}</span></span>`;
     }).join('');
+    rouletteSpinIndexes = shuffleRouletteItems(verbs.map((_, index) => index));
+    wheel.style.setProperty('--roulette-label-rotation', `${-rouletteRotation}deg`);
     const level = rouletteLevel();
     const levelBadge = document.getElementById('verbRouletteLevel');
     const score = document.getElementById('verbRouletteScore');
@@ -1090,11 +1123,18 @@
     if (!wheel || button?.disabled) return;
     const ids = (wheel.dataset.verbIds || '').split(',').filter(Boolean);
     if (!ids.length) return;
-    const selectedIndex = Math.floor(Math.random() * ids.length);
+    // Use each displayed verb once before replacing the wheel with another
+    // shuffled set. This prevents short, frustrating streaks of repeats.
+    if (!rouletteSpinIndexes.length) {
+      renderVerbRoulette();
+      return spinVerbRoulette();
+    }
+    const selectedIndex = rouletteSpinIndexes.pop();
     const segment = 360 / ids.length;
     // Bring the selected segment to the pointer on the wheel's left edge.
     rouletteRotation += 1440 + (180 - selectedIndex * segment);
     wheel.style.setProperty('--roulette-rotation', `${rouletteRotation}deg`);
+    wheel.style.setProperty('--roulette-label-rotation', `${-rouletteRotation}deg`);
     wheel.classList.add('is-spinning');
     button.disabled = true;
     button.textContent = 'Girando…';
