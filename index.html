@@ -2382,9 +2382,10 @@
 
     <button type="button" class="tutor-fab" id="tutorFab" aria-label="Abrir Tutor IA ANDERGO">
       <span class="tutor-bot-mark tutor-bot-mark--fab tutor-bot-mark--realistic" aria-hidden="true">
-        <span class="tutor-fab-ring-label tutor-fab-ring-label--top" aria-label="A.I. Tutor">
-          <span>A</span><span>.</span><span>I</span><span>.</span><span>T</span><span>U</span><span>T</span><span>O</span><span>R</span>
-        </span>
+        <svg class="tutor-fab-ring-label tutor-fab-ring-label--top" viewBox="0 0 100 100" aria-label="A.I. Tutor">
+          <path id="tutorFabTopArc" d="M 15 49 A 40 40 0 0 1 85 49" pathLength="100" />
+          <text><textPath href="#tutorFabTopArc" startOffset="50%" text-anchor="middle">A.I. TUTOR</textPath></text>
+        </svg>
         <img src="/images/tutor/andergo-tutor-robot-v5-transparent.png" alt="" />
         <span class="tutor-fab-ring-label tutor-fab-ring-label--bottom">ANDERGO</span>
         <span class="tutor-bot-status"></span>

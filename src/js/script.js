@@ -17385,8 +17385,11 @@ function setupTestsView() {
 const musicState = { tracks: [], activeId: null, loadedAt: 0, initialized: false };
 
 const INFOGRAPHIC_SCENES = [
-  { id: 'body-front', title: 'Human Body · Front', icon: '🧑', parts: [['Head',50,13],['Shoulder',41,29],['Chest',50,37],['Arm',35,43],['Hand',33,56],['Knee',45,73],['Foot',45,92]] },
-  { id: 'body-rear', title: 'Human Body · Rear', icon: '🧑', parts: [['Head',50,13],['Neck',50,24],['Back',50,39],['Elbow',34,47],['Waist',50,55],['Leg',45,75],['Heel',45,92]] },
+  // Coordinates are percentages of the complete 1:1 artwork. Keep them on
+  // the actual anatomy—not on the decorative magnifying callouts—so the
+  // targets remain accurate at every responsive SVG size.
+  { id: 'body-front', title: 'Human Body · Front', icon: '🧑', parts: [['Head',50,10],['Shoulder',40,24],['Chest',50,29],['Arm',35,39],['Hand',31,52],['Knee',44,66],['Foot',43,94]] },
+  { id: 'body-rear', title: 'Human Body · Rear', icon: '🧑', parts: [['Head',50,8],['Neck',50,16],['Back',50,32],['Elbow',64,37],['Waist',50,49],['Leg',45,75],['Heel',42,94]] },
   { id: 'car', title: 'Parts of a Car', icon: '🚗', parts: [['Windshield',48,37],['Door',65,51],['Mirror',62,36],['Hood',30,40],['Wheel',68,67],['Headlight',27,55],['Trunk',88,34]] },
   { id: 'house', title: 'Parts of a House', icon: '🏠', parts: [['Roof',45,30],['Chimney',69,17],['Window',67,47],['Door',49,57],['Wall',56,40],['Porch',45,72],['Garden',75,82]] },
   { id: 'tree', title: 'Parts of a Tree', icon: '🌳', parts: [['Crown',42,23],['Branch',40,36],['Leaf',21,28],['Trunk',41,61],['Bark',82,63],['Root',42,83],['Fruit',54,31]] },
