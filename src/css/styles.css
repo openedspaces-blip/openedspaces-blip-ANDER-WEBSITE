@@ -20751,6 +20751,31 @@ footer small {
   gap: 1rem;
 }
 
+.verb-list-field {
+  min-width: 0;
+}
+
+.verb-list-field--word,
+.verb-list-field--meaning {
+  grid-column: 1 / -1;
+}
+
+.verb-list-field-label {
+  display: block;
+  margin-bottom: 0.12rem;
+  color: var(--muted);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.verb-list-pron--audio {
+  font-style: normal;
+  font-weight: 700;
+}
+
 .reading-comp-question[hidden] {
   display: none !important;
 }
@@ -23786,9 +23811,13 @@ body {
 .info-art { fill: #dbeafe; stroke: #1d4ed8; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
 .info-realistic-art { pointer-events: none; }
 .info-hotspot { cursor: pointer; outline: none; }
-.info-hotspot circle { fill: #2563eb; stroke: #fff; stroke-width: 3; filter: drop-shadow(0 3px 4px rgba(15,23,42,.4)); transition: transform .15s ease,fill .15s ease; transform-box: fill-box; transform-origin: center; }
-.info-hotspot:hover circle,.info-hotspot:focus circle { fill: #1d4ed8; transform: scale(1.14); }
-.info-hotspot.is-correct circle { fill: #22c55e; stroke: #fff; }
+.info-hotspot-leader { stroke: #1d4ed8; stroke-width: 2; stroke-linecap: round; filter: drop-shadow(0 1px 1px rgba(255,255,255,.9)); pointer-events: none; }
+.info-hotspot .info-hotspot-anchor { fill: #1d4ed8; stroke: #fff; stroke-width: 1.5; pointer-events: none; }
+.info-hotspot .info-hotspot-number { fill: #2563eb; stroke: #fff; stroke-width: 3; filter: drop-shadow(0 3px 4px rgba(15,23,42,.4)); transition: transform .15s ease,fill .15s ease; transform-box: fill-box; transform-origin: center; }
+.info-hotspot:hover .info-hotspot-number,.info-hotspot:focus .info-hotspot-number { fill: #1d4ed8; transform: scale(1.14); }
+.info-hotspot.is-correct .info-hotspot-number { fill: #22c55e; stroke: #fff; }
+.info-hotspot.is-correct .info-hotspot-leader { stroke: #16a34a; }
+.info-hotspot.is-correct .info-hotspot-anchor { fill: #16a34a; }
 .info-hotspot text { fill: #fff; font: 900 14px system-ui; text-anchor: middle; pointer-events: none; }
 .info-hotspot.is-dense text { font-size: 9px; }
 .info-hotspot.is-correct text { fill: #fff; }

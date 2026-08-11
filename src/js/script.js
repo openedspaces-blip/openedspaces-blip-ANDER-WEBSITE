@@ -17420,7 +17420,33 @@ function renderInfographicHotspot(name, x, y, index, answer, sceneId) {
   const isCorrect = answer === name;
   const isDense = ['solar-system', 'tree'].includes(sceneId);
   const radius = isDense ? 8 : 10;
-  return `<g class="info-hotspot info-hotspot--direct${isDense ? ' is-dense' : ''}${answer ? ' is-filled' : ''}${isCorrect ? ' is-correct' : ''}" data-info-slot="${index}" tabindex="0" role="button" aria-label="Point ${index + 1}: ${answer || 'empty'}"><circle cx="${x * 4}" cy="${y * 4}" r="${radius}"/><text x="${x * 4}" y="${y * 4 + (isDense ? 3 : 4)}">${isCorrect ? '✓' : index + 1}</text></g>`;
+  const targetX = x * 4;
+  const targetY = y * 4;
+  const distance = isDense ? 26 : 44;
+  const centerDeltaX = targetX - 200;
+  const centerDeltaY = targetY - 200;
+  let directionX;
+  let directionY;
+
+  // Points close to the vertical centre line alternate sides. All other
+  // labels move radially away from the artwork, keeping the number off the
+  // named object while the leader line preserves the exact target.
+  if (Math.abs(centerDeltaX) < 46) {
+    directionX = index % 2 === 0 ? 1 : -1;
+    directionY = 0;
+  } else {
+    const magnitude = Math.hypot(centerDeltaX, centerDeltaY) || 1;
+    directionX = centerDeltaX / magnitude;
+    directionY = centerDeltaY / magnitude;
+  }
+
+  const markerX = Math.max(radius + 3, Math.min(400 - radius - 3, targetX + directionX * distance));
+  const markerY = Math.max(radius + 3, Math.min(400 - radius - 3, targetY + directionY * distance));
+  const lineMagnitude = Math.hypot(markerX - targetX, markerY - targetY) || 1;
+  const lineEndX = markerX - ((markerX - targetX) / lineMagnitude) * (radius + 2);
+  const lineEndY = markerY - ((markerY - targetY) / lineMagnitude) * (radius + 2);
+
+  return `<g class="info-hotspot info-hotspot--leader${isDense ? ' is-dense' : ''}${answer ? ' is-filled' : ''}${isCorrect ? ' is-correct' : ''}" data-info-slot="${index}" tabindex="0" role="button" aria-label="Point ${index + 1}: ${answer || 'empty'}"><line class="info-hotspot-leader" x1="${targetX}" y1="${targetY}" x2="${lineEndX.toFixed(1)}" y2="${lineEndY.toFixed(1)}"/><circle class="info-hotspot-anchor" cx="${targetX}" cy="${targetY}" r="2.8"/><circle class="info-hotspot-number" cx="${markerX.toFixed(1)}" cy="${markerY.toFixed(1)}" r="${radius}"/><text x="${markerX.toFixed(1)}" y="${(markerY + (isDense ? 3 : 4)).toFixed(1)}">${isCorrect ? '✓' : index + 1}</text></g>`;
 }
 
 function getLocalizedInfographicScene(baseScene, language = getEffectiveInterfaceLanguage()) {

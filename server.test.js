@@ -1217,6 +1217,17 @@ test('Reading comprehension enables evaluation from five local selections withou
   assert.doesNotMatch(optionHandler, /check-answer|gradingItems\[exerciseIndex\]/);
 });
 
+test('Infographic numbers sit away from their targets and keep responsive leader lines', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  assert.match(source, /const distance = isDense \? 26 : 44;/);
+  assert.match(source, /class="info-hotspot-leader"/);
+  assert.match(source, /class="info-hotspot-anchor"/);
+  assert.match(source, /class="info-hotspot-number"/);
+  assert.match(css, /\.info-hotspot-leader/);
+  assert.match(css, /\.info-hotspot \.info-hotspot-number/);
+});
+
 test('Learning activities keep a visible language level and lesson context bar', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
