@@ -305,6 +305,18 @@
     german: 'alemán'
   };
 
+  function catalogueFormLabels(language) {
+    if (language === 'french') return ['Présent', 'Passé', 'Participe'];
+    if (language === 'spanish') return ['Presente', 'Pretérito', 'Participio'];
+    return ['Presente', 'Pasado', 'Participio'];
+  }
+
+  function cataloguePresentForm(raw, language) {
+    const thirdPerson = raw.forms?.thirdPersonSingular || '';
+    if (!thirdPerson || thirdPerson === raw.infinitive) return raw.infinitive || '—';
+    return language === 'english' ? `${raw.infinitive} / ${thirdPerson}` : thirdPerson;
+  }
+
   // The catalogue is intentionally a scan-first list, not a collection of
   // flash cards. Each row leads with the L2 verb, then keeps its
   // pronunciation/audio beside it and the L1 translation underneath, so
@@ -313,24 +325,40 @@
   function renderVerbTileHtml(item, raw, { canSpeak }) {
     const supportText = item.learningMode === 'direct' ? item.simpleDefinition : item.translation;
     const sourceVerb = supportText || item.targetWord;
-    const targetLabel = VERB_LANGUAGE_LABEL[item.targetLanguage] || item.targetLanguage || 'L2';
-    const targetVerbHtml = canSpeak
-      ? `<button type="button" class="vocab-example-audio-btn verb-tile-audio-btn verb-catalogue-word" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Escuchar la pronunciación de ${escapeHtml(item.targetWord)}" title="Toca para escuchar la pronunciación">${escapeHtml(item.targetWord)}</button>`
-      : `<strong>${escapeHtml(item.targetWord)}</strong>`;
+    const [presentLabel, pastLabel, participleLabel] = catalogueFormLabels(item.targetLanguage);
+    const principalForms = [
+      [presentLabel, cataloguePresentForm(raw, item.targetLanguage)],
+      [pastLabel, raw.forms?.pastSimple || '—'],
+      [participleLabel, raw.forms?.pastParticiple || '—']
+    ];
+    const audioButton = canSpeak
+      ? `<button type="button" class="vocab-example-audio-btn verb-tile-audio-btn verb-catalogue-audio" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Escuchar la pronunciación de ${escapeHtml(item.targetWord)}" title="Escuchar pronunciación"><span aria-hidden="true">🔊</span></button>`
+      : '';
 
     return `
       <article class="verb-catalogue-row" data-verb-id="${escapeHtml(item.id)}">
-        <span class="verb-catalogue-rank">${item.frequencyRank}</span>
-        <div class="verb-catalogue-cell verb-catalogue-primary">
-          <span class="verb-catalogue-label">Verbo · ${escapeHtml(targetLabel)} (L2)</span>
-          ${targetVerbHtml}
-          ${canSpeak ? '<span class="verb-catalogue-hint">Toca el verbo para escuchar</span>' : ''}
+        <div class="verb-catalogue-head">
+          <span class="verb-catalogue-rank">${item.frequencyRank}</span>
+          <div class="verb-catalogue-identity">
+            <strong>${escapeHtml(item.targetWord)}</strong>
+            <span>${escapeHtml(sourceVerb)}</span>
+            ${item.phonetic ? `<small>${escapeHtml(item.phonetic)}</small>` : ''}
+          </div>
+          ${audioButton}
         </div>
-        <div class="verb-catalogue-cell">
-          <span class="verb-catalogue-label">Traducción · L1</span>
-          <strong>${escapeHtml(sourceVerb)}</strong>
+        <div class="verb-catalogue-forms">
+          ${principalForms.map(([label, value]) => `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`).join('')}
         </div>
+        <button type="button" class="verb-catalogue-conjugate verb-conjugate-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Ver conjugación de ${escapeHtml(item.targetWord)}">Ver conjugación <span aria-hidden="true">→</span></button>
       </article>`;
+  }
+
+  function syncVerbFilterChips(value) {
+    document.querySelectorAll('[data-verb-filter]').forEach((button) => {
+      const active = button.dataset.verbFilter === value;
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
   }
 
   function cssEscapeId(id) {
@@ -471,7 +499,7 @@
     );
   }
 
-  const LEVEL_FILTERS = new Set(['A1', 'A2', 'B1']);
+  const LEVEL_FILTERS = new Set(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
 
   function applyVerbsFilters(rows, { search, filter }) {
     const term = normalizeSearchText(search);
@@ -565,6 +593,7 @@
         filter: filterSelect?.value || 'all'
       });
       const sorted = sortVerbs(filtered, sortSelect?.value || 'frequency');
+      syncVerbFilterChips(filterSelect?.value || 'all');
 
       if (!sorted.length) {
         deck.innerHTML = `<p class="skill-graph-empty">${escapeHtml(LanguagePair.t('verbsEmpty', bridgeLanguage))}</p>`;
@@ -576,6 +605,9 @@
       const canSpeak = typeof supportsSpeech === 'function' ? supportsSpeech() : false;
       const visible = sorted.slice(0, verbsVisibleCount);
       deck.innerHTML = visible.map(({ raw, item }) => renderVerbTileHtml(item, raw, { canSpeak })).join('');
+
+      const progress = document.getElementById('verbsCatalogueProgress');
+      if (progress) progress.innerHTML = `<strong>${visible.length}</strong> de ${sorted.length} verbos visibles`;
 
       if (loadMoreRow) loadMoreRow.hidden = sorted.length <= visible.length;
       if (showAllBtn) showAllBtn.hidden = sorted.length <= visible.length;
@@ -1646,7 +1678,19 @@
     // other section's static chrome - nothing extra to do for them here.
     renderVerbsHeaderMeta();
     const languageSelect = document.getElementById('verbsLanguageSelect');
-    if (languageSelect) languageSelect.value = currentVerbLanguage();
+    if (languageSelect) {
+      const languageOptionCopy = {
+        english: ['🇺🇸', 'Inglés'],
+        french: ['🇫🇷', 'Francés'],
+        spanish: ['🇪🇸', 'Español']
+      };
+      Array.from(languageSelect.options).forEach((option) => {
+        const [flag, label] = languageOptionCopy[option.value] || ['', option.textContent];
+        const count = getVerbsForLanguage(option.value).length;
+        option.textContent = `${flag} ${label} — ${count.toLocaleString('es-DO')} verbos`.trim();
+      });
+      languageSelect.value = currentVerbLanguage();
+    }
     const navLink = document.querySelector('a[data-i18n="navVerbs"]');
     if (navLink) navLink.href = `#verbs/${currentVerbLanguage()}/list`;
     renderLanguageGroupFilters();
@@ -1712,6 +1756,15 @@
   });
 
   document.addEventListener('click', (event) => {
+    const filterChip = event.target.closest('[data-verb-filter]');
+    if (filterChip) {
+      const filterSelect = document.getElementById('verbsFilterSelect');
+      if (filterSelect) filterSelect.value = filterChip.dataset.verbFilter;
+      resetVerbsPagination();
+      renderVerbsDeck();
+      return;
+    }
+
     // Intercept the shared Vocabulary mastery buttons (renderVocabCardHtml/
     // script.js's own document click listener, registered after this one)
     // only when the card is a verb card (id prefix 'verb-english-') - never

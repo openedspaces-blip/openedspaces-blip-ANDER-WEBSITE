@@ -764,13 +764,17 @@
           </div>
 
           <div class="skill-panel active" data-skill="list">
+            <div class="verbs-catalogue-summary">
+              <strong>Domina los verbos paso a paso</strong>
+              <span id="verbsCatalogueProgress" aria-live="polite">Preparando el catálogo…</span>
+            </div>
             <div class="verbs-toolbar no-print">
               <label class="verbs-search-field"
-                ><span>Buscar verbo</span>
+                ><span>Buscar</span>
                 <input
                   type="search"
                   id="verbsSearchInput"
-                  placeholder="have, tener, went, gone…"
+                  placeholder="Buscar un verbo…"
                   autocomplete="off"
                 />
               </label>
@@ -783,6 +787,9 @@
                   <option value="A1">A1</option>
                   <option value="A2">A2</option>
                   <option value="B1">B1</option>
+                  <option value="B2">B2</option>
+                  <option value="C1">C1</option>
+                  <option value="C2">C2</option>
                   <option value="favorite">Favoritos</option>
                   <option value="practicing">Necesito practicar</option>
                   <option value="mastered">Dominados</option>
@@ -800,6 +807,23 @@
                   <option value="leastMastered">Menos dominados</option>
                 </select>
               </label>
+            </div>
+            <div class="verbs-quick-filters no-print">
+              <div class="verbs-filter-chip-group" role="group" aria-label="Filtrar por tipo">
+                <span>Tipo</span>
+                <button type="button" data-verb-filter="all" aria-pressed="true">Todos</button>
+                <button type="button" data-verb-filter="regular" aria-pressed="false">Regulares</button>
+                <button type="button" data-verb-filter="irregular" aria-pressed="false">Irregulares</button>
+              </div>
+              <div class="verbs-filter-chip-group" role="group" aria-label="Filtrar por nivel">
+                <span>Nivel</span>
+                <button type="button" data-verb-filter="A1" aria-pressed="false">A1</button>
+                <button type="button" data-verb-filter="A2" aria-pressed="false">A2</button>
+                <button type="button" data-verb-filter="B1" aria-pressed="false">B1</button>
+                <button type="button" data-verb-filter="B2" aria-pressed="false">B2</button>
+                <button type="button" data-verb-filter="C1" aria-pressed="false">C1</button>
+                <button type="button" data-verb-filter="C2" aria-pressed="false">C2</button>
+              </div>
             </div>
             <div class="verb-catalogue-list" id="verbsCardDeck" aria-live="polite">
               <p class="skill-graph-empty">Cargando verbos…</p>

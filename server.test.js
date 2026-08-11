@@ -1340,6 +1340,21 @@ test('Verbs practice includes a level-adapted conjugation roulette in all three 
   assert.match(styles, /@media \(max-width: 620px\)[^{]*\{[^}]*\.verb-roulette-card/s);
 });
 
+test('Verbs catalogue matches the compact principal-forms card design on desktop and phones', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const script = fs.readFileSync(path.join(__dirname, 'src', 'js', 'verbs', 'verbs-view.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+  assert.match(html, /Domina los verbos paso a paso/);
+  assert.match(html, /data-verb-filter="regular"/);
+  assert.match(html, /data-verb-filter="C2"/);
+  assert.match(script, /class="verb-catalogue-forms"/);
+  assert.match(script, /verb-catalogue-conjugate verb-conjugate-btn/);
+  assert.match(script, /const LEVEL_FILTERS = new Set\(\['A1', 'A2', 'B1', 'B2', 'C1', 'C2'\]\)/);
+  assert.match(script, /getVerbsForLanguage\(option\.value\)\.length/);
+  assert.match(css, /\.verb-catalogue-list\s*\{[\s\S]*?grid-template-columns: repeat\(2, minmax\(0, 1fr\)\)/);
+  assert.match(css, /@media \(max-width: 760px\)[\s\S]*?\.verb-catalogue-list \{ grid-template-columns: 1fr; \}/);
+});
+
 test('French C2 has 12 CEFR mastery units entirely in French across all six core skills', () => {
   const units = seedUnits
     .filter((row) => row.target_language === 'french' && row.level === 'C2')

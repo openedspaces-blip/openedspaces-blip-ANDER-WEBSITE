@@ -20944,6 +20944,220 @@ footer small {
   }
 }
 
+/* Verb catalogue product layout: compact reference cards with the three
+   principal forms visible at a glance, matching the desktop/mobile mockup. */
+.verbs-catalogue-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+  padding: 0.2rem 0.1rem;
+}
+
+.verbs-catalogue-summary > strong {
+  color: var(--navy-2);
+  font-size: clamp(1.15rem, 2vw, 1.6rem);
+  letter-spacing: -0.025em;
+}
+
+.verbs-catalogue-summary > span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+
+.verbs-catalogue-summary > span strong { color: var(--blue); }
+
+#verbs .verbs-toolbar {
+  display: grid;
+  grid-template-columns: minmax(230px, 1.5fr) minmax(145px, 0.7fr) minmax(170px, 0.8fr);
+  align-items: end;
+  gap: 0.65rem;
+  margin-bottom: 0.65rem;
+  padding: 0.75rem;
+  border: 1px solid rgba(37, 99, 235, 0.12);
+  border-radius: 16px;
+  background: #f8fbff;
+}
+
+#verbs .verbs-search-field input,
+#verbs .verbs-filter-field select {
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  border-color: #ceddf5;
+  background: #fff;
+}
+
+.verbs-quick-filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.verbs-filter-chip-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.verbs-filter-chip-group > span {
+  margin-right: 0.15rem;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.verbs-filter-chip-group button {
+  min-width: 42px;
+  min-height: 38px;
+  padding: 0.42rem 0.7rem;
+  border: 1px solid #cfddf5;
+  border-radius: 10px;
+  background: #fff;
+  color: #43516d;
+  font: inherit;
+  font-size: 0.74rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.verbs-filter-chip-group button:hover,
+.verbs-filter-chip-group button:focus-visible,
+.verbs-filter-chip-group button.is-active {
+  border-color: var(--blue);
+  background: var(--blue);
+  color: #fff;
+  outline: none;
+  box-shadow: 0 5px 12px rgba(37, 99, 235, 0.18);
+}
+
+.verb-catalogue-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.verb-catalogue-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
+  min-height: 0;
+  padding: 1rem;
+  border: 1px solid #d7e3f6;
+  border-radius: 17px;
+  background: #fff;
+  box-shadow: 0 7px 18px rgba(30, 64, 175, 0.055);
+}
+
+.verb-catalogue-row:nth-child(odd) { border-right: 1px solid #d7e3f6; }
+.verb-catalogue-row:hover { border-color: #a9c3f3; background: #fff; box-shadow: 0 10px 24px rgba(30, 64, 175, 0.09); }
+
+.verb-catalogue-head {
+  display: grid;
+  grid-template-columns: 2.4rem minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.verb-catalogue-rank {
+  display: grid;
+  width: 2.25rem;
+  height: 2.25rem;
+  place-items: center;
+  border-radius: 50%;
+  background: #edf4ff;
+  color: #1d4ed8;
+  font-size: 0.84rem;
+}
+
+.verb-catalogue-identity {
+  display: flex;
+  min-width: 0;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.18rem 0.55rem;
+}
+
+.verb-catalogue-identity > strong {
+  width: 100%;
+  overflow: hidden;
+  color: var(--navy-2);
+  font-size: 1.45rem;
+  line-height: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.verb-catalogue-identity > span { color: #53627d; font-size: 0.86rem; font-weight: 720; }
+.verb-catalogue-identity > small { color: var(--muted); font-size: 0.78rem; }
+
+.verb-catalogue-audio {
+  display: grid;
+  width: 2.55rem;
+  height: 2.55rem;
+  min-width: 2.55rem;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--blue);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.25);
+}
+
+.verb-catalogue-forms {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.55rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid #e1e9f5;
+}
+
+.verb-catalogue-forms > div { display: grid; min-width: 0; gap: 0.2rem; }
+.verb-catalogue-forms span { color: var(--blue); font-size: 0.65rem; font-weight: 850; }
+.verb-catalogue-forms strong { overflow: hidden; color: #27344d; font-size: 0.82rem; text-overflow: ellipsis; white-space: nowrap; }
+
+.verb-catalogue-conjugate {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 10px;
+  background: #fff;
+}
+
+@media (max-width: 760px) {
+  #verbs .verbs-toolbar { grid-template-columns: 1fr 1fr; }
+  #verbs .verbs-search-field { grid-column: 1 / -1; }
+  .verb-catalogue-list { grid-template-columns: 1fr; }
+  .verb-catalogue-row { padding: 0.85rem; }
+}
+
+@media (max-width: 480px) {
+  .verbs-catalogue-summary { align-items: flex-start; flex-direction: column; gap: 0.25rem; }
+  #verbs .verbs-toolbar { grid-template-columns: 1fr; padding: 0.65rem; }
+  #verbs .verbs-search-field { grid-column: auto; }
+  .verbs-quick-filters { display: grid; gap: 0.55rem; overflow-x: auto; }
+  .verbs-filter-chip-group { flex-wrap: nowrap; width: max-content; }
+  .verbs-filter-chip-group button { min-height: 42px; }
+  .verb-catalogue-identity > strong { font-size: 1.25rem; }
+  .verb-catalogue-forms { gap: 0.35rem; }
+  .verb-catalogue-forms strong { font-size: 0.75rem; }
+}
+
 .reading-comp-question[hidden] {
   display: none !important;
 }
