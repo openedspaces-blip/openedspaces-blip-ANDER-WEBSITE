@@ -27795,38 +27795,6 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   height: 11px;
 }
 
-.tutor-fab-callout {
-  position: absolute;
-  right: calc(100% + 0.7rem);
-  top: 50%;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  min-width: max-content;
-  padding: 0.48rem 0.7rem;
-  border: 1px solid rgba(147, 197, 253, 0.9);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.94);
-  box-shadow: 0 8px 20px rgba(30, 64, 175, 0.16);
-  color: #1d4ed8;
-  font-size: 0.72rem;
-  font-weight: 850;
-  letter-spacing: 0.01em;
-  opacity: 0.92;
-  pointer-events: none;
-  transform: translateY(-50%);
-  transition: opacity 160ms ease, transform 160ms ease, box-shadow 160ms ease;
-}
-
-.tutor-fab-callout span { color: #06b6d4; }
-
-.tutor-fab:hover .tutor-fab-callout,
-.tutor-fab:focus-visible .tutor-fab-callout {
-  opacity: 1;
-  transform: translateY(-50%) translateX(-3px);
-  box-shadow: 0 10px 24px rgba(30, 64, 175, 0.23);
-}
-
 @media (max-width: 700px) {
   .tutor-fab {
     width: 60px;
@@ -27839,5 +27807,4 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   .tutor-fab-ring-label--top text { font-size: 10px; }
   .tutor-fab-ring-label--bottom { bottom: 4px; font-size: 4.9px; }
   .tutor-fab .tutor-bot-status { right: 3px; bottom: 6px; width: 10px; height: 10px; }
-  .tutor-fab-callout { display: none; }
 }

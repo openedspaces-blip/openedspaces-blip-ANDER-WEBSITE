@@ -1021,11 +1021,10 @@ function advancedFrenchText(defaultText, frenchText) {
 }
 
 function getEffectiveInterfaceLanguage() {
-  // The platform UI always follows the learner's chosen support language.
-  // Advanced levels can immerse the learning material in its target language,
-  // but navigation, instructions and interactive controls must not silently
-  // flip from Spanish to French/English when the level changes.
-  return learningPathState.bridgeLanguage || 'spanish';
+  // Spanish is the fixed platform language. The learner's bridge language
+  // remains available for learning support and translations, but never
+  // changes navigation, tabs, buttons, or the rest of the platform chrome.
+  return 'spanish';
 }
 
 // Applies the platform-wide interface language (spec §2: L1 controls
