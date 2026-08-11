@@ -25812,6 +25812,35 @@ body {
   }
 }
 
+/* Account controls must read as one aligned header group.  The former
+   independent sizing let the membership chip and the sign-out button drift
+   apart at desktop/tablet zoom levels. */
+@media (min-width: 641px) {
+  .nav-actions {
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .nav-actions .user-chip,
+  .nav-actions .logout-btn {
+    box-sizing: border-box;
+    min-height: 44px;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .nav-actions .user-chip {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .nav-actions .logout-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 @media (max-width: 380px) {
   .navbar {
     grid-template-columns: minmax(0, 1fr) auto auto;
