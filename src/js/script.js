@@ -631,6 +631,60 @@ async function initializePayPalFallback() {
 
 void initializePayPalFallback();
 
+function submitHostedPayment(action, fields) {
+  const form = document.createElement('form');
+  form.method = 'POST';
+  form.action = action;
+  for (const [name, value] of Object.entries(fields || {})) {
+    const input = document.createElement('input');
+    input.type = 'hidden';
+    input.name = name;
+    input.value = String(value ?? '');
+    form.appendChild(input);
+  }
+  document.body.appendChild(form);
+  form.submit();
+}
+
+async function initializeAzulCheckout() {
+  const section = document.querySelector('[data-azul-checkout]');
+  if (!section) return;
+  const response = await fetch('/api/billing/azul/config', { headers: { Accept: 'application/json' } });
+  const azul = await response.json().catch(() => ({}));
+  if (!response.ok || !azul.configured) return;
+  section.hidden = false;
+  section.querySelectorAll('[data-azul-cycle]').forEach((button) => {
+    button.addEventListener('click', async () => {
+      const customer = window.AndergoBillingContext.getCustomer();
+      if (!customer.signedIn) return window.AndergoBillingContext.requestSignIn();
+      const status = section.querySelector('[data-azul-status]');
+      button.disabled = true;
+      if (status) status.textContent = 'Preparando el pago seguro con Azul…';
+      try {
+        const checkoutResponse = await window.AndergoBillingContext.authFetch('/api/billing/azul/checkout', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ billingCycle: button.dataset.azulCycle })
+        });
+        const checkout = await checkoutResponse.json().catch(() => ({}));
+        if (!checkoutResponse.ok || !checkout.action || !checkout.fields) {
+          throw new Error(checkout.error || 'No se pudo preparar el pago con Azul.');
+        }
+        submitHostedPayment(checkout.action, checkout.fields);
+      } catch (error) {
+        button.disabled = false;
+        if (status) status.textContent = error.message || 'No se pudo abrir Azul.';
+      }
+    });
+  });
+}
+
+void initializeAzulCheckout();
+
+const paymentResult = new URLSearchParams(window.location.search).get('payment');
+if (paymentResult === 'approved') {
+  window.setTimeout(() => loadCurrentSubscription({ attempts: 3, delayMs: 800 }), 300);
+}
+
 // Exercise checks are saved to the learner's progress, so a guest needs a
 // clear invitation to sign in while a learner whose saved token could not be
 // renewed needs a different, actionable message. Keep this separate from the

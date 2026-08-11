@@ -32,6 +32,32 @@ services:
         sync: false
       - key: PADDLE_WEBHOOK_SECRET
         sync: false
+      - key: PAYPAL_ENV
+        sync: false
+      - key: PAYPAL_CLIENT_ID
+        sync: false
+      - key: PAYPAL_CLIENT_SECRET
+        sync: false
+      - key: PAYPAL_WEBHOOK_ID
+        sync: false
+      - key: PAYPAL_MONTHLY_PLAN_ID
+        sync: false
+      - key: PAYPAL_QUARTERLY_PLAN_ID
+        sync: false
+      - key: AZUL_ENV
+        sync: false
+      - key: AZUL_MERCHANT_ID
+        sync: false
+      - key: AZUL_AUTH_KEY
+        sync: false
+      - key: AZUL_CURRENCY_CODE
+        sync: false
+      - key: AZUL_MONTHLY_AMOUNT
+        sync: false
+      - key: AZUL_QUARTERLY_AMOUNT
+        sync: false
+      - key: PUBLIC_BASE_URL
+        sync: false
       - key: CEREBRAS_API_KEY
         sync: false
       - key: GROQ_API_KEY
