@@ -253,9 +253,9 @@ test('health endpoint reports AI tutor configuration without leaking keys or oth
     const body = await response.json();
     assert.deepEqual(body.aiTutor, {
       configured: isTutorConfigured(),
-      primaryProvider: 'openai',
+      primaryProvider: 'cerebras',
       streaming: true,
-      automaticFallback: 'cerebras'
+      automaticFallback: 'groq'
     });
   } finally {
     server.close();
@@ -2301,7 +2301,30 @@ test('Speaking presents complete conversations and a lesson-context Tutor for te
   assert.match(tabs, /Chat ilimitado · Voz 30\/500 al mes/);
   assert.doesNotMatch(tabs, /premium: true|Grabar y practicar/);
   assert.match(script, /inputMode: sentByVoice \? 'voice' : 'text'/);
-  assert.match(script, /messageEl && \(sentByVoice \|\| shouldSpeakOnMobile\)/);
+  assert.match(script, /messageEl && \(sentByVoice \|\| shouldForceSpeech\)/);
+});
+
+test('Tutor TTS remains locked to the explicitly selected Tutor language', () => {
+  const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  assert.match(script, /function getTutorVoiceLocale\(\) \{\s*return getPronunciationLocale\(getTutorLanguage\(\)\);/);
+  assert.match(script, /messageEl\.dataset\.ttsLocale = getTutorVoiceLocale\(\)/);
+  assert.doesNotMatch(script, /inferTutorReplyLanguage\(finalPrompt, language\)/);
+});
+
+test('Interpreter automatically retains only its ten most recent consultations', () => {
+  const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  assert.match(script, /const INTERPRETER_HISTORY_LIMIT = 10/);
+  assert.match(script, /if \(turns\.length > INTERPRETER_HISTORY_LIMIT\)/);
+  assert.match(script, /turns\.splice\(0, turns\.length - INTERPRETER_HISTORY_LIMIT\)/);
+});
+
+test('Interpreter provides an explicit hands-free toggle next to Stop', () => {
+  const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const script = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  assert.match(html, /id="interpreterStopBtn"[\s\S]*id="interpreterHandsFreeBtn"/);
+  assert.match(script, /let handsFree = false/);
+  assert.match(script, /if \(!handsFree \|\| !l1Side \|\| side !== l1Side\)/);
+  assert.match(script, /startTurn\(l1Side\)/);
 });
 
 test('advanced routes paint bundled content immediately while progress synchronizes in parallel', () => {

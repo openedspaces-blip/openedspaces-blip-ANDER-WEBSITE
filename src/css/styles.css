@@ -21928,6 +21928,19 @@ footer small {
   color: var(--muted);
 }
 
+.interpreter-action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.interpreter-handsfree-btn.is-active {
+  border-color: #2563eb;
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.2);
+}
+
 .interpreter-talk-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -22153,6 +22166,8 @@ footer small {
   .interpreter-language-btn:last-child { grid-column: 1 / -1; }
   .interpreter-talk-btn { min-height: 7.25rem; padding: 0.8rem; }
   .interpreter-actions { align-items: flex-start; flex-direction: column; }
+  .interpreter-action-buttons { width: 100%; }
+  .interpreter-action-buttons > button { flex: 1 1 9rem; }
   .interpreter-turn { width: 94%; }
 }
 .phonetics-controls { align-items: end; }

@@ -15676,6 +15676,13 @@ function getTutorLanguage() {
   return tutorLanguagePreference;
 }
 
+// The explicit Tutor selector owns both conversation language and voice.
+// Code-switching inside a prompt or reply must never silently swap the
+// learner's selected TTS voice.
+function getTutorVoiceLocale() {
+  return getPronunciationLocale(getTutorLanguage());
+}
+
 function setTutorLanguage(language) {
   if (!TUTOR_SUPPORTED_LANGUAGES.includes(language)) return;
   if (tutorDictation.status === 'listening') stopTutorDictation();
@@ -15697,6 +15704,10 @@ function setTutorLanguage(language) {
   });
   document.querySelectorAll('#tutor [data-ai-context="language"]').forEach((label) => {
     label.textContent = languageDisplayNames[language] || language;
+  });
+  const lockedLocale = getTutorVoiceLocale();
+  document.querySelectorAll('.tutor-message--tutor').forEach((message) => {
+    message.dataset.ttsLocale = lockedLocale;
   });
   updateTutorPresenceState(
     language === 'french'
@@ -16188,7 +16199,7 @@ async function sendTutorMessage({
               if (!messageEl) {
                 messageEl = appendTutorMessage(conversationEl, 'tutor', fullText);
                 if (messageEl) {
-                  messageEl.dataset.ttsLocale = getPronunciationLocale(language);
+                  messageEl.dataset.ttsLocale = getTutorVoiceLocale();
                   // Position among this conversation's tutor replies so far.
                   messageEl.dataset.turnIndex = String(
                     conversationEl.querySelectorAll('.tutor-message--tutor').length
@@ -16215,9 +16226,7 @@ async function sendTutorMessage({
     const completedReply = finalizeTutorReplyText(fullText);
     if (messageEl) {
       flushTutorMessageBodyUpdate(messageEl, conversationEl, completedReply);
-      messageEl.dataset.ttsLocale = getPronunciationLocale(
-        inferTutorReplyLanguage(finalPrompt, language)
-      );
+      messageEl.dataset.ttsLocale = getTutorVoiceLocale();
       messageEl.dataset.ttsText = cleanTutorTextForSpeech(
         sanitizeTutorReplyText(completedReply)
       );
@@ -21879,6 +21888,8 @@ function renderCorrectorHighlighted(correctedText, changes) {
   return escaped;
 }
 
+const INTERPRETER_HISTORY_LIMIT = 10;
+
 function setupInterpreter() {
   const langA = document.getElementById('interpreterLangA');
   const langB = document.getElementById('interpreterLangB');
@@ -21888,6 +21899,7 @@ function setupInterpreter() {
   const labelA = document.getElementById('interpreterTalkALabel');
   const labelB = document.getElementById('interpreterTalkBLabel');
   const stopBtn = document.getElementById('interpreterStopBtn');
+  const handsFreeBtn = document.getElementById('interpreterHandsFreeBtn');
   const clearBtn = document.getElementById('interpreterClearBtn');
   const status = document.getElementById('interpreterStatus');
   const conversation = document.getElementById('interpreterConversation');
@@ -21899,6 +21911,7 @@ function setupInterpreter() {
   let recognition = null;
   let activeButton = null;
   let busy = false;
+  let handsFree = false;
   let turns = [];
   let playbackToken = 0;
 
@@ -21908,6 +21921,13 @@ function setupInterpreter() {
     status.textContent = message;
     status.classList.remove('is-loading', 'is-success', 'is-unavailable');
     if (mode) status.classList.add(mode);
+  };
+
+  const renderHandsFreeState = () => {
+    if (!handsFreeBtn) return;
+    handsFreeBtn.classList.toggle('is-active', handsFree);
+    handsFreeBtn.setAttribute('aria-pressed', String(handsFree));
+    handsFreeBtn.textContent = handsFree ? '⚙ Manos libres: activo' : '⚙ Manos libres';
   };
 
   // Strict turn taking for hands-free interpreting: the other microphone
@@ -21972,6 +21992,8 @@ function setupInterpreter() {
     activeButton = null;
     window.speechSynthesis?.cancel();
     busy = false;
+    handsFree = false;
+    renderHandsFreeState();
     setTurnControls();
     setStatus('Detenido.');
   };
@@ -21986,6 +22008,12 @@ function setupInterpreter() {
       if (turnToken !== playbackToken) return;
       if (!data.ok || !data.translatedText) throw new Error(data.message || 'No se pudo interpretar.');
       turns.push({ side, original: text, translation: data.translatedText, sourceLanguage, targetLanguage });
+      // Keep the interpreter light during long exchanges. Once an eleventh
+      // consultation arrives, remove the oldest complete original/translation
+      // pair and retain the ten most recent turns.
+      if (turns.length > INTERPRETER_HISTORY_LIMIT) {
+        turns.splice(0, turns.length - INTERPRETER_HISTORY_LIMIT);
+      }
       renderTurns();
       setStatus(`Reproduciendo ${languageLabel(targetLanguage)}…`, 'is-success');
       const finishTurn = () => {
@@ -21997,7 +22025,7 @@ function setupInterpreter() {
         // in L1 continues automatically and is interpreted into L2. A
         // manually started L2 turn may still be translated once, but never
         // becomes an alternating automatic conversation.
-        if (!l1Side || side !== l1Side) {
+        if (!handsFree || !l1Side || side !== l1Side) {
           setStatus('Listo. Toca el idioma que va a hablar.', 'is-success');
           return;
         }
@@ -22097,6 +22125,23 @@ function setupInterpreter() {
     repeatTranslation(Number(repeatButton.dataset.interpreterRepeat));
   });
   stopBtn?.addEventListener('click', stop);
+  handsFreeBtn?.addEventListener('click', () => {
+    handsFree = !handsFree;
+    renderHandsFreeState();
+    if (!handsFree) {
+      setStatus('Manos libres desactivado. Toca un idioma para hablar.');
+      return;
+    }
+    const l1Side = getL1Side();
+    if (!l1Side) {
+      handsFree = false;
+      renderHandsFreeState();
+      setStatus('Selecciona tu idioma de apoyo para usar manos libres.', 'is-unavailable');
+      return;
+    }
+    setStatus(`Manos libres activo. Escuchando ${languageLabel(l1Side === 'a' ? langA.value : langB.value)}…`, 'is-success');
+    startTurn(l1Side);
+  });
   clearBtn?.addEventListener('click', () => {
     stop();
     turns = [];
@@ -22112,6 +22157,7 @@ function setupInterpreter() {
   langA.addEventListener('change', updateLabels);
   langB.addEventListener('change', updateLabels);
   updateLabels();
+  renderHandsFreeState();
   renderTurns();
 }
 

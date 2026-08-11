@@ -1583,7 +1583,10 @@
               <button type="button" class="interpreter-talk-btn interpreter-talk-btn--b" id="interpreterTalkB"><span>🎙️</span><strong id="interpreterTalkBLabel">English</strong><small>Tap to speak</small></button>
             </div>
             <div class="interpreter-actions">
-              <button type="button" class="secondary-btn translator-stop-btn" id="interpreterStopBtn">⏹ Detener</button>
+              <div class="interpreter-action-buttons">
+                <button type="button" class="secondary-btn translator-stop-btn" id="interpreterStopBtn">⏹ Detener</button>
+                <button type="button" class="secondary-btn interpreter-handsfree-btn" id="interpreterHandsFreeBtn" aria-pressed="false">⚙ Manos libres</button>
+              </div>
               <span class="translator-status" id="interpreterStatus" role="status" aria-live="polite">Listo para interpretar.</span>
             </div>
             <div class="interpreter-conversation" id="interpreterConversation" aria-live="polite">
@@ -1644,19 +1647,6 @@
         </div>
 
         <div class="download-platform-grid">
-          <article class="download-platform-card download-platform-card--android">
-            <div class="download-platform-icon" aria-hidden="true">A</div>
-            <div class="download-platform-copy">
-              <span class="download-platform-kicker">ANDROID · APP GAMIFICADA</span>
-              <h3>ANDERGO Quest para Android</h3>
-              <p>Juega lecciones dentro de la app, completa misiones y gana XP, monedas, rachas e insignias.</p>
-            </div>
-            <div class="download-platform-actions">
-              <a class="primary-btn" href="/downloads/andergo-android.apk" download="ANDERGO-Quest-Android-v1.0.0.apk">Descargar app gamificada</a>
-              <span class="download-secondary-link">APK firmado · 56 MB</span>
-            </div>
-          </article>
-
           <article class="download-platform-card download-platform-card--ios">
             <div class="download-platform-icon" aria-hidden="true"></div>
             <div class="download-platform-copy">
