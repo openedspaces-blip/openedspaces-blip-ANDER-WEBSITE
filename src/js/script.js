@@ -17446,7 +17446,10 @@ const INFOGRAPHIC_SCENES = [
   { id: 'solar-system', title: 'The Solar System', icon: '🪐', parts: [['Sun',12,33],['Mercury',35,31],['Venus',51,31],['Earth',69,31],['Mars',86,31],['Jupiter',17,68],['Saturn',42,68],['Uranus',69,69],['Neptune',88,69]] },
   { id: 'face', title: 'Parts of the Face', icon: '😊', parts: [['Hair',50,14],['Forehead',50,31],['Eye',38,44],['Ear',26,50],['Nose',50,57],['Mouth',50,69],['Chin',50,83]] },
   { id: 'classroom', title: 'The Classroom', icon: '🏫', parts: [['Board',58,25],['Clock',85,23],['Desk',48,61],['Chair',75,58],['Book',35,55],['Window',19,35],['Backpack',68,78]] },
-  { id: 'bicycle', title: 'Parts of a Bicycle', icon: '🚲', parts: [['Handlebars',63,38],['Seat',31,42],['Frame',48,57],['Pedal',49,68],['Chain',67,89],['Wheel',27,69],['Tire',78,69]] },
+  // This is a photographic scene with a separate chain close-up at the
+  // bottom. Each target follows the pictured part, not the old schematic
+  // bicycle coordinates, so a marker is always a precise learning cue.
+  { id: 'bicycle', title: 'Parts of a Bicycle', icon: '🚲', parts: [['Handlebars',71,16],['Seat',32,19],['Frame',52,43],['Pedal',48,65],['Chain',54,84],['Wheel',18,54],['Tire',82,50]] },
   { id: 'clothing', title: 'Clothing', icon: '👕', parts: [['Shirt',22,27],['Trousers',51,27],['Dress',80,29],['Jacket',23,65],['Shoes',52,72],['Hat',80,67],['Socks',87,86]] },
   { id: 'food', title: 'Basic Foods', icon: '🥖', parts: [['Bread',22,22],['Milk',73,18],['Cheese',23,47],['Rice',73,43],['Egg',15,73],['Chicken',48,73],['Fish',80,76]] }
 ];
