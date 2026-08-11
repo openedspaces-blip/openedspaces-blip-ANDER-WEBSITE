@@ -3595,6 +3595,7 @@ test('Tutor replies are conversational and trim an unfinished final clause', () 
   const service = fs.readFileSync(path.join(__dirname, 'lib', 'aiTutorService.js'), 'utf8');
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   assert.match(service, /Prioriza la intención del estudiante antes que la forma/);
+  assert.match(service, /Andergo está en fase de lanzamiento/);
   assert.match(service, /última frase tenga sentido por sí sola/);
   assert.match(source, /function finalizeTutorReplyText/);
   assert.match(source, /const completedReply = finalizeTutorReplyText\(fullText\)/);
