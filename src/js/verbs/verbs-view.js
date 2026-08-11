@@ -305,68 +305,34 @@
     german: 'alemán'
   };
 
-  // Compact tile (redesign pass): only what the spec's "contenido visible"
-  // list allows - rank, word, pronunciation+audio, one line of L1
-  // translation/L2 definition, a tiny regular/irregular tag, a discrete
-  // mastery dot, and a 3-icon action row. Everything else (forms, level
-  // repeated, examples, synonyms, notes...) moved to the "Ver detalles"
-  // modal (openVerbDetailHtml below) - never rendered in the grid itself,
-  // so 100 tiles stay small and fast to scan instead of 100 small tables.
-  // The tile itself is the "Ver detalles" trigger (role=button, own
-  // keydown handler below) - same div-with-role=button + nested real
-  // buttons + stopPropagation pattern script.js's own .vocab-card already
-  // uses, so nested icons never also trigger the tile's own open action.
+  // The catalogue is intentionally a scan-first list, not a collection of
+  // flash cards. Each row keeps just the L1 verb, its L2 equivalent and the
+  // L2 pronunciation/audio, so students can move through a long catalogue
+  // without an action panel repeated one thousand times.
   function renderVerbTileHtml(item, raw, { canSpeak }) {
-    const favLabel = item.isFavorite ? 'Quitar de favoritos' : 'Marcar como favorito';
     const supportText = item.learningMode === 'direct' ? item.simpleDefinition : item.translation;
-    const isFrench = item.targetLanguage === 'french';
-    const regLabel = isFrench
-      ? (raw.group || '3e groupe').replace(' groupe', '')
-      : raw.regular ? 'Reg' : 'Irr';
-    const regTitle = isFrench
-      ? raw.group || '3e groupe'
-      : raw.regular ? 'Verbo regular' : 'Verbo irregular';
-    const masteryLabel = TILE_MASTERY_LABEL[item.masteryStatus] || TILE_MASTERY_LABEL.new;
-    const bridgeLabel = VERB_LANGUAGE_LABEL[item.bridgeLanguage] || item.bridgeLanguage || 'L1';
+    const sourceVerb = supportText || item.targetWord;
+    const targetLabel = VERB_LANGUAGE_LABEL[item.targetLanguage] || item.targetLanguage || 'L2';
     const pronunciationText = item.phonetic || (canSpeak ? 'Escuchar' : 'Audio no disponible');
     const audioBtnHtml = canSpeak
       ? `<button type="button" class="vocab-example-audio-btn verb-tile-audio-btn" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Escuchar ${escapeHtml(item.targetWord)}" title="Escuchar">🔊</button>`
       : '';
 
     return `
-      <article
-        class="verb-list-item"
-        data-verb-id="${escapeHtml(item.id)}"
-        data-mastery="${escapeHtml(item.masteryStatus)}"
-        data-speak-text="${escapeHtml(item.audioText)}"
-        data-speak-locale="${escapeHtml(item.pronunciationLocale)}"
-        data-speak-rate="${item.pronunciationRate}"
-        title="Toca la tarjeta para escuchar la pronunciación"
-      >
-        <div class="verb-list-rank-row">
-          <span class="verb-list-rank">#${item.frequencyRank}</span>
-          <span class="verb-list-type" title="${regTitle}">${regLabel}</span>
-          <span class="verb-list-status verb-list-status--${escapeHtml(item.masteryStatus)}">${escapeHtml(masteryLabel)}</span>
+      <article class="verb-catalogue-row" data-verb-id="${escapeHtml(item.id)}">
+        <span class="verb-catalogue-rank">${item.frequencyRank}</span>
+        <div class="verb-catalogue-cell">
+          <span class="verb-catalogue-label">Verbo (L1)</span>
+          <strong>${escapeHtml(sourceVerb)}</strong>
         </div>
-        <div class="verb-list-field verb-list-field--word">
-          <span class="verb-list-field-label">Verbo</span>
-          <button type="button" class="verb-list-word verb-open-detail-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Abrir ejemplos y conjugación de ${escapeHtml(item.targetWord)}">${escapeHtml(item.targetWord)}</button>
-        </div>
-        <div class="verb-list-pron-row">
-          <span class="verb-list-field-label">Pronunciación</span>
+        <div class="verb-catalogue-cell verb-catalogue-pronunciation">
+          <span class="verb-catalogue-label">Pronunciación</span>
           <span class="verb-list-pron${item.phonetic ? '' : ' verb-list-pron--audio'}">${escapeHtml(pronunciationText)}</span>
           ${audioBtnHtml}
         </div>
-        <div class="verb-list-field verb-list-field--meaning">
-          <span class="verb-list-field-label">Significado en ${escapeHtml(bridgeLabel)}</span>
-          <p class="verb-list-support" title="${escapeHtml(supportText || 'Significado pendiente')}">${escapeHtml(supportText || 'Significado pendiente')}</p>
-        </div>
-        <div class="verb-list-actions no-print" role="group" aria-label="Acciones de ${escapeHtml(item.targetWord)}">
-          <button type="button" class="verb-list-favorite-btn verb-favorite-btn${item.isFavorite ? ' is-active' : ''}" data-verb-id="${escapeHtml(item.id)}" aria-pressed="${item.isFavorite}" aria-label="${favLabel}" title="${favLabel}">
-            <span aria-hidden="true">${item.isFavorite ? '★' : '☆'}</span>
-          </button>
-          <button type="button" class="verb-list-detail-btn verb-open-detail-btn" data-verb-id="${escapeHtml(item.id)}">Ver ejemplos</button>
-          <button type="button" class="verb-list-practice-btn verb-practice-one-btn" data-verb-id="${escapeHtml(item.id)}">Practicar</button>
+        <div class="verb-catalogue-cell">
+          <span class="verb-catalogue-label">Traducción al L2 · ${escapeHtml(targetLabel)}</span>
+          <strong>${escapeHtml(item.targetWord)}</strong>
         </div>
       </article>`;
   }
@@ -614,25 +580,6 @@
       const canSpeak = typeof supportsSpeech === 'function' ? supportsSpeech() : false;
       const visible = sorted.slice(0, verbsVisibleCount);
       deck.innerHTML = visible.map(({ raw, item }) => renderVerbTileHtml(item, raw, { canSpeak })).join('');
-
-      // "Ver ejemplos" is a shortcut to the full Conjugador for that verb.
-      // It is handled directly before the card's pronunciation shortcut, so
-      // the button always selects its verb, changes tab and reveals its forms.
-      deck.querySelectorAll('.verb-list-detail-btn').forEach((button) => {
-        button.addEventListener('click', (event) => {
-          event.stopPropagation();
-          openConjugatorForVerb(button.dataset.verbId);
-        });
-      });
-
-      // The verb itself is the clearest route to its examples and complete
-      // conjugation; the surrounding card remains the pronunciation shortcut.
-      deck.querySelectorAll('.verb-list-word.verb-open-detail-btn').forEach((button) => {
-        button.addEventListener('click', (event) => {
-          event.stopPropagation();
-          openConjugatorForVerb(button.dataset.verbId);
-        });
-      });
 
       if (loadMoreRow) loadMoreRow.hidden = sorted.length <= visible.length;
       if (showAllBtn) showAllBtn.hidden = sorted.length <= visible.length;

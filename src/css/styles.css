@@ -20824,6 +20824,114 @@ footer small {
   font-weight: 700;
 }
 
+/* Verb catalogue: a continuous reference list, deliberately not flash cards.
+   The repeatable row makes the three learning fields easy to scan across a
+   large, thousand-verb catalogue. */
+.verb-catalogue-list {
+  display: grid;
+  gap: 0;
+  overflow: hidden;
+  border: 1px solid rgba(37, 99, 235, 0.17);
+  border-radius: 18px;
+  background: var(--surface);
+}
+
+.verb-catalogue-row {
+  display: grid;
+  grid-template-columns: 3.25rem minmax(10rem, 1fr) minmax(12rem, 1.1fr) minmax(10rem, 1fr);
+  align-items: center;
+  gap: 1rem;
+  min-height: 74px;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(37, 99, 235, 0.1);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.verb-catalogue-row:last-child {
+  border-bottom: 0;
+}
+
+.verb-catalogue-row:hover {
+  background: #f7faff;
+}
+
+.verb-catalogue-rank {
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.verb-catalogue-cell {
+  display: grid;
+  min-width: 0;
+  gap: 0.18rem;
+}
+
+.verb-catalogue-cell strong {
+  overflow: hidden;
+  color: var(--navy-2);
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.verb-catalogue-label {
+  color: var(--muted);
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
+.verb-catalogue-pronunciation {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 0.45rem;
+}
+
+.verb-catalogue-pronunciation .verb-catalogue-label {
+  width: 100%;
+}
+
+.verb-catalogue-pronunciation .verb-tile-audio-btn {
+  width: 1.85rem;
+  height: 1.85rem;
+  min-width: 1.85rem;
+  padding: 0;
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  border-radius: 50%;
+  background: #fff;
+}
+
+@media (max-width: 760px) {
+  .verb-catalogue-row {
+    grid-template-columns: 2.2rem minmax(0, 1fr) minmax(0, 1fr);
+    gap: 0.65rem;
+    padding: 0.7rem;
+  }
+
+  .verb-catalogue-pronunciation {
+    grid-column: 2 / -1;
+  }
+}
+
+@media (max-width: 480px) {
+  .verb-catalogue-row {
+    grid-template-columns: 1.8rem minmax(0, 1fr);
+    gap: 0.45rem 0.65rem;
+  }
+
+  .verb-catalogue-row > .verb-catalogue-cell {
+    grid-column: 2;
+  }
+
+  .verb-catalogue-cell strong {
+    font-size: 0.92rem;
+  }
+}
+
 .reading-comp-question[hidden] {
   display: none !important;
 }
