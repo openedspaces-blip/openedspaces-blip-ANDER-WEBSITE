@@ -60,6 +60,7 @@ const VERBS_FILES = [
   'src/js/verbs/english-verbs-data.js',
   'src/js/verbs/verb-conjugation-engine.js',
   'src/js/verbs/romance-verbs-data.js',
+  'src/js/verbs/extended-verb-catalogues.js',
   'src/js/verbs/verbs-view.js'
 ];
 

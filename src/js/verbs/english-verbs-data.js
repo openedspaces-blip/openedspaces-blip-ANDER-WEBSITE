@@ -179,5 +179,46 @@
     { rank: 100, infinitive: 'choose', regular: false, level: 'A1', category: 'cognition', forms: ['chooses', 'chose', 'chosen', 'choosing'], es: 'elegir / escoger', fr: 'choisir', def: 'To select one thing or person from a number of possibilities.', ipa: '/tʃuːz/', ex: ['She chooses a book from the shelf.', "She doesn't choose a book from the shelf.", 'Does she choose a book from the shelf?'], collocations: ['choose between', 'choose wisely'], synonyms: ['select', 'pick'], antonyms: ['refuse'], notes: 'Related noun "choice" changes the "oo" spelling entirely - not derived by a simple rule.', tags: ['irregular'] }
   ];
 
+  // Practical A2-B1 expansion. These entries keep the same authored shape
+  // as the original frequency list: real IPA, L1 glosses and principal
+  // forms are all available before the catalogue is rendered.
+  const EXPANDED = [
+    ['develop','desarrollar','développer','/dɪˈveləp/',['develops','developed','developed','developing']],
+    ['improve','mejorar','améliorer','/ɪmˈpruːv/',['improves','improved','improved','improving']],
+    ['include','incluir','inclure','/ɪnˈkluːd/',['includes','included','included','including']],
+    ['manage','gestionar / lograr','gérer / réussir','/ˈmænɪdʒ/',['manages','managed','managed','managing']],
+    ['achieve','lograr','réussir','/əˈtʃiːv/',['achieves','achieved','achieved','achieving']],
+    ['appear','aparecer','apparaître','/əˈpɪr/',['appears','appeared','appeared','appearing']],
+    ['produce','producir','produire','/prəˈduːs/',['produces','produced','produced','producing']],
+    ['serve','servir','servir','/sɜːrv/',['serves','served','served','serving']],
+    ['avoid','evitar','éviter','/əˈvɔɪd/',['avoids','avoided','avoided','avoiding']],
+    ['prepare','preparar','préparer','/prɪˈper/',['prepares','prepared','prepared','preparing']],
+    ['join','unirse','rejoindre','/dʒɔɪn/',['joins','joined','joined','joining']],
+    ['plan','planificar','planifier','/plæn/',['plans','planned','planned','planning']],
+    ['describe','describir','décrire','/dɪˈskraɪb/',['describes','described','described','describing']],
+    ['protect','proteger','protéger','/prəˈtekt/',['protects','protected','protected','protecting']],
+    ['compare','comparar','comparer','/kəmˈper/',['compares','compared','compared','comparing']],
+    ['share','compartir','partager','/ʃer/',['shares','shared','shared','sharing']],
+    ['solve','resolver','résoudre','/sɑːlv/',['solves','solved','solved','solving']],
+    ['teach','enseñar','enseigner','/tiːtʃ/',['teaches','taught','taught','teaching']],
+    ['analyze','analizar','analyser','/ˈænəlaɪz/',['analyzes','analyzed','analyzed','analyzing']],
+    ['organize','organizar','organiser','/ˈɔːrɡənaɪz/',['organizes','organized','organized','organizing']],
+    ['lead','liderar / guiar','diriger / guider','/liːd/',['leads','led','led','leading']]
+  ];
+  EXPANDED.forEach(([infinitive, es, fr, ipa, forms], offset) => RAW.push({
+    rank: 101 + offset,
+    infinitive,
+    regular: forms[1].endsWith('ed'),
+    level: offset < 10 ? 'A2' : 'B1',
+    category: 'general',
+    forms,
+    es,
+    fr,
+    def: `To ${infinitive} in a common everyday or academic context.`,
+    ipa,
+    ex: [`They ${infinitive} every day.`, `They do not ${infinitive} every day.`, `Do they ${infinitive} every day?`],
+    collocations: [], synonyms: [], antonyms: [], notes: '', tags: []
+  }));
+
   window.ANDERGO_VERBS_DATA.english = RAW.map(verb);
 })();

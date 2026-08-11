@@ -1108,6 +1108,16 @@
     ['cumplir','fulfill','accomplir'],['ofrecer','offer','offrir'],['descubrir','discover','découvrir'],['levantar','raise','lever'],['intentar','try','essayer']
   ].slice(0, 100);
 
+  ES.push(
+    ['desarrollar','develop','développer'],['mejorar','improve','améliorer'],['incluir','include','inclure'],
+    ['continuar','continue','continuer'],['compartir','share','partager'],['aprender','learn','apprendre'],
+    ['enseñar','teach','enseigner'],['construir','build','construire'],['enviar','send','envoyer'],
+    ['elegir','choose','choisir'],['comprar','buy','acheter'],['vender','sell','vendre'],
+    ['dormir','sleep','dormir'],['comer','eat','manger'],['beber','drink','boire'],
+    ['caminar','walk','marcher'],['conducir','drive','conduire'],['viajar','travel','voyager'],
+    ['cocinar','cook','cuisiner'],['limpiar','clean','nettoyer']
+  );
+
   const FR_PRESENT = {
     être:['suis','es','est','sommes','êtes','sont'],avoir:['ai','as','a','avons','avez','ont'],faire:['fais','fais','fait','faisons','faites','font'],
     dire:['dis','dis','dit','disons','dites','disent'],aller:['vais','vas','va','allons','allez','vont'],voir:['vois','vois','voit','voyons','voyez','voient'],

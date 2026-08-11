@@ -16280,6 +16280,7 @@ const VERBS_MODULE_SOURCES = Object.freeze([
   '/src/js/verbs/english-verbs-data.js',
   '/src/js/verbs/verb-conjugation-engine.js',
   '/src/js/verbs/romance-verbs-data.js',
+  '/src/js/verbs/extended-verb-catalogues.js',
   '/src/js/verbs/verbs-view.js'
 ]);
 let verbsModulesLoad = null;
@@ -21866,7 +21867,7 @@ function setupInterpreter() {
     if (mode) status.classList.add(mode);
   };
 
-  // Strict turn taking for hands-free interpreting: the opposite microphone
+  // Strict turn taking for hands-free interpreting: the other microphone
   // remains unavailable until the current speaker's translated voice ends.
   const setTurnControls = (activeSide = null) => {
     const isInTurn = Boolean(activeSide);
@@ -21884,6 +21885,19 @@ function setupInterpreter() {
     labelB.textContent = languageLabel(langB.value);
     talkA.setAttribute('aria-label', `Hablar en ${languageLabel(langA.value)}`);
     talkB.setAttribute('aria-label', `Hablar en ${languageLabel(langB.value)}`);
+  };
+
+  // The automatic microphone is intentionally reserved for the learner's
+  // bridge language (L1). A person speaking the other selected language
+  // must always start their turn explicitly, preventing an unexpected mic
+  // activation in a conversation with another person.
+  const getL1Side = () => {
+    const bridgeLanguage = typeof learningPathState !== 'undefined'
+      ? learningPathState.bridgeLanguage
+      : '';
+    if (langA.value === bridgeLanguage) return 'a';
+    if (langB.value === bridgeLanguage) return 'b';
+    return null;
   };
 
   const renderTurns = () => {
@@ -21935,13 +21949,18 @@ function setupInterpreter() {
         if (turnToken !== playbackToken) return;
         busy = false;
         setTurnControls();
-        // The translation was just spoken aloud TO the other side, so it's
-        // now naturally their turn to reply - open their microphone
-        // automatically instead of making them tap again, so a live
-        // back-and-forth conversation doesn't stall after every line.
+        const l1Side = getL1Side();
+        // Hands-free mode is deliberately one-way: only a turn that began
+        // in L1 continues automatically and is interpreted into L2. A
+        // manually started L2 turn may still be translated once, but never
+        // becomes an alternating automatic conversation.
+        if (!l1Side || side !== l1Side) {
+          setStatus('Listo. Toca el idioma que va a hablar.', 'is-success');
+          return;
+        }
         // startTurn() re-checks mic permission itself (silent after the
         // first grant) and Stop still interrupts this at any point.
-        startTurn(side === 'a' ? 'b' : 'a');
+        startTurn(l1Side);
       };
       speakText(data.translatedText, {
         locale: LANGUAGE_LOCALES[targetLanguage],

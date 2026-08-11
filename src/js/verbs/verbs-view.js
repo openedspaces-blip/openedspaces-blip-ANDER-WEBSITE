@@ -296,6 +296,15 @@
     mastered: 'Dominado'
   };
 
+  const VERB_LANGUAGE_LABEL = {
+    english: 'inglés',
+    french: 'francés',
+    spanish: 'español',
+    italian: 'italiano',
+    portuguese: 'portugués',
+    german: 'alemán'
+  };
+
   // Compact tile (redesign pass): only what the spec's "contenido visible"
   // list allows - rank, word, pronunciation+audio, one line of L1
   // translation/L2 definition, a tiny regular/irregular tag, a discrete
@@ -318,6 +327,8 @@
       ? raw.group || '3e groupe'
       : raw.regular ? 'Verbo regular' : 'Verbo irregular';
     const masteryLabel = TILE_MASTERY_LABEL[item.masteryStatus] || TILE_MASTERY_LABEL.new;
+    const bridgeLabel = VERB_LANGUAGE_LABEL[item.bridgeLanguage] || item.bridgeLanguage || 'L1';
+    const pronunciationText = item.phonetic || (canSpeak ? 'Escuchar' : 'Audio no disponible');
     const audioBtnHtml = canSpeak
       ? `<button type="button" class="vocab-example-audio-btn verb-tile-audio-btn" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Escuchar ${escapeHtml(item.targetWord)}" title="Escuchar">🔊</button>`
       : '';
@@ -337,12 +348,19 @@
           <span class="verb-list-type" title="${regTitle}">${regLabel}</span>
           <span class="verb-list-status verb-list-status--${escapeHtml(item.masteryStatus)}">${escapeHtml(masteryLabel)}</span>
         </div>
-        <button type="button" class="verb-list-word verb-open-detail-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Abrir ejemplos y conjugación de ${escapeHtml(item.targetWord)}">${escapeHtml(item.targetWord)}</button>
+        <div class="verb-list-field verb-list-field--word">
+          <span class="verb-list-field-label">Verbo</span>
+          <button type="button" class="verb-list-word verb-open-detail-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Abrir ejemplos y conjugación de ${escapeHtml(item.targetWord)}">${escapeHtml(item.targetWord)}</button>
+        </div>
         <div class="verb-list-pron-row">
-          ${item.phonetic ? `<span class="verb-list-pron">${escapeHtml(item.phonetic)}</span>` : ''}
+          <span class="verb-list-field-label">Pronunciación</span>
+          <span class="verb-list-pron${item.phonetic ? '' : ' verb-list-pron--audio'}">${escapeHtml(pronunciationText)}</span>
           ${audioBtnHtml}
         </div>
-        ${supportText ? `<p class="verb-list-support" title="${escapeHtml(supportText)}">${escapeHtml(supportText)}</p>` : ''}
+        <div class="verb-list-field verb-list-field--meaning">
+          <span class="verb-list-field-label">Significado en ${escapeHtml(bridgeLabel)}</span>
+          <p class="verb-list-support" title="${escapeHtml(supportText || 'Significado pendiente')}">${escapeHtml(supportText || 'Significado pendiente')}</p>
+        </div>
         <div class="verb-list-actions no-print" role="group" aria-label="Acciones de ${escapeHtml(item.targetWord)}">
           <button type="button" class="verb-list-favorite-btn verb-favorite-btn${item.isFavorite ? ' is-active' : ''}" data-verb-id="${escapeHtml(item.id)}" aria-pressed="${item.isFavorite}" aria-label="${favLabel}" title="${favLabel}">
             <span aria-hidden="true">${item.isFavorite ? '★' : '☆'}</span>

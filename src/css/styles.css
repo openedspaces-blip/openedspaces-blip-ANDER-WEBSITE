@@ -721,6 +721,43 @@ a:focus-visible {
     radial-gradient(circle at 8% 18%, rgba(0, 194, 255, 0.1), transparent 24rem);
 }
 
+/* The learning route is the primary member action, so it receives a compact
+   CTA treatment without disturbing the surrounding navigation rhythm. */
+.menu .nav-learn-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.5rem 0.78rem;
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  border-radius: 999px;
+  background: linear-gradient(135deg, #eef5ff, #e0f2fe);
+  box-shadow: 0 5px 14px rgba(37, 99, 235, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  color: #1d4ed8;
+  font-weight: 850;
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.menu .nav-learn-cta::before {
+  content: '✦';
+  color: #0ea5e9;
+  font-size: 0.78em;
+}
+
+.menu .nav-learn-cta::after { display: none; }
+
+.menu .nav-learn-cta:hover,
+.menu .nav-learn-cta:focus-visible,
+.menu .nav-learn-cta.active {
+  transform: translateY(-1px);
+  background: linear-gradient(135deg, #2563eb, #0ea5e9);
+  box-shadow: 0 9px 20px rgba(37, 99, 235, 0.24);
+  color: #fff;
+}
+
+.menu .nav-learn-cta:hover::before,
+.menu .nav-learn-cta:focus-visible::before,
+.menu .nav-learn-cta.active::before { color: #fef08a; }
+
 #tutor .tutor-page-navigation {
   display: flex;
   align-items: center;
@@ -16698,6 +16735,13 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   .mobile-header-tabs a.active span {
     color: #fff;
   }
+
+  .mobile-header-tabs .nav-learn-cta {
+    border-color: rgba(37, 99, 235, 0.25);
+    background: linear-gradient(135deg, #eaf3ff, #dff7ff);
+    color: #1d4ed8;
+    box-shadow: 0 4px 11px rgba(37, 99, 235, 0.12);
+  }
 }
 
 @media (max-width: 420px) {
@@ -17175,7 +17219,11 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 .verb-list-word:hover,
 .verb-list-word:focus-visible { color: var(--blue); text-decoration: underline; }
 
-.verb-list-pron-row { justify-self: end; }
+.verb-list-pron-row {
+  grid-column: 1 / -1;
+  justify-self: start;
+}
+.verb-list-pron-row .verb-list-field-label { margin: 0 0.2rem 0 0; }
 .verb-list-pron { color: var(--muted); font-size: 0.78rem; font-style: italic; }
 
 .verb-list-support {
@@ -21668,9 +21716,9 @@ footer small {
   box-shadow: 0 0 0 6px rgba(37, 99, 235, 0.12);
 }
 
-/* The inactive participant waits for the translated voice to finish before
-   their microphone opens. The visual state makes that hand-off clear without
-   changing the normal tap-to-start behavior when the interpreter is idle. */
+/* The non-L1 participant waits for the translated voice to finish. Only the
+   learner's L1 microphone can reopen automatically; the other side always
+   starts manually. */
 .interpreter-talk-btn.is-waiting,
 .interpreter-talk-btn:disabled {
   cursor: not-allowed;
@@ -27676,6 +27724,7 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   padding: 4px;
   border: 2px solid rgba(255, 255, 255, 0.94);
   background: linear-gradient(145deg, #f8fbff, #dbeafe 52%, #c7d2fe);
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.28), inset 0 1px 0 #fff;
 }
 
 /* Un solo aro limpio: se elimina la esfera exterior que sobresalía arriba. */
@@ -27746,6 +27795,38 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   height: 11px;
 }
 
+.tutor-fab-callout {
+  position: absolute;
+  right: calc(100% + 0.7rem);
+  top: 50%;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-width: max-content;
+  padding: 0.48rem 0.7rem;
+  border: 1px solid rgba(147, 197, 253, 0.9);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 8px 20px rgba(30, 64, 175, 0.16);
+  color: #1d4ed8;
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.01em;
+  opacity: 0.92;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: opacity 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+}
+
+.tutor-fab-callout span { color: #06b6d4; }
+
+.tutor-fab:hover .tutor-fab-callout,
+.tutor-fab:focus-visible .tutor-fab-callout {
+  opacity: 1;
+  transform: translateY(-50%) translateX(-3px);
+  box-shadow: 0 10px 24px rgba(30, 64, 175, 0.23);
+}
+
 @media (max-width: 700px) {
   .tutor-fab {
     width: 60px;
@@ -27758,4 +27839,5 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   .tutor-fab-ring-label--top text { font-size: 10px; }
   .tutor-fab-ring-label--bottom { bottom: 4px; font-size: 4.9px; }
   .tutor-fab .tutor-bot-status { right: 3px; bottom: 6px; width: 10px; height: 10px; }
+  .tutor-fab-callout { display: none; }
 }

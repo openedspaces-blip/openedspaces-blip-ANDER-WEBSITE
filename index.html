@@ -77,7 +77,7 @@
       </a>
 
       <nav class="mobile-header-tabs" aria-label="Pestañas principales">
-        <a href="#learn"><span aria-hidden="true">📘</span>Aprender</a>
+        <a class="nav-learn-cta" href="#learn"><span aria-hidden="true">📘</span>Aprender</a>
         <a href="#tests"><span aria-hidden="true">✓</span>Tests</a>
         <a href="#verbs"><span aria-hidden="true">Aa</span>Verbos</a>
         <a href="#music"><span aria-hidden="true">◉</span>Infografías</a>
@@ -109,7 +109,7 @@
           <a href="#about" data-i18n="navAbout">Acerca de</a>
         </span>
         <span class="nav-group nav-group-member" hidden>
-          <a href="#learn" data-i18n="navLearnMember">Aprender</a>
+          <a class="nav-learn-cta" href="#learn" data-i18n="navLearnMember">Aprender</a>
           <a href="#tests">Tests</a>
           <a href="#verbs" data-i18n="navVerbs">Verbos</a>
           <a href="#music">Infografías</a>
@@ -1535,7 +1535,7 @@
               <div>
                 <span class="tests-eyebrow">Conversación por voz</span>
                 <h3>Modo intérprete</h3>
-                <p>Elige los idiomas y toca quién inicia. En modo manos libres, el siguiente micrófono se abre sólo cuando termina la interpretación.</p>
+                <p>Elige los idiomas y toca quién inicia. En manos libres, la interpretación continúa sólo desde tu idioma base (L1) hacia el idioma destino (L2).</p>
               </div>
               <button type="button" class="secondary-btn" id="interpreterClearBtn">Limpiar conversación</button>
             </div>
@@ -2390,6 +2390,7 @@
         <span class="tutor-fab-ring-label tutor-fab-ring-label--bottom">ANDERGO</span>
         <span class="tutor-bot-status"></span>
       </span>
+      <span class="tutor-fab-callout" aria-hidden="true"><span>✦</span> Ir al Tutor</span>
     </button>
 
     <div class="tutor-drawer" id="tutorDrawer" aria-hidden="true" inert>
