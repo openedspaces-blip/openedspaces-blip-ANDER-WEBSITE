@@ -5823,6 +5823,19 @@ function sanitizeTutorReplyText(text) {
   return cut.replace(TUTOR_INTERNAL_MARKER_RE, '').trim();
 }
 
+// A provider can occasionally exhaust its generation budget in the middle of
+// an optional final clause. Keep the last complete sentence instead of showing
+// or reading an abrupt fragment such as "Si tu veux plus de".
+function finalizeTutorReplyText(text) {
+  const reply = String(text || '').trim();
+  if (!reply || /[.!?…][”’"')\]\s]*$/.test(reply)) return reply;
+  const endings = [...reply.matchAll(/[.!?…](?=\s|$)/g)];
+  const lastEnding = endings.at(-1);
+  return lastEnding && lastEnding.index >= Math.max(20, reply.length * 0.35)
+    ? reply.slice(0, lastEnding.index + 1).trim()
+    : reply;
+}
+
 // Returns the message wrapper <div> (not just its body <p>) so streaming
 // callers (see sendTutorMessage()) can keep updating its text as chunks
 // arrive, and so tutor voice controls (renderTutorVoiceControls()) have
@@ -16153,10 +16166,14 @@ async function sendTutorMessage({
 
     // Ensure the final frame is on screen before attaching controls or
     // starting optional text-to-speech.
+    const completedReply = finalizeTutorReplyText(fullText);
     if (messageEl) {
-      flushTutorMessageBodyUpdate(messageEl, conversationEl, fullText);
+      flushTutorMessageBodyUpdate(messageEl, conversationEl, completedReply);
       messageEl.dataset.ttsLocale = getPronunciationLocale(
         inferTutorReplyLanguage(finalPrompt, language)
+      );
+      messageEl.dataset.ttsText = cleanTutorTextForSpeech(
+        sanitizeTutorReplyText(completedReply)
       );
     }
 
@@ -16175,10 +16192,10 @@ async function sendTutorMessage({
 
     if (streamError && !fullText) throw new Error(streamError);
 
-    if (topicState && fullText.trim()) {
+    if (topicState && completedReply.trim()) {
       topicState.session.turns.push(
         { role: 'user', content: finalPrompt },
-        { role: 'tutor', content: fullText.trim() }
+        { role: 'tutor', content: completedReply.trim() }
       );
       topicState.session.turns = topicState.session.turns.slice(-20);
     }
@@ -16219,7 +16236,7 @@ async function sendTutorMessage({
       resumeTutorConversationListening();
     }
 
-    return { reply: fullText };
+    return { reply: completedReply };
   } catch (error) {
     if (requestController.signal.aborted) return null;
     if (conversationEl)
