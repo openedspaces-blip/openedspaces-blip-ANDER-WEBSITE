@@ -61,6 +61,19 @@ test('Tutor monthly quotas are 30 Free and 500 Premium for every consultation', 
   assert.equal(plansConfig.getFeatureLimit('premium', 'tutor_query'), 500);
 });
 
+test('Tutor teaches, converses and promotes the real ANDERGO Premium catalogue honestly', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'lib/aiTutorService.js'), 'utf8');
+  assert.match(source, /conversar de forma natural/);
+  assert.match(source, /enseñar y corregir como docente/);
+  assert.match(source, /embajadora conocedora de ANDERGO Language Academy/);
+  assert.match(source, /recepcionista virtual y primera representante de atención al cliente/);
+  assert.match(source, /support@andergo\.online/);
+  assert.match(source, /Nunca pidas contraseñas, datos completos de tarjetas ni claves de seguridad/);
+  assert.match(source, /USD 4\.99 al mes o USD 12\.99 cada tres meses/);
+  assert.match(source, /ahorra USD 1\.98/);
+  assert.match(source, /nunca presiones, manipules, uses falsa urgencia/);
+});
+
 test('Premium lock and exhausted Tutor quota use the required friendly copy', () => {
   assert.equal(accessPolicy.premiumRequiredError().message, 'Disponible en ANDERGO Premium.');
   const source = fs.readFileSync(path.join(__dirname, 'lib/server.js'), 'utf8');
