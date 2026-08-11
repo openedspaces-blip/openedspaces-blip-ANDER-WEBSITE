@@ -27794,11 +27794,9 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 
 .tutor-fab-ring-label--top {
   top: 2px;
-  width: 100%;
-  height: 100%;
+  width: 86%;
+  height: 31px;
   overflow: visible;
-  font-size: 10px;
-  letter-spacing: 0.16em;
   pointer-events: none;
 }
 
@@ -27810,12 +27808,12 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 .tutor-fab-ring-label--top text {
   fill: currentColor;
   font-family: inherit;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 950;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.8px;
 }
 
-.tutor-fab-ring-label--bottom { bottom: 4px; font-size: 5.5px; letter-spacing: 0.14em; }
+.tutor-fab-ring-label--bottom { bottom: 7px; font-size: 5.5px; letter-spacing: 0.16em; }
 
 .tutor-fab .tutor-bot-status {
   right: 5px;
@@ -27826,14 +27824,14 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 
 @media (max-width: 700px) {
   .tutor-fab {
-    width: 60px;
-    height: 60px;
-    padding: 4px;
+    width: 64px;
+    height: 64px;
+    padding: 3px;
   }
 
   .tutor-fab-ring-label { font-size: 5.6px; letter-spacing: 0.1em; }
-  .tutor-fab-ring-label--top { top: 2px; width: 100%; height: 100%; }
-  .tutor-fab-ring-label--top text { font-size: 10px; }
-  .tutor-fab-ring-label--bottom { bottom: 4px; font-size: 4.9px; }
+  .tutor-fab-ring-label--top { top: 2px; height: 27px; }
+  .tutor-fab-ring-label--top text { font-size: 8px; letter-spacing: 0.6px; }
+  .tutor-fab-ring-label--bottom { bottom: 6px; font-size: 4.8px; }
   .tutor-fab .tutor-bot-status { right: 3px; bottom: 6px; width: 10px; height: 10px; }
 }
