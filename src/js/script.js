@@ -9599,19 +9599,18 @@ function renderReadingComprehensionQuiz(lesson, entries) {
     })
     .join('');
 
-  const currentResult = runtime.results[visibleEntries[runtime.currentIndex]?.exerciseIndex];
+  const currentExerciseIndex = visibleEntries[runtime.currentIndex]?.exerciseIndex;
+  const currentAnswered = runtime.selections[currentExerciseIndex] != null;
   const navigationHtml = `
     <div class="reading-comp-navigation" aria-label="${french ? 'Navigation du test' : 'Navegación del test'}">
       <button type="button" class="secondary-btn reading-comp-nav-btn" data-reading-direction="prev" data-lesson-slug="${escapeHtml(lesson.slug)}" ${runtime.currentIndex === 0 ? 'disabled' : ''}>← ${french ? 'Précédente' : 'Anterior'}</button>
       <div class="reading-comp-steps" role="tablist" aria-label="Questions">
         ${visibleEntries.map(({ exerciseIndex }, index) => `<button type="button" class="reading-comp-step${index === runtime.currentIndex ? ' is-current' : ''}${runtime.results[exerciseIndex] ? (runtime.results[exerciseIndex].correct ? ' is-correct' : ' is-incorrect') : ''}" data-reading-question-index="${index}" data-lesson-slug="${escapeHtml(lesson.slug)}" aria-label="${french ? 'Question' : 'Pregunta'} ${index + 1}" aria-selected="${index === runtime.currentIndex}">${runtime.results[exerciseIndex] ? (runtime.results[exerciseIndex].correct ? '✓' : '×') : index + 1}</button>`).join('')}
       </div>
-      <button type="button" class="primary-btn reading-comp-nav-btn" data-reading-direction="next" data-lesson-slug="${escapeHtml(lesson.slug)}" ${runtime.currentIndex >= total - 1 || !currentResult ? 'disabled' : ''}>${french ? 'Suivante' : 'Siguiente'} →</button>
+      <button type="button" class="primary-btn reading-comp-nav-btn" data-reading-direction="next" data-lesson-slug="${escapeHtml(lesson.slug)}" ${runtime.currentIndex >= total - 1 || !currentAnswered ? 'disabled' : ''}>${french ? 'Suivante' : 'Siguiente'} →</button>
     </div>`;
 
-  const allAnswered =
-    answeredCount === total &&
-    visibleEntries.every(({ exerciseIndex }) => runtime.results[exerciseIndex] != null);
+  const allAnswered = answeredCount === total;
 
   const actionsHtml = runtime.graded
     ? `<button type="button" class="primary-btn reading-comp-retry-btn" data-lesson-slug="${escapeHtml(lesson.slug)}">${french ? 'Réessayer' : 'Intentar de nuevo'}</button>`
@@ -19374,72 +19373,10 @@ function enableHomepageActions() {
       const exerciseIndex = Number(questionItem.dataset.exerciseIndex);
       const lesson = learningPathState.lessons.find((item) => item.slug === slug);
       const exercise = lesson?.exercises?.[exerciseIndex];
-      if (!lesson || !exercise || runtime.results[exerciseIndex]) return;
+      if (!lesson || !exercise) return;
 
       runtime.selections[exerciseIndex] = readingCompOption.dataset.optionKey;
-      runtime.gradingItems[exerciseIndex] = true;
       runtime.error = '';
-
-      const currentView = getViewFromHash();
-      if (SKILL_VIEWS.includes(currentView)) {
-        renderSkillView(currentView);
-      } else {
-        renderLessonWorkspace();
-      }
-
-      try {
-        const selected = runtime.selections[exerciseIndex];
-        const payload = exercise.id
-          ? { exerciseId: exercise.id, selectedOptionId: selected }
-          : { index: exerciseIndex, selectedOption: Number(selected) };
-        const response = await authFetch(`${backendBaseUrl}/api/lessons/${slug}/check-answer`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
-        });
-        const data = await response.json().catch(() => ({}));
-        if (!response.ok) {
-          throw new Error(
-            response.status === 401
-              ? getExerciseAuthMessage()
-              : data.error || 'No se pudo comprobar la respuesta.'
-          );
-        }
-
-        const correctKey = data.correctOption ?? data.correctOptionId ?? null;
-        const correctOptionIndex = (exercise.options || []).findIndex(
-          (option, optionIndex) =>
-            String(optionKey(option, optionIndex)) === String(correctKey)
-        );
-        runtime.results[exerciseIndex] = {
-          correct: Boolean(data.correct),
-          correctOption: correctKey,
-          correctLabel:
-            correctOptionIndex >= 0
-              ? `${String.fromCharCode(65 + correctOptionIndex)}. ${optionLabel(exercise.options[correctOptionIndex])}`
-              : '',
-          selectedOption: selected
-        };
-        learningPathState.exerciseResults[slug] =
-          learningPathState.exerciseResults[slug] || {};
-        learningPathState.exerciseResults[slug][exerciseIndex] = {
-          selectedOption: selected,
-          correct: Boolean(data.correct)
-        };
-        if (data.correct) {
-          window.AndergoGamification?.recordSkillTouched(
-            'reading',
-            learningPathState.language
-          );
-          window.AndergoGamification?.recordCorrectAnswer();
-        }
-        window.playExerciseFeedbackSound?.(Boolean(data.correct));
-      } catch (error) {
-        delete runtime.selections[exerciseIndex];
-        runtime.error = error.message || 'No se pudo comprobar la respuesta.';
-      } finally {
-        delete runtime.gradingItems[exerciseIndex];
-      }
 
       if (SKILL_VIEWS.includes(getViewFromHash())) {
         renderSkillView(getViewFromHash());
@@ -19464,16 +19401,73 @@ function enableHomepageActions() {
         .filter(({ item }) => item.type === 'mcq' && !isTrueFalseExercise(item));
       const visibleEntries = getVisibleReadingComprehensionEntries(lesson, comprehensionEntries);
       const unanswered = visibleEntries.some(
-        ({ exerciseIndex }) =>
-          runtime.selections[exerciseIndex] == null ||
-          runtime.results[exerciseIndex] == null
+        ({ exerciseIndex }) => runtime.selections[exerciseIndex] == null
       );
       if (unanswered || runtime.grading) return;
 
-      runtime.graded = true;
+      runtime.grading = true;
       runtime.error = '';
+      try {
+        const gradedResults = await Promise.all(
+          visibleEntries.map(async ({ item, exerciseIndex }) => {
+            const selected = runtime.selections[exerciseIndex];
+            const payload = item.id
+              ? { exerciseId: item.id, selectedOptionId: selected }
+              : { index: exerciseIndex, selectedOption: Number(selected) };
+            const response = await authFetch(`${backendBaseUrl}/api/lessons/${slug}/check-answer`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(payload)
+            });
+            const data = await response.json().catch(() => ({}));
+            if (!response.ok) {
+              throw new Error(
+                response.status === 401
+                  ? getExerciseAuthMessage()
+                  : data.error || 'No se pudo calificar. Intenta de nuevo.'
+              );
+            }
+            const correctKey = data.correctOption ?? data.correctOptionId ?? null;
+            const correctOptionIndex = (item.options || []).findIndex(
+              (option, optionIndex) =>
+                String(optionKey(option, optionIndex)) === String(correctKey)
+            );
+            return {
+              exerciseIndex,
+              correct: Boolean(data.correct),
+              correctOption: correctKey,
+              correctLabel: correctOptionIndex >= 0
+                ? `${String.fromCharCode(65 + correctOptionIndex)}. ${optionLabel(item.options[correctOptionIndex])}`
+                : '',
+              selectedOption: selected
+            };
+          })
+        );
+        gradedResults.forEach((result) => {
+          runtime.results[result.exerciseIndex] = result;
+          learningPathState.exerciseResults[slug] = learningPathState.exerciseResults[slug] || {};
+          learningPathState.exerciseResults[slug][result.exerciseIndex] = {
+            selectedOption: result.selectedOption,
+            correct: result.correct
+          };
+        });
+        const correctCount = gradedResults.filter((result) => result.correct).length;
+        if (correctCount > 0) {
+          window.AndergoGamification?.recordSkillTouched('reading', learningPathState.language);
+        }
+        for (let index = 0; index < correctCount; index += 1) {
+          window.AndergoGamification?.recordCorrectAnswer();
+        }
+      } catch (error) {
+        runtime.error = error.message || 'No se pudo calificar. Intenta de nuevo.';
+        runtime.grading = false;
+        if (SKILL_VIEWS.includes(getViewFromHash())) renderSkillView(getViewFromHash());
+        else renderLessonWorkspace();
+        return;
+      }
+
+      runtime.graded = true;
       if (authStatus.session?.access_token) {
-        runtime.grading = true;
         try {
           const answers = visibleEntries.map(({ item, exerciseIndex }) => ({
             exerciseId: item.id,

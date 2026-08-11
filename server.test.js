@@ -1205,6 +1205,18 @@ test('Reading route navigation is placed beside evaluation before tutor tools', 
   assert.match(css, /\.unit-activity-footer--reading-inline/);
 });
 
+test('Reading comprehension enables evaluation from five local selections without waiting on per-answer requests', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.match(source, /const allAnswered = answeredCount === total;/);
+  assert.match(source, /const currentAnswered = runtime\.selections\[currentExerciseIndex\] != null;/);
+  assert.match(source, /visibleEntries\.map\(async \(\{ item, exerciseIndex \}\) => \{/);
+  const optionHandler = source.slice(
+    source.indexOf("const readingCompOption = event.target.closest('.reading-comp-option')"),
+    source.indexOf("const readingCompSubmitBtn = event.target.closest('.reading-comp-submit-btn')")
+  );
+  assert.doesNotMatch(optionHandler, /check-answer|gradingItems\[exerciseIndex\]/);
+});
+
 test('Learning activities keep a visible language level and lesson context bar', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
