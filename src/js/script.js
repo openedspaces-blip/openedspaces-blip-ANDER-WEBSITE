@@ -6450,6 +6450,13 @@ function showLearnState(state) {
   const graph = document.getElementById('skillGraph');
   const toggle = document.querySelector('.learn-route-toggle');
   const isOpen = state === 'route';
+  // On phones the brand is also the persistent route back to Inicio. Once a
+  // lesson is underway it competes with the learning controls, so keep it
+  // out of the compact header until the learner returns to the route.
+  document.body.classList.toggle(
+    'is-learning-lesson-active',
+    state === 'lesson' && Boolean(learningPathState.activeSlug)
+  );
   graph?.classList.toggle('is-drawer-open', isOpen);
   toggle?.setAttribute('aria-expanded', String(isOpen));
   updateLearnRouteToggle(toggle, isOpen);
@@ -17406,10 +17413,10 @@ async function loadTestsView() {
     const total = lessonTestState.units[0]?.questionCount || 12;
     questionCount.textContent = `${total} preguntas`;
   }
-  lessonSelect.innerHTML = lessonTestState.units.map((unit) => `<option value="${escapeHtml(unit.id)}">Lesson ${escapeHtml(String(unit.order))}: ${escapeHtml(unit.title)}</option>`).join('');
+  lessonSelect.innerHTML = lessonTestState.units.map((unit) => `<option value="${escapeHtml(unit.id)}">${escapeHtml(unit.grammarTitle || unit.title || `Tema ${unit.order}`)}</option>`).join('');
   lessonTestState.unitId = lessonSelect.value || lessonTestState.units[0]?.id || '';
   if (stage && !new URLSearchParams(window.location.search).get('testResult')) {
-    stage.innerHTML = `<div class="tests-welcome"><span aria-hidden="true">✓</span><h3>${lessonTestState.language === 'french' ? 'Tests de français prêts' : lessonTestState.language === 'spanish' ? 'Tests de español listos' : 'English tests ready'}</h3><p>Selecciona una lección y pulsa «Comenzar test».</p></div>`;
+    stage.innerHTML = `<div class="tests-welcome"><span aria-hidden="true">✓</span><h3>${lessonTestState.language === 'french' ? 'Tests de français prêts' : lessonTestState.language === 'spanish' ? 'Tests de español listos' : 'English tests ready'}</h3><p>Selecciona un tema gramatical y pulsa «Comenzar test».</p></div>`;
   }
   const shared = new URLSearchParams(window.location.search).get('testResult');
   if (shared) {
@@ -18672,6 +18679,9 @@ function showView(viewId) {
   // A freshly loaded/restored Ruta is still unit-specific. Do not let it
   // inherit the full-library mode from a previous Explore visit.
   if (resolved === 'learn') learningPathState.skillEntryContext = 'route';
+  if (resolved !== 'learn' && !SKILL_VIEWS.includes(resolved)) {
+    document.body.classList.remove('is-learning-lesson-active');
+  }
 
   // Any navigation away from the current view must release the mic and
   // drop any in-progress Speaking recording - a no-op when nothing is active.
@@ -18779,6 +18789,9 @@ function showView(viewId) {
     showLearnState('lesson');
     const langToken = getLanguageTabFromHash();
     if (langToken) setTargetLanguage(langToken);
+  }
+  if (SKILL_VIEWS.includes(resolved)) {
+    document.body.classList.toggle('is-learning-lesson-active', Boolean(learningPathState.activeSlug));
   }
   if (resolved === 'tutor') {
     // Opening Tutor from the global navigation is a free consultation, not

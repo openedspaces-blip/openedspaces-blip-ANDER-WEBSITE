@@ -4337,7 +4337,6 @@ a:focus-visible {
   box-shadow: 0 22px 50px rgba(23, 63, 145, 0.1);
 }
 
-.download-platform-card--android { border-color: rgba(34, 197, 94, 0.28); }
 .download-platform-card--ios { border-color: rgba(15, 23, 42, 0.18); }
 
 .download-platform-icon {
@@ -4353,7 +4352,6 @@ a:focus-visible {
   box-shadow: 0 12px 25px rgba(23, 63, 145, 0.22);
 }
 
-.download-platform-card--android .download-platform-icon { background: #15803d; }
 .download-platform-card--ios .download-platform-icon { background: #0f172a; }
 .download-platform-copy { flex: 1; }
 
@@ -21158,6 +21156,23 @@ footer small {
   .verb-catalogue-forms strong { font-size: 0.75rem; }
 }
 
+/* A lesson needs the phone header for its learning controls, not a permanent
+   duplicate route back to Inicio. The brand returns as soon as the student
+   reopens the route or changes screen. */
+@media (max-width: 640px) {
+  body.is-learning-lesson-active .brand,
+  body.is-learning-lesson-active .nav-group-visitor > a[href='#home'] {
+    display: none;
+  }
+
+  body.is-learning-lesson-active .navbar {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      'actions toggle'
+      'menu menu';
+  }
+}
+
 .reading-comp-question[hidden] {
   display: none !important;
 }
@@ -27714,7 +27729,145 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   background: rgba(148, 163, 184, 0.1);
 }
 
+/* Guided-session hierarchy: the conversation is the workspace, while voice
+   and shortcuts support it instead of competing for attention. */
+#tutor .tutor-action,
+#tutor .tutor-action.is-open {
+  gap: 0.7rem;
+  border: 1px solid rgba(191, 219, 254, 0.8);
+  background:
+    radial-gradient(circle at 92% 4%, rgba(224, 242, 254, 0.8), transparent 25%),
+    linear-gradient(145deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 20px 45px rgba(30, 64, 175, 0.08);
+}
+
+#tutor .tutor-session-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 48px;
+  padding: 0.7rem 0.78rem;
+  border: 1px solid rgba(191, 219, 254, 0.72);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+#tutor .tutor-session-title {
+  display: grid;
+  gap: 0.08rem;
+  color: #172554;
+  line-height: 1.15;
+}
+
+#tutor .tutor-session-title strong { font-size: 0.93rem; }
+
+#tutor .tutor-session-kicker,
+#tutor .tutor-start-label > span,
+#tutor .tutor-composer-label {
+  color: #2563eb;
+  font-size: 0.66rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+}
+
+#tutor .tutor-session-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  flex: 0 0 auto;
+  padding: 0.42rem 0.62rem;
+  border-radius: 999px;
+  background: #ecfdf5;
+  color: #047857;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+#tutor .tutor-session-status i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.12);
+}
+
+#tutor .tutor-output-stage .tutor-conversation {
+  border: 1px solid rgba(219, 234, 254, 0.9);
+  background: linear-gradient(180deg, #f8fbff, #ffffff 54%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.92);
+}
+
+#tutor .tutor-welcome {
+  border: 1px solid rgba(191, 219, 254, 0.7);
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(30, 64, 175, 0.06);
+}
+
+#tutor .tutor-start-label {
+  display: grid;
+  gap: 0.16rem;
+  margin: 0.12rem 0 0;
+  color: #172554;
+  font-size: 0.92rem;
+  font-weight: 850;
+}
+
+#tutor .tutor-main-quick-actions .tutor-quick-action {
+  min-height: 44px;
+  border-color: rgba(191, 219, 254, 0.95);
+  background: rgba(255, 255, 255, 0.9);
+  color: #27446e;
+  font-size: 0.8rem;
+  font-weight: 800;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+#tutor .tutor-main-quick-actions .tutor-quick-action:hover,
+#tutor .tutor-main-quick-actions .tutor-quick-action:focus-visible {
+  border-color: #60a5fa;
+  background: #eff6ff;
+  color: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+#tutor .tutor-composer {
+  padding: 0.75rem;
+  border: 1px solid rgba(191, 219, 254, 0.8);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 10px 22px rgba(30, 64, 175, 0.06);
+}
+
+#tutor .tutor-composer-label {
+  display: flex;
+  align-items: center;
+  gap: 0.36rem;
+  margin: 0 0 0.38rem;
+}
+
+#tutor .tutor-input {
+  border-color: rgba(191, 219, 254, 0.95);
+  background: #fbfdff;
+}
+
+#tutor .tutor-input:focus {
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 4px rgba(96, 165, 250, 0.13);
+}
+
+#tutor .tutor-primary-actions .tutor-chat-btn {
+  min-height: 42px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(37, 99, 235, 0.18);
+}
+
 @media (max-width: 700px) {
+  #tutor .tutor-session-bar { padding: 0.6rem 0.65rem; }
+  #tutor .tutor-session-title strong { font-size: 0.84rem; }
+  #tutor .tutor-session-status { padding: 0.35rem 0.5rem; font-size: 0.68rem; }
+
   #tutor .tutor-language-options {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }

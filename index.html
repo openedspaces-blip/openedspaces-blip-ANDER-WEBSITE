@@ -963,14 +963,14 @@
                 <option value="C1">C1</option><option value="C2">C2</option>
               </select>
             </label>
-            <label for="testLessonSelect">Lección
+            <label for="testLessonSelect">Tema gramatical
               <select id="testLessonSelect"><option>Cargando lecciones…</option></select>
             </label>
             <button type="button" class="primary-btn" id="startLessonTestBtn">Comenzar test</button>
-            <div class="tests-spec"><strong id="testQuestionCount">15 preguntas</strong><span>Respuestas con retroalimentación al instante</span><span>Reto de la lección · Nota sobre 100</span></div>
+            <div class="tests-spec"><strong id="testQuestionCount">15 preguntas</strong><span>Gramática, vocabulario y verbos con retroalimentación al instante</span><span>Evaluación del tema · Nota sobre 100</span></div>
           </aside>
           <article class="tests-stage" id="testsStage" aria-live="polite">
-            <div class="tests-welcome"><span aria-hidden="true">✓</span><h3>Un examen a tu medida</h3><p>Selecciona un nivel y una lección. Podrás responder aquí, revisar tu resultado y descargarlo.</p></div>
+            <div class="tests-welcome"><span aria-hidden="true">✓</span><h3>Un examen a tu medida</h3><p>Selecciona un nivel y un tema gramatical. Evaluarás gramática, vocabulario y verbos.</p></div>
           </article>
         </div>
       </section>
@@ -1239,6 +1239,13 @@
         </div>
 
         <div class="tutor-action is-open">
+          <div class="tutor-session-bar" aria-label="Estado de la sesión con el Tutor">
+            <div class="tutor-session-title">
+              <span class="tutor-session-kicker">SESIÓN GUIADA</span>
+              <strong>Practica a tu ritmo</strong>
+            </div>
+            <span class="tutor-session-status"><i aria-hidden="true"></i> Tutor listo</span>
+          </div>
           <div class="tutor-output-stage">
             <div
             class="tutor-conversation"
@@ -1249,7 +1256,7 @@
           >
               <div class="tutor-welcome">
               <span class="tutor-welcome-avatar" aria-hidden="true">A</span>
-              <span><strong>Hola, soy tu Tutor ANDERGO.</strong> Cuéntame qué quieres practicar. Puedo escucharte, conversar contigo, corregirte con tacto y ayudarte a continuar cuando te quedes sin palabras.</span>
+              <span><strong>Hola, soy tu Tutor ANDERGO.</strong> Dime qué quieres practicar y avanzamos paso a paso. Puedo explicarte, conversar contigo y corregir tus frases con tacto.</span>
               </div>
             </div>
             <div class="tutor-output-companion">
@@ -1280,7 +1287,7 @@
             Tutor IA ANDERGO está escribiendo…
           </p>
 
-          <div class="tutor-start-label">¿Cómo quieres comenzar?</div>
+          <div class="tutor-start-label"><span>EMPIEZA POR AQUÍ</span> ¿Cómo quieres practicar?</div>
           <div class="tutor-quick-actions tutor-main-quick-actions" aria-label="Formas rápidas de empezar">
             <button type="button" class="tutor-quick-action" data-tutor-quick-prompt="Explícame esta actividad de forma sencilla.">✨ Explícame</button>
             <button type="button" class="tutor-quick-action" data-tutor-quick-prompt="Dame un ejemplo breve relacionado con esta actividad.">💡 Un ejemplo</button>
@@ -1290,6 +1297,7 @@
 
           <div class="tutor-composer">
           <div class="tutor-composer-content">
+          <div class="tutor-composer-label"><span aria-hidden="true">✦</span> Tu turno</div>
           <label class="tutor-input-group" for="aiTutorPrompt">
             <span class="sr-only">Escribe qué quieres practicar</span>
             <textarea
