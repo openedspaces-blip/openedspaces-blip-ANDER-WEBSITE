@@ -17470,6 +17470,48 @@ const INFOGRAPHIC_SCENES = [
   { id: 'food', title: 'Basic Foods', icon: '🥖', parts: [['Bread',22,22],['Milk',73,18],['Cheese',23,47],['Rice',73,43],['Egg',15,73],['Chicken',48,73],['Fish',80,76]] }
 ];
 
+// Every visual dictionary offers ten or more useful words. These additional
+// points are chosen from visible, meaningful details in each scene rather
+// than repeating a label simply to increase the score.
+const INFOGRAPHIC_EXTRA_PARTS = {
+  'body-front': [['Ear',60,16], ['Neck',50,20], ['Stomach',50,43]],
+  'body-rear': [['Shoulder',40,24], ['Hand',68,51], ['Foot',55,94]],
+  car: [['Bumper',50,61], ['License plate',49,56], ['Roof',51,27]],
+  house: [['Garage',29,61], ['Balcony',72,58], ['Path',48,84]],
+  tree: [['Twig',64,26], ['Apple',64,31], ['Soil',66,88]],
+  weather: [['Fog',51,61], ['Storm',78,37], ['Ice',42,80]],
+  'solar-system': [['Pluto',95,72]],
+  face: [['Eyebrow',38,39], ['Cheek',35,62], ['Teeth',50,70]],
+  classroom: [['Pen',54,57], ['Ruler',43,59], ['Lamp',82,30]],
+  bicycle: [['Spokes',18,54], ['Brake',76,38], ['Crank',48,58]],
+  clothing: [['Belt',50,47], ['Bag',16,83], ['Gloves',84,81]],
+  food: [['Plate',50,49], ['Bowl',51,65], ['Table',50,89]]
+};
+
+const INFOGRAPHIC_EXTRA_LABELS = {
+  spanish: {
+    'body-front': ['Oreja', 'Cuello', 'Estómago'], 'body-rear': ['Hombro', 'Mano', 'Pie'], car: ['Parachoques', 'Matrícula', 'Techo'], house: ['Garaje', 'Balcón', 'Camino'], tree: ['Ramita', 'Manzana', 'Tierra'], weather: ['Niebla', 'Tormenta', 'Hielo'], 'solar-system': ['Plutón'], face: ['Ceja', 'Mejilla', 'Dientes'], classroom: ['Bolígrafo', 'Regla', 'Lámpara'], bicycle: ['Radios', 'Freno', 'Biela'], clothing: ['Cinturón', 'Bolso', 'Guantes'], food: ['Plato', 'Tazón', 'Mesa']
+  },
+  french: {
+    'body-front': ['Oreille', 'Cou', 'Ventre'], 'body-rear': ['Épaule', 'Main', 'Pied'], car: ['Pare-chocs', 'Plaque', 'Toit'], house: ['Garage', 'Balcon', 'Allée'], tree: ['Brindille', 'Pomme', 'Sol'], weather: ['Brouillard', 'Orage', 'Glace'], 'solar-system': ['Pluton'], face: ['Sourcil', 'Joue', 'Dents'], classroom: ['Stylo', 'Règle', 'Lampe'], bicycle: ['Rayons', 'Frein', 'Manivelle'], clothing: ['Ceinture', 'Sac', 'Gants'], food: ['Assiette', 'Bol', 'Table']
+  }
+};
+
+let infographicExtrasApplied = false;
+function ensureInfographicExtras() {
+  if (infographicExtrasApplied) return;
+  infographicExtrasApplied = true;
+  Object.entries(INFOGRAPHIC_EXTRA_PARTS).forEach(([sceneId, parts]) => {
+    const sceneIndex = INFOGRAPHIC_SCENES.findIndex((scene) => scene.id === sceneId);
+    if (sceneIndex < 0) return;
+    INFOGRAPHIC_SCENES[sceneIndex].parts.push(...parts);
+    Object.entries(INFOGRAPHIC_EXTRA_LABELS).forEach(([language, labelsByScene]) => {
+      const localizedWords = INFOGRAPHIC_LOCALIZATION[language]?.words?.[sceneIndex];
+      if (localizedWords) localizedWords.push(...(labelsByScene[sceneId] || parts.map(([label]) => label)));
+    });
+  });
+}
+
 const INFOGRAPHIC_LOCALIZATION = {
   spanish: {
     titles: ['Cuerpo humano · frente','Cuerpo humano · espalda','Partes de un automóvil','Partes de una casa','Partes de un árbol','El tiempo','El sistema solar','Partes de la cara','El aula','Partes de una bicicleta','La ropa','Alimentos básicos'],
@@ -17482,10 +17524,53 @@ const INFOGRAPHIC_LOCALIZATION = {
     ui: ['Dictionnaire visuel interactif','Banque de mots','Place chaque nom au bon endroit','Sélectionne ou fais glisser un mot, puis touche le bon point.','Progression','Réessayer','Parfait ! Toutes les parties sont correctes.']
   }
 };
-const INFOGRAPHIC_DEFAULT_UI = ['Interactive picture dictionary','Word bank','Put each name in its place','Select or drag a word, then touch the correct numbered point.','Progress','Try again','Perfect! All the parts are correct.'];
-const infographicState = { sceneId: 'body-front', selectedLabel: '', answers: {}, initialized: false, language: '', selectedLanguage: '', feedback: '' };
 
-function renderInfographicHotspot(name, x, y, index, answer, sceneId) {
+const INFOGRAPHIC_DEFAULT_UI = ['Interactive picture dictionary','Word bank','Put each name in its place','Select or drag a word, then touch the correct numbered point.','Progress','Try again','Perfect! All the parts are correct.'];
+const INFOGRAPHIC_POINT_STORAGE_KEY = 'andergo_infographic_point_overrides_v1';
+const infographicState = {
+  sceneId: 'body-front',
+  selectedLabel: '',
+  answers: {},
+  initialized: false,
+  language: '',
+  selectedLanguage: '',
+  feedback: '',
+  editMode: false,
+  editingPoint: null,
+  pointOverrides: {}
+};
+
+function loadInfographicPointOverrides() {
+  try {
+    const stored = JSON.parse(localStorage.getItem(INFOGRAPHIC_POINT_STORAGE_KEY) || '{}');
+    return stored && typeof stored === 'object' && !Array.isArray(stored) ? stored : {};
+  } catch {
+    return {};
+  }
+}
+
+function saveInfographicPointOverrides() {
+  localStorage.setItem(INFOGRAPHIC_POINT_STORAGE_KEY, JSON.stringify(infographicState.pointOverrides));
+}
+
+function getInfographicPoint(sceneId, index, fallbackX, fallbackY) {
+  const override = infographicState.pointOverrides?.[sceneId]?.[index];
+  const x = Number(override?.x);
+  const y = Number(override?.y);
+  return Number.isFinite(x) && Number.isFinite(y)
+    ? { x: Math.max(0, Math.min(100, x)), y: Math.max(0, Math.min(100, y)) }
+    : { x: fallbackX, y: fallbackY };
+}
+
+function setInfographicPoint(sceneId, index, x, y) {
+  infographicState.pointOverrides[sceneId] ||= {};
+  infographicState.pointOverrides[sceneId][index] = {
+    x: Number(Math.max(0, Math.min(100, x)).toFixed(2)),
+    y: Number(Math.max(0, Math.min(100, y)).toFixed(2))
+  };
+}
+
+function renderInfographicHotspot(name, x, y, index, answer, sceneId, label = name) {
   const isCorrect = answer === name;
   const isDense = ['solar-system', 'tree'].includes(sceneId);
   const radius = isDense ? 8 : 10;
@@ -17515,10 +17600,11 @@ function renderInfographicHotspot(name, x, y, index, answer, sceneId) {
   const lineEndX = markerX - ((markerX - targetX) / lineMagnitude) * (radius + 2);
   const lineEndY = markerY - ((markerY - targetY) / lineMagnitude) * (radius + 2);
 
-  return `<g class="info-hotspot info-hotspot--leader${isDense ? ' is-dense' : ''}${answer ? ' is-filled' : ''}${isCorrect ? ' is-correct' : ''}" data-info-slot="${index}" tabindex="0" role="button" aria-label="Point ${index + 1}: ${answer || 'empty'}"><line class="info-hotspot-leader" x1="${targetX}" y1="${targetY}" x2="${lineEndX.toFixed(1)}" y2="${lineEndY.toFixed(1)}"/><circle class="info-hotspot-anchor" cx="${targetX}" cy="${targetY}" r="2.8"/><circle class="info-hotspot-number" cx="${markerX.toFixed(1)}" cy="${markerY.toFixed(1)}" r="${radius}"/><text x="${markerX.toFixed(1)}" y="${(markerY + (isDense ? 3 : 4)).toFixed(1)}">${isCorrect ? '✓' : index + 1}</text></g>`;
+  return `<g class="info-hotspot info-hotspot--leader${isDense ? ' is-dense' : ''}${answer ? ' is-filled' : ''}${isCorrect ? ' is-correct' : ''}${infographicState.editMode ? ' is-editing' : ''}" data-info-slot="${index}" data-info-point-label="${escapeHtml(label)}" tabindex="0" role="button" aria-label="${infographicState.editMode ? `Mover ${label}. Posición ${x.toFixed(1)}%, ${y.toFixed(1)}%` : `Point ${index + 1}: ${answer || 'empty'}`}"><line class="info-hotspot-leader" x1="${targetX}" y1="${targetY}" x2="${lineEndX.toFixed(1)}" y2="${lineEndY.toFixed(1)}"/><circle class="info-hotspot-anchor" cx="${targetX}" cy="${targetY}" r="${infographicState.editMode ? 6 : 2.8}"/><circle class="info-hotspot-number" cx="${markerX.toFixed(1)}" cy="${markerY.toFixed(1)}" r="${radius}"/><text x="${markerX.toFixed(1)}" y="${(markerY + (isDense ? 3 : 4)).toFixed(1)}">${isCorrect ? '✓' : index + 1}</text></g>`;
 }
 
 function getLocalizedInfographicScene(baseScene, language = getEffectiveInterfaceLanguage()) {
+  ensureInfographicExtras();
   const sceneIndex = INFOGRAPHIC_SCENES.findIndex((scene) => scene.id === baseScene.id);
   const localized = INFOGRAPHIC_LOCALIZATION[language];
   const labels = localized?.words?.[sceneIndex] || baseScene.parts.map(([name]) => name);
@@ -17564,8 +17650,14 @@ function renderInfographicApp() {
   const score = Math.round((completed / scene.parts.length) * 100);
   const placed = new Set(Object.values(answers));
   const labels = [...scene.parts.map(([id, label]) => ({ id, label }))].sort((a, b) => a.label.localeCompare(b.label));
+  const canEditPoints = isStaffEntitled();
+  const editLabel = language === 'french' ? 'Ajuster les points' : language === 'english' ? 'Adjust points' : 'Ajustar puntos';
+  const saveLabel = language === 'french' ? 'Enregistrer' : language === 'english' ? 'Save points' : 'Guardar puntos';
+  const copyLabel = language === 'french' ? 'Copier les coordonnées' : language === 'english' ? 'Copy coordinates' : 'Copiar coordenadas';
+  const restoreLabel = language === 'french' ? 'Restaurer' : language === 'english' ? 'Restore defaults' : 'Restaurar originales';
   app.innerHTML = `
     <div class="infographic-toolbar">
+      ${canEditPoints ? `<button type="button" class="secondary-btn infographic-edit-toggle${infographicState.editMode ? ' is-active' : ''}" aria-pressed="${infographicState.editMode}">⊙ ${editLabel}</button>` : ''}
       <div class="infographic-language-picker" role="group" aria-label="${language === 'spanish' ? 'Idioma de las infografías' : language === 'french' ? 'Langue des infographies' : 'Infographic language'}">
         <span class="infographic-language-label">${language === 'spanish' ? 'Idioma de práctica' : language === 'french' ? 'Langue de pratique' : 'Practice language'}</span>
         <div class="infographic-language-options">
@@ -17579,17 +17671,46 @@ function renderInfographicApp() {
     <div class="infographic-workbench">
       <article class="infographic-canvas-card">
         <header><div><span>${ui[0]}</span><h3>${scene.title}</h3></div><strong>${score}%</strong></header>
-        <svg class="infographic-canvas" viewBox="0 0 400 400" role="img" aria-label="${scene.title}">${infographicSceneArtwork(scene)}${scene.parts.map(([id,,x,y], index) => renderInfographicHotspot(id, x, y, index, answers[index], scene.id)).join('')}</svg>
+        ${infographicState.editMode ? `<div class="infographic-editor-note"><strong>Arrastra el punto azul</strong><span>${infographicState.feedback || 'Colócalo exactamente sobre la parte indicada. También puedes afinarlo con las flechas del teclado.'}</span></div>` : ''}
+        <svg class="infographic-canvas${infographicState.editMode ? ' is-point-editor' : ''}" viewBox="0 0 400 400" role="img" aria-label="${scene.title}">${infographicSceneArtwork(scene)}${scene.parts.map(([id,label,x,y], index) => { const point = getInfographicPoint(scene.id, index, x, y); return renderInfographicHotspot(id, point.x, point.y, index, answers[index], scene.id, label); }).join('')}</svg>
+        ${infographicState.editMode ? `<div class="infographic-editor-actions"><button type="button" class="primary-btn infographic-save-points">✓ ${saveLabel}</button><button type="button" class="secondary-btn infographic-copy-points">${copyLabel}</button><button type="button" class="secondary-btn infographic-restore-points">${restoreLabel}</button></div>` : ''}
       </article>
-      <aside class="infographic-label-panel"><span class="infographic-kicker">${ui[1]}</span><h3>${ui[2]}</h3><p>${ui[3]}</p><div class="infographic-word-bank">${labels.map(({ id, label }) => `<button type="button" draggable="true" class="infographic-word${infographicState.selectedLabel === id ? ' is-selected' : ''}${placed.has(id) ? ' is-used' : ''}" data-info-label="${id}" data-info-speech="${label}">🔊 ${label}</button>`).join('')}</div>${infographicState.feedback ? `<p class="infographic-answer-feedback">${infographicState.feedback}</p>` : ''}<div class="infographic-score"><span>${ui[4]}</span><strong>${completed}/${scene.parts.length} · ${score}%</strong><div><i style="width:${score}%"></i></div></div><button type="button" class="secondary-btn infographic-reset-btn">${ui[5]}</button>${score === 100 ? `<div class="infographic-success">🏆 ${ui[6]}</div>` : ''}</aside>
+      <aside class="infographic-label-panel"><span class="infographic-kicker">${infographicState.editMode ? 'Editor de puntos' : ui[1]}</span><h3>${infographicState.editMode ? 'Coordenadas de esta imagen' : ui[2]}</h3><p>${infographicState.editMode ? 'Los valores se actualizan mientras mueves cada punto.' : ui[3]}</p><div class="infographic-word-bank">${scene.parts.map(([id, label, x, y], index) => { const point = getInfographicPoint(scene.id, index, x, y); return infographicState.editMode ? `<div class="infographic-word infographic-coordinate-row"><span>${index + 1}. ${label}</span><small>${point.x.toFixed(1)}%, ${point.y.toFixed(1)}%</small></div>` : ''; }).join('') || labels.map(({ id, label }) => `<button type="button" draggable="true" class="infographic-word${infographicState.selectedLabel === id ? ' is-selected' : ''}${placed.has(id) ? ' is-used' : ''}" data-info-label="${id}" data-info-speech="${label}">🔊 ${label}</button>`).join('')}</div>${!infographicState.editMode && infographicState.feedback ? `<p class="infographic-answer-feedback">${infographicState.feedback}</p>` : ''}${!infographicState.editMode ? `<div class="infographic-score"><span>${ui[4]}</span><strong>${completed}/${scene.parts.length} · ${score}%</strong><div><i style="width:${score}%"></i></div></div><button type="button" class="secondary-btn infographic-reset-btn">${ui[5]}</button>${score === 100 ? `<div class="infographic-success">🏆 ${ui[6]}</div>` : ''}` : ''}</aside>
     </div>`;
 }
 
 function initInfographicApp() {
   if (infographicState.initialized) { renderInfographicApp(); return; }
   infographicState.initialized = true;
+  infographicState.pointOverrides = loadInfographicPointOverrides();
   const app = document.getElementById('infographicApp');
   app?.addEventListener('click', (event) => {
+    if (event.target.closest('.infographic-edit-toggle')) {
+      infographicState.editMode = !infographicState.editMode;
+      infographicState.selectedLabel = '';
+      infographicState.feedback = '';
+      renderInfographicApp();
+      return;
+    }
+    if (event.target.closest('.infographic-save-points')) {
+      saveInfographicPointOverrides();
+      infographicState.feedback = 'Puntos guardados en este dispositivo.';
+      renderInfographicApp();
+      return;
+    }
+    if (event.target.closest('.infographic-copy-points')) {
+      const scenePoints = infographicState.pointOverrides[infographicState.sceneId] || {};
+      navigator.clipboard?.writeText(JSON.stringify({ [infographicState.sceneId]: scenePoints }, null, 2));
+      infographicState.feedback = 'Coordenadas copiadas.';
+      renderInfographicApp();
+      return;
+    }
+    if (event.target.closest('.infographic-restore-points')) {
+      delete infographicState.pointOverrides[infographicState.sceneId];
+      saveInfographicPointOverrides();
+      renderInfographicApp();
+      return;
+    }
     const languageBtn = event.target.closest('[data-info-language]');
     if (languageBtn) {
       infographicState.selectedLanguage = languageBtn.dataset.infoLanguage;
@@ -17617,6 +17738,7 @@ function initInfographicApp() {
       return;
     }
     const slot = event.target.closest('[data-info-slot]');
+    if (slot && infographicState.editMode) return;
     if (slot && infographicState.selectedLabel) {
       const scene = getLocalizedInfographicScene(INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId));
       const index = Number(slot.dataset.infoSlot);
@@ -17635,6 +17757,51 @@ function initInfographicApp() {
   app?.addEventListener('dragstart', (event) => { const word = event.target.closest('[data-info-label]'); if (word) { infographicState.selectedLabel = word.dataset.infoLabel; event.dataTransfer?.setData('text/plain', word.dataset.infoLabel); } });
   app?.addEventListener('dragover', (event) => { if (event.target.closest('[data-info-slot]')) event.preventDefault(); });
   app?.addEventListener('drop', (event) => { const slot = event.target.closest('[data-info-slot]'); if (!slot) return; event.preventDefault(); slot.dispatchEvent(new MouseEvent('click', { bubbles: true })); });
+  const moveEditingPoint = (event) => {
+    if (!infographicState.editMode || infographicState.editingPoint === null) return;
+    const svg = app.querySelector('.infographic-canvas');
+    if (!svg) return;
+    const matrix = svg.getScreenCTM();
+    if (!matrix) return;
+    const pointer = new DOMPoint(event.clientX, event.clientY).matrixTransform(matrix.inverse());
+    const x = (pointer.x / 400) * 100;
+    const y = (pointer.y / 400) * 100;
+    setInfographicPoint(infographicState.sceneId, infographicState.editingPoint, x, y);
+    renderInfographicApp();
+  };
+  app?.addEventListener('pointerdown', (event) => {
+    if (!infographicState.editMode) return;
+    const slot = event.target.closest('[data-info-slot]');
+    if (!slot) return;
+    event.preventDefault();
+    infographicState.editingPoint = Number(slot.dataset.infoSlot);
+    moveEditingPoint(event);
+  });
+  app?.addEventListener('pointermove', moveEditingPoint);
+  const finishEditingPoint = () => {
+    if (infographicState.editingPoint === null) return;
+    infographicState.editingPoint = null;
+    saveInfographicPointOverrides();
+  };
+  app?.addEventListener('pointerup', finishEditingPoint);
+  app?.addEventListener('pointercancel', finishEditingPoint);
+  app?.addEventListener('keydown', (event) => {
+    if (!infographicState.editMode || !['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(event.key)) return;
+    const slot = event.target.closest('[data-info-slot]');
+    if (!slot) return;
+    event.preventDefault();
+    const scene = INFOGRAPHIC_SCENES.find((item) => item.id === infographicState.sceneId) || INFOGRAPHIC_SCENES[0];
+    const index = Number(slot.dataset.infoSlot);
+    const [, , fallbackX, fallbackY] = scene.parts[index];
+    const point = getInfographicPoint(scene.id, index, fallbackX, fallbackY);
+    const step = event.shiftKey ? 1 : 0.25;
+    const nextX = point.x + (event.key === 'ArrowLeft' ? -step : event.key === 'ArrowRight' ? step : 0);
+    const nextY = point.y + (event.key === 'ArrowUp' ? -step : event.key === 'ArrowDown' ? step : 0);
+    setInfographicPoint(scene.id, index, nextX, nextY);
+    saveInfographicPointOverrides();
+    renderInfographicApp();
+    app.querySelector(`[data-info-slot="${index}"]`)?.focus();
+  });
   renderInfographicApp();
 }
 
@@ -18581,7 +18748,7 @@ const VIEW_SECTIONS = {
   tutor: ['#tutor'],
   translator: ['#translator'],
   tests: ['#tests'],
-  music: ['#music'],
+  infographics: ['#infographics'],
   games: ['#games'],
   downloads: ['#downloads'],
   about: ['#about'],
@@ -18610,7 +18777,7 @@ const VIEW_TITLE_SELECTORS = {
   tutor: '#tutor h2',
   translator: '#translator h2',
   tests: '#tests h2',
-  music: '#music h2',
+  infographics: '#infographics h2',
   games: '#games h2',
   downloads: '#downloads h2',
   about: '#about h2',
@@ -18633,6 +18800,12 @@ function getViewFromHash() {
   // and silently fall back to 'home'.
   const raw = window.location.hash.replace('#', '').split('/')[0];
   if (!raw) return 'home';
+  // The old Music section was redesigned as Infographics. Preserve shared
+  // links while immediately giving learners the meaningful URL.
+  if (raw === 'music') {
+    history.replaceState(null, '', '#infographics');
+    return 'infographics';
+  }
   // Keep old bookmarked #achievements links working after merging achievements
   // below Progress in a single member view.
   if (raw === 'achievements') return 'progress';
@@ -18811,7 +18984,7 @@ function showView(viewId) {
   }
   if (resolved === 'translator') syncTranslatorLanguagesFromState();
   if (resolved === 'tests') loadTestsView();
-  if (resolved === 'music') initInfographicApp();
+  if (resolved === 'infographics') initInfographicApp();
   if (resolved === 'games') loadGamesView();
   if (resolved === 'progress' || resolved === 'goals') loadDashboard();
   if (resolved === 'security') loadSecurityStatus();
@@ -20097,17 +20270,38 @@ function enableHomepageActions() {
     const listeningCompSubmitBtn = event.target.closest('.listening-comp-submit-btn');
     if (listeningCompSubmitBtn) {
       const ctx = getListeningComprehensionContext(listeningCompSubmitBtn);
-      if (!ctx || listeningCompSubmitBtn.disabled) return;
+      if (!ctx || listeningCompSubmitBtn.disabled || listeningCompSubmitBtn.dataset.submitting === 'true') return;
+
+      // Re-read the visible form at submission time. Option clicks normally
+      // update runtime immediately, but this also covers keyboard selection,
+      // restored DOM state and any future non-MCQ Listening question type.
+      collectAllGrammarTestAnswers(ctx.panel, ctx.bank, ctx.runtime);
+      const firstMissing = ctx.bank.questions.find(
+        (question) => !isGrammarTestQuestionAnswered(ctx.runtime, question)
+      );
+      if (firstMissing) {
+        const missingItem = [...ctx.panel.querySelectorAll('.listening-comp-question-item')].find(
+          (item) => String(item.dataset.questionId) === String(firstMissing.id)
+        );
+        missingItem?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        missingItem?.querySelector('input, select, button')?.focus({ preventScroll: true });
+        showHomeToast('Queda una pregunta de Listening sin responder.');
+        return;
+      }
 
       if (!authStatus.session?.access_token) {
-        openModal('login', {
-          message: 'Inicia sesión para guardar el resultado de esta prueba.'
-        });
-        return;
+        const restored = await refreshAuthSession();
+        if (!restored || !authStatus.session?.access_token) {
+          openModal('login', {
+            message: 'Inicia sesión para guardar el resultado de esta prueba.'
+          });
+          return;
+        }
       }
 
       const { lesson, panel, bank, runtime } = ctx;
       listeningCompSubmitBtn.disabled = true;
+      listeningCompSubmitBtn.dataset.submitting = 'true';
       listeningCompSubmitBtn.textContent = 'Enviando...';
 
       try {
@@ -20149,7 +20343,8 @@ function enableHomepageActions() {
         panel.innerHTML = renderListeningComprehensionPanel(lesson);
       } catch (error) {
         listeningCompSubmitBtn.disabled = false;
-        listeningCompSubmitBtn.textContent = 'Enviar';
+        delete listeningCompSubmitBtn.dataset.submitting;
+        listeningCompSubmitBtn.textContent = listeningUiText('Evaluar', 'Évaluer');
         showHomeToast(error.message || 'No se pudo enviar la prueba.');
       }
       return;
@@ -21979,17 +22174,24 @@ function setupInterpreter() {
       conversation.innerHTML = '<div class="interpreter-empty"><span aria-hidden="true">🎧</span><p>Elige el botón del idioma que va a hablar para comenzar.</p></div>';
       return;
     }
+    // Newest consultation first: the active exchange remains immediately
+    // visible at the top, while earlier turns stay available below it.
     conversation.innerHTML = turns
+      .slice()
+      .reverse()
       .map(
-        (turn, index) => `<article class="interpreter-turn interpreter-turn--${turn.side}">
+        (turn, reverseIndex) => {
+          const index = turns.length - 1 - reverseIndex;
+          return `<article class="interpreter-turn interpreter-turn--${turn.side}">
           <div class="interpreter-turn-head"><span>${escapeHtml(languageLabel(turn.sourceLanguage))}</span><span>→ ${escapeHtml(languageLabel(turn.targetLanguage))}</span></div>
           <p class="interpreter-turn-original">${escapeHtml(turn.original)}</p>
           <p class="interpreter-turn-translation">${escapeHtml(turn.translation)}</p>
           <div class="interpreter-turn-footer"><button type="button" class="secondary-btn interpreter-turn-repeat" data-interpreter-repeat="${index}" aria-label="Repetir la pronunciación en ${escapeHtml(languageLabel(turn.targetLanguage))}">🔊 Repetir</button></div>
-        </article>`
+        </article>`;
+        }
       )
       .join('');
-    conversation.scrollTop = conversation.scrollHeight;
+    conversation.scrollTop = 0;
   };
 
   const stop = () => {
