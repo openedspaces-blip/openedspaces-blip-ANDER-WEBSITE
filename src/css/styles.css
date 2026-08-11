@@ -26798,6 +26798,8 @@ body {
 /* Homepage hierarchy: language routes are the primary functional choices;
    benefits are supporting proof points and intentionally quieter. */
 .hero-language-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   max-width: 690px;
   gap: 0.8rem;
   margin: -0.65rem 0 1.15rem;
@@ -26873,6 +26875,23 @@ body {
 .hero-language-tabs button:focus-visible i {
   transform: translateX(3px);
 }
+
+.hero-language-tabs button[data-preview-language='italian'] {
+  --language-tab-accent: #16a34a;
+  --language-tab-border: rgba(22, 163, 74, 0.2);
+  --language-tab-bg: linear-gradient(135deg, rgba(240, 253, 244, 0.96), rgba(255, 255, 255, 0.82));
+  --language-tab-shadow: rgba(22, 163, 74, 0.14);
+}
+
+.hero-language-tabs button[data-preview-language='portuguese'] {
+  --language-tab-accent: #0f9f8f;
+  --language-tab-border: rgba(15, 159, 143, 0.2);
+  --language-tab-bg: linear-gradient(135deg, rgba(240, 253, 250, 0.96), rgba(255, 255, 255, 0.82));
+  --language-tab-shadow: rgba(15, 159, 143, 0.14);
+}
+
+.hero-language-tabs button[data-preview-language='italian'] b { background: #16a34a; }
+.hero-language-tabs button[data-preview-language='portuguese'] b { background: #0f9f8f; }
 
 .hero .quick-stats {
   max-width: 690px;

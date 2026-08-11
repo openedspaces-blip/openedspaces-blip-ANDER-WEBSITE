@@ -419,6 +419,15 @@ test('single-view router sections exist for every nav destination', () => {
     assert.match(html, new RegExp(`id="${id}"`), `expected a section with id="${id}"`);
   }
   assert.match(html, /class="hero-language-tabs"/);
+  for (const [language, label] of [
+    ['english', 'English'],
+    ['french', 'Français'],
+    ['spanish', 'Español'],
+    ['italian', 'Italiano'],
+    ['portuguese', 'Português']
+  ]) {
+    assert.match(html, new RegExp(`data-preview-language="${language}"[\\s\\S]*?<strong>${label}<\\/strong>`));
+  }
   assert.match(html, /class="nav-group nav-group-visitor"/);
   assert.match(html, /class="nav-group nav-group-member"/);
 });

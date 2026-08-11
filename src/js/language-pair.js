@@ -32,14 +32,11 @@
 })(typeof self !== 'undefined' ? self : this, function () {
   const SUPPORTED_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'portuguese', 'german'];
 
-  // Fully authored (not machine-translated) for english/spanish/french - the
-  // three languages that currently have real A1 course content (English A1,
-  // Français A1, Español A1) and are the only ones selectable as a bridge or
-  // target language in the UI today (see #pathBridgeSelect/#pathLanguageSelect
-  // in index.html). italian/german rows exist so languageNameIn() never
-  // returns a raw key for them, but have no dedicated INTERFACE_LABELS/
-  // PAIR_SENTENCE entry yet - callers fall back to Spanish for those, same as
-  // any other not-yet-supported bridge language.
+  // The platform interface is fully authored for english/spanish/french.
+  // Italian and Brazilian Portuguese are also available as target languages
+  // through the Spanish interface for their authored A1-A2 routes. They are
+  // not bridge/interface languages yet, so they intentionally have no
+  // dedicated INTERFACE_LABELS/PAIR_SENTENCE entry.
   //
   // LANGUAGE_NAME_IN[interfaceLanguage][languageKey] = how `languageKey`'s
   // name is written for a reader whose interface language is
@@ -589,13 +586,10 @@
   // Central list of bridge->target combinations with real course content and
   // a fully-authored interface (see the INTERFACE_LABELS/PAIR_SENTENCE scope
   // note above) - the single place that decides which pairs are selectable.
-  // Deliberately narrower than SUPPORTED_LANGUAGES: italian/german have
-  // language-name entries (so languageNameIn never returns a raw key) but no
-  // course content or interface copy yet, so they're left out of this list
-  // rather than offered as a pair that silently falls back to Spanish
-  // content/interface. Add a row here (plus the matching INTERFACE_LABELS/
-  // PAIR_SENTENCE entries) when a new pair gets real content - nowhere else
-  // in the codebase should hardcode this combination list.
+  // Deliberately narrower than SUPPORTED_LANGUAGES: Italian and Portuguese
+  // currently enter through the authored Spanish interface, while German is
+  // withheld until it has real course content. New target routes are enabled
+  // here only after their content is ready.
   //
   // Same-language rows (english-english/spanish-spanish/french-french) are
   // the direct/immersion learning mode (spec §3): L1 === L2, definitions and
@@ -606,6 +600,8 @@
     { bridge: 'spanish', target: 'english' },
     { bridge: 'english', target: 'spanish' },
     { bridge: 'spanish', target: 'french' },
+    { bridge: 'spanish', target: 'italian' },
+    { bridge: 'spanish', target: 'portuguese' },
     { bridge: 'french', target: 'spanish' },
     { bridge: 'french', target: 'english' },
     { bridge: 'english', target: 'french' }

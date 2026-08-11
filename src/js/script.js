@@ -19066,13 +19066,16 @@ function handleHomeAction(action) {
   };
   const openLanguageRoute = async (language) => {
     if (language) {
+      const routeLevel = ['italian', 'portuguese'].includes(language)
+        ? 'A1'
+        : learningPathState.level;
       if (
         language === learningPathState.bridgeLanguage &&
         learningPathState.language !== learningPathState.bridgeLanguage
       ) {
         swapLearningPathLanguages();
       } else {
-        setTargetLanguage(language);
+        setTargetLanguage(language, { level: routeLevel });
       }
       void suggestNativeLanguage();
     }
@@ -19146,6 +19149,14 @@ function handleHomeAction(action) {
     case 'explore-espanol':
       void openLanguageRoute('spanish');
       showHomeToast('Español seleccionado. Explora su ruta y elige tu nivel.');
+      break;
+    case 'explore-italiano':
+      void openLanguageRoute('italian');
+      showHomeToast('Italiano seleccionado. Explora su ruta A1–A2.');
+      break;
+    case 'explore-portugues':
+      void openLanguageRoute('portuguese');
+      showHomeToast('Português seleccionado. Explora su ruta A1–A2.');
       break;
     default:
       break;
