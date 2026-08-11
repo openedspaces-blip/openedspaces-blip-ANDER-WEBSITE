@@ -20799,6 +20799,7 @@ footer small {
    large, thousand-verb catalogue. */
 .verb-catalogue-list {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0;
   overflow: hidden;
   border: 1px solid rgba(37, 99, 235, 0.17);
@@ -20808,17 +20809,17 @@ footer small {
 
 .verb-catalogue-row {
   display: grid;
-  grid-template-columns: 3.25rem minmax(10rem, 1fr) minmax(12rem, 1.1fr) minmax(10rem, 1fr) auto;
+  grid-template-columns: 2.6rem minmax(0, 1fr);
   align-items: center;
-  gap: 1rem;
-  min-height: 74px;
-  padding: 0.75rem 1rem;
+  gap: 0.4rem 0.7rem;
+  min-height: 88px;
+  padding: 0.7rem 0.85rem;
   border-bottom: 1px solid rgba(37, 99, 235, 0.1);
   background: rgba(255, 255, 255, 0.72);
 }
 
-.verb-catalogue-row:last-child {
-  border-bottom: 0;
+.verb-catalogue-row:nth-child(odd) {
+  border-right: 1px solid rgba(37, 99, 235, 0.1);
 }
 
 .verb-catalogue-row:hover {
@@ -20853,6 +20854,7 @@ footer small {
 
 .verb-catalogue-cell {
   display: grid;
+  grid-column: 2;
   min-width: 0;
   gap: 0.18rem;
 }
@@ -20873,41 +20875,61 @@ footer small {
   text-transform: uppercase;
 }
 
-.verb-catalogue-pronunciation {
+.verb-catalogue-primary {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   column-gap: 0.45rem;
 }
 
-.verb-catalogue-pronunciation .verb-catalogue-label {
+.verb-catalogue-primary .verb-catalogue-label {
   width: 100%;
 }
 
-.verb-catalogue-pronunciation .verb-tile-audio-btn {
-  width: 1.85rem;
-  height: 1.85rem;
-  min-width: 1.85rem;
+.verb-catalogue-word {
+  width: fit-content;
+  max-width: 100%;
   padding: 0;
-  border: 1px solid rgba(37, 99, 235, 0.18);
-  border-radius: 50%;
-  background: #fff;
+  border: 0;
+  border-bottom: 1px dashed rgba(37, 99, 235, 0.48);
+  background: transparent;
+  color: var(--navy-2);
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 850;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.verb-catalogue-word:hover,
+.verb-catalogue-word:focus-visible {
+  color: var(--blue);
+  border-bottom-style: solid;
+  outline: none;
+}
+
+.verb-catalogue-hint {
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 700;
 }
 
 @media (max-width: 760px) {
+  .verb-catalogue-list {
+    grid-template-columns: 1fr;
+  }
+
   .verb-catalogue-row {
-    grid-template-columns: 2.2rem minmax(0, 1fr) minmax(0, 1fr) auto;
+    grid-template-columns: 2.2rem minmax(0, 1fr);
     gap: 0.65rem;
     padding: 0.7rem;
   }
 
-  .verb-catalogue-pronunciation {
-    grid-column: 2 / -1;
-  }
-
-  .verb-catalogue-conjugate {
-    grid-column: 4;
-    grid-row: 1;
+  .verb-catalogue-row:nth-child(odd) {
+    border-right: 0;
   }
 }
 
@@ -20915,16 +20937,6 @@ footer small {
   .verb-catalogue-row {
     grid-template-columns: 1.8rem minmax(0, 1fr);
     gap: 0.45rem 0.65rem;
-  }
-
-  .verb-catalogue-row > .verb-catalogue-cell {
-    grid-column: 2;
-  }
-
-  .verb-catalogue-conjugate {
-    grid-column: 2;
-    grid-row: auto;
-    justify-self: start;
   }
 
   .verb-catalogue-cell strong {

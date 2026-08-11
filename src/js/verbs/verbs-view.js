@@ -306,37 +306,30 @@
   };
 
   // The catalogue is intentionally a scan-first list, not a collection of
-  // flash cards. Each row keeps just the L1 verb, its L2 equivalent and the
-  // L2 pronunciation/audio, so students can move through a long catalogue
+  // flash cards. Each row leads with the L2 verb, then keeps its
+  // pronunciation/audio beside it and the L1 translation underneath, so
+  // students can move through a long catalogue
   // without an action panel repeated one thousand times.
   function renderVerbTileHtml(item, raw, { canSpeak }) {
     const supportText = item.learningMode === 'direct' ? item.simpleDefinition : item.translation;
     const sourceVerb = supportText || item.targetWord;
     const targetLabel = VERB_LANGUAGE_LABEL[item.targetLanguage] || item.targetLanguage || 'L2';
-    const pronunciationText = item.phonetic || (canSpeak ? 'Escuchar' : 'Audio no disponible');
-    const audioBtnHtml = canSpeak
-      ? `<button type="button" class="vocab-example-audio-btn verb-tile-audio-btn" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Escuchar ${escapeHtml(item.targetWord)}" title="Escuchar">🔊</button>`
-      : '';
+    const targetVerbHtml = canSpeak
+      ? `<button type="button" class="vocab-example-audio-btn verb-tile-audio-btn verb-catalogue-word" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Escuchar la pronunciación de ${escapeHtml(item.targetWord)}" title="Toca para escuchar la pronunciación">${escapeHtml(item.targetWord)}</button>`
+      : `<strong>${escapeHtml(item.targetWord)}</strong>`;
 
     return `
       <article class="verb-catalogue-row" data-verb-id="${escapeHtml(item.id)}">
         <span class="verb-catalogue-rank">${item.frequencyRank}</span>
+        <div class="verb-catalogue-cell verb-catalogue-primary">
+          <span class="verb-catalogue-label">Verbo · ${escapeHtml(targetLabel)} (L2)</span>
+          ${targetVerbHtml}
+          ${canSpeak ? '<span class="verb-catalogue-hint">Toca el verbo para escuchar</span>' : ''}
+        </div>
         <div class="verb-catalogue-cell">
-          <span class="verb-catalogue-label">Verbo (L1)</span>
+          <span class="verb-catalogue-label">Traducción · L1</span>
           <strong>${escapeHtml(sourceVerb)}</strong>
         </div>
-        <div class="verb-catalogue-cell verb-catalogue-pronunciation">
-          <span class="verb-catalogue-label">Pronunciación</span>
-          <span class="verb-list-pron${item.phonetic ? '' : ' verb-list-pron--audio'}">${escapeHtml(pronunciationText)}</span>
-          ${audioBtnHtml}
-        </div>
-        <div class="verb-catalogue-cell">
-          <span class="verb-catalogue-label">Traducción al L2 · ${escapeHtml(targetLabel)}</span>
-          <strong>${escapeHtml(item.targetWord)}</strong>
-        </div>
-        <button type="button" class="verb-catalogue-conjugate verb-open-detail-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Ver la conjugación de ${escapeHtml(item.targetWord)}">
-          Conjugación <span aria-hidden="true">→</span>
-        </button>
       </article>`;
   }
 
