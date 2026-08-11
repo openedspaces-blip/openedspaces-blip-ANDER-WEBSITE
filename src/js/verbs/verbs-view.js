@@ -334,6 +334,9 @@
           <span class="verb-catalogue-label">Traducción al L2 · ${escapeHtml(targetLabel)}</span>
           <strong>${escapeHtml(item.targetWord)}</strong>
         </div>
+        <button type="button" class="verb-catalogue-conjugate verb-open-detail-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Ver la conjugación de ${escapeHtml(item.targetWord)}">
+          Conjugación <span aria-hidden="true">→</span>
+        </button>
       </article>`;
   }
 

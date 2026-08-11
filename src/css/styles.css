@@ -20838,7 +20838,7 @@ footer small {
 
 .verb-catalogue-row {
   display: grid;
-  grid-template-columns: 3.25rem minmax(10rem, 1fr) minmax(12rem, 1.1fr) minmax(10rem, 1fr);
+  grid-template-columns: 3.25rem minmax(10rem, 1fr) minmax(12rem, 1.1fr) minmax(10rem, 1fr) auto;
   align-items: center;
   gap: 1rem;
   min-height: 74px;
@@ -20853,6 +20853,25 @@ footer small {
 
 .verb-catalogue-row:hover {
   background: #f7faff;
+}
+
+.verb-catalogue-conjugate {
+  align-self: center;
+  padding: 0.56rem 0.7rem;
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  border-radius: 10px;
+  background: #eef5ff;
+  color: #1d4ed8;
+  font-size: 0.78rem;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+.verb-catalogue-conjugate:hover,
+.verb-catalogue-conjugate:focus-visible {
+  border-color: #2563eb;
+  background: #2563eb;
+  color: #fff;
 }
 
 .verb-catalogue-rank {
@@ -20907,13 +20926,18 @@ footer small {
 
 @media (max-width: 760px) {
   .verb-catalogue-row {
-    grid-template-columns: 2.2rem minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: 2.2rem minmax(0, 1fr) minmax(0, 1fr) auto;
     gap: 0.65rem;
     padding: 0.7rem;
   }
 
   .verb-catalogue-pronunciation {
     grid-column: 2 / -1;
+  }
+
+  .verb-catalogue-conjugate {
+    grid-column: 4;
+    grid-row: 1;
   }
 }
 
@@ -20925,6 +20949,12 @@ footer small {
 
   .verb-catalogue-row > .verb-catalogue-cell {
     grid-column: 2;
+  }
+
+  .verb-catalogue-conjugate {
+    grid-column: 2;
+    grid-row: auto;
+    justify-self: start;
   }
 
   .verb-catalogue-cell strong {
