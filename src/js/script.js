@@ -6350,7 +6350,6 @@ function requestTutorSpeech(messageEl, { auto = false, onPlaybackEnd } = {}) {
     messageEl.classList.remove('is-playing', 'is-tts-paused');
     if (currentTutorAudio.messageEl === messageEl) currentTutorAudio = { element: null, messageEl: null };
     if (onPlaybackEnd) onPlaybackEnd();
-    else if (tutorReplyEndsWithQuestion(text)) activateTutorMicAfterQuestion(messageEl);
     resetTutorVoiceButtons(messageEl);
     // Spec §6: "al terminar, eliminar resaltado después de una transición
     // breve; conservar el texto completo". The word spans (and their full
@@ -16242,7 +16241,13 @@ async function sendTutorMessage({
     // gets rejected (see the `data.limited` branch above), not here.
     if (tutorQueryUsage) renderTutorUsageCounter(tutorQueryUsage);
 
-    if (streamError && !fullText) throw new Error(streamError);
+    // A failed stream can leave a few initial words in the bubble. They are
+    // not a real answer (and often end mid-sentence), so never present them
+    // as one: remove the partial bubble and show the retry message instead.
+    if (streamError) {
+      messageEl?.remove();
+      throw new Error(streamError);
+    }
 
     if (topicState && completedReply.trim()) {
       topicState.session.turns.push(
@@ -16274,8 +16279,7 @@ async function sendTutorMessage({
     );
     const shouldForceSpeech =
       !!conversationSurface && tutorConversationMode && tutorConversationSurfaceKey === conversationSurface.key;
-    const shouldSpeakOnMobile = isMobileVoiceDevice();
-    if (messageEl && (sentByVoice || shouldSpeakOnMobile) && messageEl.querySelector('.tutor-voice-controls')) {
+    if (messageEl && shouldForceSpeech && messageEl.querySelector('.tutor-voice-controls')) {
       requestTutorSpeech(messageEl, {
         auto: true,
         onPlaybackEnd: shouldForceSpeech ? resumeTutorConversationListening : undefined
@@ -19180,18 +19184,9 @@ function enableHomepageActions() {
     const dictateBtn = event.target.closest('.tutor-dictate-btn');
     if (dictateBtn) {
       const target = dictateBtn.dataset.dictateTarget;
-      // Every mic use on the Tutor (drawer or in-page) detects a short
-      // natural pause and then sends automatically - not
-      // only the Premium hands-free "Conversar" mode. What's still
-      // Premium-only is resumeTutorConversationListening auto-re-arming the
-      // mic after the tutor's reply finishes (see sendTutorMessage's
-      // shouldForceSpeech) - a single recording auto-sending on silence is
-      // not that.
-      startTutorDictation(target, {
-        continuous: true,
-        silenceMs: TUTOR_CONVERSATION_SILENCE_MS,
-        autoSend: true
-      });
+      // Dictation only fills the text box. The learner reviews it and sends
+      // it explicitly, preventing accidental Tutor requests and token use.
+      startTutorDictation(target);
       return;
     }
     const dictateStopBtn = event.target.closest('.tutor-dictate-stop-btn');
@@ -20730,20 +20725,6 @@ function enableHomepageActions() {
     });
   });
 
-  document.getElementById('tutorConversationToggle')?.addEventListener('click', () => {
-    handleTutorConversationToggleClick('drawer');
-  });
-  document.getElementById('tutorMainConversationToggle')?.addEventListener('click', () => {
-    const enabling = !(tutorConversationMode && tutorConversationSurfaceKey === 'main');
-    handleTutorConversationToggleClick('main');
-    if (enabling) {
-      startTutorDictation('aiTutorPrompt', {
-        continuous: true,
-        silenceMs: TUTOR_CONVERSATION_SILENCE_MS,
-        autoSend: true
-      });
-    }
-  });
   document.getElementById('tutorMainVoiceStop')?.addEventListener('click', stopTutorMainConversation);
   document.querySelectorAll('[data-tutor-language]').forEach((button) => {
     button.addEventListener('click', () => setTutorLanguage(button.dataset.tutorLanguage));

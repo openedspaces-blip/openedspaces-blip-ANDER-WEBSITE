@@ -1260,13 +1260,12 @@
               <div class="tutor-avatar-controls" aria-label="Controles de voz del Tutor">
                 <button
                   type="button"
-                  class="tutor-conversation-toggle tutor-conversation-composer-btn"
+                  class="tutor-dictate-btn tutor-conversation-composer-btn"
                   id="tutorMainConversationToggle"
-                  aria-label="Conversar con el Tutor"
-                  aria-pressed="false"
+                  data-dictate-target="aiTutorPrompt"
+                  aria-label="Dictar un mensaje para el Tutor"
                 >
-                  <span aria-hidden="true">🎙</span> <span class="tutor-avatar-control-label">Conversar</span>
-                  <span class="tutor-conversation-toggle-badge">30/mes</span>
+                  <span aria-hidden="true">🎙</span> <span class="tutor-avatar-control-label">Hablar</span>
                 </button>
                 <button type="button" class="tutor-main-stop-btn" id="tutorMainVoiceStop" title="Detener conversación y audio">
                   <span aria-hidden="true">⏹</span> <span class="tutor-avatar-control-label">Detener</span>
@@ -2417,15 +2416,6 @@
               <small><i aria-hidden="true"></i>Listo para practicar</small>
             </div>
           </div>
-          <button
-            type="button"
-            class="tutor-conversation-toggle"
-            id="tutorConversationToggle"
-            aria-pressed="false"
-            title="Conversar por voz con cupo mensual"
-          >
-            🎧 Conversar <span class="tutor-conversation-toggle-badge">30/500 al mes</span>
-          </button>
           <label class="tutor-autoplay-toggle" title="Las respuestas habladas se leen automáticamente" hidden>
             <input
               type="checkbox"
