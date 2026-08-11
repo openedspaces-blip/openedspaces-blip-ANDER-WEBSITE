@@ -16267,7 +16267,10 @@ async function sendTutorMessage({
     );
     const shouldForceSpeech =
       !!conversationSurface && tutorConversationMode && tutorConversationSurfaceKey === conversationSurface.key;
-    if (messageEl && shouldForceSpeech && messageEl.querySelector('.tutor-voice-controls')) {
+    // A single spoken question is sent automatically and its completed reply
+    // is read aloud once. Unlike the old hands-free mode, this never starts
+    // the microphone again after the reply.
+    if (messageEl && (sentByVoice || shouldForceSpeech) && messageEl.querySelector('.tutor-voice-controls')) {
       requestTutorSpeech(messageEl, {
         auto: true,
         onPlaybackEnd: shouldForceSpeech ? resumeTutorConversationListening : undefined
@@ -19173,9 +19176,10 @@ function enableHomepageActions() {
     const dictateBtn = event.target.closest('.tutor-dictate-btn');
     if (dictateBtn) {
       const target = dictateBtn.dataset.dictateTarget;
-      // Dictation only fills the text box. The learner reviews it and sends
-      // it explicitly, preventing accidental Tutor requests and token use.
-      startTutorDictation(target);
+      // One spoken turn is sent once the browser finishes transcribing it.
+      // This is not hands-free: the microphone stops after that turn and
+      // never re-arms itself after the Tutor responds.
+      startTutorDictation(target, { autoSend: true });
       return;
     }
     const dictateStopBtn = event.target.closest('.tutor-dictate-stop-btn');
