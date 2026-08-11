@@ -23887,6 +23887,7 @@ body {
 .tests-question { margin: 0; padding: 1rem; border: 1px solid #dbe7fa; border-radius: 17px; background: #fbfdff; }
 .tests-question legend { display: flex; align-items: center; gap: 0.5rem; padding: 0 0.35rem; color: var(--navy-2); font-weight: 800; }
 .tests-question legend > span { display: grid; width: 28px; height: 28px; place-items: center; border-radius: 50%; background: #eaf2ff; color: var(--blue); font-size: 0.75rem; }
+.tests-question-area { padding: 0.18rem 0.42rem; border-radius: 999px; background: #eef5ff; color: var(--blue); font-size: 0.62rem; font-weight: 850; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
 .tests-challenge-map { display: flex; align-items: center; flex-wrap: wrap; gap: 0.42rem; padding: 0.65rem 0.75rem; border: 1px solid #dbeafe; border-radius: 15px; background: #f7fbff; }
 .tests-challenge-map-item { display: grid; width: 31px; height: 31px; place-items: center; padding: 0; border: 1px solid #cfe0fb; border-radius: 50%; background: #fff; color: var(--blue); font: inherit; font-size: 0.76rem; font-weight: 850; cursor: pointer; transition: transform 160ms ease, background 160ms ease, border-color 160ms ease; }
 .tests-challenge-map-item:hover, .tests-challenge-map-item:focus-visible { border-color: var(--blue); background: #eaf2ff; outline: none; transform: translateY(-2px); }
@@ -23895,6 +23896,7 @@ body {
 .tests-question > div { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; margin-top: 0.7rem; }
 .tests-question label { cursor: pointer; }
 .tests-question label > .tests-option-content { display: flex; align-items: center; gap: 0.55rem; min-height: 44px; padding: 0.68rem 0.75rem; border: 1px solid #d9e5f8; border-radius: 12px; background: #fff; font-size: 0.85rem; }
+.tests-question--advanced label > .tests-option-content { align-items: flex-start; min-height: 94px; }
 .tests-question .tests-option-letter { flex: 0 0 auto; color: var(--blue); font-weight: 800; text-transform: lowercase; }
 .tests-question .tests-option-text { min-width: 0; }
 .tests-question input { position: absolute; opacity: 0; }

@@ -458,9 +458,9 @@ function buildGrammarExercises(topic) {
     const answer = (index + 1) % 4;
     const correct = `It ${topic.purpose}; the resulting revision is: "${target}"`;
     const options = [
-      'It makes the sentence informal and removes the original claim.',
-      'It changes the evidence into a certainty that the source did not express.',
-      'It shortens the sentence but leaves the grammatical relationship unclear.'
+      `It makes the claim categorical and removes the qualification in: "${target}"`,
+      `It turns the available evidence into certainty that the source did not express: "${target}"`,
+      `It keeps the topic but leaves the required grammatical relationship unclear in: "${target}"`
     ];
     options.splice(answer, 0, correct);
     return q(

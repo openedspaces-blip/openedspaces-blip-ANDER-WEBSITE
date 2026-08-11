@@ -280,9 +280,9 @@ function grammarExercises(topic) {
     const applicationItems = contextualExamples.map((correct, index) => {
       const answer = index % 4;
       const options = [
-        'The evidence proving every conclusion without no limitation.',
-        'Because the issue complex, therefore the result definitely.',
-        'The claim is true by words which they was used.'
+        'Even though the evidence is limited, it fixes development as a universal deadline.',
+        'While the issue is complex, it treats one result as definitively conclusive.',
+        'Although the claim needs support, it assumes every learner follows the same path.'
       ];
       options.splice(answer, 0, correct);
       return q(
@@ -295,9 +295,9 @@ function grammarExercises(topic) {
     const analysisItems = contextualExamples.map((example, index) => {
       const answer = (index + 1) % 4;
       const options = [
-        'It removes the evidence and replaces it with an absolute claim.',
-        'It relies on informal wording instead of a grammatical relationship.',
-        'It changes the topic without clarifying form, scope or agency.'
+        `It treats “${example}” as proof that every learner follows the same fixed developmental path.`,
+        `It uses “${example}” to replace a qualified comparison with an absolute conclusion.`,
+        `It presents “${example}” as stylistic contrast without preserving the claim’s scope or limitation.`
       ];
       options.splice(answer, 0, `It uses ${name} to ${purpose}: “${example}”`);
       return q(
