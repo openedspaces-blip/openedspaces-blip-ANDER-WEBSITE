@@ -225,16 +225,12 @@ function missingPaddlePublicConfiguration(billing) {
 
 function updatePaddleCheckoutAvailability(billing) {
   const missing = missingPaddlePublicConfiguration(billing);
-  const status = document.querySelector('[data-paddle-status]');
   document.querySelectorAll('.paddle-checkout-btn').forEach((button) => {
     button.disabled = missing.length > 0;
     button.setAttribute('aria-disabled', String(missing.length > 0));
   });
   if (missing.length) {
     console.error(`[paddle-config] Missing public variables: ${missing.join(', ')}`);
-    if (status) status.textContent = PADDLE_MAINTENANCE_MESSAGE;
-  } else if (status?.textContent === PADDLE_MAINTENANCE_MESSAGE) {
-    status.textContent = '';
   }
   return missing;
 }
@@ -547,29 +543,11 @@ window.AndergoBillingContext = {
 };
 
 let paypalBillingConfig = null;
+let azulBillingConfig = null;
 
-function setPayPalStatus(message = '') {
-  const status = document.querySelector('[data-paypal-status]');
+function setPaymentStatus(message = '') {
+  const status = document.querySelector('[data-payment-status]');
   if (status) status.textContent = message;
-}
-
-function loadPayPalSdk(clientId) {
-  if (window.paypal) return Promise.resolve(window.paypal);
-  return new Promise((resolve, reject) => {
-    const existing = document.querySelector('script[data-andergo-paypal]');
-    if (existing) {
-      existing.addEventListener('load', () => resolve(window.paypal), { once: true });
-      existing.addEventListener('error', () => reject(new Error('No se pudo cargar PayPal.')), { once: true });
-      return;
-    }
-    const script = document.createElement('script');
-    script.src = `https://www.paypal.com/sdk/js?client-id=${encodeURIComponent(clientId)}&vault=true&intent=subscription&currency=USD`;
-    script.async = true;
-    script.dataset.andergoPaypal = 'true';
-    script.addEventListener('load', () => resolve(window.paypal), { once: true });
-    script.addEventListener('error', () => reject(new Error('No se pudo cargar PayPal.')), { once: true });
-    document.head.appendChild(script);
-  });
 }
 
 async function activatePayPalSubscription(subscriptionId) {
@@ -583,53 +561,27 @@ async function activatePayPalSubscription(subscriptionId) {
   await loadCurrentSubscription({ attempts: 4, delayMs: 1200 });
 }
 
-async function initializePayPalFallback() {
-  const section = document.querySelector('[data-paypal-fallback]');
-  if (!section) return;
+async function loadAvailablePaymentProviders() {
   try {
-    const response = await fetch('/api/billing/paypal/config', { headers: { Accept: 'application/json' } });
-    paypalBillingConfig = await response.json();
-    if (!response.ok || !paypalBillingConfig?.configured) return;
-    const paypal = await loadPayPalSdk(paypalBillingConfig.clientId);
-    for (const billingCycle of ['monthly', 'quarterly']) {
-      const container = section.querySelector(`[data-paypal-button="${billingCycle}"]`);
-      const planId = paypalBillingConfig.plans?.[billingCycle];
-      if (!container || !planId) continue;
-      paypal
-        .Buttons({
-          style: { layout: 'vertical', label: 'subscribe', shape: 'rect' },
-          onClick() {
-            const customer = window.AndergoBillingContext.getCustomer();
-            if (customer.signedIn) return true;
-            window.AndergoBillingContext.requestSignIn();
-            return false;
-          },
-          createSubscription(_data, actions) {
-            const customer = window.AndergoBillingContext.getCustomer();
-            return actions.subscription.create({ plan_id: planId, custom_id: customer.id });
-          },
-          async onApprove(data) {
-            setPayPalStatus('Confirmando tu suscripción Premium…');
-            try {
-              await activatePayPalSubscription(data.subscriptionID);
-              setPayPalStatus('Premium está activo. ¡Bienvenido a ANDERGO!');
-            } catch (error) {
-              setPayPalStatus(error.message || 'No se pudo confirmar la suscripción con PayPal.');
-            }
-          },
-          onError() {
-            setPayPalStatus('PayPal no pudo completar el proceso. Inténtalo de nuevo.');
-          }
-        })
-        .render(container);
+    const [paypalResponse, azulResponse] = await Promise.all([
+      fetch('/api/billing/paypal/config', { headers: { Accept: 'application/json' } }),
+      fetch('/api/billing/azul/config', { headers: { Accept: 'application/json' } })
+    ]);
+    paypalBillingConfig = await paypalResponse.json().catch(() => ({}));
+    azulBillingConfig = await azulResponse.json().catch(() => ({}));
+    if (paypalBillingConfig?.configured || azulBillingConfig?.configured) {
+      document.querySelectorAll('.paddle-checkout-btn').forEach((button) => {
+        button.disabled = false;
+        button.setAttribute('aria-disabled', 'false');
+      });
+      setPaymentStatus('');
     }
-    section.hidden = false;
   } catch (error) {
-    console.error('[paypal-fallback]', error);
+    console.error('[payment-providers]', error);
   }
 }
 
-void initializePayPalFallback();
+void loadAvailablePaymentProviders();
 
 function submitHostedPayment(action, fields) {
   const form = document.createElement('form');
@@ -646,43 +598,79 @@ function submitHostedPayment(action, fields) {
   form.submit();
 }
 
-async function initializeAzulCheckout() {
-  const section = document.querySelector('[data-azul-checkout]');
-  if (!section) return;
-  const response = await fetch('/api/billing/azul/config', { headers: { Accept: 'application/json' } });
-  const azul = await response.json().catch(() => ({}));
-  if (!response.ok || !azul.configured) return;
-  section.hidden = false;
-  section.querySelectorAll('[data-azul-cycle]').forEach((button) => {
-    button.addEventListener('click', async () => {
-      const customer = window.AndergoBillingContext.getCustomer();
-      if (!customer.signedIn) return window.AndergoBillingContext.requestSignIn();
-      const status = section.querySelector('[data-azul-status]');
-      button.disabled = true;
-      if (status) status.textContent = 'Preparando el pago seguro con Azul…';
-      try {
-        const checkoutResponse = await window.AndergoBillingContext.authFetch('/api/billing/azul/checkout', {
-          method: 'POST', headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ billingCycle: button.dataset.azulCycle })
-        });
-        const checkout = await checkoutResponse.json().catch(() => ({}));
-        if (!checkoutResponse.ok || !checkout.action || !checkout.fields) {
-          throw new Error(checkout.error || 'No se pudo preparar el pago con Azul.');
-        }
-        submitHostedPayment(checkout.action, checkout.fields);
-      } catch (error) {
-        button.disabled = false;
-        if (status) status.textContent = error.message || 'No se pudo abrir Azul.';
-      }
-    });
+async function openPayPalCheckout(billingCycle) {
+  const response = await window.AndergoBillingContext.authFetch('/api/billing/paypal/checkout', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ billingCycle })
   });
+  const checkout = await response.json().catch(() => ({}));
+  if (!response.ok || !checkout.approvalUrl) {
+    throw new Error(checkout.error || 'No se pudo preparar el pago con PayPal.');
+  }
+  window.location.assign(checkout.approvalUrl);
 }
 
-void initializeAzulCheckout();
+async function openAzulCheckout(billingCycle) {
+  const response = await window.AndergoBillingContext.authFetch('/api/billing/azul/checkout', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ billingCycle })
+  });
+  const checkout = await response.json().catch(() => ({}));
+  if (!response.ok || !checkout.action || !checkout.fields) {
+    throw new Error(checkout.error || 'No se pudo preparar el pago con Azul.');
+  }
+  submitHostedPayment(checkout.action, checkout.fields);
+}
+
+async function openPremiumPayment(billingCycle, button) {
+  const customer = window.AndergoBillingContext.getCustomer();
+  if (!customer.signedIn) return window.AndergoBillingContext.requestSignIn();
+  const originalText = button?.innerHTML;
+  if (button) {
+    button.disabled = true;
+    button.textContent = 'Abriendo pago seguro…';
+  }
+  setPaymentStatus('');
+  try {
+    if (!paypalBillingConfig || !azulBillingConfig) await loadAvailablePaymentProviders();
+    if (paypalBillingConfig?.configured) return await openPayPalCheckout(billingCycle);
+    if (azulBillingConfig?.configured) return await openAzulCheckout(billingCycle);
+    return await openPaddleCheckout(billingCycle, button);
+  } catch (error) {
+    setPaymentStatus(error.message || 'No se pudo abrir el pago seguro.');
+  } finally {
+    if (button) {
+      button.disabled = false;
+      button.innerHTML = originalText;
+    }
+  }
+}
 
 const paymentResult = new URLSearchParams(window.location.search).get('payment');
-if (paymentResult === 'approved') {
-  window.setTimeout(() => loadCurrentSubscription({ attempts: 3, delayMs: 800 }), 300);
+const paymentProvider = new URLSearchParams(window.location.search).get('provider');
+const returnedPayPalSubscriptionId =
+  new URLSearchParams(window.location.search).get('subscription_id') ||
+  new URLSearchParams(window.location.search).get('ba_token');
+
+async function processPaymentReturn() {
+  if (paymentResult === 'cancelled') {
+    setPaymentStatus('El pago fue cancelado. No se realizó ningún cargo.');
+    return;
+  }
+  if (paymentResult !== 'approved') return;
+  try {
+    if (paymentProvider === 'paypal' && returnedPayPalSubscriptionId) {
+      setPaymentStatus('Confirmando tu suscripción Premium…');
+      await activatePayPalSubscription(returnedPayPalSubscriptionId);
+    } else {
+      await loadCurrentSubscription({ attempts: 3, delayMs: 800 });
+    }
+    setPaymentStatus('Premium está activo. ¡Bienvenido a ANDERGO!');
+  } catch (error) {
+    setPaymentStatus(error.message || 'No se pudo confirmar la suscripción.');
+  }
 }
 
 // Exercise checks are saved to the learner's progress, so a guest needs a
@@ -16848,6 +16836,7 @@ async function completeActiveLesson() {
 refreshLanguagePairChrome();
 attachAuthHandlers();
 restoreSession();
+void processPaymentReturn();
 
 authTriggers.forEach((trigger) => {
   trigger.addEventListener('click', (event) => {
@@ -19138,7 +19127,7 @@ function handleHomeAction(action) {
 function enableHomepageActions() {
   document.querySelectorAll('.paddle-checkout-btn').forEach((button) => {
     button.addEventListener('click', () => {
-      openPaddleCheckout(button.dataset.billingCycle || 'monthly', button);
+      openPremiumPayment(button.dataset.billingCycle || 'monthly', button);
     });
   });
 
