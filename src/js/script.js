@@ -16480,6 +16480,9 @@ function ensureLanguageWorld(language) {
 
 function getLocalFallbackLessons(language, level) {
   const lessons = window.ANDERGO_LANGUAGE_WORLDS?.lessons?.[language] || [];
+  const courseUnits = (window.ANDERGO_LANGUAGE_WORLDS?.units?.[language] || []).filter(
+    (unit) => unit.level === level
+  );
   const unitOrderById = new Map(
     (window.ANDERGO_LANGUAGE_WORLDS?.units?.[language] || [])
       .filter((unit) => unit.level === level)
@@ -16491,7 +16494,10 @@ function getLocalFallbackLessons(language, level) {
   const freeUnitLimit = ['C1', 'C2'].includes(level) ? 2 : 3;
   return lessons
     .filter((lesson) => lesson.level === level)
-    .filter((lesson) => language !== 'german' || ['reading', 'grammar'].includes(lesson.skill))
+    // Once a course has a real unit route, ignore obsolete flat lessons
+    // without unitId. They otherwise appear as a 13th Reading beside the
+    // twelve canonical unit readings (Italian B1 and German A1-B1).
+    .filter((lesson) => !courseUnits.length || lesson.unitId)
     .map((lesson) => {
       const unitOrder =
         Number(lesson.unitOrder) ||
@@ -16794,7 +16800,7 @@ async function performLearningPathLoad(options = {}) {
       ),
       learningPathState.language,
       learningPathState.level
-    ).filter((lesson) => learningPathState.language !== 'german' || ['reading', 'grammar'].includes(lesson.skill)).map((lesson) =>
+    ).filter((lesson) => !learningPathState.units.length || lesson.unitId).map((lesson) =>
       authStatus.entitlements?.hasFullAccess ? { ...lesson, locked: false } : lesson
     );
     await loadUnitVerbProgress();

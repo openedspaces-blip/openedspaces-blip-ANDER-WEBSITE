@@ -12,6 +12,20 @@ const unitsPath = path.join(ROOT, 'lib', 'seed-units.json');
 const lessons = require(lessonsPath);
 const units = require(unitsPath);
 
+// Remove superseded flat prototype lessons before expanding the canonical
+// 12-unit routes. Without this cleanup Italian B1 and German A1-B1 expose a
+// duplicate thirteenth Reading with no unit association.
+for (let index = lessons.length - 1; index >= 0; index -= 1) {
+  const row = lessons[index];
+  if (
+    ['italian', 'portuguese', 'german'].includes(row.target_language) &&
+    ['A1', 'A2', 'B1'].includes(row.level) &&
+    !row.unit_slug
+  ) {
+    lessons.splice(index, 1);
+  }
+}
+
 const courses = {
   italian: {
     label: 'Italiano', verb: 'parlare', location: 'la comunità',

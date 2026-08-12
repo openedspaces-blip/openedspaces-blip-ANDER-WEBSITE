@@ -338,7 +338,7 @@ const LEVEL_ACTIVITY_COUNT_BY_LANGUAGE = {
   italian: {
     A1: 72,
     A2: 72,
-    B1: 42,
+    B1: 36,
     B2: 6,
     C1: 6,
     C2: 6
@@ -352,9 +352,9 @@ const LEVEL_ACTIVITY_COUNT_BY_LANGUAGE = {
     C2: 0
   },
   german: {
-    A1: 42,
-    A2: 42,
-    B1: 42,
+    A1: 36,
+    A2: 36,
+    B1: 36,
     B2: 6,
     C1: 6,
     C2: 6
@@ -362,7 +362,13 @@ const LEVEL_ACTIVITY_COUNT_BY_LANGUAGE = {
 };
 
 function unitSkillsFor(language, level = 'A1') {
-  if (language === 'portuguese' && level === 'B1') return ['reading', 'grammar', 'vocabulary'];
+  if (
+    (language === 'portuguese' && level === 'B1') ||
+    (language === 'italian' && level === 'B1') ||
+    (language === 'german' && ['A1', 'A2', 'B1'].includes(level))
+  ) {
+    return ['reading', 'grammar', 'vocabulary'];
+  }
   const levelSkills = (LEVEL_SKILLS_BY_LANGUAGE[language] || {})[level];
   if (levelSkills) return levelSkills;
   return UNIT_SKILLS_BY_LANGUAGE[language] || SKILLS;
@@ -4643,4 +4649,31 @@ test('homepage language cards open the route without skipping into the first act
   assert.match(source, /learningPathState\.activeSlug = ''/);
   assert.match(source, /showLearnState\('route'\)/);
   assert.match(source, /void openLanguageRoute\('english'\)/);
+});
+
+test('Portuguese, Italian and German expose exactly 12 canonical readings per A1-B1 route', () => {
+  for (const language of ['portuguese', 'italian', 'german']) {
+    for (const level of ['A1', 'A2', 'B1']) {
+      const units = seedUnits.filter(
+        (row) => row.target_language === language && row.level === level
+      );
+      const readings = seedLessons.filter(
+        (row) =>
+          row.target_language === language &&
+          row.level === level &&
+          row.skill === 'reading' &&
+          row.unit_slug
+      );
+      assert.equal(units.length, 12, `${language} ${level} units`);
+      assert.equal(readings.length, 12, `${language} ${level} readings`);
+      assert.equal(new Set(readings.map((row) => row.unit_slug)).size, 12);
+    }
+  }
+});
+
+test('German lessons are no longer restricted to Reading and Grammar in the frontend loader', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  assert.doesNotMatch(source, /language !== 'german' \|\| \['reading', 'grammar'\]/);
+  assert.doesNotMatch(source, /learningPathState\.language !== 'german'/);
+  assert.match(source, /filter\(\(lesson\) => !courseUnits\.length \|\| lesson\.unitId\)/);
 });
