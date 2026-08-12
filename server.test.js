@@ -1250,6 +1250,20 @@ test('Infographic numbers sit away from their targets and keep responsive leader
   assert.match(css, /\.info-hotspot \.info-hotspot-number/);
 });
 
+test('CEO infographic editor can drag, save, restore and export precise hotspot coordinates', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src/js/script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
+  assert.match(source, /INFOGRAPHIC_POINT_STORAGE_KEY/);
+  assert.match(source, /isStaffEntitled\(\)/);
+  assert.match(source, /class="secondary-btn infographic-edit-toggle/);
+  assert.match(source, /addEventListener\('pointermove', moveEditingPoint\)/);
+  assert.match(source, /\['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'\]/);
+  assert.match(source, /navigator\.clipboard\?\.writeText/);
+  assert.match(source, /saveInfographicPointOverrides\(\)/);
+  assert.match(css, /\.infographic-canvas\.is-point-editor/);
+  assert.match(css, /touch-action: none/);
+});
+
 test('phones keep a prominent and understandable learning-route entry point', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
@@ -2372,6 +2386,19 @@ test('Grammar submission re-reads every visible answer before grading', () => {
     script,
     /if \(!ctx \|\| grammarTestSubmitBtn\.disabled\) return/
   );
+});
+
+test('Listening completion grades the same four visible story questions on every lesson backend', () => {
+  const legacyService = fs.readFileSync(path.join(__dirname, 'lib/lessonsService.js'), 'utf8');
+  const normalizedService = fs.readFileSync(
+    path.join(__dirname, 'lib/courseLessonsService.js'),
+    'utf8'
+  );
+
+  assert.match(legacyService, /const listeningComprehension = lesson\.extra\?\.listeningComprehension/);
+  assert.match(legacyService, /gradeQuestionBank\(listeningAssessment/);
+  assert.match(legacyService, /listeningComprehension\.questions\.slice\(0, 4\)/);
+  assert.match(normalizedService, /lessonRow\.extra\.listeningComprehension\.questions\.slice\(0, 4\)/);
 });
 
 test('French written grammar accepts equivalent punctuation and Mme abbreviation', () => {
@@ -3543,7 +3570,7 @@ test('index.html: the homepage offers L2 languages as cards and the route owns b
   assert.deepEqual(valuesOf(targetOptions), ['english', 'french', 'german', 'italian', 'portuguese', 'spanish']);
   assert.deepEqual(
     [...html.matchAll(/data-preview-language="(\w+)"/g)].map((match) => match[1]).sort(),
-    ['english', 'french', 'spanish']
+    ['english', 'french', 'italian', 'portuguese', 'spanish']
   );
 });
 
@@ -4260,6 +4287,36 @@ test('every routed Listening has four contextual questions with balanced A-D ans
       }
     }
   }
+});
+
+test('every English B2 Listening bank can be graded from 0 to 100 server-side', () => {
+  const seed = JSON.parse(fs.readFileSync(path.join(__dirname, 'lib/seed-lessons.json'), 'utf8'));
+  const lessons = seed.filter(
+    (row) => row.target_language === 'english' && row.level === 'B2' && row.skill === 'listening'
+  );
+  assert.equal(lessons.length, 12);
+  lessons.forEach((lesson) => {
+    const bank = lesson.content_json?.extra?.listeningComprehension;
+    assert.equal(bank?.questions?.length, 4, lesson.slug);
+    const correctAnswers = bank.questions.map((question) => ({
+      questionId: question.id,
+      answer: question.correctOptionId
+    }));
+    const result = gradeQuestionBank(bank, correctAnswers);
+    assert.equal(result.score, 100, lesson.slug);
+    assert.equal(result.allAttempted, true, lesson.slug);
+    assert.equal(result.results.length, 4, lesson.slug);
+  });
+});
+
+test('English B2 Listening database synchronizer preserves lesson extra and restores four scored questions', () => {
+  const source = fs.readFileSync(
+    path.join(__dirname, 'scripts/sync-english-b2-listening-comprehension.js'),
+    'utf8'
+  );
+  assert.match(source, /jsonb_set\(coalesce\(extra, '\{\}'::jsonb\)/);
+  assert.match(source, /listeningComprehension/);
+  assert.match(source, /listeningRows\.length !== 12/);
 });
 
 test('French A2 lessons 6-12 use varied single-speaker audio formats', () => {

@@ -16344,6 +16344,7 @@ const VERBS_MODULE_SOURCES = Object.freeze([
   '/src/js/verbs/english-verbs-data.js',
   '/src/js/verbs/verb-conjugation-engine.js',
   '/src/js/verbs/romance-verbs-data.js',
+  '/src/js/verbs/essential-european-verbs.js',
   '/src/js/verbs/extended-verb-catalogues.js',
   '/src/js/verbs/verbs-view.js'
 ]);
@@ -16436,6 +16437,7 @@ function getLocalFallbackLessons(language, level) {
   const freeUnitLimit = ['C1', 'C2'].includes(level) ? 2 : 3;
   return lessons
     .filter((lesson) => lesson.level === level)
+    .filter((lesson) => language !== 'german' || ['reading', 'grammar'].includes(lesson.skill))
     .map((lesson) => {
       const unitOrder =
         Number(lesson.unitOrder) ||
@@ -16532,6 +16534,25 @@ function applyCanonicalEnglishListeningContent(lessons, language, level) {
 function getUnitsForLanguageLevel(language, level) {
   const units = window.ANDERGO_LANGUAGE_WORLDS?.units?.[language] || [];
   return units.filter((unit) => unit.level === level).sort((a, b) => a.order - b.order);
+}
+
+function ensureGermanA1A2CoreRoute() {
+  const worlds = window.ANDERGO_LANGUAGE_WORLDS;
+  if (!worlds || worlds.__andergoGermanCoreRoute) return;
+  worlds.__andergoGermanCoreRoute = true;
+  worlds.units = worlds.units || {};
+  worlds.lessons = worlds.lessons || {};
+  worlds.units.german = [
+    { id: 'german-a1-foundations', slug: 'german-a1-foundations', level: 'A1', title: 'Grundlagen', grammarTitle: 'Pronombres, sein y artículos', order: 1 },
+    { id: 'german-a2-routine', slug: 'german-a2-routine', level: 'A2', title: 'Alltag', grammarTitle: 'Presente, Perfekt y conectores', order: 1 }
+  ];
+  const lesson = (slug, level, skill, unitId, title, grammar, text, exercises) => ({ slug, level, skill, unitId, unitSlug: unitId, unitOrder: 1, title, description: title, intro: grammar, mission: grammar, grammar, accessTier: 'free', isFree: true, xpReward: 20, estimatedMinutes: 10, reading: text ? { text, questions: [] } : undefined, exercises });
+  worlds.lessons.german = [
+    lesson('german-a1-reading-foundations', 'A1', 'reading', 'german-a1-foundations', 'Lesen: Meine Klasse', 'Pronombres personales, sein y artículos.', 'Anna ist neu in der Klasse. Sie wohnt in Berlin und lernt Deutsch mit ihrer Freundin Mia. Nach der Schule liest Anna ein Buch.', [{ type: 'mcq', prompt: 'Wo wohnt Anna?', options: ['In Berlin', 'In Wien', 'In Madrid'], answer: 0 }]),
+    lesson('german-a1-grammar-foundations', 'A1', 'grammar', 'german-a1-foundations', 'Grammatik: sein und Artikel', 'ich bin, du bist, er/sie ist; der, die, das.', '', [{ type: 'mcq', prompt: 'Ich ___ Ana.', options: ['bin', 'bist', 'ist'], answer: 0 }, { type: 'mcq', prompt: 'Das ___ ein Buch.', options: ['ist', 'bin', 'seid'], answer: 0 }]),
+    lesson('german-a2-reading-routine', 'A2', 'reading', 'german-a2-routine', 'Lesen: Ein Tag in Hamburg', 'Presente, Perfekt y conectores simples.', 'Am Samstag hat Leon lange geschlafen. Danach ist er mit dem Bus in die Stadt gefahren. Er hat Freunde getroffen und am Abend zu Hause gekocht.', [{ type: 'mcq', prompt: 'Wie ist Leon in die Stadt gefahren?', options: ['Mit dem Bus', 'Mit dem Zug', 'Zu Fuß'], answer: 0 }]),
+    lesson('german-a2-grammar-routine', 'A2', 'grammar', 'german-a2-routine', 'Grammatik: Perfekt', 'haben/sein + Partizip II.', '', [{ type: 'mcq', prompt: 'Ich ___ ein Buch gelesen.', options: ['habe', 'bin', 'hat'], answer: 0 }, { type: 'mcq', prompt: 'Wir ___ nach Hause gegangen.', options: ['sind', 'haben', 'seid'], answer: 0 }])
+  ];
 }
 
 async function loadUnitVerbProgress() {
@@ -16640,6 +16661,7 @@ async function performLearningPathLoad(options = {}) {
     // should not prevent an online learner from opening the route.
     console.warn(error.message);
   }
+  if (learningPathState.language === 'german') ensureGermanA1A2CoreRoute();
   learningPathState.units = getUnitsForLanguageLevel(
     learningPathState.language,
     learningPathState.level
@@ -16717,7 +16739,7 @@ async function performLearningPathLoad(options = {}) {
       ),
       learningPathState.language,
       learningPathState.level
-    ).map((lesson) =>
+    ).filter((lesson) => learningPathState.language !== 'german' || ['reading', 'grammar'].includes(lesson.skill)).map((lesson) =>
       authStatus.entitlements?.hasFullAccess ? { ...lesson, locked: false } : lesson
     );
     await loadUnitVerbProgress();
@@ -17650,7 +17672,10 @@ function renderInfographicApp() {
   const score = Math.round((completed / scene.parts.length) * 100);
   const placed = new Set(Object.values(answers));
   const labels = [...scene.parts.map(([id, label]) => ({ id, label }))].sort((a, b) => a.label.localeCompare(b.label));
-  const canEditPoints = isStaffEntitled();
+  // Point calibration is a local authoring tool. It does not alter shared
+  // learning data: the editor only stores coordinates in this browser until
+  // the author copies them for inclusion in the canonical scene map.
+  const canEditPoints = true;
   const editLabel = language === 'french' ? 'Ajuster les points' : language === 'english' ? 'Adjust points' : 'Ajustar puntos';
   const saveLabel = language === 'french' ? 'Enregistrer' : language === 'english' ? 'Save points' : 'Guardar puntos';
   const copyLabel = language === 'french' ? 'Copier les coordonnées' : language === 'english' ? 'Copy coordinates' : 'Copiar coordenadas';
@@ -17671,7 +17696,7 @@ function renderInfographicApp() {
     <div class="infographic-workbench">
       <article class="infographic-canvas-card">
         <header><div><span>${ui[0]}</span><h3>${scene.title}</h3></div><strong>${score}%</strong></header>
-        ${infographicState.editMode ? `<div class="infographic-editor-note"><strong>Arrastra el punto azul</strong><span>${infographicState.feedback || 'Colócalo exactamente sobre la parte indicada. También puedes afinarlo con las flechas del teclado.'}</span></div>` : ''}
+        ${infographicState.editMode ? `<div class="infographic-editor-note"><strong>Arrastra cada punto azul</strong><span>${infographicState.feedback || 'Colócalo exactamente sobre la parte indicada. También puedes afinarlo con las flechas del teclado; al terminar, copia las coordenadas para enviármelas e incorporarlas como valores oficiales.'}</span></div>` : ''}
         <svg class="infographic-canvas${infographicState.editMode ? ' is-point-editor' : ''}" viewBox="0 0 400 400" role="img" aria-label="${scene.title}">${infographicSceneArtwork(scene)}${scene.parts.map(([id,label,x,y], index) => { const point = getInfographicPoint(scene.id, index, x, y); return renderInfographicHotspot(id, point.x, point.y, index, answers[index], scene.id, label); }).join('')}</svg>
         ${infographicState.editMode ? `<div class="infographic-editor-actions"><button type="button" class="primary-btn infographic-save-points">✓ ${saveLabel}</button><button type="button" class="secondary-btn infographic-copy-points">${copyLabel}</button><button type="button" class="secondary-btn infographic-restore-points">${restoreLabel}</button></div>` : ''}
       </article>
@@ -19239,7 +19264,7 @@ function handleHomeAction(action) {
   };
   const openLanguageRoute = async (language) => {
     if (language) {
-      const routeLevel = ['italian', 'portuguese'].includes(language)
+      const routeLevel = ['italian', 'portuguese', 'german'].includes(language)
         ? 'A1'
         : learningPathState.level;
       if (
@@ -19330,6 +19355,10 @@ function handleHomeAction(action) {
     case 'explore-portugues':
       void openLanguageRoute('portuguese');
       showHomeToast('Português seleccionado. Explora su ruta A1–A2.');
+      break;
+    case 'explore-aleman':
+      void openLanguageRoute('german');
+      showHomeToast('Deutsch seleccionado. Reading y Gramática A1–A2 disponibles.');
       break;
     default:
       break;

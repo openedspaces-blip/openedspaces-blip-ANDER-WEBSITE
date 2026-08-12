@@ -1361,7 +1361,17 @@
   }
 
   const engines={french:frenchEngine(),spanish:spanishEngine()};
-  function level(rank){return rank<=35?'A1':rank<=70?'A2':'B1';}
+  // A long catalogue needs real CEFR bands, not one giant B1 remainder.
+  // This distribution keeps high-frequency everyday verbs accessible first,
+  // then gives B2, C1 and C2 their own browsable banks even past 1,000.
+  function level(rank){
+    return rank<=80?'A1'
+      :rank<=180?'A2'
+      :rank<=400?'B1'
+      :rank<=650?'B2'
+      :rank<=850?'C1'
+      :'C2';
+  }
   function buildFrench([inf,en,es,group],index){
     const forms=engines.french.principalForms(inf),present=frenchPresent(inf);
     const vowelSound=/^[aeiouyhàâäéèêëîïôöùûü]/i.test(present[0]);

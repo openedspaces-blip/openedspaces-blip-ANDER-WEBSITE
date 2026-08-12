@@ -40,7 +40,7 @@
   // A scan-first catalogue benefits from showing a substantial portion of
   // each 100-verb language list immediately, while the grid keeps it compact.
   const PAGE_SIZE = 60;
-  const VERB_LANGUAGES = new Set(['english', 'french', 'spanish']);
+  const VERB_LANGUAGES = new Set(['english', 'french', 'spanish', 'italian', 'portuguese', 'german']);
 
   function currentVerbLanguage() {
     const routeLanguage = window.location.hash.replace('#', '').split('/')[1];
@@ -311,6 +311,55 @@
     return ['Presente', 'Pasado', 'Participio'];
   }
 
+  // The three example slots should model three genuinely useful situations,
+  // rather than mechanically changing one sentence from affirmative to
+  // negative and question. These are curated for the most consulted English
+  // verbs; the original authored examples remain the fallback for the full
+  // catalogue and for every other language.
+  const VARIED_ENGLISH_EXAMPLES = {
+    be: ['The library is quiet in the morning.', "I am not ready to leave yet.", 'Are your keys on the table?'],
+    have: ['We have a meeting after lunch.', "She doesn't have her phone today.", 'Do you have time for a quick question?'],
+    do: ['I do the dishes after dinner.', "He doesn't do exercise on Mondays.", 'What do you do when you feel stressed?'],
+    say: ['My teacher says this word slowly.', "They don't say much during the film.", 'What did she say about the trip?'],
+    go: ['I go for a walk before work.', "We don't go out when it rains.", 'Where do you go to study?'],
+    get: ['She gets home before six.', "I don't get many emails on Sunday.", 'How do you get to the airport?'],
+    make: ['My brother makes bread on Saturdays.', "We don't make plans without checking the calendar.", 'What can we make with these ingredients?'],
+    know: ['They know the city very well.', "I don't know the answer yet.", 'Do you know how this app works?'],
+    think: ['I think this exercise is useful.', "She doesn't think the shop is open.", 'What do you think of the new teacher?'],
+    take: ['He takes a photo of the sunset.', "I don't take sugar in my coffee.", 'Which bus do you take to campus?'],
+    see: ['We see our grandparents every weekend.', "She doesn't see the message on her screen.", 'Can you see the mountains from here?'],
+    come: ['My cousins come for dinner tonight.', "He doesn't come to class on Fridays.", 'When can you come by the office?'],
+    want: ['I want to learn another language.', "They don't want to miss the concert.", 'What do you want to order?'],
+    look: ['Please look at the map carefully.', "I don't look at my phone during meals.", 'Why are you looking for your bag?'],
+    use: ['We use this room for group work.', "She doesn't use social media very often.", 'How do you use this expression?'],
+    find: ['I found a quiet place to read.', "He can't find his passport.", 'Where did you find that recipe?'],
+    give: ['Our coach gives us clear instructions.', "I don't give my password to anyone.", 'Can you give me a hand with this box?'],
+    tell: ['Please tell me the whole story.', "She doesn't tell people her age.", 'Who told you about the event?'],
+    work: ['My laptop works much faster now.', "This key doesn't work in the lock.", 'Where does your sister work?'],
+    call: ['I call my grandmother every Sunday.', "Don't call him while he is driving.", 'Can I call you after the meeting?'],
+    try: ['Try this soup before it gets cold.', "She doesn't try new food easily.", "Why don't you try again tomorrow?"],
+    ask: ['The student asks a thoughtful question.', "I don't ask for help often enough.", 'Could you ask the receptionist?'],
+    need: ['You need a jacket this evening.', "We don't need to hurry.", 'Do you need help carrying those bags?'],
+    feel: ['I feel more confident this week.', "He doesn't feel well this morning.", 'How do you feel after the exam?'],
+    become: ['The sky becomes orange at sunset.', "Learning a language doesn't become easy overnight.", 'What do you want to become in the future?'],
+    leave: ['The last train leaves at eleven.', "Please don't leave your bag here.", 'What time do we need to leave?'],
+    put: ['Put the milk back in the fridge.', "She doesn't put salt in the soup.", 'Where should I put these books?'],
+    mean: ['This sign means "no parking."', "That doesn't mean you failed.", 'What does this phrase mean?'],
+    keep: ['Keep your ticket until the end of the trip.', "I don't keep old receipts.", 'How do you keep in touch with friends?'],
+    let: ['My parents let me choose my own clothes.', "They don't let visitors enter after nine.", 'Will you let me know when you arrive?'],
+    begin: ['The workshop begins with a short quiz.', "The movie doesn't begin until eight.", 'When does the next course begin?']
+  };
+
+  function displayExamples(raw) {
+    return raw.language === 'english' && VARIED_ENGLISH_EXAMPLES[raw.infinitive]
+      ? {
+          affirmative: VARIED_ENGLISH_EXAMPLES[raw.infinitive][0],
+          negative: VARIED_ENGLISH_EXAMPLES[raw.infinitive][1],
+          interrogative: VARIED_ENGLISH_EXAMPLES[raw.infinitive][2]
+        }
+      : raw.examples || {};
+  }
+
   function cataloguePresentForm(raw, language) {
     const thirdPerson = raw.forms?.thirdPersonSingular || '';
     if (!thirdPerson || thirdPerson === raw.infinitive) return raw.infinitive || '—';
@@ -385,7 +434,7 @@
         </div>`
     ).join('');
 
-    const examples = raw.examples || {};
+    const examples = displayExamples(raw);
     const exampleRow = (label, text) =>
       text
         ? `
@@ -480,7 +529,7 @@
   // (and therefore the haystack) changes whenever bridgeLanguage changes.
   function verbSearchHaystack(raw, item) {
     const forms = raw.forms || {};
-    const examples = raw.examples || {};
+    const examples = displayExamples(raw);
     return normalizeSearchText(
       [
         raw.infinitive,
@@ -722,7 +771,7 @@
         </div>`
     ).join('');
 
-    const examples = raw.examples || {};
+    const examples = displayExamples(raw);
     const exampleRow = (label, text) =>
       text
         ? `
@@ -1704,6 +1753,23 @@
     });
   }
 
+  function renderAdvancedFrenchLevelSummary() {
+    const summary = document.getElementById('verbsAdvancedLevelSummary');
+    if (!summary) return;
+    if (currentVerbLanguage() !== 'french') {
+      summary.hidden = true;
+      summary.innerHTML = '';
+      return;
+    }
+    const verbs = getVerbsForLanguage('french');
+    const levels = ['B2', 'C1', 'C2'];
+    summary.innerHTML = levels.map((level) => {
+      const count = verbs.filter((verb) => verb.level === level).length;
+      return `<button type="button" class="verb-advanced-level-card" data-verb-filter="${level}"><strong>${level}</strong><span>${count.toLocaleString('es-DO')} verbos</span><small>Explorar →</small></button>`;
+    }).join('');
+    summary.hidden = false;
+  }
+
   // Entry point - called from script.js's showView() when the resolved view
   // is 'verbs'. Normalizes the hash to carry the language segment
   // (#verbs/english), same spirit as updateLearnHash() but scoped locally
@@ -1734,6 +1800,7 @@
     const navLink = document.querySelector('a[data-i18n="navVerbs"]');
     if (navLink) navLink.href = `#verbs/${currentVerbLanguage()}/list`;
     renderLanguageGroupFilters();
+    renderAdvancedFrenchLevelSummary();
     resetVerbsPagination();
     renderVerbsDeck();
     renderVerbsConjugator();
