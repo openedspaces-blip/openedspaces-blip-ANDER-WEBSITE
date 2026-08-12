@@ -8412,5 +8412,295 @@
       ],
       "scenario": "Pläne für die Zukunft"
     }
+  },
+  {
+    "slug": "relazioni-e-comunicazione",
+    "target_language": "italian",
+    "level": "B1",
+    "title": "Relazioni e comunicazione",
+    "title_es": "expresar relaciones, opiniones y mensajes referidos",
+    "description": "expresar relaciones, opiniones y mensajes referidos",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "expresar relaciones, opiniones y mensajes referidos",
+      "outcomes": [
+        "expresar relaciones, opiniones y mensajes referidos",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "relazione",
+        "ascoltare",
+        "spiegare",
+        "messaggio",
+        "accordo",
+        "fiducia"
+      ],
+      "scenario": "Relazioni e comunicazione"
+    }
+  },
+  {
+    "slug": "cittadinanza-e-partecipazione",
+    "target_language": "italian",
+    "level": "B1",
+    "title": "Cittadinanza e partecipazione",
+    "title_es": "proponer acciones y participar en la comunidad",
+    "description": "proponer acciones y participar en la comunidad",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "proponer acciones y participar en la comunidad",
+      "outcomes": [
+        "proponer acciones y participar en la comunidad",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "cittadinanza",
+        "partecipare",
+        "diritto",
+        "proposta",
+        "comunità",
+        "scegliere"
+      ],
+      "scenario": "Cittadinanza e partecipazione"
+    }
+  },
+  {
+    "slug": "relacoes-e-comunicacao",
+    "target_language": "portuguese",
+    "level": "B1",
+    "title": "Relações e comunicação",
+    "title_es": "expressar relações, opiniões e mensagens relatadas",
+    "description": "expressar relações, opiniões e mensagens relatadas",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "expressar relações, opiniões e mensagens relatadas",
+      "outcomes": [
+        "expressar relações, opiniões e mensagens relatadas",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "relação",
+        "escutar",
+        "explicar",
+        "mensagem",
+        "acordo",
+        "confiança"
+      ],
+      "scenario": "Relações e comunicação"
+    }
+  },
+  {
+    "slug": "cidadania-e-participacao",
+    "target_language": "portuguese",
+    "level": "B1",
+    "title": "Cidadania e participação",
+    "title_es": "propor ações e participar da comunidade",
+    "description": "propor ações e participar da comunidade",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "propor ações e participar da comunidade",
+      "outcomes": [
+        "propor ações e participar da comunidade",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "cidadania",
+        "participar",
+        "direito",
+        "proposta",
+        "comunidade",
+        "escolher"
+      ],
+      "scenario": "Cidadania e participação"
+    }
+  },
+  {
+    "slug": "kleidung-und-farben",
+    "target_language": "german",
+    "level": "A1",
+    "title": "Kleidung und Farben",
+    "title_es": "Kleidung beschreiben und auswählen",
+    "description": "Kleidung beschreiben und auswählen",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Kleidung beschreiben und auswählen",
+      "outcomes": [
+        "Kleidung beschreiben und auswählen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "frases básicas"
+      ],
+      "vocabulary": [
+        "Kleidung",
+        "Hemd",
+        "Hose",
+        "Kleid",
+        "Farbe",
+        "blau"
+      ],
+      "scenario": "Kleidung und Farben"
+    }
+  },
+  {
+    "slug": "geburtstag-und-einladung",
+    "target_language": "german",
+    "level": "A1",
+    "title": "Geburtstag und Einladung",
+    "title_es": "eine Einladung verstehen und Uhrzeiten nennen",
+    "description": "eine Einladung verstehen und Uhrzeiten nennen",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "eine Einladung verstehen und Uhrzeiten nennen",
+      "outcomes": [
+        "eine Einladung verstehen und Uhrzeiten nennen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "frases básicas"
+      ],
+      "vocabulary": [
+        "Geburtstag",
+        "Einladung",
+        "feiern",
+        "Uhr",
+        "heute",
+        "morgen"
+      ],
+      "scenario": "Geburtstag und Einladung"
+    }
+  },
+  {
+    "slug": "feste-und-traditionen",
+    "target_language": "german",
+    "level": "A2",
+    "title": "Feste und Traditionen",
+    "title_es": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "description": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "Feste und Abläufe in der Vergangenheit beschreiben",
+      "outcomes": [
+        "Feste und Abläufe in der Vergangenheit beschreiben",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "pasado y conectores"
+      ],
+      "vocabulary": [
+        "Fest",
+        "Tradition",
+        "feiern",
+        "vorbereitet",
+        "besucht",
+        "gemeinsam"
+      ],
+      "scenario": "Feste und Traditionen"
+    }
+  },
+  {
+    "slug": "wohnungssuche",
+    "target_language": "german",
+    "level": "A2",
+    "title": "Wohnungssuche",
+    "title_es": "Wohnungen vergleichen und Lage beschreiben",
+    "description": "Wohnungen vergleichen und Lage beschreiben",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Wohnungen vergleichen und Lage beschreiben",
+      "outcomes": [
+        "Wohnungen vergleichen und Lage beschreiben",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "pasado y conectores"
+      ],
+      "vocabulary": [
+        "Wohnung",
+        "Zimmer",
+        "Miete",
+        "suchen",
+        "neben",
+        "über"
+      ],
+      "scenario": "Wohnungssuche"
+    }
+  },
+  {
+    "slug": "beziehungen-und-kommunikation",
+    "target_language": "german",
+    "level": "B1",
+    "title": "Beziehungen und Kommunikation",
+    "title_es": "über Beziehungen sprechen und Informationen weitergeben",
+    "description": "über Beziehungen sprechen und Informationen weitergeben",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "über Beziehungen sprechen und Informationen weitergeben",
+      "outcomes": [
+        "über Beziehungen sprechen und Informationen weitergeben",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "Beziehung",
+        "zuhören",
+        "erklären",
+        "Nachricht",
+        "Vereinbarung",
+        "Vertrauen"
+      ],
+      "scenario": "Beziehungen und Kommunikation"
+    }
+  },
+  {
+    "slug": "gesellschaft-und-mitwirkung",
+    "target_language": "german",
+    "level": "B1",
+    "title": "Gesellschaft und Mitwirkung",
+    "title_es": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "description": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+      "outcomes": [
+        "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "Gesellschaft",
+        "mitwirken",
+        "Recht",
+        "Vorschlag",
+        "Gemeinschaft",
+        "wählen"
+      ],
+      "scenario": "Gesellschaft und Mitwirkung"
+    }
   }
 ]

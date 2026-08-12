@@ -17,8 +17,14 @@ const REQUIRED_FILES = [
   'terms.html',
   'privacy.html',
   'refund-policy.html',
+  'aprender-ingles.html',
+  'aprender-frances.html',
+  'aprender-espanol.html',
+  'verbos-ingles.html',
+  'test-nivel-ingles.html',
   'src/css/styles.css',
   'src/css/legal.css',
+  'src/css/discover.css',
   'src/js/script.js',
   'src/js/paddle-pricing.js',
   'src/js/username-rules.js',
@@ -61,6 +67,7 @@ const VERBS_FILES = [
   'src/js/verbs/verb-conjugation-engine.js',
   'src/js/verbs/romance-verbs-data.js',
   'src/js/verbs/essential-european-verbs.js',
+  'src/js/verbs/european-verb-catalogues.js',
   'src/js/verbs/extended-verb-catalogues.js',
   'src/js/verbs/verbs-view.js'
 ];
@@ -99,6 +106,12 @@ function main() {
     `node "${path.join(ROOT, 'scripts', 'prepare-english-b1-b2-audio-transcripts.js')}"`,
     { stdio: 'inherit' }
   );
+
+  // The expanded catalogue is checked in as a browser-ready static asset.
+  // Its authoring sources are intentionally local-only, so deployment builds
+  // validate the published catalogue instead of attempting a network rebuild.
+  console.log('Checking expanded European verb catalogues...');
+  assertExists('src/js/verbs/european-verb-catalogues.js');
 
   console.log('Preparing canonical English C1-C2 Listening transcripts...');
   execSync(

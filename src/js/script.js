@@ -1243,6 +1243,39 @@ function normalizeLanguageKey(lang) {
   return targetLanguageMap[lang] || lang;
 }
 
+const COURSE_LEVELS_BY_LANGUAGE = Object.freeze({
+  english: ['PRE-A1', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
+  french: ['PRE-A1', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
+  spanish: ['PRE-A1', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
+  italian: ['A1', 'A2', 'B1'],
+  portuguese: ['A1', 'A2', 'B1'],
+  german: ['A1', 'A2', 'B1']
+});
+const COURSE_LEVEL_LABELS = Object.freeze({
+  'PRE-A1': 'Pre-A1 · Primeros pasos', A1: 'A1 · Principiante', A2: 'A2 · Básico',
+  B1: 'B1 · Intermedio', B2: 'B2 · Intermedio alto', C1: 'C1 · Avanzado', C2: 'C2 · Dominio'
+});
+
+function getAvailableCourseLevels(language, { includePreA1 = true } = {}) {
+  const levels = COURSE_LEVELS_BY_LANGUAGE[normalizeLanguageKey(language)] || COURSE_LEVELS_BY_LANGUAGE.english;
+  return includePreA1 ? [...levels] : levels.filter((level) => level !== 'PRE-A1');
+}
+
+function normalizeCourseLevel(language, requestedLevel, { includePreA1 = true } = {}) {
+  const levels = getAvailableCourseLevels(language, { includePreA1 });
+  return levels.includes(requestedLevel) ? requestedLevel : levels[0] || 'A1';
+}
+
+function syncCourseLevelSelect(select, language, { compact = false, includePreA1 = true } = {}) {
+  if (!select) return normalizeCourseLevel(language, 'A1', { includePreA1 });
+  const requested = select.value;
+  const levels = getAvailableCourseLevels(language, { includePreA1 });
+  select.innerHTML = levels.map((level) => `<option value="${level}">${compact ? level : COURSE_LEVEL_LABELS[level]}</option>`).join('');
+  const resolved = normalizeCourseLevel(language, requested, { includePreA1 });
+  select.value = resolved;
+  return resolved;
+}
+
 function setTargetLanguage(lang, options = {}) {
   const resolved = normalizeLanguageKey(lang);
   if (!resolved || !languageDisplayNames[resolved] || resolved === 'ai') return false;
@@ -1267,8 +1300,8 @@ function setTargetLanguage(lang, options = {}) {
 
   const pathLevelSelect = document.getElementById('pathLevelSelect');
   const requestedLevel = options.level || learningPathState.level;
-  const level = requestedLevel === 'PRE-A1' && !['english', 'french', 'spanish'].includes(resolved) ? 'A1' : requestedLevel;
-  if (pathLevelSelect) pathLevelSelect.value = level;
+  if (pathLevelSelect) pathLevelSelect.value = requestedLevel;
+  const level = syncCourseLevelSelect(pathLevelSelect, resolved);
   loadLearningPath({ language: resolved, level });
   updatePathPairPreview();
   updateAiTutorContext();
@@ -1774,8 +1807,12 @@ function applyPreferencesToSelects(preferences) {
     showHomeToast('Esta combinación estará disponible próximamente.');
   }
 
+  preferences.level = normalizeCourseLevel(preferences.language, preferences.level);
   if (languageSelect) languageSelect.value = preferences.language;
-  if (levelSelect) levelSelect.value = preferences.level;
+  if (levelSelect) {
+    levelSelect.value = preferences.level;
+    preferences.level = syncCourseLevelSelect(levelSelect, preferences.language);
+  }
   if (bridgeSelect) bridgeSelect.value = preferences.bridgeLanguage;
   // Both fields are written straight to learningPathState here, not left for
   // a caller's follow-up loadLearningPath() call to patch up - this is the
@@ -7577,19 +7614,19 @@ const UNIT_ROUTE_ARTWORK_SHEETS = {
     C2: '/images/route-artwork/spanish-c2-route-grid.png'
   },
   italian: {
-    A1: '/images/route-artwork/italian-a1-b1-route-grid.png',
-    A2: '/images/route-artwork/italian-a1-b1-route-grid.png',
-    B1: '/images/route-artwork/italian-a1-b1-route-grid.png'
+    A1: '/images/route-artwork/italian-a1-route-grid.png',
+    A2: '/images/route-artwork/italian-a2-route-grid.png',
+    B1: '/images/route-artwork/italian-b1-route-grid.png'
   },
   portuguese: {
-    A1: '/images/route-artwork/portuguese-a1-b1-route-grid.png',
-    A2: '/images/route-artwork/portuguese-a1-b1-route-grid.png',
-    B1: '/images/route-artwork/portuguese-a1-b1-route-grid.png'
+    A1: '/images/route-artwork/portuguese-a1-route-grid.png',
+    A2: '/images/route-artwork/portuguese-a2-route-grid.png',
+    B1: '/images/route-artwork/portuguese-b1-route-grid.png'
   },
   german: {
-    A1: '/images/route-artwork/german-a1-b1-route-grid.png',
-    A2: '/images/route-artwork/german-a1-b1-route-grid.png',
-    B1: '/images/route-artwork/german-a1-b1-route-grid.png'
+    A1: '/images/route-artwork/german-a1-route-grid.png',
+    A2: '/images/route-artwork/german-a2-route-grid.png',
+    B1: '/images/route-artwork/german-b1-route-grid.png'
   }
 };
 
@@ -16361,6 +16398,7 @@ const VERBS_MODULE_SOURCES = Object.freeze([
   '/src/js/verbs/verb-conjugation-engine.js',
   '/src/js/verbs/romance-verbs-data.js',
   '/src/js/verbs/essential-european-verbs.js',
+  '/src/js/verbs/european-verb-catalogues.js',
   '/src/js/verbs/extended-verb-catalogues.js',
   '/src/js/verbs/verbs-view.js'
 ]);
@@ -16653,10 +16691,11 @@ async function performLearningPathLoad(options = {}) {
   // in the background across a language/level switch.
   readingSpeechPlayer.teardown();
   learningPathState.language = options.language || learningPathState.language;
-  learningPathState.level = options.level || learningPathState.level;
-  if (learningPathState.level === 'PRE-A1' && !['english', 'french', 'spanish'].includes(learningPathState.language)) {
-    learningPathState.level = 'A1';
-  }
+  learningPathState.level = normalizeCourseLevel(
+    learningPathState.language,
+    options.level || learningPathState.level
+  );
+  syncCourseLevelSelect(document.getElementById('pathLevelSelect'), learningPathState.language);
   syncLearningMode();
   applyInterfaceLanguage(learningPathState.bridgeLanguage);
   updatePathPairPreview();
@@ -17241,6 +17280,20 @@ function getLessonTestQuestions(unitId) {
   return [...grammarQuestions, ...vocabularyQuestions];
 }
 
+const TEST_LANGUAGE_LABELS = {
+  english: 'English', french: 'Français', spanish: 'Español', italian: 'Italiano', portuguese: 'Português', german: 'Deutsch'
+};
+
+function testLanguageLabel(language) {
+  return TEST_LANGUAGE_LABELS[language] || 'English';
+}
+
+function syncTestLevelOptions() {
+  const language = document.getElementById('testLanguageSelect')?.value || 'english';
+  const level = document.getElementById('testLevelSelect');
+  syncCourseLevelSelect(level, language, { compact: true, includePreA1: false });
+}
+
 function renderLessonTest() {
   const stage = document.getElementById('testsStage');
   const unit = lessonTestState.units.find((item) => item.id === lessonTestState.unitId);
@@ -17426,6 +17479,7 @@ async function loadTestsView() {
   const languageSelect = document.getElementById('testLanguageSelect');
   const lessonSelect = document.getElementById('testLessonSelect');
   if (!levelSelect || !languageSelect || !lessonSelect) return;
+  syncTestLevelOptions();
   lessonTestState.language = languageSelect.value || 'english';
   lessonTestState.level = levelSelect.value || 'A1';
   lessonTestState.units = [];
@@ -17436,7 +17490,7 @@ async function loadTestsView() {
   const requestId = ++testsLoadRequestId;
   const startButton = document.getElementById('startLessonTestBtn');
   const eyebrow = document.getElementById('testsLanguageEyebrow');
-  if (eyebrow) eyebrow.textContent = lessonTestState.language === 'french' ? 'Évaluation de français' : lessonTestState.language === 'spanish' ? 'Evaluación de español' : 'English assessment';
+  if (eyebrow) eyebrow.textContent = `Evaluación de ${testLanguageLabel(lessonTestState.language)}`;
   const questionCount = document.getElementById('testQuestionCount');
   const stage = document.getElementById('testsStage');
   lessonSelect.disabled = true;
@@ -17463,7 +17517,7 @@ async function loadTestsView() {
   lessonSelect.innerHTML = lessonTestState.units.map((unit) => `<option value="${escapeHtml(unit.id)}">${escapeHtml(unit.grammarTitle || unit.title || `Tema ${unit.order}`)}</option>`).join('');
   lessonTestState.unitId = lessonSelect.value || lessonTestState.units[0]?.id || '';
   if (stage && !new URLSearchParams(window.location.search).get('testResult')) {
-    stage.innerHTML = `<div class="tests-welcome"><span aria-hidden="true">✓</span><h3>${lessonTestState.language === 'french' ? 'Tests de français prêts' : lessonTestState.language === 'spanish' ? 'Tests de español listos' : 'English tests ready'}</h3><p>Selecciona un tema gramatical y pulsa «Comenzar test».</p></div>`;
+    stage.innerHTML = `<div class="tests-welcome"><span aria-hidden="true">✓</span><h3>Tests de ${testLanguageLabel(lessonTestState.language)} listos</h3><p>Selecciona un tema gramatical y pulsa «Comenzar test».</p></div>`;
   }
   const shared = new URLSearchParams(window.location.search).get('testResult');
   if (shared) {
@@ -17479,7 +17533,7 @@ function setupTestsView() {
   const level = document.getElementById('testLevelSelect');
   const language = document.getElementById('testLanguageSelect');
   const lesson = document.getElementById('testLessonSelect');
-  language?.addEventListener('change', loadTestsView);
+  language?.addEventListener('change', () => { syncTestLevelOptions(); loadTestsView(); });
   level?.addEventListener('change', loadTestsView);
   lesson?.addEventListener('change', () => { lessonTestState.unitId = lesson.value; });
   document.getElementById('startLessonTestBtn')?.addEventListener('click', () => { lessonTestState.unitId = lesson?.value || ''; renderLessonTest(); });
@@ -18291,8 +18345,10 @@ function renderGamesView() {
       </div>
     </div>
     <div class="games-difficulty-summary games-difficulty-summary--${gamesState.difficulty}"><span aria-hidden="true">${difficulty.icon}</span><div><strong>${difficulty.label} · ${difficulty.cefr}</strong><small>${difficulty.description}</small></div><b>+${difficulty.points} puntos por acierto</b></div>
-    <div class="games-score-strip"><span>Puntos: <strong class="games-score-value">${gamesState.score}</strong></span><span>Idioma: <strong>${languageLabels[gamesState.language]}</strong></span><span>Nivel: <strong>${difficulty.label}</strong></span><span>Reto <strong class="games-round-value">${gamesState.round + 1}</strong></span><div class="games-round-meter"><span>Progreso <strong class="games-round-progress-label">0/0 · 0%</strong></span><progress class="games-round-progress" value="0" max="1" aria-label="Progreso de la ronda"></progress></div><div class="games-timer-controls"><label>Tiempo <select class="games-timer-mode"><option value="stopwatch" ${gamesState.timerMode === 'stopwatch' ? 'selected' : ''}>Cronómetro</option><option value="120" ${gamesState.timerMode === '120' ? 'selected' : ''}>2 minutos</option><option value="180" ${gamesState.timerMode === '180' ? 'selected' : ''}>3 minutos</option><option value="300" ${gamesState.timerMode === '300' ? 'selected' : ''}>5 minutos</option><option value="off" ${gamesState.timerMode === 'off' ? 'selected' : ''}>Sin tiempo</option></select></label><strong class="games-timer-display">00:00</strong><button type="button" class="games-timer-pause" aria-pressed="false">Ⅱ Pausar</button><small class="games-timer-result" aria-live="polite"></small></div></div>
-    <div class="games-board"><div class="games-game-card"><div class="games-game-heading"><div><span>${game.icon} Juego de vocabulario</span><h3>${game.title}</h3><p>${game.hint}</p></div><button type="button" class="secondary-btn games-new-round">Nuevo reto</button></div><div class="games-game-content"></div><p class="games-feedback" aria-live="polite"></p></div></div>
+    <div class="games-play-shell">
+      <div class="games-score-strip" role="region" aria-label="Controles y estado de la partida"><div class="games-score-primary"><span><small>Puntos</small><strong class="games-score-value">${gamesState.score}</strong></span><span><small>Idioma</small><strong>${languageLabels[gamesState.language]}</strong></span><span><small>Nivel</small><strong>${difficulty.label}</strong></span><span><small>Reto</small><strong class="games-round-value">${gamesState.round + 1}</strong></span></div><div class="games-round-meter"><span>Progreso <strong class="games-round-progress-label">0/0 · 0%</strong></span><progress class="games-round-progress" value="0" max="1" aria-label="Progreso de la ronda"></progress></div><div class="games-timer-controls"><label><span>Tiempo</span><select class="games-timer-mode" aria-label="Modo del cronómetro"><option value="stopwatch" ${gamesState.timerMode === 'stopwatch' ? 'selected' : ''}>Cronómetro</option><option value="120" ${gamesState.timerMode === '120' ? 'selected' : ''}>2 minutos</option><option value="180" ${gamesState.timerMode === '180' ? 'selected' : ''}>3 minutos</option><option value="300" ${gamesState.timerMode === '300' ? 'selected' : ''}>5 minutos</option><option value="off" ${gamesState.timerMode === 'off' ? 'selected' : ''}>Sin tiempo</option></select></label><strong class="games-timer-display">00:00</strong><button type="button" class="games-timer-pause" aria-pressed="false">Ⅱ Pausar</button><button type="button" class="secondary-btn games-new-round">↻ Nuevo reto</button><small class="games-timer-result" aria-live="polite"></small></div></div>
+      <div class="games-board"><div class="games-game-card"><div class="games-game-heading"><div><span>${game.icon} Juego de vocabulario</span><h3>${game.title}</h3><p>${game.hint}</p></div></div><div class="games-game-content"></div><p class="games-feedback" aria-live="polite"></p></div></div>
+    </div>
   `;
   app.querySelectorAll('[data-game-language]').forEach((button) => button.addEventListener('click', async () => {
     const nextLanguage = button.dataset.gameLanguage;
@@ -21244,7 +21300,7 @@ function setupLearningPathControls() {
       if (swapLearningPathLanguages()) return;
     }
 
-    const level = levelSelect?.value || learningPathState.level;
+    const level = normalizeCourseLevel(requestedLanguage, levelSelect?.value || learningPathState.level);
     if (!setTargetLanguage(requestedLanguage, { level })) {
       languageSelect.value = learningPathState.language;
     }
@@ -21252,11 +21308,7 @@ function setupLearningPathControls() {
   levelSelect?.addEventListener('change', () => {
     const language = languageSelect?.value || learningPathState.language;
     const selectedLevel = levelSelect.value;
-    const level = selectedLevel === 'PRE-A1' && !['english', 'french', 'spanish'].includes(language) ? 'A1' : selectedLevel;
-    if (level !== selectedLevel) {
-      levelSelect.value = level;
-      showHomeToast('Pre-A1 visual está disponible en inglés, francés y español.');
-    }
+    const level = normalizeCourseLevel(language, selectedLevel);
     loadLearningPath({ language, level });
     savePreferences(language, level);
   });

@@ -24457,22 +24457,29 @@ body {
 .games-difficulty-summary--easy { border-color:#b8ead4; background:linear-gradient(135deg,#f4fff9,#e8f9f1); }
 .games-difficulty-summary--normal { border-color:#f2d49c; background:linear-gradient(135deg,#fffaf0,#fff3d9); }
 .games-difficulty-summary--challenge { border-color:#f0bbc1; background:linear-gradient(135deg,#fff7f8,#ffeaed); }
-.games-score-strip { display:flex; gap:1rem; padding:.8rem 1rem; color:var(--muted); font-size:.82rem; font-weight:750; flex-wrap:wrap; align-items:center; }
+.games-play-shell { position:relative; display:grid; gap:0; overflow:visible; border:1px solid rgba(207,224,251,.9); border-radius:24px; background:#fff; box-shadow:0 18px 45px rgba(31,68,126,.08); }
+.games-score-strip { position:sticky; top:calc(var(--header-height, 88px) + .65rem); z-index:24; display:grid; grid-template-columns:auto minmax(190px,1fr) auto; gap:.7rem 1rem; padding:.72rem .85rem; color:var(--muted); font-size:.8rem; font-weight:750; align-items:center; border:1px solid #cfe0fb; border-radius:18px; background:rgba(255,255,255,.96); box-shadow:0 12px 30px rgba(31,68,126,.13); backdrop-filter:blur(14px); }
 .games-score-strip strong { color:var(--navy-2); }
+.games-score-primary { display:flex; align-items:center; gap:.45rem; }
+.games-score-primary > span { display:grid; min-width:64px; gap:.04rem; padding:.36rem .55rem; border-radius:12px; background:#f5f8fe; }
+.games-score-primary small { color:var(--muted); font-size:.62rem; font-weight:850; letter-spacing:.04em; line-height:1; text-transform:uppercase; }
+.games-score-primary strong { font-size:.88rem; line-height:1.2; }
 .games-round-meter { display:grid; grid-template-columns:auto minmax(90px,150px); align-items:center; gap:.35rem .55rem; }
 .games-round-meter span { white-space:nowrap; }
 .games-round-progress { width:100%; height:.55rem; overflow:hidden; border:0; border-radius:999px; accent-color:var(--blue); }
 .games-round-progress::-webkit-progress-bar { border-radius:999px; background:#e6eefb; }
 .games-round-progress::-webkit-progress-value { border-radius:999px; background:linear-gradient(90deg,var(--blue),var(--cyan)); }
-.games-timer-controls { display:flex; flex:1 1 420px; align-items:center; justify-content:flex-end; gap:.55rem; margin-left:auto; }
+.games-timer-controls { display:flex; align-items:center; justify-content:flex-end; gap:.45rem; margin-left:auto; }
 .games-timer-controls label { display:flex; align-items:center; gap:.4rem; }
 .games-timer-mode { min-height:34px; padding:.28rem 1.8rem .28rem .55rem; border:1px solid #d2e1f8; border-radius:10px; background:#fff; color:var(--navy-2); font:inherit; font-weight:800; }
 .games-timer-display { min-width:4.35rem; padding:.38rem .55rem; border-radius:10px; background:#eef5ff; color:var(--blue) !important; font-variant-numeric:tabular-nums; text-align:center; }
 .games-timer-display.is-warning { background:#fff0f1; color:#bd3f4a !important; animation:games-timer-pulse 1s ease-in-out infinite; }
 .games-timer-pause { min-height:34px; padding:.35rem .58rem; border:1px solid #d2e1f8; border-radius:10px; background:#fff; color:var(--navy-2); font:inherit; font-size:.76rem; font-weight:850; cursor:pointer; }
-.games-timer-result { flex-basis:100%; color:#16855b; text-align:right; }
+.games-timer-controls .games-new-round { min-height:34px; padding:.35rem .7rem; border-color:#bcd4fa; border-radius:10px; color:var(--blue); font-size:.76rem; white-space:nowrap; }
+.games-timer-result { position:absolute; top:calc(100% + .35rem); right:.8rem; max-width:min(540px,90vw); padding:.35rem .6rem; border-radius:9px; background:#ecfbf4; box-shadow:0 5px 16px rgba(22,133,91,.12); color:#16855b; text-align:right; }
+.games-timer-result:empty { display:none; }
 @keyframes games-timer-pulse { 50% { transform:scale(1.04); } }
-.games-board { min-height:390px; padding:clamp(1rem,3vw,2rem); }
+.games-board { min-height:390px; padding:clamp(1rem,3vw,2rem); border:0; border-radius:0 0 24px 24px; box-shadow:none; }
 .games-game-card { max-width:860px; margin:auto; padding:clamp(1rem,3vw,1.5rem); }
 .games-themed-stage { position:relative; transition:filter .18s ease,opacity .18s ease; }
 .games-themed-stage.is-paused { min-height:180px; filter:blur(2px); opacity:.48; user-select:none; }
@@ -24576,7 +24583,10 @@ body {
 .games-match-card.is-matched { color:#16855b; border-color:#9fdfc7; background:#eafaf3; cursor:default; }
 @media (max-width:720px) {
   .games-topbar { align-items:flex-start; flex-direction:column; }
-  .games-score-strip { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); overflow:visible; white-space:normal; gap:.65rem .8rem; }
+  .games-score-strip { top:.45rem; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); overflow:visible; white-space:normal; gap:.55rem .65rem; padding:.6rem; }
+  .games-score-primary { grid-column:1 / -1; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.35rem; }
+  .games-score-primary > span { min-width:0; padding:.32rem .4rem; }
+  .games-score-primary strong { overflow:hidden; font-size:.78rem; text-overflow:ellipsis; white-space:nowrap; }
   .games-round-meter { grid-column:1 / -1; min-width:0; grid-template-columns:auto 1fr; }
   .games-difficulty-picker { width:100%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); }
   .games-difficulty-picker > span { grid-column:1 / -1; }
@@ -24584,6 +24594,9 @@ body {
   .games-difficulty-summary { grid-template-columns:auto 1fr; }
   .games-difficulty-summary > b { grid-column:1 / -1; justify-self:start; margin-top:.35rem; }
   .games-timer-controls { grid-column:1 / -1; flex:0 0 auto; justify-content:flex-start; margin-left:0; flex-wrap:wrap; }
+  .games-timer-controls label > span { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); }
+  .games-timer-mode { max-width:8.7rem; }
+  .games-timer-controls .games-new-round { margin-left:auto; }
   .games-timer-result { display:none; }
   .games-clues { grid-template-columns:1fr; }
   .games-crossword-layout { grid-template-columns:1fr; gap:.85rem; }
@@ -24598,6 +24611,12 @@ body {
   .games-hangman-keyboard { grid-template-columns:repeat(7,minmax(0,1fr)); }
 }
 @media (max-width:460px) {
+  .games-score-strip { border-radius:14px; }
+  .games-score-primary { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .games-timer-controls { display:grid; grid-template-columns:minmax(0,1fr) auto auto; width:100%; }
+  .games-timer-controls label { min-width:0; }
+  .games-timer-mode { width:100%; max-width:none; }
+  .games-timer-controls .games-new-round { grid-column:1 / -1; width:100%; margin-left:0; }
   .games-crossword-clues { grid-template-columns:1fr; }
   .games-crossword-cell,
   .games-crossword-block { min-width:25px; }

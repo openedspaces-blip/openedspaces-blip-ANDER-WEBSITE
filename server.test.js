@@ -337,19 +337,32 @@ const LEVEL_ACTIVITY_COUNT_BY_LANGUAGE = {
   },
   italian: {
     A1: 72,
-    A2: 72
+    A2: 72,
+    B1: 42,
+    B2: 6,
+    C1: 6,
+    C2: 6
   },
   portuguese: {
     A1: 72,
     A2: 72,
-    B1: 0,
+    B1: 36,
     B2: 0,
     C1: 0,
     C2: 0
+  },
+  german: {
+    A1: 42,
+    A2: 42,
+    B1: 42,
+    B2: 6,
+    C1: 6,
+    C2: 6
   }
 };
 
 function unitSkillsFor(language, level = 'A1') {
+  if (language === 'portuguese' && level === 'B1') return ['reading', 'grammar', 'vocabulary'];
   const levelSkills = (LEVEL_SKILLS_BY_LANGUAGE[language] || {})[level];
   if (levelSkills) return levelSkills;
   return UNIT_SKILLS_BY_LANGUAGE[language] || SKILLS;
@@ -430,6 +443,27 @@ test('single-view router sections exist for every nav destination', () => {
   }
   assert.match(html, /class="nav-group nav-group-visitor"/);
   assert.match(html, /class="nav-group nav-group-member"/);
+});
+
+test('public discovery pages are buildable, indexable and linked from the homepage', () => {
+  const pages = [
+    'aprender-ingles.html',
+    'aprender-frances.html',
+    'aprender-espanol.html',
+    'verbos-ingles.html',
+    'test-nivel-ingles.html'
+  ];
+  pages.forEach((page) => {
+    const html = fs.readFileSync(path.join(__dirname, page), 'utf8');
+    assert.match(html, /<link rel="canonical" href="https:\/\/andergo\.online\//);
+    assert.match(html, /<meta name="description" content="[^"]+"/);
+    assert.match(html, /href="\/#(?:learn|verbs\/english|tests|tutor)"/);
+    assert.equal(fs.existsSync(path.join(__dirname, 'public', page)), true);
+  });
+  const indexHtml = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  pages.forEach((page) => assert.match(indexHtml, new RegExp(`href="/${page}"`)));
+  const sitemap = fs.readFileSync(path.join(__dirname, 'sitemap.xml'), 'utf8');
+  pages.forEach((page) => assert.match(sitemap, new RegExp(`https://andergo\\.online/${page}`)));
 });
 
 test('member navigation combines progress and achievements in one connected view', () => {
@@ -1376,6 +1410,49 @@ test('Verbs catalogue matches the compact principal-forms card design on desktop
   assert.match(script, /getVerbsForLanguage\(option\.value\)\.length/);
   assert.match(css, /\.verb-catalogue-list\s*\{[\s\S]*?grid-template-columns: repeat\(2, minmax\(0, 1fr\)\)/);
   assert.match(css, /@media \(max-width: 760px\)[\s\S]*?\.verb-catalogue-list \{ grid-template-columns: 1fr; \}/);
+});
+
+test('Italian, Portuguese and German verb cards provide real Spanish meanings', () => {
+  const source = fs.readFileSync(
+    path.join(__dirname, 'src/js/verbs/essential-european-verbs.js'),
+    'utf8'
+  );
+  const context = { window: {} };
+  vm.createContext(context);
+  vm.runInContext(source, context);
+
+  for (const language of ['italian', 'portuguese', 'german']) {
+    const verbs = context.window.ANDERGO_VERBS_DATA[language];
+    assert.equal(verbs.length, 100);
+    assert.ok(verbs.every((verb) => verb.translation?.spanish));
+    assert.ok(verbs.every((verb) => verb.translation.spanish !== 'verbo frecuente'));
+  }
+
+  const italian = context.window.ANDERGO_VERBS_DATA.italian;
+  assert.equal(italian.find((verb) => verb.infinitive === 'riuscire').translation.spanish, 'lograr');
+  assert.equal(italian.find((verb) => verb.infinitive === 'riflettere').translation.spanish, 'reflexionar');
+  assert.equal(italian.find((verb) => verb.infinitive === 'riempire').translation.spanish, 'llenar');
+  assert.equal(italian.find((verb) => verb.infinitive === 'crescere').translation.spanish, 'crecer');
+});
+
+test('English verbs reserve a complete, translated 100-verb C2 catalogue', () => {
+  const context = { window: {} };
+  vm.createContext(context);
+  for (const file of [
+    'src/js/verbs/english-verbs-data.js',
+    'src/js/verbs/extended-verb-catalogues.js'
+  ]) {
+    vm.runInContext(fs.readFileSync(path.join(__dirname, file), 'utf8'), context, { filename: file });
+  }
+
+  const c2 = context.window.ANDERGO_VERBS_DATA.english.filter((verb) => verb.level === 'C2');
+  assert.equal(c2.length, 100);
+  assert.deepEqual(Array.from(c2, (verb) => verb.rank), Array.from({ length: 100 }, (_, index) => 901 + index));
+  assert.ok(c2.every((verb) => verb.translation?.spanish));
+  assert.ok(c2.every((verb) => !/verbo ingl[eé]s frecuente/i.test(verb.translation.spanish)));
+  assert.ok(c2.every((verb) => verb.forms?.pastSimple && verb.forms?.pastParticiple));
+  assert.equal(c2.find((verb) => verb.infinitive === 'comprehend').translation.spanish, 'comprender');
+  assert.equal(c2.find((verb) => verb.infinitive === 'insure').forms.pastSimple, 'insured');
 });
 
 test('French C2 has 12 CEFR mastery units entirely in French across all six core skills', () => {
@@ -3570,8 +3647,17 @@ test('index.html: the homepage offers L2 languages as cards and the route owns b
   assert.deepEqual(valuesOf(targetOptions), ['english', 'french', 'german', 'italian', 'portuguese', 'spanish']);
   assert.deepEqual(
     [...html.matchAll(/data-preview-language="(\w+)"/g)].map((match) => match[1]).sort(),
-    ['english', 'french', 'italian', 'portuguese', 'spanish']
+    ['english', 'french', 'german', 'italian', 'portuguese', 'spanish']
   );
+});
+
+test('Italian, Portuguese and German selectors expose only A1 through B1', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  for (const language of ['italian', 'portuguese', 'german']) {
+    assert.match(source, new RegExp(`${language}: \\['A1', 'A2', 'B1'\\]`));
+  }
+  assert.match(source, /learningPathState\.level = normalizeCourseLevel\(/);
+  assert.match(source, /syncCourseLevelSelect\(level, language, \{ compact: true, includePreA1: false \}\)/);
 });
 
 test('LanguagePair.getLearningSupport(): direct mode never breaks or shows undefined/null for a word with no directSupport authored yet (spec §8 fallback)', () => {

@@ -229050,7 +229050,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Saluti, essere e chiamarsi",
+          "definition": "Práctica guiada de Saluti, essere e chiamarsi.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -229556,7 +229564,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Articoli indeterminativi e volere",
+          "definition": "Práctica guiada de Articoli indeterminativi e volere.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -230062,7 +230078,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Avere, possessivi e plurale",
+          "definition": "Práctica guiada de Avere, possessivi e plurale.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -230568,7 +230592,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "C’è / ci sono e quantità",
+          "definition": "Práctica guiada de C’è / ci sono e quantità.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -231074,7 +231106,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Andare, venire e preposizioni",
+          "definition": "Práctica guiada de Andare, venire e preposizioni.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -231580,7 +231620,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Presente dei verbi regolari",
+          "definition": "Práctica guiada de Presente dei verbi regolari.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -232086,7 +232134,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Articoli determinativi e casa",
+          "definition": "Práctica guiada de Articoli determinativi e casa.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -232592,7 +232648,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Fare, tempo e stagioni",
+          "definition": "Práctica guiada de Fare, tempo e stagioni.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -233098,7 +233162,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Passato prossimo introduttivo",
+          "definition": "Práctica guiada de Passato prossimo introduttivo.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -233604,7 +233676,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Preposizioni semplici e articolate",
+          "definition": "Práctica guiada de Preposizioni semplici e articolate.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -234110,7 +234190,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Partitivi e verbi di cucina",
+          "definition": "Práctica guiada de Partitivi e verbi di cucina.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -234616,7 +234704,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Scrivere messaggi: presente e connettori",
+          "definition": "Práctica guiada de Scrivere messaggi: presente e connettori.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -235134,7 +235230,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Passato prossimo con essere e avere",
+          "definition": "Práctica guiada de Passato prossimo con essere e avere.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -235652,7 +235756,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Imperfetto per il contesto",
+          "definition": "Práctica guiada de Imperfetto per il contesto.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -236170,7 +236282,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Pronomi diretti",
+          "definition": "Práctica guiada de Pronomi diretti.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -236688,7 +236808,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Dovere, potere e volere al passato",
+          "definition": "Práctica guiada de Dovere, potere e volere al passato.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -237206,7 +237334,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Comparativi e superlativi",
+          "definition": "Práctica guiada de Comparativi e superlativi.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -237724,7 +237860,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Futuro semplice",
+          "definition": "Práctica guiada de Futuro semplice.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -238242,7 +238386,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Verbi riflessivi",
+          "definition": "Práctica guiada de Verbi riflessivi.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -238760,7 +238912,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Ci e ne",
+          "definition": "Práctica guiada de Ci e ne.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -239278,7 +239438,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Preposizioni e movimento",
+          "definition": "Práctica guiada de Preposizioni e movimento.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -239796,7 +239964,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Condizionale di cortesia",
+          "definition": "Práctica guiada de Condizionale di cortesia.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -240314,7 +240490,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Congiunzioni di causa e conseguenza",
+          "definition": "Práctica guiada de Congiunzioni di causa e conseguenza.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -240832,7 +241016,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Racconto al passato: passato prossimo e imperfetto",
+          "definition": "Práctica guiada de Racconto al passato: passato prossimo e imperfetto.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -241338,7 +241530,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Ser e estar",
+          "definition": "Práctica guiada de Ser e estar.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -241844,7 +242044,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Artigos e gostaria de",
+          "definition": "Práctica guiada de Artigos e gostaria de.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -242350,7 +242558,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Possessivos e plural",
+          "definition": "Práctica guiada de Possessivos e plural.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -242856,7 +243072,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Há / tem e quantidades",
+          "definition": "Práctica guiada de Há / tem e quantidades.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -243362,7 +243586,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Ir e preposições",
+          "definition": "Práctica guiada de Ir e preposições.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -243868,7 +244100,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Presente dos verbos regulares",
+          "definition": "Práctica guiada de Presente dos verbos regulares.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -244374,7 +244614,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Morar, estar e adjetivos",
+          "definition": "Práctica guiada de Morar, estar e adjetivos.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -244880,7 +245128,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Tempo, fazer e estações",
+          "definition": "Práctica guiada de Tempo, fazer e estações.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -245386,7 +245642,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Pretérito perfeito introdutório",
+          "definition": "Práctica guiada de Pretérito perfeito introdutório.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -245892,7 +246156,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Por / para e transporte",
+          "definition": "Práctica guiada de Por / para e transporte.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -246398,7 +246670,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Partitivos e comida",
+          "definition": "Práctica guiada de Partitivos e comida.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -246904,7 +247184,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Mensagens no presente",
+          "definition": "Práctica guiada de Mensagens no presente.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -247422,7 +247710,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Pretérito perfeito",
+          "definition": "Práctica guiada de Pretérito perfeito.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -247940,7 +248236,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Pretérito imperfeito",
+          "definition": "Práctica guiada de Pretérito imperfeito.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -248458,7 +248762,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Pronomes diretos",
+          "definition": "Práctica guiada de Pronomes diretos.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -248976,7 +249288,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Futuro próximo e planos",
+          "definition": "Práctica guiada de Futuro próximo e planos.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -249494,7 +249814,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Comparativos e superlativos",
+          "definition": "Práctica guiada de Comparativos e superlativos.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -250012,7 +250340,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Futuro do presente",
+          "definition": "Práctica guiada de Futuro do presente.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -250530,7 +250866,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Verbos reflexivos",
+          "definition": "Práctica guiada de Verbos reflexivos.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -251048,7 +251392,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Pretérito perfeito e imperfeito",
+          "definition": "Práctica guiada de Pretérito perfeito e imperfeito.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -251566,7 +251918,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Conectores de tempo",
+          "definition": "Práctica guiada de Conectores de tempo.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -252084,7 +252444,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Condicional de cortesia",
+          "definition": "Práctica guiada de Condicional de cortesia.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -252602,7 +252970,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Subjuntivo presente introdutório",
+          "definition": "Práctica guiada de Subjuntivo presente introdutório.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -253120,7 +253496,15 @@
           "answer": 0
         }
       ],
-      "xp_reward": 20
+      "xp_reward": 20,
+      "extra": {
+        "grammarProfile": {
+          "name": "Narrativa no passado",
+          "definition": "Práctica guiada de Narrativa no passado.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -253479,7 +253863,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Periodo ipotetico della possibilità",
+          "definition": "Práctica guiada de Periodo ipotetico della possibilità.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -253932,7 +254324,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Pronomi combinati",
+          "definition": "Práctica guiada de Pronomi combinati.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -254385,7 +254785,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Congiuntivo presente",
+          "definition": "Práctica guiada de Congiuntivo presente.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -254838,7 +255246,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Discorso indiretto",
+          "definition": "Práctica guiada de Discorso indiretto.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -255291,7 +255707,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Passivo e si impersonale",
+          "definition": "Práctica guiada de Passivo e si impersonale.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -255744,7 +256168,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Trapassato prossimo",
+          "definition": "Práctica guiada de Trapassato prossimo.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -256197,7 +256629,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Connettori argomentativi",
+          "definition": "Práctica guiada de Connettori argomentativi.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -256650,7 +257090,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Congiuntivo con opinione e dubbio",
+          "definition": "Práctica guiada de Congiuntivo con opinione e dubbio.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -257103,7 +257551,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Comparativi complessi",
+          "definition": "Práctica guiada de Comparativi complessi.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -257556,7 +258012,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Futuro anteriore e supposizioni",
+          "definition": "Práctica guiada de Futuro anteriore e supposizioni.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -258009,7 +258473,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Período condicional",
+          "definition": "Práctica guiada de Período condicional.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -258462,7 +258934,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Pronomes oblíquos",
+          "definition": "Práctica guiada de Pronomes oblíquos.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -258915,7 +259395,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Subjuntivo presente",
+          "definition": "Práctica guiada de Subjuntivo presente.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -259368,7 +259856,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Discurso indireto",
+          "definition": "Práctica guiada de Discurso indireto.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -259821,7 +260317,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Voz passiva e índice de indeterminação",
+          "definition": "Práctica guiada de Voz passiva e índice de indeterminação.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -260274,7 +260778,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Mais-que-perfeito e narrativa",
+          "definition": "Práctica guiada de Mais-que-perfeito e narrativa.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -260727,7 +261239,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Conectores argumentativos",
+          "definition": "Práctica guiada de Conectores argumentativos.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -261180,7 +261700,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Subjuntivo e opinião",
+          "definition": "Práctica guiada de Subjuntivo e opinião.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -261633,7 +262161,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Comparação e consequência",
+          "definition": "Práctica guiada de Comparação e consequência.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -262086,7 +262622,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Futuro do subjuntivo",
+          "definition": "Práctica guiada de Futuro do subjuntivo.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -262527,7 +263071,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "sein, haben und Personalpronomen",
+          "definition": "Práctica guiada de sein, haben und Personalpronomen.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -262968,7 +263520,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "möchten, bestellen und Akkusativ",
+          "definition": "Práctica guiada de möchten, bestellen und Akkusativ.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -263409,7 +263969,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Possessivartikel und Plural",
+          "definition": "Práctica guiada de Possessivartikel und Plural.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -263850,7 +264418,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "kein / nicht und Mengenangaben",
+          "definition": "Práctica guiada de kein / nicht und Mengenangaben.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -264291,7 +264867,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Modalverb können und Wegbeschreibung",
+          "definition": "Práctica guiada de Modalverb können und Wegbeschreibung.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -264732,7 +265316,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Präsens trennbarer Verben",
+          "definition": "Práctica guiada de Präsens trennbarer Verben.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -265173,7 +265765,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Akkusativartikel im Alltag",
+          "definition": "Práctica guiada de Akkusativartikel im Alltag.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -265614,7 +266214,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Wetter, es gibt und Zeitangaben",
+          "definition": "Práctica guiada de Wetter, es gibt und Zeitangaben.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -266055,7 +266663,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "gern, lieber und Freizeit",
+          "definition": "Práctica guiada de gern, lieber und Freizeit.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -266496,7 +267112,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Perfekt mit haben",
+          "definition": "Práctica guiada de Perfekt mit haben.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -266949,7 +267573,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Perfekt und Zeitangaben",
+          "definition": "Práctica guiada de Perfekt und Zeitangaben.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -267402,7 +268034,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Wechselpräpositionen",
+          "definition": "Práctica guiada de Wechselpräpositionen.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -267855,7 +268495,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Modalverben im Präteritum",
+          "definition": "Práctica guiada de Modalverben im Präteritum.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -268308,7 +268956,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Nebensätze mit weil und dass",
+          "definition": "Práctica guiada de Nebensätze mit weil und dass.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -268761,7 +269417,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Perfekt mit sein",
+          "definition": "Práctica guiada de Perfekt mit sein.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -269214,7 +269878,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Dativ und Akkusativ",
+          "definition": "Práctica guiada de Dativ und Akkusativ.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -269667,7 +270339,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Komparativ und Superlativ",
+          "definition": "Práctica guiada de Komparativ und Superlativ.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -270120,7 +270800,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Reflexive Verben",
+          "definition": "Práctica guiada de Reflexive Verben.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -270573,7 +271261,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "zu + Infinitiv",
+          "definition": "Práctica guiada de zu + Infinitiv.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -271026,7 +271722,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Konjunktiv II: höfliche Bitten",
+          "definition": "Práctica guiada de Konjunktiv II: höfliche Bitten.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -271479,7 +272183,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Konjunktiv II für Wünsche",
+          "definition": "Práctica guiada de Konjunktiv II für Wünsche.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -271932,7 +272644,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Relativsätze",
+          "definition": "Práctica guiada de Relativsätze.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -272385,7 +273105,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Passiv im Präsens",
+          "definition": "Práctica guiada de Passiv im Präsens.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -272838,7 +273566,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Indirekte Fragen",
+          "definition": "Práctica guiada de Indirekte Fragen.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -273291,7 +274027,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Konnektoren: obwohl, trotzdem und daher",
+          "definition": "Práctica guiada de Konnektoren: obwohl, trotzdem und daher.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -273744,7 +274488,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Plusquamperfekt",
+          "definition": "Práctica guiada de Plusquamperfekt.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -274197,7 +274949,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Partizipien als Adjektive",
+          "definition": "Práctica guiada de Partizipien als Adjektive.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -274650,7 +275410,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Meinung und Argumentation",
+          "definition": "Práctica guiada de Meinung und Argumentation.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -275103,7 +275871,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Futur I und Vermutungen",
+          "definition": "Práctica guiada de Futur I und Vermutungen.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -275556,7 +276332,15 @@
           ],
           "answer": 0
         }
-      ]
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Verben mit Präpositionen",
+          "definition": "Práctica guiada de Verben mit Präpositionen.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
     }
   },
   {
@@ -275708,6 +276492,4592 @@
             "Ausbildung",
             "hoffen",
             "Wahl"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "slug": "italian-b1-relazioni-e-comunicazione-reading",
+    "target_language": "italian",
+    "level": "B1",
+    "skill": "reading",
+    "unit_slug": "relazioni-e-comunicazione",
+    "title": "Relazioni e comunicazione: lectura",
+    "description": "expresar relaciones, opiniones y mensajes referidos",
+    "order_index": 110,
+    "estimated_minutes": 12,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Italiano",
+      "language_key": "italian",
+      "level_title": "Italiano B1",
+      "intro": "expresar relaciones, opiniones y mensajes referidos",
+      "mission": "expresar relaciones, opiniones y mensajes referidos",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Impariamo: relazione.",
+        "Impariamo: ascoltare.",
+        "Impariamo: spiegare.",
+        "Impariamo: messaggio."
+      ],
+      "vocabulary": [
+        {
+          "word": "relazione",
+          "translation": "Palabra clave 1",
+          "example": "Uso la parola «relazione» nel contesto."
+        },
+        {
+          "word": "ascoltare",
+          "translation": "Palabra clave 2",
+          "example": "Uso la parola «ascoltare» nel contesto."
+        },
+        {
+          "word": "spiegare",
+          "translation": "Palabra clave 3",
+          "example": "Uso la parola «spiegare» nel contesto."
+        },
+        {
+          "word": "messaggio",
+          "translation": "Palabra clave 4",
+          "example": "Uso la parola «messaggio» nel contesto."
+        },
+        {
+          "word": "accordo",
+          "translation": "Palabra clave 5",
+          "example": "Uso la parola «accordo» nel contesto."
+        },
+        {
+          "word": "fiducia",
+          "translation": "Palabra clave 6",
+          "example": "Uso la parola «fiducia» nel contesto."
+        },
+        {
+          "word": "conversazione",
+          "translation": "Palabra clave 7",
+          "example": "Uso la parola «conversazione» nel contesto."
+        },
+        {
+          "word": "opinione",
+          "translation": "Palabra clave 8",
+          "example": "Uso la parola «opinione» nel contesto."
+        },
+        {
+          "word": "chiarire",
+          "translation": "Palabra clave 9",
+          "example": "Uso la parola «chiarire» nel contesto."
+        },
+        {
+          "word": "rispettare",
+          "translation": "Palabra clave 10",
+          "example": "Uso la parola «rispettare» nel contesto."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "reading": {
+        "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+        "questions": [
+          "Di che cosa parla il gruppo?",
+          "Che cosa fa ogni persona?",
+          "Perché decidono di collaborare?",
+          "Quale idea aiuta nella vita quotidiana?"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Di che cosa parla il gruppo?",
+          "options": [
+            "relazione",
+            "opinione",
+            "chiarire",
+            "rispettare"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Che cosa fa ogni persona?",
+          "options": [
+            "Cuenta una experiencia, escucha y propone una solución.",
+            "Compra una entrada para un evento.",
+            "No escucha a las otras personas.",
+            "Cancela el proyecto."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Perché decidono di collaborare?",
+          "options": [
+            "Porque tienen un objetivo claro.",
+            "Porque no tienen tiempo.",
+            "Porque no conocen el tema.",
+            "Porque prefieren trabajar solos."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Quale idea aiuta nella vita quotidiana?",
+          "options": [
+            "Una solución concreta y colaborativa.",
+            "Una lista sin contexto.",
+            "Una discusión sin objetivo.",
+            "Una decisión individual."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "italian-b1-relazioni-e-comunicazione-reading-comprehension-5",
+          "type": "mcq",
+          "prompt": "Qual è lo scopo principale di «Relazioni e comunicazione: lectura»?",
+          "options": [
+            "Presentare le idee e i dettagli essenziali di Relazioni e comunicazione: lectura",
+            "Presentare un argomento non correlato",
+            "Fornire un elenco senza contesto",
+            "Raccontare una storia senza legame con il tema"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
+    "slug": "italian-b1-relazioni-e-comunicazione-grammar",
+    "target_language": "italian",
+    "level": "B1",
+    "skill": "grammar",
+    "unit_slug": "relazioni-e-comunicazione",
+    "title": "Relazioni e comunicazione: grammatica",
+    "description": "expresar relaciones, opiniones y mensajes referidos",
+    "order_index": 111,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Italiano",
+      "language_key": "italian",
+      "level_title": "Italiano B1",
+      "intro": "expresar relaciones, opiniones y mensajes referidos",
+      "mission": "expresar relaciones, opiniones y mensajes referidos",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Impariamo: relazione.",
+        "Impariamo: ascoltare.",
+        "Impariamo: spiegare.",
+        "Impariamo: messaggio."
+      ],
+      "vocabulary": [
+        {
+          "word": "relazione",
+          "translation": "Palabra clave 1",
+          "example": "Uso la parola «relazione» nel contesto."
+        },
+        {
+          "word": "ascoltare",
+          "translation": "Palabra clave 2",
+          "example": "Uso la parola «ascoltare» nel contesto."
+        },
+        {
+          "word": "spiegare",
+          "translation": "Palabra clave 3",
+          "example": "Uso la parola «spiegare» nel contesto."
+        },
+        {
+          "word": "messaggio",
+          "translation": "Palabra clave 4",
+          "example": "Uso la parola «messaggio» nel contesto."
+        },
+        {
+          "word": "accordo",
+          "translation": "Palabra clave 5",
+          "example": "Uso la parola «accordo» nel contesto."
+        },
+        {
+          "word": "fiducia",
+          "translation": "Palabra clave 6",
+          "example": "Uso la parola «fiducia» nel contesto."
+        },
+        {
+          "word": "conversazione",
+          "translation": "Palabra clave 7",
+          "example": "Uso la parola «conversazione» nel contesto."
+        },
+        {
+          "word": "opinione",
+          "translation": "Palabra clave 8",
+          "example": "Uso la parola «opinione» nel contesto."
+        },
+        {
+          "word": "chiarire",
+          "translation": "Palabra clave 9",
+          "example": "Uso la parola «chiarire» nel contesto."
+        },
+        {
+          "word": "rispettare",
+          "translation": "Palabra clave 10",
+          "example": "Uso la parola «rispettare» nel contesto."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Quale frase usa «relazione» in modo corretto?",
+          "options": [
+            "Il gruppo parla di relazione.",
+            "Il gruppo relazione parla di.",
+            "relazione il di gruppo parla.",
+            "Parla gruppo il relazione di."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Quale frase usa «ascoltare» in modo corretto?",
+          "options": [
+            "Il gruppo ascoltare parla di.",
+            "Il gruppo parla di ascoltare.",
+            "ascoltare il di gruppo parla.",
+            "Parla gruppo il ascoltare di."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Quale frase usa «spiegare» in modo corretto?",
+          "options": [
+            "spiegare il di gruppo parla.",
+            "Il gruppo spiegare parla di.",
+            "Il gruppo parla di spiegare.",
+            "Parla gruppo il spiegare di."
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Quale frase usa «messaggio» in modo corretto?",
+          "options": [
+            "Parla gruppo il messaggio di.",
+            "Il gruppo messaggio parla di.",
+            "messaggio il di gruppo parla.",
+            "Il gruppo parla di messaggio."
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Quale frase usa «accordo» in modo corretto?",
+          "options": [
+            "Il gruppo parla di accordo.",
+            "Il gruppo accordo parla di.",
+            "accordo il di gruppo parla.",
+            "Parla gruppo il accordo di."
+          ],
+          "answer": 0
+        }
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Relativi e comunicazione",
+          "definition": "Práctica guiada de Relativi e comunicazione.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
+    }
+  },
+  {
+    "slug": "italian-b1-relazioni-e-comunicazione-vocabulary",
+    "target_language": "italian",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unit_slug": "relazioni-e-comunicazione",
+    "title": "Relazioni e comunicazione: parole",
+    "description": "expresar relaciones, opiniones y mensajes referidos",
+    "order_index": 112,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Italiano",
+      "language_key": "italian",
+      "level_title": "Italiano B1",
+      "intro": "expresar relaciones, opiniones y mensajes referidos",
+      "mission": "expresar relaciones, opiniones y mensajes referidos",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Impariamo: relazione.",
+        "Impariamo: ascoltare.",
+        "Impariamo: spiegare.",
+        "Impariamo: messaggio."
+      ],
+      "vocabulary": [
+        {
+          "word": "relazione",
+          "translation": "Palabra clave 1",
+          "example": "Uso la parola «relazione» nel contesto."
+        },
+        {
+          "word": "ascoltare",
+          "translation": "Palabra clave 2",
+          "example": "Uso la parola «ascoltare» nel contesto."
+        },
+        {
+          "word": "spiegare",
+          "translation": "Palabra clave 3",
+          "example": "Uso la parola «spiegare» nel contesto."
+        },
+        {
+          "word": "messaggio",
+          "translation": "Palabra clave 4",
+          "example": "Uso la parola «messaggio» nel contesto."
+        },
+        {
+          "word": "accordo",
+          "translation": "Palabra clave 5",
+          "example": "Uso la parola «accordo» nel contesto."
+        },
+        {
+          "word": "fiducia",
+          "translation": "Palabra clave 6",
+          "example": "Uso la parola «fiducia» nel contesto."
+        },
+        {
+          "word": "conversazione",
+          "translation": "Palabra clave 7",
+          "example": "Uso la parola «conversazione» nel contesto."
+        },
+        {
+          "word": "opinione",
+          "translation": "Palabra clave 8",
+          "example": "Uso la parola «opinione» nel contesto."
+        },
+        {
+          "word": "chiarire",
+          "translation": "Palabra clave 9",
+          "example": "Uso la parola «chiarire» nel contesto."
+        },
+        {
+          "word": "rispettare",
+          "translation": "Palabra clave 10",
+          "example": "Uso la parola «rispettare» nel contesto."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "relazione",
+            "ascoltare",
+            "spiegare",
+            "messaggio"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "spiegare",
+            "ascoltare",
+            "messaggio",
+            "accordo"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "accordo",
+            "messaggio",
+            "spiegare",
+            "fiducia"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "conversazione",
+            "accordo",
+            "fiducia",
+            "messaggio"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "accordo",
+            "fiducia",
+            "conversazione",
+            "opinione"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "conversazione",
+            "fiducia",
+            "opinione",
+            "chiarire"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "slug": "italian-b1-cittadinanza-e-partecipazione-reading",
+    "target_language": "italian",
+    "level": "B1",
+    "skill": "reading",
+    "unit_slug": "cittadinanza-e-partecipazione",
+    "title": "Cittadinanza e partecipazione: lectura",
+    "description": "proponer acciones y participar en la comunidad",
+    "order_index": 120,
+    "estimated_minutes": 12,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Italiano",
+      "language_key": "italian",
+      "level_title": "Italiano B1",
+      "intro": "proponer acciones y participar en la comunidad",
+      "mission": "proponer acciones y participar en la comunidad",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Impariamo: cittadinanza.",
+        "Impariamo: partecipare.",
+        "Impariamo: diritto.",
+        "Impariamo: proposta."
+      ],
+      "vocabulary": [
+        {
+          "word": "cittadinanza",
+          "translation": "Palabra clave 1",
+          "example": "Uso la parola «cittadinanza» nel contesto."
+        },
+        {
+          "word": "partecipare",
+          "translation": "Palabra clave 2",
+          "example": "Uso la parola «partecipare» nel contesto."
+        },
+        {
+          "word": "diritto",
+          "translation": "Palabra clave 3",
+          "example": "Uso la parola «diritto» nel contesto."
+        },
+        {
+          "word": "proposta",
+          "translation": "Palabra clave 4",
+          "example": "Uso la parola «proposta» nel contesto."
+        },
+        {
+          "word": "comunità",
+          "translation": "Palabra clave 5",
+          "example": "Uso la parola «comunità» nel contesto."
+        },
+        {
+          "word": "scegliere",
+          "translation": "Palabra clave 6",
+          "example": "Uso la parola «scegliere» nel contesto."
+        },
+        {
+          "word": "volontario",
+          "translation": "Palabra clave 7",
+          "example": "Uso la parola «volontario» nel contesto."
+        },
+        {
+          "word": "iniziativa",
+          "translation": "Palabra clave 8",
+          "example": "Uso la parola «iniziativa» nel contesto."
+        },
+        {
+          "word": "migliorare",
+          "translation": "Palabra clave 9",
+          "example": "Uso la parola «migliorare» nel contesto."
+        },
+        {
+          "word": "responsabilità",
+          "translation": "Palabra clave 10",
+          "example": "Uso la parola «responsabilità» nel contesto."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "reading": {
+        "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+        "questions": [
+          "Di che cosa parla il gruppo?",
+          "Che cosa fa ogni persona?",
+          "Perché decidono di collaborare?",
+          "Quale idea aiuta nella vita quotidiana?"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Di che cosa parla il gruppo?",
+          "options": [
+            "cittadinanza",
+            "iniziativa",
+            "migliorare",
+            "responsabilità"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Che cosa fa ogni persona?",
+          "options": [
+            "Cuenta una experiencia, escucha y propone una solución.",
+            "Compra una entrada para un evento.",
+            "No escucha a las otras personas.",
+            "Cancela el proyecto."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Perché decidono di collaborare?",
+          "options": [
+            "Porque tienen un objetivo claro.",
+            "Porque no tienen tiempo.",
+            "Porque no conocen el tema.",
+            "Porque prefieren trabajar solos."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Quale idea aiuta nella vita quotidiana?",
+          "options": [
+            "Una solución concreta y colaborativa.",
+            "Una lista sin contexto.",
+            "Una discusión sin objetivo.",
+            "Una decisión individual."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "italian-b1-cittadinanza-e-partecipazione-reading-comprehension-5",
+          "type": "mcq",
+          "prompt": "Qual è lo scopo principale di «Cittadinanza e partecipazione: lectura»?",
+          "options": [
+            "Presentare le idee e i dettagli essenziali di Cittadinanza e partecipazione: lectura",
+            "Presentare un argomento non correlato",
+            "Fornire un elenco senza contesto",
+            "Raccontare una storia senza legame con il tema"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
+    "slug": "italian-b1-cittadinanza-e-partecipazione-grammar",
+    "target_language": "italian",
+    "level": "B1",
+    "skill": "grammar",
+    "unit_slug": "cittadinanza-e-partecipazione",
+    "title": "Cittadinanza e partecipazione: grammatica",
+    "description": "proponer acciones y participar en la comunidad",
+    "order_index": 121,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Italiano",
+      "language_key": "italian",
+      "level_title": "Italiano B1",
+      "intro": "proponer acciones y participar en la comunidad",
+      "mission": "proponer acciones y participar en la comunidad",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Impariamo: cittadinanza.",
+        "Impariamo: partecipare.",
+        "Impariamo: diritto.",
+        "Impariamo: proposta."
+      ],
+      "vocabulary": [
+        {
+          "word": "cittadinanza",
+          "translation": "Palabra clave 1",
+          "example": "Uso la parola «cittadinanza» nel contesto."
+        },
+        {
+          "word": "partecipare",
+          "translation": "Palabra clave 2",
+          "example": "Uso la parola «partecipare» nel contesto."
+        },
+        {
+          "word": "diritto",
+          "translation": "Palabra clave 3",
+          "example": "Uso la parola «diritto» nel contesto."
+        },
+        {
+          "word": "proposta",
+          "translation": "Palabra clave 4",
+          "example": "Uso la parola «proposta» nel contesto."
+        },
+        {
+          "word": "comunità",
+          "translation": "Palabra clave 5",
+          "example": "Uso la parola «comunità» nel contesto."
+        },
+        {
+          "word": "scegliere",
+          "translation": "Palabra clave 6",
+          "example": "Uso la parola «scegliere» nel contesto."
+        },
+        {
+          "word": "volontario",
+          "translation": "Palabra clave 7",
+          "example": "Uso la parola «volontario» nel contesto."
+        },
+        {
+          "word": "iniziativa",
+          "translation": "Palabra clave 8",
+          "example": "Uso la parola «iniziativa» nel contesto."
+        },
+        {
+          "word": "migliorare",
+          "translation": "Palabra clave 9",
+          "example": "Uso la parola «migliorare» nel contesto."
+        },
+        {
+          "word": "responsabilità",
+          "translation": "Palabra clave 10",
+          "example": "Uso la parola «responsabilità» nel contesto."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Quale frase usa «cittadinanza» in modo corretto?",
+          "options": [
+            "Il gruppo parla di cittadinanza.",
+            "Il gruppo cittadinanza parla di.",
+            "cittadinanza il di gruppo parla.",
+            "Parla gruppo il cittadinanza di."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Quale frase usa «partecipare» in modo corretto?",
+          "options": [
+            "Il gruppo partecipare parla di.",
+            "Il gruppo parla di partecipare.",
+            "partecipare il di gruppo parla.",
+            "Parla gruppo il partecipare di."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Quale frase usa «diritto» in modo corretto?",
+          "options": [
+            "diritto il di gruppo parla.",
+            "Il gruppo diritto parla di.",
+            "Il gruppo parla di diritto.",
+            "Parla gruppo il diritto di."
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Quale frase usa «proposta» in modo corretto?",
+          "options": [
+            "Parla gruppo il proposta di.",
+            "Il gruppo proposta parla di.",
+            "proposta il di gruppo parla.",
+            "Il gruppo parla di proposta."
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Quale frase usa «comunità» in modo corretto?",
+          "options": [
+            "Il gruppo parla di comunità.",
+            "Il gruppo comunità parla di.",
+            "comunità il di gruppo parla.",
+            "Parla gruppo il comunità di."
+          ],
+          "answer": 0
+        }
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Cittadinanza: congiuntivo e proposte",
+          "definition": "Práctica guiada de Cittadinanza: congiuntivo e proposte.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
+    }
+  },
+  {
+    "slug": "italian-b1-cittadinanza-e-partecipazione-vocabulary",
+    "target_language": "italian",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unit_slug": "cittadinanza-e-partecipazione",
+    "title": "Cittadinanza e partecipazione: parole",
+    "description": "proponer acciones y participar en la comunidad",
+    "order_index": 122,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Italiano",
+      "language_key": "italian",
+      "level_title": "Italiano B1",
+      "intro": "proponer acciones y participar en la comunidad",
+      "mission": "proponer acciones y participar en la comunidad",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Impariamo: cittadinanza.",
+        "Impariamo: partecipare.",
+        "Impariamo: diritto.",
+        "Impariamo: proposta."
+      ],
+      "vocabulary": [
+        {
+          "word": "cittadinanza",
+          "translation": "Palabra clave 1",
+          "example": "Uso la parola «cittadinanza» nel contesto."
+        },
+        {
+          "word": "partecipare",
+          "translation": "Palabra clave 2",
+          "example": "Uso la parola «partecipare» nel contesto."
+        },
+        {
+          "word": "diritto",
+          "translation": "Palabra clave 3",
+          "example": "Uso la parola «diritto» nel contesto."
+        },
+        {
+          "word": "proposta",
+          "translation": "Palabra clave 4",
+          "example": "Uso la parola «proposta» nel contesto."
+        },
+        {
+          "word": "comunità",
+          "translation": "Palabra clave 5",
+          "example": "Uso la parola «comunità» nel contesto."
+        },
+        {
+          "word": "scegliere",
+          "translation": "Palabra clave 6",
+          "example": "Uso la parola «scegliere» nel contesto."
+        },
+        {
+          "word": "volontario",
+          "translation": "Palabra clave 7",
+          "example": "Uso la parola «volontario» nel contesto."
+        },
+        {
+          "word": "iniziativa",
+          "translation": "Palabra clave 8",
+          "example": "Uso la parola «iniziativa» nel contesto."
+        },
+        {
+          "word": "migliorare",
+          "translation": "Palabra clave 9",
+          "example": "Uso la parola «migliorare» nel contesto."
+        },
+        {
+          "word": "responsabilità",
+          "translation": "Palabra clave 10",
+          "example": "Uso la parola «responsabilità» nel contesto."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "cittadinanza",
+            "partecipare",
+            "diritto",
+            "proposta"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "diritto",
+            "partecipare",
+            "proposta",
+            "comunità"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "comunità",
+            "proposta",
+            "diritto",
+            "scegliere"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "volontario",
+            "comunità",
+            "scegliere",
+            "proposta"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "comunità",
+            "scegliere",
+            "volontario",
+            "iniziativa"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "volontario",
+            "scegliere",
+            "iniziativa",
+            "migliorare"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "slug": "portuguese-b1-relacoes-e-comunicacao-reading",
+    "target_language": "portuguese",
+    "level": "B1",
+    "skill": "reading",
+    "unit_slug": "relacoes-e-comunicacao",
+    "title": "Relações e comunicação: lectura",
+    "description": "expressar relações, opiniões e mensagens relatadas",
+    "order_index": 110,
+    "estimated_minutes": 12,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Português (Brasil)",
+      "language_key": "portuguese",
+      "level_title": "Português (Brasil) B1",
+      "intro": "expressar relações, opiniões e mensagens relatadas",
+      "mission": "expressar relações, opiniões e mensagens relatadas",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Aprendemos: relação.",
+        "Aprendemos: escutar.",
+        "Aprendemos: explicar.",
+        "Aprendemos: mensagem."
+      ],
+      "vocabulary": [
+        {
+          "word": "relação",
+          "translation": "Palabra clave 1",
+          "example": "Uso a palavra «relação» no contexto."
+        },
+        {
+          "word": "escutar",
+          "translation": "Palabra clave 2",
+          "example": "Uso a palavra «escutar» no contexto."
+        },
+        {
+          "word": "explicar",
+          "translation": "Palabra clave 3",
+          "example": "Uso a palavra «explicar» no contexto."
+        },
+        {
+          "word": "mensagem",
+          "translation": "Palabra clave 4",
+          "example": "Uso a palavra «mensagem» no contexto."
+        },
+        {
+          "word": "acordo",
+          "translation": "Palabra clave 5",
+          "example": "Uso a palavra «acordo» no contexto."
+        },
+        {
+          "word": "confiança",
+          "translation": "Palabra clave 6",
+          "example": "Uso a palavra «confiança» no contexto."
+        },
+        {
+          "word": "conversa",
+          "translation": "Palabra clave 7",
+          "example": "Uso a palavra «conversa» no contexto."
+        },
+        {
+          "word": "opinião",
+          "translation": "Palabra clave 8",
+          "example": "Uso a palavra «opinião» no contexto."
+        },
+        {
+          "word": "esclarecer",
+          "translation": "Palabra clave 9",
+          "example": "Uso a palavra «esclarecer» no contexto."
+        },
+        {
+          "word": "respeitar",
+          "translation": "Palabra clave 10",
+          "example": "Uso a palavra «respeitar» no contexto."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "reading": {
+        "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+        "questions": [
+          "Sobre o que o grupo conversa?",
+          "O que cada pessoa faz?",
+          "Por que decidem colaborar?",
+          "Que ideia ajuda na vida cotidiana?"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Sobre o que o grupo conversa?",
+          "options": [
+            "relação",
+            "opinião",
+            "esclarecer",
+            "respeitar"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "O que cada pessoa faz?",
+          "options": [
+            "Cuenta una experiencia, escucha y propone una solución.",
+            "Compra una entrada para un evento.",
+            "No escucha a las otras personas.",
+            "Cancela el proyecto."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Por que decidem colaborar?",
+          "options": [
+            "Porque tienen un objetivo claro.",
+            "Porque no tienen tiempo.",
+            "Porque no conocen el tema.",
+            "Porque prefieren trabajar solos."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Que ideia ajuda na vida cotidiana?",
+          "options": [
+            "Una solución concreta y colaborativa.",
+            "Una lista sin contexto.",
+            "Una discusión sin objetivo.",
+            "Una decisión individual."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "portuguese-b1-relacoes-e-comunicacao-reading-comprehension-5",
+          "type": "mcq",
+          "prompt": "What is the main purpose of “Relações e comunicação: lectura”?",
+          "options": [
+            "To explain the central ideas and details of Relações e comunicação: lectura",
+            "To discuss an unrelated topic",
+            "To provide a list without context",
+            "To tell a story with no connection to the topic"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
+    "slug": "portuguese-b1-relacoes-e-comunicacao-grammar",
+    "target_language": "portuguese",
+    "level": "B1",
+    "skill": "grammar",
+    "unit_slug": "relacoes-e-comunicacao",
+    "title": "Relações e comunicação: gramática",
+    "description": "expressar relações, opiniões e mensagens relatadas",
+    "order_index": 111,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Português (Brasil)",
+      "language_key": "portuguese",
+      "level_title": "Português (Brasil) B1",
+      "intro": "expressar relações, opiniões e mensagens relatadas",
+      "mission": "expressar relações, opiniões e mensagens relatadas",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Aprendemos: relação.",
+        "Aprendemos: escutar.",
+        "Aprendemos: explicar.",
+        "Aprendemos: mensagem."
+      ],
+      "vocabulary": [
+        {
+          "word": "relação",
+          "translation": "Palabra clave 1",
+          "example": "Uso a palavra «relação» no contexto."
+        },
+        {
+          "word": "escutar",
+          "translation": "Palabra clave 2",
+          "example": "Uso a palavra «escutar» no contexto."
+        },
+        {
+          "word": "explicar",
+          "translation": "Palabra clave 3",
+          "example": "Uso a palavra «explicar» no contexto."
+        },
+        {
+          "word": "mensagem",
+          "translation": "Palabra clave 4",
+          "example": "Uso a palavra «mensagem» no contexto."
+        },
+        {
+          "word": "acordo",
+          "translation": "Palabra clave 5",
+          "example": "Uso a palavra «acordo» no contexto."
+        },
+        {
+          "word": "confiança",
+          "translation": "Palabra clave 6",
+          "example": "Uso a palavra «confiança» no contexto."
+        },
+        {
+          "word": "conversa",
+          "translation": "Palabra clave 7",
+          "example": "Uso a palavra «conversa» no contexto."
+        },
+        {
+          "word": "opinião",
+          "translation": "Palabra clave 8",
+          "example": "Uso a palavra «opinião» no contexto."
+        },
+        {
+          "word": "esclarecer",
+          "translation": "Palabra clave 9",
+          "example": "Uso a palavra «esclarecer» no contexto."
+        },
+        {
+          "word": "respeitar",
+          "translation": "Palabra clave 10",
+          "example": "Uso a palavra «respeitar» no contexto."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Qual frase usa «relação» corretamente?",
+          "options": [
+            "O grupo fala sobre relação.",
+            "O grupo relação fala sobre.",
+            "relação o sobre grupo fala.",
+            "Fala grupo o relação sobre."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Qual frase usa «escutar» corretamente?",
+          "options": [
+            "O grupo escutar fala sobre.",
+            "O grupo fala sobre escutar.",
+            "escutar o sobre grupo fala.",
+            "Fala grupo o escutar sobre."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Qual frase usa «explicar» corretamente?",
+          "options": [
+            "explicar o sobre grupo fala.",
+            "O grupo explicar fala sobre.",
+            "O grupo fala sobre explicar.",
+            "Fala grupo o explicar sobre."
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Qual frase usa «mensagem» corretamente?",
+          "options": [
+            "Fala grupo o mensagem sobre.",
+            "O grupo mensagem fala sobre.",
+            "mensagem o sobre grupo fala.",
+            "O grupo fala sobre mensagem."
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Qual frase usa «acordo» corretamente?",
+          "options": [
+            "O grupo fala sobre acordo.",
+            "O grupo acordo fala sobre.",
+            "acordo o sobre grupo fala.",
+            "Fala grupo o acordo sobre."
+          ],
+          "answer": 0
+        }
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Relações: pronomes e discurso indireto",
+          "definition": "Práctica guiada de Relações: pronomes e discurso indireto.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
+    }
+  },
+  {
+    "slug": "portuguese-b1-relacoes-e-comunicacao-vocabulary",
+    "target_language": "portuguese",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unit_slug": "relacoes-e-comunicacao",
+    "title": "Relações e comunicação: palavras",
+    "description": "expressar relações, opiniões e mensagens relatadas",
+    "order_index": 112,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Português (Brasil)",
+      "language_key": "portuguese",
+      "level_title": "Português (Brasil) B1",
+      "intro": "expressar relações, opiniões e mensagens relatadas",
+      "mission": "expressar relações, opiniões e mensagens relatadas",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Aprendemos: relação.",
+        "Aprendemos: escutar.",
+        "Aprendemos: explicar.",
+        "Aprendemos: mensagem."
+      ],
+      "vocabulary": [
+        {
+          "word": "relação",
+          "translation": "Palabra clave 1",
+          "example": "Uso a palavra «relação» no contexto."
+        },
+        {
+          "word": "escutar",
+          "translation": "Palabra clave 2",
+          "example": "Uso a palavra «escutar» no contexto."
+        },
+        {
+          "word": "explicar",
+          "translation": "Palabra clave 3",
+          "example": "Uso a palavra «explicar» no contexto."
+        },
+        {
+          "word": "mensagem",
+          "translation": "Palabra clave 4",
+          "example": "Uso a palavra «mensagem» no contexto."
+        },
+        {
+          "word": "acordo",
+          "translation": "Palabra clave 5",
+          "example": "Uso a palavra «acordo» no contexto."
+        },
+        {
+          "word": "confiança",
+          "translation": "Palabra clave 6",
+          "example": "Uso a palavra «confiança» no contexto."
+        },
+        {
+          "word": "conversa",
+          "translation": "Palabra clave 7",
+          "example": "Uso a palavra «conversa» no contexto."
+        },
+        {
+          "word": "opinião",
+          "translation": "Palabra clave 8",
+          "example": "Uso a palavra «opinião» no contexto."
+        },
+        {
+          "word": "esclarecer",
+          "translation": "Palabra clave 9",
+          "example": "Uso a palavra «esclarecer» no contexto."
+        },
+        {
+          "word": "respeitar",
+          "translation": "Palabra clave 10",
+          "example": "Uso a palavra «respeitar» no contexto."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "relação",
+            "escutar",
+            "explicar",
+            "mensagem"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "explicar",
+            "escutar",
+            "mensagem",
+            "acordo"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "acordo",
+            "mensagem",
+            "explicar",
+            "confiança"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "conversa",
+            "acordo",
+            "confiança",
+            "mensagem"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "acordo",
+            "confiança",
+            "conversa",
+            "opinião"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "conversa",
+            "confiança",
+            "opinião",
+            "esclarecer"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "slug": "portuguese-b1-cidadania-e-participacao-reading",
+    "target_language": "portuguese",
+    "level": "B1",
+    "skill": "reading",
+    "unit_slug": "cidadania-e-participacao",
+    "title": "Cidadania e participação: lectura",
+    "description": "propor ações e participar da comunidade",
+    "order_index": 120,
+    "estimated_minutes": 12,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Português (Brasil)",
+      "language_key": "portuguese",
+      "level_title": "Português (Brasil) B1",
+      "intro": "propor ações e participar da comunidade",
+      "mission": "propor ações e participar da comunidade",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Aprendemos: cidadania.",
+        "Aprendemos: participar.",
+        "Aprendemos: direito.",
+        "Aprendemos: proposta."
+      ],
+      "vocabulary": [
+        {
+          "word": "cidadania",
+          "translation": "Palabra clave 1",
+          "example": "Uso a palavra «cidadania» no contexto."
+        },
+        {
+          "word": "participar",
+          "translation": "Palabra clave 2",
+          "example": "Uso a palavra «participar» no contexto."
+        },
+        {
+          "word": "direito",
+          "translation": "Palabra clave 3",
+          "example": "Uso a palavra «direito» no contexto."
+        },
+        {
+          "word": "proposta",
+          "translation": "Palabra clave 4",
+          "example": "Uso a palavra «proposta» no contexto."
+        },
+        {
+          "word": "comunidade",
+          "translation": "Palabra clave 5",
+          "example": "Uso a palavra «comunidade» no contexto."
+        },
+        {
+          "word": "escolher",
+          "translation": "Palabra clave 6",
+          "example": "Uso a palavra «escolher» no contexto."
+        },
+        {
+          "word": "voluntário",
+          "translation": "Palabra clave 7",
+          "example": "Uso a palavra «voluntário» no contexto."
+        },
+        {
+          "word": "iniciativa",
+          "translation": "Palabra clave 8",
+          "example": "Uso a palavra «iniciativa» no contexto."
+        },
+        {
+          "word": "melhorar",
+          "translation": "Palabra clave 9",
+          "example": "Uso a palavra «melhorar» no contexto."
+        },
+        {
+          "word": "responsabilidade",
+          "translation": "Palabra clave 10",
+          "example": "Uso a palavra «responsabilidade» no contexto."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "reading": {
+        "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+        "questions": [
+          "Sobre o que o grupo conversa?",
+          "O que cada pessoa faz?",
+          "Por que decidem colaborar?",
+          "Que ideia ajuda na vida cotidiana?"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Sobre o que o grupo conversa?",
+          "options": [
+            "cidadania",
+            "iniciativa",
+            "melhorar",
+            "responsabilidade"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "O que cada pessoa faz?",
+          "options": [
+            "Cuenta una experiencia, escucha y propone una solución.",
+            "Compra una entrada para un evento.",
+            "No escucha a las otras personas.",
+            "Cancela el proyecto."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Por que decidem colaborar?",
+          "options": [
+            "Porque tienen un objetivo claro.",
+            "Porque no tienen tiempo.",
+            "Porque no conocen el tema.",
+            "Porque prefieren trabajar solos."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Que ideia ajuda na vida cotidiana?",
+          "options": [
+            "Una solución concreta y colaborativa.",
+            "Una lista sin contexto.",
+            "Una discusión sin objetivo.",
+            "Una decisión individual."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "portuguese-b1-cidadania-e-participacao-reading-comprehension-5",
+          "type": "mcq",
+          "prompt": "What is the main purpose of “Cidadania e participação: lectura”?",
+          "options": [
+            "To explain the central ideas and details of Cidadania e participação: lectura",
+            "To discuss an unrelated topic",
+            "To provide a list without context",
+            "To tell a story with no connection to the topic"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
+    "slug": "portuguese-b1-cidadania-e-participacao-grammar",
+    "target_language": "portuguese",
+    "level": "B1",
+    "skill": "grammar",
+    "unit_slug": "cidadania-e-participacao",
+    "title": "Cidadania e participação: gramática",
+    "description": "propor ações e participar da comunidade",
+    "order_index": 121,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Português (Brasil)",
+      "language_key": "portuguese",
+      "level_title": "Português (Brasil) B1",
+      "intro": "propor ações e participar da comunidade",
+      "mission": "propor ações e participar da comunidade",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Aprendemos: cidadania.",
+        "Aprendemos: participar.",
+        "Aprendemos: direito.",
+        "Aprendemos: proposta."
+      ],
+      "vocabulary": [
+        {
+          "word": "cidadania",
+          "translation": "Palabra clave 1",
+          "example": "Uso a palavra «cidadania» no contexto."
+        },
+        {
+          "word": "participar",
+          "translation": "Palabra clave 2",
+          "example": "Uso a palavra «participar» no contexto."
+        },
+        {
+          "word": "direito",
+          "translation": "Palabra clave 3",
+          "example": "Uso a palavra «direito» no contexto."
+        },
+        {
+          "word": "proposta",
+          "translation": "Palabra clave 4",
+          "example": "Uso a palavra «proposta» no contexto."
+        },
+        {
+          "word": "comunidade",
+          "translation": "Palabra clave 5",
+          "example": "Uso a palavra «comunidade» no contexto."
+        },
+        {
+          "word": "escolher",
+          "translation": "Palabra clave 6",
+          "example": "Uso a palavra «escolher» no contexto."
+        },
+        {
+          "word": "voluntário",
+          "translation": "Palabra clave 7",
+          "example": "Uso a palavra «voluntário» no contexto."
+        },
+        {
+          "word": "iniciativa",
+          "translation": "Palabra clave 8",
+          "example": "Uso a palavra «iniciativa» no contexto."
+        },
+        {
+          "word": "melhorar",
+          "translation": "Palabra clave 9",
+          "example": "Uso a palavra «melhorar» no contexto."
+        },
+        {
+          "word": "responsabilidade",
+          "translation": "Palabra clave 10",
+          "example": "Uso a palavra «responsabilidade» no contexto."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Qual frase usa «cidadania» corretamente?",
+          "options": [
+            "O grupo fala sobre cidadania.",
+            "O grupo cidadania fala sobre.",
+            "cidadania o sobre grupo fala.",
+            "Fala grupo o cidadania sobre."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Qual frase usa «participar» corretamente?",
+          "options": [
+            "O grupo participar fala sobre.",
+            "O grupo fala sobre participar.",
+            "participar o sobre grupo fala.",
+            "Fala grupo o participar sobre."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Qual frase usa «direito» corretamente?",
+          "options": [
+            "direito o sobre grupo fala.",
+            "O grupo direito fala sobre.",
+            "O grupo fala sobre direito.",
+            "Fala grupo o direito sobre."
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Qual frase usa «proposta» corretamente?",
+          "options": [
+            "Fala grupo o proposta sobre.",
+            "O grupo proposta fala sobre.",
+            "proposta o sobre grupo fala.",
+            "O grupo fala sobre proposta."
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Qual frase usa «comunidade» corretamente?",
+          "options": [
+            "O grupo fala sobre comunidade.",
+            "O grupo comunidade fala sobre.",
+            "comunidade o sobre grupo fala.",
+            "Fala grupo o comunidade sobre."
+          ],
+          "answer": 0
+        }
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Cidadania: subjuntivo e propostas",
+          "definition": "Práctica guiada de Cidadania: subjuntivo e propostas.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
+    }
+  },
+  {
+    "slug": "portuguese-b1-cidadania-e-participacao-vocabulary",
+    "target_language": "portuguese",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unit_slug": "cidadania-e-participacao",
+    "title": "Cidadania e participação: palavras",
+    "description": "propor ações e participar da comunidade",
+    "order_index": 122,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Português (Brasil)",
+      "language_key": "portuguese",
+      "level_title": "Português (Brasil) B1",
+      "intro": "propor ações e participar da comunidade",
+      "mission": "propor ações e participar da comunidade",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Aprendemos: cidadania.",
+        "Aprendemos: participar.",
+        "Aprendemos: direito.",
+        "Aprendemos: proposta."
+      ],
+      "vocabulary": [
+        {
+          "word": "cidadania",
+          "translation": "Palabra clave 1",
+          "example": "Uso a palavra «cidadania» no contexto."
+        },
+        {
+          "word": "participar",
+          "translation": "Palabra clave 2",
+          "example": "Uso a palavra «participar» no contexto."
+        },
+        {
+          "word": "direito",
+          "translation": "Palabra clave 3",
+          "example": "Uso a palavra «direito» no contexto."
+        },
+        {
+          "word": "proposta",
+          "translation": "Palabra clave 4",
+          "example": "Uso a palavra «proposta» no contexto."
+        },
+        {
+          "word": "comunidade",
+          "translation": "Palabra clave 5",
+          "example": "Uso a palavra «comunidade» no contexto."
+        },
+        {
+          "word": "escolher",
+          "translation": "Palabra clave 6",
+          "example": "Uso a palavra «escolher» no contexto."
+        },
+        {
+          "word": "voluntário",
+          "translation": "Palabra clave 7",
+          "example": "Uso a palavra «voluntário» no contexto."
+        },
+        {
+          "word": "iniciativa",
+          "translation": "Palabra clave 8",
+          "example": "Uso a palavra «iniciativa» no contexto."
+        },
+        {
+          "word": "melhorar",
+          "translation": "Palabra clave 9",
+          "example": "Uso a palavra «melhorar» no contexto."
+        },
+        {
+          "word": "responsabilidade",
+          "translation": "Palabra clave 10",
+          "example": "Uso a palavra «responsabilidade» no contexto."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "cidadania",
+            "participar",
+            "direito",
+            "proposta"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "direito",
+            "participar",
+            "proposta",
+            "comunidade"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "comunidade",
+            "proposta",
+            "direito",
+            "escolher"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "voluntário",
+            "comunidade",
+            "escolher",
+            "proposta"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "comunidade",
+            "escolher",
+            "voluntário",
+            "iniciativa"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "voluntário",
+            "escolher",
+            "iniciativa",
+            "melhorar"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "slug": "german-a1-kleidung-und-farben-reading",
+    "target_language": "german",
+    "level": "A1",
+    "skill": "reading",
+    "unit_slug": "kleidung-und-farben",
+    "title": "Kleidung und Farben: lectura",
+    "description": "Kleidung beschreiben und auswählen",
+    "order_index": 110,
+    "estimated_minutes": 12,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch A1",
+      "intro": "Kleidung beschreiben und auswählen",
+      "mission": "Kleidung beschreiben und auswählen",
+      "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+      "phrases": [
+        "Wir lernen: Kleidung.",
+        "Wir lernen: Hemd.",
+        "Wir lernen: Hose.",
+        "Wir lernen: Kleid."
+      ],
+      "vocabulary": [
+        {
+          "word": "Kleidung",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Kleidung“ im Kontext."
+        },
+        {
+          "word": "Hemd",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „Hemd“ im Kontext."
+        },
+        {
+          "word": "Hose",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „Hose“ im Kontext."
+        },
+        {
+          "word": "Kleid",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „Kleid“ im Kontext."
+        },
+        {
+          "word": "Farbe",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „Farbe“ im Kontext."
+        },
+        {
+          "word": "blau",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „blau“ im Kontext."
+        },
+        {
+          "word": "rot",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „rot“ im Kontext."
+        },
+        {
+          "word": "tragen",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „tragen“ im Kontext."
+        },
+        {
+          "word": "passen",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „passen“ im Kontext."
+        },
+        {
+          "word": "kaufen",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „kaufen“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "reading": {
+        "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+        "questions": [
+          "Worüber spricht die Gruppe?",
+          "Was macht jede Person?",
+          "Warum arbeiten sie zusammen?",
+          "Welche Idee hilft im Alltag?"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Worüber spricht die Gruppe?",
+          "options": [
+            "Kleidung",
+            "tragen",
+            "passen",
+            "kaufen"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was macht jede Person?",
+          "options": [
+            "Cuenta una experiencia, escucha y propone una solución.",
+            "Compra una entrada para un evento.",
+            "No escucha a las otras personas.",
+            "Cancela el proyecto."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Warum arbeiten sie zusammen?",
+          "options": [
+            "Porque tienen un objetivo claro.",
+            "Porque no tienen tiempo.",
+            "Porque no conocen el tema.",
+            "Porque prefieren trabajar solos."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welche Idee hilft im Alltag?",
+          "options": [
+            "Una solución concreta y colaborativa.",
+            "Una lista sin contexto.",
+            "Una discusión sin objetivo.",
+            "Una decisión individual."
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
+    "slug": "german-a1-kleidung-und-farben-grammar",
+    "target_language": "german",
+    "level": "A1",
+    "skill": "grammar",
+    "unit_slug": "kleidung-und-farben",
+    "title": "Kleidung und Farben: Grammatik",
+    "description": "Kleidung beschreiben und auswählen",
+    "order_index": 111,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch A1",
+      "intro": "Kleidung beschreiben und auswählen",
+      "mission": "Kleidung beschreiben und auswählen",
+      "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+      "phrases": [
+        "Wir lernen: Kleidung.",
+        "Wir lernen: Hemd.",
+        "Wir lernen: Hose.",
+        "Wir lernen: Kleid."
+      ],
+      "vocabulary": [
+        {
+          "word": "Kleidung",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Kleidung“ im Kontext."
+        },
+        {
+          "word": "Hemd",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „Hemd“ im Kontext."
+        },
+        {
+          "word": "Hose",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „Hose“ im Kontext."
+        },
+        {
+          "word": "Kleid",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „Kleid“ im Kontext."
+        },
+        {
+          "word": "Farbe",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „Farbe“ im Kontext."
+        },
+        {
+          "word": "blau",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „blau“ im Kontext."
+        },
+        {
+          "word": "rot",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „rot“ im Kontext."
+        },
+        {
+          "word": "tragen",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „tragen“ im Kontext."
+        },
+        {
+          "word": "passen",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „passen“ im Kontext."
+        },
+        {
+          "word": "kaufen",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „kaufen“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Kleidung“ richtig?",
+          "options": [
+            "Die Gruppe spricht über Kleidung.",
+            "Die Gruppe Kleidung spricht über.",
+            "Kleidung die über Gruppe spricht.",
+            "Spricht Gruppe die Kleidung über."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Hemd“ richtig?",
+          "options": [
+            "Die Gruppe Hemd spricht über.",
+            "Die Gruppe spricht über Hemd.",
+            "Hemd die über Gruppe spricht.",
+            "Spricht Gruppe die Hemd über."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Hose“ richtig?",
+          "options": [
+            "Hose die über Gruppe spricht.",
+            "Die Gruppe Hose spricht über.",
+            "Die Gruppe spricht über Hose.",
+            "Spricht Gruppe die Hose über."
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Kleid“ richtig?",
+          "options": [
+            "Spricht Gruppe die Kleid über.",
+            "Die Gruppe Kleid spricht über.",
+            "Kleid die über Gruppe spricht.",
+            "Die Gruppe spricht über Kleid."
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Farbe“ richtig?",
+          "options": [
+            "Die Gruppe spricht über Farbe.",
+            "Die Gruppe Farbe spricht über.",
+            "Farbe die über Gruppe spricht.",
+            "Spricht Gruppe die Farbe über."
+          ],
+          "answer": 0
+        }
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Kleidung: Adjektive und Farben",
+          "definition": "Práctica guiada de Kleidung: Adjektive und Farben.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
+    }
+  },
+  {
+    "slug": "german-a1-kleidung-und-farben-vocabulary",
+    "target_language": "german",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unit_slug": "kleidung-und-farben",
+    "title": "Kleidung und Farben: Wortschatz",
+    "description": "Kleidung beschreiben und auswählen",
+    "order_index": 112,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch A1",
+      "intro": "Kleidung beschreiben und auswählen",
+      "mission": "Kleidung beschreiben und auswählen",
+      "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+      "phrases": [
+        "Wir lernen: Kleidung.",
+        "Wir lernen: Hemd.",
+        "Wir lernen: Hose.",
+        "Wir lernen: Kleid."
+      ],
+      "vocabulary": [
+        {
+          "word": "Kleidung",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Kleidung“ im Kontext."
+        },
+        {
+          "word": "Hemd",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „Hemd“ im Kontext."
+        },
+        {
+          "word": "Hose",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „Hose“ im Kontext."
+        },
+        {
+          "word": "Kleid",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „Kleid“ im Kontext."
+        },
+        {
+          "word": "Farbe",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „Farbe“ im Kontext."
+        },
+        {
+          "word": "blau",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „blau“ im Kontext."
+        },
+        {
+          "word": "rot",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „rot“ im Kontext."
+        },
+        {
+          "word": "tragen",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „tragen“ im Kontext."
+        },
+        {
+          "word": "passen",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „passen“ im Kontext."
+        },
+        {
+          "word": "kaufen",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „kaufen“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Kleidung",
+            "Hemd",
+            "Hose",
+            "Kleid"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Hose",
+            "Hemd",
+            "Kleid",
+            "Farbe"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Farbe",
+            "Kleid",
+            "Hose",
+            "blau"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "rot",
+            "Farbe",
+            "blau",
+            "Kleid"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Farbe",
+            "blau",
+            "rot",
+            "tragen"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "rot",
+            "blau",
+            "tragen",
+            "passen"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "slug": "german-a1-geburtstag-und-einladung-reading",
+    "target_language": "german",
+    "level": "A1",
+    "skill": "reading",
+    "unit_slug": "geburtstag-und-einladung",
+    "title": "Geburtstag und Einladung: lectura",
+    "description": "eine Einladung verstehen und Uhrzeiten nennen",
+    "order_index": 120,
+    "estimated_minutes": 12,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch A1",
+      "intro": "eine Einladung verstehen und Uhrzeiten nennen",
+      "mission": "eine Einladung verstehen und Uhrzeiten nennen",
+      "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+      "phrases": [
+        "Wir lernen: Geburtstag.",
+        "Wir lernen: Einladung.",
+        "Wir lernen: feiern.",
+        "Wir lernen: Uhr."
+      ],
+      "vocabulary": [
+        {
+          "word": "Geburtstag",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Geburtstag“ im Kontext."
+        },
+        {
+          "word": "Einladung",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „Einladung“ im Kontext."
+        },
+        {
+          "word": "feiern",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „feiern“ im Kontext."
+        },
+        {
+          "word": "Uhr",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „Uhr“ im Kontext."
+        },
+        {
+          "word": "heute",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „heute“ im Kontext."
+        },
+        {
+          "word": "morgen",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „morgen“ im Kontext."
+        },
+        {
+          "word": "gern",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „gern“ im Kontext."
+        },
+        {
+          "word": "kommen",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „kommen“ im Kontext."
+        },
+        {
+          "word": "bringen",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „bringen“ im Kontext."
+        },
+        {
+          "word": "Geschenk",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „Geschenk“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "reading": {
+        "text": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+        "questions": [
+          "Worüber spricht die Gruppe?",
+          "Was macht jede Person?",
+          "Warum arbeiten sie zusammen?",
+          "Welche Idee hilft im Alltag?"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Worüber spricht die Gruppe?",
+          "options": [
+            "Geburtstag",
+            "kommen",
+            "bringen",
+            "Geschenk"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was macht jede Person?",
+          "options": [
+            "Cuenta una experiencia, escucha y propone una solución.",
+            "Compra una entrada para un evento.",
+            "No escucha a las otras personas.",
+            "Cancela el proyecto."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Warum arbeiten sie zusammen?",
+          "options": [
+            "Porque tienen un objetivo claro.",
+            "Porque no tienen tiempo.",
+            "Porque no conocen el tema.",
+            "Porque prefieren trabajar solos."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welche Idee hilft im Alltag?",
+          "options": [
+            "Una solución concreta y colaborativa.",
+            "Una lista sin contexto.",
+            "Una discusión sin objetivo.",
+            "Una decisión individual."
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
+    "slug": "german-a1-geburtstag-und-einladung-grammar",
+    "target_language": "german",
+    "level": "A1",
+    "skill": "grammar",
+    "unit_slug": "geburtstag-und-einladung",
+    "title": "Geburtstag und Einladung: Grammatik",
+    "description": "eine Einladung verstehen und Uhrzeiten nennen",
+    "order_index": 121,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch A1",
+      "intro": "eine Einladung verstehen und Uhrzeiten nennen",
+      "mission": "eine Einladung verstehen und Uhrzeiten nennen",
+      "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+      "phrases": [
+        "Wir lernen: Geburtstag.",
+        "Wir lernen: Einladung.",
+        "Wir lernen: feiern.",
+        "Wir lernen: Uhr."
+      ],
+      "vocabulary": [
+        {
+          "word": "Geburtstag",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Geburtstag“ im Kontext."
+        },
+        {
+          "word": "Einladung",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „Einladung“ im Kontext."
+        },
+        {
+          "word": "feiern",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „feiern“ im Kontext."
+        },
+        {
+          "word": "Uhr",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „Uhr“ im Kontext."
+        },
+        {
+          "word": "heute",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „heute“ im Kontext."
+        },
+        {
+          "word": "morgen",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „morgen“ im Kontext."
+        },
+        {
+          "word": "gern",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „gern“ im Kontext."
+        },
+        {
+          "word": "kommen",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „kommen“ im Kontext."
+        },
+        {
+          "word": "bringen",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „bringen“ im Kontext."
+        },
+        {
+          "word": "Geschenk",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „Geschenk“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Geburtstag“ richtig?",
+          "options": [
+            "Die Gruppe spricht über Geburtstag.",
+            "Die Gruppe Geburtstag spricht über.",
+            "Geburtstag die über Gruppe spricht.",
+            "Spricht Gruppe die Geburtstag über."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Einladung“ richtig?",
+          "options": [
+            "Die Gruppe Einladung spricht über.",
+            "Die Gruppe spricht über Einladung.",
+            "Einladung die über Gruppe spricht.",
+            "Spricht Gruppe die Einladung über."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „feiern“ richtig?",
+          "options": [
+            "feiern die über Gruppe spricht.",
+            "Die Gruppe feiern spricht über.",
+            "Die Gruppe spricht über feiern.",
+            "Spricht Gruppe die feiern über."
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Uhr“ richtig?",
+          "options": [
+            "Spricht Gruppe die Uhr über.",
+            "Die Gruppe Uhr spricht über.",
+            "Uhr die über Gruppe spricht.",
+            "Die Gruppe spricht über Uhr."
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „heute“ richtig?",
+          "options": [
+            "Die Gruppe spricht über heute.",
+            "Die Gruppe heute spricht über.",
+            "heute die über Gruppe spricht.",
+            "Spricht Gruppe die heute über."
+          ],
+          "answer": 0
+        }
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Einladung: möchten und Uhrzeiten",
+          "definition": "Práctica guiada de Einladung: möchten und Uhrzeiten.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
+    }
+  },
+  {
+    "slug": "german-a1-geburtstag-und-einladung-vocabulary",
+    "target_language": "german",
+    "level": "A1",
+    "skill": "vocabulary",
+    "unit_slug": "geburtstag-und-einladung",
+    "title": "Geburtstag und Einladung: Wortschatz",
+    "description": "eine Einladung verstehen und Uhrzeiten nennen",
+    "order_index": 122,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch A1",
+      "intro": "eine Einladung verstehen und Uhrzeiten nennen",
+      "mission": "eine Einladung verstehen und Uhrzeiten nennen",
+      "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+      "phrases": [
+        "Wir lernen: Geburtstag.",
+        "Wir lernen: Einladung.",
+        "Wir lernen: feiern.",
+        "Wir lernen: Uhr."
+      ],
+      "vocabulary": [
+        {
+          "word": "Geburtstag",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Geburtstag“ im Kontext."
+        },
+        {
+          "word": "Einladung",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „Einladung“ im Kontext."
+        },
+        {
+          "word": "feiern",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „feiern“ im Kontext."
+        },
+        {
+          "word": "Uhr",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „Uhr“ im Kontext."
+        },
+        {
+          "word": "heute",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „heute“ im Kontext."
+        },
+        {
+          "word": "morgen",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „morgen“ im Kontext."
+        },
+        {
+          "word": "gern",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „gern“ im Kontext."
+        },
+        {
+          "word": "kommen",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „kommen“ im Kontext."
+        },
+        {
+          "word": "bringen",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „bringen“ im Kontext."
+        },
+        {
+          "word": "Geschenk",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „Geschenk“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Geburtstag",
+            "Einladung",
+            "feiern",
+            "Uhr"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "feiern",
+            "Einladung",
+            "Uhr",
+            "heute"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "heute",
+            "Uhr",
+            "feiern",
+            "morgen"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "gern",
+            "heute",
+            "morgen",
+            "Uhr"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "heute",
+            "morgen",
+            "gern",
+            "kommen"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "gern",
+            "morgen",
+            "kommen",
+            "bringen"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "slug": "german-a2-feste-und-traditionen-reading",
+    "target_language": "german",
+    "level": "A2",
+    "skill": "reading",
+    "unit_slug": "feste-und-traditionen",
+    "title": "Feste und Traditionen: lectura",
+    "description": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "order_index": 110,
+    "estimated_minutes": 12,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch A2",
+      "intro": "Feste und Abläufe in der Vergangenheit beschreiben",
+      "mission": "Feste und Abläufe in der Vergangenheit beschreiben",
+      "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+      "phrases": [
+        "Wir lernen: Fest.",
+        "Wir lernen: Tradition.",
+        "Wir lernen: feiern.",
+        "Wir lernen: vorbereitet."
+      ],
+      "vocabulary": [
+        {
+          "word": "Fest",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Fest“ im Kontext."
+        },
+        {
+          "word": "Tradition",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „Tradition“ im Kontext."
+        },
+        {
+          "word": "feiern",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „feiern“ im Kontext."
+        },
+        {
+          "word": "vorbereitet",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „vorbereitet“ im Kontext."
+        },
+        {
+          "word": "besucht",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „besucht“ im Kontext."
+        },
+        {
+          "word": "gemeinsam",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
+        },
+        {
+          "word": "Reihenfolge",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „Reihenfolge“ im Kontext."
+        },
+        {
+          "word": "früher",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „früher“ im Kontext."
+        },
+        {
+          "word": "danach",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „danach“ im Kontext."
+        },
+        {
+          "word": "Erinnerung",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "reading": {
+        "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+        "questions": [
+          "Worüber spricht die Gruppe?",
+          "Was macht jede Person?",
+          "Warum arbeiten sie zusammen?",
+          "Welche Idee hilft im Alltag?"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Worüber spricht die Gruppe?",
+          "options": [
+            "Fest",
+            "früher",
+            "danach",
+            "Erinnerung"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was macht jede Person?",
+          "options": [
+            "Cuenta una experiencia, escucha y propone una solución.",
+            "Compra una entrada para un evento.",
+            "No escucha a las otras personas.",
+            "Cancela el proyecto."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Warum arbeiten sie zusammen?",
+          "options": [
+            "Porque tienen un objetivo claro.",
+            "Porque no tienen tiempo.",
+            "Porque no conocen el tema.",
+            "Porque prefieren trabajar solos."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welche Idee hilft im Alltag?",
+          "options": [
+            "Una solución concreta y colaborativa.",
+            "Una lista sin contexto.",
+            "Una discusión sin objetivo.",
+            "Una decisión individual."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "german-a2-feste-und-traditionen-reading-comprehension-5",
+          "type": "mcq",
+          "prompt": "Was ist der Hauptzweck von „Feste und Traditionen: lectura“?",
+          "options": [
+            "Die wichtigsten Ideen und Details von Feste und Traditionen: lectura darstellen",
+            "Ein nicht verwandtes Thema darstellen",
+            "Eine Liste ohne Kontext geben",
+            "Eine Geschichte ohne Bezug zum Thema erzählen"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
+    "slug": "german-a2-feste-und-traditionen-grammar",
+    "target_language": "german",
+    "level": "A2",
+    "skill": "grammar",
+    "unit_slug": "feste-und-traditionen",
+    "title": "Feste und Traditionen: Grammatik",
+    "description": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "order_index": 111,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch A2",
+      "intro": "Feste und Abläufe in der Vergangenheit beschreiben",
+      "mission": "Feste und Abläufe in der Vergangenheit beschreiben",
+      "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+      "phrases": [
+        "Wir lernen: Fest.",
+        "Wir lernen: Tradition.",
+        "Wir lernen: feiern.",
+        "Wir lernen: vorbereitet."
+      ],
+      "vocabulary": [
+        {
+          "word": "Fest",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Fest“ im Kontext."
+        },
+        {
+          "word": "Tradition",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „Tradition“ im Kontext."
+        },
+        {
+          "word": "feiern",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „feiern“ im Kontext."
+        },
+        {
+          "word": "vorbereitet",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „vorbereitet“ im Kontext."
+        },
+        {
+          "word": "besucht",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „besucht“ im Kontext."
+        },
+        {
+          "word": "gemeinsam",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
+        },
+        {
+          "word": "Reihenfolge",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „Reihenfolge“ im Kontext."
+        },
+        {
+          "word": "früher",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „früher“ im Kontext."
+        },
+        {
+          "word": "danach",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „danach“ im Kontext."
+        },
+        {
+          "word": "Erinnerung",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Fest“ richtig?",
+          "options": [
+            "Die Gruppe spricht über Fest.",
+            "Die Gruppe Fest spricht über.",
+            "Fest die über Gruppe spricht.",
+            "Spricht Gruppe die Fest über."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Tradition“ richtig?",
+          "options": [
+            "Die Gruppe Tradition spricht über.",
+            "Die Gruppe spricht über Tradition.",
+            "Tradition die über Gruppe spricht.",
+            "Spricht Gruppe die Tradition über."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „feiern“ richtig?",
+          "options": [
+            "feiern die über Gruppe spricht.",
+            "Die Gruppe feiern spricht über.",
+            "Die Gruppe spricht über feiern.",
+            "Spricht Gruppe die feiern über."
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „vorbereitet“ richtig?",
+          "options": [
+            "Spricht Gruppe die vorbereitet über.",
+            "Die Gruppe vorbereitet spricht über.",
+            "vorbereitet die über Gruppe spricht.",
+            "Die Gruppe spricht über vorbereitet."
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „besucht“ richtig?",
+          "options": [
+            "Die Gruppe spricht über besucht.",
+            "Die Gruppe besucht spricht über.",
+            "besucht die über Gruppe spricht.",
+            "Spricht Gruppe die besucht über."
+          ],
+          "answer": 0
+        }
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Feste: Perfekt und Reihenfolge",
+          "definition": "Práctica guiada de Feste: Perfekt und Reihenfolge.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
+    }
+  },
+  {
+    "slug": "german-a2-feste-und-traditionen-vocabulary",
+    "target_language": "german",
+    "level": "A2",
+    "skill": "vocabulary",
+    "unit_slug": "feste-und-traditionen",
+    "title": "Feste und Traditionen: Wortschatz",
+    "description": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "order_index": 112,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch A2",
+      "intro": "Feste und Abläufe in der Vergangenheit beschreiben",
+      "mission": "Feste und Abläufe in der Vergangenheit beschreiben",
+      "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+      "phrases": [
+        "Wir lernen: Fest.",
+        "Wir lernen: Tradition.",
+        "Wir lernen: feiern.",
+        "Wir lernen: vorbereitet."
+      ],
+      "vocabulary": [
+        {
+          "word": "Fest",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Fest“ im Kontext."
+        },
+        {
+          "word": "Tradition",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „Tradition“ im Kontext."
+        },
+        {
+          "word": "feiern",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „feiern“ im Kontext."
+        },
+        {
+          "word": "vorbereitet",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „vorbereitet“ im Kontext."
+        },
+        {
+          "word": "besucht",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „besucht“ im Kontext."
+        },
+        {
+          "word": "gemeinsam",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
+        },
+        {
+          "word": "Reihenfolge",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „Reihenfolge“ im Kontext."
+        },
+        {
+          "word": "früher",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „früher“ im Kontext."
+        },
+        {
+          "word": "danach",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „danach“ im Kontext."
+        },
+        {
+          "word": "Erinnerung",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Fest",
+            "Tradition",
+            "feiern",
+            "vorbereitet"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "feiern",
+            "Tradition",
+            "vorbereitet",
+            "besucht"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "besucht",
+            "vorbereitet",
+            "feiern",
+            "gemeinsam"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Reihenfolge",
+            "besucht",
+            "gemeinsam",
+            "vorbereitet"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "besucht",
+            "gemeinsam",
+            "Reihenfolge",
+            "früher"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Reihenfolge",
+            "gemeinsam",
+            "früher",
+            "danach"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "slug": "german-a2-wohnungssuche-reading",
+    "target_language": "german",
+    "level": "A2",
+    "skill": "reading",
+    "unit_slug": "wohnungssuche",
+    "title": "Wohnungssuche: lectura",
+    "description": "Wohnungen vergleichen und Lage beschreiben",
+    "order_index": 120,
+    "estimated_minutes": 12,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch A2",
+      "intro": "Wohnungen vergleichen und Lage beschreiben",
+      "mission": "Wohnungen vergleichen und Lage beschreiben",
+      "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+      "phrases": [
+        "Wir lernen: Wohnung.",
+        "Wir lernen: Zimmer.",
+        "Wir lernen: Miete.",
+        "Wir lernen: suchen."
+      ],
+      "vocabulary": [
+        {
+          "word": "Wohnung",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Wohnung“ im Kontext."
+        },
+        {
+          "word": "Zimmer",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „Zimmer“ im Kontext."
+        },
+        {
+          "word": "Miete",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „Miete“ im Kontext."
+        },
+        {
+          "word": "suchen",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „suchen“ im Kontext."
+        },
+        {
+          "word": "neben",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „neben“ im Kontext."
+        },
+        {
+          "word": "über",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „über“ im Kontext."
+        },
+        {
+          "word": "unter",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „unter“ im Kontext."
+        },
+        {
+          "word": "größer",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „größer“ im Kontext."
+        },
+        {
+          "word": "ruhiger",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „ruhiger“ im Kontext."
+        },
+        {
+          "word": "Besichtigung",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „Besichtigung“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "reading": {
+        "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+        "questions": [
+          "Worüber spricht die Gruppe?",
+          "Was macht jede Person?",
+          "Warum arbeiten sie zusammen?",
+          "Welche Idee hilft im Alltag?"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Worüber spricht die Gruppe?",
+          "options": [
+            "Wohnung",
+            "größer",
+            "ruhiger",
+            "Besichtigung"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was macht jede Person?",
+          "options": [
+            "Cuenta una experiencia, escucha y propone una solución.",
+            "Compra una entrada para un evento.",
+            "No escucha a las otras personas.",
+            "Cancela el proyecto."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Warum arbeiten sie zusammen?",
+          "options": [
+            "Porque tienen un objetivo claro.",
+            "Porque no tienen tiempo.",
+            "Porque no conocen el tema.",
+            "Porque prefieren trabajar solos."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welche Idee hilft im Alltag?",
+          "options": [
+            "Una solución concreta y colaborativa.",
+            "Una lista sin contexto.",
+            "Una discusión sin objetivo.",
+            "Una decisión individual."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "german-a2-wohnungssuche-reading-comprehension-5",
+          "type": "mcq",
+          "prompt": "Was ist der Hauptzweck von „Wohnungssuche: lectura“?",
+          "options": [
+            "Die wichtigsten Ideen und Details von Wohnungssuche: lectura darstellen",
+            "Ein nicht verwandtes Thema darstellen",
+            "Eine Liste ohne Kontext geben",
+            "Eine Geschichte ohne Bezug zum Thema erzählen"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
+    "slug": "german-a2-wohnungssuche-grammar",
+    "target_language": "german",
+    "level": "A2",
+    "skill": "grammar",
+    "unit_slug": "wohnungssuche",
+    "title": "Wohnungssuche: Grammatik",
+    "description": "Wohnungen vergleichen und Lage beschreiben",
+    "order_index": 121,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch A2",
+      "intro": "Wohnungen vergleichen und Lage beschreiben",
+      "mission": "Wohnungen vergleichen und Lage beschreiben",
+      "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+      "phrases": [
+        "Wir lernen: Wohnung.",
+        "Wir lernen: Zimmer.",
+        "Wir lernen: Miete.",
+        "Wir lernen: suchen."
+      ],
+      "vocabulary": [
+        {
+          "word": "Wohnung",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Wohnung“ im Kontext."
+        },
+        {
+          "word": "Zimmer",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „Zimmer“ im Kontext."
+        },
+        {
+          "word": "Miete",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „Miete“ im Kontext."
+        },
+        {
+          "word": "suchen",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „suchen“ im Kontext."
+        },
+        {
+          "word": "neben",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „neben“ im Kontext."
+        },
+        {
+          "word": "über",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „über“ im Kontext."
+        },
+        {
+          "word": "unter",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „unter“ im Kontext."
+        },
+        {
+          "word": "größer",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „größer“ im Kontext."
+        },
+        {
+          "word": "ruhiger",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „ruhiger“ im Kontext."
+        },
+        {
+          "word": "Besichtigung",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „Besichtigung“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Wohnung“ richtig?",
+          "options": [
+            "Die Gruppe spricht über Wohnung.",
+            "Die Gruppe Wohnung spricht über.",
+            "Wohnung die über Gruppe spricht.",
+            "Spricht Gruppe die Wohnung über."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Zimmer“ richtig?",
+          "options": [
+            "Die Gruppe Zimmer spricht über.",
+            "Die Gruppe spricht über Zimmer.",
+            "Zimmer die über Gruppe spricht.",
+            "Spricht Gruppe die Zimmer über."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Miete“ richtig?",
+          "options": [
+            "Miete die über Gruppe spricht.",
+            "Die Gruppe Miete spricht über.",
+            "Die Gruppe spricht über Miete.",
+            "Spricht Gruppe die Miete über."
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „suchen“ richtig?",
+          "options": [
+            "Spricht Gruppe die suchen über.",
+            "Die Gruppe suchen spricht über.",
+            "suchen die über Gruppe spricht.",
+            "Die Gruppe spricht über suchen."
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „neben“ richtig?",
+          "options": [
+            "Die Gruppe spricht über neben.",
+            "Die Gruppe neben spricht über.",
+            "neben die über Gruppe spricht.",
+            "Spricht Gruppe die neben über."
+          ],
+          "answer": 0
+        }
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Wohnungssuche: Wechselpräpositionen und Vergleich",
+          "definition": "Práctica guiada de Wohnungssuche: Wechselpräpositionen und Vergleich.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
+    }
+  },
+  {
+    "slug": "german-a2-wohnungssuche-vocabulary",
+    "target_language": "german",
+    "level": "A2",
+    "skill": "vocabulary",
+    "unit_slug": "wohnungssuche",
+    "title": "Wohnungssuche: Wortschatz",
+    "description": "Wohnungen vergleichen und Lage beschreiben",
+    "order_index": 122,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch A2",
+      "intro": "Wohnungen vergleichen und Lage beschreiben",
+      "mission": "Wohnungen vergleichen und Lage beschreiben",
+      "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+      "phrases": [
+        "Wir lernen: Wohnung.",
+        "Wir lernen: Zimmer.",
+        "Wir lernen: Miete.",
+        "Wir lernen: suchen."
+      ],
+      "vocabulary": [
+        {
+          "word": "Wohnung",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Wohnung“ im Kontext."
+        },
+        {
+          "word": "Zimmer",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „Zimmer“ im Kontext."
+        },
+        {
+          "word": "Miete",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „Miete“ im Kontext."
+        },
+        {
+          "word": "suchen",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „suchen“ im Kontext."
+        },
+        {
+          "word": "neben",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „neben“ im Kontext."
+        },
+        {
+          "word": "über",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „über“ im Kontext."
+        },
+        {
+          "word": "unter",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „unter“ im Kontext."
+        },
+        {
+          "word": "größer",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „größer“ im Kontext."
+        },
+        {
+          "word": "ruhiger",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „ruhiger“ im Kontext."
+        },
+        {
+          "word": "Besichtigung",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „Besichtigung“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Wohnung",
+            "Zimmer",
+            "Miete",
+            "suchen"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Miete",
+            "Zimmer",
+            "suchen",
+            "neben"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "neben",
+            "suchen",
+            "Miete",
+            "über"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "unter",
+            "neben",
+            "über",
+            "suchen"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "neben",
+            "über",
+            "unter",
+            "größer"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "unter",
+            "über",
+            "größer",
+            "ruhiger"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "slug": "german-b1-beziehungen-und-kommunikation-reading",
+    "target_language": "german",
+    "level": "B1",
+    "skill": "reading",
+    "unit_slug": "beziehungen-und-kommunikation",
+    "title": "Beziehungen und Kommunikation: lectura",
+    "description": "über Beziehungen sprechen und Informationen weitergeben",
+    "order_index": 110,
+    "estimated_minutes": 12,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch B1",
+      "intro": "über Beziehungen sprechen und Informationen weitergeben",
+      "mission": "über Beziehungen sprechen und Informationen weitergeben",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Wir lernen: Beziehung.",
+        "Wir lernen: zuhören.",
+        "Wir lernen: erklären.",
+        "Wir lernen: Nachricht."
+      ],
+      "vocabulary": [
+        {
+          "word": "Beziehung",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Beziehung“ im Kontext."
+        },
+        {
+          "word": "zuhören",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „zuhören“ im Kontext."
+        },
+        {
+          "word": "erklären",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „erklären“ im Kontext."
+        },
+        {
+          "word": "Nachricht",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+        },
+        {
+          "word": "Vereinbarung",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
+        },
+        {
+          "word": "Vertrauen",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
+        },
+        {
+          "word": "Gespräch",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „Gespräch“ im Kontext."
+        },
+        {
+          "word": "Meinung",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „Meinung“ im Kontext."
+        },
+        {
+          "word": "klären",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „klären“ im Kontext."
+        },
+        {
+          "word": "respektieren",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „respektieren“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "reading": {
+        "text": "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+        "questions": [
+          "Worüber spricht die Gruppe?",
+          "Was macht jede Person?",
+          "Warum arbeiten sie zusammen?",
+          "Welche Idee hilft im Alltag?"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Worüber spricht die Gruppe?",
+          "options": [
+            "Beziehung",
+            "Meinung",
+            "klären",
+            "respektieren"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was macht jede Person?",
+          "options": [
+            "Cuenta una experiencia, escucha y propone una solución.",
+            "Compra una entrada para un evento.",
+            "No escucha a las otras personas.",
+            "Cancela el proyecto."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Warum arbeiten sie zusammen?",
+          "options": [
+            "Porque tienen un objetivo claro.",
+            "Porque no tienen tiempo.",
+            "Porque no conocen el tema.",
+            "Porque prefieren trabajar solos."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welche Idee hilft im Alltag?",
+          "options": [
+            "Una solución concreta y colaborativa.",
+            "Una lista sin contexto.",
+            "Una discusión sin objetivo.",
+            "Una decisión individual."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "german-b1-beziehungen-und-kommunikation-reading-comprehension-5",
+          "type": "mcq",
+          "prompt": "Was ist der Hauptzweck von „Beziehungen und Kommunikation: lectura“?",
+          "options": [
+            "Die wichtigsten Ideen und Details von Beziehungen und Kommunikation: lectura darstellen",
+            "Ein nicht verwandtes Thema darstellen",
+            "Eine Liste ohne Kontext geben",
+            "Eine Geschichte ohne Bezug zum Thema erzählen"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
+    "slug": "german-b1-beziehungen-und-kommunikation-grammar",
+    "target_language": "german",
+    "level": "B1",
+    "skill": "grammar",
+    "unit_slug": "beziehungen-und-kommunikation",
+    "title": "Beziehungen und Kommunikation: Grammatik",
+    "description": "über Beziehungen sprechen und Informationen weitergeben",
+    "order_index": 111,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch B1",
+      "intro": "über Beziehungen sprechen und Informationen weitergeben",
+      "mission": "über Beziehungen sprechen und Informationen weitergeben",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Wir lernen: Beziehung.",
+        "Wir lernen: zuhören.",
+        "Wir lernen: erklären.",
+        "Wir lernen: Nachricht."
+      ],
+      "vocabulary": [
+        {
+          "word": "Beziehung",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Beziehung“ im Kontext."
+        },
+        {
+          "word": "zuhören",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „zuhören“ im Kontext."
+        },
+        {
+          "word": "erklären",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „erklären“ im Kontext."
+        },
+        {
+          "word": "Nachricht",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+        },
+        {
+          "word": "Vereinbarung",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
+        },
+        {
+          "word": "Vertrauen",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
+        },
+        {
+          "word": "Gespräch",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „Gespräch“ im Kontext."
+        },
+        {
+          "word": "Meinung",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „Meinung“ im Kontext."
+        },
+        {
+          "word": "klären",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „klären“ im Kontext."
+        },
+        {
+          "word": "respektieren",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „respektieren“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Beziehung“ richtig?",
+          "options": [
+            "Die Gruppe spricht über Beziehung.",
+            "Die Gruppe Beziehung spricht über.",
+            "Beziehung die über Gruppe spricht.",
+            "Spricht Gruppe die Beziehung über."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „zuhören“ richtig?",
+          "options": [
+            "Die Gruppe zuhören spricht über.",
+            "Die Gruppe spricht über zuhören.",
+            "zuhören die über Gruppe spricht.",
+            "Spricht Gruppe die zuhören über."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „erklären“ richtig?",
+          "options": [
+            "erklären die über Gruppe spricht.",
+            "Die Gruppe erklären spricht über.",
+            "Die Gruppe spricht über erklären.",
+            "Spricht Gruppe die erklären über."
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Nachricht“ richtig?",
+          "options": [
+            "Spricht Gruppe die Nachricht über.",
+            "Die Gruppe Nachricht spricht über.",
+            "Nachricht die über Gruppe spricht.",
+            "Die Gruppe spricht über Nachricht."
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Vereinbarung“ richtig?",
+          "options": [
+            "Die Gruppe spricht über Vereinbarung.",
+            "Die Gruppe Vereinbarung spricht über.",
+            "Vereinbarung die über Gruppe spricht.",
+            "Spricht Gruppe die Vereinbarung über."
+          ],
+          "answer": 0
+        }
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Beziehungen: Relativsätze und indirekte Fragen",
+          "definition": "Práctica guiada de Beziehungen: Relativsätze und indirekte Fragen.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
+    }
+  },
+  {
+    "slug": "german-b1-beziehungen-und-kommunikation-vocabulary",
+    "target_language": "german",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unit_slug": "beziehungen-und-kommunikation",
+    "title": "Beziehungen und Kommunikation: Wortschatz",
+    "description": "über Beziehungen sprechen und Informationen weitergeben",
+    "order_index": 112,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch B1",
+      "intro": "über Beziehungen sprechen und Informationen weitergeben",
+      "mission": "über Beziehungen sprechen und Informationen weitergeben",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Wir lernen: Beziehung.",
+        "Wir lernen: zuhören.",
+        "Wir lernen: erklären.",
+        "Wir lernen: Nachricht."
+      ],
+      "vocabulary": [
+        {
+          "word": "Beziehung",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Beziehung“ im Kontext."
+        },
+        {
+          "word": "zuhören",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „zuhören“ im Kontext."
+        },
+        {
+          "word": "erklären",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „erklären“ im Kontext."
+        },
+        {
+          "word": "Nachricht",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+        },
+        {
+          "word": "Vereinbarung",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
+        },
+        {
+          "word": "Vertrauen",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
+        },
+        {
+          "word": "Gespräch",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „Gespräch“ im Kontext."
+        },
+        {
+          "word": "Meinung",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „Meinung“ im Kontext."
+        },
+        {
+          "word": "klären",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „klären“ im Kontext."
+        },
+        {
+          "word": "respektieren",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „respektieren“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Beziehung",
+            "zuhören",
+            "erklären",
+            "Nachricht"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "erklären",
+            "zuhören",
+            "Nachricht",
+            "Vereinbarung"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Vereinbarung",
+            "Nachricht",
+            "erklären",
+            "Vertrauen"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Gespräch",
+            "Vereinbarung",
+            "Vertrauen",
+            "Nachricht"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Vereinbarung",
+            "Vertrauen",
+            "Gespräch",
+            "Meinung"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Gespräch",
+            "Vertrauen",
+            "Meinung",
+            "klären"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "slug": "german-b1-gesellschaft-und-mitwirkung-reading",
+    "target_language": "german",
+    "level": "B1",
+    "skill": "reading",
+    "unit_slug": "gesellschaft-und-mitwirkung",
+    "title": "Gesellschaft und Mitwirkung: lectura",
+    "description": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "order_index": 120,
+    "estimated_minutes": 12,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch B1",
+      "intro": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+      "mission": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Wir lernen: Gesellschaft.",
+        "Wir lernen: mitwirken.",
+        "Wir lernen: Recht.",
+        "Wir lernen: Vorschlag."
+      ],
+      "vocabulary": [
+        {
+          "word": "Gesellschaft",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Gesellschaft“ im Kontext."
+        },
+        {
+          "word": "mitwirken",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „mitwirken“ im Kontext."
+        },
+        {
+          "word": "Recht",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „Recht“ im Kontext."
+        },
+        {
+          "word": "Vorschlag",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
+        },
+        {
+          "word": "Gemeinschaft",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „Gemeinschaft“ im Kontext."
+        },
+        {
+          "word": "wählen",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „wählen“ im Kontext."
+        },
+        {
+          "word": "freiwillig",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „freiwillig“ im Kontext."
+        },
+        {
+          "word": "Initiative",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „Initiative“ im Kontext."
+        },
+        {
+          "word": "verbessern",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „verbessern“ im Kontext."
+        },
+        {
+          "word": "Verantwortung",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "reading": {
+        "text": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+        "questions": [
+          "Worüber spricht die Gruppe?",
+          "Was macht jede Person?",
+          "Warum arbeiten sie zusammen?",
+          "Welche Idee hilft im Alltag?"
+        ]
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Worüber spricht die Gruppe?",
+          "options": [
+            "Gesellschaft",
+            "Initiative",
+            "verbessern",
+            "Verantwortung"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Was macht jede Person?",
+          "options": [
+            "Cuenta una experiencia, escucha y propone una solución.",
+            "Compra una entrada para un evento.",
+            "No escucha a las otras personas.",
+            "Cancela el proyecto."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Warum arbeiten sie zusammen?",
+          "options": [
+            "Porque tienen un objetivo claro.",
+            "Porque no tienen tiempo.",
+            "Porque no conocen el tema.",
+            "Porque prefieren trabajar solos."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welche Idee hilft im Alltag?",
+          "options": [
+            "Una solución concreta y colaborativa.",
+            "Una lista sin contexto.",
+            "Una discusión sin objetivo.",
+            "Una decisión individual."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "german-b1-gesellschaft-und-mitwirkung-reading-comprehension-5",
+          "type": "mcq",
+          "prompt": "Was ist der Hauptzweck von „Gesellschaft und Mitwirkung: lectura“?",
+          "options": [
+            "Die wichtigsten Ideen und Details von Gesellschaft und Mitwirkung: lectura darstellen",
+            "Ein nicht verwandtes Thema darstellen",
+            "Eine Liste ohne Kontext geben",
+            "Eine Geschichte ohne Bezug zum Thema erzählen"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
+    "slug": "german-b1-gesellschaft-und-mitwirkung-grammar",
+    "target_language": "german",
+    "level": "B1",
+    "skill": "grammar",
+    "unit_slug": "gesellschaft-und-mitwirkung",
+    "title": "Gesellschaft und Mitwirkung: Grammatik",
+    "description": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "order_index": 121,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch B1",
+      "intro": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+      "mission": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Wir lernen: Gesellschaft.",
+        "Wir lernen: mitwirken.",
+        "Wir lernen: Recht.",
+        "Wir lernen: Vorschlag."
+      ],
+      "vocabulary": [
+        {
+          "word": "Gesellschaft",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Gesellschaft“ im Kontext."
+        },
+        {
+          "word": "mitwirken",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „mitwirken“ im Kontext."
+        },
+        {
+          "word": "Recht",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „Recht“ im Kontext."
+        },
+        {
+          "word": "Vorschlag",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
+        },
+        {
+          "word": "Gemeinschaft",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „Gemeinschaft“ im Kontext."
+        },
+        {
+          "word": "wählen",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „wählen“ im Kontext."
+        },
+        {
+          "word": "freiwillig",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „freiwillig“ im Kontext."
+        },
+        {
+          "word": "Initiative",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „Initiative“ im Kontext."
+        },
+        {
+          "word": "verbessern",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „verbessern“ im Kontext."
+        },
+        {
+          "word": "Verantwortung",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Gesellschaft“ richtig?",
+          "options": [
+            "Die Gruppe spricht über Gesellschaft.",
+            "Die Gruppe Gesellschaft spricht über.",
+            "Gesellschaft die über Gruppe spricht.",
+            "Spricht Gruppe die Gesellschaft über."
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „mitwirken“ richtig?",
+          "options": [
+            "Die Gruppe mitwirken spricht über.",
+            "Die Gruppe spricht über mitwirken.",
+            "mitwirken die über Gruppe spricht.",
+            "Spricht Gruppe die mitwirken über."
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Recht“ richtig?",
+          "options": [
+            "Recht die über Gruppe spricht.",
+            "Die Gruppe Recht spricht über.",
+            "Die Gruppe spricht über Recht.",
+            "Spricht Gruppe die Recht über."
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Vorschlag“ richtig?",
+          "options": [
+            "Spricht Gruppe die Vorschlag über.",
+            "Die Gruppe Vorschlag spricht über.",
+            "Vorschlag die über Gruppe spricht.",
+            "Die Gruppe spricht über Vorschlag."
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Welcher Satz verwendet „Gemeinschaft“ richtig?",
+          "options": [
+            "Die Gruppe spricht über Gemeinschaft.",
+            "Die Gruppe Gemeinschaft spricht über.",
+            "Gemeinschaft die über Gruppe spricht.",
+            "Spricht Gruppe die Gemeinschaft über."
+          ],
+          "answer": 0
+        }
+      ],
+      "extra": {
+        "grammarProfile": {
+          "name": "Gesellschaft: Konjunktiv II und Argumentation",
+          "definition": "Práctica guiada de Gesellschaft: Konjunktiv II und Argumentation.",
+          "function": "Usar la estructura con precisión en contextos cotidianos.",
+          "examples": []
+        }
+      }
+    }
+  },
+  {
+    "slug": "german-b1-gesellschaft-und-mitwirkung-vocabulary",
+    "target_language": "german",
+    "level": "B1",
+    "skill": "vocabulary",
+    "unit_slug": "gesellschaft-und-mitwirkung",
+    "title": "Gesellschaft und Mitwirkung: Wortschatz",
+    "description": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "order_index": 122,
+    "estimated_minutes": 10,
+    "is_free": false,
+    "access_tier": "premium",
+    "payment_price_usd": 4.99,
+    "content_json": {
+      "language": "Deutsch",
+      "language_key": "german",
+      "level_title": "Deutsch B1",
+      "intro": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+      "mission": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+      "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+      "phrases": [
+        "Wir lernen: Gesellschaft.",
+        "Wir lernen: mitwirken.",
+        "Wir lernen: Recht.",
+        "Wir lernen: Vorschlag."
+      ],
+      "vocabulary": [
+        {
+          "word": "Gesellschaft",
+          "translation": "Palabra clave 1",
+          "example": "Ich benutze das Wort „Gesellschaft“ im Kontext."
+        },
+        {
+          "word": "mitwirken",
+          "translation": "Palabra clave 2",
+          "example": "Ich benutze das Wort „mitwirken“ im Kontext."
+        },
+        {
+          "word": "Recht",
+          "translation": "Palabra clave 3",
+          "example": "Ich benutze das Wort „Recht“ im Kontext."
+        },
+        {
+          "word": "Vorschlag",
+          "translation": "Palabra clave 4",
+          "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
+        },
+        {
+          "word": "Gemeinschaft",
+          "translation": "Palabra clave 5",
+          "example": "Ich benutze das Wort „Gemeinschaft“ im Kontext."
+        },
+        {
+          "word": "wählen",
+          "translation": "Palabra clave 6",
+          "example": "Ich benutze das Wort „wählen“ im Kontext."
+        },
+        {
+          "word": "freiwillig",
+          "translation": "Palabra clave 7",
+          "example": "Ich benutze das Wort „freiwillig“ im Kontext."
+        },
+        {
+          "word": "Initiative",
+          "translation": "Palabra clave 8",
+          "example": "Ich benutze das Wort „Initiative“ im Kontext."
+        },
+        {
+          "word": "verbessern",
+          "translation": "Palabra clave 9",
+          "example": "Ich benutze das Wort „verbessern“ im Kontext."
+        },
+        {
+          "word": "Verantwortung",
+          "translation": "Palabra clave 10",
+          "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
+        }
+      ],
+      "xp_reward": 25,
+      "access_policy": {
+        "free_lessons_per_level": 3,
+        "is_free_preview": false,
+        "premium_price_usd": 4.99,
+        "premium_label": "Premium desbloquea la ruta completa"
+      },
+      "exercises": [
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Gesellschaft",
+            "mitwirken",
+            "Recht",
+            "Vorschlag"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Recht",
+            "mitwirken",
+            "Vorschlag",
+            "Gemeinschaft"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Gemeinschaft",
+            "Vorschlag",
+            "Recht",
+            "wählen"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "freiwillig",
+            "Gemeinschaft",
+            "wählen",
+            "Vorschlag"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "Gemeinschaft",
+            "wählen",
+            "freiwillig",
+            "Initiative"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "mcq",
+          "prompt": "Selecciona la palabra trabajada en esta unidad:",
+          "options": [
+            "freiwillig",
+            "wählen",
+            "Initiative",
+            "verbessern"
           ],
           "answer": 1
         }

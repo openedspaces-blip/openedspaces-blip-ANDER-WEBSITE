@@ -26,7 +26,9 @@ const courses = {
         ['progetti-di-classe', 'Progetti di classe', 'presentare un progetto e distribuirne i compiti', 'progetto, ricerca, compito, collaborazione, presentare, accordo, soluzione, scopo, partecipare, risultato'],
         ['tecnologia-quotidiana', 'Tecnologia quotidiana', 'valutare usos de la tecnología con argumentos', 'tecnologia, dispositivo, vantaggio, rischio, proteggere, abitudine, connessione, informazione, scegliere, equilibrio'],
         ['citta-e-mobilita', 'Città e mobilità', 'comparare opciones de movilidad urbana', 'trasporto, percorso, traffico, bicicletta, migliorare, accessibile, ritardo, servizio, proporre, quartiere'],
-        ['piani-per-il-futuro', 'Piani per il futuro', 'hablar de metas y posibilidades futuras', 'futuro, obiettivo, opportunità, decidere, esperienza, formazione, percorso, sperare, scelta, raggiungere']
+        ['piani-per-il-futuro', 'Piani per il futuro', 'hablar de metas y posibilidades futuras', 'futuro, obiettivo, opportunità, decidere, esperienza, formazione, percorso, sperare, scelta, raggiungere'],
+        ['relazioni-e-comunicazione', 'Relazioni e comunicazione', 'expresar relaciones, opiniones y mensajes referidos', 'relazione, ascoltare, spiegare, messaggio, accordo, fiducia, conversazione, opinione, chiarire, rispettare'],
+        ['cittadinanza-e-partecipazione', 'Cittadinanza e partecipazione', 'proponer acciones y participar en la comunidad', 'cittadinanza, partecipare, diritto, proposta, comunità, scegliere, volontario, iniziativa, migliorare, responsabilità']
       ]
     }
   },
@@ -43,7 +45,9 @@ const courses = {
         ['projeto-coletivo', 'Projeto coletivo', 'apresentar um projeto e dividir tarefas', 'projeto, pesquisa, tarefa, colaboração, apresentar, acordo, solução, objetivo, participar, resultado'],
         ['tecnologia-no-dia-a-dia', 'Tecnologia no dia a dia', 'avaliar usos da tecnologia com argumentos', 'tecnologia, aparelho, vantagem, risco, proteger, hábito, conexão, informação, escolher, equilíbrio'],
         ['cidade-e-mobilidade', 'Cidade e mobilidade', 'comparar opções de mobilidade urbana', 'transporte, caminho, trânsito, bicicleta, melhorar, acessível, atraso, serviço, propor, bairro'],
-        ['planos-para-o-futuro', 'Planos para o futuro', 'falar de metas e possibilidades futuras', 'futuro, objetivo, oportunidade, decidir, experiência, formação, caminho, esperar, escolha, alcançar']
+        ['planos-para-o-futuro', 'Planos para o futuro', 'falar de metas e possibilidades futuras', 'futuro, objetivo, oportunidade, decidir, experiência, formação, caminho, esperar, escolha, alcançar'],
+        ['relacoes-e-comunicacao', 'Relações e comunicação', 'expressar relações, opiniões e mensagens relatadas', 'relação, escutar, explicar, mensagem, acordo, confiança, conversa, opinião, esclarecer, respeitar'],
+        ['cidadania-e-participacao', 'Cidadania e participação', 'propor ações e participar da comunidade', 'cidadania, participar, direito, proposta, comunidade, escolher, voluntário, iniciativa, melhorar, responsabilidade']
       ]
     }
   },
@@ -60,7 +64,9 @@ const courses = {
         ['zu-hause', 'Zu Hause', 'einen Tagesablauf beschreiben', 'aufstehen, frühstücken, arbeiten, kochen, schlafen, Uhr, morgens, abends, Haushalt, ruhig'],
         ['wetter-und-jahreszeiten', 'Wetter und Jahreszeiten', 'über Wetter und Kleidung sprechen', 'Wetter, Sonne, Regen, kalt, warm, Sommer, Winter, Jacke, heute, draußen'],
         ['freizeit', 'Freizeit', 'über Hobbys sprechen', 'Hobby, lesen, laufen, Kino, Sport, Wochenende, gern, manchmal, oft, Zeit'],
-        ['unterwegs', 'Unterwegs', 'eine einfache Reise planen', 'Zug, Ticket, Abfahrt, Ankunft, Reise, Koffer, Bahnhof, warten, fahren, besuchen']
+        ['unterwegs', 'Unterwegs', 'eine einfache Reise planen', 'Zug, Ticket, Abfahrt, Ankunft, Reise, Koffer, Bahnhof, warten, fahren, besuchen'],
+        ['kleidung-und-farben', 'Kleidung und Farben', 'Kleidung beschreiben und auswählen', 'Kleidung, Hemd, Hose, Kleid, Farbe, blau, rot, tragen, passen, kaufen'],
+        ['geburtstag-und-einladung', 'Geburtstag und Einladung', 'eine Einladung verstehen und Uhrzeiten nennen', 'Geburtstag, Einladung, feiern, Uhr, heute, morgen, gern, kommen, bringen, Geschenk']
       ],
       A2: [
         ['alltag-und-termine', 'Alltag und Termine', 'Termine vereinbaren und Gewohnheiten erklären', 'Termin, Kalender, früher, später, meistens, treffen, verschieben, planen, Woche, pünktlich'],
@@ -72,7 +78,9 @@ const courses = {
         ['natur-und-umwelt', 'Natur und Umwelt', 'über Umwelt im Alltag sprechen', 'Umwelt, Müll, trennen, Energie, Fahrrad, sparen, sauber, Park, schützen, wichtig'],
         ['medien-und-kommunikation', 'Medien und Kommunikation', 'Nachrichten und Mediengewohnheiten beschreiben', 'Nachricht, Zeitung, Handy, Internet, informieren, erzählen, Meinung, Bildschirm, Verbindung, erklären'],
         ['lernen-und-ziele', 'Lernen und Ziele', 'Lernziele und Fortschritt erklären', 'Ziel, Kurs, üben, Fortschritt, schwierig, leichter, verbessern, Prüfung, Methode, Erfolg'],
-        ['stadt-und-service', 'Stadt und Service', 'Probleme in der Stadt lösen', 'Service, Formular, Rathaus, Auskunft, Problem, helfen, erklären, öffnen, geschlossen, Lösung']
+        ['stadt-und-service', 'Stadt und Service', 'Probleme in der Stadt lösen', 'Service, Formular, Rathaus, Auskunft, Problem, helfen, erklären, öffnen, geschlossen, Lösung'],
+        ['feste-und-traditionen', 'Feste und Traditionen', 'Feste und Abläufe in der Vergangenheit beschreiben', 'Fest, Tradition, feiern, vorbereitet, besucht, gemeinsam, Reihenfolge, früher, danach, Erinnerung'],
+        ['wohnungssuche', 'Wohnungssuche', 'Wohnungen vergleichen und Lage beschreiben', 'Wohnung, Zimmer, Miete, suchen, neben, über, unter, größer, ruhiger, Besichtigung']
       ],
       B1: [
         ['arbeit-und-ziele', 'Arbeit und Ziele', 'Zeit organisieren und Lösungen vorschlagen', 'Ziel, Frist, Team, verbessern, wählen, Ergebnis, Verantwortung, Vorschlag, Gewohnheit, Vertrauen'],
@@ -84,7 +92,9 @@ const courses = {
         ['gemeinschaftsprojekt', 'Gemeinschaftsprojekt', 'ein Projekt vorstellen und Aufgaben verteilen', 'Projekt, Recherche, Aufgabe, Zusammenarbeit, vorstellen, Vereinbarung, Lösung, Zweck, teilnehmen, Ergebnis'],
         ['technik-im-alltag', 'Technik im Alltag', 'Technik mit Argumenten bewerten', 'Technik, Gerät, Vorteil, Risiko, schützen, Gewohnheit, Verbindung, Information, wählen, Gleichgewicht'],
         ['stadt-und-mobilitat', 'Stadt und Mobilität', 'städtische Mobilität vergleichen', 'Verkehr, Strecke, Stau, Fahrrad, verbessern, zugänglich, Verspätung, Dienst, vorschlagen, Viertel'],
-        ['plane-fur-die-zukunft', 'Pläne für die Zukunft', 'über Ziele und Möglichkeiten sprechen', 'Zukunft, Ziel, Möglichkeit, entscheiden, Erfahrung, Ausbildung, Weg, hoffen, Wahl, erreichen']
+        ['plane-fur-die-zukunft', 'Pläne für die Zukunft', 'über Ziele und Möglichkeiten sprechen', 'Zukunft, Ziel, Möglichkeit, entscheiden, Erfahrung, Ausbildung, Weg, hoffen, Wahl, erreichen'],
+        ['beziehungen-und-kommunikation', 'Beziehungen und Kommunikation', 'über Beziehungen sprechen und Informationen weitergeben', 'Beziehung, zuhören, erklären, Nachricht, Vereinbarung, Vertrauen, Gespräch, Meinung, klären, respektieren'],
+        ['gesellschaft-und-mitwirkung', 'Gesellschaft und Mitwirkung', 'Vorschläge machen und gesellschaftliche Beteiligung begründen', 'Gesellschaft, mitwirken, Recht, Vorschlag, Gemeinschaft, wählen, freiwillig, Initiative, verbessern, Verantwortung']
       ]
     }
   }
@@ -157,6 +167,26 @@ function makeLesson(language, level, unit, skill, order) {
   return base;
 }
 
+// These are the grammar names shown in the Tests selector.  They describe
+// the actual focus being assessed, instead of merely repeating the unit name.
+const grammarNames = {
+  italian: {
+    A1: ['Saluti, essere e chiamarsi', 'Articoli indeterminativi e volere', 'Avere, possessivi e plurale', 'C’è / ci sono e quantità', 'Andare, venire e preposizioni', 'Presente dei verbi regolari', 'Articoli determinativi e casa', 'Fare, tempo e stagioni', 'Passato prossimo introduttivo', 'Preposizioni semplici e articolate', 'Partitivi e verbi di cucina', 'Scrivere messaggi: presente e connettori'],
+    A2: ['Passato prossimo con essere e avere', 'Imperfetto per il contesto', 'Pronomi diretti', 'Dovere, potere e volere al passato', 'Comparativi e superlativi', 'Futuro semplice', 'Verbi riflessivi', 'Ci e ne', 'Preposizioni e movimento', 'Condizionale di cortesia', 'Congiunzioni di causa e conseguenza', 'Racconto al passato: passato prossimo e imperfetto'],
+    B1: ['Periodo ipotetico della possibilità', 'Pronomi combinati', 'Congiuntivo presente', 'Discorso indiretto', 'Passivo e si impersonale', 'Trapassato prossimo', 'Connettori argomentativi', 'Congiuntivo con opinione e dubbio', 'Comparativi complessi', 'Futuro anteriore e supposizioni', 'Relativi e comunicazione', 'Cittadinanza: congiuntivo e proposte']
+  },
+  portuguese: {
+    A1: ['Ser e estar', 'Artigos e gostaria de', 'Possessivos e plural', 'Há / tem e quantidades', 'Ir e preposições', 'Presente dos verbos regulares', 'Morar, estar e adjetivos', 'Tempo, fazer e estações', 'Pretérito perfeito introdutório', 'Por / para e transporte', 'Partitivos e comida', 'Mensagens no presente'],
+    A2: ['Pretérito perfeito', 'Pretérito imperfeito', 'Pronomes diretos', 'Futuro próximo e planos', 'Comparativos e superlativos', 'Futuro do presente', 'Verbos reflexivos', 'Pretérito perfeito e imperfeito', 'Conectores de tempo', 'Condicional de cortesia', 'Subjuntivo presente introdutório', 'Narrativa no passado'],
+    B1: ['Período condicional', 'Pronomes oblíquos', 'Subjuntivo presente', 'Discurso indireto', 'Voz passiva e índice de indeterminação', 'Mais-que-perfeito e narrativa', 'Conectores argumentativos', 'Subjuntivo e opinião', 'Comparação e consequência', 'Futuro do subjuntivo', 'Relações: pronomes e discurso indireto', 'Cidadania: subjuntivo e propostas']
+  },
+  german: {
+    A1: ['sein, haben und Personalpronomen', 'möchten, bestellen und Akkusativ', 'Possessivartikel und Plural', 'kein / nicht und Mengenangaben', 'Modalverb können und Wegbeschreibung', 'Präsens trennbarer Verben', 'Akkusativartikel im Alltag', 'Wetter, es gibt und Zeitangaben', 'gern, lieber und Freizeit', 'Perfekt mit haben', 'Kleidung: Adjektive und Farben', 'Einladung: möchten und Uhrzeiten'],
+    A2: ['Perfekt und Zeitangaben', 'Wechselpräpositionen', 'Modalverben im Präteritum', 'Nebensätze mit weil und dass', 'Perfekt mit sein', 'Dativ und Akkusativ', 'Komparativ und Superlativ', 'Reflexive Verben', 'zu + Infinitiv', 'Konjunktiv II: höfliche Bitten', 'Feste: Perfekt und Reihenfolge', 'Wohnungssuche: Wechselpräpositionen und Vergleich'],
+    B1: ['Konjunktiv II für Wünsche', 'Relativsätze', 'Passiv im Präsens', 'Indirekte Fragen', 'Konnektoren: obwohl, trotzdem und daher', 'Plusquamperfekt', 'Partizipien als Adjektive', 'Meinung und Argumentation', 'Futur I und Vermutungen', 'Verben mit Präpositionen', 'Beziehungen: Relativsätze und indirekte Fragen', 'Gesellschaft: Konjunktiv II und Argumentation']
+  }
+};
+
 let addedUnits = 0; let addedLessons = 0;
 for (const [language, course] of Object.entries(courses)) {
   for (const [level, courseUnits] of Object.entries(course.levels)) {
@@ -173,6 +203,28 @@ for (const [language, course] of Object.entries(courses)) {
           addedLessons += 1;
         }
       });
+    });
+  }
+}
+
+for (const [language, levelNames] of Object.entries(grammarNames)) {
+  for (const [level, names] of Object.entries(levelNames)) {
+    const orderedUnits = units
+      .filter((unit) => unit.target_language === language && unit.level === level)
+      .sort((a, b) => a.order_index - b.order_index)
+      .slice(0, 12);
+    orderedUnits.forEach((unit, index) => {
+      const lesson = lessons.find((row) => row.target_language === language && row.level === level && row.unit_slug === unit.slug && row.skill === 'grammar');
+      if (!lesson) return;
+      lesson.content_json = lesson.content_json || {};
+      lesson.content_json.extra = lesson.content_json.extra || {};
+      lesson.content_json.extra.grammarProfile = {
+        ...(lesson.content_json.extra.grammarProfile || {}),
+        name: names[index] || unit.title,
+        definition: `Práctica guiada de ${names[index] || unit.title}.`,
+        function: 'Usar la estructura con precisión en contextos cotidianos.',
+        examples: lesson.content_json.extra.grammarProfile?.examples || []
+      };
     });
   }
 }
