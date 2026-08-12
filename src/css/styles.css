@@ -3561,22 +3561,27 @@ a:focus-visible {
 /* Predictive text (Fase 4) */
 .translator-input-wrap {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
 
 .translator-suggestions {
-  position: absolute;
-  z-index: 5;
-  top: 100%;
-  left: 0;
-  right: 0;
-  margin: 4px 0 0;
+  /* Suggestions are part of the input flow.  A floating list sat directly
+     over the action row, making punctuation choices and Translate unreadable. */
+  position: static;
+  z-index: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.28rem;
+  margin: 0.4rem 0 0;
   padding: 4px;
   list-style: none;
   background: var(--surface, #fff);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm, 8px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
-  max-height: 200px;
+  max-height: 9rem;
   overflow-y: auto;
 }
 
@@ -21062,11 +21067,14 @@ footer small {
   border: 1px solid #d7e3f6;
   border-radius: 17px;
   background: #fff;
+  cursor: pointer;
   box-shadow: 0 7px 18px rgba(30, 64, 175, 0.055);
+  transition: border-color 160ms ease, background 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
 
 .verb-catalogue-row:nth-child(odd) { border-right: 1px solid #d7e3f6; }
 .verb-catalogue-row:hover { border-color: #a9c3f3; background: #fff; box-shadow: 0 10px 24px rgba(30, 64, 175, 0.09); }
+.verb-catalogue-row.is-pronouncing { border-color: #2563eb; background: #f4f8ff; box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12), 0 10px 24px rgba(30, 64, 175, 0.11); transform: translateY(-1px); }
 
 .verb-catalogue-head {
   display: grid;

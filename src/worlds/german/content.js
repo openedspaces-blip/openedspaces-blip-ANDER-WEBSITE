@@ -68,12 +68,13 @@
     ],
     "reading": {
       "title": "Deutsch A1 Reading",
-      "text": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "text": "Heute erlebt Anna etwas zum Thema Geburtstag und Einladung. Sie trifft Leon in ihrem Viertel und spricht langsam mit ihm. Leon hört zu, lächelt und stellt eine einfache Frage. Anna antwortet mit klaren Wörtern, denn sie möchte die Situation gut verstehen. Zusammen sehen sie sich den Ort an, begrüßen Menschen und wählen eine kleine Aktivität für den Nachmittag. Einige Dinge kennen sie schon, andere machen sie neugierig. Am Ende sagt Anna, dass eine Sprache lernen auch bedeutet, am Alltag teilzunehmen. Leon stimmt zu und möchte die Erfahrung morgen wiederholen. Dabei benutzt die Gruppe Wörter wie Geburtstag, Einladung, feiern, Uhr. Dabei benutzt die Gruppe Wörter wie Geburtstag, Einladung, feiern, Uhr. Dabei benutzt die Gruppe Wörter wie Geburtstag, Einladung, feiern, Uhr. Dabei benutzt die Gruppe Wörter wie Geburtstag, Einladung, feiern, Uhr.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     }
   },
@@ -141,12 +142,13 @@
     ],
     "reading": {
       "title": "Deutsch A2 Reading",
-      "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "text": "Letzte Woche hat Anna an einer Aktivität zum Thema Wohnungssuche teilgenommen. Zuerst kannte sie das Programm nicht gut, deshalb hat sie nach Informationen gefragt und den Menschen im Viertel zugehört. Leon kam später, brachte aber eine gute Idee mit. Beide verglichen ihre Erfahrungen und beschlossen, zusammenzuarbeiten. Während der Aktivität bemerkten sie, dass einfache Lösungen vielen Menschen helfen können. Anna erklärte, dass sie weiterlernen möchte, weil man eine Stadt besser versteht, wenn man die Gewohnheiten der Menschen beobachtet. Am Ende schrieben sie eine kurze Nachricht, um der Gruppe zu danken, und planten ein neues Treffen für die nächste Woche. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     }
   },
@@ -214,12 +216,13 @@
     ],
     "reading": {
       "title": "Deutsch B1 Reading",
-      "text": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "text": "Im Viertel von Anna ist das Thema „Gesellschaft und Mitwirkung“ nach einer offenen Sitzung wichtig geworden. Einige Bewohner meinten, das Problem müsse nur von Institutionen gelöst werden; andere fanden, dass auch Bürger mit konkreten Aktionen beitragen können. Anna hörte beide Positionen an und sagte, ein guter Vorschlag müsse realistisch und nicht nur interessant sein. Leon berichtete von einer persönlichen Erfahrung: Früher hatte er an einem ähnlichen Projekt teilgenommen und gelernt, dass regelmäßige Kommunikation viele Missverständnisse verhindert. Die Gruppe teilte deshalb Aufgaben auf, setzte eine Frist und wählte einen einfachen Weg, die Nachbarschaft zu informieren. Nicht alle waren mit jedem Detail einverstanden. Trotzdem beschlossen sie, die Ergebnisse nach einem Monat gemeinsam zu prüfen. Anna hält diese Entscheidung für ausgewogen, weil sie sofortiges Handeln ermöglicht und später Raum für Verbesserungen lässt. Am Ende der Sitzung gingen die Menschen mit unterschiedlichen Verantwortlichkeiten nach Hause, aber mit einem gemeinsamen Ziel: den Alltag zu verbessern, ohne jemanden auszuschließen. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     }
   },
@@ -465,7 +468,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 10,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 10,
     "description": "sich begrüßen und vorstellen",
     "intro": "sich begrüßen und vorstellen",
     "mission": "sich begrüßen und vorstellen",
@@ -530,12 +533,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Begrüßung und Name",
+      "text": "Heute erlebt Anna etwas zum Thema Begrüßung und Name. Sie trifft Leon in ihrem Viertel und spricht langsam mit ihm. Leon hört zu, lächelt und stellt eine einfache Frage. Anna antwortet mit klaren Wörtern, denn sie möchte die Situation gut verstehen. Zusammen sehen sie sich den Ort an, begrüßen Menschen und wählen eine kleine Aktivität für den Nachmittag. Einige Dinge kennen sie schon, andere machen sie neugierig. Am Ende sagt Anna, dass eine Sprache lernen auch bedeutet, am Alltag teilzunehmen. Leon stimmt zu und möchte die Erfahrung morgen wiederholen. Dabei benutzt die Gruppe Wörter wie Hallo, Name, Land, Sprache. Dabei benutzt die Gruppe Wörter wie Hallo, Name, Land, Sprache. Dabei benutzt die Gruppe Wörter wie Hallo, Name, Land, Sprache. Dabei benutzt die Gruppe Wörter wie Hallo, Name, Land, Sprache.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -543,42 +548,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Hallo",
-          "danke",
-          "bitte",
-          "Freund"
+          "Name",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -593,7 +598,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 10,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 14,
     "description": "Termine vereinbaren und Gewohnheiten erklären",
     "intro": "Termine vereinbaren und Gewohnheiten erklären",
     "mission": "Termine vereinbaren und Gewohnheiten erklären",
@@ -658,12 +663,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Alltag und Termine",
+      "text": "Letzte Woche hat Anna an einer Aktivität zum Thema Alltag und Termine teilgenommen. Zuerst kannte sie das Programm nicht gut, deshalb hat sie nach Informationen gefragt und den Menschen im Viertel zugehört. Leon kam später, brachte aber eine gute Idee mit. Beide verglichen ihre Erfahrungen und beschlossen, zusammenzuarbeiten. Während der Aktivität bemerkten sie, dass einfache Lösungen vielen Menschen helfen können. Anna erklärte, dass sie weiterlernen möchte, weil man eine Stadt besser versteht, wenn man die Gewohnheiten der Menschen beobachtet. Am Ende schrieben sie eine kurze Nachricht, um der Gruppe zu danken, und planten ein neues Treffen für die nächste Woche. Dabei benutzt die Gruppe Wörter wie Termin, Kalender, früher, später. Dabei benutzt die Gruppe Wörter wie Termin, Kalender, früher, später. Dabei benutzt die Gruppe Wörter wie Termin, Kalender, früher, später. Dabei benutzt die Gruppe Wörter wie Termin, Kalender, früher, später. Dabei benutzt die Gruppe Wörter wie Termin, Kalender, früher, später. Dabei benutzt die Gruppe Wörter wie Termin, Kalender, früher, später. Dabei benutzt die Gruppe Wörter wie Termin, Kalender, früher, später. Dabei benutzt die Gruppe Wörter wie Termin, Kalender, früher, später.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -671,53 +678,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Termin",
-          "planen",
-          "Woche",
-          "pünktlich"
+          "Kalender",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-a2-alltag-und-termine-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Alltag und Termine: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Alltag und Termine: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -732,7 +738,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 10,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "Zeit organisieren und Lösungen vorschlagen",
     "intro": "Zeit organisieren und Lösungen vorschlagen",
     "mission": "Zeit organisieren und Lösungen vorschlagen",
@@ -797,12 +803,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Arbeit und Ziele",
+      "text": "Im Viertel von Anna ist das Thema „Arbeit und Ziele“ nach einer offenen Sitzung wichtig geworden. Einige Bewohner meinten, das Problem müsse nur von Institutionen gelöst werden; andere fanden, dass auch Bürger mit konkreten Aktionen beitragen können. Anna hörte beide Positionen an und sagte, ein guter Vorschlag müsse realistisch und nicht nur interessant sein. Leon berichtete von einer persönlichen Erfahrung: Früher hatte er an einem ähnlichen Projekt teilgenommen und gelernt, dass regelmäßige Kommunikation viele Missverständnisse verhindert. Die Gruppe teilte deshalb Aufgaben auf, setzte eine Frist und wählte einen einfachen Weg, die Nachbarschaft zu informieren. Nicht alle waren mit jedem Detail einverstanden. Trotzdem beschlossen sie, die Ergebnisse nach einem Monat gemeinsam zu prüfen. Anna hält diese Entscheidung für ausgewogen, weil sie sofortiges Handeln ermöglicht und später Raum für Verbesserungen lässt. Am Ende der Sitzung gingen die Menschen mit unterschiedlichen Verantwortlichkeiten nach Hause, aber mit einem gemeinsamen Ziel: den Alltag zu verbessern, ohne jemanden auszuschließen. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern. Dabei benutzt die Gruppe Wörter wie Ziel, Frist, Team, verbessern.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -810,53 +818,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Ziel",
-          "Vorschlag",
-          "Gewohnheit",
-          "Vertrauen"
+          "Frist",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-b1-arbeit-und-ziele-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Arbeit und Ziele: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Arbeit und Ziele: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -939,64 +946,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "sein, haben und Personalpronomen",
-        "definition": "Práctica guiada de sein, haben und Personalpronomen.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Begrüßung und Name: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
+        "examples": [
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Hallo“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Hallo.",
-          "Die Gruppe Hallo spricht über.",
-          "Hallo die über Gruppe spricht.",
-          "Spricht Gruppe die Hallo über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Name“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Name spricht über.",
-          "Die Gruppe spricht über Name.",
-          "Name die über Gruppe spricht.",
-          "Spricht Gruppe die Name über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Land“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Land die über Gruppe spricht.",
-          "Die Gruppe Land spricht über.",
-          "Die Gruppe spricht über Land.",
-          "Spricht Gruppe die Land über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Sprache“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Sprache über.",
-          "Die Gruppe Sprache spricht über.",
-          "Sprache die über Gruppe spricht.",
-          "Die Gruppe spricht über Sprache."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „wohnen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über wohnen.",
-          "Die Gruppe wohnen spricht über.",
-          "wohnen die über Gruppe spricht.",
-          "Spricht Gruppe die wohnen über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
   },
@@ -1078,64 +1210,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Perfekt und Zeitangaben",
-        "definition": "Práctica guiada de Perfekt und Zeitangaben.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Alltag und Termine: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
+        "examples": [
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Termin“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Termin.",
-          "Die Gruppe Termin spricht über.",
-          "Termin die über Gruppe spricht.",
-          "Spricht Gruppe die Termin über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Kalender“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Kalender spricht über.",
-          "Die Gruppe spricht über Kalender.",
-          "Kalender die über Gruppe spricht.",
-          "Spricht Gruppe die Kalender über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „früher“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "früher die über Gruppe spricht.",
-          "Die Gruppe früher spricht über.",
-          "Die Gruppe spricht über früher.",
-          "Spricht Gruppe die früher über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „später“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die später über.",
-          "Die Gruppe später spricht über.",
-          "später die über Gruppe spricht.",
-          "Die Gruppe spricht über später."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „meistens“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über meistens.",
-          "Die Gruppe meistens spricht über.",
-          "meistens die über Gruppe spricht.",
-          "Spricht Gruppe die meistens über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
   },
@@ -1217,64 +1474,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Konjunktiv II für Wünsche",
-        "definition": "Práctica guiada de Konjunktiv II für Wünsche.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Arbeit und Ziele: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "structure": "Meinung + weil/obwohl/deshalb + Begründung",
+        "function": "Eine Meinung ausdrücken und begründen.",
+        "examples": [
+          "Ich finde den Vorschlag sinnvoll.",
+          "Trotzdem müssen wir die Ergebnisse prüfen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Ziel“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Ziel.",
-          "Die Gruppe Ziel spricht über.",
-          "Ziel die über Gruppe spricht.",
-          "Spricht Gruppe die Ziel über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Frist“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Frist spricht über.",
-          "Die Gruppe spricht über Frist.",
-          "Frist die über Gruppe spricht.",
-          "Spricht Gruppe die Frist über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Team“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Team die über Gruppe spricht.",
-          "Die Gruppe Team spricht über.",
-          "Die Gruppe spricht über Team.",
-          "Spricht Gruppe die Team über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „verbessern“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die verbessern über.",
-          "Die Gruppe verbessern spricht über.",
-          "verbessern die über Gruppe spricht.",
-          "Die Gruppe spricht über verbessern."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „wählen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über wählen.",
-          "Die Gruppe wählen spricht über.",
-          "wählen die über Gruppe spricht.",
-          "Spricht Gruppe die wählen über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
   },
@@ -1303,52 +1685,134 @@
       {
         "word": "Hallo",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Hallo“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Hallo“ in einem Satz.",
+        "contexts": [
+          "Hallo · tema",
+          "Hallo · conversación",
+          "Hallo · práctica"
+        ]
       },
       {
         "word": "Name",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Name“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Name“ in einem Satz.",
+        "contexts": [
+          "Name · tema",
+          "Name · conversación",
+          "Name · práctica"
+        ]
       },
       {
         "word": "Land",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Land“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Land“ in einem Satz.",
+        "contexts": [
+          "Land · tema",
+          "Land · conversación",
+          "Land · práctica"
+        ]
       },
       {
         "word": "Sprache",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Sprache“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Sprache“ in einem Satz.",
+        "contexts": [
+          "Sprache · tema",
+          "Sprache · conversación",
+          "Sprache · práctica"
+        ]
       },
       {
         "word": "wohnen",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „wohnen“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „wohnen“ in einem Satz.",
+        "contexts": [
+          "wohnen · tema",
+          "wohnen · conversación",
+          "wohnen · práctica"
+        ]
       },
       {
         "word": "heißen",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „heißen“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „heißen“ in einem Satz.",
+        "contexts": [
+          "heißen · tema",
+          "heißen · conversación",
+          "heißen · práctica"
+        ]
       },
       {
         "word": "lernen",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „lernen“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „lernen“ in einem Satz.",
+        "contexts": [
+          "lernen · tema",
+          "lernen · conversación",
+          "lernen · práctica"
+        ]
       },
       {
         "word": "danke",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „danke“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „danke“ in einem Satz.",
+        "contexts": [
+          "danke · tema",
+          "danke · conversación",
+          "danke · práctica"
+        ]
       },
       {
         "word": "bitte",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „bitte“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „bitte“ in einem Satz.",
+        "contexts": [
+          "bitte · tema",
+          "bitte · conversación",
+          "bitte · práctica"
+        ]
       },
       {
         "word": "Freund",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Freund“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Freund“ in einem Satz.",
+        "contexts": [
+          "Freund · tema",
+          "Freund · conversación",
+          "Freund · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -1358,7 +1822,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Hallo",
           "Name",
@@ -1368,52 +1832,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Land",
+          "Hallo",
           "Name",
-          "Sprache",
-          "wohnen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "wohnen",
-          "Sprache",
           "Land",
-          "heißen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "lernen",
-          "wohnen",
-          "heißen",
           "Sprache"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Name",
+          "Hallo",
+          "Land",
+          "Sprache"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Land",
+          "Hallo",
+          "Name",
+          "Sprache"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "wohnen",
+          "Hallo",
+          "Name",
+          "Land"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Hallo",
           "heißen",
+          "Name",
+          "Land"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Name",
+          "Hallo",
           "lernen",
+          "Land"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Land",
+          "Hallo",
+          "Name",
           "danke"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "lernen",
-          "heißen",
-          "danke",
-          "bitte"
+          "bitte",
+          "Hallo",
+          "Name",
+          "Land"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Hallo",
+          "Freund",
+          "Name",
+          "Land"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Name",
+          "Hallo",
+          "heute",
+          "Land"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Land",
+          "Hallo",
+          "Name",
+          "zusammen"
         ]
       }
     ]
@@ -1443,52 +1967,134 @@
       {
         "word": "Termin",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Termin“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Termin“ in einem Satz.",
+        "contexts": [
+          "Termin · tema",
+          "Termin · conversación",
+          "Termin · práctica"
+        ]
       },
       {
         "word": "Kalender",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Kalender“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Kalender“ in einem Satz.",
+        "contexts": [
+          "Kalender · tema",
+          "Kalender · conversación",
+          "Kalender · práctica"
+        ]
       },
       {
         "word": "früher",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „früher“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „früher“ in einem Satz.",
+        "contexts": [
+          "früher · tema",
+          "früher · conversación",
+          "früher · práctica"
+        ]
       },
       {
         "word": "später",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „später“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „später“ in einem Satz.",
+        "contexts": [
+          "später · tema",
+          "später · conversación",
+          "später · práctica"
+        ]
       },
       {
         "word": "meistens",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „meistens“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „meistens“ in einem Satz.",
+        "contexts": [
+          "meistens · tema",
+          "meistens · conversación",
+          "meistens · práctica"
+        ]
       },
       {
         "word": "treffen",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „treffen“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „treffen“ in einem Satz.",
+        "contexts": [
+          "treffen · tema",
+          "treffen · conversación",
+          "treffen · práctica"
+        ]
       },
       {
         "word": "verschieben",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „verschieben“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „verschieben“ in einem Satz.",
+        "contexts": [
+          "verschieben · tema",
+          "verschieben · conversación",
+          "verschieben · práctica"
+        ]
       },
       {
         "word": "planen",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „planen“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „planen“ in einem Satz.",
+        "contexts": [
+          "planen · tema",
+          "planen · conversación",
+          "planen · práctica"
+        ]
       },
       {
         "word": "Woche",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „Woche“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „Woche“ in einem Satz.",
+        "contexts": [
+          "Woche · tema",
+          "Woche · conversación",
+          "Woche · práctica"
+        ]
       },
       {
         "word": "pünktlich",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „pünktlich“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „pünktlich“ in einem Satz.",
+        "contexts": [
+          "pünktlich · tema",
+          "pünktlich · conversación",
+          "pünktlich · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -1498,7 +2104,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Termin",
           "Kalender",
@@ -1508,52 +2114,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "früher",
+          "Termin",
           "Kalender",
-          "später",
-          "meistens"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "meistens",
-          "später",
           "früher",
-          "treffen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "verschieben",
-          "meistens",
-          "treffen",
           "später"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kalender",
+          "Termin",
+          "früher",
+          "später"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "früher",
+          "Termin",
+          "Kalender",
+          "später"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "meistens",
+          "Termin",
+          "Kalender",
+          "früher"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Termin",
           "treffen",
+          "Kalender",
+          "früher"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kalender",
+          "Termin",
           "verschieben",
+          "früher"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "früher",
+          "Termin",
+          "Kalender",
           "planen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "verschieben",
-          "treffen",
-          "planen",
-          "Woche"
+          "Woche",
+          "Termin",
+          "Kalender",
+          "früher"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Termin",
+          "pünktlich",
+          "Kalender",
+          "früher"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kalender",
+          "Termin",
+          "heute",
+          "früher"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "früher",
+          "Termin",
+          "Kalender",
+          "zusammen"
         ]
       }
     ]
@@ -1583,52 +2249,134 @@
       {
         "word": "Ziel",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Ziel“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Ziel“ in einem Satz.",
+        "contexts": [
+          "Ziel · tema",
+          "Ziel · conversación",
+          "Ziel · práctica"
+        ]
       },
       {
         "word": "Frist",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Frist“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Frist“ in einem Satz.",
+        "contexts": [
+          "Frist · tema",
+          "Frist · conversación",
+          "Frist · práctica"
+        ]
       },
       {
         "word": "Team",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Team“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Team“ in einem Satz.",
+        "contexts": [
+          "Team · tema",
+          "Team · conversación",
+          "Team · práctica"
+        ]
       },
       {
         "word": "verbessern",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „verbessern“ in einem Satz.",
+        "contexts": [
+          "verbessern · tema",
+          "verbessern · conversación",
+          "verbessern · práctica"
+        ]
       },
       {
         "word": "wählen",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „wählen“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „wählen“ in einem Satz.",
+        "contexts": [
+          "wählen · tema",
+          "wählen · conversación",
+          "wählen · práctica"
+        ]
       },
       {
         "word": "Ergebnis",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Ergebnis“ in einem Satz.",
+        "contexts": [
+          "Ergebnis · tema",
+          "Ergebnis · conversación",
+          "Ergebnis · práctica"
+        ]
       },
       {
         "word": "Verantwortung",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Verantwortung“ in einem Satz.",
+        "contexts": [
+          "Verantwortung · tema",
+          "Verantwortung · conversación",
+          "Verantwortung · práctica"
+        ]
       },
       {
         "word": "Vorschlag",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Vorschlag“ in einem Satz.",
+        "contexts": [
+          "Vorschlag · tema",
+          "Vorschlag · conversación",
+          "Vorschlag · práctica"
+        ]
       },
       {
         "word": "Gewohnheit",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „Gewohnheit“ in einem Satz.",
+        "contexts": [
+          "Gewohnheit · tema",
+          "Gewohnheit · conversación",
+          "Gewohnheit · práctica"
+        ]
       },
       {
         "word": "Vertrauen",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Vertrauen“ in einem Satz.",
+        "contexts": [
+          "Vertrauen · tema",
+          "Vertrauen · conversación",
+          "Vertrauen · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -1638,7 +2386,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Ziel",
           "Frist",
@@ -1648,52 +2396,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Team",
+          "Ziel",
           "Frist",
-          "verbessern",
-          "wählen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "wählen",
-          "verbessern",
           "Team",
-          "Ergebnis"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Verantwortung",
-          "wählen",
-          "Ergebnis",
           "verbessern"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Frist",
+          "Ziel",
+          "Team",
+          "verbessern"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Team",
+          "Ziel",
+          "Frist",
+          "verbessern"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "wählen",
+          "Ziel",
+          "Frist",
+          "Team"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Ziel",
           "Ergebnis",
+          "Frist",
+          "Team"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Frist",
+          "Ziel",
           "Verantwortung",
+          "Team"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Team",
+          "Ziel",
+          "Frist",
           "Vorschlag"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Verantwortung",
-          "Ergebnis",
-          "Vorschlag",
-          "Gewohnheit"
+          "Gewohnheit",
+          "Ziel",
+          "Frist",
+          "Team"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Ziel",
+          "Vertrauen",
+          "Frist",
+          "Team"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Frist",
+          "Ziel",
+          "heute",
+          "Team"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Team",
+          "Ziel",
+          "Frist",
+          "zusammen"
         ]
       }
     ]
@@ -1708,7 +2516,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 20,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 10,
     "description": "etwas bestellen und bezahlen",
     "intro": "etwas bestellen und bezahlen",
     "mission": "etwas bestellen und bezahlen",
@@ -1773,12 +2581,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Im Café",
+      "text": "Heute erlebt Anna etwas zum Thema Im Café. Sie trifft Leon in ihrem Viertel und spricht langsam mit ihm. Leon hört zu, lächelt und stellt eine einfache Frage. Anna antwortet mit klaren Wörtern, denn sie möchte die Situation gut verstehen. Zusammen sehen sie sich den Ort an, begrüßen Menschen und wählen eine kleine Aktivität für den Nachmittag. Einige Dinge kennen sie schon, andere machen sie neugierig. Am Ende sagt Anna, dass eine Sprache lernen auch bedeutet, am Alltag teilzunehmen. Leon stimmt zu und möchte die Erfahrung morgen wiederholen. Dabei benutzt die Gruppe Wörter wie Kaffee, Tee, Wasser, Brot. Dabei benutzt die Gruppe Wörter wie Kaffee, Tee, Wasser, Brot. Dabei benutzt die Gruppe Wörter wie Kaffee, Tee, Wasser, Brot. Dabei benutzt die Gruppe Wörter wie Kaffee, Tee, Wasser, Brot.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -1786,42 +2596,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Kaffee",
-          "Tisch",
-          "lecker",
-          "Rechnung"
+          "Tee",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -1836,7 +2646,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 20,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 14,
     "description": "Wohnung und Nachbarschaft vergleichen",
     "intro": "Wohnung und Nachbarschaft vergleichen",
     "mission": "Wohnung und Nachbarschaft vergleichen",
@@ -1901,12 +2711,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Wohnen und Nachbarschaft",
+      "text": "Letzte Woche hat Anna an einer Aktivität zum Thema Wohnen und Nachbarschaft teilgenommen. Zuerst kannte sie das Programm nicht gut, deshalb hat sie nach Informationen gefragt und den Menschen im Viertel zugehört. Leon kam später, brachte aber eine gute Idee mit. Beide verglichen ihre Erfahrungen und beschlossen, zusammenzuarbeiten. Während der Aktivität bemerkten sie, dass einfache Lösungen vielen Menschen helfen können. Anna erklärte, dass sie weiterlernen möchte, weil man eine Stadt besser versteht, wenn man die Gewohnheiten der Menschen beobachtet. Am Ende schrieben sie eine kurze Nachricht, um der Gruppe zu danken, und planten ein neues Treffen für die nächste Woche. Dabei benutzt die Gruppe Wörter wie Wohnung, Nachbar, umziehen, Miete. Dabei benutzt die Gruppe Wörter wie Wohnung, Nachbar, umziehen, Miete. Dabei benutzt die Gruppe Wörter wie Wohnung, Nachbar, umziehen, Miete. Dabei benutzt die Gruppe Wörter wie Wohnung, Nachbar, umziehen, Miete. Dabei benutzt die Gruppe Wörter wie Wohnung, Nachbar, umziehen, Miete. Dabei benutzt die Gruppe Wörter wie Wohnung, Nachbar, umziehen, Miete. Dabei benutzt die Gruppe Wörter wie Wohnung, Nachbar, umziehen, Miete. Dabei benutzt die Gruppe Wörter wie Wohnung, Nachbar, umziehen, Miete.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -1914,53 +2726,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Wohnung",
-          "erklären",
-          "Vorteil",
-          "gemeinsam"
+          "Nachbar",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-a2-wohnen-und-nachbarschaft-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Wohnen und Nachbarschaft: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Wohnen und Nachbarschaft: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -1975,7 +2786,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 20,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "eine Reise erzählen und verantwortungsvoll beraten",
     "intro": "eine Reise erzählen und verantwortungsvoll beraten",
     "mission": "eine Reise erzählen und verantwortungsvoll beraten",
@@ -2040,12 +2851,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Bewusst reisen",
+      "text": "Im Viertel von Anna ist das Thema „Bewusst reisen“ nach einer offenen Sitzung wichtig geworden. Einige Bewohner meinten, das Problem müsse nur von Institutionen gelöst werden; andere fanden, dass auch Bürger mit konkreten Aktionen beitragen können. Anna hörte beide Positionen an und sagte, ein guter Vorschlag müsse realistisch und nicht nur interessant sein. Leon berichtete von einer persönlichen Erfahrung: Früher hatte er an einem ähnlichen Projekt teilgenommen und gelernt, dass regelmäßige Kommunikation viele Missverständnisse verhindert. Die Gruppe teilte deshalb Aufgaben auf, setzte eine Frist und wählte einen einfachen Weg, die Nachbarschaft zu informieren. Nicht alle waren mit jedem Detail einverstanden. Trotzdem beschlossen sie, die Ergebnisse nach einem Monat gemeinsam zu prüfen. Anna hält diese Entscheidung für ausgewogen, weil sie sofortiges Handeln ermöglicht und später Raum für Verbesserungen lässt. Am Ende der Sitzung gingen die Menschen mit unterschiedlichen Verantwortlichkeiten nach Hause, aber mit einem gemeinsamen Ziel: den Alltag zu verbessern, ohne jemanden auszuschließen. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden. Dabei benutzt die Gruppe Wörter wie Reiseplan, Buchung, Landschaft, vermeiden.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -2053,53 +2866,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Reiseplan",
-          "Verkehr",
-          "nachhaltig",
-          "Erinnerung"
+          "Buchung",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-b1-bewusst-reisen-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Bewusst reisen: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Bewusst reisen: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -2182,64 +2994,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "möchten, bestellen und Akkusativ",
-        "definition": "Práctica guiada de möchten, bestellen und Akkusativ.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Im Café: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
+        "examples": [
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Kaffee“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Kaffee.",
-          "Die Gruppe Kaffee spricht über.",
-          "Kaffee die über Gruppe spricht.",
-          "Spricht Gruppe die Kaffee über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Tee“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Tee spricht über.",
-          "Die Gruppe spricht über Tee.",
-          "Tee die über Gruppe spricht.",
-          "Spricht Gruppe die Tee über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Wasser“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Wasser die über Gruppe spricht.",
-          "Die Gruppe Wasser spricht über.",
-          "Die Gruppe spricht über Wasser.",
-          "Spricht Gruppe die Wasser über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Brot“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Brot über.",
-          "Die Gruppe Brot spricht über.",
-          "Brot die über Gruppe spricht.",
-          "Die Gruppe spricht über Brot."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „bitte“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über bitte.",
-          "Die Gruppe bitte spricht über.",
-          "bitte die über Gruppe spricht.",
-          "Spricht Gruppe die bitte über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
   },
@@ -2321,64 +3258,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Wechselpräpositionen",
-        "definition": "Práctica guiada de Wechselpräpositionen.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Wohnen und Nachbarschaft: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
+        "examples": [
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Wohnung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Wohnung.",
-          "Die Gruppe Wohnung spricht über.",
-          "Wohnung die über Gruppe spricht.",
-          "Spricht Gruppe die Wohnung über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Nachbar“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Nachbar spricht über.",
-          "Die Gruppe spricht über Nachbar.",
-          "Nachbar die über Gruppe spricht.",
-          "Spricht Gruppe die Nachbar über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „umziehen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "umziehen die über Gruppe spricht.",
-          "Die Gruppe umziehen spricht über.",
-          "Die Gruppe spricht über umziehen.",
-          "Spricht Gruppe die umziehen über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Miete“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Miete über.",
-          "Die Gruppe Miete spricht über.",
-          "Miete die über Gruppe spricht.",
-          "Die Gruppe spricht über Miete."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „ruhig“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über ruhig.",
-          "Die Gruppe ruhig spricht über.",
-          "ruhig die über Gruppe spricht.",
-          "Spricht Gruppe die ruhig über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
   },
@@ -2460,64 +3522,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Relativsätze",
-        "definition": "Práctica guiada de Relativsätze.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Bewusst reisen: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "structure": "Meinung + weil/obwohl/deshalb + Begründung",
+        "function": "Eine Meinung ausdrücken und begründen.",
+        "examples": [
+          "Ich finde den Vorschlag sinnvoll.",
+          "Trotzdem müssen wir die Ergebnisse prüfen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Reiseplan“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Reiseplan.",
-          "Die Gruppe Reiseplan spricht über.",
-          "Reiseplan die über Gruppe spricht.",
-          "Spricht Gruppe die Reiseplan über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Buchung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Buchung spricht über.",
-          "Die Gruppe spricht über Buchung.",
-          "Buchung die über Gruppe spricht.",
-          "Spricht Gruppe die Buchung über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Landschaft“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Landschaft die über Gruppe spricht.",
-          "Die Gruppe Landschaft spricht über.",
-          "Die Gruppe spricht über Landschaft.",
-          "Spricht Gruppe die Landschaft über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „vermeiden“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die vermeiden über.",
-          "Die Gruppe vermeiden spricht über.",
-          "vermeiden die über Gruppe spricht.",
-          "Die Gruppe spricht über vermeiden."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „empfehlen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über empfehlen.",
-          "Die Gruppe empfehlen spricht über.",
-          "empfehlen die über Gruppe spricht.",
-          "Spricht Gruppe die empfehlen über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
   },
@@ -2546,52 +3733,134 @@
       {
         "word": "Kaffee",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Kaffee“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Kaffee“ in einem Satz.",
+        "contexts": [
+          "Kaffee · tema",
+          "Kaffee · conversación",
+          "Kaffee · práctica"
+        ]
       },
       {
         "word": "Tee",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Tee“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Tee“ in einem Satz.",
+        "contexts": [
+          "Tee · tema",
+          "Tee · conversación",
+          "Tee · práctica"
+        ]
       },
       {
         "word": "Wasser",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Wasser“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Wasser“ in einem Satz.",
+        "contexts": [
+          "Wasser · tema",
+          "Wasser · conversación",
+          "Wasser · práctica"
+        ]
       },
       {
         "word": "Brot",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Brot“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Brot“ in einem Satz.",
+        "contexts": [
+          "Brot · tema",
+          "Brot · conversación",
+          "Brot · práctica"
+        ]
       },
       {
         "word": "bitte",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „bitte“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „bitte“ in einem Satz.",
+        "contexts": [
+          "bitte · tema",
+          "bitte · conversación",
+          "bitte · práctica"
+        ]
       },
       {
         "word": "möchten",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „möchten“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „möchten“ in einem Satz.",
+        "contexts": [
+          "möchten · tema",
+          "möchten · conversación",
+          "möchten · práctica"
+        ]
       },
       {
         "word": "zahlen",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „zahlen“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „zahlen“ in einem Satz.",
+        "contexts": [
+          "zahlen · tema",
+          "zahlen · conversación",
+          "zahlen · práctica"
+        ]
       },
       {
         "word": "Tisch",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Tisch“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Tisch“ in einem Satz.",
+        "contexts": [
+          "Tisch · tema",
+          "Tisch · conversación",
+          "Tisch · práctica"
+        ]
       },
       {
         "word": "lecker",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „lecker“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „lecker“ in einem Satz.",
+        "contexts": [
+          "lecker · tema",
+          "lecker · conversación",
+          "lecker · práctica"
+        ]
       },
       {
         "word": "Rechnung",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Rechnung“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Rechnung“ in einem Satz.",
+        "contexts": [
+          "Rechnung · tema",
+          "Rechnung · conversación",
+          "Rechnung · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -2601,7 +3870,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Kaffee",
           "Tee",
@@ -2611,52 +3880,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Wasser",
+          "Kaffee",
           "Tee",
-          "Brot",
-          "bitte"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "bitte",
-          "Brot",
           "Wasser",
-          "möchten"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "zahlen",
-          "bitte",
-          "möchten",
           "Brot"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Tee",
+          "Kaffee",
+          "Wasser",
+          "Brot"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Wasser",
+          "Kaffee",
+          "Tee",
+          "Brot"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "bitte",
+          "Kaffee",
+          "Tee",
+          "Wasser"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kaffee",
           "möchten",
+          "Tee",
+          "Wasser"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Tee",
+          "Kaffee",
           "zahlen",
+          "Wasser"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Wasser",
+          "Kaffee",
+          "Tee",
           "Tisch"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "zahlen",
-          "möchten",
-          "Tisch",
-          "lecker"
+          "lecker",
+          "Kaffee",
+          "Tee",
+          "Wasser"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kaffee",
+          "Rechnung",
+          "Tee",
+          "Wasser"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Tee",
+          "Kaffee",
+          "heute",
+          "Wasser"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Wasser",
+          "Kaffee",
+          "Tee",
+          "zusammen"
         ]
       }
     ]
@@ -2686,52 +4015,134 @@
       {
         "word": "Wohnung",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Wohnung“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Wohnung“ in einem Satz.",
+        "contexts": [
+          "Wohnung · tema",
+          "Wohnung · conversación",
+          "Wohnung · práctica"
+        ]
       },
       {
         "word": "Nachbar",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Nachbar“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Nachbar“ in einem Satz.",
+        "contexts": [
+          "Nachbar · tema",
+          "Nachbar · conversación",
+          "Nachbar · práctica"
+        ]
       },
       {
         "word": "umziehen",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „umziehen“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „umziehen“ in einem Satz.",
+        "contexts": [
+          "umziehen · tema",
+          "umziehen · conversación",
+          "umziehen · práctica"
+        ]
       },
       {
         "word": "Miete",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Miete“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Miete“ in einem Satz.",
+        "contexts": [
+          "Miete · tema",
+          "Miete · conversación",
+          "Miete · práctica"
+        ]
       },
       {
         "word": "ruhig",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „ruhig“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „ruhig“ in einem Satz.",
+        "contexts": [
+          "ruhig · tema",
+          "ruhig · conversación",
+          "ruhig · práctica"
+        ]
       },
       {
         "word": "laut",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „laut“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „laut“ in einem Satz.",
+        "contexts": [
+          "laut · tema",
+          "laut · conversación",
+          "laut · práctica"
+        ]
       },
       {
         "word": "suchen",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „suchen“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „suchen“ in einem Satz.",
+        "contexts": [
+          "suchen · tema",
+          "suchen · conversación",
+          "suchen · práctica"
+        ]
       },
       {
         "word": "erklären",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „erklären“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „erklären“ in einem Satz.",
+        "contexts": [
+          "erklären · tema",
+          "erklären · conversación",
+          "erklären · práctica"
+        ]
       },
       {
         "word": "Vorteil",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „Vorteil“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „Vorteil“ in einem Satz.",
+        "contexts": [
+          "Vorteil · tema",
+          "Vorteil · conversación",
+          "Vorteil · práctica"
+        ]
       },
       {
         "word": "gemeinsam",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „gemeinsam“ in einem Satz.",
+        "contexts": [
+          "gemeinsam · tema",
+          "gemeinsam · conversación",
+          "gemeinsam · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -2741,7 +4152,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Wohnung",
           "Nachbar",
@@ -2751,52 +4162,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "umziehen",
+          "Wohnung",
           "Nachbar",
-          "Miete",
-          "ruhig"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "ruhig",
-          "Miete",
           "umziehen",
-          "laut"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "suchen",
-          "ruhig",
-          "laut",
           "Miete"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Nachbar",
+          "Wohnung",
+          "umziehen",
+          "Miete"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "umziehen",
+          "Wohnung",
+          "Nachbar",
+          "Miete"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "ruhig",
+          "Wohnung",
+          "Nachbar",
+          "umziehen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Wohnung",
           "laut",
+          "Nachbar",
+          "umziehen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Nachbar",
+          "Wohnung",
           "suchen",
+          "umziehen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "umziehen",
+          "Wohnung",
+          "Nachbar",
           "erklären"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "suchen",
-          "laut",
-          "erklären",
-          "Vorteil"
+          "Vorteil",
+          "Wohnung",
+          "Nachbar",
+          "umziehen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Wohnung",
+          "gemeinsam",
+          "Nachbar",
+          "umziehen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Nachbar",
+          "Wohnung",
+          "heute",
+          "umziehen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "umziehen",
+          "Wohnung",
+          "Nachbar",
+          "zusammen"
         ]
       }
     ]
@@ -2826,52 +4297,134 @@
       {
         "word": "Reiseplan",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Reiseplan“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Reiseplan“ in einem Satz.",
+        "contexts": [
+          "Reiseplan · tema",
+          "Reiseplan · conversación",
+          "Reiseplan · práctica"
+        ]
       },
       {
         "word": "Buchung",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Buchung“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Buchung“ in einem Satz.",
+        "contexts": [
+          "Buchung · tema",
+          "Buchung · conversación",
+          "Buchung · práctica"
+        ]
       },
       {
         "word": "Landschaft",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Landschaft“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Landschaft“ in einem Satz.",
+        "contexts": [
+          "Landschaft · tema",
+          "Landschaft · conversación",
+          "Landschaft · práctica"
+        ]
       },
       {
         "word": "vermeiden",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „vermeiden“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „vermeiden“ in einem Satz.",
+        "contexts": [
+          "vermeiden · tema",
+          "vermeiden · conversación",
+          "vermeiden · práctica"
+        ]
       },
       {
         "word": "empfehlen",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „empfehlen“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „empfehlen“ in einem Satz.",
+        "contexts": [
+          "empfehlen · tema",
+          "empfehlen · conversación",
+          "empfehlen · práctica"
+        ]
       },
       {
         "word": "Erfahrung",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Erfahrung“ in einem Satz.",
+        "contexts": [
+          "Erfahrung · tema",
+          "Erfahrung · conversación",
+          "Erfahrung · práctica"
+        ]
       },
       {
         "word": "gastfreundlich",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „gastfreundlich“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „gastfreundlich“ in einem Satz.",
+        "contexts": [
+          "gastfreundlich · tema",
+          "gastfreundlich · conversación",
+          "gastfreundlich · práctica"
+        ]
       },
       {
         "word": "Verkehr",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Verkehr“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Verkehr“ in einem Satz.",
+        "contexts": [
+          "Verkehr · tema",
+          "Verkehr · conversación",
+          "Verkehr · práctica"
+        ]
       },
       {
         "word": "nachhaltig",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „nachhaltig“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „nachhaltig“ in einem Satz.",
+        "contexts": [
+          "nachhaltig · tema",
+          "nachhaltig · conversación",
+          "nachhaltig · práctica"
+        ]
       },
       {
         "word": "Erinnerung",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Erinnerung“ in einem Satz.",
+        "contexts": [
+          "Erinnerung · tema",
+          "Erinnerung · conversación",
+          "Erinnerung · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -2881,7 +4434,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Reiseplan",
           "Buchung",
@@ -2891,52 +4444,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Landschaft",
+          "Reiseplan",
           "Buchung",
-          "vermeiden",
-          "empfehlen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "empfehlen",
-          "vermeiden",
           "Landschaft",
-          "Erfahrung"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "gastfreundlich",
-          "empfehlen",
-          "Erfahrung",
           "vermeiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Buchung",
+          "Reiseplan",
+          "Landschaft",
+          "vermeiden"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Landschaft",
+          "Reiseplan",
+          "Buchung",
+          "vermeiden"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "empfehlen",
+          "Reiseplan",
+          "Buchung",
+          "Landschaft"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Reiseplan",
           "Erfahrung",
+          "Buchung",
+          "Landschaft"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Buchung",
+          "Reiseplan",
           "gastfreundlich",
+          "Landschaft"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Landschaft",
+          "Reiseplan",
+          "Buchung",
           "Verkehr"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "gastfreundlich",
-          "Erfahrung",
-          "Verkehr",
-          "nachhaltig"
+          "nachhaltig",
+          "Reiseplan",
+          "Buchung",
+          "Landschaft"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Reiseplan",
+          "Erinnerung",
+          "Buchung",
+          "Landschaft"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Buchung",
+          "Reiseplan",
+          "heute",
+          "Landschaft"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Landschaft",
+          "Reiseplan",
+          "Buchung",
+          "zusammen"
         ]
       }
     ]
@@ -2951,7 +4564,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 30,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 10,
     "description": "Familie und Zuhause beschreiben",
     "intro": "Familie und Zuhause beschreiben",
     "mission": "Familie und Zuhause beschreiben",
@@ -3016,12 +4629,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Familie und Haus",
+      "text": "Heute erlebt Anna etwas zum Thema Familie und Haus. Sie trifft Leon in ihrem Viertel und spricht langsam mit ihm. Leon hört zu, lächelt und stellt eine einfache Frage. Anna antwortet mit klaren Wörtern, denn sie möchte die Situation gut verstehen. Zusammen sehen sie sich den Ort an, begrüßen Menschen und wählen eine kleine Aktivität für den Nachmittag. Einige Dinge kennen sie schon, andere machen sie neugierig. Am Ende sagt Anna, dass eine Sprache lernen auch bedeutet, am Alltag teilzunehmen. Leon stimmt zu und möchte die Erfahrung morgen wiederholen. Dabei benutzt die Gruppe Wörter wie Familie, Mutter, Vater, Bruder. Dabei benutzt die Gruppe Wörter wie Familie, Mutter, Vater, Bruder. Dabei benutzt die Gruppe Wörter wie Familie, Mutter, Vater, Bruder. Dabei benutzt die Gruppe Wörter wie Familie, Mutter, Vater, Bruder.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -3029,42 +4644,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Familie",
-          "klein",
-          "groß",
-          "zusammen"
+          "Mutter",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -3079,7 +4694,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 30,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 14,
     "description": "über Beschwerden und Ratschläge sprechen",
     "intro": "über Beschwerden und Ratschläge sprechen",
     "mission": "über Beschwerden und Ratschläge sprechen",
@@ -3144,12 +4759,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Gesundheit",
+      "text": "Letzte Woche hat Anna an einer Aktivität zum Thema Gesundheit teilgenommen. Zuerst kannte sie das Programm nicht gut, deshalb hat sie nach Informationen gefragt und den Menschen im Viertel zugehört. Leon kam später, brachte aber eine gute Idee mit. Beide verglichen ihre Erfahrungen und beschlossen, zusammenzuarbeiten. Während der Aktivität bemerkten sie, dass einfache Lösungen vielen Menschen helfen können. Anna erklärte, dass sie weiterlernen möchte, weil man eine Stadt besser versteht, wenn man die Gewohnheiten der Menschen beobachtet. Am Ende schrieben sie eine kurze Nachricht, um der Gruppe zu danken, und planten ein neues Treffen für die nächste Woche. Dabei benutzt die Gruppe Wörter wie Gesundheit, Arzt, Schmerz, ausruhen. Dabei benutzt die Gruppe Wörter wie Gesundheit, Arzt, Schmerz, ausruhen. Dabei benutzt die Gruppe Wörter wie Gesundheit, Arzt, Schmerz, ausruhen. Dabei benutzt die Gruppe Wörter wie Gesundheit, Arzt, Schmerz, ausruhen. Dabei benutzt die Gruppe Wörter wie Gesundheit, Arzt, Schmerz, ausruhen. Dabei benutzt die Gruppe Wörter wie Gesundheit, Arzt, Schmerz, ausruhen. Dabei benutzt die Gruppe Wörter wie Gesundheit, Arzt, Schmerz, ausruhen. Dabei benutzt die Gruppe Wörter wie Gesundheit, Arzt, Schmerz, ausruhen. Dabei benutzt die Gruppe Wörter wie Gesundheit, Arzt, Schmerz, ausruhen.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -3157,53 +4774,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Gesundheit",
-          "Rat",
-          "besser",
-          "Termin"
+          "Arzt",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-a2-gesundheit-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Gesundheit: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Gesundheit: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -3218,7 +4834,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 30,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "Gewohnheiten und persönliche Veränderungen erklären",
     "intro": "Gewohnheiten und persönliche Veränderungen erklären",
     "mission": "Gewohnheiten und persönliche Veränderungen erklären",
@@ -3283,12 +4899,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Gesundheit und Balance",
+      "text": "Im Viertel von Anna ist das Thema „Gesundheit und Balance“ nach einer offenen Sitzung wichtig geworden. Einige Bewohner meinten, das Problem müsse nur von Institutionen gelöst werden; andere fanden, dass auch Bürger mit konkreten Aktionen beitragen können. Anna hörte beide Positionen an und sagte, ein guter Vorschlag müsse realistisch und nicht nur interessant sein. Leon berichtete von einer persönlichen Erfahrung: Früher hatte er an einem ähnlichen Projekt teilgenommen und gelernt, dass regelmäßige Kommunikation viele Missverständnisse verhindert. Die Gruppe teilte deshalb Aufgaben auf, setzte eine Frist und wählte einen einfachen Weg, die Nachbarschaft zu informieren. Nicht alle waren mit jedem Detail einverstanden. Trotzdem beschlossen sie, die Ergebnisse nach einem Monat gemeinsam zu prüfen. Anna hält diese Entscheidung für ausgewogen, weil sie sofortiges Handeln ermöglicht und später Raum für Verbesserungen lässt. Am Ende der Sitzung gingen die Menschen mit unterschiedlichen Verantwortlichkeiten nach Hause, aber mit einem gemeinsamen Ziel: den Alltag zu verbessern, ohne jemanden auszuschließen. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht. Dabei benutzt die Gruppe Wörter wie Wohlbefinden, Erholung, Bewegung, Gleichgewicht.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -3296,53 +4914,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Wohlbefinden",
-          "Energie",
-          "Rat",
-          "Entscheidung"
+          "Erholung",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-b1-gesundheit-und-balance-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Gesundheit und Balance: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Gesundheit und Balance: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -3425,64 +5042,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Possessivartikel und Plural",
-        "definition": "Práctica guiada de Possessivartikel und Plural.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Familie und Haus: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
+        "examples": [
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Familie“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Familie.",
-          "Die Gruppe Familie spricht über.",
-          "Familie die über Gruppe spricht.",
-          "Spricht Gruppe die Familie über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Mutter“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Mutter spricht über.",
-          "Die Gruppe spricht über Mutter.",
-          "Mutter die über Gruppe spricht.",
-          "Spricht Gruppe die Mutter über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Vater“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Vater die über Gruppe spricht.",
-          "Die Gruppe Vater spricht über.",
-          "Die Gruppe spricht über Vater.",
-          "Spricht Gruppe die Vater über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Bruder“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Bruder über.",
-          "Die Gruppe Bruder spricht über.",
-          "Bruder die über Gruppe spricht.",
-          "Die Gruppe spricht über Bruder."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Zimmer“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Zimmer.",
-          "Die Gruppe Zimmer spricht über.",
-          "Zimmer die über Gruppe spricht.",
-          "Spricht Gruppe die Zimmer über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
   },
@@ -3564,64 +5306,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Modalverben im Präteritum",
-        "definition": "Práctica guiada de Modalverben im Präteritum.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Gesundheit: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
+        "examples": [
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Gesundheit“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Gesundheit.",
-          "Die Gruppe Gesundheit spricht über.",
-          "Gesundheit die über Gruppe spricht.",
-          "Spricht Gruppe die Gesundheit über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Arzt“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Arzt spricht über.",
-          "Die Gruppe spricht über Arzt.",
-          "Arzt die über Gruppe spricht.",
-          "Spricht Gruppe die Arzt über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Schmerz“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Schmerz die über Gruppe spricht.",
-          "Die Gruppe Schmerz spricht über.",
-          "Die Gruppe spricht über Schmerz.",
-          "Spricht Gruppe die Schmerz über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „ausruhen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die ausruhen über.",
-          "Die Gruppe ausruhen spricht über.",
-          "ausruhen die über Gruppe spricht.",
-          "Die Gruppe spricht über ausruhen."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Medikament“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Medikament.",
-          "Die Gruppe Medikament spricht über.",
-          "Medikament die über Gruppe spricht.",
-          "Spricht Gruppe die Medikament über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
   },
@@ -3703,64 +5570,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Passiv im Präsens",
-        "definition": "Práctica guiada de Passiv im Präsens.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Gesundheit und Balance: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "structure": "Meinung + weil/obwohl/deshalb + Begründung",
+        "function": "Eine Meinung ausdrücken und begründen.",
+        "examples": [
+          "Ich finde den Vorschlag sinnvoll.",
+          "Trotzdem müssen wir die Ergebnisse prüfen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Wohlbefinden“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Wohlbefinden.",
-          "Die Gruppe Wohlbefinden spricht über.",
-          "Wohlbefinden die über Gruppe spricht.",
-          "Spricht Gruppe die Wohlbefinden über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Erholung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Erholung spricht über.",
-          "Die Gruppe spricht über Erholung.",
-          "Erholung die über Gruppe spricht.",
-          "Spricht Gruppe die Erholung über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Bewegung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Bewegung die über Gruppe spricht.",
-          "Die Gruppe Bewegung spricht über.",
-          "Die Gruppe spricht über Bewegung.",
-          "Spricht Gruppe die Bewegung über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Gleichgewicht“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Gleichgewicht über.",
-          "Die Gruppe Gleichgewicht spricht über.",
-          "Gleichgewicht die über Gruppe spricht.",
-          "Die Gruppe spricht über Gleichgewicht."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „verbessern“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über verbessern.",
-          "Die Gruppe verbessern spricht über.",
-          "verbessern die über Gruppe spricht.",
-          "Spricht Gruppe die verbessern über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
   },
@@ -3789,52 +5781,134 @@
       {
         "word": "Familie",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Familie“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Familie“ in einem Satz.",
+        "contexts": [
+          "Familie · tema",
+          "Familie · conversación",
+          "Familie · práctica"
+        ]
       },
       {
         "word": "Mutter",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Mutter“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Mutter“ in einem Satz.",
+        "contexts": [
+          "Mutter · tema",
+          "Mutter · conversación",
+          "Mutter · práctica"
+        ]
       },
       {
         "word": "Vater",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Vater“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Vater“ in einem Satz.",
+        "contexts": [
+          "Vater · tema",
+          "Vater · conversación",
+          "Vater · práctica"
+        ]
       },
       {
         "word": "Bruder",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Bruder“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Bruder“ in einem Satz.",
+        "contexts": [
+          "Bruder · tema",
+          "Bruder · conversación",
+          "Bruder · práctica"
+        ]
       },
       {
         "word": "Zimmer",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „Zimmer“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „Zimmer“ in einem Satz.",
+        "contexts": [
+          "Zimmer · tema",
+          "Zimmer · conversación",
+          "Zimmer · práctica"
+        ]
       },
       {
         "word": "Küche",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Küche“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Küche“ in einem Satz.",
+        "contexts": [
+          "Küche · tema",
+          "Küche · conversación",
+          "Küche · práctica"
+        ]
       },
       {
         "word": "wohnen",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „wohnen“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „wohnen“ in einem Satz.",
+        "contexts": [
+          "wohnen · tema",
+          "wohnen · conversación",
+          "wohnen · práctica"
+        ]
       },
       {
         "word": "klein",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „klein“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „klein“ in einem Satz.",
+        "contexts": [
+          "klein · tema",
+          "klein · conversación",
+          "klein · práctica"
+        ]
       },
       {
         "word": "groß",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „groß“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „groß“ in einem Satz.",
+        "contexts": [
+          "groß · tema",
+          "groß · conversación",
+          "groß · práctica"
+        ]
       },
       {
         "word": "zusammen",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „zusammen“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "Viertel",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Ich benutze „Viertel“ in einem Satz.",
+        "contexts": [
+          "Viertel · tema",
+          "Viertel · conversación",
+          "Viertel · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -3844,7 +5918,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Familie",
           "Mutter",
@@ -3854,52 +5928,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Vater",
+          "Familie",
           "Mutter",
-          "Bruder",
-          "Zimmer"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Zimmer",
-          "Bruder",
           "Vater",
-          "Küche"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "wohnen",
-          "Zimmer",
-          "Küche",
           "Bruder"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Mutter",
+          "Familie",
+          "Vater",
+          "Bruder"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Vater",
+          "Familie",
+          "Mutter",
+          "Bruder"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Zimmer",
+          "Familie",
+          "Mutter",
+          "Vater"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Familie",
           "Küche",
+          "Mutter",
+          "Vater"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Mutter",
+          "Familie",
           "wohnen",
+          "Vater"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Vater",
+          "Familie",
+          "Mutter",
           "klein"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "wohnen",
-          "Küche",
-          "klein",
-          "groß"
+          "groß",
+          "Familie",
+          "Mutter",
+          "Vater"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Familie",
+          "zusammen",
+          "Mutter",
+          "Vater"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Mutter",
+          "Familie",
+          "heute",
+          "Vater"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Vater",
+          "Familie",
+          "Mutter",
+          "Viertel"
         ]
       }
     ]
@@ -3929,52 +6063,134 @@
       {
         "word": "Gesundheit",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Gesundheit“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Gesundheit“ in einem Satz.",
+        "contexts": [
+          "Gesundheit · tema",
+          "Gesundheit · conversación",
+          "Gesundheit · práctica"
+        ]
       },
       {
         "word": "Arzt",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Arzt“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Arzt“ in einem Satz.",
+        "contexts": [
+          "Arzt · tema",
+          "Arzt · conversación",
+          "Arzt · práctica"
+        ]
       },
       {
         "word": "Schmerz",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Schmerz“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Schmerz“ in einem Satz.",
+        "contexts": [
+          "Schmerz · tema",
+          "Schmerz · conversación",
+          "Schmerz · práctica"
+        ]
       },
       {
         "word": "ausruhen",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „ausruhen“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „ausruhen“ in einem Satz.",
+        "contexts": [
+          "ausruhen · tema",
+          "ausruhen · conversación",
+          "ausruhen · práctica"
+        ]
       },
       {
         "word": "Medikament",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „Medikament“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „Medikament“ in einem Satz.",
+        "contexts": [
+          "Medikament · tema",
+          "Medikament · conversación",
+          "Medikament · práctica"
+        ]
       },
       {
         "word": "gesund",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „gesund“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „gesund“ in einem Satz.",
+        "contexts": [
+          "gesund · tema",
+          "gesund · conversación",
+          "gesund · práctica"
+        ]
       },
       {
         "word": "regelmäßig",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „regelmäßig“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „regelmäßig“ in einem Satz.",
+        "contexts": [
+          "regelmäßig · tema",
+          "regelmäßig · conversación",
+          "regelmäßig · práctica"
+        ]
       },
       {
         "word": "Rat",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Rat“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Rat“ in einem Satz.",
+        "contexts": [
+          "Rat · tema",
+          "Rat · conversación",
+          "Rat · práctica"
+        ]
       },
       {
         "word": "besser",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „besser“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „besser“ in einem Satz.",
+        "contexts": [
+          "besser · tema",
+          "besser · conversación",
+          "besser · práctica"
+        ]
       },
       {
         "word": "Termin",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Termin“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Termin“ in einem Satz.",
+        "contexts": [
+          "Termin · tema",
+          "Termin · conversación",
+          "Termin · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -3984,7 +6200,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Gesundheit",
           "Arzt",
@@ -3994,52 +6210,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Schmerz",
+          "Gesundheit",
           "Arzt",
-          "ausruhen",
-          "Medikament"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Medikament",
-          "ausruhen",
           "Schmerz",
-          "gesund"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "regelmäßig",
-          "Medikament",
-          "gesund",
           "ausruhen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Arzt",
+          "Gesundheit",
+          "Schmerz",
+          "ausruhen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Schmerz",
+          "Gesundheit",
+          "Arzt",
+          "ausruhen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Medikament",
+          "Gesundheit",
+          "Arzt",
+          "Schmerz"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Gesundheit",
           "gesund",
+          "Arzt",
+          "Schmerz"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Arzt",
+          "Gesundheit",
           "regelmäßig",
+          "Schmerz"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Schmerz",
+          "Gesundheit",
+          "Arzt",
           "Rat"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "regelmäßig",
-          "gesund",
-          "Rat",
-          "besser"
+          "besser",
+          "Gesundheit",
+          "Arzt",
+          "Schmerz"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Gesundheit",
+          "Termin",
+          "Arzt",
+          "Schmerz"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Arzt",
+          "Gesundheit",
+          "heute",
+          "Schmerz"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Schmerz",
+          "Gesundheit",
+          "Arzt",
+          "zusammen"
         ]
       }
     ]
@@ -4069,52 +6345,134 @@
       {
         "word": "Wohlbefinden",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Wohlbefinden“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Wohlbefinden“ in einem Satz.",
+        "contexts": [
+          "Wohlbefinden · tema",
+          "Wohlbefinden · conversación",
+          "Wohlbefinden · práctica"
+        ]
       },
       {
         "word": "Erholung",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Erholung“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Erholung“ in einem Satz.",
+        "contexts": [
+          "Erholung · tema",
+          "Erholung · conversación",
+          "Erholung · práctica"
+        ]
       },
       {
         "word": "Bewegung",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Bewegung“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Bewegung“ in einem Satz.",
+        "contexts": [
+          "Bewegung · tema",
+          "Bewegung · conversación",
+          "Bewegung · práctica"
+        ]
       },
       {
         "word": "Gleichgewicht",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Gleichgewicht“ in einem Satz.",
+        "contexts": [
+          "Gleichgewicht · tema",
+          "Gleichgewicht · conversación",
+          "Gleichgewicht · práctica"
+        ]
       },
       {
         "word": "verbessern",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „verbessern“ in einem Satz.",
+        "contexts": [
+          "verbessern · tema",
+          "verbessern · conversación",
+          "verbessern · práctica"
+        ]
       },
       {
         "word": "vorbeugen",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „vorbeugen“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „vorbeugen“ in einem Satz.",
+        "contexts": [
+          "vorbeugen · tema",
+          "vorbeugen · conversación",
+          "vorbeugen · práctica"
+        ]
       },
       {
         "word": "Gewohnheit",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Gewohnheit“ in einem Satz.",
+        "contexts": [
+          "Gewohnheit · tema",
+          "Gewohnheit · conversación",
+          "Gewohnheit · práctica"
+        ]
       },
       {
         "word": "Energie",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Energie“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Energie“ in einem Satz.",
+        "contexts": [
+          "Energie · tema",
+          "Energie · conversación",
+          "Energie · práctica"
+        ]
       },
       {
         "word": "Rat",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „Rat“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „Rat“ in einem Satz.",
+        "contexts": [
+          "Rat · tema",
+          "Rat · conversación",
+          "Rat · práctica"
+        ]
       },
       {
         "word": "Entscheidung",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Entscheidung“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Entscheidung“ in einem Satz.",
+        "contexts": [
+          "Entscheidung · tema",
+          "Entscheidung · conversación",
+          "Entscheidung · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -4124,7 +6482,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Wohlbefinden",
           "Erholung",
@@ -4134,52 +6492,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Bewegung",
+          "Wohlbefinden",
           "Erholung",
-          "Gleichgewicht",
-          "verbessern"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "verbessern",
-          "Gleichgewicht",
           "Bewegung",
-          "vorbeugen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Gewohnheit",
-          "verbessern",
-          "vorbeugen",
           "Gleichgewicht"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Erholung",
+          "Wohlbefinden",
+          "Bewegung",
+          "Gleichgewicht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Bewegung",
+          "Wohlbefinden",
+          "Erholung",
+          "Gleichgewicht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "verbessern",
+          "Wohlbefinden",
+          "Erholung",
+          "Bewegung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Wohlbefinden",
           "vorbeugen",
+          "Erholung",
+          "Bewegung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Erholung",
+          "Wohlbefinden",
           "Gewohnheit",
+          "Bewegung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Bewegung",
+          "Wohlbefinden",
+          "Erholung",
           "Energie"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gewohnheit",
-          "vorbeugen",
-          "Energie",
-          "Rat"
+          "Rat",
+          "Wohlbefinden",
+          "Erholung",
+          "Bewegung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Wohlbefinden",
+          "Entscheidung",
+          "Erholung",
+          "Bewegung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Erholung",
+          "Wohlbefinden",
+          "heute",
+          "Bewegung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Bewegung",
+          "Wohlbefinden",
+          "Erholung",
+          "zusammen"
         ]
       }
     ]
@@ -4194,7 +6612,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 40,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 10,
     "description": "nach Preisen und Produkten fragen",
     "intro": "nach Preisen und Produkten fragen",
     "mission": "nach Preisen und Produkten fragen",
@@ -4259,12 +6677,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Einkaufen",
+      "text": "Heute erlebt Anna etwas zum Thema Einkaufen. Sie trifft Leon in ihrem Viertel und spricht langsam mit ihm. Leon hört zu, lächelt und stellt eine einfache Frage. Anna antwortet mit klaren Wörtern, denn sie möchte die Situation gut verstehen. Zusammen sehen sie sich den Ort an, begrüßen Menschen und wählen eine kleine Aktivität für den Nachmittag. Einige Dinge kennen sie schon, andere machen sie neugierig. Am Ende sagt Anna, dass eine Sprache lernen auch bedeutet, am Alltag teilzunehmen. Leon stimmt zu und möchte die Erfahrung morgen wiederholen. Dabei benutzt die Gruppe Wörter wie Markt, Preis, Euro, kaufen. Dabei benutzt die Gruppe Wörter wie Markt, Preis, Euro, kaufen. Dabei benutzt die Gruppe Wörter wie Markt, Preis, Euro, kaufen. Dabei benutzt die Gruppe Wörter wie Markt, Preis, Euro, kaufen.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -4272,42 +6692,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Markt",
-          "billig",
-          "teuer",
-          "Tasche"
+          "Preis",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -4322,7 +6742,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 40,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 14,
     "description": "über Arbeit und Aufgaben sprechen",
     "intro": "über Arbeit und Aufgaben sprechen",
     "mission": "über Arbeit und Aufgaben sprechen",
@@ -4387,12 +6807,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Arbeit und Beruf",
+      "text": "Letzte Woche hat Anna an einer Aktivität zum Thema Arbeit und Beruf teilgenommen. Zuerst kannte sie das Programm nicht gut, deshalb hat sie nach Informationen gefragt und den Menschen im Viertel zugehört. Leon kam später, brachte aber eine gute Idee mit. Beide verglichen ihre Erfahrungen und beschlossen, zusammenzuarbeiten. Während der Aktivität bemerkten sie, dass einfache Lösungen vielen Menschen helfen können. Anna erklärte, dass sie weiterlernen möchte, weil man eine Stadt besser versteht, wenn man die Gewohnheiten der Menschen beobachtet. Am Ende schrieben sie eine kurze Nachricht, um der Gruppe zu danken, und planten ein neues Treffen für die nächste Woche. Dabei benutzt die Gruppe Wörter wie Beruf, Aufgabe, Kollegin, Erfahrung. Dabei benutzt die Gruppe Wörter wie Beruf, Aufgabe, Kollegin, Erfahrung. Dabei benutzt die Gruppe Wörter wie Beruf, Aufgabe, Kollegin, Erfahrung. Dabei benutzt die Gruppe Wörter wie Beruf, Aufgabe, Kollegin, Erfahrung. Dabei benutzt die Gruppe Wörter wie Beruf, Aufgabe, Kollegin, Erfahrung. Dabei benutzt die Gruppe Wörter wie Beruf, Aufgabe, Kollegin, Erfahrung. Dabei benutzt die Gruppe Wörter wie Beruf, Aufgabe, Kollegin, Erfahrung. Dabei benutzt die Gruppe Wörter wie Beruf, Aufgabe, Kollegin, Erfahrung.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -4400,53 +6822,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Beruf",
-          "Bewerbung",
-          "lernen",
-          "Chance"
+          "Aufgabe",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-a2-arbeit-und-beruf-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Arbeit und Beruf: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Arbeit und Beruf: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -4461,7 +6882,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 40,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "eine Meinung über Kultur und Information äußern",
     "intro": "eine Meinung über Kultur und Information äußern",
     "mission": "eine Meinung über Kultur und Information äußern",
@@ -4526,12 +6947,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Kultur und Medien",
+      "text": "Im Viertel von Anna ist das Thema „Kultur und Medien“ nach einer offenen Sitzung wichtig geworden. Einige Bewohner meinten, das Problem müsse nur von Institutionen gelöst werden; andere fanden, dass auch Bürger mit konkreten Aktionen beitragen können. Anna hörte beide Positionen an und sagte, ein guter Vorschlag müsse realistisch und nicht nur interessant sein. Leon berichtete von einer persönlichen Erfahrung: Früher hatte er an einem ähnlichen Projekt teilgenommen und gelernt, dass regelmäßige Kommunikation viele Missverständnisse verhindert. Die Gruppe teilte deshalb Aufgaben auf, setzte eine Frist und wählte einen einfachen Weg, die Nachbarschaft zu informieren. Nicht alle waren mit jedem Detail einverstanden. Trotzdem beschlossen sie, die Ergebnisse nach einem Monat gemeinsam zu prüfen. Anna hält diese Entscheidung für ausgewogen, weil sie sofortiges Handeln ermöglicht und später Raum für Verbesserungen lässt. Am Ende der Sitzung gingen die Menschen mit unterschiedlichen Verantwortlichkeiten nach Hause, aber mit einem gemeinsamen Ziel: den Alltag zu verbessern, ohne jemanden auszuschließen. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung. Dabei benutzt die Gruppe Wörter wie Nachricht, Quelle, Publikum, Meinung.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -4539,53 +6962,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Nachricht",
-          "zuverlässig",
-          "Perspektive",
-          "kommunizieren"
+          "Quelle",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-b1-kultur-und-medien-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Kultur und Medien: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Kultur und Medien: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -4668,64 +7090,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "kein / nicht und Mengenangaben",
-        "definition": "Práctica guiada de kein / nicht und Mengenangaben.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Einkaufen: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
+        "examples": [
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Markt“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Markt.",
-          "Die Gruppe Markt spricht über.",
-          "Markt die über Gruppe spricht.",
-          "Spricht Gruppe die Markt über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Preis“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Preis spricht über.",
-          "Die Gruppe spricht über Preis.",
-          "Preis die über Gruppe spricht.",
-          "Spricht Gruppe die Preis über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Euro“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Euro die über Gruppe spricht.",
-          "Die Gruppe Euro spricht über.",
-          "Die Gruppe spricht über Euro.",
-          "Spricht Gruppe die Euro über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „kaufen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die kaufen über.",
-          "Die Gruppe kaufen spricht über.",
-          "kaufen die über Gruppe spricht.",
-          "Die Gruppe spricht über kaufen."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Gemüse“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Gemüse.",
-          "Die Gruppe Gemüse spricht über.",
-          "Gemüse die über Gruppe spricht.",
-          "Spricht Gruppe die Gemüse über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
   },
@@ -4807,64 +7354,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Nebensätze mit weil und dass",
-        "definition": "Práctica guiada de Nebensätze mit weil und dass.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Arbeit und Beruf: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
+        "examples": [
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Beruf“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Beruf.",
-          "Die Gruppe Beruf spricht über.",
-          "Beruf die über Gruppe spricht.",
-          "Spricht Gruppe die Beruf über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Aufgabe“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Aufgabe spricht über.",
-          "Die Gruppe spricht über Aufgabe.",
-          "Aufgabe die über Gruppe spricht.",
-          "Spricht Gruppe die Aufgabe über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Kollegin“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Kollegin die über Gruppe spricht.",
-          "Die Gruppe Kollegin spricht über.",
-          "Die Gruppe spricht über Kollegin.",
-          "Spricht Gruppe die Kollegin über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Erfahrung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Erfahrung über.",
-          "Die Gruppe Erfahrung spricht über.",
-          "Erfahrung die über Gruppe spricht.",
-          "Die Gruppe spricht über Erfahrung."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „beginnen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über beginnen.",
-          "Die Gruppe beginnen spricht über.",
-          "beginnen die über Gruppe spricht.",
-          "Spricht Gruppe die beginnen über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
   },
@@ -4946,64 +7618,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Indirekte Fragen",
-        "definition": "Práctica guiada de Indirekte Fragen.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Kultur und Medien: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "structure": "Meinung + weil/obwohl/deshalb + Begründung",
+        "function": "Eine Meinung ausdrücken und begründen.",
+        "examples": [
+          "Ich finde den Vorschlag sinnvoll.",
+          "Trotzdem müssen wir die Ergebnisse prüfen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Nachricht“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Nachricht.",
-          "Die Gruppe Nachricht spricht über.",
-          "Nachricht die über Gruppe spricht.",
-          "Spricht Gruppe die Nachricht über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Quelle“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Quelle spricht über.",
-          "Die Gruppe spricht über Quelle.",
-          "Quelle die über Gruppe spricht.",
-          "Spricht Gruppe die Quelle über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Publikum“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Publikum die über Gruppe spricht.",
-          "Die Gruppe Publikum spricht über.",
-          "Die Gruppe spricht über Publikum.",
-          "Spricht Gruppe die Publikum über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Meinung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Meinung über.",
-          "Die Gruppe Meinung spricht über.",
-          "Meinung die über Gruppe spricht.",
-          "Die Gruppe spricht über Meinung."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „vergleichen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über vergleichen.",
-          "Die Gruppe vergleichen spricht über.",
-          "vergleichen die über Gruppe spricht.",
-          "Spricht Gruppe die vergleichen über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
   },
@@ -5032,52 +7829,134 @@
       {
         "word": "Markt",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Markt“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Markt“ in einem Satz.",
+        "contexts": [
+          "Markt · tema",
+          "Markt · conversación",
+          "Markt · práctica"
+        ]
       },
       {
         "word": "Preis",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Preis“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Preis“ in einem Satz.",
+        "contexts": [
+          "Preis · tema",
+          "Preis · conversación",
+          "Preis · práctica"
+        ]
       },
       {
         "word": "Euro",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Euro“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Euro“ in einem Satz.",
+        "contexts": [
+          "Euro · tema",
+          "Euro · conversación",
+          "Euro · práctica"
+        ]
       },
       {
         "word": "kaufen",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „kaufen“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „kaufen“ in einem Satz.",
+        "contexts": [
+          "kaufen · tema",
+          "kaufen · conversación",
+          "kaufen · práctica"
+        ]
       },
       {
         "word": "Gemüse",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „Gemüse“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „Gemüse“ in einem Satz.",
+        "contexts": [
+          "Gemüse · tema",
+          "Gemüse · conversación",
+          "Gemüse · práctica"
+        ]
       },
       {
         "word": "Obst",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Obst“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Obst“ in einem Satz.",
+        "contexts": [
+          "Obst · tema",
+          "Obst · conversación",
+          "Obst · práctica"
+        ]
       },
       {
         "word": "brauchen",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „brauchen“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „brauchen“ in einem Satz.",
+        "contexts": [
+          "brauchen · tema",
+          "brauchen · conversación",
+          "brauchen · práctica"
+        ]
       },
       {
         "word": "billig",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „billig“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „billig“ in einem Satz.",
+        "contexts": [
+          "billig · tema",
+          "billig · conversación",
+          "billig · práctica"
+        ]
       },
       {
         "word": "teuer",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „teuer“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „teuer“ in einem Satz.",
+        "contexts": [
+          "teuer · tema",
+          "teuer · conversación",
+          "teuer · práctica"
+        ]
       },
       {
         "word": "Tasche",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Tasche“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Tasche“ in einem Satz.",
+        "contexts": [
+          "Tasche · tema",
+          "Tasche · conversación",
+          "Tasche · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -5087,7 +7966,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Markt",
           "Preis",
@@ -5097,52 +7976,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Euro",
+          "Markt",
           "Preis",
-          "kaufen",
-          "Gemüse"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Gemüse",
-          "kaufen",
           "Euro",
-          "Obst"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "brauchen",
-          "Gemüse",
-          "Obst",
           "kaufen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Preis",
+          "Markt",
+          "Euro",
+          "kaufen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Euro",
+          "Markt",
+          "Preis",
+          "kaufen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Gemüse",
+          "Markt",
+          "Preis",
+          "Euro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Markt",
           "Obst",
+          "Preis",
+          "Euro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Preis",
+          "Markt",
           "brauchen",
+          "Euro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Euro",
+          "Markt",
+          "Preis",
           "billig"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "brauchen",
-          "Obst",
-          "billig",
-          "teuer"
+          "teuer",
+          "Markt",
+          "Preis",
+          "Euro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Markt",
+          "Tasche",
+          "Preis",
+          "Euro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Preis",
+          "Markt",
+          "heute",
+          "Euro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Euro",
+          "Markt",
+          "Preis",
+          "zusammen"
         ]
       }
     ]
@@ -5172,52 +8111,134 @@
       {
         "word": "Beruf",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Beruf“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Beruf“ in einem Satz.",
+        "contexts": [
+          "Beruf · tema",
+          "Beruf · conversación",
+          "Beruf · práctica"
+        ]
       },
       {
         "word": "Aufgabe",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Aufgabe“ in einem Satz.",
+        "contexts": [
+          "Aufgabe · tema",
+          "Aufgabe · conversación",
+          "Aufgabe · práctica"
+        ]
       },
       {
         "word": "Kollegin",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Kollegin“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Kollegin“ in einem Satz.",
+        "contexts": [
+          "Kollegin · tema",
+          "Kollegin · conversación",
+          "Kollegin · práctica"
+        ]
       },
       {
         "word": "Erfahrung",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Erfahrung“ in einem Satz.",
+        "contexts": [
+          "Erfahrung · tema",
+          "Erfahrung · conversación",
+          "Erfahrung · práctica"
+        ]
       },
       {
         "word": "beginnen",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „beginnen“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „beginnen“ in einem Satz.",
+        "contexts": [
+          "beginnen · tema",
+          "beginnen · conversación",
+          "beginnen · práctica"
+        ]
       },
       {
         "word": "Ende",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Ende“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Ende“ in einem Satz.",
+        "contexts": [
+          "Ende · tema",
+          "Ende · conversación",
+          "Ende · práctica"
+        ]
       },
       {
         "word": "wichtig",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „wichtig“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „wichtig“ in einem Satz.",
+        "contexts": [
+          "wichtig · tema",
+          "wichtig · conversación",
+          "wichtig · práctica"
+        ]
       },
       {
         "word": "Bewerbung",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Bewerbung“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Bewerbung“ in einem Satz.",
+        "contexts": [
+          "Bewerbung · tema",
+          "Bewerbung · conversación",
+          "Bewerbung · práctica"
+        ]
       },
       {
         "word": "lernen",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „lernen“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „lernen“ in einem Satz.",
+        "contexts": [
+          "lernen · tema",
+          "lernen · conversación",
+          "lernen · práctica"
+        ]
       },
       {
         "word": "Chance",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Chance“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Chance“ in einem Satz.",
+        "contexts": [
+          "Chance · tema",
+          "Chance · conversación",
+          "Chance · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -5227,7 +8248,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Beruf",
           "Aufgabe",
@@ -5237,52 +8258,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Kollegin",
+          "Beruf",
           "Aufgabe",
-          "Erfahrung",
-          "beginnen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "beginnen",
-          "Erfahrung",
           "Kollegin",
-          "Ende"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "wichtig",
-          "beginnen",
-          "Ende",
           "Erfahrung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Aufgabe",
+          "Beruf",
+          "Kollegin",
+          "Erfahrung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kollegin",
+          "Beruf",
+          "Aufgabe",
+          "Erfahrung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "beginnen",
+          "Beruf",
+          "Aufgabe",
+          "Kollegin"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Beruf",
           "Ende",
+          "Aufgabe",
+          "Kollegin"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Aufgabe",
+          "Beruf",
           "wichtig",
+          "Kollegin"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kollegin",
+          "Beruf",
+          "Aufgabe",
           "Bewerbung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "wichtig",
-          "Ende",
-          "Bewerbung",
-          "lernen"
+          "lernen",
+          "Beruf",
+          "Aufgabe",
+          "Kollegin"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Beruf",
+          "Chance",
+          "Aufgabe",
+          "Kollegin"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Aufgabe",
+          "Beruf",
+          "heute",
+          "Kollegin"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kollegin",
+          "Beruf",
+          "Aufgabe",
+          "zusammen"
         ]
       }
     ]
@@ -5312,52 +8393,134 @@
       {
         "word": "Nachricht",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Nachricht“ in einem Satz.",
+        "contexts": [
+          "Nachricht · tema",
+          "Nachricht · conversación",
+          "Nachricht · práctica"
+        ]
       },
       {
         "word": "Quelle",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Quelle“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Quelle“ in einem Satz.",
+        "contexts": [
+          "Quelle · tema",
+          "Quelle · conversación",
+          "Quelle · práctica"
+        ]
       },
       {
         "word": "Publikum",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Publikum“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Publikum“ in einem Satz.",
+        "contexts": [
+          "Publikum · tema",
+          "Publikum · conversación",
+          "Publikum · práctica"
+        ]
       },
       {
         "word": "Meinung",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Meinung“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Meinung“ in einem Satz.",
+        "contexts": [
+          "Meinung · tema",
+          "Meinung · conversación",
+          "Meinung · práctica"
+        ]
       },
       {
         "word": "vergleichen",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „vergleichen“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „vergleichen“ in einem Satz.",
+        "contexts": [
+          "vergleichen · tema",
+          "vergleichen · conversación",
+          "vergleichen · práctica"
+        ]
       },
       {
         "word": "Debatte",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Debatte“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Debatte“ in einem Satz.",
+        "contexts": [
+          "Debatte · tema",
+          "Debatte · conversación",
+          "Debatte · práctica"
+        ]
       },
       {
         "word": "Inhalt",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Inhalt“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Inhalt“ in einem Satz.",
+        "contexts": [
+          "Inhalt · tema",
+          "Inhalt · conversación",
+          "Inhalt · práctica"
+        ]
       },
       {
         "word": "zuverlässig",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „zuverlässig“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „zuverlässig“ in einem Satz.",
+        "contexts": [
+          "zuverlässig · tema",
+          "zuverlässig · conversación",
+          "zuverlässig · práctica"
+        ]
       },
       {
         "word": "Perspektive",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „Perspektive“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „Perspektive“ in einem Satz.",
+        "contexts": [
+          "Perspektive · tema",
+          "Perspektive · conversación",
+          "Perspektive · práctica"
+        ]
       },
       {
         "word": "kommunizieren",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „kommunizieren“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „kommunizieren“ in einem Satz.",
+        "contexts": [
+          "kommunizieren · tema",
+          "kommunizieren · conversación",
+          "kommunizieren · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -5367,7 +8530,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Nachricht",
           "Quelle",
@@ -5377,52 +8540,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Publikum",
+          "Nachricht",
           "Quelle",
-          "Meinung",
-          "vergleichen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "vergleichen",
-          "Meinung",
           "Publikum",
-          "Debatte"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Inhalt",
-          "vergleichen",
-          "Debatte",
           "Meinung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Quelle",
+          "Nachricht",
+          "Publikum",
+          "Meinung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Publikum",
+          "Nachricht",
+          "Quelle",
+          "Meinung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "vergleichen",
+          "Nachricht",
+          "Quelle",
+          "Publikum"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Nachricht",
           "Debatte",
+          "Quelle",
+          "Publikum"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Quelle",
+          "Nachricht",
           "Inhalt",
+          "Publikum"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Publikum",
+          "Nachricht",
+          "Quelle",
           "zuverlässig"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Inhalt",
-          "Debatte",
-          "zuverlässig",
-          "Perspektive"
+          "Perspektive",
+          "Nachricht",
+          "Quelle",
+          "Publikum"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Nachricht",
+          "kommunizieren",
+          "Quelle",
+          "Publikum"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Quelle",
+          "Nachricht",
+          "heute",
+          "Publikum"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Publikum",
+          "Nachricht",
+          "Quelle",
+          "zusammen"
         ]
       }
     ]
@@ -5437,7 +8660,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 50,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 10,
     "description": "Orte in der Stadt finden",
     "intro": "Orte in der Stadt finden",
     "mission": "Orte in der Stadt finden",
@@ -5502,12 +8725,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "In der Stadt",
+      "text": "Heute erlebt Anna etwas zum Thema In der Stadt. Sie trifft Leon in ihrem Viertel und spricht langsam mit ihm. Leon hört zu, lächelt und stellt eine einfache Frage. Anna antwortet mit klaren Wörtern, denn sie möchte die Situation gut verstehen. Zusammen sehen sie sich den Ort an, begrüßen Menschen und wählen eine kleine Aktivität für den Nachmittag. Einige Dinge kennen sie schon, andere machen sie neugierig. Am Ende sagt Anna, dass eine Sprache lernen auch bedeutet, am Alltag teilzunehmen. Leon stimmt zu und möchte die Erfahrung morgen wiederholen. Dabei benutzt die Gruppe Wörter wie Straße, Bahnhof, Apotheke, Schule. Dabei benutzt die Gruppe Wörter wie Straße, Bahnhof, Apotheke, Schule. Dabei benutzt die Gruppe Wörter wie Straße, Bahnhof, Apotheke, Schule. Dabei benutzt die Gruppe Wörter wie Straße, Bahnhof, Apotheke, Schule.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -5515,42 +8740,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Straße",
-          "nahe",
-          "Bus",
-          "Karte"
+          "Bahnhof",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -5565,7 +8790,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 50,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 14,
     "description": "eine Reise in der Vergangenheit erzählen",
     "intro": "eine Reise in der Vergangenheit erzählen",
     "mission": "eine Reise in der Vergangenheit erzählen",
@@ -5630,12 +8855,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Reisen und Erlebnisse",
+      "text": "Letzte Woche hat Anna an einer Aktivität zum Thema Reisen und Erlebnisse teilgenommen. Zuerst kannte sie das Programm nicht gut, deshalb hat sie nach Informationen gefragt und den Menschen im Viertel zugehört. Leon kam später, brachte aber eine gute Idee mit. Beide verglichen ihre Erfahrungen und beschlossen, zusammenzuarbeiten. Während der Aktivität bemerkten sie, dass einfache Lösungen vielen Menschen helfen können. Anna erklärte, dass sie weiterlernen möchte, weil man eine Stadt besser versteht, wenn man die Gewohnheiten der Menschen beobachtet. Am Ende schrieben sie eine kurze Nachricht, um der Gruppe zu danken, und planten ein neues Treffen für die nächste Woche. Dabei benutzt die Gruppe Wörter wie Reise, erlebt, besucht, geblieben. Dabei benutzt die Gruppe Wörter wie Reise, erlebt, besucht, geblieben. Dabei benutzt die Gruppe Wörter wie Reise, erlebt, besucht, geblieben. Dabei benutzt die Gruppe Wörter wie Reise, erlebt, besucht, geblieben. Dabei benutzt die Gruppe Wörter wie Reise, erlebt, besucht, geblieben. Dabei benutzt die Gruppe Wörter wie Reise, erlebt, besucht, geblieben. Dabei benutzt die Gruppe Wörter wie Reise, erlebt, besucht, geblieben. Dabei benutzt die Gruppe Wörter wie Reise, erlebt, besucht, geblieben.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -5643,53 +8870,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Reise",
-          "Erinnerung",
-          "planen",
-          "interessant"
+          "erlebt",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-a2-reisen-und-erlebnisse-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Reisen und Erlebnisse: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Reisen und Erlebnisse: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -5704,7 +8930,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 50,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "ein Umweltproblem und einen Vorschlag beschreiben",
     "intro": "ein Umweltproblem und einen Vorschlag beschreiben",
     "mission": "ein Umweltproblem und einen Vorschlag beschreiben",
@@ -5769,12 +8995,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Umwelt im Viertel",
+      "text": "Im Viertel von Anna ist das Thema „Umwelt im Viertel“ nach einer offenen Sitzung wichtig geworden. Einige Bewohner meinten, das Problem müsse nur von Institutionen gelöst werden; andere fanden, dass auch Bürger mit konkreten Aktionen beitragen können. Anna hörte beide Positionen an und sagte, ein guter Vorschlag müsse realistisch und nicht nur interessant sein. Leon berichtete von einer persönlichen Erfahrung: Früher hatte er an einem ähnlichen Projekt teilgenommen und gelernt, dass regelmäßige Kommunikation viele Missverständnisse verhindert. Die Gruppe teilte deshalb Aufgaben auf, setzte eine Frist und wählte einen einfachen Weg, die Nachbarschaft zu informieren. Nicht alle waren mit jedem Detail einverstanden. Trotzdem beschlossen sie, die Ergebnisse nach einem Monat gemeinsam zu prüfen. Anna hält diese Entscheidung für ausgewogen, weil sie sofortiges Handeln ermöglicht und später Raum für Verbesserungen lässt. Am Ende der Sitzung gingen die Menschen mit unterschiedlichen Verantwortlichkeiten nach Hause, aber mit einem gemeinsamen Ziel: den Alltag zu verbessern, ohne jemanden auszuschließen. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren. Dabei benutzt die Gruppe Wörter wie Abfall, Sammlung, Ressource, reduzieren.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -5782,53 +9010,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Abfall",
-          "Wirkung",
-          "verbessern",
-          "unterstützen"
+          "Sammlung",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-b1-umwelt-im-viertel-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Umwelt im Viertel: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Umwelt im Viertel: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -5911,64 +9138,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Modalverb können und Wegbeschreibung",
-        "definition": "Práctica guiada de Modalverb können und Wegbeschreibung.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "In der Stadt: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
+        "examples": [
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Straße“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Straße.",
-          "Die Gruppe Straße spricht über.",
-          "Straße die über Gruppe spricht.",
-          "Spricht Gruppe die Straße über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Bahnhof“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Bahnhof spricht über.",
-          "Die Gruppe spricht über Bahnhof.",
-          "Bahnhof die über Gruppe spricht.",
-          "Spricht Gruppe die Bahnhof über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Apotheke“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Apotheke die über Gruppe spricht.",
-          "Die Gruppe Apotheke spricht über.",
-          "Die Gruppe spricht über Apotheke.",
-          "Spricht Gruppe die Apotheke über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Schule“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Schule über.",
-          "Die Gruppe Schule spricht über.",
-          "Schule die über Gruppe spricht.",
-          "Die Gruppe spricht über Schule."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „links“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über links.",
-          "Die Gruppe links spricht über.",
-          "links die über Gruppe spricht.",
-          "Spricht Gruppe die links über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
   },
@@ -6050,64 +9402,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Perfekt mit sein",
-        "definition": "Práctica guiada de Perfekt mit sein.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Reisen und Erlebnisse: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
+        "examples": [
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Reise“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Reise.",
-          "Die Gruppe Reise spricht über.",
-          "Reise die über Gruppe spricht.",
-          "Spricht Gruppe die Reise über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „erlebt“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe erlebt spricht über.",
-          "Die Gruppe spricht über erlebt.",
-          "erlebt die über Gruppe spricht.",
-          "Spricht Gruppe die erlebt über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „besucht“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "besucht die über Gruppe spricht.",
-          "Die Gruppe besucht spricht über.",
-          "Die Gruppe spricht über besucht.",
-          "Spricht Gruppe die besucht über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „geblieben“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die geblieben über.",
-          "Die Gruppe geblieben spricht über.",
-          "geblieben die über Gruppe spricht.",
-          "Die Gruppe spricht über geblieben."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „gesehen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über gesehen.",
-          "Die Gruppe gesehen spricht über.",
-          "gesehen die über Gruppe spricht.",
-          "Spricht Gruppe die gesehen über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
   },
@@ -6189,64 +9666,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Konnektoren: obwohl, trotzdem und daher",
-        "definition": "Práctica guiada de Konnektoren: obwohl, trotzdem und daher.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Umwelt im Viertel: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "structure": "Meinung + weil/obwohl/deshalb + Begründung",
+        "function": "Eine Meinung ausdrücken und begründen.",
+        "examples": [
+          "Ich finde den Vorschlag sinnvoll.",
+          "Trotzdem müssen wir die Ergebnisse prüfen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Abfall“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Abfall.",
-          "Die Gruppe Abfall spricht über.",
-          "Abfall die über Gruppe spricht.",
-          "Spricht Gruppe die Abfall über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Sammlung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Sammlung spricht über.",
-          "Die Gruppe spricht über Sammlung.",
-          "Sammlung die über Gruppe spricht.",
-          "Spricht Gruppe die Sammlung über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Ressource“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Ressource die über Gruppe spricht.",
-          "Die Gruppe Ressource spricht über.",
-          "Die Gruppe spricht über Ressource.",
-          "Spricht Gruppe die Ressource über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „reduzieren“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die reduzieren über.",
-          "Die Gruppe reduzieren spricht über.",
-          "reduzieren die über Gruppe spricht.",
-          "Die Gruppe spricht über reduzieren."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Viertel“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Viertel.",
-          "Die Gruppe Viertel spricht über.",
-          "Viertel die über Gruppe spricht.",
-          "Spricht Gruppe die Viertel über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
   },
@@ -6275,52 +9877,134 @@
       {
         "word": "Straße",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Straße“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Straße“ in einem Satz.",
+        "contexts": [
+          "Straße · tema",
+          "Straße · conversación",
+          "Straße · práctica"
+        ]
       },
       {
         "word": "Bahnhof",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Bahnhof“ in einem Satz.",
+        "contexts": [
+          "Bahnhof · tema",
+          "Bahnhof · conversación",
+          "Bahnhof · práctica"
+        ]
       },
       {
         "word": "Apotheke",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Apotheke“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Apotheke“ in einem Satz.",
+        "contexts": [
+          "Apotheke · tema",
+          "Apotheke · conversación",
+          "Apotheke · práctica"
+        ]
       },
       {
         "word": "Schule",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Schule“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Schule“ in einem Satz.",
+        "contexts": [
+          "Schule · tema",
+          "Schule · conversación",
+          "Schule · práctica"
+        ]
       },
       {
         "word": "links",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „links“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „links“ in einem Satz.",
+        "contexts": [
+          "links · tema",
+          "links · conversación",
+          "links · práctica"
+        ]
       },
       {
         "word": "rechts",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „rechts“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „rechts“ in einem Satz.",
+        "contexts": [
+          "rechts · tema",
+          "rechts · conversación",
+          "rechts · práctica"
+        ]
       },
       {
         "word": "geradeaus",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „geradeaus“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „geradeaus“ in einem Satz.",
+        "contexts": [
+          "geradeaus · tema",
+          "geradeaus · conversación",
+          "geradeaus · práctica"
+        ]
       },
       {
         "word": "nahe",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „nahe“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „nahe“ in einem Satz.",
+        "contexts": [
+          "nahe · tema",
+          "nahe · conversación",
+          "nahe · práctica"
+        ]
       },
       {
         "word": "Bus",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „Bus“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „Bus“ in einem Satz.",
+        "contexts": [
+          "Bus · tema",
+          "Bus · conversación",
+          "Bus · práctica"
+        ]
       },
       {
         "word": "Karte",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Karte“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Karte“ in einem Satz.",
+        "contexts": [
+          "Karte · tema",
+          "Karte · conversación",
+          "Karte · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -6330,7 +10014,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Straße",
           "Bahnhof",
@@ -6340,52 +10024,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Apotheke",
+          "Straße",
           "Bahnhof",
-          "Schule",
-          "links"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "links",
-          "Schule",
           "Apotheke",
-          "rechts"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "geradeaus",
-          "links",
-          "rechts",
           "Schule"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Bahnhof",
+          "Straße",
+          "Apotheke",
+          "Schule"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Apotheke",
+          "Straße",
+          "Bahnhof",
+          "Schule"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "links",
+          "Straße",
+          "Bahnhof",
+          "Apotheke"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Straße",
           "rechts",
+          "Bahnhof",
+          "Apotheke"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Bahnhof",
+          "Straße",
           "geradeaus",
+          "Apotheke"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Apotheke",
+          "Straße",
+          "Bahnhof",
           "nahe"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "geradeaus",
-          "rechts",
-          "nahe",
-          "Bus"
+          "Bus",
+          "Straße",
+          "Bahnhof",
+          "Apotheke"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Straße",
+          "Karte",
+          "Bahnhof",
+          "Apotheke"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Bahnhof",
+          "Straße",
+          "heute",
+          "Apotheke"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Apotheke",
+          "Straße",
+          "Bahnhof",
+          "zusammen"
         ]
       }
     ]
@@ -6415,52 +10159,134 @@
       {
         "word": "Reise",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Reise“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Reise“ in einem Satz.",
+        "contexts": [
+          "Reise · tema",
+          "Reise · conversación",
+          "Reise · práctica"
+        ]
       },
       {
         "word": "erlebt",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „erlebt“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „erlebt“ in einem Satz.",
+        "contexts": [
+          "erlebt · tema",
+          "erlebt · conversación",
+          "erlebt · práctica"
+        ]
       },
       {
         "word": "besucht",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „besucht“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „besucht“ in einem Satz.",
+        "contexts": [
+          "besucht · tema",
+          "besucht · conversación",
+          "besucht · práctica"
+        ]
       },
       {
         "word": "geblieben",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „geblieben“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „geblieben“ in einem Satz.",
+        "contexts": [
+          "geblieben · tema",
+          "geblieben · conversación",
+          "geblieben · práctica"
+        ]
       },
       {
         "word": "gesehen",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „gesehen“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „gesehen“ in einem Satz.",
+        "contexts": [
+          "gesehen · tema",
+          "gesehen · conversación",
+          "gesehen · práctica"
+        ]
       },
       {
         "word": "Hotel",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Hotel“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Hotel“ in einem Satz.",
+        "contexts": [
+          "Hotel · tema",
+          "Hotel · conversación",
+          "Hotel · práctica"
+        ]
       },
       {
         "word": "unterwegs",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „unterwegs“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „unterwegs“ in einem Satz.",
+        "contexts": [
+          "unterwegs · tema",
+          "unterwegs · conversación",
+          "unterwegs · práctica"
+        ]
       },
       {
         "word": "Erinnerung",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Erinnerung“ in einem Satz.",
+        "contexts": [
+          "Erinnerung · tema",
+          "Erinnerung · conversación",
+          "Erinnerung · práctica"
+        ]
       },
       {
         "word": "planen",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „planen“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „planen“ in einem Satz.",
+        "contexts": [
+          "planen · tema",
+          "planen · conversación",
+          "planen · práctica"
+        ]
       },
       {
         "word": "interessant",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „interessant“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „interessant“ in einem Satz.",
+        "contexts": [
+          "interessant · tema",
+          "interessant · conversación",
+          "interessant · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -6470,7 +10296,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Reise",
           "erlebt",
@@ -6480,52 +10306,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "besucht",
+          "Reise",
           "erlebt",
-          "geblieben",
-          "gesehen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "gesehen",
-          "geblieben",
           "besucht",
-          "Hotel"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "unterwegs",
-          "gesehen",
-          "Hotel",
           "geblieben"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "erlebt",
+          "Reise",
+          "besucht",
+          "geblieben"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "besucht",
+          "Reise",
+          "erlebt",
+          "geblieben"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "gesehen",
+          "Reise",
+          "erlebt",
+          "besucht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Reise",
           "Hotel",
+          "erlebt",
+          "besucht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "erlebt",
+          "Reise",
           "unterwegs",
+          "besucht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "besucht",
+          "Reise",
+          "erlebt",
           "Erinnerung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "unterwegs",
-          "Hotel",
-          "Erinnerung",
-          "planen"
+          "planen",
+          "Reise",
+          "erlebt",
+          "besucht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Reise",
+          "interessant",
+          "erlebt",
+          "besucht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "erlebt",
+          "Reise",
+          "heute",
+          "besucht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "besucht",
+          "Reise",
+          "erlebt",
+          "zusammen"
         ]
       }
     ]
@@ -6555,52 +10441,134 @@
       {
         "word": "Abfall",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Abfall“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Abfall“ in einem Satz.",
+        "contexts": [
+          "Abfall · tema",
+          "Abfall · conversación",
+          "Abfall · práctica"
+        ]
       },
       {
         "word": "Sammlung",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Sammlung“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Sammlung“ in einem Satz.",
+        "contexts": [
+          "Sammlung · tema",
+          "Sammlung · conversación",
+          "Sammlung · práctica"
+        ]
       },
       {
         "word": "Ressource",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Ressource“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Ressource“ in einem Satz.",
+        "contexts": [
+          "Ressource · tema",
+          "Ressource · conversación",
+          "Ressource · práctica"
+        ]
       },
       {
         "word": "reduzieren",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „reduzieren“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „reduzieren“ in einem Satz.",
+        "contexts": [
+          "reduzieren · tema",
+          "reduzieren · conversación",
+          "reduzieren · práctica"
+        ]
       },
       {
         "word": "Viertel",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „Viertel“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „Viertel“ in einem Satz.",
+        "contexts": [
+          "Viertel · tema",
+          "Viertel · conversación",
+          "Viertel · práctica"
+        ]
       },
       {
         "word": "freiwillig",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „freiwillig“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „freiwillig“ in einem Satz.",
+        "contexts": [
+          "freiwillig · tema",
+          "freiwillig · conversación",
+          "freiwillig · práctica"
+        ]
       },
       {
         "word": "Initiative",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Initiative“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Initiative“ in einem Satz.",
+        "contexts": [
+          "Initiative · tema",
+          "Initiative · conversación",
+          "Initiative · práctica"
+        ]
       },
       {
         "word": "Wirkung",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Wirkung“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Wirkung“ in einem Satz.",
+        "contexts": [
+          "Wirkung · tema",
+          "Wirkung · conversación",
+          "Wirkung · práctica"
+        ]
       },
       {
         "word": "verbessern",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „verbessern“ in einem Satz.",
+        "contexts": [
+          "verbessern · tema",
+          "verbessern · conversación",
+          "verbessern · práctica"
+        ]
       },
       {
         "word": "unterstützen",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „unterstützen“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „unterstützen“ in einem Satz.",
+        "contexts": [
+          "unterstützen · tema",
+          "unterstützen · conversación",
+          "unterstützen · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -6610,7 +10578,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Abfall",
           "Sammlung",
@@ -6620,52 +10588,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Ressource",
+          "Abfall",
           "Sammlung",
-          "reduzieren",
-          "Viertel"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Viertel",
-          "reduzieren",
           "Ressource",
-          "freiwillig"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Initiative",
-          "Viertel",
-          "freiwillig",
           "reduzieren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Sammlung",
+          "Abfall",
+          "Ressource",
+          "reduzieren"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Ressource",
+          "Abfall",
+          "Sammlung",
+          "reduzieren"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Viertel",
+          "Abfall",
+          "Sammlung",
+          "Ressource"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Abfall",
           "freiwillig",
+          "Sammlung",
+          "Ressource"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Sammlung",
+          "Abfall",
           "Initiative",
+          "Ressource"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Ressource",
+          "Abfall",
+          "Sammlung",
           "Wirkung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Initiative",
-          "freiwillig",
-          "Wirkung",
-          "verbessern"
+          "verbessern",
+          "Abfall",
+          "Sammlung",
+          "Ressource"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Abfall",
+          "unterstützen",
+          "Sammlung",
+          "Ressource"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Sammlung",
+          "Abfall",
+          "heute",
+          "Ressource"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Ressource",
+          "Abfall",
+          "Sammlung",
+          "zusammen"
         ]
       }
     ]
@@ -6680,7 +10708,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 60,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 10,
     "description": "über Schule und Freizeit sprechen",
     "intro": "über Schule und Freizeit sprechen",
     "mission": "über Schule und Freizeit sprechen",
@@ -6745,12 +10773,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Schule und Freunde",
+      "text": "Heute erlebt Anna etwas zum Thema Schule und Freunde. Sie trifft Leon in ihrem Viertel und spricht langsam mit ihm. Leon hört zu, lächelt und stellt eine einfache Frage. Anna antwortet mit klaren Wörtern, denn sie möchte die Situation gut verstehen. Zusammen sehen sie sich den Ort an, begrüßen Menschen und wählen eine kleine Aktivität für den Nachmittag. Einige Dinge kennen sie schon, andere machen sie neugierig. Am Ende sagt Anna, dass eine Sprache lernen auch bedeutet, am Alltag teilzunehmen. Leon stimmt zu und möchte die Erfahrung morgen wiederholen. Dabei benutzt die Gruppe Wörter wie Schule, Klasse, Lehrer, Freund. Dabei benutzt die Gruppe Wörter wie Schule, Klasse, Lehrer, Freund. Dabei benutzt die Gruppe Wörter wie Schule, Klasse, Lehrer, Freund. Dabei benutzt die Gruppe Wörter wie Schule, Klasse, Lehrer, Freund.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -6758,42 +10788,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Schule",
-          "heute",
-          "morgen",
-          "zusammen"
+          "Klasse",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -6808,7 +10838,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 60,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 14,
     "description": "Rezepte und Gewohnheiten beschreiben",
     "intro": "Rezepte und Gewohnheiten beschreiben",
     "mission": "Rezepte und Gewohnheiten beschreiben",
@@ -6873,12 +10903,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Essen und Kultur",
+      "text": "Letzte Woche hat Anna an einer Aktivität zum Thema Essen und Kultur teilgenommen. Zuerst kannte sie das Programm nicht gut, deshalb hat sie nach Informationen gefragt und den Menschen im Viertel zugehört. Leon kam später, brachte aber eine gute Idee mit. Beide verglichen ihre Erfahrungen und beschlossen, zusammenzuarbeiten. Während der Aktivität bemerkten sie, dass einfache Lösungen vielen Menschen helfen können. Anna erklärte, dass sie weiterlernen möchte, weil man eine Stadt besser versteht, wenn man die Gewohnheiten der Menschen beobachtet. Am Ende schrieben sie eine kurze Nachricht, um der Gruppe zu danken, und planten ein neues Treffen für die nächste Woche. Dabei benutzt die Gruppe Wörter wie Rezept, Zutaten, kochen, Geschmack. Dabei benutzt die Gruppe Wörter wie Rezept, Zutaten, kochen, Geschmack. Dabei benutzt die Gruppe Wörter wie Rezept, Zutaten, kochen, Geschmack. Dabei benutzt die Gruppe Wörter wie Rezept, Zutaten, kochen, Geschmack. Dabei benutzt die Gruppe Wörter wie Rezept, Zutaten, kochen, Geschmack. Dabei benutzt die Gruppe Wörter wie Rezept, Zutaten, kochen, Geschmack. Dabei benutzt die Gruppe Wörter wie Rezept, Zutaten, kochen, Geschmack. Dabei benutzt die Gruppe Wörter wie Rezept, Zutaten, kochen, Geschmack.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -6886,53 +10918,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Rezept",
-          "Restaurant",
-          "bestellen",
-          "typisch"
+          "Zutaten",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-a2-essen-und-kultur-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Essen und Kultur: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Essen und Kultur: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -6947,7 +10978,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 60,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "Erlebnisse erzählen und mit der Gegenwart verbinden",
     "intro": "Erlebnisse erzählen und mit der Gegenwart verbinden",
     "mission": "Erlebnisse erzählen und mit der Gegenwart verbinden",
@@ -7012,12 +11043,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Geschichten und Erinnerungen",
+      "text": "Im Viertel von Anna ist das Thema „Geschichten und Erinnerungen“ nach einer offenen Sitzung wichtig geworden. Einige Bewohner meinten, das Problem müsse nur von Institutionen gelöst werden; andere fanden, dass auch Bürger mit konkreten Aktionen beitragen können. Anna hörte beide Positionen an und sagte, ein guter Vorschlag müsse realistisch und nicht nur interessant sein. Leon berichtete von einer persönlichen Erfahrung: Früher hatte er an einem ähnlichen Projekt teilgenommen und gelernt, dass regelmäßige Kommunikation viele Missverständnisse verhindert. Die Gruppe teilte deshalb Aufgaben auf, setzte eine Frist und wählte einen einfachen Weg, die Nachbarschaft zu informieren. Nicht alle waren mit jedem Detail einverstanden. Trotzdem beschlossen sie, die Ergebnisse nach einem Monat gemeinsam zu prüfen. Anna hält diese Entscheidung für ausgewogen, weil sie sofortiges Handeln ermöglicht und später Raum für Verbesserungen lässt. Am Ende der Sitzung gingen die Menschen mit unterschiedlichen Verantwortlichkeiten nach Hause, aber mit einem gemeinsamen Ziel: den Alltag zu verbessern, ohne jemanden auszuschließen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen. Dabei benutzt die Gruppe Wörter wie Erinnerung, Kindheit, Veränderung, erzählen.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -7025,53 +11058,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Erinnerung",
-          "Generation",
-          "lernen",
-          "Bedeutung"
+          "Kindheit",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-b1-geschichten-und-erinnerungen-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Geschichten und Erinnerungen: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Geschichten und Erinnerungen: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -7154,64 +11186,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Präsens trennbarer Verben",
-        "definition": "Práctica guiada de Präsens trennbarer Verben.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Schule und Freunde: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
+        "examples": [
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Schule“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Schule.",
-          "Die Gruppe Schule spricht über.",
-          "Schule die über Gruppe spricht.",
-          "Spricht Gruppe die Schule über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Klasse“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Klasse spricht über.",
-          "Die Gruppe spricht über Klasse.",
-          "Klasse die über Gruppe spricht.",
-          "Spricht Gruppe die Klasse über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Lehrer“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Lehrer die über Gruppe spricht.",
-          "Die Gruppe Lehrer spricht über.",
-          "Die Gruppe spricht über Lehrer.",
-          "Spricht Gruppe die Lehrer über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Freund“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Freund über.",
-          "Die Gruppe Freund spricht über.",
-          "Freund die über Gruppe spricht.",
-          "Die Gruppe spricht über Freund."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „lernen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über lernen.",
-          "Die Gruppe lernen spricht über.",
-          "lernen die über Gruppe spricht.",
-          "Spricht Gruppe die lernen über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
   },
@@ -7293,64 +11450,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Dativ und Akkusativ",
-        "definition": "Práctica guiada de Dativ und Akkusativ.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Essen und Kultur: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
+        "examples": [
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Rezept“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Rezept.",
-          "Die Gruppe Rezept spricht über.",
-          "Rezept die über Gruppe spricht.",
-          "Spricht Gruppe die Rezept über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Zutaten“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Zutaten spricht über.",
-          "Die Gruppe spricht über Zutaten.",
-          "Zutaten die über Gruppe spricht.",
-          "Spricht Gruppe die Zutaten über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „kochen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "kochen die über Gruppe spricht.",
-          "Die Gruppe kochen spricht über.",
-          "Die Gruppe spricht über kochen.",
-          "Spricht Gruppe die kochen über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Geschmack“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Geschmack über.",
-          "Die Gruppe Geschmack spricht über.",
-          "Geschmack die über Gruppe spricht.",
-          "Die Gruppe spricht über Geschmack."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Tradition“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Tradition.",
-          "Die Gruppe Tradition spricht über.",
-          "Tradition die über Gruppe spricht.",
-          "Spricht Gruppe die Tradition über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
   },
@@ -7432,64 +11714,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Plusquamperfekt",
-        "definition": "Práctica guiada de Plusquamperfekt.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Geschichten und Erinnerungen: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "structure": "Meinung + weil/obwohl/deshalb + Begründung",
+        "function": "Eine Meinung ausdrücken und begründen.",
+        "examples": [
+          "Ich finde den Vorschlag sinnvoll.",
+          "Trotzdem müssen wir die Ergebnisse prüfen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Erinnerung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Erinnerung.",
-          "Die Gruppe Erinnerung spricht über.",
-          "Erinnerung die über Gruppe spricht.",
-          "Spricht Gruppe die Erinnerung über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Kindheit“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Kindheit spricht über.",
-          "Die Gruppe spricht über Kindheit.",
-          "Kindheit die über Gruppe spricht.",
-          "Spricht Gruppe die Kindheit über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Veränderung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Veränderung die über Gruppe spricht.",
-          "Die Gruppe Veränderung spricht über.",
-          "Die Gruppe spricht über Veränderung.",
-          "Spricht Gruppe die Veränderung über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „erzählen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die erzählen über.",
-          "Die Gruppe erzählen spricht über.",
-          "erzählen die über Gruppe spricht.",
-          "Die Gruppe spricht über erzählen."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Vergangenheit“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Vergangenheit.",
-          "Die Gruppe Vergangenheit spricht über.",
-          "Vergangenheit die über Gruppe spricht.",
-          "Spricht Gruppe die Vergangenheit über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
   },
@@ -7518,52 +11925,134 @@
       {
         "word": "Schule",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Schule“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Schule“ in einem Satz.",
+        "contexts": [
+          "Schule · tema",
+          "Schule · conversación",
+          "Schule · práctica"
+        ]
       },
       {
         "word": "Klasse",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Klasse“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Klasse“ in einem Satz.",
+        "contexts": [
+          "Klasse · tema",
+          "Klasse · conversación",
+          "Klasse · práctica"
+        ]
       },
       {
         "word": "Lehrer",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Lehrer“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Lehrer“ in einem Satz.",
+        "contexts": [
+          "Lehrer · tema",
+          "Lehrer · conversación",
+          "Lehrer · práctica"
+        ]
       },
       {
         "word": "Freund",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Freund“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Freund“ in einem Satz.",
+        "contexts": [
+          "Freund · tema",
+          "Freund · conversación",
+          "Freund · práctica"
+        ]
       },
       {
         "word": "lernen",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „lernen“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „lernen“ in einem Satz.",
+        "contexts": [
+          "lernen · tema",
+          "lernen · conversación",
+          "lernen · práctica"
+        ]
       },
       {
         "word": "spielen",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „spielen“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „spielen“ in einem Satz.",
+        "contexts": [
+          "spielen · tema",
+          "spielen · conversación",
+          "spielen · práctica"
+        ]
       },
       {
         "word": "Musik",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Musik“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Musik“ in einem Satz.",
+        "contexts": [
+          "Musik · tema",
+          "Musik · conversación",
+          "Musik · práctica"
+        ]
       },
       {
         "word": "heute",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „heute“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
       },
       {
         "word": "morgen",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „morgen“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „morgen“ in einem Satz.",
+        "contexts": [
+          "morgen · tema",
+          "morgen · conversación",
+          "morgen · práctica"
+        ]
       },
       {
         "word": "zusammen",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „zusammen“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
+      },
+      {
+        "word": "Viertel",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Ich benutze „Viertel“ in einem Satz.",
+        "contexts": [
+          "Viertel · tema",
+          "Viertel · conversación",
+          "Viertel · práctica"
+        ]
+      },
+      {
+        "word": "Frage",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Ich benutze „Frage“ in einem Satz.",
+        "contexts": [
+          "Frage · tema",
+          "Frage · conversación",
+          "Frage · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -7573,7 +12062,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Schule",
           "Klasse",
@@ -7583,52 +12072,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Lehrer",
+          "Schule",
           "Klasse",
-          "Freund",
-          "lernen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "lernen",
-          "Freund",
           "Lehrer",
-          "spielen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Musik",
-          "lernen",
-          "spielen",
           "Freund"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Klasse",
+          "Schule",
+          "Lehrer",
+          "Freund"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Lehrer",
+          "Schule",
+          "Klasse",
+          "Freund"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "lernen",
+          "Schule",
+          "Klasse",
+          "Lehrer"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Schule",
           "spielen",
+          "Klasse",
+          "Lehrer"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Klasse",
+          "Schule",
           "Musik",
+          "Lehrer"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Lehrer",
+          "Schule",
+          "Klasse",
           "heute"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Musik",
-          "spielen",
-          "heute",
-          "morgen"
+          "morgen",
+          "Schule",
+          "Klasse",
+          "Lehrer"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Schule",
+          "zusammen",
+          "Klasse",
+          "Lehrer"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Klasse",
+          "Schule",
+          "Viertel",
+          "Lehrer"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Lehrer",
+          "Schule",
+          "Klasse",
+          "Frage"
         ]
       }
     ]
@@ -7658,52 +12207,134 @@
       {
         "word": "Rezept",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Rezept“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Rezept“ in einem Satz.",
+        "contexts": [
+          "Rezept · tema",
+          "Rezept · conversación",
+          "Rezept · práctica"
+        ]
       },
       {
         "word": "Zutaten",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Zutaten“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Zutaten“ in einem Satz.",
+        "contexts": [
+          "Zutaten · tema",
+          "Zutaten · conversación",
+          "Zutaten · práctica"
+        ]
       },
       {
         "word": "kochen",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „kochen“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „kochen“ in einem Satz.",
+        "contexts": [
+          "kochen · tema",
+          "kochen · conversación",
+          "kochen · práctica"
+        ]
       },
       {
         "word": "Geschmack",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Geschmack“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Geschmack“ in einem Satz.",
+        "contexts": [
+          "Geschmack · tema",
+          "Geschmack · conversación",
+          "Geschmack · práctica"
+        ]
       },
       {
         "word": "Tradition",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „Tradition“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „Tradition“ in einem Satz.",
+        "contexts": [
+          "Tradition · tema",
+          "Tradition · conversación",
+          "Tradition · práctica"
+        ]
       },
       {
         "word": "zusammen",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „zusammen“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       },
       {
         "word": "probieren",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „probieren“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „probieren“ in einem Satz.",
+        "contexts": [
+          "probieren · tema",
+          "probieren · conversación",
+          "probieren · práctica"
+        ]
       },
       {
         "word": "Restaurant",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Restaurant“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Restaurant“ in einem Satz.",
+        "contexts": [
+          "Restaurant · tema",
+          "Restaurant · conversación",
+          "Restaurant · práctica"
+        ]
       },
       {
         "word": "bestellen",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „bestellen“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „bestellen“ in einem Satz.",
+        "contexts": [
+          "bestellen · tema",
+          "bestellen · conversación",
+          "bestellen · práctica"
+        ]
       },
       {
         "word": "typisch",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „typisch“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „typisch“ in einem Satz.",
+        "contexts": [
+          "typisch · tema",
+          "typisch · conversación",
+          "typisch · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "Viertel",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Ich benutze „Viertel“ in einem Satz.",
+        "contexts": [
+          "Viertel · tema",
+          "Viertel · conversación",
+          "Viertel · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -7713,7 +12344,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Rezept",
           "Zutaten",
@@ -7723,52 +12354,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "kochen",
+          "Rezept",
           "Zutaten",
-          "Geschmack",
-          "Tradition"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Tradition",
-          "Geschmack",
           "kochen",
-          "zusammen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "probieren",
-          "Tradition",
-          "zusammen",
           "Geschmack"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Zutaten",
+          "Rezept",
+          "kochen",
+          "Geschmack"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "kochen",
+          "Rezept",
+          "Zutaten",
+          "Geschmack"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Tradition",
+          "Rezept",
+          "Zutaten",
+          "kochen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Rezept",
           "zusammen",
+          "Zutaten",
+          "kochen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Zutaten",
+          "Rezept",
           "probieren",
+          "kochen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "kochen",
+          "Rezept",
+          "Zutaten",
           "Restaurant"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "probieren",
-          "zusammen",
-          "Restaurant",
-          "bestellen"
+          "bestellen",
+          "Rezept",
+          "Zutaten",
+          "kochen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Rezept",
+          "typisch",
+          "Zutaten",
+          "kochen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Zutaten",
+          "Rezept",
+          "heute",
+          "kochen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "kochen",
+          "Rezept",
+          "Zutaten",
+          "Viertel"
         ]
       }
     ]
@@ -7798,52 +12489,134 @@
       {
         "word": "Erinnerung",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Erinnerung“ in einem Satz.",
+        "contexts": [
+          "Erinnerung · tema",
+          "Erinnerung · conversación",
+          "Erinnerung · práctica"
+        ]
       },
       {
         "word": "Kindheit",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Kindheit“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Kindheit“ in einem Satz.",
+        "contexts": [
+          "Kindheit · tema",
+          "Kindheit · conversación",
+          "Kindheit · práctica"
+        ]
       },
       {
         "word": "Veränderung",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Veränderung“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Veränderung“ in einem Satz.",
+        "contexts": [
+          "Veränderung · tema",
+          "Veränderung · conversación",
+          "Veränderung · práctica"
+        ]
       },
       {
         "word": "erzählen",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „erzählen“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „erzählen“ in einem Satz.",
+        "contexts": [
+          "erzählen · tema",
+          "erzählen · conversación",
+          "erzählen · práctica"
+        ]
       },
       {
         "word": "Vergangenheit",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „Vergangenheit“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „Vergangenheit“ in einem Satz.",
+        "contexts": [
+          "Vergangenheit · tema",
+          "Vergangenheit · conversación",
+          "Vergangenheit · práctica"
+        ]
       },
       {
         "word": "Begegnung",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Begegnung“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Begegnung“ in einem Satz.",
+        "contexts": [
+          "Begegnung · tema",
+          "Begegnung · conversación",
+          "Begegnung · práctica"
+        ]
       },
       {
         "word": "Tradition",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Tradition“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Tradition“ in einem Satz.",
+        "contexts": [
+          "Tradition · tema",
+          "Tradition · conversación",
+          "Tradition · práctica"
+        ]
       },
       {
         "word": "Generation",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Generation“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Generation“ in einem Satz.",
+        "contexts": [
+          "Generation · tema",
+          "Generation · conversación",
+          "Generation · práctica"
+        ]
       },
       {
         "word": "lernen",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „lernen“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „lernen“ in einem Satz.",
+        "contexts": [
+          "lernen · tema",
+          "lernen · conversación",
+          "lernen · práctica"
+        ]
       },
       {
         "word": "Bedeutung",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Bedeutung“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Bedeutung“ in einem Satz.",
+        "contexts": [
+          "Bedeutung · tema",
+          "Bedeutung · conversación",
+          "Bedeutung · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -7853,7 +12626,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Erinnerung",
           "Kindheit",
@@ -7863,52 +12636,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Veränderung",
+          "Erinnerung",
           "Kindheit",
-          "erzählen",
-          "Vergangenheit"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Vergangenheit",
-          "erzählen",
           "Veränderung",
-          "Begegnung"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Tradition",
-          "Vergangenheit",
-          "Begegnung",
           "erzählen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kindheit",
+          "Erinnerung",
+          "Veränderung",
+          "erzählen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Veränderung",
+          "Erinnerung",
+          "Kindheit",
+          "erzählen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Vergangenheit",
+          "Erinnerung",
+          "Kindheit",
+          "Veränderung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Erinnerung",
           "Begegnung",
+          "Kindheit",
+          "Veränderung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kindheit",
+          "Erinnerung",
           "Tradition",
+          "Veränderung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Veränderung",
+          "Erinnerung",
+          "Kindheit",
           "Generation"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Tradition",
-          "Begegnung",
-          "Generation",
-          "lernen"
+          "lernen",
+          "Erinnerung",
+          "Kindheit",
+          "Veränderung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Erinnerung",
+          "Bedeutung",
+          "Kindheit",
+          "Veränderung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kindheit",
+          "Erinnerung",
+          "heute",
+          "Veränderung"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Veränderung",
+          "Erinnerung",
+          "Kindheit",
+          "zusammen"
         ]
       }
     ]
@@ -7923,7 +12756,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 70,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 10,
     "description": "einen Tagesablauf beschreiben",
     "intro": "einen Tagesablauf beschreiben",
     "mission": "einen Tagesablauf beschreiben",
@@ -7988,12 +12821,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Zu Hause",
+      "text": "Heute erlebt Anna etwas zum Thema Zu Hause. Sie trifft Leon in ihrem Viertel und spricht langsam mit ihm. Leon hört zu, lächelt und stellt eine einfache Frage. Anna antwortet mit klaren Wörtern, denn sie möchte die Situation gut verstehen. Zusammen sehen sie sich den Ort an, begrüßen Menschen und wählen eine kleine Aktivität für den Nachmittag. Einige Dinge kennen sie schon, andere machen sie neugierig. Am Ende sagt Anna, dass eine Sprache lernen auch bedeutet, am Alltag teilzunehmen. Leon stimmt zu und möchte die Erfahrung morgen wiederholen. Dabei benutzt die Gruppe Wörter wie aufstehen, frühstücken, arbeiten, kochen. Dabei benutzt die Gruppe Wörter wie aufstehen, frühstücken, arbeiten, kochen. Dabei benutzt die Gruppe Wörter wie aufstehen, frühstücken, arbeiten, kochen. Dabei benutzt die Gruppe Wörter wie aufstehen, frühstücken, arbeiten, kochen.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -8001,42 +12836,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "aufstehen",
-          "abends",
-          "Haushalt",
-          "ruhig"
+          "frühstücken",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -8051,7 +12886,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 70,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 14,
     "description": "über Umwelt im Alltag sprechen",
     "intro": "über Umwelt im Alltag sprechen",
     "mission": "über Umwelt im Alltag sprechen",
@@ -8116,12 +12951,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Natur und Umwelt",
+      "text": "Letzte Woche hat Anna an einer Aktivität zum Thema Natur und Umwelt teilgenommen. Zuerst kannte sie das Programm nicht gut, deshalb hat sie nach Informationen gefragt und den Menschen im Viertel zugehört. Leon kam später, brachte aber eine gute Idee mit. Beide verglichen ihre Erfahrungen und beschlossen, zusammenzuarbeiten. Während der Aktivität bemerkten sie, dass einfache Lösungen vielen Menschen helfen können. Anna erklärte, dass sie weiterlernen möchte, weil man eine Stadt besser versteht, wenn man die Gewohnheiten der Menschen beobachtet. Am Ende schrieben sie eine kurze Nachricht, um der Gruppe zu danken, und planten ein neues Treffen für die nächste Woche. Dabei benutzt die Gruppe Wörter wie Umwelt, Müll, trennen, Energie. Dabei benutzt die Gruppe Wörter wie Umwelt, Müll, trennen, Energie. Dabei benutzt die Gruppe Wörter wie Umwelt, Müll, trennen, Energie. Dabei benutzt die Gruppe Wörter wie Umwelt, Müll, trennen, Energie. Dabei benutzt die Gruppe Wörter wie Umwelt, Müll, trennen, Energie. Dabei benutzt die Gruppe Wörter wie Umwelt, Müll, trennen, Energie. Dabei benutzt die Gruppe Wörter wie Umwelt, Müll, trennen, Energie. Dabei benutzt die Gruppe Wörter wie Umwelt, Müll, trennen, Energie.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -8129,53 +12966,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Umwelt",
-          "Park",
-          "schützen",
-          "wichtig"
+          "Müll",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-a2-natur-und-umwelt-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Natur und Umwelt: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Natur und Umwelt: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -8190,7 +13026,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 70,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "ein Projekt vorstellen und Aufgaben verteilen",
     "intro": "ein Projekt vorstellen und Aufgaben verteilen",
     "mission": "ein Projekt vorstellen und Aufgaben verteilen",
@@ -8255,12 +13091,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Gemeinschaftsprojekt",
+      "text": "Im Viertel von Anna ist das Thema „Gemeinschaftsprojekt“ nach einer offenen Sitzung wichtig geworden. Einige Bewohner meinten, das Problem müsse nur von Institutionen gelöst werden; andere fanden, dass auch Bürger mit konkreten Aktionen beitragen können. Anna hörte beide Positionen an und sagte, ein guter Vorschlag müsse realistisch und nicht nur interessant sein. Leon berichtete von einer persönlichen Erfahrung: Früher hatte er an einem ähnlichen Projekt teilgenommen und gelernt, dass regelmäßige Kommunikation viele Missverständnisse verhindert. Die Gruppe teilte deshalb Aufgaben auf, setzte eine Frist und wählte einen einfachen Weg, die Nachbarschaft zu informieren. Nicht alle waren mit jedem Detail einverstanden. Trotzdem beschlossen sie, die Ergebnisse nach einem Monat gemeinsam zu prüfen. Anna hält diese Entscheidung für ausgewogen, weil sie sofortiges Handeln ermöglicht und später Raum für Verbesserungen lässt. Am Ende der Sitzung gingen die Menschen mit unterschiedlichen Verantwortlichkeiten nach Hause, aber mit einem gemeinsamen Ziel: den Alltag zu verbessern, ohne jemanden auszuschließen. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit. Dabei benutzt die Gruppe Wörter wie Projekt, Recherche, Aufgabe, Zusammenarbeit.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -8268,53 +13106,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Projekt",
-          "Zweck",
-          "teilnehmen",
-          "Ergebnis"
+          "Recherche",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-b1-gemeinschaftsprojekt-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Gemeinschaftsprojekt: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Gemeinschaftsprojekt: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -8397,64 +13234,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Akkusativartikel im Alltag",
-        "definition": "Práctica guiada de Akkusativartikel im Alltag.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Zu Hause: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
+        "examples": [
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „aufstehen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über aufstehen.",
-          "Die Gruppe aufstehen spricht über.",
-          "aufstehen die über Gruppe spricht.",
-          "Spricht Gruppe die aufstehen über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „frühstücken“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe frühstücken spricht über.",
-          "Die Gruppe spricht über frühstücken.",
-          "frühstücken die über Gruppe spricht.",
-          "Spricht Gruppe die frühstücken über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „arbeiten“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "arbeiten die über Gruppe spricht.",
-          "Die Gruppe arbeiten spricht über.",
-          "Die Gruppe spricht über arbeiten.",
-          "Spricht Gruppe die arbeiten über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „kochen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die kochen über.",
-          "Die Gruppe kochen spricht über.",
-          "kochen die über Gruppe spricht.",
-          "Die Gruppe spricht über kochen."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „schlafen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über schlafen.",
-          "Die Gruppe schlafen spricht über.",
-          "schlafen die über Gruppe spricht.",
-          "Spricht Gruppe die schlafen über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
   },
@@ -8536,64 +13498,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Komparativ und Superlativ",
-        "definition": "Práctica guiada de Komparativ und Superlativ.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Natur und Umwelt: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
+        "examples": [
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Umwelt“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Umwelt.",
-          "Die Gruppe Umwelt spricht über.",
-          "Umwelt die über Gruppe spricht.",
-          "Spricht Gruppe die Umwelt über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Müll“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Müll spricht über.",
-          "Die Gruppe spricht über Müll.",
-          "Müll die über Gruppe spricht.",
-          "Spricht Gruppe die Müll über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „trennen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "trennen die über Gruppe spricht.",
-          "Die Gruppe trennen spricht über.",
-          "Die Gruppe spricht über trennen.",
-          "Spricht Gruppe die trennen über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Energie“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Energie über.",
-          "Die Gruppe Energie spricht über.",
-          "Energie die über Gruppe spricht.",
-          "Die Gruppe spricht über Energie."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Fahrrad“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Fahrrad.",
-          "Die Gruppe Fahrrad spricht über.",
-          "Fahrrad die über Gruppe spricht.",
-          "Spricht Gruppe die Fahrrad über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
   },
@@ -8675,64 +13762,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Partizipien als Adjektive",
-        "definition": "Práctica guiada de Partizipien als Adjektive.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Gemeinschaftsprojekt: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "structure": "Meinung + weil/obwohl/deshalb + Begründung",
+        "function": "Eine Meinung ausdrücken und begründen.",
+        "examples": [
+          "Ich finde den Vorschlag sinnvoll.",
+          "Trotzdem müssen wir die Ergebnisse prüfen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Projekt“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Projekt.",
-          "Die Gruppe Projekt spricht über.",
-          "Projekt die über Gruppe spricht.",
-          "Spricht Gruppe die Projekt über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Recherche“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Recherche spricht über.",
-          "Die Gruppe spricht über Recherche.",
-          "Recherche die über Gruppe spricht.",
-          "Spricht Gruppe die Recherche über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Aufgabe“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Aufgabe die über Gruppe spricht.",
-          "Die Gruppe Aufgabe spricht über.",
-          "Die Gruppe spricht über Aufgabe.",
-          "Spricht Gruppe die Aufgabe über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Zusammenarbeit“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Zusammenarbeit über.",
-          "Die Gruppe Zusammenarbeit spricht über.",
-          "Zusammenarbeit die über Gruppe spricht.",
-          "Die Gruppe spricht über Zusammenarbeit."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „vorstellen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über vorstellen.",
-          "Die Gruppe vorstellen spricht über.",
-          "vorstellen die über Gruppe spricht.",
-          "Spricht Gruppe die vorstellen über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
   },
@@ -8761,52 +13973,134 @@
       {
         "word": "aufstehen",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „aufstehen“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „aufstehen“ in einem Satz.",
+        "contexts": [
+          "aufstehen · tema",
+          "aufstehen · conversación",
+          "aufstehen · práctica"
+        ]
       },
       {
         "word": "frühstücken",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „frühstücken“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „frühstücken“ in einem Satz.",
+        "contexts": [
+          "frühstücken · tema",
+          "frühstücken · conversación",
+          "frühstücken · práctica"
+        ]
       },
       {
         "word": "arbeiten",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „arbeiten“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „arbeiten“ in einem Satz.",
+        "contexts": [
+          "arbeiten · tema",
+          "arbeiten · conversación",
+          "arbeiten · práctica"
+        ]
       },
       {
         "word": "kochen",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „kochen“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „kochen“ in einem Satz.",
+        "contexts": [
+          "kochen · tema",
+          "kochen · conversación",
+          "kochen · práctica"
+        ]
       },
       {
         "word": "schlafen",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „schlafen“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „schlafen“ in einem Satz.",
+        "contexts": [
+          "schlafen · tema",
+          "schlafen · conversación",
+          "schlafen · práctica"
+        ]
       },
       {
         "word": "Uhr",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Uhr“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Uhr“ in einem Satz.",
+        "contexts": [
+          "Uhr · tema",
+          "Uhr · conversación",
+          "Uhr · práctica"
+        ]
       },
       {
         "word": "morgens",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „morgens“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „morgens“ in einem Satz.",
+        "contexts": [
+          "morgens · tema",
+          "morgens · conversación",
+          "morgens · práctica"
+        ]
       },
       {
         "word": "abends",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „abends“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „abends“ in einem Satz.",
+        "contexts": [
+          "abends · tema",
+          "abends · conversación",
+          "abends · práctica"
+        ]
       },
       {
         "word": "Haushalt",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „Haushalt“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „Haushalt“ in einem Satz.",
+        "contexts": [
+          "Haushalt · tema",
+          "Haushalt · conversación",
+          "Haushalt · práctica"
+        ]
       },
       {
         "word": "ruhig",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „ruhig“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „ruhig“ in einem Satz.",
+        "contexts": [
+          "ruhig · tema",
+          "ruhig · conversación",
+          "ruhig · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -8816,7 +14110,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "aufstehen",
           "frühstücken",
@@ -8826,52 +14120,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "arbeiten",
+          "aufstehen",
           "frühstücken",
-          "kochen",
-          "schlafen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "schlafen",
-          "kochen",
           "arbeiten",
-          "Uhr"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "morgens",
-          "schlafen",
-          "Uhr",
           "kochen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "frühstücken",
+          "aufstehen",
+          "arbeiten",
+          "kochen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "arbeiten",
+          "aufstehen",
+          "frühstücken",
+          "kochen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "schlafen",
+          "aufstehen",
+          "frühstücken",
+          "arbeiten"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "aufstehen",
           "Uhr",
+          "frühstücken",
+          "arbeiten"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "frühstücken",
+          "aufstehen",
           "morgens",
+          "arbeiten"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "arbeiten",
+          "aufstehen",
+          "frühstücken",
           "abends"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "morgens",
-          "Uhr",
-          "abends",
-          "Haushalt"
+          "Haushalt",
+          "aufstehen",
+          "frühstücken",
+          "arbeiten"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "aufstehen",
+          "ruhig",
+          "frühstücken",
+          "arbeiten"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "frühstücken",
+          "aufstehen",
+          "heute",
+          "arbeiten"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "arbeiten",
+          "aufstehen",
+          "frühstücken",
+          "zusammen"
         ]
       }
     ]
@@ -8901,52 +14255,134 @@
       {
         "word": "Umwelt",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Umwelt“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Umwelt“ in einem Satz.",
+        "contexts": [
+          "Umwelt · tema",
+          "Umwelt · conversación",
+          "Umwelt · práctica"
+        ]
       },
       {
         "word": "Müll",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Müll“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Müll“ in einem Satz.",
+        "contexts": [
+          "Müll · tema",
+          "Müll · conversación",
+          "Müll · práctica"
+        ]
       },
       {
         "word": "trennen",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „trennen“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „trennen“ in einem Satz.",
+        "contexts": [
+          "trennen · tema",
+          "trennen · conversación",
+          "trennen · práctica"
+        ]
       },
       {
         "word": "Energie",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Energie“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Energie“ in einem Satz.",
+        "contexts": [
+          "Energie · tema",
+          "Energie · conversación",
+          "Energie · práctica"
+        ]
       },
       {
         "word": "Fahrrad",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „Fahrrad“ in einem Satz.",
+        "contexts": [
+          "Fahrrad · tema",
+          "Fahrrad · conversación",
+          "Fahrrad · práctica"
+        ]
       },
       {
         "word": "sparen",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „sparen“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „sparen“ in einem Satz.",
+        "contexts": [
+          "sparen · tema",
+          "sparen · conversación",
+          "sparen · práctica"
+        ]
       },
       {
         "word": "sauber",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „sauber“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „sauber“ in einem Satz.",
+        "contexts": [
+          "sauber · tema",
+          "sauber · conversación",
+          "sauber · práctica"
+        ]
       },
       {
         "word": "Park",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Park“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Park“ in einem Satz.",
+        "contexts": [
+          "Park · tema",
+          "Park · conversación",
+          "Park · práctica"
+        ]
       },
       {
         "word": "schützen",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „schützen“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „schützen“ in einem Satz.",
+        "contexts": [
+          "schützen · tema",
+          "schützen · conversación",
+          "schützen · práctica"
+        ]
       },
       {
         "word": "wichtig",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „wichtig“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „wichtig“ in einem Satz.",
+        "contexts": [
+          "wichtig · tema",
+          "wichtig · conversación",
+          "wichtig · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -8956,7 +14392,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Umwelt",
           "Müll",
@@ -8966,52 +14402,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "trennen",
+          "Umwelt",
           "Müll",
-          "Energie",
-          "Fahrrad"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Fahrrad",
-          "Energie",
           "trennen",
-          "sparen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "sauber",
-          "Fahrrad",
-          "sparen",
           "Energie"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Müll",
+          "Umwelt",
+          "trennen",
+          "Energie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "trennen",
+          "Umwelt",
+          "Müll",
+          "Energie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Fahrrad",
+          "Umwelt",
+          "Müll",
+          "trennen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Umwelt",
           "sparen",
+          "Müll",
+          "trennen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Müll",
+          "Umwelt",
           "sauber",
+          "trennen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "trennen",
+          "Umwelt",
+          "Müll",
           "Park"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "sauber",
-          "sparen",
-          "Park",
-          "schützen"
+          "schützen",
+          "Umwelt",
+          "Müll",
+          "trennen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Umwelt",
+          "wichtig",
+          "Müll",
+          "trennen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Müll",
+          "Umwelt",
+          "heute",
+          "trennen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "trennen",
+          "Umwelt",
+          "Müll",
+          "zusammen"
         ]
       }
     ]
@@ -9041,52 +14537,134 @@
       {
         "word": "Projekt",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Projekt“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Projekt“ in einem Satz.",
+        "contexts": [
+          "Projekt · tema",
+          "Projekt · conversación",
+          "Projekt · práctica"
+        ]
       },
       {
         "word": "Recherche",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Recherche“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Recherche“ in einem Satz.",
+        "contexts": [
+          "Recherche · tema",
+          "Recherche · conversación",
+          "Recherche · práctica"
+        ]
       },
       {
         "word": "Aufgabe",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Aufgabe“ in einem Satz.",
+        "contexts": [
+          "Aufgabe · tema",
+          "Aufgabe · conversación",
+          "Aufgabe · práctica"
+        ]
       },
       {
         "word": "Zusammenarbeit",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Zusammenarbeit“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Zusammenarbeit“ in einem Satz.",
+        "contexts": [
+          "Zusammenarbeit · tema",
+          "Zusammenarbeit · conversación",
+          "Zusammenarbeit · práctica"
+        ]
       },
       {
         "word": "vorstellen",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „vorstellen“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „vorstellen“ in einem Satz.",
+        "contexts": [
+          "vorstellen · tema",
+          "vorstellen · conversación",
+          "vorstellen · práctica"
+        ]
       },
       {
         "word": "Vereinbarung",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Vereinbarung“ in einem Satz.",
+        "contexts": [
+          "Vereinbarung · tema",
+          "Vereinbarung · conversación",
+          "Vereinbarung · práctica"
+        ]
       },
       {
         "word": "Lösung",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Lösung“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Lösung“ in einem Satz.",
+        "contexts": [
+          "Lösung · tema",
+          "Lösung · conversación",
+          "Lösung · práctica"
+        ]
       },
       {
         "word": "Zweck",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Zweck“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Zweck“ in einem Satz.",
+        "contexts": [
+          "Zweck · tema",
+          "Zweck · conversación",
+          "Zweck · práctica"
+        ]
       },
       {
         "word": "teilnehmen",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „teilnehmen“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „teilnehmen“ in einem Satz.",
+        "contexts": [
+          "teilnehmen · tema",
+          "teilnehmen · conversación",
+          "teilnehmen · práctica"
+        ]
       },
       {
         "word": "Ergebnis",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Ergebnis“ in einem Satz.",
+        "contexts": [
+          "Ergebnis · tema",
+          "Ergebnis · conversación",
+          "Ergebnis · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -9096,7 +14674,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Projekt",
           "Recherche",
@@ -9106,52 +14684,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Aufgabe",
+          "Projekt",
           "Recherche",
-          "Zusammenarbeit",
-          "vorstellen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "vorstellen",
-          "Zusammenarbeit",
           "Aufgabe",
-          "Vereinbarung"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Lösung",
-          "vorstellen",
-          "Vereinbarung",
           "Zusammenarbeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Recherche",
+          "Projekt",
+          "Aufgabe",
+          "Zusammenarbeit"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Aufgabe",
+          "Projekt",
+          "Recherche",
+          "Zusammenarbeit"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "vorstellen",
+          "Projekt",
+          "Recherche",
+          "Aufgabe"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Projekt",
           "Vereinbarung",
+          "Recherche",
+          "Aufgabe"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Recherche",
+          "Projekt",
           "Lösung",
+          "Aufgabe"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Aufgabe",
+          "Projekt",
+          "Recherche",
           "Zweck"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Lösung",
-          "Vereinbarung",
-          "Zweck",
-          "teilnehmen"
+          "teilnehmen",
+          "Projekt",
+          "Recherche",
+          "Aufgabe"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Projekt",
+          "Ergebnis",
+          "Recherche",
+          "Aufgabe"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Recherche",
+          "Projekt",
+          "heute",
+          "Aufgabe"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Aufgabe",
+          "Projekt",
+          "Recherche",
+          "zusammen"
         ]
       }
     ]
@@ -9166,7 +14804,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 80,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 10,
     "description": "über Wetter und Kleidung sprechen",
     "intro": "über Wetter und Kleidung sprechen",
     "mission": "über Wetter und Kleidung sprechen",
@@ -9231,12 +14869,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Wetter und Jahreszeiten",
+      "text": "Heute erlebt Anna etwas zum Thema Wetter und Jahreszeiten. Sie trifft Leon in ihrem Viertel und spricht langsam mit ihm. Leon hört zu, lächelt und stellt eine einfache Frage. Anna antwortet mit klaren Wörtern, denn sie möchte die Situation gut verstehen. Zusammen sehen sie sich den Ort an, begrüßen Menschen und wählen eine kleine Aktivität für den Nachmittag. Einige Dinge kennen sie schon, andere machen sie neugierig. Am Ende sagt Anna, dass eine Sprache lernen auch bedeutet, am Alltag teilzunehmen. Leon stimmt zu und möchte die Erfahrung morgen wiederholen. Dabei benutzt die Gruppe Wörter wie Wetter, Sonne, Regen, kalt. Dabei benutzt die Gruppe Wörter wie Wetter, Sonne, Regen, kalt. Dabei benutzt die Gruppe Wörter wie Wetter, Sonne, Regen, kalt. Dabei benutzt die Gruppe Wörter wie Wetter, Sonne, Regen, kalt.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -9244,42 +14884,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Wetter",
-          "Jacke",
-          "heute",
-          "draußen"
+          "Sonne",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -9294,7 +14934,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 80,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 14,
     "description": "Nachrichten und Mediengewohnheiten beschreiben",
     "intro": "Nachrichten und Mediengewohnheiten beschreiben",
     "mission": "Nachrichten und Mediengewohnheiten beschreiben",
@@ -9359,12 +14999,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Medien und Kommunikation",
+      "text": "Letzte Woche hat Anna an einer Aktivität zum Thema Medien und Kommunikation teilgenommen. Zuerst kannte sie das Programm nicht gut, deshalb hat sie nach Informationen gefragt und den Menschen im Viertel zugehört. Leon kam später, brachte aber eine gute Idee mit. Beide verglichen ihre Erfahrungen und beschlossen, zusammenzuarbeiten. Während der Aktivität bemerkten sie, dass einfache Lösungen vielen Menschen helfen können. Anna erklärte, dass sie weiterlernen möchte, weil man eine Stadt besser versteht, wenn man die Gewohnheiten der Menschen beobachtet. Am Ende schrieben sie eine kurze Nachricht, um der Gruppe zu danken, und planten ein neues Treffen für die nächste Woche. Dabei benutzt die Gruppe Wörter wie Nachricht, Zeitung, Handy, Internet. Dabei benutzt die Gruppe Wörter wie Nachricht, Zeitung, Handy, Internet. Dabei benutzt die Gruppe Wörter wie Nachricht, Zeitung, Handy, Internet. Dabei benutzt die Gruppe Wörter wie Nachricht, Zeitung, Handy, Internet. Dabei benutzt die Gruppe Wörter wie Nachricht, Zeitung, Handy, Internet. Dabei benutzt die Gruppe Wörter wie Nachricht, Zeitung, Handy, Internet. Dabei benutzt die Gruppe Wörter wie Nachricht, Zeitung, Handy, Internet. Dabei benutzt die Gruppe Wörter wie Nachricht, Zeitung, Handy, Internet.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -9372,53 +15014,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Nachricht",
-          "Bildschirm",
-          "Verbindung",
-          "erklären"
+          "Zeitung",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-a2-medien-und-kommunikation-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Medien und Kommunikation: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Medien und Kommunikation: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -9433,7 +15074,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 80,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "Technik mit Argumenten bewerten",
     "intro": "Technik mit Argumenten bewerten",
     "mission": "Technik mit Argumenten bewerten",
@@ -9498,12 +15139,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Technik im Alltag",
+      "text": "Im Viertel von Anna ist das Thema „Technik im Alltag“ nach einer offenen Sitzung wichtig geworden. Einige Bewohner meinten, das Problem müsse nur von Institutionen gelöst werden; andere fanden, dass auch Bürger mit konkreten Aktionen beitragen können. Anna hörte beide Positionen an und sagte, ein guter Vorschlag müsse realistisch und nicht nur interessant sein. Leon berichtete von einer persönlichen Erfahrung: Früher hatte er an einem ähnlichen Projekt teilgenommen und gelernt, dass regelmäßige Kommunikation viele Missverständnisse verhindert. Die Gruppe teilte deshalb Aufgaben auf, setzte eine Frist und wählte einen einfachen Weg, die Nachbarschaft zu informieren. Nicht alle waren mit jedem Detail einverstanden. Trotzdem beschlossen sie, die Ergebnisse nach einem Monat gemeinsam zu prüfen. Anna hält diese Entscheidung für ausgewogen, weil sie sofortiges Handeln ermöglicht und später Raum für Verbesserungen lässt. Am Ende der Sitzung gingen die Menschen mit unterschiedlichen Verantwortlichkeiten nach Hause, aber mit einem gemeinsamen Ziel: den Alltag zu verbessern, ohne jemanden auszuschließen. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko. Dabei benutzt die Gruppe Wörter wie Technik, Gerät, Vorteil, Risiko.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -9511,53 +15154,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Technik",
-          "Information",
-          "wählen",
-          "Gleichgewicht"
+          "Gerät",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-b1-technik-im-alltag-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Technik im Alltag: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Technik im Alltag: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -9640,64 +15282,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Wetter, es gibt und Zeitangaben",
-        "definition": "Práctica guiada de Wetter, es gibt und Zeitangaben.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Wetter und Jahreszeiten: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
+        "examples": [
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Wetter“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Wetter.",
-          "Die Gruppe Wetter spricht über.",
-          "Wetter die über Gruppe spricht.",
-          "Spricht Gruppe die Wetter über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Sonne“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Sonne spricht über.",
-          "Die Gruppe spricht über Sonne.",
-          "Sonne die über Gruppe spricht.",
-          "Spricht Gruppe die Sonne über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Regen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Regen die über Gruppe spricht.",
-          "Die Gruppe Regen spricht über.",
-          "Die Gruppe spricht über Regen.",
-          "Spricht Gruppe die Regen über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „kalt“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die kalt über.",
-          "Die Gruppe kalt spricht über.",
-          "kalt die über Gruppe spricht.",
-          "Die Gruppe spricht über kalt."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „warm“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über warm.",
-          "Die Gruppe warm spricht über.",
-          "warm die über Gruppe spricht.",
-          "Spricht Gruppe die warm über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
   },
@@ -9779,64 +15546,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Reflexive Verben",
-        "definition": "Práctica guiada de Reflexive Verben.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Medien und Kommunikation: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
+        "examples": [
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Nachricht“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Nachricht.",
-          "Die Gruppe Nachricht spricht über.",
-          "Nachricht die über Gruppe spricht.",
-          "Spricht Gruppe die Nachricht über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Zeitung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Zeitung spricht über.",
-          "Die Gruppe spricht über Zeitung.",
-          "Zeitung die über Gruppe spricht.",
-          "Spricht Gruppe die Zeitung über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Handy“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Handy die über Gruppe spricht.",
-          "Die Gruppe Handy spricht über.",
-          "Die Gruppe spricht über Handy.",
-          "Spricht Gruppe die Handy über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Internet“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Internet über.",
-          "Die Gruppe Internet spricht über.",
-          "Internet die über Gruppe spricht.",
-          "Die Gruppe spricht über Internet."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „informieren“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über informieren.",
-          "Die Gruppe informieren spricht über.",
-          "informieren die über Gruppe spricht.",
-          "Spricht Gruppe die informieren über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
   },
@@ -9918,64 +15810,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Meinung und Argumentation",
-        "definition": "Práctica guiada de Meinung und Argumentation.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Technik im Alltag: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "structure": "Meinung + weil/obwohl/deshalb + Begründung",
+        "function": "Eine Meinung ausdrücken und begründen.",
+        "examples": [
+          "Ich finde den Vorschlag sinnvoll.",
+          "Trotzdem müssen wir die Ergebnisse prüfen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Technik“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Technik.",
-          "Die Gruppe Technik spricht über.",
-          "Technik die über Gruppe spricht.",
-          "Spricht Gruppe die Technik über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Gerät“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Gerät spricht über.",
-          "Die Gruppe spricht über Gerät.",
-          "Gerät die über Gruppe spricht.",
-          "Spricht Gruppe die Gerät über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Vorteil“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Vorteil die über Gruppe spricht.",
-          "Die Gruppe Vorteil spricht über.",
-          "Die Gruppe spricht über Vorteil.",
-          "Spricht Gruppe die Vorteil über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Risiko“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Risiko über.",
-          "Die Gruppe Risiko spricht über.",
-          "Risiko die über Gruppe spricht.",
-          "Die Gruppe spricht über Risiko."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „schützen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über schützen.",
-          "Die Gruppe schützen spricht über.",
-          "schützen die über Gruppe spricht.",
-          "Spricht Gruppe die schützen über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
   },
@@ -10004,52 +16021,134 @@
       {
         "word": "Wetter",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Wetter“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Wetter“ in einem Satz.",
+        "contexts": [
+          "Wetter · tema",
+          "Wetter · conversación",
+          "Wetter · práctica"
+        ]
       },
       {
         "word": "Sonne",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Sonne“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Sonne“ in einem Satz.",
+        "contexts": [
+          "Sonne · tema",
+          "Sonne · conversación",
+          "Sonne · práctica"
+        ]
       },
       {
         "word": "Regen",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Regen“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Regen“ in einem Satz.",
+        "contexts": [
+          "Regen · tema",
+          "Regen · conversación",
+          "Regen · práctica"
+        ]
       },
       {
         "word": "kalt",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „kalt“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „kalt“ in einem Satz.",
+        "contexts": [
+          "kalt · tema",
+          "kalt · conversación",
+          "kalt · práctica"
+        ]
       },
       {
         "word": "warm",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „warm“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „warm“ in einem Satz.",
+        "contexts": [
+          "warm · tema",
+          "warm · conversación",
+          "warm · práctica"
+        ]
       },
       {
         "word": "Sommer",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Sommer“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Sommer“ in einem Satz.",
+        "contexts": [
+          "Sommer · tema",
+          "Sommer · conversación",
+          "Sommer · práctica"
+        ]
       },
       {
         "word": "Winter",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Winter“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Winter“ in einem Satz.",
+        "contexts": [
+          "Winter · tema",
+          "Winter · conversación",
+          "Winter · práctica"
+        ]
       },
       {
         "word": "Jacke",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Jacke“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Jacke“ in einem Satz.",
+        "contexts": [
+          "Jacke · tema",
+          "Jacke · conversación",
+          "Jacke · práctica"
+        ]
       },
       {
         "word": "heute",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „heute“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
       },
       {
         "word": "draußen",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „draußen“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „draußen“ in einem Satz.",
+        "contexts": [
+          "draußen · tema",
+          "draußen · conversación",
+          "draußen · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
+      },
+      {
+        "word": "Viertel",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Ich benutze „Viertel“ in einem Satz.",
+        "contexts": [
+          "Viertel · tema",
+          "Viertel · conversación",
+          "Viertel · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -10059,7 +16158,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Wetter",
           "Sonne",
@@ -10069,52 +16168,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Regen",
+          "Wetter",
           "Sonne",
-          "kalt",
-          "warm"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "warm",
-          "kalt",
           "Regen",
-          "Sommer"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Winter",
-          "warm",
-          "Sommer",
           "kalt"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Sonne",
+          "Wetter",
+          "Regen",
+          "kalt"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Regen",
+          "Wetter",
+          "Sonne",
+          "kalt"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "warm",
+          "Wetter",
+          "Sonne",
+          "Regen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Wetter",
           "Sommer",
+          "Sonne",
+          "Regen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Sonne",
+          "Wetter",
           "Winter",
+          "Regen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Regen",
+          "Wetter",
+          "Sonne",
           "Jacke"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Winter",
-          "Sommer",
-          "Jacke",
-          "heute"
+          "heute",
+          "Wetter",
+          "Sonne",
+          "Regen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Wetter",
+          "draußen",
+          "Sonne",
+          "Regen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Sonne",
+          "Wetter",
+          "zusammen",
+          "Regen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Regen",
+          "Wetter",
+          "Sonne",
+          "Viertel"
         ]
       }
     ]
@@ -10144,52 +16303,134 @@
       {
         "word": "Nachricht",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Nachricht“ in einem Satz.",
+        "contexts": [
+          "Nachricht · tema",
+          "Nachricht · conversación",
+          "Nachricht · práctica"
+        ]
       },
       {
         "word": "Zeitung",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Zeitung“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Zeitung“ in einem Satz.",
+        "contexts": [
+          "Zeitung · tema",
+          "Zeitung · conversación",
+          "Zeitung · práctica"
+        ]
       },
       {
         "word": "Handy",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Handy“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Handy“ in einem Satz.",
+        "contexts": [
+          "Handy · tema",
+          "Handy · conversación",
+          "Handy · práctica"
+        ]
       },
       {
         "word": "Internet",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Internet“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Internet“ in einem Satz.",
+        "contexts": [
+          "Internet · tema",
+          "Internet · conversación",
+          "Internet · práctica"
+        ]
       },
       {
         "word": "informieren",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „informieren“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „informieren“ in einem Satz.",
+        "contexts": [
+          "informieren · tema",
+          "informieren · conversación",
+          "informieren · práctica"
+        ]
       },
       {
         "word": "erzählen",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „erzählen“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „erzählen“ in einem Satz.",
+        "contexts": [
+          "erzählen · tema",
+          "erzählen · conversación",
+          "erzählen · práctica"
+        ]
       },
       {
         "word": "Meinung",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Meinung“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Meinung“ in einem Satz.",
+        "contexts": [
+          "Meinung · tema",
+          "Meinung · conversación",
+          "Meinung · práctica"
+        ]
       },
       {
         "word": "Bildschirm",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Bildschirm“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Bildschirm“ in einem Satz.",
+        "contexts": [
+          "Bildschirm · tema",
+          "Bildschirm · conversación",
+          "Bildschirm · práctica"
+        ]
       },
       {
         "word": "Verbindung",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „Verbindung“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „Verbindung“ in einem Satz.",
+        "contexts": [
+          "Verbindung · tema",
+          "Verbindung · conversación",
+          "Verbindung · práctica"
+        ]
       },
       {
         "word": "erklären",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „erklären“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „erklären“ in einem Satz.",
+        "contexts": [
+          "erklären · tema",
+          "erklären · conversación",
+          "erklären · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -10199,7 +16440,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Nachricht",
           "Zeitung",
@@ -10209,52 +16450,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Handy",
+          "Nachricht",
           "Zeitung",
-          "Internet",
-          "informieren"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "informieren",
-          "Internet",
           "Handy",
-          "erzählen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Meinung",
-          "informieren",
-          "erzählen",
           "Internet"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Zeitung",
+          "Nachricht",
+          "Handy",
+          "Internet"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Handy",
+          "Nachricht",
+          "Zeitung",
+          "Internet"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "informieren",
+          "Nachricht",
+          "Zeitung",
+          "Handy"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Nachricht",
           "erzählen",
+          "Zeitung",
+          "Handy"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Zeitung",
+          "Nachricht",
           "Meinung",
+          "Handy"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Handy",
+          "Nachricht",
+          "Zeitung",
           "Bildschirm"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Meinung",
-          "erzählen",
-          "Bildschirm",
-          "Verbindung"
+          "Verbindung",
+          "Nachricht",
+          "Zeitung",
+          "Handy"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Nachricht",
+          "erklären",
+          "Zeitung",
+          "Handy"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Zeitung",
+          "Nachricht",
+          "heute",
+          "Handy"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Handy",
+          "Nachricht",
+          "Zeitung",
+          "zusammen"
         ]
       }
     ]
@@ -10284,52 +16585,134 @@
       {
         "word": "Technik",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Technik“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Technik“ in einem Satz.",
+        "contexts": [
+          "Technik · tema",
+          "Technik · conversación",
+          "Technik · práctica"
+        ]
       },
       {
         "word": "Gerät",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Gerät“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Gerät“ in einem Satz.",
+        "contexts": [
+          "Gerät · tema",
+          "Gerät · conversación",
+          "Gerät · práctica"
+        ]
       },
       {
         "word": "Vorteil",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Vorteil“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Vorteil“ in einem Satz.",
+        "contexts": [
+          "Vorteil · tema",
+          "Vorteil · conversación",
+          "Vorteil · práctica"
+        ]
       },
       {
         "word": "Risiko",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Risiko“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Risiko“ in einem Satz.",
+        "contexts": [
+          "Risiko · tema",
+          "Risiko · conversación",
+          "Risiko · práctica"
+        ]
       },
       {
         "word": "schützen",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „schützen“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „schützen“ in einem Satz.",
+        "contexts": [
+          "schützen · tema",
+          "schützen · conversación",
+          "schützen · práctica"
+        ]
       },
       {
         "word": "Gewohnheit",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Gewohnheit“ in einem Satz.",
+        "contexts": [
+          "Gewohnheit · tema",
+          "Gewohnheit · conversación",
+          "Gewohnheit · práctica"
+        ]
       },
       {
         "word": "Verbindung",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Verbindung“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Verbindung“ in einem Satz.",
+        "contexts": [
+          "Verbindung · tema",
+          "Verbindung · conversación",
+          "Verbindung · práctica"
+        ]
       },
       {
         "word": "Information",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Information“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Information“ in einem Satz.",
+        "contexts": [
+          "Information · tema",
+          "Information · conversación",
+          "Information · práctica"
+        ]
       },
       {
         "word": "wählen",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „wählen“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „wählen“ in einem Satz.",
+        "contexts": [
+          "wählen · tema",
+          "wählen · conversación",
+          "wählen · práctica"
+        ]
       },
       {
         "word": "Gleichgewicht",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Gleichgewicht“ in einem Satz.",
+        "contexts": [
+          "Gleichgewicht · tema",
+          "Gleichgewicht · conversación",
+          "Gleichgewicht · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -10339,7 +16722,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Technik",
           "Gerät",
@@ -10349,52 +16732,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Vorteil",
+          "Technik",
           "Gerät",
-          "Risiko",
-          "schützen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "schützen",
-          "Risiko",
           "Vorteil",
-          "Gewohnheit"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Verbindung",
-          "schützen",
-          "Gewohnheit",
           "Risiko"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Gerät",
+          "Technik",
+          "Vorteil",
+          "Risiko"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Vorteil",
+          "Technik",
+          "Gerät",
+          "Risiko"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "schützen",
+          "Technik",
+          "Gerät",
+          "Vorteil"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Technik",
           "Gewohnheit",
+          "Gerät",
+          "Vorteil"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Gerät",
+          "Technik",
           "Verbindung",
+          "Vorteil"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Vorteil",
+          "Technik",
+          "Gerät",
           "Information"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Verbindung",
-          "Gewohnheit",
-          "Information",
-          "wählen"
+          "wählen",
+          "Technik",
+          "Gerät",
+          "Vorteil"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Technik",
+          "Gleichgewicht",
+          "Gerät",
+          "Vorteil"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Gerät",
+          "Technik",
+          "heute",
+          "Vorteil"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Vorteil",
+          "Technik",
+          "Gerät",
+          "zusammen"
         ]
       }
     ]
@@ -10409,7 +16852,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 90,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 10,
     "description": "über Hobbys sprechen",
     "intro": "über Hobbys sprechen",
     "mission": "über Hobbys sprechen",
@@ -10474,12 +16917,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Freizeit",
+      "text": "Heute erlebt Anna etwas zum Thema Freizeit. Sie trifft Leon in ihrem Viertel und spricht langsam mit ihm. Leon hört zu, lächelt und stellt eine einfache Frage. Anna antwortet mit klaren Wörtern, denn sie möchte die Situation gut verstehen. Zusammen sehen sie sich den Ort an, begrüßen Menschen und wählen eine kleine Aktivität für den Nachmittag. Einige Dinge kennen sie schon, andere machen sie neugierig. Am Ende sagt Anna, dass eine Sprache lernen auch bedeutet, am Alltag teilzunehmen. Leon stimmt zu und möchte die Erfahrung morgen wiederholen. Dabei benutzt die Gruppe Wörter wie Hobby, lesen, laufen, Kino. Dabei benutzt die Gruppe Wörter wie Hobby, lesen, laufen, Kino. Dabei benutzt die Gruppe Wörter wie Hobby, lesen, laufen, Kino. Dabei benutzt die Gruppe Wörter wie Hobby, lesen, laufen, Kino.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -10487,42 +16932,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Hobby",
-          "manchmal",
-          "oft",
-          "Zeit"
+          "lesen",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -10537,7 +16982,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 90,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 14,
     "description": "Lernziele und Fortschritt erklären",
     "intro": "Lernziele und Fortschritt erklären",
     "mission": "Lernziele und Fortschritt erklären",
@@ -10602,12 +17047,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Lernen und Ziele",
+      "text": "Letzte Woche hat Anna an einer Aktivität zum Thema Lernen und Ziele teilgenommen. Zuerst kannte sie das Programm nicht gut, deshalb hat sie nach Informationen gefragt und den Menschen im Viertel zugehört. Leon kam später, brachte aber eine gute Idee mit. Beide verglichen ihre Erfahrungen und beschlossen, zusammenzuarbeiten. Während der Aktivität bemerkten sie, dass einfache Lösungen vielen Menschen helfen können. Anna erklärte, dass sie weiterlernen möchte, weil man eine Stadt besser versteht, wenn man die Gewohnheiten der Menschen beobachtet. Am Ende schrieben sie eine kurze Nachricht, um der Gruppe zu danken, und planten ein neues Treffen für die nächste Woche. Dabei benutzt die Gruppe Wörter wie Ziel, Kurs, üben, Fortschritt. Dabei benutzt die Gruppe Wörter wie Ziel, Kurs, üben, Fortschritt. Dabei benutzt die Gruppe Wörter wie Ziel, Kurs, üben, Fortschritt. Dabei benutzt die Gruppe Wörter wie Ziel, Kurs, üben, Fortschritt. Dabei benutzt die Gruppe Wörter wie Ziel, Kurs, üben, Fortschritt. Dabei benutzt die Gruppe Wörter wie Ziel, Kurs, üben, Fortschritt. Dabei benutzt die Gruppe Wörter wie Ziel, Kurs, üben, Fortschritt. Dabei benutzt die Gruppe Wörter wie Ziel, Kurs, üben, Fortschritt.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -10615,53 +17062,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Ziel",
-          "Prüfung",
-          "Methode",
-          "Erfolg"
+          "Kurs",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-a2-lernen-und-ziele-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Lernen und Ziele: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Lernen und Ziele: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -10676,7 +17122,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 90,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "städtische Mobilität vergleichen",
     "intro": "städtische Mobilität vergleichen",
     "mission": "städtische Mobilität vergleichen",
@@ -10741,12 +17187,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Stadt und Mobilität",
+      "text": "Im Viertel von Anna ist das Thema „Stadt und Mobilität“ nach einer offenen Sitzung wichtig geworden. Einige Bewohner meinten, das Problem müsse nur von Institutionen gelöst werden; andere fanden, dass auch Bürger mit konkreten Aktionen beitragen können. Anna hörte beide Positionen an und sagte, ein guter Vorschlag müsse realistisch und nicht nur interessant sein. Leon berichtete von einer persönlichen Erfahrung: Früher hatte er an einem ähnlichen Projekt teilgenommen und gelernt, dass regelmäßige Kommunikation viele Missverständnisse verhindert. Die Gruppe teilte deshalb Aufgaben auf, setzte eine Frist und wählte einen einfachen Weg, die Nachbarschaft zu informieren. Nicht alle waren mit jedem Detail einverstanden. Trotzdem beschlossen sie, die Ergebnisse nach einem Monat gemeinsam zu prüfen. Anna hält diese Entscheidung für ausgewogen, weil sie sofortiges Handeln ermöglicht und später Raum für Verbesserungen lässt. Am Ende der Sitzung gingen die Menschen mit unterschiedlichen Verantwortlichkeiten nach Hause, aber mit einem gemeinsamen Ziel: den Alltag zu verbessern, ohne jemanden auszuschließen. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad. Dabei benutzt die Gruppe Wörter wie Verkehr, Strecke, Stau, Fahrrad.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -10754,53 +17202,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Verkehr",
-          "Dienst",
-          "vorschlagen",
-          "Viertel"
+          "Strecke",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-b1-stadt-und-mobilitat-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Stadt und Mobilität: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Stadt und Mobilität: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -10883,64 +17330,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "gern, lieber und Freizeit",
-        "definition": "Práctica guiada de gern, lieber und Freizeit.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Freizeit: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
+        "examples": [
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Hobby“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Hobby.",
-          "Die Gruppe Hobby spricht über.",
-          "Hobby die über Gruppe spricht.",
-          "Spricht Gruppe die Hobby über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „lesen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe lesen spricht über.",
-          "Die Gruppe spricht über lesen.",
-          "lesen die über Gruppe spricht.",
-          "Spricht Gruppe die lesen über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „laufen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "laufen die über Gruppe spricht.",
-          "Die Gruppe laufen spricht über.",
-          "Die Gruppe spricht über laufen.",
-          "Spricht Gruppe die laufen über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Kino“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Kino über.",
-          "Die Gruppe Kino spricht über.",
-          "Kino die über Gruppe spricht.",
-          "Die Gruppe spricht über Kino."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Sport“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Sport.",
-          "Die Gruppe Sport spricht über.",
-          "Sport die über Gruppe spricht.",
-          "Spricht Gruppe die Sport über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
   },
@@ -11022,64 +17594,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "zu + Infinitiv",
-        "definition": "Práctica guiada de zu + Infinitiv.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Lernen und Ziele: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
+        "examples": [
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Ziel“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Ziel.",
-          "Die Gruppe Ziel spricht über.",
-          "Ziel die über Gruppe spricht.",
-          "Spricht Gruppe die Ziel über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Kurs“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Kurs spricht über.",
-          "Die Gruppe spricht über Kurs.",
-          "Kurs die über Gruppe spricht.",
-          "Spricht Gruppe die Kurs über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „üben“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "üben die über Gruppe spricht.",
-          "Die Gruppe üben spricht über.",
-          "Die Gruppe spricht über üben.",
-          "Spricht Gruppe die üben über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Fortschritt“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Fortschritt über.",
-          "Die Gruppe Fortschritt spricht über.",
-          "Fortschritt die über Gruppe spricht.",
-          "Die Gruppe spricht über Fortschritt."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „schwierig“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über schwierig.",
-          "Die Gruppe schwierig spricht über.",
-          "schwierig die über Gruppe spricht.",
-          "Spricht Gruppe die schwierig über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
   },
@@ -11161,64 +17858,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Futur I und Vermutungen",
-        "definition": "Práctica guiada de Futur I und Vermutungen.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Stadt und Mobilität: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "structure": "Meinung + weil/obwohl/deshalb + Begründung",
+        "function": "Eine Meinung ausdrücken und begründen.",
+        "examples": [
+          "Ich finde den Vorschlag sinnvoll.",
+          "Trotzdem müssen wir die Ergebnisse prüfen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Verkehr“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Verkehr.",
-          "Die Gruppe Verkehr spricht über.",
-          "Verkehr die über Gruppe spricht.",
-          "Spricht Gruppe die Verkehr über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Strecke“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Strecke spricht über.",
-          "Die Gruppe spricht über Strecke.",
-          "Strecke die über Gruppe spricht.",
-          "Spricht Gruppe die Strecke über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Stau“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Stau die über Gruppe spricht.",
-          "Die Gruppe Stau spricht über.",
-          "Die Gruppe spricht über Stau.",
-          "Spricht Gruppe die Stau über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Fahrrad“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Fahrrad über.",
-          "Die Gruppe Fahrrad spricht über.",
-          "Fahrrad die über Gruppe spricht.",
-          "Die Gruppe spricht über Fahrrad."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „verbessern“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über verbessern.",
-          "Die Gruppe verbessern spricht über.",
-          "verbessern die über Gruppe spricht.",
-          "Spricht Gruppe die verbessern über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
   },
@@ -11247,52 +18069,134 @@
       {
         "word": "Hobby",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Hobby“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Hobby“ in einem Satz.",
+        "contexts": [
+          "Hobby · tema",
+          "Hobby · conversación",
+          "Hobby · práctica"
+        ]
       },
       {
         "word": "lesen",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „lesen“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „lesen“ in einem Satz.",
+        "contexts": [
+          "lesen · tema",
+          "lesen · conversación",
+          "lesen · práctica"
+        ]
       },
       {
         "word": "laufen",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „laufen“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „laufen“ in einem Satz.",
+        "contexts": [
+          "laufen · tema",
+          "laufen · conversación",
+          "laufen · práctica"
+        ]
       },
       {
         "word": "Kino",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Kino“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Kino“ in einem Satz.",
+        "contexts": [
+          "Kino · tema",
+          "Kino · conversación",
+          "Kino · práctica"
+        ]
       },
       {
         "word": "Sport",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „Sport“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „Sport“ in einem Satz.",
+        "contexts": [
+          "Sport · tema",
+          "Sport · conversación",
+          "Sport · práctica"
+        ]
       },
       {
         "word": "Wochenende",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Wochenende“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Wochenende“ in einem Satz.",
+        "contexts": [
+          "Wochenende · tema",
+          "Wochenende · conversación",
+          "Wochenende · práctica"
+        ]
       },
       {
         "word": "gern",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „gern“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „gern“ in einem Satz.",
+        "contexts": [
+          "gern · tema",
+          "gern · conversación",
+          "gern · práctica"
+        ]
       },
       {
         "word": "manchmal",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „manchmal“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „manchmal“ in einem Satz.",
+        "contexts": [
+          "manchmal · tema",
+          "manchmal · conversación",
+          "manchmal · práctica"
+        ]
       },
       {
         "word": "oft",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „oft“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „oft“ in einem Satz.",
+        "contexts": [
+          "oft · tema",
+          "oft · conversación",
+          "oft · práctica"
+        ]
       },
       {
         "word": "Zeit",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Zeit“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Zeit“ in einem Satz.",
+        "contexts": [
+          "Zeit · tema",
+          "Zeit · conversación",
+          "Zeit · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -11302,7 +18206,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Hobby",
           "lesen",
@@ -11312,52 +18216,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "laufen",
+          "Hobby",
           "lesen",
-          "Kino",
-          "Sport"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Sport",
-          "Kino",
           "laufen",
-          "Wochenende"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "gern",
-          "Sport",
-          "Wochenende",
           "Kino"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "lesen",
+          "Hobby",
+          "laufen",
+          "Kino"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "laufen",
+          "Hobby",
+          "lesen",
+          "Kino"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Sport",
+          "Hobby",
+          "lesen",
+          "laufen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Hobby",
           "Wochenende",
+          "lesen",
+          "laufen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "lesen",
+          "Hobby",
           "gern",
+          "laufen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "laufen",
+          "Hobby",
+          "lesen",
           "manchmal"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "gern",
-          "Wochenende",
-          "manchmal",
-          "oft"
+          "oft",
+          "Hobby",
+          "lesen",
+          "laufen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Hobby",
+          "Zeit",
+          "lesen",
+          "laufen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "lesen",
+          "Hobby",
+          "heute",
+          "laufen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "laufen",
+          "Hobby",
+          "lesen",
+          "zusammen"
         ]
       }
     ]
@@ -11387,52 +18351,134 @@
       {
         "word": "Ziel",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Ziel“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Ziel“ in einem Satz.",
+        "contexts": [
+          "Ziel · tema",
+          "Ziel · conversación",
+          "Ziel · práctica"
+        ]
       },
       {
         "word": "Kurs",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Kurs“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Kurs“ in einem Satz.",
+        "contexts": [
+          "Kurs · tema",
+          "Kurs · conversación",
+          "Kurs · práctica"
+        ]
       },
       {
         "word": "üben",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „üben“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „üben“ in einem Satz.",
+        "contexts": [
+          "üben · tema",
+          "üben · conversación",
+          "üben · práctica"
+        ]
       },
       {
         "word": "Fortschritt",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Fortschritt“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Fortschritt“ in einem Satz.",
+        "contexts": [
+          "Fortschritt · tema",
+          "Fortschritt · conversación",
+          "Fortschritt · práctica"
+        ]
       },
       {
         "word": "schwierig",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „schwierig“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „schwierig“ in einem Satz.",
+        "contexts": [
+          "schwierig · tema",
+          "schwierig · conversación",
+          "schwierig · práctica"
+        ]
       },
       {
         "word": "leichter",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „leichter“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „leichter“ in einem Satz.",
+        "contexts": [
+          "leichter · tema",
+          "leichter · conversación",
+          "leichter · práctica"
+        ]
       },
       {
         "word": "verbessern",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „verbessern“ in einem Satz.",
+        "contexts": [
+          "verbessern · tema",
+          "verbessern · conversación",
+          "verbessern · práctica"
+        ]
       },
       {
         "word": "Prüfung",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Prüfung“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Prüfung“ in einem Satz.",
+        "contexts": [
+          "Prüfung · tema",
+          "Prüfung · conversación",
+          "Prüfung · práctica"
+        ]
       },
       {
         "word": "Methode",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „Methode“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „Methode“ in einem Satz.",
+        "contexts": [
+          "Methode · tema",
+          "Methode · conversación",
+          "Methode · práctica"
+        ]
       },
       {
         "word": "Erfolg",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Erfolg“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Erfolg“ in einem Satz.",
+        "contexts": [
+          "Erfolg · tema",
+          "Erfolg · conversación",
+          "Erfolg · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -11442,7 +18488,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Ziel",
           "Kurs",
@@ -11452,52 +18498,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "üben",
+          "Ziel",
           "Kurs",
-          "Fortschritt",
-          "schwierig"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "schwierig",
-          "Fortschritt",
           "üben",
-          "leichter"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "verbessern",
-          "schwierig",
-          "leichter",
           "Fortschritt"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kurs",
+          "Ziel",
+          "üben",
+          "Fortschritt"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "üben",
+          "Ziel",
+          "Kurs",
+          "Fortschritt"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "schwierig",
+          "Ziel",
+          "Kurs",
+          "üben"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Ziel",
           "leichter",
+          "Kurs",
+          "üben"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kurs",
+          "Ziel",
           "verbessern",
+          "üben"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "üben",
+          "Ziel",
+          "Kurs",
           "Prüfung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "verbessern",
-          "leichter",
-          "Prüfung",
-          "Methode"
+          "Methode",
+          "Ziel",
+          "Kurs",
+          "üben"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Ziel",
+          "Erfolg",
+          "Kurs",
+          "üben"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kurs",
+          "Ziel",
+          "heute",
+          "üben"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "üben",
+          "Ziel",
+          "Kurs",
+          "zusammen"
         ]
       }
     ]
@@ -11527,52 +18633,134 @@
       {
         "word": "Verkehr",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Verkehr“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Verkehr“ in einem Satz.",
+        "contexts": [
+          "Verkehr · tema",
+          "Verkehr · conversación",
+          "Verkehr · práctica"
+        ]
       },
       {
         "word": "Strecke",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Strecke“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Strecke“ in einem Satz.",
+        "contexts": [
+          "Strecke · tema",
+          "Strecke · conversación",
+          "Strecke · práctica"
+        ]
       },
       {
         "word": "Stau",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Stau“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Stau“ in einem Satz.",
+        "contexts": [
+          "Stau · tema",
+          "Stau · conversación",
+          "Stau · práctica"
+        ]
       },
       {
         "word": "Fahrrad",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Fahrrad“ in einem Satz.",
+        "contexts": [
+          "Fahrrad · tema",
+          "Fahrrad · conversación",
+          "Fahrrad · práctica"
+        ]
       },
       {
         "word": "verbessern",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „verbessern“ in einem Satz.",
+        "contexts": [
+          "verbessern · tema",
+          "verbessern · conversación",
+          "verbessern · práctica"
+        ]
       },
       {
         "word": "zugänglich",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „zugänglich“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „zugänglich“ in einem Satz.",
+        "contexts": [
+          "zugänglich · tema",
+          "zugänglich · conversación",
+          "zugänglich · práctica"
+        ]
       },
       {
         "word": "Verspätung",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Verspätung“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Verspätung“ in einem Satz.",
+        "contexts": [
+          "Verspätung · tema",
+          "Verspätung · conversación",
+          "Verspätung · práctica"
+        ]
       },
       {
         "word": "Dienst",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Dienst“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Dienst“ in einem Satz.",
+        "contexts": [
+          "Dienst · tema",
+          "Dienst · conversación",
+          "Dienst · práctica"
+        ]
       },
       {
         "word": "vorschlagen",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „vorschlagen“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „vorschlagen“ in einem Satz.",
+        "contexts": [
+          "vorschlagen · tema",
+          "vorschlagen · conversación",
+          "vorschlagen · práctica"
+        ]
       },
       {
         "word": "Viertel",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Viertel“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Viertel“ in einem Satz.",
+        "contexts": [
+          "Viertel · tema",
+          "Viertel · conversación",
+          "Viertel · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -11582,7 +18770,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Verkehr",
           "Strecke",
@@ -11592,52 +18780,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Stau",
+          "Verkehr",
           "Strecke",
-          "Fahrrad",
-          "verbessern"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "verbessern",
-          "Fahrrad",
           "Stau",
-          "zugänglich"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Verspätung",
-          "verbessern",
-          "zugänglich",
           "Fahrrad"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Strecke",
+          "Verkehr",
+          "Stau",
+          "Fahrrad"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Stau",
+          "Verkehr",
+          "Strecke",
+          "Fahrrad"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "verbessern",
+          "Verkehr",
+          "Strecke",
+          "Stau"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Verkehr",
           "zugänglich",
+          "Strecke",
+          "Stau"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Strecke",
+          "Verkehr",
           "Verspätung",
+          "Stau"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Stau",
+          "Verkehr",
+          "Strecke",
           "Dienst"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Verspätung",
-          "zugänglich",
-          "Dienst",
-          "vorschlagen"
+          "vorschlagen",
+          "Verkehr",
+          "Strecke",
+          "Stau"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Verkehr",
+          "Viertel",
+          "Strecke",
+          "Stau"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Strecke",
+          "Verkehr",
+          "heute",
+          "Stau"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Stau",
+          "Verkehr",
+          "Strecke",
+          "zusammen"
         ]
       }
     ]
@@ -11652,7 +18900,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 100,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 10,
     "description": "eine einfache Reise planen",
     "intro": "eine einfache Reise planen",
     "mission": "eine einfache Reise planen",
@@ -11717,12 +18965,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Unterwegs",
+      "text": "Heute erlebt Anna etwas zum Thema Unterwegs. Sie trifft Leon in ihrem Viertel und spricht langsam mit ihm. Leon hört zu, lächelt und stellt eine einfache Frage. Anna antwortet mit klaren Wörtern, denn sie möchte die Situation gut verstehen. Zusammen sehen sie sich den Ort an, begrüßen Menschen und wählen eine kleine Aktivität für den Nachmittag. Einige Dinge kennen sie schon, andere machen sie neugierig. Am Ende sagt Anna, dass eine Sprache lernen auch bedeutet, am Alltag teilzunehmen. Leon stimmt zu und möchte die Erfahrung morgen wiederholen. Dabei benutzt die Gruppe Wörter wie Zug, Ticket, Abfahrt, Ankunft. Dabei benutzt die Gruppe Wörter wie Zug, Ticket, Abfahrt, Ankunft. Dabei benutzt die Gruppe Wörter wie Zug, Ticket, Abfahrt, Ankunft. Dabei benutzt die Gruppe Wörter wie Zug, Ticket, Abfahrt, Ankunft.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -11730,42 +18980,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Zug",
-          "warten",
-          "fahren",
-          "besuchen"
+          "Ticket",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -11780,7 +19030,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 100,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 14,
     "description": "Probleme in der Stadt lösen",
     "intro": "Probleme in der Stadt lösen",
     "mission": "Probleme in der Stadt lösen",
@@ -11845,12 +19095,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Stadt und Service",
+      "text": "Letzte Woche hat Anna an einer Aktivität zum Thema Stadt und Service teilgenommen. Zuerst kannte sie das Programm nicht gut, deshalb hat sie nach Informationen gefragt und den Menschen im Viertel zugehört. Leon kam später, brachte aber eine gute Idee mit. Beide verglichen ihre Erfahrungen und beschlossen, zusammenzuarbeiten. Während der Aktivität bemerkten sie, dass einfache Lösungen vielen Menschen helfen können. Anna erklärte, dass sie weiterlernen möchte, weil man eine Stadt besser versteht, wenn man die Gewohnheiten der Menschen beobachtet. Am Ende schrieben sie eine kurze Nachricht, um der Gruppe zu danken, und planten ein neues Treffen für die nächste Woche. Dabei benutzt die Gruppe Wörter wie Service, Formular, Rathaus, Auskunft. Dabei benutzt die Gruppe Wörter wie Service, Formular, Rathaus, Auskunft. Dabei benutzt die Gruppe Wörter wie Service, Formular, Rathaus, Auskunft. Dabei benutzt die Gruppe Wörter wie Service, Formular, Rathaus, Auskunft. Dabei benutzt die Gruppe Wörter wie Service, Formular, Rathaus, Auskunft. Dabei benutzt die Gruppe Wörter wie Service, Formular, Rathaus, Auskunft. Dabei benutzt die Gruppe Wörter wie Service, Formular, Rathaus, Auskunft. Dabei benutzt die Gruppe Wörter wie Service, Formular, Rathaus, Auskunft.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -11858,53 +19110,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Service",
-          "öffnen",
-          "geschlossen",
-          "Lösung"
+          "Formular",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-a2-stadt-und-service-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Stadt und Service: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Stadt und Service: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -11919,7 +19170,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 100,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "über Ziele und Möglichkeiten sprechen",
     "intro": "über Ziele und Möglichkeiten sprechen",
     "mission": "über Ziele und Möglichkeiten sprechen",
@@ -11984,12 +19235,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Pläne für die Zukunft",
+      "text": "Im Viertel von Anna ist das Thema „Pläne für die Zukunft“ nach einer offenen Sitzung wichtig geworden. Einige Bewohner meinten, das Problem müsse nur von Institutionen gelöst werden; andere fanden, dass auch Bürger mit konkreten Aktionen beitragen können. Anna hörte beide Positionen an und sagte, ein guter Vorschlag müsse realistisch und nicht nur interessant sein. Leon berichtete von einer persönlichen Erfahrung: Früher hatte er an einem ähnlichen Projekt teilgenommen und gelernt, dass regelmäßige Kommunikation viele Missverständnisse verhindert. Die Gruppe teilte deshalb Aufgaben auf, setzte eine Frist und wählte einen einfachen Weg, die Nachbarschaft zu informieren. Nicht alle waren mit jedem Detail einverstanden. Trotzdem beschlossen sie, die Ergebnisse nach einem Monat gemeinsam zu prüfen. Anna hält diese Entscheidung für ausgewogen, weil sie sofortiges Handeln ermöglicht und später Raum für Verbesserungen lässt. Am Ende der Sitzung gingen die Menschen mit unterschiedlichen Verantwortlichkeiten nach Hause, aber mit einem gemeinsamen Ziel: den Alltag zu verbessern, ohne jemanden auszuschließen. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden. Dabei benutzt die Gruppe Wörter wie Zukunft, Ziel, Möglichkeit, entscheiden.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -11997,53 +19250,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Zukunft",
-          "hoffen",
-          "Wahl",
-          "erreichen"
+          "Ziel",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-b1-plane-fur-die-zukunft-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Pläne für die Zukunft: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Pläne für die Zukunft: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -12126,64 +19378,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Perfekt mit haben",
-        "definition": "Práctica guiada de Perfekt mit haben.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Unterwegs: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
+        "examples": [
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Zug“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Zug.",
-          "Die Gruppe Zug spricht über.",
-          "Zug die über Gruppe spricht.",
-          "Spricht Gruppe die Zug über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Ticket“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Ticket spricht über.",
-          "Die Gruppe spricht über Ticket.",
-          "Ticket die über Gruppe spricht.",
-          "Spricht Gruppe die Ticket über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Abfahrt“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Abfahrt die über Gruppe spricht.",
-          "Die Gruppe Abfahrt spricht über.",
-          "Die Gruppe spricht über Abfahrt.",
-          "Spricht Gruppe die Abfahrt über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Ankunft“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Ankunft über.",
-          "Die Gruppe Ankunft spricht über.",
-          "Ankunft die über Gruppe spricht.",
-          "Die Gruppe spricht über Ankunft."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Reise“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Reise.",
-          "Die Gruppe Reise spricht über.",
-          "Reise die über Gruppe spricht.",
-          "Spricht Gruppe die Reise über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
   },
@@ -12265,64 +19642,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Konjunktiv II: höfliche Bitten",
-        "definition": "Práctica guiada de Konjunktiv II: höfliche Bitten.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Stadt und Service: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
+        "examples": [
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Service“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Service.",
-          "Die Gruppe Service spricht über.",
-          "Service die über Gruppe spricht.",
-          "Spricht Gruppe die Service über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Formular“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Formular spricht über.",
-          "Die Gruppe spricht über Formular.",
-          "Formular die über Gruppe spricht.",
-          "Spricht Gruppe die Formular über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Rathaus“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Rathaus die über Gruppe spricht.",
-          "Die Gruppe Rathaus spricht über.",
-          "Die Gruppe spricht über Rathaus.",
-          "Spricht Gruppe die Rathaus über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Auskunft“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Auskunft über.",
-          "Die Gruppe Auskunft spricht über.",
-          "Auskunft die über Gruppe spricht.",
-          "Die Gruppe spricht über Auskunft."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Problem“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Problem.",
-          "Die Gruppe Problem spricht über.",
-          "Problem die über Gruppe spricht.",
-          "Spricht Gruppe die Problem über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
   },
@@ -12404,64 +19906,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Verben mit Präpositionen",
-        "definition": "Práctica guiada de Verben mit Präpositionen.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Pläne für die Zukunft: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "structure": "Meinung + weil/obwohl/deshalb + Begründung",
+        "function": "Eine Meinung ausdrücken und begründen.",
+        "examples": [
+          "Ich finde den Vorschlag sinnvoll.",
+          "Trotzdem müssen wir die Ergebnisse prüfen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Zukunft“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Zukunft.",
-          "Die Gruppe Zukunft spricht über.",
-          "Zukunft die über Gruppe spricht.",
-          "Spricht Gruppe die Zukunft über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Ziel“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Ziel spricht über.",
-          "Die Gruppe spricht über Ziel.",
-          "Ziel die über Gruppe spricht.",
-          "Spricht Gruppe die Ziel über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Möglichkeit“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Möglichkeit die über Gruppe spricht.",
-          "Die Gruppe Möglichkeit spricht über.",
-          "Die Gruppe spricht über Möglichkeit.",
-          "Spricht Gruppe die Möglichkeit über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „entscheiden“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die entscheiden über.",
-          "Die Gruppe entscheiden spricht über.",
-          "entscheiden die über Gruppe spricht.",
-          "Die Gruppe spricht über entscheiden."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Erfahrung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Erfahrung.",
-          "Die Gruppe Erfahrung spricht über.",
-          "Erfahrung die über Gruppe spricht.",
-          "Spricht Gruppe die Erfahrung über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
   },
@@ -12490,52 +20117,134 @@
       {
         "word": "Zug",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Zug“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Zug“ in einem Satz.",
+        "contexts": [
+          "Zug · tema",
+          "Zug · conversación",
+          "Zug · práctica"
+        ]
       },
       {
         "word": "Ticket",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Ticket“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Ticket“ in einem Satz.",
+        "contexts": [
+          "Ticket · tema",
+          "Ticket · conversación",
+          "Ticket · práctica"
+        ]
       },
       {
         "word": "Abfahrt",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Abfahrt“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Abfahrt“ in einem Satz.",
+        "contexts": [
+          "Abfahrt · tema",
+          "Abfahrt · conversación",
+          "Abfahrt · práctica"
+        ]
       },
       {
         "word": "Ankunft",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Ankunft“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Ankunft“ in einem Satz.",
+        "contexts": [
+          "Ankunft · tema",
+          "Ankunft · conversación",
+          "Ankunft · práctica"
+        ]
       },
       {
         "word": "Reise",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „Reise“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „Reise“ in einem Satz.",
+        "contexts": [
+          "Reise · tema",
+          "Reise · conversación",
+          "Reise · práctica"
+        ]
       },
       {
         "word": "Koffer",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Koffer“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Koffer“ in einem Satz.",
+        "contexts": [
+          "Koffer · tema",
+          "Koffer · conversación",
+          "Koffer · práctica"
+        ]
       },
       {
         "word": "Bahnhof",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Bahnhof“ in einem Satz.",
+        "contexts": [
+          "Bahnhof · tema",
+          "Bahnhof · conversación",
+          "Bahnhof · práctica"
+        ]
       },
       {
         "word": "warten",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „warten“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „warten“ in einem Satz.",
+        "contexts": [
+          "warten · tema",
+          "warten · conversación",
+          "warten · práctica"
+        ]
       },
       {
         "word": "fahren",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „fahren“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „fahren“ in einem Satz.",
+        "contexts": [
+          "fahren · tema",
+          "fahren · conversación",
+          "fahren · práctica"
+        ]
       },
       {
         "word": "besuchen",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „besuchen“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „besuchen“ in einem Satz.",
+        "contexts": [
+          "besuchen · tema",
+          "besuchen · conversación",
+          "besuchen · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -12545,7 +20254,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Zug",
           "Ticket",
@@ -12555,52 +20264,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Abfahrt",
+          "Zug",
           "Ticket",
-          "Ankunft",
-          "Reise"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Reise",
-          "Ankunft",
           "Abfahrt",
-          "Koffer"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Bahnhof",
-          "Reise",
-          "Koffer",
           "Ankunft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Ticket",
+          "Zug",
+          "Abfahrt",
+          "Ankunft"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Abfahrt",
+          "Zug",
+          "Ticket",
+          "Ankunft"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Reise",
+          "Zug",
+          "Ticket",
+          "Abfahrt"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Zug",
           "Koffer",
+          "Ticket",
+          "Abfahrt"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Ticket",
+          "Zug",
           "Bahnhof",
+          "Abfahrt"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Abfahrt",
+          "Zug",
+          "Ticket",
           "warten"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Bahnhof",
-          "Koffer",
-          "warten",
-          "fahren"
+          "fahren",
+          "Zug",
+          "Ticket",
+          "Abfahrt"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Zug",
+          "besuchen",
+          "Ticket",
+          "Abfahrt"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Ticket",
+          "Zug",
+          "heute",
+          "Abfahrt"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Abfahrt",
+          "Zug",
+          "Ticket",
+          "zusammen"
         ]
       }
     ]
@@ -12630,52 +20399,134 @@
       {
         "word": "Service",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Service“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Service“ in einem Satz.",
+        "contexts": [
+          "Service · tema",
+          "Service · conversación",
+          "Service · práctica"
+        ]
       },
       {
         "word": "Formular",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Formular“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Formular“ in einem Satz.",
+        "contexts": [
+          "Formular · tema",
+          "Formular · conversación",
+          "Formular · práctica"
+        ]
       },
       {
         "word": "Rathaus",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Rathaus“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Rathaus“ in einem Satz.",
+        "contexts": [
+          "Rathaus · tema",
+          "Rathaus · conversación",
+          "Rathaus · práctica"
+        ]
       },
       {
         "word": "Auskunft",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Auskunft“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Auskunft“ in einem Satz.",
+        "contexts": [
+          "Auskunft · tema",
+          "Auskunft · conversación",
+          "Auskunft · práctica"
+        ]
       },
       {
         "word": "Problem",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „Problem“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „Problem“ in einem Satz.",
+        "contexts": [
+          "Problem · tema",
+          "Problem · conversación",
+          "Problem · práctica"
+        ]
       },
       {
         "word": "helfen",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „helfen“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „helfen“ in einem Satz.",
+        "contexts": [
+          "helfen · tema",
+          "helfen · conversación",
+          "helfen · práctica"
+        ]
       },
       {
         "word": "erklären",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „erklären“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „erklären“ in einem Satz.",
+        "contexts": [
+          "erklären · tema",
+          "erklären · conversación",
+          "erklären · práctica"
+        ]
       },
       {
         "word": "öffnen",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „öffnen“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „öffnen“ in einem Satz.",
+        "contexts": [
+          "öffnen · tema",
+          "öffnen · conversación",
+          "öffnen · práctica"
+        ]
       },
       {
         "word": "geschlossen",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „geschlossen“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „geschlossen“ in einem Satz.",
+        "contexts": [
+          "geschlossen · tema",
+          "geschlossen · conversación",
+          "geschlossen · práctica"
+        ]
       },
       {
         "word": "Lösung",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Lösung“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Lösung“ in einem Satz.",
+        "contexts": [
+          "Lösung · tema",
+          "Lösung · conversación",
+          "Lösung · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -12685,7 +20536,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Service",
           "Formular",
@@ -12695,52 +20546,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Rathaus",
+          "Service",
           "Formular",
-          "Auskunft",
-          "Problem"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Problem",
-          "Auskunft",
           "Rathaus",
-          "helfen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "erklären",
-          "Problem",
-          "helfen",
           "Auskunft"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Formular",
+          "Service",
+          "Rathaus",
+          "Auskunft"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Rathaus",
+          "Service",
+          "Formular",
+          "Auskunft"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Problem",
+          "Service",
+          "Formular",
+          "Rathaus"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Service",
           "helfen",
+          "Formular",
+          "Rathaus"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Formular",
+          "Service",
           "erklären",
+          "Rathaus"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Rathaus",
+          "Service",
+          "Formular",
           "öffnen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "erklären",
-          "helfen",
-          "öffnen",
-          "geschlossen"
+          "geschlossen",
+          "Service",
+          "Formular",
+          "Rathaus"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Service",
+          "Lösung",
+          "Formular",
+          "Rathaus"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Formular",
+          "Service",
+          "heute",
+          "Rathaus"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Rathaus",
+          "Service",
+          "Formular",
+          "zusammen"
         ]
       }
     ]
@@ -12770,52 +20681,134 @@
       {
         "word": "Zukunft",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Zukunft“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Zukunft“ in einem Satz.",
+        "contexts": [
+          "Zukunft · tema",
+          "Zukunft · conversación",
+          "Zukunft · práctica"
+        ]
       },
       {
         "word": "Ziel",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Ziel“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Ziel“ in einem Satz.",
+        "contexts": [
+          "Ziel · tema",
+          "Ziel · conversación",
+          "Ziel · práctica"
+        ]
       },
       {
         "word": "Möglichkeit",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Möglichkeit“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Möglichkeit“ in einem Satz.",
+        "contexts": [
+          "Möglichkeit · tema",
+          "Möglichkeit · conversación",
+          "Möglichkeit · práctica"
+        ]
       },
       {
         "word": "entscheiden",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „entscheiden“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „entscheiden“ in einem Satz.",
+        "contexts": [
+          "entscheiden · tema",
+          "entscheiden · conversación",
+          "entscheiden · práctica"
+        ]
       },
       {
         "word": "Erfahrung",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „Erfahrung“ in einem Satz.",
+        "contexts": [
+          "Erfahrung · tema",
+          "Erfahrung · conversación",
+          "Erfahrung · práctica"
+        ]
       },
       {
         "word": "Ausbildung",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Ausbildung“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Ausbildung“ in einem Satz.",
+        "contexts": [
+          "Ausbildung · tema",
+          "Ausbildung · conversación",
+          "Ausbildung · práctica"
+        ]
       },
       {
         "word": "Weg",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Weg“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Weg“ in einem Satz.",
+        "contexts": [
+          "Weg · tema",
+          "Weg · conversación",
+          "Weg · práctica"
+        ]
       },
       {
         "word": "hoffen",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „hoffen“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „hoffen“ in einem Satz.",
+        "contexts": [
+          "hoffen · tema",
+          "hoffen · conversación",
+          "hoffen · práctica"
+        ]
       },
       {
         "word": "Wahl",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „Wahl“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „Wahl“ in einem Satz.",
+        "contexts": [
+          "Wahl · tema",
+          "Wahl · conversación",
+          "Wahl · práctica"
+        ]
       },
       {
         "word": "erreichen",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „erreichen“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „erreichen“ in einem Satz.",
+        "contexts": [
+          "erreichen · tema",
+          "erreichen · conversación",
+          "erreichen · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -12825,7 +20818,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Zukunft",
           "Ziel",
@@ -12835,52 +20828,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Möglichkeit",
+          "Zukunft",
           "Ziel",
-          "entscheiden",
-          "Erfahrung"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Erfahrung",
-          "entscheiden",
           "Möglichkeit",
-          "Ausbildung"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Weg",
-          "Erfahrung",
-          "Ausbildung",
           "entscheiden"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Ziel",
+          "Zukunft",
+          "Möglichkeit",
+          "entscheiden"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Möglichkeit",
+          "Zukunft",
+          "Ziel",
+          "entscheiden"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Erfahrung",
+          "Zukunft",
+          "Ziel",
+          "Möglichkeit"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Zukunft",
           "Ausbildung",
+          "Ziel",
+          "Möglichkeit"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Ziel",
+          "Zukunft",
           "Weg",
+          "Möglichkeit"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Möglichkeit",
+          "Zukunft",
+          "Ziel",
           "hoffen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Weg",
-          "Ausbildung",
-          "hoffen",
-          "Wahl"
+          "Wahl",
+          "Zukunft",
+          "Ziel",
+          "Möglichkeit"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Zukunft",
+          "erreichen",
+          "Ziel",
+          "Möglichkeit"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Ziel",
+          "Zukunft",
+          "heute",
+          "Möglichkeit"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Möglichkeit",
+          "Zukunft",
+          "Ziel",
+          "zusammen"
         ]
       }
     ]
@@ -12895,7 +20948,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 110,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 10,
     "description": "Kleidung beschreiben und auswählen",
     "intro": "Kleidung beschreiben und auswählen",
     "mission": "Kleidung beschreiben und auswählen",
@@ -12960,12 +21013,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Kleidung und Farben",
+      "text": "Heute erlebt Anna etwas zum Thema Kleidung und Farben. Sie trifft Leon in ihrem Viertel und spricht langsam mit ihm. Leon hört zu, lächelt und stellt eine einfache Frage. Anna antwortet mit klaren Wörtern, denn sie möchte die Situation gut verstehen. Zusammen sehen sie sich den Ort an, begrüßen Menschen und wählen eine kleine Aktivität für den Nachmittag. Einige Dinge kennen sie schon, andere machen sie neugierig. Am Ende sagt Anna, dass eine Sprache lernen auch bedeutet, am Alltag teilzunehmen. Leon stimmt zu und möchte die Erfahrung morgen wiederholen. Dabei benutzt die Gruppe Wörter wie Kleidung, Hemd, Hose, Kleid. Dabei benutzt die Gruppe Wörter wie Kleidung, Hemd, Hose, Kleid. Dabei benutzt die Gruppe Wörter wie Kleidung, Hemd, Hose, Kleid. Dabei benutzt die Gruppe Wörter wie Kleidung, Hemd, Hose, Kleid.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -12973,42 +21028,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Kleidung",
-          "tragen",
-          "passen",
-          "kaufen"
+          "Hemd",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -13023,7 +21078,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 110,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 14,
     "description": "Feste und Abläufe in der Vergangenheit beschreiben",
     "intro": "Feste und Abläufe in der Vergangenheit beschreiben",
     "mission": "Feste und Abläufe in der Vergangenheit beschreiben",
@@ -13088,12 +21143,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Feste und Traditionen",
+      "text": "Letzte Woche hat Anna an einer Aktivität zum Thema Feste und Traditionen teilgenommen. Zuerst kannte sie das Programm nicht gut, deshalb hat sie nach Informationen gefragt und den Menschen im Viertel zugehört. Leon kam später, brachte aber eine gute Idee mit. Beide verglichen ihre Erfahrungen und beschlossen, zusammenzuarbeiten. Während der Aktivität bemerkten sie, dass einfache Lösungen vielen Menschen helfen können. Anna erklärte, dass sie weiterlernen möchte, weil man eine Stadt besser versteht, wenn man die Gewohnheiten der Menschen beobachtet. Am Ende schrieben sie eine kurze Nachricht, um der Gruppe zu danken, und planten ein neues Treffen für die nächste Woche. Dabei benutzt die Gruppe Wörter wie Fest, Tradition, feiern, vorbereitet. Dabei benutzt die Gruppe Wörter wie Fest, Tradition, feiern, vorbereitet. Dabei benutzt die Gruppe Wörter wie Fest, Tradition, feiern, vorbereitet. Dabei benutzt die Gruppe Wörter wie Fest, Tradition, feiern, vorbereitet. Dabei benutzt die Gruppe Wörter wie Fest, Tradition, feiern, vorbereitet. Dabei benutzt die Gruppe Wörter wie Fest, Tradition, feiern, vorbereitet. Dabei benutzt die Gruppe Wörter wie Fest, Tradition, feiern, vorbereitet. Dabei benutzt die Gruppe Wörter wie Fest, Tradition, feiern, vorbereitet.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -13101,53 +21158,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Fest",
-          "früher",
-          "danach",
-          "Erinnerung"
+          "Tradition",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-a2-feste-und-traditionen-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Feste und Traditionen: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Feste und Traditionen: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -13162,7 +21218,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 110,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "über Beziehungen sprechen und Informationen weitergeben",
     "intro": "über Beziehungen sprechen und Informationen weitergeben",
     "mission": "über Beziehungen sprechen und Informationen weitergeben",
@@ -13227,12 +21283,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Beziehungen und Kommunikation",
+      "text": "Im Viertel von Anna ist das Thema „Beziehungen und Kommunikation“ nach einer offenen Sitzung wichtig geworden. Einige Bewohner meinten, das Problem müsse nur von Institutionen gelöst werden; andere fanden, dass auch Bürger mit konkreten Aktionen beitragen können. Anna hörte beide Positionen an und sagte, ein guter Vorschlag müsse realistisch und nicht nur interessant sein. Leon berichtete von einer persönlichen Erfahrung: Früher hatte er an einem ähnlichen Projekt teilgenommen und gelernt, dass regelmäßige Kommunikation viele Missverständnisse verhindert. Die Gruppe teilte deshalb Aufgaben auf, setzte eine Frist und wählte einen einfachen Weg, die Nachbarschaft zu informieren. Nicht alle waren mit jedem Detail einverstanden. Trotzdem beschlossen sie, die Ergebnisse nach einem Monat gemeinsam zu prüfen. Anna hält diese Entscheidung für ausgewogen, weil sie sofortiges Handeln ermöglicht und später Raum für Verbesserungen lässt. Am Ende der Sitzung gingen die Menschen mit unterschiedlichen Verantwortlichkeiten nach Hause, aber mit einem gemeinsamen Ziel: den Alltag zu verbessern, ohne jemanden auszuschließen. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht. Dabei benutzt die Gruppe Wörter wie Beziehung, zuhören, erklären, Nachricht.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -13240,53 +21298,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Beziehung",
-          "Meinung",
-          "klären",
-          "respektieren"
+          "zuhören",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-b1-beziehungen-und-kommunikation-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Beziehungen und Kommunikation: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Beziehungen und Kommunikation: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -13369,64 +21426,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Kleidung: Adjektive und Farben",
-        "definition": "Práctica guiada de Kleidung: Adjektive und Farben.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Kleidung und Farben: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
+        "examples": [
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Kleidung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Kleidung.",
-          "Die Gruppe Kleidung spricht über.",
-          "Kleidung die über Gruppe spricht.",
-          "Spricht Gruppe die Kleidung über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Hemd“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Hemd spricht über.",
-          "Die Gruppe spricht über Hemd.",
-          "Hemd die über Gruppe spricht.",
-          "Spricht Gruppe die Hemd über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Hose“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Hose die über Gruppe spricht.",
-          "Die Gruppe Hose spricht über.",
-          "Die Gruppe spricht über Hose.",
-          "Spricht Gruppe die Hose über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Kleid“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Kleid über.",
-          "Die Gruppe Kleid spricht über.",
-          "Kleid die über Gruppe spricht.",
-          "Die Gruppe spricht über Kleid."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Farbe“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Farbe.",
-          "Die Gruppe Farbe spricht über.",
-          "Farbe die über Gruppe spricht.",
-          "Spricht Gruppe die Farbe über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
   },
@@ -13508,64 +21690,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Feste: Perfekt und Reihenfolge",
-        "definition": "Práctica guiada de Feste: Perfekt und Reihenfolge.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Feste und Traditionen: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
+        "examples": [
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Fest“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Fest.",
-          "Die Gruppe Fest spricht über.",
-          "Fest die über Gruppe spricht.",
-          "Spricht Gruppe die Fest über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Tradition“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Tradition spricht über.",
-          "Die Gruppe spricht über Tradition.",
-          "Tradition die über Gruppe spricht.",
-          "Spricht Gruppe die Tradition über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „feiern“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "feiern die über Gruppe spricht.",
-          "Die Gruppe feiern spricht über.",
-          "Die Gruppe spricht über feiern.",
-          "Spricht Gruppe die feiern über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „vorbereitet“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die vorbereitet über.",
-          "Die Gruppe vorbereitet spricht über.",
-          "vorbereitet die über Gruppe spricht.",
-          "Die Gruppe spricht über vorbereitet."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „besucht“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über besucht.",
-          "Die Gruppe besucht spricht über.",
-          "besucht die über Gruppe spricht.",
-          "Spricht Gruppe die besucht über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
   },
@@ -13647,64 +21954,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Beziehungen: Relativsätze und indirekte Fragen",
-        "definition": "Práctica guiada de Beziehungen: Relativsätze und indirekte Fragen.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Beziehungen und Kommunikation: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "structure": "Meinung + weil/obwohl/deshalb + Begründung",
+        "function": "Eine Meinung ausdrücken und begründen.",
+        "examples": [
+          "Ich finde den Vorschlag sinnvoll.",
+          "Trotzdem müssen wir die Ergebnisse prüfen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Beziehung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Beziehung.",
-          "Die Gruppe Beziehung spricht über.",
-          "Beziehung die über Gruppe spricht.",
-          "Spricht Gruppe die Beziehung über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „zuhören“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe zuhören spricht über.",
-          "Die Gruppe spricht über zuhören.",
-          "zuhören die über Gruppe spricht.",
-          "Spricht Gruppe die zuhören über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „erklären“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "erklären die über Gruppe spricht.",
-          "Die Gruppe erklären spricht über.",
-          "Die Gruppe spricht über erklären.",
-          "Spricht Gruppe die erklären über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Nachricht“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Nachricht über.",
-          "Die Gruppe Nachricht spricht über.",
-          "Nachricht die über Gruppe spricht.",
-          "Die Gruppe spricht über Nachricht."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Vereinbarung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Vereinbarung.",
-          "Die Gruppe Vereinbarung spricht über.",
-          "Vereinbarung die über Gruppe spricht.",
-          "Spricht Gruppe die Vereinbarung über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
   },
@@ -13733,52 +22165,134 @@
       {
         "word": "Kleidung",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Kleidung“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Kleidung“ in einem Satz.",
+        "contexts": [
+          "Kleidung · tema",
+          "Kleidung · conversación",
+          "Kleidung · práctica"
+        ]
       },
       {
         "word": "Hemd",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Hemd“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Hemd“ in einem Satz.",
+        "contexts": [
+          "Hemd · tema",
+          "Hemd · conversación",
+          "Hemd · práctica"
+        ]
       },
       {
         "word": "Hose",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Hose“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Hose“ in einem Satz.",
+        "contexts": [
+          "Hose · tema",
+          "Hose · conversación",
+          "Hose · práctica"
+        ]
       },
       {
         "word": "Kleid",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Kleid“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Kleid“ in einem Satz.",
+        "contexts": [
+          "Kleid · tema",
+          "Kleid · conversación",
+          "Kleid · práctica"
+        ]
       },
       {
         "word": "Farbe",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „Farbe“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „Farbe“ in einem Satz.",
+        "contexts": [
+          "Farbe · tema",
+          "Farbe · conversación",
+          "Farbe · práctica"
+        ]
       },
       {
         "word": "blau",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „blau“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „blau“ in einem Satz.",
+        "contexts": [
+          "blau · tema",
+          "blau · conversación",
+          "blau · práctica"
+        ]
       },
       {
         "word": "rot",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „rot“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „rot“ in einem Satz.",
+        "contexts": [
+          "rot · tema",
+          "rot · conversación",
+          "rot · práctica"
+        ]
       },
       {
         "word": "tragen",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „tragen“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „tragen“ in einem Satz.",
+        "contexts": [
+          "tragen · tema",
+          "tragen · conversación",
+          "tragen · práctica"
+        ]
       },
       {
         "word": "passen",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „passen“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „passen“ in einem Satz.",
+        "contexts": [
+          "passen · tema",
+          "passen · conversación",
+          "passen · práctica"
+        ]
       },
       {
         "word": "kaufen",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „kaufen“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „kaufen“ in einem Satz.",
+        "contexts": [
+          "kaufen · tema",
+          "kaufen · conversación",
+          "kaufen · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -13788,7 +22302,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Kleidung",
           "Hemd",
@@ -13798,52 +22312,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Hose",
+          "Kleidung",
           "Hemd",
-          "Kleid",
-          "Farbe"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Farbe",
-          "Kleid",
           "Hose",
-          "blau"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "rot",
-          "Farbe",
-          "blau",
           "Kleid"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Hemd",
+          "Kleidung",
+          "Hose",
+          "Kleid"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Hose",
+          "Kleidung",
+          "Hemd",
+          "Kleid"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Farbe",
+          "Kleidung",
+          "Hemd",
+          "Hose"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kleidung",
           "blau",
+          "Hemd",
+          "Hose"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Hemd",
+          "Kleidung",
           "rot",
+          "Hose"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Hose",
+          "Kleidung",
+          "Hemd",
           "tragen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "rot",
-          "blau",
-          "tragen",
-          "passen"
+          "passen",
+          "Kleidung",
+          "Hemd",
+          "Hose"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Kleidung",
+          "kaufen",
+          "Hemd",
+          "Hose"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Hemd",
+          "Kleidung",
+          "heute",
+          "Hose"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Hose",
+          "Kleidung",
+          "Hemd",
+          "zusammen"
         ]
       }
     ]
@@ -13873,52 +22447,134 @@
       {
         "word": "Fest",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Fest“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Fest“ in einem Satz.",
+        "contexts": [
+          "Fest · tema",
+          "Fest · conversación",
+          "Fest · práctica"
+        ]
       },
       {
         "word": "Tradition",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Tradition“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Tradition“ in einem Satz.",
+        "contexts": [
+          "Tradition · tema",
+          "Tradition · conversación",
+          "Tradition · práctica"
+        ]
       },
       {
         "word": "feiern",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „feiern“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „feiern“ in einem Satz.",
+        "contexts": [
+          "feiern · tema",
+          "feiern · conversación",
+          "feiern · práctica"
+        ]
       },
       {
         "word": "vorbereitet",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „vorbereitet“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „vorbereitet“ in einem Satz.",
+        "contexts": [
+          "vorbereitet · tema",
+          "vorbereitet · conversación",
+          "vorbereitet · práctica"
+        ]
       },
       {
         "word": "besucht",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „besucht“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „besucht“ in einem Satz.",
+        "contexts": [
+          "besucht · tema",
+          "besucht · conversación",
+          "besucht · práctica"
+        ]
       },
       {
         "word": "gemeinsam",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „gemeinsam“ in einem Satz.",
+        "contexts": [
+          "gemeinsam · tema",
+          "gemeinsam · conversación",
+          "gemeinsam · práctica"
+        ]
       },
       {
         "word": "Reihenfolge",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Reihenfolge“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Reihenfolge“ in einem Satz.",
+        "contexts": [
+          "Reihenfolge · tema",
+          "Reihenfolge · conversación",
+          "Reihenfolge · práctica"
+        ]
       },
       {
         "word": "früher",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „früher“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „früher“ in einem Satz.",
+        "contexts": [
+          "früher · tema",
+          "früher · conversación",
+          "früher · práctica"
+        ]
       },
       {
         "word": "danach",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „danach“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „danach“ in einem Satz.",
+        "contexts": [
+          "danach · tema",
+          "danach · conversación",
+          "danach · práctica"
+        ]
       },
       {
         "word": "Erinnerung",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Erinnerung“ in einem Satz.",
+        "contexts": [
+          "Erinnerung · tema",
+          "Erinnerung · conversación",
+          "Erinnerung · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -13928,7 +22584,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Fest",
           "Tradition",
@@ -13938,52 +22594,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "feiern",
+          "Fest",
           "Tradition",
-          "vorbereitet",
-          "besucht"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "besucht",
-          "vorbereitet",
           "feiern",
-          "gemeinsam"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Reihenfolge",
-          "besucht",
-          "gemeinsam",
           "vorbereitet"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Tradition",
+          "Fest",
+          "feiern",
+          "vorbereitet"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "feiern",
+          "Fest",
+          "Tradition",
+          "vorbereitet"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "besucht",
+          "Fest",
+          "Tradition",
+          "feiern"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Fest",
           "gemeinsam",
+          "Tradition",
+          "feiern"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Tradition",
+          "Fest",
           "Reihenfolge",
+          "feiern"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "feiern",
+          "Fest",
+          "Tradition",
           "früher"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Reihenfolge",
-          "gemeinsam",
-          "früher",
-          "danach"
+          "danach",
+          "Fest",
+          "Tradition",
+          "feiern"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Fest",
+          "Erinnerung",
+          "Tradition",
+          "feiern"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Tradition",
+          "Fest",
+          "heute",
+          "feiern"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "feiern",
+          "Fest",
+          "Tradition",
+          "zusammen"
         ]
       }
     ]
@@ -14013,52 +22729,134 @@
       {
         "word": "Beziehung",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Beziehung“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Beziehung“ in einem Satz.",
+        "contexts": [
+          "Beziehung · tema",
+          "Beziehung · conversación",
+          "Beziehung · práctica"
+        ]
       },
       {
         "word": "zuhören",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „zuhören“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „zuhören“ in einem Satz.",
+        "contexts": [
+          "zuhören · tema",
+          "zuhören · conversación",
+          "zuhören · práctica"
+        ]
       },
       {
         "word": "erklären",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „erklären“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „erklären“ in einem Satz.",
+        "contexts": [
+          "erklären · tema",
+          "erklären · conversación",
+          "erklären · práctica"
+        ]
       },
       {
         "word": "Nachricht",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Nachricht“ in einem Satz.",
+        "contexts": [
+          "Nachricht · tema",
+          "Nachricht · conversación",
+          "Nachricht · práctica"
+        ]
       },
       {
         "word": "Vereinbarung",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „Vereinbarung“ in einem Satz.",
+        "contexts": [
+          "Vereinbarung · tema",
+          "Vereinbarung · conversación",
+          "Vereinbarung · práctica"
+        ]
       },
       {
         "word": "Vertrauen",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „Vertrauen“ in einem Satz.",
+        "contexts": [
+          "Vertrauen · tema",
+          "Vertrauen · conversación",
+          "Vertrauen · práctica"
+        ]
       },
       {
         "word": "Gespräch",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „Gespräch“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „Gespräch“ in einem Satz.",
+        "contexts": [
+          "Gespräch · tema",
+          "Gespräch · conversación",
+          "Gespräch · práctica"
+        ]
       },
       {
         "word": "Meinung",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Meinung“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Meinung“ in einem Satz.",
+        "contexts": [
+          "Meinung · tema",
+          "Meinung · conversación",
+          "Meinung · práctica"
+        ]
       },
       {
         "word": "klären",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „klären“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „klären“ in einem Satz.",
+        "contexts": [
+          "klären · tema",
+          "klären · conversación",
+          "klären · práctica"
+        ]
       },
       {
         "word": "respektieren",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „respektieren“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „respektieren“ in einem Satz.",
+        "contexts": [
+          "respektieren · tema",
+          "respektieren · conversación",
+          "respektieren · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -14068,7 +22866,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Beziehung",
           "zuhören",
@@ -14078,52 +22876,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "erklären",
+          "Beziehung",
           "zuhören",
-          "Nachricht",
-          "Vereinbarung"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Vereinbarung",
-          "Nachricht",
           "erklären",
-          "Vertrauen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Gespräch",
-          "Vereinbarung",
-          "Vertrauen",
           "Nachricht"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "zuhören",
+          "Beziehung",
+          "erklären",
+          "Nachricht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "erklären",
+          "Beziehung",
+          "zuhören",
+          "Nachricht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Vereinbarung",
+          "Beziehung",
+          "zuhören",
+          "erklären"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Beziehung",
           "Vertrauen",
+          "zuhören",
+          "erklären"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "zuhören",
+          "Beziehung",
           "Gespräch",
+          "erklären"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "erklären",
+          "Beziehung",
+          "zuhören",
           "Meinung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Gespräch",
-          "Vertrauen",
-          "Meinung",
-          "klären"
+          "klären",
+          "Beziehung",
+          "zuhören",
+          "erklären"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Beziehung",
+          "respektieren",
+          "zuhören",
+          "erklären"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "zuhören",
+          "Beziehung",
+          "heute",
+          "erklären"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "erklären",
+          "Beziehung",
+          "zuhören",
+          "zusammen"
         ]
       }
     ]
@@ -14138,7 +22996,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 120,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 10,
     "description": "eine Einladung verstehen und Uhrzeiten nennen",
     "intro": "eine Einladung verstehen und Uhrzeiten nennen",
     "mission": "eine Einladung verstehen und Uhrzeiten nennen",
@@ -14203,12 +23061,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Geburtstag und Einladung",
+      "text": "Heute erlebt Anna etwas zum Thema Geburtstag und Einladung. Sie trifft Leon in ihrem Viertel und spricht langsam mit ihm. Leon hört zu, lächelt und stellt eine einfache Frage. Anna antwortet mit klaren Wörtern, denn sie möchte die Situation gut verstehen. Zusammen sehen sie sich den Ort an, begrüßen Menschen und wählen eine kleine Aktivität für den Nachmittag. Einige Dinge kennen sie schon, andere machen sie neugierig. Am Ende sagt Anna, dass eine Sprache lernen auch bedeutet, am Alltag teilzunehmen. Leon stimmt zu und möchte die Erfahrung morgen wiederholen. Dabei benutzt die Gruppe Wörter wie Geburtstag, Einladung, feiern, Uhr. Dabei benutzt die Gruppe Wörter wie Geburtstag, Einladung, feiern, Uhr. Dabei benutzt die Gruppe Wörter wie Geburtstag, Einladung, feiern, Uhr. Dabei benutzt die Gruppe Wörter wie Geburtstag, Einladung, feiern, Uhr.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -14216,42 +23076,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Geburtstag",
-          "kommen",
-          "bringen",
-          "Geschenk"
+          "Einladung",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -14266,7 +23126,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 120,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 14,
     "description": "Wohnungen vergleichen und Lage beschreiben",
     "intro": "Wohnungen vergleichen und Lage beschreiben",
     "mission": "Wohnungen vergleichen und Lage beschreiben",
@@ -14331,12 +23191,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Wohnungssuche",
+      "text": "Letzte Woche hat Anna an einer Aktivität zum Thema Wohnungssuche teilgenommen. Zuerst kannte sie das Programm nicht gut, deshalb hat sie nach Informationen gefragt und den Menschen im Viertel zugehört. Leon kam später, brachte aber eine gute Idee mit. Beide verglichen ihre Erfahrungen und beschlossen, zusammenzuarbeiten. Während der Aktivität bemerkten sie, dass einfache Lösungen vielen Menschen helfen können. Anna erklärte, dass sie weiterlernen möchte, weil man eine Stadt besser versteht, wenn man die Gewohnheiten der Menschen beobachtet. Am Ende schrieben sie eine kurze Nachricht, um der Gruppe zu danken, und planten ein neues Treffen für die nächste Woche. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen. Dabei benutzt die Gruppe Wörter wie Wohnung, Zimmer, Miete, suchen.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -14344,53 +23206,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Wohnung",
-          "größer",
-          "ruhiger",
-          "Besichtigung"
+          "Zimmer",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-a2-wohnungssuche-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Wohnungssuche: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Wohnungssuche: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -14405,7 +23266,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 120,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
     "intro": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
     "mission": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
@@ -14470,12 +23331,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+      "title": "Gesellschaft und Mitwirkung",
+      "text": "Im Viertel von Anna ist das Thema „Gesellschaft und Mitwirkung“ nach einer offenen Sitzung wichtig geworden. Einige Bewohner meinten, das Problem müsse nur von Institutionen gelöst werden; andere fanden, dass auch Bürger mit konkreten Aktionen beitragen können. Anna hörte beide Positionen an und sagte, ein guter Vorschlag müsse realistisch und nicht nur interessant sein. Leon berichtete von einer persönlichen Erfahrung: Früher hatte er an einem ähnlichen Projekt teilgenommen und gelernt, dass regelmäßige Kommunikation viele Missverständnisse verhindert. Die Gruppe teilte deshalb Aufgaben auf, setzte eine Frist und wählte einen einfachen Weg, die Nachbarschaft zu informieren. Nicht alle waren mit jedem Detail einverstanden. Trotzdem beschlossen sie, die Ergebnisse nach einem Monat gemeinsam zu prüfen. Anna hält diese Entscheidung für ausgewogen, weil sie sofortiges Handeln ermöglicht und später Raum für Verbesserungen lässt. Am Ende der Sitzung gingen die Menschen mit unterschiedlichen Verantwortlichkeiten nach Hause, aber mit einem gemeinsamen Ziel: den Alltag zu verbessern, ohne jemanden auszuschließen. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag. Dabei benutzt die Gruppe Wörter wie Gesellschaft, mitwirken, Recht, Vorschlag.",
       "questions": [
-        "Worüber spricht die Gruppe?",
-        "Was macht jede Person?",
-        "Warum arbeiten sie zusammen?",
-        "Welche Idee hilft im Alltag?"
+        "Worum geht es im Text?",
+        "Was macht die Hauptperson zuerst?",
+        "Welche Rolle hat die zweite Person?",
+        "Warum arbeitet die Gruppe zusammen?",
+        "Was ist das gemeinsame Ziel?"
       ]
     },
     "transcript": "",
@@ -14483,53 +23346,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worüber spricht die Gruppe?",
+        "prompt": "Worum geht es im Text?",
         "options": [
           "Gesellschaft",
-          "Initiative",
-          "verbessern",
-          "Verantwortung"
+          "mitwirken",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht jede Person?",
+        "prompt": "Was macht die Hauptperson zuerst?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeiten sie zusammen?",
+        "prompt": "Welche Rolle hat die zweite Person?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Idee hilft im Alltag?",
+        "prompt": "Warum arbeitet die Gruppe zusammen?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "german-b1-gesellschaft-und-mitwirkung-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist der Hauptzweck von „Gesellschaft und Mitwirkung: lectura“?",
+        "prompt": "Was ist das gemeinsame Ziel?",
         "options": [
-          "Die wichtigsten Ideen und Details von Gesellschaft und Mitwirkung: lectura darstellen",
-          "Ein nicht verwandtes Thema darstellen",
-          "Eine Liste ohne Kontext geben",
-          "Eine Geschichte ohne Bezug zum Thema erzählen"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -14612,64 +23474,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Einladung: möchten und Uhrzeiten",
-        "definition": "Práctica guiada de Einladung: möchten und Uhrzeiten.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Geburtstag und Einladung: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "structure": "Subjekt + Verb + Ergänzung",
+        "function": "Über Personen, Orte und Alltag sprechen.",
+        "examples": [
+          "Ich wohne im Viertel.",
+          "Leon spricht mit Anna."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Geburtstag“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Geburtstag.",
-          "Die Gruppe Geburtstag spricht über.",
-          "Geburtstag die über Gruppe spricht.",
-          "Spricht Gruppe die Geburtstag über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Einladung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Einladung spricht über.",
-          "Die Gruppe spricht über Einladung.",
-          "Einladung die über Gruppe spricht.",
-          "Spricht Gruppe die Einladung über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „feiern“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "feiern die über Gruppe spricht.",
-          "Die Gruppe feiern spricht über.",
-          "Die Gruppe spricht über feiern.",
-          "Spricht Gruppe die feiern über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Uhr“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Uhr über.",
-          "Die Gruppe Uhr spricht über.",
-          "Uhr die über Gruppe spricht.",
-          "Die Gruppe spricht über Uhr."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „heute“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über heute.",
-          "Die Gruppe heute spricht über.",
-          "heute die über Gruppe spricht.",
-          "Spricht Gruppe die heute über."
-        ]
+          "Ich wohne im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohne im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich wohne im Viertel."
+        ],
+        "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
     ]
   },
@@ -14751,64 +23738,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Wohnungssuche: Wechselpräpositionen und Vergleich",
-        "definition": "Práctica guiada de Wohnungssuche: Wechselpräpositionen und Vergleich.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Wohnungssuche: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "structure": "haben/sein + Partizip II",
+        "function": "Erfahrungen und Pläne erzählen.",
+        "examples": [
+          "Gestern habe ich das Museum besucht.",
+          "Danach haben wir zusammen gesprochen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Wohnung“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Wohnung.",
-          "Die Gruppe Wohnung spricht über.",
-          "Wohnung die über Gruppe spricht.",
-          "Spricht Gruppe die Wohnung über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Zimmer“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe Zimmer spricht über.",
-          "Die Gruppe spricht über Zimmer.",
-          "Zimmer die über Gruppe spricht.",
-          "Spricht Gruppe die Zimmer über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Miete“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Miete die über Gruppe spricht.",
-          "Die Gruppe Miete spricht über.",
-          "Die Gruppe spricht über Miete.",
-          "Spricht Gruppe die Miete über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „suchen“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die suchen über.",
-          "Die Gruppe suchen spricht über.",
-          "suchen die über Gruppe spricht.",
-          "Die Gruppe spricht über suchen."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „neben“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über neben.",
-          "Die Gruppe neben spricht über.",
-          "neben die über Gruppe spricht.",
-          "Spricht Gruppe die neben über."
-        ]
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Gestern habe ich das Museum besucht.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Gestern habe ich das Museum besucht."
+        ],
+        "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
     ]
   },
@@ -14890,64 +24002,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Gesellschaft: Konjunktiv II und Argumentation",
-        "definition": "Práctica guiada de Gesellschaft: Konjunktiv II und Argumentation.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Gesellschaft und Mitwirkung: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "structure": "Meinung + weil/obwohl/deshalb + Begründung",
+        "function": "Eine Meinung ausdrücken und begründen.",
+        "examples": [
+          "Ich finde den Vorschlag sinnvoll.",
+          "Trotzdem müssen wir die Ergebnisse prüfen."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Welcher Satz ist korrekt?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Gesellschaft“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Gesellschaft.",
-          "Die Gruppe Gesellschaft spricht über.",
-          "Gesellschaft die über Gruppe spricht.",
-          "Spricht Gruppe die Gesellschaft über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „mitwirken“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe mitwirken spricht über.",
-          "Die Gruppe spricht über mitwirken.",
-          "mitwirken die über Gruppe spricht.",
-          "Spricht Gruppe die mitwirken über."
-        ]
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Recht“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Recht die über Gruppe spricht.",
-          "Die Gruppe Recht spricht über.",
-          "Die Gruppe spricht über Recht.",
-          "Spricht Gruppe die Recht über."
-        ]
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Vorschlag“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Spricht Gruppe die Vorschlag über.",
-          "Die Gruppe Vorschlag spricht über.",
-          "Vorschlag die über Gruppe spricht.",
-          "Die Gruppe spricht über Vorschlag."
-        ]
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz verwendet „Gemeinschaft“ richtig?",
+        "prompt": "Welcher Satz ist korrekt?",
         "options": [
-          "Die Gruppe spricht über Gemeinschaft.",
-          "Die Gruppe Gemeinschaft spricht über.",
-          "Gemeinschaft die über Gruppe spricht.",
-          "Spricht Gruppe die Gemeinschaft über."
-        ]
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Ich wohnt im Viertel.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Ich wohnt im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich finde den Vorschlag sinnvoll.",
+          "Wohne ich im Viertel."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Welcher Satz ist korrekt?",
+        "options": [
+          "Wohne ich im Viertel.",
+          "Ich wohnen im Viertel.",
+          "Ich wohnt im Viertel.",
+          "Ich finde den Vorschlag sinnvoll."
+        ],
+        "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
     ]
   },
@@ -14976,52 +24213,134 @@
       {
         "word": "Geburtstag",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Geburtstag“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Geburtstag“ in einem Satz.",
+        "contexts": [
+          "Geburtstag · tema",
+          "Geburtstag · conversación",
+          "Geburtstag · práctica"
+        ]
       },
       {
         "word": "Einladung",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Einladung“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Einladung“ in einem Satz.",
+        "contexts": [
+          "Einladung · tema",
+          "Einladung · conversación",
+          "Einladung · práctica"
+        ]
       },
       {
         "word": "feiern",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „feiern“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „feiern“ in einem Satz.",
+        "contexts": [
+          "feiern · tema",
+          "feiern · conversación",
+          "feiern · práctica"
+        ]
       },
       {
         "word": "Uhr",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Uhr“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Uhr“ in einem Satz.",
+        "contexts": [
+          "Uhr · tema",
+          "Uhr · conversación",
+          "Uhr · práctica"
+        ]
       },
       {
         "word": "heute",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „heute“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
       },
       {
         "word": "morgen",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „morgen“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „morgen“ in einem Satz.",
+        "contexts": [
+          "morgen · tema",
+          "morgen · conversación",
+          "morgen · práctica"
+        ]
       },
       {
         "word": "gern",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „gern“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „gern“ in einem Satz.",
+        "contexts": [
+          "gern · tema",
+          "gern · conversación",
+          "gern · práctica"
+        ]
       },
       {
         "word": "kommen",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „kommen“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „kommen“ in einem Satz.",
+        "contexts": [
+          "kommen · tema",
+          "kommen · conversación",
+          "kommen · práctica"
+        ]
       },
       {
         "word": "bringen",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „bringen“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „bringen“ in einem Satz.",
+        "contexts": [
+          "bringen · tema",
+          "bringen · conversación",
+          "bringen · práctica"
+        ]
       },
       {
         "word": "Geschenk",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Geschenk“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Geschenk“ in einem Satz.",
+        "contexts": [
+          "Geschenk · tema",
+          "Geschenk · conversación",
+          "Geschenk · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
+      },
+      {
+        "word": "Viertel",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Ich benutze „Viertel“ in einem Satz.",
+        "contexts": [
+          "Viertel · tema",
+          "Viertel · conversación",
+          "Viertel · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -15031,7 +24350,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Geburtstag",
           "Einladung",
@@ -15041,52 +24360,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "feiern",
+          "Geburtstag",
           "Einladung",
-          "Uhr",
-          "heute"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "heute",
-          "Uhr",
           "feiern",
-          "morgen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "gern",
-          "heute",
-          "morgen",
           "Uhr"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Einladung",
+          "Geburtstag",
+          "feiern",
+          "Uhr"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "feiern",
+          "Geburtstag",
+          "Einladung",
+          "Uhr"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "heute",
+          "Geburtstag",
+          "Einladung",
+          "feiern"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Geburtstag",
           "morgen",
+          "Einladung",
+          "feiern"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Einladung",
+          "Geburtstag",
           "gern",
+          "feiern"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "feiern",
+          "Geburtstag",
+          "Einladung",
           "kommen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "gern",
-          "morgen",
-          "kommen",
-          "bringen"
+          "bringen",
+          "Geburtstag",
+          "Einladung",
+          "feiern"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Geburtstag",
+          "Geschenk",
+          "Einladung",
+          "feiern"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Einladung",
+          "Geburtstag",
+          "zusammen",
+          "feiern"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "feiern",
+          "Geburtstag",
+          "Einladung",
+          "Viertel"
         ]
       }
     ]
@@ -15116,52 +24495,134 @@
       {
         "word": "Wohnung",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Wohnung“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Wohnung“ in einem Satz.",
+        "contexts": [
+          "Wohnung · tema",
+          "Wohnung · conversación",
+          "Wohnung · práctica"
+        ]
       },
       {
         "word": "Zimmer",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „Zimmer“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „Zimmer“ in einem Satz.",
+        "contexts": [
+          "Zimmer · tema",
+          "Zimmer · conversación",
+          "Zimmer · práctica"
+        ]
       },
       {
         "word": "Miete",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Miete“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Miete“ in einem Satz.",
+        "contexts": [
+          "Miete · tema",
+          "Miete · conversación",
+          "Miete · práctica"
+        ]
       },
       {
         "word": "suchen",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „suchen“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „suchen“ in einem Satz.",
+        "contexts": [
+          "suchen · tema",
+          "suchen · conversación",
+          "suchen · práctica"
+        ]
       },
       {
         "word": "neben",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „neben“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „neben“ in einem Satz.",
+        "contexts": [
+          "neben · tema",
+          "neben · conversación",
+          "neben · práctica"
+        ]
       },
       {
         "word": "über",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „über“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „über“ in einem Satz.",
+        "contexts": [
+          "über · tema",
+          "über · conversación",
+          "über · práctica"
+        ]
       },
       {
         "word": "unter",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „unter“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „unter“ in einem Satz.",
+        "contexts": [
+          "unter · tema",
+          "unter · conversación",
+          "unter · práctica"
+        ]
       },
       {
         "word": "größer",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „größer“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „größer“ in einem Satz.",
+        "contexts": [
+          "größer · tema",
+          "größer · conversación",
+          "größer · práctica"
+        ]
       },
       {
         "word": "ruhiger",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „ruhiger“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „ruhiger“ in einem Satz.",
+        "contexts": [
+          "ruhiger · tema",
+          "ruhiger · conversación",
+          "ruhiger · práctica"
+        ]
       },
       {
         "word": "Besichtigung",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Besichtigung“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Besichtigung“ in einem Satz.",
+        "contexts": [
+          "Besichtigung · tema",
+          "Besichtigung · conversación",
+          "Besichtigung · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -15171,7 +24632,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Wohnung",
           "Zimmer",
@@ -15181,52 +24642,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Miete",
+          "Wohnung",
           "Zimmer",
-          "suchen",
-          "neben"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "neben",
-          "suchen",
           "Miete",
-          "über"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "unter",
-          "neben",
-          "über",
           "suchen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Zimmer",
+          "Wohnung",
+          "Miete",
+          "suchen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Miete",
+          "Wohnung",
+          "Zimmer",
+          "suchen"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "neben",
+          "Wohnung",
+          "Zimmer",
+          "Miete"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Wohnung",
           "über",
+          "Zimmer",
+          "Miete"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Zimmer",
+          "Wohnung",
           "unter",
+          "Miete"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Miete",
+          "Wohnung",
+          "Zimmer",
           "größer"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "unter",
-          "über",
-          "größer",
-          "ruhiger"
+          "ruhiger",
+          "Wohnung",
+          "Zimmer",
+          "Miete"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Wohnung",
+          "Besichtigung",
+          "Zimmer",
+          "Miete"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Zimmer",
+          "Wohnung",
+          "heute",
+          "Miete"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Miete",
+          "Wohnung",
+          "Zimmer",
+          "zusammen"
         ]
       }
     ]
@@ -15256,52 +24777,134 @@
       {
         "word": "Gesellschaft",
         "translation": "Palabra clave 1",
-        "example": "Ich benutze das Wort „Gesellschaft“ im Kontext."
+        "definition": "Palabra clave 1",
+        "example": "Ich benutze „Gesellschaft“ in einem Satz.",
+        "contexts": [
+          "Gesellschaft · tema",
+          "Gesellschaft · conversación",
+          "Gesellschaft · práctica"
+        ]
       },
       {
         "word": "mitwirken",
         "translation": "Palabra clave 2",
-        "example": "Ich benutze das Wort „mitwirken“ im Kontext."
+        "definition": "Palabra clave 2",
+        "example": "Ich benutze „mitwirken“ in einem Satz.",
+        "contexts": [
+          "mitwirken · tema",
+          "mitwirken · conversación",
+          "mitwirken · práctica"
+        ]
       },
       {
         "word": "Recht",
         "translation": "Palabra clave 3",
-        "example": "Ich benutze das Wort „Recht“ im Kontext."
+        "definition": "Palabra clave 3",
+        "example": "Ich benutze „Recht“ in einem Satz.",
+        "contexts": [
+          "Recht · tema",
+          "Recht · conversación",
+          "Recht · práctica"
+        ]
       },
       {
         "word": "Vorschlag",
         "translation": "Palabra clave 4",
-        "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
+        "definition": "Palabra clave 4",
+        "example": "Ich benutze „Vorschlag“ in einem Satz.",
+        "contexts": [
+          "Vorschlag · tema",
+          "Vorschlag · conversación",
+          "Vorschlag · práctica"
+        ]
       },
       {
         "word": "Gemeinschaft",
         "translation": "Palabra clave 5",
-        "example": "Ich benutze das Wort „Gemeinschaft“ im Kontext."
+        "definition": "Palabra clave 5",
+        "example": "Ich benutze „Gemeinschaft“ in einem Satz.",
+        "contexts": [
+          "Gemeinschaft · tema",
+          "Gemeinschaft · conversación",
+          "Gemeinschaft · práctica"
+        ]
       },
       {
         "word": "wählen",
         "translation": "Palabra clave 6",
-        "example": "Ich benutze das Wort „wählen“ im Kontext."
+        "definition": "Palabra clave 6",
+        "example": "Ich benutze „wählen“ in einem Satz.",
+        "contexts": [
+          "wählen · tema",
+          "wählen · conversación",
+          "wählen · práctica"
+        ]
       },
       {
         "word": "freiwillig",
         "translation": "Palabra clave 7",
-        "example": "Ich benutze das Wort „freiwillig“ im Kontext."
+        "definition": "Palabra clave 7",
+        "example": "Ich benutze „freiwillig“ in einem Satz.",
+        "contexts": [
+          "freiwillig · tema",
+          "freiwillig · conversación",
+          "freiwillig · práctica"
+        ]
       },
       {
         "word": "Initiative",
         "translation": "Palabra clave 8",
-        "example": "Ich benutze das Wort „Initiative“ im Kontext."
+        "definition": "Palabra clave 8",
+        "example": "Ich benutze „Initiative“ in einem Satz.",
+        "contexts": [
+          "Initiative · tema",
+          "Initiative · conversación",
+          "Initiative · práctica"
+        ]
       },
       {
         "word": "verbessern",
         "translation": "Palabra clave 9",
-        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+        "definition": "Palabra clave 9",
+        "example": "Ich benutze „verbessern“ in einem Satz.",
+        "contexts": [
+          "verbessern · tema",
+          "verbessern · conversación",
+          "verbessern · práctica"
+        ]
       },
       {
         "word": "Verantwortung",
         "translation": "Palabra clave 10",
-        "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
+        "definition": "Palabra clave 10",
+        "example": "Ich benutze „Verantwortung“ in einem Satz.",
+        "contexts": [
+          "Verantwortung · tema",
+          "Verantwortung · conversación",
+          "Verantwortung · práctica"
+        ]
+      },
+      {
+        "word": "heute",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Ich benutze „heute“ in einem Satz.",
+        "contexts": [
+          "heute · tema",
+          "heute · conversación",
+          "heute · práctica"
+        ]
+      },
+      {
+        "word": "zusammen",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Ich benutze „zusammen“ in einem Satz.",
+        "contexts": [
+          "zusammen · tema",
+          "zusammen · conversación",
+          "zusammen · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -15311,7 +24914,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Gesellschaft",
           "mitwirken",
@@ -15321,52 +24924,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "Recht",
+          "Gesellschaft",
           "mitwirken",
-          "Vorschlag",
-          "Gemeinschaft"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "Gemeinschaft",
-          "Vorschlag",
           "Recht",
-          "wählen"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "freiwillig",
-          "Gemeinschaft",
-          "wählen",
           "Vorschlag"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "mitwirken",
+          "Gesellschaft",
+          "Recht",
+          "Vorschlag"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Recht",
+          "Gesellschaft",
+          "mitwirken",
+          "Vorschlag"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
           "Gemeinschaft",
+          "Gesellschaft",
+          "mitwirken",
+          "Recht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Gesellschaft",
           "wählen",
+          "mitwirken",
+          "Recht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "mitwirken",
+          "Gesellschaft",
           "freiwillig",
+          "Recht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Recht",
+          "Gesellschaft",
+          "mitwirken",
           "Initiative"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
         "options": [
-          "freiwillig",
-          "wählen",
-          "Initiative",
-          "verbessern"
+          "verbessern",
+          "Gesellschaft",
+          "mitwirken",
+          "Recht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Gesellschaft",
+          "Verantwortung",
+          "mitwirken",
+          "Recht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "mitwirken",
+          "Gesellschaft",
+          "heute",
+          "Recht"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Wähle das Wort aus dieser Einheit.",
+        "options": [
+          "Recht",
+          "Gesellschaft",
+          "mitwirken",
+          "zusammen"
         ]
       }
     ]

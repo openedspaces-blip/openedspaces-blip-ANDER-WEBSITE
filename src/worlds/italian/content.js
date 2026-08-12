@@ -46,12 +46,13 @@
     ],
     "reading": {
       "title": "Italiano A1 Reading",
-      "text": "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Oggi ho imparato molto.”.",
+      "text": "Oggi Sofia vive una piccola esperienza legata a Un messaggio a casa. Incontra Marco nel suo quartiere e gli parla con calma. Marco ascolta, sorride e fa una domanda semplice. Sofia risponde con parole chiare, perché vuole capire bene la situazione. Insieme osservano il luogo, salutano le persone e scelgono una piccola attività per il pomeriggio. Non tutto è nuovo: alcune cose sono familiari, ma altre invitano a fare domande. Alla fine Sofia racconta a Marco che imparare una lingua significa anche partecipare alla vita quotidiana. Marco è d'accordo e propone di ripetere l'esperienza domani. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     }
   },
@@ -97,12 +98,13 @@
     ],
     "reading": {
       "title": "Italiano A2 Reading",
-      "text": "Sofia vive em Bologna e parla con Marco sobre cerrar el nivel con una experiencia personal. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “È stato un viaggio importante.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “È stato un viaggio importante.”.",
+      "text": "La settimana scorsa Sofia ha partecipato a un'attività chiamata Raccontare il proprio viaggio. All'inizio non conosceva bene il programma, quindi ha chiesto informazioni e ha ascoltato le persone del quartiere. Marco è arrivato più tardi, ma ha portato una buona idea. I due hanno confrontato le loro esperienze e hanno deciso di collaborare. Durante l'attività hanno notato che le soluzioni più semplici spesso aiutano molte persone. Sofia ha spiegato che vuole continuare a imparare, perché una città si capisce meglio quando si osservano le abitudini di chi ci vive. Alla fine hanno scritto un breve messaggio per ringraziare il gruppo e hanno programmato un nuovo incontro per la settimana seguente. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     }
   },
@@ -170,12 +172,13 @@
     ],
     "reading": {
       "title": "Italiano B1 Reading",
-      "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "text": "Nel quartiere di Sofia, il tema “Cittadinanza e partecipazione” è diventato importante dopo una riunione aperta. Alcuni abitanti pensavano che il problema dovesse essere risolto soltanto dalle istituzioni; altri sostenevano che anche i cittadini potessero contribuire con azioni concrete. Sofia ha ascoltato entrambe le posizioni e ha osservato che una proposta utile deve essere realistica, non soltanto interessante. Marco ha raccontato un'esperienza personale: in passato aveva partecipato a un progetto simile e aveva capito che la comunicazione regolare evita molti malintesi. Il gruppo ha quindi diviso i compiti, ha fissato una scadenza e ha scelto un modo semplice per informare il vicinato. Non tutti erano d'accordo su ogni dettaglio, tuttavia hanno accettato di valutare i risultati dopo un mese. Sofia ritiene che questa decisione sia equilibrata, perché permette di agire subito e di correggere il progetto con calma. Alla fine della riunione, le persone hanno lasciato la sala con responsabilità diverse, ma con un obiettivo comune: migliorare la vita quotidiana senza escludere nessuno. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta.",
       "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     }
   },
@@ -421,7 +424,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 10,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "organizzare il tempo e proporre soluzioni",
     "intro": "organizzare il tempo e proporre soluzioni",
     "mission": "organizzare il tempo e proporre soluzioni",
@@ -486,12 +489,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "title": "Lavoro e obiettivi",
+      "text": "Nel quartiere di Sofia, il tema “Lavoro e obiettivi” è diventato importante dopo una riunione aperta. Alcuni abitanti pensavano che il problema dovesse essere risolto soltanto dalle istituzioni; altri sostenevano che anche i cittadini potessero contribuire con azioni concrete. Sofia ha ascoltato entrambe le posizioni e ha osservato che una proposta utile deve essere realistica, non soltanto interessante. Marco ha raccontato un'esperienza personale: in passato aveva partecipato a un progetto simile e aveva capito che la comunicazione regolare evita molti malintesi. Il gruppo ha quindi diviso i compiti, ha fissato una scadenza e ha scelto un modo semplice per informare il vicinato. Non tutti erano d'accordo su ogni dettaglio, tuttavia hanno accettato di valutare i risultati dopo un mese. Sofia ritiene che questa decisione sia equilibrata, perché permette di agire subito e di correggere il progetto con calma. Alla fine della riunione, le persone hanno lasciato la sala con responsabilità diverse, ma con un obiettivo comune: migliorare la vita quotidiana senza escludere nessuno. Durante l'incontro usano parole utili come obiettivi, scadenza, squadra, migliorare. Durante l'incontro usano parole utili come obiettivi, scadenza, squadra, migliorare. Durante l'incontro usano parole utili come obiettivi, scadenza, squadra, migliorare. Durante l'incontro usano parole utili come obiettivi, scadenza, squadra, migliorare. Durante l'incontro usano parole utili come obiettivi, scadenza, squadra, migliorare. Durante l'incontro usano parole utili come obiettivi, scadenza, squadra, migliorare. Durante l'incontro usano parole utili come obiettivi, scadenza, squadra, migliorare. Durante l'incontro usano parole utili come obiettivi, scadenza, squadra, migliorare. Durante l'incontro usano parole utili come obiettivi, scadenza, squadra, migliorare. Durante l'incontro usano parole utili come obiettivi, scadenza, squadra, migliorare. Durante l'incontro usano parole utili come obiettivi, scadenza, squadra, migliorare. Durante l'incontro usano parole utili come obiettivi, scadenza, squadra, migliorare. Durante l'incontro usano parole utili come obiettivi, scadenza, squadra, migliorare. Durante l'incontro usano parole utili come obiettivi, scadenza, squadra, migliorare.",
       "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     },
     "transcript": "",
@@ -499,53 +504,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
           "obiettivi",
-          "proposta",
-          "abitudine",
-          "fiducia"
+          "scadenza",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-b1-lavoro-e-obiettivi-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Lavoro e obiettivi: lectura»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Lavoro e obiettivi: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -560,7 +564,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 10,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Saluti e presentazioni a Bologna",
     "intro": "Saluti e presentazioni a Bologna",
     "mission": "",
@@ -570,62 +574,56 @@
     "dialogue": [],
     "reading": {
       "title": "Benvenuti in Italia",
-      "parts": [
-        "Sofia è em Bologna. Hoje descobre saluti e presentazioni a bologna. Encontra Marco e diz: “Ciao, come stai?”. Os dois falam com respeito e aprendem quatro palavras novas: ciao, buongiorno, piacere e grazie.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Ciao, come stai?”."
-      ],
+      "text": "Oggi Sofia vive una piccola esperienza legata a Benvenuti in Italia. Incontra Marco nel suo quartiere e gli parla con calma. Marco ascolta, sorride e fa una domanda semplice. Sofia risponde con parole chiare, perché vuole capire bene la situazione. Insieme osservano il luogo, salutano le persone e scelgono una piccola attività per il pomeriggio. Non tutto è nuovo: alcune cose sono familiari, ma altre invitano a fare domande. Alla fine Sofia racconta a Marco che imparare una lingua significa anche partecipare alla vita quotidiana. Marco è d'accordo e propone di ripetere l'esperienza domani. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia è em Bologna. Hoje descobre saluti e presentazioni a bologna. Encontra Marco e diz: “Ciao, come stai?”. Os dois falam com respeito e aprendem quatro palavras novas: ciao, buongiorno, piacere e grazie.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Ciao, come stai?”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Saluti e presentazioni a Bologna",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "salutare e presentarsi",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a1-benvenuti-in-italia-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Benvenuti in Italia»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Benvenuti in Italia",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a1-benvenuti-in-italia-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Benvenuti in Italia»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Benvenuti in Italia",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -640,7 +638,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 10,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 14,
     "description": "Rutinas urbanas y servicios públicos",
     "intro": "Rutinas urbanas y servicios públicos",
     "mission": "",
@@ -650,73 +648,66 @@
     "dialogue": [],
     "reading": {
       "title": "Vita in città",
-      "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre rutinas urbanas y servicios públicos. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Di solito prendo l’autobus.” e spiega perché questa esperienza è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Di solito prendo l’autobus.”."
-      ],
+      "text": "La settimana scorsa Sofia ha partecipato a un'attività chiamata Vita in città. All'inizio non conosceva bene il programma, quindi ha chiesto informazioni e ha ascoltato le persone del quartiere. Marco è arrivato più tardi, ma ha portato una buona idea. I due hanno confrontato le loro esperienze e hanno deciso di collaborare. Durante l'attività hanno notato che le soluzioni più semplici spesso aiutano molte persone. Sofia ha spiegato che vuole continuare a imparare, perché una città si capisce meglio quando si osservano le abitudini di chi ci vive. Alla fine hanno scritto un breve messaggio per ringraziare il gruppo e hanno programmato un nuovo incontro per la settimana seguente. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre rutinas urbanas y servicios públicos. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Di solito prendo l’autobus.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Di solito prendo l’autobus.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Rutinas urbanas y servicios públicos",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "describir una rutina",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a2-vita-in-citta-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Vita in città»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Vita in città",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a2-vita-in-citta-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Vita in città»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Vita in città",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-a2-vita-in-citta-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Vita in città»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Vita in città",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -799,64 +790,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Periodo ipotetico della possibilità",
-        "definition": "Práctica guiada de Periodo ipotetico della possibilità.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Lavoro e obiettivi: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "structure": "opinione + perché/tuttavia/quindi + motivazione",
+        "function": "Esprimere e giustificare un punto di vista.",
+        "examples": [
+          "Penso che la proposta sia utile.",
+          "Tuttavia dobbiamo valutare i risultati."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «obiettivi» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di obiettivi.",
-          "Il gruppo obiettivi parla di.",
-          "obiettivi il di gruppo parla.",
-          "Parla gruppo il obiettivi di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «scadenza» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo scadenza parla di.",
-          "Il gruppo parla di scadenza.",
-          "scadenza il di gruppo parla.",
-          "Parla gruppo il scadenza di."
-        ]
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «squadra» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "squadra il di gruppo parla.",
-          "Il gruppo squadra parla di.",
-          "Il gruppo parla di squadra.",
-          "Parla gruppo il squadra di."
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «migliorare» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Parla gruppo il migliorare di.",
-          "Il gruppo migliorare parla di.",
-          "migliorare il di gruppo parla.",
-          "Il gruppo parla di migliorare."
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «scegliere» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di scegliere.",
-          "Il gruppo scegliere parla di.",
-          "scegliere il di gruppo parla.",
-          "Parla gruppo il scegliere di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
   },
@@ -1263,52 +1379,134 @@
       {
         "word": "obiettivi",
         "translation": "Palabra clave 1",
-        "example": "Uso la parola «obiettivi» nel contesto."
+        "definition": "Palabra clave 1",
+        "example": "Uso «obiettivi» in una frase.",
+        "contexts": [
+          "obiettivi · tema",
+          "obiettivi · conversación",
+          "obiettivi · práctica"
+        ]
       },
       {
         "word": "scadenza",
         "translation": "Palabra clave 2",
-        "example": "Uso la parola «scadenza» nel contesto."
+        "definition": "Palabra clave 2",
+        "example": "Uso «scadenza» in una frase.",
+        "contexts": [
+          "scadenza · tema",
+          "scadenza · conversación",
+          "scadenza · práctica"
+        ]
       },
       {
         "word": "squadra",
         "translation": "Palabra clave 3",
-        "example": "Uso la parola «squadra» nel contesto."
+        "definition": "Palabra clave 3",
+        "example": "Uso «squadra» in una frase.",
+        "contexts": [
+          "squadra · tema",
+          "squadra · conversación",
+          "squadra · práctica"
+        ]
       },
       {
         "word": "migliorare",
         "translation": "Palabra clave 4",
-        "example": "Uso la parola «migliorare» nel contesto."
+        "definition": "Palabra clave 4",
+        "example": "Uso «migliorare» in una frase.",
+        "contexts": [
+          "migliorare · tema",
+          "migliorare · conversación",
+          "migliorare · práctica"
+        ]
       },
       {
         "word": "scegliere",
         "translation": "Palabra clave 5",
-        "example": "Uso la parola «scegliere» nel contesto."
+        "definition": "Palabra clave 5",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
       },
       {
         "word": "risultato",
         "translation": "Palabra clave 6",
-        "example": "Uso la parola «risultato» nel contesto."
+        "definition": "Palabra clave 6",
+        "example": "Uso «risultato» in una frase.",
+        "contexts": [
+          "risultato · tema",
+          "risultato · conversación",
+          "risultato · práctica"
+        ]
       },
       {
         "word": "responsabilità",
         "translation": "Palabra clave 7",
-        "example": "Uso la parola «responsabilità» nel contesto."
+        "definition": "Palabra clave 7",
+        "example": "Uso «responsabilità» in una frase.",
+        "contexts": [
+          "responsabilità · tema",
+          "responsabilità · conversación",
+          "responsabilità · práctica"
+        ]
       },
       {
         "word": "proposta",
         "translation": "Palabra clave 8",
-        "example": "Uso la parola «proposta» nel contesto."
+        "definition": "Palabra clave 8",
+        "example": "Uso «proposta» in una frase.",
+        "contexts": [
+          "proposta · tema",
+          "proposta · conversación",
+          "proposta · práctica"
+        ]
       },
       {
         "word": "abitudine",
         "translation": "Palabra clave 9",
-        "example": "Uso la parola «abitudine» nel contesto."
+        "definition": "Palabra clave 9",
+        "example": "Uso «abitudine» in una frase.",
+        "contexts": [
+          "abitudine · tema",
+          "abitudine · conversación",
+          "abitudine · práctica"
+        ]
       },
       {
         "word": "fiducia",
         "translation": "Palabra clave 10",
-        "example": "Uso la parola «fiducia» nel contesto."
+        "definition": "Palabra clave 10",
+        "example": "Uso «fiducia» in una frase.",
+        "contexts": [
+          "fiducia · tema",
+          "fiducia · conversación",
+          "fiducia · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -1318,7 +1516,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "obiettivi",
           "scadenza",
@@ -1328,52 +1526,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "squadra",
+          "obiettivi",
           "scadenza",
-          "migliorare",
-          "scegliere"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "scegliere",
-          "migliorare",
           "squadra",
-          "risultato"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "responsabilità",
-          "scegliere",
-          "risultato",
           "migliorare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "scadenza",
+          "obiettivi",
+          "squadra",
+          "migliorare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "squadra",
+          "obiettivi",
+          "scadenza",
+          "migliorare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "scegliere",
+          "obiettivi",
+          "scadenza",
+          "squadra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "obiettivi",
           "risultato",
+          "scadenza",
+          "squadra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "scadenza",
+          "obiettivi",
           "responsabilità",
+          "squadra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "squadra",
+          "obiettivi",
+          "scadenza",
           "proposta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "responsabilità",
-          "risultato",
-          "proposta",
-          "abitudine"
+          "abitudine",
+          "obiettivi",
+          "scadenza",
+          "squadra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "obiettivi",
+          "fiducia",
+          "scadenza",
+          "squadra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "scadenza",
+          "obiettivi",
+          "oggi",
+          "squadra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "squadra",
+          "obiettivi",
+          "scadenza",
+          "insieme"
         ]
       }
     ]
@@ -1528,54 +1786,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Saluti, essere e chiamarsi",
-        "definition": "Práctica guiada de Saluti, essere e chiamarsi.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Benvenuti in Italia: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "structure": "soggetto + verbo al presente",
+        "function": "Descrivere persone, luoghi e routine.",
+        "examples": [
+          "Io vivo nel quartiere.",
+          "Marco parla con Sofia."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Ciao, come stai?",
-          "ciao",
-          "buongiorno",
-          "piacere"
-        ]
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "ciao",
-          "buongiorno",
-          "piacere",
-          "grazie"
-        ]
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "buongiorno",
-          "ciao",
-          "piacere",
-          "grazie"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Ciao, come stai?",
-          "piacere",
-          "grazie",
-          "ciao"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
     ]
   },
@@ -1603,54 +1996,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Passato prossimo con essere e avere",
-        "definition": "Práctica guiada de Passato prossimo con essere e avere.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Vita in città: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "structure": "ausiliare avere/essere + participio passato",
+        "function": "Raccontare esperienze e progetti.",
+        "examples": [
+          "Ieri ho visitato il museo.",
+          "Poi abbiamo parlato insieme."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Di solito prendo l’autobus.",
-          "quartiere",
-          "fermata",
-          "ufficio"
-        ]
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "quartiere",
-          "fermata",
-          "ufficio",
-          "servizio"
-        ]
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "fermata",
-          "quartiere",
-          "ufficio",
-          "servizio"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Di solito prendo l’autobus.",
-          "ufficio",
-          "servizio",
-          "quartiere"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
     ]
   },
@@ -1674,22 +2202,134 @@
       {
         "word": "ciao",
         "translation": "palabra cultural",
-        "example": "Ciao, come stai?"
+        "definition": "palabra cultural",
+        "example": "Uso «ciao» in una frase.",
+        "contexts": [
+          "ciao · tema",
+          "ciao · conversación",
+          "ciao · práctica"
+        ]
       },
       {
         "word": "buongiorno",
         "translation": "acción cotidiana",
-        "example": "Ciao, come stai?"
+        "definition": "acción cotidiana",
+        "example": "Uso «buongiorno» in una frase.",
+        "contexts": [
+          "buongiorno · tema",
+          "buongiorno · conversación",
+          "buongiorno · práctica"
+        ]
       },
       {
         "word": "piacere",
         "translation": "lugar o cosa",
-        "example": "Ciao, come stai?"
+        "definition": "lugar o cosa",
+        "example": "Uso «piacere» in una frase.",
+        "contexts": [
+          "piacere · tema",
+          "piacere · conversación",
+          "piacere · práctica"
+        ]
       },
       {
         "word": "grazie",
         "translation": "expresión útil",
-        "example": "Ciao, come stai?"
+        "definition": "expresión útil",
+        "example": "Uso «grazie» in una frase.",
+        "contexts": [
+          "grazie · tema",
+          "grazie · conversación",
+          "grazie · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -1699,12 +2339,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "ciao",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "buongiorno",
+          "piacere",
+          "grazie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ciao",
+          "buongiorno",
+          "piacere",
+          "grazie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "buongiorno",
+          "ciao",
+          "piacere",
+          "grazie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "piacere",
+          "ciao",
+          "buongiorno",
+          "grazie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "ciao",
+          "buongiorno",
+          "piacere"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ciao",
+          "insieme",
+          "buongiorno",
+          "piacere"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "buongiorno",
+          "ciao",
+          "quartiere",
+          "piacere"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "piacere",
+          "ciao",
+          "buongiorno",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "ciao",
+          "buongiorno",
+          "piacere"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ciao",
+          "esperienza",
+          "buongiorno",
+          "piacere"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "buongiorno",
+          "ciao",
+          "scegliere",
+          "piacere"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "piacere",
+          "ciao",
+          "buongiorno",
+          "capire"
         ]
       }
     ]
@@ -1729,22 +2479,134 @@
       {
         "word": "quartiere",
         "translation": "palabra cultural",
-        "example": "Di solito prendo l’autobus."
+        "definition": "palabra cultural",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
       },
       {
         "word": "fermata",
         "translation": "acción cotidiana",
-        "example": "Di solito prendo l’autobus."
+        "definition": "acción cotidiana",
+        "example": "Uso «fermata» in una frase.",
+        "contexts": [
+          "fermata · tema",
+          "fermata · conversación",
+          "fermata · práctica"
+        ]
       },
       {
         "word": "ufficio",
         "translation": "lugar o cosa",
-        "example": "Di solito prendo l’autobus."
+        "definition": "lugar o cosa",
+        "example": "Uso «ufficio» in una frase.",
+        "contexts": [
+          "ufficio · tema",
+          "ufficio · conversación",
+          "ufficio · práctica"
+        ]
       },
       {
         "word": "servizio",
         "translation": "expresión útil",
-        "example": "Di solito prendo l’autobus."
+        "definition": "expresión útil",
+        "example": "Uso «servizio» in una frase.",
+        "contexts": [
+          "servizio · tema",
+          "servizio · conversación",
+          "servizio · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
+      },
+      {
+        "word": "proposta",
+        "translation": "propuesta",
+        "definition": "propuesta",
+        "example": "Uso «proposta» in una frase.",
+        "contexts": [
+          "proposta · tema",
+          "proposta · conversación",
+          "proposta · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -1754,12 +2616,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "quartiere",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "fermata",
+          "ufficio",
+          "servizio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "quartiere",
+          "fermata",
+          "ufficio",
+          "servizio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "fermata",
+          "quartiere",
+          "ufficio",
+          "servizio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ufficio",
+          "quartiere",
+          "fermata",
+          "servizio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "quartiere",
+          "fermata",
+          "ufficio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "quartiere",
+          "insieme",
+          "fermata",
+          "ufficio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "fermata",
+          "quartiere",
+          "domanda",
+          "ufficio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ufficio",
+          "quartiere",
+          "fermata",
+          "risposta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "esperienza",
+          "quartiere",
+          "fermata",
+          "ufficio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "quartiere",
+          "scegliere",
+          "fermata",
+          "ufficio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "fermata",
+          "quartiere",
+          "capire",
+          "ufficio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ufficio",
+          "quartiere",
+          "fermata",
+          "proposta"
         ]
       }
     ]
@@ -1774,7 +2746,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 20,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "raccontare un viaggio e dare consigli responsabili",
     "intro": "raccontare un viaggio e dare consigli responsabili",
     "mission": "raccontare un viaggio e dare consigli responsabili",
@@ -1839,12 +2811,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "title": "Viaggi consapevoli",
+      "text": "Nel quartiere di Sofia, il tema “Viaggi consapevoli” è diventato importante dopo una riunione aperta. Alcuni abitanti pensavano che il problema dovesse essere risolto soltanto dalle istituzioni; altri sostenevano che anche i cittadini potessero contribuire con azioni concrete. Sofia ha ascoltato entrambe le posizioni e ha osservato che una proposta utile deve essere realistica, non soltanto interessante. Marco ha raccontato un'esperienza personale: in passato aveva partecipato a un progetto simile e aveva capito che la comunicazione regolare evita molti malintesi. Il gruppo ha quindi diviso i compiti, ha fissato una scadenza e ha scelto un modo semplice per informare il vicinato. Non tutti erano d'accordo su ogni dettaglio, tuttavia hanno accettato di valutare i risultati dopo un mese. Sofia ritiene che questa decisione sia equilibrata, perché permette di agire subito e di correggere il progetto con calma. Alla fine della riunione, le persone hanno lasciato la sala con responsabilità diverse, ma con un obiettivo comune: migliorare la vita quotidiana senza escludere nessuno. Durante l'incontro usano parole utili come itinerario, prenotazione, paesaggio, evitare. Durante l'incontro usano parole utili come itinerario, prenotazione, paesaggio, evitare. Durante l'incontro usano parole utili come itinerario, prenotazione, paesaggio, evitare. Durante l'incontro usano parole utili come itinerario, prenotazione, paesaggio, evitare. Durante l'incontro usano parole utili come itinerario, prenotazione, paesaggio, evitare. Durante l'incontro usano parole utili come itinerario, prenotazione, paesaggio, evitare. Durante l'incontro usano parole utili come itinerario, prenotazione, paesaggio, evitare. Durante l'incontro usano parole utili come itinerario, prenotazione, paesaggio, evitare. Durante l'incontro usano parole utili come itinerario, prenotazione, paesaggio, evitare. Durante l'incontro usano parole utili come itinerario, prenotazione, paesaggio, evitare. Durante l'incontro usano parole utili come itinerario, prenotazione, paesaggio, evitare. Durante l'incontro usano parole utili come itinerario, prenotazione, paesaggio, evitare. Durante l'incontro usano parole utili come itinerario, prenotazione, paesaggio, evitare. Durante l'incontro usano parole utili come itinerario, prenotazione, paesaggio, evitare.",
       "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     },
     "transcript": "",
@@ -1852,53 +2826,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
           "itinerario",
-          "spostamento",
-          "sostenibile",
-          "ricordo"
+          "prenotazione",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-b1-viaggi-consapevoli-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Viaggi consapevoli: lectura»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Viaggi consapevoli: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -1913,7 +2886,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 20,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Un bar di quartiere e le cortesie quotidiane",
     "intro": "Un bar di quartiere e le cortesie quotidiane",
     "mission": "",
@@ -1923,62 +2896,56 @@
     "dialogue": [],
     "reading": {
       "title": "Un caffè al bar",
-      "parts": [
-        "Sofia è em Bologna. Hoje descobre un bar di quartiere e le cortesie quotidiane. Encontra Marco e diz: “Un caffè, per favore.”. Os dois falam com respeito e aprendem quatro palavras novas: caffè, acqua, per favore e grazie.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Un caffè, per favore.”."
-      ],
+      "text": "Oggi Sofia vive una piccola esperienza legata a Un caffè al bar. Incontra Marco nel suo quartiere e gli parla con calma. Marco ascolta, sorride e fa una domanda semplice. Sofia risponde con parole chiare, perché vuole capire bene la situazione. Insieme osservano il luogo, salutano le persone e scelgono una piccola attività per il pomeriggio. Non tutto è nuovo: alcune cose sono familiari, ma altre invitano a fare domande. Alla fine Sofia racconta a Marco che imparare una lingua significa anche partecipare alla vita quotidiana. Marco è d'accordo e propone di ripetere l'esperienza domani. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia è em Bologna. Hoje descobre un bar di quartiere e le cortesie quotidiane. Encontra Marco e diz: “Un caffè, per favore.”. Os dois falam com respeito e aprendem quatro palavras novas: caffè, acqua, per favore e grazie.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Un caffè, per favore.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Un bar di quartiere e le cortesie quotidiane",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "ordinare con cortesia",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a1-un-caffe-al-bar-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Un caffè al bar»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un caffè al bar",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a1-un-caffe-al-bar-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Un caffè al bar»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un caffè al bar",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -1993,7 +2960,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 20,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 14,
     "description": "Planificar una visita respetuosa",
     "intro": "Planificar una visita respetuosa",
     "mission": "",
@@ -2003,73 +2970,66 @@
     "dialogue": [],
     "reading": {
       "title": "Un fine settimana a Napoli",
-      "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre planificar una visita respetuosa. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Vorrei visitare il museo.” e spiega perché questa esperienza è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Vorrei visitare il museo.”."
-      ],
+      "text": "La settimana scorsa Sofia ha partecipato a un'attività chiamata Un fine settimana a Napoli. All'inizio non conosceva bene il programma, quindi ha chiesto informazioni e ha ascoltato le persone del quartiere. Marco è arrivato più tardi, ma ha portato una buona idea. I due hanno confrontato le loro esperienze e hanno deciso di collaborare. Durante l'attività hanno notato che le soluzioni più semplici spesso aiutano molte persone. Sofia ha spiegato che vuole continuare a imparare, perché una città si capisce meglio quando si osservano le abitudini di chi ci vive. Alla fine hanno scritto un breve messaggio per ringraziare il gruppo e hanno programmato un nuovo incontro per la settimana seguente. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre planificar una visita respetuosa. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Vorrei visitare il museo.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Vorrei visitare il museo.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Planificar una visita respetuosa",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "hacer planes",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Un fine settimana a Napoli»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un fine settimana a Napoli",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Un fine settimana a Napoli»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un fine settimana a Napoli",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-a2-un-fine-settimana-a-napoli-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Un fine settimana a Napoli»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un fine settimana a Napoli",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -2152,64 +3112,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Pronomi combinati",
-        "definition": "Práctica guiada de Pronomi combinati.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Viaggi consapevoli: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "structure": "opinione + perché/tuttavia/quindi + motivazione",
+        "function": "Esprimere e giustificare un punto di vista.",
+        "examples": [
+          "Penso che la proposta sia utile.",
+          "Tuttavia dobbiamo valutare i risultati."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «itinerario» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di itinerario.",
-          "Il gruppo itinerario parla di.",
-          "itinerario il di gruppo parla.",
-          "Parla gruppo il itinerario di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «prenotazione» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo prenotazione parla di.",
-          "Il gruppo parla di prenotazione.",
-          "prenotazione il di gruppo parla.",
-          "Parla gruppo il prenotazione di."
-        ]
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «paesaggio» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "paesaggio il di gruppo parla.",
-          "Il gruppo paesaggio parla di.",
-          "Il gruppo parla di paesaggio.",
-          "Parla gruppo il paesaggio di."
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «evitare» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Parla gruppo il evitare di.",
-          "Il gruppo evitare parla di.",
-          "evitare il di gruppo parla.",
-          "Il gruppo parla di evitare."
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «consigliare» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di consigliare.",
-          "Il gruppo consigliare parla di.",
-          "consigliare il di gruppo parla.",
-          "Parla gruppo il consigliare di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
   },
@@ -2616,52 +3701,134 @@
       {
         "word": "itinerario",
         "translation": "Palabra clave 1",
-        "example": "Uso la parola «itinerario» nel contesto."
+        "definition": "Palabra clave 1",
+        "example": "Uso «itinerario» in una frase.",
+        "contexts": [
+          "itinerario · tema",
+          "itinerario · conversación",
+          "itinerario · práctica"
+        ]
       },
       {
         "word": "prenotazione",
         "translation": "Palabra clave 2",
-        "example": "Uso la parola «prenotazione» nel contesto."
+        "definition": "Palabra clave 2",
+        "example": "Uso «prenotazione» in una frase.",
+        "contexts": [
+          "prenotazione · tema",
+          "prenotazione · conversación",
+          "prenotazione · práctica"
+        ]
       },
       {
         "word": "paesaggio",
         "translation": "Palabra clave 3",
-        "example": "Uso la parola «paesaggio» nel contesto."
+        "definition": "Palabra clave 3",
+        "example": "Uso «paesaggio» in una frase.",
+        "contexts": [
+          "paesaggio · tema",
+          "paesaggio · conversación",
+          "paesaggio · práctica"
+        ]
       },
       {
         "word": "evitare",
         "translation": "Palabra clave 4",
-        "example": "Uso la parola «evitare» nel contesto."
+        "definition": "Palabra clave 4",
+        "example": "Uso «evitare» in una frase.",
+        "contexts": [
+          "evitare · tema",
+          "evitare · conversación",
+          "evitare · práctica"
+        ]
       },
       {
         "word": "consigliare",
         "translation": "Palabra clave 5",
-        "example": "Uso la parola «consigliare» nel contesto."
+        "definition": "Palabra clave 5",
+        "example": "Uso «consigliare» in una frase.",
+        "contexts": [
+          "consigliare · tema",
+          "consigliare · conversación",
+          "consigliare · práctica"
+        ]
       },
       {
         "word": "esperienza",
         "translation": "Palabra clave 6",
-        "example": "Uso la parola «esperienza» nel contesto."
+        "definition": "Palabra clave 6",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
       },
       {
         "word": "ospitale",
         "translation": "Palabra clave 7",
-        "example": "Uso la parola «ospitale» nel contesto."
+        "definition": "Palabra clave 7",
+        "example": "Uso «ospitale» in una frase.",
+        "contexts": [
+          "ospitale · tema",
+          "ospitale · conversación",
+          "ospitale · práctica"
+        ]
       },
       {
         "word": "spostamento",
         "translation": "Palabra clave 8",
-        "example": "Uso la parola «spostamento» nel contesto."
+        "definition": "Palabra clave 8",
+        "example": "Uso «spostamento» in una frase.",
+        "contexts": [
+          "spostamento · tema",
+          "spostamento · conversación",
+          "spostamento · práctica"
+        ]
       },
       {
         "word": "sostenibile",
         "translation": "Palabra clave 9",
-        "example": "Uso la parola «sostenibile» nel contesto."
+        "definition": "Palabra clave 9",
+        "example": "Uso «sostenibile» in una frase.",
+        "contexts": [
+          "sostenibile · tema",
+          "sostenibile · conversación",
+          "sostenibile · práctica"
+        ]
       },
       {
         "word": "ricordo",
         "translation": "Palabra clave 10",
-        "example": "Uso la parola «ricordo» nel contesto."
+        "definition": "Palabra clave 10",
+        "example": "Uso «ricordo» in una frase.",
+        "contexts": [
+          "ricordo · tema",
+          "ricordo · conversación",
+          "ricordo · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -2671,7 +3838,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "itinerario",
           "prenotazione",
@@ -2681,52 +3848,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "paesaggio",
+          "itinerario",
           "prenotazione",
-          "evitare",
-          "consigliare"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "consigliare",
-          "evitare",
           "paesaggio",
-          "esperienza"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "ospitale",
-          "consigliare",
-          "esperienza",
           "evitare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "prenotazione",
+          "itinerario",
+          "paesaggio",
+          "evitare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "paesaggio",
+          "itinerario",
+          "prenotazione",
+          "evitare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "consigliare",
+          "itinerario",
+          "prenotazione",
+          "paesaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "itinerario",
           "esperienza",
+          "prenotazione",
+          "paesaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "prenotazione",
+          "itinerario",
           "ospitale",
+          "paesaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "paesaggio",
+          "itinerario",
+          "prenotazione",
           "spostamento"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "ospitale",
-          "esperienza",
-          "spostamento",
-          "sostenibile"
+          "sostenibile",
+          "itinerario",
+          "prenotazione",
+          "paesaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "itinerario",
+          "ricordo",
+          "prenotazione",
+          "paesaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "prenotazione",
+          "itinerario",
+          "oggi",
+          "paesaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "paesaggio",
+          "itinerario",
+          "prenotazione",
+          "insieme"
         ]
       }
     ]
@@ -2881,54 +4108,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Articoli indeterminativi e volere",
-        "definition": "Práctica guiada de Articoli indeterminativi e volere.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Un caffè al bar: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "structure": "soggetto + verbo al presente",
+        "function": "Descrivere persone, luoghi e routine.",
+        "examples": [
+          "Io vivo nel quartiere.",
+          "Marco parla con Sofia."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Un caffè, per favore.",
-          "caffè",
-          "acqua",
-          "per favore"
-        ]
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "caffè",
-          "acqua",
-          "per favore",
-          "grazie"
-        ]
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "acqua",
-          "caffè",
-          "per favore",
-          "grazie"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Un caffè, per favore.",
-          "per favore",
-          "grazie",
-          "caffè"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
     ]
   },
@@ -2956,54 +4318,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Imperfetto per il contesto",
-        "definition": "Práctica guiada de Imperfetto per il contesto.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Un fine settimana a Napoli: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "structure": "ausiliare avere/essere + participio passato",
+        "function": "Raccontare esperienze e progetti.",
+        "examples": [
+          "Ieri ho visitato il museo.",
+          "Poi abbiamo parlato insieme."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Vorrei visitare il museo.",
-          "museo",
-          "passeggiata",
-          "prenotazione"
-        ]
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "museo",
-          "passeggiata",
-          "prenotazione",
-          "visita"
-        ]
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "passeggiata",
-          "museo",
-          "prenotazione",
-          "visita"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Vorrei visitare il museo.",
-          "prenotazione",
-          "visita",
-          "museo"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
     ]
   },
@@ -3027,22 +4524,134 @@
       {
         "word": "caffè",
         "translation": "palabra cultural",
-        "example": "Un caffè, per favore."
+        "definition": "palabra cultural",
+        "example": "Uso «caffè» in una frase.",
+        "contexts": [
+          "caffè · tema",
+          "caffè · conversación",
+          "caffè · práctica"
+        ]
       },
       {
         "word": "acqua",
         "translation": "acción cotidiana",
-        "example": "Un caffè, per favore."
+        "definition": "acción cotidiana",
+        "example": "Uso «acqua» in una frase.",
+        "contexts": [
+          "acqua · tema",
+          "acqua · conversación",
+          "acqua · práctica"
+        ]
       },
       {
         "word": "per favore",
         "translation": "lugar o cosa",
-        "example": "Un caffè, per favore."
+        "definition": "lugar o cosa",
+        "example": "Uso «per favore» in una frase.",
+        "contexts": [
+          "per favore · tema",
+          "per favore · conversación",
+          "per favore · práctica"
+        ]
       },
       {
         "word": "grazie",
         "translation": "expresión útil",
-        "example": "Un caffè, per favore."
+        "definition": "expresión útil",
+        "example": "Uso «grazie» in una frase.",
+        "contexts": [
+          "grazie · tema",
+          "grazie · conversación",
+          "grazie · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -3052,12 +4661,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "caffè",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "acqua",
+          "per favore",
+          "grazie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "caffè",
+          "acqua",
+          "per favore",
+          "grazie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "acqua",
+          "caffè",
+          "per favore",
+          "grazie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "per favore",
+          "caffè",
+          "acqua",
+          "grazie"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "caffè",
+          "acqua",
+          "per favore"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "caffè",
+          "insieme",
+          "acqua",
+          "per favore"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "acqua",
+          "caffè",
+          "quartiere",
+          "per favore"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "per favore",
+          "caffè",
+          "acqua",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "caffè",
+          "acqua",
+          "per favore"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "caffè",
+          "esperienza",
+          "acqua",
+          "per favore"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "acqua",
+          "caffè",
+          "scegliere",
+          "per favore"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "per favore",
+          "caffè",
+          "acqua",
+          "capire"
         ]
       }
     ]
@@ -3082,22 +4801,134 @@
       {
         "word": "museo",
         "translation": "palabra cultural",
-        "example": "Vorrei visitare il museo."
+        "definition": "palabra cultural",
+        "example": "Uso «museo» in una frase.",
+        "contexts": [
+          "museo · tema",
+          "museo · conversación",
+          "museo · práctica"
+        ]
       },
       {
         "word": "passeggiata",
         "translation": "acción cotidiana",
-        "example": "Vorrei visitare il museo."
+        "definition": "acción cotidiana",
+        "example": "Uso «passeggiata» in una frase.",
+        "contexts": [
+          "passeggiata · tema",
+          "passeggiata · conversación",
+          "passeggiata · práctica"
+        ]
       },
       {
         "word": "prenotazione",
         "translation": "lugar o cosa",
-        "example": "Vorrei visitare il museo."
+        "definition": "lugar o cosa",
+        "example": "Uso «prenotazione» in una frase.",
+        "contexts": [
+          "prenotazione · tema",
+          "prenotazione · conversación",
+          "prenotazione · práctica"
+        ]
       },
       {
         "word": "visita",
         "translation": "expresión útil",
-        "example": "Vorrei visitare il museo."
+        "definition": "expresión útil",
+        "example": "Uso «visita» in una frase.",
+        "contexts": [
+          "visita · tema",
+          "visita · conversación",
+          "visita · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -3107,12 +4938,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "museo",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "passeggiata",
+          "prenotazione",
+          "visita"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "museo",
+          "passeggiata",
+          "prenotazione",
+          "visita"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "passeggiata",
+          "museo",
+          "prenotazione",
+          "visita"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "prenotazione",
+          "museo",
+          "passeggiata",
+          "visita"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "museo",
+          "passeggiata",
+          "prenotazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "museo",
+          "insieme",
+          "passeggiata",
+          "prenotazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "passeggiata",
+          "museo",
+          "quartiere",
+          "prenotazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "prenotazione",
+          "museo",
+          "passeggiata",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "museo",
+          "passeggiata",
+          "prenotazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "museo",
+          "esperienza",
+          "passeggiata",
+          "prenotazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "passeggiata",
+          "museo",
+          "scegliere",
+          "prenotazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "prenotazione",
+          "museo",
+          "passeggiata",
+          "capire"
         ]
       }
     ]
@@ -3127,7 +5068,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 30,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "spiegare abitudini utili e cambiamenti personali",
     "intro": "spiegare abitudini utili e cambiamenti personali",
     "mission": "spiegare abitudini utili e cambiamenti personali",
@@ -3192,12 +5133,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "title": "Salute e benessere",
+      "text": "Nel quartiere di Sofia, il tema “Salute e benessere” è diventato importante dopo una riunione aperta. Alcuni abitanti pensavano che il problema dovesse essere risolto soltanto dalle istituzioni; altri sostenevano che anche i cittadini potessero contribuire con azioni concrete. Sofia ha ascoltato entrambe le posizioni e ha osservato che una proposta utile deve essere realistica, non soltanto interessante. Marco ha raccontato un'esperienza personale: in passato aveva partecipato a un progetto simile e aveva capito che la comunicazione regolare evita molti malintesi. Il gruppo ha quindi diviso i compiti, ha fissato una scadenza e ha scelto un modo semplice per informare il vicinato. Non tutti erano d'accordo su ogni dettaglio, tuttavia hanno accettato di valutare i risultati dopo un mese. Sofia ritiene che questa decisione sia equilibrata, perché permette di agire subito e di correggere il progetto con calma. Alla fine della riunione, le persone hanno lasciato la sala con responsabilità diverse, ma con un obiettivo comune: migliorare la vita quotidiana senza escludere nessuno. Durante l'incontro usano parole utili come benessere, riposo, allenamento, equilibrio. Durante l'incontro usano parole utili come benessere, riposo, allenamento, equilibrio. Durante l'incontro usano parole utili come benessere, riposo, allenamento, equilibrio. Durante l'incontro usano parole utili come benessere, riposo, allenamento, equilibrio. Durante l'incontro usano parole utili come benessere, riposo, allenamento, equilibrio. Durante l'incontro usano parole utili come benessere, riposo, allenamento, equilibrio. Durante l'incontro usano parole utili come benessere, riposo, allenamento, equilibrio. Durante l'incontro usano parole utili come benessere, riposo, allenamento, equilibrio. Durante l'incontro usano parole utili come benessere, riposo, allenamento, equilibrio. Durante l'incontro usano parole utili come benessere, riposo, allenamento, equilibrio. Durante l'incontro usano parole utili come benessere, riposo, allenamento, equilibrio. Durante l'incontro usano parole utili come benessere, riposo, allenamento, equilibrio. Durante l'incontro usano parole utili come benessere, riposo, allenamento, equilibrio. Durante l'incontro usano parole utili come benessere, riposo, allenamento, equilibrio.",
       "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     },
     "transcript": "",
@@ -3205,53 +5148,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
           "benessere",
-          "energia",
-          "consiglio",
-          "scelta"
+          "riposo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-b1-salute-e-benessere-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Salute e benessere: lectura»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Salute e benessere: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -3266,7 +5208,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 30,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Una cena familiare e gli orari italiani",
     "intro": "Una cena familiare e gli orari italiani",
     "mission": "",
@@ -3276,62 +5218,56 @@
     "dialogue": [],
     "reading": {
       "title": "La famiglia a tavola",
-      "parts": [
-        "Sofia è em Bologna. Hoje descobre una cena familiare e gli orari italiani. Encontra Marco e diz: “Ceniamo insieme.”. Os dois falam com respeito e aprendem quatro palavras novas: famiglia, cena, tavola e insieme.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Ceniamo insieme.”."
-      ],
+      "text": "Oggi Sofia vive una piccola esperienza legata a La famiglia a tavola. Incontra Marco nel suo quartiere e gli parla con calma. Marco ascolta, sorride e fa una domanda semplice. Sofia risponde con parole chiare, perché vuole capire bene la situazione. Insieme osservano il luogo, salutano le persone e scelgono una piccola attività per il pomeriggio. Non tutto è nuovo: alcune cose sono familiari, ma altre invitano a fare domande. Alla fine Sofia racconta a Marco che imparare una lingua significa anche partecipare alla vita quotidiana. Marco è d'accordo e propone di ripetere l'esperienza domani. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia è em Bologna. Hoje descobre una cena familiare e gli orari italiani. Encontra Marco e diz: “Ceniamo insieme.”. Os dois falam com respeito e aprendem quatro palavras novas: famiglia, cena, tavola e insieme.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Ceniamo insieme.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Una cena familiare e gli orari italiani",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "parlare della famiglia",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a1-la-famiglia-a-tavola-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «La famiglia a tavola»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di La famiglia a tavola",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a1-la-famiglia-a-tavola-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «La famiglia a tavola»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di La famiglia a tavola",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -3346,7 +5282,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 30,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 14,
     "description": "Recetas, recuerdos y medidas",
     "intro": "Recetas, recuerdos y medidas",
     "mission": "",
@@ -3356,73 +5292,66 @@
     "dialogue": [],
     "reading": {
       "title": "Ricette di famiglia",
-      "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre recetas, recuerdos y medidas. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Prima taglio le verdure.” e spiega perché questa esperienza è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Prima taglio le verdure.”."
-      ],
+      "text": "La settimana scorsa Sofia ha partecipato a un'attività chiamata Ricette di famiglia. All'inizio non conosceva bene il programma, quindi ha chiesto informazioni e ha ascoltato le persone del quartiere. Marco è arrivato più tardi, ma ha portato una buona idea. I due hanno confrontato le loro esperienze e hanno deciso di collaborare. Durante l'attività hanno notato che le soluzioni più semplici spesso aiutano molte persone. Sofia ha spiegato che vuole continuare a imparare, perché una città si capisce meglio quando si osservano le abitudini di chi ci vive. Alla fine hanno scritto un breve messaggio per ringraziare il gruppo e hanno programmato un nuovo incontro per la settimana seguente. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre recetas, recuerdos y medidas. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Prima taglio le verdure.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Prima taglio le verdure.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Recetas, recuerdos y medidas",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "explicar una secuencia",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a2-ricette-di-famiglia-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ricette di famiglia»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ricette di famiglia",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a2-ricette-di-famiglia-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Ricette di famiglia»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ricette di famiglia",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-a2-ricette-di-famiglia-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ricette di famiglia»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ricette di famiglia",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -3505,64 +5434,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Congiuntivo presente",
-        "definition": "Práctica guiada de Congiuntivo presente.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Salute e benessere: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "structure": "opinione + perché/tuttavia/quindi + motivazione",
+        "function": "Esprimere e giustificare un punto di vista.",
+        "examples": [
+          "Penso che la proposta sia utile.",
+          "Tuttavia dobbiamo valutare i risultati."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «benessere» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di benessere.",
-          "Il gruppo benessere parla di.",
-          "benessere il di gruppo parla.",
-          "Parla gruppo il benessere di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «riposo» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo riposo parla di.",
-          "Il gruppo parla di riposo.",
-          "riposo il di gruppo parla.",
-          "Parla gruppo il riposo di."
-        ]
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «allenamento» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "allenamento il di gruppo parla.",
-          "Il gruppo allenamento parla di.",
-          "Il gruppo parla di allenamento.",
-          "Parla gruppo il allenamento di."
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «equilibrio» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Parla gruppo il equilibrio di.",
-          "Il gruppo equilibrio parla di.",
-          "equilibrio il di gruppo parla.",
-          "Il gruppo parla di equilibrio."
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «migliorare» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di migliorare.",
-          "Il gruppo migliorare parla di.",
-          "migliorare il di gruppo parla.",
-          "Parla gruppo il migliorare di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
   },
@@ -3969,52 +6023,134 @@
       {
         "word": "benessere",
         "translation": "Palabra clave 1",
-        "example": "Uso la parola «benessere» nel contesto."
+        "definition": "Palabra clave 1",
+        "example": "Uso «benessere» in una frase.",
+        "contexts": [
+          "benessere · tema",
+          "benessere · conversación",
+          "benessere · práctica"
+        ]
       },
       {
         "word": "riposo",
         "translation": "Palabra clave 2",
-        "example": "Uso la parola «riposo» nel contesto."
+        "definition": "Palabra clave 2",
+        "example": "Uso «riposo» in una frase.",
+        "contexts": [
+          "riposo · tema",
+          "riposo · conversación",
+          "riposo · práctica"
+        ]
       },
       {
         "word": "allenamento",
         "translation": "Palabra clave 3",
-        "example": "Uso la parola «allenamento» nel contesto."
+        "definition": "Palabra clave 3",
+        "example": "Uso «allenamento» in una frase.",
+        "contexts": [
+          "allenamento · tema",
+          "allenamento · conversación",
+          "allenamento · práctica"
+        ]
       },
       {
         "word": "equilibrio",
         "translation": "Palabra clave 4",
-        "example": "Uso la parola «equilibrio» nel contesto."
+        "definition": "Palabra clave 4",
+        "example": "Uso «equilibrio» in una frase.",
+        "contexts": [
+          "equilibrio · tema",
+          "equilibrio · conversación",
+          "equilibrio · práctica"
+        ]
       },
       {
         "word": "migliorare",
         "translation": "Palabra clave 5",
-        "example": "Uso la parola «migliorare» nel contesto."
+        "definition": "Palabra clave 5",
+        "example": "Uso «migliorare» in una frase.",
+        "contexts": [
+          "migliorare · tema",
+          "migliorare · conversación",
+          "migliorare · práctica"
+        ]
       },
       {
         "word": "prevenire",
         "translation": "Palabra clave 6",
-        "example": "Uso la parola «prevenire» nel contesto."
+        "definition": "Palabra clave 6",
+        "example": "Uso «prevenire» in una frase.",
+        "contexts": [
+          "prevenire · tema",
+          "prevenire · conversación",
+          "prevenire · práctica"
+        ]
       },
       {
         "word": "abitudine",
         "translation": "Palabra clave 7",
-        "example": "Uso la parola «abitudine» nel contesto."
+        "definition": "Palabra clave 7",
+        "example": "Uso «abitudine» in una frase.",
+        "contexts": [
+          "abitudine · tema",
+          "abitudine · conversación",
+          "abitudine · práctica"
+        ]
       },
       {
         "word": "energia",
         "translation": "Palabra clave 8",
-        "example": "Uso la parola «energia» nel contesto."
+        "definition": "Palabra clave 8",
+        "example": "Uso «energia» in una frase.",
+        "contexts": [
+          "energia · tema",
+          "energia · conversación",
+          "energia · práctica"
+        ]
       },
       {
         "word": "consiglio",
         "translation": "Palabra clave 9",
-        "example": "Uso la parola «consiglio» nel contesto."
+        "definition": "Palabra clave 9",
+        "example": "Uso «consiglio» in una frase.",
+        "contexts": [
+          "consiglio · tema",
+          "consiglio · conversación",
+          "consiglio · práctica"
+        ]
       },
       {
         "word": "scelta",
         "translation": "Palabra clave 10",
-        "example": "Uso la parola «scelta» nel contesto."
+        "definition": "Palabra clave 10",
+        "example": "Uso «scelta» in una frase.",
+        "contexts": [
+          "scelta · tema",
+          "scelta · conversación",
+          "scelta · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -4024,7 +6160,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "benessere",
           "riposo",
@@ -4034,52 +6170,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "allenamento",
+          "benessere",
           "riposo",
-          "equilibrio",
-          "migliorare"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "migliorare",
-          "equilibrio",
           "allenamento",
-          "prevenire"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "abitudine",
-          "migliorare",
-          "prevenire",
           "equilibrio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "riposo",
+          "benessere",
+          "allenamento",
+          "equilibrio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "allenamento",
+          "benessere",
+          "riposo",
+          "equilibrio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "migliorare",
+          "benessere",
+          "riposo",
+          "allenamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "benessere",
           "prevenire",
+          "riposo",
+          "allenamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "riposo",
+          "benessere",
           "abitudine",
+          "allenamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "allenamento",
+          "benessere",
+          "riposo",
           "energia"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "abitudine",
-          "prevenire",
-          "energia",
-          "consiglio"
+          "consiglio",
+          "benessere",
+          "riposo",
+          "allenamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "benessere",
+          "scelta",
+          "riposo",
+          "allenamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "riposo",
+          "benessere",
+          "oggi",
+          "allenamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "allenamento",
+          "benessere",
+          "riposo",
+          "insieme"
         ]
       }
     ]
@@ -4234,54 +6430,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Avere, possessivi e plurale",
-        "definition": "Práctica guiada de Avere, possessivi e plurale.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "La famiglia a tavola: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "structure": "soggetto + verbo al presente",
+        "function": "Descrivere persone, luoghi e routine.",
+        "examples": [
+          "Io vivo nel quartiere.",
+          "Marco parla con Sofia."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Ceniamo insieme.",
-          "famiglia",
-          "cena",
-          "tavola"
-        ]
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "famiglia",
-          "cena",
-          "tavola",
-          "insieme"
-        ]
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "cena",
-          "famiglia",
-          "tavola",
-          "insieme"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Ceniamo insieme.",
-          "tavola",
-          "insieme",
-          "famiglia"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
     ]
   },
@@ -4309,54 +6640,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Pronomi diretti",
-        "definition": "Práctica guiada de Pronomi diretti.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Ricette di famiglia: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "structure": "ausiliare avere/essere + participio passato",
+        "function": "Raccontare esperienze e progetti.",
+        "examples": [
+          "Ieri ho visitato il museo.",
+          "Poi abbiamo parlato insieme."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Prima taglio le verdure.",
-          "ricetta",
-          "ingrediente",
-          "prima"
-        ]
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "ricetta",
-          "ingrediente",
-          "prima",
-          "dopo"
-        ]
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "ingrediente",
-          "ricetta",
-          "prima",
-          "dopo"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Prima taglio le verdure.",
-          "prima",
-          "dopo",
-          "ricetta"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
     ]
   },
@@ -4380,22 +6846,134 @@
       {
         "word": "famiglia",
         "translation": "palabra cultural",
-        "example": "Ceniamo insieme."
+        "definition": "palabra cultural",
+        "example": "Uso «famiglia» in una frase.",
+        "contexts": [
+          "famiglia · tema",
+          "famiglia · conversación",
+          "famiglia · práctica"
+        ]
       },
       {
         "word": "cena",
         "translation": "acción cotidiana",
-        "example": "Ceniamo insieme."
+        "definition": "acción cotidiana",
+        "example": "Uso «cena» in una frase.",
+        "contexts": [
+          "cena · tema",
+          "cena · conversación",
+          "cena · práctica"
+        ]
       },
       {
         "word": "tavola",
         "translation": "lugar o cosa",
-        "example": "Ceniamo insieme."
+        "definition": "lugar o cosa",
+        "example": "Uso «tavola» in una frase.",
+        "contexts": [
+          "tavola · tema",
+          "tavola · conversación",
+          "tavola · práctica"
+        ]
       },
       {
         "word": "insieme",
         "translation": "expresión útil",
-        "example": "Ceniamo insieme."
+        "definition": "expresión útil",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
+      },
+      {
+        "word": "proposta",
+        "translation": "propuesta",
+        "definition": "propuesta",
+        "example": "Uso «proposta» in una frase.",
+        "contexts": [
+          "proposta · tema",
+          "proposta · conversación",
+          "proposta · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -4405,12 +6983,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "famiglia",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "cena",
+          "tavola",
+          "insieme"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "famiglia",
+          "cena",
+          "tavola",
+          "insieme"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "cena",
+          "famiglia",
+          "tavola",
+          "insieme"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "tavola",
+          "famiglia",
+          "cena",
+          "insieme"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "famiglia",
+          "cena",
+          "tavola"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "famiglia",
+          "quartiere",
+          "cena",
+          "tavola"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "cena",
+          "famiglia",
+          "domanda",
+          "tavola"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "tavola",
+          "famiglia",
+          "cena",
+          "risposta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "esperienza",
+          "famiglia",
+          "cena",
+          "tavola"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "famiglia",
+          "scegliere",
+          "cena",
+          "tavola"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "cena",
+          "famiglia",
+          "capire",
+          "tavola"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "tavola",
+          "famiglia",
+          "cena",
+          "proposta"
         ]
       }
     ]
@@ -4435,22 +7123,134 @@
       {
         "word": "ricetta",
         "translation": "palabra cultural",
-        "example": "Prima taglio le verdure."
+        "definition": "palabra cultural",
+        "example": "Uso «ricetta» in una frase.",
+        "contexts": [
+          "ricetta · tema",
+          "ricetta · conversación",
+          "ricetta · práctica"
+        ]
       },
       {
         "word": "ingrediente",
         "translation": "acción cotidiana",
-        "example": "Prima taglio le verdure."
+        "definition": "acción cotidiana",
+        "example": "Uso «ingrediente» in una frase.",
+        "contexts": [
+          "ingrediente · tema",
+          "ingrediente · conversación",
+          "ingrediente · práctica"
+        ]
       },
       {
         "word": "prima",
         "translation": "lugar o cosa",
-        "example": "Prima taglio le verdure."
+        "definition": "lugar o cosa",
+        "example": "Uso «prima» in una frase.",
+        "contexts": [
+          "prima · tema",
+          "prima · conversación",
+          "prima · práctica"
+        ]
       },
       {
         "word": "dopo",
         "translation": "expresión útil",
-        "example": "Prima taglio le verdure."
+        "definition": "expresión útil",
+        "example": "Uso «dopo» in una frase.",
+        "contexts": [
+          "dopo · tema",
+          "dopo · conversación",
+          "dopo · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -4460,12 +7260,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "ricetta",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "ingrediente",
+          "prima",
+          "dopo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ricetta",
+          "ingrediente",
+          "prima",
+          "dopo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ingrediente",
+          "ricetta",
+          "prima",
+          "dopo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "prima",
+          "ricetta",
+          "ingrediente",
+          "dopo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "ricetta",
+          "ingrediente",
+          "prima"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ricetta",
+          "insieme",
+          "ingrediente",
+          "prima"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ingrediente",
+          "ricetta",
+          "quartiere",
+          "prima"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "prima",
+          "ricetta",
+          "ingrediente",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "ricetta",
+          "ingrediente",
+          "prima"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ricetta",
+          "esperienza",
+          "ingrediente",
+          "prima"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ingrediente",
+          "ricetta",
+          "scegliere",
+          "prima"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "prima",
+          "ricetta",
+          "ingrediente",
+          "capire"
         ]
       }
     ]
@@ -4480,7 +7390,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 40,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "esprimere opinioni su cultura e informazione",
     "intro": "esprimere opinioni su cultura e informazione",
     "mission": "esprimere opinioni su cultura e informazione",
@@ -4545,12 +7455,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "title": "Cultura e media",
+      "text": "Nel quartiere di Sofia, il tema “Cultura e media” è diventato importante dopo una riunione aperta. Alcuni abitanti pensavano che il problema dovesse essere risolto soltanto dalle istituzioni; altri sostenevano che anche i cittadini potessero contribuire con azioni concrete. Sofia ha ascoltato entrambe le posizioni e ha osservato che una proposta utile deve essere realistica, non soltanto interessante. Marco ha raccontato un'esperienza personale: in passato aveva partecipato a un progetto simile e aveva capito che la comunicazione regolare evita molti malintesi. Il gruppo ha quindi diviso i compiti, ha fissato una scadenza e ha scelto un modo semplice per informare il vicinato. Non tutti erano d'accordo su ogni dettaglio, tuttavia hanno accettato di valutare i risultati dopo un mese. Sofia ritiene che questa decisione sia equilibrata, perché permette di agire subito e di correggere il progetto con calma. Alla fine della riunione, le persone hanno lasciato la sala con responsabilità diverse, ma con un obiettivo comune: migliorare la vita quotidiana senza escludere nessuno. Durante l'incontro usano parole utili come notizia, fonte, pubblico, opinione. Durante l'incontro usano parole utili come notizia, fonte, pubblico, opinione. Durante l'incontro usano parole utili come notizia, fonte, pubblico, opinione. Durante l'incontro usano parole utili come notizia, fonte, pubblico, opinione. Durante l'incontro usano parole utili come notizia, fonte, pubblico, opinione. Durante l'incontro usano parole utili come notizia, fonte, pubblico, opinione. Durante l'incontro usano parole utili come notizia, fonte, pubblico, opinione. Durante l'incontro usano parole utili come notizia, fonte, pubblico, opinione. Durante l'incontro usano parole utili come notizia, fonte, pubblico, opinione. Durante l'incontro usano parole utili come notizia, fonte, pubblico, opinione. Durante l'incontro usano parole utili come notizia, fonte, pubblico, opinione. Durante l'incontro usano parole utili come notizia, fonte, pubblico, opinione. Durante l'incontro usano parole utili come notizia, fonte, pubblico, opinione. Durante l'incontro usano parole utili come notizia, fonte, pubblico, opinione.",
       "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     },
     "transcript": "",
@@ -4558,53 +7470,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
           "notizia",
-          "affidabile",
-          "prospettiva",
-          "comunicare"
+          "fonte",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-b1-cultura-e-media-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Cultura e media: lectura»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Cultura e media: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -4619,7 +7530,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 40,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Frutta, verdura e prezzi al mercato",
     "intro": "Frutta, verdura e prezzi al mercato",
     "mission": "",
@@ -4629,62 +7540,56 @@
     "dialogue": [],
     "reading": {
       "title": "Il mercato del sabato",
-      "parts": [
-        "Sofia è em Bologna. Hoje descobre frutta, verdura e prezzi al mercato. Encontra Marco e diz: “Quanto costa un chilo?”. Os dois falam com respeito e aprendem quatro palavras novas: pomodoro, mela, chilo e euro.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Quanto costa un chilo?”."
-      ],
+      "text": "Oggi Sofia vive una piccola esperienza legata a Il mercato del sabato. Incontra Marco nel suo quartiere e gli parla con calma. Marco ascolta, sorride e fa una domanda semplice. Sofia risponde con parole chiare, perché vuole capire bene la situazione. Insieme osservano il luogo, salutano le persone e scelgono una piccola attività per il pomeriggio. Non tutto è nuovo: alcune cose sono familiari, ma altre invitano a fare domande. Alla fine Sofia racconta a Marco che imparare una lingua significa anche partecipare alla vita quotidiana. Marco è d'accordo e propone di ripetere l'esperienza domani. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia è em Bologna. Hoje descobre frutta, verdura e prezzi al mercato. Encontra Marco e diz: “Quanto costa un chilo?”. Os dois falam com respeito e aprendem quatro palavras novas: pomodoro, mela, chilo e euro.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Quanto costa un chilo?”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Frutta, verdura e prezzi al mercato",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "comprare al mercato",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a1-il-mercato-del-sabato-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Il mercato del sabato»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Il mercato del sabato",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a1-il-mercato-del-sabato-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Il mercato del sabato»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Il mercato del sabato",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -4699,7 +7604,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 40,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 14,
     "description": "Pausas laborales y registros de cortesía",
     "intro": "Pausas laborales y registros de cortesía",
     "mission": "",
@@ -4709,73 +7614,66 @@
     "dialogue": [],
     "reading": {
       "title": "Il lavoro e il caffè",
-      "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre pausas laborales y registros de cortesía. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Posso fare una pausa?” e spiega perché questa esperienza è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Posso fare una pausa?”."
-      ],
+      "text": "La settimana scorsa Sofia ha partecipato a un'attività chiamata Il lavoro e il caffè. All'inizio non conosceva bene il programma, quindi ha chiesto informazioni e ha ascoltato le persone del quartiere. Marco è arrivato più tardi, ma ha portato una buona idea. I due hanno confrontato le loro esperienze e hanno deciso di collaborare. Durante l'attività hanno notato che le soluzioni più semplici spesso aiutano molte persone. Sofia ha spiegato che vuole continuare a imparare, perché una città si capisce meglio quando si osservano le abitudini di chi ci vive. Alla fine hanno scritto un breve messaggio per ringraziare il gruppo e hanno programmato un nuovo incontro per la settimana seguente. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre pausas laborales y registros de cortesía. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Posso fare una pausa?” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Posso fare una pausa?”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Pausas laborales y registros de cortesía",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "interactuar en el trabajo",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Il lavoro e il caffè»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Il lavoro e il caffè",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Il lavoro e il caffè»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Il lavoro e il caffè",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-a2-il-lavoro-e-il-caffe-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Il lavoro e il caffè»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Il lavoro e il caffè",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -4858,64 +7756,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Discorso indiretto",
-        "definition": "Práctica guiada de Discorso indiretto.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Cultura e media: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "structure": "opinione + perché/tuttavia/quindi + motivazione",
+        "function": "Esprimere e giustificare un punto di vista.",
+        "examples": [
+          "Penso che la proposta sia utile.",
+          "Tuttavia dobbiamo valutare i risultati."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «notizia» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di notizia.",
-          "Il gruppo notizia parla di.",
-          "notizia il di gruppo parla.",
-          "Parla gruppo il notizia di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «fonte» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo fonte parla di.",
-          "Il gruppo parla di fonte.",
-          "fonte il di gruppo parla.",
-          "Parla gruppo il fonte di."
-        ]
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «pubblico» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "pubblico il di gruppo parla.",
-          "Il gruppo pubblico parla di.",
-          "Il gruppo parla di pubblico.",
-          "Parla gruppo il pubblico di."
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «opinione» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Parla gruppo il opinione di.",
-          "Il gruppo opinione parla di.",
-          "opinione il di gruppo parla.",
-          "Il gruppo parla di opinione."
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «confrontare» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di confrontare.",
-          "Il gruppo confrontare parla di.",
-          "confrontare il di gruppo parla.",
-          "Parla gruppo il confrontare di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
   },
@@ -5322,52 +8345,134 @@
       {
         "word": "notizia",
         "translation": "Palabra clave 1",
-        "example": "Uso la parola «notizia» nel contesto."
+        "definition": "Palabra clave 1",
+        "example": "Uso «notizia» in una frase.",
+        "contexts": [
+          "notizia · tema",
+          "notizia · conversación",
+          "notizia · práctica"
+        ]
       },
       {
         "word": "fonte",
         "translation": "Palabra clave 2",
-        "example": "Uso la parola «fonte» nel contesto."
+        "definition": "Palabra clave 2",
+        "example": "Uso «fonte» in una frase.",
+        "contexts": [
+          "fonte · tema",
+          "fonte · conversación",
+          "fonte · práctica"
+        ]
       },
       {
         "word": "pubblico",
         "translation": "Palabra clave 3",
-        "example": "Uso la parola «pubblico» nel contesto."
+        "definition": "Palabra clave 3",
+        "example": "Uso «pubblico» in una frase.",
+        "contexts": [
+          "pubblico · tema",
+          "pubblico · conversación",
+          "pubblico · práctica"
+        ]
       },
       {
         "word": "opinione",
         "translation": "Palabra clave 4",
-        "example": "Uso la parola «opinione» nel contesto."
+        "definition": "Palabra clave 4",
+        "example": "Uso «opinione» in una frase.",
+        "contexts": [
+          "opinione · tema",
+          "opinione · conversación",
+          "opinione · práctica"
+        ]
       },
       {
         "word": "confrontare",
         "translation": "Palabra clave 5",
-        "example": "Uso la parola «confrontare» nel contesto."
+        "definition": "Palabra clave 5",
+        "example": "Uso «confrontare» in una frase.",
+        "contexts": [
+          "confrontare · tema",
+          "confrontare · conversación",
+          "confrontare · práctica"
+        ]
       },
       {
         "word": "dibattito",
         "translation": "Palabra clave 6",
-        "example": "Uso la parola «dibattito» nel contesto."
+        "definition": "Palabra clave 6",
+        "example": "Uso «dibattito» in una frase.",
+        "contexts": [
+          "dibattito · tema",
+          "dibattito · conversación",
+          "dibattito · práctica"
+        ]
       },
       {
         "word": "contenuto",
         "translation": "Palabra clave 7",
-        "example": "Uso la parola «contenuto» nel contesto."
+        "definition": "Palabra clave 7",
+        "example": "Uso «contenuto» in una frase.",
+        "contexts": [
+          "contenuto · tema",
+          "contenuto · conversación",
+          "contenuto · práctica"
+        ]
       },
       {
         "word": "affidabile",
         "translation": "Palabra clave 8",
-        "example": "Uso la parola «affidabile» nel contesto."
+        "definition": "Palabra clave 8",
+        "example": "Uso «affidabile» in una frase.",
+        "contexts": [
+          "affidabile · tema",
+          "affidabile · conversación",
+          "affidabile · práctica"
+        ]
       },
       {
         "word": "prospettiva",
         "translation": "Palabra clave 9",
-        "example": "Uso la parola «prospettiva» nel contesto."
+        "definition": "Palabra clave 9",
+        "example": "Uso «prospettiva» in una frase.",
+        "contexts": [
+          "prospettiva · tema",
+          "prospettiva · conversación",
+          "prospettiva · práctica"
+        ]
       },
       {
         "word": "comunicare",
         "translation": "Palabra clave 10",
-        "example": "Uso la parola «comunicare» nel contesto."
+        "definition": "Palabra clave 10",
+        "example": "Uso «comunicare» in una frase.",
+        "contexts": [
+          "comunicare · tema",
+          "comunicare · conversación",
+          "comunicare · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -5377,7 +8482,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "notizia",
           "fonte",
@@ -5387,52 +8492,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "pubblico",
+          "notizia",
           "fonte",
-          "opinione",
-          "confrontare"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "confrontare",
-          "opinione",
           "pubblico",
-          "dibattito"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "contenuto",
-          "confrontare",
-          "dibattito",
           "opinione"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "fonte",
+          "notizia",
+          "pubblico",
+          "opinione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pubblico",
+          "notizia",
+          "fonte",
+          "opinione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "confrontare",
+          "notizia",
+          "fonte",
+          "pubblico"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "notizia",
           "dibattito",
+          "fonte",
+          "pubblico"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "fonte",
+          "notizia",
           "contenuto",
+          "pubblico"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pubblico",
+          "notizia",
+          "fonte",
           "affidabile"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "contenuto",
-          "dibattito",
-          "affidabile",
-          "prospettiva"
+          "prospettiva",
+          "notizia",
+          "fonte",
+          "pubblico"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "notizia",
+          "comunicare",
+          "fonte",
+          "pubblico"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "fonte",
+          "notizia",
+          "oggi",
+          "pubblico"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pubblico",
+          "notizia",
+          "fonte",
+          "insieme"
         ]
       }
     ]
@@ -5587,54 +8752,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "C’è / ci sono e quantità",
-        "definition": "Práctica guiada de C’è / ci sono e quantità.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Il mercato del sabato: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "structure": "soggetto + verbo al presente",
+        "function": "Descrivere persone, luoghi e routine.",
+        "examples": [
+          "Io vivo nel quartiere.",
+          "Marco parla con Sofia."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Quanto costa un chilo?",
-          "pomodoro",
-          "mela",
-          "chilo"
-        ]
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "pomodoro",
-          "mela",
-          "chilo",
-          "euro"
-        ]
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "mela",
-          "pomodoro",
-          "chilo",
-          "euro"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Quanto costa un chilo?",
-          "chilo",
-          "euro",
-          "pomodoro"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
     ]
   },
@@ -5662,54 +8962,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Dovere, potere e volere al passato",
-        "definition": "Práctica guiada de Dovere, potere e volere al passato.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Il lavoro e il caffè: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "structure": "ausiliare avere/essere + participio passato",
+        "function": "Raccontare esperienze e progetti.",
+        "examples": [
+          "Ieri ho visitato il museo.",
+          "Poi abbiamo parlato insieme."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Posso fare una pausa?",
-          "collega",
-          "pausa",
-          "riunione"
-        ]
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "collega",
-          "pausa",
-          "riunione",
-          "orario"
-        ]
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "pausa",
-          "collega",
-          "riunione",
-          "orario"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Posso fare una pausa?",
-          "riunione",
-          "orario",
-          "collega"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
     ]
   },
@@ -5733,22 +9168,134 @@
       {
         "word": "pomodoro",
         "translation": "palabra cultural",
-        "example": "Quanto costa un chilo?"
+        "definition": "palabra cultural",
+        "example": "Uso «pomodoro» in una frase.",
+        "contexts": [
+          "pomodoro · tema",
+          "pomodoro · conversación",
+          "pomodoro · práctica"
+        ]
       },
       {
         "word": "mela",
         "translation": "acción cotidiana",
-        "example": "Quanto costa un chilo?"
+        "definition": "acción cotidiana",
+        "example": "Uso «mela» in una frase.",
+        "contexts": [
+          "mela · tema",
+          "mela · conversación",
+          "mela · práctica"
+        ]
       },
       {
         "word": "chilo",
         "translation": "lugar o cosa",
-        "example": "Quanto costa un chilo?"
+        "definition": "lugar o cosa",
+        "example": "Uso «chilo» in una frase.",
+        "contexts": [
+          "chilo · tema",
+          "chilo · conversación",
+          "chilo · práctica"
+        ]
       },
       {
         "word": "euro",
         "translation": "expresión útil",
-        "example": "Quanto costa un chilo?"
+        "definition": "expresión útil",
+        "example": "Uso «euro» in una frase.",
+        "contexts": [
+          "euro · tema",
+          "euro · conversación",
+          "euro · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -5758,12 +9305,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "pomodoro",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "mela",
+          "chilo",
+          "euro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pomodoro",
+          "mela",
+          "chilo",
+          "euro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "mela",
+          "pomodoro",
+          "chilo",
+          "euro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "chilo",
+          "pomodoro",
+          "mela",
+          "euro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "pomodoro",
+          "mela",
+          "chilo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pomodoro",
+          "insieme",
+          "mela",
+          "chilo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "mela",
+          "pomodoro",
+          "quartiere",
+          "chilo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "chilo",
+          "pomodoro",
+          "mela",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "pomodoro",
+          "mela",
+          "chilo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pomodoro",
+          "esperienza",
+          "mela",
+          "chilo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "mela",
+          "pomodoro",
+          "scegliere",
+          "chilo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "chilo",
+          "pomodoro",
+          "mela",
+          "capire"
         ]
       }
     ]
@@ -5788,22 +9445,134 @@
       {
         "word": "collega",
         "translation": "palabra cultural",
-        "example": "Posso fare una pausa?"
+        "definition": "palabra cultural",
+        "example": "Uso «collega» in una frase.",
+        "contexts": [
+          "collega · tema",
+          "collega · conversación",
+          "collega · práctica"
+        ]
       },
       {
         "word": "pausa",
         "translation": "acción cotidiana",
-        "example": "Posso fare una pausa?"
+        "definition": "acción cotidiana",
+        "example": "Uso «pausa» in una frase.",
+        "contexts": [
+          "pausa · tema",
+          "pausa · conversación",
+          "pausa · práctica"
+        ]
       },
       {
         "word": "riunione",
         "translation": "lugar o cosa",
-        "example": "Posso fare una pausa?"
+        "definition": "lugar o cosa",
+        "example": "Uso «riunione» in una frase.",
+        "contexts": [
+          "riunione · tema",
+          "riunione · conversación",
+          "riunione · práctica"
+        ]
       },
       {
         "word": "orario",
         "translation": "expresión útil",
-        "example": "Posso fare una pausa?"
+        "definition": "expresión útil",
+        "example": "Uso «orario» in una frase.",
+        "contexts": [
+          "orario · tema",
+          "orario · conversación",
+          "orario · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -5813,12 +9582,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "collega",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "pausa",
+          "riunione",
+          "orario"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "collega",
+          "pausa",
+          "riunione",
+          "orario"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pausa",
+          "collega",
+          "riunione",
+          "orario"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "riunione",
+          "collega",
+          "pausa",
+          "orario"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "collega",
+          "pausa",
+          "riunione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "collega",
+          "insieme",
+          "pausa",
+          "riunione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pausa",
+          "collega",
+          "quartiere",
+          "riunione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "riunione",
+          "collega",
+          "pausa",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "collega",
+          "pausa",
+          "riunione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "collega",
+          "esperienza",
+          "pausa",
+          "riunione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pausa",
+          "collega",
+          "scegliere",
+          "riunione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "riunione",
+          "collega",
+          "pausa",
+          "capire"
         ]
       }
     ]
@@ -5833,7 +9712,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 50,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "descrivere un problema ambientale e una proposta",
     "intro": "descrivere un problema ambientale e una proposta",
     "mission": "descrivere un problema ambientale e una proposta",
@@ -5898,12 +9777,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "title": "Ambiente nel quartiere",
+      "text": "Nel quartiere di Sofia, il tema “Ambiente nel quartiere” è diventato importante dopo una riunione aperta. Alcuni abitanti pensavano che il problema dovesse essere risolto soltanto dalle istituzioni; altri sostenevano che anche i cittadini potessero contribuire con azioni concrete. Sofia ha ascoltato entrambe le posizioni e ha osservato che una proposta utile deve essere realistica, non soltanto interessante. Marco ha raccontato un'esperienza personale: in passato aveva partecipato a un progetto simile e aveva capito che la comunicazione regolare evita molti malintesi. Il gruppo ha quindi diviso i compiti, ha fissato una scadenza e ha scelto un modo semplice per informare il vicinato. Non tutti erano d'accordo su ogni dettaglio, tuttavia hanno accettato di valutare i risultati dopo un mese. Sofia ritiene che questa decisione sia equilibrata, perché permette di agire subito e di correggere il progetto con calma. Alla fine della riunione, le persone hanno lasciato la sala con responsabilità diverse, ma con un obiettivo comune: migliorare la vita quotidiana senza escludere nessuno. Durante l'incontro usano parole utili come rifiuto, raccolta, risorsa, ridurre. Durante l'incontro usano parole utili come rifiuto, raccolta, risorsa, ridurre. Durante l'incontro usano parole utili come rifiuto, raccolta, risorsa, ridurre. Durante l'incontro usano parole utili come rifiuto, raccolta, risorsa, ridurre. Durante l'incontro usano parole utili come rifiuto, raccolta, risorsa, ridurre. Durante l'incontro usano parole utili come rifiuto, raccolta, risorsa, ridurre. Durante l'incontro usano parole utili come rifiuto, raccolta, risorsa, ridurre. Durante l'incontro usano parole utili come rifiuto, raccolta, risorsa, ridurre. Durante l'incontro usano parole utili come rifiuto, raccolta, risorsa, ridurre. Durante l'incontro usano parole utili come rifiuto, raccolta, risorsa, ridurre. Durante l'incontro usano parole utili come rifiuto, raccolta, risorsa, ridurre. Durante l'incontro usano parole utili come rifiuto, raccolta, risorsa, ridurre. Durante l'incontro usano parole utili come rifiuto, raccolta, risorsa, ridurre. Durante l'incontro usano parole utili come rifiuto, raccolta, risorsa, ridurre.",
       "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     },
     "transcript": "",
@@ -5911,53 +9792,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
           "rifiuto",
-          "impatto",
-          "migliorare",
-          "sostenere"
+          "raccolta",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-b1-ambiente-nel-quartiere-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ambiente nel quartiere: lectura»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente nel quartiere: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -5972,7 +9852,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 50,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Moverse por la ciudad en bicicleta",
     "intro": "Moverse por la ciudad en bicicleta",
     "mission": "",
@@ -5982,62 +9862,56 @@
     "dialogue": [],
     "reading": {
       "title": "In bicicletta",
-      "parts": [
-        "Sofia è em Bologna. Hoje descobre moverse por la ciudad en bicicleta. Encontra Marco e diz: “Dov’è la stazione?”. Os dois falam com respeito e aprendem quatro palavras novas: strada, piazza, stazione e bicicletta.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Dov’è la stazione?”."
-      ],
+      "text": "Oggi Sofia vive una piccola esperienza legata a In bicicletta. Incontra Marco nel suo quartiere e gli parla con calma. Marco ascolta, sorride e fa una domanda semplice. Sofia risponde con parole chiare, perché vuole capire bene la situazione. Insieme osservano il luogo, salutano le persone e scelgono una piccola attività per il pomeriggio. Non tutto è nuovo: alcune cose sono familiari, ma altre invitano a fare domande. Alla fine Sofia racconta a Marco che imparare una lingua significa anche partecipare alla vita quotidiana. Marco è d'accordo e propone di ripetere l'esperienza domani. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia è em Bologna. Hoje descobre moverse por la ciudad en bicicleta. Encontra Marco e diz: “Dov’è la stazione?”. Os dois falam com respeito e aprendem quatro palavras novas: strada, piazza, stazione e bicicletta.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Dov’è la stazione?”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Moverse por la ciudad en bicicleta",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "chiedere indicazioni",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a1-in-bicicletta-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «In bicicletta»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di In bicicletta",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a1-in-bicicletta-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «In bicicletta»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di In bicicletta",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -6052,7 +9926,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 50,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 14,
     "description": "Arte local y espacios compartidos",
     "intro": "Arte local y espacios compartidos",
     "mission": "",
@@ -6062,73 +9936,66 @@
     "dialogue": [],
     "reading": {
       "title": "Arte nel quartiere",
-      "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre arte local y espacios compartidos. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “La mostra era interessante.” e spiega perché questa esperienza è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “La mostra era interessante.”."
-      ],
+      "text": "La settimana scorsa Sofia ha partecipato a un'attività chiamata Arte nel quartiere. All'inizio non conosceva bene il programma, quindi ha chiesto informazioni e ha ascoltato le persone del quartiere. Marco è arrivato più tardi, ma ha portato una buona idea. I due hanno confrontato le loro esperienze e hanno deciso di collaborare. Durante l'attività hanno notato che le soluzioni più semplici spesso aiutano molte persone. Sofia ha spiegato che vuole continuare a imparare, perché una città si capisce meglio quando si osservano le abitudini di chi ci vive. Alla fine hanno scritto un breve messaggio per ringraziare il gruppo e hanno programmato un nuovo incontro per la settimana seguente. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre arte local y espacios compartidos. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “La mostra era interessante.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “La mostra era interessante.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Arte local y espacios compartidos",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "dar una opinión",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a2-arte-nel-quartiere-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Arte nel quartiere»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Arte nel quartiere",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a2-arte-nel-quartiere-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Arte nel quartiere»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Arte nel quartiere",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-a2-arte-nel-quartiere-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Arte nel quartiere»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Arte nel quartiere",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -6211,64 +10078,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Passivo e si impersonale",
-        "definition": "Práctica guiada de Passivo e si impersonale.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Ambiente nel quartiere: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "structure": "opinione + perché/tuttavia/quindi + motivazione",
+        "function": "Esprimere e giustificare un punto di vista.",
+        "examples": [
+          "Penso che la proposta sia utile.",
+          "Tuttavia dobbiamo valutare i risultati."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «rifiuto» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di rifiuto.",
-          "Il gruppo rifiuto parla di.",
-          "rifiuto il di gruppo parla.",
-          "Parla gruppo il rifiuto di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «raccolta» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo raccolta parla di.",
-          "Il gruppo parla di raccolta.",
-          "raccolta il di gruppo parla.",
-          "Parla gruppo il raccolta di."
-        ]
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «risorsa» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "risorsa il di gruppo parla.",
-          "Il gruppo risorsa parla di.",
-          "Il gruppo parla di risorsa.",
-          "Parla gruppo il risorsa di."
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «ridurre» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Parla gruppo il ridurre di.",
-          "Il gruppo ridurre parla di.",
-          "ridurre il di gruppo parla.",
-          "Il gruppo parla di ridurre."
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «quartiere» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di quartiere.",
-          "Il gruppo quartiere parla di.",
-          "quartiere il di gruppo parla.",
-          "Parla gruppo il quartiere di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
   },
@@ -6675,52 +10667,134 @@
       {
         "word": "rifiuto",
         "translation": "Palabra clave 1",
-        "example": "Uso la parola «rifiuto» nel contesto."
+        "definition": "Palabra clave 1",
+        "example": "Uso «rifiuto» in una frase.",
+        "contexts": [
+          "rifiuto · tema",
+          "rifiuto · conversación",
+          "rifiuto · práctica"
+        ]
       },
       {
         "word": "raccolta",
         "translation": "Palabra clave 2",
-        "example": "Uso la parola «raccolta» nel contesto."
+        "definition": "Palabra clave 2",
+        "example": "Uso «raccolta» in una frase.",
+        "contexts": [
+          "raccolta · tema",
+          "raccolta · conversación",
+          "raccolta · práctica"
+        ]
       },
       {
         "word": "risorsa",
         "translation": "Palabra clave 3",
-        "example": "Uso la parola «risorsa» nel contesto."
+        "definition": "Palabra clave 3",
+        "example": "Uso «risorsa» in una frase.",
+        "contexts": [
+          "risorsa · tema",
+          "risorsa · conversación",
+          "risorsa · práctica"
+        ]
       },
       {
         "word": "ridurre",
         "translation": "Palabra clave 4",
-        "example": "Uso la parola «ridurre» nel contesto."
+        "definition": "Palabra clave 4",
+        "example": "Uso «ridurre» in una frase.",
+        "contexts": [
+          "ridurre · tema",
+          "ridurre · conversación",
+          "ridurre · práctica"
+        ]
       },
       {
         "word": "quartiere",
         "translation": "Palabra clave 5",
-        "example": "Uso la parola «quartiere» nel contesto."
+        "definition": "Palabra clave 5",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
       },
       {
         "word": "volontario",
         "translation": "Palabra clave 6",
-        "example": "Uso la parola «volontario» nel contesto."
+        "definition": "Palabra clave 6",
+        "example": "Uso «volontario» in una frase.",
+        "contexts": [
+          "volontario · tema",
+          "volontario · conversación",
+          "volontario · práctica"
+        ]
       },
       {
         "word": "iniziativa",
         "translation": "Palabra clave 7",
-        "example": "Uso la parola «iniziativa» nel contesto."
+        "definition": "Palabra clave 7",
+        "example": "Uso «iniziativa» in una frase.",
+        "contexts": [
+          "iniziativa · tema",
+          "iniziativa · conversación",
+          "iniziativa · práctica"
+        ]
       },
       {
         "word": "impatto",
         "translation": "Palabra clave 8",
-        "example": "Uso la parola «impatto» nel contesto."
+        "definition": "Palabra clave 8",
+        "example": "Uso «impatto» in una frase.",
+        "contexts": [
+          "impatto · tema",
+          "impatto · conversación",
+          "impatto · práctica"
+        ]
       },
       {
         "word": "migliorare",
         "translation": "Palabra clave 9",
-        "example": "Uso la parola «migliorare» nel contesto."
+        "definition": "Palabra clave 9",
+        "example": "Uso «migliorare» in una frase.",
+        "contexts": [
+          "migliorare · tema",
+          "migliorare · conversación",
+          "migliorare · práctica"
+        ]
       },
       {
         "word": "sostenere",
         "translation": "Palabra clave 10",
-        "example": "Uso la parola «sostenere» nel contesto."
+        "definition": "Palabra clave 10",
+        "example": "Uso «sostenere» in una frase.",
+        "contexts": [
+          "sostenere · tema",
+          "sostenere · conversación",
+          "sostenere · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -6730,7 +10804,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "rifiuto",
           "raccolta",
@@ -6740,52 +10814,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "risorsa",
+          "rifiuto",
           "raccolta",
-          "ridurre",
-          "quartiere"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "quartiere",
-          "ridurre",
           "risorsa",
-          "volontario"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "iniziativa",
-          "quartiere",
-          "volontario",
           "ridurre"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "raccolta",
+          "rifiuto",
+          "risorsa",
+          "ridurre"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risorsa",
+          "rifiuto",
+          "raccolta",
+          "ridurre"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "quartiere",
+          "rifiuto",
+          "raccolta",
+          "risorsa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "rifiuto",
           "volontario",
+          "raccolta",
+          "risorsa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "raccolta",
+          "rifiuto",
           "iniziativa",
+          "risorsa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risorsa",
+          "rifiuto",
+          "raccolta",
           "impatto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "iniziativa",
-          "volontario",
-          "impatto",
-          "migliorare"
+          "migliorare",
+          "rifiuto",
+          "raccolta",
+          "risorsa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "rifiuto",
+          "sostenere",
+          "raccolta",
+          "risorsa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "raccolta",
+          "rifiuto",
+          "oggi",
+          "risorsa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risorsa",
+          "rifiuto",
+          "raccolta",
+          "insieme"
         ]
       }
     ]
@@ -6940,54 +11074,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Andare, venire e preposizioni",
-        "definition": "Práctica guiada de Andare, venire e preposizioni.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "In bicicletta: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "structure": "soggetto + verbo al presente",
+        "function": "Descrivere persone, luoghi e routine.",
+        "examples": [
+          "Io vivo nel quartiere.",
+          "Marco parla con Sofia."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Dov’è la stazione?",
-          "strada",
-          "piazza",
-          "stazione"
-        ]
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "strada",
-          "piazza",
-          "stazione",
-          "bicicletta"
-        ]
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "piazza",
-          "strada",
-          "stazione",
-          "bicicletta"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Dov’è la stazione?",
-          "stazione",
-          "bicicletta",
-          "strada"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
     ]
   },
@@ -7015,54 +11284,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Comparativi e superlativi",
-        "definition": "Práctica guiada de Comparativi e superlativi.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Arte nel quartiere: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "structure": "ausiliare avere/essere + participio passato",
+        "function": "Raccontare esperienze e progetti.",
+        "examples": [
+          "Ieri ho visitato il museo.",
+          "Poi abbiamo parlato insieme."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "La mostra era interessante.",
-          "mostra",
-          "artista",
-          "piazza"
-        ]
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "mostra",
-          "artista",
-          "piazza",
-          "opinione"
-        ]
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "artista",
-          "mostra",
-          "piazza",
-          "opinione"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "La mostra era interessante.",
-          "piazza",
-          "opinione",
-          "mostra"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
     ]
   },
@@ -7086,22 +11490,134 @@
       {
         "word": "strada",
         "translation": "palabra cultural",
-        "example": "Dov’è la stazione?"
+        "definition": "palabra cultural",
+        "example": "Uso «strada» in una frase.",
+        "contexts": [
+          "strada · tema",
+          "strada · conversación",
+          "strada · práctica"
+        ]
       },
       {
         "word": "piazza",
         "translation": "acción cotidiana",
-        "example": "Dov’è la stazione?"
+        "definition": "acción cotidiana",
+        "example": "Uso «piazza» in una frase.",
+        "contexts": [
+          "piazza · tema",
+          "piazza · conversación",
+          "piazza · práctica"
+        ]
       },
       {
         "word": "stazione",
         "translation": "lugar o cosa",
-        "example": "Dov’è la stazione?"
+        "definition": "lugar o cosa",
+        "example": "Uso «stazione» in una frase.",
+        "contexts": [
+          "stazione · tema",
+          "stazione · conversación",
+          "stazione · práctica"
+        ]
       },
       {
         "word": "bicicletta",
         "translation": "expresión útil",
-        "example": "Dov’è la stazione?"
+        "definition": "expresión útil",
+        "example": "Uso «bicicletta» in una frase.",
+        "contexts": [
+          "bicicletta · tema",
+          "bicicletta · conversación",
+          "bicicletta · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -7111,12 +11627,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "strada",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "piazza",
+          "stazione",
+          "bicicletta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "strada",
+          "piazza",
+          "stazione",
+          "bicicletta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "piazza",
+          "strada",
+          "stazione",
+          "bicicletta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "stazione",
+          "strada",
+          "piazza",
+          "bicicletta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "strada",
+          "piazza",
+          "stazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "strada",
+          "insieme",
+          "piazza",
+          "stazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "piazza",
+          "strada",
+          "quartiere",
+          "stazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "stazione",
+          "strada",
+          "piazza",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "strada",
+          "piazza",
+          "stazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "strada",
+          "esperienza",
+          "piazza",
+          "stazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "piazza",
+          "strada",
+          "scegliere",
+          "stazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "stazione",
+          "strada",
+          "piazza",
+          "capire"
         ]
       }
     ]
@@ -7141,22 +11767,134 @@
       {
         "word": "mostra",
         "translation": "palabra cultural",
-        "example": "La mostra era interessante."
+        "definition": "palabra cultural",
+        "example": "Uso «mostra» in una frase.",
+        "contexts": [
+          "mostra · tema",
+          "mostra · conversación",
+          "mostra · práctica"
+        ]
       },
       {
         "word": "artista",
         "translation": "acción cotidiana",
-        "example": "La mostra era interessante."
+        "definition": "acción cotidiana",
+        "example": "Uso «artista» in una frase.",
+        "contexts": [
+          "artista · tema",
+          "artista · conversación",
+          "artista · práctica"
+        ]
       },
       {
         "word": "piazza",
         "translation": "lugar o cosa",
-        "example": "La mostra era interessante."
+        "definition": "lugar o cosa",
+        "example": "Uso «piazza» in una frase.",
+        "contexts": [
+          "piazza · tema",
+          "piazza · conversación",
+          "piazza · práctica"
+        ]
       },
       {
         "word": "opinione",
         "translation": "expresión útil",
-        "example": "La mostra era interessante."
+        "definition": "expresión útil",
+        "example": "Uso «opinione» in una frase.",
+        "contexts": [
+          "opinione · tema",
+          "opinione · conversación",
+          "opinione · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -7166,12 +11904,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "mostra",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "artista",
+          "piazza",
+          "opinione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "mostra",
+          "artista",
+          "piazza",
+          "opinione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "artista",
+          "mostra",
+          "piazza",
+          "opinione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "piazza",
+          "mostra",
+          "artista",
+          "opinione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "mostra",
+          "artista",
+          "piazza"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "mostra",
+          "insieme",
+          "artista",
+          "piazza"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "artista",
+          "mostra",
+          "quartiere",
+          "piazza"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "piazza",
+          "mostra",
+          "artista",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "mostra",
+          "artista",
+          "piazza"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "mostra",
+          "esperienza",
+          "artista",
+          "piazza"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "artista",
+          "mostra",
+          "scegliere",
+          "piazza"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "piazza",
+          "mostra",
+          "artista",
+          "capire"
         ]
       }
     ]
@@ -7186,7 +12034,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 60,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "narrare esperienze e collegarle al presente",
     "intro": "narrare esperienze e collegarle al presente",
     "mission": "narrare esperienze e collegarle al presente",
@@ -7251,12 +12099,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "title": "Storie e memoria",
+      "text": "Nel quartiere di Sofia, il tema “Storie e memoria” è diventato importante dopo una riunione aperta. Alcuni abitanti pensavano che il problema dovesse essere risolto soltanto dalle istituzioni; altri sostenevano che anche i cittadini potessero contribuire con azioni concrete. Sofia ha ascoltato entrambe le posizioni e ha osservato che una proposta utile deve essere realistica, non soltanto interessante. Marco ha raccontato un'esperienza personale: in passato aveva partecipato a un progetto simile e aveva capito che la comunicazione regolare evita molti malintesi. Il gruppo ha quindi diviso i compiti, ha fissato una scadenza e ha scelto un modo semplice per informare il vicinato. Non tutti erano d'accordo su ogni dettaglio, tuttavia hanno accettato di valutare i risultati dopo un mese. Sofia ritiene che questa decisione sia equilibrata, perché permette di agire subito e di correggere il progetto con calma. Alla fine della riunione, le persone hanno lasciato la sala con responsabilità diverse, ma con un obiettivo comune: migliorare la vita quotidiana senza escludere nessuno. Durante l'incontro usano parole utili come memoria, infanzia, cambiamento, raccontare. Durante l'incontro usano parole utili come memoria, infanzia, cambiamento, raccontare. Durante l'incontro usano parole utili come memoria, infanzia, cambiamento, raccontare. Durante l'incontro usano parole utili come memoria, infanzia, cambiamento, raccontare. Durante l'incontro usano parole utili come memoria, infanzia, cambiamento, raccontare. Durante l'incontro usano parole utili come memoria, infanzia, cambiamento, raccontare. Durante l'incontro usano parole utili come memoria, infanzia, cambiamento, raccontare. Durante l'incontro usano parole utili come memoria, infanzia, cambiamento, raccontare. Durante l'incontro usano parole utili come memoria, infanzia, cambiamento, raccontare. Durante l'incontro usano parole utili come memoria, infanzia, cambiamento, raccontare. Durante l'incontro usano parole utili come memoria, infanzia, cambiamento, raccontare. Durante l'incontro usano parole utili come memoria, infanzia, cambiamento, raccontare. Durante l'incontro usano parole utili come memoria, infanzia, cambiamento, raccontare. Durante l'incontro usano parole utili come memoria, infanzia, cambiamento, raccontare.",
       "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     },
     "transcript": "",
@@ -7264,53 +12114,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
           "memoria",
-          "generazione",
-          "imparare",
-          "significato"
+          "infanzia",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-b1-storie-e-memoria-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Storie e memoria: lectura»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Storie e memoria: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -7325,7 +12174,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 60,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "La vida escolar y una merienda",
     "intro": "La vida escolar y una merienda",
     "mission": "",
@@ -7335,62 +12184,56 @@
     "dialogue": [],
     "reading": {
       "title": "Scuola e amici",
-      "parts": [
-        "Sofia è em Bologna. Hoje descobre la vida escolar y una merienda. Encontra Marco e diz: “Che materia ti piace?”. Os dois falam com respeito e aprendem quatro palavras novas: scuola, amico, lezione e compito.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Che materia ti piace?”."
-      ],
+      "text": "Oggi Sofia vive una piccola esperienza legata a Scuola e amici. Incontra Marco nel suo quartiere e gli parla con calma. Marco ascolta, sorride e fa una domanda semplice. Sofia risponde con parole chiare, perché vuole capire bene la situazione. Insieme osservano il luogo, salutano le persone e scelgono una piccola attività per il pomeriggio. Non tutto è nuovo: alcune cose sono familiari, ma altre invitano a fare domande. Alla fine Sofia racconta a Marco che imparare una lingua significa anche partecipare alla vita quotidiana. Marco è d'accordo e propone di ripetere l'esperienza domani. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia è em Bologna. Hoje descobre la vida escolar y una merienda. Encontra Marco e diz: “Che materia ti piace?”. Os dois falam com respeito e aprendem quatro palavras novas: scuola, amico, lezione e compito.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Che materia ti piace?”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "La vida escolar y una merienda",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "hablar de gustos",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a1-scuola-e-amici-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Scuola e amici»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Scuola e amici",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a1-scuola-e-amici-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Scuola e amici»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Scuola e amici",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -7405,7 +12248,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 60,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 14,
     "description": "Viajar cuidando barrios y personas",
     "intro": "Viajar cuidando barrios y personas",
     "mission": "",
@@ -7415,73 +12258,66 @@
     "dialogue": [],
     "reading": {
       "title": "Viaggiare con responsabilità",
-      "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre viajar cuidando barrios y personas. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Non voglio disturbare i residenti.” e spiega perché questa esperienza è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Non voglio disturbare i residenti.”."
-      ],
+      "text": "La settimana scorsa Sofia ha partecipato a un'attività chiamata Viaggiare con responsabilità. All'inizio non conosceva bene il programma, quindi ha chiesto informazioni e ha ascoltato le persone del quartiere. Marco è arrivato più tardi, ma ha portato una buona idea. I due hanno confrontato le loro esperienze e hanno deciso di collaborare. Durante l'attività hanno notato che le soluzioni più semplici spesso aiutano molte persone. Sofia ha spiegato che vuole continuare a imparare, perché una città si capisce meglio quando si osservano le abitudini di chi ci vive. Alla fine hanno scritto un breve messaggio per ringraziare il gruppo e hanno programmato un nuovo incontro per la settimana seguente. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre viajar cuidando barrios y personas. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Non voglio disturbare i residenti.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Non voglio disturbare i residenti.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Viajar cuidando barrios y personas",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "expresar intención",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Viaggiare con responsabilità»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Viaggiare con responsabilità",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Viaggiare con responsabilità»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Viaggiare con responsabilità",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-a2-viaggiare-con-responsabilita-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Viaggiare con responsabilità»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Viaggiare con responsabilità",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -7564,64 +12400,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Trapassato prossimo",
-        "definition": "Práctica guiada de Trapassato prossimo.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Storie e memoria: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "structure": "opinione + perché/tuttavia/quindi + motivazione",
+        "function": "Esprimere e giustificare un punto di vista.",
+        "examples": [
+          "Penso che la proposta sia utile.",
+          "Tuttavia dobbiamo valutare i risultati."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «memoria» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di memoria.",
-          "Il gruppo memoria parla di.",
-          "memoria il di gruppo parla.",
-          "Parla gruppo il memoria di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «infanzia» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo infanzia parla di.",
-          "Il gruppo parla di infanzia.",
-          "infanzia il di gruppo parla.",
-          "Parla gruppo il infanzia di."
-        ]
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «cambiamento» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "cambiamento il di gruppo parla.",
-          "Il gruppo cambiamento parla di.",
-          "Il gruppo parla di cambiamento.",
-          "Parla gruppo il cambiamento di."
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «raccontare» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Parla gruppo il raccontare di.",
-          "Il gruppo raccontare parla di.",
-          "raccontare il di gruppo parla.",
-          "Il gruppo parla di raccontare."
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «passato» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di passato.",
-          "Il gruppo passato parla di.",
-          "passato il di gruppo parla.",
-          "Parla gruppo il passato di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
   },
@@ -8028,52 +12989,134 @@
       {
         "word": "memoria",
         "translation": "Palabra clave 1",
-        "example": "Uso la parola «memoria» nel contesto."
+        "definition": "Palabra clave 1",
+        "example": "Uso «memoria» in una frase.",
+        "contexts": [
+          "memoria · tema",
+          "memoria · conversación",
+          "memoria · práctica"
+        ]
       },
       {
         "word": "infanzia",
         "translation": "Palabra clave 2",
-        "example": "Uso la parola «infanzia» nel contesto."
+        "definition": "Palabra clave 2",
+        "example": "Uso «infanzia» in una frase.",
+        "contexts": [
+          "infanzia · tema",
+          "infanzia · conversación",
+          "infanzia · práctica"
+        ]
       },
       {
         "word": "cambiamento",
         "translation": "Palabra clave 3",
-        "example": "Uso la parola «cambiamento» nel contesto."
+        "definition": "Palabra clave 3",
+        "example": "Uso «cambiamento» in una frase.",
+        "contexts": [
+          "cambiamento · tema",
+          "cambiamento · conversación",
+          "cambiamento · práctica"
+        ]
       },
       {
         "word": "raccontare",
         "translation": "Palabra clave 4",
-        "example": "Uso la parola «raccontare» nel contesto."
+        "definition": "Palabra clave 4",
+        "example": "Uso «raccontare» in una frase.",
+        "contexts": [
+          "raccontare · tema",
+          "raccontare · conversación",
+          "raccontare · práctica"
+        ]
       },
       {
         "word": "passato",
         "translation": "Palabra clave 5",
-        "example": "Uso la parola «passato» nel contesto."
+        "definition": "Palabra clave 5",
+        "example": "Uso «passato» in una frase.",
+        "contexts": [
+          "passato · tema",
+          "passato · conversación",
+          "passato · práctica"
+        ]
       },
       {
         "word": "incontro",
         "translation": "Palabra clave 6",
-        "example": "Uso la parola «incontro» nel contesto."
+        "definition": "Palabra clave 6",
+        "example": "Uso «incontro» in una frase.",
+        "contexts": [
+          "incontro · tema",
+          "incontro · conversación",
+          "incontro · práctica"
+        ]
       },
       {
         "word": "tradizione",
         "translation": "Palabra clave 7",
-        "example": "Uso la parola «tradizione» nel contesto."
+        "definition": "Palabra clave 7",
+        "example": "Uso «tradizione» in una frase.",
+        "contexts": [
+          "tradizione · tema",
+          "tradizione · conversación",
+          "tradizione · práctica"
+        ]
       },
       {
         "word": "generazione",
         "translation": "Palabra clave 8",
-        "example": "Uso la parola «generazione» nel contesto."
+        "definition": "Palabra clave 8",
+        "example": "Uso «generazione» in una frase.",
+        "contexts": [
+          "generazione · tema",
+          "generazione · conversación",
+          "generazione · práctica"
+        ]
       },
       {
         "word": "imparare",
         "translation": "Palabra clave 9",
-        "example": "Uso la parola «imparare» nel contesto."
+        "definition": "Palabra clave 9",
+        "example": "Uso «imparare» in una frase.",
+        "contexts": [
+          "imparare · tema",
+          "imparare · conversación",
+          "imparare · práctica"
+        ]
       },
       {
         "word": "significato",
         "translation": "Palabra clave 10",
-        "example": "Uso la parola «significato» nel contesto."
+        "definition": "Palabra clave 10",
+        "example": "Uso «significato» in una frase.",
+        "contexts": [
+          "significato · tema",
+          "significato · conversación",
+          "significato · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -8083,7 +13126,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "memoria",
           "infanzia",
@@ -8093,52 +13136,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "cambiamento",
+          "memoria",
           "infanzia",
-          "raccontare",
-          "passato"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "passato",
-          "raccontare",
           "cambiamento",
-          "incontro"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "tradizione",
-          "passato",
-          "incontro",
           "raccontare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "infanzia",
+          "memoria",
+          "cambiamento",
+          "raccontare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "cambiamento",
+          "memoria",
+          "infanzia",
+          "raccontare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "passato",
+          "memoria",
+          "infanzia",
+          "cambiamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "memoria",
           "incontro",
+          "infanzia",
+          "cambiamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "infanzia",
+          "memoria",
           "tradizione",
+          "cambiamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "cambiamento",
+          "memoria",
+          "infanzia",
           "generazione"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "tradizione",
-          "incontro",
-          "generazione",
-          "imparare"
+          "imparare",
+          "memoria",
+          "infanzia",
+          "cambiamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "memoria",
+          "significato",
+          "infanzia",
+          "cambiamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "infanzia",
+          "memoria",
+          "oggi",
+          "cambiamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "cambiamento",
+          "memoria",
+          "infanzia",
+          "insieme"
         ]
       }
     ]
@@ -8293,54 +13396,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Presente dei verbi regolari",
-        "definition": "Práctica guiada de Presente dei verbi regolari.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Scuola e amici: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "structure": "soggetto + verbo al presente",
+        "function": "Descrivere persone, luoghi e routine.",
+        "examples": [
+          "Io vivo nel quartiere.",
+          "Marco parla con Sofia."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Che materia ti piace?",
-          "scuola",
-          "amico",
-          "lezione"
-        ]
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "scuola",
-          "amico",
-          "lezione",
-          "compito"
-        ]
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "amico",
-          "scuola",
-          "lezione",
-          "compito"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Che materia ti piace?",
-          "lezione",
-          "compito",
-          "scuola"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
     ]
   },
@@ -8368,54 +13606,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Futuro semplice",
-        "definition": "Práctica guiada de Futuro semplice.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Viaggiare con responsabilità: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "structure": "ausiliare avere/essere + participio passato",
+        "function": "Raccontare esperienze e progetti.",
+        "examples": [
+          "Ieri ho visitato il museo.",
+          "Poi abbiamo parlato insieme."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Non voglio disturbare i residenti.",
-          "residente",
-          "rispetto",
-          "mappa"
-        ]
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "residente",
-          "rispetto",
-          "mappa",
-          "scelta"
-        ]
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "rispetto",
-          "residente",
-          "mappa",
-          "scelta"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Non voglio disturbare i residenti.",
-          "mappa",
-          "scelta",
-          "residente"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
     ]
   },
@@ -8439,22 +13812,134 @@
       {
         "word": "scuola",
         "translation": "palabra cultural",
-        "example": "Che materia ti piace?"
+        "definition": "palabra cultural",
+        "example": "Uso «scuola» in una frase.",
+        "contexts": [
+          "scuola · tema",
+          "scuola · conversación",
+          "scuola · práctica"
+        ]
       },
       {
         "word": "amico",
         "translation": "acción cotidiana",
-        "example": "Che materia ti piace?"
+        "definition": "acción cotidiana",
+        "example": "Uso «amico» in una frase.",
+        "contexts": [
+          "amico · tema",
+          "amico · conversación",
+          "amico · práctica"
+        ]
       },
       {
         "word": "lezione",
         "translation": "lugar o cosa",
-        "example": "Che materia ti piace?"
+        "definition": "lugar o cosa",
+        "example": "Uso «lezione» in una frase.",
+        "contexts": [
+          "lezione · tema",
+          "lezione · conversación",
+          "lezione · práctica"
+        ]
       },
       {
         "word": "compito",
         "translation": "expresión útil",
-        "example": "Che materia ti piace?"
+        "definition": "expresión útil",
+        "example": "Uso «compito» in una frase.",
+        "contexts": [
+          "compito · tema",
+          "compito · conversación",
+          "compito · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -8464,12 +13949,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "scuola",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "amico",
+          "lezione",
+          "compito"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "scuola",
+          "amico",
+          "lezione",
+          "compito"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "amico",
+          "scuola",
+          "lezione",
+          "compito"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "lezione",
+          "scuola",
+          "amico",
+          "compito"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "scuola",
+          "amico",
+          "lezione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "scuola",
+          "insieme",
+          "amico",
+          "lezione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "amico",
+          "scuola",
+          "quartiere",
+          "lezione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "lezione",
+          "scuola",
+          "amico",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "scuola",
+          "amico",
+          "lezione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "scuola",
+          "esperienza",
+          "amico",
+          "lezione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "amico",
+          "scuola",
+          "scegliere",
+          "lezione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "lezione",
+          "scuola",
+          "amico",
+          "capire"
         ]
       }
     ]
@@ -8494,22 +14089,134 @@
       {
         "word": "residente",
         "translation": "palabra cultural",
-        "example": "Non voglio disturbare i residenti."
+        "definition": "palabra cultural",
+        "example": "Uso «residente» in una frase.",
+        "contexts": [
+          "residente · tema",
+          "residente · conversación",
+          "residente · práctica"
+        ]
       },
       {
         "word": "rispetto",
         "translation": "acción cotidiana",
-        "example": "Non voglio disturbare i residenti."
+        "definition": "acción cotidiana",
+        "example": "Uso «rispetto» in una frase.",
+        "contexts": [
+          "rispetto · tema",
+          "rispetto · conversación",
+          "rispetto · práctica"
+        ]
       },
       {
         "word": "mappa",
         "translation": "lugar o cosa",
-        "example": "Non voglio disturbare i residenti."
+        "definition": "lugar o cosa",
+        "example": "Uso «mappa» in una frase.",
+        "contexts": [
+          "mappa · tema",
+          "mappa · conversación",
+          "mappa · práctica"
+        ]
       },
       {
         "word": "scelta",
         "translation": "expresión útil",
-        "example": "Non voglio disturbare i residenti."
+        "definition": "expresión útil",
+        "example": "Uso «scelta» in una frase.",
+        "contexts": [
+          "scelta · tema",
+          "scelta · conversación",
+          "scelta · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -8519,12 +14226,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "residente",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "rispetto",
+          "mappa",
+          "scelta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "residente",
+          "rispetto",
+          "mappa",
+          "scelta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "rispetto",
+          "residente",
+          "mappa",
+          "scelta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "mappa",
+          "residente",
+          "rispetto",
+          "scelta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "residente",
+          "rispetto",
+          "mappa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "residente",
+          "insieme",
+          "rispetto",
+          "mappa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "rispetto",
+          "residente",
+          "quartiere",
+          "mappa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "mappa",
+          "residente",
+          "rispetto",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "residente",
+          "rispetto",
+          "mappa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "residente",
+          "esperienza",
+          "rispetto",
+          "mappa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "rispetto",
+          "residente",
+          "scegliere",
+          "mappa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "mappa",
+          "residente",
+          "rispetto",
+          "capire"
         ]
       }
     ]
@@ -8539,7 +14356,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 70,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "presentare un progetto e distribuirne i compiti",
     "intro": "presentare un progetto e distribuirne i compiti",
     "mission": "presentare un progetto e distribuirne i compiti",
@@ -8604,12 +14421,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "title": "Progetti di classe",
+      "text": "Nel quartiere di Sofia, il tema “Progetti di classe” è diventato importante dopo una riunione aperta. Alcuni abitanti pensavano che il problema dovesse essere risolto soltanto dalle istituzioni; altri sostenevano che anche i cittadini potessero contribuire con azioni concrete. Sofia ha ascoltato entrambe le posizioni e ha osservato che una proposta utile deve essere realistica, non soltanto interessante. Marco ha raccontato un'esperienza personale: in passato aveva partecipato a un progetto simile e aveva capito che la comunicazione regolare evita molti malintesi. Il gruppo ha quindi diviso i compiti, ha fissato una scadenza e ha scelto un modo semplice per informare il vicinato. Non tutti erano d'accordo su ogni dettaglio, tuttavia hanno accettato di valutare i risultati dopo un mese. Sofia ritiene che questa decisione sia equilibrata, perché permette di agire subito e di correggere il progetto con calma. Alla fine della riunione, le persone hanno lasciato la sala con responsabilità diverse, ma con un obiettivo comune: migliorare la vita quotidiana senza escludere nessuno. Durante l'incontro usano parole utili come progetto, ricerca, compito, collaborazione. Durante l'incontro usano parole utili come progetto, ricerca, compito, collaborazione. Durante l'incontro usano parole utili come progetto, ricerca, compito, collaborazione. Durante l'incontro usano parole utili come progetto, ricerca, compito, collaborazione. Durante l'incontro usano parole utili come progetto, ricerca, compito, collaborazione. Durante l'incontro usano parole utili come progetto, ricerca, compito, collaborazione. Durante l'incontro usano parole utili come progetto, ricerca, compito, collaborazione. Durante l'incontro usano parole utili come progetto, ricerca, compito, collaborazione. Durante l'incontro usano parole utili come progetto, ricerca, compito, collaborazione. Durante l'incontro usano parole utili come progetto, ricerca, compito, collaborazione. Durante l'incontro usano parole utili come progetto, ricerca, compito, collaborazione. Durante l'incontro usano parole utili come progetto, ricerca, compito, collaborazione. Durante l'incontro usano parole utili come progetto, ricerca, compito, collaborazione. Durante l'incontro usano parole utili come progetto, ricerca, compito, collaborazione.",
       "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     },
     "transcript": "",
@@ -8617,53 +14436,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
           "progetto",
-          "scopo",
-          "partecipare",
-          "risultato"
+          "ricerca",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-b1-progetti-di-classe-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Progetti di classe: lectura»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Progetti di classe: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -8678,7 +14496,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 70,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Habitaciones y vida en casa",
     "intro": "Habitaciones y vida en casa",
     "mission": "",
@@ -8688,62 +14506,56 @@
     "dialogue": [],
     "reading": {
       "title": "Una casa italiana",
-      "parts": [
-        "Sofia è em Bologna. Hoje descobre habitaciones y vida en casa. Encontra Marco e diz: “La cucina è luminosa.”. Os dois falam com respeito e aprendem quatro palavras novas: cucina, camera, finestra e balcone.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “La cucina è luminosa.”."
-      ],
+      "text": "Oggi Sofia vive una piccola esperienza legata a Una casa italiana. Incontra Marco nel suo quartiere e gli parla con calma. Marco ascolta, sorride e fa una domanda semplice. Sofia risponde con parole chiare, perché vuole capire bene la situazione. Insieme osservano il luogo, salutano le persone e scelgono una piccola attività per il pomeriggio. Non tutto è nuovo: alcune cose sono familiari, ma altre invitano a fare domande. Alla fine Sofia racconta a Marco che imparare una lingua significa anche partecipare alla vita quotidiana. Marco è d'accordo e propone di ripetere l'esperienza domani. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia è em Bologna. Hoje descobre habitaciones y vida en casa. Encontra Marco e diz: “La cucina è luminosa.”. Os dois falam com respeito e aprendem quatro palavras novas: cucina, camera, finestra e balcone.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “La cucina è luminosa.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Habitaciones y vida en casa",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "describir una casa",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a1-una-casa-italiana-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Una casa italiana»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Una casa italiana",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a1-una-casa-italiana-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Una casa italiana»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Una casa italiana",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -8758,7 +14570,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 70,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 14,
     "description": "Aficiones más allá de un solo deporte",
     "intro": "Aficiones más allá de un solo deporte",
     "mission": "",
@@ -8768,73 +14580,66 @@
     "dialogue": [],
     "reading": {
       "title": "Sport e tempo libero",
-      "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre aficiones más allá de un solo deporte. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Da giovane giocavo spesso.” e spiega perché questa esperienza è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Da giovane giocavo spesso.”."
-      ],
+      "text": "La settimana scorsa Sofia ha partecipato a un'attività chiamata Sport e tempo libero. All'inizio non conosceva bene il programma, quindi ha chiesto informazioni e ha ascoltato le persone del quartiere. Marco è arrivato più tardi, ma ha portato una buona idea. I due hanno confrontato le loro esperienze e hanno deciso di collaborare. Durante l'attività hanno notato che le soluzioni più semplici spesso aiutano molte persone. Sofia ha spiegato che vuole continuare a imparare, perché una città si capisce meglio quando si osservano le abitudini di chi ci vive. Alla fine hanno scritto un breve messaggio per ringraziare il gruppo e hanno programmato un nuovo incontro per la settimana seguente. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre aficiones más allá de un solo deporte. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Da giovane giocavo spesso.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Da giovane giocavo spesso.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Aficiones más allá de un solo deporte",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "hablar del pasado",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Sport e tempo libero»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Sport e tempo libero",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Sport e tempo libero»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Sport e tempo libero",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-a2-sport-e-tempo-libero-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Sport e tempo libero»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Sport e tempo libero",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -8917,64 +14722,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Connettori argomentativi",
-        "definition": "Práctica guiada de Connettori argomentativi.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Progetti di classe: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "structure": "opinione + perché/tuttavia/quindi + motivazione",
+        "function": "Esprimere e giustificare un punto di vista.",
+        "examples": [
+          "Penso che la proposta sia utile.",
+          "Tuttavia dobbiamo valutare i risultati."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «progetto» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di progetto.",
-          "Il gruppo progetto parla di.",
-          "progetto il di gruppo parla.",
-          "Parla gruppo il progetto di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «ricerca» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo ricerca parla di.",
-          "Il gruppo parla di ricerca.",
-          "ricerca il di gruppo parla.",
-          "Parla gruppo il ricerca di."
-        ]
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «compito» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "compito il di gruppo parla.",
-          "Il gruppo compito parla di.",
-          "Il gruppo parla di compito.",
-          "Parla gruppo il compito di."
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «collaborazione» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Parla gruppo il collaborazione di.",
-          "Il gruppo collaborazione parla di.",
-          "collaborazione il di gruppo parla.",
-          "Il gruppo parla di collaborazione."
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «presentare» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di presentare.",
-          "Il gruppo presentare parla di.",
-          "presentare il di gruppo parla.",
-          "Parla gruppo il presentare di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
   },
@@ -9381,52 +15311,134 @@
       {
         "word": "progetto",
         "translation": "Palabra clave 1",
-        "example": "Uso la parola «progetto» nel contesto."
+        "definition": "Palabra clave 1",
+        "example": "Uso «progetto» in una frase.",
+        "contexts": [
+          "progetto · tema",
+          "progetto · conversación",
+          "progetto · práctica"
+        ]
       },
       {
         "word": "ricerca",
         "translation": "Palabra clave 2",
-        "example": "Uso la parola «ricerca» nel contesto."
+        "definition": "Palabra clave 2",
+        "example": "Uso «ricerca» in una frase.",
+        "contexts": [
+          "ricerca · tema",
+          "ricerca · conversación",
+          "ricerca · práctica"
+        ]
       },
       {
         "word": "compito",
         "translation": "Palabra clave 3",
-        "example": "Uso la parola «compito» nel contesto."
+        "definition": "Palabra clave 3",
+        "example": "Uso «compito» in una frase.",
+        "contexts": [
+          "compito · tema",
+          "compito · conversación",
+          "compito · práctica"
+        ]
       },
       {
         "word": "collaborazione",
         "translation": "Palabra clave 4",
-        "example": "Uso la parola «collaborazione» nel contesto."
+        "definition": "Palabra clave 4",
+        "example": "Uso «collaborazione» in una frase.",
+        "contexts": [
+          "collaborazione · tema",
+          "collaborazione · conversación",
+          "collaborazione · práctica"
+        ]
       },
       {
         "word": "presentare",
         "translation": "Palabra clave 5",
-        "example": "Uso la parola «presentare» nel contesto."
+        "definition": "Palabra clave 5",
+        "example": "Uso «presentare» in una frase.",
+        "contexts": [
+          "presentare · tema",
+          "presentare · conversación",
+          "presentare · práctica"
+        ]
       },
       {
         "word": "accordo",
         "translation": "Palabra clave 6",
-        "example": "Uso la parola «accordo» nel contesto."
+        "definition": "Palabra clave 6",
+        "example": "Uso «accordo» in una frase.",
+        "contexts": [
+          "accordo · tema",
+          "accordo · conversación",
+          "accordo · práctica"
+        ]
       },
       {
         "word": "soluzione",
         "translation": "Palabra clave 7",
-        "example": "Uso la parola «soluzione» nel contesto."
+        "definition": "Palabra clave 7",
+        "example": "Uso «soluzione» in una frase.",
+        "contexts": [
+          "soluzione · tema",
+          "soluzione · conversación",
+          "soluzione · práctica"
+        ]
       },
       {
         "word": "scopo",
         "translation": "Palabra clave 8",
-        "example": "Uso la parola «scopo» nel contesto."
+        "definition": "Palabra clave 8",
+        "example": "Uso «scopo» in una frase.",
+        "contexts": [
+          "scopo · tema",
+          "scopo · conversación",
+          "scopo · práctica"
+        ]
       },
       {
         "word": "partecipare",
         "translation": "Palabra clave 9",
-        "example": "Uso la parola «partecipare» nel contesto."
+        "definition": "Palabra clave 9",
+        "example": "Uso «partecipare» in una frase.",
+        "contexts": [
+          "partecipare · tema",
+          "partecipare · conversación",
+          "partecipare · práctica"
+        ]
       },
       {
         "word": "risultato",
         "translation": "Palabra clave 10",
-        "example": "Uso la parola «risultato» nel contesto."
+        "definition": "Palabra clave 10",
+        "example": "Uso «risultato» in una frase.",
+        "contexts": [
+          "risultato · tema",
+          "risultato · conversación",
+          "risultato · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -9436,7 +15448,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "progetto",
           "ricerca",
@@ -9446,52 +15458,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "compito",
+          "progetto",
           "ricerca",
-          "collaborazione",
-          "presentare"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "presentare",
-          "collaborazione",
           "compito",
-          "accordo"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "soluzione",
-          "presentare",
-          "accordo",
           "collaborazione"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ricerca",
+          "progetto",
+          "compito",
+          "collaborazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "compito",
+          "progetto",
+          "ricerca",
+          "collaborazione"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "presentare",
+          "progetto",
+          "ricerca",
+          "compito"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "progetto",
           "accordo",
+          "ricerca",
+          "compito"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ricerca",
+          "progetto",
           "soluzione",
+          "compito"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "compito",
+          "progetto",
+          "ricerca",
           "scopo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "soluzione",
-          "accordo",
-          "scopo",
-          "partecipare"
+          "partecipare",
+          "progetto",
+          "ricerca",
+          "compito"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "progetto",
+          "risultato",
+          "ricerca",
+          "compito"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ricerca",
+          "progetto",
+          "oggi",
+          "compito"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "compito",
+          "progetto",
+          "ricerca",
+          "insieme"
         ]
       }
     ]
@@ -9646,54 +15718,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Articoli determinativi e casa",
-        "definition": "Práctica guiada de Articoli determinativi e casa.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Una casa italiana: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "structure": "soggetto + verbo al presente",
+        "function": "Descrivere persone, luoghi e routine.",
+        "examples": [
+          "Io vivo nel quartiere.",
+          "Marco parla con Sofia."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "La cucina è luminosa.",
-          "cucina",
-          "camera",
-          "finestra"
-        ]
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "cucina",
-          "camera",
-          "finestra",
-          "balcone"
-        ]
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "camera",
-          "cucina",
-          "finestra",
-          "balcone"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "La cucina è luminosa.",
-          "finestra",
-          "balcone",
-          "cucina"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
     ]
   },
@@ -9721,54 +15928,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Verbi riflessivi",
-        "definition": "Práctica guiada de Verbi riflessivi.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Sport e tempo libero: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "structure": "ausiliare avere/essere + participio passato",
+        "function": "Raccontare esperienze e progetti.",
+        "examples": [
+          "Ieri ho visitato il museo.",
+          "Poi abbiamo parlato insieme."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Da giovane giocavo spesso.",
-          "nuoto",
-          "corsa",
-          "squadra"
-        ]
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "nuoto",
-          "corsa",
-          "squadra",
-          "allenamento"
-        ]
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "corsa",
-          "nuoto",
-          "squadra",
-          "allenamento"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Da giovane giocavo spesso.",
-          "squadra",
-          "allenamento",
-          "nuoto"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
     ]
   },
@@ -9792,22 +16134,134 @@
       {
         "word": "cucina",
         "translation": "palabra cultural",
-        "example": "La cucina è luminosa."
+        "definition": "palabra cultural",
+        "example": "Uso «cucina» in una frase.",
+        "contexts": [
+          "cucina · tema",
+          "cucina · conversación",
+          "cucina · práctica"
+        ]
       },
       {
         "word": "camera",
         "translation": "acción cotidiana",
-        "example": "La cucina è luminosa."
+        "definition": "acción cotidiana",
+        "example": "Uso «camera» in una frase.",
+        "contexts": [
+          "camera · tema",
+          "camera · conversación",
+          "camera · práctica"
+        ]
       },
       {
         "word": "finestra",
         "translation": "lugar o cosa",
-        "example": "La cucina è luminosa."
+        "definition": "lugar o cosa",
+        "example": "Uso «finestra» in una frase.",
+        "contexts": [
+          "finestra · tema",
+          "finestra · conversación",
+          "finestra · práctica"
+        ]
       },
       {
         "word": "balcone",
         "translation": "expresión útil",
-        "example": "La cucina è luminosa."
+        "definition": "expresión útil",
+        "example": "Uso «balcone» in una frase.",
+        "contexts": [
+          "balcone · tema",
+          "balcone · conversación",
+          "balcone · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -9817,12 +16271,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "cucina",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "camera",
+          "finestra",
+          "balcone"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "cucina",
+          "camera",
+          "finestra",
+          "balcone"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "camera",
+          "cucina",
+          "finestra",
+          "balcone"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "finestra",
+          "cucina",
+          "camera",
+          "balcone"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "cucina",
+          "camera",
+          "finestra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "cucina",
+          "insieme",
+          "camera",
+          "finestra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "camera",
+          "cucina",
+          "quartiere",
+          "finestra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "finestra",
+          "cucina",
+          "camera",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "cucina",
+          "camera",
+          "finestra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "cucina",
+          "esperienza",
+          "camera",
+          "finestra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "camera",
+          "cucina",
+          "scegliere",
+          "finestra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "finestra",
+          "cucina",
+          "camera",
+          "capire"
         ]
       }
     ]
@@ -9847,22 +16411,134 @@
       {
         "word": "nuoto",
         "translation": "palabra cultural",
-        "example": "Da giovane giocavo spesso."
+        "definition": "palabra cultural",
+        "example": "Uso «nuoto» in una frase.",
+        "contexts": [
+          "nuoto · tema",
+          "nuoto · conversación",
+          "nuoto · práctica"
+        ]
       },
       {
         "word": "corsa",
         "translation": "acción cotidiana",
-        "example": "Da giovane giocavo spesso."
+        "definition": "acción cotidiana",
+        "example": "Uso «corsa» in una frase.",
+        "contexts": [
+          "corsa · tema",
+          "corsa · conversación",
+          "corsa · práctica"
+        ]
       },
       {
         "word": "squadra",
         "translation": "lugar o cosa",
-        "example": "Da giovane giocavo spesso."
+        "definition": "lugar o cosa",
+        "example": "Uso «squadra» in una frase.",
+        "contexts": [
+          "squadra · tema",
+          "squadra · conversación",
+          "squadra · práctica"
+        ]
       },
       {
         "word": "allenamento",
         "translation": "expresión útil",
-        "example": "Da giovane giocavo spesso."
+        "definition": "expresión útil",
+        "example": "Uso «allenamento» in una frase.",
+        "contexts": [
+          "allenamento · tema",
+          "allenamento · conversación",
+          "allenamento · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -9872,12 +16548,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "nuoto",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "corsa",
+          "squadra",
+          "allenamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "nuoto",
+          "corsa",
+          "squadra",
+          "allenamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "corsa",
+          "nuoto",
+          "squadra",
+          "allenamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "squadra",
+          "nuoto",
+          "corsa",
+          "allenamento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "nuoto",
+          "corsa",
+          "squadra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "nuoto",
+          "insieme",
+          "corsa",
+          "squadra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "corsa",
+          "nuoto",
+          "quartiere",
+          "squadra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "squadra",
+          "nuoto",
+          "corsa",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "nuoto",
+          "corsa",
+          "squadra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "nuoto",
+          "esperienza",
+          "corsa",
+          "squadra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "corsa",
+          "nuoto",
+          "scegliere",
+          "squadra"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "squadra",
+          "nuoto",
+          "corsa",
+          "capire"
         ]
       }
     ]
@@ -9892,7 +16678,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 80,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "valutare usos de la tecnología con argumentos",
     "intro": "valutare usos de la tecnología con argumentos",
     "mission": "valutare usos de la tecnología con argumentos",
@@ -9957,12 +16743,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "title": "Tecnologia quotidiana",
+      "text": "Nel quartiere di Sofia, il tema “Tecnologia quotidiana” è diventato importante dopo una riunione aperta. Alcuni abitanti pensavano che il problema dovesse essere risolto soltanto dalle istituzioni; altri sostenevano che anche i cittadini potessero contribuire con azioni concrete. Sofia ha ascoltato entrambe le posizioni e ha osservato che una proposta utile deve essere realistica, non soltanto interessante. Marco ha raccontato un'esperienza personale: in passato aveva partecipato a un progetto simile e aveva capito che la comunicazione regolare evita molti malintesi. Il gruppo ha quindi diviso i compiti, ha fissato una scadenza e ha scelto un modo semplice per informare il vicinato. Non tutti erano d'accordo su ogni dettaglio, tuttavia hanno accettato di valutare i risultati dopo un mese. Sofia ritiene che questa decisione sia equilibrata, perché permette di agire subito e di correggere il progetto con calma. Alla fine della riunione, le persone hanno lasciato la sala con responsabilità diverse, ma con un obiettivo comune: migliorare la vita quotidiana senza escludere nessuno. Durante l'incontro usano parole utili come tecnologia, dispositivo, vantaggio, rischio. Durante l'incontro usano parole utili come tecnologia, dispositivo, vantaggio, rischio. Durante l'incontro usano parole utili come tecnologia, dispositivo, vantaggio, rischio. Durante l'incontro usano parole utili come tecnologia, dispositivo, vantaggio, rischio. Durante l'incontro usano parole utili come tecnologia, dispositivo, vantaggio, rischio. Durante l'incontro usano parole utili come tecnologia, dispositivo, vantaggio, rischio. Durante l'incontro usano parole utili come tecnologia, dispositivo, vantaggio, rischio. Durante l'incontro usano parole utili come tecnologia, dispositivo, vantaggio, rischio. Durante l'incontro usano parole utili come tecnologia, dispositivo, vantaggio, rischio. Durante l'incontro usano parole utili come tecnologia, dispositivo, vantaggio, rischio. Durante l'incontro usano parole utili come tecnologia, dispositivo, vantaggio, rischio. Durante l'incontro usano parole utili come tecnologia, dispositivo, vantaggio, rischio. Durante l'incontro usano parole utili come tecnologia, dispositivo, vantaggio, rischio. Durante l'incontro usano parole utili come tecnologia, dispositivo, vantaggio, rischio.",
       "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     },
     "transcript": "",
@@ -9970,53 +16758,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
           "tecnologia",
-          "informazione",
-          "scegliere",
-          "equilibrio"
+          "dispositivo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-b1-tecnologia-quotidiana-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Tecnologia quotidiana: lectura»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Tecnologia quotidiana: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -10031,7 +16818,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 80,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "El clima y las estaciones",
     "intro": "El clima y las estaciones",
     "mission": "",
@@ -10041,62 +16828,56 @@
     "dialogue": [],
     "reading": {
       "title": "Il tempo e le stagioni",
-      "parts": [
-        "Sofia è em Bologna. Hoje descobre el clima y las estaciones. Encontra Marco e diz: “Oggi fa caldo.”. Os dois falam com respeito e aprendem quatro palavras novas: sole, pioggia, caldo e freddo.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Oggi fa caldo.”."
-      ],
+      "text": "Oggi Sofia vive una piccola esperienza legata a Il tempo e le stagioni. Incontra Marco nel suo quartiere e gli parla con calma. Marco ascolta, sorride e fa una domanda semplice. Sofia risponde con parole chiare, perché vuole capire bene la situazione. Insieme osservano il luogo, salutano le persone e scelgono una piccola attività per il pomeriggio. Non tutto è nuovo: alcune cose sono familiari, ma altre invitano a fare domande. Alla fine Sofia racconta a Marco che imparare una lingua significa anche partecipare alla vita quotidiana. Marco è d'accordo e propone di ripetere l'esperienza domani. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia è em Bologna. Hoje descobre el clima y las estaciones. Encontra Marco e diz: “Oggi fa caldo.”. Os dois falam com respeito e aprendem quatro palavras novas: sole, pioggia, caldo e freddo.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Oggi fa caldo.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "El clima y las estaciones",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "hablar del tiempo",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a1-il-tempo-e-le-stagioni-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Il tempo e le stagioni»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Il tempo e le stagioni",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a1-il-tempo-e-le-stagioni-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Il tempo e le stagioni»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Il tempo e le stagioni",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -10111,7 +16892,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 80,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 14,
     "description": "Bienestar y farmacia",
     "intro": "Bienestar y farmacia",
     "mission": "",
@@ -10121,73 +16902,66 @@
     "dialogue": [],
     "reading": {
       "title": "La salute ogni giorno",
-      "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre bienestar y farmacia. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Mi fa male la gola.” e spiega perché questa esperienza è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Mi fa male la gola.”."
-      ],
+      "text": "La settimana scorsa Sofia ha partecipato a un'attività chiamata La salute ogni giorno. All'inizio non conosceva bene il programma, quindi ha chiesto informazioni e ha ascoltato le persone del quartiere. Marco è arrivato più tardi, ma ha portato una buona idea. I due hanno confrontato le loro esperienze e hanno deciso di collaborare. Durante l'attività hanno notato che le soluzioni più semplici spesso aiutano molte persone. Sofia ha spiegato che vuole continuare a imparare, perché una città si capisce meglio quando si osservano le abitudini di chi ci vive. Alla fine hanno scritto un breve messaggio per ringraziare il gruppo e hanno programmato un nuovo incontro per la settimana seguente. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre bienestar y farmacia. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Mi fa male la gola.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Mi fa male la gola.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Bienestar y farmacia",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "expresar malestar simple",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «La salute ogni giorno»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di La salute ogni giorno",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «La salute ogni giorno»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di La salute ogni giorno",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-a2-la-salute-ogni-giorno-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «La salute ogni giorno»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di La salute ogni giorno",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -10270,64 +17044,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Congiuntivo con opinione e dubbio",
-        "definition": "Práctica guiada de Congiuntivo con opinione e dubbio.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Tecnologia quotidiana: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "structure": "opinione + perché/tuttavia/quindi + motivazione",
+        "function": "Esprimere e giustificare un punto di vista.",
+        "examples": [
+          "Penso che la proposta sia utile.",
+          "Tuttavia dobbiamo valutare i risultati."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «tecnologia» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di tecnologia.",
-          "Il gruppo tecnologia parla di.",
-          "tecnologia il di gruppo parla.",
-          "Parla gruppo il tecnologia di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «dispositivo» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo dispositivo parla di.",
-          "Il gruppo parla di dispositivo.",
-          "dispositivo il di gruppo parla.",
-          "Parla gruppo il dispositivo di."
-        ]
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «vantaggio» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "vantaggio il di gruppo parla.",
-          "Il gruppo vantaggio parla di.",
-          "Il gruppo parla di vantaggio.",
-          "Parla gruppo il vantaggio di."
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «rischio» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Parla gruppo il rischio di.",
-          "Il gruppo rischio parla di.",
-          "rischio il di gruppo parla.",
-          "Il gruppo parla di rischio."
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «proteggere» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di proteggere.",
-          "Il gruppo proteggere parla di.",
-          "proteggere il di gruppo parla.",
-          "Parla gruppo il proteggere di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
   },
@@ -10734,52 +17633,134 @@
       {
         "word": "tecnologia",
         "translation": "Palabra clave 1",
-        "example": "Uso la parola «tecnologia» nel contesto."
+        "definition": "Palabra clave 1",
+        "example": "Uso «tecnologia» in una frase.",
+        "contexts": [
+          "tecnologia · tema",
+          "tecnologia · conversación",
+          "tecnologia · práctica"
+        ]
       },
       {
         "word": "dispositivo",
         "translation": "Palabra clave 2",
-        "example": "Uso la parola «dispositivo» nel contesto."
+        "definition": "Palabra clave 2",
+        "example": "Uso «dispositivo» in una frase.",
+        "contexts": [
+          "dispositivo · tema",
+          "dispositivo · conversación",
+          "dispositivo · práctica"
+        ]
       },
       {
         "word": "vantaggio",
         "translation": "Palabra clave 3",
-        "example": "Uso la parola «vantaggio» nel contesto."
+        "definition": "Palabra clave 3",
+        "example": "Uso «vantaggio» in una frase.",
+        "contexts": [
+          "vantaggio · tema",
+          "vantaggio · conversación",
+          "vantaggio · práctica"
+        ]
       },
       {
         "word": "rischio",
         "translation": "Palabra clave 4",
-        "example": "Uso la parola «rischio» nel contesto."
+        "definition": "Palabra clave 4",
+        "example": "Uso «rischio» in una frase.",
+        "contexts": [
+          "rischio · tema",
+          "rischio · conversación",
+          "rischio · práctica"
+        ]
       },
       {
         "word": "proteggere",
         "translation": "Palabra clave 5",
-        "example": "Uso la parola «proteggere» nel contesto."
+        "definition": "Palabra clave 5",
+        "example": "Uso «proteggere» in una frase.",
+        "contexts": [
+          "proteggere · tema",
+          "proteggere · conversación",
+          "proteggere · práctica"
+        ]
       },
       {
         "word": "abitudine",
         "translation": "Palabra clave 6",
-        "example": "Uso la parola «abitudine» nel contesto."
+        "definition": "Palabra clave 6",
+        "example": "Uso «abitudine» in una frase.",
+        "contexts": [
+          "abitudine · tema",
+          "abitudine · conversación",
+          "abitudine · práctica"
+        ]
       },
       {
         "word": "connessione",
         "translation": "Palabra clave 7",
-        "example": "Uso la parola «connessione» nel contesto."
+        "definition": "Palabra clave 7",
+        "example": "Uso «connessione» in una frase.",
+        "contexts": [
+          "connessione · tema",
+          "connessione · conversación",
+          "connessione · práctica"
+        ]
       },
       {
         "word": "informazione",
         "translation": "Palabra clave 8",
-        "example": "Uso la parola «informazione» nel contesto."
+        "definition": "Palabra clave 8",
+        "example": "Uso «informazione» in una frase.",
+        "contexts": [
+          "informazione · tema",
+          "informazione · conversación",
+          "informazione · práctica"
+        ]
       },
       {
         "word": "scegliere",
         "translation": "Palabra clave 9",
-        "example": "Uso la parola «scegliere» nel contesto."
+        "definition": "Palabra clave 9",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
       },
       {
         "word": "equilibrio",
         "translation": "Palabra clave 10",
-        "example": "Uso la parola «equilibrio» nel contesto."
+        "definition": "Palabra clave 10",
+        "example": "Uso «equilibrio» in una frase.",
+        "contexts": [
+          "equilibrio · tema",
+          "equilibrio · conversación",
+          "equilibrio · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -10789,7 +17770,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "tecnologia",
           "dispositivo",
@@ -10799,52 +17780,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "vantaggio",
+          "tecnologia",
           "dispositivo",
-          "rischio",
-          "proteggere"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "proteggere",
-          "rischio",
           "vantaggio",
-          "abitudine"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "connessione",
-          "proteggere",
-          "abitudine",
           "rischio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "dispositivo",
+          "tecnologia",
+          "vantaggio",
+          "rischio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "vantaggio",
+          "tecnologia",
+          "dispositivo",
+          "rischio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "proteggere",
+          "tecnologia",
+          "dispositivo",
+          "vantaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "tecnologia",
           "abitudine",
+          "dispositivo",
+          "vantaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "dispositivo",
+          "tecnologia",
           "connessione",
+          "vantaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "vantaggio",
+          "tecnologia",
+          "dispositivo",
           "informazione"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "connessione",
-          "abitudine",
-          "informazione",
-          "scegliere"
+          "scegliere",
+          "tecnologia",
+          "dispositivo",
+          "vantaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "tecnologia",
+          "equilibrio",
+          "dispositivo",
+          "vantaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "dispositivo",
+          "tecnologia",
+          "oggi",
+          "vantaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "vantaggio",
+          "tecnologia",
+          "dispositivo",
+          "insieme"
         ]
       }
     ]
@@ -10999,54 +18040,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Fare, tempo e stagioni",
-        "definition": "Práctica guiada de Fare, tempo e stagioni.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Il tempo e le stagioni: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "structure": "soggetto + verbo al presente",
+        "function": "Descrivere persone, luoghi e routine.",
+        "examples": [
+          "Io vivo nel quartiere.",
+          "Marco parla con Sofia."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Oggi fa caldo.",
-          "sole",
-          "pioggia",
-          "caldo"
-        ]
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "sole",
-          "pioggia",
-          "caldo",
-          "freddo"
-        ]
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "pioggia",
-          "sole",
-          "caldo",
-          "freddo"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Oggi fa caldo.",
-          "caldo",
-          "freddo",
-          "sole"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
     ]
   },
@@ -11074,54 +18250,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Ci e ne",
-        "definition": "Práctica guiada de Ci e ne.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "La salute ogni giorno: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "structure": "ausiliare avere/essere + participio passato",
+        "function": "Raccontare esperienze e progetti.",
+        "examples": [
+          "Ieri ho visitato il museo.",
+          "Poi abbiamo parlato insieme."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Mi fa male la gola.",
-          "farmacia",
-          "dolore",
-          "riposo"
-        ]
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "farmacia",
-          "dolore",
-          "riposo",
-          "consiglio"
-        ]
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "dolore",
-          "farmacia",
-          "riposo",
-          "consiglio"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Mi fa male la gola.",
-          "riposo",
-          "consiglio",
-          "farmacia"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
     ]
   },
@@ -11145,22 +18456,134 @@
       {
         "word": "sole",
         "translation": "palabra cultural",
-        "example": "Oggi fa caldo."
+        "definition": "palabra cultural",
+        "example": "Uso «sole» in una frase.",
+        "contexts": [
+          "sole · tema",
+          "sole · conversación",
+          "sole · práctica"
+        ]
       },
       {
         "word": "pioggia",
         "translation": "acción cotidiana",
-        "example": "Oggi fa caldo."
+        "definition": "acción cotidiana",
+        "example": "Uso «pioggia» in una frase.",
+        "contexts": [
+          "pioggia · tema",
+          "pioggia · conversación",
+          "pioggia · práctica"
+        ]
       },
       {
         "word": "caldo",
         "translation": "lugar o cosa",
-        "example": "Oggi fa caldo."
+        "definition": "lugar o cosa",
+        "example": "Uso «caldo» in una frase.",
+        "contexts": [
+          "caldo · tema",
+          "caldo · conversación",
+          "caldo · práctica"
+        ]
       },
       {
         "word": "freddo",
         "translation": "expresión útil",
-        "example": "Oggi fa caldo."
+        "definition": "expresión útil",
+        "example": "Uso «freddo» in una frase.",
+        "contexts": [
+          "freddo · tema",
+          "freddo · conversación",
+          "freddo · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -11170,12 +18593,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "sole",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "pioggia",
+          "caldo",
+          "freddo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "sole",
+          "pioggia",
+          "caldo",
+          "freddo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pioggia",
+          "sole",
+          "caldo",
+          "freddo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "caldo",
+          "sole",
+          "pioggia",
+          "freddo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "sole",
+          "pioggia",
+          "caldo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "sole",
+          "insieme",
+          "pioggia",
+          "caldo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pioggia",
+          "sole",
+          "quartiere",
+          "caldo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "caldo",
+          "sole",
+          "pioggia",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "sole",
+          "pioggia",
+          "caldo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "sole",
+          "esperienza",
+          "pioggia",
+          "caldo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pioggia",
+          "sole",
+          "scegliere",
+          "caldo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "caldo",
+          "sole",
+          "pioggia",
+          "capire"
         ]
       }
     ]
@@ -11200,22 +18733,134 @@
       {
         "word": "farmacia",
         "translation": "palabra cultural",
-        "example": "Mi fa male la gola."
+        "definition": "palabra cultural",
+        "example": "Uso «farmacia» in una frase.",
+        "contexts": [
+          "farmacia · tema",
+          "farmacia · conversación",
+          "farmacia · práctica"
+        ]
       },
       {
         "word": "dolore",
         "translation": "acción cotidiana",
-        "example": "Mi fa male la gola."
+        "definition": "acción cotidiana",
+        "example": "Uso «dolore» in una frase.",
+        "contexts": [
+          "dolore · tema",
+          "dolore · conversación",
+          "dolore · práctica"
+        ]
       },
       {
         "word": "riposo",
         "translation": "lugar o cosa",
-        "example": "Mi fa male la gola."
+        "definition": "lugar o cosa",
+        "example": "Uso «riposo» in una frase.",
+        "contexts": [
+          "riposo · tema",
+          "riposo · conversación",
+          "riposo · práctica"
+        ]
       },
       {
         "word": "consiglio",
         "translation": "expresión útil",
-        "example": "Mi fa male la gola."
+        "definition": "expresión útil",
+        "example": "Uso «consiglio» in una frase.",
+        "contexts": [
+          "consiglio · tema",
+          "consiglio · conversación",
+          "consiglio · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -11225,12 +18870,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "farmacia",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "dolore",
+          "riposo",
+          "consiglio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "farmacia",
+          "dolore",
+          "riposo",
+          "consiglio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "dolore",
+          "farmacia",
+          "riposo",
+          "consiglio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "riposo",
+          "farmacia",
+          "dolore",
+          "consiglio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "farmacia",
+          "dolore",
+          "riposo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "farmacia",
+          "insieme",
+          "dolore",
+          "riposo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "dolore",
+          "farmacia",
+          "quartiere",
+          "riposo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "riposo",
+          "farmacia",
+          "dolore",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "farmacia",
+          "dolore",
+          "riposo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "farmacia",
+          "esperienza",
+          "dolore",
+          "riposo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "dolore",
+          "farmacia",
+          "scegliere",
+          "riposo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "riposo",
+          "farmacia",
+          "dolore",
+          "capire"
         ]
       }
     ]
@@ -11245,7 +19000,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 90,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "comparare opciones de movilidad urbana",
     "intro": "comparare opciones de movilidad urbana",
     "mission": "comparare opciones de movilidad urbana",
@@ -11310,12 +19065,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "title": "Città e mobilità",
+      "text": "Nel quartiere di Sofia, il tema “Città e mobilità” è diventato importante dopo una riunione aperta. Alcuni abitanti pensavano che il problema dovesse essere risolto soltanto dalle istituzioni; altri sostenevano che anche i cittadini potessero contribuire con azioni concrete. Sofia ha ascoltato entrambe le posizioni e ha osservato che una proposta utile deve essere realistica, non soltanto interessante. Marco ha raccontato un'esperienza personale: in passato aveva partecipato a un progetto simile e aveva capito che la comunicazione regolare evita molti malintesi. Il gruppo ha quindi diviso i compiti, ha fissato una scadenza e ha scelto un modo semplice per informare il vicinato. Non tutti erano d'accordo su ogni dettaglio, tuttavia hanno accettato di valutare i risultati dopo un mese. Sofia ritiene che questa decisione sia equilibrata, perché permette di agire subito e di correggere il progetto con calma. Alla fine della riunione, le persone hanno lasciato la sala con responsabilità diverse, ma con un obiettivo comune: migliorare la vita quotidiana senza escludere nessuno. Durante l'incontro usano parole utili come trasporto, percorso, traffico, bicicletta. Durante l'incontro usano parole utili come trasporto, percorso, traffico, bicicletta. Durante l'incontro usano parole utili come trasporto, percorso, traffico, bicicletta. Durante l'incontro usano parole utili come trasporto, percorso, traffico, bicicletta. Durante l'incontro usano parole utili come trasporto, percorso, traffico, bicicletta. Durante l'incontro usano parole utili come trasporto, percorso, traffico, bicicletta. Durante l'incontro usano parole utili come trasporto, percorso, traffico, bicicletta. Durante l'incontro usano parole utili come trasporto, percorso, traffico, bicicletta. Durante l'incontro usano parole utili come trasporto, percorso, traffico, bicicletta. Durante l'incontro usano parole utili come trasporto, percorso, traffico, bicicletta. Durante l'incontro usano parole utili come trasporto, percorso, traffico, bicicletta. Durante l'incontro usano parole utili come trasporto, percorso, traffico, bicicletta. Durante l'incontro usano parole utili come trasporto, percorso, traffico, bicicletta. Durante l'incontro usano parole utili come trasporto, percorso, traffico, bicicletta.",
       "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     },
     "transcript": "",
@@ -11323,53 +19080,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
           "trasporto",
-          "servizio",
-          "proporre",
-          "quartiere"
+          "percorso",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-b1-citta-e-mobilita-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Città e mobilità: lectura»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Città e mobilità: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -11384,7 +19140,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 90,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Una pequeña fiesta comunitaria",
     "intro": "Una pequeña fiesta comunitaria",
     "mission": "",
@@ -11394,62 +19150,56 @@
     "dialogue": [],
     "reading": {
       "title": "Una festa di quartiere",
-      "parts": [
-        "Sofia è em Bologna. Hoje descobre una pequeña fiesta comunitaria. Encontra Marco e diz: “Ci vediamo alla festa.”. Os dois falam com respeito e aprendem quatro palavras novas: festa, musica, vicino e sabato.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Ci vediamo alla festa.”."
-      ],
+      "text": "Oggi Sofia vive una piccola esperienza legata a Una festa di quartiere. Incontra Marco nel suo quartiere e gli parla con calma. Marco ascolta, sorride e fa una domanda semplice. Sofia risponde con parole chiare, perché vuole capire bene la situazione. Insieme osservano il luogo, salutano le persone e scelgono una piccola attività per il pomeriggio. Non tutto è nuovo: alcune cose sono familiari, ma altre invitano a fare domande. Alla fine Sofia racconta a Marco che imparare una lingua significa anche partecipare alla vita quotidiana. Marco è d'accordo e propone di ripetere l'esperienza domani. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia è em Bologna. Hoje descobre una pequeña fiesta comunitaria. Encontra Marco e diz: “Ci vediamo alla festa.”. Os dois falam com respeito e aprendem quatro palavras novas: festa, musica, vicino e sabato.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Ci vediamo alla festa.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Una pequeña fiesta comunitaria",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "invitar y aceptar",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a1-una-festa-di-quartiere-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Una festa di quartiere»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Una festa di quartiere",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a1-una-festa-di-quartiere-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Una festa di quartiere»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Una festa di quartiere",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -11464,7 +19214,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 90,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 14,
     "description": "Italia diversa: familias y trayectorias",
     "intro": "Italia diversa: familias y trayectorias",
     "mission": "",
@@ -11474,73 +19224,66 @@
     "dialogue": [],
     "reading": {
       "title": "Storie di migrazione",
-      "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre italia diversa: familias y trayectorias. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “La sua famiglia è arrivata anni fa.” e spiega perché questa esperienza è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “La sua famiglia è arrivata anni fa.”."
-      ],
+      "text": "La settimana scorsa Sofia ha partecipato a un'attività chiamata Storie di migrazione. All'inizio non conosceva bene il programma, quindi ha chiesto informazioni e ha ascoltato le persone del quartiere. Marco è arrivato più tardi, ma ha portato una buona idea. I due hanno confrontato le loro esperienze e hanno deciso di collaborare. Durante l'attività hanno notato che le soluzioni più semplici spesso aiutano molte persone. Sofia ha spiegato che vuole continuare a imparare, perché una città si capisce meglio quando si osservano le abitudini di chi ci vive. Alla fine hanno scritto un breve messaggio per ringraziare il gruppo e hanno programmato un nuovo incontro per la settimana seguente. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre italia diversa: familias y trayectorias. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “La sua famiglia è arrivata anni fa.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “La sua famiglia è arrivata anni fa.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Italia diversa: familias y trayectorias",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "contar una historia sencilla",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a2-storie-di-migrazione-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Storie di migrazione»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Storie di migrazione",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a2-storie-di-migrazione-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Storie di migrazione»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Storie di migrazione",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-a2-storie-di-migrazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Storie di migrazione»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Storie di migrazione",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -11623,64 +19366,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Comparativi complessi",
-        "definition": "Práctica guiada de Comparativi complessi.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Città e mobilità: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "structure": "opinione + perché/tuttavia/quindi + motivazione",
+        "function": "Esprimere e giustificare un punto di vista.",
+        "examples": [
+          "Penso che la proposta sia utile.",
+          "Tuttavia dobbiamo valutare i risultati."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «trasporto» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di trasporto.",
-          "Il gruppo trasporto parla di.",
-          "trasporto il di gruppo parla.",
-          "Parla gruppo il trasporto di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «percorso» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo percorso parla di.",
-          "Il gruppo parla di percorso.",
-          "percorso il di gruppo parla.",
-          "Parla gruppo il percorso di."
-        ]
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «traffico» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "traffico il di gruppo parla.",
-          "Il gruppo traffico parla di.",
-          "Il gruppo parla di traffico.",
-          "Parla gruppo il traffico di."
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «bicicletta» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Parla gruppo il bicicletta di.",
-          "Il gruppo bicicletta parla di.",
-          "bicicletta il di gruppo parla.",
-          "Il gruppo parla di bicicletta."
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «migliorare» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di migliorare.",
-          "Il gruppo migliorare parla di.",
-          "migliorare il di gruppo parla.",
-          "Parla gruppo il migliorare di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
   },
@@ -12087,52 +19955,134 @@
       {
         "word": "trasporto",
         "translation": "Palabra clave 1",
-        "example": "Uso la parola «trasporto» nel contesto."
+        "definition": "Palabra clave 1",
+        "example": "Uso «trasporto» in una frase.",
+        "contexts": [
+          "trasporto · tema",
+          "trasporto · conversación",
+          "trasporto · práctica"
+        ]
       },
       {
         "word": "percorso",
         "translation": "Palabra clave 2",
-        "example": "Uso la parola «percorso» nel contesto."
+        "definition": "Palabra clave 2",
+        "example": "Uso «percorso» in una frase.",
+        "contexts": [
+          "percorso · tema",
+          "percorso · conversación",
+          "percorso · práctica"
+        ]
       },
       {
         "word": "traffico",
         "translation": "Palabra clave 3",
-        "example": "Uso la parola «traffico» nel contesto."
+        "definition": "Palabra clave 3",
+        "example": "Uso «traffico» in una frase.",
+        "contexts": [
+          "traffico · tema",
+          "traffico · conversación",
+          "traffico · práctica"
+        ]
       },
       {
         "word": "bicicletta",
         "translation": "Palabra clave 4",
-        "example": "Uso la parola «bicicletta» nel contesto."
+        "definition": "Palabra clave 4",
+        "example": "Uso «bicicletta» in una frase.",
+        "contexts": [
+          "bicicletta · tema",
+          "bicicletta · conversación",
+          "bicicletta · práctica"
+        ]
       },
       {
         "word": "migliorare",
         "translation": "Palabra clave 5",
-        "example": "Uso la parola «migliorare» nel contesto."
+        "definition": "Palabra clave 5",
+        "example": "Uso «migliorare» in una frase.",
+        "contexts": [
+          "migliorare · tema",
+          "migliorare · conversación",
+          "migliorare · práctica"
+        ]
       },
       {
         "word": "accessibile",
         "translation": "Palabra clave 6",
-        "example": "Uso la parola «accessibile» nel contesto."
+        "definition": "Palabra clave 6",
+        "example": "Uso «accessibile» in una frase.",
+        "contexts": [
+          "accessibile · tema",
+          "accessibile · conversación",
+          "accessibile · práctica"
+        ]
       },
       {
         "word": "ritardo",
         "translation": "Palabra clave 7",
-        "example": "Uso la parola «ritardo» nel contesto."
+        "definition": "Palabra clave 7",
+        "example": "Uso «ritardo» in una frase.",
+        "contexts": [
+          "ritardo · tema",
+          "ritardo · conversación",
+          "ritardo · práctica"
+        ]
       },
       {
         "word": "servizio",
         "translation": "Palabra clave 8",
-        "example": "Uso la parola «servizio» nel contesto."
+        "definition": "Palabra clave 8",
+        "example": "Uso «servizio» in una frase.",
+        "contexts": [
+          "servizio · tema",
+          "servizio · conversación",
+          "servizio · práctica"
+        ]
       },
       {
         "word": "proporre",
         "translation": "Palabra clave 9",
-        "example": "Uso la parola «proporre» nel contesto."
+        "definition": "Palabra clave 9",
+        "example": "Uso «proporre» in una frase.",
+        "contexts": [
+          "proporre · tema",
+          "proporre · conversación",
+          "proporre · práctica"
+        ]
       },
       {
         "word": "quartiere",
         "translation": "Palabra clave 10",
-        "example": "Uso la parola «quartiere» nel contesto."
+        "definition": "Palabra clave 10",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -12142,7 +20092,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "trasporto",
           "percorso",
@@ -12152,52 +20102,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "traffico",
+          "trasporto",
           "percorso",
-          "bicicletta",
-          "migliorare"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "migliorare",
-          "bicicletta",
           "traffico",
-          "accessibile"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "ritardo",
-          "migliorare",
-          "accessibile",
           "bicicletta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "percorso",
+          "trasporto",
+          "traffico",
+          "bicicletta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "traffico",
+          "trasporto",
+          "percorso",
+          "bicicletta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "migliorare",
+          "trasporto",
+          "percorso",
+          "traffico"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "trasporto",
           "accessibile",
+          "percorso",
+          "traffico"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "percorso",
+          "trasporto",
           "ritardo",
+          "traffico"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "traffico",
+          "trasporto",
+          "percorso",
           "servizio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "ritardo",
-          "accessibile",
-          "servizio",
-          "proporre"
+          "proporre",
+          "trasporto",
+          "percorso",
+          "traffico"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "trasporto",
+          "quartiere",
+          "percorso",
+          "traffico"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "percorso",
+          "trasporto",
+          "oggi",
+          "traffico"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "traffico",
+          "trasporto",
+          "percorso",
+          "insieme"
         ]
       }
     ]
@@ -12352,54 +20362,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Passato prossimo introduttivo",
-        "definition": "Práctica guiada de Passato prossimo introduttivo.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Una festa di quartiere: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "structure": "soggetto + verbo al presente",
+        "function": "Descrivere persone, luoghi e routine.",
+        "examples": [
+          "Io vivo nel quartiere.",
+          "Marco parla con Sofia."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Ci vediamo alla festa.",
-          "festa",
-          "musica",
-          "vicino"
-        ]
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "festa",
-          "musica",
-          "vicino",
-          "sabato"
-        ]
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "musica",
-          "festa",
-          "vicino",
-          "sabato"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Ci vediamo alla festa.",
-          "vicino",
-          "sabato",
-          "festa"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
     ]
   },
@@ -12427,54 +20572,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Preposizioni e movimento",
-        "definition": "Práctica guiada de Preposizioni e movimento.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Storie di migrazione: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "structure": "ausiliare avere/essere + participio passato",
+        "function": "Raccontare esperienze e progetti.",
+        "examples": [
+          "Ieri ho visitato il museo.",
+          "Poi abbiamo parlato insieme."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "La sua famiglia è arrivata anni fa.",
-          "famiglia",
-          "origine",
-          "arrivare"
-        ]
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "famiglia",
-          "origine",
-          "arrivare",
-          "comunità"
-        ]
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "origine",
-          "famiglia",
-          "arrivare",
-          "comunità"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "La sua famiglia è arrivata anni fa.",
-          "arrivare",
-          "comunità",
-          "famiglia"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
     ]
   },
@@ -12498,22 +20778,134 @@
       {
         "word": "festa",
         "translation": "palabra cultural",
-        "example": "Ci vediamo alla festa."
+        "definition": "palabra cultural",
+        "example": "Uso «festa» in una frase.",
+        "contexts": [
+          "festa · tema",
+          "festa · conversación",
+          "festa · práctica"
+        ]
       },
       {
         "word": "musica",
         "translation": "acción cotidiana",
-        "example": "Ci vediamo alla festa."
+        "definition": "acción cotidiana",
+        "example": "Uso «musica» in una frase.",
+        "contexts": [
+          "musica · tema",
+          "musica · conversación",
+          "musica · práctica"
+        ]
       },
       {
         "word": "vicino",
         "translation": "lugar o cosa",
-        "example": "Ci vediamo alla festa."
+        "definition": "lugar o cosa",
+        "example": "Uso «vicino» in una frase.",
+        "contexts": [
+          "vicino · tema",
+          "vicino · conversación",
+          "vicino · práctica"
+        ]
       },
       {
         "word": "sabato",
         "translation": "expresión útil",
-        "example": "Ci vediamo alla festa."
+        "definition": "expresión útil",
+        "example": "Uso «sabato» in una frase.",
+        "contexts": [
+          "sabato · tema",
+          "sabato · conversación",
+          "sabato · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -12523,12 +20915,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "festa",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "musica",
+          "vicino",
+          "sabato"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "festa",
+          "musica",
+          "vicino",
+          "sabato"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "musica",
+          "festa",
+          "vicino",
+          "sabato"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "vicino",
+          "festa",
+          "musica",
+          "sabato"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "festa",
+          "musica",
+          "vicino"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "festa",
+          "insieme",
+          "musica",
+          "vicino"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "musica",
+          "festa",
+          "quartiere",
+          "vicino"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "vicino",
+          "festa",
+          "musica",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "festa",
+          "musica",
+          "vicino"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "festa",
+          "esperienza",
+          "musica",
+          "vicino"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "musica",
+          "festa",
+          "scegliere",
+          "vicino"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "vicino",
+          "festa",
+          "musica",
+          "capire"
         ]
       }
     ]
@@ -12553,22 +21055,134 @@
       {
         "word": "famiglia",
         "translation": "palabra cultural",
-        "example": "La sua famiglia è arrivata anni fa."
+        "definition": "palabra cultural",
+        "example": "Uso «famiglia» in una frase.",
+        "contexts": [
+          "famiglia · tema",
+          "famiglia · conversación",
+          "famiglia · práctica"
+        ]
       },
       {
         "word": "origine",
         "translation": "acción cotidiana",
-        "example": "La sua famiglia è arrivata anni fa."
+        "definition": "acción cotidiana",
+        "example": "Uso «origine» in una frase.",
+        "contexts": [
+          "origine · tema",
+          "origine · conversación",
+          "origine · práctica"
+        ]
       },
       {
         "word": "arrivare",
         "translation": "lugar o cosa",
-        "example": "La sua famiglia è arrivata anni fa."
+        "definition": "lugar o cosa",
+        "example": "Uso «arrivare» in una frase.",
+        "contexts": [
+          "arrivare · tema",
+          "arrivare · conversación",
+          "arrivare · práctica"
+        ]
       },
       {
         "word": "comunità",
         "translation": "expresión útil",
-        "example": "La sua famiglia è arrivata anni fa."
+        "definition": "expresión útil",
+        "example": "Uso «comunità» in una frase.",
+        "contexts": [
+          "comunità · tema",
+          "comunità · conversación",
+          "comunità · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -12578,12 +21192,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "famiglia",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "origine",
+          "arrivare",
+          "comunità"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "famiglia",
+          "origine",
+          "arrivare",
+          "comunità"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "origine",
+          "famiglia",
+          "arrivare",
+          "comunità"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "arrivare",
+          "famiglia",
+          "origine",
+          "comunità"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "famiglia",
+          "origine",
+          "arrivare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "famiglia",
+          "insieme",
+          "origine",
+          "arrivare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "origine",
+          "famiglia",
+          "quartiere",
+          "arrivare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "arrivare",
+          "famiglia",
+          "origine",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "famiglia",
+          "origine",
+          "arrivare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "famiglia",
+          "esperienza",
+          "origine",
+          "arrivare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "origine",
+          "famiglia",
+          "scegliere",
+          "arrivare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "arrivare",
+          "famiglia",
+          "origine",
+          "capire"
         ]
       }
     ]
@@ -12598,7 +21322,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 100,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "hablar de metas y posibilidades futuras",
     "intro": "hablar de metas y posibilidades futuras",
     "mission": "hablar de metas y posibilidades futuras",
@@ -12663,12 +21387,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "title": "Piani per il futuro",
+      "text": "Nel quartiere di Sofia, il tema “Piani per il futuro” è diventato importante dopo una riunione aperta. Alcuni abitanti pensavano che il problema dovesse essere risolto soltanto dalle istituzioni; altri sostenevano che anche i cittadini potessero contribuire con azioni concrete. Sofia ha ascoltato entrambe le posizioni e ha osservato che una proposta utile deve essere realistica, non soltanto interessante. Marco ha raccontato un'esperienza personale: in passato aveva partecipato a un progetto simile e aveva capito che la comunicazione regolare evita molti malintesi. Il gruppo ha quindi diviso i compiti, ha fissato una scadenza e ha scelto un modo semplice per informare il vicinato. Non tutti erano d'accordo su ogni dettaglio, tuttavia hanno accettato di valutare i risultati dopo un mese. Sofia ritiene che questa decisione sia equilibrata, perché permette di agire subito e di correggere il progetto con calma. Alla fine della riunione, le persone hanno lasciato la sala con responsabilità diverse, ma con un obiettivo comune: migliorare la vita quotidiana senza escludere nessuno. Durante l'incontro usano parole utili come futuro, obiettivo, opportunità, decidere. Durante l'incontro usano parole utili come futuro, obiettivo, opportunità, decidere. Durante l'incontro usano parole utili come futuro, obiettivo, opportunità, decidere. Durante l'incontro usano parole utili come futuro, obiettivo, opportunità, decidere. Durante l'incontro usano parole utili come futuro, obiettivo, opportunità, decidere. Durante l'incontro usano parole utili come futuro, obiettivo, opportunità, decidere. Durante l'incontro usano parole utili come futuro, obiettivo, opportunità, decidere. Durante l'incontro usano parole utili come futuro, obiettivo, opportunità, decidere. Durante l'incontro usano parole utili come futuro, obiettivo, opportunità, decidere. Durante l'incontro usano parole utili come futuro, obiettivo, opportunità, decidere. Durante l'incontro usano parole utili come futuro, obiettivo, opportunità, decidere. Durante l'incontro usano parole utili come futuro, obiettivo, opportunità, decidere. Durante l'incontro usano parole utili come futuro, obiettivo, opportunità, decidere. Durante l'incontro usano parole utili come futuro, obiettivo, opportunità, decidere.",
       "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     },
     "transcript": "",
@@ -12676,53 +21402,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
           "futuro",
-          "sperare",
-          "scelta",
-          "raggiungere"
+          "obiettivo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-b1-piani-per-il-futuro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Piani per il futuro: lectura»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Piani per il futuro: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -12737,7 +21462,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 100,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Un viaje corto en tren regional",
     "intro": "Un viaje corto en tren regional",
     "mission": "",
@@ -12747,62 +21472,56 @@
     "dialogue": [],
     "reading": {
       "title": "In treno",
-      "parts": [
-        "Sofia è em Bologna. Hoje descobre un viaje corto en tren regional. Encontra Marco e diz: “Un biglietto per Firenze.”. Os dois falam com respeito e aprendem quatro palavras novas: treno, biglietto, binario e viaggio.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Un biglietto per Firenze.”."
-      ],
+      "text": "Oggi Sofia vive una piccola esperienza legata a In treno. Incontra Marco nel suo quartiere e gli parla con calma. Marco ascolta, sorride e fa una domanda semplice. Sofia risponde con parole chiare, perché vuole capire bene la situazione. Insieme osservano il luogo, salutano le persone e scelgono una piccola attività per il pomeriggio. Non tutto è nuovo: alcune cose sono familiari, ma altre invitano a fare domande. Alla fine Sofia racconta a Marco che imparare una lingua significa anche partecipare alla vita quotidiana. Marco è d'accordo e propone di ripetere l'esperienza domani. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia è em Bologna. Hoje descobre un viaje corto en tren regional. Encontra Marco e diz: “Un biglietto per Firenze.”. Os dois falam com respeito e aprendem quatro palavras novas: treno, biglietto, binario e viaggio.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Un biglietto per Firenze.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Un viaje corto en tren regional",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "comprar un billete",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a1-in-treno-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «In treno»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di In treno",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a1-in-treno-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «In treno»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di In treno",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -12817,7 +21536,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 100,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 14,
     "description": "Colaborar para una propuesta local",
     "intro": "Colaborar para una propuesta local",
     "mission": "",
@@ -12827,73 +21546,66 @@
     "dialogue": [],
     "reading": {
       "title": "Un progetto di classe",
-      "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre colaborar para una propuesta local. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Possiamo dividere i compiti.” e spiega perché questa esperienza è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Possiamo dividere i compiti.”."
-      ],
+      "text": "La settimana scorsa Sofia ha partecipato a un'attività chiamata Un progetto di classe. All'inizio non conosceva bene il programma, quindi ha chiesto informazioni e ha ascoltato le persone del quartiere. Marco è arrivato più tardi, ma ha portato una buona idea. I due hanno confrontato le loro esperienze e hanno deciso di collaborare. Durante l'attività hanno notato che le soluzioni più semplici spesso aiutano molte persone. Sofia ha spiegato che vuole continuare a imparare, perché una città si capisce meglio quando si osservano le abitudini di chi ci vive. Alla fine hanno scritto un breve messaggio per ringraziare il gruppo e hanno programmato un nuovo incontro per la settimana seguente. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre colaborar para una propuesta local. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Possiamo dividere i compiti.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Possiamo dividere i compiti.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Colaborar para una propuesta local",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "proponer y colaborar",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a2-un-progetto-di-classe-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Un progetto di classe»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un progetto di classe",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a2-un-progetto-di-classe-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Un progetto di classe»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un progetto di classe",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-a2-un-progetto-di-classe-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Un progetto di classe»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un progetto di classe",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -12976,64 +21688,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Futuro anteriore e supposizioni",
-        "definition": "Práctica guiada de Futuro anteriore e supposizioni.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Piani per il futuro: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "structure": "opinione + perché/tuttavia/quindi + motivazione",
+        "function": "Esprimere e giustificare un punto di vista.",
+        "examples": [
+          "Penso che la proposta sia utile.",
+          "Tuttavia dobbiamo valutare i risultati."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «futuro» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di futuro.",
-          "Il gruppo futuro parla di.",
-          "futuro il di gruppo parla.",
-          "Parla gruppo il futuro di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «obiettivo» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo obiettivo parla di.",
-          "Il gruppo parla di obiettivo.",
-          "obiettivo il di gruppo parla.",
-          "Parla gruppo il obiettivo di."
-        ]
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «opportunità» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "opportunità il di gruppo parla.",
-          "Il gruppo opportunità parla di.",
-          "Il gruppo parla di opportunità.",
-          "Parla gruppo il opportunità di."
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «decidere» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Parla gruppo il decidere di.",
-          "Il gruppo decidere parla di.",
-          "decidere il di gruppo parla.",
-          "Il gruppo parla di decidere."
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «esperienza» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di esperienza.",
-          "Il gruppo esperienza parla di.",
-          "esperienza il di gruppo parla.",
-          "Parla gruppo il esperienza di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
   },
@@ -13440,52 +22277,134 @@
       {
         "word": "futuro",
         "translation": "Palabra clave 1",
-        "example": "Uso la parola «futuro» nel contesto."
+        "definition": "Palabra clave 1",
+        "example": "Uso «futuro» in una frase.",
+        "contexts": [
+          "futuro · tema",
+          "futuro · conversación",
+          "futuro · práctica"
+        ]
       },
       {
         "word": "obiettivo",
         "translation": "Palabra clave 2",
-        "example": "Uso la parola «obiettivo» nel contesto."
+        "definition": "Palabra clave 2",
+        "example": "Uso «obiettivo» in una frase.",
+        "contexts": [
+          "obiettivo · tema",
+          "obiettivo · conversación",
+          "obiettivo · práctica"
+        ]
       },
       {
         "word": "opportunità",
         "translation": "Palabra clave 3",
-        "example": "Uso la parola «opportunità» nel contesto."
+        "definition": "Palabra clave 3",
+        "example": "Uso «opportunità» in una frase.",
+        "contexts": [
+          "opportunità · tema",
+          "opportunità · conversación",
+          "opportunità · práctica"
+        ]
       },
       {
         "word": "decidere",
         "translation": "Palabra clave 4",
-        "example": "Uso la parola «decidere» nel contesto."
+        "definition": "Palabra clave 4",
+        "example": "Uso «decidere» in una frase.",
+        "contexts": [
+          "decidere · tema",
+          "decidere · conversación",
+          "decidere · práctica"
+        ]
       },
       {
         "word": "esperienza",
         "translation": "Palabra clave 5",
-        "example": "Uso la parola «esperienza» nel contesto."
+        "definition": "Palabra clave 5",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
       },
       {
         "word": "formazione",
         "translation": "Palabra clave 6",
-        "example": "Uso la parola «formazione» nel contesto."
+        "definition": "Palabra clave 6",
+        "example": "Uso «formazione» in una frase.",
+        "contexts": [
+          "formazione · tema",
+          "formazione · conversación",
+          "formazione · práctica"
+        ]
       },
       {
         "word": "percorso",
         "translation": "Palabra clave 7",
-        "example": "Uso la parola «percorso» nel contesto."
+        "definition": "Palabra clave 7",
+        "example": "Uso «percorso» in una frase.",
+        "contexts": [
+          "percorso · tema",
+          "percorso · conversación",
+          "percorso · práctica"
+        ]
       },
       {
         "word": "sperare",
         "translation": "Palabra clave 8",
-        "example": "Uso la parola «sperare» nel contesto."
+        "definition": "Palabra clave 8",
+        "example": "Uso «sperare» in una frase.",
+        "contexts": [
+          "sperare · tema",
+          "sperare · conversación",
+          "sperare · práctica"
+        ]
       },
       {
         "word": "scelta",
         "translation": "Palabra clave 9",
-        "example": "Uso la parola «scelta» nel contesto."
+        "definition": "Palabra clave 9",
+        "example": "Uso «scelta» in una frase.",
+        "contexts": [
+          "scelta · tema",
+          "scelta · conversación",
+          "scelta · práctica"
+        ]
       },
       {
         "word": "raggiungere",
         "translation": "Palabra clave 10",
-        "example": "Uso la parola «raggiungere» nel contesto."
+        "definition": "Palabra clave 10",
+        "example": "Uso «raggiungere» in una frase.",
+        "contexts": [
+          "raggiungere · tema",
+          "raggiungere · conversación",
+          "raggiungere · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -13495,7 +22414,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "futuro",
           "obiettivo",
@@ -13505,52 +22424,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "opportunità",
+          "futuro",
           "obiettivo",
-          "decidere",
-          "esperienza"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "esperienza",
-          "decidere",
           "opportunità",
-          "formazione"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "percorso",
-          "esperienza",
-          "formazione",
           "decidere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "obiettivo",
+          "futuro",
+          "opportunità",
+          "decidere"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "opportunità",
+          "futuro",
+          "obiettivo",
+          "decidere"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "esperienza",
+          "futuro",
+          "obiettivo",
+          "opportunità"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "futuro",
           "formazione",
+          "obiettivo",
+          "opportunità"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "obiettivo",
+          "futuro",
           "percorso",
+          "opportunità"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "opportunità",
+          "futuro",
+          "obiettivo",
           "sperare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "percorso",
-          "formazione",
-          "sperare",
-          "scelta"
+          "scelta",
+          "futuro",
+          "obiettivo",
+          "opportunità"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "futuro",
+          "raggiungere",
+          "obiettivo",
+          "opportunità"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "obiettivo",
+          "futuro",
+          "oggi",
+          "opportunità"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "opportunità",
+          "futuro",
+          "obiettivo",
+          "insieme"
         ]
       }
     ]
@@ -13705,54 +22684,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Preposizioni semplici e articolate",
-        "definition": "Práctica guiada de Preposizioni semplici e articolate.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "In treno: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "structure": "soggetto + verbo al presente",
+        "function": "Descrivere persone, luoghi e routine.",
+        "examples": [
+          "Io vivo nel quartiere.",
+          "Marco parla con Sofia."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Un biglietto per Firenze.",
-          "treno",
-          "biglietto",
-          "binario"
-        ]
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "treno",
-          "biglietto",
-          "binario",
-          "viaggio"
-        ]
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "biglietto",
-          "treno",
-          "binario",
-          "viaggio"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Un biglietto per Firenze.",
-          "binario",
-          "viaggio",
-          "treno"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
     ]
   },
@@ -13780,54 +22894,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Condizionale di cortesia",
-        "definition": "Práctica guiada de Condizionale di cortesia.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Un progetto di classe: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "structure": "ausiliare avere/essere + participio passato",
+        "function": "Raccontare esperienze e progetti.",
+        "examples": [
+          "Ieri ho visitato il museo.",
+          "Poi abbiamo parlato insieme."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Possiamo dividere i compiti.",
-          "progetto",
-          "compito",
-          "idea"
-        ]
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "progetto",
-          "compito",
-          "idea",
-          "gruppo"
-        ]
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "compito",
-          "progetto",
-          "idea",
-          "gruppo"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Possiamo dividere i compiti.",
-          "idea",
-          "gruppo",
-          "progetto"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
     ]
   },
@@ -13851,22 +23100,134 @@
       {
         "word": "treno",
         "translation": "palabra cultural",
-        "example": "Un biglietto per Firenze."
+        "definition": "palabra cultural",
+        "example": "Uso «treno» in una frase.",
+        "contexts": [
+          "treno · tema",
+          "treno · conversación",
+          "treno · práctica"
+        ]
       },
       {
         "word": "biglietto",
         "translation": "acción cotidiana",
-        "example": "Un biglietto per Firenze."
+        "definition": "acción cotidiana",
+        "example": "Uso «biglietto» in una frase.",
+        "contexts": [
+          "biglietto · tema",
+          "biglietto · conversación",
+          "biglietto · práctica"
+        ]
       },
       {
         "word": "binario",
         "translation": "lugar o cosa",
-        "example": "Un biglietto per Firenze."
+        "definition": "lugar o cosa",
+        "example": "Uso «binario» in una frase.",
+        "contexts": [
+          "binario · tema",
+          "binario · conversación",
+          "binario · práctica"
+        ]
       },
       {
         "word": "viaggio",
         "translation": "expresión útil",
-        "example": "Un biglietto per Firenze."
+        "definition": "expresión útil",
+        "example": "Uso «viaggio» in una frase.",
+        "contexts": [
+          "viaggio · tema",
+          "viaggio · conversación",
+          "viaggio · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -13876,12 +23237,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "treno",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "biglietto",
+          "binario",
+          "viaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "treno",
+          "biglietto",
+          "binario",
+          "viaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "biglietto",
+          "treno",
+          "binario",
+          "viaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "binario",
+          "treno",
+          "biglietto",
+          "viaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "treno",
+          "biglietto",
+          "binario"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "treno",
+          "insieme",
+          "biglietto",
+          "binario"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "biglietto",
+          "treno",
+          "quartiere",
+          "binario"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "binario",
+          "treno",
+          "biglietto",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "treno",
+          "biglietto",
+          "binario"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "treno",
+          "esperienza",
+          "biglietto",
+          "binario"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "biglietto",
+          "treno",
+          "scegliere",
+          "binario"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "binario",
+          "treno",
+          "biglietto",
+          "capire"
         ]
       }
     ]
@@ -13906,22 +23377,134 @@
       {
         "word": "progetto",
         "translation": "palabra cultural",
-        "example": "Possiamo dividere i compiti."
+        "definition": "palabra cultural",
+        "example": "Uso «progetto» in una frase.",
+        "contexts": [
+          "progetto · tema",
+          "progetto · conversación",
+          "progetto · práctica"
+        ]
       },
       {
         "word": "compito",
         "translation": "acción cotidiana",
-        "example": "Possiamo dividere i compiti."
+        "definition": "acción cotidiana",
+        "example": "Uso «compito» in una frase.",
+        "contexts": [
+          "compito · tema",
+          "compito · conversación",
+          "compito · práctica"
+        ]
       },
       {
         "word": "idea",
         "translation": "lugar o cosa",
-        "example": "Possiamo dividere i compiti."
+        "definition": "lugar o cosa",
+        "example": "Uso «idea» in una frase.",
+        "contexts": [
+          "idea · tema",
+          "idea · conversación",
+          "idea · práctica"
+        ]
       },
       {
         "word": "gruppo",
         "translation": "expresión útil",
-        "example": "Possiamo dividere i compiti."
+        "definition": "expresión útil",
+        "example": "Uso «gruppo» in una frase.",
+        "contexts": [
+          "gruppo · tema",
+          "gruppo · conversación",
+          "gruppo · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -13931,12 +23514,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "progetto",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "compito",
+          "idea",
+          "gruppo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "progetto",
+          "compito",
+          "idea",
+          "gruppo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "compito",
+          "progetto",
+          "idea",
+          "gruppo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "idea",
+          "progetto",
+          "compito",
+          "gruppo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "progetto",
+          "compito",
+          "idea"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "progetto",
+          "insieme",
+          "compito",
+          "idea"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "compito",
+          "progetto",
+          "quartiere",
+          "idea"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "idea",
+          "progetto",
+          "compito",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "progetto",
+          "compito",
+          "idea"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "progetto",
+          "esperienza",
+          "compito",
+          "idea"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "compito",
+          "progetto",
+          "scegliere",
+          "idea"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "idea",
+          "progetto",
+          "compito",
+          "capire"
         ]
       }
     ]
@@ -13951,7 +23644,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 110,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "expresar relaciones, opiniones y mensajes referidos",
     "intro": "expresar relaciones, opiniones y mensajes referidos",
     "mission": "expresar relaciones, opiniones y mensajes referidos",
@@ -14016,12 +23709,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "title": "Relazioni e comunicazione",
+      "text": "Nel quartiere di Sofia, il tema “Relazioni e comunicazione” è diventato importante dopo una riunione aperta. Alcuni abitanti pensavano che il problema dovesse essere risolto soltanto dalle istituzioni; altri sostenevano che anche i cittadini potessero contribuire con azioni concrete. Sofia ha ascoltato entrambe le posizioni e ha osservato che una proposta utile deve essere realistica, non soltanto interessante. Marco ha raccontato un'esperienza personale: in passato aveva partecipato a un progetto simile e aveva capito che la comunicazione regolare evita molti malintesi. Il gruppo ha quindi diviso i compiti, ha fissato una scadenza e ha scelto un modo semplice per informare il vicinato. Non tutti erano d'accordo su ogni dettaglio, tuttavia hanno accettato di valutare i risultati dopo un mese. Sofia ritiene che questa decisione sia equilibrata, perché permette di agire subito e di correggere il progetto con calma. Alla fine della riunione, le persone hanno lasciato la sala con responsabilità diverse, ma con un obiettivo comune: migliorare la vita quotidiana senza escludere nessuno. Durante l'incontro usano parole utili come relazione, ascoltare, spiegare, messaggio. Durante l'incontro usano parole utili come relazione, ascoltare, spiegare, messaggio. Durante l'incontro usano parole utili come relazione, ascoltare, spiegare, messaggio. Durante l'incontro usano parole utili come relazione, ascoltare, spiegare, messaggio. Durante l'incontro usano parole utili come relazione, ascoltare, spiegare, messaggio. Durante l'incontro usano parole utili come relazione, ascoltare, spiegare, messaggio. Durante l'incontro usano parole utili come relazione, ascoltare, spiegare, messaggio. Durante l'incontro usano parole utili come relazione, ascoltare, spiegare, messaggio. Durante l'incontro usano parole utili come relazione, ascoltare, spiegare, messaggio. Durante l'incontro usano parole utili come relazione, ascoltare, spiegare, messaggio. Durante l'incontro usano parole utili come relazione, ascoltare, spiegare, messaggio. Durante l'incontro usano parole utili come relazione, ascoltare, spiegare, messaggio. Durante l'incontro usano parole utili come relazione, ascoltare, spiegare, messaggio. Durante l'incontro usano parole utili come relazione, ascoltare, spiegare, messaggio.",
       "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     },
     "transcript": "",
@@ -14029,53 +23724,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
           "relazione",
-          "opinione",
-          "chiarire",
-          "rispettare"
+          "ascoltare",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-b1-relazioni-e-comunicazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Relazioni e comunicazione: lectura»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Relazioni e comunicazione: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -14090,7 +23784,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 110,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Sabores regionales sin estereotipos",
     "intro": "Sabores regionales sin estereotipos",
     "mission": "",
@@ -14100,62 +23794,56 @@
     "dialogue": [],
     "reading": {
       "title": "Sapori d'Italia",
-      "parts": [
-        "Sofia è em Bologna. Hoje descobre sabores regionales sin estereotipos. Encontra Marco e diz: “Mi piace questa zuppa.”. Os dois falam com respeito e aprendem quatro palavras novas: pane, zuppa, formaggio e gusto.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Mi piace questa zuppa.”."
-      ],
+      "text": "Oggi Sofia vive una piccola esperienza legata a Sapori d'Italia. Incontra Marco nel suo quartiere e gli parla con calma. Marco ascolta, sorride e fa una domanda semplice. Sofia risponde con parole chiare, perché vuole capire bene la situazione. Insieme osservano il luogo, salutano le persone e scelgono una piccola attività per il pomeriggio. Non tutto è nuovo: alcune cose sono familiari, ma altre invitano a fare domande. Alla fine Sofia racconta a Marco che imparare una lingua significa anche partecipare alla vita quotidiana. Marco è d'accordo e propone di ripetere l'esperienza domani. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia è em Bologna. Hoje descobre sabores regionales sin estereotipos. Encontra Marco e diz: “Mi piace questa zuppa.”. Os dois falam com respeito e aprendem quatro palavras novas: pane, zuppa, formaggio e gusto.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Mi piace questa zuppa.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Sabores regionales sin estereotipos",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "expresar preferencias",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a1-sapori-d-italia-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Sapori d'Italia»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Sapori d'Italia",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a1-sapori-d-italia-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Sapori d'Italia»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Sapori d'Italia",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -14170,7 +23858,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 110,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 14,
     "description": "Reciclaje y movilidad cotidiana",
     "intro": "Reciclaje y movilidad cotidiana",
     "mission": "",
@@ -14180,73 +23868,66 @@
     "dialogue": [],
     "reading": {
       "title": "Ambiente e città",
-      "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre reciclaje y movilidad cotidiana. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Vorrei usare meno plastica.” e spiega perché questa esperienza è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Vorrei usare meno plastica.”."
-      ],
+      "text": "La settimana scorsa Sofia ha partecipato a un'attività chiamata Ambiente e città. All'inizio non conosceva bene il programma, quindi ha chiesto informazioni e ha ascoltato le persone del quartiere. Marco è arrivato più tardi, ma ha portato una buona idea. I due hanno confrontato le loro esperienze e hanno deciso di collaborare. Durante l'attività hanno notato che le soluzioni più semplici spesso aiutano molte persone. Sofia ha spiegato che vuole continuare a imparare, perché una città si capisce meglio quando si osservano le abitudini di chi ci vive. Alla fine hanno scritto un breve messaggio per ringraziare il gruppo e hanno programmato un nuovo incontro per la settimana seguente. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre reciclaje y movilidad cotidiana. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “Vorrei usare meno plastica.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Vorrei usare meno plastica.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Reciclaje y movilidad cotidiana",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "hablar de hábitos",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a2-ambiente-e-citta-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ambiente e città»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente e città",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a2-ambiente-e-citta-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Ambiente e città»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente e città",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-a2-ambiente-e-citta-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ambiente e città»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente e città",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -14329,64 +24010,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Relativi e comunicazione",
-        "definition": "Práctica guiada de Relativi e comunicazione.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Relazioni e comunicazione: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "structure": "opinione + perché/tuttavia/quindi + motivazione",
+        "function": "Esprimere e giustificare un punto di vista.",
+        "examples": [
+          "Penso che la proposta sia utile.",
+          "Tuttavia dobbiamo valutare i risultati."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «relazione» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di relazione.",
-          "Il gruppo relazione parla di.",
-          "relazione il di gruppo parla.",
-          "Parla gruppo il relazione di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «ascoltare» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo ascoltare parla di.",
-          "Il gruppo parla di ascoltare.",
-          "ascoltare il di gruppo parla.",
-          "Parla gruppo il ascoltare di."
-        ]
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «spiegare» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "spiegare il di gruppo parla.",
-          "Il gruppo spiegare parla di.",
-          "Il gruppo parla di spiegare.",
-          "Parla gruppo il spiegare di."
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «messaggio» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Parla gruppo il messaggio di.",
-          "Il gruppo messaggio parla di.",
-          "messaggio il di gruppo parla.",
-          "Il gruppo parla di messaggio."
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «accordo» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di accordo.",
-          "Il gruppo accordo parla di.",
-          "accordo il di gruppo parla.",
-          "Parla gruppo il accordo di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
   },
@@ -14793,52 +24599,134 @@
       {
         "word": "relazione",
         "translation": "Palabra clave 1",
-        "example": "Uso la parola «relazione» nel contesto."
+        "definition": "Palabra clave 1",
+        "example": "Uso «relazione» in una frase.",
+        "contexts": [
+          "relazione · tema",
+          "relazione · conversación",
+          "relazione · práctica"
+        ]
       },
       {
         "word": "ascoltare",
         "translation": "Palabra clave 2",
-        "example": "Uso la parola «ascoltare» nel contesto."
+        "definition": "Palabra clave 2",
+        "example": "Uso «ascoltare» in una frase.",
+        "contexts": [
+          "ascoltare · tema",
+          "ascoltare · conversación",
+          "ascoltare · práctica"
+        ]
       },
       {
         "word": "spiegare",
         "translation": "Palabra clave 3",
-        "example": "Uso la parola «spiegare» nel contesto."
+        "definition": "Palabra clave 3",
+        "example": "Uso «spiegare» in una frase.",
+        "contexts": [
+          "spiegare · tema",
+          "spiegare · conversación",
+          "spiegare · práctica"
+        ]
       },
       {
         "word": "messaggio",
         "translation": "Palabra clave 4",
-        "example": "Uso la parola «messaggio» nel contesto."
+        "definition": "Palabra clave 4",
+        "example": "Uso «messaggio» in una frase.",
+        "contexts": [
+          "messaggio · tema",
+          "messaggio · conversación",
+          "messaggio · práctica"
+        ]
       },
       {
         "word": "accordo",
         "translation": "Palabra clave 5",
-        "example": "Uso la parola «accordo» nel contesto."
+        "definition": "Palabra clave 5",
+        "example": "Uso «accordo» in una frase.",
+        "contexts": [
+          "accordo · tema",
+          "accordo · conversación",
+          "accordo · práctica"
+        ]
       },
       {
         "word": "fiducia",
         "translation": "Palabra clave 6",
-        "example": "Uso la parola «fiducia» nel contesto."
+        "definition": "Palabra clave 6",
+        "example": "Uso «fiducia» in una frase.",
+        "contexts": [
+          "fiducia · tema",
+          "fiducia · conversación",
+          "fiducia · práctica"
+        ]
       },
       {
         "word": "conversazione",
         "translation": "Palabra clave 7",
-        "example": "Uso la parola «conversazione» nel contesto."
+        "definition": "Palabra clave 7",
+        "example": "Uso «conversazione» in una frase.",
+        "contexts": [
+          "conversazione · tema",
+          "conversazione · conversación",
+          "conversazione · práctica"
+        ]
       },
       {
         "word": "opinione",
         "translation": "Palabra clave 8",
-        "example": "Uso la parola «opinione» nel contesto."
+        "definition": "Palabra clave 8",
+        "example": "Uso «opinione» in una frase.",
+        "contexts": [
+          "opinione · tema",
+          "opinione · conversación",
+          "opinione · práctica"
+        ]
       },
       {
         "word": "chiarire",
         "translation": "Palabra clave 9",
-        "example": "Uso la parola «chiarire» nel contesto."
+        "definition": "Palabra clave 9",
+        "example": "Uso «chiarire» in una frase.",
+        "contexts": [
+          "chiarire · tema",
+          "chiarire · conversación",
+          "chiarire · práctica"
+        ]
       },
       {
         "word": "rispettare",
         "translation": "Palabra clave 10",
-        "example": "Uso la parola «rispettare» nel contesto."
+        "definition": "Palabra clave 10",
+        "example": "Uso «rispettare» in una frase.",
+        "contexts": [
+          "rispettare · tema",
+          "rispettare · conversación",
+          "rispettare · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -14848,7 +24736,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "relazione",
           "ascoltare",
@@ -14858,52 +24746,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "spiegare",
+          "relazione",
           "ascoltare",
-          "messaggio",
-          "accordo"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "accordo",
-          "messaggio",
           "spiegare",
-          "fiducia"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "conversazione",
-          "accordo",
-          "fiducia",
           "messaggio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ascoltare",
+          "relazione",
+          "spiegare",
+          "messaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "spiegare",
+          "relazione",
+          "ascoltare",
+          "messaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "accordo",
+          "relazione",
+          "ascoltare",
+          "spiegare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "relazione",
           "fiducia",
+          "ascoltare",
+          "spiegare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ascoltare",
+          "relazione",
           "conversazione",
+          "spiegare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "spiegare",
+          "relazione",
+          "ascoltare",
           "opinione"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "conversazione",
-          "fiducia",
-          "opinione",
-          "chiarire"
+          "chiarire",
+          "relazione",
+          "ascoltare",
+          "spiegare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "relazione",
+          "rispettare",
+          "ascoltare",
+          "spiegare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ascoltare",
+          "relazione",
+          "oggi",
+          "spiegare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "spiegare",
+          "relazione",
+          "ascoltare",
+          "insieme"
         ]
       }
     ]
@@ -15058,54 +25006,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Partitivi e verbi di cucina",
-        "definition": "Práctica guiada de Partitivi e verbi di cucina.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Sapori d'Italia: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "structure": "soggetto + verbo al presente",
+        "function": "Descrivere persone, luoghi e routine.",
+        "examples": [
+          "Io vivo nel quartiere.",
+          "Marco parla con Sofia."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Mi piace questa zuppa.",
-          "pane",
-          "zuppa",
-          "formaggio"
-        ]
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "pane",
-          "zuppa",
-          "formaggio",
-          "gusto"
-        ]
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "zuppa",
-          "pane",
-          "formaggio",
-          "gusto"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Mi piace questa zuppa.",
-          "formaggio",
-          "gusto",
-          "pane"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
     ]
   },
@@ -15133,54 +25216,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Congiunzioni di causa e conseguenza",
-        "definition": "Práctica guiada de Congiunzioni di causa e conseguenza.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Ambiente e città: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "structure": "ausiliare avere/essere + participio passato",
+        "function": "Raccontare esperienze e progetti.",
+        "examples": [
+          "Ieri ho visitato il museo.",
+          "Poi abbiamo parlato insieme."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Vorrei usare meno plastica.",
-          "rifiuti",
-          "plastica",
-          "riciclare"
-        ]
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "rifiuti",
-          "plastica",
-          "riciclare",
-          "ambiente"
-        ]
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "plastica",
-          "rifiuti",
-          "riciclare",
-          "ambiente"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Vorrei usare meno plastica.",
-          "riciclare",
-          "ambiente",
-          "rifiuti"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
     ]
   },
@@ -15204,22 +25422,134 @@
       {
         "word": "pane",
         "translation": "palabra cultural",
-        "example": "Mi piace questa zuppa."
+        "definition": "palabra cultural",
+        "example": "Uso «pane» in una frase.",
+        "contexts": [
+          "pane · tema",
+          "pane · conversación",
+          "pane · práctica"
+        ]
       },
       {
         "word": "zuppa",
         "translation": "acción cotidiana",
-        "example": "Mi piace questa zuppa."
+        "definition": "acción cotidiana",
+        "example": "Uso «zuppa» in una frase.",
+        "contexts": [
+          "zuppa · tema",
+          "zuppa · conversación",
+          "zuppa · práctica"
+        ]
       },
       {
         "word": "formaggio",
         "translation": "lugar o cosa",
-        "example": "Mi piace questa zuppa."
+        "definition": "lugar o cosa",
+        "example": "Uso «formaggio» in una frase.",
+        "contexts": [
+          "formaggio · tema",
+          "formaggio · conversación",
+          "formaggio · práctica"
+        ]
       },
       {
         "word": "gusto",
         "translation": "expresión útil",
-        "example": "Mi piace questa zuppa."
+        "definition": "expresión útil",
+        "example": "Uso «gusto» in una frase.",
+        "contexts": [
+          "gusto · tema",
+          "gusto · conversación",
+          "gusto · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -15229,12 +25559,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "pane",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "zuppa",
+          "formaggio",
+          "gusto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pane",
+          "zuppa",
+          "formaggio",
+          "gusto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "zuppa",
+          "pane",
+          "formaggio",
+          "gusto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "formaggio",
+          "pane",
+          "zuppa",
+          "gusto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "pane",
+          "zuppa",
+          "formaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pane",
+          "insieme",
+          "zuppa",
+          "formaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "zuppa",
+          "pane",
+          "quartiere",
+          "formaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "formaggio",
+          "pane",
+          "zuppa",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "pane",
+          "zuppa",
+          "formaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "pane",
+          "esperienza",
+          "zuppa",
+          "formaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "zuppa",
+          "pane",
+          "scegliere",
+          "formaggio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "formaggio",
+          "pane",
+          "zuppa",
+          "capire"
         ]
       }
     ]
@@ -15259,22 +25699,134 @@
       {
         "word": "rifiuti",
         "translation": "palabra cultural",
-        "example": "Vorrei usare meno plastica."
+        "definition": "palabra cultural",
+        "example": "Uso «rifiuti» in una frase.",
+        "contexts": [
+          "rifiuti · tema",
+          "rifiuti · conversación",
+          "rifiuti · práctica"
+        ]
       },
       {
         "word": "plastica",
         "translation": "acción cotidiana",
-        "example": "Vorrei usare meno plastica."
+        "definition": "acción cotidiana",
+        "example": "Uso «plastica» in una frase.",
+        "contexts": [
+          "plastica · tema",
+          "plastica · conversación",
+          "plastica · práctica"
+        ]
       },
       {
         "word": "riciclare",
         "translation": "lugar o cosa",
-        "example": "Vorrei usare meno plastica."
+        "definition": "lugar o cosa",
+        "example": "Uso «riciclare» in una frase.",
+        "contexts": [
+          "riciclare · tema",
+          "riciclare · conversación",
+          "riciclare · práctica"
+        ]
       },
       {
         "word": "ambiente",
         "translation": "expresión útil",
-        "example": "Vorrei usare meno plastica."
+        "definition": "expresión útil",
+        "example": "Uso «ambiente» in una frase.",
+        "contexts": [
+          "ambiente · tema",
+          "ambiente · conversación",
+          "ambiente · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -15284,12 +25836,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "rifiuti",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "plastica",
+          "riciclare",
+          "ambiente"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "rifiuti",
+          "plastica",
+          "riciclare",
+          "ambiente"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "plastica",
+          "rifiuti",
+          "riciclare",
+          "ambiente"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "riciclare",
+          "rifiuti",
+          "plastica",
+          "ambiente"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "rifiuti",
+          "plastica",
+          "riciclare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "rifiuti",
+          "insieme",
+          "plastica",
+          "riciclare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "plastica",
+          "rifiuti",
+          "quartiere",
+          "riciclare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "riciclare",
+          "rifiuti",
+          "plastica",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "rifiuti",
+          "plastica",
+          "riciclare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "rifiuti",
+          "esperienza",
+          "plastica",
+          "riciclare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "plastica",
+          "rifiuti",
+          "scegliere",
+          "riciclare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "riciclare",
+          "rifiuti",
+          "plastica",
+          "capire"
         ]
       }
     ]
@@ -15304,7 +25966,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 120,
-    "estimatedMinutes": 12,
+    "estimatedMinutes": 18,
     "description": "proponer acciones y participar en la comunidad",
     "intro": "proponer acciones y participar en la comunidad",
     "mission": "proponer acciones y participar en la comunidad",
@@ -15369,12 +26031,14 @@
     ],
     "dialogue": [],
     "reading": {
-      "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "title": "Cittadinanza e partecipazione",
+      "text": "Nel quartiere di Sofia, il tema “Cittadinanza e partecipazione” è diventato importante dopo una riunione aperta. Alcuni abitanti pensavano che il problema dovesse essere risolto soltanto dalle istituzioni; altri sostenevano che anche i cittadini potessero contribuire con azioni concrete. Sofia ha ascoltato entrambe le posizioni e ha osservato che una proposta utile deve essere realistica, non soltanto interessante. Marco ha raccontato un'esperienza personale: in passato aveva partecipato a un progetto simile e aveva capito che la comunicazione regolare evita molti malintesi. Il gruppo ha quindi diviso i compiti, ha fissato una scadenza e ha scelto un modo semplice per informare il vicinato. Non tutti erano d'accordo su ogni dettaglio, tuttavia hanno accettato di valutare i risultati dopo un mese. Sofia ritiene che questa decisione sia equilibrata, perché permette di agire subito e di correggere il progetto con calma. Alla fine della riunione, le persone hanno lasciato la sala con responsabilità diverse, ma con un obiettivo comune: migliorare la vita quotidiana senza escludere nessuno. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta. Durante l'incontro usano parole utili come cittadinanza, partecipare, diritto, proposta.",
       "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
       ]
     },
     "transcript": "",
@@ -15382,53 +26046,52 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
           "cittadinanza",
-          "iniziativa",
-          "migliorare",
-          "responsabilità"
+          "partecipare",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-b1-cittadinanza-e-partecipazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Cittadinanza e partecipazione: lectura»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Cittadinanza e partecipazione: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -15443,7 +26106,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 120,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 10,
     "description": "Contar una experiencia sencilla",
     "intro": "Contar una experiencia sencilla",
     "mission": "",
@@ -15453,62 +26116,56 @@
     "dialogue": [],
     "reading": {
       "title": "Un messaggio a casa",
-      "parts": [
-        "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “Oggi ho imparato molto.”."
-      ],
+      "text": "Oggi Sofia vive una piccola esperienza legata a Un messaggio a casa. Incontra Marco nel suo quartiere e gli parla con calma. Marco ascolta, sorride e fa una domanda semplice. Sofia risponde con parole chiare, perché vuole capire bene la situazione. Insieme osservano il luogo, salutano le persone e scelgono una piccola attività per il pomeriggio. Non tutto è nuovo: alcune cose sono familiari, ma altre invitano a fare domande. Alla fine Sofia racconta a Marco che imparare una lingua significa anche partecipare alla vita quotidiana. Marco è d'accordo e propone di ripetere l'esperienza domani. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “Oggi ho imparato molto.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Contar una experiencia sencilla",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "escribir un mensaje breve",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a1-un-messaggio-a-casa-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Un messaggio a casa»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un messaggio a casa",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a1-un-messaggio-a-casa-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Un messaggio a casa»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Un messaggio a casa",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       }
     ]
@@ -15523,7 +26180,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 120,
-    "estimatedMinutes": 8,
+    "estimatedMinutes": 14,
     "description": "Cerrar el nivel con una experiencia personal",
     "intro": "Cerrar el nivel con una experiencia personal",
     "mission": "",
@@ -15533,73 +26190,66 @@
     "dialogue": [],
     "reading": {
       "title": "Raccontare il proprio viaggio",
-      "parts": [
-        "Sofia vive em Bologna e parla con Marco sobre cerrar el nivel con una experiencia personal. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “È stato un viaggio importante.” e spiega perché questa esperienza è importante per il quartiere.",
-        "Marco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.",
-        "Al final, Sofia scrive una nota: “È stato un viaggio importante.”."
-      ],
+      "text": "La settimana scorsa Sofia ha partecipato a un'attività chiamata Raccontare il proprio viaggio. All'inizio non conosceva bene il programma, quindi ha chiesto informazioni e ha ascoltato le persone del quartiere. Marco è arrivato più tardi, ma ha portato una buona idea. I due hanno confrontato le loro esperienze e hanno deciso di collaborare. Durante l'attività hanno notato che le soluzioni più semplici spesso aiutano molte persone. Sofia ha spiegato che vuole continuare a imparare, perché una città si capisce meglio quando si osservano le abitudini di chi ci vive. Alla fine hanno scritto un breve messaggio per ringraziare il gruppo e hanno programmato un nuovo incontro per la settimana seguente. Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come . Durante l'incontro usano parole utili come .",
       "questions": [
-        "Dove è/está Sofia?",
-        "Con chi fala/parla Sofia?",
-        "Qual frase usa Sofia?",
-        "Perché l’esperienza é importante?"
-      ],
-      "text": "Sofia vive em Bologna e parla con Marco sobre cerrar el nivel con una experiencia personal. Prima osservano il luogo e ascoltano le persone; poi scelgono parole utili per la loro giornata. Sofia dice: “È stato un viaggio importante.” e spiega perché questa esperienza è importante per il quartiere.\n\nMarco fa una domanda semplice e Sofia responde con una frase corta. La conversación muestra que la cultura se aprende escuchando y participando.\n\nAl final, Sofia scrive una nota: “È stato un viaggio importante.”."
+        "Di che cosa parla il testo?",
+        "Che cosa fa prima la protagonista?",
+        "Quale ruolo ha la seconda persona?",
+        "Perché il gruppo collabora?",
+        "Qual è l’obiettivo comune?"
+      ]
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué practica la unidad?",
+        "prompt": "Di che cosa parla il testo?",
         "options": [
-          "Cerrar el nivel con una experiencia personal",
-          "Una regla aislada",
-          "Un examen técnico",
-          "Un tema sin contexto"
+          "tema",
+          "grupo",
+          "Un examen aislado",
+          "Una compra sin contexto"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué hace el estudiante?",
+        "prompt": "Che cosa fa prima la protagonista?",
         "options": [
-          "narrar una experiencia",
-          "Memoriza sin usar",
-          "Evita hablar",
-          "Solo traduce"
+          "Pide información y escucha",
+          "Se va sin hablar",
+          "Cancela la actividad",
+          "Ignora al grupo"
         ]
       },
       {
-        "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Raccontare il proprio viaggio»?",
+        "prompt": "Quale ruolo ha la seconda persona?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Raccontare il proprio viaggio",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Aporta una idea y colabora",
+          "Prohíbe participar",
+          "No escucha a nadie",
+          "Evita el tema"
         ]
       },
       {
-        "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Quale frase riassume meglio «Raccontare il proprio viaggio»?",
+        "prompt": "Perché il gruppo collabora?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Raccontare il proprio viaggio",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Porque buscan una solución concreta",
+          "Porque no tienen objetivo",
+          "Porque trabajan solos",
+          "Porque rechazan cambios"
         ]
       },
       {
-        "id": "italian-a2-raccontare-il-proprio-viaggio-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Raccontare il proprio viaggio»?",
+        "prompt": "Qual è l’obiettivo comune?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Raccontare il proprio viaggio",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Mejorar la vida cotidiana de forma inclusiva",
+          "Ganar una competencia",
+          "Evitar toda comunicación",
+          "Cambiar de ciudad"
         ]
       }
     ]
@@ -15682,64 +26332,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Cittadinanza: congiuntivo e proposte",
-        "definition": "Práctica guiada de Cittadinanza: congiuntivo e proposte.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Cittadinanza e partecipazione: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "structure": "opinione + perché/tuttavia/quindi + motivazione",
+        "function": "Esprimere e giustificare un punto di vista.",
+        "examples": [
+          "Penso che la proposta sia utile.",
+          "Tuttavia dobbiamo valutare i risultati."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «cittadinanza» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di cittadinanza.",
-          "Il gruppo cittadinanza parla di.",
-          "cittadinanza il di gruppo parla.",
-          "Parla gruppo il cittadinanza di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «partecipare» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo partecipare parla di.",
-          "Il gruppo parla di partecipare.",
-          "partecipare il di gruppo parla.",
-          "Parla gruppo il partecipare di."
-        ]
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «diritto» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "diritto il di gruppo parla.",
-          "Il gruppo diritto parla di.",
-          "Il gruppo parla di diritto.",
-          "Parla gruppo il diritto di."
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «proposta» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Parla gruppo il proposta di.",
-          "Il gruppo proposta parla di.",
-          "proposta il di gruppo parla.",
-          "Il gruppo parla di proposta."
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase usa «comunità» in modo corretto?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Il gruppo parla di comunità.",
-          "Il gruppo comunità parla di.",
-          "comunità il di gruppo parla.",
-          "Parla gruppo il comunità di."
-        ]
+          "Penso che la proposta sia utile.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Penso che la proposta sia utile.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Penso che la proposta sia utile."
+        ],
+        "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
     ]
   },
@@ -16146,52 +26921,134 @@
       {
         "word": "cittadinanza",
         "translation": "Palabra clave 1",
-        "example": "Uso la parola «cittadinanza» nel contesto."
+        "definition": "Palabra clave 1",
+        "example": "Uso «cittadinanza» in una frase.",
+        "contexts": [
+          "cittadinanza · tema",
+          "cittadinanza · conversación",
+          "cittadinanza · práctica"
+        ]
       },
       {
         "word": "partecipare",
         "translation": "Palabra clave 2",
-        "example": "Uso la parola «partecipare» nel contesto."
+        "definition": "Palabra clave 2",
+        "example": "Uso «partecipare» in una frase.",
+        "contexts": [
+          "partecipare · tema",
+          "partecipare · conversación",
+          "partecipare · práctica"
+        ]
       },
       {
         "word": "diritto",
         "translation": "Palabra clave 3",
-        "example": "Uso la parola «diritto» nel contesto."
+        "definition": "Palabra clave 3",
+        "example": "Uso «diritto» in una frase.",
+        "contexts": [
+          "diritto · tema",
+          "diritto · conversación",
+          "diritto · práctica"
+        ]
       },
       {
         "word": "proposta",
         "translation": "Palabra clave 4",
-        "example": "Uso la parola «proposta» nel contesto."
+        "definition": "Palabra clave 4",
+        "example": "Uso «proposta» in una frase.",
+        "contexts": [
+          "proposta · tema",
+          "proposta · conversación",
+          "proposta · práctica"
+        ]
       },
       {
         "word": "comunità",
         "translation": "Palabra clave 5",
-        "example": "Uso la parola «comunità» nel contesto."
+        "definition": "Palabra clave 5",
+        "example": "Uso «comunità» in una frase.",
+        "contexts": [
+          "comunità · tema",
+          "comunità · conversación",
+          "comunità · práctica"
+        ]
       },
       {
         "word": "scegliere",
         "translation": "Palabra clave 6",
-        "example": "Uso la parola «scegliere» nel contesto."
+        "definition": "Palabra clave 6",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
       },
       {
         "word": "volontario",
         "translation": "Palabra clave 7",
-        "example": "Uso la parola «volontario» nel contesto."
+        "definition": "Palabra clave 7",
+        "example": "Uso «volontario» in una frase.",
+        "contexts": [
+          "volontario · tema",
+          "volontario · conversación",
+          "volontario · práctica"
+        ]
       },
       {
         "word": "iniziativa",
         "translation": "Palabra clave 8",
-        "example": "Uso la parola «iniziativa» nel contesto."
+        "definition": "Palabra clave 8",
+        "example": "Uso «iniziativa» in una frase.",
+        "contexts": [
+          "iniziativa · tema",
+          "iniziativa · conversación",
+          "iniziativa · práctica"
+        ]
       },
       {
         "word": "migliorare",
         "translation": "Palabra clave 9",
-        "example": "Uso la parola «migliorare» nel contesto."
+        "definition": "Palabra clave 9",
+        "example": "Uso «migliorare» in una frase.",
+        "contexts": [
+          "migliorare · tema",
+          "migliorare · conversación",
+          "migliorare · práctica"
+        ]
       },
       {
         "word": "responsabilità",
         "translation": "Palabra clave 10",
-        "example": "Uso la parola «responsabilità» nel contesto."
+        "definition": "Palabra clave 10",
+        "example": "Uso «responsabilità» in una frase.",
+        "contexts": [
+          "responsabilità · tema",
+          "responsabilità · conversación",
+          "responsabilità · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -16201,7 +27058,7 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "cittadinanza",
           "partecipare",
@@ -16211,52 +27068,112 @@
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "diritto",
+          "cittadinanza",
           "partecipare",
-          "proposta",
-          "comunità"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "comunità",
-          "proposta",
           "diritto",
-          "scegliere"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
-        "options": [
-          "volontario",
-          "comunità",
-          "scegliere",
           "proposta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "partecipare",
+          "cittadinanza",
+          "diritto",
+          "proposta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "diritto",
+          "cittadinanza",
+          "partecipare",
+          "proposta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "comunità",
+          "cittadinanza",
+          "partecipare",
+          "diritto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "cittadinanza",
           "scegliere",
+          "partecipare",
+          "diritto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "partecipare",
+          "cittadinanza",
           "volontario",
+          "diritto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "diritto",
+          "cittadinanza",
+          "partecipare",
           "iniziativa"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Selecciona la palabra trabajada en esta unidad:",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
-          "volontario",
-          "scegliere",
-          "iniziativa",
-          "migliorare"
+          "migliorare",
+          "cittadinanza",
+          "partecipare",
+          "diritto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "cittadinanza",
+          "responsabilità",
+          "partecipare",
+          "diritto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "partecipare",
+          "cittadinanza",
+          "oggi",
+          "diritto"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "diritto",
+          "cittadinanza",
+          "partecipare",
+          "insieme"
         ]
       }
     ]
@@ -16411,54 +27328,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Scrivere messaggi: presente e connettori",
-        "definition": "Práctica guiada de Scrivere messaggi: presente e connettori.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Un messaggio a casa: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "structure": "soggetto + verbo al presente",
+        "function": "Descrivere persone, luoghi e routine.",
+        "examples": [
+          "Io vivo nel quartiere.",
+          "Marco parla con Sofia."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Oggi ho imparato molto.",
-          "oggi",
-          "domani",
-          "casa"
-        ]
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "oggi",
-          "domani",
-          "casa",
-          "esperienza"
-        ]
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "domani",
-          "oggi",
-          "casa",
-          "esperienza"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "Oggi ho imparato molto.",
-          "casa",
-          "esperienza",
-          "oggi"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivo nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Io vivo nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Io vivo nel quartiere."
+        ],
+        "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
     ]
   },
@@ -16486,54 +27538,189 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Racconto al passato: passato prossimo e imperfetto",
-        "definition": "Práctica guiada de Racconto al passato: passato prossimo e imperfetto.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
+        "name": "Raccontare il proprio viaggio: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "structure": "ausiliare avere/essere + participio passato",
+        "function": "Raccontare esperienze e progetti.",
+        "examples": [
+          "Ieri ho visitato il museo.",
+          "Poi abbiamo parlato insieme."
+        ]
       },
-      "grammarTest": null,
+      "grammarTest": {
+        "questions": [
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          {
+            "type": "mcq",
+            "prompt": "Quale frase è corretta?",
+            "options": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        ]
+      },
       "listeningComprehension": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "È stato un viaggio importante.",
-          "ricordo",
-          "incontro",
-          "cambiare"
-        ]
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Elige una palabra del tema.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "ricordo",
-          "incontro",
-          "cambiare",
-          "futuro"
-        ]
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Completa una frase cultural.",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "incontro",
-          "ricordo",
-          "cambiare",
-          "futuro"
-        ]
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "Quale frase è corretta?",
         "options": [
-          "È stato un viaggio importante.",
-          "cambiare",
-          "futuro",
-          "ricordo"
-        ]
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Ieri ho visitato il museo.",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Io vivi nel quartiere.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Io vivi nel quartiere.",
+          "Io vivere nel quartiere.",
+          "Ieri ho visitato il museo.",
+          "Vivo io nel quartiere?"
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale frase è corretta?",
+        "options": [
+          "Vivo io nel quartiere?",
+          "Io vivere nel quartiere.",
+          "Io vivi nel quartiere.",
+          "Ieri ho visitato il museo."
+        ],
+        "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
     ]
   },
@@ -16557,22 +27744,134 @@
       {
         "word": "oggi",
         "translation": "palabra cultural",
-        "example": "Oggi ho imparato molto."
+        "definition": "palabra cultural",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
       },
       {
         "word": "domani",
         "translation": "acción cotidiana",
-        "example": "Oggi ho imparato molto."
+        "definition": "acción cotidiana",
+        "example": "Uso «domani» in una frase.",
+        "contexts": [
+          "domani · tema",
+          "domani · conversación",
+          "domani · práctica"
+        ]
       },
       {
         "word": "casa",
         "translation": "lugar o cosa",
-        "example": "Oggi ho imparato molto."
+        "definition": "lugar o cosa",
+        "example": "Uso «casa» in una frase.",
+        "contexts": [
+          "casa · tema",
+          "casa · conversación",
+          "casa · práctica"
+        ]
       },
       {
         "word": "esperienza",
         "translation": "expresión útil",
-        "example": "Oggi ho imparato molto."
+        "definition": "expresión útil",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
+      },
+      {
+        "word": "proposta",
+        "translation": "propuesta",
+        "definition": "propuesta",
+        "example": "Uso «proposta» in una frase.",
+        "contexts": [
+          "proposta · tema",
+          "proposta · conversación",
+          "proposta · práctica"
+        ]
+      },
+      {
+        "word": "importante",
+        "translation": "importante",
+        "definition": "importante",
+        "example": "Uso «importante» in una frase.",
+        "contexts": [
+          "importante · tema",
+          "importante · conversación",
+          "importante · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -16582,12 +27881,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "oggi",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "domani",
+          "casa",
+          "esperienza"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "domani",
+          "casa",
+          "esperienza"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "domani",
+          "oggi",
+          "casa",
+          "esperienza"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "casa",
+          "oggi",
+          "domani",
+          "esperienza"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "insieme",
+          "oggi",
+          "domani",
+          "casa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "quartiere",
+          "domani",
+          "casa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "domani",
+          "oggi",
+          "domanda",
+          "casa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "casa",
+          "oggi",
+          "domani",
+          "risposta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "scegliere",
+          "oggi",
+          "domani",
+          "casa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "capire",
+          "domani",
+          "casa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "domani",
+          "oggi",
+          "proposta",
+          "casa"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "casa",
+          "oggi",
+          "domani",
+          "importante"
         ]
       }
     ]
@@ -16612,22 +28021,134 @@
       {
         "word": "ricordo",
         "translation": "palabra cultural",
-        "example": "È stato un viaggio importante."
+        "definition": "palabra cultural",
+        "example": "Uso «ricordo» in una frase.",
+        "contexts": [
+          "ricordo · tema",
+          "ricordo · conversación",
+          "ricordo · práctica"
+        ]
       },
       {
         "word": "incontro",
         "translation": "acción cotidiana",
-        "example": "È stato un viaggio importante."
+        "definition": "acción cotidiana",
+        "example": "Uso «incontro» in una frase.",
+        "contexts": [
+          "incontro · tema",
+          "incontro · conversación",
+          "incontro · práctica"
+        ]
       },
       {
         "word": "cambiare",
         "translation": "lugar o cosa",
-        "example": "È stato un viaggio importante."
+        "definition": "lugar o cosa",
+        "example": "Uso «cambiare» in una frase.",
+        "contexts": [
+          "cambiare · tema",
+          "cambiare · conversación",
+          "cambiare · práctica"
+        ]
       },
       {
         "word": "futuro",
         "translation": "expresión útil",
-        "example": "È stato un viaggio importante."
+        "definition": "expresión útil",
+        "example": "Uso «futuro» in una frase.",
+        "contexts": [
+          "futuro · tema",
+          "futuro · conversación",
+          "futuro · práctica"
+        ]
+      },
+      {
+        "word": "oggi",
+        "translation": "hoy",
+        "definition": "hoy",
+        "example": "Uso «oggi» in una frase.",
+        "contexts": [
+          "oggi · tema",
+          "oggi · conversación",
+          "oggi · práctica"
+        ]
+      },
+      {
+        "word": "insieme",
+        "translation": "juntos",
+        "definition": "juntos",
+        "example": "Uso «insieme» in una frase.",
+        "contexts": [
+          "insieme · tema",
+          "insieme · conversación",
+          "insieme · práctica"
+        ]
+      },
+      {
+        "word": "quartiere",
+        "translation": "barrio",
+        "definition": "barrio",
+        "example": "Uso «quartiere» in una frase.",
+        "contexts": [
+          "quartiere · tema",
+          "quartiere · conversación",
+          "quartiere · práctica"
+        ]
+      },
+      {
+        "word": "domanda",
+        "translation": "pregunta",
+        "definition": "pregunta",
+        "example": "Uso «domanda» in una frase.",
+        "contexts": [
+          "domanda · tema",
+          "domanda · conversación",
+          "domanda · práctica"
+        ]
+      },
+      {
+        "word": "risposta",
+        "translation": "respuesta",
+        "definition": "respuesta",
+        "example": "Uso «risposta» in una frase.",
+        "contexts": [
+          "risposta · tema",
+          "risposta · conversación",
+          "risposta · práctica"
+        ]
+      },
+      {
+        "word": "esperienza",
+        "translation": "experiencia",
+        "definition": "experiencia",
+        "example": "Uso «esperienza» in una frase.",
+        "contexts": [
+          "esperienza · tema",
+          "esperienza · conversación",
+          "esperienza · práctica"
+        ]
+      },
+      {
+        "word": "scegliere",
+        "translation": "elegir",
+        "definition": "elegir",
+        "example": "Uso «scegliere» in una frase.",
+        "contexts": [
+          "scegliere · tema",
+          "scegliere · conversación",
+          "scegliere · práctica"
+        ]
+      },
+      {
+        "word": "capire",
+        "translation": "comprender",
+        "definition": "comprender",
+        "example": "Uso «capire» in una frase.",
+        "contexts": [
+          "capire · tema",
+          "capire · conversación",
+          "capire · práctica"
+        ]
       }
     ],
     "dialogue": [],
@@ -16637,12 +28158,122 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "¿Qué palabra pertenece a la unidad?",
+        "prompt": "Scegli una parola di questa unità.",
         "options": [
           "ricordo",
-          "computadora",
-          "laboratorio",
-          "satélite"
+          "incontro",
+          "cambiare",
+          "futuro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ricordo",
+          "incontro",
+          "cambiare",
+          "futuro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "incontro",
+          "ricordo",
+          "cambiare",
+          "futuro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "cambiare",
+          "ricordo",
+          "incontro",
+          "futuro"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "oggi",
+          "ricordo",
+          "incontro",
+          "cambiare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ricordo",
+          "insieme",
+          "incontro",
+          "cambiare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "incontro",
+          "ricordo",
+          "quartiere",
+          "cambiare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "cambiare",
+          "ricordo",
+          "incontro",
+          "domanda"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "risposta",
+          "ricordo",
+          "incontro",
+          "cambiare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "ricordo",
+          "esperienza",
+          "incontro",
+          "cambiare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "incontro",
+          "ricordo",
+          "scegliere",
+          "cambiare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli una parola di questa unità.",
+        "options": [
+          "cambiare",
+          "ricordo",
+          "incontro",
+          "capire"
         ]
       }
     ]

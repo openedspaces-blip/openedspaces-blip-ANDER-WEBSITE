@@ -388,7 +388,7 @@
       : '';
 
     return `
-      <article class="verb-catalogue-row" data-verb-id="${escapeHtml(item.id)}">
+      <article class="verb-catalogue-row" data-verb-id="${escapeHtml(item.id)}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Toca la tarjeta para escuchar la pronunciaciÃ³n de ${escapeHtml(item.targetWord)}">
         <div class="verb-catalogue-head">
           <span class="verb-catalogue-rank">${item.frequencyRank}</span>
           <div class="verb-catalogue-identity">
@@ -2026,6 +2026,21 @@
     // header comment) - just stop it from also falling through to the
     // "open details" tile click below, never handle the actual sound here.
     if (event.target.closest('.verb-tile-audio-btn')) return;
+
+    // Catalogue rows have a generous touch target: tapping the word, its
+    // translation or any empty space plays the infinitive.  The explicit
+    // speaker remains available, while conjugation keeps its own action.
+    const catalogueRow = event.target.closest('.verb-catalogue-row[data-speak-text]');
+    if (catalogueRow) {
+      catalogueRow.classList.remove('is-pronouncing');
+      window.requestAnimationFrame(() => catalogueRow.classList.add('is-pronouncing'));
+      window.setTimeout(() => catalogueRow.classList.remove('is-pronouncing'), 650);
+      speakText(catalogueRow.dataset.speakText, {
+        locale: catalogueRow.dataset.speakLocale,
+        rate: Number(catalogueRow.dataset.speakRate) || 1
+      });
+      return;
+    }
 
     // Detail modal open/close (redesign pass). Checked after every
     // more-specific button above, so clicking a tile's own favorite/

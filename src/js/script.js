@@ -4452,6 +4452,20 @@ function openLearningRouteTab(skill) {
   showView(skill);
 }
 
+// The primary Vocabulary link opens the expanded catalogue for the current
+// language and level. When a unit is already selected, it keeps the student
+// in that unit so the content remains aligned with the learning route.
+function openVocabularyFromMainNav() {
+  const targetLesson = getCurrentUnitActivityForSkill('vocabulary');
+  if (targetLesson) {
+    openUnitSequenceStep('vocabulary', targetLesson.slug);
+    return;
+  }
+  learningPathState.skillEntryContext = 'explore';
+  history.pushState(null, '', '#vocabulary');
+  showView('vocabulary');
+}
+
 // Each activity used to expose every optional Tutor, translator and download
 // action in one long row. Keep the action that advances learning visible and
 // place the remaining helpers in a native disclosure without removing any
@@ -19242,6 +19256,12 @@ window.addEventListener('hashchange', () => {
 // leave the hash/tab on one activity while the mission strip still refers to
 // another one.
 document.addEventListener('click', (event) => {
+  const mainVocabularyLink = event.target.closest('.nav-group-member > a[href="#vocabulary"]');
+  if (mainVocabularyLink) {
+    event.preventDefault();
+    openVocabularyFromMainNav();
+    return;
+  }
   const tab = event.target.closest('.level-tab[data-tab]');
   if (!tab || tab.closest('[hidden]')) return;
   const skill = tab.dataset.tab;

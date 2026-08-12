@@ -487,25 +487,28 @@ test('member navigation combines progress and achievements in one connected view
   assert.match(script, /if \(raw === 'achievements'\) return 'progress';/);
 });
 
-test('member navigation prioritizes Learn, Verbs, Tutor and Translator and groups secondary links under More', () => {
+test('member navigation prioritizes Learn, Verbs, Vocabulary, Tutor and Translator and groups secondary links under More', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const memberNav =
     html.match(/<span class="nav-group nav-group-member" hidden>([\s\S]*?)<\/span>\s*<\/nav>/)?.[1] || '';
 
   const learnIndex = memberNav.indexOf('data-i18n="navLearnMember"');
   const verbsIndex = memberNav.indexOf('data-i18n="navVerbs"');
+  const vocabularyIndex = memberNav.indexOf('data-i18n="navVocabulary"');
   const tutorIndex = memberNav.indexOf('data-i18n="navTutor"');
   const translatorIndex = memberNav.indexOf('data-i18n="navTranslator"');
   const moreIndex = memberNav.indexOf('class="nav-more"');
 
-  assert.ok(learnIndex < verbsIndex && verbsIndex < tutorIndex && tutorIndex < translatorIndex);
+  assert.ok(learnIndex < verbsIndex && verbsIndex < vocabularyIndex && vocabularyIndex < tutorIndex && tutorIndex < translatorIndex);
   assert.ok(translatorIndex < moreIndex);
   assert.match(memberNav, /href="#tutor" data-i18n="navTutor">Tutor I\.A\.<\/a>/);
+  assert.match(memberNav, /href="#vocabulary" data-i18n="navVocabulary">Vocabulario<\/a>/);
   assert.match(memberNav, /<summary data-i18n="navMore">Más<\/summary>/);
   assert.match(memberNav, /class="nav-more-menu"[\s\S]*data-i18n="navProgress"/);
   assert.match(memberNav, /class="nav-more-menu"[\s\S]*data-i18n="navGoals"/);
   assert.match(memberNav, /class="nav-more-menu"[\s\S]*data-i18n="navAbout"/);
   assert.match(memberNav, /class="nav-more-menu"[\s\S]*data-i18n="navSecurity"/);
+  assert.match(memberNav, /class="nav-more-menu"[\s\S]*href="#downloads" data-i18n="navDownloads"/);
 });
 
 test('the compact Tutor I.A. nav label does not shorten the tutor identity inside its panel', () => {
@@ -1417,10 +1420,14 @@ test('Verbs catalogue matches the compact principal-forms card design on desktop
   assert.match(html, /data-verb-filter="C2"/);
   assert.match(script, /class="verb-catalogue-forms"/);
   assert.match(script, /verb-catalogue-conjugate verb-conjugate-btn/);
+  assert.match(script, /verb-catalogue-row" data-verb-id="\$\{escapeHtml\(item\.id\)\}" data-speak-text=/);
+  assert.match(script, /const catalogueRow = event\.target\.closest\('\.verb-catalogue-row\[data-speak-text\]'\)/);
+  assert.match(script, /speakText\(catalogueRow\.dataset\.speakText/);
   assert.match(script, /const LEVEL_FILTERS = new Set\(\['A1', 'A2', 'B1', 'B2', 'C1', 'C2'\]\)/);
   assert.match(script, /getVerbsForLanguage\(option\.value\)\.length/);
   assert.match(css, /\.verb-catalogue-list\s*\{[\s\S]*?grid-template-columns: repeat\(2, minmax\(0, 1fr\)\)/);
   assert.match(css, /@media \(max-width: 760px\)[\s\S]*?\.verb-catalogue-list \{ grid-template-columns: 1fr; \}/);
+  assert.match(css, /\.verb-catalogue-row\.is-pronouncing/);
 });
 
 test('Italian, Portuguese and German verb cards provide real Spanish meanings', () => {
@@ -1449,19 +1456,18 @@ test('Italian, Portuguese and German verb cards provide real Spanish meanings', 
 test('Extended German catalogue keeps Spanish as the learner support language through C2', () => {
   const context = { window: {} };
   vm.createContext(context);
-  for (const file of [
-    'src/js/verbs/essential-european-verbs.js',
-    'src/js/verbs/european-verb-catalogues.js'
-  ]) {
-    vm.runInContext(fs.readFileSync(path.join(__dirname, file), 'utf8'), context, { filename: file });
-  }
+  vm.runInContext(
+    fs.readFileSync(path.join(__dirname, 'src/js/verbs/european-verb-catalogues.js'), 'utf8'),
+    context,
+    { filename: 'src/js/verbs/european-verb-catalogues.js' }
+  );
 
   const german = context.window.ANDERGO_VERBS_DATA.german;
   assert.equal(german.length, 1200);
   assert.ok(german.every((verb) => Boolean(verb.translation?.spanish)));
-  assert.equal(german.find((verb) => verb.infinitive === 'einrÃ¤umen').translation.spanish, 'guardar; admitir; conceder');
-  assert.equal(german.find((verb) => verb.infinitive === 'fÃ¤chern').translation.spanish, 'abanicar');
-  assert.equal(german.find((verb) => verb.infinitive === 'fÃ¼ttern').translation.spanish, 'alimentar');
+  assert.equal(german.find((verb) => verb.infinitive === 'einr\u00e4umen').translation.spanish, 'guardar; admitir; conceder');
+  assert.equal(german.find((verb) => verb.infinitive === 'f\u00e4chern').translation.spanish, 'abanicar');
+  assert.equal(german.find((verb) => verb.infinitive === 'f\u00fcttern').translation.spanish, 'alimentar');
   assert.equal(german.find((verb) => verb.infinitive === 'bannen').translation.spanish, 'desterrar; cautivar');
 });
 
@@ -1490,6 +1496,12 @@ test('English verbs reserve a complete, translated 100-verb C2 catalogue', () =>
   assert.ok(c2.every((verb) => verb.forms?.pastSimple && verb.forms?.pastParticiple));
   assert.equal(c2.find((verb) => verb.infinitive === 'comprehend').translation.spanish, 'comprender');
   assert.equal(c2.find((verb) => verb.infinitive === 'insure').forms.pastSimple, 'insured');
+  const allEnglish = context.window.ANDERGO_VERBS_DATA.english;
+  assert.equal(allEnglish.filter((verb) => /verbo ingl[e\u00e9]s frecuente/i.test(verb.translation?.spanish || '')).length, 0);
+  assert.doesNotMatch(
+    fs.readFileSync(path.join(__dirname, 'src/js/verbs/extended-verb-catalogues.js'), 'utf8'),
+    /verbo ingl[e\u00e9]s frecuente/i
+  );
 });
 
 test('French C2 has 12 CEFR mastery units entirely in French across all six core skills', () => {
