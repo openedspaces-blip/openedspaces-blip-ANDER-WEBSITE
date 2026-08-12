@@ -586,10 +586,9 @@
   // Central list of bridge->target combinations with real course content and
   // a fully-authored interface (see the INTERFACE_LABELS/PAIR_SENTENCE scope
   // note above) - the single place that decides which pairs are selectable.
-  // Deliberately narrower than SUPPORTED_LANGUAGES: Italian and Portuguese
-  // currently enter through the authored Spanish interface, while German is
-  // withheld until it has real course content. New target routes are enabled
-  // here only after their content is ready.
+  // Deliberately narrower than SUPPORTED_LANGUAGES: Italian, Portuguese and
+  // German currently enter through the authored Spanish interface. New target
+  // routes are enabled here only after their content is ready.
   //
   // Same-language rows (english-english/spanish-spanish/french-french) are
   // the direct/immersion learning mode (spec §3): L1 === L2, definitions and
@@ -602,6 +601,7 @@
     { bridge: 'spanish', target: 'french' },
     { bridge: 'spanish', target: 'italian' },
     { bridge: 'spanish', target: 'portuguese' },
+    { bridge: 'spanish', target: 'german' },
     { bridge: 'french', target: 'spanish' },
     { bridge: 'french', target: 'english' },
     { bridge: 'english', target: 'french' }

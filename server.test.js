@@ -3274,6 +3274,8 @@ test('LanguagePair.getLanguagePairLabel(): supported pairs always identify disti
     LanguagePair.getLanguagePairLabel('spanish', 'english'),
     'Aprenderás inglés con apoyo en español.'
   );
+  assert.equal(LanguagePair.isLanguagePairSupported('spanish', 'german'), true);
+  assert.ok(LanguagePair.getAvailableTargetLanguages('spanish').includes('german'));
 });
 
 test('LanguagePair.getLearningSupport(): direct mode returns definitions/examples/image in L2, never a translation', () => {
