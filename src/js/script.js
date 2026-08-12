@@ -17548,7 +17548,7 @@ const INFOGRAPHIC_LOCALIZATION = {
 };
 
 const INFOGRAPHIC_DEFAULT_UI = ['Interactive picture dictionary','Word bank','Put each name in its place','Select or drag a word, then touch the correct numbered point.','Progress','Try again','Perfect! All the parts are correct.'];
-const INFOGRAPHIC_POINT_STORAGE_KEY = 'andergo_infographic_point_overrides_v1';
+const INFOGRAPHIC_POINT_STORAGE_KEY = 'andergo_infographic_point_overrides_v2';
 const infographicState = {
   sceneId: 'body-front',
   selectedLabel: '',
@@ -17655,7 +17655,7 @@ const INFOGRAPHIC_ATLAS_PANELS = {
 
 function infographicSceneArtwork(scene) {
   const safeSceneId = INFOGRAPHIC_SCENES.some((item) => item.id === scene.id) ? scene.id : 'body-front';
-  return `<foreignObject class="info-realistic-art" x="0" y="0" width="400" height="400"><div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;background:url('/images/infographics/topics/${safeSceneId}.png') center / contain no-repeat;"></div></foreignObject>`;
+  return `<foreignObject class="info-realistic-art" x="0" y="0" width="400" height="400"><div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;background:url('/images/infographics/topics/${safeSceneId}.png?v=20260811-redesign') center / contain no-repeat;"></div></foreignObject>`;
 }
 
 function renderInfographicApp() {
