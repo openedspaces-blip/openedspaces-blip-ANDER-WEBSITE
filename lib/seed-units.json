@@ -5668,1302 +5668,6 @@
     }
   },
   {
-    "slug": "benvenuti-in-italia",
-    "target_language": "italian",
-    "level": "A1",
-    "title": "Benvenuti in Italia",
-    "title_es": "Saluti e presentazioni a Bologna",
-    "description": "Saluti e presentazioni a Bologna",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "salutare e presentarsi",
-      "outcomes": [
-        "salutare e presentarsi",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "ciao",
-        "buongiorno",
-        "piacere",
-        "grazie"
-      ],
-      "scenario": "Saluti e presentazioni a Bologna"
-    }
-  },
-  {
-    "slug": "un-caffe-al-bar",
-    "target_language": "italian",
-    "level": "A1",
-    "title": "Un caffè al bar",
-    "title_es": "Un bar di quartiere e le cortesie quotidiane",
-    "description": "Un bar di quartiere e le cortesie quotidiane",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "ordinare con cortesia",
-      "outcomes": [
-        "ordinare con cortesia",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "caffè",
-        "acqua",
-        "per favore",
-        "grazie"
-      ],
-      "scenario": "Un bar di quartiere e le cortesie quotidiane"
-    }
-  },
-  {
-    "slug": "la-famiglia-a-tavola",
-    "target_language": "italian",
-    "level": "A1",
-    "title": "La famiglia a tavola",
-    "title_es": "Una cena familiare e gli orari italiani",
-    "description": "Una cena familiare e gli orari italiani",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "parlare della famiglia",
-      "outcomes": [
-        "parlare della famiglia",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "famiglia",
-        "cena",
-        "tavola",
-        "insieme"
-      ],
-      "scenario": "Una cena familiare e gli orari italiani"
-    }
-  },
-  {
-    "slug": "il-mercato-del-sabato",
-    "target_language": "italian",
-    "level": "A1",
-    "title": "Il mercato del sabato",
-    "title_es": "Frutta, verdura e prezzi al mercato",
-    "description": "Frutta, verdura e prezzi al mercato",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "comprare al mercato",
-      "outcomes": [
-        "comprare al mercato",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "pomodoro",
-        "mela",
-        "chilo",
-        "euro"
-      ],
-      "scenario": "Frutta, verdura e prezzi al mercato"
-    }
-  },
-  {
-    "slug": "in-bicicletta",
-    "target_language": "italian",
-    "level": "A1",
-    "title": "In bicicletta",
-    "title_es": "Moverse por la ciudad en bicicleta",
-    "description": "Moverse por la ciudad en bicicleta",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "chiedere indicazioni",
-      "outcomes": [
-        "chiedere indicazioni",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "strada",
-        "piazza",
-        "stazione",
-        "bicicletta"
-      ],
-      "scenario": "Moverse por la ciudad en bicicleta"
-    }
-  },
-  {
-    "slug": "scuola-e-amici",
-    "target_language": "italian",
-    "level": "A1",
-    "title": "Scuola e amici",
-    "title_es": "La vida escolar y una merienda",
-    "description": "La vida escolar y una merienda",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "hablar de gustos",
-      "outcomes": [
-        "hablar de gustos",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "scuola",
-        "amico",
-        "lezione",
-        "compito"
-      ],
-      "scenario": "La vida escolar y una merienda"
-    }
-  },
-  {
-    "slug": "una-casa-italiana",
-    "target_language": "italian",
-    "level": "A1",
-    "title": "Una casa italiana",
-    "title_es": "Habitaciones y vida en casa",
-    "description": "Habitaciones y vida en casa",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "describir una casa",
-      "outcomes": [
-        "describir una casa",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "cucina",
-        "camera",
-        "finestra",
-        "balcone"
-      ],
-      "scenario": "Habitaciones y vida en casa"
-    }
-  },
-  {
-    "slug": "il-tempo-e-le-stagioni",
-    "target_language": "italian",
-    "level": "A1",
-    "title": "Il tempo e le stagioni",
-    "title_es": "El clima y las estaciones",
-    "description": "El clima y las estaciones",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "hablar del tiempo",
-      "outcomes": [
-        "hablar del tiempo",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "sole",
-        "pioggia",
-        "caldo",
-        "freddo"
-      ],
-      "scenario": "El clima y las estaciones"
-    }
-  },
-  {
-    "slug": "una-festa-di-quartiere",
-    "target_language": "italian",
-    "level": "A1",
-    "title": "Una festa di quartiere",
-    "title_es": "Una pequeña fiesta comunitaria",
-    "description": "Una pequeña fiesta comunitaria",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "invitar y aceptar",
-      "outcomes": [
-        "invitar y aceptar",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "festa",
-        "musica",
-        "vicino",
-        "sabato"
-      ],
-      "scenario": "Una pequeña fiesta comunitaria"
-    }
-  },
-  {
-    "slug": "in-treno",
-    "target_language": "italian",
-    "level": "A1",
-    "title": "In treno",
-    "title_es": "Un viaje corto en tren regional",
-    "description": "Un viaje corto en tren regional",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "comprar un billete",
-      "outcomes": [
-        "comprar un billete",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "treno",
-        "biglietto",
-        "binario",
-        "viaggio"
-      ],
-      "scenario": "Un viaje corto en tren regional"
-    }
-  },
-  {
-    "slug": "sapori-d-italia",
-    "target_language": "italian",
-    "level": "A1",
-    "title": "Sapori d'Italia",
-    "title_es": "Sabores regionales sin estereotipos",
-    "description": "Sabores regionales sin estereotipos",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "expresar preferencias",
-      "outcomes": [
-        "expresar preferencias",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "pane",
-        "zuppa",
-        "formaggio",
-        "gusto"
-      ],
-      "scenario": "Sabores regionales sin estereotipos"
-    }
-  },
-  {
-    "slug": "un-messaggio-a-casa",
-    "target_language": "italian",
-    "level": "A1",
-    "title": "Un messaggio a casa",
-    "title_es": "Contar una experiencia sencilla",
-    "description": "Contar una experiencia sencilla",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "escribir un mensaje breve",
-      "outcomes": [
-        "escribir un mensaje breve",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "oggi",
-        "domani",
-        "casa",
-        "esperienza"
-      ],
-      "scenario": "Contar una experiencia sencilla"
-    }
-  },
-  {
-    "slug": "vita-in-citta",
-    "target_language": "italian",
-    "level": "A2",
-    "title": "Vita in città",
-    "title_es": "Rutinas urbanas y servicios públicos",
-    "description": "Rutinas urbanas y servicios públicos",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "describir una rutina",
-      "outcomes": [
-        "describir una rutina",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "quartiere",
-        "fermata",
-        "ufficio",
-        "servizio"
-      ],
-      "scenario": "Rutinas urbanas y servicios públicos"
-    }
-  },
-  {
-    "slug": "un-fine-settimana-a-napoli",
-    "target_language": "italian",
-    "level": "A2",
-    "title": "Un fine settimana a Napoli",
-    "title_es": "Planificar una visita respetuosa",
-    "description": "Planificar una visita respetuosa",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "hacer planes",
-      "outcomes": [
-        "hacer planes",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "museo",
-        "passeggiata",
-        "prenotazione",
-        "visita"
-      ],
-      "scenario": "Planificar una visita respetuosa"
-    }
-  },
-  {
-    "slug": "ricette-di-famiglia",
-    "target_language": "italian",
-    "level": "A2",
-    "title": "Ricette di famiglia",
-    "title_es": "Recetas, recuerdos y medidas",
-    "description": "Recetas, recuerdos y medidas",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "explicar una secuencia",
-      "outcomes": [
-        "explicar una secuencia",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "ricetta",
-        "ingrediente",
-        "prima",
-        "dopo"
-      ],
-      "scenario": "Recetas, recuerdos y medidas"
-    }
-  },
-  {
-    "slug": "il-lavoro-e-il-caffe",
-    "target_language": "italian",
-    "level": "A2",
-    "title": "Il lavoro e il caffè",
-    "title_es": "Pausas laborales y registros de cortesía",
-    "description": "Pausas laborales y registros de cortesía",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "interactuar en el trabajo",
-      "outcomes": [
-        "interactuar en el trabajo",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "collega",
-        "pausa",
-        "riunione",
-        "orario"
-      ],
-      "scenario": "Pausas laborales y registros de cortesía"
-    }
-  },
-  {
-    "slug": "arte-nel-quartiere",
-    "target_language": "italian",
-    "level": "A2",
-    "title": "Arte nel quartiere",
-    "title_es": "Arte local y espacios compartidos",
-    "description": "Arte local y espacios compartidos",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "dar una opinión",
-      "outcomes": [
-        "dar una opinión",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "mostra",
-        "artista",
-        "piazza",
-        "opinione"
-      ],
-      "scenario": "Arte local y espacios compartidos"
-    }
-  },
-  {
-    "slug": "viaggiare-con-responsabilita",
-    "target_language": "italian",
-    "level": "A2",
-    "title": "Viaggiare con responsabilità",
-    "title_es": "Viajar cuidando barrios y personas",
-    "description": "Viajar cuidando barrios y personas",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "expresar intención",
-      "outcomes": [
-        "expresar intención",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "residente",
-        "rispetto",
-        "mappa",
-        "scelta"
-      ],
-      "scenario": "Viajar cuidando barrios y personas"
-    }
-  },
-  {
-    "slug": "sport-e-tempo-libero",
-    "target_language": "italian",
-    "level": "A2",
-    "title": "Sport e tempo libero",
-    "title_es": "Aficiones más allá de un solo deporte",
-    "description": "Aficiones más allá de un solo deporte",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "hablar del pasado",
-      "outcomes": [
-        "hablar del pasado",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "nuoto",
-        "corsa",
-        "squadra",
-        "allenamento"
-      ],
-      "scenario": "Aficiones más allá de un solo deporte"
-    }
-  },
-  {
-    "slug": "la-salute-ogni-giorno",
-    "target_language": "italian",
-    "level": "A2",
-    "title": "La salute ogni giorno",
-    "title_es": "Bienestar y farmacia",
-    "description": "Bienestar y farmacia",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "expresar malestar simple",
-      "outcomes": [
-        "expresar malestar simple",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "farmacia",
-        "dolore",
-        "riposo",
-        "consiglio"
-      ],
-      "scenario": "Bienestar y farmacia"
-    }
-  },
-  {
-    "slug": "storie-di-migrazione",
-    "target_language": "italian",
-    "level": "A2",
-    "title": "Storie di migrazione",
-    "title_es": "Italia diversa: familias y trayectorias",
-    "description": "Italia diversa: familias y trayectorias",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "contar una historia sencilla",
-      "outcomes": [
-        "contar una historia sencilla",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "famiglia",
-        "origine",
-        "arrivare",
-        "comunità"
-      ],
-      "scenario": "Italia diversa: familias y trayectorias"
-    }
-  },
-  {
-    "slug": "un-progetto-di-classe",
-    "target_language": "italian",
-    "level": "A2",
-    "title": "Un progetto di classe",
-    "title_es": "Colaborar para una propuesta local",
-    "description": "Colaborar para una propuesta local",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "proponer y colaborar",
-      "outcomes": [
-        "proponer y colaborar",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "progetto",
-        "compito",
-        "idea",
-        "gruppo"
-      ],
-      "scenario": "Colaborar para una propuesta local"
-    }
-  },
-  {
-    "slug": "ambiente-e-citta",
-    "target_language": "italian",
-    "level": "A2",
-    "title": "Ambiente e città",
-    "title_es": "Reciclaje y movilidad cotidiana",
-    "description": "Reciclaje y movilidad cotidiana",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "hablar de hábitos",
-      "outcomes": [
-        "hablar de hábitos",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "rifiuti",
-        "plastica",
-        "riciclare",
-        "ambiente"
-      ],
-      "scenario": "Reciclaje y movilidad cotidiana"
-    }
-  },
-  {
-    "slug": "raccontare-il-proprio-viaggio",
-    "target_language": "italian",
-    "level": "A2",
-    "title": "Raccontare il proprio viaggio",
-    "title_es": "Cerrar el nivel con una experiencia personal",
-    "description": "Cerrar el nivel con una experiencia personal",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "narrar una experiencia",
-      "outcomes": [
-        "narrar una experiencia",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "ricordo",
-        "incontro",
-        "cambiare",
-        "futuro"
-      ],
-      "scenario": "Cerrar el nivel con una experiencia personal"
-    }
-  },
-  {
-    "slug": "chegando-ao-brasil",
-    "target_language": "portuguese",
-    "level": "A1",
-    "title": "Chegando ao Brasil",
-    "title_es": "Saludos y presentaciones en Recife",
-    "description": "Saludos y presentaciones en Recife",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "cumprimentar e apresentar-se",
-      "outcomes": [
-        "cumprimentar e apresentar-se",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "oi",
-        "bom dia",
-        "prazer",
-        "obrigada"
-      ],
-      "scenario": "Saludos y presentaciones en Recife"
-    }
-  },
-  {
-    "slug": "um-cafe-na-padaria",
-    "target_language": "portuguese",
-    "level": "A1",
-    "title": "Um café na padaria",
-    "title_es": "Una panadería de barrio y sus pedidos",
-    "description": "Una panadería de barrio y sus pedidos",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "pedir com cortesia",
-      "outcomes": [
-        "pedir com cortesia",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "café",
-        "pão",
-        "água",
-        "por favor"
-      ],
-      "scenario": "Una panadería de barrio y sus pedidos"
-    }
-  },
-  {
-    "slug": "familia-e-almoco",
-    "target_language": "portuguese",
-    "level": "A1",
-    "title": "Família e almoço",
-    "title_es": "Una comida familiar cotidiana",
-    "description": "Una comida familiar cotidiana",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "falar da família",
-      "outcomes": [
-        "falar da família",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "família",
-        "almoço",
-        "mesa",
-        "juntos"
-      ],
-      "scenario": "Una comida familiar cotidiana"
-    }
-  },
-  {
-    "slug": "a-feira-do-bairro",
-    "target_language": "portuguese",
-    "level": "A1",
-    "title": "A feira do bairro",
-    "title_es": "Frutas, verduras y medidas en la feria",
-    "description": "Frutas, verduras y medidas en la feria",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "comprar na feira",
-      "outcomes": [
-        "comprar na feira",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "banana",
-        "tomate",
-        "quilo",
-        "real"
-      ],
-      "scenario": "Frutas, verduras y medidas en la feria"
-    }
-  },
-  {
-    "slug": "caminhos-da-cidade",
-    "target_language": "portuguese",
-    "level": "A1",
-    "title": "Caminhos da cidade",
-    "title_es": "Moverse por la ciudad con claridad",
-    "description": "Moverse por la ciudad con claridad",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "pedir informações",
-      "outcomes": [
-        "pedir informações",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "rua",
-        "praça",
-        "parada",
-        "bicicleta"
-      ],
-      "scenario": "Moverse por la ciudad con claridad"
-    }
-  },
-  {
-    "slug": "escola-e-amizade",
-    "target_language": "portuguese",
-    "level": "A1",
-    "title": "Escola e amizade",
-    "title_es": "La escuela, amistades y proyectos",
-    "description": "La escuela, amistades y proyectos",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "falar de gostos",
-      "outcomes": [
-        "falar de gostos",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "escola",
-        "amigo",
-        "aula",
-        "tarefa"
-      ],
-      "scenario": "La escuela, amistades y proyectos"
-    }
-  },
-  {
-    "slug": "casa-e-vizinhanca",
-    "target_language": "portuguese",
-    "level": "A1",
-    "title": "Casa e vizinhança",
-    "title_es": "La casa y el vecindario",
-    "description": "La casa y el vecindario",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "descrever lugares",
-      "outcomes": [
-        "descrever lugares",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "cozinha",
-        "quarto",
-        "janela",
-        "varanda"
-      ],
-      "scenario": "La casa y el vecindario"
-    }
-  },
-  {
-    "slug": "tempo-no-recife",
-    "target_language": "portuguese",
-    "level": "A1",
-    "title": "Tempo no Recife",
-    "title_es": "El clima y las estaciones locales",
-    "description": "El clima y las estaciones locales",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "falar do tempo",
-      "outcomes": [
-        "falar do tempo",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "sol",
-        "chuva",
-        "quente",
-        "vento"
-      ],
-      "scenario": "El clima y las estaciones locales"
-    }
-  },
-  {
-    "slug": "uma-roda-cultural",
-    "target_language": "portuguese",
-    "level": "A1",
-    "title": "Uma roda cultural",
-    "title_es": "Una actividad cultural comunitaria",
-    "description": "Una actividad cultural comunitaria",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "convidar alguém",
-      "outcomes": [
-        "convidar alguém",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "roda",
-        "música",
-        "bairro",
-        "sábado"
-      ],
-      "scenario": "Una actividad cultural comunitaria"
-    }
-  },
-  {
-    "slug": "de-onibus",
-    "target_language": "portuguese",
-    "level": "A1",
-    "title": "De ônibus",
-    "title_es": "Un trayecto y una tarjeta de transporte",
-    "description": "Un trayecto y una tarjeta de transporte",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "usar transporte",
-      "outcomes": [
-        "usar transporte",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "ônibus",
-        "bilhete",
-        "ponto",
-        "viagem"
-      ],
-      "scenario": "Un trayecto y una tarjeta de transporte"
-    }
-  },
-  {
-    "slug": "sabores-do-brasil",
-    "target_language": "portuguese",
-    "level": "A1",
-    "title": "Sabores do Brasil",
-    "title_es": "Comidas cotidianas y regiones diversas",
-    "description": "Comidas cotidianas y regiones diversas",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "expressar preferências",
-      "outcomes": [
-        "expressar preferências",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "arroz",
-        "feijão",
-        "sopa",
-        "sabor"
-      ],
-      "scenario": "Comidas cotidianas y regiones diversas"
-    }
-  },
-  {
-    "slug": "mensagem-para-casa",
-    "target_language": "portuguese",
-    "level": "A1",
-    "title": "Mensagem para casa",
-    "title_es": "Un mensaje sobre el día",
-    "description": "Un mensaje sobre el día",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "escrever mensagem curta",
-      "outcomes": [
-        "escrever mensagem curta",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y frases útiles"
-      ],
-      "vocabulary": [
-        "hoje",
-        "amanhã",
-        "casa",
-        "experiência"
-      ],
-      "scenario": "Un mensaje sobre el día"
-    }
-  },
-  {
-    "slug": "rotina-na-cidade",
-    "target_language": "portuguese",
-    "level": "A2",
-    "title": "Rotina na cidade",
-    "title_es": "Rutinas y servicios urbanos",
-    "description": "Rutinas y servicios urbanos",
-    "order_index": 1,
-    "unit_overview": {
-      "objective": "descrever rotina",
-      "outcomes": [
-        "descrever rotina",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "bairro",
-        "parada",
-        "trabalho",
-        "serviço"
-      ],
-      "scenario": "Rutinas y servicios urbanos"
-    }
-  },
-  {
-    "slug": "um-fim-de-semana-em-salvador",
-    "target_language": "portuguese",
-    "level": "A2",
-    "title": "Um fim de semana em Salvador",
-    "title_es": "Planear una visita con respeto",
-    "description": "Planear una visita con respeto",
-    "order_index": 2,
-    "unit_overview": {
-      "objective": "fazer planos",
-      "outcomes": [
-        "fazer planos",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "museu",
-        "passeio",
-        "reserva",
-        "visita"
-      ],
-      "scenario": "Planear una visita con respeto"
-    }
-  },
-  {
-    "slug": "receitas-e-memorias",
-    "target_language": "portuguese",
-    "level": "A2",
-    "title": "Receitas e memórias",
-    "title_es": "Cocinar y recordar en familia",
-    "description": "Cocinar y recordar en familia",
-    "order_index": 3,
-    "unit_overview": {
-      "objective": "explicar sequência",
-      "outcomes": [
-        "explicar sequência",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "receita",
-        "ingrediente",
-        "primeiro",
-        "depois"
-      ],
-      "scenario": "Cocinar y recordar en familia"
-    }
-  },
-  {
-    "slug": "trabalho-e-pausa",
-    "target_language": "portuguese",
-    "level": "A2",
-    "title": "Trabalho e pausa",
-    "title_es": "Pausas y comunicación laboral",
-    "description": "Pausas y comunicación laboral",
-    "order_index": 4,
-    "unit_overview": {
-      "objective": "interagir no trabalho",
-      "outcomes": [
-        "interagir no trabalho",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "colega",
-        "pausa",
-        "reunião",
-        "horário"
-      ],
-      "scenario": "Pausas y comunicación laboral"
-    }
-  },
-  {
-    "slug": "arte-na-comunidade",
-    "target_language": "portuguese",
-    "level": "A2",
-    "title": "Arte na comunidade",
-    "title_es": "Arte local y espacios comunes",
-    "description": "Arte local y espacios comunes",
-    "order_index": 5,
-    "unit_overview": {
-      "objective": "dar opinião",
-      "outcomes": [
-        "dar opinião",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "exposição",
-        "artista",
-        "praça",
-        "opinião"
-      ],
-      "scenario": "Arte local y espacios comunes"
-    }
-  },
-  {
-    "slug": "viajar-com-respeito",
-    "target_language": "portuguese",
-    "level": "A2",
-    "title": "Viajar com respeito",
-    "title_es": "Turismo responsable y comunidades",
-    "description": "Turismo responsable y comunidades",
-    "order_index": 6,
-    "unit_overview": {
-      "objective": "expressar intenção",
-      "outcomes": [
-        "expressar intenção",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "morador",
-        "respeito",
-        "mapa",
-        "escolha"
-      ],
-      "scenario": "Turismo responsable y comunidades"
-    }
-  },
-  {
-    "slug": "esporte-e-lazer",
-    "target_language": "portuguese",
-    "level": "A2",
-    "title": "Esporte e lazer",
-    "title_es": "Aficiones y actividades al aire libre",
-    "description": "Aficiones y actividades al aire libre",
-    "order_index": 7,
-    "unit_overview": {
-      "objective": "falar do passado",
-      "outcomes": [
-        "falar do passado",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "natação",
-        "corrida",
-        "equipe",
-        "treino"
-      ],
-      "scenario": "Aficiones y actividades al aire libre"
-    }
-  },
-  {
-    "slug": "saude-e-bem-estar",
-    "target_language": "portuguese",
-    "level": "A2",
-    "title": "Saúde e bem-estar",
-    "title_es": "Farmacia y cuidado cotidiano",
-    "description": "Farmacia y cuidado cotidiano",
-    "order_index": 8,
-    "unit_overview": {
-      "objective": "falar de mal-estar",
-      "outcomes": [
-        "falar de mal-estar",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "farmácia",
-        "dor",
-        "descanso",
-        "conselho"
-      ],
-      "scenario": "Farmacia y cuidado cotidiano"
-    }
-  },
-  {
-    "slug": "historias-de-origem",
-    "target_language": "portuguese",
-    "level": "A2",
-    "title": "Histórias de origem",
-    "title_es": "Brasil plural: orígenes y familias",
-    "description": "Brasil plural: orígenes y familias",
-    "order_index": 9,
-    "unit_overview": {
-      "objective": "contar história simples",
-      "outcomes": [
-        "contar história simples",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "origem",
-        "chegar",
-        "família",
-        "comunidade"
-      ],
-      "scenario": "Brasil plural: orígenes y familias"
-    }
-  },
-  {
-    "slug": "um-projeto-coletivo",
-    "target_language": "portuguese",
-    "level": "A2",
-    "title": "Um projeto coletivo",
-    "title_es": "Colaborar con un proyecto de barrio",
-    "description": "Colaborar con un proyecto de barrio",
-    "order_index": 10,
-    "unit_overview": {
-      "objective": "propor e colaborar",
-      "outcomes": [
-        "propor e colaborar",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "projeto",
-        "tarefa",
-        "ideia",
-        "grupo"
-      ],
-      "scenario": "Colaborar con un proyecto de barrio"
-    }
-  },
-  {
-    "slug": "cidade-e-ambiente",
-    "target_language": "portuguese",
-    "level": "A2",
-    "title": "Cidade e ambiente",
-    "title_es": "Hábitos, residuos y ciudad",
-    "description": "Hábitos, residuos y ciudad",
-    "order_index": 11,
-    "unit_overview": {
-      "objective": "falar de hábitos",
-      "outcomes": [
-        "falar de hábitos",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "lixo",
-        "plástico",
-        "reciclar",
-        "ambiente"
-      ],
-      "scenario": "Hábitos, residuos y ciudad"
-    }
-  },
-  {
-    "slug": "contar-uma-experiencia",
-    "target_language": "portuguese",
-    "level": "A2",
-    "title": "Contar uma experiência",
-    "title_es": "Cerrar el nivel con una vivencia",
-    "description": "Cerrar el nivel con una vivencia",
-    "order_index": 12,
-    "unit_overview": {
-      "objective": "contar experiência",
-      "outcomes": [
-        "contar experiência",
-        "comprender un fragmento cultural breve",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "presente y pasado cercano"
-      ],
-      "vocabulary": [
-        "lembrança",
-        "encontro",
-        "mudar",
-        "futuro"
-      ],
-      "scenario": "Cerrar el nivel con una vivencia"
-    }
-  },
-  {
     "slug": "lavoro-e-obiettivi",
     "target_language": "italian",
     "level": "B1",
@@ -8701,6 +7405,1302 @@
         "wählen"
       ],
       "scenario": "Gesellschaft und Mitwirkung"
+    }
+  },
+  {
+    "slug": "benvenuti-in-italia",
+    "target_language": "italian",
+    "level": "A1",
+    "title": "Benvenuti in Italia",
+    "title_es": "Saluti e presentazioni a Bologna",
+    "description": "Saluti e presentazioni a Bologna",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "salutare e presentarsi",
+      "outcomes": [
+        "salutare e presentarsi",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "ciao",
+        "buongiorno",
+        "piacere",
+        "grazie"
+      ],
+      "scenario": "Saluti e presentazioni a Bologna"
+    }
+  },
+  {
+    "slug": "un-caffe-al-bar",
+    "target_language": "italian",
+    "level": "A1",
+    "title": "Un caffè al bar",
+    "title_es": "Un bar di quartiere e le cortesie quotidiane",
+    "description": "Un bar di quartiere e le cortesie quotidiane",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "ordinare con cortesia",
+      "outcomes": [
+        "ordinare con cortesia",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "caffè",
+        "acqua",
+        "per favore",
+        "grazie"
+      ],
+      "scenario": "Un bar di quartiere e le cortesie quotidiane"
+    }
+  },
+  {
+    "slug": "la-famiglia-a-tavola",
+    "target_language": "italian",
+    "level": "A1",
+    "title": "La famiglia a tavola",
+    "title_es": "Una cena familiare e gli orari italiani",
+    "description": "Una cena familiare e gli orari italiani",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "parlare della famiglia",
+      "outcomes": [
+        "parlare della famiglia",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "famiglia",
+        "cena",
+        "tavola",
+        "insieme"
+      ],
+      "scenario": "Una cena familiare e gli orari italiani"
+    }
+  },
+  {
+    "slug": "il-mercato-del-sabato",
+    "target_language": "italian",
+    "level": "A1",
+    "title": "Il mercato del sabato",
+    "title_es": "Frutta, verdura e prezzi al mercato",
+    "description": "Frutta, verdura e prezzi al mercato",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "comprare al mercato",
+      "outcomes": [
+        "comprare al mercato",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "pomodoro",
+        "mela",
+        "chilo",
+        "euro"
+      ],
+      "scenario": "Frutta, verdura e prezzi al mercato"
+    }
+  },
+  {
+    "slug": "in-bicicletta",
+    "target_language": "italian",
+    "level": "A1",
+    "title": "In bicicletta",
+    "title_es": "Moverse por la ciudad en bicicleta",
+    "description": "Moverse por la ciudad en bicicleta",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "chiedere indicazioni",
+      "outcomes": [
+        "chiedere indicazioni",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "strada",
+        "piazza",
+        "stazione",
+        "bicicletta"
+      ],
+      "scenario": "Moverse por la ciudad en bicicleta"
+    }
+  },
+  {
+    "slug": "scuola-e-amici",
+    "target_language": "italian",
+    "level": "A1",
+    "title": "Scuola e amici",
+    "title_es": "La vida escolar y una merienda",
+    "description": "La vida escolar y una merienda",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "hablar de gustos",
+      "outcomes": [
+        "hablar de gustos",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "scuola",
+        "amico",
+        "lezione",
+        "compito"
+      ],
+      "scenario": "La vida escolar y una merienda"
+    }
+  },
+  {
+    "slug": "una-casa-italiana",
+    "target_language": "italian",
+    "level": "A1",
+    "title": "Una casa italiana",
+    "title_es": "Habitaciones y vida en casa",
+    "description": "Habitaciones y vida en casa",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "describir una casa",
+      "outcomes": [
+        "describir una casa",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "cucina",
+        "camera",
+        "finestra",
+        "balcone"
+      ],
+      "scenario": "Habitaciones y vida en casa"
+    }
+  },
+  {
+    "slug": "il-tempo-e-le-stagioni",
+    "target_language": "italian",
+    "level": "A1",
+    "title": "Il tempo e le stagioni",
+    "title_es": "El clima y las estaciones",
+    "description": "El clima y las estaciones",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "hablar del tiempo",
+      "outcomes": [
+        "hablar del tiempo",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "sole",
+        "pioggia",
+        "caldo",
+        "freddo"
+      ],
+      "scenario": "El clima y las estaciones"
+    }
+  },
+  {
+    "slug": "una-festa-di-quartiere",
+    "target_language": "italian",
+    "level": "A1",
+    "title": "Una festa di quartiere",
+    "title_es": "Una pequeña fiesta comunitaria",
+    "description": "Una pequeña fiesta comunitaria",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "invitar y aceptar",
+      "outcomes": [
+        "invitar y aceptar",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "festa",
+        "musica",
+        "vicino",
+        "sabato"
+      ],
+      "scenario": "Una pequeña fiesta comunitaria"
+    }
+  },
+  {
+    "slug": "in-treno",
+    "target_language": "italian",
+    "level": "A1",
+    "title": "In treno",
+    "title_es": "Un viaje corto en tren regional",
+    "description": "Un viaje corto en tren regional",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "comprar un billete",
+      "outcomes": [
+        "comprar un billete",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "treno",
+        "biglietto",
+        "binario",
+        "viaggio"
+      ],
+      "scenario": "Un viaje corto en tren regional"
+    }
+  },
+  {
+    "slug": "sapori-d-italia",
+    "target_language": "italian",
+    "level": "A1",
+    "title": "Sapori d'Italia",
+    "title_es": "Sabores regionales sin estereotipos",
+    "description": "Sabores regionales sin estereotipos",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "expresar preferencias",
+      "outcomes": [
+        "expresar preferencias",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "pane",
+        "zuppa",
+        "formaggio",
+        "gusto"
+      ],
+      "scenario": "Sabores regionales sin estereotipos"
+    }
+  },
+  {
+    "slug": "un-messaggio-a-casa",
+    "target_language": "italian",
+    "level": "A1",
+    "title": "Un messaggio a casa",
+    "title_es": "Contar una experiencia sencilla",
+    "description": "Contar una experiencia sencilla",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "escribir un mensaje breve",
+      "outcomes": [
+        "escribir un mensaje breve",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "oggi",
+        "domani",
+        "casa",
+        "esperienza"
+      ],
+      "scenario": "Contar una experiencia sencilla"
+    }
+  },
+  {
+    "slug": "vita-in-citta",
+    "target_language": "italian",
+    "level": "A2",
+    "title": "Vita in città",
+    "title_es": "Rutinas urbanas y servicios públicos",
+    "description": "Rutinas urbanas y servicios públicos",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "describir una rutina",
+      "outcomes": [
+        "describir una rutina",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "quartiere",
+        "fermata",
+        "ufficio",
+        "servizio"
+      ],
+      "scenario": "Rutinas urbanas y servicios públicos"
+    }
+  },
+  {
+    "slug": "un-fine-settimana-a-napoli",
+    "target_language": "italian",
+    "level": "A2",
+    "title": "Un fine settimana a Napoli",
+    "title_es": "Planificar una visita respetuosa",
+    "description": "Planificar una visita respetuosa",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "hacer planes",
+      "outcomes": [
+        "hacer planes",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "museo",
+        "passeggiata",
+        "prenotazione",
+        "visita"
+      ],
+      "scenario": "Planificar una visita respetuosa"
+    }
+  },
+  {
+    "slug": "ricette-di-famiglia",
+    "target_language": "italian",
+    "level": "A2",
+    "title": "Ricette di famiglia",
+    "title_es": "Recetas, recuerdos y medidas",
+    "description": "Recetas, recuerdos y medidas",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "explicar una secuencia",
+      "outcomes": [
+        "explicar una secuencia",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "ricetta",
+        "ingrediente",
+        "prima",
+        "dopo"
+      ],
+      "scenario": "Recetas, recuerdos y medidas"
+    }
+  },
+  {
+    "slug": "il-lavoro-e-il-caffe",
+    "target_language": "italian",
+    "level": "A2",
+    "title": "Il lavoro e il caffè",
+    "title_es": "Pausas laborales y registros de cortesía",
+    "description": "Pausas laborales y registros de cortesía",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "interactuar en el trabajo",
+      "outcomes": [
+        "interactuar en el trabajo",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "collega",
+        "pausa",
+        "riunione",
+        "orario"
+      ],
+      "scenario": "Pausas laborales y registros de cortesía"
+    }
+  },
+  {
+    "slug": "arte-nel-quartiere",
+    "target_language": "italian",
+    "level": "A2",
+    "title": "Arte nel quartiere",
+    "title_es": "Arte local y espacios compartidos",
+    "description": "Arte local y espacios compartidos",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "dar una opinión",
+      "outcomes": [
+        "dar una opinión",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "mostra",
+        "artista",
+        "piazza",
+        "opinione"
+      ],
+      "scenario": "Arte local y espacios compartidos"
+    }
+  },
+  {
+    "slug": "viaggiare-con-responsabilita",
+    "target_language": "italian",
+    "level": "A2",
+    "title": "Viaggiare con responsabilità",
+    "title_es": "Viajar cuidando barrios y personas",
+    "description": "Viajar cuidando barrios y personas",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "expresar intención",
+      "outcomes": [
+        "expresar intención",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "residente",
+        "rispetto",
+        "mappa",
+        "scelta"
+      ],
+      "scenario": "Viajar cuidando barrios y personas"
+    }
+  },
+  {
+    "slug": "sport-e-tempo-libero",
+    "target_language": "italian",
+    "level": "A2",
+    "title": "Sport e tempo libero",
+    "title_es": "Aficiones más allá de un solo deporte",
+    "description": "Aficiones más allá de un solo deporte",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "hablar del pasado",
+      "outcomes": [
+        "hablar del pasado",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "nuoto",
+        "corsa",
+        "squadra",
+        "allenamento"
+      ],
+      "scenario": "Aficiones más allá de un solo deporte"
+    }
+  },
+  {
+    "slug": "la-salute-ogni-giorno",
+    "target_language": "italian",
+    "level": "A2",
+    "title": "La salute ogni giorno",
+    "title_es": "Bienestar y farmacia",
+    "description": "Bienestar y farmacia",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "expresar malestar simple",
+      "outcomes": [
+        "expresar malestar simple",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "farmacia",
+        "dolore",
+        "riposo",
+        "consiglio"
+      ],
+      "scenario": "Bienestar y farmacia"
+    }
+  },
+  {
+    "slug": "storie-di-migrazione",
+    "target_language": "italian",
+    "level": "A2",
+    "title": "Storie di migrazione",
+    "title_es": "Italia diversa: familias y trayectorias",
+    "description": "Italia diversa: familias y trayectorias",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "contar una historia sencilla",
+      "outcomes": [
+        "contar una historia sencilla",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "famiglia",
+        "origine",
+        "arrivare",
+        "comunità"
+      ],
+      "scenario": "Italia diversa: familias y trayectorias"
+    }
+  },
+  {
+    "slug": "un-progetto-di-classe",
+    "target_language": "italian",
+    "level": "A2",
+    "title": "Un progetto di classe",
+    "title_es": "Colaborar para una propuesta local",
+    "description": "Colaborar para una propuesta local",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "proponer y colaborar",
+      "outcomes": [
+        "proponer y colaborar",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "progetto",
+        "compito",
+        "idea",
+        "gruppo"
+      ],
+      "scenario": "Colaborar para una propuesta local"
+    }
+  },
+  {
+    "slug": "ambiente-e-citta",
+    "target_language": "italian",
+    "level": "A2",
+    "title": "Ambiente e città",
+    "title_es": "Reciclaje y movilidad cotidiana",
+    "description": "Reciclaje y movilidad cotidiana",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "hablar de hábitos",
+      "outcomes": [
+        "hablar de hábitos",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "rifiuti",
+        "plastica",
+        "riciclare",
+        "ambiente"
+      ],
+      "scenario": "Reciclaje y movilidad cotidiana"
+    }
+  },
+  {
+    "slug": "raccontare-il-proprio-viaggio",
+    "target_language": "italian",
+    "level": "A2",
+    "title": "Raccontare il proprio viaggio",
+    "title_es": "Cerrar el nivel con una experiencia personal",
+    "description": "Cerrar el nivel con una experiencia personal",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "narrar una experiencia",
+      "outcomes": [
+        "narrar una experiencia",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "ricordo",
+        "incontro",
+        "cambiare",
+        "futuro"
+      ],
+      "scenario": "Cerrar el nivel con una experiencia personal"
+    }
+  },
+  {
+    "slug": "chegando-ao-brasil",
+    "target_language": "portuguese",
+    "level": "A1",
+    "title": "Chegando ao Brasil",
+    "title_es": "Saludos y presentaciones en Recife",
+    "description": "Saludos y presentaciones en Recife",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "cumprimentar e apresentar-se",
+      "outcomes": [
+        "cumprimentar e apresentar-se",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "oi",
+        "bom dia",
+        "prazer",
+        "obrigada"
+      ],
+      "scenario": "Saludos y presentaciones en Recife"
+    }
+  },
+  {
+    "slug": "um-cafe-na-padaria",
+    "target_language": "portuguese",
+    "level": "A1",
+    "title": "Um café na padaria",
+    "title_es": "Una panadería de barrio y sus pedidos",
+    "description": "Una panadería de barrio y sus pedidos",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "pedir com cortesia",
+      "outcomes": [
+        "pedir com cortesia",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "café",
+        "pão",
+        "água",
+        "por favor"
+      ],
+      "scenario": "Una panadería de barrio y sus pedidos"
+    }
+  },
+  {
+    "slug": "familia-e-almoco",
+    "target_language": "portuguese",
+    "level": "A1",
+    "title": "Família e almoço",
+    "title_es": "Una comida familiar cotidiana",
+    "description": "Una comida familiar cotidiana",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "falar da família",
+      "outcomes": [
+        "falar da família",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "família",
+        "almoço",
+        "mesa",
+        "juntos"
+      ],
+      "scenario": "Una comida familiar cotidiana"
+    }
+  },
+  {
+    "slug": "a-feira-do-bairro",
+    "target_language": "portuguese",
+    "level": "A1",
+    "title": "A feira do bairro",
+    "title_es": "Frutas, verduras y medidas en la feria",
+    "description": "Frutas, verduras y medidas en la feria",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "comprar na feira",
+      "outcomes": [
+        "comprar na feira",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "banana",
+        "tomate",
+        "quilo",
+        "real"
+      ],
+      "scenario": "Frutas, verduras y medidas en la feria"
+    }
+  },
+  {
+    "slug": "caminhos-da-cidade",
+    "target_language": "portuguese",
+    "level": "A1",
+    "title": "Caminhos da cidade",
+    "title_es": "Moverse por la ciudad con claridad",
+    "description": "Moverse por la ciudad con claridad",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "pedir informações",
+      "outcomes": [
+        "pedir informações",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "rua",
+        "praça",
+        "parada",
+        "bicicleta"
+      ],
+      "scenario": "Moverse por la ciudad con claridad"
+    }
+  },
+  {
+    "slug": "escola-e-amizade",
+    "target_language": "portuguese",
+    "level": "A1",
+    "title": "Escola e amizade",
+    "title_es": "La escuela, amistades y proyectos",
+    "description": "La escuela, amistades y proyectos",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "falar de gostos",
+      "outcomes": [
+        "falar de gostos",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "escola",
+        "amigo",
+        "aula",
+        "tarefa"
+      ],
+      "scenario": "La escuela, amistades y proyectos"
+    }
+  },
+  {
+    "slug": "casa-e-vizinhanca",
+    "target_language": "portuguese",
+    "level": "A1",
+    "title": "Casa e vizinhança",
+    "title_es": "La casa y el vecindario",
+    "description": "La casa y el vecindario",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "descrever lugares",
+      "outcomes": [
+        "descrever lugares",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "cozinha",
+        "quarto",
+        "janela",
+        "varanda"
+      ],
+      "scenario": "La casa y el vecindario"
+    }
+  },
+  {
+    "slug": "tempo-no-recife",
+    "target_language": "portuguese",
+    "level": "A1",
+    "title": "Tempo no Recife",
+    "title_es": "El clima y las estaciones locales",
+    "description": "El clima y las estaciones locales",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "falar do tempo",
+      "outcomes": [
+        "falar do tempo",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "sol",
+        "chuva",
+        "quente",
+        "vento"
+      ],
+      "scenario": "El clima y las estaciones locales"
+    }
+  },
+  {
+    "slug": "uma-roda-cultural",
+    "target_language": "portuguese",
+    "level": "A1",
+    "title": "Uma roda cultural",
+    "title_es": "Una actividad cultural comunitaria",
+    "description": "Una actividad cultural comunitaria",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "convidar alguém",
+      "outcomes": [
+        "convidar alguém",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "roda",
+        "música",
+        "bairro",
+        "sábado"
+      ],
+      "scenario": "Una actividad cultural comunitaria"
+    }
+  },
+  {
+    "slug": "de-onibus",
+    "target_language": "portuguese",
+    "level": "A1",
+    "title": "De ônibus",
+    "title_es": "Un trayecto y una tarjeta de transporte",
+    "description": "Un trayecto y una tarjeta de transporte",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "usar transporte",
+      "outcomes": [
+        "usar transporte",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "ônibus",
+        "bilhete",
+        "ponto",
+        "viagem"
+      ],
+      "scenario": "Un trayecto y una tarjeta de transporte"
+    }
+  },
+  {
+    "slug": "sabores-do-brasil",
+    "target_language": "portuguese",
+    "level": "A1",
+    "title": "Sabores do Brasil",
+    "title_es": "Comidas cotidianas y regiones diversas",
+    "description": "Comidas cotidianas y regiones diversas",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "expressar preferências",
+      "outcomes": [
+        "expressar preferências",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "arroz",
+        "feijão",
+        "sopa",
+        "sabor"
+      ],
+      "scenario": "Comidas cotidianas y regiones diversas"
+    }
+  },
+  {
+    "slug": "mensagem-para-casa",
+    "target_language": "portuguese",
+    "level": "A1",
+    "title": "Mensagem para casa",
+    "title_es": "Un mensaje sobre el día",
+    "description": "Un mensaje sobre el día",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "escrever mensagem curta",
+      "outcomes": [
+        "escrever mensagem curta",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y frases útiles"
+      ],
+      "vocabulary": [
+        "hoje",
+        "amanhã",
+        "casa",
+        "experiência"
+      ],
+      "scenario": "Un mensaje sobre el día"
+    }
+  },
+  {
+    "slug": "rotina-na-cidade",
+    "target_language": "portuguese",
+    "level": "A2",
+    "title": "Rotina na cidade",
+    "title_es": "Rutinas y servicios urbanos",
+    "description": "Rutinas y servicios urbanos",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "descrever rotina",
+      "outcomes": [
+        "descrever rotina",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "bairro",
+        "parada",
+        "trabalho",
+        "serviço"
+      ],
+      "scenario": "Rutinas y servicios urbanos"
+    }
+  },
+  {
+    "slug": "um-fim-de-semana-em-salvador",
+    "target_language": "portuguese",
+    "level": "A2",
+    "title": "Um fim de semana em Salvador",
+    "title_es": "Planear una visita con respeto",
+    "description": "Planear una visita con respeto",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "fazer planos",
+      "outcomes": [
+        "fazer planos",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "museu",
+        "passeio",
+        "reserva",
+        "visita"
+      ],
+      "scenario": "Planear una visita con respeto"
+    }
+  },
+  {
+    "slug": "receitas-e-memorias",
+    "target_language": "portuguese",
+    "level": "A2",
+    "title": "Receitas e memórias",
+    "title_es": "Cocinar y recordar en familia",
+    "description": "Cocinar y recordar en familia",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "explicar sequência",
+      "outcomes": [
+        "explicar sequência",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "receita",
+        "ingrediente",
+        "primeiro",
+        "depois"
+      ],
+      "scenario": "Cocinar y recordar en familia"
+    }
+  },
+  {
+    "slug": "trabalho-e-pausa",
+    "target_language": "portuguese",
+    "level": "A2",
+    "title": "Trabalho e pausa",
+    "title_es": "Pausas y comunicación laboral",
+    "description": "Pausas y comunicación laboral",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "interagir no trabalho",
+      "outcomes": [
+        "interagir no trabalho",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "colega",
+        "pausa",
+        "reunião",
+        "horário"
+      ],
+      "scenario": "Pausas y comunicación laboral"
+    }
+  },
+  {
+    "slug": "arte-na-comunidade",
+    "target_language": "portuguese",
+    "level": "A2",
+    "title": "Arte na comunidade",
+    "title_es": "Arte local y espacios comunes",
+    "description": "Arte local y espacios comunes",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "dar opinião",
+      "outcomes": [
+        "dar opinião",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "exposição",
+        "artista",
+        "praça",
+        "opinião"
+      ],
+      "scenario": "Arte local y espacios comunes"
+    }
+  },
+  {
+    "slug": "viajar-com-respeito",
+    "target_language": "portuguese",
+    "level": "A2",
+    "title": "Viajar com respeito",
+    "title_es": "Turismo responsable y comunidades",
+    "description": "Turismo responsable y comunidades",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "expressar intenção",
+      "outcomes": [
+        "expressar intenção",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "morador",
+        "respeito",
+        "mapa",
+        "escolha"
+      ],
+      "scenario": "Turismo responsable y comunidades"
+    }
+  },
+  {
+    "slug": "esporte-e-lazer",
+    "target_language": "portuguese",
+    "level": "A2",
+    "title": "Esporte e lazer",
+    "title_es": "Aficiones y actividades al aire libre",
+    "description": "Aficiones y actividades al aire libre",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "falar do passado",
+      "outcomes": [
+        "falar do passado",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "natação",
+        "corrida",
+        "equipe",
+        "treino"
+      ],
+      "scenario": "Aficiones y actividades al aire libre"
+    }
+  },
+  {
+    "slug": "saude-e-bem-estar",
+    "target_language": "portuguese",
+    "level": "A2",
+    "title": "Saúde e bem-estar",
+    "title_es": "Farmacia y cuidado cotidiano",
+    "description": "Farmacia y cuidado cotidiano",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "falar de mal-estar",
+      "outcomes": [
+        "falar de mal-estar",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "farmácia",
+        "dor",
+        "descanso",
+        "conselho"
+      ],
+      "scenario": "Farmacia y cuidado cotidiano"
+    }
+  },
+  {
+    "slug": "historias-de-origem",
+    "target_language": "portuguese",
+    "level": "A2",
+    "title": "Histórias de origem",
+    "title_es": "Brasil plural: orígenes y familias",
+    "description": "Brasil plural: orígenes y familias",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "contar história simples",
+      "outcomes": [
+        "contar história simples",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "origem",
+        "chegar",
+        "família",
+        "comunidade"
+      ],
+      "scenario": "Brasil plural: orígenes y familias"
+    }
+  },
+  {
+    "slug": "um-projeto-coletivo",
+    "target_language": "portuguese",
+    "level": "A2",
+    "title": "Um projeto coletivo",
+    "title_es": "Colaborar con un proyecto de barrio",
+    "description": "Colaborar con un proyecto de barrio",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "propor e colaborar",
+      "outcomes": [
+        "propor e colaborar",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "projeto",
+        "tarefa",
+        "ideia",
+        "grupo"
+      ],
+      "scenario": "Colaborar con un proyecto de barrio"
+    }
+  },
+  {
+    "slug": "cidade-e-ambiente",
+    "target_language": "portuguese",
+    "level": "A2",
+    "title": "Cidade e ambiente",
+    "title_es": "Hábitos, residuos y ciudad",
+    "description": "Hábitos, residuos y ciudad",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "falar de hábitos",
+      "outcomes": [
+        "falar de hábitos",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "lixo",
+        "plástico",
+        "reciclar",
+        "ambiente"
+      ],
+      "scenario": "Hábitos, residuos y ciudad"
+    }
+  },
+  {
+    "slug": "contar-uma-experiencia",
+    "target_language": "portuguese",
+    "level": "A2",
+    "title": "Contar uma experiência",
+    "title_es": "Cerrar el nivel con una vivencia",
+    "description": "Cerrar el nivel con una vivencia",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "contar experiência",
+      "outcomes": [
+        "contar experiência",
+        "comprender un fragmento cultural breve",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "presente y pasado cercano"
+      ],
+      "vocabulary": [
+        "lembrança",
+        "encontro",
+        "mudar",
+        "futuro"
+      ],
+      "scenario": "Cerrar el nivel con una vivencia"
     }
   }
 ]
