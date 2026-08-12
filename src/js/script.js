@@ -14204,8 +14204,6 @@ function renderVocabularyView(section, lesson) {
   const masteredCount = cards.filter((card) => card.masteryStatus === 'mastered').length;
   const masteryPercent = cards.length ? Math.round((masteredCount / cards.length) * 100) : 0;
   const categories = [...new Set(cards.map((card) => String(card.category || '').trim()).filter(Boolean))];
-  const levelOptions = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
-  const limitedLanguage = ['italian', 'portuguese'].includes(learningPathState.language);
 
   content.innerHTML = `
     <section class="vocab-catalogue" aria-label="Catálogo de vocabulario">
@@ -14219,9 +14217,7 @@ function renderVocabularyView(section, lesson) {
         <label><span>Categoría</span><select class="vocab-catalogue-category-filter"><option value="all">Todas las categorías</option>${categories.map((category) => `<option value="${escapeHtml(category)}"${vocabularyCatalogueFilters.category === category ? ' selected' : ''}>${escapeHtml(category)}</option>`).join('')}</select></label>
       </div>
       <div class="vocab-catalogue-filter-row no-print">
-        <div class="vocab-catalogue-levels" aria-label="Nivel MCER">
-          ${levelOptions.map((level) => `<button type="button" data-vocab-level="${level}" class="${lesson.level === level ? 'is-active' : ''}" aria-pressed="${lesson.level === level}"${limitedLanguage && !['A1', 'A2'].includes(level) ? ' disabled title="Próximamente"' : ''}>${level}</button>`).join('')}
-        </div>
+        <span class="vocab-catalogue-active-level">Nivel de la ruta: <strong>${escapeHtml(lesson.level)}</strong></span>
         <div class="vocab-catalogue-mastery" aria-label="Estado de aprendizaje">
           ${[['all', 'Todas'], ['new', 'Nuevas'], ['practicing', 'Practicando'], ['mastered', 'Dominadas']].map(([value, label]) => `<button type="button" data-vocab-mastery="${value}" class="${vocabularyCatalogueFilters.mastery === value ? 'is-active' : ''}" aria-pressed="${vocabularyCatalogueFilters.mastery === value}">${label}</button>`).join('')}
         </div>
@@ -14346,27 +14342,6 @@ function applyVocabularyCatalogueFilters(section) {
 }
 
 document.addEventListener('click', (event) => {
-  const levelButton = event.target.closest('[data-vocab-level]');
-  if (levelButton && !levelButton.disabled) {
-    const level = levelButton.dataset.vocabLevel;
-    const section = levelButton.closest('.skill-view-section[data-skill="vocabulary"]');
-    if (!level || !section || level === learningPathState.level) return;
-    learningPathState.level = level;
-    learningPathState.activeSlug = '';
-    vocabularyCatalogueFilters.search = '';
-    vocabularyCatalogueFilters.mastery = 'all';
-    vocabularyCatalogueFilters.category = 'all';
-    const levelSelect = document.getElementById('pathLevelSelect');
-    if (levelSelect) levelSelect.value = level;
-    savePreferences(learningPathState.language, level, learningPathState.bridgeLanguage);
-    section.querySelector('.skill-view-content').innerHTML = '<p class="skill-graph-empty">Preparando Vocabulary…</p>';
-    void loadLearningPath({ language: learningPathState.language, level }).then(() => {
-      renderSkillView('vocabulary');
-      history.replaceState(null, '', '#vocabulary');
-    });
-    return;
-  }
-
   const masteryButton = event.target.closest('[data-vocab-mastery]');
   if (masteryButton) {
     vocabularyCatalogueFilters.mastery = masteryButton.dataset.vocabMastery || 'all';

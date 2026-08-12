@@ -3461,14 +3461,14 @@ test('script.js: renderVocabCardHtml() safely gates optional definition, synonym
   assert.match(source, /if \(item\.opposites\?\.length\)/);
 });
 
-test('Vocabulary exposes a responsive level catalogue with search, mastery and category filters', () => {
+test('Vocabulary stays within the selected route level and exposes search, mastery and category filters', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
 
   assert.match(source, /Amplía tu vocabulario paso a paso/);
   assert.match(source, /class="vocab-catalogue-search-input"/);
-  assert.match(source, /data-vocab-level="\$\{level\}"/);
-  assert.match(source, /\['A1', 'A2', 'B1', 'B2', 'C1', 'C2'\]/);
+  assert.match(source, /Nivel de la ruta: <strong>\$\{escapeHtml\(lesson\.level\)\}<\/strong>/);
+  assert.doesNotMatch(source, /data-vocab-level=/);
   assert.match(source, /data-vocab-mastery=/);
   assert.match(source, /vocab-catalogue-category-filter/);
   assert.match(source, /function applyVocabularyCatalogueFilters\(/);

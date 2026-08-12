@@ -25992,6 +25992,8 @@ body {
 .vocab-catalogue-toolbar select:disabled { opacity: 1; color: #172554; }
 .vocab-catalogue-levels,
 .vocab-catalogue-mastery { display: flex; align-items: center; flex-wrap: wrap; gap: 0.38rem; }
+.vocab-catalogue-active-level { color: #526886; font-size: 0.73rem; font-weight: 800; }
+.vocab-catalogue-active-level strong { color: #2563eb; }
 .vocab-catalogue-levels button,
 .vocab-catalogue-mastery button {
   min-width: 42px;
