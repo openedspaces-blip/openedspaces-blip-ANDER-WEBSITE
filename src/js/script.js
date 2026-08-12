@@ -7548,8 +7548,9 @@ const UNIT_SLUG_ARTWORK = {
 
 // Original route illustrations are generated as compact 4x3 sheets. This
 // keeps the interface fast: one image covers all the cards in a course.
-// Other language routes retain their themed emoji fallback until their own
-// illustration sheets are added.
+// Each sheet contains twelve scenes arranged in a 4×3 grid. Italian,
+// Portuguese and German share their A1-B1 sheet so the route is illustrated
+// consistently while it grows unit by unit.
 const UNIT_ROUTE_ARTWORK_SHEETS = {
   english: {
     A1: '/images/route-artwork/english-a1-route-grid.png',
@@ -7574,6 +7575,21 @@ const UNIT_ROUTE_ARTWORK_SHEETS = {
     B2: '/images/route-artwork/spanish-b2-route-grid.png',
     C1: '/images/route-artwork/spanish-c1-route-grid.png',
     C2: '/images/route-artwork/spanish-c2-route-grid.png'
+  },
+  italian: {
+    A1: '/images/route-artwork/italian-a1-b1-route-grid.png',
+    A2: '/images/route-artwork/italian-a1-b1-route-grid.png',
+    B1: '/images/route-artwork/italian-a1-b1-route-grid.png'
+  },
+  portuguese: {
+    A1: '/images/route-artwork/portuguese-a1-b1-route-grid.png',
+    A2: '/images/route-artwork/portuguese-a1-b1-route-grid.png',
+    B1: '/images/route-artwork/portuguese-a1-b1-route-grid.png'
+  },
+  german: {
+    A1: '/images/route-artwork/german-a1-b1-route-grid.png',
+    A2: '/images/route-artwork/german-a1-b1-route-grid.png',
+    B1: '/images/route-artwork/german-a1-b1-route-grid.png'
   }
 };
 
