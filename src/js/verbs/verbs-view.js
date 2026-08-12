@@ -241,16 +241,19 @@
   // renderVocabCardHtml() expects, so that function never needs forking.
   function normalizeVerbItem(raw, { bridgeLanguage, targetLanguage }) {
     const LanguagePair = window.AndergoLanguagePair;
+    // L1 is Spanish unless the learner has explicitly chosen another support
+    // language in their learning path.
+    const supportLanguage = bridgeLanguage || 'spanish';
     const learningMode = LanguagePair
-      ? LanguagePair.getLearningMode(bridgeLanguage, targetLanguage)
-      : bridgeLanguage === targetLanguage
+      ? LanguagePair.getLearningMode(supportLanguage, targetLanguage)
+      : supportLanguage === targetLanguage
         ? 'direct'
         : 'bilingual';
     const isDirect = learningMode === 'direct';
     const translation = isDirect
       ? ''
       : LanguagePair
-        ? LanguagePair.getSupportText(raw.translation, bridgeLanguage)
+        ? LanguagePair.getSupportText(raw.translation, supportLanguage)
         : raw.translation?.spanish || '';
 
     return {
@@ -265,7 +268,7 @@
       masteryStatus: (typeof getStoredVocabMastery === 'function' ? getStoredVocabMastery(raw.id) : null) || 'new',
       difficulty: raw.level || '',
       language: targetLanguage,
-      bridgeLanguage,
+      bridgeLanguage: supportLanguage,
       targetLanguage,
       pronunciationLocale:
         typeof getPronunciationLocale === 'function' ? getPronunciationLocale(targetLanguage) : 'en-US',
@@ -1753,16 +1756,17 @@
     });
   }
 
-  function renderAdvancedFrenchLevelSummary() {
+  function renderLevelSummary() {
     const summary = document.getElementById('verbsAdvancedLevelSummary');
     if (!summary) return;
-    if (currentVerbLanguage() !== 'french') {
+    const language = currentVerbLanguage();
+    const verbs = getVerbsForLanguage(language);
+    if (verbs.length < 500) {
       summary.hidden = true;
       summary.innerHTML = '';
       return;
     }
-    const verbs = getVerbsForLanguage('french');
-    const levels = ['B2', 'C1', 'C2'];
+    const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].filter((level) => verbs.some((verb) => verb.level === level));
     summary.innerHTML = levels.map((level) => {
       const count = verbs.filter((verb) => verb.level === level).length;
       return `<button type="button" class="verb-advanced-level-card" data-verb-filter="${level}"><strong>${level}</strong><span>${count.toLocaleString('es-DO')} verbos</span><small>Explorar →</small></button>`;
@@ -1803,7 +1807,7 @@
     const navLink = document.querySelector('a[data-i18n="navVerbs"]');
     if (navLink) navLink.href = `#verbs/${currentVerbLanguage()}/list`;
     renderLanguageGroupFilters();
-    renderAdvancedFrenchLevelSummary();
+    renderLevelSummary();
     resetVerbsPagination();
     renderVerbsDeck();
     renderVerbsConjugator();

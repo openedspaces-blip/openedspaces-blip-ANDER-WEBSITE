@@ -21098,14 +21098,16 @@ footer small {
   width: 100%;
   overflow: hidden;
   color: var(--navy-2);
-  font-size: 1.45rem;
-  line-height: 1;
+  /* Keep the verb prominent, but aligned with the platform's normal card
+     hierarchy rather than competing with page headings. */
+  font-size: 1.15rem;
+  line-height: 1.2;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.verb-catalogue-identity > span { color: #53627d; font-size: 0.86rem; font-weight: 720; }
-.verb-catalogue-identity > small { color: var(--muted); font-size: 0.78rem; }
+.verb-catalogue-identity > span { color: #53627d; font-size: 0.78rem; font-weight: 720; }
+.verb-catalogue-identity > small { color: var(--muted); font-size: 0.72rem; }
 
 .verb-catalogue-audio {
   display: grid;
@@ -21131,8 +21133,8 @@ footer small {
 }
 
 .verb-catalogue-forms > div { display: grid; min-width: 0; gap: 0.2rem; }
-.verb-catalogue-forms span { color: var(--blue); font-size: 0.65rem; font-weight: 850; }
-.verb-catalogue-forms strong { overflow: hidden; color: #27344d; font-size: 0.82rem; text-overflow: ellipsis; white-space: nowrap; }
+.verb-catalogue-forms span { color: var(--blue); font-size: 0.62rem; font-weight: 850; }
+.verb-catalogue-forms strong { overflow: hidden; color: #27344d; font-size: 0.78rem; text-overflow: ellipsis; white-space: nowrap; }
 
 .verb-catalogue-conjugate {
   width: 100%;
@@ -21160,9 +21162,9 @@ footer small {
   .verbs-quick-filters { display: grid; gap: 0.55rem; overflow-x: auto; }
   .verbs-filter-chip-group { flex-wrap: nowrap; width: max-content; }
   .verbs-filter-chip-group button { min-height: 42px; }
-  .verb-catalogue-identity > strong { font-size: 1.25rem; }
+  .verb-catalogue-identity > strong { font-size: 1.08rem; }
   .verb-catalogue-forms { gap: 0.35rem; }
-  .verb-catalogue-forms strong { font-size: 0.75rem; }
+  .verb-catalogue-forms strong { font-size: 0.72rem; }
 }
 
 /* A lesson needs the phone header for its learning controls, not a permanent
@@ -28678,4 +28680,83 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   .tutor-fab-ring-label--top text { font-size: 7px; letter-spacing: 0.45px; }
   .tutor-fab-ring-label--bottom { bottom: 3px; font-size: 4.1px; }
   .tutor-fab .tutor-bot-status { right: 3px; bottom: 8px; }
+}
+
+/* Badge estándar del nuevo Tutor I.A.: retrato circular, legible y consistente
+   en todas las pantallas. Estas reglas sustituyen el aro tipográfico anterior. */
+.tutor-fab {
+  width: 64px;
+  height: 64px;
+  padding: 3px;
+  overflow: visible;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #2d6df6, #13b8e9);
+  box-shadow: 0 10px 26px rgba(30, 64, 175, 0.28), 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+.tutor-fab .tutor-bot-mark--coach {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 0;
+  border-radius: 50%;
+  background: #dceeff;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.85);
+}
+
+.tutor-fab .tutor-bot-mark--coach img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  border: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 18%;
+  transform: none;
+  box-shadow: none;
+}
+
+.tutor-fab .tutor-bot-mark--coach::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.65);
+  pointer-events: none;
+}
+
+.tutor-fab .tutor-bot-status {
+  z-index: 4;
+  right: -1px;
+  bottom: 2px;
+  width: 13px;
+  height: 13px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: #21c77a;
+  box-shadow: 0 2px 7px rgba(13, 92, 58, 0.3);
+}
+
+.tutor-fab:hover {
+  transform: translateY(-2px) scale(1.035);
+  box-shadow: 0 14px 30px rgba(30, 64, 175, 0.32), 0 0 0 5px rgba(37, 99, 235, 0.12);
+}
+
+@media (max-width: 700px) {
+  .tutor-fab {
+    width: 56px;
+    height: 56px;
+  }
+
+  .tutor-fab .tutor-bot-status {
+    right: -1px;
+    bottom: 1px;
+    width: 12px;
+    height: 12px;
+  }
 }
