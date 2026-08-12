@@ -17459,6 +17459,14 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
 .verb-roulette-kicker, .verb-roulette-task-label { color: var(--blue); font-size: 0.76rem; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; }
 .verb-roulette-copy h3 { margin: 0.35rem 0 0.5rem; color: var(--navy-2); font-size: clamp(1.65rem, 3vw, 2.4rem); }
 .verb-roulette-copy p { margin: 0; color: var(--muted); line-height: 1.55; }
+
+.verbs-advanced-level-summary { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .65rem; margin: .8rem 0 1rem; }
+.verb-advanced-level-card { display: grid; gap: .12rem; min-height: 78px; padding: .75rem .85rem; border: 1px solid rgba(37,99,235,.18); border-radius: 15px; background: linear-gradient(135deg, #f8fbff, #eef4ff); color: var(--navy-2); font: inherit; text-align: left; cursor: pointer; transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease; }
+.verb-advanced-level-card strong { color: var(--blue); font-size: 1.05rem; }
+.verb-advanced-level-card span { font-size: .83rem; font-weight: 800; }
+.verb-advanced-level-card small { color: var(--muted); font-weight: 750; }
+.verb-advanced-level-card:hover,.verb-advanced-level-card:focus-visible { border-color: var(--blue); box-shadow: 0 9px 20px rgba(37,99,235,.13); transform: translateY(-2px); }
+@media (max-width: 620px) { .verbs-advanced-level-summary { grid-template-columns: 1fr; } }
 .verb-roulette-meta { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 0.9rem; }
 .verb-roulette-meta span { padding: 0.38rem 0.65rem; border-radius: 999px; background: #fff; color: var(--navy-2); font-size: 0.78rem; font-weight: 800; box-shadow: 0 5px 16px rgba(15, 23, 42, 0.06); }
 
