@@ -1698,9 +1698,18 @@
     const description = document.getElementById('verbsDescription');
     const interfaceLanguage = window.learningPathState?.bridgeLanguage || 'spanish';
     const languageNames = {
-      spanish: { english: 'inglés', french: 'francés', spanish: 'español' },
-      english: { english: 'English', french: 'French', spanish: 'Spanish' },
-      french: { english: "l’anglais", french: 'le français', spanish: "l’espagnol" },
+      spanish: {
+        english: 'inglés', french: 'francés', spanish: 'español', italian: 'italiano',
+        portuguese: 'portugués', german: 'alemán'
+      },
+      english: {
+        english: 'English', french: 'French', spanish: 'Spanish', italian: 'Italian',
+        portuguese: 'Portuguese', german: 'German'
+      },
+      french: {
+        english: "l’anglais", french: 'le français', spanish: "l’espagnol", italian: "l’italien",
+        portuguese: 'le portugais', german: "l’allemand"
+      },
     };
     const languageName =
       languageNames[interfaceLanguage]?.[targetLanguage] ||

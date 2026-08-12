@@ -421,6 +421,7 @@ test('browser world files expose level content and lesson previews for every sup
 
 test('single-view router sections exist for every nav destination', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
   // The old per-language .tab-button/#tab-<lang> system was removed in favor
   // of one dynamic lesson workspace (#learning-path) shared by every
   // language - assert it's gone, not just that the new sections exist.
@@ -443,10 +444,14 @@ test('single-view router sections exist for every nav destination', () => {
     ['french', 'Français'],
     ['spanish', 'Español'],
     ['italian', 'Italiano'],
-    ['portuguese', 'Português']
+    ['portuguese', 'Português'],
+    ['german', 'Deutsch']
   ]) {
     assert.match(html, new RegExp(`data-preview-language="${language}"[\\s\\S]*?<strong>${label}<\\/strong>`));
   }
+  assert.match(html, /data-preview-language="english"[\s\S]*?<small>Path A1–C2<\/small>/);
+  assert.match(html, /data-preview-language="german"[\s\S]*?<b>DE<\/b>/);
+  assert.match(css, /data-preview-language='german'[\s\S]*?--language-tab-accent: #eab308/);
   assert.match(html, /class="nav-group nav-group-visitor"/);
   assert.match(html, /class="nav-group nav-group-member"/);
 });
@@ -1439,6 +1444,32 @@ test('Italian, Portuguese and German verb cards provide real Spanish meanings', 
   assert.equal(italian.find((verb) => verb.infinitive === 'riflettere').translation.spanish, 'reflexionar');
   assert.equal(italian.find((verb) => verb.infinitive === 'riempire').translation.spanish, 'llenar');
   assert.equal(italian.find((verb) => verb.infinitive === 'crescere').translation.spanish, 'crecer');
+});
+
+test('Extended German catalogue keeps Spanish as the learner support language through C2', () => {
+  const context = { window: {} };
+  vm.createContext(context);
+  for (const file of [
+    'src/js/verbs/essential-european-verbs.js',
+    'src/js/verbs/european-verb-catalogues.js'
+  ]) {
+    vm.runInContext(fs.readFileSync(path.join(__dirname, file), 'utf8'), context, { filename: file });
+  }
+
+  const german = context.window.ANDERGO_VERBS_DATA.german;
+  assert.equal(german.length, 1200);
+  assert.ok(german.every((verb) => Boolean(verb.translation?.spanish)));
+  assert.equal(german.find((verb) => verb.infinitive === 'einrÃ¤umen').translation.spanish, 'guardar; admitir; conceder');
+  assert.equal(german.find((verb) => verb.infinitive === 'fÃ¤chern').translation.spanish, 'abanicar');
+  assert.equal(german.find((verb) => verb.infinitive === 'fÃ¼ttern').translation.spanish, 'alimentar');
+  assert.equal(german.find((verb) => verb.infinitive === 'bannen').translation.spanish, 'desterrar; cautivar');
+});
+
+test('Verb headings use the learner-facing German name in Spanish, never the internal code', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'verbs', 'verbs-view.js'), 'utf8');
+  assert.match(source, /german: 'alemán'/);
+  assert.match(source, /german: 'German'/);
+  assert.match(source, /german: "l’allemand"/);
 });
 
 test('English verbs reserve a complete, translated 100-verb C2 catalogue', () => {

@@ -8,6 +8,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const read = (file) => fs.readFileSync(path.join(ROOT, 'tmp', file), 'utf8').replace(/^\uFEFF/, '');
+const readJson = (file) => JSON.parse(read(file));
 const unique = (rows, getKey) => rows.filter((row, index) => rows.findIndex((other) => getKey(other) === getKey(row)) === index);
 const levelForRank = (rank) => rank <= 180 ? 'A1' : rank <= 400 ? 'A2' : rank <= 650 ? 'B1' : rank <= 850 ? 'B2' : rank <= 1050 ? 'C1' : 'C2';
 
@@ -27,13 +28,23 @@ const portuguese = unique(
   (item) => item.infinitive
 ).slice(0, 1000);
 
-const germanRaw = JSON.parse(read('german_5k.json'));
-const german = unique(
+const germanRaw = readJson('german_5k.json');
+// The frequency dataset provides its support glosses in English.  ANDERGO's
+// German routes use Spanish as L1, so never ship those English strings under
+// the `translation.spanish` key.  The mapping is generated with the existing
+// server-side DeepL configuration by scripts/translate-german-verb-glosses.js.
+const germanSpanishGlosses = readJson('german-verb-spanish-glosses.json');
+const germanFrequencyRows = unique(
   germanRaw
-    .filter((item) => item.pos === 'verb' && /(?:en|n)$/i.test(item.word) && item.word.length > 3)
-    .map((item) => ({ infinitive: item.word.toLowerCase(), translation: item.english_translation || 'German verb', example: item.example_sentence_native || '' })),
-  (item) => item.infinitive
+    .filter((item) => item.pos === 'verb' && /(?:en|n)$/i.test(item.word) && item.word.length > 3),
+  (item) => item.word.toLowerCase()
 ).slice(0, 1200);
+const german = germanFrequencyRows.map((item) => {
+  const sourceGloss = item.english_translation || 'German verb';
+  const translation = germanSpanishGlosses[sourceGloss];
+  if (!translation) throw new Error(`Missing Spanish gloss for German verb: ${item.word}`);
+  return { infinitive: item.word.toLowerCase(), translation, example: item.example_sentence_native || '' };
+});
 
 function regularForms(language, infinitive) {
   if (language === 'german') {

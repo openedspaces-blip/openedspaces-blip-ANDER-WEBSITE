@@ -27093,8 +27093,16 @@ body {
   --language-tab-shadow: rgba(15, 159, 143, 0.14);
 }
 
+.hero-language-tabs button[data-preview-language='german'] {
+  --language-tab-accent: #eab308;
+  --language-tab-border: rgba(234, 179, 8, 0.28);
+  --language-tab-bg: linear-gradient(135deg, rgba(254, 252, 232, 0.98), rgba(255, 255, 255, 0.84));
+  --language-tab-shadow: rgba(234, 179, 8, 0.18);
+}
+
 .hero-language-tabs button[data-preview-language='italian'] b { background: #16a34a; }
 .hero-language-tabs button[data-preview-language='portuguese'] b { background: #0f9f8f; }
+.hero-language-tabs button[data-preview-language='german'] b { background: #eab308; color: #3f2a00; }
 
 .hero .quick-stats {
   max-width: 690px;
@@ -28725,6 +28733,33 @@ body.tutor-robot-listening #tutor .tutor-hero-bot {
   object-position: 50% 18%;
   transform: none;
   box-shadow: none;
+}
+
+/* The floating badge uses the exact same official tutor shown in the Tutor
+   workspace: blue uniform, headphones and the ANDERGO mark on the cap. */
+.tutor-fab .tutor-bot-mark--realistic {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 18%, #f8fbff 0 42%, #d9ecff 100%);
+}
+
+.tutor-fab .tutor-bot-mark--realistic img {
+  position: absolute;
+  top: -2%;
+  left: 50%;
+  width: 132%;
+  height: 132%;
+  max-width: none;
+  border: 0;
+  border-radius: 0;
+  object-fit: contain;
+  object-position: center top;
+  transform: translateX(-50%);
+  filter: drop-shadow(0 3px 5px rgba(7, 21, 47, 0.2));
 }
 
 .tutor-fab .tutor-bot-mark--coach::after {
