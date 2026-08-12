@@ -15658,7 +15658,7 @@ let tutorConversationMode = false;
 let tutorConversationSurfaceKey = null;
 const TUTOR_CONVERSATION_SILENCE_MS = 700;
 const TUTOR_LANGUAGE_STORAGE_KEY = 'andergo_tutor_language';
-const TUTOR_SUPPORTED_LANGUAGES = ['english', 'spanish', 'french', 'italian', 'portuguese', 'haitianCreole'];
+const TUTOR_SUPPORTED_LANGUAGES = ['english', 'spanish', 'french', 'german', 'italian', 'portuguese'];
 let tutorSpanishPerfectedMode = false;
 let tutorLanguagePreference = (() => {
   try {
@@ -15716,11 +15716,11 @@ function setTutorLanguage(language) {
         ? 'Sono pronto a parlare italiano con te.'
         : language === 'portuguese'
           ? 'Estou pronto para conversar em português com você.'
-        : language === 'haitianCreole'
-          ? 'Mwen pare pou pale kreyòl ayisyen avè w.'
-      : language === 'spanish'
-        ? 'Estoy listo para conversar contigo en español.'
-        : 'I’m ready to speak English with you.'
+          : language === 'german'
+            ? 'Ich bin bereit, mit dir auf Deutsch zu sprechen.'
+            : language === 'spanish'
+              ? 'Estoy listo para conversar contigo en español.'
+              : 'I’m ready to speak English with you.'
   );
 }
 
