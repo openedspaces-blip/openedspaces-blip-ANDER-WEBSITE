@@ -6962,5 +6962,1455 @@
       ],
       "scenario": "Cerrar el nivel con una vivencia"
     }
+  },
+  {
+    "slug": "lavoro-e-obiettivi",
+    "target_language": "italian",
+    "level": "B1",
+    "title": "Lavoro e obiettivi",
+    "title_es": "organizzare il tempo e proporre soluzioni",
+    "description": "organizzare il tempo e proporre soluzioni",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "organizzare il tempo e proporre soluzioni",
+      "outcomes": [
+        "organizzare il tempo e proporre soluzioni",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "obiettivi",
+        "scadenza",
+        "squadra",
+        "migliorare",
+        "scegliere",
+        "risultato"
+      ],
+      "scenario": "Lavoro e obiettivi"
+    }
+  },
+  {
+    "slug": "viaggi-consapevoli",
+    "target_language": "italian",
+    "level": "B1",
+    "title": "Viaggi consapevoli",
+    "title_es": "raccontare un viaggio e dare consigli responsabili",
+    "description": "raccontare un viaggio e dare consigli responsabili",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "raccontare un viaggio e dare consigli responsabili",
+      "outcomes": [
+        "raccontare un viaggio e dare consigli responsabili",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "itinerario",
+        "prenotazione",
+        "paesaggio",
+        "evitare",
+        "consigliare",
+        "esperienza"
+      ],
+      "scenario": "Viaggi consapevoli"
+    }
+  },
+  {
+    "slug": "salute-e-benessere",
+    "target_language": "italian",
+    "level": "B1",
+    "title": "Salute e benessere",
+    "title_es": "spiegare abitudini utili e cambiamenti personali",
+    "description": "spiegare abitudini utili e cambiamenti personali",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "spiegare abitudini utili e cambiamenti personali",
+      "outcomes": [
+        "spiegare abitudini utili e cambiamenti personali",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "benessere",
+        "riposo",
+        "allenamento",
+        "equilibrio",
+        "migliorare",
+        "prevenire"
+      ],
+      "scenario": "Salute e benessere"
+    }
+  },
+  {
+    "slug": "cultura-e-media",
+    "target_language": "italian",
+    "level": "B1",
+    "title": "Cultura e media",
+    "title_es": "esprimere opinioni su cultura e informazione",
+    "description": "esprimere opinioni su cultura e informazione",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "esprimere opinioni su cultura e informazione",
+      "outcomes": [
+        "esprimere opinioni su cultura e informazione",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "notizia",
+        "fonte",
+        "pubblico",
+        "opinione",
+        "confrontare",
+        "dibattito"
+      ],
+      "scenario": "Cultura e media"
+    }
+  },
+  {
+    "slug": "ambiente-nel-quartiere",
+    "target_language": "italian",
+    "level": "B1",
+    "title": "Ambiente nel quartiere",
+    "title_es": "descrivere un problema ambientale e una proposta",
+    "description": "descrivere un problema ambientale e una proposta",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "descrivere un problema ambientale e una proposta",
+      "outcomes": [
+        "descrivere un problema ambientale e una proposta",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "rifiuto",
+        "raccolta",
+        "risorsa",
+        "ridurre",
+        "quartiere",
+        "volontario"
+      ],
+      "scenario": "Ambiente nel quartiere"
+    }
+  },
+  {
+    "slug": "storie-e-memoria",
+    "target_language": "italian",
+    "level": "B1",
+    "title": "Storie e memoria",
+    "title_es": "narrare esperienze e collegarle al presente",
+    "description": "narrare esperienze e collegarle al presente",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "narrare esperienze e collegarle al presente",
+      "outcomes": [
+        "narrare esperienze e collegarle al presente",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "memoria",
+        "infanzia",
+        "cambiamento",
+        "raccontare",
+        "passato",
+        "incontro"
+      ],
+      "scenario": "Storie e memoria"
+    }
+  },
+  {
+    "slug": "progetti-di-classe",
+    "target_language": "italian",
+    "level": "B1",
+    "title": "Progetti di classe",
+    "title_es": "presentare un progetto e distribuirne i compiti",
+    "description": "presentare un progetto e distribuirne i compiti",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "presentare un progetto e distribuirne i compiti",
+      "outcomes": [
+        "presentare un progetto e distribuirne i compiti",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "progetto",
+        "ricerca",
+        "compito",
+        "collaborazione",
+        "presentare",
+        "accordo"
+      ],
+      "scenario": "Progetti di classe"
+    }
+  },
+  {
+    "slug": "tecnologia-quotidiana",
+    "target_language": "italian",
+    "level": "B1",
+    "title": "Tecnologia quotidiana",
+    "title_es": "valutare usos de la tecnología con argumentos",
+    "description": "valutare usos de la tecnología con argumentos",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "valutare usos de la tecnología con argumentos",
+      "outcomes": [
+        "valutare usos de la tecnología con argumentos",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "tecnologia",
+        "dispositivo",
+        "vantaggio",
+        "rischio",
+        "proteggere",
+        "abitudine"
+      ],
+      "scenario": "Tecnologia quotidiana"
+    }
+  },
+  {
+    "slug": "citta-e-mobilita",
+    "target_language": "italian",
+    "level": "B1",
+    "title": "Città e mobilità",
+    "title_es": "comparare opciones de movilidad urbana",
+    "description": "comparare opciones de movilidad urbana",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "comparare opciones de movilidad urbana",
+      "outcomes": [
+        "comparare opciones de movilidad urbana",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "trasporto",
+        "percorso",
+        "traffico",
+        "bicicletta",
+        "migliorare",
+        "accessibile"
+      ],
+      "scenario": "Città e mobilità"
+    }
+  },
+  {
+    "slug": "piani-per-il-futuro",
+    "target_language": "italian",
+    "level": "B1",
+    "title": "Piani per il futuro",
+    "title_es": "hablar de metas y posibilidades futuras",
+    "description": "hablar de metas y posibilidades futuras",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "hablar de metas y posibilidades futuras",
+      "outcomes": [
+        "hablar de metas y posibilidades futuras",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "futuro",
+        "obiettivo",
+        "opportunità",
+        "decidere",
+        "esperienza",
+        "formazione"
+      ],
+      "scenario": "Piani per il futuro"
+    }
+  },
+  {
+    "slug": "trabalho-e-planos",
+    "target_language": "portuguese",
+    "level": "B1",
+    "title": "Trabalho e planos",
+    "title_es": "organizar o tempo e apresentar soluções",
+    "description": "organizar o tempo e apresentar soluções",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "organizar o tempo e apresentar soluções",
+      "outcomes": [
+        "organizar o tempo e apresentar soluções",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "meta",
+        "prazo",
+        "equipe",
+        "melhorar",
+        "escolher",
+        "resultado"
+      ],
+      "scenario": "Trabalho e planos"
+    }
+  },
+  {
+    "slug": "viagens-com-respeito",
+    "target_language": "portuguese",
+    "level": "B1",
+    "title": "Viagens com respeito",
+    "title_es": "contar uma viagem e dar conselhos responsáveis",
+    "description": "contar uma viagem e dar conselhos responsáveis",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "contar uma viagem e dar conselhos responsáveis",
+      "outcomes": [
+        "contar uma viagem e dar conselhos responsáveis",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "roteiro",
+        "reserva",
+        "paisagem",
+        "evitar",
+        "aconselhar",
+        "experiência"
+      ],
+      "scenario": "Viagens com respeito"
+    }
+  },
+  {
+    "slug": "saude-e-equilibrio",
+    "target_language": "portuguese",
+    "level": "B1",
+    "title": "Saúde e equilíbrio",
+    "title_es": "explicar hábitos de bem-estar e mudanças pessoais",
+    "description": "explicar hábitos de bem-estar e mudanças pessoais",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "explicar hábitos de bem-estar e mudanças pessoais",
+      "outcomes": [
+        "explicar hábitos de bem-estar e mudanças pessoais",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "bem-estar",
+        "descanso",
+        "exercício",
+        "equilíbrio",
+        "melhorar",
+        "prevenir"
+      ],
+      "scenario": "Saúde e equilíbrio"
+    }
+  },
+  {
+    "slug": "cultura-e-informacao",
+    "target_language": "portuguese",
+    "level": "B1",
+    "title": "Cultura e informação",
+    "title_es": "dar opinião sobre cultura e informação",
+    "description": "dar opinião sobre cultura e informação",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "dar opinião sobre cultura e informação",
+      "outcomes": [
+        "dar opinião sobre cultura e informação",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "notícia",
+        "fonte",
+        "público",
+        "opinião",
+        "comparar",
+        "debate"
+      ],
+      "scenario": "Cultura e informação"
+    }
+  },
+  {
+    "slug": "ambiente-no-bairro",
+    "target_language": "portuguese",
+    "level": "B1",
+    "title": "Ambiente no bairro",
+    "title_es": "descrever um problema ambiental e uma proposta",
+    "description": "descrever um problema ambiental e uma proposta",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "descrever um problema ambiental e uma proposta",
+      "outcomes": [
+        "descrever um problema ambiental e uma proposta",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "resíduo",
+        "coleta",
+        "recurso",
+        "reduzir",
+        "bairro",
+        "voluntário"
+      ],
+      "scenario": "Ambiente no bairro"
+    }
+  },
+  {
+    "slug": "historias-e-memorias",
+    "target_language": "portuguese",
+    "level": "B1",
+    "title": "Histórias e memórias",
+    "title_es": "contar experiências e ligá-las ao presente",
+    "description": "contar experiências e ligá-las ao presente",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "contar experiências e ligá-las ao presente",
+      "outcomes": [
+        "contar experiências e ligá-las ao presente",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "memória",
+        "infância",
+        "mudança",
+        "contar",
+        "passado",
+        "encontro"
+      ],
+      "scenario": "Histórias e memórias"
+    }
+  },
+  {
+    "slug": "projeto-coletivo",
+    "target_language": "portuguese",
+    "level": "B1",
+    "title": "Projeto coletivo",
+    "title_es": "apresentar um projeto e dividir tarefas",
+    "description": "apresentar um projeto e dividir tarefas",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "apresentar um projeto e dividir tarefas",
+      "outcomes": [
+        "apresentar um projeto e dividir tarefas",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "projeto",
+        "pesquisa",
+        "tarefa",
+        "colaboração",
+        "apresentar",
+        "acordo"
+      ],
+      "scenario": "Projeto coletivo"
+    }
+  },
+  {
+    "slug": "tecnologia-no-dia-a-dia",
+    "target_language": "portuguese",
+    "level": "B1",
+    "title": "Tecnologia no dia a dia",
+    "title_es": "avaliar usos da tecnologia com argumentos",
+    "description": "avaliar usos da tecnologia com argumentos",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "avaliar usos da tecnologia com argumentos",
+      "outcomes": [
+        "avaliar usos da tecnologia com argumentos",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "tecnologia",
+        "aparelho",
+        "vantagem",
+        "risco",
+        "proteger",
+        "hábito"
+      ],
+      "scenario": "Tecnologia no dia a dia"
+    }
+  },
+  {
+    "slug": "cidade-e-mobilidade",
+    "target_language": "portuguese",
+    "level": "B1",
+    "title": "Cidade e mobilidade",
+    "title_es": "comparar opções de mobilidade urbana",
+    "description": "comparar opções de mobilidade urbana",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "comparar opções de mobilidade urbana",
+      "outcomes": [
+        "comparar opções de mobilidade urbana",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "transporte",
+        "caminho",
+        "trânsito",
+        "bicicleta",
+        "melhorar",
+        "acessível"
+      ],
+      "scenario": "Cidade e mobilidade"
+    }
+  },
+  {
+    "slug": "planos-para-o-futuro",
+    "target_language": "portuguese",
+    "level": "B1",
+    "title": "Planos para o futuro",
+    "title_es": "falar de metas e possibilidades futuras",
+    "description": "falar de metas e possibilidades futuras",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "falar de metas e possibilidades futuras",
+      "outcomes": [
+        "falar de metas e possibilidades futuras",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "futuro",
+        "objetivo",
+        "oportunidade",
+        "decidir",
+        "experiência",
+        "formação"
+      ],
+      "scenario": "Planos para o futuro"
+    }
+  },
+  {
+    "slug": "begrussung-und-name",
+    "target_language": "german",
+    "level": "A1",
+    "title": "Begrüßung und Name",
+    "title_es": "sich begrüßen und vorstellen",
+    "description": "sich begrüßen und vorstellen",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "sich begrüßen und vorstellen",
+      "outcomes": [
+        "sich begrüßen und vorstellen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "frases básicas"
+      ],
+      "vocabulary": [
+        "Hallo",
+        "Name",
+        "Land",
+        "Sprache",
+        "wohnen",
+        "heißen"
+      ],
+      "scenario": "Begrüßung und Name"
+    }
+  },
+  {
+    "slug": "im-cafe",
+    "target_language": "german",
+    "level": "A1",
+    "title": "Im Café",
+    "title_es": "etwas bestellen und bezahlen",
+    "description": "etwas bestellen und bezahlen",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "etwas bestellen und bezahlen",
+      "outcomes": [
+        "etwas bestellen und bezahlen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "frases básicas"
+      ],
+      "vocabulary": [
+        "Kaffee",
+        "Tee",
+        "Wasser",
+        "Brot",
+        "bitte",
+        "möchten"
+      ],
+      "scenario": "Im Café"
+    }
+  },
+  {
+    "slug": "familie-und-haus",
+    "target_language": "german",
+    "level": "A1",
+    "title": "Familie und Haus",
+    "title_es": "Familie und Zuhause beschreiben",
+    "description": "Familie und Zuhause beschreiben",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Familie und Zuhause beschreiben",
+      "outcomes": [
+        "Familie und Zuhause beschreiben",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "frases básicas"
+      ],
+      "vocabulary": [
+        "Familie",
+        "Mutter",
+        "Vater",
+        "Bruder",
+        "Zimmer",
+        "Küche"
+      ],
+      "scenario": "Familie und Haus"
+    }
+  },
+  {
+    "slug": "einkaufen",
+    "target_language": "german",
+    "level": "A1",
+    "title": "Einkaufen",
+    "title_es": "nach Preisen und Produkten fragen",
+    "description": "nach Preisen und Produkten fragen",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "nach Preisen und Produkten fragen",
+      "outcomes": [
+        "nach Preisen und Produkten fragen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "frases básicas"
+      ],
+      "vocabulary": [
+        "Markt",
+        "Preis",
+        "Euro",
+        "kaufen",
+        "Gemüse",
+        "Obst"
+      ],
+      "scenario": "Einkaufen"
+    }
+  },
+  {
+    "slug": "in-der-stadt",
+    "target_language": "german",
+    "level": "A1",
+    "title": "In der Stadt",
+    "title_es": "Orte in der Stadt finden",
+    "description": "Orte in der Stadt finden",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "Orte in der Stadt finden",
+      "outcomes": [
+        "Orte in der Stadt finden",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "frases básicas"
+      ],
+      "vocabulary": [
+        "Straße",
+        "Bahnhof",
+        "Apotheke",
+        "Schule",
+        "links",
+        "rechts"
+      ],
+      "scenario": "In der Stadt"
+    }
+  },
+  {
+    "slug": "schule-und-freunde",
+    "target_language": "german",
+    "level": "A1",
+    "title": "Schule und Freunde",
+    "title_es": "über Schule und Freizeit sprechen",
+    "description": "über Schule und Freizeit sprechen",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "über Schule und Freizeit sprechen",
+      "outcomes": [
+        "über Schule und Freizeit sprechen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "frases básicas"
+      ],
+      "vocabulary": [
+        "Schule",
+        "Klasse",
+        "Lehrer",
+        "Freund",
+        "lernen",
+        "spielen"
+      ],
+      "scenario": "Schule und Freunde"
+    }
+  },
+  {
+    "slug": "zu-hause",
+    "target_language": "german",
+    "level": "A1",
+    "title": "Zu Hause",
+    "title_es": "einen Tagesablauf beschreiben",
+    "description": "einen Tagesablauf beschreiben",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "einen Tagesablauf beschreiben",
+      "outcomes": [
+        "einen Tagesablauf beschreiben",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "frases básicas"
+      ],
+      "vocabulary": [
+        "aufstehen",
+        "frühstücken",
+        "arbeiten",
+        "kochen",
+        "schlafen",
+        "Uhr"
+      ],
+      "scenario": "Zu Hause"
+    }
+  },
+  {
+    "slug": "wetter-und-jahreszeiten",
+    "target_language": "german",
+    "level": "A1",
+    "title": "Wetter und Jahreszeiten",
+    "title_es": "über Wetter und Kleidung sprechen",
+    "description": "über Wetter und Kleidung sprechen",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "über Wetter und Kleidung sprechen",
+      "outcomes": [
+        "über Wetter und Kleidung sprechen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "frases básicas"
+      ],
+      "vocabulary": [
+        "Wetter",
+        "Sonne",
+        "Regen",
+        "kalt",
+        "warm",
+        "Sommer"
+      ],
+      "scenario": "Wetter und Jahreszeiten"
+    }
+  },
+  {
+    "slug": "freizeit",
+    "target_language": "german",
+    "level": "A1",
+    "title": "Freizeit",
+    "title_es": "über Hobbys sprechen",
+    "description": "über Hobbys sprechen",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "über Hobbys sprechen",
+      "outcomes": [
+        "über Hobbys sprechen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "frases básicas"
+      ],
+      "vocabulary": [
+        "Hobby",
+        "lesen",
+        "laufen",
+        "Kino",
+        "Sport",
+        "Wochenende"
+      ],
+      "scenario": "Freizeit"
+    }
+  },
+  {
+    "slug": "unterwegs",
+    "target_language": "german",
+    "level": "A1",
+    "title": "Unterwegs",
+    "title_es": "eine einfache Reise planen",
+    "description": "eine einfache Reise planen",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "eine einfache Reise planen",
+      "outcomes": [
+        "eine einfache Reise planen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "frases básicas"
+      ],
+      "vocabulary": [
+        "Zug",
+        "Ticket",
+        "Abfahrt",
+        "Ankunft",
+        "Reise",
+        "Koffer"
+      ],
+      "scenario": "Unterwegs"
+    }
+  },
+  {
+    "slug": "alltag-und-termine",
+    "target_language": "german",
+    "level": "A2",
+    "title": "Alltag und Termine",
+    "title_es": "Termine vereinbaren und Gewohnheiten erklären",
+    "description": "Termine vereinbaren und Gewohnheiten erklären",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Termine vereinbaren und Gewohnheiten erklären",
+      "outcomes": [
+        "Termine vereinbaren und Gewohnheiten erklären",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "pasado y conectores"
+      ],
+      "vocabulary": [
+        "Termin",
+        "Kalender",
+        "früher",
+        "später",
+        "meistens",
+        "treffen"
+      ],
+      "scenario": "Alltag und Termine"
+    }
+  },
+  {
+    "slug": "wohnen-und-nachbarschaft",
+    "target_language": "german",
+    "level": "A2",
+    "title": "Wohnen und Nachbarschaft",
+    "title_es": "Wohnung und Nachbarschaft vergleichen",
+    "description": "Wohnung und Nachbarschaft vergleichen",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "Wohnung und Nachbarschaft vergleichen",
+      "outcomes": [
+        "Wohnung und Nachbarschaft vergleichen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "pasado y conectores"
+      ],
+      "vocabulary": [
+        "Wohnung",
+        "Nachbar",
+        "umziehen",
+        "Miete",
+        "ruhig",
+        "laut"
+      ],
+      "scenario": "Wohnen und Nachbarschaft"
+    }
+  },
+  {
+    "slug": "gesundheit",
+    "target_language": "german",
+    "level": "A2",
+    "title": "Gesundheit",
+    "title_es": "über Beschwerden und Ratschläge sprechen",
+    "description": "über Beschwerden und Ratschläge sprechen",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "über Beschwerden und Ratschläge sprechen",
+      "outcomes": [
+        "über Beschwerden und Ratschläge sprechen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "pasado y conectores"
+      ],
+      "vocabulary": [
+        "Gesundheit",
+        "Arzt",
+        "Schmerz",
+        "ausruhen",
+        "Medikament",
+        "gesund"
+      ],
+      "scenario": "Gesundheit"
+    }
+  },
+  {
+    "slug": "arbeit-und-beruf",
+    "target_language": "german",
+    "level": "A2",
+    "title": "Arbeit und Beruf",
+    "title_es": "über Arbeit und Aufgaben sprechen",
+    "description": "über Arbeit und Aufgaben sprechen",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "über Arbeit und Aufgaben sprechen",
+      "outcomes": [
+        "über Arbeit und Aufgaben sprechen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "pasado y conectores"
+      ],
+      "vocabulary": [
+        "Beruf",
+        "Aufgabe",
+        "Kollegin",
+        "Erfahrung",
+        "beginnen",
+        "Ende"
+      ],
+      "scenario": "Arbeit und Beruf"
+    }
+  },
+  {
+    "slug": "reisen-und-erlebnisse",
+    "target_language": "german",
+    "level": "A2",
+    "title": "Reisen und Erlebnisse",
+    "title_es": "eine Reise in der Vergangenheit erzählen",
+    "description": "eine Reise in der Vergangenheit erzählen",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "eine Reise in der Vergangenheit erzählen",
+      "outcomes": [
+        "eine Reise in der Vergangenheit erzählen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "pasado y conectores"
+      ],
+      "vocabulary": [
+        "Reise",
+        "erlebt",
+        "besucht",
+        "geblieben",
+        "gesehen",
+        "Hotel"
+      ],
+      "scenario": "Reisen und Erlebnisse"
+    }
+  },
+  {
+    "slug": "essen-und-kultur",
+    "target_language": "german",
+    "level": "A2",
+    "title": "Essen und Kultur",
+    "title_es": "Rezepte und Gewohnheiten beschreiben",
+    "description": "Rezepte und Gewohnheiten beschreiben",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Rezepte und Gewohnheiten beschreiben",
+      "outcomes": [
+        "Rezepte und Gewohnheiten beschreiben",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "pasado y conectores"
+      ],
+      "vocabulary": [
+        "Rezept",
+        "Zutaten",
+        "kochen",
+        "Geschmack",
+        "Tradition",
+        "zusammen"
+      ],
+      "scenario": "Essen und Kultur"
+    }
+  },
+  {
+    "slug": "natur-und-umwelt",
+    "target_language": "german",
+    "level": "A2",
+    "title": "Natur und Umwelt",
+    "title_es": "über Umwelt im Alltag sprechen",
+    "description": "über Umwelt im Alltag sprechen",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "über Umwelt im Alltag sprechen",
+      "outcomes": [
+        "über Umwelt im Alltag sprechen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "pasado y conectores"
+      ],
+      "vocabulary": [
+        "Umwelt",
+        "Müll",
+        "trennen",
+        "Energie",
+        "Fahrrad",
+        "sparen"
+      ],
+      "scenario": "Natur und Umwelt"
+    }
+  },
+  {
+    "slug": "medien-und-kommunikation",
+    "target_language": "german",
+    "level": "A2",
+    "title": "Medien und Kommunikation",
+    "title_es": "Nachrichten und Mediengewohnheiten beschreiben",
+    "description": "Nachrichten und Mediengewohnheiten beschreiben",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Nachrichten und Mediengewohnheiten beschreiben",
+      "outcomes": [
+        "Nachrichten und Mediengewohnheiten beschreiben",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "pasado y conectores"
+      ],
+      "vocabulary": [
+        "Nachricht",
+        "Zeitung",
+        "Handy",
+        "Internet",
+        "informieren",
+        "erzählen"
+      ],
+      "scenario": "Medien und Kommunikation"
+    }
+  },
+  {
+    "slug": "lernen-und-ziele",
+    "target_language": "german",
+    "level": "A2",
+    "title": "Lernen und Ziele",
+    "title_es": "Lernziele und Fortschritt erklären",
+    "description": "Lernziele und Fortschritt erklären",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "Lernziele und Fortschritt erklären",
+      "outcomes": [
+        "Lernziele und Fortschritt erklären",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "pasado y conectores"
+      ],
+      "vocabulary": [
+        "Ziel",
+        "Kurs",
+        "üben",
+        "Fortschritt",
+        "schwierig",
+        "leichter"
+      ],
+      "scenario": "Lernen und Ziele"
+    }
+  },
+  {
+    "slug": "stadt-und-service",
+    "target_language": "german",
+    "level": "A2",
+    "title": "Stadt und Service",
+    "title_es": "Probleme in der Stadt lösen",
+    "description": "Probleme in der Stadt lösen",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "Probleme in der Stadt lösen",
+      "outcomes": [
+        "Probleme in der Stadt lösen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "pasado y conectores"
+      ],
+      "vocabulary": [
+        "Service",
+        "Formular",
+        "Rathaus",
+        "Auskunft",
+        "Problem",
+        "helfen"
+      ],
+      "scenario": "Stadt und Service"
+    }
+  },
+  {
+    "slug": "arbeit-und-ziele",
+    "target_language": "german",
+    "level": "B1",
+    "title": "Arbeit und Ziele",
+    "title_es": "Zeit organisieren und Lösungen vorschlagen",
+    "description": "Zeit organisieren und Lösungen vorschlagen",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "Zeit organisieren und Lösungen vorschlagen",
+      "outcomes": [
+        "Zeit organisieren und Lösungen vorschlagen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "Ziel",
+        "Frist",
+        "Team",
+        "verbessern",
+        "wählen",
+        "Ergebnis"
+      ],
+      "scenario": "Arbeit und Ziele"
+    }
+  },
+  {
+    "slug": "bewusst-reisen",
+    "target_language": "german",
+    "level": "B1",
+    "title": "Bewusst reisen",
+    "title_es": "eine Reise erzählen und verantwortungsvoll beraten",
+    "description": "eine Reise erzählen und verantwortungsvoll beraten",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "eine Reise erzählen und verantwortungsvoll beraten",
+      "outcomes": [
+        "eine Reise erzählen und verantwortungsvoll beraten",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "Reiseplan",
+        "Buchung",
+        "Landschaft",
+        "vermeiden",
+        "empfehlen",
+        "Erfahrung"
+      ],
+      "scenario": "Bewusst reisen"
+    }
+  },
+  {
+    "slug": "gesundheit-und-balance",
+    "target_language": "german",
+    "level": "B1",
+    "title": "Gesundheit und Balance",
+    "title_es": "Gewohnheiten und persönliche Veränderungen erklären",
+    "description": "Gewohnheiten und persönliche Veränderungen erklären",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "Gewohnheiten und persönliche Veränderungen erklären",
+      "outcomes": [
+        "Gewohnheiten und persönliche Veränderungen erklären",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "Wohlbefinden",
+        "Erholung",
+        "Bewegung",
+        "Gleichgewicht",
+        "verbessern",
+        "vorbeugen"
+      ],
+      "scenario": "Gesundheit und Balance"
+    }
+  },
+  {
+    "slug": "kultur-und-medien",
+    "target_language": "german",
+    "level": "B1",
+    "title": "Kultur und Medien",
+    "title_es": "eine Meinung über Kultur und Information äußern",
+    "description": "eine Meinung über Kultur und Information äußern",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "eine Meinung über Kultur und Information äußern",
+      "outcomes": [
+        "eine Meinung über Kultur und Information äußern",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "Nachricht",
+        "Quelle",
+        "Publikum",
+        "Meinung",
+        "vergleichen",
+        "Debatte"
+      ],
+      "scenario": "Kultur und Medien"
+    }
+  },
+  {
+    "slug": "umwelt-im-viertel",
+    "target_language": "german",
+    "level": "B1",
+    "title": "Umwelt im Viertel",
+    "title_es": "ein Umweltproblem und einen Vorschlag beschreiben",
+    "description": "ein Umweltproblem und einen Vorschlag beschreiben",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "ein Umweltproblem und einen Vorschlag beschreiben",
+      "outcomes": [
+        "ein Umweltproblem und einen Vorschlag beschreiben",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "Abfall",
+        "Sammlung",
+        "Ressource",
+        "reduzieren",
+        "Viertel",
+        "freiwillig"
+      ],
+      "scenario": "Umwelt im Viertel"
+    }
+  },
+  {
+    "slug": "geschichten-und-erinnerungen",
+    "target_language": "german",
+    "level": "B1",
+    "title": "Geschichten und Erinnerungen",
+    "title_es": "Erlebnisse erzählen und mit der Gegenwart verbinden",
+    "description": "Erlebnisse erzählen und mit der Gegenwart verbinden",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "Erlebnisse erzählen und mit der Gegenwart verbinden",
+      "outcomes": [
+        "Erlebnisse erzählen und mit der Gegenwart verbinden",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "Erinnerung",
+        "Kindheit",
+        "Veränderung",
+        "erzählen",
+        "Vergangenheit",
+        "Begegnung"
+      ],
+      "scenario": "Geschichten und Erinnerungen"
+    }
+  },
+  {
+    "slug": "gemeinschaftsprojekt",
+    "target_language": "german",
+    "level": "B1",
+    "title": "Gemeinschaftsprojekt",
+    "title_es": "ein Projekt vorstellen und Aufgaben verteilen",
+    "description": "ein Projekt vorstellen und Aufgaben verteilen",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "ein Projekt vorstellen und Aufgaben verteilen",
+      "outcomes": [
+        "ein Projekt vorstellen und Aufgaben verteilen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "Projekt",
+        "Recherche",
+        "Aufgabe",
+        "Zusammenarbeit",
+        "vorstellen",
+        "Vereinbarung"
+      ],
+      "scenario": "Gemeinschaftsprojekt"
+    }
+  },
+  {
+    "slug": "technik-im-alltag",
+    "target_language": "german",
+    "level": "B1",
+    "title": "Technik im Alltag",
+    "title_es": "Technik mit Argumenten bewerten",
+    "description": "Technik mit Argumenten bewerten",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "Technik mit Argumenten bewerten",
+      "outcomes": [
+        "Technik mit Argumenten bewerten",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "Technik",
+        "Gerät",
+        "Vorteil",
+        "Risiko",
+        "schützen",
+        "Gewohnheit"
+      ],
+      "scenario": "Technik im Alltag"
+    }
+  },
+  {
+    "slug": "stadt-und-mobilitat",
+    "target_language": "german",
+    "level": "B1",
+    "title": "Stadt und Mobilität",
+    "title_es": "städtische Mobilität vergleichen",
+    "description": "städtische Mobilität vergleichen",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "städtische Mobilität vergleichen",
+      "outcomes": [
+        "städtische Mobilität vergleichen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "Verkehr",
+        "Strecke",
+        "Stau",
+        "Fahrrad",
+        "verbessern",
+        "zugänglich"
+      ],
+      "scenario": "Stadt und Mobilität"
+    }
+  },
+  {
+    "slug": "plane-fur-die-zukunft",
+    "target_language": "german",
+    "level": "B1",
+    "title": "Pläne für die Zukunft",
+    "title_es": "über Ziele und Möglichkeiten sprechen",
+    "description": "über Ziele und Möglichkeiten sprechen",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "über Ziele und Möglichkeiten sprechen",
+      "outcomes": [
+        "über Ziele und Möglichkeiten sprechen",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "Zukunft",
+        "Ziel",
+        "Möglichkeit",
+        "entscheiden",
+        "Erfahrung",
+        "Ausbildung"
+      ],
+      "scenario": "Pläne für die Zukunft"
+    }
   }
 ]

@@ -1788,7 +1788,10 @@
       const languageOptionCopy = {
         english: ['🇺🇸', 'Inglés'],
         french: ['🇫🇷', 'Francés'],
-        spanish: ['🇪🇸', 'Español']
+        spanish: ['🇪🇸', 'Español'],
+        italian: ['🇮🇹', 'Italiano'],
+        portuguese: ['🇧🇷', 'Portugués'],
+        german: ['🇩🇪', 'Alemán']
       };
       Array.from(languageSelect.options).forEach((option) => {
         const [flag, label] = languageOptionCopy[option.value] || ['', option.textContent];

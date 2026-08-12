@@ -1,5 +1,5 @@
-// Compact, offline A1-A2 catalogues. The conjugator intentionally has only
-// present and the everyday completed-past form for these introductory routes.
+// Compact, offline A1-B1 catalogues. The conjugator starts with present and
+// the everyday completed-past form, useful across these routes.
 (function () {
   const lists = {
     italian: 'essere avere fare dire andare vedere sapere potere volere venire dovere prendere trovare dare parlare mettere passare guardare amare credere chiedere restare rispondere sentire pensare arrivare conoscere diventare tenere capire aspettare uscire vivere entrare portare cercare tornare chiamare morire partire seguire scrivere mostrare cadere aprire fermare perdere cominciare camminare ascoltare salire ricevere servire finire ridere leggere lasciare continuare mangiare bere correre dormire lavorare giocare studiare imparare scegliere riuscire riflettere riempire crescere agire provare usare cambiare aiutare vincere dimenticare chiudere spiegare comprare vendere inviare condurre costruire nascere lanciare decidere iniziare ricordare pagare incontrare viaggiare lavare cucinare telefonare preferire offrire spendere mandare'.split(' '),
@@ -29,7 +29,8 @@
   Object.entries(lists).forEach(([language, words]) => {
     window.ANDERGO_VERBS_DATA[language] = words.slice(0, 100).map((infinitive, index) => {
       const forms = makeForms(language, infinitive);
-      return { id: `verb-${language}-${infinitive}`, language, rank: index + 1, infinitive, regular: true, group: 'formas esenciales', level: index < 50 ? 'A1' : 'A2', forms: { thirdPersonSingular: forms.present[2], pastSimple: forms.past[0], pastParticiple: forms.pp, presentParticiple: '—', presentRows: forms.present, pastRows: forms.past }, translation: { spanish: 'verbo frecuente' }, directDefinition: { [language]: `Verbo frecuente: ${infinitive}.` }, pronunciation: '', audioText: infinitive, examples: {}, commonCollocations: [], synonyms: [], antonyms: [], notes: 'Formas esenciales: presente y pasado cotidiano.' };
+      const level = index < 34 ? 'A1' : index < 67 ? 'A2' : 'B1';
+      return { id: `verb-${language}-${infinitive}`, language, rank: index + 1, infinitive, regular: true, group: 'formas esenciales', level, forms: { thirdPersonSingular: forms.present[2], pastSimple: forms.past[0], pastParticiple: forms.pp, presentParticiple: '—', presentRows: forms.present, pastRows: forms.past }, translation: { spanish: 'verbo frecuente' }, directDefinition: { [language]: `Verbo frecuente: ${infinitive}.` }, pronunciation: '', audioText: infinitive, examples: {}, commonCollocations: [], synonyms: [], antonyms: [], notes: `Formas esenciales ${level}: presente y pasado cotidiano.` };
     });
     window.AndergoVerbConjugations[language] = { TENSES: [{ id: 'presentSimple', label: meta[language].labels[0] }, { id: 'pastSimple', label: meta[language].labels[1] }], conjugateTense(raw, tense) { const rows = tense === 'pastSimple' ? raw.forms.pastRows : raw.forms.presentRows; return { rows: meta[language].persons.map((person, index) => ({ label: person, affirmative: rows[index], negative: '', interrogative: '' })), note: 'Formas esenciales para conversación diaria.' }; } };
   });
