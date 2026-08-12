@@ -4703,6 +4703,17 @@ test('Italian, Portuguese and German Freemium access unlocks A1 units 1-3, A2 un
   }
 });
 
+test('server access policy enforces the European 3/2/1 Freemium matrix', () => {
+  const policy = require('./lib/accessPolicyService');
+  for (const language of ['italian', 'portuguese', 'german']) {
+    assert.equal(policy.freeUnitLimit('A1', language), 3);
+    assert.equal(policy.freeUnitLimit('A2', language), 2);
+    assert.equal(policy.freeUnitLimit('B1', language), 1);
+    assert.equal(policy.accessTierForUnit('A2', 3, language), 'premium');
+    assert.equal(policy.accessTierForUnit('B1', 2, language), 'premium');
+  }
+});
+
 test('German lessons are no longer restricted to Reading and Grammar in the frontend loader', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   assert.doesNotMatch(source, /language !== 'german' \|\| \['reading', 'grammar'\]/);
