@@ -132,12 +132,15 @@ function makeLesson(language, level, unit, skill, order) {
   const [slug, title, objective, vocabularyLine] = unit;
   const words = vocabularyLine.split(', ');
   const readingText = sentence(language, words, level, title);
+  const unitNumber = Math.floor(order / 10);
+  const freeUnitLimit = level === 'A1' ? 3 : level === 'A2' ? 2 : 1;
+  const isFree = unitNumber <= freeUnitLimit;
   const base = {
     slug: `${language}-${level.toLowerCase()}-${slug}-${skill}`,
     target_language: language, level, skill, unit_slug: slug,
     title: `${title}: ${skill === 'reading' ? 'lectura' : skill === 'grammar' ? (language === 'portuguese' ? 'gramática' : language === 'italian' ? 'grammatica' : 'Grammatik') : (language === 'portuguese' ? 'palavras' : language === 'italian' ? 'parole' : 'Wortschatz')}`,
     description: objective, order_index: order, estimated_minutes: skill === 'reading' ? 12 : 10,
-    is_free: order < 4, access_tier: order < 4 ? 'free' : 'premium', payment_price_usd: 4.99
+    is_free: isFree, access_tier: isFree ? 'free' : 'premium', payment_price_usd: 4.99
   };
   const content = {
     language: courses[language].label, language_key: language, level_title: `${courses[language].label} ${level}`,
@@ -146,7 +149,7 @@ function makeLesson(language, level, unit, skill, order) {
     phrases: words.slice(0, 4).map((word) => language === 'german' ? `Wir lernen: ${word}.` : language === 'italian' ? `Impariamo: ${word}.` : `Aprendemos: ${word}.`),
     vocabulary: words.map((word, index) => ({ word, translation: `Palabra clave ${index + 1}`, example: language === 'german' ? `Ich benutze das Wort „${word}“ im Kontext.` : language === 'italian' ? `Uso la parola «${word}» nel contesto.` : `Uso a palavra «${word}» no contexto.` })),
     xp_reward: 25,
-    access_policy: { free_lessons_per_level: 3, is_free_preview: order < 4, premium_price_usd: 4.99, premium_label: 'Premium desbloquea la ruta completa' }
+    access_policy: { free_lessons_per_level: freeUnitLimit, is_free_preview: isFree, premium_price_usd: 4.99, premium_label: 'Premium desbloquea la ruta completa' }
   };
   if (skill === 'reading') {
     content.reading = { text: readingText, questions: [
@@ -212,9 +215,16 @@ for (const [language, course] of Object.entries(courses)) {
       }
       ['reading', 'grammar', 'vocabulary'].forEach((skill, skillIndex) => {
         const slugWithSkill = `${language}-${level.toLowerCase()}-${slug}-${skill}`;
-        if (!lessons.some((item) => item.slug === slugWithSkill)) {
-          lessons.push(makeLesson(language, level, unit, skill, (index + 1) * 10 + skillIndex));
+        const authoredLesson = makeLesson(language, level, unit, skill, (index + 1) * 10 + skillIndex);
+        const existingLesson = lessons.find((item) => item.slug === slugWithSkill);
+        if (!existingLesson) {
+          lessons.push(authoredLesson);
           addedLessons += 1;
+        } else {
+          existingLesson.is_free = authoredLesson.is_free;
+          existingLesson.access_tier = authoredLesson.access_tier;
+          existingLesson.content_json = existingLesson.content_json || {};
+          existingLesson.content_json.access_policy = authoredLesson.content_json.access_policy;
         }
       });
     });

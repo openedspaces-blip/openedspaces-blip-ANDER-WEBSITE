@@ -4671,6 +4671,21 @@ test('Portuguese, Italian and German expose exactly 12 canonical readings per A1
   }
 });
 
+test('Italian, Portuguese and German Freemium access unlocks A1 units 1-3, A2 units 1-2 and B1 unit 1', () => {
+  const freeLimits = { A1: 3, A2: 2, B1: 1 };
+  for (const language of ['italian', 'portuguese', 'german']) {
+    for (const [level, freeLimit] of Object.entries(freeLimits)) {
+      const readings = getLocalLessons(language)
+        .filter((lesson) => lesson.level === level && lesson.skill === 'reading')
+        .sort((a, b) => a.orderIndex - b.orderIndex);
+      assert.equal(readings.length, 12);
+      readings.forEach((lesson, index) => {
+        assert.equal(lesson.accessTier, index < freeLimit ? 'free' : 'premium');
+      });
+    }
+  }
+});
+
 test('German lessons are no longer restricted to Reading and Grammar in the frontend loader', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   assert.doesNotMatch(source, /language !== 'german' \|\| \['reading', 'grammar'\]/);

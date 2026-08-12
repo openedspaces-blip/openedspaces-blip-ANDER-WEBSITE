@@ -412,6 +412,145 @@
   window.ANDERGO_LANGUAGE_WORLDS.lessons = window.ANDERGO_LANGUAGE_WORLDS.lessons || {};
   window.ANDERGO_LANGUAGE_WORLDS.lessons.italian = [
   {
+    "slug": "italian-b1-lavoro-e-obiettivi-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "lavoro-e-obiettivi",
+    "title": "Lavoro e obiettivi: lectura",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 10,
+    "estimatedMinutes": 12,
+    "description": "organizzare il tempo e proporre soluzioni",
+    "intro": "organizzare il tempo e proporre soluzioni",
+    "mission": "organizzare il tempo e proporre soluzioni",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Impariamo: obiettivi.",
+      "Impariamo: scadenza.",
+      "Impariamo: squadra.",
+      "Impariamo: migliorare."
+    ],
+    "vocabulary": [
+      {
+        "word": "obiettivi",
+        "translation": "Palabra clave 1",
+        "example": "Uso la parola «obiettivi» nel contesto."
+      },
+      {
+        "word": "scadenza",
+        "translation": "Palabra clave 2",
+        "example": "Uso la parola «scadenza» nel contesto."
+      },
+      {
+        "word": "squadra",
+        "translation": "Palabra clave 3",
+        "example": "Uso la parola «squadra» nel contesto."
+      },
+      {
+        "word": "migliorare",
+        "translation": "Palabra clave 4",
+        "example": "Uso la parola «migliorare» nel contesto."
+      },
+      {
+        "word": "scegliere",
+        "translation": "Palabra clave 5",
+        "example": "Uso la parola «scegliere» nel contesto."
+      },
+      {
+        "word": "risultato",
+        "translation": "Palabra clave 6",
+        "example": "Uso la parola «risultato» nel contesto."
+      },
+      {
+        "word": "responsabilità",
+        "translation": "Palabra clave 7",
+        "example": "Uso la parola «responsabilità» nel contesto."
+      },
+      {
+        "word": "proposta",
+        "translation": "Palabra clave 8",
+        "example": "Uso la parola «proposta» nel contesto."
+      },
+      {
+        "word": "abitudine",
+        "translation": "Palabra clave 9",
+        "example": "Uso la parola «abitudine» nel contesto."
+      },
+      {
+        "word": "fiducia",
+        "translation": "Palabra clave 10",
+        "example": "Uso la parola «fiducia» nel contesto."
+      }
+    ],
+    "dialogue": [],
+    "reading": {
+      "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "questions": [
+        "Di che cosa parla il gruppo?",
+        "Che cosa fa ogni persona?",
+        "Perché decidono di collaborare?",
+        "Quale idea aiuta nella vita quotidiana?"
+      ]
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Di che cosa parla il gruppo?",
+        "options": [
+          "obiettivi",
+          "proposta",
+          "abitudine",
+          "fiducia"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Che cosa fa ogni persona?",
+        "options": [
+          "Cuenta una experiencia, escucha y propone una solución.",
+          "Compra una entrada para un evento.",
+          "No escucha a las otras personas.",
+          "Cancela el proyecto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Perché decidono di collaborare?",
+        "options": [
+          "Porque tienen un objetivo claro.",
+          "Porque no tienen tiempo.",
+          "Porque no conocen el tema.",
+          "Porque prefieren trabajar solos."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "options": [
+          "Una solución concreta y colaborativa.",
+          "Una lista sin contexto.",
+          "Una discusión sin objetivo.",
+          "Una decisión individual."
+        ]
+      },
+      {
+        "id": "italian-b1-lavoro-e-obiettivi-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Lavoro e obiettivi: lectura»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Lavoro e obiettivi: lectura",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "italian-a1-benvenuti-in-italia-reading",
     "level": "A1",
     "skill": "reading",
@@ -583,16 +722,16 @@
     ]
   },
   {
-    "slug": "italian-b1-lavoro-e-obiettivi-reading",
+    "slug": "italian-b1-lavoro-e-obiettivi-grammar",
     "level": "B1",
-    "skill": "reading",
+    "skill": "grammar",
     "unitId": "lavoro-e-obiettivi",
-    "title": "Lavoro e obiettivi: lectura",
-    "accessTier": "premium",
-    "isFree": false,
+    "title": "Lavoro e obiettivi: grammatica",
+    "accessTier": "free",
+    "isFree": true,
     "xpReward": 25,
-    "orderIndex": 10,
-    "estimatedMinutes": 12,
+    "orderIndex": 11,
+    "estimatedMinutes": 10,
     "description": "organizzare il tempo e proporre soluzioni",
     "intro": "organizzare il tempo e proporre soluzioni",
     "mission": "organizzare il tempo e proporre soluzioni",
@@ -656,67 +795,67 @@
       }
     ],
     "dialogue": [],
-    "reading": {
-      "text": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-      "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Periodo ipotetico della possibilità",
+        "definition": "Práctica guiada de Periodo ipotetico della possibilità.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "examples": []
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Quale frase usa «obiettivi» in modo corretto?",
         "options": [
-          "obiettivi",
-          "proposta",
-          "abitudine",
-          "fiducia"
+          "Il gruppo parla di obiettivi.",
+          "Il gruppo obiettivi parla di.",
+          "obiettivi il di gruppo parla.",
+          "Parla gruppo il obiettivi di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Quale frase usa «scadenza» in modo corretto?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Il gruppo scadenza parla di.",
+          "Il gruppo parla di scadenza.",
+          "scadenza il di gruppo parla.",
+          "Parla gruppo il scadenza di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale frase usa «squadra» in modo corretto?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "squadra il di gruppo parla.",
+          "Il gruppo squadra parla di.",
+          "Il gruppo parla di squadra.",
+          "Parla gruppo il squadra di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Quale frase usa «migliorare» in modo corretto?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Parla gruppo il migliorare di.",
+          "Il gruppo migliorare parla di.",
+          "migliorare il di gruppo parla.",
+          "Il gruppo parla di migliorare."
         ]
       },
       {
-        "id": "italian-b1-lavoro-e-obiettivi-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Lavoro e obiettivi: lectura»?",
+        "prompt": "Quale frase usa «scegliere» in modo corretto?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Lavoro e obiettivi: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Il gruppo parla di scegliere.",
+          "Il gruppo scegliere parla di.",
+          "scegliere il di gruppo parla.",
+          "Parla gruppo il scegliere di."
         ]
       }
     ]
@@ -1100,216 +1239,13 @@
     ]
   },
   {
-    "slug": "italian-b1-lavoro-e-obiettivi-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "lavoro-e-obiettivi",
-    "title": "Lavoro e obiettivi: grammatica",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 11,
-    "estimatedMinutes": 10,
-    "description": "organizzare il tempo e proporre soluzioni",
-    "intro": "organizzare il tempo e proporre soluzioni",
-    "mission": "organizzare il tempo e proporre soluzioni",
-    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
-    "phrases": [
-      "Impariamo: obiettivi.",
-      "Impariamo: scadenza.",
-      "Impariamo: squadra.",
-      "Impariamo: migliorare."
-    ],
-    "vocabulary": [
-      {
-        "word": "obiettivi",
-        "translation": "Palabra clave 1",
-        "example": "Uso la parola «obiettivi» nel contesto."
-      },
-      {
-        "word": "scadenza",
-        "translation": "Palabra clave 2",
-        "example": "Uso la parola «scadenza» nel contesto."
-      },
-      {
-        "word": "squadra",
-        "translation": "Palabra clave 3",
-        "example": "Uso la parola «squadra» nel contesto."
-      },
-      {
-        "word": "migliorare",
-        "translation": "Palabra clave 4",
-        "example": "Uso la parola «migliorare» nel contesto."
-      },
-      {
-        "word": "scegliere",
-        "translation": "Palabra clave 5",
-        "example": "Uso la parola «scegliere» nel contesto."
-      },
-      {
-        "word": "risultato",
-        "translation": "Palabra clave 6",
-        "example": "Uso la parola «risultato» nel contesto."
-      },
-      {
-        "word": "responsabilità",
-        "translation": "Palabra clave 7",
-        "example": "Uso la parola «responsabilità» nel contesto."
-      },
-      {
-        "word": "proposta",
-        "translation": "Palabra clave 8",
-        "example": "Uso la parola «proposta» nel contesto."
-      },
-      {
-        "word": "abitudine",
-        "translation": "Palabra clave 9",
-        "example": "Uso la parola «abitudine» nel contesto."
-      },
-      {
-        "word": "fiducia",
-        "translation": "Palabra clave 10",
-        "example": "Uso la parola «fiducia» nel contesto."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarProfile": {
-        "name": "Periodo ipotetico della possibilità",
-        "definition": "Práctica guiada de Periodo ipotetico della possibilità.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «obiettivi» in modo corretto?",
-        "options": [
-          "Il gruppo parla di obiettivi.",
-          "Il gruppo obiettivi parla di.",
-          "obiettivi il di gruppo parla.",
-          "Parla gruppo il obiettivi di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «scadenza» in modo corretto?",
-        "options": [
-          "Il gruppo scadenza parla di.",
-          "Il gruppo parla di scadenza.",
-          "scadenza il di gruppo parla.",
-          "Parla gruppo il scadenza di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «squadra» in modo corretto?",
-        "options": [
-          "squadra il di gruppo parla.",
-          "Il gruppo squadra parla di.",
-          "Il gruppo parla di squadra.",
-          "Parla gruppo il squadra di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «migliorare» in modo corretto?",
-        "options": [
-          "Parla gruppo il migliorare di.",
-          "Il gruppo migliorare parla di.",
-          "migliorare il di gruppo parla.",
-          "Il gruppo parla di migliorare."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «scegliere» in modo corretto?",
-        "options": [
-          "Il gruppo parla di scegliere.",
-          "Il gruppo scegliere parla di.",
-          "scegliere il di gruppo parla.",
-          "Parla gruppo il scegliere di."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "italian-a1-benvenuti-in-italia-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "benvenuti-in-italia",
-    "title": "Benvenuti in Italia: parla",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 12,
-    "estimatedMinutes": 8,
-    "description": "Practica salutare e presentarsi.",
-    "intro": "Practica salutare e presentarsi.",
-    "mission": "Di Ciao, come stai? y añade una frase sobre saluti e presentazioni a bologna.",
-    "grammar": "",
-    "phrases": [
-      "Ciao, come stai?",
-      "Mi piace ciao.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: salutare e presentarsi. Usa «Ciao, come stai?»."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-vita-in-citta-speaking",
-    "level": "A2",
-    "skill": "speaking",
-    "unitId": "vita-in-citta",
-    "title": "Vita in città: parla",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 12,
-    "estimatedMinutes": 8,
-    "description": "Practica describir una rutina.",
-    "intro": "Practica describir una rutina.",
-    "mission": "Di Di solito prendo l’autobus. y añade una frase sobre rutinas urbanas y servicios públicos.",
-    "grammar": "",
-    "phrases": [
-      "Di solito prendo l’autobus.",
-      "Mi piace quartiere.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: describir una rutina. Usa «Di solito prendo l’autobus.»."
-      }
-    ]
-  },
-  {
     "slug": "italian-b1-lavoro-e-obiettivi-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
     "unitId": "lavoro-e-obiettivi",
     "title": "Lavoro e obiettivi: parole",
-    "accessTier": "premium",
-    "isFree": false,
+    "accessTier": "free",
+    "isFree": true,
     "xpReward": 25,
     "orderIndex": 12,
     "estimatedMinutes": 10,
@@ -1439,6 +1375,70 @@
           "proposta",
           "abitudine"
         ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-benvenuti-in-italia-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "benvenuti-in-italia",
+    "title": "Benvenuti in Italia: parla",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 12,
+    "estimatedMinutes": 8,
+    "description": "Practica salutare e presentarsi.",
+    "intro": "Practica salutare e presentarsi.",
+    "mission": "Di Ciao, come stai? y añade una frase sobre saluti e presentazioni a bologna.",
+    "grammar": "",
+    "phrases": [
+      "Ciao, come stai?",
+      "Mi piace ciao.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: salutare e presentarsi. Usa «Ciao, come stai?»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-vita-in-citta-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "vita-in-citta",
+    "title": "Vita in città: parla",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 12,
+    "estimatedMinutes": 8,
+    "description": "Practica describir una rutina.",
+    "intro": "Practica describir una rutina.",
+    "mission": "Di Di solito prendo l’autobus. y añade una frase sobre rutinas urbanas y servicios públicos.",
+    "grammar": "",
+    "phrases": [
+      "Di solito prendo l’autobus.",
+      "Mi piace quartiere.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: describir una rutina. Usa «Di solito prendo l’autobus.»."
       }
     ]
   },
@@ -1765,6 +1765,145 @@
     ]
   },
   {
+    "slug": "italian-b1-viaggi-consapevoli-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "viaggi-consapevoli",
+    "title": "Viaggi consapevoli: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 20,
+    "estimatedMinutes": 12,
+    "description": "raccontare un viaggio e dare consigli responsabili",
+    "intro": "raccontare un viaggio e dare consigli responsabili",
+    "mission": "raccontare un viaggio e dare consigli responsabili",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Impariamo: itinerario.",
+      "Impariamo: prenotazione.",
+      "Impariamo: paesaggio.",
+      "Impariamo: evitare."
+    ],
+    "vocabulary": [
+      {
+        "word": "itinerario",
+        "translation": "Palabra clave 1",
+        "example": "Uso la parola «itinerario» nel contesto."
+      },
+      {
+        "word": "prenotazione",
+        "translation": "Palabra clave 2",
+        "example": "Uso la parola «prenotazione» nel contesto."
+      },
+      {
+        "word": "paesaggio",
+        "translation": "Palabra clave 3",
+        "example": "Uso la parola «paesaggio» nel contesto."
+      },
+      {
+        "word": "evitare",
+        "translation": "Palabra clave 4",
+        "example": "Uso la parola «evitare» nel contesto."
+      },
+      {
+        "word": "consigliare",
+        "translation": "Palabra clave 5",
+        "example": "Uso la parola «consigliare» nel contesto."
+      },
+      {
+        "word": "esperienza",
+        "translation": "Palabra clave 6",
+        "example": "Uso la parola «esperienza» nel contesto."
+      },
+      {
+        "word": "ospitale",
+        "translation": "Palabra clave 7",
+        "example": "Uso la parola «ospitale» nel contesto."
+      },
+      {
+        "word": "spostamento",
+        "translation": "Palabra clave 8",
+        "example": "Uso la parola «spostamento» nel contesto."
+      },
+      {
+        "word": "sostenibile",
+        "translation": "Palabra clave 9",
+        "example": "Uso la parola «sostenibile» nel contesto."
+      },
+      {
+        "word": "ricordo",
+        "translation": "Palabra clave 10",
+        "example": "Uso la parola «ricordo» nel contesto."
+      }
+    ],
+    "dialogue": [],
+    "reading": {
+      "text": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "questions": [
+        "Di che cosa parla il gruppo?",
+        "Che cosa fa ogni persona?",
+        "Perché decidono di collaborare?",
+        "Quale idea aiuta nella vita quotidiana?"
+      ]
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Di che cosa parla il gruppo?",
+        "options": [
+          "itinerario",
+          "spostamento",
+          "sostenibile",
+          "ricordo"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Che cosa fa ogni persona?",
+        "options": [
+          "Cuenta una experiencia, escucha y propone una solución.",
+          "Compra una entrada para un evento.",
+          "No escucha a las otras personas.",
+          "Cancela el proyecto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Perché decidono di collaborare?",
+        "options": [
+          "Porque tienen un objetivo claro.",
+          "Porque no tienen tiempo.",
+          "Porque no conocen el tema.",
+          "Porque prefieren trabajar solos."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "options": [
+          "Una solución concreta y colaborativa.",
+          "Una lista sin contexto.",
+          "Una discusión sin objetivo.",
+          "Una decisión individual."
+        ]
+      },
+      {
+        "id": "italian-b1-viaggi-consapevoli-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Viaggi consapevoli: lectura»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Viaggi consapevoli: lectura",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "italian-a1-un-caffe-al-bar-reading",
     "level": "A1",
     "skill": "reading",
@@ -1936,16 +2075,16 @@
     ]
   },
   {
-    "slug": "italian-b1-viaggi-consapevoli-reading",
+    "slug": "italian-b1-viaggi-consapevoli-grammar",
     "level": "B1",
-    "skill": "reading",
+    "skill": "grammar",
     "unitId": "viaggi-consapevoli",
-    "title": "Viaggi consapevoli: lectura",
+    "title": "Viaggi consapevoli: grammatica",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 20,
-    "estimatedMinutes": 12,
+    "orderIndex": 21,
+    "estimatedMinutes": 10,
     "description": "raccontare un viaggio e dare consigli responsabili",
     "intro": "raccontare un viaggio e dare consigli responsabili",
     "mission": "raccontare un viaggio e dare consigli responsabili",
@@ -2009,67 +2148,67 @@
       }
     ],
     "dialogue": [],
-    "reading": {
-      "text": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-      "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Pronomi combinati",
+        "definition": "Práctica guiada de Pronomi combinati.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "examples": []
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Quale frase usa «itinerario» in modo corretto?",
         "options": [
-          "itinerario",
-          "spostamento",
-          "sostenibile",
-          "ricordo"
+          "Il gruppo parla di itinerario.",
+          "Il gruppo itinerario parla di.",
+          "itinerario il di gruppo parla.",
+          "Parla gruppo il itinerario di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Quale frase usa «prenotazione» in modo corretto?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Il gruppo prenotazione parla di.",
+          "Il gruppo parla di prenotazione.",
+          "prenotazione il di gruppo parla.",
+          "Parla gruppo il prenotazione di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale frase usa «paesaggio» in modo corretto?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "paesaggio il di gruppo parla.",
+          "Il gruppo paesaggio parla di.",
+          "Il gruppo parla di paesaggio.",
+          "Parla gruppo il paesaggio di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Quale frase usa «evitare» in modo corretto?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Parla gruppo il evitare di.",
+          "Il gruppo evitare parla di.",
+          "evitare il di gruppo parla.",
+          "Il gruppo parla di evitare."
         ]
       },
       {
-        "id": "italian-b1-viaggi-consapevoli-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Viaggi consapevoli: lectura»?",
+        "prompt": "Quale frase usa «consigliare» in modo corretto?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Viaggi consapevoli: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Il gruppo parla di consigliare.",
+          "Il gruppo consigliare parla di.",
+          "consigliare il di gruppo parla.",
+          "Parla gruppo il consigliare di."
         ]
       }
     ]
@@ -2453,209 +2592,6 @@
     ]
   },
   {
-    "slug": "italian-b1-viaggi-consapevoli-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "viaggi-consapevoli",
-    "title": "Viaggi consapevoli: grammatica",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 21,
-    "estimatedMinutes": 10,
-    "description": "raccontare un viaggio e dare consigli responsabili",
-    "intro": "raccontare un viaggio e dare consigli responsabili",
-    "mission": "raccontare un viaggio e dare consigli responsabili",
-    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
-    "phrases": [
-      "Impariamo: itinerario.",
-      "Impariamo: prenotazione.",
-      "Impariamo: paesaggio.",
-      "Impariamo: evitare."
-    ],
-    "vocabulary": [
-      {
-        "word": "itinerario",
-        "translation": "Palabra clave 1",
-        "example": "Uso la parola «itinerario» nel contesto."
-      },
-      {
-        "word": "prenotazione",
-        "translation": "Palabra clave 2",
-        "example": "Uso la parola «prenotazione» nel contesto."
-      },
-      {
-        "word": "paesaggio",
-        "translation": "Palabra clave 3",
-        "example": "Uso la parola «paesaggio» nel contesto."
-      },
-      {
-        "word": "evitare",
-        "translation": "Palabra clave 4",
-        "example": "Uso la parola «evitare» nel contesto."
-      },
-      {
-        "word": "consigliare",
-        "translation": "Palabra clave 5",
-        "example": "Uso la parola «consigliare» nel contesto."
-      },
-      {
-        "word": "esperienza",
-        "translation": "Palabra clave 6",
-        "example": "Uso la parola «esperienza» nel contesto."
-      },
-      {
-        "word": "ospitale",
-        "translation": "Palabra clave 7",
-        "example": "Uso la parola «ospitale» nel contesto."
-      },
-      {
-        "word": "spostamento",
-        "translation": "Palabra clave 8",
-        "example": "Uso la parola «spostamento» nel contesto."
-      },
-      {
-        "word": "sostenibile",
-        "translation": "Palabra clave 9",
-        "example": "Uso la parola «sostenibile» nel contesto."
-      },
-      {
-        "word": "ricordo",
-        "translation": "Palabra clave 10",
-        "example": "Uso la parola «ricordo» nel contesto."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarProfile": {
-        "name": "Pronomi combinati",
-        "definition": "Práctica guiada de Pronomi combinati.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «itinerario» in modo corretto?",
-        "options": [
-          "Il gruppo parla di itinerario.",
-          "Il gruppo itinerario parla di.",
-          "itinerario il di gruppo parla.",
-          "Parla gruppo il itinerario di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «prenotazione» in modo corretto?",
-        "options": [
-          "Il gruppo prenotazione parla di.",
-          "Il gruppo parla di prenotazione.",
-          "prenotazione il di gruppo parla.",
-          "Parla gruppo il prenotazione di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «paesaggio» in modo corretto?",
-        "options": [
-          "paesaggio il di gruppo parla.",
-          "Il gruppo paesaggio parla di.",
-          "Il gruppo parla di paesaggio.",
-          "Parla gruppo il paesaggio di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «evitare» in modo corretto?",
-        "options": [
-          "Parla gruppo il evitare di.",
-          "Il gruppo evitare parla di.",
-          "evitare il di gruppo parla.",
-          "Il gruppo parla di evitare."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «consigliare» in modo corretto?",
-        "options": [
-          "Il gruppo parla di consigliare.",
-          "Il gruppo consigliare parla di.",
-          "consigliare il di gruppo parla.",
-          "Parla gruppo il consigliare di."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "italian-a1-un-caffe-al-bar-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "un-caffe-al-bar",
-    "title": "Un caffè al bar: parla",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 22,
-    "estimatedMinutes": 8,
-    "description": "Practica ordinare con cortesia.",
-    "intro": "Practica ordinare con cortesia.",
-    "mission": "Di Un caffè, per favore. y añade una frase sobre un bar di quartiere e le cortesie quotidiane.",
-    "grammar": "",
-    "phrases": [
-      "Un caffè, per favore.",
-      "Mi piace caffè.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: ordinare con cortesia. Usa «Un caffè, per favore.»."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-un-fine-settimana-a-napoli-speaking",
-    "level": "A2",
-    "skill": "speaking",
-    "unitId": "un-fine-settimana-a-napoli",
-    "title": "Un fine settimana a Napoli: parla",
-    "accessTier": "free",
-    "isFree": true,
-    "xpReward": 20,
-    "orderIndex": 22,
-    "estimatedMinutes": 8,
-    "description": "Practica hacer planes.",
-    "intro": "Practica hacer planes.",
-    "mission": "Di Vorrei visitare il museo. y añade una frase sobre planificar una visita respetuosa.",
-    "grammar": "",
-    "phrases": [
-      "Vorrei visitare il museo.",
-      "Mi piace museo.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: hacer planes. Usa «Vorrei visitare il museo.»."
-      }
-    ]
-  },
-  {
     "slug": "italian-b1-viaggi-consapevoli-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -2792,6 +2728,70 @@
           "spostamento",
           "sostenibile"
         ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-un-caffe-al-bar-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "un-caffe-al-bar",
+    "title": "Un caffè al bar: parla",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 22,
+    "estimatedMinutes": 8,
+    "description": "Practica ordinare con cortesia.",
+    "intro": "Practica ordinare con cortesia.",
+    "mission": "Di Un caffè, per favore. y añade una frase sobre un bar di quartiere e le cortesie quotidiane.",
+    "grammar": "",
+    "phrases": [
+      "Un caffè, per favore.",
+      "Mi piace caffè.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: ordinare con cortesia. Usa «Un caffè, per favore.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-un-fine-settimana-a-napoli-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "un-fine-settimana-a-napoli",
+    "title": "Un fine settimana a Napoli: parla",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 22,
+    "estimatedMinutes": 8,
+    "description": "Practica hacer planes.",
+    "intro": "Practica hacer planes.",
+    "mission": "Di Vorrei visitare il museo. y añade una frase sobre planificar una visita respetuosa.",
+    "grammar": "",
+    "phrases": [
+      "Vorrei visitare il museo.",
+      "Mi piace museo.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: hacer planes. Usa «Vorrei visitare il museo.»."
       }
     ]
   },
@@ -3118,13 +3118,152 @@
     ]
   },
   {
+    "slug": "italian-b1-salute-e-benessere-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "salute-e-benessere",
+    "title": "Salute e benessere: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 30,
+    "estimatedMinutes": 12,
+    "description": "spiegare abitudini utili e cambiamenti personali",
+    "intro": "spiegare abitudini utili e cambiamenti personali",
+    "mission": "spiegare abitudini utili e cambiamenti personali",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Impariamo: benessere.",
+      "Impariamo: riposo.",
+      "Impariamo: allenamento.",
+      "Impariamo: equilibrio."
+    ],
+    "vocabulary": [
+      {
+        "word": "benessere",
+        "translation": "Palabra clave 1",
+        "example": "Uso la parola «benessere» nel contesto."
+      },
+      {
+        "word": "riposo",
+        "translation": "Palabra clave 2",
+        "example": "Uso la parola «riposo» nel contesto."
+      },
+      {
+        "word": "allenamento",
+        "translation": "Palabra clave 3",
+        "example": "Uso la parola «allenamento» nel contesto."
+      },
+      {
+        "word": "equilibrio",
+        "translation": "Palabra clave 4",
+        "example": "Uso la parola «equilibrio» nel contesto."
+      },
+      {
+        "word": "migliorare",
+        "translation": "Palabra clave 5",
+        "example": "Uso la parola «migliorare» nel contesto."
+      },
+      {
+        "word": "prevenire",
+        "translation": "Palabra clave 6",
+        "example": "Uso la parola «prevenire» nel contesto."
+      },
+      {
+        "word": "abitudine",
+        "translation": "Palabra clave 7",
+        "example": "Uso la parola «abitudine» nel contesto."
+      },
+      {
+        "word": "energia",
+        "translation": "Palabra clave 8",
+        "example": "Uso la parola «energia» nel contesto."
+      },
+      {
+        "word": "consiglio",
+        "translation": "Palabra clave 9",
+        "example": "Uso la parola «consiglio» nel contesto."
+      },
+      {
+        "word": "scelta",
+        "translation": "Palabra clave 10",
+        "example": "Uso la parola «scelta» nel contesto."
+      }
+    ],
+    "dialogue": [],
+    "reading": {
+      "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "questions": [
+        "Di che cosa parla il gruppo?",
+        "Che cosa fa ogni persona?",
+        "Perché decidono di collaborare?",
+        "Quale idea aiuta nella vita quotidiana?"
+      ]
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Di che cosa parla il gruppo?",
+        "options": [
+          "benessere",
+          "energia",
+          "consiglio",
+          "scelta"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Che cosa fa ogni persona?",
+        "options": [
+          "Cuenta una experiencia, escucha y propone una solución.",
+          "Compra una entrada para un evento.",
+          "No escucha a las otras personas.",
+          "Cancela el proyecto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Perché decidono di collaborare?",
+        "options": [
+          "Porque tienen un objetivo claro.",
+          "Porque no tienen tiempo.",
+          "Porque no conocen el tema.",
+          "Porque prefieren trabajar solos."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "options": [
+          "Una solución concreta y colaborativa.",
+          "Una lista sin contexto.",
+          "Una discusión sin objetivo.",
+          "Una decisión individual."
+        ]
+      },
+      {
+        "id": "italian-b1-salute-e-benessere-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Salute e benessere: lectura»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Salute e benessere: lectura",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "italian-a1-la-famiglia-a-tavola-reading",
     "level": "A1",
     "skill": "reading",
     "unitId": "la-famiglia-a-tavola",
     "title": "La famiglia a tavola: lectura",
-    "accessTier": "premium",
-    "isFree": false,
+    "accessTier": "free",
+    "isFree": true,
     "xpReward": 25,
     "orderIndex": 30,
     "estimatedMinutes": 8,
@@ -3289,16 +3428,16 @@
     ]
   },
   {
-    "slug": "italian-b1-salute-e-benessere-reading",
+    "slug": "italian-b1-salute-e-benessere-grammar",
     "level": "B1",
-    "skill": "reading",
+    "skill": "grammar",
     "unitId": "salute-e-benessere",
-    "title": "Salute e benessere: lectura",
+    "title": "Salute e benessere: grammatica",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 30,
-    "estimatedMinutes": 12,
+    "orderIndex": 31,
+    "estimatedMinutes": 10,
     "description": "spiegare abitudini utili e cambiamenti personali",
     "intro": "spiegare abitudini utili e cambiamenti personali",
     "mission": "spiegare abitudini utili e cambiamenti personali",
@@ -3362,67 +3501,67 @@
       }
     ],
     "dialogue": [],
-    "reading": {
-      "text": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-      "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Congiuntivo presente",
+        "definition": "Práctica guiada de Congiuntivo presente.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "examples": []
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Quale frase usa «benessere» in modo corretto?",
         "options": [
-          "benessere",
-          "energia",
-          "consiglio",
-          "scelta"
+          "Il gruppo parla di benessere.",
+          "Il gruppo benessere parla di.",
+          "benessere il di gruppo parla.",
+          "Parla gruppo il benessere di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Quale frase usa «riposo» in modo corretto?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Il gruppo riposo parla di.",
+          "Il gruppo parla di riposo.",
+          "riposo il di gruppo parla.",
+          "Parla gruppo il riposo di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale frase usa «allenamento» in modo corretto?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "allenamento il di gruppo parla.",
+          "Il gruppo allenamento parla di.",
+          "Il gruppo parla di allenamento.",
+          "Parla gruppo il allenamento di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Quale frase usa «equilibrio» in modo corretto?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Parla gruppo il equilibrio di.",
+          "Il gruppo equilibrio parla di.",
+          "equilibrio il di gruppo parla.",
+          "Il gruppo parla di equilibrio."
         ]
       },
       {
-        "id": "italian-b1-salute-e-benessere-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Salute e benessere: lectura»?",
+        "prompt": "Quale frase usa «migliorare» in modo corretto?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Salute e benessere: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Il gruppo parla di migliorare.",
+          "Il gruppo migliorare parla di.",
+          "migliorare il di gruppo parla.",
+          "Parla gruppo il migliorare di."
         ]
       }
     ]
@@ -3433,8 +3572,8 @@
     "skill": "listening",
     "unitId": "la-famiglia-a-tavola",
     "title": "La famiglia a tavola: ascolta",
-    "accessTier": "premium",
-    "isFree": false,
+    "accessTier": "free",
+    "isFree": true,
     "xpReward": 20,
     "orderIndex": 31,
     "estimatedMinutes": 8,
@@ -3806,209 +3945,6 @@
     ]
   },
   {
-    "slug": "italian-b1-salute-e-benessere-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "salute-e-benessere",
-    "title": "Salute e benessere: grammatica",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 31,
-    "estimatedMinutes": 10,
-    "description": "spiegare abitudini utili e cambiamenti personali",
-    "intro": "spiegare abitudini utili e cambiamenti personali",
-    "mission": "spiegare abitudini utili e cambiamenti personali",
-    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
-    "phrases": [
-      "Impariamo: benessere.",
-      "Impariamo: riposo.",
-      "Impariamo: allenamento.",
-      "Impariamo: equilibrio."
-    ],
-    "vocabulary": [
-      {
-        "word": "benessere",
-        "translation": "Palabra clave 1",
-        "example": "Uso la parola «benessere» nel contesto."
-      },
-      {
-        "word": "riposo",
-        "translation": "Palabra clave 2",
-        "example": "Uso la parola «riposo» nel contesto."
-      },
-      {
-        "word": "allenamento",
-        "translation": "Palabra clave 3",
-        "example": "Uso la parola «allenamento» nel contesto."
-      },
-      {
-        "word": "equilibrio",
-        "translation": "Palabra clave 4",
-        "example": "Uso la parola «equilibrio» nel contesto."
-      },
-      {
-        "word": "migliorare",
-        "translation": "Palabra clave 5",
-        "example": "Uso la parola «migliorare» nel contesto."
-      },
-      {
-        "word": "prevenire",
-        "translation": "Palabra clave 6",
-        "example": "Uso la parola «prevenire» nel contesto."
-      },
-      {
-        "word": "abitudine",
-        "translation": "Palabra clave 7",
-        "example": "Uso la parola «abitudine» nel contesto."
-      },
-      {
-        "word": "energia",
-        "translation": "Palabra clave 8",
-        "example": "Uso la parola «energia» nel contesto."
-      },
-      {
-        "word": "consiglio",
-        "translation": "Palabra clave 9",
-        "example": "Uso la parola «consiglio» nel contesto."
-      },
-      {
-        "word": "scelta",
-        "translation": "Palabra clave 10",
-        "example": "Uso la parola «scelta» nel contesto."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarProfile": {
-        "name": "Congiuntivo presente",
-        "definition": "Práctica guiada de Congiuntivo presente.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «benessere» in modo corretto?",
-        "options": [
-          "Il gruppo parla di benessere.",
-          "Il gruppo benessere parla di.",
-          "benessere il di gruppo parla.",
-          "Parla gruppo il benessere di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «riposo» in modo corretto?",
-        "options": [
-          "Il gruppo riposo parla di.",
-          "Il gruppo parla di riposo.",
-          "riposo il di gruppo parla.",
-          "Parla gruppo il riposo di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «allenamento» in modo corretto?",
-        "options": [
-          "allenamento il di gruppo parla.",
-          "Il gruppo allenamento parla di.",
-          "Il gruppo parla di allenamento.",
-          "Parla gruppo il allenamento di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «equilibrio» in modo corretto?",
-        "options": [
-          "Parla gruppo il equilibrio di.",
-          "Il gruppo equilibrio parla di.",
-          "equilibrio il di gruppo parla.",
-          "Il gruppo parla di equilibrio."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «migliorare» in modo corretto?",
-        "options": [
-          "Il gruppo parla di migliorare.",
-          "Il gruppo migliorare parla di.",
-          "migliorare il di gruppo parla.",
-          "Parla gruppo il migliorare di."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "italian-a1-la-famiglia-a-tavola-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "la-famiglia-a-tavola",
-    "title": "La famiglia a tavola: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 32,
-    "estimatedMinutes": 8,
-    "description": "Practica parlare della famiglia.",
-    "intro": "Practica parlare della famiglia.",
-    "mission": "Di Ceniamo insieme. y añade una frase sobre una cena familiare e gli orari italiani.",
-    "grammar": "",
-    "phrases": [
-      "Ceniamo insieme.",
-      "Mi piace famiglia.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: parlare della famiglia. Usa «Ceniamo insieme.»."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-ricette-di-famiglia-speaking",
-    "level": "A2",
-    "skill": "speaking",
-    "unitId": "ricette-di-famiglia",
-    "title": "Ricette di famiglia: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 32,
-    "estimatedMinutes": 8,
-    "description": "Practica explicar una secuencia.",
-    "intro": "Practica explicar una secuencia.",
-    "mission": "Di Prima taglio le verdure. y añade una frase sobre recetas, recuerdos y medidas.",
-    "grammar": "",
-    "phrases": [
-      "Prima taglio le verdure.",
-      "Mi piace ricetta.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: explicar una secuencia. Usa «Prima taglio le verdure.»."
-      }
-    ]
-  },
-  {
     "slug": "italian-b1-salute-e-benessere-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -4149,13 +4085,77 @@
     ]
   },
   {
+    "slug": "italian-a1-la-famiglia-a-tavola-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "la-famiglia-a-tavola",
+    "title": "La famiglia a tavola: parla",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 20,
+    "orderIndex": 32,
+    "estimatedMinutes": 8,
+    "description": "Practica parlare della famiglia.",
+    "intro": "Practica parlare della famiglia.",
+    "mission": "Di Ceniamo insieme. y añade una frase sobre una cena familiare e gli orari italiani.",
+    "grammar": "",
+    "phrases": [
+      "Ceniamo insieme.",
+      "Mi piace famiglia.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: parlare della famiglia. Usa «Ceniamo insieme.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-ricette-di-famiglia-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "ricette-di-famiglia",
+    "title": "Ricette di famiglia: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 32,
+    "estimatedMinutes": 8,
+    "description": "Practica explicar una secuencia.",
+    "intro": "Practica explicar una secuencia.",
+    "mission": "Di Prima taglio le verdure. y añade una frase sobre recetas, recuerdos y medidas.",
+    "grammar": "",
+    "phrases": [
+      "Prima taglio le verdure.",
+      "Mi piace ricetta.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: explicar una secuencia. Usa «Prima taglio le verdure.»."
+      }
+    ]
+  },
+  {
     "slug": "italian-a1-la-famiglia-a-tavola-writing",
     "level": "A1",
     "skill": "writing",
     "unitId": "la-famiglia-a-tavola",
     "title": "La famiglia a tavola: scrivi",
-    "accessTier": "premium",
-    "isFree": false,
+    "accessTier": "free",
+    "isFree": true,
     "xpReward": 20,
     "orderIndex": 33,
     "estimatedMinutes": 12,
@@ -4216,8 +4216,8 @@
     "skill": "grammar",
     "unitId": "la-famiglia-a-tavola",
     "title": "La famiglia a tavola: grammatica",
-    "accessTier": "premium",
-    "isFree": false,
+    "accessTier": "free",
+    "isFree": true,
     "xpReward": 20,
     "orderIndex": 34,
     "estimatedMinutes": 8,
@@ -4366,8 +4366,8 @@
     "skill": "vocabulary",
     "unitId": "la-famiglia-a-tavola",
     "title": "La famiglia a tavola: parole",
-    "accessTier": "premium",
-    "isFree": false,
+    "accessTier": "free",
+    "isFree": true,
     "xpReward": 20,
     "orderIndex": 35,
     "estimatedMinutes": 8,
@@ -4466,6 +4466,145 @@
           "computadora",
           "laboratorio",
           "satélite"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-b1-cultura-e-media-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "cultura-e-media",
+    "title": "Cultura e media: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 40,
+    "estimatedMinutes": 12,
+    "description": "esprimere opinioni su cultura e informazione",
+    "intro": "esprimere opinioni su cultura e informazione",
+    "mission": "esprimere opinioni su cultura e informazione",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Impariamo: notizia.",
+      "Impariamo: fonte.",
+      "Impariamo: pubblico.",
+      "Impariamo: opinione."
+    ],
+    "vocabulary": [
+      {
+        "word": "notizia",
+        "translation": "Palabra clave 1",
+        "example": "Uso la parola «notizia» nel contesto."
+      },
+      {
+        "word": "fonte",
+        "translation": "Palabra clave 2",
+        "example": "Uso la parola «fonte» nel contesto."
+      },
+      {
+        "word": "pubblico",
+        "translation": "Palabra clave 3",
+        "example": "Uso la parola «pubblico» nel contesto."
+      },
+      {
+        "word": "opinione",
+        "translation": "Palabra clave 4",
+        "example": "Uso la parola «opinione» nel contesto."
+      },
+      {
+        "word": "confrontare",
+        "translation": "Palabra clave 5",
+        "example": "Uso la parola «confrontare» nel contesto."
+      },
+      {
+        "word": "dibattito",
+        "translation": "Palabra clave 6",
+        "example": "Uso la parola «dibattito» nel contesto."
+      },
+      {
+        "word": "contenuto",
+        "translation": "Palabra clave 7",
+        "example": "Uso la parola «contenuto» nel contesto."
+      },
+      {
+        "word": "affidabile",
+        "translation": "Palabra clave 8",
+        "example": "Uso la parola «affidabile» nel contesto."
+      },
+      {
+        "word": "prospettiva",
+        "translation": "Palabra clave 9",
+        "example": "Uso la parola «prospettiva» nel contesto."
+      },
+      {
+        "word": "comunicare",
+        "translation": "Palabra clave 10",
+        "example": "Uso la parola «comunicare» nel contesto."
+      }
+    ],
+    "dialogue": [],
+    "reading": {
+      "text": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "questions": [
+        "Di che cosa parla il gruppo?",
+        "Che cosa fa ogni persona?",
+        "Perché decidono di collaborare?",
+        "Quale idea aiuta nella vita quotidiana?"
+      ]
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Di che cosa parla il gruppo?",
+        "options": [
+          "notizia",
+          "affidabile",
+          "prospettiva",
+          "comunicare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Che cosa fa ogni persona?",
+        "options": [
+          "Cuenta una experiencia, escucha y propone una solución.",
+          "Compra una entrada para un evento.",
+          "No escucha a las otras personas.",
+          "Cancela el proyecto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Perché decidono di collaborare?",
+        "options": [
+          "Porque tienen un objetivo claro.",
+          "Porque no tienen tiempo.",
+          "Porque no conocen el tema.",
+          "Porque prefieren trabajar solos."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "options": [
+          "Una solución concreta y colaborativa.",
+          "Una lista sin contexto.",
+          "Una discusión sin objetivo.",
+          "Una decisión individual."
+        ]
+      },
+      {
+        "id": "italian-b1-cultura-e-media-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Cultura e media: lectura»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Cultura e media: lectura",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
         ]
       }
     ]
@@ -4642,16 +4781,16 @@
     ]
   },
   {
-    "slug": "italian-b1-cultura-e-media-reading",
+    "slug": "italian-b1-cultura-e-media-grammar",
     "level": "B1",
-    "skill": "reading",
+    "skill": "grammar",
     "unitId": "cultura-e-media",
-    "title": "Cultura e media: lectura",
+    "title": "Cultura e media: grammatica",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 40,
-    "estimatedMinutes": 12,
+    "orderIndex": 41,
+    "estimatedMinutes": 10,
     "description": "esprimere opinioni su cultura e informazione",
     "intro": "esprimere opinioni su cultura e informazione",
     "mission": "esprimere opinioni su cultura e informazione",
@@ -4715,67 +4854,67 @@
       }
     ],
     "dialogue": [],
-    "reading": {
-      "text": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-      "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Discorso indiretto",
+        "definition": "Práctica guiada de Discorso indiretto.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "examples": []
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Quale frase usa «notizia» in modo corretto?",
         "options": [
-          "notizia",
-          "affidabile",
-          "prospettiva",
-          "comunicare"
+          "Il gruppo parla di notizia.",
+          "Il gruppo notizia parla di.",
+          "notizia il di gruppo parla.",
+          "Parla gruppo il notizia di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Quale frase usa «fonte» in modo corretto?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Il gruppo fonte parla di.",
+          "Il gruppo parla di fonte.",
+          "fonte il di gruppo parla.",
+          "Parla gruppo il fonte di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale frase usa «pubblico» in modo corretto?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "pubblico il di gruppo parla.",
+          "Il gruppo pubblico parla di.",
+          "Il gruppo parla di pubblico.",
+          "Parla gruppo il pubblico di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Quale frase usa «opinione» in modo corretto?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Parla gruppo il opinione di.",
+          "Il gruppo opinione parla di.",
+          "opinione il di gruppo parla.",
+          "Il gruppo parla di opinione."
         ]
       },
       {
-        "id": "italian-b1-cultura-e-media-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Cultura e media: lectura»?",
+        "prompt": "Quale frase usa «confrontare» in modo corretto?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Cultura e media: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Il gruppo parla di confrontare.",
+          "Il gruppo confrontare parla di.",
+          "confrontare il di gruppo parla.",
+          "Parla gruppo il confrontare di."
         ]
       }
     ]
@@ -5159,209 +5298,6 @@
     ]
   },
   {
-    "slug": "italian-b1-cultura-e-media-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "cultura-e-media",
-    "title": "Cultura e media: grammatica",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 41,
-    "estimatedMinutes": 10,
-    "description": "esprimere opinioni su cultura e informazione",
-    "intro": "esprimere opinioni su cultura e informazione",
-    "mission": "esprimere opinioni su cultura e informazione",
-    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
-    "phrases": [
-      "Impariamo: notizia.",
-      "Impariamo: fonte.",
-      "Impariamo: pubblico.",
-      "Impariamo: opinione."
-    ],
-    "vocabulary": [
-      {
-        "word": "notizia",
-        "translation": "Palabra clave 1",
-        "example": "Uso la parola «notizia» nel contesto."
-      },
-      {
-        "word": "fonte",
-        "translation": "Palabra clave 2",
-        "example": "Uso la parola «fonte» nel contesto."
-      },
-      {
-        "word": "pubblico",
-        "translation": "Palabra clave 3",
-        "example": "Uso la parola «pubblico» nel contesto."
-      },
-      {
-        "word": "opinione",
-        "translation": "Palabra clave 4",
-        "example": "Uso la parola «opinione» nel contesto."
-      },
-      {
-        "word": "confrontare",
-        "translation": "Palabra clave 5",
-        "example": "Uso la parola «confrontare» nel contesto."
-      },
-      {
-        "word": "dibattito",
-        "translation": "Palabra clave 6",
-        "example": "Uso la parola «dibattito» nel contesto."
-      },
-      {
-        "word": "contenuto",
-        "translation": "Palabra clave 7",
-        "example": "Uso la parola «contenuto» nel contesto."
-      },
-      {
-        "word": "affidabile",
-        "translation": "Palabra clave 8",
-        "example": "Uso la parola «affidabile» nel contesto."
-      },
-      {
-        "word": "prospettiva",
-        "translation": "Palabra clave 9",
-        "example": "Uso la parola «prospettiva» nel contesto."
-      },
-      {
-        "word": "comunicare",
-        "translation": "Palabra clave 10",
-        "example": "Uso la parola «comunicare» nel contesto."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarProfile": {
-        "name": "Discorso indiretto",
-        "definition": "Práctica guiada de Discorso indiretto.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «notizia» in modo corretto?",
-        "options": [
-          "Il gruppo parla di notizia.",
-          "Il gruppo notizia parla di.",
-          "notizia il di gruppo parla.",
-          "Parla gruppo il notizia di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «fonte» in modo corretto?",
-        "options": [
-          "Il gruppo fonte parla di.",
-          "Il gruppo parla di fonte.",
-          "fonte il di gruppo parla.",
-          "Parla gruppo il fonte di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «pubblico» in modo corretto?",
-        "options": [
-          "pubblico il di gruppo parla.",
-          "Il gruppo pubblico parla di.",
-          "Il gruppo parla di pubblico.",
-          "Parla gruppo il pubblico di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «opinione» in modo corretto?",
-        "options": [
-          "Parla gruppo il opinione di.",
-          "Il gruppo opinione parla di.",
-          "opinione il di gruppo parla.",
-          "Il gruppo parla di opinione."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «confrontare» in modo corretto?",
-        "options": [
-          "Il gruppo parla di confrontare.",
-          "Il gruppo confrontare parla di.",
-          "confrontare il di gruppo parla.",
-          "Parla gruppo il confrontare di."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "italian-a1-il-mercato-del-sabato-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "il-mercato-del-sabato",
-    "title": "Il mercato del sabato: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 42,
-    "estimatedMinutes": 8,
-    "description": "Practica comprare al mercato.",
-    "intro": "Practica comprare al mercato.",
-    "mission": "Di Quanto costa un chilo? y añade una frase sobre frutta, verdura e prezzi al mercato.",
-    "grammar": "",
-    "phrases": [
-      "Quanto costa un chilo?",
-      "Mi piace pomodoro.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: comprare al mercato. Usa «Quanto costa un chilo?»."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-il-lavoro-e-il-caffe-speaking",
-    "level": "A2",
-    "skill": "speaking",
-    "unitId": "il-lavoro-e-il-caffe",
-    "title": "Il lavoro e il caffè: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 42,
-    "estimatedMinutes": 8,
-    "description": "Practica interactuar en el trabajo.",
-    "intro": "Practica interactuar en el trabajo.",
-    "mission": "Di Posso fare una pausa? y añade una frase sobre pausas laborales y registros de cortesía.",
-    "grammar": "",
-    "phrases": [
-      "Posso fare una pausa?",
-      "Mi piace collega.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: interactuar en el trabajo. Usa «Posso fare una pausa?»."
-      }
-    ]
-  },
-  {
     "slug": "italian-b1-cultura-e-media-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -5498,6 +5434,70 @@
           "affidabile",
           "prospettiva"
         ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-il-mercato-del-sabato-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "il-mercato-del-sabato",
+    "title": "Il mercato del sabato: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 42,
+    "estimatedMinutes": 8,
+    "description": "Practica comprare al mercato.",
+    "intro": "Practica comprare al mercato.",
+    "mission": "Di Quanto costa un chilo? y añade una frase sobre frutta, verdura e prezzi al mercato.",
+    "grammar": "",
+    "phrases": [
+      "Quanto costa un chilo?",
+      "Mi piace pomodoro.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: comprare al mercato. Usa «Quanto costa un chilo?»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-il-lavoro-e-il-caffe-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "il-lavoro-e-il-caffe",
+    "title": "Il lavoro e il caffè: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 42,
+    "estimatedMinutes": 8,
+    "description": "Practica interactuar en el trabajo.",
+    "intro": "Practica interactuar en el trabajo.",
+    "mission": "Di Posso fare una pausa? y añade una frase sobre pausas laborales y registros de cortesía.",
+    "grammar": "",
+    "phrases": [
+      "Posso fare una pausa?",
+      "Mi piace collega.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: interactuar en el trabajo. Usa «Posso fare una pausa?»."
       }
     ]
   },
@@ -5824,6 +5824,145 @@
     ]
   },
   {
+    "slug": "italian-b1-ambiente-nel-quartiere-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "ambiente-nel-quartiere",
+    "title": "Ambiente nel quartiere: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 50,
+    "estimatedMinutes": 12,
+    "description": "descrivere un problema ambientale e una proposta",
+    "intro": "descrivere un problema ambientale e una proposta",
+    "mission": "descrivere un problema ambientale e una proposta",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Impariamo: rifiuto.",
+      "Impariamo: raccolta.",
+      "Impariamo: risorsa.",
+      "Impariamo: ridurre."
+    ],
+    "vocabulary": [
+      {
+        "word": "rifiuto",
+        "translation": "Palabra clave 1",
+        "example": "Uso la parola «rifiuto» nel contesto."
+      },
+      {
+        "word": "raccolta",
+        "translation": "Palabra clave 2",
+        "example": "Uso la parola «raccolta» nel contesto."
+      },
+      {
+        "word": "risorsa",
+        "translation": "Palabra clave 3",
+        "example": "Uso la parola «risorsa» nel contesto."
+      },
+      {
+        "word": "ridurre",
+        "translation": "Palabra clave 4",
+        "example": "Uso la parola «ridurre» nel contesto."
+      },
+      {
+        "word": "quartiere",
+        "translation": "Palabra clave 5",
+        "example": "Uso la parola «quartiere» nel contesto."
+      },
+      {
+        "word": "volontario",
+        "translation": "Palabra clave 6",
+        "example": "Uso la parola «volontario» nel contesto."
+      },
+      {
+        "word": "iniziativa",
+        "translation": "Palabra clave 7",
+        "example": "Uso la parola «iniziativa» nel contesto."
+      },
+      {
+        "word": "impatto",
+        "translation": "Palabra clave 8",
+        "example": "Uso la parola «impatto» nel contesto."
+      },
+      {
+        "word": "migliorare",
+        "translation": "Palabra clave 9",
+        "example": "Uso la parola «migliorare» nel contesto."
+      },
+      {
+        "word": "sostenere",
+        "translation": "Palabra clave 10",
+        "example": "Uso la parola «sostenere» nel contesto."
+      }
+    ],
+    "dialogue": [],
+    "reading": {
+      "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "questions": [
+        "Di che cosa parla il gruppo?",
+        "Che cosa fa ogni persona?",
+        "Perché decidono di collaborare?",
+        "Quale idea aiuta nella vita quotidiana?"
+      ]
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Di che cosa parla il gruppo?",
+        "options": [
+          "rifiuto",
+          "impatto",
+          "migliorare",
+          "sostenere"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Che cosa fa ogni persona?",
+        "options": [
+          "Cuenta una experiencia, escucha y propone una solución.",
+          "Compra una entrada para un evento.",
+          "No escucha a las otras personas.",
+          "Cancela el proyecto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Perché decidono di collaborare?",
+        "options": [
+          "Porque tienen un objetivo claro.",
+          "Porque no tienen tiempo.",
+          "Porque no conocen el tema.",
+          "Porque prefieren trabajar solos."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "options": [
+          "Una solución concreta y colaborativa.",
+          "Una lista sin contexto.",
+          "Una discusión sin objetivo.",
+          "Una decisión individual."
+        ]
+      },
+      {
+        "id": "italian-b1-ambiente-nel-quartiere-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Ambiente nel quartiere: lectura»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Ambiente nel quartiere: lectura",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "italian-a1-in-bicicletta-reading",
     "level": "A1",
     "skill": "reading",
@@ -5995,16 +6134,16 @@
     ]
   },
   {
-    "slug": "italian-b1-ambiente-nel-quartiere-reading",
+    "slug": "italian-b1-ambiente-nel-quartiere-grammar",
     "level": "B1",
-    "skill": "reading",
+    "skill": "grammar",
     "unitId": "ambiente-nel-quartiere",
-    "title": "Ambiente nel quartiere: lectura",
+    "title": "Ambiente nel quartiere: grammatica",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 50,
-    "estimatedMinutes": 12,
+    "orderIndex": 51,
+    "estimatedMinutes": 10,
     "description": "descrivere un problema ambientale e una proposta",
     "intro": "descrivere un problema ambientale e una proposta",
     "mission": "descrivere un problema ambientale e una proposta",
@@ -6068,67 +6207,67 @@
       }
     ],
     "dialogue": [],
-    "reading": {
-      "text": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-      "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Passivo e si impersonale",
+        "definition": "Práctica guiada de Passivo e si impersonale.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "examples": []
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Quale frase usa «rifiuto» in modo corretto?",
         "options": [
-          "rifiuto",
-          "impatto",
-          "migliorare",
-          "sostenere"
+          "Il gruppo parla di rifiuto.",
+          "Il gruppo rifiuto parla di.",
+          "rifiuto il di gruppo parla.",
+          "Parla gruppo il rifiuto di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Quale frase usa «raccolta» in modo corretto?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Il gruppo raccolta parla di.",
+          "Il gruppo parla di raccolta.",
+          "raccolta il di gruppo parla.",
+          "Parla gruppo il raccolta di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale frase usa «risorsa» in modo corretto?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "risorsa il di gruppo parla.",
+          "Il gruppo risorsa parla di.",
+          "Il gruppo parla di risorsa.",
+          "Parla gruppo il risorsa di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Quale frase usa «ridurre» in modo corretto?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Parla gruppo il ridurre di.",
+          "Il gruppo ridurre parla di.",
+          "ridurre il di gruppo parla.",
+          "Il gruppo parla di ridurre."
         ]
       },
       {
-        "id": "italian-b1-ambiente-nel-quartiere-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Ambiente nel quartiere: lectura»?",
+        "prompt": "Quale frase usa «quartiere» in modo corretto?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Ambiente nel quartiere: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Il gruppo parla di quartiere.",
+          "Il gruppo quartiere parla di.",
+          "quartiere il di gruppo parla.",
+          "Parla gruppo il quartiere di."
         ]
       }
     ]
@@ -6512,209 +6651,6 @@
     ]
   },
   {
-    "slug": "italian-b1-ambiente-nel-quartiere-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "ambiente-nel-quartiere",
-    "title": "Ambiente nel quartiere: grammatica",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 51,
-    "estimatedMinutes": 10,
-    "description": "descrivere un problema ambientale e una proposta",
-    "intro": "descrivere un problema ambientale e una proposta",
-    "mission": "descrivere un problema ambientale e una proposta",
-    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
-    "phrases": [
-      "Impariamo: rifiuto.",
-      "Impariamo: raccolta.",
-      "Impariamo: risorsa.",
-      "Impariamo: ridurre."
-    ],
-    "vocabulary": [
-      {
-        "word": "rifiuto",
-        "translation": "Palabra clave 1",
-        "example": "Uso la parola «rifiuto» nel contesto."
-      },
-      {
-        "word": "raccolta",
-        "translation": "Palabra clave 2",
-        "example": "Uso la parola «raccolta» nel contesto."
-      },
-      {
-        "word": "risorsa",
-        "translation": "Palabra clave 3",
-        "example": "Uso la parola «risorsa» nel contesto."
-      },
-      {
-        "word": "ridurre",
-        "translation": "Palabra clave 4",
-        "example": "Uso la parola «ridurre» nel contesto."
-      },
-      {
-        "word": "quartiere",
-        "translation": "Palabra clave 5",
-        "example": "Uso la parola «quartiere» nel contesto."
-      },
-      {
-        "word": "volontario",
-        "translation": "Palabra clave 6",
-        "example": "Uso la parola «volontario» nel contesto."
-      },
-      {
-        "word": "iniziativa",
-        "translation": "Palabra clave 7",
-        "example": "Uso la parola «iniziativa» nel contesto."
-      },
-      {
-        "word": "impatto",
-        "translation": "Palabra clave 8",
-        "example": "Uso la parola «impatto» nel contesto."
-      },
-      {
-        "word": "migliorare",
-        "translation": "Palabra clave 9",
-        "example": "Uso la parola «migliorare» nel contesto."
-      },
-      {
-        "word": "sostenere",
-        "translation": "Palabra clave 10",
-        "example": "Uso la parola «sostenere» nel contesto."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarProfile": {
-        "name": "Passivo e si impersonale",
-        "definition": "Práctica guiada de Passivo e si impersonale.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «rifiuto» in modo corretto?",
-        "options": [
-          "Il gruppo parla di rifiuto.",
-          "Il gruppo rifiuto parla di.",
-          "rifiuto il di gruppo parla.",
-          "Parla gruppo il rifiuto di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «raccolta» in modo corretto?",
-        "options": [
-          "Il gruppo raccolta parla di.",
-          "Il gruppo parla di raccolta.",
-          "raccolta il di gruppo parla.",
-          "Parla gruppo il raccolta di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «risorsa» in modo corretto?",
-        "options": [
-          "risorsa il di gruppo parla.",
-          "Il gruppo risorsa parla di.",
-          "Il gruppo parla di risorsa.",
-          "Parla gruppo il risorsa di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «ridurre» in modo corretto?",
-        "options": [
-          "Parla gruppo il ridurre di.",
-          "Il gruppo ridurre parla di.",
-          "ridurre il di gruppo parla.",
-          "Il gruppo parla di ridurre."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «quartiere» in modo corretto?",
-        "options": [
-          "Il gruppo parla di quartiere.",
-          "Il gruppo quartiere parla di.",
-          "quartiere il di gruppo parla.",
-          "Parla gruppo il quartiere di."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "italian-a1-in-bicicletta-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "in-bicicletta",
-    "title": "In bicicletta: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 52,
-    "estimatedMinutes": 8,
-    "description": "Practica chiedere indicazioni.",
-    "intro": "Practica chiedere indicazioni.",
-    "mission": "Di Dov’è la stazione? y añade una frase sobre moverse por la ciudad en bicicleta.",
-    "grammar": "",
-    "phrases": [
-      "Dov’è la stazione?",
-      "Mi piace strada.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: chiedere indicazioni. Usa «Dov’è la stazione?»."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-arte-nel-quartiere-speaking",
-    "level": "A2",
-    "skill": "speaking",
-    "unitId": "arte-nel-quartiere",
-    "title": "Arte nel quartiere: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 52,
-    "estimatedMinutes": 8,
-    "description": "Practica dar una opinión.",
-    "intro": "Practica dar una opinión.",
-    "mission": "Di La mostra era interessante. y añade una frase sobre arte local y espacios compartidos.",
-    "grammar": "",
-    "phrases": [
-      "La mostra era interessante.",
-      "Mi piace mostra.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: dar una opinión. Usa «La mostra era interessante.»."
-      }
-    ]
-  },
-  {
     "slug": "italian-b1-ambiente-nel-quartiere-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -6851,6 +6787,70 @@
           "impatto",
           "migliorare"
         ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-in-bicicletta-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "in-bicicletta",
+    "title": "In bicicletta: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 52,
+    "estimatedMinutes": 8,
+    "description": "Practica chiedere indicazioni.",
+    "intro": "Practica chiedere indicazioni.",
+    "mission": "Di Dov’è la stazione? y añade una frase sobre moverse por la ciudad en bicicleta.",
+    "grammar": "",
+    "phrases": [
+      "Dov’è la stazione?",
+      "Mi piace strada.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: chiedere indicazioni. Usa «Dov’è la stazione?»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-arte-nel-quartiere-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "arte-nel-quartiere",
+    "title": "Arte nel quartiere: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 52,
+    "estimatedMinutes": 8,
+    "description": "Practica dar una opinión.",
+    "intro": "Practica dar una opinión.",
+    "mission": "Di La mostra era interessante. y añade una frase sobre arte local y espacios compartidos.",
+    "grammar": "",
+    "phrases": [
+      "La mostra era interessante.",
+      "Mi piace mostra.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: dar una opinión. Usa «La mostra era interessante.»."
       }
     ]
   },
@@ -7177,6 +7177,145 @@
     ]
   },
   {
+    "slug": "italian-b1-storie-e-memoria-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "storie-e-memoria",
+    "title": "Storie e memoria: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 60,
+    "estimatedMinutes": 12,
+    "description": "narrare esperienze e collegarle al presente",
+    "intro": "narrare esperienze e collegarle al presente",
+    "mission": "narrare esperienze e collegarle al presente",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Impariamo: memoria.",
+      "Impariamo: infanzia.",
+      "Impariamo: cambiamento.",
+      "Impariamo: raccontare."
+    ],
+    "vocabulary": [
+      {
+        "word": "memoria",
+        "translation": "Palabra clave 1",
+        "example": "Uso la parola «memoria» nel contesto."
+      },
+      {
+        "word": "infanzia",
+        "translation": "Palabra clave 2",
+        "example": "Uso la parola «infanzia» nel contesto."
+      },
+      {
+        "word": "cambiamento",
+        "translation": "Palabra clave 3",
+        "example": "Uso la parola «cambiamento» nel contesto."
+      },
+      {
+        "word": "raccontare",
+        "translation": "Palabra clave 4",
+        "example": "Uso la parola «raccontare» nel contesto."
+      },
+      {
+        "word": "passato",
+        "translation": "Palabra clave 5",
+        "example": "Uso la parola «passato» nel contesto."
+      },
+      {
+        "word": "incontro",
+        "translation": "Palabra clave 6",
+        "example": "Uso la parola «incontro» nel contesto."
+      },
+      {
+        "word": "tradizione",
+        "translation": "Palabra clave 7",
+        "example": "Uso la parola «tradizione» nel contesto."
+      },
+      {
+        "word": "generazione",
+        "translation": "Palabra clave 8",
+        "example": "Uso la parola «generazione» nel contesto."
+      },
+      {
+        "word": "imparare",
+        "translation": "Palabra clave 9",
+        "example": "Uso la parola «imparare» nel contesto."
+      },
+      {
+        "word": "significato",
+        "translation": "Palabra clave 10",
+        "example": "Uso la parola «significato» nel contesto."
+      }
+    ],
+    "dialogue": [],
+    "reading": {
+      "text": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "questions": [
+        "Di che cosa parla il gruppo?",
+        "Che cosa fa ogni persona?",
+        "Perché decidono di collaborare?",
+        "Quale idea aiuta nella vita quotidiana?"
+      ]
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Di che cosa parla il gruppo?",
+        "options": [
+          "memoria",
+          "generazione",
+          "imparare",
+          "significato"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Che cosa fa ogni persona?",
+        "options": [
+          "Cuenta una experiencia, escucha y propone una solución.",
+          "Compra una entrada para un evento.",
+          "No escucha a las otras personas.",
+          "Cancela el proyecto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Perché decidono di collaborare?",
+        "options": [
+          "Porque tienen un objetivo claro.",
+          "Porque no tienen tiempo.",
+          "Porque no conocen el tema.",
+          "Porque prefieren trabajar solos."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "options": [
+          "Una solución concreta y colaborativa.",
+          "Una lista sin contexto.",
+          "Una discusión sin objetivo.",
+          "Una decisión individual."
+        ]
+      },
+      {
+        "id": "italian-b1-storie-e-memoria-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Storie e memoria: lectura»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Storie e memoria: lectura",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "italian-a1-scuola-e-amici-reading",
     "level": "A1",
     "skill": "reading",
@@ -7348,16 +7487,16 @@
     ]
   },
   {
-    "slug": "italian-b1-storie-e-memoria-reading",
+    "slug": "italian-b1-storie-e-memoria-grammar",
     "level": "B1",
-    "skill": "reading",
+    "skill": "grammar",
     "unitId": "storie-e-memoria",
-    "title": "Storie e memoria: lectura",
+    "title": "Storie e memoria: grammatica",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 60,
-    "estimatedMinutes": 12,
+    "orderIndex": 61,
+    "estimatedMinutes": 10,
     "description": "narrare esperienze e collegarle al presente",
     "intro": "narrare esperienze e collegarle al presente",
     "mission": "narrare esperienze e collegarle al presente",
@@ -7421,67 +7560,67 @@
       }
     ],
     "dialogue": [],
-    "reading": {
-      "text": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-      "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Trapassato prossimo",
+        "definition": "Práctica guiada de Trapassato prossimo.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "examples": []
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Quale frase usa «memoria» in modo corretto?",
         "options": [
-          "memoria",
-          "generazione",
-          "imparare",
-          "significato"
+          "Il gruppo parla di memoria.",
+          "Il gruppo memoria parla di.",
+          "memoria il di gruppo parla.",
+          "Parla gruppo il memoria di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Quale frase usa «infanzia» in modo corretto?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Il gruppo infanzia parla di.",
+          "Il gruppo parla di infanzia.",
+          "infanzia il di gruppo parla.",
+          "Parla gruppo il infanzia di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale frase usa «cambiamento» in modo corretto?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "cambiamento il di gruppo parla.",
+          "Il gruppo cambiamento parla di.",
+          "Il gruppo parla di cambiamento.",
+          "Parla gruppo il cambiamento di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Quale frase usa «raccontare» in modo corretto?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Parla gruppo il raccontare di.",
+          "Il gruppo raccontare parla di.",
+          "raccontare il di gruppo parla.",
+          "Il gruppo parla di raccontare."
         ]
       },
       {
-        "id": "italian-b1-storie-e-memoria-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Storie e memoria: lectura»?",
+        "prompt": "Quale frase usa «passato» in modo corretto?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Storie e memoria: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Il gruppo parla di passato.",
+          "Il gruppo passato parla di.",
+          "passato il di gruppo parla.",
+          "Parla gruppo il passato di."
         ]
       }
     ]
@@ -7865,209 +8004,6 @@
     ]
   },
   {
-    "slug": "italian-b1-storie-e-memoria-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "storie-e-memoria",
-    "title": "Storie e memoria: grammatica",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 61,
-    "estimatedMinutes": 10,
-    "description": "narrare esperienze e collegarle al presente",
-    "intro": "narrare esperienze e collegarle al presente",
-    "mission": "narrare esperienze e collegarle al presente",
-    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
-    "phrases": [
-      "Impariamo: memoria.",
-      "Impariamo: infanzia.",
-      "Impariamo: cambiamento.",
-      "Impariamo: raccontare."
-    ],
-    "vocabulary": [
-      {
-        "word": "memoria",
-        "translation": "Palabra clave 1",
-        "example": "Uso la parola «memoria» nel contesto."
-      },
-      {
-        "word": "infanzia",
-        "translation": "Palabra clave 2",
-        "example": "Uso la parola «infanzia» nel contesto."
-      },
-      {
-        "word": "cambiamento",
-        "translation": "Palabra clave 3",
-        "example": "Uso la parola «cambiamento» nel contesto."
-      },
-      {
-        "word": "raccontare",
-        "translation": "Palabra clave 4",
-        "example": "Uso la parola «raccontare» nel contesto."
-      },
-      {
-        "word": "passato",
-        "translation": "Palabra clave 5",
-        "example": "Uso la parola «passato» nel contesto."
-      },
-      {
-        "word": "incontro",
-        "translation": "Palabra clave 6",
-        "example": "Uso la parola «incontro» nel contesto."
-      },
-      {
-        "word": "tradizione",
-        "translation": "Palabra clave 7",
-        "example": "Uso la parola «tradizione» nel contesto."
-      },
-      {
-        "word": "generazione",
-        "translation": "Palabra clave 8",
-        "example": "Uso la parola «generazione» nel contesto."
-      },
-      {
-        "word": "imparare",
-        "translation": "Palabra clave 9",
-        "example": "Uso la parola «imparare» nel contesto."
-      },
-      {
-        "word": "significato",
-        "translation": "Palabra clave 10",
-        "example": "Uso la parola «significato» nel contesto."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarProfile": {
-        "name": "Trapassato prossimo",
-        "definition": "Práctica guiada de Trapassato prossimo.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «memoria» in modo corretto?",
-        "options": [
-          "Il gruppo parla di memoria.",
-          "Il gruppo memoria parla di.",
-          "memoria il di gruppo parla.",
-          "Parla gruppo il memoria di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «infanzia» in modo corretto?",
-        "options": [
-          "Il gruppo infanzia parla di.",
-          "Il gruppo parla di infanzia.",
-          "infanzia il di gruppo parla.",
-          "Parla gruppo il infanzia di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «cambiamento» in modo corretto?",
-        "options": [
-          "cambiamento il di gruppo parla.",
-          "Il gruppo cambiamento parla di.",
-          "Il gruppo parla di cambiamento.",
-          "Parla gruppo il cambiamento di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «raccontare» in modo corretto?",
-        "options": [
-          "Parla gruppo il raccontare di.",
-          "Il gruppo raccontare parla di.",
-          "raccontare il di gruppo parla.",
-          "Il gruppo parla di raccontare."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «passato» in modo corretto?",
-        "options": [
-          "Il gruppo parla di passato.",
-          "Il gruppo passato parla di.",
-          "passato il di gruppo parla.",
-          "Parla gruppo il passato di."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "italian-a1-scuola-e-amici-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "scuola-e-amici",
-    "title": "Scuola e amici: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 62,
-    "estimatedMinutes": 8,
-    "description": "Practica hablar de gustos.",
-    "intro": "Practica hablar de gustos.",
-    "mission": "Di Che materia ti piace? y añade una frase sobre la vida escolar y una merienda.",
-    "grammar": "",
-    "phrases": [
-      "Che materia ti piace?",
-      "Mi piace scuola.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: hablar de gustos. Usa «Che materia ti piace?»."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-viaggiare-con-responsabilita-speaking",
-    "level": "A2",
-    "skill": "speaking",
-    "unitId": "viaggiare-con-responsabilita",
-    "title": "Viaggiare con responsabilità: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 62,
-    "estimatedMinutes": 8,
-    "description": "Practica expresar intención.",
-    "intro": "Practica expresar intención.",
-    "mission": "Di Non voglio disturbare i residenti. y añade una frase sobre viajar cuidando barrios y personas.",
-    "grammar": "",
-    "phrases": [
-      "Non voglio disturbare i residenti.",
-      "Mi piace residente.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: expresar intención. Usa «Non voglio disturbare i residenti.»."
-      }
-    ]
-  },
-  {
     "slug": "italian-b1-storie-e-memoria-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -8204,6 +8140,70 @@
           "generazione",
           "imparare"
         ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-scuola-e-amici-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "scuola-e-amici",
+    "title": "Scuola e amici: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 62,
+    "estimatedMinutes": 8,
+    "description": "Practica hablar de gustos.",
+    "intro": "Practica hablar de gustos.",
+    "mission": "Di Che materia ti piace? y añade una frase sobre la vida escolar y una merienda.",
+    "grammar": "",
+    "phrases": [
+      "Che materia ti piace?",
+      "Mi piace scuola.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: hablar de gustos. Usa «Che materia ti piace?»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-viaggiare-con-responsabilita-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "viaggiare-con-responsabilita",
+    "title": "Viaggiare con responsabilità: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 62,
+    "estimatedMinutes": 8,
+    "description": "Practica expresar intención.",
+    "intro": "Practica expresar intención.",
+    "mission": "Di Non voglio disturbare i residenti. y añade una frase sobre viajar cuidando barrios y personas.",
+    "grammar": "",
+    "phrases": [
+      "Non voglio disturbare i residenti.",
+      "Mi piace residente.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: expresar intención. Usa «Non voglio disturbare i residenti.»."
       }
     ]
   },
@@ -8530,6 +8530,145 @@
     ]
   },
   {
+    "slug": "italian-b1-progetti-di-classe-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "progetti-di-classe",
+    "title": "Progetti di classe: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 70,
+    "estimatedMinutes": 12,
+    "description": "presentare un progetto e distribuirne i compiti",
+    "intro": "presentare un progetto e distribuirne i compiti",
+    "mission": "presentare un progetto e distribuirne i compiti",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Impariamo: progetto.",
+      "Impariamo: ricerca.",
+      "Impariamo: compito.",
+      "Impariamo: collaborazione."
+    ],
+    "vocabulary": [
+      {
+        "word": "progetto",
+        "translation": "Palabra clave 1",
+        "example": "Uso la parola «progetto» nel contesto."
+      },
+      {
+        "word": "ricerca",
+        "translation": "Palabra clave 2",
+        "example": "Uso la parola «ricerca» nel contesto."
+      },
+      {
+        "word": "compito",
+        "translation": "Palabra clave 3",
+        "example": "Uso la parola «compito» nel contesto."
+      },
+      {
+        "word": "collaborazione",
+        "translation": "Palabra clave 4",
+        "example": "Uso la parola «collaborazione» nel contesto."
+      },
+      {
+        "word": "presentare",
+        "translation": "Palabra clave 5",
+        "example": "Uso la parola «presentare» nel contesto."
+      },
+      {
+        "word": "accordo",
+        "translation": "Palabra clave 6",
+        "example": "Uso la parola «accordo» nel contesto."
+      },
+      {
+        "word": "soluzione",
+        "translation": "Palabra clave 7",
+        "example": "Uso la parola «soluzione» nel contesto."
+      },
+      {
+        "word": "scopo",
+        "translation": "Palabra clave 8",
+        "example": "Uso la parola «scopo» nel contesto."
+      },
+      {
+        "word": "partecipare",
+        "translation": "Palabra clave 9",
+        "example": "Uso la parola «partecipare» nel contesto."
+      },
+      {
+        "word": "risultato",
+        "translation": "Palabra clave 10",
+        "example": "Uso la parola «risultato» nel contesto."
+      }
+    ],
+    "dialogue": [],
+    "reading": {
+      "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "questions": [
+        "Di che cosa parla il gruppo?",
+        "Che cosa fa ogni persona?",
+        "Perché decidono di collaborare?",
+        "Quale idea aiuta nella vita quotidiana?"
+      ]
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Di che cosa parla il gruppo?",
+        "options": [
+          "progetto",
+          "scopo",
+          "partecipare",
+          "risultato"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Che cosa fa ogni persona?",
+        "options": [
+          "Cuenta una experiencia, escucha y propone una solución.",
+          "Compra una entrada para un evento.",
+          "No escucha a las otras personas.",
+          "Cancela el proyecto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Perché decidono di collaborare?",
+        "options": [
+          "Porque tienen un objetivo claro.",
+          "Porque no tienen tiempo.",
+          "Porque no conocen el tema.",
+          "Porque prefieren trabajar solos."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "options": [
+          "Una solución concreta y colaborativa.",
+          "Una lista sin contexto.",
+          "Una discusión sin objetivo.",
+          "Una decisión individual."
+        ]
+      },
+      {
+        "id": "italian-b1-progetti-di-classe-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Progetti di classe: lectura»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Progetti di classe: lectura",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "italian-a1-una-casa-italiana-reading",
     "level": "A1",
     "skill": "reading",
@@ -8701,16 +8840,16 @@
     ]
   },
   {
-    "slug": "italian-b1-progetti-di-classe-reading",
+    "slug": "italian-b1-progetti-di-classe-grammar",
     "level": "B1",
-    "skill": "reading",
+    "skill": "grammar",
     "unitId": "progetti-di-classe",
-    "title": "Progetti di classe: lectura",
+    "title": "Progetti di classe: grammatica",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 70,
-    "estimatedMinutes": 12,
+    "orderIndex": 71,
+    "estimatedMinutes": 10,
     "description": "presentare un progetto e distribuirne i compiti",
     "intro": "presentare un progetto e distribuirne i compiti",
     "mission": "presentare un progetto e distribuirne i compiti",
@@ -8774,67 +8913,67 @@
       }
     ],
     "dialogue": [],
-    "reading": {
-      "text": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-      "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Connettori argomentativi",
+        "definition": "Práctica guiada de Connettori argomentativi.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "examples": []
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Quale frase usa «progetto» in modo corretto?",
         "options": [
-          "progetto",
-          "scopo",
-          "partecipare",
-          "risultato"
+          "Il gruppo parla di progetto.",
+          "Il gruppo progetto parla di.",
+          "progetto il di gruppo parla.",
+          "Parla gruppo il progetto di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Quale frase usa «ricerca» in modo corretto?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Il gruppo ricerca parla di.",
+          "Il gruppo parla di ricerca.",
+          "ricerca il di gruppo parla.",
+          "Parla gruppo il ricerca di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale frase usa «compito» in modo corretto?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "compito il di gruppo parla.",
+          "Il gruppo compito parla di.",
+          "Il gruppo parla di compito.",
+          "Parla gruppo il compito di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Quale frase usa «collaborazione» in modo corretto?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Parla gruppo il collaborazione di.",
+          "Il gruppo collaborazione parla di.",
+          "collaborazione il di gruppo parla.",
+          "Il gruppo parla di collaborazione."
         ]
       },
       {
-        "id": "italian-b1-progetti-di-classe-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Progetti di classe: lectura»?",
+        "prompt": "Quale frase usa «presentare» in modo corretto?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Progetti di classe: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Il gruppo parla di presentare.",
+          "Il gruppo presentare parla di.",
+          "presentare il di gruppo parla.",
+          "Parla gruppo il presentare di."
         ]
       }
     ]
@@ -9218,209 +9357,6 @@
     ]
   },
   {
-    "slug": "italian-b1-progetti-di-classe-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "progetti-di-classe",
-    "title": "Progetti di classe: grammatica",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 71,
-    "estimatedMinutes": 10,
-    "description": "presentare un progetto e distribuirne i compiti",
-    "intro": "presentare un progetto e distribuirne i compiti",
-    "mission": "presentare un progetto e distribuirne i compiti",
-    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
-    "phrases": [
-      "Impariamo: progetto.",
-      "Impariamo: ricerca.",
-      "Impariamo: compito.",
-      "Impariamo: collaborazione."
-    ],
-    "vocabulary": [
-      {
-        "word": "progetto",
-        "translation": "Palabra clave 1",
-        "example": "Uso la parola «progetto» nel contesto."
-      },
-      {
-        "word": "ricerca",
-        "translation": "Palabra clave 2",
-        "example": "Uso la parola «ricerca» nel contesto."
-      },
-      {
-        "word": "compito",
-        "translation": "Palabra clave 3",
-        "example": "Uso la parola «compito» nel contesto."
-      },
-      {
-        "word": "collaborazione",
-        "translation": "Palabra clave 4",
-        "example": "Uso la parola «collaborazione» nel contesto."
-      },
-      {
-        "word": "presentare",
-        "translation": "Palabra clave 5",
-        "example": "Uso la parola «presentare» nel contesto."
-      },
-      {
-        "word": "accordo",
-        "translation": "Palabra clave 6",
-        "example": "Uso la parola «accordo» nel contesto."
-      },
-      {
-        "word": "soluzione",
-        "translation": "Palabra clave 7",
-        "example": "Uso la parola «soluzione» nel contesto."
-      },
-      {
-        "word": "scopo",
-        "translation": "Palabra clave 8",
-        "example": "Uso la parola «scopo» nel contesto."
-      },
-      {
-        "word": "partecipare",
-        "translation": "Palabra clave 9",
-        "example": "Uso la parola «partecipare» nel contesto."
-      },
-      {
-        "word": "risultato",
-        "translation": "Palabra clave 10",
-        "example": "Uso la parola «risultato» nel contesto."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarProfile": {
-        "name": "Connettori argomentativi",
-        "definition": "Práctica guiada de Connettori argomentativi.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «progetto» in modo corretto?",
-        "options": [
-          "Il gruppo parla di progetto.",
-          "Il gruppo progetto parla di.",
-          "progetto il di gruppo parla.",
-          "Parla gruppo il progetto di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «ricerca» in modo corretto?",
-        "options": [
-          "Il gruppo ricerca parla di.",
-          "Il gruppo parla di ricerca.",
-          "ricerca il di gruppo parla.",
-          "Parla gruppo il ricerca di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «compito» in modo corretto?",
-        "options": [
-          "compito il di gruppo parla.",
-          "Il gruppo compito parla di.",
-          "Il gruppo parla di compito.",
-          "Parla gruppo il compito di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «collaborazione» in modo corretto?",
-        "options": [
-          "Parla gruppo il collaborazione di.",
-          "Il gruppo collaborazione parla di.",
-          "collaborazione il di gruppo parla.",
-          "Il gruppo parla di collaborazione."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «presentare» in modo corretto?",
-        "options": [
-          "Il gruppo parla di presentare.",
-          "Il gruppo presentare parla di.",
-          "presentare il di gruppo parla.",
-          "Parla gruppo il presentare di."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "italian-a1-una-casa-italiana-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "una-casa-italiana",
-    "title": "Una casa italiana: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 72,
-    "estimatedMinutes": 8,
-    "description": "Practica describir una casa.",
-    "intro": "Practica describir una casa.",
-    "mission": "Di La cucina è luminosa. y añade una frase sobre habitaciones y vida en casa.",
-    "grammar": "",
-    "phrases": [
-      "La cucina è luminosa.",
-      "Mi piace cucina.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: describir una casa. Usa «La cucina è luminosa.»."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-sport-e-tempo-libero-speaking",
-    "level": "A2",
-    "skill": "speaking",
-    "unitId": "sport-e-tempo-libero",
-    "title": "Sport e tempo libero: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 72,
-    "estimatedMinutes": 8,
-    "description": "Practica hablar del pasado.",
-    "intro": "Practica hablar del pasado.",
-    "mission": "Di Da giovane giocavo spesso. y añade una frase sobre aficiones más allá de un solo deporte.",
-    "grammar": "",
-    "phrases": [
-      "Da giovane giocavo spesso.",
-      "Mi piace nuoto.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: hablar del pasado. Usa «Da giovane giocavo spesso.»."
-      }
-    ]
-  },
-  {
     "slug": "italian-b1-progetti-di-classe-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -9557,6 +9493,70 @@
           "scopo",
           "partecipare"
         ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-una-casa-italiana-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "una-casa-italiana",
+    "title": "Una casa italiana: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 72,
+    "estimatedMinutes": 8,
+    "description": "Practica describir una casa.",
+    "intro": "Practica describir una casa.",
+    "mission": "Di La cucina è luminosa. y añade una frase sobre habitaciones y vida en casa.",
+    "grammar": "",
+    "phrases": [
+      "La cucina è luminosa.",
+      "Mi piace cucina.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: describir una casa. Usa «La cucina è luminosa.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-sport-e-tempo-libero-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "sport-e-tempo-libero",
+    "title": "Sport e tempo libero: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 72,
+    "estimatedMinutes": 8,
+    "description": "Practica hablar del pasado.",
+    "intro": "Practica hablar del pasado.",
+    "mission": "Di Da giovane giocavo spesso. y añade una frase sobre aficiones más allá de un solo deporte.",
+    "grammar": "",
+    "phrases": [
+      "Da giovane giocavo spesso.",
+      "Mi piace nuoto.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: hablar del pasado. Usa «Da giovane giocavo spesso.»."
       }
     ]
   },
@@ -9883,6 +9883,145 @@
     ]
   },
   {
+    "slug": "italian-b1-tecnologia-quotidiana-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "tecnologia-quotidiana",
+    "title": "Tecnologia quotidiana: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 80,
+    "estimatedMinutes": 12,
+    "description": "valutare usos de la tecnología con argumentos",
+    "intro": "valutare usos de la tecnología con argumentos",
+    "mission": "valutare usos de la tecnología con argumentos",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Impariamo: tecnologia.",
+      "Impariamo: dispositivo.",
+      "Impariamo: vantaggio.",
+      "Impariamo: rischio."
+    ],
+    "vocabulary": [
+      {
+        "word": "tecnologia",
+        "translation": "Palabra clave 1",
+        "example": "Uso la parola «tecnologia» nel contesto."
+      },
+      {
+        "word": "dispositivo",
+        "translation": "Palabra clave 2",
+        "example": "Uso la parola «dispositivo» nel contesto."
+      },
+      {
+        "word": "vantaggio",
+        "translation": "Palabra clave 3",
+        "example": "Uso la parola «vantaggio» nel contesto."
+      },
+      {
+        "word": "rischio",
+        "translation": "Palabra clave 4",
+        "example": "Uso la parola «rischio» nel contesto."
+      },
+      {
+        "word": "proteggere",
+        "translation": "Palabra clave 5",
+        "example": "Uso la parola «proteggere» nel contesto."
+      },
+      {
+        "word": "abitudine",
+        "translation": "Palabra clave 6",
+        "example": "Uso la parola «abitudine» nel contesto."
+      },
+      {
+        "word": "connessione",
+        "translation": "Palabra clave 7",
+        "example": "Uso la parola «connessione» nel contesto."
+      },
+      {
+        "word": "informazione",
+        "translation": "Palabra clave 8",
+        "example": "Uso la parola «informazione» nel contesto."
+      },
+      {
+        "word": "scegliere",
+        "translation": "Palabra clave 9",
+        "example": "Uso la parola «scegliere» nel contesto."
+      },
+      {
+        "word": "equilibrio",
+        "translation": "Palabra clave 10",
+        "example": "Uso la parola «equilibrio» nel contesto."
+      }
+    ],
+    "dialogue": [],
+    "reading": {
+      "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "questions": [
+        "Di che cosa parla il gruppo?",
+        "Che cosa fa ogni persona?",
+        "Perché decidono di collaborare?",
+        "Quale idea aiuta nella vita quotidiana?"
+      ]
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Di che cosa parla il gruppo?",
+        "options": [
+          "tecnologia",
+          "informazione",
+          "scegliere",
+          "equilibrio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Che cosa fa ogni persona?",
+        "options": [
+          "Cuenta una experiencia, escucha y propone una solución.",
+          "Compra una entrada para un evento.",
+          "No escucha a las otras personas.",
+          "Cancela el proyecto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Perché decidono di collaborare?",
+        "options": [
+          "Porque tienen un objetivo claro.",
+          "Porque no tienen tiempo.",
+          "Porque no conocen el tema.",
+          "Porque prefieren trabajar solos."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "options": [
+          "Una solución concreta y colaborativa.",
+          "Una lista sin contexto.",
+          "Una discusión sin objetivo.",
+          "Una decisión individual."
+        ]
+      },
+      {
+        "id": "italian-b1-tecnologia-quotidiana-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Tecnologia quotidiana: lectura»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Tecnologia quotidiana: lectura",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "italian-a1-il-tempo-e-le-stagioni-reading",
     "level": "A1",
     "skill": "reading",
@@ -10054,16 +10193,16 @@
     ]
   },
   {
-    "slug": "italian-b1-tecnologia-quotidiana-reading",
+    "slug": "italian-b1-tecnologia-quotidiana-grammar",
     "level": "B1",
-    "skill": "reading",
+    "skill": "grammar",
     "unitId": "tecnologia-quotidiana",
-    "title": "Tecnologia quotidiana: lectura",
+    "title": "Tecnologia quotidiana: grammatica",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 80,
-    "estimatedMinutes": 12,
+    "orderIndex": 81,
+    "estimatedMinutes": 10,
     "description": "valutare usos de la tecnología con argumentos",
     "intro": "valutare usos de la tecnología con argumentos",
     "mission": "valutare usos de la tecnología con argumentos",
@@ -10127,67 +10266,67 @@
       }
     ],
     "dialogue": [],
-    "reading": {
-      "text": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-      "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Congiuntivo con opinione e dubbio",
+        "definition": "Práctica guiada de Congiuntivo con opinione e dubbio.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "examples": []
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Quale frase usa «tecnologia» in modo corretto?",
         "options": [
-          "tecnologia",
-          "informazione",
-          "scegliere",
-          "equilibrio"
+          "Il gruppo parla di tecnologia.",
+          "Il gruppo tecnologia parla di.",
+          "tecnologia il di gruppo parla.",
+          "Parla gruppo il tecnologia di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Quale frase usa «dispositivo» in modo corretto?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Il gruppo dispositivo parla di.",
+          "Il gruppo parla di dispositivo.",
+          "dispositivo il di gruppo parla.",
+          "Parla gruppo il dispositivo di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale frase usa «vantaggio» in modo corretto?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "vantaggio il di gruppo parla.",
+          "Il gruppo vantaggio parla di.",
+          "Il gruppo parla di vantaggio.",
+          "Parla gruppo il vantaggio di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Quale frase usa «rischio» in modo corretto?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Parla gruppo il rischio di.",
+          "Il gruppo rischio parla di.",
+          "rischio il di gruppo parla.",
+          "Il gruppo parla di rischio."
         ]
       },
       {
-        "id": "italian-b1-tecnologia-quotidiana-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Tecnologia quotidiana: lectura»?",
+        "prompt": "Quale frase usa «proteggere» in modo corretto?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Tecnologia quotidiana: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Il gruppo parla di proteggere.",
+          "Il gruppo proteggere parla di.",
+          "proteggere il di gruppo parla.",
+          "Parla gruppo il proteggere di."
         ]
       }
     ]
@@ -10571,209 +10710,6 @@
     ]
   },
   {
-    "slug": "italian-b1-tecnologia-quotidiana-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "tecnologia-quotidiana",
-    "title": "Tecnologia quotidiana: grammatica",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 81,
-    "estimatedMinutes": 10,
-    "description": "valutare usos de la tecnología con argumentos",
-    "intro": "valutare usos de la tecnología con argumentos",
-    "mission": "valutare usos de la tecnología con argumentos",
-    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
-    "phrases": [
-      "Impariamo: tecnologia.",
-      "Impariamo: dispositivo.",
-      "Impariamo: vantaggio.",
-      "Impariamo: rischio."
-    ],
-    "vocabulary": [
-      {
-        "word": "tecnologia",
-        "translation": "Palabra clave 1",
-        "example": "Uso la parola «tecnologia» nel contesto."
-      },
-      {
-        "word": "dispositivo",
-        "translation": "Palabra clave 2",
-        "example": "Uso la parola «dispositivo» nel contesto."
-      },
-      {
-        "word": "vantaggio",
-        "translation": "Palabra clave 3",
-        "example": "Uso la parola «vantaggio» nel contesto."
-      },
-      {
-        "word": "rischio",
-        "translation": "Palabra clave 4",
-        "example": "Uso la parola «rischio» nel contesto."
-      },
-      {
-        "word": "proteggere",
-        "translation": "Palabra clave 5",
-        "example": "Uso la parola «proteggere» nel contesto."
-      },
-      {
-        "word": "abitudine",
-        "translation": "Palabra clave 6",
-        "example": "Uso la parola «abitudine» nel contesto."
-      },
-      {
-        "word": "connessione",
-        "translation": "Palabra clave 7",
-        "example": "Uso la parola «connessione» nel contesto."
-      },
-      {
-        "word": "informazione",
-        "translation": "Palabra clave 8",
-        "example": "Uso la parola «informazione» nel contesto."
-      },
-      {
-        "word": "scegliere",
-        "translation": "Palabra clave 9",
-        "example": "Uso la parola «scegliere» nel contesto."
-      },
-      {
-        "word": "equilibrio",
-        "translation": "Palabra clave 10",
-        "example": "Uso la parola «equilibrio» nel contesto."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarProfile": {
-        "name": "Congiuntivo con opinione e dubbio",
-        "definition": "Práctica guiada de Congiuntivo con opinione e dubbio.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «tecnologia» in modo corretto?",
-        "options": [
-          "Il gruppo parla di tecnologia.",
-          "Il gruppo tecnologia parla di.",
-          "tecnologia il di gruppo parla.",
-          "Parla gruppo il tecnologia di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «dispositivo» in modo corretto?",
-        "options": [
-          "Il gruppo dispositivo parla di.",
-          "Il gruppo parla di dispositivo.",
-          "dispositivo il di gruppo parla.",
-          "Parla gruppo il dispositivo di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «vantaggio» in modo corretto?",
-        "options": [
-          "vantaggio il di gruppo parla.",
-          "Il gruppo vantaggio parla di.",
-          "Il gruppo parla di vantaggio.",
-          "Parla gruppo il vantaggio di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «rischio» in modo corretto?",
-        "options": [
-          "Parla gruppo il rischio di.",
-          "Il gruppo rischio parla di.",
-          "rischio il di gruppo parla.",
-          "Il gruppo parla di rischio."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «proteggere» in modo corretto?",
-        "options": [
-          "Il gruppo parla di proteggere.",
-          "Il gruppo proteggere parla di.",
-          "proteggere il di gruppo parla.",
-          "Parla gruppo il proteggere di."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "italian-a1-il-tempo-e-le-stagioni-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "il-tempo-e-le-stagioni",
-    "title": "Il tempo e le stagioni: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 82,
-    "estimatedMinutes": 8,
-    "description": "Practica hablar del tiempo.",
-    "intro": "Practica hablar del tiempo.",
-    "mission": "Di Oggi fa caldo. y añade una frase sobre el clima y las estaciones.",
-    "grammar": "",
-    "phrases": [
-      "Oggi fa caldo.",
-      "Mi piace sole.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: hablar del tiempo. Usa «Oggi fa caldo.»."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-la-salute-ogni-giorno-speaking",
-    "level": "A2",
-    "skill": "speaking",
-    "unitId": "la-salute-ogni-giorno",
-    "title": "La salute ogni giorno: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 82,
-    "estimatedMinutes": 8,
-    "description": "Practica expresar malestar simple.",
-    "intro": "Practica expresar malestar simple.",
-    "mission": "Di Mi fa male la gola. y añade una frase sobre bienestar y farmacia.",
-    "grammar": "",
-    "phrases": [
-      "Mi fa male la gola.",
-      "Mi piace farmacia.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: expresar malestar simple. Usa «Mi fa male la gola.»."
-      }
-    ]
-  },
-  {
     "slug": "italian-b1-tecnologia-quotidiana-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -10910,6 +10846,70 @@
           "informazione",
           "scegliere"
         ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-il-tempo-e-le-stagioni-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "il-tempo-e-le-stagioni",
+    "title": "Il tempo e le stagioni: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 82,
+    "estimatedMinutes": 8,
+    "description": "Practica hablar del tiempo.",
+    "intro": "Practica hablar del tiempo.",
+    "mission": "Di Oggi fa caldo. y añade una frase sobre el clima y las estaciones.",
+    "grammar": "",
+    "phrases": [
+      "Oggi fa caldo.",
+      "Mi piace sole.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: hablar del tiempo. Usa «Oggi fa caldo.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-la-salute-ogni-giorno-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "la-salute-ogni-giorno",
+    "title": "La salute ogni giorno: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 82,
+    "estimatedMinutes": 8,
+    "description": "Practica expresar malestar simple.",
+    "intro": "Practica expresar malestar simple.",
+    "mission": "Di Mi fa male la gola. y añade una frase sobre bienestar y farmacia.",
+    "grammar": "",
+    "phrases": [
+      "Mi fa male la gola.",
+      "Mi piace farmacia.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: expresar malestar simple. Usa «Mi fa male la gola.»."
       }
     ]
   },
@@ -11236,6 +11236,145 @@
     ]
   },
   {
+    "slug": "italian-b1-citta-e-mobilita-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "citta-e-mobilita",
+    "title": "Città e mobilità: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 90,
+    "estimatedMinutes": 12,
+    "description": "comparare opciones de movilidad urbana",
+    "intro": "comparare opciones de movilidad urbana",
+    "mission": "comparare opciones de movilidad urbana",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Impariamo: trasporto.",
+      "Impariamo: percorso.",
+      "Impariamo: traffico.",
+      "Impariamo: bicicletta."
+    ],
+    "vocabulary": [
+      {
+        "word": "trasporto",
+        "translation": "Palabra clave 1",
+        "example": "Uso la parola «trasporto» nel contesto."
+      },
+      {
+        "word": "percorso",
+        "translation": "Palabra clave 2",
+        "example": "Uso la parola «percorso» nel contesto."
+      },
+      {
+        "word": "traffico",
+        "translation": "Palabra clave 3",
+        "example": "Uso la parola «traffico» nel contesto."
+      },
+      {
+        "word": "bicicletta",
+        "translation": "Palabra clave 4",
+        "example": "Uso la parola «bicicletta» nel contesto."
+      },
+      {
+        "word": "migliorare",
+        "translation": "Palabra clave 5",
+        "example": "Uso la parola «migliorare» nel contesto."
+      },
+      {
+        "word": "accessibile",
+        "translation": "Palabra clave 6",
+        "example": "Uso la parola «accessibile» nel contesto."
+      },
+      {
+        "word": "ritardo",
+        "translation": "Palabra clave 7",
+        "example": "Uso la parola «ritardo» nel contesto."
+      },
+      {
+        "word": "servizio",
+        "translation": "Palabra clave 8",
+        "example": "Uso la parola «servizio» nel contesto."
+      },
+      {
+        "word": "proporre",
+        "translation": "Palabra clave 9",
+        "example": "Uso la parola «proporre» nel contesto."
+      },
+      {
+        "word": "quartiere",
+        "translation": "Palabra clave 10",
+        "example": "Uso la parola «quartiere» nel contesto."
+      }
+    ],
+    "dialogue": [],
+    "reading": {
+      "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "questions": [
+        "Di che cosa parla il gruppo?",
+        "Che cosa fa ogni persona?",
+        "Perché decidono di collaborare?",
+        "Quale idea aiuta nella vita quotidiana?"
+      ]
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Di che cosa parla il gruppo?",
+        "options": [
+          "trasporto",
+          "servizio",
+          "proporre",
+          "quartiere"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Che cosa fa ogni persona?",
+        "options": [
+          "Cuenta una experiencia, escucha y propone una solución.",
+          "Compra una entrada para un evento.",
+          "No escucha a las otras personas.",
+          "Cancela el proyecto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Perché decidono di collaborare?",
+        "options": [
+          "Porque tienen un objetivo claro.",
+          "Porque no tienen tiempo.",
+          "Porque no conocen el tema.",
+          "Porque prefieren trabajar solos."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "options": [
+          "Una solución concreta y colaborativa.",
+          "Una lista sin contexto.",
+          "Una discusión sin objetivo.",
+          "Una decisión individual."
+        ]
+      },
+      {
+        "id": "italian-b1-citta-e-mobilita-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Città e mobilità: lectura»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Città e mobilità: lectura",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "italian-a1-una-festa-di-quartiere-reading",
     "level": "A1",
     "skill": "reading",
@@ -11407,16 +11546,16 @@
     ]
   },
   {
-    "slug": "italian-b1-citta-e-mobilita-reading",
+    "slug": "italian-b1-citta-e-mobilita-grammar",
     "level": "B1",
-    "skill": "reading",
+    "skill": "grammar",
     "unitId": "citta-e-mobilita",
-    "title": "Città e mobilità: lectura",
+    "title": "Città e mobilità: grammatica",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 90,
-    "estimatedMinutes": 12,
+    "orderIndex": 91,
+    "estimatedMinutes": 10,
     "description": "comparare opciones de movilidad urbana",
     "intro": "comparare opciones de movilidad urbana",
     "mission": "comparare opciones de movilidad urbana",
@@ -11480,67 +11619,67 @@
       }
     ],
     "dialogue": [],
-    "reading": {
-      "text": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-      "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Comparativi complessi",
+        "definition": "Práctica guiada de Comparativi complessi.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "examples": []
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Quale frase usa «trasporto» in modo corretto?",
         "options": [
-          "trasporto",
-          "servizio",
-          "proporre",
-          "quartiere"
+          "Il gruppo parla di trasporto.",
+          "Il gruppo trasporto parla di.",
+          "trasporto il di gruppo parla.",
+          "Parla gruppo il trasporto di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Quale frase usa «percorso» in modo corretto?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Il gruppo percorso parla di.",
+          "Il gruppo parla di percorso.",
+          "percorso il di gruppo parla.",
+          "Parla gruppo il percorso di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale frase usa «traffico» in modo corretto?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "traffico il di gruppo parla.",
+          "Il gruppo traffico parla di.",
+          "Il gruppo parla di traffico.",
+          "Parla gruppo il traffico di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Quale frase usa «bicicletta» in modo corretto?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Parla gruppo il bicicletta di.",
+          "Il gruppo bicicletta parla di.",
+          "bicicletta il di gruppo parla.",
+          "Il gruppo parla di bicicletta."
         ]
       },
       {
-        "id": "italian-b1-citta-e-mobilita-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Città e mobilità: lectura»?",
+        "prompt": "Quale frase usa «migliorare» in modo corretto?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Città e mobilità: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Il gruppo parla di migliorare.",
+          "Il gruppo migliorare parla di.",
+          "migliorare il di gruppo parla.",
+          "Parla gruppo il migliorare di."
         ]
       }
     ]
@@ -11924,209 +12063,6 @@
     ]
   },
   {
-    "slug": "italian-b1-citta-e-mobilita-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "citta-e-mobilita",
-    "title": "Città e mobilità: grammatica",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 91,
-    "estimatedMinutes": 10,
-    "description": "comparare opciones de movilidad urbana",
-    "intro": "comparare opciones de movilidad urbana",
-    "mission": "comparare opciones de movilidad urbana",
-    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
-    "phrases": [
-      "Impariamo: trasporto.",
-      "Impariamo: percorso.",
-      "Impariamo: traffico.",
-      "Impariamo: bicicletta."
-    ],
-    "vocabulary": [
-      {
-        "word": "trasporto",
-        "translation": "Palabra clave 1",
-        "example": "Uso la parola «trasporto» nel contesto."
-      },
-      {
-        "word": "percorso",
-        "translation": "Palabra clave 2",
-        "example": "Uso la parola «percorso» nel contesto."
-      },
-      {
-        "word": "traffico",
-        "translation": "Palabra clave 3",
-        "example": "Uso la parola «traffico» nel contesto."
-      },
-      {
-        "word": "bicicletta",
-        "translation": "Palabra clave 4",
-        "example": "Uso la parola «bicicletta» nel contesto."
-      },
-      {
-        "word": "migliorare",
-        "translation": "Palabra clave 5",
-        "example": "Uso la parola «migliorare» nel contesto."
-      },
-      {
-        "word": "accessibile",
-        "translation": "Palabra clave 6",
-        "example": "Uso la parola «accessibile» nel contesto."
-      },
-      {
-        "word": "ritardo",
-        "translation": "Palabra clave 7",
-        "example": "Uso la parola «ritardo» nel contesto."
-      },
-      {
-        "word": "servizio",
-        "translation": "Palabra clave 8",
-        "example": "Uso la parola «servizio» nel contesto."
-      },
-      {
-        "word": "proporre",
-        "translation": "Palabra clave 9",
-        "example": "Uso la parola «proporre» nel contesto."
-      },
-      {
-        "word": "quartiere",
-        "translation": "Palabra clave 10",
-        "example": "Uso la parola «quartiere» nel contesto."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarProfile": {
-        "name": "Comparativi complessi",
-        "definition": "Práctica guiada de Comparativi complessi.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «trasporto» in modo corretto?",
-        "options": [
-          "Il gruppo parla di trasporto.",
-          "Il gruppo trasporto parla di.",
-          "trasporto il di gruppo parla.",
-          "Parla gruppo il trasporto di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «percorso» in modo corretto?",
-        "options": [
-          "Il gruppo percorso parla di.",
-          "Il gruppo parla di percorso.",
-          "percorso il di gruppo parla.",
-          "Parla gruppo il percorso di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «traffico» in modo corretto?",
-        "options": [
-          "traffico il di gruppo parla.",
-          "Il gruppo traffico parla di.",
-          "Il gruppo parla di traffico.",
-          "Parla gruppo il traffico di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «bicicletta» in modo corretto?",
-        "options": [
-          "Parla gruppo il bicicletta di.",
-          "Il gruppo bicicletta parla di.",
-          "bicicletta il di gruppo parla.",
-          "Il gruppo parla di bicicletta."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «migliorare» in modo corretto?",
-        "options": [
-          "Il gruppo parla di migliorare.",
-          "Il gruppo migliorare parla di.",
-          "migliorare il di gruppo parla.",
-          "Parla gruppo il migliorare di."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "italian-a1-una-festa-di-quartiere-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "una-festa-di-quartiere",
-    "title": "Una festa di quartiere: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 92,
-    "estimatedMinutes": 8,
-    "description": "Practica invitar y aceptar.",
-    "intro": "Practica invitar y aceptar.",
-    "mission": "Di Ci vediamo alla festa. y añade una frase sobre una pequeña fiesta comunitaria.",
-    "grammar": "",
-    "phrases": [
-      "Ci vediamo alla festa.",
-      "Mi piace festa.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: invitar y aceptar. Usa «Ci vediamo alla festa.»."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-storie-di-migrazione-speaking",
-    "level": "A2",
-    "skill": "speaking",
-    "unitId": "storie-di-migrazione",
-    "title": "Storie di migrazione: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 92,
-    "estimatedMinutes": 8,
-    "description": "Practica contar una historia sencilla.",
-    "intro": "Practica contar una historia sencilla.",
-    "mission": "Di La sua famiglia è arrivata anni fa. y añade una frase sobre italia diversa: familias y trayectorias.",
-    "grammar": "",
-    "phrases": [
-      "La sua famiglia è arrivata anni fa.",
-      "Mi piace famiglia.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: contar una historia sencilla. Usa «La sua famiglia è arrivata anni fa.»."
-      }
-    ]
-  },
-  {
     "slug": "italian-b1-citta-e-mobilita-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -12263,6 +12199,70 @@
           "servizio",
           "proporre"
         ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-una-festa-di-quartiere-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "una-festa-di-quartiere",
+    "title": "Una festa di quartiere: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 92,
+    "estimatedMinutes": 8,
+    "description": "Practica invitar y aceptar.",
+    "intro": "Practica invitar y aceptar.",
+    "mission": "Di Ci vediamo alla festa. y añade una frase sobre una pequeña fiesta comunitaria.",
+    "grammar": "",
+    "phrases": [
+      "Ci vediamo alla festa.",
+      "Mi piace festa.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: invitar y aceptar. Usa «Ci vediamo alla festa.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-storie-di-migrazione-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "storie-di-migrazione",
+    "title": "Storie di migrazione: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 92,
+    "estimatedMinutes": 8,
+    "description": "Practica contar una historia sencilla.",
+    "intro": "Practica contar una historia sencilla.",
+    "mission": "Di La sua famiglia è arrivata anni fa. y añade una frase sobre italia diversa: familias y trayectorias.",
+    "grammar": "",
+    "phrases": [
+      "La sua famiglia è arrivata anni fa.",
+      "Mi piace famiglia.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: contar una historia sencilla. Usa «La sua famiglia è arrivata anni fa.»."
       }
     ]
   },
@@ -12589,6 +12589,145 @@
     ]
   },
   {
+    "slug": "italian-b1-piani-per-il-futuro-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "piani-per-il-futuro",
+    "title": "Piani per il futuro: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 100,
+    "estimatedMinutes": 12,
+    "description": "hablar de metas y posibilidades futuras",
+    "intro": "hablar de metas y posibilidades futuras",
+    "mission": "hablar de metas y posibilidades futuras",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Impariamo: futuro.",
+      "Impariamo: obiettivo.",
+      "Impariamo: opportunità.",
+      "Impariamo: decidere."
+    ],
+    "vocabulary": [
+      {
+        "word": "futuro",
+        "translation": "Palabra clave 1",
+        "example": "Uso la parola «futuro» nel contesto."
+      },
+      {
+        "word": "obiettivo",
+        "translation": "Palabra clave 2",
+        "example": "Uso la parola «obiettivo» nel contesto."
+      },
+      {
+        "word": "opportunità",
+        "translation": "Palabra clave 3",
+        "example": "Uso la parola «opportunità» nel contesto."
+      },
+      {
+        "word": "decidere",
+        "translation": "Palabra clave 4",
+        "example": "Uso la parola «decidere» nel contesto."
+      },
+      {
+        "word": "esperienza",
+        "translation": "Palabra clave 5",
+        "example": "Uso la parola «esperienza» nel contesto."
+      },
+      {
+        "word": "formazione",
+        "translation": "Palabra clave 6",
+        "example": "Uso la parola «formazione» nel contesto."
+      },
+      {
+        "word": "percorso",
+        "translation": "Palabra clave 7",
+        "example": "Uso la parola «percorso» nel contesto."
+      },
+      {
+        "word": "sperare",
+        "translation": "Palabra clave 8",
+        "example": "Uso la parola «sperare» nel contesto."
+      },
+      {
+        "word": "scelta",
+        "translation": "Palabra clave 9",
+        "example": "Uso la parola «scelta» nel contesto."
+      },
+      {
+        "word": "raggiungere",
+        "translation": "Palabra clave 10",
+        "example": "Uso la parola «raggiungere» nel contesto."
+      }
+    ],
+    "dialogue": [],
+    "reading": {
+      "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "questions": [
+        "Di che cosa parla il gruppo?",
+        "Che cosa fa ogni persona?",
+        "Perché decidono di collaborare?",
+        "Quale idea aiuta nella vita quotidiana?"
+      ]
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Di che cosa parla il gruppo?",
+        "options": [
+          "futuro",
+          "sperare",
+          "scelta",
+          "raggiungere"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Che cosa fa ogni persona?",
+        "options": [
+          "Cuenta una experiencia, escucha y propone una solución.",
+          "Compra una entrada para un evento.",
+          "No escucha a las otras personas.",
+          "Cancela el proyecto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Perché decidono di collaborare?",
+        "options": [
+          "Porque tienen un objetivo claro.",
+          "Porque no tienen tiempo.",
+          "Porque no conocen el tema.",
+          "Porque prefieren trabajar solos."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "options": [
+          "Una solución concreta y colaborativa.",
+          "Una lista sin contexto.",
+          "Una discusión sin objetivo.",
+          "Una decisión individual."
+        ]
+      },
+      {
+        "id": "italian-b1-piani-per-il-futuro-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Piani per il futuro: lectura»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Piani per il futuro: lectura",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "italian-a1-in-treno-reading",
     "level": "A1",
     "skill": "reading",
@@ -12760,16 +12899,16 @@
     ]
   },
   {
-    "slug": "italian-b1-piani-per-il-futuro-reading",
+    "slug": "italian-b1-piani-per-il-futuro-grammar",
     "level": "B1",
-    "skill": "reading",
+    "skill": "grammar",
     "unitId": "piani-per-il-futuro",
-    "title": "Piani per il futuro: lectura",
+    "title": "Piani per il futuro: grammatica",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 100,
-    "estimatedMinutes": 12,
+    "orderIndex": 101,
+    "estimatedMinutes": 10,
     "description": "hablar de metas y posibilidades futuras",
     "intro": "hablar de metas y posibilidades futuras",
     "mission": "hablar de metas y posibilidades futuras",
@@ -12833,67 +12972,67 @@
       }
     ],
     "dialogue": [],
-    "reading": {
-      "text": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-      "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Futuro anteriore e supposizioni",
+        "definition": "Práctica guiada de Futuro anteriore e supposizioni.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "examples": []
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Quale frase usa «futuro» in modo corretto?",
         "options": [
-          "futuro",
-          "sperare",
-          "scelta",
-          "raggiungere"
+          "Il gruppo parla di futuro.",
+          "Il gruppo futuro parla di.",
+          "futuro il di gruppo parla.",
+          "Parla gruppo il futuro di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Quale frase usa «obiettivo» in modo corretto?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Il gruppo obiettivo parla di.",
+          "Il gruppo parla di obiettivo.",
+          "obiettivo il di gruppo parla.",
+          "Parla gruppo il obiettivo di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale frase usa «opportunità» in modo corretto?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "opportunità il di gruppo parla.",
+          "Il gruppo opportunità parla di.",
+          "Il gruppo parla di opportunità.",
+          "Parla gruppo il opportunità di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Quale frase usa «decidere» in modo corretto?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Parla gruppo il decidere di.",
+          "Il gruppo decidere parla di.",
+          "decidere il di gruppo parla.",
+          "Il gruppo parla di decidere."
         ]
       },
       {
-        "id": "italian-b1-piani-per-il-futuro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Piani per il futuro: lectura»?",
+        "prompt": "Quale frase usa «esperienza» in modo corretto?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Piani per il futuro: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Il gruppo parla di esperienza.",
+          "Il gruppo esperienza parla di.",
+          "esperienza il di gruppo parla.",
+          "Parla gruppo il esperienza di."
         ]
       }
     ]
@@ -13277,209 +13416,6 @@
     ]
   },
   {
-    "slug": "italian-b1-piani-per-il-futuro-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "piani-per-il-futuro",
-    "title": "Piani per il futuro: grammatica",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 101,
-    "estimatedMinutes": 10,
-    "description": "hablar de metas y posibilidades futuras",
-    "intro": "hablar de metas y posibilidades futuras",
-    "mission": "hablar de metas y posibilidades futuras",
-    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
-    "phrases": [
-      "Impariamo: futuro.",
-      "Impariamo: obiettivo.",
-      "Impariamo: opportunità.",
-      "Impariamo: decidere."
-    ],
-    "vocabulary": [
-      {
-        "word": "futuro",
-        "translation": "Palabra clave 1",
-        "example": "Uso la parola «futuro» nel contesto."
-      },
-      {
-        "word": "obiettivo",
-        "translation": "Palabra clave 2",
-        "example": "Uso la parola «obiettivo» nel contesto."
-      },
-      {
-        "word": "opportunità",
-        "translation": "Palabra clave 3",
-        "example": "Uso la parola «opportunità» nel contesto."
-      },
-      {
-        "word": "decidere",
-        "translation": "Palabra clave 4",
-        "example": "Uso la parola «decidere» nel contesto."
-      },
-      {
-        "word": "esperienza",
-        "translation": "Palabra clave 5",
-        "example": "Uso la parola «esperienza» nel contesto."
-      },
-      {
-        "word": "formazione",
-        "translation": "Palabra clave 6",
-        "example": "Uso la parola «formazione» nel contesto."
-      },
-      {
-        "word": "percorso",
-        "translation": "Palabra clave 7",
-        "example": "Uso la parola «percorso» nel contesto."
-      },
-      {
-        "word": "sperare",
-        "translation": "Palabra clave 8",
-        "example": "Uso la parola «sperare» nel contesto."
-      },
-      {
-        "word": "scelta",
-        "translation": "Palabra clave 9",
-        "example": "Uso la parola «scelta» nel contesto."
-      },
-      {
-        "word": "raggiungere",
-        "translation": "Palabra clave 10",
-        "example": "Uso la parola «raggiungere» nel contesto."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarProfile": {
-        "name": "Futuro anteriore e supposizioni",
-        "definition": "Práctica guiada de Futuro anteriore e supposizioni.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «futuro» in modo corretto?",
-        "options": [
-          "Il gruppo parla di futuro.",
-          "Il gruppo futuro parla di.",
-          "futuro il di gruppo parla.",
-          "Parla gruppo il futuro di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «obiettivo» in modo corretto?",
-        "options": [
-          "Il gruppo obiettivo parla di.",
-          "Il gruppo parla di obiettivo.",
-          "obiettivo il di gruppo parla.",
-          "Parla gruppo il obiettivo di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «opportunità» in modo corretto?",
-        "options": [
-          "opportunità il di gruppo parla.",
-          "Il gruppo opportunità parla di.",
-          "Il gruppo parla di opportunità.",
-          "Parla gruppo il opportunità di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «decidere» in modo corretto?",
-        "options": [
-          "Parla gruppo il decidere di.",
-          "Il gruppo decidere parla di.",
-          "decidere il di gruppo parla.",
-          "Il gruppo parla di decidere."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «esperienza» in modo corretto?",
-        "options": [
-          "Il gruppo parla di esperienza.",
-          "Il gruppo esperienza parla di.",
-          "esperienza il di gruppo parla.",
-          "Parla gruppo il esperienza di."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "italian-a1-in-treno-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "in-treno",
-    "title": "In treno: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 102,
-    "estimatedMinutes": 8,
-    "description": "Practica comprar un billete.",
-    "intro": "Practica comprar un billete.",
-    "mission": "Di Un biglietto per Firenze. y añade una frase sobre un viaje corto en tren regional.",
-    "grammar": "",
-    "phrases": [
-      "Un biglietto per Firenze.",
-      "Mi piace treno.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: comprar un billete. Usa «Un biglietto per Firenze.»."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-un-progetto-di-classe-speaking",
-    "level": "A2",
-    "skill": "speaking",
-    "unitId": "un-progetto-di-classe",
-    "title": "Un progetto di classe: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 102,
-    "estimatedMinutes": 8,
-    "description": "Practica proponer y colaborar.",
-    "intro": "Practica proponer y colaborar.",
-    "mission": "Di Possiamo dividere i compiti. y añade una frase sobre colaborar para una propuesta local.",
-    "grammar": "",
-    "phrases": [
-      "Possiamo dividere i compiti.",
-      "Mi piace progetto.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: proponer y colaborar. Usa «Possiamo dividere i compiti.»."
-      }
-    ]
-  },
-  {
     "slug": "italian-b1-piani-per-il-futuro-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -13616,6 +13552,70 @@
           "sperare",
           "scelta"
         ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-in-treno-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "in-treno",
+    "title": "In treno: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 102,
+    "estimatedMinutes": 8,
+    "description": "Practica comprar un billete.",
+    "intro": "Practica comprar un billete.",
+    "mission": "Di Un biglietto per Firenze. y añade una frase sobre un viaje corto en tren regional.",
+    "grammar": "",
+    "phrases": [
+      "Un biglietto per Firenze.",
+      "Mi piace treno.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: comprar un billete. Usa «Un biglietto per Firenze.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-un-progetto-di-classe-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "un-progetto-di-classe",
+    "title": "Un progetto di classe: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 102,
+    "estimatedMinutes": 8,
+    "description": "Practica proponer y colaborar.",
+    "intro": "Practica proponer y colaborar.",
+    "mission": "Di Possiamo dividere i compiti. y añade una frase sobre colaborar para una propuesta local.",
+    "grammar": "",
+    "phrases": [
+      "Possiamo dividere i compiti.",
+      "Mi piace progetto.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: proponer y colaborar. Usa «Possiamo dividere i compiti.»."
       }
     ]
   },
@@ -13942,6 +13942,145 @@
     ]
   },
   {
+    "slug": "italian-b1-relazioni-e-comunicazione-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "relazioni-e-comunicazione",
+    "title": "Relazioni e comunicazione: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 110,
+    "estimatedMinutes": 12,
+    "description": "expresar relaciones, opiniones y mensajes referidos",
+    "intro": "expresar relaciones, opiniones y mensajes referidos",
+    "mission": "expresar relaciones, opiniones y mensajes referidos",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Impariamo: relazione.",
+      "Impariamo: ascoltare.",
+      "Impariamo: spiegare.",
+      "Impariamo: messaggio."
+    ],
+    "vocabulary": [
+      {
+        "word": "relazione",
+        "translation": "Palabra clave 1",
+        "example": "Uso la parola «relazione» nel contesto."
+      },
+      {
+        "word": "ascoltare",
+        "translation": "Palabra clave 2",
+        "example": "Uso la parola «ascoltare» nel contesto."
+      },
+      {
+        "word": "spiegare",
+        "translation": "Palabra clave 3",
+        "example": "Uso la parola «spiegare» nel contesto."
+      },
+      {
+        "word": "messaggio",
+        "translation": "Palabra clave 4",
+        "example": "Uso la parola «messaggio» nel contesto."
+      },
+      {
+        "word": "accordo",
+        "translation": "Palabra clave 5",
+        "example": "Uso la parola «accordo» nel contesto."
+      },
+      {
+        "word": "fiducia",
+        "translation": "Palabra clave 6",
+        "example": "Uso la parola «fiducia» nel contesto."
+      },
+      {
+        "word": "conversazione",
+        "translation": "Palabra clave 7",
+        "example": "Uso la parola «conversazione» nel contesto."
+      },
+      {
+        "word": "opinione",
+        "translation": "Palabra clave 8",
+        "example": "Uso la parola «opinione» nel contesto."
+      },
+      {
+        "word": "chiarire",
+        "translation": "Palabra clave 9",
+        "example": "Uso la parola «chiarire» nel contesto."
+      },
+      {
+        "word": "rispettare",
+        "translation": "Palabra clave 10",
+        "example": "Uso la parola «rispettare» nel contesto."
+      }
+    ],
+    "dialogue": [],
+    "reading": {
+      "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "questions": [
+        "Di che cosa parla il gruppo?",
+        "Che cosa fa ogni persona?",
+        "Perché decidono di collaborare?",
+        "Quale idea aiuta nella vita quotidiana?"
+      ]
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Di che cosa parla il gruppo?",
+        "options": [
+          "relazione",
+          "opinione",
+          "chiarire",
+          "rispettare"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Che cosa fa ogni persona?",
+        "options": [
+          "Cuenta una experiencia, escucha y propone una solución.",
+          "Compra una entrada para un evento.",
+          "No escucha a las otras personas.",
+          "Cancela el proyecto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Perché decidono di collaborare?",
+        "options": [
+          "Porque tienen un objetivo claro.",
+          "Porque no tienen tiempo.",
+          "Porque no conocen el tema.",
+          "Porque prefieren trabajar solos."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "options": [
+          "Una solución concreta y colaborativa.",
+          "Una lista sin contexto.",
+          "Una discusión sin objetivo.",
+          "Una decisión individual."
+        ]
+      },
+      {
+        "id": "italian-b1-relazioni-e-comunicazione-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Relazioni e comunicazione: lectura»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Relazioni e comunicazione: lectura",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "italian-a1-sapori-d-italia-reading",
     "level": "A1",
     "skill": "reading",
@@ -14113,16 +14252,16 @@
     ]
   },
   {
-    "slug": "italian-b1-relazioni-e-comunicazione-reading",
+    "slug": "italian-b1-relazioni-e-comunicazione-grammar",
     "level": "B1",
-    "skill": "reading",
+    "skill": "grammar",
     "unitId": "relazioni-e-comunicazione",
-    "title": "Relazioni e comunicazione: lectura",
+    "title": "Relazioni e comunicazione: grammatica",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 110,
-    "estimatedMinutes": 12,
+    "orderIndex": 111,
+    "estimatedMinutes": 10,
     "description": "expresar relaciones, opiniones y mensajes referidos",
     "intro": "expresar relaciones, opiniones y mensajes referidos",
     "mission": "expresar relaciones, opiniones y mensajes referidos",
@@ -14186,67 +14325,67 @@
       }
     ],
     "dialogue": [],
-    "reading": {
-      "text": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-      "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Relativi e comunicazione",
+        "definition": "Práctica guiada de Relativi e comunicazione.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "examples": []
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Quale frase usa «relazione» in modo corretto?",
         "options": [
-          "relazione",
-          "opinione",
-          "chiarire",
-          "rispettare"
+          "Il gruppo parla di relazione.",
+          "Il gruppo relazione parla di.",
+          "relazione il di gruppo parla.",
+          "Parla gruppo il relazione di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Quale frase usa «ascoltare» in modo corretto?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Il gruppo ascoltare parla di.",
+          "Il gruppo parla di ascoltare.",
+          "ascoltare il di gruppo parla.",
+          "Parla gruppo il ascoltare di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale frase usa «spiegare» in modo corretto?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "spiegare il di gruppo parla.",
+          "Il gruppo spiegare parla di.",
+          "Il gruppo parla di spiegare.",
+          "Parla gruppo il spiegare di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Quale frase usa «messaggio» in modo corretto?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Parla gruppo il messaggio di.",
+          "Il gruppo messaggio parla di.",
+          "messaggio il di gruppo parla.",
+          "Il gruppo parla di messaggio."
         ]
       },
       {
-        "id": "italian-b1-relazioni-e-comunicazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Relazioni e comunicazione: lectura»?",
+        "prompt": "Quale frase usa «accordo» in modo corretto?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Relazioni e comunicazione: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Il gruppo parla di accordo.",
+          "Il gruppo accordo parla di.",
+          "accordo il di gruppo parla.",
+          "Parla gruppo il accordo di."
         ]
       }
     ]
@@ -14630,209 +14769,6 @@
     ]
   },
   {
-    "slug": "italian-b1-relazioni-e-comunicazione-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "relazioni-e-comunicazione",
-    "title": "Relazioni e comunicazione: grammatica",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 111,
-    "estimatedMinutes": 10,
-    "description": "expresar relaciones, opiniones y mensajes referidos",
-    "intro": "expresar relaciones, opiniones y mensajes referidos",
-    "mission": "expresar relaciones, opiniones y mensajes referidos",
-    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
-    "phrases": [
-      "Impariamo: relazione.",
-      "Impariamo: ascoltare.",
-      "Impariamo: spiegare.",
-      "Impariamo: messaggio."
-    ],
-    "vocabulary": [
-      {
-        "word": "relazione",
-        "translation": "Palabra clave 1",
-        "example": "Uso la parola «relazione» nel contesto."
-      },
-      {
-        "word": "ascoltare",
-        "translation": "Palabra clave 2",
-        "example": "Uso la parola «ascoltare» nel contesto."
-      },
-      {
-        "word": "spiegare",
-        "translation": "Palabra clave 3",
-        "example": "Uso la parola «spiegare» nel contesto."
-      },
-      {
-        "word": "messaggio",
-        "translation": "Palabra clave 4",
-        "example": "Uso la parola «messaggio» nel contesto."
-      },
-      {
-        "word": "accordo",
-        "translation": "Palabra clave 5",
-        "example": "Uso la parola «accordo» nel contesto."
-      },
-      {
-        "word": "fiducia",
-        "translation": "Palabra clave 6",
-        "example": "Uso la parola «fiducia» nel contesto."
-      },
-      {
-        "word": "conversazione",
-        "translation": "Palabra clave 7",
-        "example": "Uso la parola «conversazione» nel contesto."
-      },
-      {
-        "word": "opinione",
-        "translation": "Palabra clave 8",
-        "example": "Uso la parola «opinione» nel contesto."
-      },
-      {
-        "word": "chiarire",
-        "translation": "Palabra clave 9",
-        "example": "Uso la parola «chiarire» nel contesto."
-      },
-      {
-        "word": "rispettare",
-        "translation": "Palabra clave 10",
-        "example": "Uso la parola «rispettare» nel contesto."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarProfile": {
-        "name": "Relativi e comunicazione",
-        "definition": "Práctica guiada de Relativi e comunicazione.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «relazione» in modo corretto?",
-        "options": [
-          "Il gruppo parla di relazione.",
-          "Il gruppo relazione parla di.",
-          "relazione il di gruppo parla.",
-          "Parla gruppo il relazione di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «ascoltare» in modo corretto?",
-        "options": [
-          "Il gruppo ascoltare parla di.",
-          "Il gruppo parla di ascoltare.",
-          "ascoltare il di gruppo parla.",
-          "Parla gruppo il ascoltare di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «spiegare» in modo corretto?",
-        "options": [
-          "spiegare il di gruppo parla.",
-          "Il gruppo spiegare parla di.",
-          "Il gruppo parla di spiegare.",
-          "Parla gruppo il spiegare di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «messaggio» in modo corretto?",
-        "options": [
-          "Parla gruppo il messaggio di.",
-          "Il gruppo messaggio parla di.",
-          "messaggio il di gruppo parla.",
-          "Il gruppo parla di messaggio."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «accordo» in modo corretto?",
-        "options": [
-          "Il gruppo parla di accordo.",
-          "Il gruppo accordo parla di.",
-          "accordo il di gruppo parla.",
-          "Parla gruppo il accordo di."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "italian-a1-sapori-d-italia-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "sapori-d-italia",
-    "title": "Sapori d'Italia: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 112,
-    "estimatedMinutes": 8,
-    "description": "Practica expresar preferencias.",
-    "intro": "Practica expresar preferencias.",
-    "mission": "Di Mi piace questa zuppa. y añade una frase sobre sabores regionales sin estereotipos.",
-    "grammar": "",
-    "phrases": [
-      "Mi piace questa zuppa.",
-      "Mi piace pane.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: expresar preferencias. Usa «Mi piace questa zuppa.»."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-ambiente-e-citta-speaking",
-    "level": "A2",
-    "skill": "speaking",
-    "unitId": "ambiente-e-citta",
-    "title": "Ambiente e città: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 112,
-    "estimatedMinutes": 8,
-    "description": "Practica hablar de hábitos.",
-    "intro": "Practica hablar de hábitos.",
-    "mission": "Di Vorrei usare meno plastica. y añade una frase sobre reciclaje y movilidad cotidiana.",
-    "grammar": "",
-    "phrases": [
-      "Vorrei usare meno plastica.",
-      "Mi piace rifiuti.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: hablar de hábitos. Usa «Vorrei usare meno plastica.»."
-      }
-    ]
-  },
-  {
     "slug": "italian-b1-relazioni-e-comunicazione-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -14969,6 +14905,70 @@
           "opinione",
           "chiarire"
         ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-sapori-d-italia-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "sapori-d-italia",
+    "title": "Sapori d'Italia: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 112,
+    "estimatedMinutes": 8,
+    "description": "Practica expresar preferencias.",
+    "intro": "Practica expresar preferencias.",
+    "mission": "Di Mi piace questa zuppa. y añade una frase sobre sabores regionales sin estereotipos.",
+    "grammar": "",
+    "phrases": [
+      "Mi piace questa zuppa.",
+      "Mi piace pane.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: expresar preferencias. Usa «Mi piace questa zuppa.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-ambiente-e-citta-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "ambiente-e-citta",
+    "title": "Ambiente e città: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 112,
+    "estimatedMinutes": 8,
+    "description": "Practica hablar de hábitos.",
+    "intro": "Practica hablar de hábitos.",
+    "mission": "Di Vorrei usare meno plastica. y añade una frase sobre reciclaje y movilidad cotidiana.",
+    "grammar": "",
+    "phrases": [
+      "Vorrei usare meno plastica.",
+      "Mi piace rifiuti.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: hablar de hábitos. Usa «Vorrei usare meno plastica.»."
       }
     ]
   },
@@ -15295,6 +15295,145 @@
     ]
   },
   {
+    "slug": "italian-b1-cittadinanza-e-partecipazione-reading",
+    "level": "B1",
+    "skill": "reading",
+    "unitId": "cittadinanza-e-partecipazione",
+    "title": "Cittadinanza e partecipazione: lectura",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 120,
+    "estimatedMinutes": 12,
+    "description": "proponer acciones y participar en la comunidad",
+    "intro": "proponer acciones y participar en la comunidad",
+    "mission": "proponer acciones y participar en la comunidad",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Impariamo: cittadinanza.",
+      "Impariamo: partecipare.",
+      "Impariamo: diritto.",
+      "Impariamo: proposta."
+    ],
+    "vocabulary": [
+      {
+        "word": "cittadinanza",
+        "translation": "Palabra clave 1",
+        "example": "Uso la parola «cittadinanza» nel contesto."
+      },
+      {
+        "word": "partecipare",
+        "translation": "Palabra clave 2",
+        "example": "Uso la parola «partecipare» nel contesto."
+      },
+      {
+        "word": "diritto",
+        "translation": "Palabra clave 3",
+        "example": "Uso la parola «diritto» nel contesto."
+      },
+      {
+        "word": "proposta",
+        "translation": "Palabra clave 4",
+        "example": "Uso la parola «proposta» nel contesto."
+      },
+      {
+        "word": "comunità",
+        "translation": "Palabra clave 5",
+        "example": "Uso la parola «comunità» nel contesto."
+      },
+      {
+        "word": "scegliere",
+        "translation": "Palabra clave 6",
+        "example": "Uso la parola «scegliere» nel contesto."
+      },
+      {
+        "word": "volontario",
+        "translation": "Palabra clave 7",
+        "example": "Uso la parola «volontario» nel contesto."
+      },
+      {
+        "word": "iniziativa",
+        "translation": "Palabra clave 8",
+        "example": "Uso la parola «iniziativa» nel contesto."
+      },
+      {
+        "word": "migliorare",
+        "translation": "Palabra clave 9",
+        "example": "Uso la parola «migliorare» nel contesto."
+      },
+      {
+        "word": "responsabilità",
+        "translation": "Palabra clave 10",
+        "example": "Uso la parola «responsabilità» nel contesto."
+      }
+    ],
+    "dialogue": [],
+    "reading": {
+      "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
+      "questions": [
+        "Di che cosa parla il gruppo?",
+        "Che cosa fa ogni persona?",
+        "Perché decidono di collaborare?",
+        "Quale idea aiuta nella vita quotidiana?"
+      ]
+    },
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Di che cosa parla il gruppo?",
+        "options": [
+          "cittadinanza",
+          "iniziativa",
+          "migliorare",
+          "responsabilità"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Che cosa fa ogni persona?",
+        "options": [
+          "Cuenta una experiencia, escucha y propone una solución.",
+          "Compra una entrada para un evento.",
+          "No escucha a las otras personas.",
+          "Cancela el proyecto."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Perché decidono di collaborare?",
+        "options": [
+          "Porque tienen un objetivo claro.",
+          "Porque no tienen tiempo.",
+          "Porque no conocen el tema.",
+          "Porque prefieren trabajar solos."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "options": [
+          "Una solución concreta y colaborativa.",
+          "Una lista sin contexto.",
+          "Una discusión sin objetivo.",
+          "Una decisión individual."
+        ]
+      },
+      {
+        "id": "italian-b1-cittadinanza-e-partecipazione-reading-comprehension-5",
+        "type": "mcq",
+        "prompt": "Qual è lo scopo principale di «Cittadinanza e partecipazione: lectura»?",
+        "options": [
+          "Presentare le idee e i dettagli essenziali di Cittadinanza e partecipazione: lectura",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
+        ]
+      }
+    ]
+  },
+  {
     "slug": "italian-a1-un-messaggio-a-casa-reading",
     "level": "A1",
     "skill": "reading",
@@ -15466,16 +15605,16 @@
     ]
   },
   {
-    "slug": "italian-b1-cittadinanza-e-partecipazione-reading",
+    "slug": "italian-b1-cittadinanza-e-partecipazione-grammar",
     "level": "B1",
-    "skill": "reading",
+    "skill": "grammar",
     "unitId": "cittadinanza-e-partecipazione",
-    "title": "Cittadinanza e partecipazione: lectura",
+    "title": "Cittadinanza e partecipazione: grammatica",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
-    "orderIndex": 120,
-    "estimatedMinutes": 12,
+    "orderIndex": 121,
+    "estimatedMinutes": 10,
     "description": "proponer acciones y participar en la comunidad",
     "intro": "proponer acciones y participar en la comunidad",
     "mission": "proponer acciones y participar en la comunidad",
@@ -15539,67 +15678,67 @@
       }
     ],
     "dialogue": [],
-    "reading": {
-      "text": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.",
-      "questions": [
-        "Di che cosa parla il gruppo?",
-        "Che cosa fa ogni persona?",
-        "Perché decidono di collaborare?",
-        "Quale idea aiuta nella vita quotidiana?"
-      ]
-    },
+    "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Cittadinanza: congiuntivo e proposte",
+        "definition": "Práctica guiada de Cittadinanza: congiuntivo e proposte.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "examples": []
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il gruppo?",
+        "prompt": "Quale frase usa «cittadinanza» in modo corretto?",
         "options": [
-          "cittadinanza",
-          "iniziativa",
-          "migliorare",
-          "responsabilità"
+          "Il gruppo parla di cittadinanza.",
+          "Il gruppo cittadinanza parla di.",
+          "cittadinanza il di gruppo parla.",
+          "Parla gruppo il cittadinanza di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa ogni persona?",
+        "prompt": "Quale frase usa «partecipare» in modo corretto?",
         "options": [
-          "Cuenta una experiencia, escucha y propone una solución.",
-          "Compra una entrada para un evento.",
-          "No escucha a las otras personas.",
-          "Cancela el proyecto."
+          "Il gruppo partecipare parla di.",
+          "Il gruppo parla di partecipare.",
+          "partecipare il di gruppo parla.",
+          "Parla gruppo il partecipare di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché decidono di collaborare?",
+        "prompt": "Quale frase usa «diritto» in modo corretto?",
         "options": [
-          "Porque tienen un objetivo claro.",
-          "Porque no tienen tiempo.",
-          "Porque no conocen el tema.",
-          "Porque prefieren trabajar solos."
+          "diritto il di gruppo parla.",
+          "Il gruppo diritto parla di.",
+          "Il gruppo parla di diritto.",
+          "Parla gruppo il diritto di."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale idea aiuta nella vita quotidiana?",
+        "prompt": "Quale frase usa «proposta» in modo corretto?",
         "options": [
-          "Una solución concreta y colaborativa.",
-          "Una lista sin contexto.",
-          "Una discusión sin objetivo.",
-          "Una decisión individual."
+          "Parla gruppo il proposta di.",
+          "Il gruppo proposta parla di.",
+          "proposta il di gruppo parla.",
+          "Il gruppo parla di proposta."
         ]
       },
       {
-        "id": "italian-b1-cittadinanza-e-partecipazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è lo scopo principale di «Cittadinanza e partecipazione: lectura»?",
+        "prompt": "Quale frase usa «comunità» in modo corretto?",
         "options": [
-          "Presentare le idee e i dettagli essenziali di Cittadinanza e partecipazione: lectura",
-          "Presentare un argomento non correlato",
-          "Fornire un elenco senza contesto",
-          "Raccontare una storia senza legame con il tema"
+          "Il gruppo parla di comunità.",
+          "Il gruppo comunità parla di.",
+          "comunità il di gruppo parla.",
+          "Parla gruppo il comunità di."
         ]
       }
     ]
@@ -15983,209 +16122,6 @@
     ]
   },
   {
-    "slug": "italian-b1-cittadinanza-e-partecipazione-grammar",
-    "level": "B1",
-    "skill": "grammar",
-    "unitId": "cittadinanza-e-partecipazione",
-    "title": "Cittadinanza e partecipazione: grammatica",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 25,
-    "orderIndex": 121,
-    "estimatedMinutes": 10,
-    "description": "proponer acciones y participar en la comunidad",
-    "intro": "proponer acciones y participar en la comunidad",
-    "mission": "proponer acciones y participar en la comunidad",
-    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
-    "phrases": [
-      "Impariamo: cittadinanza.",
-      "Impariamo: partecipare.",
-      "Impariamo: diritto.",
-      "Impariamo: proposta."
-    ],
-    "vocabulary": [
-      {
-        "word": "cittadinanza",
-        "translation": "Palabra clave 1",
-        "example": "Uso la parola «cittadinanza» nel contesto."
-      },
-      {
-        "word": "partecipare",
-        "translation": "Palabra clave 2",
-        "example": "Uso la parola «partecipare» nel contesto."
-      },
-      {
-        "word": "diritto",
-        "translation": "Palabra clave 3",
-        "example": "Uso la parola «diritto» nel contesto."
-      },
-      {
-        "word": "proposta",
-        "translation": "Palabra clave 4",
-        "example": "Uso la parola «proposta» nel contesto."
-      },
-      {
-        "word": "comunità",
-        "translation": "Palabra clave 5",
-        "example": "Uso la parola «comunità» nel contesto."
-      },
-      {
-        "word": "scegliere",
-        "translation": "Palabra clave 6",
-        "example": "Uso la parola «scegliere» nel contesto."
-      },
-      {
-        "word": "volontario",
-        "translation": "Palabra clave 7",
-        "example": "Uso la parola «volontario» nel contesto."
-      },
-      {
-        "word": "iniziativa",
-        "translation": "Palabra clave 8",
-        "example": "Uso la parola «iniziativa» nel contesto."
-      },
-      {
-        "word": "migliorare",
-        "translation": "Palabra clave 9",
-        "example": "Uso la parola «migliorare» nel contesto."
-      },
-      {
-        "word": "responsabilità",
-        "translation": "Palabra clave 10",
-        "example": "Uso la parola «responsabilità» nel contesto."
-      }
-    ],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": {
-      "grammarProfile": {
-        "name": "Cittadinanza: congiuntivo e proposte",
-        "definition": "Práctica guiada de Cittadinanza: congiuntivo e proposte.",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
-        "examples": []
-      },
-      "grammarTest": null,
-      "listeningComprehension": null
-    },
-    "exercises": [
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «cittadinanza» in modo corretto?",
-        "options": [
-          "Il gruppo parla di cittadinanza.",
-          "Il gruppo cittadinanza parla di.",
-          "cittadinanza il di gruppo parla.",
-          "Parla gruppo il cittadinanza di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «partecipare» in modo corretto?",
-        "options": [
-          "Il gruppo partecipare parla di.",
-          "Il gruppo parla di partecipare.",
-          "partecipare il di gruppo parla.",
-          "Parla gruppo il partecipare di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «diritto» in modo corretto?",
-        "options": [
-          "diritto il di gruppo parla.",
-          "Il gruppo diritto parla di.",
-          "Il gruppo parla di diritto.",
-          "Parla gruppo il diritto di."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «proposta» in modo corretto?",
-        "options": [
-          "Parla gruppo il proposta di.",
-          "Il gruppo proposta parla di.",
-          "proposta il di gruppo parla.",
-          "Il gruppo parla di proposta."
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale frase usa «comunità» in modo corretto?",
-        "options": [
-          "Il gruppo parla di comunità.",
-          "Il gruppo comunità parla di.",
-          "comunità il di gruppo parla.",
-          "Parla gruppo il comunità di."
-        ]
-      }
-    ]
-  },
-  {
-    "slug": "italian-a1-un-messaggio-a-casa-speaking",
-    "level": "A1",
-    "skill": "speaking",
-    "unitId": "un-messaggio-a-casa",
-    "title": "Un messaggio a casa: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 122,
-    "estimatedMinutes": 8,
-    "description": "Practica escribir un mensaje breve.",
-    "intro": "Practica escribir un mensaje breve.",
-    "mission": "Di Oggi ho imparato molto. y añade una frase sobre contar una experiencia sencilla.",
-    "grammar": "",
-    "phrases": [
-      "Oggi ho imparato molto.",
-      "Mi piace oggi.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: escribir un mensaje breve. Usa «Oggi ho imparato molto.»."
-      }
-    ]
-  },
-  {
-    "slug": "italian-a2-raccontare-il-proprio-viaggio-speaking",
-    "level": "A2",
-    "skill": "speaking",
-    "unitId": "raccontare-il-proprio-viaggio",
-    "title": "Raccontare il proprio viaggio: parla",
-    "accessTier": "premium",
-    "isFree": false,
-    "xpReward": 20,
-    "orderIndex": 122,
-    "estimatedMinutes": 8,
-    "description": "Practica narrar una experiencia.",
-    "intro": "Practica narrar una experiencia.",
-    "mission": "Di È stato un viaggio importante. y añade una frase sobre cerrar el nivel con una experiencia personal.",
-    "grammar": "",
-    "phrases": [
-      "È stato un viaggio importante.",
-      "Mi piace ricordo.",
-      "Vorrei sapere di più."
-    ],
-    "vocabulary": [],
-    "dialogue": [],
-    "reading": null,
-    "transcript": "",
-    "extra": null,
-    "exercises": [
-      {
-        "type": "speaking",
-        "prompt": "Habla 30 segundos: narrar una experiencia. Usa «È stato un viaggio importante.»."
-      }
-    ]
-  },
-  {
     "slug": "italian-b1-cittadinanza-e-partecipazione-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -16322,6 +16258,70 @@
           "iniziativa",
           "migliorare"
         ]
+      }
+    ]
+  },
+  {
+    "slug": "italian-a1-un-messaggio-a-casa-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "un-messaggio-a-casa",
+    "title": "Un messaggio a casa: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 122,
+    "estimatedMinutes": 8,
+    "description": "Practica escribir un mensaje breve.",
+    "intro": "Practica escribir un mensaje breve.",
+    "mission": "Di Oggi ho imparato molto. y añade una frase sobre contar una experiencia sencilla.",
+    "grammar": "",
+    "phrases": [
+      "Oggi ho imparato molto.",
+      "Mi piace oggi.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: escribir un mensaje breve. Usa «Oggi ho imparato molto.»."
+      }
+    ]
+  },
+  {
+    "slug": "italian-a2-raccontare-il-proprio-viaggio-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "raccontare-il-proprio-viaggio",
+    "title": "Raccontare il proprio viaggio: parla",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 20,
+    "orderIndex": 122,
+    "estimatedMinutes": 8,
+    "description": "Practica narrar una experiencia.",
+    "intro": "Practica narrar una experiencia.",
+    "mission": "Di È stato un viaggio importante. y añade una frase sobre cerrar el nivel con una experiencia personal.",
+    "grammar": "",
+    "phrases": [
+      "È stato un viaggio importante.",
+      "Mi piace ricordo.",
+      "Vorrei sapere di più."
+    ],
+    "vocabulary": [],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "speaking",
+        "prompt": "Habla 30 segundos: narrar una experiencia. Usa «È stato un viaggio importante.»."
       }
     ]
   },
@@ -18401,6 +18401,35 @@
   window.ANDERGO_LANGUAGE_WORLDS.units = window.ANDERGO_LANGUAGE_WORLDS.units || {};
   window.ANDERGO_LANGUAGE_WORLDS.units.italian = [
   {
+    "id": "lavoro-e-obiettivi",
+    "slug": "lavoro-e-obiettivi",
+    "level": "B1",
+    "title": "Lavoro e obiettivi",
+    "titleEs": "organizzare il tempo e proporre soluzioni",
+    "description": "organizzare il tempo e proporre soluzioni",
+    "order": 1,
+    "unitOverview": {
+      "objective": "organizzare il tempo e proporre soluzioni",
+      "outcomes": [
+        "organizzare il tempo e proporre soluzioni",
+        "comprender un texto contextual",
+        "usar vocabulario en un reto"
+      ],
+      "grammar": [
+        "opinión y conectores"
+      ],
+      "vocabulary": [
+        "obiettivi",
+        "scadenza",
+        "squadra",
+        "migliorare",
+        "scegliere",
+        "risultato"
+      ],
+      "scenario": "Lavoro e obiettivi"
+    }
+  },
+  {
     "id": "benvenuti-in-italia",
     "slug": "benvenuti-in-italia",
     "level": "A1",
@@ -18455,17 +18484,17 @@
     }
   },
   {
-    "id": "lavoro-e-obiettivi",
-    "slug": "lavoro-e-obiettivi",
+    "id": "viaggi-consapevoli",
+    "slug": "viaggi-consapevoli",
     "level": "B1",
-    "title": "Lavoro e obiettivi",
-    "titleEs": "organizzare il tempo e proporre soluzioni",
-    "description": "organizzare il tempo e proporre soluzioni",
-    "order": 1,
+    "title": "Viaggi consapevoli",
+    "titleEs": "raccontare un viaggio e dare consigli responsabili",
+    "description": "raccontare un viaggio e dare consigli responsabili",
+    "order": 2,
     "unitOverview": {
-      "objective": "organizzare il tempo e proporre soluzioni",
+      "objective": "raccontare un viaggio e dare consigli responsabili",
       "outcomes": [
-        "organizzare il tempo e proporre soluzioni",
+        "raccontare un viaggio e dare consigli responsabili",
         "comprender un texto contextual",
         "usar vocabulario en un reto"
       ],
@@ -18473,14 +18502,14 @@
         "opinión y conectores"
       ],
       "vocabulary": [
-        "obiettivi",
-        "scadenza",
-        "squadra",
-        "migliorare",
-        "scegliere",
-        "risultato"
+        "itinerario",
+        "prenotazione",
+        "paesaggio",
+        "evitare",
+        "consigliare",
+        "esperienza"
       ],
-      "scenario": "Lavoro e obiettivi"
+      "scenario": "Viaggi consapevoli"
     }
   },
   {
@@ -18538,17 +18567,17 @@
     }
   },
   {
-    "id": "viaggi-consapevoli",
-    "slug": "viaggi-consapevoli",
+    "id": "salute-e-benessere",
+    "slug": "salute-e-benessere",
     "level": "B1",
-    "title": "Viaggi consapevoli",
-    "titleEs": "raccontare un viaggio e dare consigli responsabili",
-    "description": "raccontare un viaggio e dare consigli responsabili",
-    "order": 2,
+    "title": "Salute e benessere",
+    "titleEs": "spiegare abitudini utili e cambiamenti personali",
+    "description": "spiegare abitudini utili e cambiamenti personali",
+    "order": 3,
     "unitOverview": {
-      "objective": "raccontare un viaggio e dare consigli responsabili",
+      "objective": "spiegare abitudini utili e cambiamenti personali",
       "outcomes": [
-        "raccontare un viaggio e dare consigli responsabili",
+        "spiegare abitudini utili e cambiamenti personali",
         "comprender un texto contextual",
         "usar vocabulario en un reto"
       ],
@@ -18556,14 +18585,14 @@
         "opinión y conectores"
       ],
       "vocabulary": [
-        "itinerario",
-        "prenotazione",
-        "paesaggio",
-        "evitare",
-        "consigliare",
-        "esperienza"
+        "benessere",
+        "riposo",
+        "allenamento",
+        "equilibrio",
+        "migliorare",
+        "prevenire"
       ],
-      "scenario": "Viaggi consapevoli"
+      "scenario": "Salute e benessere"
     }
   },
   {
@@ -18621,17 +18650,17 @@
     }
   },
   {
-    "id": "salute-e-benessere",
-    "slug": "salute-e-benessere",
+    "id": "cultura-e-media",
+    "slug": "cultura-e-media",
     "level": "B1",
-    "title": "Salute e benessere",
-    "titleEs": "spiegare abitudini utili e cambiamenti personali",
-    "description": "spiegare abitudini utili e cambiamenti personali",
-    "order": 3,
+    "title": "Cultura e media",
+    "titleEs": "esprimere opinioni su cultura e informazione",
+    "description": "esprimere opinioni su cultura e informazione",
+    "order": 4,
     "unitOverview": {
-      "objective": "spiegare abitudini utili e cambiamenti personali",
+      "objective": "esprimere opinioni su cultura e informazione",
       "outcomes": [
-        "spiegare abitudini utili e cambiamenti personali",
+        "esprimere opinioni su cultura e informazione",
         "comprender un texto contextual",
         "usar vocabulario en un reto"
       ],
@@ -18639,14 +18668,14 @@
         "opinión y conectores"
       ],
       "vocabulary": [
-        "benessere",
-        "riposo",
-        "allenamento",
-        "equilibrio",
-        "migliorare",
-        "prevenire"
+        "notizia",
+        "fonte",
+        "pubblico",
+        "opinione",
+        "confrontare",
+        "dibattito"
       ],
-      "scenario": "Salute e benessere"
+      "scenario": "Cultura e media"
     }
   },
   {
@@ -18704,17 +18733,17 @@
     }
   },
   {
-    "id": "cultura-e-media",
-    "slug": "cultura-e-media",
+    "id": "ambiente-nel-quartiere",
+    "slug": "ambiente-nel-quartiere",
     "level": "B1",
-    "title": "Cultura e media",
-    "titleEs": "esprimere opinioni su cultura e informazione",
-    "description": "esprimere opinioni su cultura e informazione",
-    "order": 4,
+    "title": "Ambiente nel quartiere",
+    "titleEs": "descrivere un problema ambientale e una proposta",
+    "description": "descrivere un problema ambientale e una proposta",
+    "order": 5,
     "unitOverview": {
-      "objective": "esprimere opinioni su cultura e informazione",
+      "objective": "descrivere un problema ambientale e una proposta",
       "outcomes": [
-        "esprimere opinioni su cultura e informazione",
+        "descrivere un problema ambientale e una proposta",
         "comprender un texto contextual",
         "usar vocabulario en un reto"
       ],
@@ -18722,14 +18751,14 @@
         "opinión y conectores"
       ],
       "vocabulary": [
-        "notizia",
-        "fonte",
-        "pubblico",
-        "opinione",
-        "confrontare",
-        "dibattito"
+        "rifiuto",
+        "raccolta",
+        "risorsa",
+        "ridurre",
+        "quartiere",
+        "volontario"
       ],
-      "scenario": "Cultura e media"
+      "scenario": "Ambiente nel quartiere"
     }
   },
   {
@@ -18787,17 +18816,17 @@
     }
   },
   {
-    "id": "ambiente-nel-quartiere",
-    "slug": "ambiente-nel-quartiere",
+    "id": "storie-e-memoria",
+    "slug": "storie-e-memoria",
     "level": "B1",
-    "title": "Ambiente nel quartiere",
-    "titleEs": "descrivere un problema ambientale e una proposta",
-    "description": "descrivere un problema ambientale e una proposta",
-    "order": 5,
+    "title": "Storie e memoria",
+    "titleEs": "narrare esperienze e collegarle al presente",
+    "description": "narrare esperienze e collegarle al presente",
+    "order": 6,
     "unitOverview": {
-      "objective": "descrivere un problema ambientale e una proposta",
+      "objective": "narrare esperienze e collegarle al presente",
       "outcomes": [
-        "descrivere un problema ambientale e una proposta",
+        "narrare esperienze e collegarle al presente",
         "comprender un texto contextual",
         "usar vocabulario en un reto"
       ],
@@ -18805,14 +18834,14 @@
         "opinión y conectores"
       ],
       "vocabulary": [
-        "rifiuto",
-        "raccolta",
-        "risorsa",
-        "ridurre",
-        "quartiere",
-        "volontario"
+        "memoria",
+        "infanzia",
+        "cambiamento",
+        "raccontare",
+        "passato",
+        "incontro"
       ],
-      "scenario": "Ambiente nel quartiere"
+      "scenario": "Storie e memoria"
     }
   },
   {
@@ -18870,17 +18899,17 @@
     }
   },
   {
-    "id": "storie-e-memoria",
-    "slug": "storie-e-memoria",
+    "id": "progetti-di-classe",
+    "slug": "progetti-di-classe",
     "level": "B1",
-    "title": "Storie e memoria",
-    "titleEs": "narrare esperienze e collegarle al presente",
-    "description": "narrare esperienze e collegarle al presente",
-    "order": 6,
+    "title": "Progetti di classe",
+    "titleEs": "presentare un progetto e distribuirne i compiti",
+    "description": "presentare un progetto e distribuirne i compiti",
+    "order": 7,
     "unitOverview": {
-      "objective": "narrare esperienze e collegarle al presente",
+      "objective": "presentare un progetto e distribuirne i compiti",
       "outcomes": [
-        "narrare esperienze e collegarle al presente",
+        "presentare un progetto e distribuirne i compiti",
         "comprender un texto contextual",
         "usar vocabulario en un reto"
       ],
@@ -18888,14 +18917,14 @@
         "opinión y conectores"
       ],
       "vocabulary": [
-        "memoria",
-        "infanzia",
-        "cambiamento",
-        "raccontare",
-        "passato",
-        "incontro"
+        "progetto",
+        "ricerca",
+        "compito",
+        "collaborazione",
+        "presentare",
+        "accordo"
       ],
-      "scenario": "Storie e memoria"
+      "scenario": "Progetti di classe"
     }
   },
   {
@@ -18953,17 +18982,17 @@
     }
   },
   {
-    "id": "progetti-di-classe",
-    "slug": "progetti-di-classe",
+    "id": "tecnologia-quotidiana",
+    "slug": "tecnologia-quotidiana",
     "level": "B1",
-    "title": "Progetti di classe",
-    "titleEs": "presentare un progetto e distribuirne i compiti",
-    "description": "presentare un progetto e distribuirne i compiti",
-    "order": 7,
+    "title": "Tecnologia quotidiana",
+    "titleEs": "valutare usos de la tecnología con argumentos",
+    "description": "valutare usos de la tecnología con argumentos",
+    "order": 8,
     "unitOverview": {
-      "objective": "presentare un progetto e distribuirne i compiti",
+      "objective": "valutare usos de la tecnología con argumentos",
       "outcomes": [
-        "presentare un progetto e distribuirne i compiti",
+        "valutare usos de la tecnología con argumentos",
         "comprender un texto contextual",
         "usar vocabulario en un reto"
       ],
@@ -18971,14 +19000,14 @@
         "opinión y conectores"
       ],
       "vocabulary": [
-        "progetto",
-        "ricerca",
-        "compito",
-        "collaborazione",
-        "presentare",
-        "accordo"
+        "tecnologia",
+        "dispositivo",
+        "vantaggio",
+        "rischio",
+        "proteggere",
+        "abitudine"
       ],
-      "scenario": "Progetti di classe"
+      "scenario": "Tecnologia quotidiana"
     }
   },
   {
@@ -19036,17 +19065,17 @@
     }
   },
   {
-    "id": "tecnologia-quotidiana",
-    "slug": "tecnologia-quotidiana",
+    "id": "citta-e-mobilita",
+    "slug": "citta-e-mobilita",
     "level": "B1",
-    "title": "Tecnologia quotidiana",
-    "titleEs": "valutare usos de la tecnología con argumentos",
-    "description": "valutare usos de la tecnología con argumentos",
-    "order": 8,
+    "title": "Città e mobilità",
+    "titleEs": "comparare opciones de movilidad urbana",
+    "description": "comparare opciones de movilidad urbana",
+    "order": 9,
     "unitOverview": {
-      "objective": "valutare usos de la tecnología con argumentos",
+      "objective": "comparare opciones de movilidad urbana",
       "outcomes": [
-        "valutare usos de la tecnología con argumentos",
+        "comparare opciones de movilidad urbana",
         "comprender un texto contextual",
         "usar vocabulario en un reto"
       ],
@@ -19054,14 +19083,14 @@
         "opinión y conectores"
       ],
       "vocabulary": [
-        "tecnologia",
-        "dispositivo",
-        "vantaggio",
-        "rischio",
-        "proteggere",
-        "abitudine"
+        "trasporto",
+        "percorso",
+        "traffico",
+        "bicicletta",
+        "migliorare",
+        "accessibile"
       ],
-      "scenario": "Tecnologia quotidiana"
+      "scenario": "Città e mobilità"
     }
   },
   {
@@ -19119,17 +19148,17 @@
     }
   },
   {
-    "id": "citta-e-mobilita",
-    "slug": "citta-e-mobilita",
+    "id": "piani-per-il-futuro",
+    "slug": "piani-per-il-futuro",
     "level": "B1",
-    "title": "Città e mobilità",
-    "titleEs": "comparare opciones de movilidad urbana",
-    "description": "comparare opciones de movilidad urbana",
-    "order": 9,
+    "title": "Piani per il futuro",
+    "titleEs": "hablar de metas y posibilidades futuras",
+    "description": "hablar de metas y posibilidades futuras",
+    "order": 10,
     "unitOverview": {
-      "objective": "comparare opciones de movilidad urbana",
+      "objective": "hablar de metas y posibilidades futuras",
       "outcomes": [
-        "comparare opciones de movilidad urbana",
+        "hablar de metas y posibilidades futuras",
         "comprender un texto contextual",
         "usar vocabulario en un reto"
       ],
@@ -19137,14 +19166,14 @@
         "opinión y conectores"
       ],
       "vocabulary": [
-        "trasporto",
-        "percorso",
-        "traffico",
-        "bicicletta",
-        "migliorare",
-        "accessibile"
+        "futuro",
+        "obiettivo",
+        "opportunità",
+        "decidere",
+        "esperienza",
+        "formazione"
       ],
-      "scenario": "Città e mobilità"
+      "scenario": "Piani per il futuro"
     }
   },
   {
@@ -19202,17 +19231,17 @@
     }
   },
   {
-    "id": "piani-per-il-futuro",
-    "slug": "piani-per-il-futuro",
+    "id": "relazioni-e-comunicazione",
+    "slug": "relazioni-e-comunicazione",
     "level": "B1",
-    "title": "Piani per il futuro",
-    "titleEs": "hablar de metas y posibilidades futuras",
-    "description": "hablar de metas y posibilidades futuras",
-    "order": 10,
+    "title": "Relazioni e comunicazione",
+    "titleEs": "expresar relaciones, opiniones y mensajes referidos",
+    "description": "expresar relaciones, opiniones y mensajes referidos",
+    "order": 11,
     "unitOverview": {
-      "objective": "hablar de metas y posibilidades futuras",
+      "objective": "expresar relaciones, opiniones y mensajes referidos",
       "outcomes": [
-        "hablar de metas y posibilidades futuras",
+        "expresar relaciones, opiniones y mensajes referidos",
         "comprender un texto contextual",
         "usar vocabulario en un reto"
       ],
@@ -19220,14 +19249,14 @@
         "opinión y conectores"
       ],
       "vocabulary": [
-        "futuro",
-        "obiettivo",
-        "opportunità",
-        "decidere",
-        "esperienza",
-        "formazione"
+        "relazione",
+        "ascoltare",
+        "spiegare",
+        "messaggio",
+        "accordo",
+        "fiducia"
       ],
-      "scenario": "Piani per il futuro"
+      "scenario": "Relazioni e comunicazione"
     }
   },
   {
@@ -19285,17 +19314,17 @@
     }
   },
   {
-    "id": "relazioni-e-comunicazione",
-    "slug": "relazioni-e-comunicazione",
+    "id": "cittadinanza-e-partecipazione",
+    "slug": "cittadinanza-e-partecipazione",
     "level": "B1",
-    "title": "Relazioni e comunicazione",
-    "titleEs": "expresar relaciones, opiniones y mensajes referidos",
-    "description": "expresar relaciones, opiniones y mensajes referidos",
-    "order": 11,
+    "title": "Cittadinanza e partecipazione",
+    "titleEs": "proponer acciones y participar en la comunidad",
+    "description": "proponer acciones y participar en la comunidad",
+    "order": 12,
     "unitOverview": {
-      "objective": "expresar relaciones, opiniones y mensajes referidos",
+      "objective": "proponer acciones y participar en la comunidad",
       "outcomes": [
-        "expresar relaciones, opiniones y mensajes referidos",
+        "proponer acciones y participar en la comunidad",
         "comprender un texto contextual",
         "usar vocabulario en un reto"
       ],
@@ -19303,14 +19332,14 @@
         "opinión y conectores"
       ],
       "vocabulary": [
-        "relazione",
-        "ascoltare",
-        "spiegare",
-        "messaggio",
-        "accordo",
-        "fiducia"
+        "cittadinanza",
+        "partecipare",
+        "diritto",
+        "proposta",
+        "comunità",
+        "scegliere"
       ],
-      "scenario": "Relazioni e comunicazione"
+      "scenario": "Cittadinanza e partecipazione"
     }
   },
   {
@@ -19365,35 +19394,6 @@
         "futuro"
       ],
       "scenario": "Cerrar el nivel con una experiencia personal"
-    }
-  },
-  {
-    "id": "cittadinanza-e-partecipazione",
-    "slug": "cittadinanza-e-partecipazione",
-    "level": "B1",
-    "title": "Cittadinanza e partecipazione",
-    "titleEs": "proponer acciones y participar en la comunidad",
-    "description": "proponer acciones y participar en la comunidad",
-    "order": 12,
-    "unitOverview": {
-      "objective": "proponer acciones y participar en la comunidad",
-      "outcomes": [
-        "proponer acciones y participar en la comunidad",
-        "comprender un texto contextual",
-        "usar vocabulario en un reto"
-      ],
-      "grammar": [
-        "opinión y conectores"
-      ],
-      "vocabulary": [
-        "cittadinanza",
-        "partecipare",
-        "diritto",
-        "proposta",
-        "comunità",
-        "scegliere"
-      ],
-      "scenario": "Cittadinanza e partecipazione"
     }
   }
 ];
