@@ -3461,6 +3461,23 @@ test('script.js: renderVocabCardHtml() safely gates optional definition, synonym
   assert.match(source, /if \(item\.opposites\?\.length\)/);
 });
 
+test('Vocabulary exposes a responsive level catalogue with search, mastery and category filters', () => {
+  const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
+  const css = fs.readFileSync(path.join(__dirname, 'src', 'css', 'styles.css'), 'utf8');
+
+  assert.match(source, /Amplía tu vocabulario paso a paso/);
+  assert.match(source, /class="vocab-catalogue-search-input"/);
+  assert.match(source, /data-vocab-level="\$\{level\}"/);
+  assert.match(source, /\['A1', 'A2', 'B1', 'B2', 'C1', 'C2'\]/);
+  assert.match(source, /data-vocab-mastery=/);
+  assert.match(source, /vocab-catalogue-category-filter/);
+  assert.match(source, /function applyVocabularyCatalogueFilters\(/);
+  assert.match(source, /class="vocab-card-catalogue-actions"/);
+  assert.match(css, /\.vocab-catalogue-deck\s*\{\s*grid-template-columns:\s*repeat\(2/);
+  assert.match(css, /@media \(max-width: 760px\)[\s\S]*?\.vocab-catalogue-deck\s*\{\s*grid-template-columns:\s*1fr/);
+  assert.match(source, /function compactLearningToolbars\([\s\S]*?isFrenchExerciseFeedbackInTargetLanguage\(learningPathState\.level\)/);
+});
+
 test('C1/C2 direct-mode vocabulary shows translation and contextual examples by default', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   assert.match(source, /class="secondary-btn vocab-l1-translation-btn/);

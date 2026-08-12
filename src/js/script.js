@@ -4471,7 +4471,7 @@ function compactLearningToolbars(section) {
     buttons[0];
   const secondary = buttons.filter((button) => button !== primary);
   const firstBar = bars[0];
-  const french = isFrenchExerciseFeedbackInTargetLanguage(lesson.level);
+  const french = isFrenchExerciseFeedbackInTargetLanguage(learningPathState.level);
   const details = document.createElement('details');
   details.className = 'skill-view-more learning-tools-more';
   details.innerHTML = `<summary>${french ? 'Plus d’outils' : 'Más herramientas'}</summary><div class="skill-view-more-menu"></div>`;
@@ -13583,10 +13583,11 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
     .toLocaleUpperCase();
 
   return `
-    <div class="vocab-card" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-flipped="false" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" role="button" tabindex="0" aria-expanded="false" aria-label="${escapeHtml(vocabCardAriaLabel(item.targetWord, false, isFrench))}">
+    <div class="vocab-card" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-vocab-word="${escapeHtml(`${item.targetWord} ${item.translation || ''} ${item.phonetic || ''}`.toLocaleLowerCase())}" data-vocab-category="${escapeHtml(item.category || '')}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-flipped="false" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" role="button" tabindex="0" aria-expanded="false" aria-label="${escapeHtml(vocabCardAriaLabel(item.targetWord, false, isFrench))}">
       <div class="vocab-card-inner">
         <div class="vocab-card-face vocab-card-front">
           <span class="vocab-card-compact-icon" aria-hidden="true">${escapeHtml(compactIconText || '•')}</span>
+          <span class="vocab-card-level-badge">${escapeHtml(item.level || learningPathState.level)}</span>
           <div class="vocab-card-header">
             <span class="vocab-card-side-label">${escapeHtml(cardUi.front)}</span>
             ${
@@ -13600,11 +13601,13 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
             <p class="vocab-card-target ${getVocabTargetSizeClass(item.targetWord)}">${escapeHtml(item.targetWord)}</p>
             ${frontSupportHtml}
             ${item.phonetic ? `<p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p>` : ''}
+            ${item.simpleDefinition || item.definition ? `<p class="vocab-card-catalogue-definition">${escapeHtml(item.simpleDefinition || item.definition)}</p>` : ''}
+            ${firstContext ? `<p class="vocab-card-catalogue-example">${escapeHtml(firstContext.targetText)}</p>` : ''}
             ${item.category ? `<span class="vocab-card-tag">${escapeHtml(item.category)}</span>` : ''}
           </div>
           <div class="vocab-card-front-footer">
             ${statusChipHtml}
-            <p class="vocab-card-hint"><span aria-hidden="true">↻</span> ${escapeHtml(cardUi.hint)}</p>
+            <div class="vocab-card-catalogue-actions"><button type="button" class="vocab-retry-btn">Practicar</button><button type="button" class="vocab-details-btn">Ver detalles</button></div>
           </div>
         </div>
         <div class="vocab-card-face vocab-card-back" aria-hidden="true">
@@ -13633,6 +13636,11 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
 let vocabCardOrder = [];
 let vocabL1TranslationVisible = true;
 let vocabTranslationLessonSlug = '';
+const vocabularyCatalogueFilters = {
+  search: '',
+  mastery: 'all',
+  category: 'all'
+};
 const vocabL1TranslationCache = new Map();
 const vocabL1TranslationRequests = new Set();
 const vocabBriefDefinitionCache = new Map();
@@ -14191,8 +14199,35 @@ function renderVocabularyView(section, lesson) {
     .join('');
   const printExercisesHtml = renderPrintableExerciseList(vocabularyExercises, { showAnswers: staff });
   const vocabularyUi = getVocabularyL2Ui();
+  const levelBank = getLevelVocabularyBank(lesson);
+  const catalogueTotal = Math.max(cards.length, levelBank.length);
+  const masteredCount = cards.filter((card) => card.masteryStatus === 'mastered').length;
+  const masteryPercent = cards.length ? Math.round((masteredCount / cards.length) * 100) : 0;
+  const categories = [...new Set(cards.map((card) => String(card.category || '').trim()).filter(Boolean))];
+  const levelOptions = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+  const limitedLanguage = ['italian', 'portuguese'].includes(learningPathState.language);
 
   content.innerHTML = `
+    <section class="vocab-catalogue" aria-label="Catálogo de vocabulario">
+      <div class="vocab-catalogue-heading">
+        <div><span>VOCABULARY · ${escapeHtml(lesson.level)}</span><h3>Amplía tu vocabulario paso a paso</h3></div>
+        <p><strong>${masteredCount}</strong> de ${catalogueTotal} palabras dominadas</p>
+      </div>
+      <div class="vocab-catalogue-toolbar no-print">
+        <label class="vocab-catalogue-search"><span>Buscar</span><input type="search" class="vocab-catalogue-search-input" value="${escapeHtml(vocabularyCatalogueFilters.search)}" placeholder="Buscar una palabra…" autocomplete="off"></label>
+        <label><span>Idioma</span><select disabled><option>${escapeHtml(languageDisplayNames[learningPathState.language] || learningPathState.language)}</option></select></label>
+        <label><span>Categoría</span><select class="vocab-catalogue-category-filter"><option value="all">Todas las categorías</option>${categories.map((category) => `<option value="${escapeHtml(category)}"${vocabularyCatalogueFilters.category === category ? ' selected' : ''}>${escapeHtml(category)}</option>`).join('')}</select></label>
+      </div>
+      <div class="vocab-catalogue-filter-row no-print">
+        <div class="vocab-catalogue-levels" aria-label="Nivel MCER">
+          ${levelOptions.map((level) => `<button type="button" data-vocab-level="${level}" class="${lesson.level === level ? 'is-active' : ''}" aria-pressed="${lesson.level === level}"${limitedLanguage && !['A1', 'A2'].includes(level) ? ' disabled title="Próximamente"' : ''}>${level}</button>`).join('')}
+        </div>
+        <div class="vocab-catalogue-mastery" aria-label="Estado de aprendizaje">
+          ${[['all', 'Todas'], ['new', 'Nuevas'], ['practicing', 'Practicando'], ['mastered', 'Dominadas']].map(([value, label]) => `<button type="button" data-vocab-mastery="${value}" class="${vocabularyCatalogueFilters.mastery === value ? 'is-active' : ''}" aria-pressed="${vocabularyCatalogueFilters.mastery === value}">${label}</button>`).join('')}
+        </div>
+      </div>
+      <div class="vocab-catalogue-progress"><span><strong>${escapeHtml(lesson.level)}</strong> · ${masteryPercent}% dominado</span><div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${masteryPercent}"><i style="width:${masteryPercent}%"></i></div><small class="vocab-catalogue-visible-count">${cards.length} palabras</small></div>
+    </section>
     ${renderVocabularyMissionHtml(lesson, cards, french)}
     <section class="saved-reading-vocabulary" aria-live="polite">
       <p class="skill-graph-empty">${french ? 'Chargement des mots enregistrés depuis Reading…' : 'Cargando palabras guardadas desde Reading…'}</p>
@@ -14207,7 +14242,7 @@ function renderVocabularyView(section, lesson) {
           : ''
       }
     </div>
-    <div class="vocab-card-deck">
+    <div class="vocab-card-deck vocab-catalogue-deck">
       ${vocabCardOrder
         .map((cardIndex) =>
           renderVocabCardHtml(
@@ -14252,6 +14287,7 @@ function renderVocabularyView(section, lesson) {
       <button type="button" class="secondary-btn skill-print-btn">${staff ? (french ? 'Télécharger le corrigé' : 'Descargar clave de respuestas') : (french ? 'Télécharger le vocabulaire en PDF' : 'Descargar vocabulario en PDF')}</button>
     </div>
   `;
+  applyVocabularyCatalogueFilters(section);
   renderSavedVocabularyShelf(content, lesson);
   if (advancedDirect && cards.some((card) => !card.l1Translation)) {
     void loadMissingAdvancedVocabTranslations(cards, lesson.slug).then((changed) => {
@@ -14282,7 +14318,62 @@ function getActiveVocabularyPracticeContext(target) {
   return { section, lesson, cards: vocabPracticeSources.get(lesson.slug) || [] };
 }
 
+function applyVocabularyCatalogueFilters(section) {
+  if (!section) return;
+  const search = vocabularyCatalogueFilters.search.trim().toLocaleLowerCase();
+  let visible = 0;
+  section.querySelectorAll('.vocab-catalogue-deck .vocab-card').forEach((card) => {
+    const mastery = card.dataset.mastery || 'new';
+    const matchesMastery =
+      vocabularyCatalogueFilters.mastery === 'all' ||
+      mastery === vocabularyCatalogueFilters.mastery ||
+      (vocabularyCatalogueFilters.mastery === 'practicing' && mastery === 'learning');
+    const matchesCategory =
+      vocabularyCatalogueFilters.category === 'all' ||
+      card.dataset.vocabCategory === vocabularyCatalogueFilters.category;
+    const matchesSearch = !search || (card.dataset.vocabWord || '').includes(search);
+    const matches = matchesMastery && matchesCategory && matchesSearch;
+    card.hidden = !matches;
+    if (matches) visible += 1;
+  });
+  const counter = section.querySelector('.vocab-catalogue-visible-count');
+  if (counter) counter.textContent = `${visible} ${visible === 1 ? 'palabra' : 'palabras'}`;
+  section.querySelectorAll('[data-vocab-mastery]').forEach((button) => {
+    const active = button.dataset.vocabMastery === vocabularyCatalogueFilters.mastery;
+    button.classList.toggle('is-active', active);
+    button.setAttribute('aria-pressed', String(active));
+  });
+}
+
 document.addEventListener('click', (event) => {
+  const levelButton = event.target.closest('[data-vocab-level]');
+  if (levelButton && !levelButton.disabled) {
+    const level = levelButton.dataset.vocabLevel;
+    const section = levelButton.closest('.skill-view-section[data-skill="vocabulary"]');
+    if (!level || !section || level === learningPathState.level) return;
+    learningPathState.level = level;
+    learningPathState.activeSlug = '';
+    vocabularyCatalogueFilters.search = '';
+    vocabularyCatalogueFilters.mastery = 'all';
+    vocabularyCatalogueFilters.category = 'all';
+    const levelSelect = document.getElementById('pathLevelSelect');
+    if (levelSelect) levelSelect.value = level;
+    savePreferences(learningPathState.language, level, learningPathState.bridgeLanguage);
+    section.querySelector('.skill-view-content').innerHTML = '<p class="skill-graph-empty">Preparando Vocabulary…</p>';
+    void loadLearningPath({ language: learningPathState.language, level }).then(() => {
+      renderSkillView('vocabulary');
+      history.replaceState(null, '', '#vocabulary');
+    });
+    return;
+  }
+
+  const masteryButton = event.target.closest('[data-vocab-mastery]');
+  if (masteryButton) {
+    vocabularyCatalogueFilters.mastery = masteryButton.dataset.vocabMastery || 'all';
+    applyVocabularyCatalogueFilters(masteryButton.closest('.skill-view-section'));
+    return;
+  }
+
   const expressionsToggle = event.target.closest('.vocab-useful-expressions-toggle');
   if (expressionsToggle) {
     const panel = expressionsToggle
@@ -14377,6 +14468,18 @@ document.addEventListener('click', (event) => {
   }
 });
 
+document.addEventListener('input', (event) => {
+  if (!event.target.matches('.vocab-catalogue-search-input')) return;
+  vocabularyCatalogueFilters.search = event.target.value || '';
+  applyVocabularyCatalogueFilters(event.target.closest('.skill-view-section'));
+});
+
+document.addEventListener('change', (event) => {
+  if (!event.target.matches('.vocab-catalogue-category-filter')) return;
+  vocabularyCatalogueFilters.category = event.target.value || 'all';
+  applyVocabularyCatalogueFilters(event.target.closest('.skill-view-section'));
+});
+
 // Flips a card between its front (word only) and back (translation +
 // contexts + mastery actions), keeping the two faces' focusable buttons,
 // aria-hidden and the card's own aria-expanded/aria-label in sync. `toBack`
@@ -14451,6 +14554,17 @@ function setVocabCardMastery(card, status) {
     count.textContent = `${explored}/${deckCards.length} ${french ? 'cartes explorées' : 'tarjetas exploradas'}`;
   }
   if (masteredCount) masteredCount.textContent = String(mastered);
+  const catalogueProgress = section?.querySelector('.vocab-catalogue-progress');
+  if (catalogueProgress && deckCards.length) {
+    const masteryPercent = Math.round((mastered / deckCards.length) * 100);
+    const progressLabel = catalogueProgress.querySelector('span');
+    const progressBar = catalogueProgress.querySelector('[role="progressbar"]');
+    const progressFill = progressBar?.querySelector('i');
+    if (progressLabel) progressLabel.innerHTML = `<strong>${escapeHtml(learningPathState.level)}</strong> · ${masteryPercent}% dominado`;
+    if (progressBar) progressBar.setAttribute('aria-valuenow', String(masteryPercent));
+    if (progressFill) progressFill.style.width = `${masteryPercent}%`;
+  }
+  applyVocabularyCatalogueFilters(section);
 }
 
 function speakTitle(isFrench) {
@@ -20941,6 +21055,12 @@ function enableHomepageActions() {
     if (vocabRetryBtn) {
       event.stopPropagation();
       setVocabCardMastery(vocabRetryBtn.closest('.vocab-card'), 'practicing');
+      return;
+    }
+    const vocabDetailsBtn = event.target.closest('.vocab-details-btn');
+    if (vocabDetailsBtn) {
+      event.stopPropagation();
+      flipVocabCard(vocabDetailsBtn.closest('.vocab-card'), { toBack: true, speak: false });
       return;
     }
     const vocabBackBtn = event.target.closest('.vocab-back-btn');
