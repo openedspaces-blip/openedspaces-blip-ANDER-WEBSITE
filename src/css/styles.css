@@ -22213,6 +22213,22 @@ footer small {
   border-color: #f2b8b5;
   background: #fff1f0;
 }
+
+/* Azul hosted checkout review: card data is always entered on Azul, never here. */
+.azul-currency-note,.premium-policy-links { color: var(--text-muted); font-size: .9rem; }
+.premium-policy-links a { font-weight: 700; }
+.payment-brand-strip { display:flex; flex-wrap:wrap; align-items:center; gap:.75rem; margin:1rem 0; }
+.payment-brand-strip img { display:block; width:auto; height:2.15rem; max-width:7.5rem; object-fit:contain; }
+.payment-brand-dark { display:grid; place-items:center; min-height:2.5rem; padding:.35rem .65rem; border-radius:.45rem; background:#0d1b3d; }
+.payment-brand-dark img { max-width:6.75rem; height:1.75rem; }
+.payment-brand-strip--footer { justify-content:center; padding:0 1rem 1rem; }
+.azul-checkout-modal { position:fixed; z-index:100; inset:0; overflow:auto; padding:1rem; background:rgba(9,20,45,.58); }
+.azul-checkout-card { position:relative; width:min(640px,100%); margin:4vh auto; padding:clamp(1.25rem,4vw,2.25rem); border-radius:1.25rem; background:#fff; box-shadow:0 1.25rem 3rem rgba(0,0,0,.25); }
+.azul-checkout-close { position:absolute; top:.8rem; right:.8rem; width:2.25rem; height:2.25rem; border:0; border-radius:50%; color:var(--ink); background:#edf3ff; font-size:1.5rem; cursor:pointer; }
+.azul-order-summary { display:grid; grid-template-columns:1fr auto; gap:.6rem 1rem; padding:1rem 0; border-block:1px solid #d8e6fb; }
+.azul-order-summary dt { color:var(--text-muted); }.azul-order-summary dd { margin:0; font-weight:800; text-align:right; }.azul-order-summary dd:last-child { color:#075bc8; font-size:1.1rem; }
+.azul-terms-check { display:block; margin:1rem 0; line-height:1.55; }.azul-terms-check input { margin-right:.45rem; }
+@media (max-width:560px) { .payment-brand-strip { gap:.5rem; }.payment-brand-strip img { height:1.8rem; max-width:5.5rem; }.payment-brand-dark { min-height:2.15rem; }.payment-brand-dark img { height:1.45rem; max-width:5rem; } }
 .phonetics-ipa {
   width: 100%;
   margin: 0;
@@ -26262,7 +26278,7 @@ body {
 /* Expanded catalogue cards override the older compact-row model only when
    the level catalogue is active. */
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card {
@@ -26315,10 +26331,16 @@ body {
 .vocab-card-catalogue-examples li > span { display: grid; width: 1.15rem; height: 1.15rem; place-items: center; border-radius: 50%; background: #eff6ff; color: #2563eb; font-size: 0.61rem; font-weight: 900; }
 .vocab-card-catalogue-examples p, .vocab-card-catalogue-examples small { margin: 0; }
 .vocab-card-catalogue-examples small { display: block; margin-top: 0.05rem; color: #71809a; font-size: 0.67rem; }
+.vocab-card-catalogue-example-audio { display: inline-grid; width: 1.35rem; height: 1.35rem; margin-left: 0.35rem; place-items: center; vertical-align: middle; border: 1px solid #cfe0ff; border-radius: 50%; background: #f4f8ff; color: #2563eb; font-size: 0.62rem; cursor: pointer; }
+.vocab-card-catalogue-example-audio.is-playing { border-color: #2563eb; background: #dbeafe; }
 .vocab-card-catalogue-actions { display: flex; gap: 0.4rem; margin-left: auto; }
 .vocab-card-catalogue-actions button { min-height: 34px; padding: 0.38rem 0.62rem; border: 1px solid #bcd0f4; border-radius: 9px; background: #fff; color: #1d4ed8; font: inherit; font-size: 0.67rem; font-weight: 850; cursor: pointer; }
 .vocab-card-catalogue-actions .vocab-retry-btn { border-color: #2563eb; background: #2563eb; color: #fff; }
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card.is-flipped { height: auto; min-height: 248px; }
+
+@media (max-width: 1180px) {
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 
 @media (max-width: 760px) {
   .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck { grid-template-columns: 1fr; }

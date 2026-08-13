@@ -1473,6 +1473,25 @@ test('Extended German catalogue keeps Spanish as the learner support language th
   assert.equal(german.find((verb) => verb.infinitive === 'bannen').translation.spanish, 'desterrar; cautivar');
 });
 
+test('Extended Italian catalogue keeps Spanish as the learner support language from B2 through C2', () => {
+  const context = { window: {} };
+  vm.createContext(context);
+  vm.runInContext(
+    fs.readFileSync(path.join(__dirname, 'src/js/verbs/european-verb-catalogues.js'), 'utf8'),
+    context,
+    { filename: 'src/js/verbs/european-verb-catalogues.js' }
+  );
+
+  const advancedItalian = context.window.ANDERGO_VERBS_DATA.italian
+    .filter((verb) => ['B2', 'C1', 'C2'].includes(verb.level));
+  assert.equal(advancedItalian.length, 449);
+  assert.ok(advancedItalian.every((verb) => Boolean(verb.translation?.spanish)));
+  assert.ok(advancedItalian.every((verb) => !/^to\s/i.test(verb.translation.spanish)));
+  assert.equal(advancedItalian.find((verb) => verb.infinitive === 'attestare').translation.spanish, 'dar fe; certificar; confirmar');
+  assert.equal(advancedItalian.find((verb) => verb.infinitive === 'bagnare').translation.spanish, 'mojar; empapar');
+  assert.equal(advancedItalian.find((verb) => verb.infinitive === 'esaurire').translation.spanish, 'agotar; quedarse sin');
+});
+
 test('Verb headings use the learner-facing German name in Spanish, never the internal code', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'verbs', 'verbs-view.js'), 'utf8');
   assert.match(source, /german: 'alemán'/);
@@ -3525,9 +3544,12 @@ test('Vocabulary stays within the selected route level and exposes search, maste
   assert.match(source, /class="vocab-card-catalogue-actions"/);
   assert.match(source, /class="vocab-card-catalogue-examples"/);
   assert.match(source, /item\.contexts\.slice\(0, 3\)/);
+  assert.match(source, /class="vocab-card-catalogue-example-audio"/);
+  assert.match(source, /vocabCatalogueExampleAudioBtn/);
   assert.doesNotMatch(source, /\$\{item\.category \? `<span class="vocab-card-tag"/);
   assert.match(source, /vocabCardBody\.dataset\.static === 'true'[\s\S]*?speakText\(vocabCardBody\.dataset\.speakText/);
-  assert.match(css, /\.vocab-catalogue-deck\s*\{\s*grid-template-columns:\s*repeat\(2/);
+  assert.match(css, /\.vocab-catalogue-deck\s*\{\s*grid-template-columns:\s*repeat\(3/);
+  assert.match(css, /@media \(max-width: 1180px\)[\s\S]*?\.vocab-catalogue-deck\s*\{\s*grid-template-columns:\s*repeat\(2/);
   assert.match(css, /@media \(max-width: 760px\)[\s\S]*?\.vocab-catalogue-deck\s*\{\s*grid-template-columns:\s*1fr/);
   assert.match(source, /function compactLearningToolbars\([\s\S]*?isFrenchExerciseFeedbackInTargetLanguage\(learningPathState\.level\)/);
 });

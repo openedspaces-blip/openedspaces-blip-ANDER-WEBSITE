@@ -569,6 +569,10 @@ async function loadAvailablePaymentProviders() {
     ]);
     paypalBillingConfig = await paypalResponse.json().catch(() => ({}));
     azulBillingConfig = await azulResponse.json().catch(() => ({}));
+    document.querySelectorAll('.azul-checkout-btn').forEach((button) => {
+      button.hidden = !azulBillingConfig?.configured;
+      button.disabled = !azulBillingConfig?.configured;
+    });
     if (paypalBillingConfig?.configured || azulBillingConfig?.configured) {
       document.querySelectorAll('.paddle-checkout-btn').forEach((button) => {
         button.disabled = false;
@@ -623,6 +627,50 @@ async function openAzulCheckout(billingCycle) {
   }
   submitHostedPayment(checkout.action, checkout.fields);
 }
+
+function openAzulCheckoutReview(billingCycle) {
+  const customer = window.AndergoBillingContext.getCustomer();
+  if (!customer.signedIn) return window.AndergoBillingContext.requestSignIn();
+  const plan = azulBillingConfig?.plans?.[billingCycle];
+  if (!azulBillingConfig?.configured || !plan?.amount) {
+    setPaymentStatus('El pago con tarjeta Azul todavía no está configurado.');
+    return;
+  }
+  const modal = document.getElementById('azulCheckoutModal');
+  const accept = document.getElementById('azulTermsAccept');
+  const confirm = document.getElementById('azulCheckoutConfirm');
+  if (!modal || !accept || !confirm) return;
+  document.getElementById('azulCheckoutPlan').textContent = plan.name;
+  document.getElementById('azulCheckoutPeriod').textContent = plan.period;
+  document.getElementById('azulCheckoutSubtotal').textContent = plan.amount;
+  document.getElementById('azulCheckoutTotal').textContent = `${plan.amount} ${azulBillingConfig.currencyCode || 'DOP'}`;
+  accept.checked = false;
+  confirm.disabled = true;
+  modal.hidden = false;
+  document.body.classList.add('modal-open');
+  confirm.onclick = async () => {
+    if (!accept.checked) return;
+    confirm.disabled = true;
+    confirm.textContent = 'Redirigiendo a Azul…';
+    try { await openAzulCheckout(billingCycle); } catch (error) { setPaymentStatus(error.message || 'No se pudo abrir Azul.'); }
+    finally { confirm.disabled = false; confirm.textContent = 'Continuar a Azul'; }
+  };
+}
+
+function closeAzulCheckoutReview() {
+  const modal = document.getElementById('azulCheckoutModal');
+  if (modal) modal.hidden = true;
+  document.body.classList.remove('modal-open');
+}
+
+document.getElementById('azulTermsAccept')?.addEventListener('change', (event) => {
+  const confirm = document.getElementById('azulCheckoutConfirm');
+  if (confirm) confirm.disabled = !event.target.checked;
+});
+document.getElementById('azulCheckoutClose')?.addEventListener('click', closeAzulCheckoutReview);
+document.getElementById('azulCheckoutModal')?.addEventListener('click', (event) => {
+  if (event.target.id === 'azulCheckoutModal') closeAzulCheckoutReview();
+});
 
 async function openPremiumPayment(billingCycle, button) {
   const customer = window.AndergoBillingContext.getCustomer();
@@ -13574,7 +13622,7 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
           <li>
             <span aria-hidden="true">${index + 1}</span>
             <div>
-              <p>${escapeHtml(ctx.targetText)}</p>
+              <p>${escapeHtml(ctx.targetText)}${canSpeak ? `<button type="button" class="vocab-card-catalogue-example-audio" data-speak-text="${escapeHtml(ctx.targetText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Escuchar ejemplo ${index + 1}" title="Escuchar ejemplo">🔊</button>` : ''}</p>
               ${ctx.supportText ? `<small>${escapeHtml(ctx.supportText)}</small>` : ''}
             </div>
           </li>`).join('')}
@@ -19635,6 +19683,9 @@ function enableHomepageActions() {
       openPremiumPayment(button.dataset.billingCycle || 'monthly', button);
     });
   });
+  document.querySelectorAll('.azul-checkout-btn').forEach((button) => {
+    button.addEventListener('click', () => openAzulCheckoutReview(button.dataset.billingCycle || 'monthly'));
+  });
 
   document.querySelectorAll('[data-paddle-action]').forEach((button) => {
     button.addEventListener('click', () => {
@@ -21114,6 +21165,17 @@ function enableHomepageActions() {
         locale: vocabExampleAudioBtn.dataset.speakLocale,
         rate: Number(vocabExampleAudioBtn.dataset.speakRate) || 1,
         onEnd: () => vocabExampleAudioBtn.classList.remove('is-playing')
+      });
+      return;
+    }
+    const vocabCatalogueExampleAudioBtn = event.target.closest('.vocab-card-catalogue-example-audio');
+    if (vocabCatalogueExampleAudioBtn) {
+      event.stopPropagation();
+      vocabCatalogueExampleAudioBtn.classList.add('is-playing');
+      speakText(vocabCatalogueExampleAudioBtn.dataset.speakText, {
+        locale: vocabCatalogueExampleAudioBtn.dataset.speakLocale,
+        rate: Number(vocabCatalogueExampleAudioBtn.dataset.speakRate) || 1,
+        onEnd: () => vocabCatalogueExampleAudioBtn.classList.remove('is-playing')
       });
       return;
     }
