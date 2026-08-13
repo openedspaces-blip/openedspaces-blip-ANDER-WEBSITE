@@ -1393,6 +1393,8 @@ test('Games provide graded, thematic and measurable rounds in all three language
   assert.match(script, /previous\.dataset\.cardKind !== button\.dataset\.cardKind/);
   assert.match(styles, /\.games-themed-stage\.is-paused/);
   assert.match(styles, /\.games-word-grid[^}]*aspect-ratio:1/s);
+  assert.doesNotMatch(styles, /\.games-score-strip\s*\{[^}]*position\s*:\s*sticky/s);
+  assert.doesNotMatch(styles, /\.games-timer-controls\s*\{[^}]*position\s*:\s*sticky/s);
 });
 
 test('Verbs practice includes a level-adapted conjugation roulette in all three languages', () => {
@@ -1403,6 +1405,8 @@ test('Verbs practice includes a level-adapted conjugation roulette in all three 
   assert.match(html, /id="verbRouletteAnswer"/);
   assert.match(script, /function rouletteTenses\(engine, level\)/);
   assert.match(script, /getVerbsForLanguage\(currentVerbLanguage\(\)\)/);
+  assert.match(script, /allVerbs\.filter\(\(verb\) => verb\.level === level\)/);
+  assert.match(script, /const challengeSubject = row\.subject \|\| row\.label/);
   assert.match(script, /engine\.conjugateTense\(verb, tense\.id\)/);
   assert.match(script, /normalizeSearchText\(actual\) === normalizeSearchText\(expected\)/);
   assert.match(styles, /\.verb-roulette-stage[^}]*aspect-ratio: 1/s);
@@ -4334,9 +4338,11 @@ test('Translator exposes an independent same-language IPA phonetics mode with pl
 
   assert.match(html, /data-skill="phonetics">Fonética/);
   assert.match(html, /id="phoneticsLangSelect"/);
+  assert.match(html, /id="phoneticsTalkBtn"[\s\S]*?Hablar/);
   assert.match(html, /id="phoneticsListenBtn"[\s\S]*?Escuchar pronunciación/);
   assert.match(html, /id="phoneticsStopBtn"[\s\S]*?Detener/);
   assert.match(script, /postJson\('\/api\/phonetic-transcription'/);
+  assert.match(script, /function setupPhonetics\(\)[\s\S]*?phoneticsTalkBtn/);
   assert.match(script, /speechSynthesis\?\.cancel\(\)/);
   assert.match(server, /app\.post\('\/api\/phonetic-transcription'/);
   assert.match(tutor, /Do not translate, correct, explain, romanize, or add words/);
@@ -4766,4 +4772,19 @@ test('German lessons are no longer restricted to Reading and Grammar in the fron
   assert.doesNotMatch(source, /language !== 'german' \|\| \['reading', 'grammar'\]/);
   assert.doesNotMatch(source, /learningPathState\.language !== 'german'/);
   assert.match(source, /filter\(\(lesson\) => !courseUnits\.length \|\| lesson\.unitId\)/);
+});
+
+test('German Reading comprehension keeps prompts and every answer choice in German', () => {
+  const germanReadings = seedLessons.filter(
+    (lesson) => lesson.target_language === 'german' && lesson.skill === 'reading' && lesson.unit_slug
+  );
+  assert.ok(germanReadings.length >= 36);
+  const SpanishLeak = /Cuenta una experiencia|Compra una entrada|No escucha a las otras personas|Cancela el proyecto|Porque tienen un objetivo claro|Porque no tienen tiempo|Porque no conocen el tema|Porque prefieren trabajar solos|Una solución concreta/i;
+  germanReadings.forEach((lesson) => {
+    const questions = lesson.content_json?.exercises || [];
+    questions.forEach((question) => {
+      assert.doesNotMatch(question.prompt || '', SpanishLeak);
+      (question.options || []).forEach((option) => assert.doesNotMatch(String(option), SpanishLeak));
+    });
+  });
 });

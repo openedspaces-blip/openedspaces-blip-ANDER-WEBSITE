@@ -4456,12 +4456,12 @@ function openLearningRouteTab(skill) {
 // language and level. When a unit is already selected, it keeps the student
 // in that unit so the content remains aligned with the learning route.
 function openVocabularyFromMainNav() {
-  const targetLesson = getCurrentUnitActivityForSkill('vocabulary');
-  if (targetLesson) {
-    openUnitSequenceStep('vocabulary', targetLesson.slug);
-    return;
-  }
+  // The main navigation is the complete level catalogue. Unit Vocabulary
+  // remains reachable from the learning-route sequence, but must not limit
+  // the catalogue to that one lesson's handful of words.
   learningPathState.skillEntryContext = 'explore';
+  learningPathState.activeSlug = '';
+  learningPathState.unitId = '';
   history.pushState(null, '', '#vocabulary');
   showView('vocabulary');
 }
@@ -14186,12 +14186,17 @@ function getLevelVocabularyBank(lesson) {
 function renderVocabularyLevelBankHtml(lesson, french) {
   const bank = getLevelVocabularyBank(lesson);
   if (bank.length <= 1) return '';
-  const languageLabel =
-    learningPathState.language === 'french'
-      ? 'francés'
-      : learningPathState.language === 'spanish'
-        ? 'español'
-        : 'inglés';
+  // This bank belongs to the language being learned (L2). Its translations
+  // remain in the learner's L1, rather than implying that every bank is English.
+  const languageLabels = {
+    english: 'inglés',
+    french: 'francés',
+    spanish: 'español',
+    german: 'alemán',
+    italian: 'italiano',
+    portuguese: 'portugués'
+  };
+  const languageLabel = languageLabels[learningPathState.language] || learningPathState.language;
   return `
     <details class="vocab-level-bank no-print">
       <summary>${french ? 'Banque de vocabulaire du niveau' : `Banco de vocabulario de ${languageLabel}`} <span>${bank.length} ${french ? 'mots' : 'palabras'}</span></summary>
@@ -14209,23 +14214,22 @@ function renderVocabularyLevelBankHtml(lesson, french) {
 function renderVocabularyView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
-  const rawCards = lesson.vocabulary || [];
-  if (vocabCardOrder.length !== rawCards.length || vocabCardOrder.lessonSlug !== lesson.slug) {
+  // Vocabulary navigation is a level catalogue, not a small card stack for
+  // the last unit the learner visited. Assemble every distinct word loaded
+  // for the current L2 + CEFR level so, for example, Italian A1 exposes all
+  // of its available A1 words when the user selects "Vocabulario".
+  const levelBank = getLevelVocabularyBank(lesson);
+  const rawCards = levelBank;
+  const catalogueKey = `${learningPathState.language}:${lesson.level}`;
+  if (vocabCardOrder.length !== rawCards.length || vocabCardOrder.lessonSlug !== catalogueKey) {
     vocabCardOrder = rawCards.map((_, index) => index);
-    vocabCardOrder.lessonSlug = lesson.slug;
+    vocabCardOrder.lessonSlug = catalogueKey;
   }
   if (vocabTranslationLessonSlug !== lesson.slug) {
     vocabTranslationLessonSlug = lesson.slug;
     vocabL1TranslationVisible = true;
   }
-  const cards = rawCards.map((raw, index) =>
-    normalizeVocabularyItem(raw, {
-      language: learningPathState.language,
-      level: lesson.level,
-      lessonSlug: lesson.slug,
-      index
-    })
-  );
+  const cards = rawCards;
   cards.forEach((card) => {
     const cachedTranslation = vocabL1TranslationCache.get(card.id);
     if (cachedTranslation) card.l1Translation = cachedTranslation;
@@ -14249,7 +14253,6 @@ function renderVocabularyView(section, lesson) {
     .join('');
   const printExercisesHtml = renderPrintableExerciseList(vocabularyExercises, { showAnswers: staff });
   const vocabularyUi = getVocabularyL2Ui();
-  const levelBank = getLevelVocabularyBank(lesson);
   const catalogueTotal = Math.max(cards.length, levelBank.length);
   const masteredCount = cards.filter((card) => card.masteryStatus === 'mastered').length;
   const masteryPercent = cards.length ? Math.round((masteredCount / cards.length) * 100) : 0;
@@ -23030,6 +23033,7 @@ function setupPhonetics() {
   const output = document.getElementById('phoneticsOutput');
   const charCount = document.getElementById('phoneticsCharCount');
   const clearBtn = document.getElementById('phoneticsClearBtn');
+  const talkBtn = document.getElementById('phoneticsTalkBtn');
   const copyBtn = document.getElementById('phoneticsCopyBtn');
   const listenBtn = document.getElementById('phoneticsListenBtn');
   const stopBtn = document.getElementById('phoneticsStopBtn');
@@ -23050,6 +23054,7 @@ function setupPhonetics() {
   let lastIpa = '';
   let lastIpaSegments = [];
   let pronunciationPlaying = false;
+  let recognition = null;
   const setStatus = (text, mode) => {
     status.textContent = text;
     status.classList.remove('is-loading', 'is-success', 'is-unavailable');
@@ -23121,10 +23126,57 @@ function setupPhonetics() {
     runPhoneticTranscription();
   });
   clearBtn?.addEventListener('click', () => {
+    try { recognition?.stop(); } catch { /* inactive recognition */ }
     input.value = '';
     updateCharCount();
     resetOutput();
     setStatus('Listo');
+  });
+  talkBtn?.addEventListener('click', async () => {
+    if (recognition) {
+      try { recognition.stop(); } catch { /* inactive recognition */ }
+      return;
+    }
+    const Ctor = getSpeechRecognitionCtor();
+    if (!Ctor) {
+      setStatus('El dictado por voz no está disponible en este navegador.', 'is-unavailable');
+      return;
+    }
+    try {
+      await ensureMicrophonePermission();
+    } catch (error) {
+      setStatus(microphonePermissionMessage(error), 'is-unavailable');
+      return;
+    }
+    const language = langSelect.value || 'english';
+    const instance = new Ctor();
+    instance.lang = DICTATION_LANGUAGE_CODES[language] || LANGUAGE_LOCALES[language] || 'en-US';
+    instance.interimResults = true;
+    instance.continuous = false;
+    recognition = instance;
+    talkBtn.classList.add('is-listening');
+    talkBtn.setAttribute('aria-pressed', 'true');
+    talkBtn.textContent = '⏹ Detener';
+    setStatus(`Escuchando ${languageDisplayNames[language] || language}…`, 'is-loading');
+    instance.addEventListener('result', (event) => {
+      const transcript = Array.from(event.results).map((result) => result[0].transcript).join(' ').trim();
+      input.value = transcript.slice(0, MAX_LENGTH);
+      updateCharCount();
+      resetOutput();
+      setStatus(transcript || 'Escuchando…', 'is-loading');
+    });
+    instance.addEventListener('error', (event) => {
+      if (event.error !== 'aborted') setStatus('No pude escuchar con claridad. Inténtalo de nuevo.', 'is-unavailable');
+    });
+    instance.addEventListener('end', () => {
+      if (recognition !== instance) return;
+      recognition = null;
+      talkBtn.classList.remove('is-listening');
+      talkBtn.setAttribute('aria-pressed', 'false');
+      talkBtn.textContent = '🎙 Hablar';
+      if (!status.classList.contains('is-unavailable')) setStatus('Texto dictado listo para revisar y transcribir.', 'is-success');
+    });
+    instance.start();
   });
   copyBtn?.addEventListener('click', async () => {
     if (!lastIpa) return;

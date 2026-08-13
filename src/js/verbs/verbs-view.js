@@ -1095,7 +1095,7 @@
   let rouletteRotation = 0;
   let rouletteChallenge = null;
   let rouletteCorrect = 0;
-  let rouletteLanguage = '';
+  let rouletteDeckKey = '';
   let rouletteVerbDeck = [];
   let rouletteSpinIndexes = [];
 
@@ -1113,9 +1113,17 @@
   // verbs, while still keeping only twelve readable segments on the wheel.
   function nextRouletteVerbs() {
     const language = currentVerbLanguage();
-    const available = getVerbsForLanguage(language);
-    if (language !== rouletteLanguage || !rouletteVerbDeck.length) {
-      rouletteLanguage = language;
+    const level = rouletteLevel();
+    const allVerbs = getVerbsForLanguage(language);
+    // The wheel is a level practice activity, so an A1 learner must never
+    // receive C1/C2 verbs simply because the full catalogue is available.
+    const availableAtLevel = allVerbs.filter((verb) => verb.level === level);
+    const available = availableAtLevel.length
+      ? availableAtLevel
+      : allVerbs.slice().sort((a, b) => (a.rank || 0) - (b.rank || 0)).slice(0, 12);
+    const deckKey = `${language}:${level}`;
+    if (deckKey !== rouletteDeckKey || !rouletteVerbDeck.length) {
+      rouletteDeckKey = deckKey;
       rouletteVerbDeck = shuffleRouletteItems(available);
     }
     const selected = [];
@@ -1211,10 +1219,14 @@
     const answer = document.getElementById('verbRouletteAnswer');
     const feedback = document.getElementById('verbRouletteFeedback');
     const task = document.getElementById('verbRouletteTask');
-    if (prompt) prompt.textContent = `${verb.infinitive} · ${row.label} · ${tense.label}`;
+    // English table labels group "He / She / It", but the engine generates
+    // one concrete answer (for example, "He hesitates"). Show that subject
+    // so the prompt and expected full answer are unambiguous.
+    const challengeSubject = row.subject || row.label;
+    if (prompt) prompt.textContent = `${verb.infinitive} · ${challengeSubject} · ${tense.label}`;
     if (answer) {
       answer.value = '';
-      answer.placeholder = row.label;
+      answer.placeholder = `${challengeSubject} …`;
       answer.disabled = false;
     }
     if (feedback) {

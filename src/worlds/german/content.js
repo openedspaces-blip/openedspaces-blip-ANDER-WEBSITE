@@ -40,35 +40,35 @@
     "vocab": [
       [
         "Hallo",
-        "Palabra clave 1"
+        "Hola"
       ],
       [
         "Name",
-        "Palabra clave 2"
+        "Nombre"
       ],
       [
         "Land",
-        "Palabra clave 3"
+        "País"
       ],
       [
         "Sprache",
-        "Palabra clave 4"
+        "Idioma"
       ],
       [
         "wohnen",
-        "Palabra clave 5"
+        "vivir"
       ],
       [
         "heißen",
-        "Palabra clave 6"
+        "llamar"
       ],
       [
         "lernen",
-        "Palabra clave 7"
+        "aprender"
       ],
       [
         "danke",
-        "Palabra clave 8"
+        "gracias"
       ]
     ],
     "grammar": [
@@ -129,35 +129,35 @@
     "vocab": [
       [
         "Termin",
-        "Palabra clave 1"
+        "Fecha"
       ],
       [
         "Kalender",
-        "Palabra clave 2"
+        "Calendario"
       ],
       [
         "früher",
-        "Palabra clave 3"
+        "antes"
       ],
       [
         "später",
-        "Palabra clave 4"
+        "más tarde"
       ],
       [
         "meistens",
-        "Palabra clave 5"
+        "la mayoría de las veces"
       ],
       [
         "treffen",
-        "Palabra clave 6"
+        "encontrar"
       ],
       [
         "verschieben",
-        "Palabra clave 7"
+        "mover"
       ],
       [
         "planen",
-        "Palabra clave 8"
+        "planificar"
       ]
     ],
     "grammar": [
@@ -218,35 +218,35 @@
     "vocab": [
       [
         "Ziel",
-        "Palabra clave 1"
+        "Objetivo"
       ],
       [
         "Frist",
-        "Palabra clave 2"
+        "Plazo"
       ],
       [
         "Team",
-        "Palabra clave 3"
+        "Equipo"
       ],
       [
         "verbessern",
-        "Palabra clave 4"
+        "mejorar"
       ],
       [
         "wählen",
-        "Palabra clave 5"
+        "elegir"
       ],
       [
         "Ergebnis",
-        "Palabra clave 6"
+        "Resultado"
       ],
       [
         "Verantwortung",
-        "Palabra clave 7"
+        "Responsabilidad"
       ],
       [
         "Vorschlag",
-        "Palabra clave 8"
+        "Propuesta"
       ]
     ],
     "grammar": [
@@ -527,52 +527,52 @@
     "vocabulary": [
       {
         "word": "Hallo",
-        "translation": "Palabra clave 1",
+        "translation": "Hola",
         "example": "Ich benutze das Wort „Hallo“ im Kontext."
       },
       {
         "word": "Name",
-        "translation": "Palabra clave 2",
+        "translation": "Nombre",
         "example": "Ich benutze das Wort „Name“ im Kontext."
       },
       {
         "word": "Land",
-        "translation": "Palabra clave 3",
+        "translation": "País",
         "example": "Ich benutze das Wort „Land“ im Kontext."
       },
       {
         "word": "Sprache",
-        "translation": "Palabra clave 4",
+        "translation": "Idioma",
         "example": "Ich benutze das Wort „Sprache“ im Kontext."
       },
       {
         "word": "wohnen",
-        "translation": "Palabra clave 5",
+        "translation": "vivir",
         "example": "Ich benutze das Wort „wohnen“ im Kontext."
       },
       {
         "word": "heißen",
-        "translation": "Palabra clave 6",
+        "translation": "llamar",
         "example": "Ich benutze das Wort „heißen“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 7",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "danke",
-        "translation": "Palabra clave 8",
+        "translation": "gracias",
         "example": "Ich benutze das Wort „danke“ im Kontext."
       },
       {
         "word": "bitte",
-        "translation": "Palabra clave 9",
+        "translation": "por favor",
         "example": "Ich benutze das Wort „bitte“ im Kontext."
       },
       {
         "word": "Freund",
-        "translation": "Palabra clave 10",
+        "translation": "Amigo",
         "example": "Ich benutze das Wort „Freund“ im Kontext."
       }
     ],
@@ -597,42 +597,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Hallo",
-          "Name",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "danke",
+          "bitte",
+          "Freund"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -661,52 +661,52 @@
     "vocabulary": [
       {
         "word": "Termin",
-        "translation": "Palabra clave 1",
+        "translation": "Fecha",
         "example": "Ich benutze das Wort „Termin“ im Kontext."
       },
       {
         "word": "Kalender",
-        "translation": "Palabra clave 2",
+        "translation": "Calendario",
         "example": "Ich benutze das Wort „Kalender“ im Kontext."
       },
       {
         "word": "früher",
-        "translation": "Palabra clave 3",
+        "translation": "antes",
         "example": "Ich benutze das Wort „früher“ im Kontext."
       },
       {
         "word": "später",
-        "translation": "Palabra clave 4",
+        "translation": "más tarde",
         "example": "Ich benutze das Wort „später“ im Kontext."
       },
       {
         "word": "meistens",
-        "translation": "Palabra clave 5",
+        "translation": "la mayoría de las veces",
         "example": "Ich benutze das Wort „meistens“ im Kontext."
       },
       {
         "word": "treffen",
-        "translation": "Palabra clave 6",
+        "translation": "encontrar",
         "example": "Ich benutze das Wort „treffen“ im Kontext."
       },
       {
         "word": "verschieben",
-        "translation": "Palabra clave 7",
+        "translation": "mover",
         "example": "Ich benutze das Wort „verschieben“ im Kontext."
       },
       {
         "word": "planen",
-        "translation": "Palabra clave 8",
+        "translation": "planificar",
         "example": "Ich benutze das Wort „planen“ im Kontext."
       },
       {
         "word": "Woche",
-        "translation": "Palabra clave 9",
+        "translation": "Semana",
         "example": "Ich benutze das Wort „Woche“ im Kontext."
       },
       {
         "word": "pünktlich",
-        "translation": "Palabra clave 10",
+        "translation": "puntual",
         "example": "Ich benutze das Wort „pünktlich“ im Kontext."
       }
     ],
@@ -732,52 +732,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Termin",
-          "Kalender",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "planen",
+          "Woche",
+          "pünktlich"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-a2-alltag-und-termine-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Alltag und Termine“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Alltag und Termine darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -806,52 +807,52 @@
     "vocabulary": [
       {
         "word": "Ziel",
-        "translation": "Palabra clave 1",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Frist",
-        "translation": "Palabra clave 2",
+        "translation": "Plazo",
         "example": "Ich benutze das Wort „Frist“ im Kontext."
       },
       {
         "word": "Team",
-        "translation": "Palabra clave 3",
+        "translation": "Equipo",
         "example": "Ich benutze das Wort „Team“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 4",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 5",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "Ergebnis",
-        "translation": "Palabra clave 6",
+        "translation": "Resultado",
         "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
       },
       {
         "word": "Verantwortung",
-        "translation": "Palabra clave 7",
+        "translation": "Responsabilidad",
         "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
       },
       {
         "word": "Vorschlag",
-        "translation": "Palabra clave 8",
+        "translation": "Propuesta",
         "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 9",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Vertrauen",
-        "translation": "Palabra clave 10",
+        "translation": "Confianza",
         "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
       }
     ],
@@ -878,52 +879,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Ziel",
-          "Frist",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Vorschlag",
+          "Gewohnheit",
+          "Vertrauen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-b1-arbeit-und-ziele-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Arbeit und Ziele“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Arbeit und Ziele darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -952,52 +954,52 @@
     "vocabulary": [
       {
         "word": "Hallo",
-        "translation": "Palabra clave 1",
+        "translation": "Hola",
         "example": "Ich benutze das Wort „Hallo“ im Kontext."
       },
       {
         "word": "Name",
-        "translation": "Palabra clave 2",
+        "translation": "Nombre",
         "example": "Ich benutze das Wort „Name“ im Kontext."
       },
       {
         "word": "Land",
-        "translation": "Palabra clave 3",
+        "translation": "País",
         "example": "Ich benutze das Wort „Land“ im Kontext."
       },
       {
         "word": "Sprache",
-        "translation": "Palabra clave 4",
+        "translation": "Idioma",
         "example": "Ich benutze das Wort „Sprache“ im Kontext."
       },
       {
         "word": "wohnen",
-        "translation": "Palabra clave 5",
+        "translation": "vivir",
         "example": "Ich benutze das Wort „wohnen“ im Kontext."
       },
       {
         "word": "heißen",
-        "translation": "Palabra clave 6",
+        "translation": "llamar",
         "example": "Ich benutze das Wort „heißen“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 7",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "danke",
-        "translation": "Palabra clave 8",
+        "translation": "gracias",
         "example": "Ich benutze das Wort „danke“ im Kontext."
       },
       {
         "word": "bitte",
-        "translation": "Palabra clave 9",
+        "translation": "por favor",
         "example": "Ich benutze das Wort „bitte“ im Kontext."
       },
       {
         "word": "Freund",
-        "translation": "Palabra clave 10",
+        "translation": "Amigo",
         "example": "Ich benutze das Wort „Freund“ im Kontext."
       }
     ],
@@ -1006,10 +1008,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "sein, haben und Personalpronomen",
-        "definition": "Práctica guiada de sein, haben und Personalpronomen.",
+        "name": "Begrüßung und Name: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -1019,7 +1021,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
               {},
               {},
@@ -1029,7 +1031,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Satz.",
             "options": [
               {},
               {},
@@ -1039,7 +1041,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
               {},
               {},
@@ -1049,7 +1051,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welche Frage ist richtig?",
             "options": [
               {},
               {},
@@ -1059,7 +1061,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
               {},
               {},
@@ -1069,7 +1071,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Satz über ein Haus.",
             "options": [
               {},
               {},
@@ -1079,7 +1081,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
               {},
               {},
@@ -1089,7 +1091,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
               {},
               {},
@@ -1104,89 +1106,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "wohne",
+          "wohnt",
+          "wohnen",
+          "wohnst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Leon sprechen mit Anna.",
+          "Leon spricht mit Anna.",
+          "Leon spreche mit Anna.",
+          "Leon sprich mit Anna."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "lerne",
+          "lernt",
+          "lernen",
+          "lernst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Wo wohnst?",
+          "Wo wohnen du?",
+          "Wo du wohnst?",
+          "Wo wohnst du?"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "stellt",
+          "stelle",
+          "stellen",
+          "stellst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Das Haus sind hell.",
+          "Das Haus ist hell.",
+          "Die Haus ist hell.",
+          "Das Haus ist helle."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "trinken",
+          "trinkt",
+          "trinkst",
+          "trinke"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Jeden Morgen arbeitet ich im Zentrum.",
+          "Gestern arbeiten ich im Zentrum.",
+          "Morgen arbeitete ich im Zentrum.",
+          "Jeden Morgen arbeite ich im Zentrum."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
@@ -1216,52 +1218,52 @@
     "vocabulary": [
       {
         "word": "Termin",
-        "translation": "Palabra clave 1",
+        "translation": "Fecha",
         "example": "Ich benutze das Wort „Termin“ im Kontext."
       },
       {
         "word": "Kalender",
-        "translation": "Palabra clave 2",
+        "translation": "Calendario",
         "example": "Ich benutze das Wort „Kalender“ im Kontext."
       },
       {
         "word": "früher",
-        "translation": "Palabra clave 3",
+        "translation": "antes",
         "example": "Ich benutze das Wort „früher“ im Kontext."
       },
       {
         "word": "später",
-        "translation": "Palabra clave 4",
+        "translation": "más tarde",
         "example": "Ich benutze das Wort „später“ im Kontext."
       },
       {
         "word": "meistens",
-        "translation": "Palabra clave 5",
+        "translation": "la mayoría de las veces",
         "example": "Ich benutze das Wort „meistens“ im Kontext."
       },
       {
         "word": "treffen",
-        "translation": "Palabra clave 6",
+        "translation": "encontrar",
         "example": "Ich benutze das Wort „treffen“ im Kontext."
       },
       {
         "word": "verschieben",
-        "translation": "Palabra clave 7",
+        "translation": "mover",
         "example": "Ich benutze das Wort „verschieben“ im Kontext."
       },
       {
         "word": "planen",
-        "translation": "Palabra clave 8",
+        "translation": "planificar",
         "example": "Ich benutze das Wort „planen“ im Kontext."
       },
       {
         "word": "Woche",
-        "translation": "Palabra clave 9",
+        "translation": "Semana",
         "example": "Ich benutze das Wort „Woche“ im Kontext."
       },
       {
         "word": "pünktlich",
-        "translation": "Palabra clave 10",
+        "translation": "puntual",
         "example": "Ich benutze das Wort „pünktlich“ im Kontext."
       }
     ],
@@ -1270,10 +1272,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Perfekt und Zeitangaben",
-        "definition": "Práctica guiada de Perfekt und Zeitangaben.",
+        "name": "Alltag und Termine: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
         "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -1283,7 +1285,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
               {},
               {},
@@ -1293,7 +1295,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
               {},
               {},
@@ -1303,7 +1305,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
               {},
               {},
@@ -1313,7 +1315,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
               {},
               {},
@@ -1323,7 +1325,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
               {},
               {},
@@ -1333,7 +1335,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
               {},
               {},
@@ -1343,7 +1345,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
               {},
               {},
@@ -1353,7 +1355,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
               {},
               {},
@@ -1368,89 +1370,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "habe besucht",
+          "besuche",
+          "habe besuchen",
+          "bin besucht"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben zusammen essen.",
+          "Wir haben zusammen gegessen.",
+          "Wir sind zusammen gegessen.",
+          "Wir essen gestern zusammen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "ist kommen",
+          "hat gekommen",
+          "ist gekommen",
+          "kommt gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
+          "Zuerst haben wir gelernt, weil sind wir gegangen.",
+          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
+          "Zuerst haben wir gelernt, dann sind wir gegangen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Hast gelesen",
+          "Hast lesen",
+          "Bist gelesen",
+          "Liest gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Meine Freunde sind den Bus genommen.",
+          "Meine Freunde haben den Bus genommen.",
+          "Meine Freunde haben den Bus nehmen.",
+          "Meine Freunde nehmen gestern den Bus."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "haben machen",
+          "sind gemacht",
+          "haben gemacht",
+          "machen gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Am Samstag bin ich meine Cousine getroffen.",
+          "Am Samstag treffe ich meine Cousine morgen.",
+          "Am Samstag treffen meine Cousine.",
+          "Am Samstag habe ich meine Cousine getroffen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
@@ -1480,52 +1482,52 @@
     "vocabulary": [
       {
         "word": "Ziel",
-        "translation": "Palabra clave 1",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Frist",
-        "translation": "Palabra clave 2",
+        "translation": "Plazo",
         "example": "Ich benutze das Wort „Frist“ im Kontext."
       },
       {
         "word": "Team",
-        "translation": "Palabra clave 3",
+        "translation": "Equipo",
         "example": "Ich benutze das Wort „Team“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 4",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 5",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "Ergebnis",
-        "translation": "Palabra clave 6",
+        "translation": "Resultado",
         "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
       },
       {
         "word": "Verantwortung",
-        "translation": "Palabra clave 7",
+        "translation": "Responsabilidad",
         "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
       },
       {
         "word": "Vorschlag",
-        "translation": "Palabra clave 8",
+        "translation": "Propuesta",
         "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 9",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Vertrauen",
-        "translation": "Palabra clave 10",
+        "translation": "Confianza",
         "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
       }
     ],
@@ -1534,10 +1536,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Konjunktiv II für Wünsche",
-        "definition": "Práctica guiada de Konjunktiv II für Wünsche.",
+        "name": "Arbeit und Ziele: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -1547,7 +1549,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
               {},
               {},
@@ -1557,7 +1559,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
               {},
               {},
@@ -1567,7 +1569,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
               {},
               {},
@@ -1577,7 +1579,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
               {},
               {},
@@ -1587,7 +1589,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
               {},
               {},
@@ -1597,7 +1599,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle eine logische Folge.",
             "options": [
               {},
               {},
@@ -1607,7 +1609,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
               {},
               {},
@@ -1617,7 +1619,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
               {},
               {},
@@ -1632,89 +1634,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "sei"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Ich möchte ausgehen, deshalb es regnet.",
+          "Ich möchte ausgehen, aber es regnet.",
+          "Ich möchte ausgehen, weil es regnet.",
+          "Ich möchte ausgehen, dann es regnet."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "ist",
+          "bin",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Das Projekt funktioniert warum?",
+          "Das Projekt gestern funktioniert?",
+          "Funktionieren das Projekt meiner Meinung.",
+          "Meiner Meinung nach funktioniert das Projekt."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
+          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
+          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
+          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "haben",
+          "hat",
+          "hatte"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Ich nehme den Zug er nachhaltiger ist weil.",
+          "Ich nehme den Zug, aber er nachhaltiger ist.",
+          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
+          "Ich nehme den Zug, weil er nachhaltiger ist."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
@@ -1744,52 +1746,52 @@
     "vocabulary": [
       {
         "word": "Hallo",
-        "translation": "Palabra clave 1",
+        "translation": "Hola",
         "example": "Ich benutze das Wort „Hallo“ im Kontext."
       },
       {
         "word": "Name",
-        "translation": "Palabra clave 2",
+        "translation": "Nombre",
         "example": "Ich benutze das Wort „Name“ im Kontext."
       },
       {
         "word": "Land",
-        "translation": "Palabra clave 3",
+        "translation": "País",
         "example": "Ich benutze das Wort „Land“ im Kontext."
       },
       {
         "word": "Sprache",
-        "translation": "Palabra clave 4",
+        "translation": "Idioma",
         "example": "Ich benutze das Wort „Sprache“ im Kontext."
       },
       {
         "word": "wohnen",
-        "translation": "Palabra clave 5",
+        "translation": "vivir",
         "example": "Ich benutze das Wort „wohnen“ im Kontext."
       },
       {
         "word": "heißen",
-        "translation": "Palabra clave 6",
+        "translation": "llamar",
         "example": "Ich benutze das Wort „heißen“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 7",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "danke",
-        "translation": "Palabra clave 8",
+        "translation": "gracias",
         "example": "Ich benutze das Wort „danke“ im Kontext."
       },
       {
         "word": "bitte",
-        "translation": "Palabra clave 9",
+        "translation": "por favor",
         "example": "Ich benutze das Wort „bitte“ im Kontext."
       },
       {
         "word": "Freund",
-        "translation": "Palabra clave 10",
+        "translation": "Amigo",
         "example": "Ich benutze das Wort „Freund“ im Kontext."
       }
     ],
@@ -1964,52 +1966,52 @@
     "vocabulary": [
       {
         "word": "Termin",
-        "translation": "Palabra clave 1",
+        "translation": "Fecha",
         "example": "Ich benutze das Wort „Termin“ im Kontext."
       },
       {
         "word": "Kalender",
-        "translation": "Palabra clave 2",
+        "translation": "Calendario",
         "example": "Ich benutze das Wort „Kalender“ im Kontext."
       },
       {
         "word": "früher",
-        "translation": "Palabra clave 3",
+        "translation": "antes",
         "example": "Ich benutze das Wort „früher“ im Kontext."
       },
       {
         "word": "später",
-        "translation": "Palabra clave 4",
+        "translation": "más tarde",
         "example": "Ich benutze das Wort „später“ im Kontext."
       },
       {
         "word": "meistens",
-        "translation": "Palabra clave 5",
+        "translation": "la mayoría de las veces",
         "example": "Ich benutze das Wort „meistens“ im Kontext."
       },
       {
         "word": "treffen",
-        "translation": "Palabra clave 6",
+        "translation": "encontrar",
         "example": "Ich benutze das Wort „treffen“ im Kontext."
       },
       {
         "word": "verschieben",
-        "translation": "Palabra clave 7",
+        "translation": "mover",
         "example": "Ich benutze das Wort „verschieben“ im Kontext."
       },
       {
         "word": "planen",
-        "translation": "Palabra clave 8",
+        "translation": "planificar",
         "example": "Ich benutze das Wort „planen“ im Kontext."
       },
       {
         "word": "Woche",
-        "translation": "Palabra clave 9",
+        "translation": "Semana",
         "example": "Ich benutze das Wort „Woche“ im Kontext."
       },
       {
         "word": "pünktlich",
-        "translation": "Palabra clave 10",
+        "translation": "puntual",
         "example": "Ich benutze das Wort „pünktlich“ im Kontext."
       }
     ],
@@ -2184,52 +2186,52 @@
     "vocabulary": [
       {
         "word": "Ziel",
-        "translation": "Palabra clave 1",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Frist",
-        "translation": "Palabra clave 2",
+        "translation": "Plazo",
         "example": "Ich benutze das Wort „Frist“ im Kontext."
       },
       {
         "word": "Team",
-        "translation": "Palabra clave 3",
+        "translation": "Equipo",
         "example": "Ich benutze das Wort „Team“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 4",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 5",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "Ergebnis",
-        "translation": "Palabra clave 6",
+        "translation": "Resultado",
         "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
       },
       {
         "word": "Verantwortung",
-        "translation": "Palabra clave 7",
+        "translation": "Responsabilidad",
         "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
       },
       {
         "word": "Vorschlag",
-        "translation": "Palabra clave 8",
+        "translation": "Propuesta",
         "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 9",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Vertrauen",
-        "translation": "Palabra clave 10",
+        "translation": "Confianza",
         "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
       }
     ],
@@ -2404,8 +2406,8 @@
     "vocabulary": [
       {
         "word": "Hallo",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Hola",
+        "definition": "Hola",
         "example": "Ich benutze „Hallo“ in einem Satz.",
         "contexts": [
           "Hallo · tema",
@@ -2415,8 +2417,8 @@
       },
       {
         "word": "Name",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Nombre",
+        "definition": "Nombre",
         "example": "Ich benutze „Name“ in einem Satz.",
         "contexts": [
           "Name · tema",
@@ -2426,8 +2428,8 @@
       },
       {
         "word": "Land",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "País",
+        "definition": "País",
         "example": "Ich benutze „Land“ in einem Satz.",
         "contexts": [
           "Land · tema",
@@ -2437,8 +2439,8 @@
       },
       {
         "word": "Sprache",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Idioma",
+        "definition": "Idioma",
         "example": "Ich benutze „Sprache“ in einem Satz.",
         "contexts": [
           "Sprache · tema",
@@ -2448,8 +2450,8 @@
       },
       {
         "word": "wohnen",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "vivir",
+        "definition": "vivir",
         "example": "Ich benutze „wohnen“ in einem Satz.",
         "contexts": [
           "wohnen · tema",
@@ -2459,8 +2461,8 @@
       },
       {
         "word": "heißen",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "llamar",
+        "definition": "llamar",
         "example": "Ich benutze „heißen“ in einem Satz.",
         "contexts": [
           "heißen · tema",
@@ -2470,8 +2472,8 @@
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "aprender",
+        "definition": "aprender",
         "example": "Ich benutze „lernen“ in einem Satz.",
         "contexts": [
           "lernen · tema",
@@ -2481,8 +2483,8 @@
       },
       {
         "word": "danke",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "gracias",
+        "definition": "gracias",
         "example": "Ich benutze „danke“ in einem Satz.",
         "contexts": [
           "danke · tema",
@@ -2492,8 +2494,8 @@
       },
       {
         "word": "bitte",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "por favor",
+        "definition": "por favor",
         "example": "Ich benutze „bitte“ in einem Satz.",
         "contexts": [
           "bitte · tema",
@@ -2503,8 +2505,8 @@
       },
       {
         "word": "Freund",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Amigo",
+        "definition": "Amigo",
         "example": "Ich benutze „Freund“ in einem Satz.",
         "contexts": [
           "Freund · tema",
@@ -2686,8 +2688,8 @@
     "vocabulary": [
       {
         "word": "Termin",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Fecha",
+        "definition": "Fecha",
         "example": "Ich benutze „Termin“ in einem Satz.",
         "contexts": [
           "Termin · tema",
@@ -2697,8 +2699,8 @@
       },
       {
         "word": "Kalender",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Calendario",
+        "definition": "Calendario",
         "example": "Ich benutze „Kalender“ in einem Satz.",
         "contexts": [
           "Kalender · tema",
@@ -2708,8 +2710,8 @@
       },
       {
         "word": "früher",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "antes",
+        "definition": "antes",
         "example": "Ich benutze „früher“ in einem Satz.",
         "contexts": [
           "früher · tema",
@@ -2719,8 +2721,8 @@
       },
       {
         "word": "später",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "más tarde",
+        "definition": "más tarde",
         "example": "Ich benutze „später“ in einem Satz.",
         "contexts": [
           "später · tema",
@@ -2730,8 +2732,8 @@
       },
       {
         "word": "meistens",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "la mayoría de las veces",
+        "definition": "la mayoría de las veces",
         "example": "Ich benutze „meistens“ in einem Satz.",
         "contexts": [
           "meistens · tema",
@@ -2741,8 +2743,8 @@
       },
       {
         "word": "treffen",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "encontrar",
+        "definition": "encontrar",
         "example": "Ich benutze „treffen“ in einem Satz.",
         "contexts": [
           "treffen · tema",
@@ -2752,8 +2754,8 @@
       },
       {
         "word": "verschieben",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "mover",
+        "definition": "mover",
         "example": "Ich benutze „verschieben“ in einem Satz.",
         "contexts": [
           "verschieben · tema",
@@ -2763,8 +2765,8 @@
       },
       {
         "word": "planen",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "planificar",
+        "definition": "planificar",
         "example": "Ich benutze „planen“ in einem Satz.",
         "contexts": [
           "planen · tema",
@@ -2774,8 +2776,8 @@
       },
       {
         "word": "Woche",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "Semana",
+        "definition": "Semana",
         "example": "Ich benutze „Woche“ in einem Satz.",
         "contexts": [
           "Woche · tema",
@@ -2785,8 +2787,8 @@
       },
       {
         "word": "pünktlich",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "puntual",
+        "definition": "puntual",
         "example": "Ich benutze „pünktlich“ in einem Satz.",
         "contexts": [
           "pünktlich · tema",
@@ -2968,8 +2970,8 @@
     "vocabulary": [
       {
         "word": "Ziel",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Objetivo",
+        "definition": "Objetivo",
         "example": "Ich benutze „Ziel“ in einem Satz.",
         "contexts": [
           "Ziel · tema",
@@ -2979,8 +2981,8 @@
       },
       {
         "word": "Frist",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Plazo",
+        "definition": "Plazo",
         "example": "Ich benutze „Frist“ in einem Satz.",
         "contexts": [
           "Frist · tema",
@@ -2990,8 +2992,8 @@
       },
       {
         "word": "Team",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Equipo",
+        "definition": "Equipo",
         "example": "Ich benutze „Team“ in einem Satz.",
         "contexts": [
           "Team · tema",
@@ -3001,8 +3003,8 @@
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Ich benutze „verbessern“ in einem Satz.",
         "contexts": [
           "verbessern · tema",
@@ -3012,8 +3014,8 @@
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "elegir",
+        "definition": "elegir",
         "example": "Ich benutze „wählen“ in einem Satz.",
         "contexts": [
           "wählen · tema",
@@ -3023,8 +3025,8 @@
       },
       {
         "word": "Ergebnis",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Resultado",
+        "definition": "Resultado",
         "example": "Ich benutze „Ergebnis“ in einem Satz.",
         "contexts": [
           "Ergebnis · tema",
@@ -3034,8 +3036,8 @@
       },
       {
         "word": "Verantwortung",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Responsabilidad",
+        "definition": "Responsabilidad",
         "example": "Ich benutze „Verantwortung“ in einem Satz.",
         "contexts": [
           "Verantwortung · tema",
@@ -3045,8 +3047,8 @@
       },
       {
         "word": "Vorschlag",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Propuesta",
+        "definition": "Propuesta",
         "example": "Ich benutze „Vorschlag“ in einem Satz.",
         "contexts": [
           "Vorschlag · tema",
@@ -3056,8 +3058,8 @@
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "Costumbre",
+        "definition": "Costumbre",
         "example": "Ich benutze „Gewohnheit“ in einem Satz.",
         "contexts": [
           "Gewohnheit · tema",
@@ -3067,8 +3069,8 @@
       },
       {
         "word": "Vertrauen",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Confianza",
+        "definition": "Confianza",
         "example": "Ich benutze „Vertrauen“ in einem Satz.",
         "contexts": [
           "Vertrauen · tema",
@@ -3250,52 +3252,52 @@
     "vocabulary": [
       {
         "word": "Hallo",
-        "translation": "Palabra clave 1",
+        "translation": "Hola",
         "example": "Ich benutze das Wort „Hallo“ im Kontext."
       },
       {
         "word": "Name",
-        "translation": "Palabra clave 2",
+        "translation": "Nombre",
         "example": "Ich benutze das Wort „Name“ im Kontext."
       },
       {
         "word": "Land",
-        "translation": "Palabra clave 3",
+        "translation": "País",
         "example": "Ich benutze das Wort „Land“ im Kontext."
       },
       {
         "word": "Sprache",
-        "translation": "Palabra clave 4",
+        "translation": "Idioma",
         "example": "Ich benutze das Wort „Sprache“ im Kontext."
       },
       {
         "word": "wohnen",
-        "translation": "Palabra clave 5",
+        "translation": "vivir",
         "example": "Ich benutze das Wort „wohnen“ im Kontext."
       },
       {
         "word": "heißen",
-        "translation": "Palabra clave 6",
+        "translation": "llamar",
         "example": "Ich benutze das Wort „heißen“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 7",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "danke",
-        "translation": "Palabra clave 8",
+        "translation": "gracias",
         "example": "Ich benutze das Wort „danke“ im Kontext."
       },
       {
         "word": "bitte",
-        "translation": "Palabra clave 9",
+        "translation": "por favor",
         "example": "Ich benutze das Wort „bitte“ im Kontext."
       },
       {
         "word": "Freund",
-        "translation": "Palabra clave 10",
+        "translation": "Amigo",
         "example": "Ich benutze das Wort „Freund“ im Kontext."
       }
     ],
@@ -3343,52 +3345,52 @@
     "vocabulary": [
       {
         "word": "Termin",
-        "translation": "Palabra clave 1",
+        "translation": "Fecha",
         "example": "Ich benutze das Wort „Termin“ im Kontext."
       },
       {
         "word": "Kalender",
-        "translation": "Palabra clave 2",
+        "translation": "Calendario",
         "example": "Ich benutze das Wort „Kalender“ im Kontext."
       },
       {
         "word": "früher",
-        "translation": "Palabra clave 3",
+        "translation": "antes",
         "example": "Ich benutze das Wort „früher“ im Kontext."
       },
       {
         "word": "später",
-        "translation": "Palabra clave 4",
+        "translation": "más tarde",
         "example": "Ich benutze das Wort „später“ im Kontext."
       },
       {
         "word": "meistens",
-        "translation": "Palabra clave 5",
+        "translation": "la mayoría de las veces",
         "example": "Ich benutze das Wort „meistens“ im Kontext."
       },
       {
         "word": "treffen",
-        "translation": "Palabra clave 6",
+        "translation": "encontrar",
         "example": "Ich benutze das Wort „treffen“ im Kontext."
       },
       {
         "word": "verschieben",
-        "translation": "Palabra clave 7",
+        "translation": "mover",
         "example": "Ich benutze das Wort „verschieben“ im Kontext."
       },
       {
         "word": "planen",
-        "translation": "Palabra clave 8",
+        "translation": "planificar",
         "example": "Ich benutze das Wort „planen“ im Kontext."
       },
       {
         "word": "Woche",
-        "translation": "Palabra clave 9",
+        "translation": "Semana",
         "example": "Ich benutze das Wort „Woche“ im Kontext."
       },
       {
         "word": "pünktlich",
-        "translation": "Palabra clave 10",
+        "translation": "puntual",
         "example": "Ich benutze das Wort „pünktlich“ im Kontext."
       }
     ],
@@ -3436,52 +3438,52 @@
     "vocabulary": [
       {
         "word": "Ziel",
-        "translation": "Palabra clave 1",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Frist",
-        "translation": "Palabra clave 2",
+        "translation": "Plazo",
         "example": "Ich benutze das Wort „Frist“ im Kontext."
       },
       {
         "word": "Team",
-        "translation": "Palabra clave 3",
+        "translation": "Equipo",
         "example": "Ich benutze das Wort „Team“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 4",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 5",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "Ergebnis",
-        "translation": "Palabra clave 6",
+        "translation": "Resultado",
         "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
       },
       {
         "word": "Verantwortung",
-        "translation": "Palabra clave 7",
+        "translation": "Responsabilidad",
         "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
       },
       {
         "word": "Vorschlag",
-        "translation": "Palabra clave 8",
+        "translation": "Propuesta",
         "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 9",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Vertrauen",
-        "translation": "Palabra clave 10",
+        "translation": "Confianza",
         "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
       }
     ],
@@ -3529,52 +3531,52 @@
     "vocabulary": [
       {
         "word": "Hallo",
-        "translation": "Palabra clave 1",
+        "translation": "Hola",
         "example": "Ich benutze das Wort „Hallo“ im Kontext."
       },
       {
         "word": "Name",
-        "translation": "Palabra clave 2",
+        "translation": "Nombre",
         "example": "Ich benutze das Wort „Name“ im Kontext."
       },
       {
         "word": "Land",
-        "translation": "Palabra clave 3",
+        "translation": "País",
         "example": "Ich benutze das Wort „Land“ im Kontext."
       },
       {
         "word": "Sprache",
-        "translation": "Palabra clave 4",
+        "translation": "Idioma",
         "example": "Ich benutze das Wort „Sprache“ im Kontext."
       },
       {
         "word": "wohnen",
-        "translation": "Palabra clave 5",
+        "translation": "vivir",
         "example": "Ich benutze das Wort „wohnen“ im Kontext."
       },
       {
         "word": "heißen",
-        "translation": "Palabra clave 6",
+        "translation": "llamar",
         "example": "Ich benutze das Wort „heißen“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 7",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "danke",
-        "translation": "Palabra clave 8",
+        "translation": "gracias",
         "example": "Ich benutze das Wort „danke“ im Kontext."
       },
       {
         "word": "bitte",
-        "translation": "Palabra clave 9",
+        "translation": "por favor",
         "example": "Ich benutze das Wort „bitte“ im Kontext."
       },
       {
         "word": "Freund",
-        "translation": "Palabra clave 10",
+        "translation": "Amigo",
         "example": "Ich benutze das Wort „Freund“ im Kontext."
       }
     ],
@@ -3613,52 +3615,52 @@
     "vocabulary": [
       {
         "word": "Termin",
-        "translation": "Palabra clave 1",
+        "translation": "Fecha",
         "example": "Ich benutze das Wort „Termin“ im Kontext."
       },
       {
         "word": "Kalender",
-        "translation": "Palabra clave 2",
+        "translation": "Calendario",
         "example": "Ich benutze das Wort „Kalender“ im Kontext."
       },
       {
         "word": "früher",
-        "translation": "Palabra clave 3",
+        "translation": "antes",
         "example": "Ich benutze das Wort „früher“ im Kontext."
       },
       {
         "word": "später",
-        "translation": "Palabra clave 4",
+        "translation": "más tarde",
         "example": "Ich benutze das Wort „später“ im Kontext."
       },
       {
         "word": "meistens",
-        "translation": "Palabra clave 5",
+        "translation": "la mayoría de las veces",
         "example": "Ich benutze das Wort „meistens“ im Kontext."
       },
       {
         "word": "treffen",
-        "translation": "Palabra clave 6",
+        "translation": "encontrar",
         "example": "Ich benutze das Wort „treffen“ im Kontext."
       },
       {
         "word": "verschieben",
-        "translation": "Palabra clave 7",
+        "translation": "mover",
         "example": "Ich benutze das Wort „verschieben“ im Kontext."
       },
       {
         "word": "planen",
-        "translation": "Palabra clave 8",
+        "translation": "planificar",
         "example": "Ich benutze das Wort „planen“ im Kontext."
       },
       {
         "word": "Woche",
-        "translation": "Palabra clave 9",
+        "translation": "Semana",
         "example": "Ich benutze das Wort „Woche“ im Kontext."
       },
       {
         "word": "pünktlich",
-        "translation": "Palabra clave 10",
+        "translation": "puntual",
         "example": "Ich benutze das Wort „pünktlich“ im Kontext."
       }
     ],
@@ -3697,52 +3699,52 @@
     "vocabulary": [
       {
         "word": "Ziel",
-        "translation": "Palabra clave 1",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Frist",
-        "translation": "Palabra clave 2",
+        "translation": "Plazo",
         "example": "Ich benutze das Wort „Frist“ im Kontext."
       },
       {
         "word": "Team",
-        "translation": "Palabra clave 3",
+        "translation": "Equipo",
         "example": "Ich benutze das Wort „Team“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 4",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 5",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "Ergebnis",
-        "translation": "Palabra clave 6",
+        "translation": "Resultado",
         "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
       },
       {
         "word": "Verantwortung",
-        "translation": "Palabra clave 7",
+        "translation": "Responsabilidad",
         "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
       },
       {
         "word": "Vorschlag",
-        "translation": "Palabra clave 8",
+        "translation": "Propuesta",
         "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 9",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Vertrauen",
-        "translation": "Palabra clave 10",
+        "translation": "Confianza",
         "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
       }
     ],
@@ -3781,52 +3783,52 @@
     "vocabulary": [
       {
         "word": "Kaffee",
-        "translation": "Palabra clave 1",
+        "translation": "Café",
         "example": "Ich benutze das Wort „Kaffee“ im Kontext."
       },
       {
         "word": "Tee",
-        "translation": "Palabra clave 2",
+        "translation": "Té",
         "example": "Ich benutze das Wort „Tee“ im Kontext."
       },
       {
         "word": "Wasser",
-        "translation": "Palabra clave 3",
+        "translation": "Agua",
         "example": "Ich benutze das Wort „Wasser“ im Kontext."
       },
       {
         "word": "Brot",
-        "translation": "Palabra clave 4",
+        "translation": "Pan",
         "example": "Ich benutze das Wort „Brot“ im Kontext."
       },
       {
         "word": "bitte",
-        "translation": "Palabra clave 5",
+        "translation": "por favor",
         "example": "Ich benutze das Wort „bitte“ im Kontext."
       },
       {
         "word": "möchten",
-        "translation": "Palabra clave 6",
+        "translation": "querer",
         "example": "Ich benutze das Wort „möchten“ im Kontext."
       },
       {
         "word": "zahlen",
-        "translation": "Palabra clave 7",
+        "translation": "numerar",
         "example": "Ich benutze das Wort „zahlen“ im Kontext."
       },
       {
         "word": "Tisch",
-        "translation": "Palabra clave 8",
+        "translation": "Mesa",
         "example": "Ich benutze das Wort „Tisch“ im Kontext."
       },
       {
         "word": "lecker",
-        "translation": "Palabra clave 9",
+        "translation": "delicioso",
         "example": "Ich benutze das Wort „lecker“ im Kontext."
       },
       {
         "word": "Rechnung",
-        "translation": "Palabra clave 10",
+        "translation": "Factura",
         "example": "Ich benutze das Wort „Rechnung“ im Kontext."
       }
     ],
@@ -3851,42 +3853,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Kaffee",
-          "Tee",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Tisch",
+          "lecker",
+          "Rechnung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -3915,52 +3917,52 @@
     "vocabulary": [
       {
         "word": "Wohnung",
-        "translation": "Palabra clave 1",
+        "translation": "Piso",
         "example": "Ich benutze das Wort „Wohnung“ im Kontext."
       },
       {
         "word": "Nachbar",
-        "translation": "Palabra clave 2",
+        "translation": "Vecino",
         "example": "Ich benutze das Wort „Nachbar“ im Kontext."
       },
       {
         "word": "umziehen",
-        "translation": "Palabra clave 3",
+        "translation": "mudarse",
         "example": "Ich benutze das Wort „umziehen“ im Kontext."
       },
       {
         "word": "Miete",
-        "translation": "Palabra clave 4",
+        "translation": "Alquiler",
         "example": "Ich benutze das Wort „Miete“ im Kontext."
       },
       {
         "word": "ruhig",
-        "translation": "Palabra clave 5",
+        "translation": "tranquilo",
         "example": "Ich benutze das Wort „ruhig“ im Kontext."
       },
       {
         "word": "laut",
-        "translation": "Palabra clave 6",
+        "translation": "según",
         "example": "Ich benutze das Wort „laut“ im Kontext."
       },
       {
         "word": "suchen",
-        "translation": "Palabra clave 7",
+        "translation": "buscar",
         "example": "Ich benutze das Wort „suchen“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 8",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "Vorteil",
-        "translation": "Palabra clave 9",
+        "translation": "Ventaja",
         "example": "Ich benutze das Wort „Vorteil“ im Kontext."
       },
       {
         "word": "gemeinsam",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
       }
     ],
@@ -3986,52 +3988,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Wohnung",
-          "Nachbar",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "erklären",
+          "Vorteil",
+          "gemeinsam"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-a2-wohnen-und-nachbarschaft-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Wohnen und Nachbarschaft“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Wohnen und Nachbarschaft darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -4060,52 +4063,52 @@
     "vocabulary": [
       {
         "word": "Reiseplan",
-        "translation": "Palabra clave 1",
+        "translation": "Itinerario",
         "example": "Ich benutze das Wort „Reiseplan“ im Kontext."
       },
       {
         "word": "Buchung",
-        "translation": "Palabra clave 2",
+        "translation": "Reserva",
         "example": "Ich benutze das Wort „Buchung“ im Kontext."
       },
       {
         "word": "Landschaft",
-        "translation": "Palabra clave 3",
+        "translation": "Paisaje",
         "example": "Ich benutze das Wort „Landschaft“ im Kontext."
       },
       {
         "word": "vermeiden",
-        "translation": "Palabra clave 4",
+        "translation": "evitar",
         "example": "Ich benutze das Wort „vermeiden“ im Kontext."
       },
       {
         "word": "empfehlen",
-        "translation": "Palabra clave 5",
+        "translation": "recomendar",
         "example": "Ich benutze das Wort „empfehlen“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 6",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "gastfreundlich",
-        "translation": "Palabra clave 7",
+        "translation": "hospitalario",
         "example": "Ich benutze das Wort „gastfreundlich“ im Kontext."
       },
       {
         "word": "Verkehr",
-        "translation": "Palabra clave 8",
+        "translation": "Transporte",
         "example": "Ich benutze das Wort „Verkehr“ im Kontext."
       },
       {
         "word": "nachhaltig",
-        "translation": "Palabra clave 9",
+        "translation": "sostenible",
         "example": "Ich benutze das Wort „nachhaltig“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 10",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       }
     ],
@@ -4132,52 +4135,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Reiseplan",
-          "Buchung",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Verkehr",
+          "nachhaltig",
+          "Erinnerung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-b1-bewusst-reisen-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Bewusst reisen“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Bewusst reisen darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -4206,52 +4210,52 @@
     "vocabulary": [
       {
         "word": "Kaffee",
-        "translation": "Palabra clave 1",
+        "translation": "Café",
         "example": "Ich benutze das Wort „Kaffee“ im Kontext."
       },
       {
         "word": "Tee",
-        "translation": "Palabra clave 2",
+        "translation": "Té",
         "example": "Ich benutze das Wort „Tee“ im Kontext."
       },
       {
         "word": "Wasser",
-        "translation": "Palabra clave 3",
+        "translation": "Agua",
         "example": "Ich benutze das Wort „Wasser“ im Kontext."
       },
       {
         "word": "Brot",
-        "translation": "Palabra clave 4",
+        "translation": "Pan",
         "example": "Ich benutze das Wort „Brot“ im Kontext."
       },
       {
         "word": "bitte",
-        "translation": "Palabra clave 5",
+        "translation": "por favor",
         "example": "Ich benutze das Wort „bitte“ im Kontext."
       },
       {
         "word": "möchten",
-        "translation": "Palabra clave 6",
+        "translation": "querer",
         "example": "Ich benutze das Wort „möchten“ im Kontext."
       },
       {
         "word": "zahlen",
-        "translation": "Palabra clave 7",
+        "translation": "numerar",
         "example": "Ich benutze das Wort „zahlen“ im Kontext."
       },
       {
         "word": "Tisch",
-        "translation": "Palabra clave 8",
+        "translation": "Mesa",
         "example": "Ich benutze das Wort „Tisch“ im Kontext."
       },
       {
         "word": "lecker",
-        "translation": "Palabra clave 9",
+        "translation": "delicioso",
         "example": "Ich benutze das Wort „lecker“ im Kontext."
       },
       {
         "word": "Rechnung",
-        "translation": "Palabra clave 10",
+        "translation": "Factura",
         "example": "Ich benutze das Wort „Rechnung“ im Kontext."
       }
     ],
@@ -4260,10 +4264,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "möchten, bestellen und Akkusativ",
-        "definition": "Práctica guiada de möchten, bestellen und Akkusativ.",
+        "name": "Im Café: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -4273,7 +4277,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
               {},
               {},
@@ -4283,7 +4287,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Satz.",
             "options": [
               {},
               {},
@@ -4293,7 +4297,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
               {},
               {},
@@ -4303,7 +4307,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welche Frage ist richtig?",
             "options": [
               {},
               {},
@@ -4313,7 +4317,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
               {},
               {},
@@ -4323,7 +4327,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Satz über ein Haus.",
             "options": [
               {},
               {},
@@ -4333,7 +4337,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
               {},
               {},
@@ -4343,7 +4347,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
               {},
               {},
@@ -4358,89 +4362,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "wohne",
+          "wohnt",
+          "wohnen",
+          "wohnst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Leon sprechen mit Anna.",
+          "Leon spricht mit Anna.",
+          "Leon spreche mit Anna.",
+          "Leon sprich mit Anna."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "lerne",
+          "lernt",
+          "lernen",
+          "lernst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Wo wohnst?",
+          "Wo wohnen du?",
+          "Wo du wohnst?",
+          "Wo wohnst du?"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "stellt",
+          "stelle",
+          "stellen",
+          "stellst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Das Haus sind hell.",
+          "Das Haus ist hell.",
+          "Die Haus ist hell.",
+          "Das Haus ist helle."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "trinken",
+          "trinkt",
+          "trinkst",
+          "trinke"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Jeden Morgen arbeitet ich im Zentrum.",
+          "Gestern arbeiten ich im Zentrum.",
+          "Morgen arbeitete ich im Zentrum.",
+          "Jeden Morgen arbeite ich im Zentrum."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
@@ -4470,52 +4474,52 @@
     "vocabulary": [
       {
         "word": "Wohnung",
-        "translation": "Palabra clave 1",
+        "translation": "Piso",
         "example": "Ich benutze das Wort „Wohnung“ im Kontext."
       },
       {
         "word": "Nachbar",
-        "translation": "Palabra clave 2",
+        "translation": "Vecino",
         "example": "Ich benutze das Wort „Nachbar“ im Kontext."
       },
       {
         "word": "umziehen",
-        "translation": "Palabra clave 3",
+        "translation": "mudarse",
         "example": "Ich benutze das Wort „umziehen“ im Kontext."
       },
       {
         "word": "Miete",
-        "translation": "Palabra clave 4",
+        "translation": "Alquiler",
         "example": "Ich benutze das Wort „Miete“ im Kontext."
       },
       {
         "word": "ruhig",
-        "translation": "Palabra clave 5",
+        "translation": "tranquilo",
         "example": "Ich benutze das Wort „ruhig“ im Kontext."
       },
       {
         "word": "laut",
-        "translation": "Palabra clave 6",
+        "translation": "según",
         "example": "Ich benutze das Wort „laut“ im Kontext."
       },
       {
         "word": "suchen",
-        "translation": "Palabra clave 7",
+        "translation": "buscar",
         "example": "Ich benutze das Wort „suchen“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 8",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "Vorteil",
-        "translation": "Palabra clave 9",
+        "translation": "Ventaja",
         "example": "Ich benutze das Wort „Vorteil“ im Kontext."
       },
       {
         "word": "gemeinsam",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
       }
     ],
@@ -4524,10 +4528,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Wechselpräpositionen",
-        "definition": "Práctica guiada de Wechselpräpositionen.",
+        "name": "Wohnen und Nachbarschaft: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
         "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -4537,7 +4541,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
               {},
               {},
@@ -4547,7 +4551,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
               {},
               {},
@@ -4557,7 +4561,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
               {},
               {},
@@ -4567,7 +4571,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
               {},
               {},
@@ -4577,7 +4581,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
               {},
               {},
@@ -4587,7 +4591,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
               {},
               {},
@@ -4597,7 +4601,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
               {},
               {},
@@ -4607,7 +4611,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
               {},
               {},
@@ -4622,89 +4626,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "habe besucht",
+          "besuche",
+          "habe besuchen",
+          "bin besucht"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben zusammen essen.",
+          "Wir haben zusammen gegessen.",
+          "Wir sind zusammen gegessen.",
+          "Wir essen gestern zusammen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "ist kommen",
+          "hat gekommen",
+          "ist gekommen",
+          "kommt gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
+          "Zuerst haben wir gelernt, weil sind wir gegangen.",
+          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
+          "Zuerst haben wir gelernt, dann sind wir gegangen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Hast gelesen",
+          "Hast lesen",
+          "Bist gelesen",
+          "Liest gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Meine Freunde sind den Bus genommen.",
+          "Meine Freunde haben den Bus genommen.",
+          "Meine Freunde haben den Bus nehmen.",
+          "Meine Freunde nehmen gestern den Bus."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "haben machen",
+          "sind gemacht",
+          "haben gemacht",
+          "machen gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Am Samstag bin ich meine Cousine getroffen.",
+          "Am Samstag treffe ich meine Cousine morgen.",
+          "Am Samstag treffen meine Cousine.",
+          "Am Samstag habe ich meine Cousine getroffen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
@@ -4734,52 +4738,52 @@
     "vocabulary": [
       {
         "word": "Reiseplan",
-        "translation": "Palabra clave 1",
+        "translation": "Itinerario",
         "example": "Ich benutze das Wort „Reiseplan“ im Kontext."
       },
       {
         "word": "Buchung",
-        "translation": "Palabra clave 2",
+        "translation": "Reserva",
         "example": "Ich benutze das Wort „Buchung“ im Kontext."
       },
       {
         "word": "Landschaft",
-        "translation": "Palabra clave 3",
+        "translation": "Paisaje",
         "example": "Ich benutze das Wort „Landschaft“ im Kontext."
       },
       {
         "word": "vermeiden",
-        "translation": "Palabra clave 4",
+        "translation": "evitar",
         "example": "Ich benutze das Wort „vermeiden“ im Kontext."
       },
       {
         "word": "empfehlen",
-        "translation": "Palabra clave 5",
+        "translation": "recomendar",
         "example": "Ich benutze das Wort „empfehlen“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 6",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "gastfreundlich",
-        "translation": "Palabra clave 7",
+        "translation": "hospitalario",
         "example": "Ich benutze das Wort „gastfreundlich“ im Kontext."
       },
       {
         "word": "Verkehr",
-        "translation": "Palabra clave 8",
+        "translation": "Transporte",
         "example": "Ich benutze das Wort „Verkehr“ im Kontext."
       },
       {
         "word": "nachhaltig",
-        "translation": "Palabra clave 9",
+        "translation": "sostenible",
         "example": "Ich benutze das Wort „nachhaltig“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 10",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       }
     ],
@@ -4788,10 +4792,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Relativsätze",
-        "definition": "Práctica guiada de Relativsätze.",
+        "name": "Bewusst reisen: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -4801,7 +4805,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
               {},
               {},
@@ -4811,7 +4815,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
               {},
               {},
@@ -4821,7 +4825,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
               {},
               {},
@@ -4831,7 +4835,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
               {},
               {},
@@ -4841,7 +4845,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
               {},
               {},
@@ -4851,7 +4855,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle eine logische Folge.",
             "options": [
               {},
               {},
@@ -4861,7 +4865,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
               {},
               {},
@@ -4871,7 +4875,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
               {},
               {},
@@ -4886,89 +4890,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "sei"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Ich möchte ausgehen, deshalb es regnet.",
+          "Ich möchte ausgehen, aber es regnet.",
+          "Ich möchte ausgehen, weil es regnet.",
+          "Ich möchte ausgehen, dann es regnet."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "ist",
+          "bin",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Das Projekt funktioniert warum?",
+          "Das Projekt gestern funktioniert?",
+          "Funktionieren das Projekt meiner Meinung.",
+          "Meiner Meinung nach funktioniert das Projekt."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
+          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
+          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
+          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "haben",
+          "hat",
+          "hatte"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Ich nehme den Zug er nachhaltiger ist weil.",
+          "Ich nehme den Zug, aber er nachhaltiger ist.",
+          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
+          "Ich nehme den Zug, weil er nachhaltiger ist."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
@@ -4998,52 +5002,52 @@
     "vocabulary": [
       {
         "word": "Kaffee",
-        "translation": "Palabra clave 1",
+        "translation": "Café",
         "example": "Ich benutze das Wort „Kaffee“ im Kontext."
       },
       {
         "word": "Tee",
-        "translation": "Palabra clave 2",
+        "translation": "Té",
         "example": "Ich benutze das Wort „Tee“ im Kontext."
       },
       {
         "word": "Wasser",
-        "translation": "Palabra clave 3",
+        "translation": "Agua",
         "example": "Ich benutze das Wort „Wasser“ im Kontext."
       },
       {
         "word": "Brot",
-        "translation": "Palabra clave 4",
+        "translation": "Pan",
         "example": "Ich benutze das Wort „Brot“ im Kontext."
       },
       {
         "word": "bitte",
-        "translation": "Palabra clave 5",
+        "translation": "por favor",
         "example": "Ich benutze das Wort „bitte“ im Kontext."
       },
       {
         "word": "möchten",
-        "translation": "Palabra clave 6",
+        "translation": "querer",
         "example": "Ich benutze das Wort „möchten“ im Kontext."
       },
       {
         "word": "zahlen",
-        "translation": "Palabra clave 7",
+        "translation": "numerar",
         "example": "Ich benutze das Wort „zahlen“ im Kontext."
       },
       {
         "word": "Tisch",
-        "translation": "Palabra clave 8",
+        "translation": "Mesa",
         "example": "Ich benutze das Wort „Tisch“ im Kontext."
       },
       {
         "word": "lecker",
-        "translation": "Palabra clave 9",
+        "translation": "delicioso",
         "example": "Ich benutze das Wort „lecker“ im Kontext."
       },
       {
         "word": "Rechnung",
-        "translation": "Palabra clave 10",
+        "translation": "Factura",
         "example": "Ich benutze das Wort „Rechnung“ im Kontext."
       }
     ],
@@ -5218,52 +5222,52 @@
     "vocabulary": [
       {
         "word": "Wohnung",
-        "translation": "Palabra clave 1",
+        "translation": "Piso",
         "example": "Ich benutze das Wort „Wohnung“ im Kontext."
       },
       {
         "word": "Nachbar",
-        "translation": "Palabra clave 2",
+        "translation": "Vecino",
         "example": "Ich benutze das Wort „Nachbar“ im Kontext."
       },
       {
         "word": "umziehen",
-        "translation": "Palabra clave 3",
+        "translation": "mudarse",
         "example": "Ich benutze das Wort „umziehen“ im Kontext."
       },
       {
         "word": "Miete",
-        "translation": "Palabra clave 4",
+        "translation": "Alquiler",
         "example": "Ich benutze das Wort „Miete“ im Kontext."
       },
       {
         "word": "ruhig",
-        "translation": "Palabra clave 5",
+        "translation": "tranquilo",
         "example": "Ich benutze das Wort „ruhig“ im Kontext."
       },
       {
         "word": "laut",
-        "translation": "Palabra clave 6",
+        "translation": "según",
         "example": "Ich benutze das Wort „laut“ im Kontext."
       },
       {
         "word": "suchen",
-        "translation": "Palabra clave 7",
+        "translation": "buscar",
         "example": "Ich benutze das Wort „suchen“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 8",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "Vorteil",
-        "translation": "Palabra clave 9",
+        "translation": "Ventaja",
         "example": "Ich benutze das Wort „Vorteil“ im Kontext."
       },
       {
         "word": "gemeinsam",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
       }
     ],
@@ -5438,52 +5442,52 @@
     "vocabulary": [
       {
         "word": "Reiseplan",
-        "translation": "Palabra clave 1",
+        "translation": "Itinerario",
         "example": "Ich benutze das Wort „Reiseplan“ im Kontext."
       },
       {
         "word": "Buchung",
-        "translation": "Palabra clave 2",
+        "translation": "Reserva",
         "example": "Ich benutze das Wort „Buchung“ im Kontext."
       },
       {
         "word": "Landschaft",
-        "translation": "Palabra clave 3",
+        "translation": "Paisaje",
         "example": "Ich benutze das Wort „Landschaft“ im Kontext."
       },
       {
         "word": "vermeiden",
-        "translation": "Palabra clave 4",
+        "translation": "evitar",
         "example": "Ich benutze das Wort „vermeiden“ im Kontext."
       },
       {
         "word": "empfehlen",
-        "translation": "Palabra clave 5",
+        "translation": "recomendar",
         "example": "Ich benutze das Wort „empfehlen“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 6",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "gastfreundlich",
-        "translation": "Palabra clave 7",
+        "translation": "hospitalario",
         "example": "Ich benutze das Wort „gastfreundlich“ im Kontext."
       },
       {
         "word": "Verkehr",
-        "translation": "Palabra clave 8",
+        "translation": "Transporte",
         "example": "Ich benutze das Wort „Verkehr“ im Kontext."
       },
       {
         "word": "nachhaltig",
-        "translation": "Palabra clave 9",
+        "translation": "sostenible",
         "example": "Ich benutze das Wort „nachhaltig“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 10",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       }
     ],
@@ -5658,8 +5662,8 @@
     "vocabulary": [
       {
         "word": "Kaffee",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Café",
+        "definition": "Café",
         "example": "Ich benutze „Kaffee“ in einem Satz.",
         "contexts": [
           "Kaffee · tema",
@@ -5669,8 +5673,8 @@
       },
       {
         "word": "Tee",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Té",
+        "definition": "Té",
         "example": "Ich benutze „Tee“ in einem Satz.",
         "contexts": [
           "Tee · tema",
@@ -5680,8 +5684,8 @@
       },
       {
         "word": "Wasser",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Agua",
+        "definition": "Agua",
         "example": "Ich benutze „Wasser“ in einem Satz.",
         "contexts": [
           "Wasser · tema",
@@ -5691,8 +5695,8 @@
       },
       {
         "word": "Brot",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Pan",
+        "definition": "Pan",
         "example": "Ich benutze „Brot“ in einem Satz.",
         "contexts": [
           "Brot · tema",
@@ -5702,8 +5706,8 @@
       },
       {
         "word": "bitte",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "por favor",
+        "definition": "por favor",
         "example": "Ich benutze „bitte“ in einem Satz.",
         "contexts": [
           "bitte · tema",
@@ -5713,8 +5717,8 @@
       },
       {
         "word": "möchten",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "querer",
+        "definition": "querer",
         "example": "Ich benutze „möchten“ in einem Satz.",
         "contexts": [
           "möchten · tema",
@@ -5724,8 +5728,8 @@
       },
       {
         "word": "zahlen",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "numerar",
+        "definition": "numerar",
         "example": "Ich benutze „zahlen“ in einem Satz.",
         "contexts": [
           "zahlen · tema",
@@ -5735,8 +5739,8 @@
       },
       {
         "word": "Tisch",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Mesa",
+        "definition": "Mesa",
         "example": "Ich benutze „Tisch“ in einem Satz.",
         "contexts": [
           "Tisch · tema",
@@ -5746,8 +5750,8 @@
       },
       {
         "word": "lecker",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "delicioso",
+        "definition": "delicioso",
         "example": "Ich benutze „lecker“ in einem Satz.",
         "contexts": [
           "lecker · tema",
@@ -5757,8 +5761,8 @@
       },
       {
         "word": "Rechnung",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Factura",
+        "definition": "Factura",
         "example": "Ich benutze „Rechnung“ in einem Satz.",
         "contexts": [
           "Rechnung · tema",
@@ -5940,8 +5944,8 @@
     "vocabulary": [
       {
         "word": "Wohnung",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Piso",
+        "definition": "Piso",
         "example": "Ich benutze „Wohnung“ in einem Satz.",
         "contexts": [
           "Wohnung · tema",
@@ -5951,8 +5955,8 @@
       },
       {
         "word": "Nachbar",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Vecino",
+        "definition": "Vecino",
         "example": "Ich benutze „Nachbar“ in einem Satz.",
         "contexts": [
           "Nachbar · tema",
@@ -5962,8 +5966,8 @@
       },
       {
         "word": "umziehen",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "mudarse",
+        "definition": "mudarse",
         "example": "Ich benutze „umziehen“ in einem Satz.",
         "contexts": [
           "umziehen · tema",
@@ -5973,8 +5977,8 @@
       },
       {
         "word": "Miete",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Alquiler",
+        "definition": "Alquiler",
         "example": "Ich benutze „Miete“ in einem Satz.",
         "contexts": [
           "Miete · tema",
@@ -5984,8 +5988,8 @@
       },
       {
         "word": "ruhig",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "tranquilo",
+        "definition": "tranquilo",
         "example": "Ich benutze „ruhig“ in einem Satz.",
         "contexts": [
           "ruhig · tema",
@@ -5995,8 +5999,8 @@
       },
       {
         "word": "laut",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "según",
+        "definition": "según",
         "example": "Ich benutze „laut“ in einem Satz.",
         "contexts": [
           "laut · tema",
@@ -6006,8 +6010,8 @@
       },
       {
         "word": "suchen",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "buscar",
+        "definition": "buscar",
         "example": "Ich benutze „suchen“ in einem Satz.",
         "contexts": [
           "suchen · tema",
@@ -6017,8 +6021,8 @@
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "explicar",
+        "definition": "explicar",
         "example": "Ich benutze „erklären“ in einem Satz.",
         "contexts": [
           "erklären · tema",
@@ -6028,8 +6032,8 @@
       },
       {
         "word": "Vorteil",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "Ventaja",
+        "definition": "Ventaja",
         "example": "Ich benutze „Vorteil“ in einem Satz.",
         "contexts": [
           "Vorteil · tema",
@@ -6039,8 +6043,8 @@
       },
       {
         "word": "gemeinsam",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "juntos",
+        "definition": "juntos",
         "example": "Ich benutze „gemeinsam“ in einem Satz.",
         "contexts": [
           "gemeinsam · tema",
@@ -6222,8 +6226,8 @@
     "vocabulary": [
       {
         "word": "Reiseplan",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Itinerario",
+        "definition": "Itinerario",
         "example": "Ich benutze „Reiseplan“ in einem Satz.",
         "contexts": [
           "Reiseplan · tema",
@@ -6233,8 +6237,8 @@
       },
       {
         "word": "Buchung",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Reserva",
+        "definition": "Reserva",
         "example": "Ich benutze „Buchung“ in einem Satz.",
         "contexts": [
           "Buchung · tema",
@@ -6244,8 +6248,8 @@
       },
       {
         "word": "Landschaft",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Paisaje",
+        "definition": "Paisaje",
         "example": "Ich benutze „Landschaft“ in einem Satz.",
         "contexts": [
           "Landschaft · tema",
@@ -6255,8 +6259,8 @@
       },
       {
         "word": "vermeiden",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "evitar",
+        "definition": "evitar",
         "example": "Ich benutze „vermeiden“ in einem Satz.",
         "contexts": [
           "vermeiden · tema",
@@ -6266,8 +6270,8 @@
       },
       {
         "word": "empfehlen",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "recomendar",
+        "definition": "recomendar",
         "example": "Ich benutze „empfehlen“ in einem Satz.",
         "contexts": [
           "empfehlen · tema",
@@ -6277,8 +6281,8 @@
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Experiencia",
+        "definition": "Experiencia",
         "example": "Ich benutze „Erfahrung“ in einem Satz.",
         "contexts": [
           "Erfahrung · tema",
@@ -6288,8 +6292,8 @@
       },
       {
         "word": "gastfreundlich",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "hospitalario",
+        "definition": "hospitalario",
         "example": "Ich benutze „gastfreundlich“ in einem Satz.",
         "contexts": [
           "gastfreundlich · tema",
@@ -6299,8 +6303,8 @@
       },
       {
         "word": "Verkehr",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Transporte",
+        "definition": "Transporte",
         "example": "Ich benutze „Verkehr“ in einem Satz.",
         "contexts": [
           "Verkehr · tema",
@@ -6310,8 +6314,8 @@
       },
       {
         "word": "nachhaltig",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "sostenible",
+        "definition": "sostenible",
         "example": "Ich benutze „nachhaltig“ in einem Satz.",
         "contexts": [
           "nachhaltig · tema",
@@ -6321,8 +6325,8 @@
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Recordatorio",
+        "definition": "Recordatorio",
         "example": "Ich benutze „Erinnerung“ in einem Satz.",
         "contexts": [
           "Erinnerung · tema",
@@ -6504,52 +6508,52 @@
     "vocabulary": [
       {
         "word": "Kaffee",
-        "translation": "Palabra clave 1",
+        "translation": "Café",
         "example": "Ich benutze das Wort „Kaffee“ im Kontext."
       },
       {
         "word": "Tee",
-        "translation": "Palabra clave 2",
+        "translation": "Té",
         "example": "Ich benutze das Wort „Tee“ im Kontext."
       },
       {
         "word": "Wasser",
-        "translation": "Palabra clave 3",
+        "translation": "Agua",
         "example": "Ich benutze das Wort „Wasser“ im Kontext."
       },
       {
         "word": "Brot",
-        "translation": "Palabra clave 4",
+        "translation": "Pan",
         "example": "Ich benutze das Wort „Brot“ im Kontext."
       },
       {
         "word": "bitte",
-        "translation": "Palabra clave 5",
+        "translation": "por favor",
         "example": "Ich benutze das Wort „bitte“ im Kontext."
       },
       {
         "word": "möchten",
-        "translation": "Palabra clave 6",
+        "translation": "querer",
         "example": "Ich benutze das Wort „möchten“ im Kontext."
       },
       {
         "word": "zahlen",
-        "translation": "Palabra clave 7",
+        "translation": "numerar",
         "example": "Ich benutze das Wort „zahlen“ im Kontext."
       },
       {
         "word": "Tisch",
-        "translation": "Palabra clave 8",
+        "translation": "Mesa",
         "example": "Ich benutze das Wort „Tisch“ im Kontext."
       },
       {
         "word": "lecker",
-        "translation": "Palabra clave 9",
+        "translation": "delicioso",
         "example": "Ich benutze das Wort „lecker“ im Kontext."
       },
       {
         "word": "Rechnung",
-        "translation": "Palabra clave 10",
+        "translation": "Factura",
         "example": "Ich benutze das Wort „Rechnung“ im Kontext."
       }
     ],
@@ -6597,52 +6601,52 @@
     "vocabulary": [
       {
         "word": "Wohnung",
-        "translation": "Palabra clave 1",
+        "translation": "Piso",
         "example": "Ich benutze das Wort „Wohnung“ im Kontext."
       },
       {
         "word": "Nachbar",
-        "translation": "Palabra clave 2",
+        "translation": "Vecino",
         "example": "Ich benutze das Wort „Nachbar“ im Kontext."
       },
       {
         "word": "umziehen",
-        "translation": "Palabra clave 3",
+        "translation": "mudarse",
         "example": "Ich benutze das Wort „umziehen“ im Kontext."
       },
       {
         "word": "Miete",
-        "translation": "Palabra clave 4",
+        "translation": "Alquiler",
         "example": "Ich benutze das Wort „Miete“ im Kontext."
       },
       {
         "word": "ruhig",
-        "translation": "Palabra clave 5",
+        "translation": "tranquilo",
         "example": "Ich benutze das Wort „ruhig“ im Kontext."
       },
       {
         "word": "laut",
-        "translation": "Palabra clave 6",
+        "translation": "según",
         "example": "Ich benutze das Wort „laut“ im Kontext."
       },
       {
         "word": "suchen",
-        "translation": "Palabra clave 7",
+        "translation": "buscar",
         "example": "Ich benutze das Wort „suchen“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 8",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "Vorteil",
-        "translation": "Palabra clave 9",
+        "translation": "Ventaja",
         "example": "Ich benutze das Wort „Vorteil“ im Kontext."
       },
       {
         "word": "gemeinsam",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
       }
     ],
@@ -6690,52 +6694,52 @@
     "vocabulary": [
       {
         "word": "Reiseplan",
-        "translation": "Palabra clave 1",
+        "translation": "Itinerario",
         "example": "Ich benutze das Wort „Reiseplan“ im Kontext."
       },
       {
         "word": "Buchung",
-        "translation": "Palabra clave 2",
+        "translation": "Reserva",
         "example": "Ich benutze das Wort „Buchung“ im Kontext."
       },
       {
         "word": "Landschaft",
-        "translation": "Palabra clave 3",
+        "translation": "Paisaje",
         "example": "Ich benutze das Wort „Landschaft“ im Kontext."
       },
       {
         "word": "vermeiden",
-        "translation": "Palabra clave 4",
+        "translation": "evitar",
         "example": "Ich benutze das Wort „vermeiden“ im Kontext."
       },
       {
         "word": "empfehlen",
-        "translation": "Palabra clave 5",
+        "translation": "recomendar",
         "example": "Ich benutze das Wort „empfehlen“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 6",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "gastfreundlich",
-        "translation": "Palabra clave 7",
+        "translation": "hospitalario",
         "example": "Ich benutze das Wort „gastfreundlich“ im Kontext."
       },
       {
         "word": "Verkehr",
-        "translation": "Palabra clave 8",
+        "translation": "Transporte",
         "example": "Ich benutze das Wort „Verkehr“ im Kontext."
       },
       {
         "word": "nachhaltig",
-        "translation": "Palabra clave 9",
+        "translation": "sostenible",
         "example": "Ich benutze das Wort „nachhaltig“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 10",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       }
     ],
@@ -6783,52 +6787,52 @@
     "vocabulary": [
       {
         "word": "Kaffee",
-        "translation": "Palabra clave 1",
+        "translation": "Café",
         "example": "Ich benutze das Wort „Kaffee“ im Kontext."
       },
       {
         "word": "Tee",
-        "translation": "Palabra clave 2",
+        "translation": "Té",
         "example": "Ich benutze das Wort „Tee“ im Kontext."
       },
       {
         "word": "Wasser",
-        "translation": "Palabra clave 3",
+        "translation": "Agua",
         "example": "Ich benutze das Wort „Wasser“ im Kontext."
       },
       {
         "word": "Brot",
-        "translation": "Palabra clave 4",
+        "translation": "Pan",
         "example": "Ich benutze das Wort „Brot“ im Kontext."
       },
       {
         "word": "bitte",
-        "translation": "Palabra clave 5",
+        "translation": "por favor",
         "example": "Ich benutze das Wort „bitte“ im Kontext."
       },
       {
         "word": "möchten",
-        "translation": "Palabra clave 6",
+        "translation": "querer",
         "example": "Ich benutze das Wort „möchten“ im Kontext."
       },
       {
         "word": "zahlen",
-        "translation": "Palabra clave 7",
+        "translation": "numerar",
         "example": "Ich benutze das Wort „zahlen“ im Kontext."
       },
       {
         "word": "Tisch",
-        "translation": "Palabra clave 8",
+        "translation": "Mesa",
         "example": "Ich benutze das Wort „Tisch“ im Kontext."
       },
       {
         "word": "lecker",
-        "translation": "Palabra clave 9",
+        "translation": "delicioso",
         "example": "Ich benutze das Wort „lecker“ im Kontext."
       },
       {
         "word": "Rechnung",
-        "translation": "Palabra clave 10",
+        "translation": "Factura",
         "example": "Ich benutze das Wort „Rechnung“ im Kontext."
       }
     ],
@@ -6867,52 +6871,52 @@
     "vocabulary": [
       {
         "word": "Wohnung",
-        "translation": "Palabra clave 1",
+        "translation": "Piso",
         "example": "Ich benutze das Wort „Wohnung“ im Kontext."
       },
       {
         "word": "Nachbar",
-        "translation": "Palabra clave 2",
+        "translation": "Vecino",
         "example": "Ich benutze das Wort „Nachbar“ im Kontext."
       },
       {
         "word": "umziehen",
-        "translation": "Palabra clave 3",
+        "translation": "mudarse",
         "example": "Ich benutze das Wort „umziehen“ im Kontext."
       },
       {
         "word": "Miete",
-        "translation": "Palabra clave 4",
+        "translation": "Alquiler",
         "example": "Ich benutze das Wort „Miete“ im Kontext."
       },
       {
         "word": "ruhig",
-        "translation": "Palabra clave 5",
+        "translation": "tranquilo",
         "example": "Ich benutze das Wort „ruhig“ im Kontext."
       },
       {
         "word": "laut",
-        "translation": "Palabra clave 6",
+        "translation": "según",
         "example": "Ich benutze das Wort „laut“ im Kontext."
       },
       {
         "word": "suchen",
-        "translation": "Palabra clave 7",
+        "translation": "buscar",
         "example": "Ich benutze das Wort „suchen“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 8",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "Vorteil",
-        "translation": "Palabra clave 9",
+        "translation": "Ventaja",
         "example": "Ich benutze das Wort „Vorteil“ im Kontext."
       },
       {
         "word": "gemeinsam",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
       }
     ],
@@ -6951,52 +6955,52 @@
     "vocabulary": [
       {
         "word": "Reiseplan",
-        "translation": "Palabra clave 1",
+        "translation": "Itinerario",
         "example": "Ich benutze das Wort „Reiseplan“ im Kontext."
       },
       {
         "word": "Buchung",
-        "translation": "Palabra clave 2",
+        "translation": "Reserva",
         "example": "Ich benutze das Wort „Buchung“ im Kontext."
       },
       {
         "word": "Landschaft",
-        "translation": "Palabra clave 3",
+        "translation": "Paisaje",
         "example": "Ich benutze das Wort „Landschaft“ im Kontext."
       },
       {
         "word": "vermeiden",
-        "translation": "Palabra clave 4",
+        "translation": "evitar",
         "example": "Ich benutze das Wort „vermeiden“ im Kontext."
       },
       {
         "word": "empfehlen",
-        "translation": "Palabra clave 5",
+        "translation": "recomendar",
         "example": "Ich benutze das Wort „empfehlen“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 6",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "gastfreundlich",
-        "translation": "Palabra clave 7",
+        "translation": "hospitalario",
         "example": "Ich benutze das Wort „gastfreundlich“ im Kontext."
       },
       {
         "word": "Verkehr",
-        "translation": "Palabra clave 8",
+        "translation": "Transporte",
         "example": "Ich benutze das Wort „Verkehr“ im Kontext."
       },
       {
         "word": "nachhaltig",
-        "translation": "Palabra clave 9",
+        "translation": "sostenible",
         "example": "Ich benutze das Wort „nachhaltig“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 10",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       }
     ],
@@ -7035,52 +7039,52 @@
     "vocabulary": [
       {
         "word": "Familie",
-        "translation": "Palabra clave 1",
+        "translation": "Familia",
         "example": "Ich benutze das Wort „Familie“ im Kontext."
       },
       {
         "word": "Mutter",
-        "translation": "Palabra clave 2",
+        "translation": "Madre",
         "example": "Ich benutze das Wort „Mutter“ im Kontext."
       },
       {
         "word": "Vater",
-        "translation": "Palabra clave 3",
+        "translation": "Padre",
         "example": "Ich benutze das Wort „Vater“ im Kontext."
       },
       {
         "word": "Bruder",
-        "translation": "Palabra clave 4",
+        "translation": "Hermano",
         "example": "Ich benutze das Wort „Bruder“ im Kontext."
       },
       {
         "word": "Zimmer",
-        "translation": "Palabra clave 5",
+        "translation": "Habitación",
         "example": "Ich benutze das Wort „Zimmer“ im Kontext."
       },
       {
         "word": "Küche",
-        "translation": "Palabra clave 6",
+        "translation": "Cocina",
         "example": "Ich benutze das Wort „Küche“ im Kontext."
       },
       {
         "word": "wohnen",
-        "translation": "Palabra clave 7",
+        "translation": "vivir",
         "example": "Ich benutze das Wort „wohnen“ im Kontext."
       },
       {
         "word": "klein",
-        "translation": "Palabra clave 8",
+        "translation": "pequeño",
         "example": "Ich benutze das Wort „klein“ im Kontext."
       },
       {
         "word": "groß",
-        "translation": "Palabra clave 9",
+        "translation": "grande",
         "example": "Ich benutze das Wort „groß“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       }
     ],
@@ -7105,42 +7109,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Familie",
-          "Mutter",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "klein",
+          "groß",
+          "zusammen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -7169,52 +7173,52 @@
     "vocabulary": [
       {
         "word": "Gesundheit",
-        "translation": "Palabra clave 1",
+        "translation": "Salud",
         "example": "Ich benutze das Wort „Gesundheit“ im Kontext."
       },
       {
         "word": "Arzt",
-        "translation": "Palabra clave 2",
+        "translation": "Médico",
         "example": "Ich benutze das Wort „Arzt“ im Kontext."
       },
       {
         "word": "Schmerz",
-        "translation": "Palabra clave 3",
+        "translation": "Dolor",
         "example": "Ich benutze das Wort „Schmerz“ im Kontext."
       },
       {
         "word": "ausruhen",
-        "translation": "Palabra clave 4",
+        "translation": "descansar",
         "example": "Ich benutze das Wort „ausruhen“ im Kontext."
       },
       {
         "word": "Medikament",
-        "translation": "Palabra clave 5",
+        "translation": "Medicamento",
         "example": "Ich benutze das Wort „Medikament“ im Kontext."
       },
       {
         "word": "gesund",
-        "translation": "Palabra clave 6",
+        "translation": "sano",
         "example": "Ich benutze das Wort „gesund“ im Kontext."
       },
       {
         "word": "regelmäßig",
-        "translation": "Palabra clave 7",
+        "translation": "regular",
         "example": "Ich benutze das Wort „regelmäßig“ im Kontext."
       },
       {
         "word": "Rat",
-        "translation": "Palabra clave 8",
+        "translation": "Consejo",
         "example": "Ich benutze das Wort „Rat“ im Kontext."
       },
       {
         "word": "besser",
-        "translation": "Palabra clave 9",
+        "translation": "mejor",
         "example": "Ich benutze das Wort „besser“ im Kontext."
       },
       {
         "word": "Termin",
-        "translation": "Palabra clave 10",
+        "translation": "Fecha",
         "example": "Ich benutze das Wort „Termin“ im Kontext."
       }
     ],
@@ -7240,52 +7244,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Gesundheit",
-          "Arzt",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Rat",
+          "besser",
+          "Termin"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-a2-gesundheit-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Gesundheit“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Gesundheit darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -7314,52 +7319,52 @@
     "vocabulary": [
       {
         "word": "Wohlbefinden",
-        "translation": "Palabra clave 1",
+        "translation": "Bienestar",
         "example": "Ich benutze das Wort „Wohlbefinden“ im Kontext."
       },
       {
         "word": "Erholung",
-        "translation": "Palabra clave 2",
+        "translation": "Descanso",
         "example": "Ich benutze das Wort „Erholung“ im Kontext."
       },
       {
         "word": "Bewegung",
-        "translation": "Palabra clave 3",
+        "translation": "Movimiento",
         "example": "Ich benutze das Wort „Bewegung“ im Kontext."
       },
       {
         "word": "Gleichgewicht",
-        "translation": "Palabra clave 4",
+        "translation": "Equilibrio",
         "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "vorbeugen",
-        "translation": "Palabra clave 6",
+        "translation": "prevenir",
         "example": "Ich benutze das Wort „vorbeugen“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 7",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Energie",
-        "translation": "Palabra clave 8",
+        "translation": "Energía",
         "example": "Ich benutze das Wort „Energie“ im Kontext."
       },
       {
         "word": "Rat",
-        "translation": "Palabra clave 9",
+        "translation": "Consejo",
         "example": "Ich benutze das Wort „Rat“ im Kontext."
       },
       {
         "word": "Entscheidung",
-        "translation": "Palabra clave 10",
+        "translation": "Decisión",
         "example": "Ich benutze das Wort „Entscheidung“ im Kontext."
       }
     ],
@@ -7386,52 +7391,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Wohlbefinden",
-          "Erholung",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Energie",
+          "Rat",
+          "Entscheidung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-b1-gesundheit-und-balance-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Gesundheit und Balance“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Gesundheit und Balance darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -7460,52 +7466,52 @@
     "vocabulary": [
       {
         "word": "Familie",
-        "translation": "Palabra clave 1",
+        "translation": "Familia",
         "example": "Ich benutze das Wort „Familie“ im Kontext."
       },
       {
         "word": "Mutter",
-        "translation": "Palabra clave 2",
+        "translation": "Madre",
         "example": "Ich benutze das Wort „Mutter“ im Kontext."
       },
       {
         "word": "Vater",
-        "translation": "Palabra clave 3",
+        "translation": "Padre",
         "example": "Ich benutze das Wort „Vater“ im Kontext."
       },
       {
         "word": "Bruder",
-        "translation": "Palabra clave 4",
+        "translation": "Hermano",
         "example": "Ich benutze das Wort „Bruder“ im Kontext."
       },
       {
         "word": "Zimmer",
-        "translation": "Palabra clave 5",
+        "translation": "Habitación",
         "example": "Ich benutze das Wort „Zimmer“ im Kontext."
       },
       {
         "word": "Küche",
-        "translation": "Palabra clave 6",
+        "translation": "Cocina",
         "example": "Ich benutze das Wort „Küche“ im Kontext."
       },
       {
         "word": "wohnen",
-        "translation": "Palabra clave 7",
+        "translation": "vivir",
         "example": "Ich benutze das Wort „wohnen“ im Kontext."
       },
       {
         "word": "klein",
-        "translation": "Palabra clave 8",
+        "translation": "pequeño",
         "example": "Ich benutze das Wort „klein“ im Kontext."
       },
       {
         "word": "groß",
-        "translation": "Palabra clave 9",
+        "translation": "grande",
         "example": "Ich benutze das Wort „groß“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       }
     ],
@@ -7514,10 +7520,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Possessivartikel und Plural",
-        "definition": "Práctica guiada de Possessivartikel und Plural.",
+        "name": "Familie und Haus: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -7527,7 +7533,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
               {},
               {},
@@ -7537,7 +7543,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Satz.",
             "options": [
               {},
               {},
@@ -7547,7 +7553,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
               {},
               {},
@@ -7557,7 +7563,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welche Frage ist richtig?",
             "options": [
               {},
               {},
@@ -7567,7 +7573,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
               {},
               {},
@@ -7577,7 +7583,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Satz über ein Haus.",
             "options": [
               {},
               {},
@@ -7587,7 +7593,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
               {},
               {},
@@ -7597,7 +7603,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
               {},
               {},
@@ -7612,89 +7618,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "wohne",
+          "wohnt",
+          "wohnen",
+          "wohnst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Leon sprechen mit Anna.",
+          "Leon spricht mit Anna.",
+          "Leon spreche mit Anna.",
+          "Leon sprich mit Anna."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "lerne",
+          "lernt",
+          "lernen",
+          "lernst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Wo wohnst?",
+          "Wo wohnen du?",
+          "Wo du wohnst?",
+          "Wo wohnst du?"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "stellt",
+          "stelle",
+          "stellen",
+          "stellst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Das Haus sind hell.",
+          "Das Haus ist hell.",
+          "Die Haus ist hell.",
+          "Das Haus ist helle."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "trinken",
+          "trinkt",
+          "trinkst",
+          "trinke"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Jeden Morgen arbeitet ich im Zentrum.",
+          "Gestern arbeiten ich im Zentrum.",
+          "Morgen arbeitete ich im Zentrum.",
+          "Jeden Morgen arbeite ich im Zentrum."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
@@ -7724,52 +7730,52 @@
     "vocabulary": [
       {
         "word": "Gesundheit",
-        "translation": "Palabra clave 1",
+        "translation": "Salud",
         "example": "Ich benutze das Wort „Gesundheit“ im Kontext."
       },
       {
         "word": "Arzt",
-        "translation": "Palabra clave 2",
+        "translation": "Médico",
         "example": "Ich benutze das Wort „Arzt“ im Kontext."
       },
       {
         "word": "Schmerz",
-        "translation": "Palabra clave 3",
+        "translation": "Dolor",
         "example": "Ich benutze das Wort „Schmerz“ im Kontext."
       },
       {
         "word": "ausruhen",
-        "translation": "Palabra clave 4",
+        "translation": "descansar",
         "example": "Ich benutze das Wort „ausruhen“ im Kontext."
       },
       {
         "word": "Medikament",
-        "translation": "Palabra clave 5",
+        "translation": "Medicamento",
         "example": "Ich benutze das Wort „Medikament“ im Kontext."
       },
       {
         "word": "gesund",
-        "translation": "Palabra clave 6",
+        "translation": "sano",
         "example": "Ich benutze das Wort „gesund“ im Kontext."
       },
       {
         "word": "regelmäßig",
-        "translation": "Palabra clave 7",
+        "translation": "regular",
         "example": "Ich benutze das Wort „regelmäßig“ im Kontext."
       },
       {
         "word": "Rat",
-        "translation": "Palabra clave 8",
+        "translation": "Consejo",
         "example": "Ich benutze das Wort „Rat“ im Kontext."
       },
       {
         "word": "besser",
-        "translation": "Palabra clave 9",
+        "translation": "mejor",
         "example": "Ich benutze das Wort „besser“ im Kontext."
       },
       {
         "word": "Termin",
-        "translation": "Palabra clave 10",
+        "translation": "Fecha",
         "example": "Ich benutze das Wort „Termin“ im Kontext."
       }
     ],
@@ -7778,10 +7784,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Modalverben im Präteritum",
-        "definition": "Práctica guiada de Modalverben im Präteritum.",
+        "name": "Gesundheit: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
         "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -7791,7 +7797,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
               {},
               {},
@@ -7801,7 +7807,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
               {},
               {},
@@ -7811,7 +7817,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
               {},
               {},
@@ -7821,7 +7827,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
               {},
               {},
@@ -7831,7 +7837,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
               {},
               {},
@@ -7841,7 +7847,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
               {},
               {},
@@ -7851,7 +7857,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
               {},
               {},
@@ -7861,7 +7867,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
               {},
               {},
@@ -7876,89 +7882,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "habe besucht",
+          "besuche",
+          "habe besuchen",
+          "bin besucht"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben zusammen essen.",
+          "Wir haben zusammen gegessen.",
+          "Wir sind zusammen gegessen.",
+          "Wir essen gestern zusammen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "ist kommen",
+          "hat gekommen",
+          "ist gekommen",
+          "kommt gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
+          "Zuerst haben wir gelernt, weil sind wir gegangen.",
+          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
+          "Zuerst haben wir gelernt, dann sind wir gegangen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Hast gelesen",
+          "Hast lesen",
+          "Bist gelesen",
+          "Liest gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Meine Freunde sind den Bus genommen.",
+          "Meine Freunde haben den Bus genommen.",
+          "Meine Freunde haben den Bus nehmen.",
+          "Meine Freunde nehmen gestern den Bus."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "haben machen",
+          "sind gemacht",
+          "haben gemacht",
+          "machen gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Am Samstag bin ich meine Cousine getroffen.",
+          "Am Samstag treffe ich meine Cousine morgen.",
+          "Am Samstag treffen meine Cousine.",
+          "Am Samstag habe ich meine Cousine getroffen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
@@ -7988,52 +7994,52 @@
     "vocabulary": [
       {
         "word": "Wohlbefinden",
-        "translation": "Palabra clave 1",
+        "translation": "Bienestar",
         "example": "Ich benutze das Wort „Wohlbefinden“ im Kontext."
       },
       {
         "word": "Erholung",
-        "translation": "Palabra clave 2",
+        "translation": "Descanso",
         "example": "Ich benutze das Wort „Erholung“ im Kontext."
       },
       {
         "word": "Bewegung",
-        "translation": "Palabra clave 3",
+        "translation": "Movimiento",
         "example": "Ich benutze das Wort „Bewegung“ im Kontext."
       },
       {
         "word": "Gleichgewicht",
-        "translation": "Palabra clave 4",
+        "translation": "Equilibrio",
         "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "vorbeugen",
-        "translation": "Palabra clave 6",
+        "translation": "prevenir",
         "example": "Ich benutze das Wort „vorbeugen“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 7",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Energie",
-        "translation": "Palabra clave 8",
+        "translation": "Energía",
         "example": "Ich benutze das Wort „Energie“ im Kontext."
       },
       {
         "word": "Rat",
-        "translation": "Palabra clave 9",
+        "translation": "Consejo",
         "example": "Ich benutze das Wort „Rat“ im Kontext."
       },
       {
         "word": "Entscheidung",
-        "translation": "Palabra clave 10",
+        "translation": "Decisión",
         "example": "Ich benutze das Wort „Entscheidung“ im Kontext."
       }
     ],
@@ -8042,10 +8048,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Passiv im Präsens",
-        "definition": "Práctica guiada de Passiv im Präsens.",
+        "name": "Gesundheit und Balance: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -8055,7 +8061,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
               {},
               {},
@@ -8065,7 +8071,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
               {},
               {},
@@ -8075,7 +8081,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
               {},
               {},
@@ -8085,7 +8091,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
               {},
               {},
@@ -8095,7 +8101,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
               {},
               {},
@@ -8105,7 +8111,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle eine logische Folge.",
             "options": [
               {},
               {},
@@ -8115,7 +8121,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
               {},
               {},
@@ -8125,7 +8131,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
               {},
               {},
@@ -8140,89 +8146,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "sei"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Ich möchte ausgehen, deshalb es regnet.",
+          "Ich möchte ausgehen, aber es regnet.",
+          "Ich möchte ausgehen, weil es regnet.",
+          "Ich möchte ausgehen, dann es regnet."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "ist",
+          "bin",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Das Projekt funktioniert warum?",
+          "Das Projekt gestern funktioniert?",
+          "Funktionieren das Projekt meiner Meinung.",
+          "Meiner Meinung nach funktioniert das Projekt."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
+          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
+          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
+          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "haben",
+          "hat",
+          "hatte"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Ich nehme den Zug er nachhaltiger ist weil.",
+          "Ich nehme den Zug, aber er nachhaltiger ist.",
+          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
+          "Ich nehme den Zug, weil er nachhaltiger ist."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
@@ -8252,52 +8258,52 @@
     "vocabulary": [
       {
         "word": "Familie",
-        "translation": "Palabra clave 1",
+        "translation": "Familia",
         "example": "Ich benutze das Wort „Familie“ im Kontext."
       },
       {
         "word": "Mutter",
-        "translation": "Palabra clave 2",
+        "translation": "Madre",
         "example": "Ich benutze das Wort „Mutter“ im Kontext."
       },
       {
         "word": "Vater",
-        "translation": "Palabra clave 3",
+        "translation": "Padre",
         "example": "Ich benutze das Wort „Vater“ im Kontext."
       },
       {
         "word": "Bruder",
-        "translation": "Palabra clave 4",
+        "translation": "Hermano",
         "example": "Ich benutze das Wort „Bruder“ im Kontext."
       },
       {
         "word": "Zimmer",
-        "translation": "Palabra clave 5",
+        "translation": "Habitación",
         "example": "Ich benutze das Wort „Zimmer“ im Kontext."
       },
       {
         "word": "Küche",
-        "translation": "Palabra clave 6",
+        "translation": "Cocina",
         "example": "Ich benutze das Wort „Küche“ im Kontext."
       },
       {
         "word": "wohnen",
-        "translation": "Palabra clave 7",
+        "translation": "vivir",
         "example": "Ich benutze das Wort „wohnen“ im Kontext."
       },
       {
         "word": "klein",
-        "translation": "Palabra clave 8",
+        "translation": "pequeño",
         "example": "Ich benutze das Wort „klein“ im Kontext."
       },
       {
         "word": "groß",
-        "translation": "Palabra clave 9",
+        "translation": "grande",
         "example": "Ich benutze das Wort „groß“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       }
     ],
@@ -8472,52 +8478,52 @@
     "vocabulary": [
       {
         "word": "Gesundheit",
-        "translation": "Palabra clave 1",
+        "translation": "Salud",
         "example": "Ich benutze das Wort „Gesundheit“ im Kontext."
       },
       {
         "word": "Arzt",
-        "translation": "Palabra clave 2",
+        "translation": "Médico",
         "example": "Ich benutze das Wort „Arzt“ im Kontext."
       },
       {
         "word": "Schmerz",
-        "translation": "Palabra clave 3",
+        "translation": "Dolor",
         "example": "Ich benutze das Wort „Schmerz“ im Kontext."
       },
       {
         "word": "ausruhen",
-        "translation": "Palabra clave 4",
+        "translation": "descansar",
         "example": "Ich benutze das Wort „ausruhen“ im Kontext."
       },
       {
         "word": "Medikament",
-        "translation": "Palabra clave 5",
+        "translation": "Medicamento",
         "example": "Ich benutze das Wort „Medikament“ im Kontext."
       },
       {
         "word": "gesund",
-        "translation": "Palabra clave 6",
+        "translation": "sano",
         "example": "Ich benutze das Wort „gesund“ im Kontext."
       },
       {
         "word": "regelmäßig",
-        "translation": "Palabra clave 7",
+        "translation": "regular",
         "example": "Ich benutze das Wort „regelmäßig“ im Kontext."
       },
       {
         "word": "Rat",
-        "translation": "Palabra clave 8",
+        "translation": "Consejo",
         "example": "Ich benutze das Wort „Rat“ im Kontext."
       },
       {
         "word": "besser",
-        "translation": "Palabra clave 9",
+        "translation": "mejor",
         "example": "Ich benutze das Wort „besser“ im Kontext."
       },
       {
         "word": "Termin",
-        "translation": "Palabra clave 10",
+        "translation": "Fecha",
         "example": "Ich benutze das Wort „Termin“ im Kontext."
       }
     ],
@@ -8692,52 +8698,52 @@
     "vocabulary": [
       {
         "word": "Wohlbefinden",
-        "translation": "Palabra clave 1",
+        "translation": "Bienestar",
         "example": "Ich benutze das Wort „Wohlbefinden“ im Kontext."
       },
       {
         "word": "Erholung",
-        "translation": "Palabra clave 2",
+        "translation": "Descanso",
         "example": "Ich benutze das Wort „Erholung“ im Kontext."
       },
       {
         "word": "Bewegung",
-        "translation": "Palabra clave 3",
+        "translation": "Movimiento",
         "example": "Ich benutze das Wort „Bewegung“ im Kontext."
       },
       {
         "word": "Gleichgewicht",
-        "translation": "Palabra clave 4",
+        "translation": "Equilibrio",
         "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "vorbeugen",
-        "translation": "Palabra clave 6",
+        "translation": "prevenir",
         "example": "Ich benutze das Wort „vorbeugen“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 7",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Energie",
-        "translation": "Palabra clave 8",
+        "translation": "Energía",
         "example": "Ich benutze das Wort „Energie“ im Kontext."
       },
       {
         "word": "Rat",
-        "translation": "Palabra clave 9",
+        "translation": "Consejo",
         "example": "Ich benutze das Wort „Rat“ im Kontext."
       },
       {
         "word": "Entscheidung",
-        "translation": "Palabra clave 10",
+        "translation": "Decisión",
         "example": "Ich benutze das Wort „Entscheidung“ im Kontext."
       }
     ],
@@ -8912,8 +8918,8 @@
     "vocabulary": [
       {
         "word": "Familie",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Familia",
+        "definition": "Familia",
         "example": "Ich benutze „Familie“ in einem Satz.",
         "contexts": [
           "Familie · tema",
@@ -8923,8 +8929,8 @@
       },
       {
         "word": "Mutter",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Madre",
+        "definition": "Madre",
         "example": "Ich benutze „Mutter“ in einem Satz.",
         "contexts": [
           "Mutter · tema",
@@ -8934,8 +8940,8 @@
       },
       {
         "word": "Vater",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Padre",
+        "definition": "Padre",
         "example": "Ich benutze „Vater“ in einem Satz.",
         "contexts": [
           "Vater · tema",
@@ -8945,8 +8951,8 @@
       },
       {
         "word": "Bruder",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Hermano",
+        "definition": "Hermano",
         "example": "Ich benutze „Bruder“ in einem Satz.",
         "contexts": [
           "Bruder · tema",
@@ -8956,8 +8962,8 @@
       },
       {
         "word": "Zimmer",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "Habitación",
+        "definition": "Habitación",
         "example": "Ich benutze „Zimmer“ in einem Satz.",
         "contexts": [
           "Zimmer · tema",
@@ -8967,8 +8973,8 @@
       },
       {
         "word": "Küche",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Cocina",
+        "definition": "Cocina",
         "example": "Ich benutze „Küche“ in einem Satz.",
         "contexts": [
           "Küche · tema",
@@ -8978,8 +8984,8 @@
       },
       {
         "word": "wohnen",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "vivir",
+        "definition": "vivir",
         "example": "Ich benutze „wohnen“ in einem Satz.",
         "contexts": [
           "wohnen · tema",
@@ -8989,8 +8995,8 @@
       },
       {
         "word": "klein",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "pequeño",
+        "definition": "pequeño",
         "example": "Ich benutze „klein“ in einem Satz.",
         "contexts": [
           "klein · tema",
@@ -9000,8 +9006,8 @@
       },
       {
         "word": "groß",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "grande",
+        "definition": "grande",
         "example": "Ich benutze „groß“ in einem Satz.",
         "contexts": [
           "groß · tema",
@@ -9011,8 +9017,8 @@
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "juntos",
+        "definition": "juntos",
         "example": "Ich benutze „zusammen“ in einem Satz.",
         "contexts": [
           "zusammen · tema",
@@ -9194,8 +9200,8 @@
     "vocabulary": [
       {
         "word": "Gesundheit",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Salud",
+        "definition": "Salud",
         "example": "Ich benutze „Gesundheit“ in einem Satz.",
         "contexts": [
           "Gesundheit · tema",
@@ -9205,8 +9211,8 @@
       },
       {
         "word": "Arzt",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Médico",
+        "definition": "Médico",
         "example": "Ich benutze „Arzt“ in einem Satz.",
         "contexts": [
           "Arzt · tema",
@@ -9216,8 +9222,8 @@
       },
       {
         "word": "Schmerz",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Dolor",
+        "definition": "Dolor",
         "example": "Ich benutze „Schmerz“ in einem Satz.",
         "contexts": [
           "Schmerz · tema",
@@ -9227,8 +9233,8 @@
       },
       {
         "word": "ausruhen",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "descansar",
+        "definition": "descansar",
         "example": "Ich benutze „ausruhen“ in einem Satz.",
         "contexts": [
           "ausruhen · tema",
@@ -9238,8 +9244,8 @@
       },
       {
         "word": "Medikament",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "Medicamento",
+        "definition": "Medicamento",
         "example": "Ich benutze „Medikament“ in einem Satz.",
         "contexts": [
           "Medikament · tema",
@@ -9249,8 +9255,8 @@
       },
       {
         "word": "gesund",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "sano",
+        "definition": "sano",
         "example": "Ich benutze „gesund“ in einem Satz.",
         "contexts": [
           "gesund · tema",
@@ -9260,8 +9266,8 @@
       },
       {
         "word": "regelmäßig",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "regular",
+        "definition": "regular",
         "example": "Ich benutze „regelmäßig“ in einem Satz.",
         "contexts": [
           "regelmäßig · tema",
@@ -9271,8 +9277,8 @@
       },
       {
         "word": "Rat",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Consejo",
+        "definition": "Consejo",
         "example": "Ich benutze „Rat“ in einem Satz.",
         "contexts": [
           "Rat · tema",
@@ -9282,8 +9288,8 @@
       },
       {
         "word": "besser",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "mejor",
+        "definition": "mejor",
         "example": "Ich benutze „besser“ in einem Satz.",
         "contexts": [
           "besser · tema",
@@ -9293,8 +9299,8 @@
       },
       {
         "word": "Termin",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Fecha",
+        "definition": "Fecha",
         "example": "Ich benutze „Termin“ in einem Satz.",
         "contexts": [
           "Termin · tema",
@@ -9476,8 +9482,8 @@
     "vocabulary": [
       {
         "word": "Wohlbefinden",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Bienestar",
+        "definition": "Bienestar",
         "example": "Ich benutze „Wohlbefinden“ in einem Satz.",
         "contexts": [
           "Wohlbefinden · tema",
@@ -9487,8 +9493,8 @@
       },
       {
         "word": "Erholung",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Descanso",
+        "definition": "Descanso",
         "example": "Ich benutze „Erholung“ in einem Satz.",
         "contexts": [
           "Erholung · tema",
@@ -9498,8 +9504,8 @@
       },
       {
         "word": "Bewegung",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Movimiento",
+        "definition": "Movimiento",
         "example": "Ich benutze „Bewegung“ in einem Satz.",
         "contexts": [
           "Bewegung · tema",
@@ -9509,8 +9515,8 @@
       },
       {
         "word": "Gleichgewicht",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Equilibrio",
+        "definition": "Equilibrio",
         "example": "Ich benutze „Gleichgewicht“ in einem Satz.",
         "contexts": [
           "Gleichgewicht · tema",
@@ -9520,8 +9526,8 @@
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Ich benutze „verbessern“ in einem Satz.",
         "contexts": [
           "verbessern · tema",
@@ -9531,8 +9537,8 @@
       },
       {
         "word": "vorbeugen",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "prevenir",
+        "definition": "prevenir",
         "example": "Ich benutze „vorbeugen“ in einem Satz.",
         "contexts": [
           "vorbeugen · tema",
@@ -9542,8 +9548,8 @@
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Costumbre",
+        "definition": "Costumbre",
         "example": "Ich benutze „Gewohnheit“ in einem Satz.",
         "contexts": [
           "Gewohnheit · tema",
@@ -9553,8 +9559,8 @@
       },
       {
         "word": "Energie",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Energía",
+        "definition": "Energía",
         "example": "Ich benutze „Energie“ in einem Satz.",
         "contexts": [
           "Energie · tema",
@@ -9564,8 +9570,8 @@
       },
       {
         "word": "Rat",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "Consejo",
+        "definition": "Consejo",
         "example": "Ich benutze „Rat“ in einem Satz.",
         "contexts": [
           "Rat · tema",
@@ -9575,8 +9581,8 @@
       },
       {
         "word": "Entscheidung",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Decisión",
+        "definition": "Decisión",
         "example": "Ich benutze „Entscheidung“ in einem Satz.",
         "contexts": [
           "Entscheidung · tema",
@@ -9758,52 +9764,52 @@
     "vocabulary": [
       {
         "word": "Familie",
-        "translation": "Palabra clave 1",
+        "translation": "Familia",
         "example": "Ich benutze das Wort „Familie“ im Kontext."
       },
       {
         "word": "Mutter",
-        "translation": "Palabra clave 2",
+        "translation": "Madre",
         "example": "Ich benutze das Wort „Mutter“ im Kontext."
       },
       {
         "word": "Vater",
-        "translation": "Palabra clave 3",
+        "translation": "Padre",
         "example": "Ich benutze das Wort „Vater“ im Kontext."
       },
       {
         "word": "Bruder",
-        "translation": "Palabra clave 4",
+        "translation": "Hermano",
         "example": "Ich benutze das Wort „Bruder“ im Kontext."
       },
       {
         "word": "Zimmer",
-        "translation": "Palabra clave 5",
+        "translation": "Habitación",
         "example": "Ich benutze das Wort „Zimmer“ im Kontext."
       },
       {
         "word": "Küche",
-        "translation": "Palabra clave 6",
+        "translation": "Cocina",
         "example": "Ich benutze das Wort „Küche“ im Kontext."
       },
       {
         "word": "wohnen",
-        "translation": "Palabra clave 7",
+        "translation": "vivir",
         "example": "Ich benutze das Wort „wohnen“ im Kontext."
       },
       {
         "word": "klein",
-        "translation": "Palabra clave 8",
+        "translation": "pequeño",
         "example": "Ich benutze das Wort „klein“ im Kontext."
       },
       {
         "word": "groß",
-        "translation": "Palabra clave 9",
+        "translation": "grande",
         "example": "Ich benutze das Wort „groß“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       }
     ],
@@ -9851,52 +9857,52 @@
     "vocabulary": [
       {
         "word": "Gesundheit",
-        "translation": "Palabra clave 1",
+        "translation": "Salud",
         "example": "Ich benutze das Wort „Gesundheit“ im Kontext."
       },
       {
         "word": "Arzt",
-        "translation": "Palabra clave 2",
+        "translation": "Médico",
         "example": "Ich benutze das Wort „Arzt“ im Kontext."
       },
       {
         "word": "Schmerz",
-        "translation": "Palabra clave 3",
+        "translation": "Dolor",
         "example": "Ich benutze das Wort „Schmerz“ im Kontext."
       },
       {
         "word": "ausruhen",
-        "translation": "Palabra clave 4",
+        "translation": "descansar",
         "example": "Ich benutze das Wort „ausruhen“ im Kontext."
       },
       {
         "word": "Medikament",
-        "translation": "Palabra clave 5",
+        "translation": "Medicamento",
         "example": "Ich benutze das Wort „Medikament“ im Kontext."
       },
       {
         "word": "gesund",
-        "translation": "Palabra clave 6",
+        "translation": "sano",
         "example": "Ich benutze das Wort „gesund“ im Kontext."
       },
       {
         "word": "regelmäßig",
-        "translation": "Palabra clave 7",
+        "translation": "regular",
         "example": "Ich benutze das Wort „regelmäßig“ im Kontext."
       },
       {
         "word": "Rat",
-        "translation": "Palabra clave 8",
+        "translation": "Consejo",
         "example": "Ich benutze das Wort „Rat“ im Kontext."
       },
       {
         "word": "besser",
-        "translation": "Palabra clave 9",
+        "translation": "mejor",
         "example": "Ich benutze das Wort „besser“ im Kontext."
       },
       {
         "word": "Termin",
-        "translation": "Palabra clave 10",
+        "translation": "Fecha",
         "example": "Ich benutze das Wort „Termin“ im Kontext."
       }
     ],
@@ -9944,52 +9950,52 @@
     "vocabulary": [
       {
         "word": "Wohlbefinden",
-        "translation": "Palabra clave 1",
+        "translation": "Bienestar",
         "example": "Ich benutze das Wort „Wohlbefinden“ im Kontext."
       },
       {
         "word": "Erholung",
-        "translation": "Palabra clave 2",
+        "translation": "Descanso",
         "example": "Ich benutze das Wort „Erholung“ im Kontext."
       },
       {
         "word": "Bewegung",
-        "translation": "Palabra clave 3",
+        "translation": "Movimiento",
         "example": "Ich benutze das Wort „Bewegung“ im Kontext."
       },
       {
         "word": "Gleichgewicht",
-        "translation": "Palabra clave 4",
+        "translation": "Equilibrio",
         "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "vorbeugen",
-        "translation": "Palabra clave 6",
+        "translation": "prevenir",
         "example": "Ich benutze das Wort „vorbeugen“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 7",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Energie",
-        "translation": "Palabra clave 8",
+        "translation": "Energía",
         "example": "Ich benutze das Wort „Energie“ im Kontext."
       },
       {
         "word": "Rat",
-        "translation": "Palabra clave 9",
+        "translation": "Consejo",
         "example": "Ich benutze das Wort „Rat“ im Kontext."
       },
       {
         "word": "Entscheidung",
-        "translation": "Palabra clave 10",
+        "translation": "Decisión",
         "example": "Ich benutze das Wort „Entscheidung“ im Kontext."
       }
     ],
@@ -10037,52 +10043,52 @@
     "vocabulary": [
       {
         "word": "Familie",
-        "translation": "Palabra clave 1",
+        "translation": "Familia",
         "example": "Ich benutze das Wort „Familie“ im Kontext."
       },
       {
         "word": "Mutter",
-        "translation": "Palabra clave 2",
+        "translation": "Madre",
         "example": "Ich benutze das Wort „Mutter“ im Kontext."
       },
       {
         "word": "Vater",
-        "translation": "Palabra clave 3",
+        "translation": "Padre",
         "example": "Ich benutze das Wort „Vater“ im Kontext."
       },
       {
         "word": "Bruder",
-        "translation": "Palabra clave 4",
+        "translation": "Hermano",
         "example": "Ich benutze das Wort „Bruder“ im Kontext."
       },
       {
         "word": "Zimmer",
-        "translation": "Palabra clave 5",
+        "translation": "Habitación",
         "example": "Ich benutze das Wort „Zimmer“ im Kontext."
       },
       {
         "word": "Küche",
-        "translation": "Palabra clave 6",
+        "translation": "Cocina",
         "example": "Ich benutze das Wort „Küche“ im Kontext."
       },
       {
         "word": "wohnen",
-        "translation": "Palabra clave 7",
+        "translation": "vivir",
         "example": "Ich benutze das Wort „wohnen“ im Kontext."
       },
       {
         "word": "klein",
-        "translation": "Palabra clave 8",
+        "translation": "pequeño",
         "example": "Ich benutze das Wort „klein“ im Kontext."
       },
       {
         "word": "groß",
-        "translation": "Palabra clave 9",
+        "translation": "grande",
         "example": "Ich benutze das Wort „groß“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       }
     ],
@@ -10121,52 +10127,52 @@
     "vocabulary": [
       {
         "word": "Gesundheit",
-        "translation": "Palabra clave 1",
+        "translation": "Salud",
         "example": "Ich benutze das Wort „Gesundheit“ im Kontext."
       },
       {
         "word": "Arzt",
-        "translation": "Palabra clave 2",
+        "translation": "Médico",
         "example": "Ich benutze das Wort „Arzt“ im Kontext."
       },
       {
         "word": "Schmerz",
-        "translation": "Palabra clave 3",
+        "translation": "Dolor",
         "example": "Ich benutze das Wort „Schmerz“ im Kontext."
       },
       {
         "word": "ausruhen",
-        "translation": "Palabra clave 4",
+        "translation": "descansar",
         "example": "Ich benutze das Wort „ausruhen“ im Kontext."
       },
       {
         "word": "Medikament",
-        "translation": "Palabra clave 5",
+        "translation": "Medicamento",
         "example": "Ich benutze das Wort „Medikament“ im Kontext."
       },
       {
         "word": "gesund",
-        "translation": "Palabra clave 6",
+        "translation": "sano",
         "example": "Ich benutze das Wort „gesund“ im Kontext."
       },
       {
         "word": "regelmäßig",
-        "translation": "Palabra clave 7",
+        "translation": "regular",
         "example": "Ich benutze das Wort „regelmäßig“ im Kontext."
       },
       {
         "word": "Rat",
-        "translation": "Palabra clave 8",
+        "translation": "Consejo",
         "example": "Ich benutze das Wort „Rat“ im Kontext."
       },
       {
         "word": "besser",
-        "translation": "Palabra clave 9",
+        "translation": "mejor",
         "example": "Ich benutze das Wort „besser“ im Kontext."
       },
       {
         "word": "Termin",
-        "translation": "Palabra clave 10",
+        "translation": "Fecha",
         "example": "Ich benutze das Wort „Termin“ im Kontext."
       }
     ],
@@ -10205,52 +10211,52 @@
     "vocabulary": [
       {
         "word": "Wohlbefinden",
-        "translation": "Palabra clave 1",
+        "translation": "Bienestar",
         "example": "Ich benutze das Wort „Wohlbefinden“ im Kontext."
       },
       {
         "word": "Erholung",
-        "translation": "Palabra clave 2",
+        "translation": "Descanso",
         "example": "Ich benutze das Wort „Erholung“ im Kontext."
       },
       {
         "word": "Bewegung",
-        "translation": "Palabra clave 3",
+        "translation": "Movimiento",
         "example": "Ich benutze das Wort „Bewegung“ im Kontext."
       },
       {
         "word": "Gleichgewicht",
-        "translation": "Palabra clave 4",
+        "translation": "Equilibrio",
         "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "vorbeugen",
-        "translation": "Palabra clave 6",
+        "translation": "prevenir",
         "example": "Ich benutze das Wort „vorbeugen“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 7",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Energie",
-        "translation": "Palabra clave 8",
+        "translation": "Energía",
         "example": "Ich benutze das Wort „Energie“ im Kontext."
       },
       {
         "word": "Rat",
-        "translation": "Palabra clave 9",
+        "translation": "Consejo",
         "example": "Ich benutze das Wort „Rat“ im Kontext."
       },
       {
         "word": "Entscheidung",
-        "translation": "Palabra clave 10",
+        "translation": "Decisión",
         "example": "Ich benutze das Wort „Entscheidung“ im Kontext."
       }
     ],
@@ -10289,52 +10295,52 @@
     "vocabulary": [
       {
         "word": "Markt",
-        "translation": "Palabra clave 1",
+        "translation": "Mercado",
         "example": "Ich benutze das Wort „Markt“ im Kontext."
       },
       {
         "word": "Preis",
-        "translation": "Palabra clave 2",
+        "translation": "Precio",
         "example": "Ich benutze das Wort „Preis“ im Kontext."
       },
       {
         "word": "Euro",
-        "translation": "Palabra clave 3",
+        "translation": "Euro",
         "example": "Ich benutze das Wort „Euro“ im Kontext."
       },
       {
         "word": "kaufen",
-        "translation": "Palabra clave 4",
+        "translation": "comprar",
         "example": "Ich benutze das Wort „kaufen“ im Kontext."
       },
       {
         "word": "Gemüse",
-        "translation": "Palabra clave 5",
+        "translation": "Verduras",
         "example": "Ich benutze das Wort „Gemüse“ im Kontext."
       },
       {
         "word": "Obst",
-        "translation": "Palabra clave 6",
+        "translation": "Fruta",
         "example": "Ich benutze das Wort „Obst“ im Kontext."
       },
       {
         "word": "brauchen",
-        "translation": "Palabra clave 7",
+        "translation": "necesitar",
         "example": "Ich benutze das Wort „brauchen“ im Kontext."
       },
       {
         "word": "billig",
-        "translation": "Palabra clave 8",
+        "translation": "barato",
         "example": "Ich benutze das Wort „billig“ im Kontext."
       },
       {
         "word": "teuer",
-        "translation": "Palabra clave 9",
+        "translation": "caro",
         "example": "Ich benutze das Wort „teuer“ im Kontext."
       },
       {
         "word": "Tasche",
-        "translation": "Palabra clave 10",
+        "translation": "Bolso",
         "example": "Ich benutze das Wort „Tasche“ im Kontext."
       }
     ],
@@ -10359,42 +10365,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Markt",
-          "Preis",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "billig",
+          "teuer",
+          "Tasche"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -10423,52 +10429,52 @@
     "vocabulary": [
       {
         "word": "Beruf",
-        "translation": "Palabra clave 1",
+        "translation": "Profesión",
         "example": "Ich benutze das Wort „Beruf“ im Kontext."
       },
       {
         "word": "Aufgabe",
-        "translation": "Palabra clave 2",
+        "translation": "Tarea",
         "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
       },
       {
         "word": "Kollegin",
-        "translation": "Palabra clave 3",
+        "translation": "compañera de trabajo",
         "example": "Ich benutze das Wort „Kollegin“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 4",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "beginnen",
-        "translation": "Palabra clave 5",
+        "translation": "empezar",
         "example": "Ich benutze das Wort „beginnen“ im Kontext."
       },
       {
         "word": "Ende",
-        "translation": "Palabra clave 6",
+        "translation": "Fin",
         "example": "Ich benutze das Wort „Ende“ im Kontext."
       },
       {
         "word": "wichtig",
-        "translation": "Palabra clave 7",
+        "translation": "importante",
         "example": "Ich benutze das Wort „wichtig“ im Kontext."
       },
       {
         "word": "Bewerbung",
-        "translation": "Palabra clave 8",
+        "translation": "Solicitud de empleo",
         "example": "Ich benutze das Wort „Bewerbung“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "Chance",
-        "translation": "Palabra clave 10",
+        "translation": "Oportunidad",
         "example": "Ich benutze das Wort „Chance“ im Kontext."
       }
     ],
@@ -10494,52 +10500,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Beruf",
-          "Aufgabe",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Bewerbung",
+          "lernen",
+          "Chance"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-a2-arbeit-und-beruf-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Arbeit und Beruf“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Arbeit und Beruf darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -10568,52 +10575,52 @@
     "vocabulary": [
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 1",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Quelle",
-        "translation": "Palabra clave 2",
+        "translation": "Fuente",
         "example": "Ich benutze das Wort „Quelle“ im Kontext."
       },
       {
         "word": "Publikum",
-        "translation": "Palabra clave 3",
+        "translation": "Público objetivo",
         "example": "Ich benutze das Wort „Publikum“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 4",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "vergleichen",
-        "translation": "Palabra clave 5",
+        "translation": "comparar",
         "example": "Ich benutze das Wort „vergleichen“ im Kontext."
       },
       {
         "word": "Debatte",
-        "translation": "Palabra clave 6",
+        "translation": "Debate",
         "example": "Ich benutze das Wort „Debatte“ im Kontext."
       },
       {
         "word": "Inhalt",
-        "translation": "Palabra clave 7",
+        "translation": "Contenido",
         "example": "Ich benutze das Wort „Inhalt“ im Kontext."
       },
       {
         "word": "zuverlässig",
-        "translation": "Palabra clave 8",
+        "translation": "fiable",
         "example": "Ich benutze das Wort „zuverlässig“ im Kontext."
       },
       {
         "word": "Perspektive",
-        "translation": "Palabra clave 9",
+        "translation": "Perspectiva",
         "example": "Ich benutze das Wort „Perspektive“ im Kontext."
       },
       {
         "word": "kommunizieren",
-        "translation": "Palabra clave 10",
+        "translation": "comunicarse",
         "example": "Ich benutze das Wort „kommunizieren“ im Kontext."
       }
     ],
@@ -10640,52 +10647,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Nachricht",
-          "Quelle",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "zuverlässig",
+          "Perspektive",
+          "kommunizieren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-b1-kultur-und-medien-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Kultur und Medien“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Kultur und Medien darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -10714,52 +10722,52 @@
     "vocabulary": [
       {
         "word": "Markt",
-        "translation": "Palabra clave 1",
+        "translation": "Mercado",
         "example": "Ich benutze das Wort „Markt“ im Kontext."
       },
       {
         "word": "Preis",
-        "translation": "Palabra clave 2",
+        "translation": "Precio",
         "example": "Ich benutze das Wort „Preis“ im Kontext."
       },
       {
         "word": "Euro",
-        "translation": "Palabra clave 3",
+        "translation": "Euro",
         "example": "Ich benutze das Wort „Euro“ im Kontext."
       },
       {
         "word": "kaufen",
-        "translation": "Palabra clave 4",
+        "translation": "comprar",
         "example": "Ich benutze das Wort „kaufen“ im Kontext."
       },
       {
         "word": "Gemüse",
-        "translation": "Palabra clave 5",
+        "translation": "Verduras",
         "example": "Ich benutze das Wort „Gemüse“ im Kontext."
       },
       {
         "word": "Obst",
-        "translation": "Palabra clave 6",
+        "translation": "Fruta",
         "example": "Ich benutze das Wort „Obst“ im Kontext."
       },
       {
         "word": "brauchen",
-        "translation": "Palabra clave 7",
+        "translation": "necesitar",
         "example": "Ich benutze das Wort „brauchen“ im Kontext."
       },
       {
         "word": "billig",
-        "translation": "Palabra clave 8",
+        "translation": "barato",
         "example": "Ich benutze das Wort „billig“ im Kontext."
       },
       {
         "word": "teuer",
-        "translation": "Palabra clave 9",
+        "translation": "caro",
         "example": "Ich benutze das Wort „teuer“ im Kontext."
       },
       {
         "word": "Tasche",
-        "translation": "Palabra clave 10",
+        "translation": "Bolso",
         "example": "Ich benutze das Wort „Tasche“ im Kontext."
       }
     ],
@@ -10768,10 +10776,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "kein / nicht und Mengenangaben",
-        "definition": "Práctica guiada de kein / nicht und Mengenangaben.",
+        "name": "Einkaufen: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -10781,7 +10789,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
               {},
               {},
@@ -10791,7 +10799,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Satz.",
             "options": [
               {},
               {},
@@ -10801,7 +10809,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
               {},
               {},
@@ -10811,7 +10819,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welche Frage ist richtig?",
             "options": [
               {},
               {},
@@ -10821,7 +10829,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
               {},
               {},
@@ -10831,7 +10839,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Satz über ein Haus.",
             "options": [
               {},
               {},
@@ -10841,7 +10849,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
               {},
               {},
@@ -10851,7 +10859,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
               {},
               {},
@@ -10866,89 +10874,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "wohne",
+          "wohnt",
+          "wohnen",
+          "wohnst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Leon sprechen mit Anna.",
+          "Leon spricht mit Anna.",
+          "Leon spreche mit Anna.",
+          "Leon sprich mit Anna."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "lerne",
+          "lernt",
+          "lernen",
+          "lernst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Wo wohnst?",
+          "Wo wohnen du?",
+          "Wo du wohnst?",
+          "Wo wohnst du?"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "stellt",
+          "stelle",
+          "stellen",
+          "stellst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Das Haus sind hell.",
+          "Das Haus ist hell.",
+          "Die Haus ist hell.",
+          "Das Haus ist helle."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "trinken",
+          "trinkt",
+          "trinkst",
+          "trinke"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Jeden Morgen arbeitet ich im Zentrum.",
+          "Gestern arbeiten ich im Zentrum.",
+          "Morgen arbeitete ich im Zentrum.",
+          "Jeden Morgen arbeite ich im Zentrum."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
@@ -10978,52 +10986,52 @@
     "vocabulary": [
       {
         "word": "Beruf",
-        "translation": "Palabra clave 1",
+        "translation": "Profesión",
         "example": "Ich benutze das Wort „Beruf“ im Kontext."
       },
       {
         "word": "Aufgabe",
-        "translation": "Palabra clave 2",
+        "translation": "Tarea",
         "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
       },
       {
         "word": "Kollegin",
-        "translation": "Palabra clave 3",
+        "translation": "compañera de trabajo",
         "example": "Ich benutze das Wort „Kollegin“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 4",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "beginnen",
-        "translation": "Palabra clave 5",
+        "translation": "empezar",
         "example": "Ich benutze das Wort „beginnen“ im Kontext."
       },
       {
         "word": "Ende",
-        "translation": "Palabra clave 6",
+        "translation": "Fin",
         "example": "Ich benutze das Wort „Ende“ im Kontext."
       },
       {
         "word": "wichtig",
-        "translation": "Palabra clave 7",
+        "translation": "importante",
         "example": "Ich benutze das Wort „wichtig“ im Kontext."
       },
       {
         "word": "Bewerbung",
-        "translation": "Palabra clave 8",
+        "translation": "Solicitud de empleo",
         "example": "Ich benutze das Wort „Bewerbung“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "Chance",
-        "translation": "Palabra clave 10",
+        "translation": "Oportunidad",
         "example": "Ich benutze das Wort „Chance“ im Kontext."
       }
     ],
@@ -11032,10 +11040,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Nebensätze mit weil und dass",
-        "definition": "Práctica guiada de Nebensätze mit weil und dass.",
+        "name": "Arbeit und Beruf: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
         "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -11045,7 +11053,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
               {},
               {},
@@ -11055,7 +11063,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
               {},
               {},
@@ -11065,7 +11073,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
               {},
               {},
@@ -11075,7 +11083,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
               {},
               {},
@@ -11085,7 +11093,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
               {},
               {},
@@ -11095,7 +11103,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
               {},
               {},
@@ -11105,7 +11113,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
               {},
               {},
@@ -11115,7 +11123,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
               {},
               {},
@@ -11130,89 +11138,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "habe besucht",
+          "besuche",
+          "habe besuchen",
+          "bin besucht"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben zusammen essen.",
+          "Wir haben zusammen gegessen.",
+          "Wir sind zusammen gegessen.",
+          "Wir essen gestern zusammen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "ist kommen",
+          "hat gekommen",
+          "ist gekommen",
+          "kommt gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
+          "Zuerst haben wir gelernt, weil sind wir gegangen.",
+          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
+          "Zuerst haben wir gelernt, dann sind wir gegangen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Hast gelesen",
+          "Hast lesen",
+          "Bist gelesen",
+          "Liest gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Meine Freunde sind den Bus genommen.",
+          "Meine Freunde haben den Bus genommen.",
+          "Meine Freunde haben den Bus nehmen.",
+          "Meine Freunde nehmen gestern den Bus."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "haben machen",
+          "sind gemacht",
+          "haben gemacht",
+          "machen gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Am Samstag bin ich meine Cousine getroffen.",
+          "Am Samstag treffe ich meine Cousine morgen.",
+          "Am Samstag treffen meine Cousine.",
+          "Am Samstag habe ich meine Cousine getroffen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
@@ -11242,52 +11250,52 @@
     "vocabulary": [
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 1",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Quelle",
-        "translation": "Palabra clave 2",
+        "translation": "Fuente",
         "example": "Ich benutze das Wort „Quelle“ im Kontext."
       },
       {
         "word": "Publikum",
-        "translation": "Palabra clave 3",
+        "translation": "Público objetivo",
         "example": "Ich benutze das Wort „Publikum“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 4",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "vergleichen",
-        "translation": "Palabra clave 5",
+        "translation": "comparar",
         "example": "Ich benutze das Wort „vergleichen“ im Kontext."
       },
       {
         "word": "Debatte",
-        "translation": "Palabra clave 6",
+        "translation": "Debate",
         "example": "Ich benutze das Wort „Debatte“ im Kontext."
       },
       {
         "word": "Inhalt",
-        "translation": "Palabra clave 7",
+        "translation": "Contenido",
         "example": "Ich benutze das Wort „Inhalt“ im Kontext."
       },
       {
         "word": "zuverlässig",
-        "translation": "Palabra clave 8",
+        "translation": "fiable",
         "example": "Ich benutze das Wort „zuverlässig“ im Kontext."
       },
       {
         "word": "Perspektive",
-        "translation": "Palabra clave 9",
+        "translation": "Perspectiva",
         "example": "Ich benutze das Wort „Perspektive“ im Kontext."
       },
       {
         "word": "kommunizieren",
-        "translation": "Palabra clave 10",
+        "translation": "comunicarse",
         "example": "Ich benutze das Wort „kommunizieren“ im Kontext."
       }
     ],
@@ -11296,10 +11304,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Indirekte Fragen",
-        "definition": "Práctica guiada de Indirekte Fragen.",
+        "name": "Kultur und Medien: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -11309,7 +11317,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
               {},
               {},
@@ -11319,7 +11327,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
               {},
               {},
@@ -11329,7 +11337,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
               {},
               {},
@@ -11339,7 +11347,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
               {},
               {},
@@ -11349,7 +11357,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
               {},
               {},
@@ -11359,7 +11367,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle eine logische Folge.",
             "options": [
               {},
               {},
@@ -11369,7 +11377,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
               {},
               {},
@@ -11379,7 +11387,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
               {},
               {},
@@ -11394,89 +11402,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "sei"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Ich möchte ausgehen, deshalb es regnet.",
+          "Ich möchte ausgehen, aber es regnet.",
+          "Ich möchte ausgehen, weil es regnet.",
+          "Ich möchte ausgehen, dann es regnet."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "ist",
+          "bin",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Das Projekt funktioniert warum?",
+          "Das Projekt gestern funktioniert?",
+          "Funktionieren das Projekt meiner Meinung.",
+          "Meiner Meinung nach funktioniert das Projekt."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
+          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
+          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
+          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "haben",
+          "hat",
+          "hatte"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Ich nehme den Zug er nachhaltiger ist weil.",
+          "Ich nehme den Zug, aber er nachhaltiger ist.",
+          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
+          "Ich nehme den Zug, weil er nachhaltiger ist."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
@@ -11506,52 +11514,52 @@
     "vocabulary": [
       {
         "word": "Markt",
-        "translation": "Palabra clave 1",
+        "translation": "Mercado",
         "example": "Ich benutze das Wort „Markt“ im Kontext."
       },
       {
         "word": "Preis",
-        "translation": "Palabra clave 2",
+        "translation": "Precio",
         "example": "Ich benutze das Wort „Preis“ im Kontext."
       },
       {
         "word": "Euro",
-        "translation": "Palabra clave 3",
+        "translation": "Euro",
         "example": "Ich benutze das Wort „Euro“ im Kontext."
       },
       {
         "word": "kaufen",
-        "translation": "Palabra clave 4",
+        "translation": "comprar",
         "example": "Ich benutze das Wort „kaufen“ im Kontext."
       },
       {
         "word": "Gemüse",
-        "translation": "Palabra clave 5",
+        "translation": "Verduras",
         "example": "Ich benutze das Wort „Gemüse“ im Kontext."
       },
       {
         "word": "Obst",
-        "translation": "Palabra clave 6",
+        "translation": "Fruta",
         "example": "Ich benutze das Wort „Obst“ im Kontext."
       },
       {
         "word": "brauchen",
-        "translation": "Palabra clave 7",
+        "translation": "necesitar",
         "example": "Ich benutze das Wort „brauchen“ im Kontext."
       },
       {
         "word": "billig",
-        "translation": "Palabra clave 8",
+        "translation": "barato",
         "example": "Ich benutze das Wort „billig“ im Kontext."
       },
       {
         "word": "teuer",
-        "translation": "Palabra clave 9",
+        "translation": "caro",
         "example": "Ich benutze das Wort „teuer“ im Kontext."
       },
       {
         "word": "Tasche",
-        "translation": "Palabra clave 10",
+        "translation": "Bolso",
         "example": "Ich benutze das Wort „Tasche“ im Kontext."
       }
     ],
@@ -11726,52 +11734,52 @@
     "vocabulary": [
       {
         "word": "Beruf",
-        "translation": "Palabra clave 1",
+        "translation": "Profesión",
         "example": "Ich benutze das Wort „Beruf“ im Kontext."
       },
       {
         "word": "Aufgabe",
-        "translation": "Palabra clave 2",
+        "translation": "Tarea",
         "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
       },
       {
         "word": "Kollegin",
-        "translation": "Palabra clave 3",
+        "translation": "compañera de trabajo",
         "example": "Ich benutze das Wort „Kollegin“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 4",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "beginnen",
-        "translation": "Palabra clave 5",
+        "translation": "empezar",
         "example": "Ich benutze das Wort „beginnen“ im Kontext."
       },
       {
         "word": "Ende",
-        "translation": "Palabra clave 6",
+        "translation": "Fin",
         "example": "Ich benutze das Wort „Ende“ im Kontext."
       },
       {
         "word": "wichtig",
-        "translation": "Palabra clave 7",
+        "translation": "importante",
         "example": "Ich benutze das Wort „wichtig“ im Kontext."
       },
       {
         "word": "Bewerbung",
-        "translation": "Palabra clave 8",
+        "translation": "Solicitud de empleo",
         "example": "Ich benutze das Wort „Bewerbung“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "Chance",
-        "translation": "Palabra clave 10",
+        "translation": "Oportunidad",
         "example": "Ich benutze das Wort „Chance“ im Kontext."
       }
     ],
@@ -11946,52 +11954,52 @@
     "vocabulary": [
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 1",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Quelle",
-        "translation": "Palabra clave 2",
+        "translation": "Fuente",
         "example": "Ich benutze das Wort „Quelle“ im Kontext."
       },
       {
         "word": "Publikum",
-        "translation": "Palabra clave 3",
+        "translation": "Público objetivo",
         "example": "Ich benutze das Wort „Publikum“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 4",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "vergleichen",
-        "translation": "Palabra clave 5",
+        "translation": "comparar",
         "example": "Ich benutze das Wort „vergleichen“ im Kontext."
       },
       {
         "word": "Debatte",
-        "translation": "Palabra clave 6",
+        "translation": "Debate",
         "example": "Ich benutze das Wort „Debatte“ im Kontext."
       },
       {
         "word": "Inhalt",
-        "translation": "Palabra clave 7",
+        "translation": "Contenido",
         "example": "Ich benutze das Wort „Inhalt“ im Kontext."
       },
       {
         "word": "zuverlässig",
-        "translation": "Palabra clave 8",
+        "translation": "fiable",
         "example": "Ich benutze das Wort „zuverlässig“ im Kontext."
       },
       {
         "word": "Perspektive",
-        "translation": "Palabra clave 9",
+        "translation": "Perspectiva",
         "example": "Ich benutze das Wort „Perspektive“ im Kontext."
       },
       {
         "word": "kommunizieren",
-        "translation": "Palabra clave 10",
+        "translation": "comunicarse",
         "example": "Ich benutze das Wort „kommunizieren“ im Kontext."
       }
     ],
@@ -12166,8 +12174,8 @@
     "vocabulary": [
       {
         "word": "Markt",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Mercado",
+        "definition": "Mercado",
         "example": "Ich benutze „Markt“ in einem Satz.",
         "contexts": [
           "Markt · tema",
@@ -12177,8 +12185,8 @@
       },
       {
         "word": "Preis",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Precio",
+        "definition": "Precio",
         "example": "Ich benutze „Preis“ in einem Satz.",
         "contexts": [
           "Preis · tema",
@@ -12188,8 +12196,8 @@
       },
       {
         "word": "Euro",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Euro",
+        "definition": "Euro",
         "example": "Ich benutze „Euro“ in einem Satz.",
         "contexts": [
           "Euro · tema",
@@ -12199,8 +12207,8 @@
       },
       {
         "word": "kaufen",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "comprar",
+        "definition": "comprar",
         "example": "Ich benutze „kaufen“ in einem Satz.",
         "contexts": [
           "kaufen · tema",
@@ -12210,8 +12218,8 @@
       },
       {
         "word": "Gemüse",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "Verduras",
+        "definition": "Verduras",
         "example": "Ich benutze „Gemüse“ in einem Satz.",
         "contexts": [
           "Gemüse · tema",
@@ -12221,8 +12229,8 @@
       },
       {
         "word": "Obst",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Fruta",
+        "definition": "Fruta",
         "example": "Ich benutze „Obst“ in einem Satz.",
         "contexts": [
           "Obst · tema",
@@ -12232,8 +12240,8 @@
       },
       {
         "word": "brauchen",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "necesitar",
+        "definition": "necesitar",
         "example": "Ich benutze „brauchen“ in einem Satz.",
         "contexts": [
           "brauchen · tema",
@@ -12243,8 +12251,8 @@
       },
       {
         "word": "billig",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "barato",
+        "definition": "barato",
         "example": "Ich benutze „billig“ in einem Satz.",
         "contexts": [
           "billig · tema",
@@ -12254,8 +12262,8 @@
       },
       {
         "word": "teuer",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "caro",
+        "definition": "caro",
         "example": "Ich benutze „teuer“ in einem Satz.",
         "contexts": [
           "teuer · tema",
@@ -12265,8 +12273,8 @@
       },
       {
         "word": "Tasche",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Bolso",
+        "definition": "Bolso",
         "example": "Ich benutze „Tasche“ in einem Satz.",
         "contexts": [
           "Tasche · tema",
@@ -12448,8 +12456,8 @@
     "vocabulary": [
       {
         "word": "Beruf",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Profesión",
+        "definition": "Profesión",
         "example": "Ich benutze „Beruf“ in einem Satz.",
         "contexts": [
           "Beruf · tema",
@@ -12459,8 +12467,8 @@
       },
       {
         "word": "Aufgabe",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Tarea",
+        "definition": "Tarea",
         "example": "Ich benutze „Aufgabe“ in einem Satz.",
         "contexts": [
           "Aufgabe · tema",
@@ -12470,8 +12478,8 @@
       },
       {
         "word": "Kollegin",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "compañera de trabajo",
+        "definition": "compañera de trabajo",
         "example": "Ich benutze „Kollegin“ in einem Satz.",
         "contexts": [
           "Kollegin · tema",
@@ -12481,8 +12489,8 @@
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Experiencia",
+        "definition": "Experiencia",
         "example": "Ich benutze „Erfahrung“ in einem Satz.",
         "contexts": [
           "Erfahrung · tema",
@@ -12492,8 +12500,8 @@
       },
       {
         "word": "beginnen",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "empezar",
+        "definition": "empezar",
         "example": "Ich benutze „beginnen“ in einem Satz.",
         "contexts": [
           "beginnen · tema",
@@ -12503,8 +12511,8 @@
       },
       {
         "word": "Ende",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Fin",
+        "definition": "Fin",
         "example": "Ich benutze „Ende“ in einem Satz.",
         "contexts": [
           "Ende · tema",
@@ -12514,8 +12522,8 @@
       },
       {
         "word": "wichtig",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "importante",
+        "definition": "importante",
         "example": "Ich benutze „wichtig“ in einem Satz.",
         "contexts": [
           "wichtig · tema",
@@ -12525,8 +12533,8 @@
       },
       {
         "word": "Bewerbung",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Solicitud de empleo",
+        "definition": "Solicitud de empleo",
         "example": "Ich benutze „Bewerbung“ in einem Satz.",
         "contexts": [
           "Bewerbung · tema",
@@ -12536,8 +12544,8 @@
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "aprender",
+        "definition": "aprender",
         "example": "Ich benutze „lernen“ in einem Satz.",
         "contexts": [
           "lernen · tema",
@@ -12547,8 +12555,8 @@
       },
       {
         "word": "Chance",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Oportunidad",
+        "definition": "Oportunidad",
         "example": "Ich benutze „Chance“ in einem Satz.",
         "contexts": [
           "Chance · tema",
@@ -12730,8 +12738,8 @@
     "vocabulary": [
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Mensaje",
+        "definition": "Mensaje",
         "example": "Ich benutze „Nachricht“ in einem Satz.",
         "contexts": [
           "Nachricht · tema",
@@ -12741,8 +12749,8 @@
       },
       {
         "word": "Quelle",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Fuente",
+        "definition": "Fuente",
         "example": "Ich benutze „Quelle“ in einem Satz.",
         "contexts": [
           "Quelle · tema",
@@ -12752,8 +12760,8 @@
       },
       {
         "word": "Publikum",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Público objetivo",
+        "definition": "Público objetivo",
         "example": "Ich benutze „Publikum“ in einem Satz.",
         "contexts": [
           "Publikum · tema",
@@ -12763,8 +12771,8 @@
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Opinión",
+        "definition": "Opinión",
         "example": "Ich benutze „Meinung“ in einem Satz.",
         "contexts": [
           "Meinung · tema",
@@ -12774,8 +12782,8 @@
       },
       {
         "word": "vergleichen",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "comparar",
+        "definition": "comparar",
         "example": "Ich benutze „vergleichen“ in einem Satz.",
         "contexts": [
           "vergleichen · tema",
@@ -12785,8 +12793,8 @@
       },
       {
         "word": "Debatte",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Debate",
+        "definition": "Debate",
         "example": "Ich benutze „Debatte“ in einem Satz.",
         "contexts": [
           "Debatte · tema",
@@ -12796,8 +12804,8 @@
       },
       {
         "word": "Inhalt",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Contenido",
+        "definition": "Contenido",
         "example": "Ich benutze „Inhalt“ in einem Satz.",
         "contexts": [
           "Inhalt · tema",
@@ -12807,8 +12815,8 @@
       },
       {
         "word": "zuverlässig",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "fiable",
+        "definition": "fiable",
         "example": "Ich benutze „zuverlässig“ in einem Satz.",
         "contexts": [
           "zuverlässig · tema",
@@ -12818,8 +12826,8 @@
       },
       {
         "word": "Perspektive",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "Perspectiva",
+        "definition": "Perspectiva",
         "example": "Ich benutze „Perspektive“ in einem Satz.",
         "contexts": [
           "Perspektive · tema",
@@ -12829,8 +12837,8 @@
       },
       {
         "word": "kommunizieren",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "comunicarse",
+        "definition": "comunicarse",
         "example": "Ich benutze „kommunizieren“ in einem Satz.",
         "contexts": [
           "kommunizieren · tema",
@@ -13012,52 +13020,52 @@
     "vocabulary": [
       {
         "word": "Markt",
-        "translation": "Palabra clave 1",
+        "translation": "Mercado",
         "example": "Ich benutze das Wort „Markt“ im Kontext."
       },
       {
         "word": "Preis",
-        "translation": "Palabra clave 2",
+        "translation": "Precio",
         "example": "Ich benutze das Wort „Preis“ im Kontext."
       },
       {
         "word": "Euro",
-        "translation": "Palabra clave 3",
+        "translation": "Euro",
         "example": "Ich benutze das Wort „Euro“ im Kontext."
       },
       {
         "word": "kaufen",
-        "translation": "Palabra clave 4",
+        "translation": "comprar",
         "example": "Ich benutze das Wort „kaufen“ im Kontext."
       },
       {
         "word": "Gemüse",
-        "translation": "Palabra clave 5",
+        "translation": "Verduras",
         "example": "Ich benutze das Wort „Gemüse“ im Kontext."
       },
       {
         "word": "Obst",
-        "translation": "Palabra clave 6",
+        "translation": "Fruta",
         "example": "Ich benutze das Wort „Obst“ im Kontext."
       },
       {
         "word": "brauchen",
-        "translation": "Palabra clave 7",
+        "translation": "necesitar",
         "example": "Ich benutze das Wort „brauchen“ im Kontext."
       },
       {
         "word": "billig",
-        "translation": "Palabra clave 8",
+        "translation": "barato",
         "example": "Ich benutze das Wort „billig“ im Kontext."
       },
       {
         "word": "teuer",
-        "translation": "Palabra clave 9",
+        "translation": "caro",
         "example": "Ich benutze das Wort „teuer“ im Kontext."
       },
       {
         "word": "Tasche",
-        "translation": "Palabra clave 10",
+        "translation": "Bolso",
         "example": "Ich benutze das Wort „Tasche“ im Kontext."
       }
     ],
@@ -13105,52 +13113,52 @@
     "vocabulary": [
       {
         "word": "Beruf",
-        "translation": "Palabra clave 1",
+        "translation": "Profesión",
         "example": "Ich benutze das Wort „Beruf“ im Kontext."
       },
       {
         "word": "Aufgabe",
-        "translation": "Palabra clave 2",
+        "translation": "Tarea",
         "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
       },
       {
         "word": "Kollegin",
-        "translation": "Palabra clave 3",
+        "translation": "compañera de trabajo",
         "example": "Ich benutze das Wort „Kollegin“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 4",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "beginnen",
-        "translation": "Palabra clave 5",
+        "translation": "empezar",
         "example": "Ich benutze das Wort „beginnen“ im Kontext."
       },
       {
         "word": "Ende",
-        "translation": "Palabra clave 6",
+        "translation": "Fin",
         "example": "Ich benutze das Wort „Ende“ im Kontext."
       },
       {
         "word": "wichtig",
-        "translation": "Palabra clave 7",
+        "translation": "importante",
         "example": "Ich benutze das Wort „wichtig“ im Kontext."
       },
       {
         "word": "Bewerbung",
-        "translation": "Palabra clave 8",
+        "translation": "Solicitud de empleo",
         "example": "Ich benutze das Wort „Bewerbung“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "Chance",
-        "translation": "Palabra clave 10",
+        "translation": "Oportunidad",
         "example": "Ich benutze das Wort „Chance“ im Kontext."
       }
     ],
@@ -13198,52 +13206,52 @@
     "vocabulary": [
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 1",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Quelle",
-        "translation": "Palabra clave 2",
+        "translation": "Fuente",
         "example": "Ich benutze das Wort „Quelle“ im Kontext."
       },
       {
         "word": "Publikum",
-        "translation": "Palabra clave 3",
+        "translation": "Público objetivo",
         "example": "Ich benutze das Wort „Publikum“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 4",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "vergleichen",
-        "translation": "Palabra clave 5",
+        "translation": "comparar",
         "example": "Ich benutze das Wort „vergleichen“ im Kontext."
       },
       {
         "word": "Debatte",
-        "translation": "Palabra clave 6",
+        "translation": "Debate",
         "example": "Ich benutze das Wort „Debatte“ im Kontext."
       },
       {
         "word": "Inhalt",
-        "translation": "Palabra clave 7",
+        "translation": "Contenido",
         "example": "Ich benutze das Wort „Inhalt“ im Kontext."
       },
       {
         "word": "zuverlässig",
-        "translation": "Palabra clave 8",
+        "translation": "fiable",
         "example": "Ich benutze das Wort „zuverlässig“ im Kontext."
       },
       {
         "word": "Perspektive",
-        "translation": "Palabra clave 9",
+        "translation": "Perspectiva",
         "example": "Ich benutze das Wort „Perspektive“ im Kontext."
       },
       {
         "word": "kommunizieren",
-        "translation": "Palabra clave 10",
+        "translation": "comunicarse",
         "example": "Ich benutze das Wort „kommunizieren“ im Kontext."
       }
     ],
@@ -13291,52 +13299,52 @@
     "vocabulary": [
       {
         "word": "Markt",
-        "translation": "Palabra clave 1",
+        "translation": "Mercado",
         "example": "Ich benutze das Wort „Markt“ im Kontext."
       },
       {
         "word": "Preis",
-        "translation": "Palabra clave 2",
+        "translation": "Precio",
         "example": "Ich benutze das Wort „Preis“ im Kontext."
       },
       {
         "word": "Euro",
-        "translation": "Palabra clave 3",
+        "translation": "Euro",
         "example": "Ich benutze das Wort „Euro“ im Kontext."
       },
       {
         "word": "kaufen",
-        "translation": "Palabra clave 4",
+        "translation": "comprar",
         "example": "Ich benutze das Wort „kaufen“ im Kontext."
       },
       {
         "word": "Gemüse",
-        "translation": "Palabra clave 5",
+        "translation": "Verduras",
         "example": "Ich benutze das Wort „Gemüse“ im Kontext."
       },
       {
         "word": "Obst",
-        "translation": "Palabra clave 6",
+        "translation": "Fruta",
         "example": "Ich benutze das Wort „Obst“ im Kontext."
       },
       {
         "word": "brauchen",
-        "translation": "Palabra clave 7",
+        "translation": "necesitar",
         "example": "Ich benutze das Wort „brauchen“ im Kontext."
       },
       {
         "word": "billig",
-        "translation": "Palabra clave 8",
+        "translation": "barato",
         "example": "Ich benutze das Wort „billig“ im Kontext."
       },
       {
         "word": "teuer",
-        "translation": "Palabra clave 9",
+        "translation": "caro",
         "example": "Ich benutze das Wort „teuer“ im Kontext."
       },
       {
         "word": "Tasche",
-        "translation": "Palabra clave 10",
+        "translation": "Bolso",
         "example": "Ich benutze das Wort „Tasche“ im Kontext."
       }
     ],
@@ -13375,52 +13383,52 @@
     "vocabulary": [
       {
         "word": "Beruf",
-        "translation": "Palabra clave 1",
+        "translation": "Profesión",
         "example": "Ich benutze das Wort „Beruf“ im Kontext."
       },
       {
         "word": "Aufgabe",
-        "translation": "Palabra clave 2",
+        "translation": "Tarea",
         "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
       },
       {
         "word": "Kollegin",
-        "translation": "Palabra clave 3",
+        "translation": "compañera de trabajo",
         "example": "Ich benutze das Wort „Kollegin“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 4",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "beginnen",
-        "translation": "Palabra clave 5",
+        "translation": "empezar",
         "example": "Ich benutze das Wort „beginnen“ im Kontext."
       },
       {
         "word": "Ende",
-        "translation": "Palabra clave 6",
+        "translation": "Fin",
         "example": "Ich benutze das Wort „Ende“ im Kontext."
       },
       {
         "word": "wichtig",
-        "translation": "Palabra clave 7",
+        "translation": "importante",
         "example": "Ich benutze das Wort „wichtig“ im Kontext."
       },
       {
         "word": "Bewerbung",
-        "translation": "Palabra clave 8",
+        "translation": "Solicitud de empleo",
         "example": "Ich benutze das Wort „Bewerbung“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "Chance",
-        "translation": "Palabra clave 10",
+        "translation": "Oportunidad",
         "example": "Ich benutze das Wort „Chance“ im Kontext."
       }
     ],
@@ -13459,52 +13467,52 @@
     "vocabulary": [
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 1",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Quelle",
-        "translation": "Palabra clave 2",
+        "translation": "Fuente",
         "example": "Ich benutze das Wort „Quelle“ im Kontext."
       },
       {
         "word": "Publikum",
-        "translation": "Palabra clave 3",
+        "translation": "Público objetivo",
         "example": "Ich benutze das Wort „Publikum“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 4",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "vergleichen",
-        "translation": "Palabra clave 5",
+        "translation": "comparar",
         "example": "Ich benutze das Wort „vergleichen“ im Kontext."
       },
       {
         "word": "Debatte",
-        "translation": "Palabra clave 6",
+        "translation": "Debate",
         "example": "Ich benutze das Wort „Debatte“ im Kontext."
       },
       {
         "word": "Inhalt",
-        "translation": "Palabra clave 7",
+        "translation": "Contenido",
         "example": "Ich benutze das Wort „Inhalt“ im Kontext."
       },
       {
         "word": "zuverlässig",
-        "translation": "Palabra clave 8",
+        "translation": "fiable",
         "example": "Ich benutze das Wort „zuverlässig“ im Kontext."
       },
       {
         "word": "Perspektive",
-        "translation": "Palabra clave 9",
+        "translation": "Perspectiva",
         "example": "Ich benutze das Wort „Perspektive“ im Kontext."
       },
       {
         "word": "kommunizieren",
-        "translation": "Palabra clave 10",
+        "translation": "comunicarse",
         "example": "Ich benutze das Wort „kommunizieren“ im Kontext."
       }
     ],
@@ -13543,52 +13551,52 @@
     "vocabulary": [
       {
         "word": "Straße",
-        "translation": "Palabra clave 1",
+        "translation": "Calle",
         "example": "Ich benutze das Wort „Straße“ im Kontext."
       },
       {
         "word": "Bahnhof",
-        "translation": "Palabra clave 2",
+        "translation": "Estación de tren",
         "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
       },
       {
         "word": "Apotheke",
-        "translation": "Palabra clave 3",
+        "translation": "Farmacia",
         "example": "Ich benutze das Wort „Apotheke“ im Kontext."
       },
       {
         "word": "Schule",
-        "translation": "Palabra clave 4",
+        "translation": "Colegio",
         "example": "Ich benutze das Wort „Schule“ im Kontext."
       },
       {
         "word": "links",
-        "translation": "Palabra clave 5",
+        "translation": "enlaces",
         "example": "Ich benutze das Wort „links“ im Kontext."
       },
       {
         "word": "rechts",
-        "translation": "Palabra clave 6",
+        "translation": "derecha",
         "example": "Ich benutze das Wort „rechts“ im Kontext."
       },
       {
         "word": "geradeaus",
-        "translation": "Palabra clave 7",
+        "translation": "en línea recta",
         "example": "Ich benutze das Wort „geradeaus“ im Kontext."
       },
       {
         "word": "nahe",
-        "translation": "Palabra clave 8",
+        "translation": "cerca",
         "example": "Ich benutze das Wort „nahe“ im Kontext."
       },
       {
         "word": "Bus",
-        "translation": "Palabra clave 9",
+        "translation": "Autobús",
         "example": "Ich benutze das Wort „Bus“ im Kontext."
       },
       {
         "word": "Karte",
-        "translation": "Palabra clave 10",
+        "translation": "Ficha",
         "example": "Ich benutze das Wort „Karte“ im Kontext."
       }
     ],
@@ -13613,42 +13621,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Straße",
-          "Bahnhof",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "nahe",
+          "Bus",
+          "Karte"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -13677,52 +13685,52 @@
     "vocabulary": [
       {
         "word": "Reise",
-        "translation": "Palabra clave 1",
+        "translation": "Viaje",
         "example": "Ich benutze das Wort „Reise“ im Kontext."
       },
       {
         "word": "erlebt",
-        "translation": "Palabra clave 2",
+        "translation": "experimentado",
         "example": "Ich benutze das Wort „erlebt“ im Kontext."
       },
       {
         "word": "besucht",
-        "translation": "Palabra clave 3",
+        "translation": "visitado",
         "example": "Ich benutze das Wort „besucht“ im Kontext."
       },
       {
         "word": "geblieben",
-        "translation": "Palabra clave 4",
+        "translation": "permanecido",
         "example": "Ich benutze das Wort „geblieben“ im Kontext."
       },
       {
         "word": "gesehen",
-        "translation": "Palabra clave 5",
+        "translation": "visto",
         "example": "Ich benutze das Wort „gesehen“ im Kontext."
       },
       {
         "word": "Hotel",
-        "translation": "Palabra clave 6",
+        "translation": "Hotel",
         "example": "Ich benutze das Wort „Hotel“ im Kontext."
       },
       {
         "word": "unterwegs",
-        "translation": "Palabra clave 7",
+        "translation": "de camino",
         "example": "Ich benutze das Wort „unterwegs“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 8",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       },
       {
         "word": "planen",
-        "translation": "Palabra clave 9",
+        "translation": "planificar",
         "example": "Ich benutze das Wort „planen“ im Kontext."
       },
       {
         "word": "interessant",
-        "translation": "Palabra clave 10",
+        "translation": "interesante",
         "example": "Ich benutze das Wort „interessant“ im Kontext."
       }
     ],
@@ -13748,52 +13756,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Reise",
-          "erlebt",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Erinnerung",
+          "planen",
+          "interessant"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-a2-reisen-und-erlebnisse-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Reisen und Erlebnisse“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Reisen und Erlebnisse darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -13822,52 +13831,52 @@
     "vocabulary": [
       {
         "word": "Abfall",
-        "translation": "Palabra clave 1",
+        "translation": "Residuos",
         "example": "Ich benutze das Wort „Abfall“ im Kontext."
       },
       {
         "word": "Sammlung",
-        "translation": "Palabra clave 2",
+        "translation": "Colección",
         "example": "Ich benutze das Wort „Sammlung“ im Kontext."
       },
       {
         "word": "Ressource",
-        "translation": "Palabra clave 3",
+        "translation": "Recurso",
         "example": "Ich benutze das Wort „Ressource“ im Kontext."
       },
       {
         "word": "reduzieren",
-        "translation": "Palabra clave 4",
+        "translation": "reducir",
         "example": "Ich benutze das Wort „reduzieren“ im Kontext."
       },
       {
         "word": "Viertel",
-        "translation": "Palabra clave 5",
+        "translation": "Cuarto",
         "example": "Ich benutze das Wort „Viertel“ im Kontext."
       },
       {
         "word": "freiwillig",
-        "translation": "Palabra clave 6",
+        "translation": "voluntario",
         "example": "Ich benutze das Wort „freiwillig“ im Kontext."
       },
       {
         "word": "Initiative",
-        "translation": "Palabra clave 7",
+        "translation": "Iniciativa",
         "example": "Ich benutze das Wort „Initiative“ im Kontext."
       },
       {
         "word": "Wirkung",
-        "translation": "Palabra clave 8",
+        "translation": "Efecto",
         "example": "Ich benutze das Wort „Wirkung“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "unterstützen",
-        "translation": "Palabra clave 10",
+        "translation": "apoyar",
         "example": "Ich benutze das Wort „unterstützen“ im Kontext."
       }
     ],
@@ -13894,52 +13903,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Abfall",
-          "Sammlung",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Wirkung",
+          "verbessern",
+          "unterstützen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-b1-umwelt-im-viertel-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Umwelt im Viertel“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Umwelt im Viertel darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -13968,52 +13978,52 @@
     "vocabulary": [
       {
         "word": "Straße",
-        "translation": "Palabra clave 1",
+        "translation": "Calle",
         "example": "Ich benutze das Wort „Straße“ im Kontext."
       },
       {
         "word": "Bahnhof",
-        "translation": "Palabra clave 2",
+        "translation": "Estación de tren",
         "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
       },
       {
         "word": "Apotheke",
-        "translation": "Palabra clave 3",
+        "translation": "Farmacia",
         "example": "Ich benutze das Wort „Apotheke“ im Kontext."
       },
       {
         "word": "Schule",
-        "translation": "Palabra clave 4",
+        "translation": "Colegio",
         "example": "Ich benutze das Wort „Schule“ im Kontext."
       },
       {
         "word": "links",
-        "translation": "Palabra clave 5",
+        "translation": "enlaces",
         "example": "Ich benutze das Wort „links“ im Kontext."
       },
       {
         "word": "rechts",
-        "translation": "Palabra clave 6",
+        "translation": "derecha",
         "example": "Ich benutze das Wort „rechts“ im Kontext."
       },
       {
         "word": "geradeaus",
-        "translation": "Palabra clave 7",
+        "translation": "en línea recta",
         "example": "Ich benutze das Wort „geradeaus“ im Kontext."
       },
       {
         "word": "nahe",
-        "translation": "Palabra clave 8",
+        "translation": "cerca",
         "example": "Ich benutze das Wort „nahe“ im Kontext."
       },
       {
         "word": "Bus",
-        "translation": "Palabra clave 9",
+        "translation": "Autobús",
         "example": "Ich benutze das Wort „Bus“ im Kontext."
       },
       {
         "word": "Karte",
-        "translation": "Palabra clave 10",
+        "translation": "Ficha",
         "example": "Ich benutze das Wort „Karte“ im Kontext."
       }
     ],
@@ -14022,10 +14032,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Modalverb können und Wegbeschreibung",
-        "definition": "Práctica guiada de Modalverb können und Wegbeschreibung.",
+        "name": "In der Stadt: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -14035,7 +14045,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
               {},
               {},
@@ -14045,7 +14055,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Satz.",
             "options": [
               {},
               {},
@@ -14055,7 +14065,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
               {},
               {},
@@ -14065,7 +14075,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welche Frage ist richtig?",
             "options": [
               {},
               {},
@@ -14075,7 +14085,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
               {},
               {},
@@ -14085,7 +14095,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Satz über ein Haus.",
             "options": [
               {},
               {},
@@ -14095,7 +14105,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
               {},
               {},
@@ -14105,7 +14115,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
               {},
               {},
@@ -14120,89 +14130,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "wohne",
+          "wohnt",
+          "wohnen",
+          "wohnst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Leon sprechen mit Anna.",
+          "Leon spricht mit Anna.",
+          "Leon spreche mit Anna.",
+          "Leon sprich mit Anna."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "lerne",
+          "lernt",
+          "lernen",
+          "lernst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Wo wohnst?",
+          "Wo wohnen du?",
+          "Wo du wohnst?",
+          "Wo wohnst du?"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "stellt",
+          "stelle",
+          "stellen",
+          "stellst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Das Haus sind hell.",
+          "Das Haus ist hell.",
+          "Die Haus ist hell.",
+          "Das Haus ist helle."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "trinken",
+          "trinkt",
+          "trinkst",
+          "trinke"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Jeden Morgen arbeitet ich im Zentrum.",
+          "Gestern arbeiten ich im Zentrum.",
+          "Morgen arbeitete ich im Zentrum.",
+          "Jeden Morgen arbeite ich im Zentrum."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
@@ -14232,52 +14242,52 @@
     "vocabulary": [
       {
         "word": "Reise",
-        "translation": "Palabra clave 1",
+        "translation": "Viaje",
         "example": "Ich benutze das Wort „Reise“ im Kontext."
       },
       {
         "word": "erlebt",
-        "translation": "Palabra clave 2",
+        "translation": "experimentado",
         "example": "Ich benutze das Wort „erlebt“ im Kontext."
       },
       {
         "word": "besucht",
-        "translation": "Palabra clave 3",
+        "translation": "visitado",
         "example": "Ich benutze das Wort „besucht“ im Kontext."
       },
       {
         "word": "geblieben",
-        "translation": "Palabra clave 4",
+        "translation": "permanecido",
         "example": "Ich benutze das Wort „geblieben“ im Kontext."
       },
       {
         "word": "gesehen",
-        "translation": "Palabra clave 5",
+        "translation": "visto",
         "example": "Ich benutze das Wort „gesehen“ im Kontext."
       },
       {
         "word": "Hotel",
-        "translation": "Palabra clave 6",
+        "translation": "Hotel",
         "example": "Ich benutze das Wort „Hotel“ im Kontext."
       },
       {
         "word": "unterwegs",
-        "translation": "Palabra clave 7",
+        "translation": "de camino",
         "example": "Ich benutze das Wort „unterwegs“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 8",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       },
       {
         "word": "planen",
-        "translation": "Palabra clave 9",
+        "translation": "planificar",
         "example": "Ich benutze das Wort „planen“ im Kontext."
       },
       {
         "word": "interessant",
-        "translation": "Palabra clave 10",
+        "translation": "interesante",
         "example": "Ich benutze das Wort „interessant“ im Kontext."
       }
     ],
@@ -14286,10 +14296,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Perfekt mit sein",
-        "definition": "Práctica guiada de Perfekt mit sein.",
+        "name": "Reisen und Erlebnisse: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
         "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -14299,7 +14309,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
               {},
               {},
@@ -14309,7 +14319,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
               {},
               {},
@@ -14319,7 +14329,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
               {},
               {},
@@ -14329,7 +14339,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
               {},
               {},
@@ -14339,7 +14349,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
               {},
               {},
@@ -14349,7 +14359,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
               {},
               {},
@@ -14359,7 +14369,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
               {},
               {},
@@ -14369,7 +14379,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
               {},
               {},
@@ -14384,89 +14394,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "habe besucht",
+          "besuche",
+          "habe besuchen",
+          "bin besucht"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben zusammen essen.",
+          "Wir haben zusammen gegessen.",
+          "Wir sind zusammen gegessen.",
+          "Wir essen gestern zusammen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "ist kommen",
+          "hat gekommen",
+          "ist gekommen",
+          "kommt gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
+          "Zuerst haben wir gelernt, weil sind wir gegangen.",
+          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
+          "Zuerst haben wir gelernt, dann sind wir gegangen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Hast gelesen",
+          "Hast lesen",
+          "Bist gelesen",
+          "Liest gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Meine Freunde sind den Bus genommen.",
+          "Meine Freunde haben den Bus genommen.",
+          "Meine Freunde haben den Bus nehmen.",
+          "Meine Freunde nehmen gestern den Bus."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "haben machen",
+          "sind gemacht",
+          "haben gemacht",
+          "machen gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Am Samstag bin ich meine Cousine getroffen.",
+          "Am Samstag treffe ich meine Cousine morgen.",
+          "Am Samstag treffen meine Cousine.",
+          "Am Samstag habe ich meine Cousine getroffen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
@@ -14496,52 +14506,52 @@
     "vocabulary": [
       {
         "word": "Abfall",
-        "translation": "Palabra clave 1",
+        "translation": "Residuos",
         "example": "Ich benutze das Wort „Abfall“ im Kontext."
       },
       {
         "word": "Sammlung",
-        "translation": "Palabra clave 2",
+        "translation": "Colección",
         "example": "Ich benutze das Wort „Sammlung“ im Kontext."
       },
       {
         "word": "Ressource",
-        "translation": "Palabra clave 3",
+        "translation": "Recurso",
         "example": "Ich benutze das Wort „Ressource“ im Kontext."
       },
       {
         "word": "reduzieren",
-        "translation": "Palabra clave 4",
+        "translation": "reducir",
         "example": "Ich benutze das Wort „reduzieren“ im Kontext."
       },
       {
         "word": "Viertel",
-        "translation": "Palabra clave 5",
+        "translation": "Cuarto",
         "example": "Ich benutze das Wort „Viertel“ im Kontext."
       },
       {
         "word": "freiwillig",
-        "translation": "Palabra clave 6",
+        "translation": "voluntario",
         "example": "Ich benutze das Wort „freiwillig“ im Kontext."
       },
       {
         "word": "Initiative",
-        "translation": "Palabra clave 7",
+        "translation": "Iniciativa",
         "example": "Ich benutze das Wort „Initiative“ im Kontext."
       },
       {
         "word": "Wirkung",
-        "translation": "Palabra clave 8",
+        "translation": "Efecto",
         "example": "Ich benutze das Wort „Wirkung“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "unterstützen",
-        "translation": "Palabra clave 10",
+        "translation": "apoyar",
         "example": "Ich benutze das Wort „unterstützen“ im Kontext."
       }
     ],
@@ -14550,10 +14560,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Konnektoren: obwohl, trotzdem und daher",
-        "definition": "Práctica guiada de Konnektoren: obwohl, trotzdem und daher.",
+        "name": "Umwelt im Viertel: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -14563,7 +14573,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
               {},
               {},
@@ -14573,7 +14583,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
               {},
               {},
@@ -14583,7 +14593,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
               {},
               {},
@@ -14593,7 +14603,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
               {},
               {},
@@ -14603,7 +14613,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
               {},
               {},
@@ -14613,7 +14623,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle eine logische Folge.",
             "options": [
               {},
               {},
@@ -14623,7 +14633,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
               {},
               {},
@@ -14633,7 +14643,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
               {},
               {},
@@ -14648,89 +14658,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "sei"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Ich möchte ausgehen, deshalb es regnet.",
+          "Ich möchte ausgehen, aber es regnet.",
+          "Ich möchte ausgehen, weil es regnet.",
+          "Ich möchte ausgehen, dann es regnet."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "ist",
+          "bin",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Das Projekt funktioniert warum?",
+          "Das Projekt gestern funktioniert?",
+          "Funktionieren das Projekt meiner Meinung.",
+          "Meiner Meinung nach funktioniert das Projekt."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
+          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
+          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
+          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "haben",
+          "hat",
+          "hatte"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Ich nehme den Zug er nachhaltiger ist weil.",
+          "Ich nehme den Zug, aber er nachhaltiger ist.",
+          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
+          "Ich nehme den Zug, weil er nachhaltiger ist."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
@@ -14760,52 +14770,52 @@
     "vocabulary": [
       {
         "word": "Straße",
-        "translation": "Palabra clave 1",
+        "translation": "Calle",
         "example": "Ich benutze das Wort „Straße“ im Kontext."
       },
       {
         "word": "Bahnhof",
-        "translation": "Palabra clave 2",
+        "translation": "Estación de tren",
         "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
       },
       {
         "word": "Apotheke",
-        "translation": "Palabra clave 3",
+        "translation": "Farmacia",
         "example": "Ich benutze das Wort „Apotheke“ im Kontext."
       },
       {
         "word": "Schule",
-        "translation": "Palabra clave 4",
+        "translation": "Colegio",
         "example": "Ich benutze das Wort „Schule“ im Kontext."
       },
       {
         "word": "links",
-        "translation": "Palabra clave 5",
+        "translation": "enlaces",
         "example": "Ich benutze das Wort „links“ im Kontext."
       },
       {
         "word": "rechts",
-        "translation": "Palabra clave 6",
+        "translation": "derecha",
         "example": "Ich benutze das Wort „rechts“ im Kontext."
       },
       {
         "word": "geradeaus",
-        "translation": "Palabra clave 7",
+        "translation": "en línea recta",
         "example": "Ich benutze das Wort „geradeaus“ im Kontext."
       },
       {
         "word": "nahe",
-        "translation": "Palabra clave 8",
+        "translation": "cerca",
         "example": "Ich benutze das Wort „nahe“ im Kontext."
       },
       {
         "word": "Bus",
-        "translation": "Palabra clave 9",
+        "translation": "Autobús",
         "example": "Ich benutze das Wort „Bus“ im Kontext."
       },
       {
         "word": "Karte",
-        "translation": "Palabra clave 10",
+        "translation": "Ficha",
         "example": "Ich benutze das Wort „Karte“ im Kontext."
       }
     ],
@@ -14980,52 +14990,52 @@
     "vocabulary": [
       {
         "word": "Reise",
-        "translation": "Palabra clave 1",
+        "translation": "Viaje",
         "example": "Ich benutze das Wort „Reise“ im Kontext."
       },
       {
         "word": "erlebt",
-        "translation": "Palabra clave 2",
+        "translation": "experimentado",
         "example": "Ich benutze das Wort „erlebt“ im Kontext."
       },
       {
         "word": "besucht",
-        "translation": "Palabra clave 3",
+        "translation": "visitado",
         "example": "Ich benutze das Wort „besucht“ im Kontext."
       },
       {
         "word": "geblieben",
-        "translation": "Palabra clave 4",
+        "translation": "permanecido",
         "example": "Ich benutze das Wort „geblieben“ im Kontext."
       },
       {
         "word": "gesehen",
-        "translation": "Palabra clave 5",
+        "translation": "visto",
         "example": "Ich benutze das Wort „gesehen“ im Kontext."
       },
       {
         "word": "Hotel",
-        "translation": "Palabra clave 6",
+        "translation": "Hotel",
         "example": "Ich benutze das Wort „Hotel“ im Kontext."
       },
       {
         "word": "unterwegs",
-        "translation": "Palabra clave 7",
+        "translation": "de camino",
         "example": "Ich benutze das Wort „unterwegs“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 8",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       },
       {
         "word": "planen",
-        "translation": "Palabra clave 9",
+        "translation": "planificar",
         "example": "Ich benutze das Wort „planen“ im Kontext."
       },
       {
         "word": "interessant",
-        "translation": "Palabra clave 10",
+        "translation": "interesante",
         "example": "Ich benutze das Wort „interessant“ im Kontext."
       }
     ],
@@ -15200,52 +15210,52 @@
     "vocabulary": [
       {
         "word": "Abfall",
-        "translation": "Palabra clave 1",
+        "translation": "Residuos",
         "example": "Ich benutze das Wort „Abfall“ im Kontext."
       },
       {
         "word": "Sammlung",
-        "translation": "Palabra clave 2",
+        "translation": "Colección",
         "example": "Ich benutze das Wort „Sammlung“ im Kontext."
       },
       {
         "word": "Ressource",
-        "translation": "Palabra clave 3",
+        "translation": "Recurso",
         "example": "Ich benutze das Wort „Ressource“ im Kontext."
       },
       {
         "word": "reduzieren",
-        "translation": "Palabra clave 4",
+        "translation": "reducir",
         "example": "Ich benutze das Wort „reduzieren“ im Kontext."
       },
       {
         "word": "Viertel",
-        "translation": "Palabra clave 5",
+        "translation": "Cuarto",
         "example": "Ich benutze das Wort „Viertel“ im Kontext."
       },
       {
         "word": "freiwillig",
-        "translation": "Palabra clave 6",
+        "translation": "voluntario",
         "example": "Ich benutze das Wort „freiwillig“ im Kontext."
       },
       {
         "word": "Initiative",
-        "translation": "Palabra clave 7",
+        "translation": "Iniciativa",
         "example": "Ich benutze das Wort „Initiative“ im Kontext."
       },
       {
         "word": "Wirkung",
-        "translation": "Palabra clave 8",
+        "translation": "Efecto",
         "example": "Ich benutze das Wort „Wirkung“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "unterstützen",
-        "translation": "Palabra clave 10",
+        "translation": "apoyar",
         "example": "Ich benutze das Wort „unterstützen“ im Kontext."
       }
     ],
@@ -15420,8 +15430,8 @@
     "vocabulary": [
       {
         "word": "Straße",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Calle",
+        "definition": "Calle",
         "example": "Ich benutze „Straße“ in einem Satz.",
         "contexts": [
           "Straße · tema",
@@ -15431,8 +15441,8 @@
       },
       {
         "word": "Bahnhof",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Estación de tren",
+        "definition": "Estación de tren",
         "example": "Ich benutze „Bahnhof“ in einem Satz.",
         "contexts": [
           "Bahnhof · tema",
@@ -15442,8 +15452,8 @@
       },
       {
         "word": "Apotheke",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Farmacia",
+        "definition": "Farmacia",
         "example": "Ich benutze „Apotheke“ in einem Satz.",
         "contexts": [
           "Apotheke · tema",
@@ -15453,8 +15463,8 @@
       },
       {
         "word": "Schule",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Colegio",
+        "definition": "Colegio",
         "example": "Ich benutze „Schule“ in einem Satz.",
         "contexts": [
           "Schule · tema",
@@ -15464,8 +15474,8 @@
       },
       {
         "word": "links",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "enlaces",
+        "definition": "enlaces",
         "example": "Ich benutze „links“ in einem Satz.",
         "contexts": [
           "links · tema",
@@ -15475,8 +15485,8 @@
       },
       {
         "word": "rechts",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "derecha",
+        "definition": "derecha",
         "example": "Ich benutze „rechts“ in einem Satz.",
         "contexts": [
           "rechts · tema",
@@ -15486,8 +15496,8 @@
       },
       {
         "word": "geradeaus",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "en línea recta",
+        "definition": "en línea recta",
         "example": "Ich benutze „geradeaus“ in einem Satz.",
         "contexts": [
           "geradeaus · tema",
@@ -15497,8 +15507,8 @@
       },
       {
         "word": "nahe",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "cerca",
+        "definition": "cerca",
         "example": "Ich benutze „nahe“ in einem Satz.",
         "contexts": [
           "nahe · tema",
@@ -15508,8 +15518,8 @@
       },
       {
         "word": "Bus",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "Autobús",
+        "definition": "Autobús",
         "example": "Ich benutze „Bus“ in einem Satz.",
         "contexts": [
           "Bus · tema",
@@ -15519,8 +15529,8 @@
       },
       {
         "word": "Karte",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Ficha",
+        "definition": "Ficha",
         "example": "Ich benutze „Karte“ in einem Satz.",
         "contexts": [
           "Karte · tema",
@@ -15702,8 +15712,8 @@
     "vocabulary": [
       {
         "word": "Reise",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Viaje",
+        "definition": "Viaje",
         "example": "Ich benutze „Reise“ in einem Satz.",
         "contexts": [
           "Reise · tema",
@@ -15713,8 +15723,8 @@
       },
       {
         "word": "erlebt",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "experimentado",
+        "definition": "experimentado",
         "example": "Ich benutze „erlebt“ in einem Satz.",
         "contexts": [
           "erlebt · tema",
@@ -15724,8 +15734,8 @@
       },
       {
         "word": "besucht",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "visitado",
+        "definition": "visitado",
         "example": "Ich benutze „besucht“ in einem Satz.",
         "contexts": [
           "besucht · tema",
@@ -15735,8 +15745,8 @@
       },
       {
         "word": "geblieben",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "permanecido",
+        "definition": "permanecido",
         "example": "Ich benutze „geblieben“ in einem Satz.",
         "contexts": [
           "geblieben · tema",
@@ -15746,8 +15756,8 @@
       },
       {
         "word": "gesehen",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "visto",
+        "definition": "visto",
         "example": "Ich benutze „gesehen“ in einem Satz.",
         "contexts": [
           "gesehen · tema",
@@ -15757,8 +15767,8 @@
       },
       {
         "word": "Hotel",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Hotel",
+        "definition": "Hotel",
         "example": "Ich benutze „Hotel“ in einem Satz.",
         "contexts": [
           "Hotel · tema",
@@ -15768,8 +15778,8 @@
       },
       {
         "word": "unterwegs",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "de camino",
+        "definition": "de camino",
         "example": "Ich benutze „unterwegs“ in einem Satz.",
         "contexts": [
           "unterwegs · tema",
@@ -15779,8 +15789,8 @@
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Recordatorio",
+        "definition": "Recordatorio",
         "example": "Ich benutze „Erinnerung“ in einem Satz.",
         "contexts": [
           "Erinnerung · tema",
@@ -15790,8 +15800,8 @@
       },
       {
         "word": "planen",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "planificar",
+        "definition": "planificar",
         "example": "Ich benutze „planen“ in einem Satz.",
         "contexts": [
           "planen · tema",
@@ -15801,8 +15811,8 @@
       },
       {
         "word": "interessant",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "interesante",
+        "definition": "interesante",
         "example": "Ich benutze „interessant“ in einem Satz.",
         "contexts": [
           "interessant · tema",
@@ -15984,8 +15994,8 @@
     "vocabulary": [
       {
         "word": "Abfall",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Residuos",
+        "definition": "Residuos",
         "example": "Ich benutze „Abfall“ in einem Satz.",
         "contexts": [
           "Abfall · tema",
@@ -15995,8 +16005,8 @@
       },
       {
         "word": "Sammlung",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Colección",
+        "definition": "Colección",
         "example": "Ich benutze „Sammlung“ in einem Satz.",
         "contexts": [
           "Sammlung · tema",
@@ -16006,8 +16016,8 @@
       },
       {
         "word": "Ressource",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Recurso",
+        "definition": "Recurso",
         "example": "Ich benutze „Ressource“ in einem Satz.",
         "contexts": [
           "Ressource · tema",
@@ -16017,8 +16027,8 @@
       },
       {
         "word": "reduzieren",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "reducir",
+        "definition": "reducir",
         "example": "Ich benutze „reduzieren“ in einem Satz.",
         "contexts": [
           "reduzieren · tema",
@@ -16028,8 +16038,8 @@
       },
       {
         "word": "Viertel",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "Cuarto",
+        "definition": "Cuarto",
         "example": "Ich benutze „Viertel“ in einem Satz.",
         "contexts": [
           "Viertel · tema",
@@ -16039,8 +16049,8 @@
       },
       {
         "word": "freiwillig",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "voluntario",
+        "definition": "voluntario",
         "example": "Ich benutze „freiwillig“ in einem Satz.",
         "contexts": [
           "freiwillig · tema",
@@ -16050,8 +16060,8 @@
       },
       {
         "word": "Initiative",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Iniciativa",
+        "definition": "Iniciativa",
         "example": "Ich benutze „Initiative“ in einem Satz.",
         "contexts": [
           "Initiative · tema",
@@ -16061,8 +16071,8 @@
       },
       {
         "word": "Wirkung",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Efecto",
+        "definition": "Efecto",
         "example": "Ich benutze „Wirkung“ in einem Satz.",
         "contexts": [
           "Wirkung · tema",
@@ -16072,8 +16082,8 @@
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Ich benutze „verbessern“ in einem Satz.",
         "contexts": [
           "verbessern · tema",
@@ -16083,8 +16093,8 @@
       },
       {
         "word": "unterstützen",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "apoyar",
+        "definition": "apoyar",
         "example": "Ich benutze „unterstützen“ in einem Satz.",
         "contexts": [
           "unterstützen · tema",
@@ -16266,52 +16276,52 @@
     "vocabulary": [
       {
         "word": "Straße",
-        "translation": "Palabra clave 1",
+        "translation": "Calle",
         "example": "Ich benutze das Wort „Straße“ im Kontext."
       },
       {
         "word": "Bahnhof",
-        "translation": "Palabra clave 2",
+        "translation": "Estación de tren",
         "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
       },
       {
         "word": "Apotheke",
-        "translation": "Palabra clave 3",
+        "translation": "Farmacia",
         "example": "Ich benutze das Wort „Apotheke“ im Kontext."
       },
       {
         "word": "Schule",
-        "translation": "Palabra clave 4",
+        "translation": "Colegio",
         "example": "Ich benutze das Wort „Schule“ im Kontext."
       },
       {
         "word": "links",
-        "translation": "Palabra clave 5",
+        "translation": "enlaces",
         "example": "Ich benutze das Wort „links“ im Kontext."
       },
       {
         "word": "rechts",
-        "translation": "Palabra clave 6",
+        "translation": "derecha",
         "example": "Ich benutze das Wort „rechts“ im Kontext."
       },
       {
         "word": "geradeaus",
-        "translation": "Palabra clave 7",
+        "translation": "en línea recta",
         "example": "Ich benutze das Wort „geradeaus“ im Kontext."
       },
       {
         "word": "nahe",
-        "translation": "Palabra clave 8",
+        "translation": "cerca",
         "example": "Ich benutze das Wort „nahe“ im Kontext."
       },
       {
         "word": "Bus",
-        "translation": "Palabra clave 9",
+        "translation": "Autobús",
         "example": "Ich benutze das Wort „Bus“ im Kontext."
       },
       {
         "word": "Karte",
-        "translation": "Palabra clave 10",
+        "translation": "Ficha",
         "example": "Ich benutze das Wort „Karte“ im Kontext."
       }
     ],
@@ -16359,52 +16369,52 @@
     "vocabulary": [
       {
         "word": "Reise",
-        "translation": "Palabra clave 1",
+        "translation": "Viaje",
         "example": "Ich benutze das Wort „Reise“ im Kontext."
       },
       {
         "word": "erlebt",
-        "translation": "Palabra clave 2",
+        "translation": "experimentado",
         "example": "Ich benutze das Wort „erlebt“ im Kontext."
       },
       {
         "word": "besucht",
-        "translation": "Palabra clave 3",
+        "translation": "visitado",
         "example": "Ich benutze das Wort „besucht“ im Kontext."
       },
       {
         "word": "geblieben",
-        "translation": "Palabra clave 4",
+        "translation": "permanecido",
         "example": "Ich benutze das Wort „geblieben“ im Kontext."
       },
       {
         "word": "gesehen",
-        "translation": "Palabra clave 5",
+        "translation": "visto",
         "example": "Ich benutze das Wort „gesehen“ im Kontext."
       },
       {
         "word": "Hotel",
-        "translation": "Palabra clave 6",
+        "translation": "Hotel",
         "example": "Ich benutze das Wort „Hotel“ im Kontext."
       },
       {
         "word": "unterwegs",
-        "translation": "Palabra clave 7",
+        "translation": "de camino",
         "example": "Ich benutze das Wort „unterwegs“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 8",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       },
       {
         "word": "planen",
-        "translation": "Palabra clave 9",
+        "translation": "planificar",
         "example": "Ich benutze das Wort „planen“ im Kontext."
       },
       {
         "word": "interessant",
-        "translation": "Palabra clave 10",
+        "translation": "interesante",
         "example": "Ich benutze das Wort „interessant“ im Kontext."
       }
     ],
@@ -16452,52 +16462,52 @@
     "vocabulary": [
       {
         "word": "Abfall",
-        "translation": "Palabra clave 1",
+        "translation": "Residuos",
         "example": "Ich benutze das Wort „Abfall“ im Kontext."
       },
       {
         "word": "Sammlung",
-        "translation": "Palabra clave 2",
+        "translation": "Colección",
         "example": "Ich benutze das Wort „Sammlung“ im Kontext."
       },
       {
         "word": "Ressource",
-        "translation": "Palabra clave 3",
+        "translation": "Recurso",
         "example": "Ich benutze das Wort „Ressource“ im Kontext."
       },
       {
         "word": "reduzieren",
-        "translation": "Palabra clave 4",
+        "translation": "reducir",
         "example": "Ich benutze das Wort „reduzieren“ im Kontext."
       },
       {
         "word": "Viertel",
-        "translation": "Palabra clave 5",
+        "translation": "Cuarto",
         "example": "Ich benutze das Wort „Viertel“ im Kontext."
       },
       {
         "word": "freiwillig",
-        "translation": "Palabra clave 6",
+        "translation": "voluntario",
         "example": "Ich benutze das Wort „freiwillig“ im Kontext."
       },
       {
         "word": "Initiative",
-        "translation": "Palabra clave 7",
+        "translation": "Iniciativa",
         "example": "Ich benutze das Wort „Initiative“ im Kontext."
       },
       {
         "word": "Wirkung",
-        "translation": "Palabra clave 8",
+        "translation": "Efecto",
         "example": "Ich benutze das Wort „Wirkung“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "unterstützen",
-        "translation": "Palabra clave 10",
+        "translation": "apoyar",
         "example": "Ich benutze das Wort „unterstützen“ im Kontext."
       }
     ],
@@ -16545,52 +16555,52 @@
     "vocabulary": [
       {
         "word": "Straße",
-        "translation": "Palabra clave 1",
+        "translation": "Calle",
         "example": "Ich benutze das Wort „Straße“ im Kontext."
       },
       {
         "word": "Bahnhof",
-        "translation": "Palabra clave 2",
+        "translation": "Estación de tren",
         "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
       },
       {
         "word": "Apotheke",
-        "translation": "Palabra clave 3",
+        "translation": "Farmacia",
         "example": "Ich benutze das Wort „Apotheke“ im Kontext."
       },
       {
         "word": "Schule",
-        "translation": "Palabra clave 4",
+        "translation": "Colegio",
         "example": "Ich benutze das Wort „Schule“ im Kontext."
       },
       {
         "word": "links",
-        "translation": "Palabra clave 5",
+        "translation": "enlaces",
         "example": "Ich benutze das Wort „links“ im Kontext."
       },
       {
         "word": "rechts",
-        "translation": "Palabra clave 6",
+        "translation": "derecha",
         "example": "Ich benutze das Wort „rechts“ im Kontext."
       },
       {
         "word": "geradeaus",
-        "translation": "Palabra clave 7",
+        "translation": "en línea recta",
         "example": "Ich benutze das Wort „geradeaus“ im Kontext."
       },
       {
         "word": "nahe",
-        "translation": "Palabra clave 8",
+        "translation": "cerca",
         "example": "Ich benutze das Wort „nahe“ im Kontext."
       },
       {
         "word": "Bus",
-        "translation": "Palabra clave 9",
+        "translation": "Autobús",
         "example": "Ich benutze das Wort „Bus“ im Kontext."
       },
       {
         "word": "Karte",
-        "translation": "Palabra clave 10",
+        "translation": "Ficha",
         "example": "Ich benutze das Wort „Karte“ im Kontext."
       }
     ],
@@ -16629,52 +16639,52 @@
     "vocabulary": [
       {
         "word": "Reise",
-        "translation": "Palabra clave 1",
+        "translation": "Viaje",
         "example": "Ich benutze das Wort „Reise“ im Kontext."
       },
       {
         "word": "erlebt",
-        "translation": "Palabra clave 2",
+        "translation": "experimentado",
         "example": "Ich benutze das Wort „erlebt“ im Kontext."
       },
       {
         "word": "besucht",
-        "translation": "Palabra clave 3",
+        "translation": "visitado",
         "example": "Ich benutze das Wort „besucht“ im Kontext."
       },
       {
         "word": "geblieben",
-        "translation": "Palabra clave 4",
+        "translation": "permanecido",
         "example": "Ich benutze das Wort „geblieben“ im Kontext."
       },
       {
         "word": "gesehen",
-        "translation": "Palabra clave 5",
+        "translation": "visto",
         "example": "Ich benutze das Wort „gesehen“ im Kontext."
       },
       {
         "word": "Hotel",
-        "translation": "Palabra clave 6",
+        "translation": "Hotel",
         "example": "Ich benutze das Wort „Hotel“ im Kontext."
       },
       {
         "word": "unterwegs",
-        "translation": "Palabra clave 7",
+        "translation": "de camino",
         "example": "Ich benutze das Wort „unterwegs“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 8",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       },
       {
         "word": "planen",
-        "translation": "Palabra clave 9",
+        "translation": "planificar",
         "example": "Ich benutze das Wort „planen“ im Kontext."
       },
       {
         "word": "interessant",
-        "translation": "Palabra clave 10",
+        "translation": "interesante",
         "example": "Ich benutze das Wort „interessant“ im Kontext."
       }
     ],
@@ -16713,52 +16723,52 @@
     "vocabulary": [
       {
         "word": "Abfall",
-        "translation": "Palabra clave 1",
+        "translation": "Residuos",
         "example": "Ich benutze das Wort „Abfall“ im Kontext."
       },
       {
         "word": "Sammlung",
-        "translation": "Palabra clave 2",
+        "translation": "Colección",
         "example": "Ich benutze das Wort „Sammlung“ im Kontext."
       },
       {
         "word": "Ressource",
-        "translation": "Palabra clave 3",
+        "translation": "Recurso",
         "example": "Ich benutze das Wort „Ressource“ im Kontext."
       },
       {
         "word": "reduzieren",
-        "translation": "Palabra clave 4",
+        "translation": "reducir",
         "example": "Ich benutze das Wort „reduzieren“ im Kontext."
       },
       {
         "word": "Viertel",
-        "translation": "Palabra clave 5",
+        "translation": "Cuarto",
         "example": "Ich benutze das Wort „Viertel“ im Kontext."
       },
       {
         "word": "freiwillig",
-        "translation": "Palabra clave 6",
+        "translation": "voluntario",
         "example": "Ich benutze das Wort „freiwillig“ im Kontext."
       },
       {
         "word": "Initiative",
-        "translation": "Palabra clave 7",
+        "translation": "Iniciativa",
         "example": "Ich benutze das Wort „Initiative“ im Kontext."
       },
       {
         "word": "Wirkung",
-        "translation": "Palabra clave 8",
+        "translation": "Efecto",
         "example": "Ich benutze das Wort „Wirkung“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "unterstützen",
-        "translation": "Palabra clave 10",
+        "translation": "apoyar",
         "example": "Ich benutze das Wort „unterstützen“ im Kontext."
       }
     ],
@@ -16797,52 +16807,52 @@
     "vocabulary": [
       {
         "word": "Schule",
-        "translation": "Palabra clave 1",
+        "translation": "Colegio",
         "example": "Ich benutze das Wort „Schule“ im Kontext."
       },
       {
         "word": "Klasse",
-        "translation": "Palabra clave 2",
+        "translation": "Clase",
         "example": "Ich benutze das Wort „Klasse“ im Kontext."
       },
       {
         "word": "Lehrer",
-        "translation": "Palabra clave 3",
+        "translation": "Profesor",
         "example": "Ich benutze das Wort „Lehrer“ im Kontext."
       },
       {
         "word": "Freund",
-        "translation": "Palabra clave 4",
+        "translation": "Amigo",
         "example": "Ich benutze das Wort „Freund“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 5",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "spielen",
-        "translation": "Palabra clave 6",
+        "translation": "jugar",
         "example": "Ich benutze das Wort „spielen“ im Kontext."
       },
       {
         "word": "Musik",
-        "translation": "Palabra clave 7",
+        "translation": "Música",
         "example": "Ich benutze das Wort „Musik“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 8",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "morgen",
-        "translation": "Palabra clave 9",
+        "translation": "mañana",
         "example": "Ich benutze das Wort „morgen“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       }
     ],
@@ -16867,42 +16877,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Schule",
-          "Klasse",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "heute",
+          "morgen",
+          "zusammen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -16931,52 +16941,52 @@
     "vocabulary": [
       {
         "word": "Rezept",
-        "translation": "Palabra clave 1",
+        "translation": "Receta",
         "example": "Ich benutze das Wort „Rezept“ im Kontext."
       },
       {
         "word": "Zutaten",
-        "translation": "Palabra clave 2",
+        "translation": "Ingredientes",
         "example": "Ich benutze das Wort „Zutaten“ im Kontext."
       },
       {
         "word": "kochen",
-        "translation": "Palabra clave 3",
+        "translation": "cocinar",
         "example": "Ich benutze das Wort „kochen“ im Kontext."
       },
       {
         "word": "Geschmack",
-        "translation": "Palabra clave 4",
+        "translation": "Sabor",
         "example": "Ich benutze das Wort „Geschmack“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 5",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 6",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       },
       {
         "word": "probieren",
-        "translation": "Palabra clave 7",
+        "translation": "probar",
         "example": "Ich benutze das Wort „probieren“ im Kontext."
       },
       {
         "word": "Restaurant",
-        "translation": "Palabra clave 8",
+        "translation": "Restaurante",
         "example": "Ich benutze das Wort „Restaurant“ im Kontext."
       },
       {
         "word": "bestellen",
-        "translation": "Palabra clave 9",
+        "translation": "pedir",
         "example": "Ich benutze das Wort „bestellen“ im Kontext."
       },
       {
         "word": "typisch",
-        "translation": "Palabra clave 10",
+        "translation": "típico",
         "example": "Ich benutze das Wort „typisch“ im Kontext."
       }
     ],
@@ -17002,52 +17012,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Rezept",
-          "Zutaten",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Restaurant",
+          "bestellen",
+          "typisch"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-a2-essen-und-kultur-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Essen und Kultur“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Essen und Kultur darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -17076,52 +17087,52 @@
     "vocabulary": [
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 1",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       },
       {
         "word": "Kindheit",
-        "translation": "Palabra clave 2",
+        "translation": "Infancia",
         "example": "Ich benutze das Wort „Kindheit“ im Kontext."
       },
       {
         "word": "Veränderung",
-        "translation": "Palabra clave 3",
+        "translation": "Cambio",
         "example": "Ich benutze das Wort „Veränderung“ im Kontext."
       },
       {
         "word": "erzählen",
-        "translation": "Palabra clave 4",
+        "translation": "contar",
         "example": "Ich benutze das Wort „erzählen“ im Kontext."
       },
       {
         "word": "Vergangenheit",
-        "translation": "Palabra clave 5",
+        "translation": "Pasado",
         "example": "Ich benutze das Wort „Vergangenheit“ im Kontext."
       },
       {
         "word": "Begegnung",
-        "translation": "Palabra clave 6",
+        "translation": "Encuentro",
         "example": "Ich benutze das Wort „Begegnung“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 7",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "Generation",
-        "translation": "Palabra clave 8",
+        "translation": "Generación",
         "example": "Ich benutze das Wort „Generation“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "Bedeutung",
-        "translation": "Palabra clave 10",
+        "translation": "Significado",
         "example": "Ich benutze das Wort „Bedeutung“ im Kontext."
       }
     ],
@@ -17148,52 +17159,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Erinnerung",
-          "Kindheit",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Generation",
+          "lernen",
+          "Bedeutung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-b1-geschichten-und-erinnerungen-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Geschichten und Erinnerungen“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Geschichten und Erinnerungen darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -17222,52 +17234,52 @@
     "vocabulary": [
       {
         "word": "Schule",
-        "translation": "Palabra clave 1",
+        "translation": "Colegio",
         "example": "Ich benutze das Wort „Schule“ im Kontext."
       },
       {
         "word": "Klasse",
-        "translation": "Palabra clave 2",
+        "translation": "Clase",
         "example": "Ich benutze das Wort „Klasse“ im Kontext."
       },
       {
         "word": "Lehrer",
-        "translation": "Palabra clave 3",
+        "translation": "Profesor",
         "example": "Ich benutze das Wort „Lehrer“ im Kontext."
       },
       {
         "word": "Freund",
-        "translation": "Palabra clave 4",
+        "translation": "Amigo",
         "example": "Ich benutze das Wort „Freund“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 5",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "spielen",
-        "translation": "Palabra clave 6",
+        "translation": "jugar",
         "example": "Ich benutze das Wort „spielen“ im Kontext."
       },
       {
         "word": "Musik",
-        "translation": "Palabra clave 7",
+        "translation": "Música",
         "example": "Ich benutze das Wort „Musik“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 8",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "morgen",
-        "translation": "Palabra clave 9",
+        "translation": "mañana",
         "example": "Ich benutze das Wort „morgen“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       }
     ],
@@ -17276,10 +17288,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Präsens trennbarer Verben",
-        "definition": "Práctica guiada de Präsens trennbarer Verben.",
+        "name": "Schule und Freunde: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -17289,7 +17301,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
               {},
               {},
@@ -17299,7 +17311,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Satz.",
             "options": [
               {},
               {},
@@ -17309,7 +17321,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
               {},
               {},
@@ -17319,7 +17331,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welche Frage ist richtig?",
             "options": [
               {},
               {},
@@ -17329,7 +17341,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
               {},
               {},
@@ -17339,7 +17351,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Satz über ein Haus.",
             "options": [
               {},
               {},
@@ -17349,7 +17361,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
               {},
               {},
@@ -17359,7 +17371,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
               {},
               {},
@@ -17374,89 +17386,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "wohne",
+          "wohnt",
+          "wohnen",
+          "wohnst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Leon sprechen mit Anna.",
+          "Leon spricht mit Anna.",
+          "Leon spreche mit Anna.",
+          "Leon sprich mit Anna."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "lerne",
+          "lernt",
+          "lernen",
+          "lernst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Wo wohnst?",
+          "Wo wohnen du?",
+          "Wo du wohnst?",
+          "Wo wohnst du?"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "stellt",
+          "stelle",
+          "stellen",
+          "stellst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Das Haus sind hell.",
+          "Das Haus ist hell.",
+          "Die Haus ist hell.",
+          "Das Haus ist helle."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "trinken",
+          "trinkt",
+          "trinkst",
+          "trinke"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Jeden Morgen arbeitet ich im Zentrum.",
+          "Gestern arbeiten ich im Zentrum.",
+          "Morgen arbeitete ich im Zentrum.",
+          "Jeden Morgen arbeite ich im Zentrum."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
@@ -17486,52 +17498,52 @@
     "vocabulary": [
       {
         "word": "Rezept",
-        "translation": "Palabra clave 1",
+        "translation": "Receta",
         "example": "Ich benutze das Wort „Rezept“ im Kontext."
       },
       {
         "word": "Zutaten",
-        "translation": "Palabra clave 2",
+        "translation": "Ingredientes",
         "example": "Ich benutze das Wort „Zutaten“ im Kontext."
       },
       {
         "word": "kochen",
-        "translation": "Palabra clave 3",
+        "translation": "cocinar",
         "example": "Ich benutze das Wort „kochen“ im Kontext."
       },
       {
         "word": "Geschmack",
-        "translation": "Palabra clave 4",
+        "translation": "Sabor",
         "example": "Ich benutze das Wort „Geschmack“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 5",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 6",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       },
       {
         "word": "probieren",
-        "translation": "Palabra clave 7",
+        "translation": "probar",
         "example": "Ich benutze das Wort „probieren“ im Kontext."
       },
       {
         "word": "Restaurant",
-        "translation": "Palabra clave 8",
+        "translation": "Restaurante",
         "example": "Ich benutze das Wort „Restaurant“ im Kontext."
       },
       {
         "word": "bestellen",
-        "translation": "Palabra clave 9",
+        "translation": "pedir",
         "example": "Ich benutze das Wort „bestellen“ im Kontext."
       },
       {
         "word": "typisch",
-        "translation": "Palabra clave 10",
+        "translation": "típico",
         "example": "Ich benutze das Wort „typisch“ im Kontext."
       }
     ],
@@ -17540,10 +17552,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Dativ und Akkusativ",
-        "definition": "Práctica guiada de Dativ und Akkusativ.",
+        "name": "Essen und Kultur: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
         "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -17553,7 +17565,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
               {},
               {},
@@ -17563,7 +17575,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
               {},
               {},
@@ -17573,7 +17585,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
               {},
               {},
@@ -17583,7 +17595,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
               {},
               {},
@@ -17593,7 +17605,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
               {},
               {},
@@ -17603,7 +17615,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
               {},
               {},
@@ -17613,7 +17625,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
               {},
               {},
@@ -17623,7 +17635,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
               {},
               {},
@@ -17638,89 +17650,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "habe besucht",
+          "besuche",
+          "habe besuchen",
+          "bin besucht"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben zusammen essen.",
+          "Wir haben zusammen gegessen.",
+          "Wir sind zusammen gegessen.",
+          "Wir essen gestern zusammen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "ist kommen",
+          "hat gekommen",
+          "ist gekommen",
+          "kommt gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
+          "Zuerst haben wir gelernt, weil sind wir gegangen.",
+          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
+          "Zuerst haben wir gelernt, dann sind wir gegangen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Hast gelesen",
+          "Hast lesen",
+          "Bist gelesen",
+          "Liest gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Meine Freunde sind den Bus genommen.",
+          "Meine Freunde haben den Bus genommen.",
+          "Meine Freunde haben den Bus nehmen.",
+          "Meine Freunde nehmen gestern den Bus."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "haben machen",
+          "sind gemacht",
+          "haben gemacht",
+          "machen gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Am Samstag bin ich meine Cousine getroffen.",
+          "Am Samstag treffe ich meine Cousine morgen.",
+          "Am Samstag treffen meine Cousine.",
+          "Am Samstag habe ich meine Cousine getroffen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
@@ -17750,52 +17762,52 @@
     "vocabulary": [
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 1",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       },
       {
         "word": "Kindheit",
-        "translation": "Palabra clave 2",
+        "translation": "Infancia",
         "example": "Ich benutze das Wort „Kindheit“ im Kontext."
       },
       {
         "word": "Veränderung",
-        "translation": "Palabra clave 3",
+        "translation": "Cambio",
         "example": "Ich benutze das Wort „Veränderung“ im Kontext."
       },
       {
         "word": "erzählen",
-        "translation": "Palabra clave 4",
+        "translation": "contar",
         "example": "Ich benutze das Wort „erzählen“ im Kontext."
       },
       {
         "word": "Vergangenheit",
-        "translation": "Palabra clave 5",
+        "translation": "Pasado",
         "example": "Ich benutze das Wort „Vergangenheit“ im Kontext."
       },
       {
         "word": "Begegnung",
-        "translation": "Palabra clave 6",
+        "translation": "Encuentro",
         "example": "Ich benutze das Wort „Begegnung“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 7",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "Generation",
-        "translation": "Palabra clave 8",
+        "translation": "Generación",
         "example": "Ich benutze das Wort „Generation“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "Bedeutung",
-        "translation": "Palabra clave 10",
+        "translation": "Significado",
         "example": "Ich benutze das Wort „Bedeutung“ im Kontext."
       }
     ],
@@ -17804,10 +17816,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Plusquamperfekt",
-        "definition": "Práctica guiada de Plusquamperfekt.",
+        "name": "Geschichten und Erinnerungen: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -17817,7 +17829,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
               {},
               {},
@@ -17827,7 +17839,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
               {},
               {},
@@ -17837,7 +17849,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
               {},
               {},
@@ -17847,7 +17859,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
               {},
               {},
@@ -17857,7 +17869,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
               {},
               {},
@@ -17867,7 +17879,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle eine logische Folge.",
             "options": [
               {},
               {},
@@ -17877,7 +17889,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
               {},
               {},
@@ -17887,7 +17899,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
               {},
               {},
@@ -17902,89 +17914,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "sei"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Ich möchte ausgehen, deshalb es regnet.",
+          "Ich möchte ausgehen, aber es regnet.",
+          "Ich möchte ausgehen, weil es regnet.",
+          "Ich möchte ausgehen, dann es regnet."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "ist",
+          "bin",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Das Projekt funktioniert warum?",
+          "Das Projekt gestern funktioniert?",
+          "Funktionieren das Projekt meiner Meinung.",
+          "Meiner Meinung nach funktioniert das Projekt."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
+          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
+          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
+          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "haben",
+          "hat",
+          "hatte"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Ich nehme den Zug er nachhaltiger ist weil.",
+          "Ich nehme den Zug, aber er nachhaltiger ist.",
+          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
+          "Ich nehme den Zug, weil er nachhaltiger ist."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
@@ -18014,52 +18026,52 @@
     "vocabulary": [
       {
         "word": "Schule",
-        "translation": "Palabra clave 1",
+        "translation": "Colegio",
         "example": "Ich benutze das Wort „Schule“ im Kontext."
       },
       {
         "word": "Klasse",
-        "translation": "Palabra clave 2",
+        "translation": "Clase",
         "example": "Ich benutze das Wort „Klasse“ im Kontext."
       },
       {
         "word": "Lehrer",
-        "translation": "Palabra clave 3",
+        "translation": "Profesor",
         "example": "Ich benutze das Wort „Lehrer“ im Kontext."
       },
       {
         "word": "Freund",
-        "translation": "Palabra clave 4",
+        "translation": "Amigo",
         "example": "Ich benutze das Wort „Freund“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 5",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "spielen",
-        "translation": "Palabra clave 6",
+        "translation": "jugar",
         "example": "Ich benutze das Wort „spielen“ im Kontext."
       },
       {
         "word": "Musik",
-        "translation": "Palabra clave 7",
+        "translation": "Música",
         "example": "Ich benutze das Wort „Musik“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 8",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "morgen",
-        "translation": "Palabra clave 9",
+        "translation": "mañana",
         "example": "Ich benutze das Wort „morgen“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       }
     ],
@@ -18234,52 +18246,52 @@
     "vocabulary": [
       {
         "word": "Rezept",
-        "translation": "Palabra clave 1",
+        "translation": "Receta",
         "example": "Ich benutze das Wort „Rezept“ im Kontext."
       },
       {
         "word": "Zutaten",
-        "translation": "Palabra clave 2",
+        "translation": "Ingredientes",
         "example": "Ich benutze das Wort „Zutaten“ im Kontext."
       },
       {
         "word": "kochen",
-        "translation": "Palabra clave 3",
+        "translation": "cocinar",
         "example": "Ich benutze das Wort „kochen“ im Kontext."
       },
       {
         "word": "Geschmack",
-        "translation": "Palabra clave 4",
+        "translation": "Sabor",
         "example": "Ich benutze das Wort „Geschmack“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 5",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 6",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       },
       {
         "word": "probieren",
-        "translation": "Palabra clave 7",
+        "translation": "probar",
         "example": "Ich benutze das Wort „probieren“ im Kontext."
       },
       {
         "word": "Restaurant",
-        "translation": "Palabra clave 8",
+        "translation": "Restaurante",
         "example": "Ich benutze das Wort „Restaurant“ im Kontext."
       },
       {
         "word": "bestellen",
-        "translation": "Palabra clave 9",
+        "translation": "pedir",
         "example": "Ich benutze das Wort „bestellen“ im Kontext."
       },
       {
         "word": "typisch",
-        "translation": "Palabra clave 10",
+        "translation": "típico",
         "example": "Ich benutze das Wort „typisch“ im Kontext."
       }
     ],
@@ -18454,52 +18466,52 @@
     "vocabulary": [
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 1",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       },
       {
         "word": "Kindheit",
-        "translation": "Palabra clave 2",
+        "translation": "Infancia",
         "example": "Ich benutze das Wort „Kindheit“ im Kontext."
       },
       {
         "word": "Veränderung",
-        "translation": "Palabra clave 3",
+        "translation": "Cambio",
         "example": "Ich benutze das Wort „Veränderung“ im Kontext."
       },
       {
         "word": "erzählen",
-        "translation": "Palabra clave 4",
+        "translation": "contar",
         "example": "Ich benutze das Wort „erzählen“ im Kontext."
       },
       {
         "word": "Vergangenheit",
-        "translation": "Palabra clave 5",
+        "translation": "Pasado",
         "example": "Ich benutze das Wort „Vergangenheit“ im Kontext."
       },
       {
         "word": "Begegnung",
-        "translation": "Palabra clave 6",
+        "translation": "Encuentro",
         "example": "Ich benutze das Wort „Begegnung“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 7",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "Generation",
-        "translation": "Palabra clave 8",
+        "translation": "Generación",
         "example": "Ich benutze das Wort „Generation“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "Bedeutung",
-        "translation": "Palabra clave 10",
+        "translation": "Significado",
         "example": "Ich benutze das Wort „Bedeutung“ im Kontext."
       }
     ],
@@ -18674,8 +18686,8 @@
     "vocabulary": [
       {
         "word": "Schule",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Colegio",
+        "definition": "Colegio",
         "example": "Ich benutze „Schule“ in einem Satz.",
         "contexts": [
           "Schule · tema",
@@ -18685,8 +18697,8 @@
       },
       {
         "word": "Klasse",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Clase",
+        "definition": "Clase",
         "example": "Ich benutze „Klasse“ in einem Satz.",
         "contexts": [
           "Klasse · tema",
@@ -18696,8 +18708,8 @@
       },
       {
         "word": "Lehrer",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Profesor",
+        "definition": "Profesor",
         "example": "Ich benutze „Lehrer“ in einem Satz.",
         "contexts": [
           "Lehrer · tema",
@@ -18707,8 +18719,8 @@
       },
       {
         "word": "Freund",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Amigo",
+        "definition": "Amigo",
         "example": "Ich benutze „Freund“ in einem Satz.",
         "contexts": [
           "Freund · tema",
@@ -18718,8 +18730,8 @@
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "aprender",
+        "definition": "aprender",
         "example": "Ich benutze „lernen“ in einem Satz.",
         "contexts": [
           "lernen · tema",
@@ -18729,8 +18741,8 @@
       },
       {
         "word": "spielen",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "jugar",
+        "definition": "jugar",
         "example": "Ich benutze „spielen“ in einem Satz.",
         "contexts": [
           "spielen · tema",
@@ -18740,8 +18752,8 @@
       },
       {
         "word": "Musik",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Música",
+        "definition": "Música",
         "example": "Ich benutze „Musik“ in einem Satz.",
         "contexts": [
           "Musik · tema",
@@ -18751,8 +18763,8 @@
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "hoy",
+        "definition": "hoy",
         "example": "Ich benutze „heute“ in einem Satz.",
         "contexts": [
           "heute · tema",
@@ -18762,8 +18774,8 @@
       },
       {
         "word": "morgen",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "mañana",
+        "definition": "mañana",
         "example": "Ich benutze „morgen“ in einem Satz.",
         "contexts": [
           "morgen · tema",
@@ -18773,8 +18785,8 @@
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "juntos",
+        "definition": "juntos",
         "example": "Ich benutze „zusammen“ in einem Satz.",
         "contexts": [
           "zusammen · tema",
@@ -18956,8 +18968,8 @@
     "vocabulary": [
       {
         "word": "Rezept",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Receta",
+        "definition": "Receta",
         "example": "Ich benutze „Rezept“ in einem Satz.",
         "contexts": [
           "Rezept · tema",
@@ -18967,8 +18979,8 @@
       },
       {
         "word": "Zutaten",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Ingredientes",
+        "definition": "Ingredientes",
         "example": "Ich benutze „Zutaten“ in einem Satz.",
         "contexts": [
           "Zutaten · tema",
@@ -18978,8 +18990,8 @@
       },
       {
         "word": "kochen",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "cocinar",
+        "definition": "cocinar",
         "example": "Ich benutze „kochen“ in einem Satz.",
         "contexts": [
           "kochen · tema",
@@ -18989,8 +19001,8 @@
       },
       {
         "word": "Geschmack",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Sabor",
+        "definition": "Sabor",
         "example": "Ich benutze „Geschmack“ in einem Satz.",
         "contexts": [
           "Geschmack · tema",
@@ -19000,8 +19012,8 @@
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "Tradición",
+        "definition": "Tradición",
         "example": "Ich benutze „Tradition“ in einem Satz.",
         "contexts": [
           "Tradition · tema",
@@ -19011,8 +19023,8 @@
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "juntos",
+        "definition": "juntos",
         "example": "Ich benutze „zusammen“ in einem Satz.",
         "contexts": [
           "zusammen · tema",
@@ -19022,8 +19034,8 @@
       },
       {
         "word": "probieren",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "probar",
+        "definition": "probar",
         "example": "Ich benutze „probieren“ in einem Satz.",
         "contexts": [
           "probieren · tema",
@@ -19033,8 +19045,8 @@
       },
       {
         "word": "Restaurant",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Restaurante",
+        "definition": "Restaurante",
         "example": "Ich benutze „Restaurant“ in einem Satz.",
         "contexts": [
           "Restaurant · tema",
@@ -19044,8 +19056,8 @@
       },
       {
         "word": "bestellen",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "pedir",
+        "definition": "pedir",
         "example": "Ich benutze „bestellen“ in einem Satz.",
         "contexts": [
           "bestellen · tema",
@@ -19055,8 +19067,8 @@
       },
       {
         "word": "typisch",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "típico",
+        "definition": "típico",
         "example": "Ich benutze „typisch“ in einem Satz.",
         "contexts": [
           "typisch · tema",
@@ -19238,8 +19250,8 @@
     "vocabulary": [
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Recordatorio",
+        "definition": "Recordatorio",
         "example": "Ich benutze „Erinnerung“ in einem Satz.",
         "contexts": [
           "Erinnerung · tema",
@@ -19249,8 +19261,8 @@
       },
       {
         "word": "Kindheit",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Infancia",
+        "definition": "Infancia",
         "example": "Ich benutze „Kindheit“ in einem Satz.",
         "contexts": [
           "Kindheit · tema",
@@ -19260,8 +19272,8 @@
       },
       {
         "word": "Veränderung",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Cambio",
+        "definition": "Cambio",
         "example": "Ich benutze „Veränderung“ in einem Satz.",
         "contexts": [
           "Veränderung · tema",
@@ -19271,8 +19283,8 @@
       },
       {
         "word": "erzählen",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "contar",
+        "definition": "contar",
         "example": "Ich benutze „erzählen“ in einem Satz.",
         "contexts": [
           "erzählen · tema",
@@ -19282,8 +19294,8 @@
       },
       {
         "word": "Vergangenheit",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "Pasado",
+        "definition": "Pasado",
         "example": "Ich benutze „Vergangenheit“ in einem Satz.",
         "contexts": [
           "Vergangenheit · tema",
@@ -19293,8 +19305,8 @@
       },
       {
         "word": "Begegnung",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Encuentro",
+        "definition": "Encuentro",
         "example": "Ich benutze „Begegnung“ in einem Satz.",
         "contexts": [
           "Begegnung · tema",
@@ -19304,8 +19316,8 @@
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Tradición",
+        "definition": "Tradición",
         "example": "Ich benutze „Tradition“ in einem Satz.",
         "contexts": [
           "Tradition · tema",
@@ -19315,8 +19327,8 @@
       },
       {
         "word": "Generation",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Generación",
+        "definition": "Generación",
         "example": "Ich benutze „Generation“ in einem Satz.",
         "contexts": [
           "Generation · tema",
@@ -19326,8 +19338,8 @@
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "aprender",
+        "definition": "aprender",
         "example": "Ich benutze „lernen“ in einem Satz.",
         "contexts": [
           "lernen · tema",
@@ -19337,8 +19349,8 @@
       },
       {
         "word": "Bedeutung",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Significado",
+        "definition": "Significado",
         "example": "Ich benutze „Bedeutung“ in einem Satz.",
         "contexts": [
           "Bedeutung · tema",
@@ -19520,52 +19532,52 @@
     "vocabulary": [
       {
         "word": "Schule",
-        "translation": "Palabra clave 1",
+        "translation": "Colegio",
         "example": "Ich benutze das Wort „Schule“ im Kontext."
       },
       {
         "word": "Klasse",
-        "translation": "Palabra clave 2",
+        "translation": "Clase",
         "example": "Ich benutze das Wort „Klasse“ im Kontext."
       },
       {
         "word": "Lehrer",
-        "translation": "Palabra clave 3",
+        "translation": "Profesor",
         "example": "Ich benutze das Wort „Lehrer“ im Kontext."
       },
       {
         "word": "Freund",
-        "translation": "Palabra clave 4",
+        "translation": "Amigo",
         "example": "Ich benutze das Wort „Freund“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 5",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "spielen",
-        "translation": "Palabra clave 6",
+        "translation": "jugar",
         "example": "Ich benutze das Wort „spielen“ im Kontext."
       },
       {
         "word": "Musik",
-        "translation": "Palabra clave 7",
+        "translation": "Música",
         "example": "Ich benutze das Wort „Musik“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 8",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "morgen",
-        "translation": "Palabra clave 9",
+        "translation": "mañana",
         "example": "Ich benutze das Wort „morgen“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       }
     ],
@@ -19613,52 +19625,52 @@
     "vocabulary": [
       {
         "word": "Rezept",
-        "translation": "Palabra clave 1",
+        "translation": "Receta",
         "example": "Ich benutze das Wort „Rezept“ im Kontext."
       },
       {
         "word": "Zutaten",
-        "translation": "Palabra clave 2",
+        "translation": "Ingredientes",
         "example": "Ich benutze das Wort „Zutaten“ im Kontext."
       },
       {
         "word": "kochen",
-        "translation": "Palabra clave 3",
+        "translation": "cocinar",
         "example": "Ich benutze das Wort „kochen“ im Kontext."
       },
       {
         "word": "Geschmack",
-        "translation": "Palabra clave 4",
+        "translation": "Sabor",
         "example": "Ich benutze das Wort „Geschmack“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 5",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 6",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       },
       {
         "word": "probieren",
-        "translation": "Palabra clave 7",
+        "translation": "probar",
         "example": "Ich benutze das Wort „probieren“ im Kontext."
       },
       {
         "word": "Restaurant",
-        "translation": "Palabra clave 8",
+        "translation": "Restaurante",
         "example": "Ich benutze das Wort „Restaurant“ im Kontext."
       },
       {
         "word": "bestellen",
-        "translation": "Palabra clave 9",
+        "translation": "pedir",
         "example": "Ich benutze das Wort „bestellen“ im Kontext."
       },
       {
         "word": "typisch",
-        "translation": "Palabra clave 10",
+        "translation": "típico",
         "example": "Ich benutze das Wort „typisch“ im Kontext."
       }
     ],
@@ -19706,52 +19718,52 @@
     "vocabulary": [
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 1",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       },
       {
         "word": "Kindheit",
-        "translation": "Palabra clave 2",
+        "translation": "Infancia",
         "example": "Ich benutze das Wort „Kindheit“ im Kontext."
       },
       {
         "word": "Veränderung",
-        "translation": "Palabra clave 3",
+        "translation": "Cambio",
         "example": "Ich benutze das Wort „Veränderung“ im Kontext."
       },
       {
         "word": "erzählen",
-        "translation": "Palabra clave 4",
+        "translation": "contar",
         "example": "Ich benutze das Wort „erzählen“ im Kontext."
       },
       {
         "word": "Vergangenheit",
-        "translation": "Palabra clave 5",
+        "translation": "Pasado",
         "example": "Ich benutze das Wort „Vergangenheit“ im Kontext."
       },
       {
         "word": "Begegnung",
-        "translation": "Palabra clave 6",
+        "translation": "Encuentro",
         "example": "Ich benutze das Wort „Begegnung“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 7",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "Generation",
-        "translation": "Palabra clave 8",
+        "translation": "Generación",
         "example": "Ich benutze das Wort „Generation“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "Bedeutung",
-        "translation": "Palabra clave 10",
+        "translation": "Significado",
         "example": "Ich benutze das Wort „Bedeutung“ im Kontext."
       }
     ],
@@ -19799,52 +19811,52 @@
     "vocabulary": [
       {
         "word": "Schule",
-        "translation": "Palabra clave 1",
+        "translation": "Colegio",
         "example": "Ich benutze das Wort „Schule“ im Kontext."
       },
       {
         "word": "Klasse",
-        "translation": "Palabra clave 2",
+        "translation": "Clase",
         "example": "Ich benutze das Wort „Klasse“ im Kontext."
       },
       {
         "word": "Lehrer",
-        "translation": "Palabra clave 3",
+        "translation": "Profesor",
         "example": "Ich benutze das Wort „Lehrer“ im Kontext."
       },
       {
         "word": "Freund",
-        "translation": "Palabra clave 4",
+        "translation": "Amigo",
         "example": "Ich benutze das Wort „Freund“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 5",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "spielen",
-        "translation": "Palabra clave 6",
+        "translation": "jugar",
         "example": "Ich benutze das Wort „spielen“ im Kontext."
       },
       {
         "word": "Musik",
-        "translation": "Palabra clave 7",
+        "translation": "Música",
         "example": "Ich benutze das Wort „Musik“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 8",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "morgen",
-        "translation": "Palabra clave 9",
+        "translation": "mañana",
         "example": "Ich benutze das Wort „morgen“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 10",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       }
     ],
@@ -19883,52 +19895,52 @@
     "vocabulary": [
       {
         "word": "Rezept",
-        "translation": "Palabra clave 1",
+        "translation": "Receta",
         "example": "Ich benutze das Wort „Rezept“ im Kontext."
       },
       {
         "word": "Zutaten",
-        "translation": "Palabra clave 2",
+        "translation": "Ingredientes",
         "example": "Ich benutze das Wort „Zutaten“ im Kontext."
       },
       {
         "word": "kochen",
-        "translation": "Palabra clave 3",
+        "translation": "cocinar",
         "example": "Ich benutze das Wort „kochen“ im Kontext."
       },
       {
         "word": "Geschmack",
-        "translation": "Palabra clave 4",
+        "translation": "Sabor",
         "example": "Ich benutze das Wort „Geschmack“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 5",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "zusammen",
-        "translation": "Palabra clave 6",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „zusammen“ im Kontext."
       },
       {
         "word": "probieren",
-        "translation": "Palabra clave 7",
+        "translation": "probar",
         "example": "Ich benutze das Wort „probieren“ im Kontext."
       },
       {
         "word": "Restaurant",
-        "translation": "Palabra clave 8",
+        "translation": "Restaurante",
         "example": "Ich benutze das Wort „Restaurant“ im Kontext."
       },
       {
         "word": "bestellen",
-        "translation": "Palabra clave 9",
+        "translation": "pedir",
         "example": "Ich benutze das Wort „bestellen“ im Kontext."
       },
       {
         "word": "typisch",
-        "translation": "Palabra clave 10",
+        "translation": "típico",
         "example": "Ich benutze das Wort „typisch“ im Kontext."
       }
     ],
@@ -19967,52 +19979,52 @@
     "vocabulary": [
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 1",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       },
       {
         "word": "Kindheit",
-        "translation": "Palabra clave 2",
+        "translation": "Infancia",
         "example": "Ich benutze das Wort „Kindheit“ im Kontext."
       },
       {
         "word": "Veränderung",
-        "translation": "Palabra clave 3",
+        "translation": "Cambio",
         "example": "Ich benutze das Wort „Veränderung“ im Kontext."
       },
       {
         "word": "erzählen",
-        "translation": "Palabra clave 4",
+        "translation": "contar",
         "example": "Ich benutze das Wort „erzählen“ im Kontext."
       },
       {
         "word": "Vergangenheit",
-        "translation": "Palabra clave 5",
+        "translation": "Pasado",
         "example": "Ich benutze das Wort „Vergangenheit“ im Kontext."
       },
       {
         "word": "Begegnung",
-        "translation": "Palabra clave 6",
+        "translation": "Encuentro",
         "example": "Ich benutze das Wort „Begegnung“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 7",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "Generation",
-        "translation": "Palabra clave 8",
+        "translation": "Generación",
         "example": "Ich benutze das Wort „Generation“ im Kontext."
       },
       {
         "word": "lernen",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Ich benutze das Wort „lernen“ im Kontext."
       },
       {
         "word": "Bedeutung",
-        "translation": "Palabra clave 10",
+        "translation": "Significado",
         "example": "Ich benutze das Wort „Bedeutung“ im Kontext."
       }
     ],
@@ -20051,52 +20063,52 @@
     "vocabulary": [
       {
         "word": "aufstehen",
-        "translation": "Palabra clave 1",
+        "translation": "levantarse",
         "example": "Ich benutze das Wort „aufstehen“ im Kontext."
       },
       {
         "word": "frühstücken",
-        "translation": "Palabra clave 2",
+        "translation": "desayunar",
         "example": "Ich benutze das Wort „frühstücken“ im Kontext."
       },
       {
         "word": "arbeiten",
-        "translation": "Palabra clave 3",
+        "translation": "trabajar",
         "example": "Ich benutze das Wort „arbeiten“ im Kontext."
       },
       {
         "word": "kochen",
-        "translation": "Palabra clave 4",
+        "translation": "cocinar",
         "example": "Ich benutze das Wort „kochen“ im Kontext."
       },
       {
         "word": "schlafen",
-        "translation": "Palabra clave 5",
+        "translation": "dormir",
         "example": "Ich benutze das Wort „schlafen“ im Kontext."
       },
       {
         "word": "Uhr",
-        "translation": "Palabra clave 6",
+        "translation": "Reloj",
         "example": "Ich benutze das Wort „Uhr“ im Kontext."
       },
       {
         "word": "morgens",
-        "translation": "Palabra clave 7",
+        "translation": "por la mañana",
         "example": "Ich benutze das Wort „morgens“ im Kontext."
       },
       {
         "word": "abends",
-        "translation": "Palabra clave 8",
+        "translation": "por la noche",
         "example": "Ich benutze das Wort „abends“ im Kontext."
       },
       {
         "word": "Haushalt",
-        "translation": "Palabra clave 9",
+        "translation": "Hogar",
         "example": "Ich benutze das Wort „Haushalt“ im Kontext."
       },
       {
         "word": "ruhig",
-        "translation": "Palabra clave 10",
+        "translation": "tranquilo",
         "example": "Ich benutze das Wort „ruhig“ im Kontext."
       }
     ],
@@ -20121,42 +20133,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "aufstehen",
-          "frühstücken",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "abends",
+          "Haushalt",
+          "ruhig"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -20185,52 +20197,52 @@
     "vocabulary": [
       {
         "word": "Umwelt",
-        "translation": "Palabra clave 1",
+        "translation": "Medio ambiente",
         "example": "Ich benutze das Wort „Umwelt“ im Kontext."
       },
       {
         "word": "Müll",
-        "translation": "Palabra clave 2",
+        "translation": "Basura",
         "example": "Ich benutze das Wort „Müll“ im Kontext."
       },
       {
         "word": "trennen",
-        "translation": "Palabra clave 3",
+        "translation": "separar",
         "example": "Ich benutze das Wort „trennen“ im Kontext."
       },
       {
         "word": "Energie",
-        "translation": "Palabra clave 4",
+        "translation": "Energía",
         "example": "Ich benutze das Wort „Energie“ im Kontext."
       },
       {
         "word": "Fahrrad",
-        "translation": "Palabra clave 5",
+        "translation": "Bicicleta",
         "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
       },
       {
         "word": "sparen",
-        "translation": "Palabra clave 6",
+        "translation": "ahorrar",
         "example": "Ich benutze das Wort „sparen“ im Kontext."
       },
       {
         "word": "sauber",
-        "translation": "Palabra clave 7",
+        "translation": "limpio",
         "example": "Ich benutze das Wort „sauber“ im Kontext."
       },
       {
         "word": "Park",
-        "translation": "Palabra clave 8",
+        "translation": "Parque",
         "example": "Ich benutze das Wort „Park“ im Kontext."
       },
       {
         "word": "schützen",
-        "translation": "Palabra clave 9",
+        "translation": "proteger",
         "example": "Ich benutze das Wort „schützen“ im Kontext."
       },
       {
         "word": "wichtig",
-        "translation": "Palabra clave 10",
+        "translation": "importante",
         "example": "Ich benutze das Wort „wichtig“ im Kontext."
       }
     ],
@@ -20256,52 +20268,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Umwelt",
-          "Müll",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Park",
+          "schützen",
+          "wichtig"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-a2-natur-und-umwelt-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Natur und Umwelt“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Natur und Umwelt darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -20330,52 +20343,52 @@
     "vocabulary": [
       {
         "word": "Projekt",
-        "translation": "Palabra clave 1",
+        "translation": "Proyecto",
         "example": "Ich benutze das Wort „Projekt“ im Kontext."
       },
       {
         "word": "Recherche",
-        "translation": "Palabra clave 2",
+        "translation": "Búsqueda",
         "example": "Ich benutze das Wort „Recherche“ im Kontext."
       },
       {
         "word": "Aufgabe",
-        "translation": "Palabra clave 3",
+        "translation": "Tarea",
         "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
       },
       {
         "word": "Zusammenarbeit",
-        "translation": "Palabra clave 4",
+        "translation": "Colaboración",
         "example": "Ich benutze das Wort „Zusammenarbeit“ im Kontext."
       },
       {
         "word": "vorstellen",
-        "translation": "Palabra clave 5",
+        "translation": "presentar",
         "example": "Ich benutze das Wort „vorstellen“ im Kontext."
       },
       {
         "word": "Vereinbarung",
-        "translation": "Palabra clave 6",
+        "translation": "Acuerdo",
         "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
       },
       {
         "word": "Lösung",
-        "translation": "Palabra clave 7",
+        "translation": "Solución",
         "example": "Ich benutze das Wort „Lösung“ im Kontext."
       },
       {
         "word": "Zweck",
-        "translation": "Palabra clave 8",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Zweck“ im Kontext."
       },
       {
         "word": "teilnehmen",
-        "translation": "Palabra clave 9",
+        "translation": "participar",
         "example": "Ich benutze das Wort „teilnehmen“ im Kontext."
       },
       {
         "word": "Ergebnis",
-        "translation": "Palabra clave 10",
+        "translation": "Resultado",
         "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
       }
     ],
@@ -20402,52 +20415,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Projekt",
-          "Recherche",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Zweck",
+          "teilnehmen",
+          "Ergebnis"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-b1-gemeinschaftsprojekt-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Gemeinschaftsprojekt“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Gemeinschaftsprojekt darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -20476,52 +20490,52 @@
     "vocabulary": [
       {
         "word": "aufstehen",
-        "translation": "Palabra clave 1",
+        "translation": "levantarse",
         "example": "Ich benutze das Wort „aufstehen“ im Kontext."
       },
       {
         "word": "frühstücken",
-        "translation": "Palabra clave 2",
+        "translation": "desayunar",
         "example": "Ich benutze das Wort „frühstücken“ im Kontext."
       },
       {
         "word": "arbeiten",
-        "translation": "Palabra clave 3",
+        "translation": "trabajar",
         "example": "Ich benutze das Wort „arbeiten“ im Kontext."
       },
       {
         "word": "kochen",
-        "translation": "Palabra clave 4",
+        "translation": "cocinar",
         "example": "Ich benutze das Wort „kochen“ im Kontext."
       },
       {
         "word": "schlafen",
-        "translation": "Palabra clave 5",
+        "translation": "dormir",
         "example": "Ich benutze das Wort „schlafen“ im Kontext."
       },
       {
         "word": "Uhr",
-        "translation": "Palabra clave 6",
+        "translation": "Reloj",
         "example": "Ich benutze das Wort „Uhr“ im Kontext."
       },
       {
         "word": "morgens",
-        "translation": "Palabra clave 7",
+        "translation": "por la mañana",
         "example": "Ich benutze das Wort „morgens“ im Kontext."
       },
       {
         "word": "abends",
-        "translation": "Palabra clave 8",
+        "translation": "por la noche",
         "example": "Ich benutze das Wort „abends“ im Kontext."
       },
       {
         "word": "Haushalt",
-        "translation": "Palabra clave 9",
+        "translation": "Hogar",
         "example": "Ich benutze das Wort „Haushalt“ im Kontext."
       },
       {
         "word": "ruhig",
-        "translation": "Palabra clave 10",
+        "translation": "tranquilo",
         "example": "Ich benutze das Wort „ruhig“ im Kontext."
       }
     ],
@@ -20530,10 +20544,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Akkusativartikel im Alltag",
-        "definition": "Práctica guiada de Akkusativartikel im Alltag.",
+        "name": "Zu Hause: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -20543,7 +20557,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
               {},
               {},
@@ -20553,7 +20567,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Satz.",
             "options": [
               {},
               {},
@@ -20563,7 +20577,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
               {},
               {},
@@ -20573,7 +20587,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welche Frage ist richtig?",
             "options": [
               {},
               {},
@@ -20583,7 +20597,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
               {},
               {},
@@ -20593,7 +20607,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Satz über ein Haus.",
             "options": [
               {},
               {},
@@ -20603,7 +20617,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
               {},
               {},
@@ -20613,7 +20627,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
               {},
               {},
@@ -20628,89 +20642,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "wohne",
+          "wohnt",
+          "wohnen",
+          "wohnst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Leon sprechen mit Anna.",
+          "Leon spricht mit Anna.",
+          "Leon spreche mit Anna.",
+          "Leon sprich mit Anna."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "lerne",
+          "lernt",
+          "lernen",
+          "lernst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Wo wohnst?",
+          "Wo wohnen du?",
+          "Wo du wohnst?",
+          "Wo wohnst du?"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "stellt",
+          "stelle",
+          "stellen",
+          "stellst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Das Haus sind hell.",
+          "Das Haus ist hell.",
+          "Die Haus ist hell.",
+          "Das Haus ist helle."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "trinken",
+          "trinkt",
+          "trinkst",
+          "trinke"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Jeden Morgen arbeitet ich im Zentrum.",
+          "Gestern arbeiten ich im Zentrum.",
+          "Morgen arbeitete ich im Zentrum.",
+          "Jeden Morgen arbeite ich im Zentrum."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
@@ -20740,52 +20754,52 @@
     "vocabulary": [
       {
         "word": "Umwelt",
-        "translation": "Palabra clave 1",
+        "translation": "Medio ambiente",
         "example": "Ich benutze das Wort „Umwelt“ im Kontext."
       },
       {
         "word": "Müll",
-        "translation": "Palabra clave 2",
+        "translation": "Basura",
         "example": "Ich benutze das Wort „Müll“ im Kontext."
       },
       {
         "word": "trennen",
-        "translation": "Palabra clave 3",
+        "translation": "separar",
         "example": "Ich benutze das Wort „trennen“ im Kontext."
       },
       {
         "word": "Energie",
-        "translation": "Palabra clave 4",
+        "translation": "Energía",
         "example": "Ich benutze das Wort „Energie“ im Kontext."
       },
       {
         "word": "Fahrrad",
-        "translation": "Palabra clave 5",
+        "translation": "Bicicleta",
         "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
       },
       {
         "word": "sparen",
-        "translation": "Palabra clave 6",
+        "translation": "ahorrar",
         "example": "Ich benutze das Wort „sparen“ im Kontext."
       },
       {
         "word": "sauber",
-        "translation": "Palabra clave 7",
+        "translation": "limpio",
         "example": "Ich benutze das Wort „sauber“ im Kontext."
       },
       {
         "word": "Park",
-        "translation": "Palabra clave 8",
+        "translation": "Parque",
         "example": "Ich benutze das Wort „Park“ im Kontext."
       },
       {
         "word": "schützen",
-        "translation": "Palabra clave 9",
+        "translation": "proteger",
         "example": "Ich benutze das Wort „schützen“ im Kontext."
       },
       {
         "word": "wichtig",
-        "translation": "Palabra clave 10",
+        "translation": "importante",
         "example": "Ich benutze das Wort „wichtig“ im Kontext."
       }
     ],
@@ -20794,10 +20808,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Komparativ und Superlativ",
-        "definition": "Práctica guiada de Komparativ und Superlativ.",
+        "name": "Natur und Umwelt: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
         "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -20807,7 +20821,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
               {},
               {},
@@ -20817,7 +20831,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
               {},
               {},
@@ -20827,7 +20841,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
               {},
               {},
@@ -20837,7 +20851,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
               {},
               {},
@@ -20847,7 +20861,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
               {},
               {},
@@ -20857,7 +20871,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
               {},
               {},
@@ -20867,7 +20881,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
               {},
               {},
@@ -20877,7 +20891,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
               {},
               {},
@@ -20892,89 +20906,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "habe besucht",
+          "besuche",
+          "habe besuchen",
+          "bin besucht"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben zusammen essen.",
+          "Wir haben zusammen gegessen.",
+          "Wir sind zusammen gegessen.",
+          "Wir essen gestern zusammen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "ist kommen",
+          "hat gekommen",
+          "ist gekommen",
+          "kommt gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
+          "Zuerst haben wir gelernt, weil sind wir gegangen.",
+          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
+          "Zuerst haben wir gelernt, dann sind wir gegangen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Hast gelesen",
+          "Hast lesen",
+          "Bist gelesen",
+          "Liest gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Meine Freunde sind den Bus genommen.",
+          "Meine Freunde haben den Bus genommen.",
+          "Meine Freunde haben den Bus nehmen.",
+          "Meine Freunde nehmen gestern den Bus."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "haben machen",
+          "sind gemacht",
+          "haben gemacht",
+          "machen gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Am Samstag bin ich meine Cousine getroffen.",
+          "Am Samstag treffe ich meine Cousine morgen.",
+          "Am Samstag treffen meine Cousine.",
+          "Am Samstag habe ich meine Cousine getroffen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
@@ -21004,52 +21018,52 @@
     "vocabulary": [
       {
         "word": "Projekt",
-        "translation": "Palabra clave 1",
+        "translation": "Proyecto",
         "example": "Ich benutze das Wort „Projekt“ im Kontext."
       },
       {
         "word": "Recherche",
-        "translation": "Palabra clave 2",
+        "translation": "Búsqueda",
         "example": "Ich benutze das Wort „Recherche“ im Kontext."
       },
       {
         "word": "Aufgabe",
-        "translation": "Palabra clave 3",
+        "translation": "Tarea",
         "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
       },
       {
         "word": "Zusammenarbeit",
-        "translation": "Palabra clave 4",
+        "translation": "Colaboración",
         "example": "Ich benutze das Wort „Zusammenarbeit“ im Kontext."
       },
       {
         "word": "vorstellen",
-        "translation": "Palabra clave 5",
+        "translation": "presentar",
         "example": "Ich benutze das Wort „vorstellen“ im Kontext."
       },
       {
         "word": "Vereinbarung",
-        "translation": "Palabra clave 6",
+        "translation": "Acuerdo",
         "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
       },
       {
         "word": "Lösung",
-        "translation": "Palabra clave 7",
+        "translation": "Solución",
         "example": "Ich benutze das Wort „Lösung“ im Kontext."
       },
       {
         "word": "Zweck",
-        "translation": "Palabra clave 8",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Zweck“ im Kontext."
       },
       {
         "word": "teilnehmen",
-        "translation": "Palabra clave 9",
+        "translation": "participar",
         "example": "Ich benutze das Wort „teilnehmen“ im Kontext."
       },
       {
         "word": "Ergebnis",
-        "translation": "Palabra clave 10",
+        "translation": "Resultado",
         "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
       }
     ],
@@ -21058,10 +21072,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Partizipien als Adjektive",
-        "definition": "Práctica guiada de Partizipien als Adjektive.",
+        "name": "Gemeinschaftsprojekt: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -21071,7 +21085,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
               {},
               {},
@@ -21081,7 +21095,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
               {},
               {},
@@ -21091,7 +21105,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
               {},
               {},
@@ -21101,7 +21115,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
               {},
               {},
@@ -21111,7 +21125,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
               {},
               {},
@@ -21121,7 +21135,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle eine logische Folge.",
             "options": [
               {},
               {},
@@ -21131,7 +21145,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
               {},
               {},
@@ -21141,7 +21155,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
               {},
               {},
@@ -21156,89 +21170,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "sei"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Ich möchte ausgehen, deshalb es regnet.",
+          "Ich möchte ausgehen, aber es regnet.",
+          "Ich möchte ausgehen, weil es regnet.",
+          "Ich möchte ausgehen, dann es regnet."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "ist",
+          "bin",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Das Projekt funktioniert warum?",
+          "Das Projekt gestern funktioniert?",
+          "Funktionieren das Projekt meiner Meinung.",
+          "Meiner Meinung nach funktioniert das Projekt."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
+          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
+          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
+          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "haben",
+          "hat",
+          "hatte"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Ich nehme den Zug er nachhaltiger ist weil.",
+          "Ich nehme den Zug, aber er nachhaltiger ist.",
+          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
+          "Ich nehme den Zug, weil er nachhaltiger ist."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
@@ -21268,52 +21282,52 @@
     "vocabulary": [
       {
         "word": "aufstehen",
-        "translation": "Palabra clave 1",
+        "translation": "levantarse",
         "example": "Ich benutze das Wort „aufstehen“ im Kontext."
       },
       {
         "word": "frühstücken",
-        "translation": "Palabra clave 2",
+        "translation": "desayunar",
         "example": "Ich benutze das Wort „frühstücken“ im Kontext."
       },
       {
         "word": "arbeiten",
-        "translation": "Palabra clave 3",
+        "translation": "trabajar",
         "example": "Ich benutze das Wort „arbeiten“ im Kontext."
       },
       {
         "word": "kochen",
-        "translation": "Palabra clave 4",
+        "translation": "cocinar",
         "example": "Ich benutze das Wort „kochen“ im Kontext."
       },
       {
         "word": "schlafen",
-        "translation": "Palabra clave 5",
+        "translation": "dormir",
         "example": "Ich benutze das Wort „schlafen“ im Kontext."
       },
       {
         "word": "Uhr",
-        "translation": "Palabra clave 6",
+        "translation": "Reloj",
         "example": "Ich benutze das Wort „Uhr“ im Kontext."
       },
       {
         "word": "morgens",
-        "translation": "Palabra clave 7",
+        "translation": "por la mañana",
         "example": "Ich benutze das Wort „morgens“ im Kontext."
       },
       {
         "word": "abends",
-        "translation": "Palabra clave 8",
+        "translation": "por la noche",
         "example": "Ich benutze das Wort „abends“ im Kontext."
       },
       {
         "word": "Haushalt",
-        "translation": "Palabra clave 9",
+        "translation": "Hogar",
         "example": "Ich benutze das Wort „Haushalt“ im Kontext."
       },
       {
         "word": "ruhig",
-        "translation": "Palabra clave 10",
+        "translation": "tranquilo",
         "example": "Ich benutze das Wort „ruhig“ im Kontext."
       }
     ],
@@ -21488,52 +21502,52 @@
     "vocabulary": [
       {
         "word": "Umwelt",
-        "translation": "Palabra clave 1",
+        "translation": "Medio ambiente",
         "example": "Ich benutze das Wort „Umwelt“ im Kontext."
       },
       {
         "word": "Müll",
-        "translation": "Palabra clave 2",
+        "translation": "Basura",
         "example": "Ich benutze das Wort „Müll“ im Kontext."
       },
       {
         "word": "trennen",
-        "translation": "Palabra clave 3",
+        "translation": "separar",
         "example": "Ich benutze das Wort „trennen“ im Kontext."
       },
       {
         "word": "Energie",
-        "translation": "Palabra clave 4",
+        "translation": "Energía",
         "example": "Ich benutze das Wort „Energie“ im Kontext."
       },
       {
         "word": "Fahrrad",
-        "translation": "Palabra clave 5",
+        "translation": "Bicicleta",
         "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
       },
       {
         "word": "sparen",
-        "translation": "Palabra clave 6",
+        "translation": "ahorrar",
         "example": "Ich benutze das Wort „sparen“ im Kontext."
       },
       {
         "word": "sauber",
-        "translation": "Palabra clave 7",
+        "translation": "limpio",
         "example": "Ich benutze das Wort „sauber“ im Kontext."
       },
       {
         "word": "Park",
-        "translation": "Palabra clave 8",
+        "translation": "Parque",
         "example": "Ich benutze das Wort „Park“ im Kontext."
       },
       {
         "word": "schützen",
-        "translation": "Palabra clave 9",
+        "translation": "proteger",
         "example": "Ich benutze das Wort „schützen“ im Kontext."
       },
       {
         "word": "wichtig",
-        "translation": "Palabra clave 10",
+        "translation": "importante",
         "example": "Ich benutze das Wort „wichtig“ im Kontext."
       }
     ],
@@ -21708,52 +21722,52 @@
     "vocabulary": [
       {
         "word": "Projekt",
-        "translation": "Palabra clave 1",
+        "translation": "Proyecto",
         "example": "Ich benutze das Wort „Projekt“ im Kontext."
       },
       {
         "word": "Recherche",
-        "translation": "Palabra clave 2",
+        "translation": "Búsqueda",
         "example": "Ich benutze das Wort „Recherche“ im Kontext."
       },
       {
         "word": "Aufgabe",
-        "translation": "Palabra clave 3",
+        "translation": "Tarea",
         "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
       },
       {
         "word": "Zusammenarbeit",
-        "translation": "Palabra clave 4",
+        "translation": "Colaboración",
         "example": "Ich benutze das Wort „Zusammenarbeit“ im Kontext."
       },
       {
         "word": "vorstellen",
-        "translation": "Palabra clave 5",
+        "translation": "presentar",
         "example": "Ich benutze das Wort „vorstellen“ im Kontext."
       },
       {
         "word": "Vereinbarung",
-        "translation": "Palabra clave 6",
+        "translation": "Acuerdo",
         "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
       },
       {
         "word": "Lösung",
-        "translation": "Palabra clave 7",
+        "translation": "Solución",
         "example": "Ich benutze das Wort „Lösung“ im Kontext."
       },
       {
         "word": "Zweck",
-        "translation": "Palabra clave 8",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Zweck“ im Kontext."
       },
       {
         "word": "teilnehmen",
-        "translation": "Palabra clave 9",
+        "translation": "participar",
         "example": "Ich benutze das Wort „teilnehmen“ im Kontext."
       },
       {
         "word": "Ergebnis",
-        "translation": "Palabra clave 10",
+        "translation": "Resultado",
         "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
       }
     ],
@@ -21928,8 +21942,8 @@
     "vocabulary": [
       {
         "word": "aufstehen",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "levantarse",
+        "definition": "levantarse",
         "example": "Ich benutze „aufstehen“ in einem Satz.",
         "contexts": [
           "aufstehen · tema",
@@ -21939,8 +21953,8 @@
       },
       {
         "word": "frühstücken",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "desayunar",
+        "definition": "desayunar",
         "example": "Ich benutze „frühstücken“ in einem Satz.",
         "contexts": [
           "frühstücken · tema",
@@ -21950,8 +21964,8 @@
       },
       {
         "word": "arbeiten",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "trabajar",
+        "definition": "trabajar",
         "example": "Ich benutze „arbeiten“ in einem Satz.",
         "contexts": [
           "arbeiten · tema",
@@ -21961,8 +21975,8 @@
       },
       {
         "word": "kochen",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "cocinar",
+        "definition": "cocinar",
         "example": "Ich benutze „kochen“ in einem Satz.",
         "contexts": [
           "kochen · tema",
@@ -21972,8 +21986,8 @@
       },
       {
         "word": "schlafen",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "dormir",
+        "definition": "dormir",
         "example": "Ich benutze „schlafen“ in einem Satz.",
         "contexts": [
           "schlafen · tema",
@@ -21983,8 +21997,8 @@
       },
       {
         "word": "Uhr",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Reloj",
+        "definition": "Reloj",
         "example": "Ich benutze „Uhr“ in einem Satz.",
         "contexts": [
           "Uhr · tema",
@@ -21994,8 +22008,8 @@
       },
       {
         "word": "morgens",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "por la mañana",
+        "definition": "por la mañana",
         "example": "Ich benutze „morgens“ in einem Satz.",
         "contexts": [
           "morgens · tema",
@@ -22005,8 +22019,8 @@
       },
       {
         "word": "abends",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "por la noche",
+        "definition": "por la noche",
         "example": "Ich benutze „abends“ in einem Satz.",
         "contexts": [
           "abends · tema",
@@ -22016,8 +22030,8 @@
       },
       {
         "word": "Haushalt",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "Hogar",
+        "definition": "Hogar",
         "example": "Ich benutze „Haushalt“ in einem Satz.",
         "contexts": [
           "Haushalt · tema",
@@ -22027,8 +22041,8 @@
       },
       {
         "word": "ruhig",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "tranquilo",
+        "definition": "tranquilo",
         "example": "Ich benutze „ruhig“ in einem Satz.",
         "contexts": [
           "ruhig · tema",
@@ -22210,8 +22224,8 @@
     "vocabulary": [
       {
         "word": "Umwelt",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Medio ambiente",
+        "definition": "Medio ambiente",
         "example": "Ich benutze „Umwelt“ in einem Satz.",
         "contexts": [
           "Umwelt · tema",
@@ -22221,8 +22235,8 @@
       },
       {
         "word": "Müll",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Basura",
+        "definition": "Basura",
         "example": "Ich benutze „Müll“ in einem Satz.",
         "contexts": [
           "Müll · tema",
@@ -22232,8 +22246,8 @@
       },
       {
         "word": "trennen",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "separar",
+        "definition": "separar",
         "example": "Ich benutze „trennen“ in einem Satz.",
         "contexts": [
           "trennen · tema",
@@ -22243,8 +22257,8 @@
       },
       {
         "word": "Energie",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Energía",
+        "definition": "Energía",
         "example": "Ich benutze „Energie“ in einem Satz.",
         "contexts": [
           "Energie · tema",
@@ -22254,8 +22268,8 @@
       },
       {
         "word": "Fahrrad",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "Bicicleta",
+        "definition": "Bicicleta",
         "example": "Ich benutze „Fahrrad“ in einem Satz.",
         "contexts": [
           "Fahrrad · tema",
@@ -22265,8 +22279,8 @@
       },
       {
         "word": "sparen",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "ahorrar",
+        "definition": "ahorrar",
         "example": "Ich benutze „sparen“ in einem Satz.",
         "contexts": [
           "sparen · tema",
@@ -22276,8 +22290,8 @@
       },
       {
         "word": "sauber",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "limpio",
+        "definition": "limpio",
         "example": "Ich benutze „sauber“ in einem Satz.",
         "contexts": [
           "sauber · tema",
@@ -22287,8 +22301,8 @@
       },
       {
         "word": "Park",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Parque",
+        "definition": "Parque",
         "example": "Ich benutze „Park“ in einem Satz.",
         "contexts": [
           "Park · tema",
@@ -22298,8 +22312,8 @@
       },
       {
         "word": "schützen",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "proteger",
+        "definition": "proteger",
         "example": "Ich benutze „schützen“ in einem Satz.",
         "contexts": [
           "schützen · tema",
@@ -22309,8 +22323,8 @@
       },
       {
         "word": "wichtig",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "importante",
+        "definition": "importante",
         "example": "Ich benutze „wichtig“ in einem Satz.",
         "contexts": [
           "wichtig · tema",
@@ -22492,8 +22506,8 @@
     "vocabulary": [
       {
         "word": "Projekt",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Proyecto",
+        "definition": "Proyecto",
         "example": "Ich benutze „Projekt“ in einem Satz.",
         "contexts": [
           "Projekt · tema",
@@ -22503,8 +22517,8 @@
       },
       {
         "word": "Recherche",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Búsqueda",
+        "definition": "Búsqueda",
         "example": "Ich benutze „Recherche“ in einem Satz.",
         "contexts": [
           "Recherche · tema",
@@ -22514,8 +22528,8 @@
       },
       {
         "word": "Aufgabe",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Tarea",
+        "definition": "Tarea",
         "example": "Ich benutze „Aufgabe“ in einem Satz.",
         "contexts": [
           "Aufgabe · tema",
@@ -22525,8 +22539,8 @@
       },
       {
         "word": "Zusammenarbeit",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Colaboración",
+        "definition": "Colaboración",
         "example": "Ich benutze „Zusammenarbeit“ in einem Satz.",
         "contexts": [
           "Zusammenarbeit · tema",
@@ -22536,8 +22550,8 @@
       },
       {
         "word": "vorstellen",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "presentar",
+        "definition": "presentar",
         "example": "Ich benutze „vorstellen“ in einem Satz.",
         "contexts": [
           "vorstellen · tema",
@@ -22547,8 +22561,8 @@
       },
       {
         "word": "Vereinbarung",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Acuerdo",
+        "definition": "Acuerdo",
         "example": "Ich benutze „Vereinbarung“ in einem Satz.",
         "contexts": [
           "Vereinbarung · tema",
@@ -22558,8 +22572,8 @@
       },
       {
         "word": "Lösung",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Solución",
+        "definition": "Solución",
         "example": "Ich benutze „Lösung“ in einem Satz.",
         "contexts": [
           "Lösung · tema",
@@ -22569,8 +22583,8 @@
       },
       {
         "word": "Zweck",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Objetivo",
+        "definition": "Objetivo",
         "example": "Ich benutze „Zweck“ in einem Satz.",
         "contexts": [
           "Zweck · tema",
@@ -22580,8 +22594,8 @@
       },
       {
         "word": "teilnehmen",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "participar",
+        "definition": "participar",
         "example": "Ich benutze „teilnehmen“ in einem Satz.",
         "contexts": [
           "teilnehmen · tema",
@@ -22591,8 +22605,8 @@
       },
       {
         "word": "Ergebnis",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Resultado",
+        "definition": "Resultado",
         "example": "Ich benutze „Ergebnis“ in einem Satz.",
         "contexts": [
           "Ergebnis · tema",
@@ -22774,52 +22788,52 @@
     "vocabulary": [
       {
         "word": "aufstehen",
-        "translation": "Palabra clave 1",
+        "translation": "levantarse",
         "example": "Ich benutze das Wort „aufstehen“ im Kontext."
       },
       {
         "word": "frühstücken",
-        "translation": "Palabra clave 2",
+        "translation": "desayunar",
         "example": "Ich benutze das Wort „frühstücken“ im Kontext."
       },
       {
         "word": "arbeiten",
-        "translation": "Palabra clave 3",
+        "translation": "trabajar",
         "example": "Ich benutze das Wort „arbeiten“ im Kontext."
       },
       {
         "word": "kochen",
-        "translation": "Palabra clave 4",
+        "translation": "cocinar",
         "example": "Ich benutze das Wort „kochen“ im Kontext."
       },
       {
         "word": "schlafen",
-        "translation": "Palabra clave 5",
+        "translation": "dormir",
         "example": "Ich benutze das Wort „schlafen“ im Kontext."
       },
       {
         "word": "Uhr",
-        "translation": "Palabra clave 6",
+        "translation": "Reloj",
         "example": "Ich benutze das Wort „Uhr“ im Kontext."
       },
       {
         "word": "morgens",
-        "translation": "Palabra clave 7",
+        "translation": "por la mañana",
         "example": "Ich benutze das Wort „morgens“ im Kontext."
       },
       {
         "word": "abends",
-        "translation": "Palabra clave 8",
+        "translation": "por la noche",
         "example": "Ich benutze das Wort „abends“ im Kontext."
       },
       {
         "word": "Haushalt",
-        "translation": "Palabra clave 9",
+        "translation": "Hogar",
         "example": "Ich benutze das Wort „Haushalt“ im Kontext."
       },
       {
         "word": "ruhig",
-        "translation": "Palabra clave 10",
+        "translation": "tranquilo",
         "example": "Ich benutze das Wort „ruhig“ im Kontext."
       }
     ],
@@ -22867,52 +22881,52 @@
     "vocabulary": [
       {
         "word": "Umwelt",
-        "translation": "Palabra clave 1",
+        "translation": "Medio ambiente",
         "example": "Ich benutze das Wort „Umwelt“ im Kontext."
       },
       {
         "word": "Müll",
-        "translation": "Palabra clave 2",
+        "translation": "Basura",
         "example": "Ich benutze das Wort „Müll“ im Kontext."
       },
       {
         "word": "trennen",
-        "translation": "Palabra clave 3",
+        "translation": "separar",
         "example": "Ich benutze das Wort „trennen“ im Kontext."
       },
       {
         "word": "Energie",
-        "translation": "Palabra clave 4",
+        "translation": "Energía",
         "example": "Ich benutze das Wort „Energie“ im Kontext."
       },
       {
         "word": "Fahrrad",
-        "translation": "Palabra clave 5",
+        "translation": "Bicicleta",
         "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
       },
       {
         "word": "sparen",
-        "translation": "Palabra clave 6",
+        "translation": "ahorrar",
         "example": "Ich benutze das Wort „sparen“ im Kontext."
       },
       {
         "word": "sauber",
-        "translation": "Palabra clave 7",
+        "translation": "limpio",
         "example": "Ich benutze das Wort „sauber“ im Kontext."
       },
       {
         "word": "Park",
-        "translation": "Palabra clave 8",
+        "translation": "Parque",
         "example": "Ich benutze das Wort „Park“ im Kontext."
       },
       {
         "word": "schützen",
-        "translation": "Palabra clave 9",
+        "translation": "proteger",
         "example": "Ich benutze das Wort „schützen“ im Kontext."
       },
       {
         "word": "wichtig",
-        "translation": "Palabra clave 10",
+        "translation": "importante",
         "example": "Ich benutze das Wort „wichtig“ im Kontext."
       }
     ],
@@ -22960,52 +22974,52 @@
     "vocabulary": [
       {
         "word": "Projekt",
-        "translation": "Palabra clave 1",
+        "translation": "Proyecto",
         "example": "Ich benutze das Wort „Projekt“ im Kontext."
       },
       {
         "word": "Recherche",
-        "translation": "Palabra clave 2",
+        "translation": "Búsqueda",
         "example": "Ich benutze das Wort „Recherche“ im Kontext."
       },
       {
         "word": "Aufgabe",
-        "translation": "Palabra clave 3",
+        "translation": "Tarea",
         "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
       },
       {
         "word": "Zusammenarbeit",
-        "translation": "Palabra clave 4",
+        "translation": "Colaboración",
         "example": "Ich benutze das Wort „Zusammenarbeit“ im Kontext."
       },
       {
         "word": "vorstellen",
-        "translation": "Palabra clave 5",
+        "translation": "presentar",
         "example": "Ich benutze das Wort „vorstellen“ im Kontext."
       },
       {
         "word": "Vereinbarung",
-        "translation": "Palabra clave 6",
+        "translation": "Acuerdo",
         "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
       },
       {
         "word": "Lösung",
-        "translation": "Palabra clave 7",
+        "translation": "Solución",
         "example": "Ich benutze das Wort „Lösung“ im Kontext."
       },
       {
         "word": "Zweck",
-        "translation": "Palabra clave 8",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Zweck“ im Kontext."
       },
       {
         "word": "teilnehmen",
-        "translation": "Palabra clave 9",
+        "translation": "participar",
         "example": "Ich benutze das Wort „teilnehmen“ im Kontext."
       },
       {
         "word": "Ergebnis",
-        "translation": "Palabra clave 10",
+        "translation": "Resultado",
         "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
       }
     ],
@@ -23053,52 +23067,52 @@
     "vocabulary": [
       {
         "word": "aufstehen",
-        "translation": "Palabra clave 1",
+        "translation": "levantarse",
         "example": "Ich benutze das Wort „aufstehen“ im Kontext."
       },
       {
         "word": "frühstücken",
-        "translation": "Palabra clave 2",
+        "translation": "desayunar",
         "example": "Ich benutze das Wort „frühstücken“ im Kontext."
       },
       {
         "word": "arbeiten",
-        "translation": "Palabra clave 3",
+        "translation": "trabajar",
         "example": "Ich benutze das Wort „arbeiten“ im Kontext."
       },
       {
         "word": "kochen",
-        "translation": "Palabra clave 4",
+        "translation": "cocinar",
         "example": "Ich benutze das Wort „kochen“ im Kontext."
       },
       {
         "word": "schlafen",
-        "translation": "Palabra clave 5",
+        "translation": "dormir",
         "example": "Ich benutze das Wort „schlafen“ im Kontext."
       },
       {
         "word": "Uhr",
-        "translation": "Palabra clave 6",
+        "translation": "Reloj",
         "example": "Ich benutze das Wort „Uhr“ im Kontext."
       },
       {
         "word": "morgens",
-        "translation": "Palabra clave 7",
+        "translation": "por la mañana",
         "example": "Ich benutze das Wort „morgens“ im Kontext."
       },
       {
         "word": "abends",
-        "translation": "Palabra clave 8",
+        "translation": "por la noche",
         "example": "Ich benutze das Wort „abends“ im Kontext."
       },
       {
         "word": "Haushalt",
-        "translation": "Palabra clave 9",
+        "translation": "Hogar",
         "example": "Ich benutze das Wort „Haushalt“ im Kontext."
       },
       {
         "word": "ruhig",
-        "translation": "Palabra clave 10",
+        "translation": "tranquilo",
         "example": "Ich benutze das Wort „ruhig“ im Kontext."
       }
     ],
@@ -23137,52 +23151,52 @@
     "vocabulary": [
       {
         "word": "Umwelt",
-        "translation": "Palabra clave 1",
+        "translation": "Medio ambiente",
         "example": "Ich benutze das Wort „Umwelt“ im Kontext."
       },
       {
         "word": "Müll",
-        "translation": "Palabra clave 2",
+        "translation": "Basura",
         "example": "Ich benutze das Wort „Müll“ im Kontext."
       },
       {
         "word": "trennen",
-        "translation": "Palabra clave 3",
+        "translation": "separar",
         "example": "Ich benutze das Wort „trennen“ im Kontext."
       },
       {
         "word": "Energie",
-        "translation": "Palabra clave 4",
+        "translation": "Energía",
         "example": "Ich benutze das Wort „Energie“ im Kontext."
       },
       {
         "word": "Fahrrad",
-        "translation": "Palabra clave 5",
+        "translation": "Bicicleta",
         "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
       },
       {
         "word": "sparen",
-        "translation": "Palabra clave 6",
+        "translation": "ahorrar",
         "example": "Ich benutze das Wort „sparen“ im Kontext."
       },
       {
         "word": "sauber",
-        "translation": "Palabra clave 7",
+        "translation": "limpio",
         "example": "Ich benutze das Wort „sauber“ im Kontext."
       },
       {
         "word": "Park",
-        "translation": "Palabra clave 8",
+        "translation": "Parque",
         "example": "Ich benutze das Wort „Park“ im Kontext."
       },
       {
         "word": "schützen",
-        "translation": "Palabra clave 9",
+        "translation": "proteger",
         "example": "Ich benutze das Wort „schützen“ im Kontext."
       },
       {
         "word": "wichtig",
-        "translation": "Palabra clave 10",
+        "translation": "importante",
         "example": "Ich benutze das Wort „wichtig“ im Kontext."
       }
     ],
@@ -23221,52 +23235,52 @@
     "vocabulary": [
       {
         "word": "Projekt",
-        "translation": "Palabra clave 1",
+        "translation": "Proyecto",
         "example": "Ich benutze das Wort „Projekt“ im Kontext."
       },
       {
         "word": "Recherche",
-        "translation": "Palabra clave 2",
+        "translation": "Búsqueda",
         "example": "Ich benutze das Wort „Recherche“ im Kontext."
       },
       {
         "word": "Aufgabe",
-        "translation": "Palabra clave 3",
+        "translation": "Tarea",
         "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
       },
       {
         "word": "Zusammenarbeit",
-        "translation": "Palabra clave 4",
+        "translation": "Colaboración",
         "example": "Ich benutze das Wort „Zusammenarbeit“ im Kontext."
       },
       {
         "word": "vorstellen",
-        "translation": "Palabra clave 5",
+        "translation": "presentar",
         "example": "Ich benutze das Wort „vorstellen“ im Kontext."
       },
       {
         "word": "Vereinbarung",
-        "translation": "Palabra clave 6",
+        "translation": "Acuerdo",
         "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
       },
       {
         "word": "Lösung",
-        "translation": "Palabra clave 7",
+        "translation": "Solución",
         "example": "Ich benutze das Wort „Lösung“ im Kontext."
       },
       {
         "word": "Zweck",
-        "translation": "Palabra clave 8",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Zweck“ im Kontext."
       },
       {
         "word": "teilnehmen",
-        "translation": "Palabra clave 9",
+        "translation": "participar",
         "example": "Ich benutze das Wort „teilnehmen“ im Kontext."
       },
       {
         "word": "Ergebnis",
-        "translation": "Palabra clave 10",
+        "translation": "Resultado",
         "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
       }
     ],
@@ -23305,52 +23319,52 @@
     "vocabulary": [
       {
         "word": "Wetter",
-        "translation": "Palabra clave 1",
+        "translation": "Tiempo",
         "example": "Ich benutze das Wort „Wetter“ im Kontext."
       },
       {
         "word": "Sonne",
-        "translation": "Palabra clave 2",
+        "translation": "Sol",
         "example": "Ich benutze das Wort „Sonne“ im Kontext."
       },
       {
         "word": "Regen",
-        "translation": "Palabra clave 3",
+        "translation": "Lluvia",
         "example": "Ich benutze das Wort „Regen“ im Kontext."
       },
       {
         "word": "kalt",
-        "translation": "Palabra clave 4",
+        "translation": "frío",
         "example": "Ich benutze das Wort „kalt“ im Kontext."
       },
       {
         "word": "warm",
-        "translation": "Palabra clave 5",
+        "translation": "cálido",
         "example": "Ich benutze das Wort „warm“ im Kontext."
       },
       {
         "word": "Sommer",
-        "translation": "Palabra clave 6",
+        "translation": "Verano",
         "example": "Ich benutze das Wort „Sommer“ im Kontext."
       },
       {
         "word": "Winter",
-        "translation": "Palabra clave 7",
+        "translation": "Invierno",
         "example": "Ich benutze das Wort „Winter“ im Kontext."
       },
       {
         "word": "Jacke",
-        "translation": "Palabra clave 8",
+        "translation": "Chaqueta",
         "example": "Ich benutze das Wort „Jacke“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 9",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "draußen",
-        "translation": "Palabra clave 10",
+        "translation": "fuera",
         "example": "Ich benutze das Wort „draußen“ im Kontext."
       }
     ],
@@ -23375,42 +23389,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Wetter",
-          "Sonne",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Jacke",
+          "heute",
+          "draußen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -23439,52 +23453,52 @@
     "vocabulary": [
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 1",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Zeitung",
-        "translation": "Palabra clave 2",
+        "translation": "Periódico",
         "example": "Ich benutze das Wort „Zeitung“ im Kontext."
       },
       {
         "word": "Handy",
-        "translation": "Palabra clave 3",
+        "translation": "Móvil",
         "example": "Ich benutze das Wort „Handy“ im Kontext."
       },
       {
         "word": "Internet",
-        "translation": "Palabra clave 4",
+        "translation": "Internet",
         "example": "Ich benutze das Wort „Internet“ im Kontext."
       },
       {
         "word": "informieren",
-        "translation": "Palabra clave 5",
+        "translation": "informar",
         "example": "Ich benutze das Wort „informieren“ im Kontext."
       },
       {
         "word": "erzählen",
-        "translation": "Palabra clave 6",
+        "translation": "contar",
         "example": "Ich benutze das Wort „erzählen“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 7",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "Bildschirm",
-        "translation": "Palabra clave 8",
+        "translation": "Pantalla",
         "example": "Ich benutze das Wort „Bildschirm“ im Kontext."
       },
       {
         "word": "Verbindung",
-        "translation": "Palabra clave 9",
+        "translation": "Conexión",
         "example": "Ich benutze das Wort „Verbindung“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 10",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       }
     ],
@@ -23510,52 +23524,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Nachricht",
-          "Zeitung",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Bildschirm",
+          "Verbindung",
+          "erklären"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-a2-medien-und-kommunikation-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Medien und Kommunikation“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Medien und Kommunikation darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -23584,52 +23599,52 @@
     "vocabulary": [
       {
         "word": "Technik",
-        "translation": "Palabra clave 1",
+        "translation": "Técnica",
         "example": "Ich benutze das Wort „Technik“ im Kontext."
       },
       {
         "word": "Gerät",
-        "translation": "Palabra clave 2",
+        "translation": "Aparato",
         "example": "Ich benutze das Wort „Gerät“ im Kontext."
       },
       {
         "word": "Vorteil",
-        "translation": "Palabra clave 3",
+        "translation": "Ventaja",
         "example": "Ich benutze das Wort „Vorteil“ im Kontext."
       },
       {
         "word": "Risiko",
-        "translation": "Palabra clave 4",
+        "translation": "Riesgo",
         "example": "Ich benutze das Wort „Risiko“ im Kontext."
       },
       {
         "word": "schützen",
-        "translation": "Palabra clave 5",
+        "translation": "proteger",
         "example": "Ich benutze das Wort „schützen“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 6",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Verbindung",
-        "translation": "Palabra clave 7",
+        "translation": "Conexión",
         "example": "Ich benutze das Wort „Verbindung“ im Kontext."
       },
       {
         "word": "Information",
-        "translation": "Palabra clave 8",
+        "translation": "Información",
         "example": "Ich benutze das Wort „Information“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "Gleichgewicht",
-        "translation": "Palabra clave 10",
+        "translation": "Equilibrio",
         "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
       }
     ],
@@ -23656,52 +23671,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Technik",
-          "Gerät",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Information",
+          "wählen",
+          "Gleichgewicht"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-b1-technik-im-alltag-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Technik im Alltag“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Technik im Alltag darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -23730,52 +23746,52 @@
     "vocabulary": [
       {
         "word": "Wetter",
-        "translation": "Palabra clave 1",
+        "translation": "Tiempo",
         "example": "Ich benutze das Wort „Wetter“ im Kontext."
       },
       {
         "word": "Sonne",
-        "translation": "Palabra clave 2",
+        "translation": "Sol",
         "example": "Ich benutze das Wort „Sonne“ im Kontext."
       },
       {
         "word": "Regen",
-        "translation": "Palabra clave 3",
+        "translation": "Lluvia",
         "example": "Ich benutze das Wort „Regen“ im Kontext."
       },
       {
         "word": "kalt",
-        "translation": "Palabra clave 4",
+        "translation": "frío",
         "example": "Ich benutze das Wort „kalt“ im Kontext."
       },
       {
         "word": "warm",
-        "translation": "Palabra clave 5",
+        "translation": "cálido",
         "example": "Ich benutze das Wort „warm“ im Kontext."
       },
       {
         "word": "Sommer",
-        "translation": "Palabra clave 6",
+        "translation": "Verano",
         "example": "Ich benutze das Wort „Sommer“ im Kontext."
       },
       {
         "word": "Winter",
-        "translation": "Palabra clave 7",
+        "translation": "Invierno",
         "example": "Ich benutze das Wort „Winter“ im Kontext."
       },
       {
         "word": "Jacke",
-        "translation": "Palabra clave 8",
+        "translation": "Chaqueta",
         "example": "Ich benutze das Wort „Jacke“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 9",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "draußen",
-        "translation": "Palabra clave 10",
+        "translation": "fuera",
         "example": "Ich benutze das Wort „draußen“ im Kontext."
       }
     ],
@@ -23784,10 +23800,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Wetter, es gibt und Zeitangaben",
-        "definition": "Práctica guiada de Wetter, es gibt und Zeitangaben.",
+        "name": "Wetter und Jahreszeiten: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -23797,7 +23813,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
               {},
               {},
@@ -23807,7 +23823,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Satz.",
             "options": [
               {},
               {},
@@ -23817,7 +23833,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
               {},
               {},
@@ -23827,7 +23843,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welche Frage ist richtig?",
             "options": [
               {},
               {},
@@ -23837,7 +23853,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
               {},
               {},
@@ -23847,7 +23863,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Satz über ein Haus.",
             "options": [
               {},
               {},
@@ -23857,7 +23873,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
               {},
               {},
@@ -23867,7 +23883,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
               {},
               {},
@@ -23882,89 +23898,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "wohne",
+          "wohnt",
+          "wohnen",
+          "wohnst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Leon sprechen mit Anna.",
+          "Leon spricht mit Anna.",
+          "Leon spreche mit Anna.",
+          "Leon sprich mit Anna."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "lerne",
+          "lernt",
+          "lernen",
+          "lernst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Wo wohnst?",
+          "Wo wohnen du?",
+          "Wo du wohnst?",
+          "Wo wohnst du?"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "stellt",
+          "stelle",
+          "stellen",
+          "stellst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Das Haus sind hell.",
+          "Das Haus ist hell.",
+          "Die Haus ist hell.",
+          "Das Haus ist helle."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "trinken",
+          "trinkt",
+          "trinkst",
+          "trinke"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Jeden Morgen arbeitet ich im Zentrum.",
+          "Gestern arbeiten ich im Zentrum.",
+          "Morgen arbeitete ich im Zentrum.",
+          "Jeden Morgen arbeite ich im Zentrum."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
@@ -23994,52 +24010,52 @@
     "vocabulary": [
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 1",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Zeitung",
-        "translation": "Palabra clave 2",
+        "translation": "Periódico",
         "example": "Ich benutze das Wort „Zeitung“ im Kontext."
       },
       {
         "word": "Handy",
-        "translation": "Palabra clave 3",
+        "translation": "Móvil",
         "example": "Ich benutze das Wort „Handy“ im Kontext."
       },
       {
         "word": "Internet",
-        "translation": "Palabra clave 4",
+        "translation": "Internet",
         "example": "Ich benutze das Wort „Internet“ im Kontext."
       },
       {
         "word": "informieren",
-        "translation": "Palabra clave 5",
+        "translation": "informar",
         "example": "Ich benutze das Wort „informieren“ im Kontext."
       },
       {
         "word": "erzählen",
-        "translation": "Palabra clave 6",
+        "translation": "contar",
         "example": "Ich benutze das Wort „erzählen“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 7",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "Bildschirm",
-        "translation": "Palabra clave 8",
+        "translation": "Pantalla",
         "example": "Ich benutze das Wort „Bildschirm“ im Kontext."
       },
       {
         "word": "Verbindung",
-        "translation": "Palabra clave 9",
+        "translation": "Conexión",
         "example": "Ich benutze das Wort „Verbindung“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 10",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       }
     ],
@@ -24048,10 +24064,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Reflexive Verben",
-        "definition": "Práctica guiada de Reflexive Verben.",
+        "name": "Medien und Kommunikation: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
         "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -24061,7 +24077,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
               {},
               {},
@@ -24071,7 +24087,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
               {},
               {},
@@ -24081,7 +24097,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
               {},
               {},
@@ -24091,7 +24107,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
               {},
               {},
@@ -24101,7 +24117,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
               {},
               {},
@@ -24111,7 +24127,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
               {},
               {},
@@ -24121,7 +24137,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
               {},
               {},
@@ -24131,7 +24147,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
               {},
               {},
@@ -24146,89 +24162,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "habe besucht",
+          "besuche",
+          "habe besuchen",
+          "bin besucht"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben zusammen essen.",
+          "Wir haben zusammen gegessen.",
+          "Wir sind zusammen gegessen.",
+          "Wir essen gestern zusammen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "ist kommen",
+          "hat gekommen",
+          "ist gekommen",
+          "kommt gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
+          "Zuerst haben wir gelernt, weil sind wir gegangen.",
+          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
+          "Zuerst haben wir gelernt, dann sind wir gegangen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Hast gelesen",
+          "Hast lesen",
+          "Bist gelesen",
+          "Liest gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Meine Freunde sind den Bus genommen.",
+          "Meine Freunde haben den Bus genommen.",
+          "Meine Freunde haben den Bus nehmen.",
+          "Meine Freunde nehmen gestern den Bus."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "haben machen",
+          "sind gemacht",
+          "haben gemacht",
+          "machen gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Am Samstag bin ich meine Cousine getroffen.",
+          "Am Samstag treffe ich meine Cousine morgen.",
+          "Am Samstag treffen meine Cousine.",
+          "Am Samstag habe ich meine Cousine getroffen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
@@ -24258,52 +24274,52 @@
     "vocabulary": [
       {
         "word": "Technik",
-        "translation": "Palabra clave 1",
+        "translation": "Técnica",
         "example": "Ich benutze das Wort „Technik“ im Kontext."
       },
       {
         "word": "Gerät",
-        "translation": "Palabra clave 2",
+        "translation": "Aparato",
         "example": "Ich benutze das Wort „Gerät“ im Kontext."
       },
       {
         "word": "Vorteil",
-        "translation": "Palabra clave 3",
+        "translation": "Ventaja",
         "example": "Ich benutze das Wort „Vorteil“ im Kontext."
       },
       {
         "word": "Risiko",
-        "translation": "Palabra clave 4",
+        "translation": "Riesgo",
         "example": "Ich benutze das Wort „Risiko“ im Kontext."
       },
       {
         "word": "schützen",
-        "translation": "Palabra clave 5",
+        "translation": "proteger",
         "example": "Ich benutze das Wort „schützen“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 6",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Verbindung",
-        "translation": "Palabra clave 7",
+        "translation": "Conexión",
         "example": "Ich benutze das Wort „Verbindung“ im Kontext."
       },
       {
         "word": "Information",
-        "translation": "Palabra clave 8",
+        "translation": "Información",
         "example": "Ich benutze das Wort „Information“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "Gleichgewicht",
-        "translation": "Palabra clave 10",
+        "translation": "Equilibrio",
         "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
       }
     ],
@@ -24312,10 +24328,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Meinung und Argumentation",
-        "definition": "Práctica guiada de Meinung und Argumentation.",
+        "name": "Technik im Alltag: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -24325,7 +24341,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
               {},
               {},
@@ -24335,7 +24351,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
               {},
               {},
@@ -24345,7 +24361,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
               {},
               {},
@@ -24355,7 +24371,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
               {},
               {},
@@ -24365,7 +24381,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
               {},
               {},
@@ -24375,7 +24391,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle eine logische Folge.",
             "options": [
               {},
               {},
@@ -24385,7 +24401,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
               {},
               {},
@@ -24395,7 +24411,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
               {},
               {},
@@ -24410,89 +24426,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "sei"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Ich möchte ausgehen, deshalb es regnet.",
+          "Ich möchte ausgehen, aber es regnet.",
+          "Ich möchte ausgehen, weil es regnet.",
+          "Ich möchte ausgehen, dann es regnet."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "ist",
+          "bin",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Das Projekt funktioniert warum?",
+          "Das Projekt gestern funktioniert?",
+          "Funktionieren das Projekt meiner Meinung.",
+          "Meiner Meinung nach funktioniert das Projekt."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
+          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
+          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
+          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "haben",
+          "hat",
+          "hatte"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Ich nehme den Zug er nachhaltiger ist weil.",
+          "Ich nehme den Zug, aber er nachhaltiger ist.",
+          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
+          "Ich nehme den Zug, weil er nachhaltiger ist."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
@@ -24522,52 +24538,52 @@
     "vocabulary": [
       {
         "word": "Wetter",
-        "translation": "Palabra clave 1",
+        "translation": "Tiempo",
         "example": "Ich benutze das Wort „Wetter“ im Kontext."
       },
       {
         "word": "Sonne",
-        "translation": "Palabra clave 2",
+        "translation": "Sol",
         "example": "Ich benutze das Wort „Sonne“ im Kontext."
       },
       {
         "word": "Regen",
-        "translation": "Palabra clave 3",
+        "translation": "Lluvia",
         "example": "Ich benutze das Wort „Regen“ im Kontext."
       },
       {
         "word": "kalt",
-        "translation": "Palabra clave 4",
+        "translation": "frío",
         "example": "Ich benutze das Wort „kalt“ im Kontext."
       },
       {
         "word": "warm",
-        "translation": "Palabra clave 5",
+        "translation": "cálido",
         "example": "Ich benutze das Wort „warm“ im Kontext."
       },
       {
         "word": "Sommer",
-        "translation": "Palabra clave 6",
+        "translation": "Verano",
         "example": "Ich benutze das Wort „Sommer“ im Kontext."
       },
       {
         "word": "Winter",
-        "translation": "Palabra clave 7",
+        "translation": "Invierno",
         "example": "Ich benutze das Wort „Winter“ im Kontext."
       },
       {
         "word": "Jacke",
-        "translation": "Palabra clave 8",
+        "translation": "Chaqueta",
         "example": "Ich benutze das Wort „Jacke“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 9",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "draußen",
-        "translation": "Palabra clave 10",
+        "translation": "fuera",
         "example": "Ich benutze das Wort „draußen“ im Kontext."
       }
     ],
@@ -24742,52 +24758,52 @@
     "vocabulary": [
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 1",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Zeitung",
-        "translation": "Palabra clave 2",
+        "translation": "Periódico",
         "example": "Ich benutze das Wort „Zeitung“ im Kontext."
       },
       {
         "word": "Handy",
-        "translation": "Palabra clave 3",
+        "translation": "Móvil",
         "example": "Ich benutze das Wort „Handy“ im Kontext."
       },
       {
         "word": "Internet",
-        "translation": "Palabra clave 4",
+        "translation": "Internet",
         "example": "Ich benutze das Wort „Internet“ im Kontext."
       },
       {
         "word": "informieren",
-        "translation": "Palabra clave 5",
+        "translation": "informar",
         "example": "Ich benutze das Wort „informieren“ im Kontext."
       },
       {
         "word": "erzählen",
-        "translation": "Palabra clave 6",
+        "translation": "contar",
         "example": "Ich benutze das Wort „erzählen“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 7",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "Bildschirm",
-        "translation": "Palabra clave 8",
+        "translation": "Pantalla",
         "example": "Ich benutze das Wort „Bildschirm“ im Kontext."
       },
       {
         "word": "Verbindung",
-        "translation": "Palabra clave 9",
+        "translation": "Conexión",
         "example": "Ich benutze das Wort „Verbindung“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 10",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       }
     ],
@@ -24962,52 +24978,52 @@
     "vocabulary": [
       {
         "word": "Technik",
-        "translation": "Palabra clave 1",
+        "translation": "Técnica",
         "example": "Ich benutze das Wort „Technik“ im Kontext."
       },
       {
         "word": "Gerät",
-        "translation": "Palabra clave 2",
+        "translation": "Aparato",
         "example": "Ich benutze das Wort „Gerät“ im Kontext."
       },
       {
         "word": "Vorteil",
-        "translation": "Palabra clave 3",
+        "translation": "Ventaja",
         "example": "Ich benutze das Wort „Vorteil“ im Kontext."
       },
       {
         "word": "Risiko",
-        "translation": "Palabra clave 4",
+        "translation": "Riesgo",
         "example": "Ich benutze das Wort „Risiko“ im Kontext."
       },
       {
         "word": "schützen",
-        "translation": "Palabra clave 5",
+        "translation": "proteger",
         "example": "Ich benutze das Wort „schützen“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 6",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Verbindung",
-        "translation": "Palabra clave 7",
+        "translation": "Conexión",
         "example": "Ich benutze das Wort „Verbindung“ im Kontext."
       },
       {
         "word": "Information",
-        "translation": "Palabra clave 8",
+        "translation": "Información",
         "example": "Ich benutze das Wort „Information“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "Gleichgewicht",
-        "translation": "Palabra clave 10",
+        "translation": "Equilibrio",
         "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
       }
     ],
@@ -25182,8 +25198,8 @@
     "vocabulary": [
       {
         "word": "Wetter",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Tiempo",
+        "definition": "Tiempo",
         "example": "Ich benutze „Wetter“ in einem Satz.",
         "contexts": [
           "Wetter · tema",
@@ -25193,8 +25209,8 @@
       },
       {
         "word": "Sonne",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Sol",
+        "definition": "Sol",
         "example": "Ich benutze „Sonne“ in einem Satz.",
         "contexts": [
           "Sonne · tema",
@@ -25204,8 +25220,8 @@
       },
       {
         "word": "Regen",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Lluvia",
+        "definition": "Lluvia",
         "example": "Ich benutze „Regen“ in einem Satz.",
         "contexts": [
           "Regen · tema",
@@ -25215,8 +25231,8 @@
       },
       {
         "word": "kalt",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "frío",
+        "definition": "frío",
         "example": "Ich benutze „kalt“ in einem Satz.",
         "contexts": [
           "kalt · tema",
@@ -25226,8 +25242,8 @@
       },
       {
         "word": "warm",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "cálido",
+        "definition": "cálido",
         "example": "Ich benutze „warm“ in einem Satz.",
         "contexts": [
           "warm · tema",
@@ -25237,8 +25253,8 @@
       },
       {
         "word": "Sommer",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Verano",
+        "definition": "Verano",
         "example": "Ich benutze „Sommer“ in einem Satz.",
         "contexts": [
           "Sommer · tema",
@@ -25248,8 +25264,8 @@
       },
       {
         "word": "Winter",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Invierno",
+        "definition": "Invierno",
         "example": "Ich benutze „Winter“ in einem Satz.",
         "contexts": [
           "Winter · tema",
@@ -25259,8 +25275,8 @@
       },
       {
         "word": "Jacke",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Chaqueta",
+        "definition": "Chaqueta",
         "example": "Ich benutze „Jacke“ in einem Satz.",
         "contexts": [
           "Jacke · tema",
@@ -25270,8 +25286,8 @@
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "hoy",
+        "definition": "hoy",
         "example": "Ich benutze „heute“ in einem Satz.",
         "contexts": [
           "heute · tema",
@@ -25281,8 +25297,8 @@
       },
       {
         "word": "draußen",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "fuera",
+        "definition": "fuera",
         "example": "Ich benutze „draußen“ in einem Satz.",
         "contexts": [
           "draußen · tema",
@@ -25464,8 +25480,8 @@
     "vocabulary": [
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Mensaje",
+        "definition": "Mensaje",
         "example": "Ich benutze „Nachricht“ in einem Satz.",
         "contexts": [
           "Nachricht · tema",
@@ -25475,8 +25491,8 @@
       },
       {
         "word": "Zeitung",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Periódico",
+        "definition": "Periódico",
         "example": "Ich benutze „Zeitung“ in einem Satz.",
         "contexts": [
           "Zeitung · tema",
@@ -25486,8 +25502,8 @@
       },
       {
         "word": "Handy",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Móvil",
+        "definition": "Móvil",
         "example": "Ich benutze „Handy“ in einem Satz.",
         "contexts": [
           "Handy · tema",
@@ -25497,8 +25513,8 @@
       },
       {
         "word": "Internet",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Internet",
+        "definition": "Internet",
         "example": "Ich benutze „Internet“ in einem Satz.",
         "contexts": [
           "Internet · tema",
@@ -25508,8 +25524,8 @@
       },
       {
         "word": "informieren",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "informar",
+        "definition": "informar",
         "example": "Ich benutze „informieren“ in einem Satz.",
         "contexts": [
           "informieren · tema",
@@ -25519,8 +25535,8 @@
       },
       {
         "word": "erzählen",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "contar",
+        "definition": "contar",
         "example": "Ich benutze „erzählen“ in einem Satz.",
         "contexts": [
           "erzählen · tema",
@@ -25530,8 +25546,8 @@
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Opinión",
+        "definition": "Opinión",
         "example": "Ich benutze „Meinung“ in einem Satz.",
         "contexts": [
           "Meinung · tema",
@@ -25541,8 +25557,8 @@
       },
       {
         "word": "Bildschirm",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Pantalla",
+        "definition": "Pantalla",
         "example": "Ich benutze „Bildschirm“ in einem Satz.",
         "contexts": [
           "Bildschirm · tema",
@@ -25552,8 +25568,8 @@
       },
       {
         "word": "Verbindung",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "Conexión",
+        "definition": "Conexión",
         "example": "Ich benutze „Verbindung“ in einem Satz.",
         "contexts": [
           "Verbindung · tema",
@@ -25563,8 +25579,8 @@
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "explicar",
+        "definition": "explicar",
         "example": "Ich benutze „erklären“ in einem Satz.",
         "contexts": [
           "erklären · tema",
@@ -25746,8 +25762,8 @@
     "vocabulary": [
       {
         "word": "Technik",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Técnica",
+        "definition": "Técnica",
         "example": "Ich benutze „Technik“ in einem Satz.",
         "contexts": [
           "Technik · tema",
@@ -25757,8 +25773,8 @@
       },
       {
         "word": "Gerät",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Aparato",
+        "definition": "Aparato",
         "example": "Ich benutze „Gerät“ in einem Satz.",
         "contexts": [
           "Gerät · tema",
@@ -25768,8 +25784,8 @@
       },
       {
         "word": "Vorteil",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Ventaja",
+        "definition": "Ventaja",
         "example": "Ich benutze „Vorteil“ in einem Satz.",
         "contexts": [
           "Vorteil · tema",
@@ -25779,8 +25795,8 @@
       },
       {
         "word": "Risiko",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Riesgo",
+        "definition": "Riesgo",
         "example": "Ich benutze „Risiko“ in einem Satz.",
         "contexts": [
           "Risiko · tema",
@@ -25790,8 +25806,8 @@
       },
       {
         "word": "schützen",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "proteger",
+        "definition": "proteger",
         "example": "Ich benutze „schützen“ in einem Satz.",
         "contexts": [
           "schützen · tema",
@@ -25801,8 +25817,8 @@
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Costumbre",
+        "definition": "Costumbre",
         "example": "Ich benutze „Gewohnheit“ in einem Satz.",
         "contexts": [
           "Gewohnheit · tema",
@@ -25812,8 +25828,8 @@
       },
       {
         "word": "Verbindung",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Conexión",
+        "definition": "Conexión",
         "example": "Ich benutze „Verbindung“ in einem Satz.",
         "contexts": [
           "Verbindung · tema",
@@ -25823,8 +25839,8 @@
       },
       {
         "word": "Information",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Información",
+        "definition": "Información",
         "example": "Ich benutze „Information“ in einem Satz.",
         "contexts": [
           "Information · tema",
@@ -25834,8 +25850,8 @@
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "elegir",
+        "definition": "elegir",
         "example": "Ich benutze „wählen“ in einem Satz.",
         "contexts": [
           "wählen · tema",
@@ -25845,8 +25861,8 @@
       },
       {
         "word": "Gleichgewicht",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Equilibrio",
+        "definition": "Equilibrio",
         "example": "Ich benutze „Gleichgewicht“ in einem Satz.",
         "contexts": [
           "Gleichgewicht · tema",
@@ -26028,52 +26044,52 @@
     "vocabulary": [
       {
         "word": "Wetter",
-        "translation": "Palabra clave 1",
+        "translation": "Tiempo",
         "example": "Ich benutze das Wort „Wetter“ im Kontext."
       },
       {
         "word": "Sonne",
-        "translation": "Palabra clave 2",
+        "translation": "Sol",
         "example": "Ich benutze das Wort „Sonne“ im Kontext."
       },
       {
         "word": "Regen",
-        "translation": "Palabra clave 3",
+        "translation": "Lluvia",
         "example": "Ich benutze das Wort „Regen“ im Kontext."
       },
       {
         "word": "kalt",
-        "translation": "Palabra clave 4",
+        "translation": "frío",
         "example": "Ich benutze das Wort „kalt“ im Kontext."
       },
       {
         "word": "warm",
-        "translation": "Palabra clave 5",
+        "translation": "cálido",
         "example": "Ich benutze das Wort „warm“ im Kontext."
       },
       {
         "word": "Sommer",
-        "translation": "Palabra clave 6",
+        "translation": "Verano",
         "example": "Ich benutze das Wort „Sommer“ im Kontext."
       },
       {
         "word": "Winter",
-        "translation": "Palabra clave 7",
+        "translation": "Invierno",
         "example": "Ich benutze das Wort „Winter“ im Kontext."
       },
       {
         "word": "Jacke",
-        "translation": "Palabra clave 8",
+        "translation": "Chaqueta",
         "example": "Ich benutze das Wort „Jacke“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 9",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "draußen",
-        "translation": "Palabra clave 10",
+        "translation": "fuera",
         "example": "Ich benutze das Wort „draußen“ im Kontext."
       }
     ],
@@ -26121,52 +26137,52 @@
     "vocabulary": [
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 1",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Zeitung",
-        "translation": "Palabra clave 2",
+        "translation": "Periódico",
         "example": "Ich benutze das Wort „Zeitung“ im Kontext."
       },
       {
         "word": "Handy",
-        "translation": "Palabra clave 3",
+        "translation": "Móvil",
         "example": "Ich benutze das Wort „Handy“ im Kontext."
       },
       {
         "word": "Internet",
-        "translation": "Palabra clave 4",
+        "translation": "Internet",
         "example": "Ich benutze das Wort „Internet“ im Kontext."
       },
       {
         "word": "informieren",
-        "translation": "Palabra clave 5",
+        "translation": "informar",
         "example": "Ich benutze das Wort „informieren“ im Kontext."
       },
       {
         "word": "erzählen",
-        "translation": "Palabra clave 6",
+        "translation": "contar",
         "example": "Ich benutze das Wort „erzählen“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 7",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "Bildschirm",
-        "translation": "Palabra clave 8",
+        "translation": "Pantalla",
         "example": "Ich benutze das Wort „Bildschirm“ im Kontext."
       },
       {
         "word": "Verbindung",
-        "translation": "Palabra clave 9",
+        "translation": "Conexión",
         "example": "Ich benutze das Wort „Verbindung“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 10",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       }
     ],
@@ -26214,52 +26230,52 @@
     "vocabulary": [
       {
         "word": "Technik",
-        "translation": "Palabra clave 1",
+        "translation": "Técnica",
         "example": "Ich benutze das Wort „Technik“ im Kontext."
       },
       {
         "word": "Gerät",
-        "translation": "Palabra clave 2",
+        "translation": "Aparato",
         "example": "Ich benutze das Wort „Gerät“ im Kontext."
       },
       {
         "word": "Vorteil",
-        "translation": "Palabra clave 3",
+        "translation": "Ventaja",
         "example": "Ich benutze das Wort „Vorteil“ im Kontext."
       },
       {
         "word": "Risiko",
-        "translation": "Palabra clave 4",
+        "translation": "Riesgo",
         "example": "Ich benutze das Wort „Risiko“ im Kontext."
       },
       {
         "word": "schützen",
-        "translation": "Palabra clave 5",
+        "translation": "proteger",
         "example": "Ich benutze das Wort „schützen“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 6",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Verbindung",
-        "translation": "Palabra clave 7",
+        "translation": "Conexión",
         "example": "Ich benutze das Wort „Verbindung“ im Kontext."
       },
       {
         "word": "Information",
-        "translation": "Palabra clave 8",
+        "translation": "Información",
         "example": "Ich benutze das Wort „Information“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "Gleichgewicht",
-        "translation": "Palabra clave 10",
+        "translation": "Equilibrio",
         "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
       }
     ],
@@ -26307,52 +26323,52 @@
     "vocabulary": [
       {
         "word": "Wetter",
-        "translation": "Palabra clave 1",
+        "translation": "Tiempo",
         "example": "Ich benutze das Wort „Wetter“ im Kontext."
       },
       {
         "word": "Sonne",
-        "translation": "Palabra clave 2",
+        "translation": "Sol",
         "example": "Ich benutze das Wort „Sonne“ im Kontext."
       },
       {
         "word": "Regen",
-        "translation": "Palabra clave 3",
+        "translation": "Lluvia",
         "example": "Ich benutze das Wort „Regen“ im Kontext."
       },
       {
         "word": "kalt",
-        "translation": "Palabra clave 4",
+        "translation": "frío",
         "example": "Ich benutze das Wort „kalt“ im Kontext."
       },
       {
         "word": "warm",
-        "translation": "Palabra clave 5",
+        "translation": "cálido",
         "example": "Ich benutze das Wort „warm“ im Kontext."
       },
       {
         "word": "Sommer",
-        "translation": "Palabra clave 6",
+        "translation": "Verano",
         "example": "Ich benutze das Wort „Sommer“ im Kontext."
       },
       {
         "word": "Winter",
-        "translation": "Palabra clave 7",
+        "translation": "Invierno",
         "example": "Ich benutze das Wort „Winter“ im Kontext."
       },
       {
         "word": "Jacke",
-        "translation": "Palabra clave 8",
+        "translation": "Chaqueta",
         "example": "Ich benutze das Wort „Jacke“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 9",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "draußen",
-        "translation": "Palabra clave 10",
+        "translation": "fuera",
         "example": "Ich benutze das Wort „draußen“ im Kontext."
       }
     ],
@@ -26391,52 +26407,52 @@
     "vocabulary": [
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 1",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Zeitung",
-        "translation": "Palabra clave 2",
+        "translation": "Periódico",
         "example": "Ich benutze das Wort „Zeitung“ im Kontext."
       },
       {
         "word": "Handy",
-        "translation": "Palabra clave 3",
+        "translation": "Móvil",
         "example": "Ich benutze das Wort „Handy“ im Kontext."
       },
       {
         "word": "Internet",
-        "translation": "Palabra clave 4",
+        "translation": "Internet",
         "example": "Ich benutze das Wort „Internet“ im Kontext."
       },
       {
         "word": "informieren",
-        "translation": "Palabra clave 5",
+        "translation": "informar",
         "example": "Ich benutze das Wort „informieren“ im Kontext."
       },
       {
         "word": "erzählen",
-        "translation": "Palabra clave 6",
+        "translation": "contar",
         "example": "Ich benutze das Wort „erzählen“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 7",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "Bildschirm",
-        "translation": "Palabra clave 8",
+        "translation": "Pantalla",
         "example": "Ich benutze das Wort „Bildschirm“ im Kontext."
       },
       {
         "word": "Verbindung",
-        "translation": "Palabra clave 9",
+        "translation": "Conexión",
         "example": "Ich benutze das Wort „Verbindung“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 10",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       }
     ],
@@ -26475,52 +26491,52 @@
     "vocabulary": [
       {
         "word": "Technik",
-        "translation": "Palabra clave 1",
+        "translation": "Técnica",
         "example": "Ich benutze das Wort „Technik“ im Kontext."
       },
       {
         "word": "Gerät",
-        "translation": "Palabra clave 2",
+        "translation": "Aparato",
         "example": "Ich benutze das Wort „Gerät“ im Kontext."
       },
       {
         "word": "Vorteil",
-        "translation": "Palabra clave 3",
+        "translation": "Ventaja",
         "example": "Ich benutze das Wort „Vorteil“ im Kontext."
       },
       {
         "word": "Risiko",
-        "translation": "Palabra clave 4",
+        "translation": "Riesgo",
         "example": "Ich benutze das Wort „Risiko“ im Kontext."
       },
       {
         "word": "schützen",
-        "translation": "Palabra clave 5",
+        "translation": "proteger",
         "example": "Ich benutze das Wort „schützen“ im Kontext."
       },
       {
         "word": "Gewohnheit",
-        "translation": "Palabra clave 6",
+        "translation": "Costumbre",
         "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
       },
       {
         "word": "Verbindung",
-        "translation": "Palabra clave 7",
+        "translation": "Conexión",
         "example": "Ich benutze das Wort „Verbindung“ im Kontext."
       },
       {
         "word": "Information",
-        "translation": "Palabra clave 8",
+        "translation": "Información",
         "example": "Ich benutze das Wort „Information“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "Gleichgewicht",
-        "translation": "Palabra clave 10",
+        "translation": "Equilibrio",
         "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
       }
     ],
@@ -26559,52 +26575,52 @@
     "vocabulary": [
       {
         "word": "Hobby",
-        "translation": "Palabra clave 1",
+        "translation": "Aficiones",
         "example": "Ich benutze das Wort „Hobby“ im Kontext."
       },
       {
         "word": "lesen",
-        "translation": "Palabra clave 2",
+        "translation": "leer",
         "example": "Ich benutze das Wort „lesen“ im Kontext."
       },
       {
         "word": "laufen",
-        "translation": "Palabra clave 3",
+        "translation": "correr",
         "example": "Ich benutze das Wort „laufen“ im Kontext."
       },
       {
         "word": "Kino",
-        "translation": "Palabra clave 4",
+        "translation": "Cine",
         "example": "Ich benutze das Wort „Kino“ im Kontext."
       },
       {
         "word": "Sport",
-        "translation": "Palabra clave 5",
+        "translation": "Deporte",
         "example": "Ich benutze das Wort „Sport“ im Kontext."
       },
       {
         "word": "Wochenende",
-        "translation": "Palabra clave 6",
+        "translation": "Fin de semana",
         "example": "Ich benutze das Wort „Wochenende“ im Kontext."
       },
       {
         "word": "gern",
-        "translation": "Palabra clave 7",
+        "translation": "con mucho gusto",
         "example": "Ich benutze das Wort „gern“ im Kontext."
       },
       {
         "word": "manchmal",
-        "translation": "Palabra clave 8",
+        "translation": "a veces",
         "example": "Ich benutze das Wort „manchmal“ im Kontext."
       },
       {
         "word": "oft",
-        "translation": "Palabra clave 9",
+        "translation": "a menudo",
         "example": "Ich benutze das Wort „oft“ im Kontext."
       },
       {
         "word": "Zeit",
-        "translation": "Palabra clave 10",
+        "translation": "Tiempo",
         "example": "Ich benutze das Wort „Zeit“ im Kontext."
       }
     ],
@@ -26629,42 +26645,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Hobby",
-          "lesen",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "manchmal",
+          "oft",
+          "Zeit"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -26693,52 +26709,52 @@
     "vocabulary": [
       {
         "word": "Ziel",
-        "translation": "Palabra clave 1",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Kurs",
-        "translation": "Palabra clave 2",
+        "translation": "Curso",
         "example": "Ich benutze das Wort „Kurs“ im Kontext."
       },
       {
         "word": "üben",
-        "translation": "Palabra clave 3",
+        "translation": "practicar",
         "example": "Ich benutze das Wort „üben“ im Kontext."
       },
       {
         "word": "Fortschritt",
-        "translation": "Palabra clave 4",
+        "translation": "Progreso",
         "example": "Ich benutze das Wort „Fortschritt“ im Kontext."
       },
       {
         "word": "schwierig",
-        "translation": "Palabra clave 5",
+        "translation": "difícil",
         "example": "Ich benutze das Wort „schwierig“ im Kontext."
       },
       {
         "word": "leichter",
-        "translation": "Palabra clave 6",
+        "translation": "más ligero",
         "example": "Ich benutze das Wort „leichter“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 7",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "Prüfung",
-        "translation": "Palabra clave 8",
+        "translation": "Examen",
         "example": "Ich benutze das Wort „Prüfung“ im Kontext."
       },
       {
         "word": "Methode",
-        "translation": "Palabra clave 9",
+        "translation": "Método",
         "example": "Ich benutze das Wort „Methode“ im Kontext."
       },
       {
         "word": "Erfolg",
-        "translation": "Palabra clave 10",
+        "translation": "Éxito",
         "example": "Ich benutze das Wort „Erfolg“ im Kontext."
       }
     ],
@@ -26764,52 +26780,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Ziel",
-          "Kurs",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Prüfung",
+          "Methode",
+          "Erfolg"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-a2-lernen-und-ziele-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Lernen und Ziele“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Lernen und Ziele darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -26838,52 +26855,52 @@
     "vocabulary": [
       {
         "word": "Verkehr",
-        "translation": "Palabra clave 1",
+        "translation": "Transporte",
         "example": "Ich benutze das Wort „Verkehr“ im Kontext."
       },
       {
         "word": "Strecke",
-        "translation": "Palabra clave 2",
+        "translation": "Recorrido",
         "example": "Ich benutze das Wort „Strecke“ im Kontext."
       },
       {
         "word": "Stau",
-        "translation": "Palabra clave 3",
+        "translation": "Atasco",
         "example": "Ich benutze das Wort „Stau“ im Kontext."
       },
       {
         "word": "Fahrrad",
-        "translation": "Palabra clave 4",
+        "translation": "Bicicleta",
         "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "zugänglich",
-        "translation": "Palabra clave 6",
+        "translation": "accesible",
         "example": "Ich benutze das Wort „zugänglich“ im Kontext."
       },
       {
         "word": "Verspätung",
-        "translation": "Palabra clave 7",
+        "translation": "Retraso",
         "example": "Ich benutze das Wort „Verspätung“ im Kontext."
       },
       {
         "word": "Dienst",
-        "translation": "Palabra clave 8",
+        "translation": "Servicio",
         "example": "Ich benutze das Wort „Dienst“ im Kontext."
       },
       {
         "word": "vorschlagen",
-        "translation": "Palabra clave 9",
+        "translation": "proponer",
         "example": "Ich benutze das Wort „vorschlagen“ im Kontext."
       },
       {
         "word": "Viertel",
-        "translation": "Palabra clave 10",
+        "translation": "Cuarto",
         "example": "Ich benutze das Wort „Viertel“ im Kontext."
       }
     ],
@@ -26910,52 +26927,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Verkehr",
-          "Strecke",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Dienst",
+          "vorschlagen",
+          "Viertel"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-b1-stadt-und-mobilitat-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Stadt und Mobilität“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Stadt und Mobilität darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -26984,52 +27002,52 @@
     "vocabulary": [
       {
         "word": "Hobby",
-        "translation": "Palabra clave 1",
+        "translation": "Aficiones",
         "example": "Ich benutze das Wort „Hobby“ im Kontext."
       },
       {
         "word": "lesen",
-        "translation": "Palabra clave 2",
+        "translation": "leer",
         "example": "Ich benutze das Wort „lesen“ im Kontext."
       },
       {
         "word": "laufen",
-        "translation": "Palabra clave 3",
+        "translation": "correr",
         "example": "Ich benutze das Wort „laufen“ im Kontext."
       },
       {
         "word": "Kino",
-        "translation": "Palabra clave 4",
+        "translation": "Cine",
         "example": "Ich benutze das Wort „Kino“ im Kontext."
       },
       {
         "word": "Sport",
-        "translation": "Palabra clave 5",
+        "translation": "Deporte",
         "example": "Ich benutze das Wort „Sport“ im Kontext."
       },
       {
         "word": "Wochenende",
-        "translation": "Palabra clave 6",
+        "translation": "Fin de semana",
         "example": "Ich benutze das Wort „Wochenende“ im Kontext."
       },
       {
         "word": "gern",
-        "translation": "Palabra clave 7",
+        "translation": "con mucho gusto",
         "example": "Ich benutze das Wort „gern“ im Kontext."
       },
       {
         "word": "manchmal",
-        "translation": "Palabra clave 8",
+        "translation": "a veces",
         "example": "Ich benutze das Wort „manchmal“ im Kontext."
       },
       {
         "word": "oft",
-        "translation": "Palabra clave 9",
+        "translation": "a menudo",
         "example": "Ich benutze das Wort „oft“ im Kontext."
       },
       {
         "word": "Zeit",
-        "translation": "Palabra clave 10",
+        "translation": "Tiempo",
         "example": "Ich benutze das Wort „Zeit“ im Kontext."
       }
     ],
@@ -27038,10 +27056,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "gern, lieber und Freizeit",
-        "definition": "Práctica guiada de gern, lieber und Freizeit.",
+        "name": "Freizeit: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -27051,7 +27069,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
               {},
               {},
@@ -27061,7 +27079,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Satz.",
             "options": [
               {},
               {},
@@ -27071,7 +27089,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
               {},
               {},
@@ -27081,7 +27099,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welche Frage ist richtig?",
             "options": [
               {},
               {},
@@ -27091,7 +27109,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
               {},
               {},
@@ -27101,7 +27119,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Satz über ein Haus.",
             "options": [
               {},
               {},
@@ -27111,7 +27129,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
               {},
               {},
@@ -27121,7 +27139,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
               {},
               {},
@@ -27136,89 +27154,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "wohne",
+          "wohnt",
+          "wohnen",
+          "wohnst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Leon sprechen mit Anna.",
+          "Leon spricht mit Anna.",
+          "Leon spreche mit Anna.",
+          "Leon sprich mit Anna."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "lerne",
+          "lernt",
+          "lernen",
+          "lernst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Wo wohnst?",
+          "Wo wohnen du?",
+          "Wo du wohnst?",
+          "Wo wohnst du?"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "stellt",
+          "stelle",
+          "stellen",
+          "stellst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Das Haus sind hell.",
+          "Das Haus ist hell.",
+          "Die Haus ist hell.",
+          "Das Haus ist helle."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "trinken",
+          "trinkt",
+          "trinkst",
+          "trinke"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Jeden Morgen arbeitet ich im Zentrum.",
+          "Gestern arbeiten ich im Zentrum.",
+          "Morgen arbeitete ich im Zentrum.",
+          "Jeden Morgen arbeite ich im Zentrum."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
@@ -27248,52 +27266,52 @@
     "vocabulary": [
       {
         "word": "Ziel",
-        "translation": "Palabra clave 1",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Kurs",
-        "translation": "Palabra clave 2",
+        "translation": "Curso",
         "example": "Ich benutze das Wort „Kurs“ im Kontext."
       },
       {
         "word": "üben",
-        "translation": "Palabra clave 3",
+        "translation": "practicar",
         "example": "Ich benutze das Wort „üben“ im Kontext."
       },
       {
         "word": "Fortschritt",
-        "translation": "Palabra clave 4",
+        "translation": "Progreso",
         "example": "Ich benutze das Wort „Fortschritt“ im Kontext."
       },
       {
         "word": "schwierig",
-        "translation": "Palabra clave 5",
+        "translation": "difícil",
         "example": "Ich benutze das Wort „schwierig“ im Kontext."
       },
       {
         "word": "leichter",
-        "translation": "Palabra clave 6",
+        "translation": "más ligero",
         "example": "Ich benutze das Wort „leichter“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 7",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "Prüfung",
-        "translation": "Palabra clave 8",
+        "translation": "Examen",
         "example": "Ich benutze das Wort „Prüfung“ im Kontext."
       },
       {
         "word": "Methode",
-        "translation": "Palabra clave 9",
+        "translation": "Método",
         "example": "Ich benutze das Wort „Methode“ im Kontext."
       },
       {
         "word": "Erfolg",
-        "translation": "Palabra clave 10",
+        "translation": "Éxito",
         "example": "Ich benutze das Wort „Erfolg“ im Kontext."
       }
     ],
@@ -27302,10 +27320,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "zu + Infinitiv",
-        "definition": "Práctica guiada de zu + Infinitiv.",
+        "name": "Lernen und Ziele: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
         "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -27315,7 +27333,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
               {},
               {},
@@ -27325,7 +27343,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
               {},
               {},
@@ -27335,7 +27353,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
               {},
               {},
@@ -27345,7 +27363,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
               {},
               {},
@@ -27355,7 +27373,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
               {},
               {},
@@ -27365,7 +27383,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
               {},
               {},
@@ -27375,7 +27393,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
               {},
               {},
@@ -27385,7 +27403,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
               {},
               {},
@@ -27400,89 +27418,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "habe besucht",
+          "besuche",
+          "habe besuchen",
+          "bin besucht"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben zusammen essen.",
+          "Wir haben zusammen gegessen.",
+          "Wir sind zusammen gegessen.",
+          "Wir essen gestern zusammen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "ist kommen",
+          "hat gekommen",
+          "ist gekommen",
+          "kommt gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
+          "Zuerst haben wir gelernt, weil sind wir gegangen.",
+          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
+          "Zuerst haben wir gelernt, dann sind wir gegangen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Hast gelesen",
+          "Hast lesen",
+          "Bist gelesen",
+          "Liest gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Meine Freunde sind den Bus genommen.",
+          "Meine Freunde haben den Bus genommen.",
+          "Meine Freunde haben den Bus nehmen.",
+          "Meine Freunde nehmen gestern den Bus."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "haben machen",
+          "sind gemacht",
+          "haben gemacht",
+          "machen gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Am Samstag bin ich meine Cousine getroffen.",
+          "Am Samstag treffe ich meine Cousine morgen.",
+          "Am Samstag treffen meine Cousine.",
+          "Am Samstag habe ich meine Cousine getroffen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
@@ -27512,52 +27530,52 @@
     "vocabulary": [
       {
         "word": "Verkehr",
-        "translation": "Palabra clave 1",
+        "translation": "Transporte",
         "example": "Ich benutze das Wort „Verkehr“ im Kontext."
       },
       {
         "word": "Strecke",
-        "translation": "Palabra clave 2",
+        "translation": "Recorrido",
         "example": "Ich benutze das Wort „Strecke“ im Kontext."
       },
       {
         "word": "Stau",
-        "translation": "Palabra clave 3",
+        "translation": "Atasco",
         "example": "Ich benutze das Wort „Stau“ im Kontext."
       },
       {
         "word": "Fahrrad",
-        "translation": "Palabra clave 4",
+        "translation": "Bicicleta",
         "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "zugänglich",
-        "translation": "Palabra clave 6",
+        "translation": "accesible",
         "example": "Ich benutze das Wort „zugänglich“ im Kontext."
       },
       {
         "word": "Verspätung",
-        "translation": "Palabra clave 7",
+        "translation": "Retraso",
         "example": "Ich benutze das Wort „Verspätung“ im Kontext."
       },
       {
         "word": "Dienst",
-        "translation": "Palabra clave 8",
+        "translation": "Servicio",
         "example": "Ich benutze das Wort „Dienst“ im Kontext."
       },
       {
         "word": "vorschlagen",
-        "translation": "Palabra clave 9",
+        "translation": "proponer",
         "example": "Ich benutze das Wort „vorschlagen“ im Kontext."
       },
       {
         "word": "Viertel",
-        "translation": "Palabra clave 10",
+        "translation": "Cuarto",
         "example": "Ich benutze das Wort „Viertel“ im Kontext."
       }
     ],
@@ -27566,10 +27584,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Futur I und Vermutungen",
-        "definition": "Práctica guiada de Futur I und Vermutungen.",
+        "name": "Stadt und Mobilität: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -27579,7 +27597,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
               {},
               {},
@@ -27589,7 +27607,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
               {},
               {},
@@ -27599,7 +27617,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
               {},
               {},
@@ -27609,7 +27627,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
               {},
               {},
@@ -27619,7 +27637,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
               {},
               {},
@@ -27629,7 +27647,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle eine logische Folge.",
             "options": [
               {},
               {},
@@ -27639,7 +27657,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
               {},
               {},
@@ -27649,7 +27667,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
               {},
               {},
@@ -27664,89 +27682,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "sei"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Ich möchte ausgehen, deshalb es regnet.",
+          "Ich möchte ausgehen, aber es regnet.",
+          "Ich möchte ausgehen, weil es regnet.",
+          "Ich möchte ausgehen, dann es regnet."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "ist",
+          "bin",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Das Projekt funktioniert warum?",
+          "Das Projekt gestern funktioniert?",
+          "Funktionieren das Projekt meiner Meinung.",
+          "Meiner Meinung nach funktioniert das Projekt."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
+          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
+          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
+          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "haben",
+          "hat",
+          "hatte"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Ich nehme den Zug er nachhaltiger ist weil.",
+          "Ich nehme den Zug, aber er nachhaltiger ist.",
+          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
+          "Ich nehme den Zug, weil er nachhaltiger ist."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
@@ -27776,52 +27794,52 @@
     "vocabulary": [
       {
         "word": "Hobby",
-        "translation": "Palabra clave 1",
+        "translation": "Aficiones",
         "example": "Ich benutze das Wort „Hobby“ im Kontext."
       },
       {
         "word": "lesen",
-        "translation": "Palabra clave 2",
+        "translation": "leer",
         "example": "Ich benutze das Wort „lesen“ im Kontext."
       },
       {
         "word": "laufen",
-        "translation": "Palabra clave 3",
+        "translation": "correr",
         "example": "Ich benutze das Wort „laufen“ im Kontext."
       },
       {
         "word": "Kino",
-        "translation": "Palabra clave 4",
+        "translation": "Cine",
         "example": "Ich benutze das Wort „Kino“ im Kontext."
       },
       {
         "word": "Sport",
-        "translation": "Palabra clave 5",
+        "translation": "Deporte",
         "example": "Ich benutze das Wort „Sport“ im Kontext."
       },
       {
         "word": "Wochenende",
-        "translation": "Palabra clave 6",
+        "translation": "Fin de semana",
         "example": "Ich benutze das Wort „Wochenende“ im Kontext."
       },
       {
         "word": "gern",
-        "translation": "Palabra clave 7",
+        "translation": "con mucho gusto",
         "example": "Ich benutze das Wort „gern“ im Kontext."
       },
       {
         "word": "manchmal",
-        "translation": "Palabra clave 8",
+        "translation": "a veces",
         "example": "Ich benutze das Wort „manchmal“ im Kontext."
       },
       {
         "word": "oft",
-        "translation": "Palabra clave 9",
+        "translation": "a menudo",
         "example": "Ich benutze das Wort „oft“ im Kontext."
       },
       {
         "word": "Zeit",
-        "translation": "Palabra clave 10",
+        "translation": "Tiempo",
         "example": "Ich benutze das Wort „Zeit“ im Kontext."
       }
     ],
@@ -27996,52 +28014,52 @@
     "vocabulary": [
       {
         "word": "Ziel",
-        "translation": "Palabra clave 1",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Kurs",
-        "translation": "Palabra clave 2",
+        "translation": "Curso",
         "example": "Ich benutze das Wort „Kurs“ im Kontext."
       },
       {
         "word": "üben",
-        "translation": "Palabra clave 3",
+        "translation": "practicar",
         "example": "Ich benutze das Wort „üben“ im Kontext."
       },
       {
         "word": "Fortschritt",
-        "translation": "Palabra clave 4",
+        "translation": "Progreso",
         "example": "Ich benutze das Wort „Fortschritt“ im Kontext."
       },
       {
         "word": "schwierig",
-        "translation": "Palabra clave 5",
+        "translation": "difícil",
         "example": "Ich benutze das Wort „schwierig“ im Kontext."
       },
       {
         "word": "leichter",
-        "translation": "Palabra clave 6",
+        "translation": "más ligero",
         "example": "Ich benutze das Wort „leichter“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 7",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "Prüfung",
-        "translation": "Palabra clave 8",
+        "translation": "Examen",
         "example": "Ich benutze das Wort „Prüfung“ im Kontext."
       },
       {
         "word": "Methode",
-        "translation": "Palabra clave 9",
+        "translation": "Método",
         "example": "Ich benutze das Wort „Methode“ im Kontext."
       },
       {
         "word": "Erfolg",
-        "translation": "Palabra clave 10",
+        "translation": "Éxito",
         "example": "Ich benutze das Wort „Erfolg“ im Kontext."
       }
     ],
@@ -28216,52 +28234,52 @@
     "vocabulary": [
       {
         "word": "Verkehr",
-        "translation": "Palabra clave 1",
+        "translation": "Transporte",
         "example": "Ich benutze das Wort „Verkehr“ im Kontext."
       },
       {
         "word": "Strecke",
-        "translation": "Palabra clave 2",
+        "translation": "Recorrido",
         "example": "Ich benutze das Wort „Strecke“ im Kontext."
       },
       {
         "word": "Stau",
-        "translation": "Palabra clave 3",
+        "translation": "Atasco",
         "example": "Ich benutze das Wort „Stau“ im Kontext."
       },
       {
         "word": "Fahrrad",
-        "translation": "Palabra clave 4",
+        "translation": "Bicicleta",
         "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "zugänglich",
-        "translation": "Palabra clave 6",
+        "translation": "accesible",
         "example": "Ich benutze das Wort „zugänglich“ im Kontext."
       },
       {
         "word": "Verspätung",
-        "translation": "Palabra clave 7",
+        "translation": "Retraso",
         "example": "Ich benutze das Wort „Verspätung“ im Kontext."
       },
       {
         "word": "Dienst",
-        "translation": "Palabra clave 8",
+        "translation": "Servicio",
         "example": "Ich benutze das Wort „Dienst“ im Kontext."
       },
       {
         "word": "vorschlagen",
-        "translation": "Palabra clave 9",
+        "translation": "proponer",
         "example": "Ich benutze das Wort „vorschlagen“ im Kontext."
       },
       {
         "word": "Viertel",
-        "translation": "Palabra clave 10",
+        "translation": "Cuarto",
         "example": "Ich benutze das Wort „Viertel“ im Kontext."
       }
     ],
@@ -28436,8 +28454,8 @@
     "vocabulary": [
       {
         "word": "Hobby",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Aficiones",
+        "definition": "Aficiones",
         "example": "Ich benutze „Hobby“ in einem Satz.",
         "contexts": [
           "Hobby · tema",
@@ -28447,8 +28465,8 @@
       },
       {
         "word": "lesen",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "leer",
+        "definition": "leer",
         "example": "Ich benutze „lesen“ in einem Satz.",
         "contexts": [
           "lesen · tema",
@@ -28458,8 +28476,8 @@
       },
       {
         "word": "laufen",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "correr",
+        "definition": "correr",
         "example": "Ich benutze „laufen“ in einem Satz.",
         "contexts": [
           "laufen · tema",
@@ -28469,8 +28487,8 @@
       },
       {
         "word": "Kino",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Cine",
+        "definition": "Cine",
         "example": "Ich benutze „Kino“ in einem Satz.",
         "contexts": [
           "Kino · tema",
@@ -28480,8 +28498,8 @@
       },
       {
         "word": "Sport",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "Deporte",
+        "definition": "Deporte",
         "example": "Ich benutze „Sport“ in einem Satz.",
         "contexts": [
           "Sport · tema",
@@ -28491,8 +28509,8 @@
       },
       {
         "word": "Wochenende",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Fin de semana",
+        "definition": "Fin de semana",
         "example": "Ich benutze „Wochenende“ in einem Satz.",
         "contexts": [
           "Wochenende · tema",
@@ -28502,8 +28520,8 @@
       },
       {
         "word": "gern",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "con mucho gusto",
+        "definition": "con mucho gusto",
         "example": "Ich benutze „gern“ in einem Satz.",
         "contexts": [
           "gern · tema",
@@ -28513,8 +28531,8 @@
       },
       {
         "word": "manchmal",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "a veces",
+        "definition": "a veces",
         "example": "Ich benutze „manchmal“ in einem Satz.",
         "contexts": [
           "manchmal · tema",
@@ -28524,8 +28542,8 @@
       },
       {
         "word": "oft",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "a menudo",
+        "definition": "a menudo",
         "example": "Ich benutze „oft“ in einem Satz.",
         "contexts": [
           "oft · tema",
@@ -28535,8 +28553,8 @@
       },
       {
         "word": "Zeit",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Tiempo",
+        "definition": "Tiempo",
         "example": "Ich benutze „Zeit“ in einem Satz.",
         "contexts": [
           "Zeit · tema",
@@ -28718,8 +28736,8 @@
     "vocabulary": [
       {
         "word": "Ziel",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Objetivo",
+        "definition": "Objetivo",
         "example": "Ich benutze „Ziel“ in einem Satz.",
         "contexts": [
           "Ziel · tema",
@@ -28729,8 +28747,8 @@
       },
       {
         "word": "Kurs",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Curso",
+        "definition": "Curso",
         "example": "Ich benutze „Kurs“ in einem Satz.",
         "contexts": [
           "Kurs · tema",
@@ -28740,8 +28758,8 @@
       },
       {
         "word": "üben",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "practicar",
+        "definition": "practicar",
         "example": "Ich benutze „üben“ in einem Satz.",
         "contexts": [
           "üben · tema",
@@ -28751,8 +28769,8 @@
       },
       {
         "word": "Fortschritt",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Progreso",
+        "definition": "Progreso",
         "example": "Ich benutze „Fortschritt“ in einem Satz.",
         "contexts": [
           "Fortschritt · tema",
@@ -28762,8 +28780,8 @@
       },
       {
         "word": "schwierig",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "difícil",
+        "definition": "difícil",
         "example": "Ich benutze „schwierig“ in einem Satz.",
         "contexts": [
           "schwierig · tema",
@@ -28773,8 +28791,8 @@
       },
       {
         "word": "leichter",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "más ligero",
+        "definition": "más ligero",
         "example": "Ich benutze „leichter“ in einem Satz.",
         "contexts": [
           "leichter · tema",
@@ -28784,8 +28802,8 @@
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Ich benutze „verbessern“ in einem Satz.",
         "contexts": [
           "verbessern · tema",
@@ -28795,8 +28813,8 @@
       },
       {
         "word": "Prüfung",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Examen",
+        "definition": "Examen",
         "example": "Ich benutze „Prüfung“ in einem Satz.",
         "contexts": [
           "Prüfung · tema",
@@ -28806,8 +28824,8 @@
       },
       {
         "word": "Methode",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "Método",
+        "definition": "Método",
         "example": "Ich benutze „Methode“ in einem Satz.",
         "contexts": [
           "Methode · tema",
@@ -28817,8 +28835,8 @@
       },
       {
         "word": "Erfolg",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Éxito",
+        "definition": "Éxito",
         "example": "Ich benutze „Erfolg“ in einem Satz.",
         "contexts": [
           "Erfolg · tema",
@@ -29000,8 +29018,8 @@
     "vocabulary": [
       {
         "word": "Verkehr",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Transporte",
+        "definition": "Transporte",
         "example": "Ich benutze „Verkehr“ in einem Satz.",
         "contexts": [
           "Verkehr · tema",
@@ -29011,8 +29029,8 @@
       },
       {
         "word": "Strecke",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Recorrido",
+        "definition": "Recorrido",
         "example": "Ich benutze „Strecke“ in einem Satz.",
         "contexts": [
           "Strecke · tema",
@@ -29022,8 +29040,8 @@
       },
       {
         "word": "Stau",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Atasco",
+        "definition": "Atasco",
         "example": "Ich benutze „Stau“ in einem Satz.",
         "contexts": [
           "Stau · tema",
@@ -29033,8 +29051,8 @@
       },
       {
         "word": "Fahrrad",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Bicicleta",
+        "definition": "Bicicleta",
         "example": "Ich benutze „Fahrrad“ in einem Satz.",
         "contexts": [
           "Fahrrad · tema",
@@ -29044,8 +29062,8 @@
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Ich benutze „verbessern“ in einem Satz.",
         "contexts": [
           "verbessern · tema",
@@ -29055,8 +29073,8 @@
       },
       {
         "word": "zugänglich",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "accesible",
+        "definition": "accesible",
         "example": "Ich benutze „zugänglich“ in einem Satz.",
         "contexts": [
           "zugänglich · tema",
@@ -29066,8 +29084,8 @@
       },
       {
         "word": "Verspätung",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Retraso",
+        "definition": "Retraso",
         "example": "Ich benutze „Verspätung“ in einem Satz.",
         "contexts": [
           "Verspätung · tema",
@@ -29077,8 +29095,8 @@
       },
       {
         "word": "Dienst",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Servicio",
+        "definition": "Servicio",
         "example": "Ich benutze „Dienst“ in einem Satz.",
         "contexts": [
           "Dienst · tema",
@@ -29088,8 +29106,8 @@
       },
       {
         "word": "vorschlagen",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "proponer",
+        "definition": "proponer",
         "example": "Ich benutze „vorschlagen“ in einem Satz.",
         "contexts": [
           "vorschlagen · tema",
@@ -29099,8 +29117,8 @@
       },
       {
         "word": "Viertel",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Cuarto",
+        "definition": "Cuarto",
         "example": "Ich benutze „Viertel“ in einem Satz.",
         "contexts": [
           "Viertel · tema",
@@ -29282,52 +29300,52 @@
     "vocabulary": [
       {
         "word": "Hobby",
-        "translation": "Palabra clave 1",
+        "translation": "Aficiones",
         "example": "Ich benutze das Wort „Hobby“ im Kontext."
       },
       {
         "word": "lesen",
-        "translation": "Palabra clave 2",
+        "translation": "leer",
         "example": "Ich benutze das Wort „lesen“ im Kontext."
       },
       {
         "word": "laufen",
-        "translation": "Palabra clave 3",
+        "translation": "correr",
         "example": "Ich benutze das Wort „laufen“ im Kontext."
       },
       {
         "word": "Kino",
-        "translation": "Palabra clave 4",
+        "translation": "Cine",
         "example": "Ich benutze das Wort „Kino“ im Kontext."
       },
       {
         "word": "Sport",
-        "translation": "Palabra clave 5",
+        "translation": "Deporte",
         "example": "Ich benutze das Wort „Sport“ im Kontext."
       },
       {
         "word": "Wochenende",
-        "translation": "Palabra clave 6",
+        "translation": "Fin de semana",
         "example": "Ich benutze das Wort „Wochenende“ im Kontext."
       },
       {
         "word": "gern",
-        "translation": "Palabra clave 7",
+        "translation": "con mucho gusto",
         "example": "Ich benutze das Wort „gern“ im Kontext."
       },
       {
         "word": "manchmal",
-        "translation": "Palabra clave 8",
+        "translation": "a veces",
         "example": "Ich benutze das Wort „manchmal“ im Kontext."
       },
       {
         "word": "oft",
-        "translation": "Palabra clave 9",
+        "translation": "a menudo",
         "example": "Ich benutze das Wort „oft“ im Kontext."
       },
       {
         "word": "Zeit",
-        "translation": "Palabra clave 10",
+        "translation": "Tiempo",
         "example": "Ich benutze das Wort „Zeit“ im Kontext."
       }
     ],
@@ -29375,52 +29393,52 @@
     "vocabulary": [
       {
         "word": "Ziel",
-        "translation": "Palabra clave 1",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Kurs",
-        "translation": "Palabra clave 2",
+        "translation": "Curso",
         "example": "Ich benutze das Wort „Kurs“ im Kontext."
       },
       {
         "word": "üben",
-        "translation": "Palabra clave 3",
+        "translation": "practicar",
         "example": "Ich benutze das Wort „üben“ im Kontext."
       },
       {
         "word": "Fortschritt",
-        "translation": "Palabra clave 4",
+        "translation": "Progreso",
         "example": "Ich benutze das Wort „Fortschritt“ im Kontext."
       },
       {
         "word": "schwierig",
-        "translation": "Palabra clave 5",
+        "translation": "difícil",
         "example": "Ich benutze das Wort „schwierig“ im Kontext."
       },
       {
         "word": "leichter",
-        "translation": "Palabra clave 6",
+        "translation": "más ligero",
         "example": "Ich benutze das Wort „leichter“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 7",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "Prüfung",
-        "translation": "Palabra clave 8",
+        "translation": "Examen",
         "example": "Ich benutze das Wort „Prüfung“ im Kontext."
       },
       {
         "word": "Methode",
-        "translation": "Palabra clave 9",
+        "translation": "Método",
         "example": "Ich benutze das Wort „Methode“ im Kontext."
       },
       {
         "word": "Erfolg",
-        "translation": "Palabra clave 10",
+        "translation": "Éxito",
         "example": "Ich benutze das Wort „Erfolg“ im Kontext."
       }
     ],
@@ -29468,52 +29486,52 @@
     "vocabulary": [
       {
         "word": "Verkehr",
-        "translation": "Palabra clave 1",
+        "translation": "Transporte",
         "example": "Ich benutze das Wort „Verkehr“ im Kontext."
       },
       {
         "word": "Strecke",
-        "translation": "Palabra clave 2",
+        "translation": "Recorrido",
         "example": "Ich benutze das Wort „Strecke“ im Kontext."
       },
       {
         "word": "Stau",
-        "translation": "Palabra clave 3",
+        "translation": "Atasco",
         "example": "Ich benutze das Wort „Stau“ im Kontext."
       },
       {
         "word": "Fahrrad",
-        "translation": "Palabra clave 4",
+        "translation": "Bicicleta",
         "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "zugänglich",
-        "translation": "Palabra clave 6",
+        "translation": "accesible",
         "example": "Ich benutze das Wort „zugänglich“ im Kontext."
       },
       {
         "word": "Verspätung",
-        "translation": "Palabra clave 7",
+        "translation": "Retraso",
         "example": "Ich benutze das Wort „Verspätung“ im Kontext."
       },
       {
         "word": "Dienst",
-        "translation": "Palabra clave 8",
+        "translation": "Servicio",
         "example": "Ich benutze das Wort „Dienst“ im Kontext."
       },
       {
         "word": "vorschlagen",
-        "translation": "Palabra clave 9",
+        "translation": "proponer",
         "example": "Ich benutze das Wort „vorschlagen“ im Kontext."
       },
       {
         "word": "Viertel",
-        "translation": "Palabra clave 10",
+        "translation": "Cuarto",
         "example": "Ich benutze das Wort „Viertel“ im Kontext."
       }
     ],
@@ -29561,52 +29579,52 @@
     "vocabulary": [
       {
         "word": "Hobby",
-        "translation": "Palabra clave 1",
+        "translation": "Aficiones",
         "example": "Ich benutze das Wort „Hobby“ im Kontext."
       },
       {
         "word": "lesen",
-        "translation": "Palabra clave 2",
+        "translation": "leer",
         "example": "Ich benutze das Wort „lesen“ im Kontext."
       },
       {
         "word": "laufen",
-        "translation": "Palabra clave 3",
+        "translation": "correr",
         "example": "Ich benutze das Wort „laufen“ im Kontext."
       },
       {
         "word": "Kino",
-        "translation": "Palabra clave 4",
+        "translation": "Cine",
         "example": "Ich benutze das Wort „Kino“ im Kontext."
       },
       {
         "word": "Sport",
-        "translation": "Palabra clave 5",
+        "translation": "Deporte",
         "example": "Ich benutze das Wort „Sport“ im Kontext."
       },
       {
         "word": "Wochenende",
-        "translation": "Palabra clave 6",
+        "translation": "Fin de semana",
         "example": "Ich benutze das Wort „Wochenende“ im Kontext."
       },
       {
         "word": "gern",
-        "translation": "Palabra clave 7",
+        "translation": "con mucho gusto",
         "example": "Ich benutze das Wort „gern“ im Kontext."
       },
       {
         "word": "manchmal",
-        "translation": "Palabra clave 8",
+        "translation": "a veces",
         "example": "Ich benutze das Wort „manchmal“ im Kontext."
       },
       {
         "word": "oft",
-        "translation": "Palabra clave 9",
+        "translation": "a menudo",
         "example": "Ich benutze das Wort „oft“ im Kontext."
       },
       {
         "word": "Zeit",
-        "translation": "Palabra clave 10",
+        "translation": "Tiempo",
         "example": "Ich benutze das Wort „Zeit“ im Kontext."
       }
     ],
@@ -29645,52 +29663,52 @@
     "vocabulary": [
       {
         "word": "Ziel",
-        "translation": "Palabra clave 1",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Kurs",
-        "translation": "Palabra clave 2",
+        "translation": "Curso",
         "example": "Ich benutze das Wort „Kurs“ im Kontext."
       },
       {
         "word": "üben",
-        "translation": "Palabra clave 3",
+        "translation": "practicar",
         "example": "Ich benutze das Wort „üben“ im Kontext."
       },
       {
         "word": "Fortschritt",
-        "translation": "Palabra clave 4",
+        "translation": "Progreso",
         "example": "Ich benutze das Wort „Fortschritt“ im Kontext."
       },
       {
         "word": "schwierig",
-        "translation": "Palabra clave 5",
+        "translation": "difícil",
         "example": "Ich benutze das Wort „schwierig“ im Kontext."
       },
       {
         "word": "leichter",
-        "translation": "Palabra clave 6",
+        "translation": "más ligero",
         "example": "Ich benutze das Wort „leichter“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 7",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "Prüfung",
-        "translation": "Palabra clave 8",
+        "translation": "Examen",
         "example": "Ich benutze das Wort „Prüfung“ im Kontext."
       },
       {
         "word": "Methode",
-        "translation": "Palabra clave 9",
+        "translation": "Método",
         "example": "Ich benutze das Wort „Methode“ im Kontext."
       },
       {
         "word": "Erfolg",
-        "translation": "Palabra clave 10",
+        "translation": "Éxito",
         "example": "Ich benutze das Wort „Erfolg“ im Kontext."
       }
     ],
@@ -29729,52 +29747,52 @@
     "vocabulary": [
       {
         "word": "Verkehr",
-        "translation": "Palabra clave 1",
+        "translation": "Transporte",
         "example": "Ich benutze das Wort „Verkehr“ im Kontext."
       },
       {
         "word": "Strecke",
-        "translation": "Palabra clave 2",
+        "translation": "Recorrido",
         "example": "Ich benutze das Wort „Strecke“ im Kontext."
       },
       {
         "word": "Stau",
-        "translation": "Palabra clave 3",
+        "translation": "Atasco",
         "example": "Ich benutze das Wort „Stau“ im Kontext."
       },
       {
         "word": "Fahrrad",
-        "translation": "Palabra clave 4",
+        "translation": "Bicicleta",
         "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "zugänglich",
-        "translation": "Palabra clave 6",
+        "translation": "accesible",
         "example": "Ich benutze das Wort „zugänglich“ im Kontext."
       },
       {
         "word": "Verspätung",
-        "translation": "Palabra clave 7",
+        "translation": "Retraso",
         "example": "Ich benutze das Wort „Verspätung“ im Kontext."
       },
       {
         "word": "Dienst",
-        "translation": "Palabra clave 8",
+        "translation": "Servicio",
         "example": "Ich benutze das Wort „Dienst“ im Kontext."
       },
       {
         "word": "vorschlagen",
-        "translation": "Palabra clave 9",
+        "translation": "proponer",
         "example": "Ich benutze das Wort „vorschlagen“ im Kontext."
       },
       {
         "word": "Viertel",
-        "translation": "Palabra clave 10",
+        "translation": "Cuarto",
         "example": "Ich benutze das Wort „Viertel“ im Kontext."
       }
     ],
@@ -29813,52 +29831,52 @@
     "vocabulary": [
       {
         "word": "Zug",
-        "translation": "Palabra clave 1",
+        "translation": "Zug",
         "example": "Ich benutze das Wort „Zug“ im Kontext."
       },
       {
         "word": "Ticket",
-        "translation": "Palabra clave 2",
+        "translation": "Tiket",
         "example": "Ich benutze das Wort „Ticket“ im Kontext."
       },
       {
         "word": "Abfahrt",
-        "translation": "Palabra clave 3",
+        "translation": "Salida",
         "example": "Ich benutze das Wort „Abfahrt“ im Kontext."
       },
       {
         "word": "Ankunft",
-        "translation": "Palabra clave 4",
+        "translation": "Llegada",
         "example": "Ich benutze das Wort „Ankunft“ im Kontext."
       },
       {
         "word": "Reise",
-        "translation": "Palabra clave 5",
+        "translation": "Viaje",
         "example": "Ich benutze das Wort „Reise“ im Kontext."
       },
       {
         "word": "Koffer",
-        "translation": "Palabra clave 6",
+        "translation": "Maleta",
         "example": "Ich benutze das Wort „Koffer“ im Kontext."
       },
       {
         "word": "Bahnhof",
-        "translation": "Palabra clave 7",
+        "translation": "Estación de tren",
         "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
       },
       {
         "word": "warten",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Ich benutze das Wort „warten“ im Kontext."
       },
       {
         "word": "fahren",
-        "translation": "Palabra clave 9",
+        "translation": "conducir",
         "example": "Ich benutze das Wort „fahren“ im Kontext."
       },
       {
         "word": "besuchen",
-        "translation": "Palabra clave 10",
+        "translation": "visitar",
         "example": "Ich benutze das Wort „besuchen“ im Kontext."
       }
     ],
@@ -29883,42 +29901,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Zug",
-          "Ticket",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "warten",
+          "fahren",
+          "besuchen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -29947,52 +29965,52 @@
     "vocabulary": [
       {
         "word": "Service",
-        "translation": "Palabra clave 1",
+        "translation": "Servicio",
         "example": "Ich benutze das Wort „Service“ im Kontext."
       },
       {
         "word": "Formular",
-        "translation": "Palabra clave 2",
+        "translation": "Formulario",
         "example": "Ich benutze das Wort „Formular“ im Kontext."
       },
       {
         "word": "Rathaus",
-        "translation": "Palabra clave 3",
+        "translation": "Ayuntamiento",
         "example": "Ich benutze das Wort „Rathaus“ im Kontext."
       },
       {
         "word": "Auskunft",
-        "translation": "Palabra clave 4",
+        "translation": "Información",
         "example": "Ich benutze das Wort „Auskunft“ im Kontext."
       },
       {
         "word": "Problem",
-        "translation": "Palabra clave 5",
+        "translation": "Problema",
         "example": "Ich benutze das Wort „Problem“ im Kontext."
       },
       {
         "word": "helfen",
-        "translation": "Palabra clave 6",
+        "translation": "ayudar",
         "example": "Ich benutze das Wort „helfen“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 7",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "öffnen",
-        "translation": "Palabra clave 8",
+        "translation": "abrir",
         "example": "Ich benutze das Wort „öffnen“ im Kontext."
       },
       {
         "word": "geschlossen",
-        "translation": "Palabra clave 9",
+        "translation": "cerrado",
         "example": "Ich benutze das Wort „geschlossen“ im Kontext."
       },
       {
         "word": "Lösung",
-        "translation": "Palabra clave 10",
+        "translation": "Solución",
         "example": "Ich benutze das Wort „Lösung“ im Kontext."
       }
     ],
@@ -30018,52 +30036,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Service",
-          "Formular",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "öffnen",
+          "geschlossen",
+          "Lösung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-a2-stadt-und-service-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Stadt und Service“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Stadt und Service darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -30092,52 +30111,52 @@
     "vocabulary": [
       {
         "word": "Zukunft",
-        "translation": "Palabra clave 1",
+        "translation": "Futuro",
         "example": "Ich benutze das Wort „Zukunft“ im Kontext."
       },
       {
         "word": "Ziel",
-        "translation": "Palabra clave 2",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Möglichkeit",
-        "translation": "Palabra clave 3",
+        "translation": "Posibilidad",
         "example": "Ich benutze das Wort „Möglichkeit“ im Kontext."
       },
       {
         "word": "entscheiden",
-        "translation": "Palabra clave 4",
+        "translation": "decidir",
         "example": "Ich benutze das Wort „entscheiden“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 5",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "Ausbildung",
-        "translation": "Palabra clave 6",
+        "translation": "Formación",
         "example": "Ich benutze das Wort „Ausbildung“ im Kontext."
       },
       {
         "word": "Weg",
-        "translation": "Palabra clave 7",
+        "translation": "Camino",
         "example": "Ich benutze das Wort „Weg“ im Kontext."
       },
       {
         "word": "hoffen",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Ich benutze das Wort „hoffen“ im Kontext."
       },
       {
         "word": "Wahl",
-        "translation": "Palabra clave 9",
+        "translation": "Elección",
         "example": "Ich benutze das Wort „Wahl“ im Kontext."
       },
       {
         "word": "erreichen",
-        "translation": "Palabra clave 10",
+        "translation": "alcanzar",
         "example": "Ich benutze das Wort „erreichen“ im Kontext."
       }
     ],
@@ -30164,52 +30183,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Zukunft",
-          "Ziel",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "hoffen",
+          "Wahl",
+          "erreichen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-b1-plane-fur-die-zukunft-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Pläne für die Zukunft“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Pläne für die Zukunft darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -30238,52 +30258,52 @@
     "vocabulary": [
       {
         "word": "Zug",
-        "translation": "Palabra clave 1",
+        "translation": "Zug",
         "example": "Ich benutze das Wort „Zug“ im Kontext."
       },
       {
         "word": "Ticket",
-        "translation": "Palabra clave 2",
+        "translation": "Tiket",
         "example": "Ich benutze das Wort „Ticket“ im Kontext."
       },
       {
         "word": "Abfahrt",
-        "translation": "Palabra clave 3",
+        "translation": "Salida",
         "example": "Ich benutze das Wort „Abfahrt“ im Kontext."
       },
       {
         "word": "Ankunft",
-        "translation": "Palabra clave 4",
+        "translation": "Llegada",
         "example": "Ich benutze das Wort „Ankunft“ im Kontext."
       },
       {
         "word": "Reise",
-        "translation": "Palabra clave 5",
+        "translation": "Viaje",
         "example": "Ich benutze das Wort „Reise“ im Kontext."
       },
       {
         "word": "Koffer",
-        "translation": "Palabra clave 6",
+        "translation": "Maleta",
         "example": "Ich benutze das Wort „Koffer“ im Kontext."
       },
       {
         "word": "Bahnhof",
-        "translation": "Palabra clave 7",
+        "translation": "Estación de tren",
         "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
       },
       {
         "word": "warten",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Ich benutze das Wort „warten“ im Kontext."
       },
       {
         "word": "fahren",
-        "translation": "Palabra clave 9",
+        "translation": "conducir",
         "example": "Ich benutze das Wort „fahren“ im Kontext."
       },
       {
         "word": "besuchen",
-        "translation": "Palabra clave 10",
+        "translation": "visitar",
         "example": "Ich benutze das Wort „besuchen“ im Kontext."
       }
     ],
@@ -30292,10 +30312,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Perfekt mit haben",
-        "definition": "Práctica guiada de Perfekt mit haben.",
+        "name": "Unterwegs: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -30305,7 +30325,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
               {},
               {},
@@ -30315,7 +30335,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Satz.",
             "options": [
               {},
               {},
@@ -30325,7 +30345,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
               {},
               {},
@@ -30335,7 +30355,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welche Frage ist richtig?",
             "options": [
               {},
               {},
@@ -30345,7 +30365,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
               {},
               {},
@@ -30355,7 +30375,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Satz über ein Haus.",
             "options": [
               {},
               {},
@@ -30365,7 +30385,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
               {},
               {},
@@ -30375,7 +30395,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
               {},
               {},
@@ -30390,89 +30410,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "wohne",
+          "wohnt",
+          "wohnen",
+          "wohnst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Leon sprechen mit Anna.",
+          "Leon spricht mit Anna.",
+          "Leon spreche mit Anna.",
+          "Leon sprich mit Anna."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "lerne",
+          "lernt",
+          "lernen",
+          "lernst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Wo wohnst?",
+          "Wo wohnen du?",
+          "Wo du wohnst?",
+          "Wo wohnst du?"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "stellt",
+          "stelle",
+          "stellen",
+          "stellst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Das Haus sind hell.",
+          "Das Haus ist hell.",
+          "Die Haus ist hell.",
+          "Das Haus ist helle."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "trinken",
+          "trinkt",
+          "trinkst",
+          "trinke"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Jeden Morgen arbeitet ich im Zentrum.",
+          "Gestern arbeiten ich im Zentrum.",
+          "Morgen arbeitete ich im Zentrum.",
+          "Jeden Morgen arbeite ich im Zentrum."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
@@ -30502,52 +30522,52 @@
     "vocabulary": [
       {
         "word": "Service",
-        "translation": "Palabra clave 1",
+        "translation": "Servicio",
         "example": "Ich benutze das Wort „Service“ im Kontext."
       },
       {
         "word": "Formular",
-        "translation": "Palabra clave 2",
+        "translation": "Formulario",
         "example": "Ich benutze das Wort „Formular“ im Kontext."
       },
       {
         "word": "Rathaus",
-        "translation": "Palabra clave 3",
+        "translation": "Ayuntamiento",
         "example": "Ich benutze das Wort „Rathaus“ im Kontext."
       },
       {
         "word": "Auskunft",
-        "translation": "Palabra clave 4",
+        "translation": "Información",
         "example": "Ich benutze das Wort „Auskunft“ im Kontext."
       },
       {
         "word": "Problem",
-        "translation": "Palabra clave 5",
+        "translation": "Problema",
         "example": "Ich benutze das Wort „Problem“ im Kontext."
       },
       {
         "word": "helfen",
-        "translation": "Palabra clave 6",
+        "translation": "ayudar",
         "example": "Ich benutze das Wort „helfen“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 7",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "öffnen",
-        "translation": "Palabra clave 8",
+        "translation": "abrir",
         "example": "Ich benutze das Wort „öffnen“ im Kontext."
       },
       {
         "word": "geschlossen",
-        "translation": "Palabra clave 9",
+        "translation": "cerrado",
         "example": "Ich benutze das Wort „geschlossen“ im Kontext."
       },
       {
         "word": "Lösung",
-        "translation": "Palabra clave 10",
+        "translation": "Solución",
         "example": "Ich benutze das Wort „Lösung“ im Kontext."
       }
     ],
@@ -30556,10 +30576,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Konjunktiv II: höfliche Bitten",
-        "definition": "Práctica guiada de Konjunktiv II: höfliche Bitten.",
+        "name": "Stadt und Service: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
         "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -30569,7 +30589,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
               {},
               {},
@@ -30579,7 +30599,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
               {},
               {},
@@ -30589,7 +30609,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
               {},
               {},
@@ -30599,7 +30619,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
               {},
               {},
@@ -30609,7 +30629,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
               {},
               {},
@@ -30619,7 +30639,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
               {},
               {},
@@ -30629,7 +30649,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
               {},
               {},
@@ -30639,7 +30659,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
               {},
               {},
@@ -30654,89 +30674,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "habe besucht",
+          "besuche",
+          "habe besuchen",
+          "bin besucht"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben zusammen essen.",
+          "Wir haben zusammen gegessen.",
+          "Wir sind zusammen gegessen.",
+          "Wir essen gestern zusammen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "ist kommen",
+          "hat gekommen",
+          "ist gekommen",
+          "kommt gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
+          "Zuerst haben wir gelernt, weil sind wir gegangen.",
+          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
+          "Zuerst haben wir gelernt, dann sind wir gegangen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Hast gelesen",
+          "Hast lesen",
+          "Bist gelesen",
+          "Liest gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Meine Freunde sind den Bus genommen.",
+          "Meine Freunde haben den Bus genommen.",
+          "Meine Freunde haben den Bus nehmen.",
+          "Meine Freunde nehmen gestern den Bus."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "haben machen",
+          "sind gemacht",
+          "haben gemacht",
+          "machen gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Am Samstag bin ich meine Cousine getroffen.",
+          "Am Samstag treffe ich meine Cousine morgen.",
+          "Am Samstag treffen meine Cousine.",
+          "Am Samstag habe ich meine Cousine getroffen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
@@ -30766,52 +30786,52 @@
     "vocabulary": [
       {
         "word": "Zukunft",
-        "translation": "Palabra clave 1",
+        "translation": "Futuro",
         "example": "Ich benutze das Wort „Zukunft“ im Kontext."
       },
       {
         "word": "Ziel",
-        "translation": "Palabra clave 2",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Möglichkeit",
-        "translation": "Palabra clave 3",
+        "translation": "Posibilidad",
         "example": "Ich benutze das Wort „Möglichkeit“ im Kontext."
       },
       {
         "word": "entscheiden",
-        "translation": "Palabra clave 4",
+        "translation": "decidir",
         "example": "Ich benutze das Wort „entscheiden“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 5",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "Ausbildung",
-        "translation": "Palabra clave 6",
+        "translation": "Formación",
         "example": "Ich benutze das Wort „Ausbildung“ im Kontext."
       },
       {
         "word": "Weg",
-        "translation": "Palabra clave 7",
+        "translation": "Camino",
         "example": "Ich benutze das Wort „Weg“ im Kontext."
       },
       {
         "word": "hoffen",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Ich benutze das Wort „hoffen“ im Kontext."
       },
       {
         "word": "Wahl",
-        "translation": "Palabra clave 9",
+        "translation": "Elección",
         "example": "Ich benutze das Wort „Wahl“ im Kontext."
       },
       {
         "word": "erreichen",
-        "translation": "Palabra clave 10",
+        "translation": "alcanzar",
         "example": "Ich benutze das Wort „erreichen“ im Kontext."
       }
     ],
@@ -30820,10 +30840,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Verben mit Präpositionen",
-        "definition": "Práctica guiada de Verben mit Präpositionen.",
+        "name": "Pläne für die Zukunft: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -30833,7 +30853,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
               {},
               {},
@@ -30843,7 +30863,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
               {},
               {},
@@ -30853,7 +30873,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
               {},
               {},
@@ -30863,7 +30883,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
               {},
               {},
@@ -30873,7 +30893,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
               {},
               {},
@@ -30883,7 +30903,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle eine logische Folge.",
             "options": [
               {},
               {},
@@ -30893,7 +30913,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
               {},
               {},
@@ -30903,7 +30923,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
               {},
               {},
@@ -30918,89 +30938,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "sei"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Ich möchte ausgehen, deshalb es regnet.",
+          "Ich möchte ausgehen, aber es regnet.",
+          "Ich möchte ausgehen, weil es regnet.",
+          "Ich möchte ausgehen, dann es regnet."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "ist",
+          "bin",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Das Projekt funktioniert warum?",
+          "Das Projekt gestern funktioniert?",
+          "Funktionieren das Projekt meiner Meinung.",
+          "Meiner Meinung nach funktioniert das Projekt."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
+          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
+          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
+          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "haben",
+          "hat",
+          "hatte"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Ich nehme den Zug er nachhaltiger ist weil.",
+          "Ich nehme den Zug, aber er nachhaltiger ist.",
+          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
+          "Ich nehme den Zug, weil er nachhaltiger ist."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
@@ -31030,52 +31050,52 @@
     "vocabulary": [
       {
         "word": "Zug",
-        "translation": "Palabra clave 1",
+        "translation": "Zug",
         "example": "Ich benutze das Wort „Zug“ im Kontext."
       },
       {
         "word": "Ticket",
-        "translation": "Palabra clave 2",
+        "translation": "Tiket",
         "example": "Ich benutze das Wort „Ticket“ im Kontext."
       },
       {
         "word": "Abfahrt",
-        "translation": "Palabra clave 3",
+        "translation": "Salida",
         "example": "Ich benutze das Wort „Abfahrt“ im Kontext."
       },
       {
         "word": "Ankunft",
-        "translation": "Palabra clave 4",
+        "translation": "Llegada",
         "example": "Ich benutze das Wort „Ankunft“ im Kontext."
       },
       {
         "word": "Reise",
-        "translation": "Palabra clave 5",
+        "translation": "Viaje",
         "example": "Ich benutze das Wort „Reise“ im Kontext."
       },
       {
         "word": "Koffer",
-        "translation": "Palabra clave 6",
+        "translation": "Maleta",
         "example": "Ich benutze das Wort „Koffer“ im Kontext."
       },
       {
         "word": "Bahnhof",
-        "translation": "Palabra clave 7",
+        "translation": "Estación de tren",
         "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
       },
       {
         "word": "warten",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Ich benutze das Wort „warten“ im Kontext."
       },
       {
         "word": "fahren",
-        "translation": "Palabra clave 9",
+        "translation": "conducir",
         "example": "Ich benutze das Wort „fahren“ im Kontext."
       },
       {
         "word": "besuchen",
-        "translation": "Palabra clave 10",
+        "translation": "visitar",
         "example": "Ich benutze das Wort „besuchen“ im Kontext."
       }
     ],
@@ -31250,52 +31270,52 @@
     "vocabulary": [
       {
         "word": "Service",
-        "translation": "Palabra clave 1",
+        "translation": "Servicio",
         "example": "Ich benutze das Wort „Service“ im Kontext."
       },
       {
         "word": "Formular",
-        "translation": "Palabra clave 2",
+        "translation": "Formulario",
         "example": "Ich benutze das Wort „Formular“ im Kontext."
       },
       {
         "word": "Rathaus",
-        "translation": "Palabra clave 3",
+        "translation": "Ayuntamiento",
         "example": "Ich benutze das Wort „Rathaus“ im Kontext."
       },
       {
         "word": "Auskunft",
-        "translation": "Palabra clave 4",
+        "translation": "Información",
         "example": "Ich benutze das Wort „Auskunft“ im Kontext."
       },
       {
         "word": "Problem",
-        "translation": "Palabra clave 5",
+        "translation": "Problema",
         "example": "Ich benutze das Wort „Problem“ im Kontext."
       },
       {
         "word": "helfen",
-        "translation": "Palabra clave 6",
+        "translation": "ayudar",
         "example": "Ich benutze das Wort „helfen“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 7",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "öffnen",
-        "translation": "Palabra clave 8",
+        "translation": "abrir",
         "example": "Ich benutze das Wort „öffnen“ im Kontext."
       },
       {
         "word": "geschlossen",
-        "translation": "Palabra clave 9",
+        "translation": "cerrado",
         "example": "Ich benutze das Wort „geschlossen“ im Kontext."
       },
       {
         "word": "Lösung",
-        "translation": "Palabra clave 10",
+        "translation": "Solución",
         "example": "Ich benutze das Wort „Lösung“ im Kontext."
       }
     ],
@@ -31470,52 +31490,52 @@
     "vocabulary": [
       {
         "word": "Zukunft",
-        "translation": "Palabra clave 1",
+        "translation": "Futuro",
         "example": "Ich benutze das Wort „Zukunft“ im Kontext."
       },
       {
         "word": "Ziel",
-        "translation": "Palabra clave 2",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Möglichkeit",
-        "translation": "Palabra clave 3",
+        "translation": "Posibilidad",
         "example": "Ich benutze das Wort „Möglichkeit“ im Kontext."
       },
       {
         "word": "entscheiden",
-        "translation": "Palabra clave 4",
+        "translation": "decidir",
         "example": "Ich benutze das Wort „entscheiden“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 5",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "Ausbildung",
-        "translation": "Palabra clave 6",
+        "translation": "Formación",
         "example": "Ich benutze das Wort „Ausbildung“ im Kontext."
       },
       {
         "word": "Weg",
-        "translation": "Palabra clave 7",
+        "translation": "Camino",
         "example": "Ich benutze das Wort „Weg“ im Kontext."
       },
       {
         "word": "hoffen",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Ich benutze das Wort „hoffen“ im Kontext."
       },
       {
         "word": "Wahl",
-        "translation": "Palabra clave 9",
+        "translation": "Elección",
         "example": "Ich benutze das Wort „Wahl“ im Kontext."
       },
       {
         "word": "erreichen",
-        "translation": "Palabra clave 10",
+        "translation": "alcanzar",
         "example": "Ich benutze das Wort „erreichen“ im Kontext."
       }
     ],
@@ -31690,8 +31710,8 @@
     "vocabulary": [
       {
         "word": "Zug",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Zug",
+        "definition": "Zug",
         "example": "Ich benutze „Zug“ in einem Satz.",
         "contexts": [
           "Zug · tema",
@@ -31701,8 +31721,8 @@
       },
       {
         "word": "Ticket",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Tiket",
+        "definition": "Tiket",
         "example": "Ich benutze „Ticket“ in einem Satz.",
         "contexts": [
           "Ticket · tema",
@@ -31712,8 +31732,8 @@
       },
       {
         "word": "Abfahrt",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Salida",
+        "definition": "Salida",
         "example": "Ich benutze „Abfahrt“ in einem Satz.",
         "contexts": [
           "Abfahrt · tema",
@@ -31723,8 +31743,8 @@
       },
       {
         "word": "Ankunft",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Llegada",
+        "definition": "Llegada",
         "example": "Ich benutze „Ankunft“ in einem Satz.",
         "contexts": [
           "Ankunft · tema",
@@ -31734,8 +31754,8 @@
       },
       {
         "word": "Reise",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "Viaje",
+        "definition": "Viaje",
         "example": "Ich benutze „Reise“ in einem Satz.",
         "contexts": [
           "Reise · tema",
@@ -31745,8 +31765,8 @@
       },
       {
         "word": "Koffer",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Maleta",
+        "definition": "Maleta",
         "example": "Ich benutze „Koffer“ in einem Satz.",
         "contexts": [
           "Koffer · tema",
@@ -31756,8 +31776,8 @@
       },
       {
         "word": "Bahnhof",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Estación de tren",
+        "definition": "Estación de tren",
         "example": "Ich benutze „Bahnhof“ in einem Satz.",
         "contexts": [
           "Bahnhof · tema",
@@ -31767,8 +31787,8 @@
       },
       {
         "word": "warten",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "esperar",
+        "definition": "esperar",
         "example": "Ich benutze „warten“ in einem Satz.",
         "contexts": [
           "warten · tema",
@@ -31778,8 +31798,8 @@
       },
       {
         "word": "fahren",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "conducir",
+        "definition": "conducir",
         "example": "Ich benutze „fahren“ in einem Satz.",
         "contexts": [
           "fahren · tema",
@@ -31789,8 +31809,8 @@
       },
       {
         "word": "besuchen",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "visitar",
+        "definition": "visitar",
         "example": "Ich benutze „besuchen“ in einem Satz.",
         "contexts": [
           "besuchen · tema",
@@ -31972,8 +31992,8 @@
     "vocabulary": [
       {
         "word": "Service",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Servicio",
+        "definition": "Servicio",
         "example": "Ich benutze „Service“ in einem Satz.",
         "contexts": [
           "Service · tema",
@@ -31983,8 +32003,8 @@
       },
       {
         "word": "Formular",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Formulario",
+        "definition": "Formulario",
         "example": "Ich benutze „Formular“ in einem Satz.",
         "contexts": [
           "Formular · tema",
@@ -31994,8 +32014,8 @@
       },
       {
         "word": "Rathaus",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Ayuntamiento",
+        "definition": "Ayuntamiento",
         "example": "Ich benutze „Rathaus“ in einem Satz.",
         "contexts": [
           "Rathaus · tema",
@@ -32005,8 +32025,8 @@
       },
       {
         "word": "Auskunft",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Información",
+        "definition": "Información",
         "example": "Ich benutze „Auskunft“ in einem Satz.",
         "contexts": [
           "Auskunft · tema",
@@ -32016,8 +32036,8 @@
       },
       {
         "word": "Problem",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "Problema",
+        "definition": "Problema",
         "example": "Ich benutze „Problem“ in einem Satz.",
         "contexts": [
           "Problem · tema",
@@ -32027,8 +32047,8 @@
       },
       {
         "word": "helfen",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "ayudar",
+        "definition": "ayudar",
         "example": "Ich benutze „helfen“ in einem Satz.",
         "contexts": [
           "helfen · tema",
@@ -32038,8 +32058,8 @@
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "explicar",
+        "definition": "explicar",
         "example": "Ich benutze „erklären“ in einem Satz.",
         "contexts": [
           "erklären · tema",
@@ -32049,8 +32069,8 @@
       },
       {
         "word": "öffnen",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "abrir",
+        "definition": "abrir",
         "example": "Ich benutze „öffnen“ in einem Satz.",
         "contexts": [
           "öffnen · tema",
@@ -32060,8 +32080,8 @@
       },
       {
         "word": "geschlossen",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "cerrado",
+        "definition": "cerrado",
         "example": "Ich benutze „geschlossen“ in einem Satz.",
         "contexts": [
           "geschlossen · tema",
@@ -32071,8 +32091,8 @@
       },
       {
         "word": "Lösung",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Solución",
+        "definition": "Solución",
         "example": "Ich benutze „Lösung“ in einem Satz.",
         "contexts": [
           "Lösung · tema",
@@ -32254,8 +32274,8 @@
     "vocabulary": [
       {
         "word": "Zukunft",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Futuro",
+        "definition": "Futuro",
         "example": "Ich benutze „Zukunft“ in einem Satz.",
         "contexts": [
           "Zukunft · tema",
@@ -32265,8 +32285,8 @@
       },
       {
         "word": "Ziel",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Objetivo",
+        "definition": "Objetivo",
         "example": "Ich benutze „Ziel“ in einem Satz.",
         "contexts": [
           "Ziel · tema",
@@ -32276,8 +32296,8 @@
       },
       {
         "word": "Möglichkeit",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Posibilidad",
+        "definition": "Posibilidad",
         "example": "Ich benutze „Möglichkeit“ in einem Satz.",
         "contexts": [
           "Möglichkeit · tema",
@@ -32287,8 +32307,8 @@
       },
       {
         "word": "entscheiden",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "decidir",
+        "definition": "decidir",
         "example": "Ich benutze „entscheiden“ in einem Satz.",
         "contexts": [
           "entscheiden · tema",
@@ -32298,8 +32318,8 @@
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "Experiencia",
+        "definition": "Experiencia",
         "example": "Ich benutze „Erfahrung“ in einem Satz.",
         "contexts": [
           "Erfahrung · tema",
@@ -32309,8 +32329,8 @@
       },
       {
         "word": "Ausbildung",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Formación",
+        "definition": "Formación",
         "example": "Ich benutze „Ausbildung“ in einem Satz.",
         "contexts": [
           "Ausbildung · tema",
@@ -32320,8 +32340,8 @@
       },
       {
         "word": "Weg",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Camino",
+        "definition": "Camino",
         "example": "Ich benutze „Weg“ in einem Satz.",
         "contexts": [
           "Weg · tema",
@@ -32331,8 +32351,8 @@
       },
       {
         "word": "hoffen",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "esperar",
+        "definition": "esperar",
         "example": "Ich benutze „hoffen“ in einem Satz.",
         "contexts": [
           "hoffen · tema",
@@ -32342,8 +32362,8 @@
       },
       {
         "word": "Wahl",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "Elección",
+        "definition": "Elección",
         "example": "Ich benutze „Wahl“ in einem Satz.",
         "contexts": [
           "Wahl · tema",
@@ -32353,8 +32373,8 @@
       },
       {
         "word": "erreichen",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "alcanzar",
+        "definition": "alcanzar",
         "example": "Ich benutze „erreichen“ in einem Satz.",
         "contexts": [
           "erreichen · tema",
@@ -32536,52 +32556,52 @@
     "vocabulary": [
       {
         "word": "Zug",
-        "translation": "Palabra clave 1",
+        "translation": "Zug",
         "example": "Ich benutze das Wort „Zug“ im Kontext."
       },
       {
         "word": "Ticket",
-        "translation": "Palabra clave 2",
+        "translation": "Tiket",
         "example": "Ich benutze das Wort „Ticket“ im Kontext."
       },
       {
         "word": "Abfahrt",
-        "translation": "Palabra clave 3",
+        "translation": "Salida",
         "example": "Ich benutze das Wort „Abfahrt“ im Kontext."
       },
       {
         "word": "Ankunft",
-        "translation": "Palabra clave 4",
+        "translation": "Llegada",
         "example": "Ich benutze das Wort „Ankunft“ im Kontext."
       },
       {
         "word": "Reise",
-        "translation": "Palabra clave 5",
+        "translation": "Viaje",
         "example": "Ich benutze das Wort „Reise“ im Kontext."
       },
       {
         "word": "Koffer",
-        "translation": "Palabra clave 6",
+        "translation": "Maleta",
         "example": "Ich benutze das Wort „Koffer“ im Kontext."
       },
       {
         "word": "Bahnhof",
-        "translation": "Palabra clave 7",
+        "translation": "Estación de tren",
         "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
       },
       {
         "word": "warten",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Ich benutze das Wort „warten“ im Kontext."
       },
       {
         "word": "fahren",
-        "translation": "Palabra clave 9",
+        "translation": "conducir",
         "example": "Ich benutze das Wort „fahren“ im Kontext."
       },
       {
         "word": "besuchen",
-        "translation": "Palabra clave 10",
+        "translation": "visitar",
         "example": "Ich benutze das Wort „besuchen“ im Kontext."
       }
     ],
@@ -32629,52 +32649,52 @@
     "vocabulary": [
       {
         "word": "Service",
-        "translation": "Palabra clave 1",
+        "translation": "Servicio",
         "example": "Ich benutze das Wort „Service“ im Kontext."
       },
       {
         "word": "Formular",
-        "translation": "Palabra clave 2",
+        "translation": "Formulario",
         "example": "Ich benutze das Wort „Formular“ im Kontext."
       },
       {
         "word": "Rathaus",
-        "translation": "Palabra clave 3",
+        "translation": "Ayuntamiento",
         "example": "Ich benutze das Wort „Rathaus“ im Kontext."
       },
       {
         "word": "Auskunft",
-        "translation": "Palabra clave 4",
+        "translation": "Información",
         "example": "Ich benutze das Wort „Auskunft“ im Kontext."
       },
       {
         "word": "Problem",
-        "translation": "Palabra clave 5",
+        "translation": "Problema",
         "example": "Ich benutze das Wort „Problem“ im Kontext."
       },
       {
         "word": "helfen",
-        "translation": "Palabra clave 6",
+        "translation": "ayudar",
         "example": "Ich benutze das Wort „helfen“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 7",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "öffnen",
-        "translation": "Palabra clave 8",
+        "translation": "abrir",
         "example": "Ich benutze das Wort „öffnen“ im Kontext."
       },
       {
         "word": "geschlossen",
-        "translation": "Palabra clave 9",
+        "translation": "cerrado",
         "example": "Ich benutze das Wort „geschlossen“ im Kontext."
       },
       {
         "word": "Lösung",
-        "translation": "Palabra clave 10",
+        "translation": "Solución",
         "example": "Ich benutze das Wort „Lösung“ im Kontext."
       }
     ],
@@ -32722,52 +32742,52 @@
     "vocabulary": [
       {
         "word": "Zukunft",
-        "translation": "Palabra clave 1",
+        "translation": "Futuro",
         "example": "Ich benutze das Wort „Zukunft“ im Kontext."
       },
       {
         "word": "Ziel",
-        "translation": "Palabra clave 2",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Möglichkeit",
-        "translation": "Palabra clave 3",
+        "translation": "Posibilidad",
         "example": "Ich benutze das Wort „Möglichkeit“ im Kontext."
       },
       {
         "word": "entscheiden",
-        "translation": "Palabra clave 4",
+        "translation": "decidir",
         "example": "Ich benutze das Wort „entscheiden“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 5",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "Ausbildung",
-        "translation": "Palabra clave 6",
+        "translation": "Formación",
         "example": "Ich benutze das Wort „Ausbildung“ im Kontext."
       },
       {
         "word": "Weg",
-        "translation": "Palabra clave 7",
+        "translation": "Camino",
         "example": "Ich benutze das Wort „Weg“ im Kontext."
       },
       {
         "word": "hoffen",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Ich benutze das Wort „hoffen“ im Kontext."
       },
       {
         "word": "Wahl",
-        "translation": "Palabra clave 9",
+        "translation": "Elección",
         "example": "Ich benutze das Wort „Wahl“ im Kontext."
       },
       {
         "word": "erreichen",
-        "translation": "Palabra clave 10",
+        "translation": "alcanzar",
         "example": "Ich benutze das Wort „erreichen“ im Kontext."
       }
     ],
@@ -32815,52 +32835,52 @@
     "vocabulary": [
       {
         "word": "Zug",
-        "translation": "Palabra clave 1",
+        "translation": "Zug",
         "example": "Ich benutze das Wort „Zug“ im Kontext."
       },
       {
         "word": "Ticket",
-        "translation": "Palabra clave 2",
+        "translation": "Tiket",
         "example": "Ich benutze das Wort „Ticket“ im Kontext."
       },
       {
         "word": "Abfahrt",
-        "translation": "Palabra clave 3",
+        "translation": "Salida",
         "example": "Ich benutze das Wort „Abfahrt“ im Kontext."
       },
       {
         "word": "Ankunft",
-        "translation": "Palabra clave 4",
+        "translation": "Llegada",
         "example": "Ich benutze das Wort „Ankunft“ im Kontext."
       },
       {
         "word": "Reise",
-        "translation": "Palabra clave 5",
+        "translation": "Viaje",
         "example": "Ich benutze das Wort „Reise“ im Kontext."
       },
       {
         "word": "Koffer",
-        "translation": "Palabra clave 6",
+        "translation": "Maleta",
         "example": "Ich benutze das Wort „Koffer“ im Kontext."
       },
       {
         "word": "Bahnhof",
-        "translation": "Palabra clave 7",
+        "translation": "Estación de tren",
         "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
       },
       {
         "word": "warten",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Ich benutze das Wort „warten“ im Kontext."
       },
       {
         "word": "fahren",
-        "translation": "Palabra clave 9",
+        "translation": "conducir",
         "example": "Ich benutze das Wort „fahren“ im Kontext."
       },
       {
         "word": "besuchen",
-        "translation": "Palabra clave 10",
+        "translation": "visitar",
         "example": "Ich benutze das Wort „besuchen“ im Kontext."
       }
     ],
@@ -32899,52 +32919,52 @@
     "vocabulary": [
       {
         "word": "Service",
-        "translation": "Palabra clave 1",
+        "translation": "Servicio",
         "example": "Ich benutze das Wort „Service“ im Kontext."
       },
       {
         "word": "Formular",
-        "translation": "Palabra clave 2",
+        "translation": "Formulario",
         "example": "Ich benutze das Wort „Formular“ im Kontext."
       },
       {
         "word": "Rathaus",
-        "translation": "Palabra clave 3",
+        "translation": "Ayuntamiento",
         "example": "Ich benutze das Wort „Rathaus“ im Kontext."
       },
       {
         "word": "Auskunft",
-        "translation": "Palabra clave 4",
+        "translation": "Información",
         "example": "Ich benutze das Wort „Auskunft“ im Kontext."
       },
       {
         "word": "Problem",
-        "translation": "Palabra clave 5",
+        "translation": "Problema",
         "example": "Ich benutze das Wort „Problem“ im Kontext."
       },
       {
         "word": "helfen",
-        "translation": "Palabra clave 6",
+        "translation": "ayudar",
         "example": "Ich benutze das Wort „helfen“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 7",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "öffnen",
-        "translation": "Palabra clave 8",
+        "translation": "abrir",
         "example": "Ich benutze das Wort „öffnen“ im Kontext."
       },
       {
         "word": "geschlossen",
-        "translation": "Palabra clave 9",
+        "translation": "cerrado",
         "example": "Ich benutze das Wort „geschlossen“ im Kontext."
       },
       {
         "word": "Lösung",
-        "translation": "Palabra clave 10",
+        "translation": "Solución",
         "example": "Ich benutze das Wort „Lösung“ im Kontext."
       }
     ],
@@ -32983,52 +33003,52 @@
     "vocabulary": [
       {
         "word": "Zukunft",
-        "translation": "Palabra clave 1",
+        "translation": "Futuro",
         "example": "Ich benutze das Wort „Zukunft“ im Kontext."
       },
       {
         "word": "Ziel",
-        "translation": "Palabra clave 2",
+        "translation": "Objetivo",
         "example": "Ich benutze das Wort „Ziel“ im Kontext."
       },
       {
         "word": "Möglichkeit",
-        "translation": "Palabra clave 3",
+        "translation": "Posibilidad",
         "example": "Ich benutze das Wort „Möglichkeit“ im Kontext."
       },
       {
         "word": "entscheiden",
-        "translation": "Palabra clave 4",
+        "translation": "decidir",
         "example": "Ich benutze das Wort „entscheiden“ im Kontext."
       },
       {
         "word": "Erfahrung",
-        "translation": "Palabra clave 5",
+        "translation": "Experiencia",
         "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
       },
       {
         "word": "Ausbildung",
-        "translation": "Palabra clave 6",
+        "translation": "Formación",
         "example": "Ich benutze das Wort „Ausbildung“ im Kontext."
       },
       {
         "word": "Weg",
-        "translation": "Palabra clave 7",
+        "translation": "Camino",
         "example": "Ich benutze das Wort „Weg“ im Kontext."
       },
       {
         "word": "hoffen",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Ich benutze das Wort „hoffen“ im Kontext."
       },
       {
         "word": "Wahl",
-        "translation": "Palabra clave 9",
+        "translation": "Elección",
         "example": "Ich benutze das Wort „Wahl“ im Kontext."
       },
       {
         "word": "erreichen",
-        "translation": "Palabra clave 10",
+        "translation": "alcanzar",
         "example": "Ich benutze das Wort „erreichen“ im Kontext."
       }
     ],
@@ -33067,52 +33087,52 @@
     "vocabulary": [
       {
         "word": "Kleidung",
-        "translation": "Palabra clave 1",
+        "translation": "Ropa",
         "example": "Ich benutze das Wort „Kleidung“ im Kontext."
       },
       {
         "word": "Hemd",
-        "translation": "Palabra clave 2",
+        "translation": "Camisa",
         "example": "Ich benutze das Wort „Hemd“ im Kontext."
       },
       {
         "word": "Hose",
-        "translation": "Palabra clave 3",
+        "translation": "Pantalón",
         "example": "Ich benutze das Wort „Hose“ im Kontext."
       },
       {
         "word": "Kleid",
-        "translation": "Palabra clave 4",
+        "translation": "Vestido",
         "example": "Ich benutze das Wort „Kleid“ im Kontext."
       },
       {
         "word": "Farbe",
-        "translation": "Palabra clave 5",
+        "translation": "Color",
         "example": "Ich benutze das Wort „Farbe“ im Kontext."
       },
       {
         "word": "blau",
-        "translation": "Palabra clave 6",
+        "translation": "azul",
         "example": "Ich benutze das Wort „blau“ im Kontext."
       },
       {
         "word": "rot",
-        "translation": "Palabra clave 7",
+        "translation": "rojo",
         "example": "Ich benutze das Wort „rot“ im Kontext."
       },
       {
         "word": "tragen",
-        "translation": "Palabra clave 8",
+        "translation": "llevar",
         "example": "Ich benutze das Wort „tragen“ im Kontext."
       },
       {
         "word": "passen",
-        "translation": "Palabra clave 9",
+        "translation": "encajar",
         "example": "Ich benutze das Wort „passen“ im Kontext."
       },
       {
         "word": "kaufen",
-        "translation": "Palabra clave 10",
+        "translation": "comprar",
         "example": "Ich benutze das Wort „kaufen“ im Kontext."
       }
     ],
@@ -33137,42 +33157,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Kleidung",
-          "Hemd",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "tragen",
+          "passen",
+          "kaufen"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -33201,52 +33221,52 @@
     "vocabulary": [
       {
         "word": "Fest",
-        "translation": "Palabra clave 1",
+        "translation": "Fijo",
         "example": "Ich benutze das Wort „Fest“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 2",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "feiern",
-        "translation": "Palabra clave 3",
+        "translation": "celebrar",
         "example": "Ich benutze das Wort „feiern“ im Kontext."
       },
       {
         "word": "vorbereitet",
-        "translation": "Palabra clave 4",
+        "translation": "preparado",
         "example": "Ich benutze das Wort „vorbereitet“ im Kontext."
       },
       {
         "word": "besucht",
-        "translation": "Palabra clave 5",
+        "translation": "visitado",
         "example": "Ich benutze das Wort „besucht“ im Kontext."
       },
       {
         "word": "gemeinsam",
-        "translation": "Palabra clave 6",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
       },
       {
         "word": "Reihenfolge",
-        "translation": "Palabra clave 7",
+        "translation": "Orden",
         "example": "Ich benutze das Wort „Reihenfolge“ im Kontext."
       },
       {
         "word": "früher",
-        "translation": "Palabra clave 8",
+        "translation": "antes",
         "example": "Ich benutze das Wort „früher“ im Kontext."
       },
       {
         "word": "danach",
-        "translation": "Palabra clave 9",
+        "translation": "después",
         "example": "Ich benutze das Wort „danach“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 10",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       }
     ],
@@ -33272,52 +33292,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Fest",
-          "Tradition",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "früher",
+          "danach",
+          "Erinnerung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-a2-feste-und-traditionen-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Feste und Traditionen“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Feste und Traditionen darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -33346,52 +33367,52 @@
     "vocabulary": [
       {
         "word": "Beziehung",
-        "translation": "Palabra clave 1",
+        "translation": "Relación",
         "example": "Ich benutze das Wort „Beziehung“ im Kontext."
       },
       {
         "word": "zuhören",
-        "translation": "Palabra clave 2",
+        "translation": "escuchar",
         "example": "Ich benutze das Wort „zuhören“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 3",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 4",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Vereinbarung",
-        "translation": "Palabra clave 5",
+        "translation": "Acuerdo",
         "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
       },
       {
         "word": "Vertrauen",
-        "translation": "Palabra clave 6",
+        "translation": "Confianza",
         "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
       },
       {
         "word": "Gespräch",
-        "translation": "Palabra clave 7",
+        "translation": "Conversación",
         "example": "Ich benutze das Wort „Gespräch“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 8",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "klären",
-        "translation": "Palabra clave 9",
+        "translation": "aclarar",
         "example": "Ich benutze das Wort „klären“ im Kontext."
       },
       {
         "word": "respektieren",
-        "translation": "Palabra clave 10",
+        "translation": "respetar",
         "example": "Ich benutze das Wort „respektieren“ im Kontext."
       }
     ],
@@ -33418,52 +33439,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Beziehung",
-          "zuhören",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Meinung",
+          "klären",
+          "respektieren"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-b1-beziehungen-und-kommunikation-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Beziehungen und Kommunikation“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Beziehungen und Kommunikation darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -33492,52 +33514,52 @@
     "vocabulary": [
       {
         "word": "Kleidung",
-        "translation": "Palabra clave 1",
+        "translation": "Ropa",
         "example": "Ich benutze das Wort „Kleidung“ im Kontext."
       },
       {
         "word": "Hemd",
-        "translation": "Palabra clave 2",
+        "translation": "Camisa",
         "example": "Ich benutze das Wort „Hemd“ im Kontext."
       },
       {
         "word": "Hose",
-        "translation": "Palabra clave 3",
+        "translation": "Pantalón",
         "example": "Ich benutze das Wort „Hose“ im Kontext."
       },
       {
         "word": "Kleid",
-        "translation": "Palabra clave 4",
+        "translation": "Vestido",
         "example": "Ich benutze das Wort „Kleid“ im Kontext."
       },
       {
         "word": "Farbe",
-        "translation": "Palabra clave 5",
+        "translation": "Color",
         "example": "Ich benutze das Wort „Farbe“ im Kontext."
       },
       {
         "word": "blau",
-        "translation": "Palabra clave 6",
+        "translation": "azul",
         "example": "Ich benutze das Wort „blau“ im Kontext."
       },
       {
         "word": "rot",
-        "translation": "Palabra clave 7",
+        "translation": "rojo",
         "example": "Ich benutze das Wort „rot“ im Kontext."
       },
       {
         "word": "tragen",
-        "translation": "Palabra clave 8",
+        "translation": "llevar",
         "example": "Ich benutze das Wort „tragen“ im Kontext."
       },
       {
         "word": "passen",
-        "translation": "Palabra clave 9",
+        "translation": "encajar",
         "example": "Ich benutze das Wort „passen“ im Kontext."
       },
       {
         "word": "kaufen",
-        "translation": "Palabra clave 10",
+        "translation": "comprar",
         "example": "Ich benutze das Wort „kaufen“ im Kontext."
       }
     ],
@@ -33546,10 +33568,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Kleidung: Adjektive und Farben",
-        "definition": "Práctica guiada de Kleidung: Adjektive und Farben.",
+        "name": "Kleidung und Farben: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -33559,7 +33581,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
               {},
               {},
@@ -33569,7 +33591,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Satz.",
             "options": [
               {},
               {},
@@ -33579,7 +33601,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
               {},
               {},
@@ -33589,7 +33611,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welche Frage ist richtig?",
             "options": [
               {},
               {},
@@ -33599,7 +33621,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
               {},
               {},
@@ -33609,7 +33631,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Satz über ein Haus.",
             "options": [
               {},
               {},
@@ -33619,7 +33641,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
               {},
               {},
@@ -33629,7 +33651,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
               {},
               {},
@@ -33644,89 +33666,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "wohne",
+          "wohnt",
+          "wohnen",
+          "wohnst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Leon sprechen mit Anna.",
+          "Leon spricht mit Anna.",
+          "Leon spreche mit Anna.",
+          "Leon sprich mit Anna."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "lerne",
+          "lernt",
+          "lernen",
+          "lernst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Wo wohnst?",
+          "Wo wohnen du?",
+          "Wo du wohnst?",
+          "Wo wohnst du?"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "stellt",
+          "stelle",
+          "stellen",
+          "stellst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Das Haus sind hell.",
+          "Das Haus ist hell.",
+          "Die Haus ist hell.",
+          "Das Haus ist helle."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "trinken",
+          "trinkt",
+          "trinkst",
+          "trinke"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Jeden Morgen arbeitet ich im Zentrum.",
+          "Gestern arbeiten ich im Zentrum.",
+          "Morgen arbeitete ich im Zentrum.",
+          "Jeden Morgen arbeite ich im Zentrum."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
@@ -33756,52 +33778,52 @@
     "vocabulary": [
       {
         "word": "Fest",
-        "translation": "Palabra clave 1",
+        "translation": "Fijo",
         "example": "Ich benutze das Wort „Fest“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 2",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "feiern",
-        "translation": "Palabra clave 3",
+        "translation": "celebrar",
         "example": "Ich benutze das Wort „feiern“ im Kontext."
       },
       {
         "word": "vorbereitet",
-        "translation": "Palabra clave 4",
+        "translation": "preparado",
         "example": "Ich benutze das Wort „vorbereitet“ im Kontext."
       },
       {
         "word": "besucht",
-        "translation": "Palabra clave 5",
+        "translation": "visitado",
         "example": "Ich benutze das Wort „besucht“ im Kontext."
       },
       {
         "word": "gemeinsam",
-        "translation": "Palabra clave 6",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
       },
       {
         "word": "Reihenfolge",
-        "translation": "Palabra clave 7",
+        "translation": "Orden",
         "example": "Ich benutze das Wort „Reihenfolge“ im Kontext."
       },
       {
         "word": "früher",
-        "translation": "Palabra clave 8",
+        "translation": "antes",
         "example": "Ich benutze das Wort „früher“ im Kontext."
       },
       {
         "word": "danach",
-        "translation": "Palabra clave 9",
+        "translation": "después",
         "example": "Ich benutze das Wort „danach“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 10",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       }
     ],
@@ -33810,10 +33832,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Feste: Perfekt und Reihenfolge",
-        "definition": "Práctica guiada de Feste: Perfekt und Reihenfolge.",
+        "name": "Feste und Traditionen: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
         "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -33823,7 +33845,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
               {},
               {},
@@ -33833,7 +33855,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
               {},
               {},
@@ -33843,7 +33865,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
               {},
               {},
@@ -33853,7 +33875,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
               {},
               {},
@@ -33863,7 +33885,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
               {},
               {},
@@ -33873,7 +33895,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
               {},
               {},
@@ -33883,7 +33905,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
               {},
               {},
@@ -33893,7 +33915,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
               {},
               {},
@@ -33908,89 +33930,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "habe besucht",
+          "besuche",
+          "habe besuchen",
+          "bin besucht"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben zusammen essen.",
+          "Wir haben zusammen gegessen.",
+          "Wir sind zusammen gegessen.",
+          "Wir essen gestern zusammen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "ist kommen",
+          "hat gekommen",
+          "ist gekommen",
+          "kommt gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
+          "Zuerst haben wir gelernt, weil sind wir gegangen.",
+          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
+          "Zuerst haben wir gelernt, dann sind wir gegangen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Hast gelesen",
+          "Hast lesen",
+          "Bist gelesen",
+          "Liest gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Meine Freunde sind den Bus genommen.",
+          "Meine Freunde haben den Bus genommen.",
+          "Meine Freunde haben den Bus nehmen.",
+          "Meine Freunde nehmen gestern den Bus."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "haben machen",
+          "sind gemacht",
+          "haben gemacht",
+          "machen gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Am Samstag bin ich meine Cousine getroffen.",
+          "Am Samstag treffe ich meine Cousine morgen.",
+          "Am Samstag treffen meine Cousine.",
+          "Am Samstag habe ich meine Cousine getroffen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
@@ -34020,52 +34042,52 @@
     "vocabulary": [
       {
         "word": "Beziehung",
-        "translation": "Palabra clave 1",
+        "translation": "Relación",
         "example": "Ich benutze das Wort „Beziehung“ im Kontext."
       },
       {
         "word": "zuhören",
-        "translation": "Palabra clave 2",
+        "translation": "escuchar",
         "example": "Ich benutze das Wort „zuhören“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 3",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 4",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Vereinbarung",
-        "translation": "Palabra clave 5",
+        "translation": "Acuerdo",
         "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
       },
       {
         "word": "Vertrauen",
-        "translation": "Palabra clave 6",
+        "translation": "Confianza",
         "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
       },
       {
         "word": "Gespräch",
-        "translation": "Palabra clave 7",
+        "translation": "Conversación",
         "example": "Ich benutze das Wort „Gespräch“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 8",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "klären",
-        "translation": "Palabra clave 9",
+        "translation": "aclarar",
         "example": "Ich benutze das Wort „klären“ im Kontext."
       },
       {
         "word": "respektieren",
-        "translation": "Palabra clave 10",
+        "translation": "respetar",
         "example": "Ich benutze das Wort „respektieren“ im Kontext."
       }
     ],
@@ -34074,10 +34096,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Beziehungen: Relativsätze und indirekte Fragen",
-        "definition": "Práctica guiada de Beziehungen: Relativsätze und indirekte Fragen.",
+        "name": "Beziehungen und Kommunikation: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -34087,7 +34109,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
               {},
               {},
@@ -34097,7 +34119,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
               {},
               {},
@@ -34107,7 +34129,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
               {},
               {},
@@ -34117,7 +34139,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
               {},
               {},
@@ -34127,7 +34149,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
               {},
               {},
@@ -34137,7 +34159,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle eine logische Folge.",
             "options": [
               {},
               {},
@@ -34147,7 +34169,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
               {},
               {},
@@ -34157,7 +34179,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
               {},
               {},
@@ -34172,89 +34194,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "sei"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Ich möchte ausgehen, deshalb es regnet.",
+          "Ich möchte ausgehen, aber es regnet.",
+          "Ich möchte ausgehen, weil es regnet.",
+          "Ich möchte ausgehen, dann es regnet."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "ist",
+          "bin",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Das Projekt funktioniert warum?",
+          "Das Projekt gestern funktioniert?",
+          "Funktionieren das Projekt meiner Meinung.",
+          "Meiner Meinung nach funktioniert das Projekt."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
+          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
+          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
+          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "haben",
+          "hat",
+          "hatte"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Ich nehme den Zug er nachhaltiger ist weil.",
+          "Ich nehme den Zug, aber er nachhaltiger ist.",
+          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
+          "Ich nehme den Zug, weil er nachhaltiger ist."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
@@ -34284,52 +34306,52 @@
     "vocabulary": [
       {
         "word": "Kleidung",
-        "translation": "Palabra clave 1",
+        "translation": "Ropa",
         "example": "Ich benutze das Wort „Kleidung“ im Kontext."
       },
       {
         "word": "Hemd",
-        "translation": "Palabra clave 2",
+        "translation": "Camisa",
         "example": "Ich benutze das Wort „Hemd“ im Kontext."
       },
       {
         "word": "Hose",
-        "translation": "Palabra clave 3",
+        "translation": "Pantalón",
         "example": "Ich benutze das Wort „Hose“ im Kontext."
       },
       {
         "word": "Kleid",
-        "translation": "Palabra clave 4",
+        "translation": "Vestido",
         "example": "Ich benutze das Wort „Kleid“ im Kontext."
       },
       {
         "word": "Farbe",
-        "translation": "Palabra clave 5",
+        "translation": "Color",
         "example": "Ich benutze das Wort „Farbe“ im Kontext."
       },
       {
         "word": "blau",
-        "translation": "Palabra clave 6",
+        "translation": "azul",
         "example": "Ich benutze das Wort „blau“ im Kontext."
       },
       {
         "word": "rot",
-        "translation": "Palabra clave 7",
+        "translation": "rojo",
         "example": "Ich benutze das Wort „rot“ im Kontext."
       },
       {
         "word": "tragen",
-        "translation": "Palabra clave 8",
+        "translation": "llevar",
         "example": "Ich benutze das Wort „tragen“ im Kontext."
       },
       {
         "word": "passen",
-        "translation": "Palabra clave 9",
+        "translation": "encajar",
         "example": "Ich benutze das Wort „passen“ im Kontext."
       },
       {
         "word": "kaufen",
-        "translation": "Palabra clave 10",
+        "translation": "comprar",
         "example": "Ich benutze das Wort „kaufen“ im Kontext."
       }
     ],
@@ -34504,52 +34526,52 @@
     "vocabulary": [
       {
         "word": "Fest",
-        "translation": "Palabra clave 1",
+        "translation": "Fijo",
         "example": "Ich benutze das Wort „Fest“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 2",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "feiern",
-        "translation": "Palabra clave 3",
+        "translation": "celebrar",
         "example": "Ich benutze das Wort „feiern“ im Kontext."
       },
       {
         "word": "vorbereitet",
-        "translation": "Palabra clave 4",
+        "translation": "preparado",
         "example": "Ich benutze das Wort „vorbereitet“ im Kontext."
       },
       {
         "word": "besucht",
-        "translation": "Palabra clave 5",
+        "translation": "visitado",
         "example": "Ich benutze das Wort „besucht“ im Kontext."
       },
       {
         "word": "gemeinsam",
-        "translation": "Palabra clave 6",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
       },
       {
         "word": "Reihenfolge",
-        "translation": "Palabra clave 7",
+        "translation": "Orden",
         "example": "Ich benutze das Wort „Reihenfolge“ im Kontext."
       },
       {
         "word": "früher",
-        "translation": "Palabra clave 8",
+        "translation": "antes",
         "example": "Ich benutze das Wort „früher“ im Kontext."
       },
       {
         "word": "danach",
-        "translation": "Palabra clave 9",
+        "translation": "después",
         "example": "Ich benutze das Wort „danach“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 10",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       }
     ],
@@ -34724,52 +34746,52 @@
     "vocabulary": [
       {
         "word": "Beziehung",
-        "translation": "Palabra clave 1",
+        "translation": "Relación",
         "example": "Ich benutze das Wort „Beziehung“ im Kontext."
       },
       {
         "word": "zuhören",
-        "translation": "Palabra clave 2",
+        "translation": "escuchar",
         "example": "Ich benutze das Wort „zuhören“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 3",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 4",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Vereinbarung",
-        "translation": "Palabra clave 5",
+        "translation": "Acuerdo",
         "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
       },
       {
         "word": "Vertrauen",
-        "translation": "Palabra clave 6",
+        "translation": "Confianza",
         "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
       },
       {
         "word": "Gespräch",
-        "translation": "Palabra clave 7",
+        "translation": "Conversación",
         "example": "Ich benutze das Wort „Gespräch“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 8",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "klären",
-        "translation": "Palabra clave 9",
+        "translation": "aclarar",
         "example": "Ich benutze das Wort „klären“ im Kontext."
       },
       {
         "word": "respektieren",
-        "translation": "Palabra clave 10",
+        "translation": "respetar",
         "example": "Ich benutze das Wort „respektieren“ im Kontext."
       }
     ],
@@ -34944,8 +34966,8 @@
     "vocabulary": [
       {
         "word": "Kleidung",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Ropa",
+        "definition": "Ropa",
         "example": "Ich benutze „Kleidung“ in einem Satz.",
         "contexts": [
           "Kleidung · tema",
@@ -34955,8 +34977,8 @@
       },
       {
         "word": "Hemd",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Camisa",
+        "definition": "Camisa",
         "example": "Ich benutze „Hemd“ in einem Satz.",
         "contexts": [
           "Hemd · tema",
@@ -34966,8 +34988,8 @@
       },
       {
         "word": "Hose",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Pantalón",
+        "definition": "Pantalón",
         "example": "Ich benutze „Hose“ in einem Satz.",
         "contexts": [
           "Hose · tema",
@@ -34977,8 +34999,8 @@
       },
       {
         "word": "Kleid",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Vestido",
+        "definition": "Vestido",
         "example": "Ich benutze „Kleid“ in einem Satz.",
         "contexts": [
           "Kleid · tema",
@@ -34988,8 +35010,8 @@
       },
       {
         "word": "Farbe",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "Color",
+        "definition": "Color",
         "example": "Ich benutze „Farbe“ in einem Satz.",
         "contexts": [
           "Farbe · tema",
@@ -34999,8 +35021,8 @@
       },
       {
         "word": "blau",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "azul",
+        "definition": "azul",
         "example": "Ich benutze „blau“ in einem Satz.",
         "contexts": [
           "blau · tema",
@@ -35010,8 +35032,8 @@
       },
       {
         "word": "rot",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "rojo",
+        "definition": "rojo",
         "example": "Ich benutze „rot“ in einem Satz.",
         "contexts": [
           "rot · tema",
@@ -35021,8 +35043,8 @@
       },
       {
         "word": "tragen",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "llevar",
+        "definition": "llevar",
         "example": "Ich benutze „tragen“ in einem Satz.",
         "contexts": [
           "tragen · tema",
@@ -35032,8 +35054,8 @@
       },
       {
         "word": "passen",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "encajar",
+        "definition": "encajar",
         "example": "Ich benutze „passen“ in einem Satz.",
         "contexts": [
           "passen · tema",
@@ -35043,8 +35065,8 @@
       },
       {
         "word": "kaufen",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "comprar",
+        "definition": "comprar",
         "example": "Ich benutze „kaufen“ in einem Satz.",
         "contexts": [
           "kaufen · tema",
@@ -35226,8 +35248,8 @@
     "vocabulary": [
       {
         "word": "Fest",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Fijo",
+        "definition": "Fijo",
         "example": "Ich benutze „Fest“ in einem Satz.",
         "contexts": [
           "Fest · tema",
@@ -35237,8 +35259,8 @@
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Tradición",
+        "definition": "Tradición",
         "example": "Ich benutze „Tradition“ in einem Satz.",
         "contexts": [
           "Tradition · tema",
@@ -35248,8 +35270,8 @@
       },
       {
         "word": "feiern",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "celebrar",
+        "definition": "celebrar",
         "example": "Ich benutze „feiern“ in einem Satz.",
         "contexts": [
           "feiern · tema",
@@ -35259,8 +35281,8 @@
       },
       {
         "word": "vorbereitet",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "preparado",
+        "definition": "preparado",
         "example": "Ich benutze „vorbereitet“ in einem Satz.",
         "contexts": [
           "vorbereitet · tema",
@@ -35270,8 +35292,8 @@
       },
       {
         "word": "besucht",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "visitado",
+        "definition": "visitado",
         "example": "Ich benutze „besucht“ in einem Satz.",
         "contexts": [
           "besucht · tema",
@@ -35281,8 +35303,8 @@
       },
       {
         "word": "gemeinsam",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "juntos",
+        "definition": "juntos",
         "example": "Ich benutze „gemeinsam“ in einem Satz.",
         "contexts": [
           "gemeinsam · tema",
@@ -35292,8 +35314,8 @@
       },
       {
         "word": "Reihenfolge",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Orden",
+        "definition": "Orden",
         "example": "Ich benutze „Reihenfolge“ in einem Satz.",
         "contexts": [
           "Reihenfolge · tema",
@@ -35303,8 +35325,8 @@
       },
       {
         "word": "früher",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "antes",
+        "definition": "antes",
         "example": "Ich benutze „früher“ in einem Satz.",
         "contexts": [
           "früher · tema",
@@ -35314,8 +35336,8 @@
       },
       {
         "word": "danach",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "después",
+        "definition": "después",
         "example": "Ich benutze „danach“ in einem Satz.",
         "contexts": [
           "danach · tema",
@@ -35325,8 +35347,8 @@
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Recordatorio",
+        "definition": "Recordatorio",
         "example": "Ich benutze „Erinnerung“ in einem Satz.",
         "contexts": [
           "Erinnerung · tema",
@@ -35508,8 +35530,8 @@
     "vocabulary": [
       {
         "word": "Beziehung",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Relación",
+        "definition": "Relación",
         "example": "Ich benutze „Beziehung“ in einem Satz.",
         "contexts": [
           "Beziehung · tema",
@@ -35519,8 +35541,8 @@
       },
       {
         "word": "zuhören",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "escuchar",
+        "definition": "escuchar",
         "example": "Ich benutze „zuhören“ in einem Satz.",
         "contexts": [
           "zuhören · tema",
@@ -35530,8 +35552,8 @@
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "explicar",
+        "definition": "explicar",
         "example": "Ich benutze „erklären“ in einem Satz.",
         "contexts": [
           "erklären · tema",
@@ -35541,8 +35563,8 @@
       },
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Mensaje",
+        "definition": "Mensaje",
         "example": "Ich benutze „Nachricht“ in einem Satz.",
         "contexts": [
           "Nachricht · tema",
@@ -35552,8 +35574,8 @@
       },
       {
         "word": "Vereinbarung",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "Acuerdo",
+        "definition": "Acuerdo",
         "example": "Ich benutze „Vereinbarung“ in einem Satz.",
         "contexts": [
           "Vereinbarung · tema",
@@ -35563,8 +35585,8 @@
       },
       {
         "word": "Vertrauen",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Confianza",
+        "definition": "Confianza",
         "example": "Ich benutze „Vertrauen“ in einem Satz.",
         "contexts": [
           "Vertrauen · tema",
@@ -35574,8 +35596,8 @@
       },
       {
         "word": "Gespräch",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Conversación",
+        "definition": "Conversación",
         "example": "Ich benutze „Gespräch“ in einem Satz.",
         "contexts": [
           "Gespräch · tema",
@@ -35585,8 +35607,8 @@
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Opinión",
+        "definition": "Opinión",
         "example": "Ich benutze „Meinung“ in einem Satz.",
         "contexts": [
           "Meinung · tema",
@@ -35596,8 +35618,8 @@
       },
       {
         "word": "klären",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "aclarar",
+        "definition": "aclarar",
         "example": "Ich benutze „klären“ in einem Satz.",
         "contexts": [
           "klären · tema",
@@ -35607,8 +35629,8 @@
       },
       {
         "word": "respektieren",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "respetar",
+        "definition": "respetar",
         "example": "Ich benutze „respektieren“ in einem Satz.",
         "contexts": [
           "respektieren · tema",
@@ -35790,52 +35812,52 @@
     "vocabulary": [
       {
         "word": "Kleidung",
-        "translation": "Palabra clave 1",
+        "translation": "Ropa",
         "example": "Ich benutze das Wort „Kleidung“ im Kontext."
       },
       {
         "word": "Hemd",
-        "translation": "Palabra clave 2",
+        "translation": "Camisa",
         "example": "Ich benutze das Wort „Hemd“ im Kontext."
       },
       {
         "word": "Hose",
-        "translation": "Palabra clave 3",
+        "translation": "Pantalón",
         "example": "Ich benutze das Wort „Hose“ im Kontext."
       },
       {
         "word": "Kleid",
-        "translation": "Palabra clave 4",
+        "translation": "Vestido",
         "example": "Ich benutze das Wort „Kleid“ im Kontext."
       },
       {
         "word": "Farbe",
-        "translation": "Palabra clave 5",
+        "translation": "Color",
         "example": "Ich benutze das Wort „Farbe“ im Kontext."
       },
       {
         "word": "blau",
-        "translation": "Palabra clave 6",
+        "translation": "azul",
         "example": "Ich benutze das Wort „blau“ im Kontext."
       },
       {
         "word": "rot",
-        "translation": "Palabra clave 7",
+        "translation": "rojo",
         "example": "Ich benutze das Wort „rot“ im Kontext."
       },
       {
         "word": "tragen",
-        "translation": "Palabra clave 8",
+        "translation": "llevar",
         "example": "Ich benutze das Wort „tragen“ im Kontext."
       },
       {
         "word": "passen",
-        "translation": "Palabra clave 9",
+        "translation": "encajar",
         "example": "Ich benutze das Wort „passen“ im Kontext."
       },
       {
         "word": "kaufen",
-        "translation": "Palabra clave 10",
+        "translation": "comprar",
         "example": "Ich benutze das Wort „kaufen“ im Kontext."
       }
     ],
@@ -35883,52 +35905,52 @@
     "vocabulary": [
       {
         "word": "Fest",
-        "translation": "Palabra clave 1",
+        "translation": "Fijo",
         "example": "Ich benutze das Wort „Fest“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 2",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "feiern",
-        "translation": "Palabra clave 3",
+        "translation": "celebrar",
         "example": "Ich benutze das Wort „feiern“ im Kontext."
       },
       {
         "word": "vorbereitet",
-        "translation": "Palabra clave 4",
+        "translation": "preparado",
         "example": "Ich benutze das Wort „vorbereitet“ im Kontext."
       },
       {
         "word": "besucht",
-        "translation": "Palabra clave 5",
+        "translation": "visitado",
         "example": "Ich benutze das Wort „besucht“ im Kontext."
       },
       {
         "word": "gemeinsam",
-        "translation": "Palabra clave 6",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
       },
       {
         "word": "Reihenfolge",
-        "translation": "Palabra clave 7",
+        "translation": "Orden",
         "example": "Ich benutze das Wort „Reihenfolge“ im Kontext."
       },
       {
         "word": "früher",
-        "translation": "Palabra clave 8",
+        "translation": "antes",
         "example": "Ich benutze das Wort „früher“ im Kontext."
       },
       {
         "word": "danach",
-        "translation": "Palabra clave 9",
+        "translation": "después",
         "example": "Ich benutze das Wort „danach“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 10",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       }
     ],
@@ -35976,52 +35998,52 @@
     "vocabulary": [
       {
         "word": "Beziehung",
-        "translation": "Palabra clave 1",
+        "translation": "Relación",
         "example": "Ich benutze das Wort „Beziehung“ im Kontext."
       },
       {
         "word": "zuhören",
-        "translation": "Palabra clave 2",
+        "translation": "escuchar",
         "example": "Ich benutze das Wort „zuhören“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 3",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 4",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Vereinbarung",
-        "translation": "Palabra clave 5",
+        "translation": "Acuerdo",
         "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
       },
       {
         "word": "Vertrauen",
-        "translation": "Palabra clave 6",
+        "translation": "Confianza",
         "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
       },
       {
         "word": "Gespräch",
-        "translation": "Palabra clave 7",
+        "translation": "Conversación",
         "example": "Ich benutze das Wort „Gespräch“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 8",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "klären",
-        "translation": "Palabra clave 9",
+        "translation": "aclarar",
         "example": "Ich benutze das Wort „klären“ im Kontext."
       },
       {
         "word": "respektieren",
-        "translation": "Palabra clave 10",
+        "translation": "respetar",
         "example": "Ich benutze das Wort „respektieren“ im Kontext."
       }
     ],
@@ -36069,52 +36091,52 @@
     "vocabulary": [
       {
         "word": "Kleidung",
-        "translation": "Palabra clave 1",
+        "translation": "Ropa",
         "example": "Ich benutze das Wort „Kleidung“ im Kontext."
       },
       {
         "word": "Hemd",
-        "translation": "Palabra clave 2",
+        "translation": "Camisa",
         "example": "Ich benutze das Wort „Hemd“ im Kontext."
       },
       {
         "word": "Hose",
-        "translation": "Palabra clave 3",
+        "translation": "Pantalón",
         "example": "Ich benutze das Wort „Hose“ im Kontext."
       },
       {
         "word": "Kleid",
-        "translation": "Palabra clave 4",
+        "translation": "Vestido",
         "example": "Ich benutze das Wort „Kleid“ im Kontext."
       },
       {
         "word": "Farbe",
-        "translation": "Palabra clave 5",
+        "translation": "Color",
         "example": "Ich benutze das Wort „Farbe“ im Kontext."
       },
       {
         "word": "blau",
-        "translation": "Palabra clave 6",
+        "translation": "azul",
         "example": "Ich benutze das Wort „blau“ im Kontext."
       },
       {
         "word": "rot",
-        "translation": "Palabra clave 7",
+        "translation": "rojo",
         "example": "Ich benutze das Wort „rot“ im Kontext."
       },
       {
         "word": "tragen",
-        "translation": "Palabra clave 8",
+        "translation": "llevar",
         "example": "Ich benutze das Wort „tragen“ im Kontext."
       },
       {
         "word": "passen",
-        "translation": "Palabra clave 9",
+        "translation": "encajar",
         "example": "Ich benutze das Wort „passen“ im Kontext."
       },
       {
         "word": "kaufen",
-        "translation": "Palabra clave 10",
+        "translation": "comprar",
         "example": "Ich benutze das Wort „kaufen“ im Kontext."
       }
     ],
@@ -36153,52 +36175,52 @@
     "vocabulary": [
       {
         "word": "Fest",
-        "translation": "Palabra clave 1",
+        "translation": "Fijo",
         "example": "Ich benutze das Wort „Fest“ im Kontext."
       },
       {
         "word": "Tradition",
-        "translation": "Palabra clave 2",
+        "translation": "Tradición",
         "example": "Ich benutze das Wort „Tradition“ im Kontext."
       },
       {
         "word": "feiern",
-        "translation": "Palabra clave 3",
+        "translation": "celebrar",
         "example": "Ich benutze das Wort „feiern“ im Kontext."
       },
       {
         "word": "vorbereitet",
-        "translation": "Palabra clave 4",
+        "translation": "preparado",
         "example": "Ich benutze das Wort „vorbereitet“ im Kontext."
       },
       {
         "word": "besucht",
-        "translation": "Palabra clave 5",
+        "translation": "visitado",
         "example": "Ich benutze das Wort „besucht“ im Kontext."
       },
       {
         "word": "gemeinsam",
-        "translation": "Palabra clave 6",
+        "translation": "juntos",
         "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
       },
       {
         "word": "Reihenfolge",
-        "translation": "Palabra clave 7",
+        "translation": "Orden",
         "example": "Ich benutze das Wort „Reihenfolge“ im Kontext."
       },
       {
         "word": "früher",
-        "translation": "Palabra clave 8",
+        "translation": "antes",
         "example": "Ich benutze das Wort „früher“ im Kontext."
       },
       {
         "word": "danach",
-        "translation": "Palabra clave 9",
+        "translation": "después",
         "example": "Ich benutze das Wort „danach“ im Kontext."
       },
       {
         "word": "Erinnerung",
-        "translation": "Palabra clave 10",
+        "translation": "Recordatorio",
         "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
       }
     ],
@@ -36237,52 +36259,52 @@
     "vocabulary": [
       {
         "word": "Beziehung",
-        "translation": "Palabra clave 1",
+        "translation": "Relación",
         "example": "Ich benutze das Wort „Beziehung“ im Kontext."
       },
       {
         "word": "zuhören",
-        "translation": "Palabra clave 2",
+        "translation": "escuchar",
         "example": "Ich benutze das Wort „zuhören“ im Kontext."
       },
       {
         "word": "erklären",
-        "translation": "Palabra clave 3",
+        "translation": "explicar",
         "example": "Ich benutze das Wort „erklären“ im Kontext."
       },
       {
         "word": "Nachricht",
-        "translation": "Palabra clave 4",
+        "translation": "Mensaje",
         "example": "Ich benutze das Wort „Nachricht“ im Kontext."
       },
       {
         "word": "Vereinbarung",
-        "translation": "Palabra clave 5",
+        "translation": "Acuerdo",
         "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
       },
       {
         "word": "Vertrauen",
-        "translation": "Palabra clave 6",
+        "translation": "Confianza",
         "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
       },
       {
         "word": "Gespräch",
-        "translation": "Palabra clave 7",
+        "translation": "Conversación",
         "example": "Ich benutze das Wort „Gespräch“ im Kontext."
       },
       {
         "word": "Meinung",
-        "translation": "Palabra clave 8",
+        "translation": "Opinión",
         "example": "Ich benutze das Wort „Meinung“ im Kontext."
       },
       {
         "word": "klären",
-        "translation": "Palabra clave 9",
+        "translation": "aclarar",
         "example": "Ich benutze das Wort „klären“ im Kontext."
       },
       {
         "word": "respektieren",
-        "translation": "Palabra clave 10",
+        "translation": "respetar",
         "example": "Ich benutze das Wort „respektieren“ im Kontext."
       }
     ],
@@ -36321,52 +36343,52 @@
     "vocabulary": [
       {
         "word": "Geburtstag",
-        "translation": "Palabra clave 1",
+        "translation": "Cumpleaños",
         "example": "Ich benutze das Wort „Geburtstag“ im Kontext."
       },
       {
         "word": "Einladung",
-        "translation": "Palabra clave 2",
+        "translation": "Invitación",
         "example": "Ich benutze das Wort „Einladung“ im Kontext."
       },
       {
         "word": "feiern",
-        "translation": "Palabra clave 3",
+        "translation": "celebrar",
         "example": "Ich benutze das Wort „feiern“ im Kontext."
       },
       {
         "word": "Uhr",
-        "translation": "Palabra clave 4",
+        "translation": "Reloj",
         "example": "Ich benutze das Wort „Uhr“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 5",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "morgen",
-        "translation": "Palabra clave 6",
+        "translation": "mañana",
         "example": "Ich benutze das Wort „morgen“ im Kontext."
       },
       {
         "word": "gern",
-        "translation": "Palabra clave 7",
+        "translation": "con mucho gusto",
         "example": "Ich benutze das Wort „gern“ im Kontext."
       },
       {
         "word": "kommen",
-        "translation": "Palabra clave 8",
+        "translation": "venir",
         "example": "Ich benutze das Wort „kommen“ im Kontext."
       },
       {
         "word": "bringen",
-        "translation": "Palabra clave 9",
+        "translation": "traer",
         "example": "Ich benutze das Wort „bringen“ im Kontext."
       },
       {
         "word": "Geschenk",
-        "translation": "Palabra clave 10",
+        "translation": "Regalo",
         "example": "Ich benutze das Wort „Geschenk“ im Kontext."
       }
     ],
@@ -36391,42 +36413,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Geburtstag",
-          "Einladung",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "kommen",
+          "bringen",
+          "Geschenk"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -36455,52 +36477,52 @@
     "vocabulary": [
       {
         "word": "Wohnung",
-        "translation": "Palabra clave 1",
+        "translation": "Piso",
         "example": "Ich benutze das Wort „Wohnung“ im Kontext."
       },
       {
         "word": "Zimmer",
-        "translation": "Palabra clave 2",
+        "translation": "Habitación",
         "example": "Ich benutze das Wort „Zimmer“ im Kontext."
       },
       {
         "word": "Miete",
-        "translation": "Palabra clave 3",
+        "translation": "Alquiler",
         "example": "Ich benutze das Wort „Miete“ im Kontext."
       },
       {
         "word": "suchen",
-        "translation": "Palabra clave 4",
+        "translation": "buscar",
         "example": "Ich benutze das Wort „suchen“ im Kontext."
       },
       {
         "word": "neben",
-        "translation": "Palabra clave 5",
+        "translation": "junto a",
         "example": "Ich benutze das Wort „neben“ im Kontext."
       },
       {
         "word": "über",
-        "translation": "Palabra clave 6",
+        "translation": "Acerca de",
         "example": "Ich benutze das Wort „über“ im Kontext."
       },
       {
         "word": "unter",
-        "translation": "Palabra clave 7",
+        "translation": "bajo",
         "example": "Ich benutze das Wort „unter“ im Kontext."
       },
       {
         "word": "größer",
-        "translation": "Palabra clave 8",
+        "translation": "más grande",
         "example": "Ich benutze das Wort „größer“ im Kontext."
       },
       {
         "word": "ruhiger",
-        "translation": "Palabra clave 9",
+        "translation": "más tranquilo",
         "example": "Ich benutze das Wort „ruhiger“ im Kontext."
       },
       {
         "word": "Besichtigung",
-        "translation": "Palabra clave 10",
+        "translation": "Visita",
         "example": "Ich benutze das Wort „Besichtigung“ im Kontext."
       }
     ],
@@ -36526,52 +36548,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Wohnung",
-          "Zimmer",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "größer",
+          "ruhiger",
+          "Besichtigung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-a2-wohnungssuche-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Wohnungssuche“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Wohnungssuche darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -36600,52 +36623,52 @@
     "vocabulary": [
       {
         "word": "Gesellschaft",
-        "translation": "Palabra clave 1",
+        "translation": "Sociedad",
         "example": "Ich benutze das Wort „Gesellschaft“ im Kontext."
       },
       {
         "word": "mitwirken",
-        "translation": "Palabra clave 2",
+        "translation": "colaborar",
         "example": "Ich benutze das Wort „mitwirken“ im Kontext."
       },
       {
         "word": "Recht",
-        "translation": "Palabra clave 3",
+        "translation": "Derecho",
         "example": "Ich benutze das Wort „Recht“ im Kontext."
       },
       {
         "word": "Vorschlag",
-        "translation": "Palabra clave 4",
+        "translation": "Propuesta",
         "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
       },
       {
         "word": "Gemeinschaft",
-        "translation": "Palabra clave 5",
+        "translation": "Comunidad",
         "example": "Ich benutze das Wort „Gemeinschaft“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 6",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "freiwillig",
-        "translation": "Palabra clave 7",
+        "translation": "voluntario",
         "example": "Ich benutze das Wort „freiwillig“ im Kontext."
       },
       {
         "word": "Initiative",
-        "translation": "Palabra clave 8",
+        "translation": "Iniciativa",
         "example": "Ich benutze das Wort „Initiative“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "Verantwortung",
-        "translation": "Palabra clave 10",
+        "translation": "Responsabilidad",
         "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
       }
     ],
@@ -36672,52 +36695,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Worum geht es im Text?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
           "Gesellschaft",
-          "mitwirken",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "Initiative",
+          "verbessern",
+          "Verantwortung"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Was macht die Hauptperson zuerst?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Welche Rolle hat die zweite Person?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Warum arbeitet die Gruppe zusammen?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       },
       {
+        "id": "german-b1-gesellschaft-und-mitwirkung-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Was ist das gemeinsame Ziel?",
+        "prompt": "Was ist der Hauptzweck von „Gesellschaft und Mitwirkung“?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Die wichtigsten Ideen und Details von Gesellschaft und Mitwirkung darstellen",
+          "Ein nicht verwandtes Thema darstellen",
+          "Eine Liste ohne Kontext geben",
+          "Eine Geschichte ohne Bezug zum Thema erzählen"
         ]
       }
     ]
@@ -36746,52 +36770,52 @@
     "vocabulary": [
       {
         "word": "Geburtstag",
-        "translation": "Palabra clave 1",
+        "translation": "Cumpleaños",
         "example": "Ich benutze das Wort „Geburtstag“ im Kontext."
       },
       {
         "word": "Einladung",
-        "translation": "Palabra clave 2",
+        "translation": "Invitación",
         "example": "Ich benutze das Wort „Einladung“ im Kontext."
       },
       {
         "word": "feiern",
-        "translation": "Palabra clave 3",
+        "translation": "celebrar",
         "example": "Ich benutze das Wort „feiern“ im Kontext."
       },
       {
         "word": "Uhr",
-        "translation": "Palabra clave 4",
+        "translation": "Reloj",
         "example": "Ich benutze das Wort „Uhr“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 5",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "morgen",
-        "translation": "Palabra clave 6",
+        "translation": "mañana",
         "example": "Ich benutze das Wort „morgen“ im Kontext."
       },
       {
         "word": "gern",
-        "translation": "Palabra clave 7",
+        "translation": "con mucho gusto",
         "example": "Ich benutze das Wort „gern“ im Kontext."
       },
       {
         "word": "kommen",
-        "translation": "Palabra clave 8",
+        "translation": "venir",
         "example": "Ich benutze das Wort „kommen“ im Kontext."
       },
       {
         "word": "bringen",
-        "translation": "Palabra clave 9",
+        "translation": "traer",
         "example": "Ich benutze das Wort „bringen“ im Kontext."
       },
       {
         "word": "Geschenk",
-        "translation": "Palabra clave 10",
+        "translation": "Regalo",
         "example": "Ich benutze das Wort „Geschenk“ im Kontext."
       }
     ],
@@ -36800,10 +36824,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Einladung: möchten und Uhrzeiten",
-        "definition": "Práctica guiada de Einladung: möchten und Uhrzeiten.",
+        "name": "Geburtstag und Einladung: Grammatik",
+        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Über Personen, Orte und Alltag sprechen.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -36813,7 +36837,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich ___ im Viertel.",
             "options": [
               {},
               {},
@@ -36823,7 +36847,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Satz.",
             "options": [
               {},
               {},
@@ -36833,7 +36857,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
             "options": [
               {},
               {},
@@ -36843,7 +36867,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welche Frage ist richtig?",
             "options": [
               {},
               {},
@@ -36853,7 +36877,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Sie ___ eine Frage.",
             "options": [
               {},
               {},
@@ -36863,7 +36887,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Satz über ein Haus.",
             "options": [
               {},
               {},
@@ -36873,7 +36897,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Du ___ Kaffee.",
             "options": [
               {},
               {},
@@ -36883,7 +36907,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine Routine?",
             "options": [
               {},
               {},
@@ -36898,89 +36922,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich ___ im Viertel.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "wohne",
+          "wohnt",
+          "wohnen",
+          "wohnst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Leon sprechen mit Anna.",
+          "Leon spricht mit Anna.",
+          "Leon spreche mit Anna.",
+          "Leon sprich mit Anna."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ jeden Tag Deutsch.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "lerne",
+          "lernt",
+          "lernen",
+          "lernst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welche Frage ist richtig?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Wo wohnst?",
+          "Wo wohnen du?",
+          "Wo du wohnst?",
+          "Wo wohnst du?"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Sie ___ eine Frage.",
         "options": [
-          "Ich wohne im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "stellt",
+          "stelle",
+          "stellen",
+          "stellst"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Satz über ein Haus.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Das Haus sind hell.",
+          "Das Haus ist hell.",
+          "Die Haus ist hell.",
+          "Das Haus ist helle."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Du ___ Kaffee.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohne im Viertel.",
-          "Wohne ich im Viertel."
+          "trinken",
+          "trinkt",
+          "trinkst",
+          "trinke"
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine Routine?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich wohne im Viertel."
+          "Jeden Morgen arbeitet ich im Zentrum.",
+          "Gestern arbeiten ich im Zentrum.",
+          "Morgen arbeitete ich im Zentrum.",
+          "Jeden Morgen arbeite ich im Zentrum."
         ],
         "explanation": "Das Präsens beschreibt einfache Gewohnheiten und Fakten."
       }
@@ -37010,52 +37034,52 @@
     "vocabulary": [
       {
         "word": "Wohnung",
-        "translation": "Palabra clave 1",
+        "translation": "Piso",
         "example": "Ich benutze das Wort „Wohnung“ im Kontext."
       },
       {
         "word": "Zimmer",
-        "translation": "Palabra clave 2",
+        "translation": "Habitación",
         "example": "Ich benutze das Wort „Zimmer“ im Kontext."
       },
       {
         "word": "Miete",
-        "translation": "Palabra clave 3",
+        "translation": "Alquiler",
         "example": "Ich benutze das Wort „Miete“ im Kontext."
       },
       {
         "word": "suchen",
-        "translation": "Palabra clave 4",
+        "translation": "buscar",
         "example": "Ich benutze das Wort „suchen“ im Kontext."
       },
       {
         "word": "neben",
-        "translation": "Palabra clave 5",
+        "translation": "junto a",
         "example": "Ich benutze das Wort „neben“ im Kontext."
       },
       {
         "word": "über",
-        "translation": "Palabra clave 6",
+        "translation": "Acerca de",
         "example": "Ich benutze das Wort „über“ im Kontext."
       },
       {
         "word": "unter",
-        "translation": "Palabra clave 7",
+        "translation": "bajo",
         "example": "Ich benutze das Wort „unter“ im Kontext."
       },
       {
         "word": "größer",
-        "translation": "Palabra clave 8",
+        "translation": "más grande",
         "example": "Ich benutze das Wort „größer“ im Kontext."
       },
       {
         "word": "ruhiger",
-        "translation": "Palabra clave 9",
+        "translation": "más tranquilo",
         "example": "Ich benutze das Wort „ruhiger“ im Kontext."
       },
       {
         "word": "Besichtigung",
-        "translation": "Palabra clave 10",
+        "translation": "Visita",
         "example": "Ich benutze das Wort „Besichtigung“ im Kontext."
       }
     ],
@@ -37064,10 +37088,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Wohnungssuche: Wechselpräpositionen und Vergleich",
-        "definition": "Práctica guiada de Wohnungssuche: Wechselpräpositionen und Vergleich.",
+        "name": "Wohnungssuche: Grammatik",
+        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
         "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Erfahrungen und Pläne erzählen.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -37077,7 +37101,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
             "options": [
               {},
               {},
@@ -37087,7 +37111,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den richtigen Perfekt-Satz.",
             "options": [
               {},
               {},
@@ -37097,7 +37121,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
             "options": [
               {},
               {},
@@ -37107,7 +37131,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz zeigt eine Reihenfolge?",
             "options": [
               {},
               {},
@@ -37117,7 +37141,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: ___ du die Nachricht ___?",
             "options": [
               {},
               {},
@@ -37127,7 +37151,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
             "options": [
               {},
               {},
@@ -37137,7 +37161,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
             "options": [
               {},
               {},
@@ -37147,7 +37171,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
             "options": [
               {},
               {},
@@ -37162,89 +37186,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Gestern ___ ich das Museum ___.",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "habe besucht",
+          "besuche",
+          "habe besuchen",
+          "bin besucht"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den richtigen Perfekt-Satz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben zusammen essen.",
+          "Wir haben zusammen gegessen.",
+          "Wir sind zusammen gegessen.",
+          "Wir essen gestern zusammen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Marta ___ spät nach Hause ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "ist kommen",
+          "hat gekommen",
+          "ist gekommen",
+          "kommt gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz zeigt eine Reihenfolge?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Zuerst haben wir gelernt, wenn sind wir gegangen.",
+          "Zuerst haben wir gelernt, weil sind wir gegangen.",
+          "Zuerst haben wir gelernt, obwohl sind wir gegangen.",
+          "Zuerst haben wir gelernt, dann sind wir gegangen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: ___ du die Nachricht ___?",
         "options": [
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Hast gelesen",
+          "Hast lesen",
+          "Bist gelesen",
+          "Liest gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Perfekt-Satz mit dem richtigen Hilfsverb.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Meine Freunde sind den Bus genommen.",
+          "Meine Freunde haben den Bus genommen.",
+          "Meine Freunde haben den Bus nehmen.",
+          "Meine Freunde nehmen gestern den Bus."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Wir ___ eine wichtige Erfahrung ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Gestern habe ich das Museum besucht.",
-          "Wohne ich im Viertel."
+          "haben machen",
+          "sind gemacht",
+          "haben gemacht",
+          "machen gestern"
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz beschreibt eine abgeschlossene Handlung?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Gestern habe ich das Museum besucht."
+          "Am Samstag bin ich meine Cousine getroffen.",
+          "Am Samstag treffe ich meine Cousine morgen.",
+          "Am Samstag treffen meine Cousine.",
+          "Am Samstag habe ich meine Cousine getroffen."
         ],
         "explanation": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte."
       }
@@ -37274,52 +37298,52 @@
     "vocabulary": [
       {
         "word": "Gesellschaft",
-        "translation": "Palabra clave 1",
+        "translation": "Sociedad",
         "example": "Ich benutze das Wort „Gesellschaft“ im Kontext."
       },
       {
         "word": "mitwirken",
-        "translation": "Palabra clave 2",
+        "translation": "colaborar",
         "example": "Ich benutze das Wort „mitwirken“ im Kontext."
       },
       {
         "word": "Recht",
-        "translation": "Palabra clave 3",
+        "translation": "Derecho",
         "example": "Ich benutze das Wort „Recht“ im Kontext."
       },
       {
         "word": "Vorschlag",
-        "translation": "Palabra clave 4",
+        "translation": "Propuesta",
         "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
       },
       {
         "word": "Gemeinschaft",
-        "translation": "Palabra clave 5",
+        "translation": "Comunidad",
         "example": "Ich benutze das Wort „Gemeinschaft“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 6",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "freiwillig",
-        "translation": "Palabra clave 7",
+        "translation": "voluntario",
         "example": "Ich benutze das Wort „freiwillig“ im Kontext."
       },
       {
         "word": "Initiative",
-        "translation": "Palabra clave 8",
+        "translation": "Iniciativa",
         "example": "Ich benutze das Wort „Initiative“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "Verantwortung",
-        "translation": "Palabra clave 10",
+        "translation": "Responsabilidad",
         "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
       }
     ],
@@ -37328,10 +37352,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Gesellschaft: Konjunktiv II und Argumentation",
-        "definition": "Práctica guiada de Gesellschaft: Konjunktiv II und Argumentation.",
+        "name": "Gesellschaft und Mitwirkung: Grammatik",
+        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Eine Meinung ausdrücken und begründen.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -37341,7 +37365,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
             "options": [
               {},
               {},
@@ -37351,7 +37375,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle den Konnektor für einen Gegensatz.",
             "options": [
               {},
               {},
@@ -37361,7 +37385,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
             "options": [
               {},
               {},
@@ -37371,7 +37395,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz drückt eine Meinung aus?",
             "options": [
               {},
               {},
@@ -37381,7 +37405,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
             "options": [
               {},
               {},
@@ -37391,7 +37415,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Wähle eine logische Folge.",
             "options": [
               {},
               {},
@@ -37401,7 +37425,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
             "options": [
               {},
               {},
@@ -37411,7 +37435,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Welcher Satz ist korrekt?",
+            "prompt": "Welcher Satz begründet eine Wahl?",
             "options": [
               {},
               {},
@@ -37426,89 +37450,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich finde, dass der Vorschlag sinnvoll ___.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "sei"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle den Konnektor für einen Gegensatz.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Ich möchte ausgehen, deshalb es regnet.",
+          "Ich möchte ausgehen, aber es regnet.",
+          "Ich möchte ausgehen, weil es regnet.",
+          "Ich möchte ausgehen, dann es regnet."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich bleibe zu Hause, weil ich müde ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "ist",
+          "bin",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz drückt eine Meinung aus?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Das Projekt funktioniert warum?",
+          "Das Projekt gestern funktioniert?",
+          "Funktionieren das Projekt meiner Meinung.",
+          "Meiner Meinung nach funktioniert das Projekt."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Obwohl es spät ___, arbeiten wir weiter.",
         "options": [
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "ist",
+          "sind",
+          "sein",
+          "bist"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Wähle eine logische Folge.",
         "options": [
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Ich wohnt im Viertel.",
-          "Wohne ich im Viertel."
+          "Wir haben wenig Zeit, aber planen wir die Arbeit.",
+          "Wir haben wenig Zeit, deshalb planen wir die Arbeit.",
+          "Wir haben wenig Zeit, weil planen wir die Arbeit.",
+          "Wir haben wenig Zeit, obwohl planen wir die Arbeit."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Ergänze: Ich glaube, dass sie Recht ___.",
         "options": [
-          "Ich wohnt im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich finde den Vorschlag sinnvoll.",
-          "Wohne ich im Viertel."
+          "sein",
+          "haben",
+          "hat",
+          "hatte"
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       },
       {
         "type": "mcq",
-        "prompt": "Welcher Satz ist korrekt?",
+        "prompt": "Welcher Satz begründet eine Wahl?",
         "options": [
-          "Wohne ich im Viertel.",
-          "Ich wohnen im Viertel.",
-          "Ich wohnt im Viertel.",
-          "Ich finde den Vorschlag sinnvoll."
+          "Ich nehme den Zug er nachhaltiger ist weil.",
+          "Ich nehme den Zug, aber er nachhaltiger ist.",
+          "Ich nehme den Zug, deshalb er nachhaltiger ist?",
+          "Ich nehme den Zug, weil er nachhaltiger ist."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
       }
@@ -37538,52 +37562,52 @@
     "vocabulary": [
       {
         "word": "Geburtstag",
-        "translation": "Palabra clave 1",
+        "translation": "Cumpleaños",
         "example": "Ich benutze das Wort „Geburtstag“ im Kontext."
       },
       {
         "word": "Einladung",
-        "translation": "Palabra clave 2",
+        "translation": "Invitación",
         "example": "Ich benutze das Wort „Einladung“ im Kontext."
       },
       {
         "word": "feiern",
-        "translation": "Palabra clave 3",
+        "translation": "celebrar",
         "example": "Ich benutze das Wort „feiern“ im Kontext."
       },
       {
         "word": "Uhr",
-        "translation": "Palabra clave 4",
+        "translation": "Reloj",
         "example": "Ich benutze das Wort „Uhr“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 5",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "morgen",
-        "translation": "Palabra clave 6",
+        "translation": "mañana",
         "example": "Ich benutze das Wort „morgen“ im Kontext."
       },
       {
         "word": "gern",
-        "translation": "Palabra clave 7",
+        "translation": "con mucho gusto",
         "example": "Ich benutze das Wort „gern“ im Kontext."
       },
       {
         "word": "kommen",
-        "translation": "Palabra clave 8",
+        "translation": "venir",
         "example": "Ich benutze das Wort „kommen“ im Kontext."
       },
       {
         "word": "bringen",
-        "translation": "Palabra clave 9",
+        "translation": "traer",
         "example": "Ich benutze das Wort „bringen“ im Kontext."
       },
       {
         "word": "Geschenk",
-        "translation": "Palabra clave 10",
+        "translation": "Regalo",
         "example": "Ich benutze das Wort „Geschenk“ im Kontext."
       }
     ],
@@ -37758,52 +37782,52 @@
     "vocabulary": [
       {
         "word": "Wohnung",
-        "translation": "Palabra clave 1",
+        "translation": "Piso",
         "example": "Ich benutze das Wort „Wohnung“ im Kontext."
       },
       {
         "word": "Zimmer",
-        "translation": "Palabra clave 2",
+        "translation": "Habitación",
         "example": "Ich benutze das Wort „Zimmer“ im Kontext."
       },
       {
         "word": "Miete",
-        "translation": "Palabra clave 3",
+        "translation": "Alquiler",
         "example": "Ich benutze das Wort „Miete“ im Kontext."
       },
       {
         "word": "suchen",
-        "translation": "Palabra clave 4",
+        "translation": "buscar",
         "example": "Ich benutze das Wort „suchen“ im Kontext."
       },
       {
         "word": "neben",
-        "translation": "Palabra clave 5",
+        "translation": "junto a",
         "example": "Ich benutze das Wort „neben“ im Kontext."
       },
       {
         "word": "über",
-        "translation": "Palabra clave 6",
+        "translation": "Acerca de",
         "example": "Ich benutze das Wort „über“ im Kontext."
       },
       {
         "word": "unter",
-        "translation": "Palabra clave 7",
+        "translation": "bajo",
         "example": "Ich benutze das Wort „unter“ im Kontext."
       },
       {
         "word": "größer",
-        "translation": "Palabra clave 8",
+        "translation": "más grande",
         "example": "Ich benutze das Wort „größer“ im Kontext."
       },
       {
         "word": "ruhiger",
-        "translation": "Palabra clave 9",
+        "translation": "más tranquilo",
         "example": "Ich benutze das Wort „ruhiger“ im Kontext."
       },
       {
         "word": "Besichtigung",
-        "translation": "Palabra clave 10",
+        "translation": "Visita",
         "example": "Ich benutze das Wort „Besichtigung“ im Kontext."
       }
     ],
@@ -37978,52 +38002,52 @@
     "vocabulary": [
       {
         "word": "Gesellschaft",
-        "translation": "Palabra clave 1",
+        "translation": "Sociedad",
         "example": "Ich benutze das Wort „Gesellschaft“ im Kontext."
       },
       {
         "word": "mitwirken",
-        "translation": "Palabra clave 2",
+        "translation": "colaborar",
         "example": "Ich benutze das Wort „mitwirken“ im Kontext."
       },
       {
         "word": "Recht",
-        "translation": "Palabra clave 3",
+        "translation": "Derecho",
         "example": "Ich benutze das Wort „Recht“ im Kontext."
       },
       {
         "word": "Vorschlag",
-        "translation": "Palabra clave 4",
+        "translation": "Propuesta",
         "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
       },
       {
         "word": "Gemeinschaft",
-        "translation": "Palabra clave 5",
+        "translation": "Comunidad",
         "example": "Ich benutze das Wort „Gemeinschaft“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 6",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "freiwillig",
-        "translation": "Palabra clave 7",
+        "translation": "voluntario",
         "example": "Ich benutze das Wort „freiwillig“ im Kontext."
       },
       {
         "word": "Initiative",
-        "translation": "Palabra clave 8",
+        "translation": "Iniciativa",
         "example": "Ich benutze das Wort „Initiative“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "Verantwortung",
-        "translation": "Palabra clave 10",
+        "translation": "Responsabilidad",
         "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
       }
     ],
@@ -38198,8 +38222,8 @@
     "vocabulary": [
       {
         "word": "Geburtstag",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Cumpleaños",
+        "definition": "Cumpleaños",
         "example": "Ich benutze „Geburtstag“ in einem Satz.",
         "contexts": [
           "Geburtstag · tema",
@@ -38209,8 +38233,8 @@
       },
       {
         "word": "Einladung",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Invitación",
+        "definition": "Invitación",
         "example": "Ich benutze „Einladung“ in einem Satz.",
         "contexts": [
           "Einladung · tema",
@@ -38220,8 +38244,8 @@
       },
       {
         "word": "feiern",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "celebrar",
+        "definition": "celebrar",
         "example": "Ich benutze „feiern“ in einem Satz.",
         "contexts": [
           "feiern · tema",
@@ -38231,8 +38255,8 @@
       },
       {
         "word": "Uhr",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Reloj",
+        "definition": "Reloj",
         "example": "Ich benutze „Uhr“ in einem Satz.",
         "contexts": [
           "Uhr · tema",
@@ -38242,8 +38266,8 @@
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "hoy",
+        "definition": "hoy",
         "example": "Ich benutze „heute“ in einem Satz.",
         "contexts": [
           "heute · tema",
@@ -38253,8 +38277,8 @@
       },
       {
         "word": "morgen",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "mañana",
+        "definition": "mañana",
         "example": "Ich benutze „morgen“ in einem Satz.",
         "contexts": [
           "morgen · tema",
@@ -38264,8 +38288,8 @@
       },
       {
         "word": "gern",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "con mucho gusto",
+        "definition": "con mucho gusto",
         "example": "Ich benutze „gern“ in einem Satz.",
         "contexts": [
           "gern · tema",
@@ -38275,8 +38299,8 @@
       },
       {
         "word": "kommen",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "venir",
+        "definition": "venir",
         "example": "Ich benutze „kommen“ in einem Satz.",
         "contexts": [
           "kommen · tema",
@@ -38286,8 +38310,8 @@
       },
       {
         "word": "bringen",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "traer",
+        "definition": "traer",
         "example": "Ich benutze „bringen“ in einem Satz.",
         "contexts": [
           "bringen · tema",
@@ -38297,8 +38321,8 @@
       },
       {
         "word": "Geschenk",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Regalo",
+        "definition": "Regalo",
         "example": "Ich benutze „Geschenk“ in einem Satz.",
         "contexts": [
           "Geschenk · tema",
@@ -38480,8 +38504,8 @@
     "vocabulary": [
       {
         "word": "Wohnung",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Piso",
+        "definition": "Piso",
         "example": "Ich benutze „Wohnung“ in einem Satz.",
         "contexts": [
           "Wohnung · tema",
@@ -38491,8 +38515,8 @@
       },
       {
         "word": "Zimmer",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Habitación",
+        "definition": "Habitación",
         "example": "Ich benutze „Zimmer“ in einem Satz.",
         "contexts": [
           "Zimmer · tema",
@@ -38502,8 +38526,8 @@
       },
       {
         "word": "Miete",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Alquiler",
+        "definition": "Alquiler",
         "example": "Ich benutze „Miete“ in einem Satz.",
         "contexts": [
           "Miete · tema",
@@ -38513,8 +38537,8 @@
       },
       {
         "word": "suchen",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "buscar",
+        "definition": "buscar",
         "example": "Ich benutze „suchen“ in einem Satz.",
         "contexts": [
           "suchen · tema",
@@ -38524,8 +38548,8 @@
       },
       {
         "word": "neben",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "junto a",
+        "definition": "junto a",
         "example": "Ich benutze „neben“ in einem Satz.",
         "contexts": [
           "neben · tema",
@@ -38535,8 +38559,8 @@
       },
       {
         "word": "über",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "Acerca de",
+        "definition": "Acerca de",
         "example": "Ich benutze „über“ in einem Satz.",
         "contexts": [
           "über · tema",
@@ -38546,8 +38570,8 @@
       },
       {
         "word": "unter",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "bajo",
+        "definition": "bajo",
         "example": "Ich benutze „unter“ in einem Satz.",
         "contexts": [
           "unter · tema",
@@ -38557,8 +38581,8 @@
       },
       {
         "word": "größer",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "más grande",
+        "definition": "más grande",
         "example": "Ich benutze „größer“ in einem Satz.",
         "contexts": [
           "größer · tema",
@@ -38568,8 +38592,8 @@
       },
       {
         "word": "ruhiger",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "más tranquilo",
+        "definition": "más tranquilo",
         "example": "Ich benutze „ruhiger“ in einem Satz.",
         "contexts": [
           "ruhiger · tema",
@@ -38579,8 +38603,8 @@
       },
       {
         "word": "Besichtigung",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Visita",
+        "definition": "Visita",
         "example": "Ich benutze „Besichtigung“ in einem Satz.",
         "contexts": [
           "Besichtigung · tema",
@@ -38762,8 +38786,8 @@
     "vocabulary": [
       {
         "word": "Gesellschaft",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Sociedad",
+        "definition": "Sociedad",
         "example": "Ich benutze „Gesellschaft“ in einem Satz.",
         "contexts": [
           "Gesellschaft · tema",
@@ -38773,8 +38797,8 @@
       },
       {
         "word": "mitwirken",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "colaborar",
+        "definition": "colaborar",
         "example": "Ich benutze „mitwirken“ in einem Satz.",
         "contexts": [
           "mitwirken · tema",
@@ -38784,8 +38808,8 @@
       },
       {
         "word": "Recht",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "Derecho",
+        "definition": "Derecho",
         "example": "Ich benutze „Recht“ in einem Satz.",
         "contexts": [
           "Recht · tema",
@@ -38795,8 +38819,8 @@
       },
       {
         "word": "Vorschlag",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "Propuesta",
+        "definition": "Propuesta",
         "example": "Ich benutze „Vorschlag“ in einem Satz.",
         "contexts": [
           "Vorschlag · tema",
@@ -38806,8 +38830,8 @@
       },
       {
         "word": "Gemeinschaft",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "Comunidad",
+        "definition": "Comunidad",
         "example": "Ich benutze „Gemeinschaft“ in einem Satz.",
         "contexts": [
           "Gemeinschaft · tema",
@@ -38817,8 +38841,8 @@
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "elegir",
+        "definition": "elegir",
         "example": "Ich benutze „wählen“ in einem Satz.",
         "contexts": [
           "wählen · tema",
@@ -38828,8 +38852,8 @@
       },
       {
         "word": "freiwillig",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "voluntario",
+        "definition": "voluntario",
         "example": "Ich benutze „freiwillig“ in einem Satz.",
         "contexts": [
           "freiwillig · tema",
@@ -38839,8 +38863,8 @@
       },
       {
         "word": "Initiative",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "Iniciativa",
+        "definition": "Iniciativa",
         "example": "Ich benutze „Initiative“ in einem Satz.",
         "contexts": [
           "Initiative · tema",
@@ -38850,8 +38874,8 @@
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Ich benutze „verbessern“ in einem Satz.",
         "contexts": [
           "verbessern · tema",
@@ -38861,8 +38885,8 @@
       },
       {
         "word": "Verantwortung",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "Responsabilidad",
+        "definition": "Responsabilidad",
         "example": "Ich benutze „Verantwortung“ in einem Satz.",
         "contexts": [
           "Verantwortung · tema",
@@ -39044,52 +39068,52 @@
     "vocabulary": [
       {
         "word": "Geburtstag",
-        "translation": "Palabra clave 1",
+        "translation": "Cumpleaños",
         "example": "Ich benutze das Wort „Geburtstag“ im Kontext."
       },
       {
         "word": "Einladung",
-        "translation": "Palabra clave 2",
+        "translation": "Invitación",
         "example": "Ich benutze das Wort „Einladung“ im Kontext."
       },
       {
         "word": "feiern",
-        "translation": "Palabra clave 3",
+        "translation": "celebrar",
         "example": "Ich benutze das Wort „feiern“ im Kontext."
       },
       {
         "word": "Uhr",
-        "translation": "Palabra clave 4",
+        "translation": "Reloj",
         "example": "Ich benutze das Wort „Uhr“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 5",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "morgen",
-        "translation": "Palabra clave 6",
+        "translation": "mañana",
         "example": "Ich benutze das Wort „morgen“ im Kontext."
       },
       {
         "word": "gern",
-        "translation": "Palabra clave 7",
+        "translation": "con mucho gusto",
         "example": "Ich benutze das Wort „gern“ im Kontext."
       },
       {
         "word": "kommen",
-        "translation": "Palabra clave 8",
+        "translation": "venir",
         "example": "Ich benutze das Wort „kommen“ im Kontext."
       },
       {
         "word": "bringen",
-        "translation": "Palabra clave 9",
+        "translation": "traer",
         "example": "Ich benutze das Wort „bringen“ im Kontext."
       },
       {
         "word": "Geschenk",
-        "translation": "Palabra clave 10",
+        "translation": "Regalo",
         "example": "Ich benutze das Wort „Geschenk“ im Kontext."
       }
     ],
@@ -39137,52 +39161,52 @@
     "vocabulary": [
       {
         "word": "Wohnung",
-        "translation": "Palabra clave 1",
+        "translation": "Piso",
         "example": "Ich benutze das Wort „Wohnung“ im Kontext."
       },
       {
         "word": "Zimmer",
-        "translation": "Palabra clave 2",
+        "translation": "Habitación",
         "example": "Ich benutze das Wort „Zimmer“ im Kontext."
       },
       {
         "word": "Miete",
-        "translation": "Palabra clave 3",
+        "translation": "Alquiler",
         "example": "Ich benutze das Wort „Miete“ im Kontext."
       },
       {
         "word": "suchen",
-        "translation": "Palabra clave 4",
+        "translation": "buscar",
         "example": "Ich benutze das Wort „suchen“ im Kontext."
       },
       {
         "word": "neben",
-        "translation": "Palabra clave 5",
+        "translation": "junto a",
         "example": "Ich benutze das Wort „neben“ im Kontext."
       },
       {
         "word": "über",
-        "translation": "Palabra clave 6",
+        "translation": "Acerca de",
         "example": "Ich benutze das Wort „über“ im Kontext."
       },
       {
         "word": "unter",
-        "translation": "Palabra clave 7",
+        "translation": "bajo",
         "example": "Ich benutze das Wort „unter“ im Kontext."
       },
       {
         "word": "größer",
-        "translation": "Palabra clave 8",
+        "translation": "más grande",
         "example": "Ich benutze das Wort „größer“ im Kontext."
       },
       {
         "word": "ruhiger",
-        "translation": "Palabra clave 9",
+        "translation": "más tranquilo",
         "example": "Ich benutze das Wort „ruhiger“ im Kontext."
       },
       {
         "word": "Besichtigung",
-        "translation": "Palabra clave 10",
+        "translation": "Visita",
         "example": "Ich benutze das Wort „Besichtigung“ im Kontext."
       }
     ],
@@ -39230,52 +39254,52 @@
     "vocabulary": [
       {
         "word": "Gesellschaft",
-        "translation": "Palabra clave 1",
+        "translation": "Sociedad",
         "example": "Ich benutze das Wort „Gesellschaft“ im Kontext."
       },
       {
         "word": "mitwirken",
-        "translation": "Palabra clave 2",
+        "translation": "colaborar",
         "example": "Ich benutze das Wort „mitwirken“ im Kontext."
       },
       {
         "word": "Recht",
-        "translation": "Palabra clave 3",
+        "translation": "Derecho",
         "example": "Ich benutze das Wort „Recht“ im Kontext."
       },
       {
         "word": "Vorschlag",
-        "translation": "Palabra clave 4",
+        "translation": "Propuesta",
         "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
       },
       {
         "word": "Gemeinschaft",
-        "translation": "Palabra clave 5",
+        "translation": "Comunidad",
         "example": "Ich benutze das Wort „Gemeinschaft“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 6",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "freiwillig",
-        "translation": "Palabra clave 7",
+        "translation": "voluntario",
         "example": "Ich benutze das Wort „freiwillig“ im Kontext."
       },
       {
         "word": "Initiative",
-        "translation": "Palabra clave 8",
+        "translation": "Iniciativa",
         "example": "Ich benutze das Wort „Initiative“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "Verantwortung",
-        "translation": "Palabra clave 10",
+        "translation": "Responsabilidad",
         "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
       }
     ],
@@ -39323,52 +39347,52 @@
     "vocabulary": [
       {
         "word": "Geburtstag",
-        "translation": "Palabra clave 1",
+        "translation": "Cumpleaños",
         "example": "Ich benutze das Wort „Geburtstag“ im Kontext."
       },
       {
         "word": "Einladung",
-        "translation": "Palabra clave 2",
+        "translation": "Invitación",
         "example": "Ich benutze das Wort „Einladung“ im Kontext."
       },
       {
         "word": "feiern",
-        "translation": "Palabra clave 3",
+        "translation": "celebrar",
         "example": "Ich benutze das Wort „feiern“ im Kontext."
       },
       {
         "word": "Uhr",
-        "translation": "Palabra clave 4",
+        "translation": "Reloj",
         "example": "Ich benutze das Wort „Uhr“ im Kontext."
       },
       {
         "word": "heute",
-        "translation": "Palabra clave 5",
+        "translation": "hoy",
         "example": "Ich benutze das Wort „heute“ im Kontext."
       },
       {
         "word": "morgen",
-        "translation": "Palabra clave 6",
+        "translation": "mañana",
         "example": "Ich benutze das Wort „morgen“ im Kontext."
       },
       {
         "word": "gern",
-        "translation": "Palabra clave 7",
+        "translation": "con mucho gusto",
         "example": "Ich benutze das Wort „gern“ im Kontext."
       },
       {
         "word": "kommen",
-        "translation": "Palabra clave 8",
+        "translation": "venir",
         "example": "Ich benutze das Wort „kommen“ im Kontext."
       },
       {
         "word": "bringen",
-        "translation": "Palabra clave 9",
+        "translation": "traer",
         "example": "Ich benutze das Wort „bringen“ im Kontext."
       },
       {
         "word": "Geschenk",
-        "translation": "Palabra clave 10",
+        "translation": "Regalo",
         "example": "Ich benutze das Wort „Geschenk“ im Kontext."
       }
     ],
@@ -39407,52 +39431,52 @@
     "vocabulary": [
       {
         "word": "Wohnung",
-        "translation": "Palabra clave 1",
+        "translation": "Piso",
         "example": "Ich benutze das Wort „Wohnung“ im Kontext."
       },
       {
         "word": "Zimmer",
-        "translation": "Palabra clave 2",
+        "translation": "Habitación",
         "example": "Ich benutze das Wort „Zimmer“ im Kontext."
       },
       {
         "word": "Miete",
-        "translation": "Palabra clave 3",
+        "translation": "Alquiler",
         "example": "Ich benutze das Wort „Miete“ im Kontext."
       },
       {
         "word": "suchen",
-        "translation": "Palabra clave 4",
+        "translation": "buscar",
         "example": "Ich benutze das Wort „suchen“ im Kontext."
       },
       {
         "word": "neben",
-        "translation": "Palabra clave 5",
+        "translation": "junto a",
         "example": "Ich benutze das Wort „neben“ im Kontext."
       },
       {
         "word": "über",
-        "translation": "Palabra clave 6",
+        "translation": "Acerca de",
         "example": "Ich benutze das Wort „über“ im Kontext."
       },
       {
         "word": "unter",
-        "translation": "Palabra clave 7",
+        "translation": "bajo",
         "example": "Ich benutze das Wort „unter“ im Kontext."
       },
       {
         "word": "größer",
-        "translation": "Palabra clave 8",
+        "translation": "más grande",
         "example": "Ich benutze das Wort „größer“ im Kontext."
       },
       {
         "word": "ruhiger",
-        "translation": "Palabra clave 9",
+        "translation": "más tranquilo",
         "example": "Ich benutze das Wort „ruhiger“ im Kontext."
       },
       {
         "word": "Besichtigung",
-        "translation": "Palabra clave 10",
+        "translation": "Visita",
         "example": "Ich benutze das Wort „Besichtigung“ im Kontext."
       }
     ],
@@ -39491,52 +39515,52 @@
     "vocabulary": [
       {
         "word": "Gesellschaft",
-        "translation": "Palabra clave 1",
+        "translation": "Sociedad",
         "example": "Ich benutze das Wort „Gesellschaft“ im Kontext."
       },
       {
         "word": "mitwirken",
-        "translation": "Palabra clave 2",
+        "translation": "colaborar",
         "example": "Ich benutze das Wort „mitwirken“ im Kontext."
       },
       {
         "word": "Recht",
-        "translation": "Palabra clave 3",
+        "translation": "Derecho",
         "example": "Ich benutze das Wort „Recht“ im Kontext."
       },
       {
         "word": "Vorschlag",
-        "translation": "Palabra clave 4",
+        "translation": "Propuesta",
         "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
       },
       {
         "word": "Gemeinschaft",
-        "translation": "Palabra clave 5",
+        "translation": "Comunidad",
         "example": "Ich benutze das Wort „Gemeinschaft“ im Kontext."
       },
       {
         "word": "wählen",
-        "translation": "Palabra clave 6",
+        "translation": "elegir",
         "example": "Ich benutze das Wort „wählen“ im Kontext."
       },
       {
         "word": "freiwillig",
-        "translation": "Palabra clave 7",
+        "translation": "voluntario",
         "example": "Ich benutze das Wort „freiwillig“ im Kontext."
       },
       {
         "word": "Initiative",
-        "translation": "Palabra clave 8",
+        "translation": "Iniciativa",
         "example": "Ich benutze das Wort „Initiative“ im Kontext."
       },
       {
         "word": "verbessern",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Ich benutze das Wort „verbessern“ im Kontext."
       },
       {
         "word": "Verantwortung",
-        "translation": "Palabra clave 10",
+        "translation": "Responsabilidad",
         "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
       }
     ],

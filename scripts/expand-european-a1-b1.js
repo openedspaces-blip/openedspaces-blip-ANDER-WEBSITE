@@ -171,11 +171,28 @@ function makeLesson(language, level, unit, skill, order) {
       language === 'german' ? 'Warum arbeiten sie zusammen?' : language === 'italian' ? 'Perché decidono di collaborare?' : 'Por que decidem colaborar?',
       language === 'german' ? 'Welche Idee hilft im Alltag?' : language === 'italian' ? 'Quale idea aiuta nella vita quotidiana?' : 'Que ideia ajuda na vida cotidiana?'
     ] };
+    const readingOptions = language === 'german'
+      ? [
+          ['Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.', 'Kauft eine Eintrittskarte für eine Veranstaltung.', 'Hört den anderen Personen nicht zu.', 'Sagt das Projekt ab.'],
+          ['Weil sie ein klares Ziel haben.', 'Weil sie keine Zeit haben.', 'Weil sie das Thema nicht kennen.', 'Weil sie lieber allein arbeiten.'],
+          ['Eine konkrete Lösung, die gemeinsam umgesetzt wird.', 'Eine Liste ohne Zusammenhang.', 'Eine Diskussion ohne Ziel.', 'Eine Entscheidung von nur einer Person.']
+        ]
+      : language === 'italian'
+        ? [
+            ['Racconta un’esperienza, ascolta e propone una soluzione.', 'Compra un biglietto per un evento.', 'Non ascolta le altre persone.', 'Annulla il progetto.'],
+            ['Perché hanno un obiettivo chiaro.', 'Perché non hanno tempo.', 'Perché non conoscono il tema.', 'Perché preferiscono lavorare da soli.'],
+            ['Una soluzione concreta e collaborativa.', 'Un elenco senza contesto.', 'Una discussione senza obiettivo.', 'Una decisione individuale.']
+          ]
+        : [
+            ['Conta uma experiência, escuta e propõe uma solução.', 'Compra um ingresso para um evento.', 'Não escuta as outras pessoas.', 'Cancela o projeto.'],
+            ['Porque têm um objetivo claro.', 'Porque não têm tempo.', 'Porque não conhecem o tema.', 'Porque preferem trabalhar sozinhos.'],
+            ['Uma solução concreta e colaborativa.', 'Uma lista sem contexto.', 'Uma discussão sem objetivo.', 'Uma decisão individual.']
+          ];
     content.exercises = [
       { type: 'mcq', prompt: content.reading.questions[0], options: [words[0], words[7], words[8], words[9]], answer: 0 },
-      { type: 'mcq', prompt: content.reading.questions[1], options: ['Cuenta una experiencia, escucha y propone una solución.', 'Compra una entrada para un evento.', 'No escucha a las otras personas.', 'Cancela el proyecto.'], answer: 0 },
-      { type: 'mcq', prompt: content.reading.questions[2], options: ['Porque tienen un objetivo claro.', 'Porque no tienen tiempo.', 'Porque no conocen el tema.', 'Porque prefieren trabajar solos.'], answer: 0 },
-      { type: 'mcq', prompt: content.reading.questions[3], options: ['Una solución concreta y colaborativa.', 'Una lista sin contexto.', 'Una discusión sin objetivo.', 'Una decisión individual.'], answer: 0 }
+      { type: 'mcq', prompt: content.reading.questions[1], options: readingOptions[0], answer: 0 },
+      { type: 'mcq', prompt: content.reading.questions[2], options: readingOptions[1], answer: 0 },
+      { type: 'mcq', prompt: content.reading.questions[3], options: readingOptions[2], answer: 0 }
     ];
   } else if (skill === 'listening') {
     content.transcript = `${readingText} ${language === 'german' ? 'Danach fasst die Gruppe die wichtigsten Ideen zusammen.' : language === 'italian' ? 'Poi il gruppo riassume le idee più importanti.' : 'Depois, o grupo resume as ideias mais importantes.'}`;
@@ -263,6 +280,13 @@ for (const [language, course] of Object.entries(courses)) {
           existingLesson.content_json = ['listening', 'speaking', 'writing'].includes(skill)
             ? authoredLesson.content_json
             : (existingLesson.content_json || {});
+          // Keep Reading questions and every option in the target language.
+          // Earlier generated German readings kept Spanish choices despite
+          // German prompts; refreshing this narrow assessment payload also
+          // prevents that mismatch whenever the generator is run again.
+          if (skill === 'reading') {
+            existingLesson.content_json.exercises = authoredLesson.content_json.exercises;
+          }
           existingLesson.content_json.access_policy = authoredLesson.content_json.access_policy;
         }
       });

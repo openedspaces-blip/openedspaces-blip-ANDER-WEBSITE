@@ -22202,6 +22202,17 @@ footer small {
   min-height: 172px;
   display: block;
 }
+.phonetics-dictation-note {
+  margin: 0.55rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+.phonetics-talk-btn.is-listening {
+  color: #b42318;
+  border-color: #f2b8b5;
+  background: #fff1f0;
+}
 .phonetics-ipa {
   width: 100%;
   margin: 0;
@@ -24468,7 +24479,7 @@ body {
 .games-difficulty-summary--normal { border-color:#f2d49c; background:linear-gradient(135deg,#fffaf0,#fff3d9); }
 .games-difficulty-summary--challenge { border-color:#f0bbc1; background:linear-gradient(135deg,#fff7f8,#ffeaed); }
 .games-play-shell { position:relative; display:grid; gap:0; overflow:visible; border:1px solid rgba(207,224,251,.9); border-radius:24px; background:#fff; box-shadow:0 18px 45px rgba(31,68,126,.08); }
-.games-score-strip { position:sticky; top:calc(var(--header-height, 88px) + .65rem); z-index:24; display:grid; grid-template-columns:auto minmax(190px,1fr) auto; gap:.7rem 1rem; padding:.72rem .85rem; color:var(--muted); font-size:.8rem; font-weight:750; align-items:center; border:1px solid #cfe0fb; border-radius:18px; background:rgba(255,255,255,.96); box-shadow:0 12px 30px rgba(31,68,126,.13); backdrop-filter:blur(14px); }
+.games-score-strip { display:grid; grid-template-columns:auto minmax(190px,1fr) auto; gap:.7rem 1rem; padding:.72rem .85rem; color:var(--muted); font-size:.8rem; font-weight:750; align-items:center; border:1px solid #cfe0fb; border-radius:18px; background:rgba(255,255,255,.96); box-shadow:0 12px 30px rgba(31,68,126,.13); backdrop-filter:blur(14px); }
 .games-score-strip strong { color:var(--navy-2); }
 .games-score-primary { display:flex; align-items:center; gap:.45rem; }
 .games-score-primary > span { display:grid; min-width:64px; gap:.04rem; padding:.36rem .55rem; border-radius:12px; background:#f5f8fe; }
@@ -24490,6 +24501,25 @@ body {
 .games-timer-result:empty { display:none; }
 @keyframes games-timer-pulse { 50% { transform:scale(1.04); } }
 .games-board { min-height:390px; padding:clamp(1rem,3vw,2rem); border:0; border-radius:0 0 24px 24px; box-shadow:none; }
+
+/* On wide screens the clock lives beside the challenge, without pinning any
+   game controls to the viewport while the student scrolls the board. */
+@media (min-width:901px) {
+  .games-play-shell { grid-template-columns:minmax(0,1fr) 208px; grid-template-rows:auto auto minmax(390px,1fr); gap:.75rem 1rem; padding:1rem; align-items:start; }
+  .games-score-strip { display:contents; }
+  .games-score-primary { grid-column:1; grid-row:1; width:max-content; max-width:100%; padding:.52rem; border:1px solid #cfe0fb; border-radius:16px; background:rgba(255,255,255,.96); box-shadow:0 8px 22px rgba(31,68,126,.08); }
+  .games-round-meter { grid-column:1; grid-row:2; width:100%; max-width:430px; padding:.52rem .7rem; border:1px solid #d8e6fb; border-radius:14px; background:#f8fbff; }
+  .games-timer-controls { grid-column:2; grid-row:1 / span 3; display:flex; flex-direction:column; align-items:stretch; gap:.6rem; width:100%; margin:0; padding:.85rem; border:1px solid #cfe0fb; border-radius:18px; background:rgba(255,255,255,.96); box-shadow:0 14px 32px rgba(31,68,126,.13); }
+  .games-timer-controls::before { content:'Tiempo de juego'; color:var(--blue); font-size:.7rem; font-weight:900; letter-spacing:.08em; text-align:center; text-transform:uppercase; }
+  .games-timer-controls label { display:grid; gap:.3rem; }
+  .games-timer-controls label > span { color:var(--muted); font-size:.72rem; font-weight:850; }
+  .games-timer-mode { width:100%; }
+  .games-timer-display { padding:.72rem .55rem; font-size:1.3rem; }
+  .games-timer-pause,
+  .games-timer-controls .games-new-round { width:100%; min-height:40px; }
+  .games-timer-result { position:static; max-width:none; box-shadow:none; text-align:center; }
+  .games-board { grid-column:1; grid-row:3; min-width:0; padding:clamp(1rem,3vw,2rem); border:1px solid var(--line); border-radius:22px; }
+}
 .games-game-card { max-width:860px; margin:auto; padding:clamp(1rem,3vw,1.5rem); }
 .games-themed-stage { position:relative; transition:filter .18s ease,opacity .18s ease; }
 .games-themed-stage.is-paused { min-height:180px; filter:blur(2px); opacity:.48; user-select:none; }

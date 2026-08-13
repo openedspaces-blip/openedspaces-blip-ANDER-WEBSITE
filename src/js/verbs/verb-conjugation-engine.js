@@ -170,7 +170,7 @@
     }
 
     return {
-      rows: PERSONS.map((p) => ({ label: p.label, ...tense.build(raw, p) })),
+      rows: PERSONS.map((p) => ({ label: p.label, subject: p.subject, ...tense.build(raw, p) })),
       note:
         tense.stativeCheck && STATIVE_VERBS.has(raw.infinitive)
           ? `"${raw.infinitive}" es un verbo de estado - estas formas continuas son gramaticalmente correctas pero poco frecuentes en el habla natural.`

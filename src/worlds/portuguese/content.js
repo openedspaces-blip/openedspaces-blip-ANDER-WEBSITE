@@ -144,35 +144,35 @@
     "vocab": [
       [
         "meta",
-        "Palabra clave 1"
+        "meta"
       ],
       [
         "prazo",
-        "Palabra clave 2"
+        "plazo"
       ],
       [
         "equipe",
-        "Palabra clave 3"
+        "equipo"
       ],
       [
         "melhorar",
-        "Palabra clave 4"
+        "mejorar"
       ],
       [
         "escolher",
-        "Palabra clave 5"
+        "elegir"
       ],
       [
         "resultado",
-        "Palabra clave 6"
+        "resultado"
       ],
       [
         "responsabilidade",
-        "Palabra clave 7"
+        "responsabilidad"
       ],
       [
         "proposta",
-        "Palabra clave 8"
+        "propuesta"
       ]
     ],
     "grammar": [
@@ -330,52 +330,52 @@
     "vocabulary": [
       {
         "word": "meta",
-        "translation": "Palabra clave 1",
+        "translation": "meta",
         "example": "Uso a palavra «meta» no contexto."
       },
       {
         "word": "prazo",
-        "translation": "Palabra clave 2",
+        "translation": "plazo",
         "example": "Uso a palavra «prazo» no contexto."
       },
       {
         "word": "equipe",
-        "translation": "Palabra clave 3",
+        "translation": "equipo",
         "example": "Uso a palavra «equipe» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 4",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 5",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "resultado",
-        "translation": "Palabra clave 6",
+        "translation": "resultado",
         "example": "Uso a palavra «resultado» no contexto."
       },
       {
         "word": "responsabilidade",
-        "translation": "Palabra clave 7",
+        "translation": "responsabilidad",
         "example": "Uso a palavra «responsabilidade» no contexto."
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 8",
+        "translation": "propuesta",
         "example": "Uso a palavra «proposta» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 9",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "confiança",
-        "translation": "Palabra clave 10",
+        "translation": "confianza",
         "example": "Uso a palavra «confiança» no contexto."
       }
     ],
@@ -402,52 +402,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sobre o que é o texto?",
+        "prompt": "Sobre o que o grupo conversa?",
         "options": [
           "meta",
-          "prazo",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "proposta",
+          "hábito",
+          "confiança"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "O que a personagem faz primeiro?",
+        "prompt": "O que cada pessoa faz?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Conta uma experiência, escuta e propõe uma solução.",
+          "Compra um ingresso para um evento.",
+          "Não escuta as outras pessoas.",
+          "Cancela o projeto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é o papel da segunda pessoa?",
+        "prompt": "Por que decidem colaborar?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Porque têm um objetivo claro.",
+          "Porque não têm tempo.",
+          "Porque não conhecem o tema.",
+          "Porque preferem trabalhar sozinhos."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Por que o grupo colabora?",
+        "prompt": "Que ideia ajuda na vida cotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Uma solução concreta e colaborativa.",
+          "Uma lista sem contexto.",
+          "Uma discussão sem objetivo.",
+          "Uma decisão individual."
         ]
       },
       {
+        "id": "portuguese-b1-trabalho-e-planos-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é o objetivo comum?",
+        "prompt": "What is the main purpose of “Trabalho e planos”?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "To explain the central ideas and details of Trabalho e planos",
+          "To discuss an unrelated topic",
+          "To provide a list without context",
+          "To tell a story with no connection to the topic"
         ]
       }
     ]
@@ -643,52 +644,52 @@
     "vocabulary": [
       {
         "word": "meta",
-        "translation": "Palabra clave 1",
+        "translation": "meta",
         "example": "Uso a palavra «meta» no contexto."
       },
       {
         "word": "prazo",
-        "translation": "Palabra clave 2",
+        "translation": "plazo",
         "example": "Uso a palavra «prazo» no contexto."
       },
       {
         "word": "equipe",
-        "translation": "Palabra clave 3",
+        "translation": "equipo",
         "example": "Uso a palavra «equipe» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 4",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 5",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "resultado",
-        "translation": "Palabra clave 6",
+        "translation": "resultado",
         "example": "Uso a palavra «resultado» no contexto."
       },
       {
         "word": "responsabilidade",
-        "translation": "Palabra clave 7",
+        "translation": "responsabilidad",
         "example": "Uso a palavra «responsabilidade» no contexto."
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 8",
+        "translation": "propuesta",
         "example": "Uso a palavra «proposta» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 9",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "confiança",
-        "translation": "Palabra clave 10",
+        "translation": "confianza",
         "example": "Uso a palavra «confiança» no contexto."
       }
     ],
@@ -697,10 +698,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Período condicional",
-        "definition": "Práctica guiada de Período condicional.",
+        "name": "Trabalho e planos: gramática",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -710,7 +711,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acho que a proposta ___ útil.",
             "options": [
               {},
               {},
@@ -720,7 +721,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha o conector de contraste.",
             "options": [
               {},
               {},
@@ -730,7 +731,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Fico em casa porque ___ cansado.",
             "options": [
               {},
               {},
@@ -740,7 +741,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase expressa uma opinião?",
             "options": [
               {},
               {},
@@ -750,7 +751,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Embora ___ tarde, continuamos.",
             "options": [
               {},
               {},
@@ -760,7 +761,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha uma consequência.",
             "options": [
               {},
               {},
@@ -770,7 +771,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acredito que eles ___ razão.",
             "options": [
               {},
               {},
@@ -780,7 +781,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase justifica uma escolha?",
             "options": [
               {},
               {},
@@ -795,89 +796,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acho que a proposta ___ útil.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "é",
+          "são",
+          "ser",
+          "seja"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha o conector de contraste.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Quero sair, portanto está chovendo.",
+          "Quero sair, porém está chovendo.",
+          "Quero sair, porque está chovendo.",
+          "Quero sair, então está chovendo."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Fico em casa porque ___ cansado.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "estar",
+          "está",
+          "estou",
+          "estamos"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase expressa uma opinião?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "O projeto funciona por quê?",
+          "O projeto ontem funciona?",
+          "Funcionar projeto na minha opinião.",
+          "Na minha opinião, o projeto funciona."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Embora ___ tarde, continuamos.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "seja",
+          "é",
+          "ser",
+          "são"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha uma consequência.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Temos pouco tempo, porém organizamos o trabalho.",
+          "Temos pouco tempo, portanto organizamos o trabalho.",
+          "Temos pouco tempo, porque organizamos o trabalho.",
+          "Temos pouco tempo, embora organizamos o trabalho."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acredito que eles ___ razão.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "ter",
+          "têm",
+          "tenham",
+          "terão"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase justifica uma escolha?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "Escolho o trem é mais sustentável porque?",
+          "Escolho o trem porém é mais sustentável.",
+          "Escolho o trem portanto é mais sustentável?",
+          "Escolho o trem porque é mais sustentável."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       }
@@ -1285,52 +1286,52 @@
     "vocabulary": [
       {
         "word": "meta",
-        "translation": "Palabra clave 1",
+        "translation": "meta",
         "example": "Uso a palavra «meta» no contexto."
       },
       {
         "word": "prazo",
-        "translation": "Palabra clave 2",
+        "translation": "plazo",
         "example": "Uso a palavra «prazo» no contexto."
       },
       {
         "word": "equipe",
-        "translation": "Palabra clave 3",
+        "translation": "equipo",
         "example": "Uso a palavra «equipe» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 4",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 5",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "resultado",
-        "translation": "Palabra clave 6",
+        "translation": "resultado",
         "example": "Uso a palavra «resultado» no contexto."
       },
       {
         "word": "responsabilidade",
-        "translation": "Palabra clave 7",
+        "translation": "responsabilidad",
         "example": "Uso a palavra «responsabilidade» no contexto."
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 8",
+        "translation": "propuesta",
         "example": "Uso a palavra «proposta» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 9",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "confiança",
-        "translation": "Palabra clave 10",
+        "translation": "confianza",
         "example": "Uso a palavra «confiança» no contexto."
       }
     ],
@@ -1505,8 +1506,8 @@
     "vocabulary": [
       {
         "word": "meta",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "meta",
+        "definition": "meta",
         "example": "Uso “meta” em uma frase.",
         "contexts": [
           "meta · tema",
@@ -1516,8 +1517,8 @@
       },
       {
         "word": "prazo",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "plazo",
+        "definition": "plazo",
         "example": "Uso “prazo” em uma frase.",
         "contexts": [
           "prazo · tema",
@@ -1527,8 +1528,8 @@
       },
       {
         "word": "equipe",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "equipo",
+        "definition": "equipo",
         "example": "Uso “equipe” em uma frase.",
         "contexts": [
           "equipe · tema",
@@ -1538,8 +1539,8 @@
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Uso “melhorar” em uma frase.",
         "contexts": [
           "melhorar · tema",
@@ -1549,8 +1550,8 @@
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "elegir",
+        "definition": "elegir",
         "example": "Uso “escolher” em uma frase.",
         "contexts": [
           "escolher · tema",
@@ -1560,8 +1561,8 @@
       },
       {
         "word": "resultado",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "resultado",
+        "definition": "resultado",
         "example": "Uso “resultado” em uma frase.",
         "contexts": [
           "resultado · tema",
@@ -1571,8 +1572,8 @@
       },
       {
         "word": "responsabilidade",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "responsabilidad",
+        "definition": "responsabilidad",
         "example": "Uso “responsabilidade” em uma frase.",
         "contexts": [
           "responsabilidade · tema",
@@ -1582,8 +1583,8 @@
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "propuesta",
+        "definition": "propuesta",
         "example": "Uso “proposta” em uma frase.",
         "contexts": [
           "proposta · tema",
@@ -1593,8 +1594,8 @@
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "hábito",
+        "definition": "hábito",
         "example": "Uso “hábito” em uma frase.",
         "contexts": [
           "hábito · tema",
@@ -1604,8 +1605,8 @@
       },
       {
         "word": "confiança",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "confianza",
+        "definition": "confianza",
         "example": "Uso “confiança” em uma frase.",
         "contexts": [
           "confiança · tema",
@@ -1851,52 +1852,52 @@
     "vocabulary": [
       {
         "word": "meta",
-        "translation": "Palabra clave 1",
+        "translation": "meta",
         "example": "Uso a palavra «meta» no contexto."
       },
       {
         "word": "prazo",
-        "translation": "Palabra clave 2",
+        "translation": "plazo",
         "example": "Uso a palavra «prazo» no contexto."
       },
       {
         "word": "equipe",
-        "translation": "Palabra clave 3",
+        "translation": "equipo",
         "example": "Uso a palavra «equipe» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 4",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 5",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "resultado",
-        "translation": "Palabra clave 6",
+        "translation": "resultado",
         "example": "Uso a palavra «resultado» no contexto."
       },
       {
         "word": "responsabilidade",
-        "translation": "Palabra clave 7",
+        "translation": "responsabilidad",
         "example": "Uso a palavra «responsabilidade» no contexto."
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 8",
+        "translation": "propuesta",
         "example": "Uso a palavra «proposta» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 9",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "confiança",
-        "translation": "Palabra clave 10",
+        "translation": "confianza",
         "example": "Uso a palavra «confiança» no contexto."
       }
     ],
@@ -2006,10 +2007,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Ser e estar",
-        "definition": "Práctica guiada de Ser e estar.",
+        "name": "Chegando ao Brasil: gramática",
+        "definition": "O presente descreve rotinas e informações simples.",
         "structure": "sujeito + verbo no presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -2019,7 +2020,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Eu ___ no bairro.",
             "options": [
               {},
               {},
@@ -2029,7 +2030,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta.",
             "options": [
               {},
               {},
@@ -2039,7 +2040,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ português todos os dias.",
             "options": [
               {},
               {},
@@ -2049,7 +2050,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual pergunta está correta?",
             "options": [
               {},
               {},
@@ -2059,7 +2060,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ela ___ uma pergunta.",
             "options": [
               {},
               {},
@@ -2069,7 +2070,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase que descreve uma casa.",
             "options": [
               {},
               {},
@@ -2079,7 +2080,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ café?",
             "options": [
               {},
               {},
@@ -2089,7 +2090,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase fala de uma rotina?",
             "options": [
               {},
               {},
@@ -2104,89 +2105,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "moro",
+          "mora",
+          "morar",
+          "moramos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Rafael falar com Luana.",
+          "Rafael fala com Luana.",
+          "Rafael falo com Luana.",
+          "Rafael falam com Luana."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "estudar",
+          "estuda",
+          "estudamos",
+          "estudam"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Onde você moram?",
+          "Onde você morar?",
+          "Onde mora você?",
+          "Onde você mora?"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ela ___ uma pergunta.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "faz",
+          "faço",
+          "fazer",
+          "fazem"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase que descreve uma casa.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "O casa é clara.",
+          "A casa é clara.",
+          "A casa são clara.",
+          "A casa é claro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ café?",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "tomar",
+          "tomam",
+          "toma",
+          "tomamos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase fala de uma rotina?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Toda manhã trabalham eu no centro.",
+          "Ontem trabalhar no centro.",
+          "Amanhã trabalhei no centro.",
+          "Toda manhã trabalho no centro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       }
@@ -2216,10 +2217,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Pretérito perfeito",
-        "definition": "Práctica guiada de Pretérito perfeito.",
+        "name": "Rotina na cidade: gramática",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Contar experiências e planos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -2229,7 +2230,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ontem eu ___ o museu.",
             "options": [
               {},
               {},
@@ -2239,7 +2240,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta no passado.",
             "options": [
               {},
               {},
@@ -2249,7 +2250,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Marta ___ tarde para casa.",
             "options": [
               {},
               {},
@@ -2259,7 +2260,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase mostra sequência?",
             "options": [
               {},
               {},
@@ -2269,7 +2270,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ a mensagem?",
             "options": [
               {},
               {},
@@ -2279,7 +2280,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase com o verbo no passado.",
             "options": [
               {},
               {},
@@ -2289,7 +2290,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
             "options": [
               {},
               {},
@@ -2299,7 +2300,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase conta uma ação concluída?",
             "options": [
               {},
               {},
@@ -2314,89 +2315,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "visitei",
+          "visito",
+          "visitar",
+          "visitamos"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Nós jantar juntos.",
+          "Nós jantamos juntos.",
+          "Nós jantou juntos.",
+          "Nós jantaremos ontem."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "voltar",
+          "volta",
+          "voltou",
+          "voltaram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "Primeiro estudamos, se saímos.",
+          "Primeiro estudamos, porque saímos.",
+          "Primeiro estudamos, porém saímos.",
+          "Primeiro estudamos, depois saímos."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ a mensagem?",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "leu",
+          "lê",
+          "ler",
+          "leram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase com o verbo no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Meus amigos pegar o ônibus.",
+          "Meus amigos pegaram o ônibus.",
+          "Meus amigos pegou o ônibus.",
+          "Meus amigos pegam ontem o ônibus."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "ter",
+          "temos",
+          "tivemos",
+          "teve"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase conta uma ação concluída?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "No sábado encontro eu minha prima.",
+          "No sábado encontro minha prima amanhã.",
+          "No sábado encontrar minha prima.",
+          "No sábado encontrei minha prima."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
@@ -2980,52 +2981,52 @@
     "vocabulary": [
       {
         "word": "meta",
-        "translation": "Palabra clave 1",
+        "translation": "meta",
         "example": "Uso a palavra «meta» no contexto."
       },
       {
         "word": "prazo",
-        "translation": "Palabra clave 2",
+        "translation": "plazo",
         "example": "Uso a palavra «prazo» no contexto."
       },
       {
         "word": "equipe",
-        "translation": "Palabra clave 3",
+        "translation": "equipo",
         "example": "Uso a palavra «equipe» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 4",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 5",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "resultado",
-        "translation": "Palabra clave 6",
+        "translation": "resultado",
         "example": "Uso a palavra «resultado» no contexto."
       },
       {
         "word": "responsabilidade",
-        "translation": "Palabra clave 7",
+        "translation": "responsabilidad",
         "example": "Uso a palavra «responsabilidade» no contexto."
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 8",
+        "translation": "propuesta",
         "example": "Uso a palavra «proposta» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 9",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "confiança",
-        "translation": "Palabra clave 10",
+        "translation": "confianza",
         "example": "Uso a palavra «confiança» no contexto."
       }
     ],
@@ -3064,52 +3065,52 @@
     "vocabulary": [
       {
         "word": "roteiro",
-        "translation": "Palabra clave 1",
+        "translation": "guión",
         "example": "Uso a palavra «roteiro» no contexto."
       },
       {
         "word": "reserva",
-        "translation": "Palabra clave 2",
+        "translation": "reserva",
         "example": "Uso a palavra «reserva» no contexto."
       },
       {
         "word": "paisagem",
-        "translation": "Palabra clave 3",
+        "translation": "paisaje",
         "example": "Uso a palavra «paisagem» no contexto."
       },
       {
         "word": "evitar",
-        "translation": "Palabra clave 4",
+        "translation": "evitar",
         "example": "Uso a palavra «evitar» no contexto."
       },
       {
         "word": "aconselhar",
-        "translation": "Palabra clave 5",
+        "translation": "aconsejar",
         "example": "Uso a palavra «aconselhar» no contexto."
       },
       {
         "word": "experiência",
-        "translation": "Palabra clave 6",
+        "translation": "experiencia",
         "example": "Uso a palavra «experiência» no contexto."
       },
       {
         "word": "acolhedor",
-        "translation": "Palabra clave 7",
+        "translation": "acogedor",
         "example": "Uso a palavra «acolhedor» no contexto."
       },
       {
         "word": "deslocamento",
-        "translation": "Palabra clave 8",
+        "translation": "desplazamiento",
         "example": "Uso a palavra «deslocamento» no contexto."
       },
       {
         "word": "sustentável",
-        "translation": "Palabra clave 9",
+        "translation": "sostenible",
         "example": "Uso a palavra «sustentável» no contexto."
       },
       {
         "word": "lembrança",
-        "translation": "Palabra clave 10",
+        "translation": "recuerdo",
         "example": "Uso a palavra «lembrança» no contexto."
       }
     ],
@@ -3136,52 +3137,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sobre o que é o texto?",
+        "prompt": "Sobre o que o grupo conversa?",
         "options": [
           "roteiro",
-          "reserva",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "deslocamento",
+          "sustentável",
+          "lembrança"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "O que a personagem faz primeiro?",
+        "prompt": "O que cada pessoa faz?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Conta uma experiência, escuta e propõe uma solução.",
+          "Compra um ingresso para um evento.",
+          "Não escuta as outras pessoas.",
+          "Cancela o projeto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é o papel da segunda pessoa?",
+        "prompt": "Por que decidem colaborar?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Porque têm um objetivo claro.",
+          "Porque não têm tempo.",
+          "Porque não conhecem o tema.",
+          "Porque preferem trabalhar sozinhos."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Por que o grupo colabora?",
+        "prompt": "Que ideia ajuda na vida cotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Uma solução concreta e colaborativa.",
+          "Uma lista sem contexto.",
+          "Uma discussão sem objetivo.",
+          "Uma decisão individual."
         ]
       },
       {
+        "id": "portuguese-b1-viagens-com-respeito-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é o objetivo comum?",
+        "prompt": "What is the main purpose of “Viagens com respeito”?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "To explain the central ideas and details of Viagens com respeito",
+          "To discuss an unrelated topic",
+          "To provide a list without context",
+          "To tell a story with no connection to the topic"
         ]
       }
     ]
@@ -3377,52 +3379,52 @@
     "vocabulary": [
       {
         "word": "roteiro",
-        "translation": "Palabra clave 1",
+        "translation": "guión",
         "example": "Uso a palavra «roteiro» no contexto."
       },
       {
         "word": "reserva",
-        "translation": "Palabra clave 2",
+        "translation": "reserva",
         "example": "Uso a palavra «reserva» no contexto."
       },
       {
         "word": "paisagem",
-        "translation": "Palabra clave 3",
+        "translation": "paisaje",
         "example": "Uso a palavra «paisagem» no contexto."
       },
       {
         "word": "evitar",
-        "translation": "Palabra clave 4",
+        "translation": "evitar",
         "example": "Uso a palavra «evitar» no contexto."
       },
       {
         "word": "aconselhar",
-        "translation": "Palabra clave 5",
+        "translation": "aconsejar",
         "example": "Uso a palavra «aconselhar» no contexto."
       },
       {
         "word": "experiência",
-        "translation": "Palabra clave 6",
+        "translation": "experiencia",
         "example": "Uso a palavra «experiência» no contexto."
       },
       {
         "word": "acolhedor",
-        "translation": "Palabra clave 7",
+        "translation": "acogedor",
         "example": "Uso a palavra «acolhedor» no contexto."
       },
       {
         "word": "deslocamento",
-        "translation": "Palabra clave 8",
+        "translation": "desplazamiento",
         "example": "Uso a palavra «deslocamento» no contexto."
       },
       {
         "word": "sustentável",
-        "translation": "Palabra clave 9",
+        "translation": "sostenible",
         "example": "Uso a palavra «sustentável» no contexto."
       },
       {
         "word": "lembrança",
-        "translation": "Palabra clave 10",
+        "translation": "recuerdo",
         "example": "Uso a palavra «lembrança» no contexto."
       }
     ],
@@ -3431,10 +3433,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Pronomes oblíquos",
-        "definition": "Práctica guiada de Pronomes oblíquos.",
+        "name": "Viagens com respeito: gramática",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -3444,7 +3446,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acho que a proposta ___ útil.",
             "options": [
               {},
               {},
@@ -3454,7 +3456,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha o conector de contraste.",
             "options": [
               {},
               {},
@@ -3464,7 +3466,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Fico em casa porque ___ cansado.",
             "options": [
               {},
               {},
@@ -3474,7 +3476,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase expressa uma opinião?",
             "options": [
               {},
               {},
@@ -3484,7 +3486,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Embora ___ tarde, continuamos.",
             "options": [
               {},
               {},
@@ -3494,7 +3496,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha uma consequência.",
             "options": [
               {},
               {},
@@ -3504,7 +3506,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acredito que eles ___ razão.",
             "options": [
               {},
               {},
@@ -3514,7 +3516,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase justifica uma escolha?",
             "options": [
               {},
               {},
@@ -3529,89 +3531,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acho que a proposta ___ útil.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "é",
+          "são",
+          "ser",
+          "seja"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha o conector de contraste.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Quero sair, portanto está chovendo.",
+          "Quero sair, porém está chovendo.",
+          "Quero sair, porque está chovendo.",
+          "Quero sair, então está chovendo."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Fico em casa porque ___ cansado.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "estar",
+          "está",
+          "estou",
+          "estamos"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase expressa uma opinião?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "O projeto funciona por quê?",
+          "O projeto ontem funciona?",
+          "Funcionar projeto na minha opinião.",
+          "Na minha opinião, o projeto funciona."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Embora ___ tarde, continuamos.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "seja",
+          "é",
+          "ser",
+          "são"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha uma consequência.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Temos pouco tempo, porém organizamos o trabalho.",
+          "Temos pouco tempo, portanto organizamos o trabalho.",
+          "Temos pouco tempo, porque organizamos o trabalho.",
+          "Temos pouco tempo, embora organizamos o trabalho."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acredito que eles ___ razão.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "ter",
+          "têm",
+          "tenham",
+          "terão"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase justifica uma escolha?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "Escolho o trem é mais sustentável porque?",
+          "Escolho o trem porém é mais sustentável.",
+          "Escolho o trem portanto é mais sustentável?",
+          "Escolho o trem porque é mais sustentável."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       }
@@ -4019,52 +4021,52 @@
     "vocabulary": [
       {
         "word": "roteiro",
-        "translation": "Palabra clave 1",
+        "translation": "guión",
         "example": "Uso a palavra «roteiro» no contexto."
       },
       {
         "word": "reserva",
-        "translation": "Palabra clave 2",
+        "translation": "reserva",
         "example": "Uso a palavra «reserva» no contexto."
       },
       {
         "word": "paisagem",
-        "translation": "Palabra clave 3",
+        "translation": "paisaje",
         "example": "Uso a palavra «paisagem» no contexto."
       },
       {
         "word": "evitar",
-        "translation": "Palabra clave 4",
+        "translation": "evitar",
         "example": "Uso a palavra «evitar» no contexto."
       },
       {
         "word": "aconselhar",
-        "translation": "Palabra clave 5",
+        "translation": "aconsejar",
         "example": "Uso a palavra «aconselhar» no contexto."
       },
       {
         "word": "experiência",
-        "translation": "Palabra clave 6",
+        "translation": "experiencia",
         "example": "Uso a palavra «experiência» no contexto."
       },
       {
         "word": "acolhedor",
-        "translation": "Palabra clave 7",
+        "translation": "acogedor",
         "example": "Uso a palavra «acolhedor» no contexto."
       },
       {
         "word": "deslocamento",
-        "translation": "Palabra clave 8",
+        "translation": "desplazamiento",
         "example": "Uso a palavra «deslocamento» no contexto."
       },
       {
         "word": "sustentável",
-        "translation": "Palabra clave 9",
+        "translation": "sostenible",
         "example": "Uso a palavra «sustentável» no contexto."
       },
       {
         "word": "lembrança",
-        "translation": "Palabra clave 10",
+        "translation": "recuerdo",
         "example": "Uso a palavra «lembrança» no contexto."
       }
     ],
@@ -4239,8 +4241,8 @@
     "vocabulary": [
       {
         "word": "roteiro",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "guión",
+        "definition": "guión",
         "example": "Uso “roteiro” em uma frase.",
         "contexts": [
           "roteiro · tema",
@@ -4250,8 +4252,8 @@
       },
       {
         "word": "reserva",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "reserva",
+        "definition": "reserva",
         "example": "Uso “reserva” em uma frase.",
         "contexts": [
           "reserva · tema",
@@ -4261,8 +4263,8 @@
       },
       {
         "word": "paisagem",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "paisaje",
+        "definition": "paisaje",
         "example": "Uso “paisagem” em uma frase.",
         "contexts": [
           "paisagem · tema",
@@ -4272,8 +4274,8 @@
       },
       {
         "word": "evitar",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "evitar",
+        "definition": "evitar",
         "example": "Uso “evitar” em uma frase.",
         "contexts": [
           "evitar · tema",
@@ -4283,8 +4285,8 @@
       },
       {
         "word": "aconselhar",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "aconsejar",
+        "definition": "aconsejar",
         "example": "Uso “aconselhar” em uma frase.",
         "contexts": [
           "aconselhar · tema",
@@ -4294,8 +4296,8 @@
       },
       {
         "word": "experiência",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "experiencia",
+        "definition": "experiencia",
         "example": "Uso “experiência” em uma frase.",
         "contexts": [
           "experiência · tema",
@@ -4305,8 +4307,8 @@
       },
       {
         "word": "acolhedor",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "acogedor",
+        "definition": "acogedor",
         "example": "Uso “acolhedor” em uma frase.",
         "contexts": [
           "acolhedor · tema",
@@ -4316,8 +4318,8 @@
       },
       {
         "word": "deslocamento",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "desplazamiento",
+        "definition": "desplazamiento",
         "example": "Uso “deslocamento” em uma frase.",
         "contexts": [
           "deslocamento · tema",
@@ -4327,8 +4329,8 @@
       },
       {
         "word": "sustentável",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "sostenible",
+        "definition": "sostenible",
         "example": "Uso “sustentável” em uma frase.",
         "contexts": [
           "sustentável · tema",
@@ -4338,8 +4340,8 @@
       },
       {
         "word": "lembrança",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "recuerdo",
+        "definition": "recuerdo",
         "example": "Uso “lembrança” em uma frase.",
         "contexts": [
           "lembrança · tema",
@@ -4585,52 +4587,52 @@
     "vocabulary": [
       {
         "word": "roteiro",
-        "translation": "Palabra clave 1",
+        "translation": "guión",
         "example": "Uso a palavra «roteiro» no contexto."
       },
       {
         "word": "reserva",
-        "translation": "Palabra clave 2",
+        "translation": "reserva",
         "example": "Uso a palavra «reserva» no contexto."
       },
       {
         "word": "paisagem",
-        "translation": "Palabra clave 3",
+        "translation": "paisaje",
         "example": "Uso a palavra «paisagem» no contexto."
       },
       {
         "word": "evitar",
-        "translation": "Palabra clave 4",
+        "translation": "evitar",
         "example": "Uso a palavra «evitar» no contexto."
       },
       {
         "word": "aconselhar",
-        "translation": "Palabra clave 5",
+        "translation": "aconsejar",
         "example": "Uso a palavra «aconselhar» no contexto."
       },
       {
         "word": "experiência",
-        "translation": "Palabra clave 6",
+        "translation": "experiencia",
         "example": "Uso a palavra «experiência» no contexto."
       },
       {
         "word": "acolhedor",
-        "translation": "Palabra clave 7",
+        "translation": "acogedor",
         "example": "Uso a palavra «acolhedor» no contexto."
       },
       {
         "word": "deslocamento",
-        "translation": "Palabra clave 8",
+        "translation": "desplazamiento",
         "example": "Uso a palavra «deslocamento» no contexto."
       },
       {
         "word": "sustentável",
-        "translation": "Palabra clave 9",
+        "translation": "sostenible",
         "example": "Uso a palavra «sustentável» no contexto."
       },
       {
         "word": "lembrança",
-        "translation": "Palabra clave 10",
+        "translation": "recuerdo",
         "example": "Uso a palavra «lembrança» no contexto."
       }
     ],
@@ -4740,10 +4742,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Artigos e gostaria de",
-        "definition": "Práctica guiada de Artigos e gostaria de.",
+        "name": "Um café na padaria: gramática",
+        "definition": "O presente descreve rotinas e informações simples.",
         "structure": "sujeito + verbo no presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -4753,7 +4755,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Eu ___ no bairro.",
             "options": [
               {},
               {},
@@ -4763,7 +4765,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta.",
             "options": [
               {},
               {},
@@ -4773,7 +4775,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ português todos os dias.",
             "options": [
               {},
               {},
@@ -4783,7 +4785,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual pergunta está correta?",
             "options": [
               {},
               {},
@@ -4793,7 +4795,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ela ___ uma pergunta.",
             "options": [
               {},
               {},
@@ -4803,7 +4805,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase que descreve uma casa.",
             "options": [
               {},
               {},
@@ -4813,7 +4815,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ café?",
             "options": [
               {},
               {},
@@ -4823,7 +4825,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase fala de uma rotina?",
             "options": [
               {},
               {},
@@ -4838,89 +4840,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "moro",
+          "mora",
+          "morar",
+          "moramos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Rafael falar com Luana.",
+          "Rafael fala com Luana.",
+          "Rafael falo com Luana.",
+          "Rafael falam com Luana."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "estudar",
+          "estuda",
+          "estudamos",
+          "estudam"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Onde você moram?",
+          "Onde você morar?",
+          "Onde mora você?",
+          "Onde você mora?"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ela ___ uma pergunta.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "faz",
+          "faço",
+          "fazer",
+          "fazem"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase que descreve uma casa.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "O casa é clara.",
+          "A casa é clara.",
+          "A casa são clara.",
+          "A casa é claro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ café?",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "tomar",
+          "tomam",
+          "toma",
+          "tomamos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase fala de uma rotina?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Toda manhã trabalham eu no centro.",
+          "Ontem trabalhar no centro.",
+          "Amanhã trabalhei no centro.",
+          "Toda manhã trabalho no centro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       }
@@ -4950,10 +4952,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Pretérito imperfeito",
-        "definition": "Práctica guiada de Pretérito imperfeito.",
+        "name": "Um fim de semana em Salvador: gramática",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Contar experiências e planos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -4963,7 +4965,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ontem eu ___ o museu.",
             "options": [
               {},
               {},
@@ -4973,7 +4975,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta no passado.",
             "options": [
               {},
               {},
@@ -4983,7 +4985,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Marta ___ tarde para casa.",
             "options": [
               {},
               {},
@@ -4993,7 +4995,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase mostra sequência?",
             "options": [
               {},
               {},
@@ -5003,7 +5005,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ a mensagem?",
             "options": [
               {},
               {},
@@ -5013,7 +5015,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase com o verbo no passado.",
             "options": [
               {},
               {},
@@ -5023,7 +5025,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
             "options": [
               {},
               {},
@@ -5033,7 +5035,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase conta uma ação concluída?",
             "options": [
               {},
               {},
@@ -5048,89 +5050,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "visitei",
+          "visito",
+          "visitar",
+          "visitamos"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Nós jantar juntos.",
+          "Nós jantamos juntos.",
+          "Nós jantou juntos.",
+          "Nós jantaremos ontem."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "voltar",
+          "volta",
+          "voltou",
+          "voltaram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "Primeiro estudamos, se saímos.",
+          "Primeiro estudamos, porque saímos.",
+          "Primeiro estudamos, porém saímos.",
+          "Primeiro estudamos, depois saímos."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ a mensagem?",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "leu",
+          "lê",
+          "ler",
+          "leram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase com o verbo no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Meus amigos pegar o ônibus.",
+          "Meus amigos pegaram o ônibus.",
+          "Meus amigos pegou o ônibus.",
+          "Meus amigos pegam ontem o ônibus."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "ter",
+          "temos",
+          "tivemos",
+          "teve"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase conta uma ação concluída?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "No sábado encontro eu minha prima.",
+          "No sábado encontro minha prima amanhã.",
+          "No sábado encontrar minha prima.",
+          "No sábado encontrei minha prima."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
@@ -5714,52 +5716,52 @@
     "vocabulary": [
       {
         "word": "roteiro",
-        "translation": "Palabra clave 1",
+        "translation": "guión",
         "example": "Uso a palavra «roteiro» no contexto."
       },
       {
         "word": "reserva",
-        "translation": "Palabra clave 2",
+        "translation": "reserva",
         "example": "Uso a palavra «reserva» no contexto."
       },
       {
         "word": "paisagem",
-        "translation": "Palabra clave 3",
+        "translation": "paisaje",
         "example": "Uso a palavra «paisagem» no contexto."
       },
       {
         "word": "evitar",
-        "translation": "Palabra clave 4",
+        "translation": "evitar",
         "example": "Uso a palavra «evitar» no contexto."
       },
       {
         "word": "aconselhar",
-        "translation": "Palabra clave 5",
+        "translation": "aconsejar",
         "example": "Uso a palavra «aconselhar» no contexto."
       },
       {
         "word": "experiência",
-        "translation": "Palabra clave 6",
+        "translation": "experiencia",
         "example": "Uso a palavra «experiência» no contexto."
       },
       {
         "word": "acolhedor",
-        "translation": "Palabra clave 7",
+        "translation": "acogedor",
         "example": "Uso a palavra «acolhedor» no contexto."
       },
       {
         "word": "deslocamento",
-        "translation": "Palabra clave 8",
+        "translation": "desplazamiento",
         "example": "Uso a palavra «deslocamento» no contexto."
       },
       {
         "word": "sustentável",
-        "translation": "Palabra clave 9",
+        "translation": "sostenible",
         "example": "Uso a palavra «sustentável» no contexto."
       },
       {
         "word": "lembrança",
-        "translation": "Palabra clave 10",
+        "translation": "recuerdo",
         "example": "Uso a palavra «lembrança» no contexto."
       }
     ],
@@ -5798,52 +5800,52 @@
     "vocabulary": [
       {
         "word": "bem-estar",
-        "translation": "Palabra clave 1",
+        "translation": "bienestar",
         "example": "Uso a palavra «bem-estar» no contexto."
       },
       {
         "word": "descanso",
-        "translation": "Palabra clave 2",
+        "translation": "descanso",
         "example": "Uso a palavra «descanso» no contexto."
       },
       {
         "word": "exercício",
-        "translation": "Palabra clave 3",
+        "translation": "ejercicio",
         "example": "Uso a palavra «exercício» no contexto."
       },
       {
         "word": "equilíbrio",
-        "translation": "Palabra clave 4",
+        "translation": "equilibrio",
         "example": "Uso a palavra «equilíbrio» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "prevenir",
-        "translation": "Palabra clave 6",
+        "translation": "prevenir",
         "example": "Uso a palavra «prevenir» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 7",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "energia",
-        "translation": "Palabra clave 8",
+        "translation": "energía",
         "example": "Uso a palavra «energia» no contexto."
       },
       {
         "word": "conselho",
-        "translation": "Palabra clave 9",
+        "translation": "consejo",
         "example": "Uso a palavra «conselho» no contexto."
       },
       {
         "word": "escolha",
-        "translation": "Palabra clave 10",
+        "translation": "elegir",
         "example": "Uso a palavra «escolha» no contexto."
       }
     ],
@@ -5870,52 +5872,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sobre o que é o texto?",
+        "prompt": "Sobre o que o grupo conversa?",
         "options": [
           "bem-estar",
-          "descanso",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "energia",
+          "conselho",
+          "escolha"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "O que a personagem faz primeiro?",
+        "prompt": "O que cada pessoa faz?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Conta uma experiência, escuta e propõe uma solução.",
+          "Compra um ingresso para um evento.",
+          "Não escuta as outras pessoas.",
+          "Cancela o projeto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é o papel da segunda pessoa?",
+        "prompt": "Por que decidem colaborar?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Porque têm um objetivo claro.",
+          "Porque não têm tempo.",
+          "Porque não conhecem o tema.",
+          "Porque preferem trabalhar sozinhos."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Por que o grupo colabora?",
+        "prompt": "Que ideia ajuda na vida cotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Uma solução concreta e colaborativa.",
+          "Uma lista sem contexto.",
+          "Uma discussão sem objetivo.",
+          "Uma decisão individual."
         ]
       },
       {
+        "id": "portuguese-b1-saude-e-equilibrio-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é o objetivo comum?",
+        "prompt": "What is the main purpose of “Saúde e equilíbrio”?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "To explain the central ideas and details of Saúde e equilíbrio",
+          "To discuss an unrelated topic",
+          "To provide a list without context",
+          "To tell a story with no connection to the topic"
         ]
       }
     ]
@@ -6111,52 +6114,52 @@
     "vocabulary": [
       {
         "word": "bem-estar",
-        "translation": "Palabra clave 1",
+        "translation": "bienestar",
         "example": "Uso a palavra «bem-estar» no contexto."
       },
       {
         "word": "descanso",
-        "translation": "Palabra clave 2",
+        "translation": "descanso",
         "example": "Uso a palavra «descanso» no contexto."
       },
       {
         "word": "exercício",
-        "translation": "Palabra clave 3",
+        "translation": "ejercicio",
         "example": "Uso a palavra «exercício» no contexto."
       },
       {
         "word": "equilíbrio",
-        "translation": "Palabra clave 4",
+        "translation": "equilibrio",
         "example": "Uso a palavra «equilíbrio» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "prevenir",
-        "translation": "Palabra clave 6",
+        "translation": "prevenir",
         "example": "Uso a palavra «prevenir» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 7",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "energia",
-        "translation": "Palabra clave 8",
+        "translation": "energía",
         "example": "Uso a palavra «energia» no contexto."
       },
       {
         "word": "conselho",
-        "translation": "Palabra clave 9",
+        "translation": "consejo",
         "example": "Uso a palavra «conselho» no contexto."
       },
       {
         "word": "escolha",
-        "translation": "Palabra clave 10",
+        "translation": "elegir",
         "example": "Uso a palavra «escolha» no contexto."
       }
     ],
@@ -6165,10 +6168,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Subjuntivo presente",
-        "definition": "Práctica guiada de Subjuntivo presente.",
+        "name": "Saúde e equilíbrio: gramática",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -6178,7 +6181,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acho que a proposta ___ útil.",
             "options": [
               {},
               {},
@@ -6188,7 +6191,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha o conector de contraste.",
             "options": [
               {},
               {},
@@ -6198,7 +6201,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Fico em casa porque ___ cansado.",
             "options": [
               {},
               {},
@@ -6208,7 +6211,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase expressa uma opinião?",
             "options": [
               {},
               {},
@@ -6218,7 +6221,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Embora ___ tarde, continuamos.",
             "options": [
               {},
               {},
@@ -6228,7 +6231,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha uma consequência.",
             "options": [
               {},
               {},
@@ -6238,7 +6241,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acredito que eles ___ razão.",
             "options": [
               {},
               {},
@@ -6248,7 +6251,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase justifica uma escolha?",
             "options": [
               {},
               {},
@@ -6263,89 +6266,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acho que a proposta ___ útil.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "é",
+          "são",
+          "ser",
+          "seja"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha o conector de contraste.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Quero sair, portanto está chovendo.",
+          "Quero sair, porém está chovendo.",
+          "Quero sair, porque está chovendo.",
+          "Quero sair, então está chovendo."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Fico em casa porque ___ cansado.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "estar",
+          "está",
+          "estou",
+          "estamos"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase expressa uma opinião?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "O projeto funciona por quê?",
+          "O projeto ontem funciona?",
+          "Funcionar projeto na minha opinião.",
+          "Na minha opinião, o projeto funciona."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Embora ___ tarde, continuamos.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "seja",
+          "é",
+          "ser",
+          "são"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha uma consequência.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Temos pouco tempo, porém organizamos o trabalho.",
+          "Temos pouco tempo, portanto organizamos o trabalho.",
+          "Temos pouco tempo, porque organizamos o trabalho.",
+          "Temos pouco tempo, embora organizamos o trabalho."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acredito que eles ___ razão.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "ter",
+          "têm",
+          "tenham",
+          "terão"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase justifica uma escolha?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "Escolho o trem é mais sustentável porque?",
+          "Escolho o trem porém é mais sustentável.",
+          "Escolho o trem portanto é mais sustentável?",
+          "Escolho o trem porque é mais sustentável."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       }
@@ -6753,52 +6756,52 @@
     "vocabulary": [
       {
         "word": "bem-estar",
-        "translation": "Palabra clave 1",
+        "translation": "bienestar",
         "example": "Uso a palavra «bem-estar» no contexto."
       },
       {
         "word": "descanso",
-        "translation": "Palabra clave 2",
+        "translation": "descanso",
         "example": "Uso a palavra «descanso» no contexto."
       },
       {
         "word": "exercício",
-        "translation": "Palabra clave 3",
+        "translation": "ejercicio",
         "example": "Uso a palavra «exercício» no contexto."
       },
       {
         "word": "equilíbrio",
-        "translation": "Palabra clave 4",
+        "translation": "equilibrio",
         "example": "Uso a palavra «equilíbrio» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "prevenir",
-        "translation": "Palabra clave 6",
+        "translation": "prevenir",
         "example": "Uso a palavra «prevenir» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 7",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "energia",
-        "translation": "Palabra clave 8",
+        "translation": "energía",
         "example": "Uso a palavra «energia» no contexto."
       },
       {
         "word": "conselho",
-        "translation": "Palabra clave 9",
+        "translation": "consejo",
         "example": "Uso a palavra «conselho» no contexto."
       },
       {
         "word": "escolha",
-        "translation": "Palabra clave 10",
+        "translation": "elegir",
         "example": "Uso a palavra «escolha» no contexto."
       }
     ],
@@ -6973,8 +6976,8 @@
     "vocabulary": [
       {
         "word": "bem-estar",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "bienestar",
+        "definition": "bienestar",
         "example": "Uso “bem-estar” em uma frase.",
         "contexts": [
           "bem-estar · tema",
@@ -6984,8 +6987,8 @@
       },
       {
         "word": "descanso",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "descanso",
+        "definition": "descanso",
         "example": "Uso “descanso” em uma frase.",
         "contexts": [
           "descanso · tema",
@@ -6995,8 +6998,8 @@
       },
       {
         "word": "exercício",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "ejercicio",
+        "definition": "ejercicio",
         "example": "Uso “exercício” em uma frase.",
         "contexts": [
           "exercício · tema",
@@ -7006,8 +7009,8 @@
       },
       {
         "word": "equilíbrio",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "equilibrio",
+        "definition": "equilibrio",
         "example": "Uso “equilíbrio” em uma frase.",
         "contexts": [
           "equilíbrio · tema",
@@ -7017,8 +7020,8 @@
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Uso “melhorar” em uma frase.",
         "contexts": [
           "melhorar · tema",
@@ -7028,8 +7031,8 @@
       },
       {
         "word": "prevenir",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "prevenir",
+        "definition": "prevenir",
         "example": "Uso “prevenir” em uma frase.",
         "contexts": [
           "prevenir · tema",
@@ -7039,8 +7042,8 @@
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "hábito",
+        "definition": "hábito",
         "example": "Uso “hábito” em uma frase.",
         "contexts": [
           "hábito · tema",
@@ -7050,8 +7053,8 @@
       },
       {
         "word": "energia",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "energía",
+        "definition": "energía",
         "example": "Uso “energia” em uma frase.",
         "contexts": [
           "energia · tema",
@@ -7061,8 +7064,8 @@
       },
       {
         "word": "conselho",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "consejo",
+        "definition": "consejo",
         "example": "Uso “conselho” em uma frase.",
         "contexts": [
           "conselho · tema",
@@ -7072,8 +7075,8 @@
       },
       {
         "word": "escolha",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "elegir",
+        "definition": "elegir",
         "example": "Uso “escolha” em uma frase.",
         "contexts": [
           "escolha · tema",
@@ -7319,52 +7322,52 @@
     "vocabulary": [
       {
         "word": "bem-estar",
-        "translation": "Palabra clave 1",
+        "translation": "bienestar",
         "example": "Uso a palavra «bem-estar» no contexto."
       },
       {
         "word": "descanso",
-        "translation": "Palabra clave 2",
+        "translation": "descanso",
         "example": "Uso a palavra «descanso» no contexto."
       },
       {
         "word": "exercício",
-        "translation": "Palabra clave 3",
+        "translation": "ejercicio",
         "example": "Uso a palavra «exercício» no contexto."
       },
       {
         "word": "equilíbrio",
-        "translation": "Palabra clave 4",
+        "translation": "equilibrio",
         "example": "Uso a palavra «equilíbrio» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "prevenir",
-        "translation": "Palabra clave 6",
+        "translation": "prevenir",
         "example": "Uso a palavra «prevenir» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 7",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "energia",
-        "translation": "Palabra clave 8",
+        "translation": "energía",
         "example": "Uso a palavra «energia» no contexto."
       },
       {
         "word": "conselho",
-        "translation": "Palabra clave 9",
+        "translation": "consejo",
         "example": "Uso a palavra «conselho» no contexto."
       },
       {
         "word": "escolha",
-        "translation": "Palabra clave 10",
+        "translation": "elegir",
         "example": "Uso a palavra «escolha» no contexto."
       }
     ],
@@ -7474,10 +7477,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Possessivos e plural",
-        "definition": "Práctica guiada de Possessivos e plural.",
+        "name": "Família e almoço: gramática",
+        "definition": "O presente descreve rotinas e informações simples.",
         "structure": "sujeito + verbo no presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -7487,7 +7490,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Eu ___ no bairro.",
             "options": [
               {},
               {},
@@ -7497,7 +7500,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta.",
             "options": [
               {},
               {},
@@ -7507,7 +7510,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ português todos os dias.",
             "options": [
               {},
               {},
@@ -7517,7 +7520,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual pergunta está correta?",
             "options": [
               {},
               {},
@@ -7527,7 +7530,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ela ___ uma pergunta.",
             "options": [
               {},
               {},
@@ -7537,7 +7540,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase que descreve uma casa.",
             "options": [
               {},
               {},
@@ -7547,7 +7550,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ café?",
             "options": [
               {},
               {},
@@ -7557,7 +7560,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase fala de uma rotina?",
             "options": [
               {},
               {},
@@ -7572,89 +7575,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "moro",
+          "mora",
+          "morar",
+          "moramos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Rafael falar com Luana.",
+          "Rafael fala com Luana.",
+          "Rafael falo com Luana.",
+          "Rafael falam com Luana."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "estudar",
+          "estuda",
+          "estudamos",
+          "estudam"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Onde você moram?",
+          "Onde você morar?",
+          "Onde mora você?",
+          "Onde você mora?"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ela ___ uma pergunta.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "faz",
+          "faço",
+          "fazer",
+          "fazem"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase que descreve uma casa.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "O casa é clara.",
+          "A casa é clara.",
+          "A casa são clara.",
+          "A casa é claro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ café?",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "tomar",
+          "tomam",
+          "toma",
+          "tomamos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase fala de uma rotina?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Toda manhã trabalham eu no centro.",
+          "Ontem trabalhar no centro.",
+          "Amanhã trabalhei no centro.",
+          "Toda manhã trabalho no centro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       }
@@ -7684,10 +7687,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Pronomes diretos",
-        "definition": "Práctica guiada de Pronomes diretos.",
+        "name": "Receitas e memórias: gramática",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Contar experiências e planos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -7697,7 +7700,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ontem eu ___ o museu.",
             "options": [
               {},
               {},
@@ -7707,7 +7710,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta no passado.",
             "options": [
               {},
               {},
@@ -7717,7 +7720,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Marta ___ tarde para casa.",
             "options": [
               {},
               {},
@@ -7727,7 +7730,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase mostra sequência?",
             "options": [
               {},
               {},
@@ -7737,7 +7740,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ a mensagem?",
             "options": [
               {},
               {},
@@ -7747,7 +7750,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase com o verbo no passado.",
             "options": [
               {},
               {},
@@ -7757,7 +7760,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
             "options": [
               {},
               {},
@@ -7767,7 +7770,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase conta uma ação concluída?",
             "options": [
               {},
               {},
@@ -7782,89 +7785,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "visitei",
+          "visito",
+          "visitar",
+          "visitamos"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Nós jantar juntos.",
+          "Nós jantamos juntos.",
+          "Nós jantou juntos.",
+          "Nós jantaremos ontem."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "voltar",
+          "volta",
+          "voltou",
+          "voltaram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "Primeiro estudamos, se saímos.",
+          "Primeiro estudamos, porque saímos.",
+          "Primeiro estudamos, porém saímos.",
+          "Primeiro estudamos, depois saímos."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ a mensagem?",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "leu",
+          "lê",
+          "ler",
+          "leram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase com o verbo no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Meus amigos pegar o ônibus.",
+          "Meus amigos pegaram o ônibus.",
+          "Meus amigos pegou o ônibus.",
+          "Meus amigos pegam ontem o ônibus."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "ter",
+          "temos",
+          "tivemos",
+          "teve"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase conta uma ação concluída?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "No sábado encontro eu minha prima.",
+          "No sábado encontro minha prima amanhã.",
+          "No sábado encontrar minha prima.",
+          "No sábado encontrei minha prima."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
@@ -8448,52 +8451,52 @@
     "vocabulary": [
       {
         "word": "bem-estar",
-        "translation": "Palabra clave 1",
+        "translation": "bienestar",
         "example": "Uso a palavra «bem-estar» no contexto."
       },
       {
         "word": "descanso",
-        "translation": "Palabra clave 2",
+        "translation": "descanso",
         "example": "Uso a palavra «descanso» no contexto."
       },
       {
         "word": "exercício",
-        "translation": "Palabra clave 3",
+        "translation": "ejercicio",
         "example": "Uso a palavra «exercício» no contexto."
       },
       {
         "word": "equilíbrio",
-        "translation": "Palabra clave 4",
+        "translation": "equilibrio",
         "example": "Uso a palavra «equilíbrio» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "prevenir",
-        "translation": "Palabra clave 6",
+        "translation": "prevenir",
         "example": "Uso a palavra «prevenir» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 7",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "energia",
-        "translation": "Palabra clave 8",
+        "translation": "energía",
         "example": "Uso a palavra «energia» no contexto."
       },
       {
         "word": "conselho",
-        "translation": "Palabra clave 9",
+        "translation": "consejo",
         "example": "Uso a palavra «conselho» no contexto."
       },
       {
         "word": "escolha",
-        "translation": "Palabra clave 10",
+        "translation": "elegir",
         "example": "Uso a palavra «escolha» no contexto."
       }
     ],
@@ -8532,52 +8535,52 @@
     "vocabulary": [
       {
         "word": "notícia",
-        "translation": "Palabra clave 1",
+        "translation": "noticia",
         "example": "Uso a palavra «notícia» no contexto."
       },
       {
         "word": "fonte",
-        "translation": "Palabra clave 2",
+        "translation": "fuente",
         "example": "Uso a palavra «fonte» no contexto."
       },
       {
         "word": "público",
-        "translation": "Palabra clave 3",
+        "translation": "público",
         "example": "Uso a palavra «público» no contexto."
       },
       {
         "word": "opinião",
-        "translation": "Palabra clave 4",
+        "translation": "opinión",
         "example": "Uso a palavra «opinião» no contexto."
       },
       {
         "word": "comparar",
-        "translation": "Palabra clave 5",
+        "translation": "comparar",
         "example": "Uso a palavra «comparar» no contexto."
       },
       {
         "word": "debate",
-        "translation": "Palabra clave 6",
+        "translation": "debate",
         "example": "Uso a palavra «debate» no contexto."
       },
       {
         "word": "conteúdo",
-        "translation": "Palabra clave 7",
+        "translation": "contenido",
         "example": "Uso a palavra «conteúdo» no contexto."
       },
       {
         "word": "confiável",
-        "translation": "Palabra clave 8",
+        "translation": "fiable",
         "example": "Uso a palavra «confiável» no contexto."
       },
       {
         "word": "perspectiva",
-        "translation": "Palabra clave 9",
+        "translation": "perspectiva",
         "example": "Uso a palavra «perspectiva» no contexto."
       },
       {
         "word": "comunicar",
-        "translation": "Palabra clave 10",
+        "translation": "comunicar",
         "example": "Uso a palavra «comunicar» no contexto."
       }
     ],
@@ -8604,52 +8607,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sobre o que é o texto?",
+        "prompt": "Sobre o que o grupo conversa?",
         "options": [
           "notícia",
-          "fonte",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "confiável",
+          "perspectiva",
+          "comunicar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "O que a personagem faz primeiro?",
+        "prompt": "O que cada pessoa faz?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Conta uma experiência, escuta e propõe uma solução.",
+          "Compra um ingresso para um evento.",
+          "Não escuta as outras pessoas.",
+          "Cancela o projeto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é o papel da segunda pessoa?",
+        "prompt": "Por que decidem colaborar?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Porque têm um objetivo claro.",
+          "Porque não têm tempo.",
+          "Porque não conhecem o tema.",
+          "Porque preferem trabalhar sozinhos."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Por que o grupo colabora?",
+        "prompt": "Que ideia ajuda na vida cotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Uma solução concreta e colaborativa.",
+          "Uma lista sem contexto.",
+          "Uma discussão sem objetivo.",
+          "Uma decisão individual."
         ]
       },
       {
+        "id": "portuguese-b1-cultura-e-informacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é o objetivo comum?",
+        "prompt": "What is the main purpose of “Cultura e informação”?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "To explain the central ideas and details of Cultura e informação",
+          "To discuss an unrelated topic",
+          "To provide a list without context",
+          "To tell a story with no connection to the topic"
         ]
       }
     ]
@@ -8845,52 +8849,52 @@
     "vocabulary": [
       {
         "word": "notícia",
-        "translation": "Palabra clave 1",
+        "translation": "noticia",
         "example": "Uso a palavra «notícia» no contexto."
       },
       {
         "word": "fonte",
-        "translation": "Palabra clave 2",
+        "translation": "fuente",
         "example": "Uso a palavra «fonte» no contexto."
       },
       {
         "word": "público",
-        "translation": "Palabra clave 3",
+        "translation": "público",
         "example": "Uso a palavra «público» no contexto."
       },
       {
         "word": "opinião",
-        "translation": "Palabra clave 4",
+        "translation": "opinión",
         "example": "Uso a palavra «opinião» no contexto."
       },
       {
         "word": "comparar",
-        "translation": "Palabra clave 5",
+        "translation": "comparar",
         "example": "Uso a palavra «comparar» no contexto."
       },
       {
         "word": "debate",
-        "translation": "Palabra clave 6",
+        "translation": "debate",
         "example": "Uso a palavra «debate» no contexto."
       },
       {
         "word": "conteúdo",
-        "translation": "Palabra clave 7",
+        "translation": "contenido",
         "example": "Uso a palavra «conteúdo» no contexto."
       },
       {
         "word": "confiável",
-        "translation": "Palabra clave 8",
+        "translation": "fiable",
         "example": "Uso a palavra «confiável» no contexto."
       },
       {
         "word": "perspectiva",
-        "translation": "Palabra clave 9",
+        "translation": "perspectiva",
         "example": "Uso a palavra «perspectiva» no contexto."
       },
       {
         "word": "comunicar",
-        "translation": "Palabra clave 10",
+        "translation": "comunicar",
         "example": "Uso a palavra «comunicar» no contexto."
       }
     ],
@@ -8899,10 +8903,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Discurso indireto",
-        "definition": "Práctica guiada de Discurso indireto.",
+        "name": "Cultura e informação: gramática",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -8912,7 +8916,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acho que a proposta ___ útil.",
             "options": [
               {},
               {},
@@ -8922,7 +8926,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha o conector de contraste.",
             "options": [
               {},
               {},
@@ -8932,7 +8936,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Fico em casa porque ___ cansado.",
             "options": [
               {},
               {},
@@ -8942,7 +8946,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase expressa uma opinião?",
             "options": [
               {},
               {},
@@ -8952,7 +8956,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Embora ___ tarde, continuamos.",
             "options": [
               {},
               {},
@@ -8962,7 +8966,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha uma consequência.",
             "options": [
               {},
               {},
@@ -8972,7 +8976,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acredito que eles ___ razão.",
             "options": [
               {},
               {},
@@ -8982,7 +8986,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase justifica uma escolha?",
             "options": [
               {},
               {},
@@ -8997,89 +9001,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acho que a proposta ___ útil.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "é",
+          "são",
+          "ser",
+          "seja"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha o conector de contraste.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Quero sair, portanto está chovendo.",
+          "Quero sair, porém está chovendo.",
+          "Quero sair, porque está chovendo.",
+          "Quero sair, então está chovendo."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Fico em casa porque ___ cansado.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "estar",
+          "está",
+          "estou",
+          "estamos"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase expressa uma opinião?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "O projeto funciona por quê?",
+          "O projeto ontem funciona?",
+          "Funcionar projeto na minha opinião.",
+          "Na minha opinião, o projeto funciona."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Embora ___ tarde, continuamos.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "seja",
+          "é",
+          "ser",
+          "são"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha uma consequência.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Temos pouco tempo, porém organizamos o trabalho.",
+          "Temos pouco tempo, portanto organizamos o trabalho.",
+          "Temos pouco tempo, porque organizamos o trabalho.",
+          "Temos pouco tempo, embora organizamos o trabalho."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acredito que eles ___ razão.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "ter",
+          "têm",
+          "tenham",
+          "terão"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase justifica uma escolha?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "Escolho o trem é mais sustentável porque?",
+          "Escolho o trem porém é mais sustentável.",
+          "Escolho o trem portanto é mais sustentável?",
+          "Escolho o trem porque é mais sustentável."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       }
@@ -9487,52 +9491,52 @@
     "vocabulary": [
       {
         "word": "notícia",
-        "translation": "Palabra clave 1",
+        "translation": "noticia",
         "example": "Uso a palavra «notícia» no contexto."
       },
       {
         "word": "fonte",
-        "translation": "Palabra clave 2",
+        "translation": "fuente",
         "example": "Uso a palavra «fonte» no contexto."
       },
       {
         "word": "público",
-        "translation": "Palabra clave 3",
+        "translation": "público",
         "example": "Uso a palavra «público» no contexto."
       },
       {
         "word": "opinião",
-        "translation": "Palabra clave 4",
+        "translation": "opinión",
         "example": "Uso a palavra «opinião» no contexto."
       },
       {
         "word": "comparar",
-        "translation": "Palabra clave 5",
+        "translation": "comparar",
         "example": "Uso a palavra «comparar» no contexto."
       },
       {
         "word": "debate",
-        "translation": "Palabra clave 6",
+        "translation": "debate",
         "example": "Uso a palavra «debate» no contexto."
       },
       {
         "word": "conteúdo",
-        "translation": "Palabra clave 7",
+        "translation": "contenido",
         "example": "Uso a palavra «conteúdo» no contexto."
       },
       {
         "word": "confiável",
-        "translation": "Palabra clave 8",
+        "translation": "fiable",
         "example": "Uso a palavra «confiável» no contexto."
       },
       {
         "word": "perspectiva",
-        "translation": "Palabra clave 9",
+        "translation": "perspectiva",
         "example": "Uso a palavra «perspectiva» no contexto."
       },
       {
         "word": "comunicar",
-        "translation": "Palabra clave 10",
+        "translation": "comunicar",
         "example": "Uso a palavra «comunicar» no contexto."
       }
     ],
@@ -9707,8 +9711,8 @@
     "vocabulary": [
       {
         "word": "notícia",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "noticia",
+        "definition": "noticia",
         "example": "Uso “notícia” em uma frase.",
         "contexts": [
           "notícia · tema",
@@ -9718,8 +9722,8 @@
       },
       {
         "word": "fonte",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "fuente",
+        "definition": "fuente",
         "example": "Uso “fonte” em uma frase.",
         "contexts": [
           "fonte · tema",
@@ -9729,8 +9733,8 @@
       },
       {
         "word": "público",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "público",
+        "definition": "público",
         "example": "Uso “público” em uma frase.",
         "contexts": [
           "público · tema",
@@ -9740,8 +9744,8 @@
       },
       {
         "word": "opinião",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "opinión",
+        "definition": "opinión",
         "example": "Uso “opinião” em uma frase.",
         "contexts": [
           "opinião · tema",
@@ -9751,8 +9755,8 @@
       },
       {
         "word": "comparar",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "comparar",
+        "definition": "comparar",
         "example": "Uso “comparar” em uma frase.",
         "contexts": [
           "comparar · tema",
@@ -9762,8 +9766,8 @@
       },
       {
         "word": "debate",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "debate",
+        "definition": "debate",
         "example": "Uso “debate” em uma frase.",
         "contexts": [
           "debate · tema",
@@ -9773,8 +9777,8 @@
       },
       {
         "word": "conteúdo",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "contenido",
+        "definition": "contenido",
         "example": "Uso “conteúdo” em uma frase.",
         "contexts": [
           "conteúdo · tema",
@@ -9784,8 +9788,8 @@
       },
       {
         "word": "confiável",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "fiable",
+        "definition": "fiable",
         "example": "Uso “confiável” em uma frase.",
         "contexts": [
           "confiável · tema",
@@ -9795,8 +9799,8 @@
       },
       {
         "word": "perspectiva",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "perspectiva",
+        "definition": "perspectiva",
         "example": "Uso “perspectiva” em uma frase.",
         "contexts": [
           "perspectiva · tema",
@@ -9806,8 +9810,8 @@
       },
       {
         "word": "comunicar",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "comunicar",
+        "definition": "comunicar",
         "example": "Uso “comunicar” em uma frase.",
         "contexts": [
           "comunicar · tema",
@@ -10053,52 +10057,52 @@
     "vocabulary": [
       {
         "word": "notícia",
-        "translation": "Palabra clave 1",
+        "translation": "noticia",
         "example": "Uso a palavra «notícia» no contexto."
       },
       {
         "word": "fonte",
-        "translation": "Palabra clave 2",
+        "translation": "fuente",
         "example": "Uso a palavra «fonte» no contexto."
       },
       {
         "word": "público",
-        "translation": "Palabra clave 3",
+        "translation": "público",
         "example": "Uso a palavra «público» no contexto."
       },
       {
         "word": "opinião",
-        "translation": "Palabra clave 4",
+        "translation": "opinión",
         "example": "Uso a palavra «opinião» no contexto."
       },
       {
         "word": "comparar",
-        "translation": "Palabra clave 5",
+        "translation": "comparar",
         "example": "Uso a palavra «comparar» no contexto."
       },
       {
         "word": "debate",
-        "translation": "Palabra clave 6",
+        "translation": "debate",
         "example": "Uso a palavra «debate» no contexto."
       },
       {
         "word": "conteúdo",
-        "translation": "Palabra clave 7",
+        "translation": "contenido",
         "example": "Uso a palavra «conteúdo» no contexto."
       },
       {
         "word": "confiável",
-        "translation": "Palabra clave 8",
+        "translation": "fiable",
         "example": "Uso a palavra «confiável» no contexto."
       },
       {
         "word": "perspectiva",
-        "translation": "Palabra clave 9",
+        "translation": "perspectiva",
         "example": "Uso a palavra «perspectiva» no contexto."
       },
       {
         "word": "comunicar",
-        "translation": "Palabra clave 10",
+        "translation": "comunicar",
         "example": "Uso a palavra «comunicar» no contexto."
       }
     ],
@@ -10208,10 +10212,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Há / tem e quantidades",
-        "definition": "Práctica guiada de Há / tem e quantidades.",
+        "name": "A feira do bairro: gramática",
+        "definition": "O presente descreve rotinas e informações simples.",
         "structure": "sujeito + verbo no presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -10221,7 +10225,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Eu ___ no bairro.",
             "options": [
               {},
               {},
@@ -10231,7 +10235,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta.",
             "options": [
               {},
               {},
@@ -10241,7 +10245,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ português todos os dias.",
             "options": [
               {},
               {},
@@ -10251,7 +10255,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual pergunta está correta?",
             "options": [
               {},
               {},
@@ -10261,7 +10265,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ela ___ uma pergunta.",
             "options": [
               {},
               {},
@@ -10271,7 +10275,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase que descreve uma casa.",
             "options": [
               {},
               {},
@@ -10281,7 +10285,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ café?",
             "options": [
               {},
               {},
@@ -10291,7 +10295,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase fala de uma rotina?",
             "options": [
               {},
               {},
@@ -10306,89 +10310,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "moro",
+          "mora",
+          "morar",
+          "moramos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Rafael falar com Luana.",
+          "Rafael fala com Luana.",
+          "Rafael falo com Luana.",
+          "Rafael falam com Luana."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "estudar",
+          "estuda",
+          "estudamos",
+          "estudam"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Onde você moram?",
+          "Onde você morar?",
+          "Onde mora você?",
+          "Onde você mora?"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ela ___ uma pergunta.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "faz",
+          "faço",
+          "fazer",
+          "fazem"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase que descreve uma casa.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "O casa é clara.",
+          "A casa é clara.",
+          "A casa são clara.",
+          "A casa é claro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ café?",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "tomar",
+          "tomam",
+          "toma",
+          "tomamos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase fala de uma rotina?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Toda manhã trabalham eu no centro.",
+          "Ontem trabalhar no centro.",
+          "Amanhã trabalhei no centro.",
+          "Toda manhã trabalho no centro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       }
@@ -10418,10 +10422,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Futuro próximo e planos",
-        "definition": "Práctica guiada de Futuro próximo e planos.",
+        "name": "Trabalho e pausa: gramática",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Contar experiências e planos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -10431,7 +10435,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ontem eu ___ o museu.",
             "options": [
               {},
               {},
@@ -10441,7 +10445,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta no passado.",
             "options": [
               {},
               {},
@@ -10451,7 +10455,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Marta ___ tarde para casa.",
             "options": [
               {},
               {},
@@ -10461,7 +10465,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase mostra sequência?",
             "options": [
               {},
               {},
@@ -10471,7 +10475,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ a mensagem?",
             "options": [
               {},
               {},
@@ -10481,7 +10485,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase com o verbo no passado.",
             "options": [
               {},
               {},
@@ -10491,7 +10495,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
             "options": [
               {},
               {},
@@ -10501,7 +10505,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase conta uma ação concluída?",
             "options": [
               {},
               {},
@@ -10516,89 +10520,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "visitei",
+          "visito",
+          "visitar",
+          "visitamos"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Nós jantar juntos.",
+          "Nós jantamos juntos.",
+          "Nós jantou juntos.",
+          "Nós jantaremos ontem."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "voltar",
+          "volta",
+          "voltou",
+          "voltaram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "Primeiro estudamos, se saímos.",
+          "Primeiro estudamos, porque saímos.",
+          "Primeiro estudamos, porém saímos.",
+          "Primeiro estudamos, depois saímos."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ a mensagem?",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "leu",
+          "lê",
+          "ler",
+          "leram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase com o verbo no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Meus amigos pegar o ônibus.",
+          "Meus amigos pegaram o ônibus.",
+          "Meus amigos pegou o ônibus.",
+          "Meus amigos pegam ontem o ônibus."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "ter",
+          "temos",
+          "tivemos",
+          "teve"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase conta uma ação concluída?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "No sábado encontro eu minha prima.",
+          "No sábado encontro minha prima amanhã.",
+          "No sábado encontrar minha prima.",
+          "No sábado encontrei minha prima."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
@@ -11182,52 +11186,52 @@
     "vocabulary": [
       {
         "word": "notícia",
-        "translation": "Palabra clave 1",
+        "translation": "noticia",
         "example": "Uso a palavra «notícia» no contexto."
       },
       {
         "word": "fonte",
-        "translation": "Palabra clave 2",
+        "translation": "fuente",
         "example": "Uso a palavra «fonte» no contexto."
       },
       {
         "word": "público",
-        "translation": "Palabra clave 3",
+        "translation": "público",
         "example": "Uso a palavra «público» no contexto."
       },
       {
         "word": "opinião",
-        "translation": "Palabra clave 4",
+        "translation": "opinión",
         "example": "Uso a palavra «opinião» no contexto."
       },
       {
         "word": "comparar",
-        "translation": "Palabra clave 5",
+        "translation": "comparar",
         "example": "Uso a palavra «comparar» no contexto."
       },
       {
         "word": "debate",
-        "translation": "Palabra clave 6",
+        "translation": "debate",
         "example": "Uso a palavra «debate» no contexto."
       },
       {
         "word": "conteúdo",
-        "translation": "Palabra clave 7",
+        "translation": "contenido",
         "example": "Uso a palavra «conteúdo» no contexto."
       },
       {
         "word": "confiável",
-        "translation": "Palabra clave 8",
+        "translation": "fiable",
         "example": "Uso a palavra «confiável» no contexto."
       },
       {
         "word": "perspectiva",
-        "translation": "Palabra clave 9",
+        "translation": "perspectiva",
         "example": "Uso a palavra «perspectiva» no contexto."
       },
       {
         "word": "comunicar",
-        "translation": "Palabra clave 10",
+        "translation": "comunicar",
         "example": "Uso a palavra «comunicar» no contexto."
       }
     ],
@@ -11266,52 +11270,52 @@
     "vocabulary": [
       {
         "word": "resíduo",
-        "translation": "Palabra clave 1",
+        "translation": "residuo",
         "example": "Uso a palavra «resíduo» no contexto."
       },
       {
         "word": "coleta",
-        "translation": "Palabra clave 2",
+        "translation": "recolección",
         "example": "Uso a palavra «coleta» no contexto."
       },
       {
         "word": "recurso",
-        "translation": "Palabra clave 3",
+        "translation": "recurso",
         "example": "Uso a palavra «recurso» no contexto."
       },
       {
         "word": "reduzir",
-        "translation": "Palabra clave 4",
+        "translation": "reducir",
         "example": "Uso a palavra «reduzir» no contexto."
       },
       {
         "word": "bairro",
-        "translation": "Palabra clave 5",
+        "translation": "barrio",
         "example": "Uso a palavra «bairro» no contexto."
       },
       {
         "word": "voluntário",
-        "translation": "Palabra clave 6",
+        "translation": "voluntario",
         "example": "Uso a palavra «voluntário» no contexto."
       },
       {
         "word": "iniciativa",
-        "translation": "Palabra clave 7",
+        "translation": "iniciativa",
         "example": "Uso a palavra «iniciativa» no contexto."
       },
       {
         "word": "impacto",
-        "translation": "Palabra clave 8",
+        "translation": "impacto",
         "example": "Uso a palavra «impacto» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "apoiar",
-        "translation": "Palabra clave 10",
+        "translation": "apoyar",
         "example": "Uso a palavra «apoiar» no contexto."
       }
     ],
@@ -11338,52 +11342,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sobre o que é o texto?",
+        "prompt": "Sobre o que o grupo conversa?",
         "options": [
           "resíduo",
-          "coleta",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "impacto",
+          "melhorar",
+          "apoiar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "O que a personagem faz primeiro?",
+        "prompt": "O que cada pessoa faz?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Conta uma experiência, escuta e propõe uma solução.",
+          "Compra um ingresso para um evento.",
+          "Não escuta as outras pessoas.",
+          "Cancela o projeto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é o papel da segunda pessoa?",
+        "prompt": "Por que decidem colaborar?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Porque têm um objetivo claro.",
+          "Porque não têm tempo.",
+          "Porque não conhecem o tema.",
+          "Porque preferem trabalhar sozinhos."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Por que o grupo colabora?",
+        "prompt": "Que ideia ajuda na vida cotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Uma solução concreta e colaborativa.",
+          "Uma lista sem contexto.",
+          "Uma discussão sem objetivo.",
+          "Uma decisão individual."
         ]
       },
       {
+        "id": "portuguese-b1-ambiente-no-bairro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é o objetivo comum?",
+        "prompt": "What is the main purpose of “Ambiente no bairro”?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "To explain the central ideas and details of Ambiente no bairro",
+          "To discuss an unrelated topic",
+          "To provide a list without context",
+          "To tell a story with no connection to the topic"
         ]
       }
     ]
@@ -11579,52 +11584,52 @@
     "vocabulary": [
       {
         "word": "resíduo",
-        "translation": "Palabra clave 1",
+        "translation": "residuo",
         "example": "Uso a palavra «resíduo» no contexto."
       },
       {
         "word": "coleta",
-        "translation": "Palabra clave 2",
+        "translation": "recolección",
         "example": "Uso a palavra «coleta» no contexto."
       },
       {
         "word": "recurso",
-        "translation": "Palabra clave 3",
+        "translation": "recurso",
         "example": "Uso a palavra «recurso» no contexto."
       },
       {
         "word": "reduzir",
-        "translation": "Palabra clave 4",
+        "translation": "reducir",
         "example": "Uso a palavra «reduzir» no contexto."
       },
       {
         "word": "bairro",
-        "translation": "Palabra clave 5",
+        "translation": "barrio",
         "example": "Uso a palavra «bairro» no contexto."
       },
       {
         "word": "voluntário",
-        "translation": "Palabra clave 6",
+        "translation": "voluntario",
         "example": "Uso a palavra «voluntário» no contexto."
       },
       {
         "word": "iniciativa",
-        "translation": "Palabra clave 7",
+        "translation": "iniciativa",
         "example": "Uso a palavra «iniciativa» no contexto."
       },
       {
         "word": "impacto",
-        "translation": "Palabra clave 8",
+        "translation": "impacto",
         "example": "Uso a palavra «impacto» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "apoiar",
-        "translation": "Palabra clave 10",
+        "translation": "apoyar",
         "example": "Uso a palavra «apoiar» no contexto."
       }
     ],
@@ -11633,10 +11638,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Voz passiva e índice de indeterminação",
-        "definition": "Práctica guiada de Voz passiva e índice de indeterminação.",
+        "name": "Ambiente no bairro: gramática",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -11646,7 +11651,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acho que a proposta ___ útil.",
             "options": [
               {},
               {},
@@ -11656,7 +11661,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha o conector de contraste.",
             "options": [
               {},
               {},
@@ -11666,7 +11671,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Fico em casa porque ___ cansado.",
             "options": [
               {},
               {},
@@ -11676,7 +11681,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase expressa uma opinião?",
             "options": [
               {},
               {},
@@ -11686,7 +11691,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Embora ___ tarde, continuamos.",
             "options": [
               {},
               {},
@@ -11696,7 +11701,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha uma consequência.",
             "options": [
               {},
               {},
@@ -11706,7 +11711,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acredito que eles ___ razão.",
             "options": [
               {},
               {},
@@ -11716,7 +11721,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase justifica uma escolha?",
             "options": [
               {},
               {},
@@ -11731,89 +11736,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acho que a proposta ___ útil.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "é",
+          "são",
+          "ser",
+          "seja"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha o conector de contraste.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Quero sair, portanto está chovendo.",
+          "Quero sair, porém está chovendo.",
+          "Quero sair, porque está chovendo.",
+          "Quero sair, então está chovendo."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Fico em casa porque ___ cansado.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "estar",
+          "está",
+          "estou",
+          "estamos"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase expressa uma opinião?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "O projeto funciona por quê?",
+          "O projeto ontem funciona?",
+          "Funcionar projeto na minha opinião.",
+          "Na minha opinião, o projeto funciona."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Embora ___ tarde, continuamos.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "seja",
+          "é",
+          "ser",
+          "são"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha uma consequência.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Temos pouco tempo, porém organizamos o trabalho.",
+          "Temos pouco tempo, portanto organizamos o trabalho.",
+          "Temos pouco tempo, porque organizamos o trabalho.",
+          "Temos pouco tempo, embora organizamos o trabalho."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acredito que eles ___ razão.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "ter",
+          "têm",
+          "tenham",
+          "terão"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase justifica uma escolha?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "Escolho o trem é mais sustentável porque?",
+          "Escolho o trem porém é mais sustentável.",
+          "Escolho o trem portanto é mais sustentável?",
+          "Escolho o trem porque é mais sustentável."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       }
@@ -12221,52 +12226,52 @@
     "vocabulary": [
       {
         "word": "resíduo",
-        "translation": "Palabra clave 1",
+        "translation": "residuo",
         "example": "Uso a palavra «resíduo» no contexto."
       },
       {
         "word": "coleta",
-        "translation": "Palabra clave 2",
+        "translation": "recolección",
         "example": "Uso a palavra «coleta» no contexto."
       },
       {
         "word": "recurso",
-        "translation": "Palabra clave 3",
+        "translation": "recurso",
         "example": "Uso a palavra «recurso» no contexto."
       },
       {
         "word": "reduzir",
-        "translation": "Palabra clave 4",
+        "translation": "reducir",
         "example": "Uso a palavra «reduzir» no contexto."
       },
       {
         "word": "bairro",
-        "translation": "Palabra clave 5",
+        "translation": "barrio",
         "example": "Uso a palavra «bairro» no contexto."
       },
       {
         "word": "voluntário",
-        "translation": "Palabra clave 6",
+        "translation": "voluntario",
         "example": "Uso a palavra «voluntário» no contexto."
       },
       {
         "word": "iniciativa",
-        "translation": "Palabra clave 7",
+        "translation": "iniciativa",
         "example": "Uso a palavra «iniciativa» no contexto."
       },
       {
         "word": "impacto",
-        "translation": "Palabra clave 8",
+        "translation": "impacto",
         "example": "Uso a palavra «impacto» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "apoiar",
-        "translation": "Palabra clave 10",
+        "translation": "apoyar",
         "example": "Uso a palavra «apoiar» no contexto."
       }
     ],
@@ -12441,8 +12446,8 @@
     "vocabulary": [
       {
         "word": "resíduo",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "residuo",
+        "definition": "residuo",
         "example": "Uso “resíduo” em uma frase.",
         "contexts": [
           "resíduo · tema",
@@ -12452,8 +12457,8 @@
       },
       {
         "word": "coleta",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "recolección",
+        "definition": "recolección",
         "example": "Uso “coleta” em uma frase.",
         "contexts": [
           "coleta · tema",
@@ -12463,8 +12468,8 @@
       },
       {
         "word": "recurso",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "recurso",
+        "definition": "recurso",
         "example": "Uso “recurso” em uma frase.",
         "contexts": [
           "recurso · tema",
@@ -12474,8 +12479,8 @@
       },
       {
         "word": "reduzir",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "reducir",
+        "definition": "reducir",
         "example": "Uso “reduzir” em uma frase.",
         "contexts": [
           "reduzir · tema",
@@ -12485,8 +12490,8 @@
       },
       {
         "word": "bairro",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "barrio",
+        "definition": "barrio",
         "example": "Uso “bairro” em uma frase.",
         "contexts": [
           "bairro · tema",
@@ -12496,8 +12501,8 @@
       },
       {
         "word": "voluntário",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "voluntario",
+        "definition": "voluntario",
         "example": "Uso “voluntário” em uma frase.",
         "contexts": [
           "voluntário · tema",
@@ -12507,8 +12512,8 @@
       },
       {
         "word": "iniciativa",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "iniciativa",
+        "definition": "iniciativa",
         "example": "Uso “iniciativa” em uma frase.",
         "contexts": [
           "iniciativa · tema",
@@ -12518,8 +12523,8 @@
       },
       {
         "word": "impacto",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "impacto",
+        "definition": "impacto",
         "example": "Uso “impacto” em uma frase.",
         "contexts": [
           "impacto · tema",
@@ -12529,8 +12534,8 @@
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Uso “melhorar” em uma frase.",
         "contexts": [
           "melhorar · tema",
@@ -12540,8 +12545,8 @@
       },
       {
         "word": "apoiar",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "apoyar",
+        "definition": "apoyar",
         "example": "Uso “apoiar” em uma frase.",
         "contexts": [
           "apoiar · tema",
@@ -12787,52 +12792,52 @@
     "vocabulary": [
       {
         "word": "resíduo",
-        "translation": "Palabra clave 1",
+        "translation": "residuo",
         "example": "Uso a palavra «resíduo» no contexto."
       },
       {
         "word": "coleta",
-        "translation": "Palabra clave 2",
+        "translation": "recolección",
         "example": "Uso a palavra «coleta» no contexto."
       },
       {
         "word": "recurso",
-        "translation": "Palabra clave 3",
+        "translation": "recurso",
         "example": "Uso a palavra «recurso» no contexto."
       },
       {
         "word": "reduzir",
-        "translation": "Palabra clave 4",
+        "translation": "reducir",
         "example": "Uso a palavra «reduzir» no contexto."
       },
       {
         "word": "bairro",
-        "translation": "Palabra clave 5",
+        "translation": "barrio",
         "example": "Uso a palavra «bairro» no contexto."
       },
       {
         "word": "voluntário",
-        "translation": "Palabra clave 6",
+        "translation": "voluntario",
         "example": "Uso a palavra «voluntário» no contexto."
       },
       {
         "word": "iniciativa",
-        "translation": "Palabra clave 7",
+        "translation": "iniciativa",
         "example": "Uso a palavra «iniciativa» no contexto."
       },
       {
         "word": "impacto",
-        "translation": "Palabra clave 8",
+        "translation": "impacto",
         "example": "Uso a palavra «impacto» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "apoiar",
-        "translation": "Palabra clave 10",
+        "translation": "apoyar",
         "example": "Uso a palavra «apoiar» no contexto."
       }
     ],
@@ -12942,10 +12947,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Ir e preposições",
-        "definition": "Práctica guiada de Ir e preposições.",
+        "name": "Caminhos da cidade: gramática",
+        "definition": "O presente descreve rotinas e informações simples.",
         "structure": "sujeito + verbo no presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -12955,7 +12960,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Eu ___ no bairro.",
             "options": [
               {},
               {},
@@ -12965,7 +12970,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta.",
             "options": [
               {},
               {},
@@ -12975,7 +12980,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ português todos os dias.",
             "options": [
               {},
               {},
@@ -12985,7 +12990,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual pergunta está correta?",
             "options": [
               {},
               {},
@@ -12995,7 +13000,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ela ___ uma pergunta.",
             "options": [
               {},
               {},
@@ -13005,7 +13010,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase que descreve uma casa.",
             "options": [
               {},
               {},
@@ -13015,7 +13020,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ café?",
             "options": [
               {},
               {},
@@ -13025,7 +13030,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase fala de uma rotina?",
             "options": [
               {},
               {},
@@ -13040,89 +13045,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "moro",
+          "mora",
+          "morar",
+          "moramos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Rafael falar com Luana.",
+          "Rafael fala com Luana.",
+          "Rafael falo com Luana.",
+          "Rafael falam com Luana."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "estudar",
+          "estuda",
+          "estudamos",
+          "estudam"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Onde você moram?",
+          "Onde você morar?",
+          "Onde mora você?",
+          "Onde você mora?"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ela ___ uma pergunta.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "faz",
+          "faço",
+          "fazer",
+          "fazem"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase que descreve uma casa.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "O casa é clara.",
+          "A casa é clara.",
+          "A casa são clara.",
+          "A casa é claro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ café?",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "tomar",
+          "tomam",
+          "toma",
+          "tomamos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase fala de uma rotina?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Toda manhã trabalham eu no centro.",
+          "Ontem trabalhar no centro.",
+          "Amanhã trabalhei no centro.",
+          "Toda manhã trabalho no centro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       }
@@ -13152,10 +13157,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Comparativos e superlativos",
-        "definition": "Práctica guiada de Comparativos e superlativos.",
+        "name": "Arte na comunidade: gramática",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Contar experiências e planos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -13165,7 +13170,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ontem eu ___ o museu.",
             "options": [
               {},
               {},
@@ -13175,7 +13180,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta no passado.",
             "options": [
               {},
               {},
@@ -13185,7 +13190,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Marta ___ tarde para casa.",
             "options": [
               {},
               {},
@@ -13195,7 +13200,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase mostra sequência?",
             "options": [
               {},
               {},
@@ -13205,7 +13210,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ a mensagem?",
             "options": [
               {},
               {},
@@ -13215,7 +13220,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase com o verbo no passado.",
             "options": [
               {},
               {},
@@ -13225,7 +13230,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
             "options": [
               {},
               {},
@@ -13235,7 +13240,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase conta uma ação concluída?",
             "options": [
               {},
               {},
@@ -13250,89 +13255,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "visitei",
+          "visito",
+          "visitar",
+          "visitamos"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Nós jantar juntos.",
+          "Nós jantamos juntos.",
+          "Nós jantou juntos.",
+          "Nós jantaremos ontem."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "voltar",
+          "volta",
+          "voltou",
+          "voltaram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "Primeiro estudamos, se saímos.",
+          "Primeiro estudamos, porque saímos.",
+          "Primeiro estudamos, porém saímos.",
+          "Primeiro estudamos, depois saímos."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ a mensagem?",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "leu",
+          "lê",
+          "ler",
+          "leram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase com o verbo no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Meus amigos pegar o ônibus.",
+          "Meus amigos pegaram o ônibus.",
+          "Meus amigos pegou o ônibus.",
+          "Meus amigos pegam ontem o ônibus."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "ter",
+          "temos",
+          "tivemos",
+          "teve"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase conta uma ação concluída?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "No sábado encontro eu minha prima.",
+          "No sábado encontro minha prima amanhã.",
+          "No sábado encontrar minha prima.",
+          "No sábado encontrei minha prima."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
@@ -13916,52 +13921,52 @@
     "vocabulary": [
       {
         "word": "resíduo",
-        "translation": "Palabra clave 1",
+        "translation": "residuo",
         "example": "Uso a palavra «resíduo» no contexto."
       },
       {
         "word": "coleta",
-        "translation": "Palabra clave 2",
+        "translation": "recolección",
         "example": "Uso a palavra «coleta» no contexto."
       },
       {
         "word": "recurso",
-        "translation": "Palabra clave 3",
+        "translation": "recurso",
         "example": "Uso a palavra «recurso» no contexto."
       },
       {
         "word": "reduzir",
-        "translation": "Palabra clave 4",
+        "translation": "reducir",
         "example": "Uso a palavra «reduzir» no contexto."
       },
       {
         "word": "bairro",
-        "translation": "Palabra clave 5",
+        "translation": "barrio",
         "example": "Uso a palavra «bairro» no contexto."
       },
       {
         "word": "voluntário",
-        "translation": "Palabra clave 6",
+        "translation": "voluntario",
         "example": "Uso a palavra «voluntário» no contexto."
       },
       {
         "word": "iniciativa",
-        "translation": "Palabra clave 7",
+        "translation": "iniciativa",
         "example": "Uso a palavra «iniciativa» no contexto."
       },
       {
         "word": "impacto",
-        "translation": "Palabra clave 8",
+        "translation": "impacto",
         "example": "Uso a palavra «impacto» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "apoiar",
-        "translation": "Palabra clave 10",
+        "translation": "apoyar",
         "example": "Uso a palavra «apoiar» no contexto."
       }
     ],
@@ -14000,52 +14005,52 @@
     "vocabulary": [
       {
         "word": "memória",
-        "translation": "Palabra clave 1",
+        "translation": "memoria",
         "example": "Uso a palavra «memória» no contexto."
       },
       {
         "word": "infância",
-        "translation": "Palabra clave 2",
+        "translation": "infancia",
         "example": "Uso a palavra «infância» no contexto."
       },
       {
         "word": "mudança",
-        "translation": "Palabra clave 3",
+        "translation": "cambio",
         "example": "Uso a palavra «mudança» no contexto."
       },
       {
         "word": "contar",
-        "translation": "Palabra clave 4",
+        "translation": "contar",
         "example": "Uso a palavra «contar» no contexto."
       },
       {
         "word": "passado",
-        "translation": "Palabra clave 5",
+        "translation": "pasado",
         "example": "Uso a palavra «passado» no contexto."
       },
       {
         "word": "encontro",
-        "translation": "Palabra clave 6",
+        "translation": "encuentro",
         "example": "Uso a palavra «encontro» no contexto."
       },
       {
         "word": "tradição",
-        "translation": "Palabra clave 7",
+        "translation": "tradición",
         "example": "Uso a palavra «tradição» no contexto."
       },
       {
         "word": "geração",
-        "translation": "Palabra clave 8",
+        "translation": "generación",
         "example": "Uso a palavra «geração» no contexto."
       },
       {
         "word": "aprender",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Uso a palavra «aprender» no contexto."
       },
       {
         "word": "significado",
-        "translation": "Palabra clave 10",
+        "translation": "significado",
         "example": "Uso a palavra «significado» no contexto."
       }
     ],
@@ -14072,52 +14077,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sobre o que é o texto?",
+        "prompt": "Sobre o que o grupo conversa?",
         "options": [
           "memória",
-          "infância",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "geração",
+          "aprender",
+          "significado"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "O que a personagem faz primeiro?",
+        "prompt": "O que cada pessoa faz?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Conta uma experiência, escuta e propõe uma solução.",
+          "Compra um ingresso para um evento.",
+          "Não escuta as outras pessoas.",
+          "Cancela o projeto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é o papel da segunda pessoa?",
+        "prompt": "Por que decidem colaborar?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Porque têm um objetivo claro.",
+          "Porque não têm tempo.",
+          "Porque não conhecem o tema.",
+          "Porque preferem trabalhar sozinhos."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Por que o grupo colabora?",
+        "prompt": "Que ideia ajuda na vida cotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Uma solução concreta e colaborativa.",
+          "Uma lista sem contexto.",
+          "Uma discussão sem objetivo.",
+          "Uma decisão individual."
         ]
       },
       {
+        "id": "portuguese-b1-historias-e-memorias-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é o objetivo comum?",
+        "prompt": "What is the main purpose of “Histórias e memórias”?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "To explain the central ideas and details of Histórias e memórias",
+          "To discuss an unrelated topic",
+          "To provide a list without context",
+          "To tell a story with no connection to the topic"
         ]
       }
     ]
@@ -14313,52 +14319,52 @@
     "vocabulary": [
       {
         "word": "memória",
-        "translation": "Palabra clave 1",
+        "translation": "memoria",
         "example": "Uso a palavra «memória» no contexto."
       },
       {
         "word": "infância",
-        "translation": "Palabra clave 2",
+        "translation": "infancia",
         "example": "Uso a palavra «infância» no contexto."
       },
       {
         "word": "mudança",
-        "translation": "Palabra clave 3",
+        "translation": "cambio",
         "example": "Uso a palavra «mudança» no contexto."
       },
       {
         "word": "contar",
-        "translation": "Palabra clave 4",
+        "translation": "contar",
         "example": "Uso a palavra «contar» no contexto."
       },
       {
         "word": "passado",
-        "translation": "Palabra clave 5",
+        "translation": "pasado",
         "example": "Uso a palavra «passado» no contexto."
       },
       {
         "word": "encontro",
-        "translation": "Palabra clave 6",
+        "translation": "encuentro",
         "example": "Uso a palavra «encontro» no contexto."
       },
       {
         "word": "tradição",
-        "translation": "Palabra clave 7",
+        "translation": "tradición",
         "example": "Uso a palavra «tradição» no contexto."
       },
       {
         "word": "geração",
-        "translation": "Palabra clave 8",
+        "translation": "generación",
         "example": "Uso a palavra «geração» no contexto."
       },
       {
         "word": "aprender",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Uso a palavra «aprender» no contexto."
       },
       {
         "word": "significado",
-        "translation": "Palabra clave 10",
+        "translation": "significado",
         "example": "Uso a palavra «significado» no contexto."
       }
     ],
@@ -14367,10 +14373,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Mais-que-perfeito e narrativa",
-        "definition": "Práctica guiada de Mais-que-perfeito e narrativa.",
+        "name": "Histórias e memórias: gramática",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -14380,7 +14386,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acho que a proposta ___ útil.",
             "options": [
               {},
               {},
@@ -14390,7 +14396,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha o conector de contraste.",
             "options": [
               {},
               {},
@@ -14400,7 +14406,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Fico em casa porque ___ cansado.",
             "options": [
               {},
               {},
@@ -14410,7 +14416,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase expressa uma opinião?",
             "options": [
               {},
               {},
@@ -14420,7 +14426,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Embora ___ tarde, continuamos.",
             "options": [
               {},
               {},
@@ -14430,7 +14436,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha uma consequência.",
             "options": [
               {},
               {},
@@ -14440,7 +14446,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acredito que eles ___ razão.",
             "options": [
               {},
               {},
@@ -14450,7 +14456,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase justifica uma escolha?",
             "options": [
               {},
               {},
@@ -14465,89 +14471,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acho que a proposta ___ útil.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "é",
+          "são",
+          "ser",
+          "seja"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha o conector de contraste.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Quero sair, portanto está chovendo.",
+          "Quero sair, porém está chovendo.",
+          "Quero sair, porque está chovendo.",
+          "Quero sair, então está chovendo."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Fico em casa porque ___ cansado.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "estar",
+          "está",
+          "estou",
+          "estamos"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase expressa uma opinião?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "O projeto funciona por quê?",
+          "O projeto ontem funciona?",
+          "Funcionar projeto na minha opinião.",
+          "Na minha opinião, o projeto funciona."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Embora ___ tarde, continuamos.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "seja",
+          "é",
+          "ser",
+          "são"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha uma consequência.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Temos pouco tempo, porém organizamos o trabalho.",
+          "Temos pouco tempo, portanto organizamos o trabalho.",
+          "Temos pouco tempo, porque organizamos o trabalho.",
+          "Temos pouco tempo, embora organizamos o trabalho."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acredito que eles ___ razão.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "ter",
+          "têm",
+          "tenham",
+          "terão"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase justifica uma escolha?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "Escolho o trem é mais sustentável porque?",
+          "Escolho o trem porém é mais sustentável.",
+          "Escolho o trem portanto é mais sustentável?",
+          "Escolho o trem porque é mais sustentável."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       }
@@ -14955,52 +14961,52 @@
     "vocabulary": [
       {
         "word": "memória",
-        "translation": "Palabra clave 1",
+        "translation": "memoria",
         "example": "Uso a palavra «memória» no contexto."
       },
       {
         "word": "infância",
-        "translation": "Palabra clave 2",
+        "translation": "infancia",
         "example": "Uso a palavra «infância» no contexto."
       },
       {
         "word": "mudança",
-        "translation": "Palabra clave 3",
+        "translation": "cambio",
         "example": "Uso a palavra «mudança» no contexto."
       },
       {
         "word": "contar",
-        "translation": "Palabra clave 4",
+        "translation": "contar",
         "example": "Uso a palavra «contar» no contexto."
       },
       {
         "word": "passado",
-        "translation": "Palabra clave 5",
+        "translation": "pasado",
         "example": "Uso a palavra «passado» no contexto."
       },
       {
         "word": "encontro",
-        "translation": "Palabra clave 6",
+        "translation": "encuentro",
         "example": "Uso a palavra «encontro» no contexto."
       },
       {
         "word": "tradição",
-        "translation": "Palabra clave 7",
+        "translation": "tradición",
         "example": "Uso a palavra «tradição» no contexto."
       },
       {
         "word": "geração",
-        "translation": "Palabra clave 8",
+        "translation": "generación",
         "example": "Uso a palavra «geração» no contexto."
       },
       {
         "word": "aprender",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Uso a palavra «aprender» no contexto."
       },
       {
         "word": "significado",
-        "translation": "Palabra clave 10",
+        "translation": "significado",
         "example": "Uso a palavra «significado» no contexto."
       }
     ],
@@ -15175,8 +15181,8 @@
     "vocabulary": [
       {
         "word": "memória",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "memoria",
+        "definition": "memoria",
         "example": "Uso “memória” em uma frase.",
         "contexts": [
           "memória · tema",
@@ -15186,8 +15192,8 @@
       },
       {
         "word": "infância",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "infancia",
+        "definition": "infancia",
         "example": "Uso “infância” em uma frase.",
         "contexts": [
           "infância · tema",
@@ -15197,8 +15203,8 @@
       },
       {
         "word": "mudança",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "cambio",
+        "definition": "cambio",
         "example": "Uso “mudança” em uma frase.",
         "contexts": [
           "mudança · tema",
@@ -15208,8 +15214,8 @@
       },
       {
         "word": "contar",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "contar",
+        "definition": "contar",
         "example": "Uso “contar” em uma frase.",
         "contexts": [
           "contar · tema",
@@ -15219,8 +15225,8 @@
       },
       {
         "word": "passado",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "pasado",
+        "definition": "pasado",
         "example": "Uso “passado” em uma frase.",
         "contexts": [
           "passado · tema",
@@ -15230,8 +15236,8 @@
       },
       {
         "word": "encontro",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "encuentro",
+        "definition": "encuentro",
         "example": "Uso “encontro” em uma frase.",
         "contexts": [
           "encontro · tema",
@@ -15241,8 +15247,8 @@
       },
       {
         "word": "tradição",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "tradición",
+        "definition": "tradición",
         "example": "Uso “tradição” em uma frase.",
         "contexts": [
           "tradição · tema",
@@ -15252,8 +15258,8 @@
       },
       {
         "word": "geração",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "generación",
+        "definition": "generación",
         "example": "Uso “geração” em uma frase.",
         "contexts": [
           "geração · tema",
@@ -15263,8 +15269,8 @@
       },
       {
         "word": "aprender",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "aprender",
+        "definition": "aprender",
         "example": "Uso “aprender” em uma frase.",
         "contexts": [
           "aprender · tema",
@@ -15274,8 +15280,8 @@
       },
       {
         "word": "significado",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "significado",
+        "definition": "significado",
         "example": "Uso “significado” em uma frase.",
         "contexts": [
           "significado · tema",
@@ -15521,52 +15527,52 @@
     "vocabulary": [
       {
         "word": "memória",
-        "translation": "Palabra clave 1",
+        "translation": "memoria",
         "example": "Uso a palavra «memória» no contexto."
       },
       {
         "word": "infância",
-        "translation": "Palabra clave 2",
+        "translation": "infancia",
         "example": "Uso a palavra «infância» no contexto."
       },
       {
         "word": "mudança",
-        "translation": "Palabra clave 3",
+        "translation": "cambio",
         "example": "Uso a palavra «mudança» no contexto."
       },
       {
         "word": "contar",
-        "translation": "Palabra clave 4",
+        "translation": "contar",
         "example": "Uso a palavra «contar» no contexto."
       },
       {
         "word": "passado",
-        "translation": "Palabra clave 5",
+        "translation": "pasado",
         "example": "Uso a palavra «passado» no contexto."
       },
       {
         "word": "encontro",
-        "translation": "Palabra clave 6",
+        "translation": "encuentro",
         "example": "Uso a palavra «encontro» no contexto."
       },
       {
         "word": "tradição",
-        "translation": "Palabra clave 7",
+        "translation": "tradición",
         "example": "Uso a palavra «tradição» no contexto."
       },
       {
         "word": "geração",
-        "translation": "Palabra clave 8",
+        "translation": "generación",
         "example": "Uso a palavra «geração» no contexto."
       },
       {
         "word": "aprender",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Uso a palavra «aprender» no contexto."
       },
       {
         "word": "significado",
-        "translation": "Palabra clave 10",
+        "translation": "significado",
         "example": "Uso a palavra «significado» no contexto."
       }
     ],
@@ -15676,10 +15682,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Presente dos verbos regulares",
-        "definition": "Práctica guiada de Presente dos verbos regulares.",
+        "name": "Escola e amizade: gramática",
+        "definition": "O presente descreve rotinas e informações simples.",
         "structure": "sujeito + verbo no presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -15689,7 +15695,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Eu ___ no bairro.",
             "options": [
               {},
               {},
@@ -15699,7 +15705,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta.",
             "options": [
               {},
               {},
@@ -15709,7 +15715,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ português todos os dias.",
             "options": [
               {},
               {},
@@ -15719,7 +15725,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual pergunta está correta?",
             "options": [
               {},
               {},
@@ -15729,7 +15735,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ela ___ uma pergunta.",
             "options": [
               {},
               {},
@@ -15739,7 +15745,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase que descreve uma casa.",
             "options": [
               {},
               {},
@@ -15749,7 +15755,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ café?",
             "options": [
               {},
               {},
@@ -15759,7 +15765,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase fala de uma rotina?",
             "options": [
               {},
               {},
@@ -15774,89 +15780,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "moro",
+          "mora",
+          "morar",
+          "moramos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Rafael falar com Luana.",
+          "Rafael fala com Luana.",
+          "Rafael falo com Luana.",
+          "Rafael falam com Luana."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "estudar",
+          "estuda",
+          "estudamos",
+          "estudam"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Onde você moram?",
+          "Onde você morar?",
+          "Onde mora você?",
+          "Onde você mora?"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ela ___ uma pergunta.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "faz",
+          "faço",
+          "fazer",
+          "fazem"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase que descreve uma casa.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "O casa é clara.",
+          "A casa é clara.",
+          "A casa são clara.",
+          "A casa é claro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ café?",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "tomar",
+          "tomam",
+          "toma",
+          "tomamos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase fala de uma rotina?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Toda manhã trabalham eu no centro.",
+          "Ontem trabalhar no centro.",
+          "Amanhã trabalhei no centro.",
+          "Toda manhã trabalho no centro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       }
@@ -15886,10 +15892,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Futuro do presente",
-        "definition": "Práctica guiada de Futuro do presente.",
+        "name": "Viajar com respeito: gramática",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Contar experiências e planos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -15899,7 +15905,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ontem eu ___ o museu.",
             "options": [
               {},
               {},
@@ -15909,7 +15915,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta no passado.",
             "options": [
               {},
               {},
@@ -15919,7 +15925,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Marta ___ tarde para casa.",
             "options": [
               {},
               {},
@@ -15929,7 +15935,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase mostra sequência?",
             "options": [
               {},
               {},
@@ -15939,7 +15945,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ a mensagem?",
             "options": [
               {},
               {},
@@ -15949,7 +15955,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase com o verbo no passado.",
             "options": [
               {},
               {},
@@ -15959,7 +15965,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
             "options": [
               {},
               {},
@@ -15969,7 +15975,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase conta uma ação concluída?",
             "options": [
               {},
               {},
@@ -15984,89 +15990,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "visitei",
+          "visito",
+          "visitar",
+          "visitamos"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Nós jantar juntos.",
+          "Nós jantamos juntos.",
+          "Nós jantou juntos.",
+          "Nós jantaremos ontem."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "voltar",
+          "volta",
+          "voltou",
+          "voltaram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "Primeiro estudamos, se saímos.",
+          "Primeiro estudamos, porque saímos.",
+          "Primeiro estudamos, porém saímos.",
+          "Primeiro estudamos, depois saímos."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ a mensagem?",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "leu",
+          "lê",
+          "ler",
+          "leram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase com o verbo no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Meus amigos pegar o ônibus.",
+          "Meus amigos pegaram o ônibus.",
+          "Meus amigos pegou o ônibus.",
+          "Meus amigos pegam ontem o ônibus."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "ter",
+          "temos",
+          "tivemos",
+          "teve"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase conta uma ação concluída?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "No sábado encontro eu minha prima.",
+          "No sábado encontro minha prima amanhã.",
+          "No sábado encontrar minha prima.",
+          "No sábado encontrei minha prima."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
@@ -16650,52 +16656,52 @@
     "vocabulary": [
       {
         "word": "memória",
-        "translation": "Palabra clave 1",
+        "translation": "memoria",
         "example": "Uso a palavra «memória» no contexto."
       },
       {
         "word": "infância",
-        "translation": "Palabra clave 2",
+        "translation": "infancia",
         "example": "Uso a palavra «infância» no contexto."
       },
       {
         "word": "mudança",
-        "translation": "Palabra clave 3",
+        "translation": "cambio",
         "example": "Uso a palavra «mudança» no contexto."
       },
       {
         "word": "contar",
-        "translation": "Palabra clave 4",
+        "translation": "contar",
         "example": "Uso a palavra «contar» no contexto."
       },
       {
         "word": "passado",
-        "translation": "Palabra clave 5",
+        "translation": "pasado",
         "example": "Uso a palavra «passado» no contexto."
       },
       {
         "word": "encontro",
-        "translation": "Palabra clave 6",
+        "translation": "encuentro",
         "example": "Uso a palavra «encontro» no contexto."
       },
       {
         "word": "tradição",
-        "translation": "Palabra clave 7",
+        "translation": "tradición",
         "example": "Uso a palavra «tradição» no contexto."
       },
       {
         "word": "geração",
-        "translation": "Palabra clave 8",
+        "translation": "generación",
         "example": "Uso a palavra «geração» no contexto."
       },
       {
         "word": "aprender",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Uso a palavra «aprender» no contexto."
       },
       {
         "word": "significado",
-        "translation": "Palabra clave 10",
+        "translation": "significado",
         "example": "Uso a palavra «significado» no contexto."
       }
     ],
@@ -16734,52 +16740,52 @@
     "vocabulary": [
       {
         "word": "projeto",
-        "translation": "Palabra clave 1",
+        "translation": "proyecto",
         "example": "Uso a palavra «projeto» no contexto."
       },
       {
         "word": "pesquisa",
-        "translation": "Palabra clave 2",
+        "translation": "búsqueda",
         "example": "Uso a palavra «pesquisa» no contexto."
       },
       {
         "word": "tarefa",
-        "translation": "Palabra clave 3",
+        "translation": "tarea",
         "example": "Uso a palavra «tarefa» no contexto."
       },
       {
         "word": "colaboração",
-        "translation": "Palabra clave 4",
+        "translation": "colaboración",
         "example": "Uso a palavra «colaboração» no contexto."
       },
       {
         "word": "apresentar",
-        "translation": "Palabra clave 5",
+        "translation": "presentar",
         "example": "Uso a palavra «apresentar» no contexto."
       },
       {
         "word": "acordo",
-        "translation": "Palabra clave 6",
+        "translation": "acuerdo",
         "example": "Uso a palavra «acordo» no contexto."
       },
       {
         "word": "solução",
-        "translation": "Palabra clave 7",
+        "translation": "solución",
         "example": "Uso a palavra «solução» no contexto."
       },
       {
         "word": "objetivo",
-        "translation": "Palabra clave 8",
+        "translation": "objetivo",
         "example": "Uso a palavra «objetivo» no contexto."
       },
       {
         "word": "participar",
-        "translation": "Palabra clave 9",
+        "translation": "participar",
         "example": "Uso a palavra «participar» no contexto."
       },
       {
         "word": "resultado",
-        "translation": "Palabra clave 10",
+        "translation": "resultado",
         "example": "Uso a palavra «resultado» no contexto."
       }
     ],
@@ -16806,52 +16812,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sobre o que é o texto?",
+        "prompt": "Sobre o que o grupo conversa?",
         "options": [
           "projeto",
-          "pesquisa",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "objetivo",
+          "participar",
+          "resultado"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "O que a personagem faz primeiro?",
+        "prompt": "O que cada pessoa faz?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Conta uma experiência, escuta e propõe uma solução.",
+          "Compra um ingresso para um evento.",
+          "Não escuta as outras pessoas.",
+          "Cancela o projeto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é o papel da segunda pessoa?",
+        "prompt": "Por que decidem colaborar?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Porque têm um objetivo claro.",
+          "Porque não têm tempo.",
+          "Porque não conhecem o tema.",
+          "Porque preferem trabalhar sozinhos."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Por que o grupo colabora?",
+        "prompt": "Que ideia ajuda na vida cotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Uma solução concreta e colaborativa.",
+          "Uma lista sem contexto.",
+          "Uma discussão sem objetivo.",
+          "Uma decisão individual."
         ]
       },
       {
+        "id": "portuguese-b1-projeto-coletivo-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é o objetivo comum?",
+        "prompt": "What is the main purpose of “Projeto coletivo”?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "To explain the central ideas and details of Projeto coletivo",
+          "To discuss an unrelated topic",
+          "To provide a list without context",
+          "To tell a story with no connection to the topic"
         ]
       }
     ]
@@ -17047,52 +17054,52 @@
     "vocabulary": [
       {
         "word": "projeto",
-        "translation": "Palabra clave 1",
+        "translation": "proyecto",
         "example": "Uso a palavra «projeto» no contexto."
       },
       {
         "word": "pesquisa",
-        "translation": "Palabra clave 2",
+        "translation": "búsqueda",
         "example": "Uso a palavra «pesquisa» no contexto."
       },
       {
         "word": "tarefa",
-        "translation": "Palabra clave 3",
+        "translation": "tarea",
         "example": "Uso a palavra «tarefa» no contexto."
       },
       {
         "word": "colaboração",
-        "translation": "Palabra clave 4",
+        "translation": "colaboración",
         "example": "Uso a palavra «colaboração» no contexto."
       },
       {
         "word": "apresentar",
-        "translation": "Palabra clave 5",
+        "translation": "presentar",
         "example": "Uso a palavra «apresentar» no contexto."
       },
       {
         "word": "acordo",
-        "translation": "Palabra clave 6",
+        "translation": "acuerdo",
         "example": "Uso a palavra «acordo» no contexto."
       },
       {
         "word": "solução",
-        "translation": "Palabra clave 7",
+        "translation": "solución",
         "example": "Uso a palavra «solução» no contexto."
       },
       {
         "word": "objetivo",
-        "translation": "Palabra clave 8",
+        "translation": "objetivo",
         "example": "Uso a palavra «objetivo» no contexto."
       },
       {
         "word": "participar",
-        "translation": "Palabra clave 9",
+        "translation": "participar",
         "example": "Uso a palavra «participar» no contexto."
       },
       {
         "word": "resultado",
-        "translation": "Palabra clave 10",
+        "translation": "resultado",
         "example": "Uso a palavra «resultado» no contexto."
       }
     ],
@@ -17101,10 +17108,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Conectores argumentativos",
-        "definition": "Práctica guiada de Conectores argumentativos.",
+        "name": "Projeto coletivo: gramática",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -17114,7 +17121,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acho que a proposta ___ útil.",
             "options": [
               {},
               {},
@@ -17124,7 +17131,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha o conector de contraste.",
             "options": [
               {},
               {},
@@ -17134,7 +17141,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Fico em casa porque ___ cansado.",
             "options": [
               {},
               {},
@@ -17144,7 +17151,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase expressa uma opinião?",
             "options": [
               {},
               {},
@@ -17154,7 +17161,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Embora ___ tarde, continuamos.",
             "options": [
               {},
               {},
@@ -17164,7 +17171,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha uma consequência.",
             "options": [
               {},
               {},
@@ -17174,7 +17181,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acredito que eles ___ razão.",
             "options": [
               {},
               {},
@@ -17184,7 +17191,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase justifica uma escolha?",
             "options": [
               {},
               {},
@@ -17199,89 +17206,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acho que a proposta ___ útil.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "é",
+          "são",
+          "ser",
+          "seja"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha o conector de contraste.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Quero sair, portanto está chovendo.",
+          "Quero sair, porém está chovendo.",
+          "Quero sair, porque está chovendo.",
+          "Quero sair, então está chovendo."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Fico em casa porque ___ cansado.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "estar",
+          "está",
+          "estou",
+          "estamos"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase expressa uma opinião?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "O projeto funciona por quê?",
+          "O projeto ontem funciona?",
+          "Funcionar projeto na minha opinião.",
+          "Na minha opinião, o projeto funciona."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Embora ___ tarde, continuamos.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "seja",
+          "é",
+          "ser",
+          "são"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha uma consequência.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Temos pouco tempo, porém organizamos o trabalho.",
+          "Temos pouco tempo, portanto organizamos o trabalho.",
+          "Temos pouco tempo, porque organizamos o trabalho.",
+          "Temos pouco tempo, embora organizamos o trabalho."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acredito que eles ___ razão.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "ter",
+          "têm",
+          "tenham",
+          "terão"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase justifica uma escolha?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "Escolho o trem é mais sustentável porque?",
+          "Escolho o trem porém é mais sustentável.",
+          "Escolho o trem portanto é mais sustentável?",
+          "Escolho o trem porque é mais sustentável."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       }
@@ -17689,52 +17696,52 @@
     "vocabulary": [
       {
         "word": "projeto",
-        "translation": "Palabra clave 1",
+        "translation": "proyecto",
         "example": "Uso a palavra «projeto» no contexto."
       },
       {
         "word": "pesquisa",
-        "translation": "Palabra clave 2",
+        "translation": "búsqueda",
         "example": "Uso a palavra «pesquisa» no contexto."
       },
       {
         "word": "tarefa",
-        "translation": "Palabra clave 3",
+        "translation": "tarea",
         "example": "Uso a palavra «tarefa» no contexto."
       },
       {
         "word": "colaboração",
-        "translation": "Palabra clave 4",
+        "translation": "colaboración",
         "example": "Uso a palavra «colaboração» no contexto."
       },
       {
         "word": "apresentar",
-        "translation": "Palabra clave 5",
+        "translation": "presentar",
         "example": "Uso a palavra «apresentar» no contexto."
       },
       {
         "word": "acordo",
-        "translation": "Palabra clave 6",
+        "translation": "acuerdo",
         "example": "Uso a palavra «acordo» no contexto."
       },
       {
         "word": "solução",
-        "translation": "Palabra clave 7",
+        "translation": "solución",
         "example": "Uso a palavra «solução» no contexto."
       },
       {
         "word": "objetivo",
-        "translation": "Palabra clave 8",
+        "translation": "objetivo",
         "example": "Uso a palavra «objetivo» no contexto."
       },
       {
         "word": "participar",
-        "translation": "Palabra clave 9",
+        "translation": "participar",
         "example": "Uso a palavra «participar» no contexto."
       },
       {
         "word": "resultado",
-        "translation": "Palabra clave 10",
+        "translation": "resultado",
         "example": "Uso a palavra «resultado» no contexto."
       }
     ],
@@ -17909,8 +17916,8 @@
     "vocabulary": [
       {
         "word": "projeto",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "proyecto",
+        "definition": "proyecto",
         "example": "Uso “projeto” em uma frase.",
         "contexts": [
           "projeto · tema",
@@ -17920,8 +17927,8 @@
       },
       {
         "word": "pesquisa",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "búsqueda",
+        "definition": "búsqueda",
         "example": "Uso “pesquisa” em uma frase.",
         "contexts": [
           "pesquisa · tema",
@@ -17931,8 +17938,8 @@
       },
       {
         "word": "tarefa",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "tarea",
+        "definition": "tarea",
         "example": "Uso “tarefa” em uma frase.",
         "contexts": [
           "tarefa · tema",
@@ -17942,8 +17949,8 @@
       },
       {
         "word": "colaboração",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "colaboración",
+        "definition": "colaboración",
         "example": "Uso “colaboração” em uma frase.",
         "contexts": [
           "colaboração · tema",
@@ -17953,8 +17960,8 @@
       },
       {
         "word": "apresentar",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "presentar",
+        "definition": "presentar",
         "example": "Uso “apresentar” em uma frase.",
         "contexts": [
           "apresentar · tema",
@@ -17964,8 +17971,8 @@
       },
       {
         "word": "acordo",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "acuerdo",
+        "definition": "acuerdo",
         "example": "Uso “acordo” em uma frase.",
         "contexts": [
           "acordo · tema",
@@ -17975,8 +17982,8 @@
       },
       {
         "word": "solução",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "solución",
+        "definition": "solución",
         "example": "Uso “solução” em uma frase.",
         "contexts": [
           "solução · tema",
@@ -17986,8 +17993,8 @@
       },
       {
         "word": "objetivo",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "objetivo",
+        "definition": "objetivo",
         "example": "Uso “objetivo” em uma frase.",
         "contexts": [
           "objetivo · tema",
@@ -17997,8 +18004,8 @@
       },
       {
         "word": "participar",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "participar",
+        "definition": "participar",
         "example": "Uso “participar” em uma frase.",
         "contexts": [
           "participar · tema",
@@ -18008,8 +18015,8 @@
       },
       {
         "word": "resultado",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "resultado",
+        "definition": "resultado",
         "example": "Uso “resultado” em uma frase.",
         "contexts": [
           "resultado · tema",
@@ -18255,52 +18262,52 @@
     "vocabulary": [
       {
         "word": "projeto",
-        "translation": "Palabra clave 1",
+        "translation": "proyecto",
         "example": "Uso a palavra «projeto» no contexto."
       },
       {
         "word": "pesquisa",
-        "translation": "Palabra clave 2",
+        "translation": "búsqueda",
         "example": "Uso a palavra «pesquisa» no contexto."
       },
       {
         "word": "tarefa",
-        "translation": "Palabra clave 3",
+        "translation": "tarea",
         "example": "Uso a palavra «tarefa» no contexto."
       },
       {
         "word": "colaboração",
-        "translation": "Palabra clave 4",
+        "translation": "colaboración",
         "example": "Uso a palavra «colaboração» no contexto."
       },
       {
         "word": "apresentar",
-        "translation": "Palabra clave 5",
+        "translation": "presentar",
         "example": "Uso a palavra «apresentar» no contexto."
       },
       {
         "word": "acordo",
-        "translation": "Palabra clave 6",
+        "translation": "acuerdo",
         "example": "Uso a palavra «acordo» no contexto."
       },
       {
         "word": "solução",
-        "translation": "Palabra clave 7",
+        "translation": "solución",
         "example": "Uso a palavra «solução» no contexto."
       },
       {
         "word": "objetivo",
-        "translation": "Palabra clave 8",
+        "translation": "objetivo",
         "example": "Uso a palavra «objetivo» no contexto."
       },
       {
         "word": "participar",
-        "translation": "Palabra clave 9",
+        "translation": "participar",
         "example": "Uso a palavra «participar» no contexto."
       },
       {
         "word": "resultado",
-        "translation": "Palabra clave 10",
+        "translation": "resultado",
         "example": "Uso a palavra «resultado» no contexto."
       }
     ],
@@ -18410,10 +18417,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Morar, estar e adjetivos",
-        "definition": "Práctica guiada de Morar, estar e adjetivos.",
+        "name": "Casa e vizinhança: gramática",
+        "definition": "O presente descreve rotinas e informações simples.",
         "structure": "sujeito + verbo no presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -18423,7 +18430,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Eu ___ no bairro.",
             "options": [
               {},
               {},
@@ -18433,7 +18440,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta.",
             "options": [
               {},
               {},
@@ -18443,7 +18450,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ português todos os dias.",
             "options": [
               {},
               {},
@@ -18453,7 +18460,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual pergunta está correta?",
             "options": [
               {},
               {},
@@ -18463,7 +18470,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ela ___ uma pergunta.",
             "options": [
               {},
               {},
@@ -18473,7 +18480,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase que descreve uma casa.",
             "options": [
               {},
               {},
@@ -18483,7 +18490,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ café?",
             "options": [
               {},
               {},
@@ -18493,7 +18500,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase fala de uma rotina?",
             "options": [
               {},
               {},
@@ -18508,89 +18515,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "moro",
+          "mora",
+          "morar",
+          "moramos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Rafael falar com Luana.",
+          "Rafael fala com Luana.",
+          "Rafael falo com Luana.",
+          "Rafael falam com Luana."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "estudar",
+          "estuda",
+          "estudamos",
+          "estudam"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Onde você moram?",
+          "Onde você morar?",
+          "Onde mora você?",
+          "Onde você mora?"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ela ___ uma pergunta.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "faz",
+          "faço",
+          "fazer",
+          "fazem"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase que descreve uma casa.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "O casa é clara.",
+          "A casa é clara.",
+          "A casa são clara.",
+          "A casa é claro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ café?",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "tomar",
+          "tomam",
+          "toma",
+          "tomamos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase fala de uma rotina?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Toda manhã trabalham eu no centro.",
+          "Ontem trabalhar no centro.",
+          "Amanhã trabalhei no centro.",
+          "Toda manhã trabalho no centro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       }
@@ -18620,10 +18627,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Verbos reflexivos",
-        "definition": "Práctica guiada de Verbos reflexivos.",
+        "name": "Esporte e lazer: gramática",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Contar experiências e planos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -18633,7 +18640,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ontem eu ___ o museu.",
             "options": [
               {},
               {},
@@ -18643,7 +18650,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta no passado.",
             "options": [
               {},
               {},
@@ -18653,7 +18660,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Marta ___ tarde para casa.",
             "options": [
               {},
               {},
@@ -18663,7 +18670,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase mostra sequência?",
             "options": [
               {},
               {},
@@ -18673,7 +18680,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ a mensagem?",
             "options": [
               {},
               {},
@@ -18683,7 +18690,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase com o verbo no passado.",
             "options": [
               {},
               {},
@@ -18693,7 +18700,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
             "options": [
               {},
               {},
@@ -18703,7 +18710,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase conta uma ação concluída?",
             "options": [
               {},
               {},
@@ -18718,89 +18725,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "visitei",
+          "visito",
+          "visitar",
+          "visitamos"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Nós jantar juntos.",
+          "Nós jantamos juntos.",
+          "Nós jantou juntos.",
+          "Nós jantaremos ontem."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "voltar",
+          "volta",
+          "voltou",
+          "voltaram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "Primeiro estudamos, se saímos.",
+          "Primeiro estudamos, porque saímos.",
+          "Primeiro estudamos, porém saímos.",
+          "Primeiro estudamos, depois saímos."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ a mensagem?",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "leu",
+          "lê",
+          "ler",
+          "leram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase com o verbo no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Meus amigos pegar o ônibus.",
+          "Meus amigos pegaram o ônibus.",
+          "Meus amigos pegou o ônibus.",
+          "Meus amigos pegam ontem o ônibus."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "ter",
+          "temos",
+          "tivemos",
+          "teve"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase conta uma ação concluída?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "No sábado encontro eu minha prima.",
+          "No sábado encontro minha prima amanhã.",
+          "No sábado encontrar minha prima.",
+          "No sábado encontrei minha prima."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
@@ -19384,52 +19391,52 @@
     "vocabulary": [
       {
         "word": "projeto",
-        "translation": "Palabra clave 1",
+        "translation": "proyecto",
         "example": "Uso a palavra «projeto» no contexto."
       },
       {
         "word": "pesquisa",
-        "translation": "Palabra clave 2",
+        "translation": "búsqueda",
         "example": "Uso a palavra «pesquisa» no contexto."
       },
       {
         "word": "tarefa",
-        "translation": "Palabra clave 3",
+        "translation": "tarea",
         "example": "Uso a palavra «tarefa» no contexto."
       },
       {
         "word": "colaboração",
-        "translation": "Palabra clave 4",
+        "translation": "colaboración",
         "example": "Uso a palavra «colaboração» no contexto."
       },
       {
         "word": "apresentar",
-        "translation": "Palabra clave 5",
+        "translation": "presentar",
         "example": "Uso a palavra «apresentar» no contexto."
       },
       {
         "word": "acordo",
-        "translation": "Palabra clave 6",
+        "translation": "acuerdo",
         "example": "Uso a palavra «acordo» no contexto."
       },
       {
         "word": "solução",
-        "translation": "Palabra clave 7",
+        "translation": "solución",
         "example": "Uso a palavra «solução» no contexto."
       },
       {
         "word": "objetivo",
-        "translation": "Palabra clave 8",
+        "translation": "objetivo",
         "example": "Uso a palavra «objetivo» no contexto."
       },
       {
         "word": "participar",
-        "translation": "Palabra clave 9",
+        "translation": "participar",
         "example": "Uso a palavra «participar» no contexto."
       },
       {
         "word": "resultado",
-        "translation": "Palabra clave 10",
+        "translation": "resultado",
         "example": "Uso a palavra «resultado» no contexto."
       }
     ],
@@ -19468,52 +19475,52 @@
     "vocabulary": [
       {
         "word": "tecnologia",
-        "translation": "Palabra clave 1",
+        "translation": "tecnología",
         "example": "Uso a palavra «tecnologia» no contexto."
       },
       {
         "word": "aparelho",
-        "translation": "Palabra clave 2",
+        "translation": "aparato",
         "example": "Uso a palavra «aparelho» no contexto."
       },
       {
         "word": "vantagem",
-        "translation": "Palabra clave 3",
+        "translation": "ventaja",
         "example": "Uso a palavra «vantagem» no contexto."
       },
       {
         "word": "risco",
-        "translation": "Palabra clave 4",
+        "translation": "risco",
         "example": "Uso a palavra «risco» no contexto."
       },
       {
         "word": "proteger",
-        "translation": "Palabra clave 5",
+        "translation": "proteger",
         "example": "Uso a palavra «proteger» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 6",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "conexão",
-        "translation": "Palabra clave 7",
+        "translation": "conexión",
         "example": "Uso a palavra «conexão» no contexto."
       },
       {
         "word": "informação",
-        "translation": "Palabra clave 8",
+        "translation": "información",
         "example": "Uso a palavra «informação» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "equilíbrio",
-        "translation": "Palabra clave 10",
+        "translation": "equilibrio",
         "example": "Uso a palavra «equilíbrio» no contexto."
       }
     ],
@@ -19540,52 +19547,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sobre o que é o texto?",
+        "prompt": "Sobre o que o grupo conversa?",
         "options": [
           "tecnologia",
-          "aparelho",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "informação",
+          "escolher",
+          "equilíbrio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "O que a personagem faz primeiro?",
+        "prompt": "O que cada pessoa faz?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Conta uma experiência, escuta e propõe uma solução.",
+          "Compra um ingresso para um evento.",
+          "Não escuta as outras pessoas.",
+          "Cancela o projeto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é o papel da segunda pessoa?",
+        "prompt": "Por que decidem colaborar?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Porque têm um objetivo claro.",
+          "Porque não têm tempo.",
+          "Porque não conhecem o tema.",
+          "Porque preferem trabalhar sozinhos."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Por que o grupo colabora?",
+        "prompt": "Que ideia ajuda na vida cotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Uma solução concreta e colaborativa.",
+          "Uma lista sem contexto.",
+          "Uma discussão sem objetivo.",
+          "Uma decisão individual."
         ]
       },
       {
+        "id": "portuguese-b1-tecnologia-no-dia-a-dia-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é o objetivo comum?",
+        "prompt": "What is the main purpose of “Tecnologia no dia a dia”?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "To explain the central ideas and details of Tecnologia no dia a dia",
+          "To discuss an unrelated topic",
+          "To provide a list without context",
+          "To tell a story with no connection to the topic"
         ]
       }
     ]
@@ -19781,52 +19789,52 @@
     "vocabulary": [
       {
         "word": "tecnologia",
-        "translation": "Palabra clave 1",
+        "translation": "tecnología",
         "example": "Uso a palavra «tecnologia» no contexto."
       },
       {
         "word": "aparelho",
-        "translation": "Palabra clave 2",
+        "translation": "aparato",
         "example": "Uso a palavra «aparelho» no contexto."
       },
       {
         "word": "vantagem",
-        "translation": "Palabra clave 3",
+        "translation": "ventaja",
         "example": "Uso a palavra «vantagem» no contexto."
       },
       {
         "word": "risco",
-        "translation": "Palabra clave 4",
+        "translation": "risco",
         "example": "Uso a palavra «risco» no contexto."
       },
       {
         "word": "proteger",
-        "translation": "Palabra clave 5",
+        "translation": "proteger",
         "example": "Uso a palavra «proteger» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 6",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "conexão",
-        "translation": "Palabra clave 7",
+        "translation": "conexión",
         "example": "Uso a palavra «conexão» no contexto."
       },
       {
         "word": "informação",
-        "translation": "Palabra clave 8",
+        "translation": "información",
         "example": "Uso a palavra «informação» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "equilíbrio",
-        "translation": "Palabra clave 10",
+        "translation": "equilibrio",
         "example": "Uso a palavra «equilíbrio» no contexto."
       }
     ],
@@ -19835,10 +19843,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Subjuntivo e opinião",
-        "definition": "Práctica guiada de Subjuntivo e opinião.",
+        "name": "Tecnologia no dia a dia: gramática",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -19848,7 +19856,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acho que a proposta ___ útil.",
             "options": [
               {},
               {},
@@ -19858,7 +19866,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha o conector de contraste.",
             "options": [
               {},
               {},
@@ -19868,7 +19876,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Fico em casa porque ___ cansado.",
             "options": [
               {},
               {},
@@ -19878,7 +19886,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase expressa uma opinião?",
             "options": [
               {},
               {},
@@ -19888,7 +19896,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Embora ___ tarde, continuamos.",
             "options": [
               {},
               {},
@@ -19898,7 +19906,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha uma consequência.",
             "options": [
               {},
               {},
@@ -19908,7 +19916,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acredito que eles ___ razão.",
             "options": [
               {},
               {},
@@ -19918,7 +19926,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase justifica uma escolha?",
             "options": [
               {},
               {},
@@ -19933,89 +19941,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acho que a proposta ___ útil.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "é",
+          "são",
+          "ser",
+          "seja"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha o conector de contraste.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Quero sair, portanto está chovendo.",
+          "Quero sair, porém está chovendo.",
+          "Quero sair, porque está chovendo.",
+          "Quero sair, então está chovendo."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Fico em casa porque ___ cansado.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "estar",
+          "está",
+          "estou",
+          "estamos"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase expressa uma opinião?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "O projeto funciona por quê?",
+          "O projeto ontem funciona?",
+          "Funcionar projeto na minha opinião.",
+          "Na minha opinião, o projeto funciona."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Embora ___ tarde, continuamos.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "seja",
+          "é",
+          "ser",
+          "são"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha uma consequência.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Temos pouco tempo, porém organizamos o trabalho.",
+          "Temos pouco tempo, portanto organizamos o trabalho.",
+          "Temos pouco tempo, porque organizamos o trabalho.",
+          "Temos pouco tempo, embora organizamos o trabalho."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acredito que eles ___ razão.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "ter",
+          "têm",
+          "tenham",
+          "terão"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase justifica uma escolha?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "Escolho o trem é mais sustentável porque?",
+          "Escolho o trem porém é mais sustentável.",
+          "Escolho o trem portanto é mais sustentável?",
+          "Escolho o trem porque é mais sustentável."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       }
@@ -20423,52 +20431,52 @@
     "vocabulary": [
       {
         "word": "tecnologia",
-        "translation": "Palabra clave 1",
+        "translation": "tecnología",
         "example": "Uso a palavra «tecnologia» no contexto."
       },
       {
         "word": "aparelho",
-        "translation": "Palabra clave 2",
+        "translation": "aparato",
         "example": "Uso a palavra «aparelho» no contexto."
       },
       {
         "word": "vantagem",
-        "translation": "Palabra clave 3",
+        "translation": "ventaja",
         "example": "Uso a palavra «vantagem» no contexto."
       },
       {
         "word": "risco",
-        "translation": "Palabra clave 4",
+        "translation": "risco",
         "example": "Uso a palavra «risco» no contexto."
       },
       {
         "word": "proteger",
-        "translation": "Palabra clave 5",
+        "translation": "proteger",
         "example": "Uso a palavra «proteger» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 6",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "conexão",
-        "translation": "Palabra clave 7",
+        "translation": "conexión",
         "example": "Uso a palavra «conexão» no contexto."
       },
       {
         "word": "informação",
-        "translation": "Palabra clave 8",
+        "translation": "información",
         "example": "Uso a palavra «informação» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "equilíbrio",
-        "translation": "Palabra clave 10",
+        "translation": "equilibrio",
         "example": "Uso a palavra «equilíbrio» no contexto."
       }
     ],
@@ -20643,8 +20651,8 @@
     "vocabulary": [
       {
         "word": "tecnologia",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "tecnología",
+        "definition": "tecnología",
         "example": "Uso “tecnologia” em uma frase.",
         "contexts": [
           "tecnologia · tema",
@@ -20654,8 +20662,8 @@
       },
       {
         "word": "aparelho",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "aparato",
+        "definition": "aparato",
         "example": "Uso “aparelho” em uma frase.",
         "contexts": [
           "aparelho · tema",
@@ -20665,8 +20673,8 @@
       },
       {
         "word": "vantagem",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "ventaja",
+        "definition": "ventaja",
         "example": "Uso “vantagem” em uma frase.",
         "contexts": [
           "vantagem · tema",
@@ -20676,8 +20684,8 @@
       },
       {
         "word": "risco",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "risco",
+        "definition": "risco",
         "example": "Uso “risco” em uma frase.",
         "contexts": [
           "risco · tema",
@@ -20687,8 +20695,8 @@
       },
       {
         "word": "proteger",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "proteger",
+        "definition": "proteger",
         "example": "Uso “proteger” em uma frase.",
         "contexts": [
           "proteger · tema",
@@ -20698,8 +20706,8 @@
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "hábito",
+        "definition": "hábito",
         "example": "Uso “hábito” em uma frase.",
         "contexts": [
           "hábito · tema",
@@ -20709,8 +20717,8 @@
       },
       {
         "word": "conexão",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "conexión",
+        "definition": "conexión",
         "example": "Uso “conexão” em uma frase.",
         "contexts": [
           "conexão · tema",
@@ -20720,8 +20728,8 @@
       },
       {
         "word": "informação",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "información",
+        "definition": "información",
         "example": "Uso “informação” em uma frase.",
         "contexts": [
           "informação · tema",
@@ -20731,8 +20739,8 @@
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "elegir",
+        "definition": "elegir",
         "example": "Uso “escolher” em uma frase.",
         "contexts": [
           "escolher · tema",
@@ -20742,8 +20750,8 @@
       },
       {
         "word": "equilíbrio",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "equilibrio",
+        "definition": "equilibrio",
         "example": "Uso “equilíbrio” em uma frase.",
         "contexts": [
           "equilíbrio · tema",
@@ -20989,52 +20997,52 @@
     "vocabulary": [
       {
         "word": "tecnologia",
-        "translation": "Palabra clave 1",
+        "translation": "tecnología",
         "example": "Uso a palavra «tecnologia» no contexto."
       },
       {
         "word": "aparelho",
-        "translation": "Palabra clave 2",
+        "translation": "aparato",
         "example": "Uso a palavra «aparelho» no contexto."
       },
       {
         "word": "vantagem",
-        "translation": "Palabra clave 3",
+        "translation": "ventaja",
         "example": "Uso a palavra «vantagem» no contexto."
       },
       {
         "word": "risco",
-        "translation": "Palabra clave 4",
+        "translation": "risco",
         "example": "Uso a palavra «risco» no contexto."
       },
       {
         "word": "proteger",
-        "translation": "Palabra clave 5",
+        "translation": "proteger",
         "example": "Uso a palavra «proteger» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 6",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "conexão",
-        "translation": "Palabra clave 7",
+        "translation": "conexión",
         "example": "Uso a palavra «conexão» no contexto."
       },
       {
         "word": "informação",
-        "translation": "Palabra clave 8",
+        "translation": "información",
         "example": "Uso a palavra «informação» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "equilíbrio",
-        "translation": "Palabra clave 10",
+        "translation": "equilibrio",
         "example": "Uso a palavra «equilíbrio» no contexto."
       }
     ],
@@ -21144,10 +21152,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Tempo, fazer e estações",
-        "definition": "Práctica guiada de Tempo, fazer e estações.",
+        "name": "Tempo no Recife: gramática",
+        "definition": "O presente descreve rotinas e informações simples.",
         "structure": "sujeito + verbo no presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -21157,7 +21165,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Eu ___ no bairro.",
             "options": [
               {},
               {},
@@ -21167,7 +21175,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta.",
             "options": [
               {},
               {},
@@ -21177,7 +21185,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ português todos os dias.",
             "options": [
               {},
               {},
@@ -21187,7 +21195,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual pergunta está correta?",
             "options": [
               {},
               {},
@@ -21197,7 +21205,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ela ___ uma pergunta.",
             "options": [
               {},
               {},
@@ -21207,7 +21215,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase que descreve uma casa.",
             "options": [
               {},
               {},
@@ -21217,7 +21225,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ café?",
             "options": [
               {},
               {},
@@ -21227,7 +21235,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase fala de uma rotina?",
             "options": [
               {},
               {},
@@ -21242,89 +21250,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "moro",
+          "mora",
+          "morar",
+          "moramos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Rafael falar com Luana.",
+          "Rafael fala com Luana.",
+          "Rafael falo com Luana.",
+          "Rafael falam com Luana."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "estudar",
+          "estuda",
+          "estudamos",
+          "estudam"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Onde você moram?",
+          "Onde você morar?",
+          "Onde mora você?",
+          "Onde você mora?"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ela ___ uma pergunta.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "faz",
+          "faço",
+          "fazer",
+          "fazem"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase que descreve uma casa.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "O casa é clara.",
+          "A casa é clara.",
+          "A casa são clara.",
+          "A casa é claro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ café?",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "tomar",
+          "tomam",
+          "toma",
+          "tomamos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase fala de uma rotina?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Toda manhã trabalham eu no centro.",
+          "Ontem trabalhar no centro.",
+          "Amanhã trabalhei no centro.",
+          "Toda manhã trabalho no centro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       }
@@ -21354,10 +21362,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Pretérito perfeito e imperfeito",
-        "definition": "Práctica guiada de Pretérito perfeito e imperfeito.",
+        "name": "Saúde e bem-estar: gramática",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Contar experiências e planos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -21367,7 +21375,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ontem eu ___ o museu.",
             "options": [
               {},
               {},
@@ -21377,7 +21385,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta no passado.",
             "options": [
               {},
               {},
@@ -21387,7 +21395,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Marta ___ tarde para casa.",
             "options": [
               {},
               {},
@@ -21397,7 +21405,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase mostra sequência?",
             "options": [
               {},
               {},
@@ -21407,7 +21415,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ a mensagem?",
             "options": [
               {},
               {},
@@ -21417,7 +21425,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase com o verbo no passado.",
             "options": [
               {},
               {},
@@ -21427,7 +21435,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
             "options": [
               {},
               {},
@@ -21437,7 +21445,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase conta uma ação concluída?",
             "options": [
               {},
               {},
@@ -21452,89 +21460,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "visitei",
+          "visito",
+          "visitar",
+          "visitamos"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Nós jantar juntos.",
+          "Nós jantamos juntos.",
+          "Nós jantou juntos.",
+          "Nós jantaremos ontem."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "voltar",
+          "volta",
+          "voltou",
+          "voltaram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "Primeiro estudamos, se saímos.",
+          "Primeiro estudamos, porque saímos.",
+          "Primeiro estudamos, porém saímos.",
+          "Primeiro estudamos, depois saímos."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ a mensagem?",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "leu",
+          "lê",
+          "ler",
+          "leram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase com o verbo no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Meus amigos pegar o ônibus.",
+          "Meus amigos pegaram o ônibus.",
+          "Meus amigos pegou o ônibus.",
+          "Meus amigos pegam ontem o ônibus."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "ter",
+          "temos",
+          "tivemos",
+          "teve"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase conta uma ação concluída?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "No sábado encontro eu minha prima.",
+          "No sábado encontro minha prima amanhã.",
+          "No sábado encontrar minha prima.",
+          "No sábado encontrei minha prima."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
@@ -22118,52 +22126,52 @@
     "vocabulary": [
       {
         "word": "tecnologia",
-        "translation": "Palabra clave 1",
+        "translation": "tecnología",
         "example": "Uso a palavra «tecnologia» no contexto."
       },
       {
         "word": "aparelho",
-        "translation": "Palabra clave 2",
+        "translation": "aparato",
         "example": "Uso a palavra «aparelho» no contexto."
       },
       {
         "word": "vantagem",
-        "translation": "Palabra clave 3",
+        "translation": "ventaja",
         "example": "Uso a palavra «vantagem» no contexto."
       },
       {
         "word": "risco",
-        "translation": "Palabra clave 4",
+        "translation": "risco",
         "example": "Uso a palavra «risco» no contexto."
       },
       {
         "word": "proteger",
-        "translation": "Palabra clave 5",
+        "translation": "proteger",
         "example": "Uso a palavra «proteger» no contexto."
       },
       {
         "word": "hábito",
-        "translation": "Palabra clave 6",
+        "translation": "hábito",
         "example": "Uso a palavra «hábito» no contexto."
       },
       {
         "word": "conexão",
-        "translation": "Palabra clave 7",
+        "translation": "conexión",
         "example": "Uso a palavra «conexão» no contexto."
       },
       {
         "word": "informação",
-        "translation": "Palabra clave 8",
+        "translation": "información",
         "example": "Uso a palavra «informação» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "equilíbrio",
-        "translation": "Palabra clave 10",
+        "translation": "equilibrio",
         "example": "Uso a palavra «equilíbrio» no contexto."
       }
     ],
@@ -22202,52 +22210,52 @@
     "vocabulary": [
       {
         "word": "transporte",
-        "translation": "Palabra clave 1",
+        "translation": "transporte",
         "example": "Uso a palavra «transporte» no contexto."
       },
       {
         "word": "caminho",
-        "translation": "Palabra clave 2",
+        "translation": "camino",
         "example": "Uso a palavra «caminho» no contexto."
       },
       {
         "word": "trânsito",
-        "translation": "Palabra clave 3",
+        "translation": "tránsito",
         "example": "Uso a palavra «trânsito» no contexto."
       },
       {
         "word": "bicicleta",
-        "translation": "Palabra clave 4",
+        "translation": "bicicleta",
         "example": "Uso a palavra «bicicleta» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "acessível",
-        "translation": "Palabra clave 6",
+        "translation": "accesible",
         "example": "Uso a palavra «acessível» no contexto."
       },
       {
         "word": "atraso",
-        "translation": "Palabra clave 7",
+        "translation": "atraso",
         "example": "Uso a palavra «atraso» no contexto."
       },
       {
         "word": "serviço",
-        "translation": "Palabra clave 8",
+        "translation": "servicio",
         "example": "Uso a palavra «serviço» no contexto."
       },
       {
         "word": "propor",
-        "translation": "Palabra clave 9",
+        "translation": "propor",
         "example": "Uso a palavra «propor» no contexto."
       },
       {
         "word": "bairro",
-        "translation": "Palabra clave 10",
+        "translation": "barrio",
         "example": "Uso a palavra «bairro» no contexto."
       }
     ],
@@ -22274,52 +22282,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sobre o que é o texto?",
+        "prompt": "Sobre o que o grupo conversa?",
         "options": [
           "transporte",
-          "caminho",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "serviço",
+          "propor",
+          "bairro"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "O que a personagem faz primeiro?",
+        "prompt": "O que cada pessoa faz?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Conta uma experiência, escuta e propõe uma solução.",
+          "Compra um ingresso para um evento.",
+          "Não escuta as outras pessoas.",
+          "Cancela o projeto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é o papel da segunda pessoa?",
+        "prompt": "Por que decidem colaborar?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Porque têm um objetivo claro.",
+          "Porque não têm tempo.",
+          "Porque não conhecem o tema.",
+          "Porque preferem trabalhar sozinhos."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Por que o grupo colabora?",
+        "prompt": "Que ideia ajuda na vida cotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Uma solução concreta e colaborativa.",
+          "Uma lista sem contexto.",
+          "Uma discussão sem objetivo.",
+          "Uma decisão individual."
         ]
       },
       {
+        "id": "portuguese-b1-cidade-e-mobilidade-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é o objetivo comum?",
+        "prompt": "What is the main purpose of “Cidade e mobilidade”?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "To explain the central ideas and details of Cidade e mobilidade",
+          "To discuss an unrelated topic",
+          "To provide a list without context",
+          "To tell a story with no connection to the topic"
         ]
       }
     ]
@@ -22515,52 +22524,52 @@
     "vocabulary": [
       {
         "word": "transporte",
-        "translation": "Palabra clave 1",
+        "translation": "transporte",
         "example": "Uso a palavra «transporte» no contexto."
       },
       {
         "word": "caminho",
-        "translation": "Palabra clave 2",
+        "translation": "camino",
         "example": "Uso a palavra «caminho» no contexto."
       },
       {
         "word": "trânsito",
-        "translation": "Palabra clave 3",
+        "translation": "tránsito",
         "example": "Uso a palavra «trânsito» no contexto."
       },
       {
         "word": "bicicleta",
-        "translation": "Palabra clave 4",
+        "translation": "bicicleta",
         "example": "Uso a palavra «bicicleta» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "acessível",
-        "translation": "Palabra clave 6",
+        "translation": "accesible",
         "example": "Uso a palavra «acessível» no contexto."
       },
       {
         "word": "atraso",
-        "translation": "Palabra clave 7",
+        "translation": "atraso",
         "example": "Uso a palavra «atraso» no contexto."
       },
       {
         "word": "serviço",
-        "translation": "Palabra clave 8",
+        "translation": "servicio",
         "example": "Uso a palavra «serviço» no contexto."
       },
       {
         "word": "propor",
-        "translation": "Palabra clave 9",
+        "translation": "propor",
         "example": "Uso a palavra «propor» no contexto."
       },
       {
         "word": "bairro",
-        "translation": "Palabra clave 10",
+        "translation": "barrio",
         "example": "Uso a palavra «bairro» no contexto."
       }
     ],
@@ -22569,10 +22578,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Comparação e consequência",
-        "definition": "Práctica guiada de Comparação e consequência.",
+        "name": "Cidade e mobilidade: gramática",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -22582,7 +22591,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acho que a proposta ___ útil.",
             "options": [
               {},
               {},
@@ -22592,7 +22601,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha o conector de contraste.",
             "options": [
               {},
               {},
@@ -22602,7 +22611,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Fico em casa porque ___ cansado.",
             "options": [
               {},
               {},
@@ -22612,7 +22621,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase expressa uma opinião?",
             "options": [
               {},
               {},
@@ -22622,7 +22631,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Embora ___ tarde, continuamos.",
             "options": [
               {},
               {},
@@ -22632,7 +22641,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha uma consequência.",
             "options": [
               {},
               {},
@@ -22642,7 +22651,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acredito que eles ___ razão.",
             "options": [
               {},
               {},
@@ -22652,7 +22661,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase justifica uma escolha?",
             "options": [
               {},
               {},
@@ -22667,89 +22676,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acho que a proposta ___ útil.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "é",
+          "são",
+          "ser",
+          "seja"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha o conector de contraste.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Quero sair, portanto está chovendo.",
+          "Quero sair, porém está chovendo.",
+          "Quero sair, porque está chovendo.",
+          "Quero sair, então está chovendo."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Fico em casa porque ___ cansado.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "estar",
+          "está",
+          "estou",
+          "estamos"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase expressa uma opinião?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "O projeto funciona por quê?",
+          "O projeto ontem funciona?",
+          "Funcionar projeto na minha opinião.",
+          "Na minha opinião, o projeto funciona."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Embora ___ tarde, continuamos.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "seja",
+          "é",
+          "ser",
+          "são"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha uma consequência.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Temos pouco tempo, porém organizamos o trabalho.",
+          "Temos pouco tempo, portanto organizamos o trabalho.",
+          "Temos pouco tempo, porque organizamos o trabalho.",
+          "Temos pouco tempo, embora organizamos o trabalho."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acredito que eles ___ razão.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "ter",
+          "têm",
+          "tenham",
+          "terão"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase justifica uma escolha?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "Escolho o trem é mais sustentável porque?",
+          "Escolho o trem porém é mais sustentável.",
+          "Escolho o trem portanto é mais sustentável?",
+          "Escolho o trem porque é mais sustentável."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       }
@@ -23157,52 +23166,52 @@
     "vocabulary": [
       {
         "word": "transporte",
-        "translation": "Palabra clave 1",
+        "translation": "transporte",
         "example": "Uso a palavra «transporte» no contexto."
       },
       {
         "word": "caminho",
-        "translation": "Palabra clave 2",
+        "translation": "camino",
         "example": "Uso a palavra «caminho» no contexto."
       },
       {
         "word": "trânsito",
-        "translation": "Palabra clave 3",
+        "translation": "tránsito",
         "example": "Uso a palavra «trânsito» no contexto."
       },
       {
         "word": "bicicleta",
-        "translation": "Palabra clave 4",
+        "translation": "bicicleta",
         "example": "Uso a palavra «bicicleta» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "acessível",
-        "translation": "Palabra clave 6",
+        "translation": "accesible",
         "example": "Uso a palavra «acessível» no contexto."
       },
       {
         "word": "atraso",
-        "translation": "Palabra clave 7",
+        "translation": "atraso",
         "example": "Uso a palavra «atraso» no contexto."
       },
       {
         "word": "serviço",
-        "translation": "Palabra clave 8",
+        "translation": "servicio",
         "example": "Uso a palavra «serviço» no contexto."
       },
       {
         "word": "propor",
-        "translation": "Palabra clave 9",
+        "translation": "propor",
         "example": "Uso a palavra «propor» no contexto."
       },
       {
         "word": "bairro",
-        "translation": "Palabra clave 10",
+        "translation": "barrio",
         "example": "Uso a palavra «bairro» no contexto."
       }
     ],
@@ -23377,8 +23386,8 @@
     "vocabulary": [
       {
         "word": "transporte",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "transporte",
+        "definition": "transporte",
         "example": "Uso “transporte” em uma frase.",
         "contexts": [
           "transporte · tema",
@@ -23388,8 +23397,8 @@
       },
       {
         "word": "caminho",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "camino",
+        "definition": "camino",
         "example": "Uso “caminho” em uma frase.",
         "contexts": [
           "caminho · tema",
@@ -23399,8 +23408,8 @@
       },
       {
         "word": "trânsito",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "tránsito",
+        "definition": "tránsito",
         "example": "Uso “trânsito” em uma frase.",
         "contexts": [
           "trânsito · tema",
@@ -23410,8 +23419,8 @@
       },
       {
         "word": "bicicleta",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "bicicleta",
+        "definition": "bicicleta",
         "example": "Uso “bicicleta” em uma frase.",
         "contexts": [
           "bicicleta · tema",
@@ -23421,8 +23430,8 @@
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Uso “melhorar” em uma frase.",
         "contexts": [
           "melhorar · tema",
@@ -23432,8 +23441,8 @@
       },
       {
         "word": "acessível",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "accesible",
+        "definition": "accesible",
         "example": "Uso “acessível” em uma frase.",
         "contexts": [
           "acessível · tema",
@@ -23443,8 +23452,8 @@
       },
       {
         "word": "atraso",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "atraso",
+        "definition": "atraso",
         "example": "Uso “atraso” em uma frase.",
         "contexts": [
           "atraso · tema",
@@ -23454,8 +23463,8 @@
       },
       {
         "word": "serviço",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "servicio",
+        "definition": "servicio",
         "example": "Uso “serviço” em uma frase.",
         "contexts": [
           "serviço · tema",
@@ -23465,8 +23474,8 @@
       },
       {
         "word": "propor",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "propor",
+        "definition": "propor",
         "example": "Uso “propor” em uma frase.",
         "contexts": [
           "propor · tema",
@@ -23476,8 +23485,8 @@
       },
       {
         "word": "bairro",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "barrio",
+        "definition": "barrio",
         "example": "Uso “bairro” em uma frase.",
         "contexts": [
           "bairro · tema",
@@ -23723,52 +23732,52 @@
     "vocabulary": [
       {
         "word": "transporte",
-        "translation": "Palabra clave 1",
+        "translation": "transporte",
         "example": "Uso a palavra «transporte» no contexto."
       },
       {
         "word": "caminho",
-        "translation": "Palabra clave 2",
+        "translation": "camino",
         "example": "Uso a palavra «caminho» no contexto."
       },
       {
         "word": "trânsito",
-        "translation": "Palabra clave 3",
+        "translation": "tránsito",
         "example": "Uso a palavra «trânsito» no contexto."
       },
       {
         "word": "bicicleta",
-        "translation": "Palabra clave 4",
+        "translation": "bicicleta",
         "example": "Uso a palavra «bicicleta» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "acessível",
-        "translation": "Palabra clave 6",
+        "translation": "accesible",
         "example": "Uso a palavra «acessível» no contexto."
       },
       {
         "word": "atraso",
-        "translation": "Palabra clave 7",
+        "translation": "atraso",
         "example": "Uso a palavra «atraso» no contexto."
       },
       {
         "word": "serviço",
-        "translation": "Palabra clave 8",
+        "translation": "servicio",
         "example": "Uso a palavra «serviço» no contexto."
       },
       {
         "word": "propor",
-        "translation": "Palabra clave 9",
+        "translation": "propor",
         "example": "Uso a palavra «propor» no contexto."
       },
       {
         "word": "bairro",
-        "translation": "Palabra clave 10",
+        "translation": "barrio",
         "example": "Uso a palavra «bairro» no contexto."
       }
     ],
@@ -23878,10 +23887,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Pretérito perfeito introdutório",
-        "definition": "Práctica guiada de Pretérito perfeito introdutório.",
+        "name": "Uma roda cultural: gramática",
+        "definition": "O presente descreve rotinas e informações simples.",
         "structure": "sujeito + verbo no presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -23891,7 +23900,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Eu ___ no bairro.",
             "options": [
               {},
               {},
@@ -23901,7 +23910,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta.",
             "options": [
               {},
               {},
@@ -23911,7 +23920,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ português todos os dias.",
             "options": [
               {},
               {},
@@ -23921,7 +23930,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual pergunta está correta?",
             "options": [
               {},
               {},
@@ -23931,7 +23940,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ela ___ uma pergunta.",
             "options": [
               {},
               {},
@@ -23941,7 +23950,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase que descreve uma casa.",
             "options": [
               {},
               {},
@@ -23951,7 +23960,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ café?",
             "options": [
               {},
               {},
@@ -23961,7 +23970,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase fala de uma rotina?",
             "options": [
               {},
               {},
@@ -23976,89 +23985,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "moro",
+          "mora",
+          "morar",
+          "moramos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Rafael falar com Luana.",
+          "Rafael fala com Luana.",
+          "Rafael falo com Luana.",
+          "Rafael falam com Luana."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "estudar",
+          "estuda",
+          "estudamos",
+          "estudam"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Onde você moram?",
+          "Onde você morar?",
+          "Onde mora você?",
+          "Onde você mora?"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ela ___ uma pergunta.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "faz",
+          "faço",
+          "fazer",
+          "fazem"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase que descreve uma casa.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "O casa é clara.",
+          "A casa é clara.",
+          "A casa são clara.",
+          "A casa é claro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ café?",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "tomar",
+          "tomam",
+          "toma",
+          "tomamos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase fala de uma rotina?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Toda manhã trabalham eu no centro.",
+          "Ontem trabalhar no centro.",
+          "Amanhã trabalhei no centro.",
+          "Toda manhã trabalho no centro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       }
@@ -24088,10 +24097,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Conectores de tempo",
-        "definition": "Práctica guiada de Conectores de tempo.",
+        "name": "Histórias de origem: gramática",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Contar experiências e planos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -24101,7 +24110,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ontem eu ___ o museu.",
             "options": [
               {},
               {},
@@ -24111,7 +24120,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta no passado.",
             "options": [
               {},
               {},
@@ -24121,7 +24130,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Marta ___ tarde para casa.",
             "options": [
               {},
               {},
@@ -24131,7 +24140,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase mostra sequência?",
             "options": [
               {},
               {},
@@ -24141,7 +24150,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ a mensagem?",
             "options": [
               {},
               {},
@@ -24151,7 +24160,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase com o verbo no passado.",
             "options": [
               {},
               {},
@@ -24161,7 +24170,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
             "options": [
               {},
               {},
@@ -24171,7 +24180,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase conta uma ação concluída?",
             "options": [
               {},
               {},
@@ -24186,89 +24195,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "visitei",
+          "visito",
+          "visitar",
+          "visitamos"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Nós jantar juntos.",
+          "Nós jantamos juntos.",
+          "Nós jantou juntos.",
+          "Nós jantaremos ontem."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "voltar",
+          "volta",
+          "voltou",
+          "voltaram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "Primeiro estudamos, se saímos.",
+          "Primeiro estudamos, porque saímos.",
+          "Primeiro estudamos, porém saímos.",
+          "Primeiro estudamos, depois saímos."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ a mensagem?",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "leu",
+          "lê",
+          "ler",
+          "leram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase com o verbo no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Meus amigos pegar o ônibus.",
+          "Meus amigos pegaram o ônibus.",
+          "Meus amigos pegou o ônibus.",
+          "Meus amigos pegam ontem o ônibus."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "ter",
+          "temos",
+          "tivemos",
+          "teve"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase conta uma ação concluída?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "No sábado encontro eu minha prima.",
+          "No sábado encontro minha prima amanhã.",
+          "No sábado encontrar minha prima.",
+          "No sábado encontrei minha prima."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
@@ -24852,52 +24861,52 @@
     "vocabulary": [
       {
         "word": "transporte",
-        "translation": "Palabra clave 1",
+        "translation": "transporte",
         "example": "Uso a palavra «transporte» no contexto."
       },
       {
         "word": "caminho",
-        "translation": "Palabra clave 2",
+        "translation": "camino",
         "example": "Uso a palavra «caminho» no contexto."
       },
       {
         "word": "trânsito",
-        "translation": "Palabra clave 3",
+        "translation": "tránsito",
         "example": "Uso a palavra «trânsito» no contexto."
       },
       {
         "word": "bicicleta",
-        "translation": "Palabra clave 4",
+        "translation": "bicicleta",
         "example": "Uso a palavra «bicicleta» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "acessível",
-        "translation": "Palabra clave 6",
+        "translation": "accesible",
         "example": "Uso a palavra «acessível» no contexto."
       },
       {
         "word": "atraso",
-        "translation": "Palabra clave 7",
+        "translation": "atraso",
         "example": "Uso a palavra «atraso» no contexto."
       },
       {
         "word": "serviço",
-        "translation": "Palabra clave 8",
+        "translation": "servicio",
         "example": "Uso a palavra «serviço» no contexto."
       },
       {
         "word": "propor",
-        "translation": "Palabra clave 9",
+        "translation": "propor",
         "example": "Uso a palavra «propor» no contexto."
       },
       {
         "word": "bairro",
-        "translation": "Palabra clave 10",
+        "translation": "barrio",
         "example": "Uso a palavra «bairro» no contexto."
       }
     ],
@@ -24936,52 +24945,52 @@
     "vocabulary": [
       {
         "word": "futuro",
-        "translation": "Palabra clave 1",
+        "translation": "futuro",
         "example": "Uso a palavra «futuro» no contexto."
       },
       {
         "word": "objetivo",
-        "translation": "Palabra clave 2",
+        "translation": "objetivo",
         "example": "Uso a palavra «objetivo» no contexto."
       },
       {
         "word": "oportunidade",
-        "translation": "Palabra clave 3",
+        "translation": "oportunidad",
         "example": "Uso a palavra «oportunidade» no contexto."
       },
       {
         "word": "decidir",
-        "translation": "Palabra clave 4",
+        "translation": "decidir",
         "example": "Uso a palavra «decidir» no contexto."
       },
       {
         "word": "experiência",
-        "translation": "Palabra clave 5",
+        "translation": "experiencia",
         "example": "Uso a palavra «experiência» no contexto."
       },
       {
         "word": "formação",
-        "translation": "Palabra clave 6",
+        "translation": "formación",
         "example": "Uso a palavra «formação» no contexto."
       },
       {
         "word": "caminho",
-        "translation": "Palabra clave 7",
+        "translation": "camino",
         "example": "Uso a palavra «caminho» no contexto."
       },
       {
         "word": "esperar",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Uso a palavra «esperar» no contexto."
       },
       {
         "word": "escolha",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Uso a palavra «escolha» no contexto."
       },
       {
         "word": "alcançar",
-        "translation": "Palabra clave 10",
+        "translation": "alcanzar",
         "example": "Uso a palavra «alcançar» no contexto."
       }
     ],
@@ -25008,52 +25017,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sobre o que é o texto?",
+        "prompt": "Sobre o que o grupo conversa?",
         "options": [
           "futuro",
-          "objetivo",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "esperar",
+          "escolha",
+          "alcançar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "O que a personagem faz primeiro?",
+        "prompt": "O que cada pessoa faz?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Conta uma experiência, escuta e propõe uma solução.",
+          "Compra um ingresso para um evento.",
+          "Não escuta as outras pessoas.",
+          "Cancela o projeto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é o papel da segunda pessoa?",
+        "prompt": "Por que decidem colaborar?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Porque têm um objetivo claro.",
+          "Porque não têm tempo.",
+          "Porque não conhecem o tema.",
+          "Porque preferem trabalhar sozinhos."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Por que o grupo colabora?",
+        "prompt": "Que ideia ajuda na vida cotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Uma solução concreta e colaborativa.",
+          "Uma lista sem contexto.",
+          "Uma discussão sem objetivo.",
+          "Uma decisão individual."
         ]
       },
       {
+        "id": "portuguese-b1-planos-para-o-futuro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é o objetivo comum?",
+        "prompt": "What is the main purpose of “Planos para o futuro”?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "To explain the central ideas and details of Planos para o futuro",
+          "To discuss an unrelated topic",
+          "To provide a list without context",
+          "To tell a story with no connection to the topic"
         ]
       }
     ]
@@ -25249,52 +25259,52 @@
     "vocabulary": [
       {
         "word": "futuro",
-        "translation": "Palabra clave 1",
+        "translation": "futuro",
         "example": "Uso a palavra «futuro» no contexto."
       },
       {
         "word": "objetivo",
-        "translation": "Palabra clave 2",
+        "translation": "objetivo",
         "example": "Uso a palavra «objetivo» no contexto."
       },
       {
         "word": "oportunidade",
-        "translation": "Palabra clave 3",
+        "translation": "oportunidad",
         "example": "Uso a palavra «oportunidade» no contexto."
       },
       {
         "word": "decidir",
-        "translation": "Palabra clave 4",
+        "translation": "decidir",
         "example": "Uso a palavra «decidir» no contexto."
       },
       {
         "word": "experiência",
-        "translation": "Palabra clave 5",
+        "translation": "experiencia",
         "example": "Uso a palavra «experiência» no contexto."
       },
       {
         "word": "formação",
-        "translation": "Palabra clave 6",
+        "translation": "formación",
         "example": "Uso a palavra «formação» no contexto."
       },
       {
         "word": "caminho",
-        "translation": "Palabra clave 7",
+        "translation": "camino",
         "example": "Uso a palavra «caminho» no contexto."
       },
       {
         "word": "esperar",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Uso a palavra «esperar» no contexto."
       },
       {
         "word": "escolha",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Uso a palavra «escolha» no contexto."
       },
       {
         "word": "alcançar",
-        "translation": "Palabra clave 10",
+        "translation": "alcanzar",
         "example": "Uso a palavra «alcançar» no contexto."
       }
     ],
@@ -25303,10 +25313,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Futuro do subjuntivo",
-        "definition": "Práctica guiada de Futuro do subjuntivo.",
+        "name": "Planos para o futuro: gramática",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -25316,7 +25326,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acho que a proposta ___ útil.",
             "options": [
               {},
               {},
@@ -25326,7 +25336,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha o conector de contraste.",
             "options": [
               {},
               {},
@@ -25336,7 +25346,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Fico em casa porque ___ cansado.",
             "options": [
               {},
               {},
@@ -25346,7 +25356,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase expressa uma opinião?",
             "options": [
               {},
               {},
@@ -25356,7 +25366,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Embora ___ tarde, continuamos.",
             "options": [
               {},
               {},
@@ -25366,7 +25376,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha uma consequência.",
             "options": [
               {},
               {},
@@ -25376,7 +25386,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acredito que eles ___ razão.",
             "options": [
               {},
               {},
@@ -25386,7 +25396,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase justifica uma escolha?",
             "options": [
               {},
               {},
@@ -25401,89 +25411,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acho que a proposta ___ útil.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "é",
+          "são",
+          "ser",
+          "seja"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha o conector de contraste.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Quero sair, portanto está chovendo.",
+          "Quero sair, porém está chovendo.",
+          "Quero sair, porque está chovendo.",
+          "Quero sair, então está chovendo."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Fico em casa porque ___ cansado.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "estar",
+          "está",
+          "estou",
+          "estamos"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase expressa uma opinião?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "O projeto funciona por quê?",
+          "O projeto ontem funciona?",
+          "Funcionar projeto na minha opinião.",
+          "Na minha opinião, o projeto funciona."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Embora ___ tarde, continuamos.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "seja",
+          "é",
+          "ser",
+          "são"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha uma consequência.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Temos pouco tempo, porém organizamos o trabalho.",
+          "Temos pouco tempo, portanto organizamos o trabalho.",
+          "Temos pouco tempo, porque organizamos o trabalho.",
+          "Temos pouco tempo, embora organizamos o trabalho."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acredito que eles ___ razão.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "ter",
+          "têm",
+          "tenham",
+          "terão"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase justifica uma escolha?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "Escolho o trem é mais sustentável porque?",
+          "Escolho o trem porém é mais sustentável.",
+          "Escolho o trem portanto é mais sustentável?",
+          "Escolho o trem porque é mais sustentável."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       }
@@ -25891,52 +25901,52 @@
     "vocabulary": [
       {
         "word": "futuro",
-        "translation": "Palabra clave 1",
+        "translation": "futuro",
         "example": "Uso a palavra «futuro» no contexto."
       },
       {
         "word": "objetivo",
-        "translation": "Palabra clave 2",
+        "translation": "objetivo",
         "example": "Uso a palavra «objetivo» no contexto."
       },
       {
         "word": "oportunidade",
-        "translation": "Palabra clave 3",
+        "translation": "oportunidad",
         "example": "Uso a palavra «oportunidade» no contexto."
       },
       {
         "word": "decidir",
-        "translation": "Palabra clave 4",
+        "translation": "decidir",
         "example": "Uso a palavra «decidir» no contexto."
       },
       {
         "word": "experiência",
-        "translation": "Palabra clave 5",
+        "translation": "experiencia",
         "example": "Uso a palavra «experiência» no contexto."
       },
       {
         "word": "formação",
-        "translation": "Palabra clave 6",
+        "translation": "formación",
         "example": "Uso a palavra «formação» no contexto."
       },
       {
         "word": "caminho",
-        "translation": "Palabra clave 7",
+        "translation": "camino",
         "example": "Uso a palavra «caminho» no contexto."
       },
       {
         "word": "esperar",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Uso a palavra «esperar» no contexto."
       },
       {
         "word": "escolha",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Uso a palavra «escolha» no contexto."
       },
       {
         "word": "alcançar",
-        "translation": "Palabra clave 10",
+        "translation": "alcanzar",
         "example": "Uso a palavra «alcançar» no contexto."
       }
     ],
@@ -26111,8 +26121,8 @@
     "vocabulary": [
       {
         "word": "futuro",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "futuro",
+        "definition": "futuro",
         "example": "Uso “futuro” em uma frase.",
         "contexts": [
           "futuro · tema",
@@ -26122,8 +26132,8 @@
       },
       {
         "word": "objetivo",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "objetivo",
+        "definition": "objetivo",
         "example": "Uso “objetivo” em uma frase.",
         "contexts": [
           "objetivo · tema",
@@ -26133,8 +26143,8 @@
       },
       {
         "word": "oportunidade",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "oportunidad",
+        "definition": "oportunidad",
         "example": "Uso “oportunidade” em uma frase.",
         "contexts": [
           "oportunidade · tema",
@@ -26144,8 +26154,8 @@
       },
       {
         "word": "decidir",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "decidir",
+        "definition": "decidir",
         "example": "Uso “decidir” em uma frase.",
         "contexts": [
           "decidir · tema",
@@ -26155,8 +26165,8 @@
       },
       {
         "word": "experiência",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "experiencia",
+        "definition": "experiencia",
         "example": "Uso “experiência” em uma frase.",
         "contexts": [
           "experiência · tema",
@@ -26166,8 +26176,8 @@
       },
       {
         "word": "formação",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "formación",
+        "definition": "formación",
         "example": "Uso “formação” em uma frase.",
         "contexts": [
           "formação · tema",
@@ -26177,8 +26187,8 @@
       },
       {
         "word": "caminho",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "camino",
+        "definition": "camino",
         "example": "Uso “caminho” em uma frase.",
         "contexts": [
           "caminho · tema",
@@ -26188,8 +26198,8 @@
       },
       {
         "word": "esperar",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "esperar",
+        "definition": "esperar",
         "example": "Uso “esperar” em uma frase.",
         "contexts": [
           "esperar · tema",
@@ -26199,8 +26209,8 @@
       },
       {
         "word": "escolha",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "elegir",
+        "definition": "elegir",
         "example": "Uso “escolha” em uma frase.",
         "contexts": [
           "escolha · tema",
@@ -26210,8 +26220,8 @@
       },
       {
         "word": "alcançar",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "alcanzar",
+        "definition": "alcanzar",
         "example": "Uso “alcançar” em uma frase.",
         "contexts": [
           "alcançar · tema",
@@ -26457,52 +26467,52 @@
     "vocabulary": [
       {
         "word": "futuro",
-        "translation": "Palabra clave 1",
+        "translation": "futuro",
         "example": "Uso a palavra «futuro» no contexto."
       },
       {
         "word": "objetivo",
-        "translation": "Palabra clave 2",
+        "translation": "objetivo",
         "example": "Uso a palavra «objetivo» no contexto."
       },
       {
         "word": "oportunidade",
-        "translation": "Palabra clave 3",
+        "translation": "oportunidad",
         "example": "Uso a palavra «oportunidade» no contexto."
       },
       {
         "word": "decidir",
-        "translation": "Palabra clave 4",
+        "translation": "decidir",
         "example": "Uso a palavra «decidir» no contexto."
       },
       {
         "word": "experiência",
-        "translation": "Palabra clave 5",
+        "translation": "experiencia",
         "example": "Uso a palavra «experiência» no contexto."
       },
       {
         "word": "formação",
-        "translation": "Palabra clave 6",
+        "translation": "formación",
         "example": "Uso a palavra «formação» no contexto."
       },
       {
         "word": "caminho",
-        "translation": "Palabra clave 7",
+        "translation": "camino",
         "example": "Uso a palavra «caminho» no contexto."
       },
       {
         "word": "esperar",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Uso a palavra «esperar» no contexto."
       },
       {
         "word": "escolha",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Uso a palavra «escolha» no contexto."
       },
       {
         "word": "alcançar",
-        "translation": "Palabra clave 10",
+        "translation": "alcanzar",
         "example": "Uso a palavra «alcançar» no contexto."
       }
     ],
@@ -26612,10 +26622,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Por / para e transporte",
-        "definition": "Práctica guiada de Por / para e transporte.",
+        "name": "De ônibus: gramática",
+        "definition": "O presente descreve rotinas e informações simples.",
         "structure": "sujeito + verbo no presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -26625,7 +26635,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Eu ___ no bairro.",
             "options": [
               {},
               {},
@@ -26635,7 +26645,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta.",
             "options": [
               {},
               {},
@@ -26645,7 +26655,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ português todos os dias.",
             "options": [
               {},
               {},
@@ -26655,7 +26665,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual pergunta está correta?",
             "options": [
               {},
               {},
@@ -26665,7 +26675,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ela ___ uma pergunta.",
             "options": [
               {},
               {},
@@ -26675,7 +26685,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase que descreve uma casa.",
             "options": [
               {},
               {},
@@ -26685,7 +26695,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ café?",
             "options": [
               {},
               {},
@@ -26695,7 +26705,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase fala de uma rotina?",
             "options": [
               {},
               {},
@@ -26710,89 +26720,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "moro",
+          "mora",
+          "morar",
+          "moramos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Rafael falar com Luana.",
+          "Rafael fala com Luana.",
+          "Rafael falo com Luana.",
+          "Rafael falam com Luana."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "estudar",
+          "estuda",
+          "estudamos",
+          "estudam"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Onde você moram?",
+          "Onde você morar?",
+          "Onde mora você?",
+          "Onde você mora?"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ela ___ uma pergunta.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "faz",
+          "faço",
+          "fazer",
+          "fazem"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase que descreve uma casa.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "O casa é clara.",
+          "A casa é clara.",
+          "A casa são clara.",
+          "A casa é claro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ café?",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "tomar",
+          "tomam",
+          "toma",
+          "tomamos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase fala de uma rotina?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Toda manhã trabalham eu no centro.",
+          "Ontem trabalhar no centro.",
+          "Amanhã trabalhei no centro.",
+          "Toda manhã trabalho no centro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       }
@@ -26822,10 +26832,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Condicional de cortesia",
-        "definition": "Práctica guiada de Condicional de cortesia.",
+        "name": "Um projeto coletivo: gramática",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Contar experiências e planos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -26835,7 +26845,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ontem eu ___ o museu.",
             "options": [
               {},
               {},
@@ -26845,7 +26855,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta no passado.",
             "options": [
               {},
               {},
@@ -26855,7 +26865,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Marta ___ tarde para casa.",
             "options": [
               {},
               {},
@@ -26865,7 +26875,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase mostra sequência?",
             "options": [
               {},
               {},
@@ -26875,7 +26885,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ a mensagem?",
             "options": [
               {},
               {},
@@ -26885,7 +26895,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase com o verbo no passado.",
             "options": [
               {},
               {},
@@ -26895,7 +26905,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
             "options": [
               {},
               {},
@@ -26905,7 +26915,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase conta uma ação concluída?",
             "options": [
               {},
               {},
@@ -26920,89 +26930,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "visitei",
+          "visito",
+          "visitar",
+          "visitamos"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Nós jantar juntos.",
+          "Nós jantamos juntos.",
+          "Nós jantou juntos.",
+          "Nós jantaremos ontem."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "voltar",
+          "volta",
+          "voltou",
+          "voltaram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "Primeiro estudamos, se saímos.",
+          "Primeiro estudamos, porque saímos.",
+          "Primeiro estudamos, porém saímos.",
+          "Primeiro estudamos, depois saímos."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ a mensagem?",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "leu",
+          "lê",
+          "ler",
+          "leram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase com o verbo no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Meus amigos pegar o ônibus.",
+          "Meus amigos pegaram o ônibus.",
+          "Meus amigos pegou o ônibus.",
+          "Meus amigos pegam ontem o ônibus."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "ter",
+          "temos",
+          "tivemos",
+          "teve"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase conta uma ação concluída?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "No sábado encontro eu minha prima.",
+          "No sábado encontro minha prima amanhã.",
+          "No sábado encontrar minha prima.",
+          "No sábado encontrei minha prima."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
@@ -27586,52 +27596,52 @@
     "vocabulary": [
       {
         "word": "futuro",
-        "translation": "Palabra clave 1",
+        "translation": "futuro",
         "example": "Uso a palavra «futuro» no contexto."
       },
       {
         "word": "objetivo",
-        "translation": "Palabra clave 2",
+        "translation": "objetivo",
         "example": "Uso a palavra «objetivo» no contexto."
       },
       {
         "word": "oportunidade",
-        "translation": "Palabra clave 3",
+        "translation": "oportunidad",
         "example": "Uso a palavra «oportunidade» no contexto."
       },
       {
         "word": "decidir",
-        "translation": "Palabra clave 4",
+        "translation": "decidir",
         "example": "Uso a palavra «decidir» no contexto."
       },
       {
         "word": "experiência",
-        "translation": "Palabra clave 5",
+        "translation": "experiencia",
         "example": "Uso a palavra «experiência» no contexto."
       },
       {
         "word": "formação",
-        "translation": "Palabra clave 6",
+        "translation": "formación",
         "example": "Uso a palavra «formação» no contexto."
       },
       {
         "word": "caminho",
-        "translation": "Palabra clave 7",
+        "translation": "camino",
         "example": "Uso a palavra «caminho» no contexto."
       },
       {
         "word": "esperar",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Uso a palavra «esperar» no contexto."
       },
       {
         "word": "escolha",
-        "translation": "Palabra clave 9",
+        "translation": "elegir",
         "example": "Uso a palavra «escolha» no contexto."
       },
       {
         "word": "alcançar",
-        "translation": "Palabra clave 10",
+        "translation": "alcanzar",
         "example": "Uso a palavra «alcançar» no contexto."
       }
     ],
@@ -27670,52 +27680,52 @@
     "vocabulary": [
       {
         "word": "relação",
-        "translation": "Palabra clave 1",
+        "translation": "relación",
         "example": "Uso a palavra «relação» no contexto."
       },
       {
         "word": "escutar",
-        "translation": "Palabra clave 2",
+        "translation": "escuchar",
         "example": "Uso a palavra «escutar» no contexto."
       },
       {
         "word": "explicar",
-        "translation": "Palabra clave 3",
+        "translation": "explicar",
         "example": "Uso a palavra «explicar» no contexto."
       },
       {
         "word": "mensagem",
-        "translation": "Palabra clave 4",
+        "translation": "mensaje",
         "example": "Uso a palavra «mensagem» no contexto."
       },
       {
         "word": "acordo",
-        "translation": "Palabra clave 5",
+        "translation": "acuerdo",
         "example": "Uso a palavra «acordo» no contexto."
       },
       {
         "word": "confiança",
-        "translation": "Palabra clave 6",
+        "translation": "confianza",
         "example": "Uso a palavra «confiança» no contexto."
       },
       {
         "word": "conversa",
-        "translation": "Palabra clave 7",
+        "translation": "conversación",
         "example": "Uso a palavra «conversa» no contexto."
       },
       {
         "word": "opinião",
-        "translation": "Palabra clave 8",
+        "translation": "opinión",
         "example": "Uso a palavra «opinião» no contexto."
       },
       {
         "word": "esclarecer",
-        "translation": "Palabra clave 9",
+        "translation": "esclarecer",
         "example": "Uso a palavra «esclarecer» no contexto."
       },
       {
         "word": "respeitar",
-        "translation": "Palabra clave 10",
+        "translation": "respetar",
         "example": "Uso a palavra «respeitar» no contexto."
       }
     ],
@@ -27742,52 +27752,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sobre o que é o texto?",
+        "prompt": "Sobre o que o grupo conversa?",
         "options": [
           "relação",
-          "escutar",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "opinião",
+          "esclarecer",
+          "respeitar"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "O que a personagem faz primeiro?",
+        "prompt": "O que cada pessoa faz?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Conta uma experiência, escuta e propõe uma solução.",
+          "Compra um ingresso para um evento.",
+          "Não escuta as outras pessoas.",
+          "Cancela o projeto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é o papel da segunda pessoa?",
+        "prompt": "Por que decidem colaborar?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Porque têm um objetivo claro.",
+          "Porque não têm tempo.",
+          "Porque não conhecem o tema.",
+          "Porque preferem trabalhar sozinhos."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Por que o grupo colabora?",
+        "prompt": "Que ideia ajuda na vida cotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Uma solução concreta e colaborativa.",
+          "Uma lista sem contexto.",
+          "Uma discussão sem objetivo.",
+          "Uma decisão individual."
         ]
       },
       {
+        "id": "portuguese-b1-relacoes-e-comunicacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é o objetivo comum?",
+        "prompt": "What is the main purpose of “Relações e comunicação”?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "To explain the central ideas and details of Relações e comunicação",
+          "To discuss an unrelated topic",
+          "To provide a list without context",
+          "To tell a story with no connection to the topic"
         ]
       }
     ]
@@ -27983,52 +27994,52 @@
     "vocabulary": [
       {
         "word": "relação",
-        "translation": "Palabra clave 1",
+        "translation": "relación",
         "example": "Uso a palavra «relação» no contexto."
       },
       {
         "word": "escutar",
-        "translation": "Palabra clave 2",
+        "translation": "escuchar",
         "example": "Uso a palavra «escutar» no contexto."
       },
       {
         "word": "explicar",
-        "translation": "Palabra clave 3",
+        "translation": "explicar",
         "example": "Uso a palavra «explicar» no contexto."
       },
       {
         "word": "mensagem",
-        "translation": "Palabra clave 4",
+        "translation": "mensaje",
         "example": "Uso a palavra «mensagem» no contexto."
       },
       {
         "word": "acordo",
-        "translation": "Palabra clave 5",
+        "translation": "acuerdo",
         "example": "Uso a palavra «acordo» no contexto."
       },
       {
         "word": "confiança",
-        "translation": "Palabra clave 6",
+        "translation": "confianza",
         "example": "Uso a palavra «confiança» no contexto."
       },
       {
         "word": "conversa",
-        "translation": "Palabra clave 7",
+        "translation": "conversación",
         "example": "Uso a palavra «conversa» no contexto."
       },
       {
         "word": "opinião",
-        "translation": "Palabra clave 8",
+        "translation": "opinión",
         "example": "Uso a palavra «opinião» no contexto."
       },
       {
         "word": "esclarecer",
-        "translation": "Palabra clave 9",
+        "translation": "esclarecer",
         "example": "Uso a palavra «esclarecer» no contexto."
       },
       {
         "word": "respeitar",
-        "translation": "Palabra clave 10",
+        "translation": "respetar",
         "example": "Uso a palavra «respeitar» no contexto."
       }
     ],
@@ -28037,10 +28048,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Relações: pronomes e discurso indireto",
-        "definition": "Práctica guiada de Relações: pronomes e discurso indireto.",
+        "name": "Relações e comunicação: gramática",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -28050,7 +28061,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acho que a proposta ___ útil.",
             "options": [
               {},
               {},
@@ -28060,7 +28071,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha o conector de contraste.",
             "options": [
               {},
               {},
@@ -28070,7 +28081,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Fico em casa porque ___ cansado.",
             "options": [
               {},
               {},
@@ -28080,7 +28091,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase expressa uma opinião?",
             "options": [
               {},
               {},
@@ -28090,7 +28101,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Embora ___ tarde, continuamos.",
             "options": [
               {},
               {},
@@ -28100,7 +28111,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha uma consequência.",
             "options": [
               {},
               {},
@@ -28110,7 +28121,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acredito que eles ___ razão.",
             "options": [
               {},
               {},
@@ -28120,7 +28131,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase justifica uma escolha?",
             "options": [
               {},
               {},
@@ -28135,89 +28146,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acho que a proposta ___ útil.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "é",
+          "são",
+          "ser",
+          "seja"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha o conector de contraste.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Quero sair, portanto está chovendo.",
+          "Quero sair, porém está chovendo.",
+          "Quero sair, porque está chovendo.",
+          "Quero sair, então está chovendo."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Fico em casa porque ___ cansado.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "estar",
+          "está",
+          "estou",
+          "estamos"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase expressa uma opinião?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "O projeto funciona por quê?",
+          "O projeto ontem funciona?",
+          "Funcionar projeto na minha opinião.",
+          "Na minha opinião, o projeto funciona."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Embora ___ tarde, continuamos.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "seja",
+          "é",
+          "ser",
+          "são"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha uma consequência.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Temos pouco tempo, porém organizamos o trabalho.",
+          "Temos pouco tempo, portanto organizamos o trabalho.",
+          "Temos pouco tempo, porque organizamos o trabalho.",
+          "Temos pouco tempo, embora organizamos o trabalho."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acredito que eles ___ razão.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "ter",
+          "têm",
+          "tenham",
+          "terão"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase justifica uma escolha?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "Escolho o trem é mais sustentável porque?",
+          "Escolho o trem porém é mais sustentável.",
+          "Escolho o trem portanto é mais sustentável?",
+          "Escolho o trem porque é mais sustentável."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       }
@@ -28625,52 +28636,52 @@
     "vocabulary": [
       {
         "word": "relação",
-        "translation": "Palabra clave 1",
+        "translation": "relación",
         "example": "Uso a palavra «relação» no contexto."
       },
       {
         "word": "escutar",
-        "translation": "Palabra clave 2",
+        "translation": "escuchar",
         "example": "Uso a palavra «escutar» no contexto."
       },
       {
         "word": "explicar",
-        "translation": "Palabra clave 3",
+        "translation": "explicar",
         "example": "Uso a palavra «explicar» no contexto."
       },
       {
         "word": "mensagem",
-        "translation": "Palabra clave 4",
+        "translation": "mensaje",
         "example": "Uso a palavra «mensagem» no contexto."
       },
       {
         "word": "acordo",
-        "translation": "Palabra clave 5",
+        "translation": "acuerdo",
         "example": "Uso a palavra «acordo» no contexto."
       },
       {
         "word": "confiança",
-        "translation": "Palabra clave 6",
+        "translation": "confianza",
         "example": "Uso a palavra «confiança» no contexto."
       },
       {
         "word": "conversa",
-        "translation": "Palabra clave 7",
+        "translation": "conversación",
         "example": "Uso a palavra «conversa» no contexto."
       },
       {
         "word": "opinião",
-        "translation": "Palabra clave 8",
+        "translation": "opinión",
         "example": "Uso a palavra «opinião» no contexto."
       },
       {
         "word": "esclarecer",
-        "translation": "Palabra clave 9",
+        "translation": "esclarecer",
         "example": "Uso a palavra «esclarecer» no contexto."
       },
       {
         "word": "respeitar",
-        "translation": "Palabra clave 10",
+        "translation": "respetar",
         "example": "Uso a palavra «respeitar» no contexto."
       }
     ],
@@ -28845,8 +28856,8 @@
     "vocabulary": [
       {
         "word": "relação",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "relación",
+        "definition": "relación",
         "example": "Uso “relação” em uma frase.",
         "contexts": [
           "relação · tema",
@@ -28856,8 +28867,8 @@
       },
       {
         "word": "escutar",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "escuchar",
+        "definition": "escuchar",
         "example": "Uso “escutar” em uma frase.",
         "contexts": [
           "escutar · tema",
@@ -28867,8 +28878,8 @@
       },
       {
         "word": "explicar",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "explicar",
+        "definition": "explicar",
         "example": "Uso “explicar” em uma frase.",
         "contexts": [
           "explicar · tema",
@@ -28878,8 +28889,8 @@
       },
       {
         "word": "mensagem",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "mensaje",
+        "definition": "mensaje",
         "example": "Uso “mensagem” em uma frase.",
         "contexts": [
           "mensagem · tema",
@@ -28889,8 +28900,8 @@
       },
       {
         "word": "acordo",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "acuerdo",
+        "definition": "acuerdo",
         "example": "Uso “acordo” em uma frase.",
         "contexts": [
           "acordo · tema",
@@ -28900,8 +28911,8 @@
       },
       {
         "word": "confiança",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "confianza",
+        "definition": "confianza",
         "example": "Uso “confiança” em uma frase.",
         "contexts": [
           "confiança · tema",
@@ -28911,8 +28922,8 @@
       },
       {
         "word": "conversa",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "conversación",
+        "definition": "conversación",
         "example": "Uso “conversa” em uma frase.",
         "contexts": [
           "conversa · tema",
@@ -28922,8 +28933,8 @@
       },
       {
         "word": "opinião",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "opinión",
+        "definition": "opinión",
         "example": "Uso “opinião” em uma frase.",
         "contexts": [
           "opinião · tema",
@@ -28933,8 +28944,8 @@
       },
       {
         "word": "esclarecer",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "esclarecer",
+        "definition": "esclarecer",
         "example": "Uso “esclarecer” em uma frase.",
         "contexts": [
           "esclarecer · tema",
@@ -28944,8 +28955,8 @@
       },
       {
         "word": "respeitar",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "respetar",
+        "definition": "respetar",
         "example": "Uso “respeitar” em uma frase.",
         "contexts": [
           "respeitar · tema",
@@ -29191,52 +29202,52 @@
     "vocabulary": [
       {
         "word": "relação",
-        "translation": "Palabra clave 1",
+        "translation": "relación",
         "example": "Uso a palavra «relação» no contexto."
       },
       {
         "word": "escutar",
-        "translation": "Palabra clave 2",
+        "translation": "escuchar",
         "example": "Uso a palavra «escutar» no contexto."
       },
       {
         "word": "explicar",
-        "translation": "Palabra clave 3",
+        "translation": "explicar",
         "example": "Uso a palavra «explicar» no contexto."
       },
       {
         "word": "mensagem",
-        "translation": "Palabra clave 4",
+        "translation": "mensaje",
         "example": "Uso a palavra «mensagem» no contexto."
       },
       {
         "word": "acordo",
-        "translation": "Palabra clave 5",
+        "translation": "acuerdo",
         "example": "Uso a palavra «acordo» no contexto."
       },
       {
         "word": "confiança",
-        "translation": "Palabra clave 6",
+        "translation": "confianza",
         "example": "Uso a palavra «confiança» no contexto."
       },
       {
         "word": "conversa",
-        "translation": "Palabra clave 7",
+        "translation": "conversación",
         "example": "Uso a palavra «conversa» no contexto."
       },
       {
         "word": "opinião",
-        "translation": "Palabra clave 8",
+        "translation": "opinión",
         "example": "Uso a palavra «opinião» no contexto."
       },
       {
         "word": "esclarecer",
-        "translation": "Palabra clave 9",
+        "translation": "esclarecer",
         "example": "Uso a palavra «esclarecer» no contexto."
       },
       {
         "word": "respeitar",
-        "translation": "Palabra clave 10",
+        "translation": "respetar",
         "example": "Uso a palavra «respeitar» no contexto."
       }
     ],
@@ -29346,10 +29357,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Partitivos e comida",
-        "definition": "Práctica guiada de Partitivos e comida.",
+        "name": "Sabores do Brasil: gramática",
+        "definition": "O presente descreve rotinas e informações simples.",
         "structure": "sujeito + verbo no presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -29359,7 +29370,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Eu ___ no bairro.",
             "options": [
               {},
               {},
@@ -29369,7 +29380,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta.",
             "options": [
               {},
               {},
@@ -29379,7 +29390,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ português todos os dias.",
             "options": [
               {},
               {},
@@ -29389,7 +29400,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual pergunta está correta?",
             "options": [
               {},
               {},
@@ -29399,7 +29410,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ela ___ uma pergunta.",
             "options": [
               {},
               {},
@@ -29409,7 +29420,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase que descreve uma casa.",
             "options": [
               {},
               {},
@@ -29419,7 +29430,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ café?",
             "options": [
               {},
               {},
@@ -29429,7 +29440,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase fala de uma rotina?",
             "options": [
               {},
               {},
@@ -29444,89 +29455,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "moro",
+          "mora",
+          "morar",
+          "moramos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Rafael falar com Luana.",
+          "Rafael fala com Luana.",
+          "Rafael falo com Luana.",
+          "Rafael falam com Luana."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "estudar",
+          "estuda",
+          "estudamos",
+          "estudam"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Onde você moram?",
+          "Onde você morar?",
+          "Onde mora você?",
+          "Onde você mora?"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ela ___ uma pergunta.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "faz",
+          "faço",
+          "fazer",
+          "fazem"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase que descreve uma casa.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "O casa é clara.",
+          "A casa é clara.",
+          "A casa são clara.",
+          "A casa é claro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ café?",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "tomar",
+          "tomam",
+          "toma",
+          "tomamos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase fala de uma rotina?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Toda manhã trabalham eu no centro.",
+          "Ontem trabalhar no centro.",
+          "Amanhã trabalhei no centro.",
+          "Toda manhã trabalho no centro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       }
@@ -29556,10 +29567,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Subjuntivo presente introdutório",
-        "definition": "Práctica guiada de Subjuntivo presente introdutório.",
+        "name": "Cidade e ambiente: gramática",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Contar experiências e planos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -29569,7 +29580,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ontem eu ___ o museu.",
             "options": [
               {},
               {},
@@ -29579,7 +29590,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta no passado.",
             "options": [
               {},
               {},
@@ -29589,7 +29600,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Marta ___ tarde para casa.",
             "options": [
               {},
               {},
@@ -29599,7 +29610,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase mostra sequência?",
             "options": [
               {},
               {},
@@ -29609,7 +29620,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ a mensagem?",
             "options": [
               {},
               {},
@@ -29619,7 +29630,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase com o verbo no passado.",
             "options": [
               {},
               {},
@@ -29629,7 +29640,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
             "options": [
               {},
               {},
@@ -29639,7 +29650,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase conta uma ação concluída?",
             "options": [
               {},
               {},
@@ -29654,89 +29665,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "visitei",
+          "visito",
+          "visitar",
+          "visitamos"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Nós jantar juntos.",
+          "Nós jantamos juntos.",
+          "Nós jantou juntos.",
+          "Nós jantaremos ontem."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "voltar",
+          "volta",
+          "voltou",
+          "voltaram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "Primeiro estudamos, se saímos.",
+          "Primeiro estudamos, porque saímos.",
+          "Primeiro estudamos, porém saímos.",
+          "Primeiro estudamos, depois saímos."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ a mensagem?",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "leu",
+          "lê",
+          "ler",
+          "leram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase com o verbo no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Meus amigos pegar o ônibus.",
+          "Meus amigos pegaram o ônibus.",
+          "Meus amigos pegou o ônibus.",
+          "Meus amigos pegam ontem o ônibus."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "ter",
+          "temos",
+          "tivemos",
+          "teve"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase conta uma ação concluída?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "No sábado encontro eu minha prima.",
+          "No sábado encontro minha prima amanhã.",
+          "No sábado encontrar minha prima.",
+          "No sábado encontrei minha prima."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
@@ -30320,52 +30331,52 @@
     "vocabulary": [
       {
         "word": "relação",
-        "translation": "Palabra clave 1",
+        "translation": "relación",
         "example": "Uso a palavra «relação» no contexto."
       },
       {
         "word": "escutar",
-        "translation": "Palabra clave 2",
+        "translation": "escuchar",
         "example": "Uso a palavra «escutar» no contexto."
       },
       {
         "word": "explicar",
-        "translation": "Palabra clave 3",
+        "translation": "explicar",
         "example": "Uso a palavra «explicar» no contexto."
       },
       {
         "word": "mensagem",
-        "translation": "Palabra clave 4",
+        "translation": "mensaje",
         "example": "Uso a palavra «mensagem» no contexto."
       },
       {
         "word": "acordo",
-        "translation": "Palabra clave 5",
+        "translation": "acuerdo",
         "example": "Uso a palavra «acordo» no contexto."
       },
       {
         "word": "confiança",
-        "translation": "Palabra clave 6",
+        "translation": "confianza",
         "example": "Uso a palavra «confiança» no contexto."
       },
       {
         "word": "conversa",
-        "translation": "Palabra clave 7",
+        "translation": "conversación",
         "example": "Uso a palavra «conversa» no contexto."
       },
       {
         "word": "opinião",
-        "translation": "Palabra clave 8",
+        "translation": "opinión",
         "example": "Uso a palavra «opinião» no contexto."
       },
       {
         "word": "esclarecer",
-        "translation": "Palabra clave 9",
+        "translation": "esclarecer",
         "example": "Uso a palavra «esclarecer» no contexto."
       },
       {
         "word": "respeitar",
-        "translation": "Palabra clave 10",
+        "translation": "respetar",
         "example": "Uso a palavra «respeitar» no contexto."
       }
     ],
@@ -30404,52 +30415,52 @@
     "vocabulary": [
       {
         "word": "cidadania",
-        "translation": "Palabra clave 1",
+        "translation": "ciudadanía",
         "example": "Uso a palavra «cidadania» no contexto."
       },
       {
         "word": "participar",
-        "translation": "Palabra clave 2",
+        "translation": "participar",
         "example": "Uso a palavra «participar» no contexto."
       },
       {
         "word": "direito",
-        "translation": "Palabra clave 3",
+        "translation": "derecho",
         "example": "Uso a palavra «direito» no contexto."
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 4",
+        "translation": "propuesta",
         "example": "Uso a palavra «proposta» no contexto."
       },
       {
         "word": "comunidade",
-        "translation": "Palabra clave 5",
+        "translation": "comunidad",
         "example": "Uso a palavra «comunidade» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 6",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "voluntário",
-        "translation": "Palabra clave 7",
+        "translation": "voluntario",
         "example": "Uso a palavra «voluntário» no contexto."
       },
       {
         "word": "iniciativa",
-        "translation": "Palabra clave 8",
+        "translation": "iniciativa",
         "example": "Uso a palavra «iniciativa» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "responsabilidade",
-        "translation": "Palabra clave 10",
+        "translation": "responsabilidad",
         "example": "Uso a palavra «responsabilidade» no contexto."
       }
     ],
@@ -30476,52 +30487,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Sobre o que é o texto?",
+        "prompt": "Sobre o que o grupo conversa?",
         "options": [
           "cidadania",
-          "participar",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "iniciativa",
+          "melhorar",
+          "responsabilidade"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "O que a personagem faz primeiro?",
+        "prompt": "O que cada pessoa faz?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Conta uma experiência, escuta e propõe uma solução.",
+          "Compra um ingresso para um evento.",
+          "Não escuta as outras pessoas.",
+          "Cancela o projeto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é o papel da segunda pessoa?",
+        "prompt": "Por que decidem colaborar?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Porque têm um objetivo claro.",
+          "Porque não têm tempo.",
+          "Porque não conhecem o tema.",
+          "Porque preferem trabalhar sozinhos."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Por que o grupo colabora?",
+        "prompt": "Que ideia ajuda na vida cotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Uma solução concreta e colaborativa.",
+          "Uma lista sem contexto.",
+          "Uma discussão sem objetivo.",
+          "Uma decisão individual."
         ]
       },
       {
+        "id": "portuguese-b1-cidadania-e-participacao-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual é o objetivo comum?",
+        "prompt": "What is the main purpose of “Cidadania e participação”?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "To explain the central ideas and details of Cidadania e participação",
+          "To discuss an unrelated topic",
+          "To provide a list without context",
+          "To tell a story with no connection to the topic"
         ]
       }
     ]
@@ -30717,52 +30729,52 @@
     "vocabulary": [
       {
         "word": "cidadania",
-        "translation": "Palabra clave 1",
+        "translation": "ciudadanía",
         "example": "Uso a palavra «cidadania» no contexto."
       },
       {
         "word": "participar",
-        "translation": "Palabra clave 2",
+        "translation": "participar",
         "example": "Uso a palavra «participar» no contexto."
       },
       {
         "word": "direito",
-        "translation": "Palabra clave 3",
+        "translation": "derecho",
         "example": "Uso a palavra «direito» no contexto."
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 4",
+        "translation": "propuesta",
         "example": "Uso a palavra «proposta» no contexto."
       },
       {
         "word": "comunidade",
-        "translation": "Palabra clave 5",
+        "translation": "comunidad",
         "example": "Uso a palavra «comunidade» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 6",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "voluntário",
-        "translation": "Palabra clave 7",
+        "translation": "voluntario",
         "example": "Uso a palavra «voluntário» no contexto."
       },
       {
         "word": "iniciativa",
-        "translation": "Palabra clave 8",
+        "translation": "iniciativa",
         "example": "Uso a palavra «iniciativa» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "responsabilidade",
-        "translation": "Palabra clave 10",
+        "translation": "responsabilidad",
         "example": "Uso a palavra «responsabilidade» no contexto."
       }
     ],
@@ -30771,10 +30783,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Cidadania: subjuntivo e propostas",
-        "definition": "Práctica guiada de Cidadania: subjuntivo e propostas.",
+        "name": "Cidadania e participação: gramática",
+        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Expressar e justificar um ponto de vista.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -30784,7 +30796,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acho que a proposta ___ útil.",
             "options": [
               {},
               {},
@@ -30794,7 +30806,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha o conector de contraste.",
             "options": [
               {},
               {},
@@ -30804,7 +30816,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Fico em casa porque ___ cansado.",
             "options": [
               {},
               {},
@@ -30814,7 +30826,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase expressa uma opinião?",
             "options": [
               {},
               {},
@@ -30824,7 +30836,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Embora ___ tarde, continuamos.",
             "options": [
               {},
               {},
@@ -30834,7 +30846,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha uma consequência.",
             "options": [
               {},
               {},
@@ -30844,7 +30856,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Acredito que eles ___ razão.",
             "options": [
               {},
               {},
@@ -30854,7 +30866,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase justifica uma escolha?",
             "options": [
               {},
               {},
@@ -30869,89 +30881,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acho que a proposta ___ útil.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "é",
+          "são",
+          "ser",
+          "seja"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha o conector de contraste.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Quero sair, portanto está chovendo.",
+          "Quero sair, porém está chovendo.",
+          "Quero sair, porque está chovendo.",
+          "Quero sair, então está chovendo."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Fico em casa porque ___ cansado.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "estar",
+          "está",
+          "estou",
+          "estamos"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase expressa uma opinião?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "O projeto funciona por quê?",
+          "O projeto ontem funciona?",
+          "Funcionar projeto na minha opinião.",
+          "Na minha opinião, o projeto funciona."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Embora ___ tarde, continuamos.",
         "options": [
-          "Acho que a proposta é útil.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "seja",
+          "é",
+          "ser",
+          "são"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha uma consequência.",
         "options": [
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Temos pouco tempo, porém organizamos o trabalho.",
+          "Temos pouco tempo, portanto organizamos o trabalho.",
+          "Temos pouco tempo, porque organizamos o trabalho.",
+          "Temos pouco tempo, embora organizamos o trabalho."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Acredito que eles ___ razão.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Acho que a proposta é útil.",
-          "Moro eu no bairro?"
+          "ter",
+          "têm",
+          "tenham",
+          "terão"
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase justifica uma escolha?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Acho que a proposta é útil."
+          "Escolho o trem é mais sustentável porque?",
+          "Escolho o trem porém é mais sustentável.",
+          "Escolho o trem portanto é mais sustentável?",
+          "Escolho o trem porque é mais sustentável."
         ],
         "explanation": "Conectores, opiniões e hipóteses ajudam a construir um argumento."
       }
@@ -31359,52 +31371,52 @@
     "vocabulary": [
       {
         "word": "cidadania",
-        "translation": "Palabra clave 1",
+        "translation": "ciudadanía",
         "example": "Uso a palavra «cidadania» no contexto."
       },
       {
         "word": "participar",
-        "translation": "Palabra clave 2",
+        "translation": "participar",
         "example": "Uso a palavra «participar» no contexto."
       },
       {
         "word": "direito",
-        "translation": "Palabra clave 3",
+        "translation": "derecho",
         "example": "Uso a palavra «direito» no contexto."
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 4",
+        "translation": "propuesta",
         "example": "Uso a palavra «proposta» no contexto."
       },
       {
         "word": "comunidade",
-        "translation": "Palabra clave 5",
+        "translation": "comunidad",
         "example": "Uso a palavra «comunidade» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 6",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "voluntário",
-        "translation": "Palabra clave 7",
+        "translation": "voluntario",
         "example": "Uso a palavra «voluntário» no contexto."
       },
       {
         "word": "iniciativa",
-        "translation": "Palabra clave 8",
+        "translation": "iniciativa",
         "example": "Uso a palavra «iniciativa» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "responsabilidade",
-        "translation": "Palabra clave 10",
+        "translation": "responsabilidad",
         "example": "Uso a palavra «responsabilidade» no contexto."
       }
     ],
@@ -31579,8 +31591,8 @@
     "vocabulary": [
       {
         "word": "cidadania",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "ciudadanía",
+        "definition": "ciudadanía",
         "example": "Uso “cidadania” em uma frase.",
         "contexts": [
           "cidadania · tema",
@@ -31590,8 +31602,8 @@
       },
       {
         "word": "participar",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "participar",
+        "definition": "participar",
         "example": "Uso “participar” em uma frase.",
         "contexts": [
           "participar · tema",
@@ -31601,8 +31613,8 @@
       },
       {
         "word": "direito",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "derecho",
+        "definition": "derecho",
         "example": "Uso “direito” em uma frase.",
         "contexts": [
           "direito · tema",
@@ -31612,8 +31624,8 @@
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "propuesta",
+        "definition": "propuesta",
         "example": "Uso “proposta” em uma frase.",
         "contexts": [
           "proposta · tema",
@@ -31623,8 +31635,8 @@
       },
       {
         "word": "comunidade",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "comunidad",
+        "definition": "comunidad",
         "example": "Uso “comunidade” em uma frase.",
         "contexts": [
           "comunidade · tema",
@@ -31634,8 +31646,8 @@
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "elegir",
+        "definition": "elegir",
         "example": "Uso “escolher” em uma frase.",
         "contexts": [
           "escolher · tema",
@@ -31645,8 +31657,8 @@
       },
       {
         "word": "voluntário",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "voluntario",
+        "definition": "voluntario",
         "example": "Uso “voluntário” em uma frase.",
         "contexts": [
           "voluntário · tema",
@@ -31656,8 +31668,8 @@
       },
       {
         "word": "iniciativa",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "iniciativa",
+        "definition": "iniciativa",
         "example": "Uso “iniciativa” em uma frase.",
         "contexts": [
           "iniciativa · tema",
@@ -31667,8 +31679,8 @@
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Uso “melhorar” em uma frase.",
         "contexts": [
           "melhorar · tema",
@@ -31678,8 +31690,8 @@
       },
       {
         "word": "responsabilidade",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "responsabilidad",
+        "definition": "responsabilidad",
         "example": "Uso “responsabilidade” em uma frase.",
         "contexts": [
           "responsabilidade · tema",
@@ -31925,52 +31937,52 @@
     "vocabulary": [
       {
         "word": "cidadania",
-        "translation": "Palabra clave 1",
+        "translation": "ciudadanía",
         "example": "Uso a palavra «cidadania» no contexto."
       },
       {
         "word": "participar",
-        "translation": "Palabra clave 2",
+        "translation": "participar",
         "example": "Uso a palavra «participar» no contexto."
       },
       {
         "word": "direito",
-        "translation": "Palabra clave 3",
+        "translation": "derecho",
         "example": "Uso a palavra «direito» no contexto."
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 4",
+        "translation": "propuesta",
         "example": "Uso a palavra «proposta» no contexto."
       },
       {
         "word": "comunidade",
-        "translation": "Palabra clave 5",
+        "translation": "comunidad",
         "example": "Uso a palavra «comunidade» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 6",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "voluntário",
-        "translation": "Palabra clave 7",
+        "translation": "voluntario",
         "example": "Uso a palavra «voluntário» no contexto."
       },
       {
         "word": "iniciativa",
-        "translation": "Palabra clave 8",
+        "translation": "iniciativa",
         "example": "Uso a palavra «iniciativa» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "responsabilidade",
-        "translation": "Palabra clave 10",
+        "translation": "responsabilidad",
         "example": "Uso a palavra «responsabilidade» no contexto."
       }
     ],
@@ -32080,10 +32092,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Mensagens no presente",
-        "definition": "Práctica guiada de Mensagens no presente.",
+        "name": "Mensagem para casa: gramática",
+        "definition": "O presente descreve rotinas e informações simples.",
         "structure": "sujeito + verbo no presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Falar de pessoas, lugares e hábitos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -32093,7 +32105,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Eu ___ no bairro.",
             "options": [
               {},
               {},
@@ -32103,7 +32115,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta.",
             "options": [
               {},
               {},
@@ -32113,7 +32125,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ português todos os dias.",
             "options": [
               {},
               {},
@@ -32123,7 +32135,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual pergunta está correta?",
             "options": [
               {},
               {},
@@ -32133,7 +32145,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ela ___ uma pergunta.",
             "options": [
               {},
               {},
@@ -32143,7 +32155,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase que descreve uma casa.",
             "options": [
               {},
               {},
@@ -32153,7 +32165,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ café?",
             "options": [
               {},
               {},
@@ -32163,7 +32175,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase fala de uma rotina?",
             "options": [
               {},
               {},
@@ -32178,89 +32190,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Eu ___ no bairro.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "moro",
+          "mora",
+          "morar",
+          "moramos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Rafael falar com Luana.",
+          "Rafael fala com Luana.",
+          "Rafael falo com Luana.",
+          "Rafael falam com Luana."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ português todos os dias.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "estudar",
+          "estuda",
+          "estudamos",
+          "estudam"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual pergunta está correta?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Onde você moram?",
+          "Onde você morar?",
+          "Onde mora você?",
+          "Onde você mora?"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ela ___ uma pergunta.",
         "options": [
-          "Eu moro no bairro.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "faz",
+          "faço",
+          "fazer",
+          "fazem"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase que descreve uma casa.",
         "options": [
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "O casa é clara.",
+          "A casa é clara.",
+          "A casa são clara.",
+          "A casa é claro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ café?",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Eu moro no bairro.",
-          "Moro eu no bairro?"
+          "tomar",
+          "tomam",
+          "toma",
+          "tomamos"
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase fala de uma rotina?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Eu moro no bairro."
+          "Toda manhã trabalham eu no centro.",
+          "Ontem trabalhar no centro.",
+          "Amanhã trabalhei no centro.",
+          "Toda manhã trabalho no centro."
         ],
         "explanation": "O presente descreve rotinas e informações simples."
       }
@@ -32290,10 +32302,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Narrativa no passado",
-        "definition": "Práctica guiada de Narrativa no passado.",
+        "name": "Contar uma experiência: gramática",
+        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Contar experiências e planos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -32303,7 +32315,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Ontem eu ___ o museu.",
             "options": [
               {},
               {},
@@ -32313,7 +32325,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase correta no passado.",
             "options": [
               {},
               {},
@@ -32323,7 +32335,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Marta ___ tarde para casa.",
             "options": [
               {},
               {},
@@ -32333,7 +32345,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase mostra sequência?",
             "options": [
               {},
               {},
@@ -32343,7 +32355,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Você ___ a mensagem?",
             "options": [
               {},
               {},
@@ -32353,7 +32365,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Escolha a frase com o verbo no passado.",
             "options": [
               {},
               {},
@@ -32363,7 +32375,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Complete: Nós ___ uma experiência importante.",
             "options": [
               {},
               {},
@@ -32373,7 +32385,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Qual frase está correta?",
+            "prompt": "Qual frase conta uma ação concluída?",
             "options": [
               {},
               {},
@@ -32388,89 +32400,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Ontem eu ___ o museu.",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "visitei",
+          "visito",
+          "visitar",
+          "visitamos"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase correta no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Nós jantar juntos.",
+          "Nós jantamos juntos.",
+          "Nós jantou juntos.",
+          "Nós jantaremos ontem."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Marta ___ tarde para casa.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "voltar",
+          "volta",
+          "voltou",
+          "voltaram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase mostra sequência?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "Primeiro estudamos, se saímos.",
+          "Primeiro estudamos, porque saímos.",
+          "Primeiro estudamos, porém saímos.",
+          "Primeiro estudamos, depois saímos."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Você ___ a mensagem?",
         "options": [
-          "Ontem visitei o museu.",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "leu",
+          "lê",
+          "ler",
+          "leram"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Escolha a frase com o verbo no passado.",
         "options": [
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Eu mora no bairro.",
-          "Moro eu no bairro?"
+          "Meus amigos pegar o ônibus.",
+          "Meus amigos pegaram o ônibus.",
+          "Meus amigos pegou o ônibus.",
+          "Meus amigos pegam ontem o ônibus."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Complete: Nós ___ uma experiência importante.",
         "options": [
-          "Eu mora no bairro.",
-          "Eu morar no bairro.",
-          "Ontem visitei o museu.",
-          "Moro eu no bairro?"
+          "ter",
+          "temos",
+          "tivemos",
+          "teve"
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       },
       {
         "type": "mcq",
-        "prompt": "Qual frase está correta?",
+        "prompt": "Qual frase conta uma ação concluída?",
         "options": [
-          "Moro eu no bairro?",
-          "Eu morar no bairro.",
-          "Eu mora no bairro.",
-          "Ontem visitei o museu."
+          "No sábado encontro eu minha prima.",
+          "No sábado encontro minha prima amanhã.",
+          "No sábado encontrar minha prima.",
+          "No sábado encontrei minha prima."
         ],
         "explanation": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa."
       }
@@ -33054,52 +33066,52 @@
     "vocabulary": [
       {
         "word": "cidadania",
-        "translation": "Palabra clave 1",
+        "translation": "ciudadanía",
         "example": "Uso a palavra «cidadania» no contexto."
       },
       {
         "word": "participar",
-        "translation": "Palabra clave 2",
+        "translation": "participar",
         "example": "Uso a palavra «participar» no contexto."
       },
       {
         "word": "direito",
-        "translation": "Palabra clave 3",
+        "translation": "derecho",
         "example": "Uso a palavra «direito» no contexto."
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 4",
+        "translation": "propuesta",
         "example": "Uso a palavra «proposta» no contexto."
       },
       {
         "word": "comunidade",
-        "translation": "Palabra clave 5",
+        "translation": "comunidad",
         "example": "Uso a palavra «comunidade» no contexto."
       },
       {
         "word": "escolher",
-        "translation": "Palabra clave 6",
+        "translation": "elegir",
         "example": "Uso a palavra «escolher» no contexto."
       },
       {
         "word": "voluntário",
-        "translation": "Palabra clave 7",
+        "translation": "voluntario",
         "example": "Uso a palavra «voluntário» no contexto."
       },
       {
         "word": "iniciativa",
-        "translation": "Palabra clave 8",
+        "translation": "iniciativa",
         "example": "Uso a palavra «iniciativa» no contexto."
       },
       {
         "word": "melhorar",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Uso a palavra «melhorar» no contexto."
       },
       {
         "word": "responsabilidade",
-        "translation": "Palabra clave 10",
+        "translation": "responsabilidad",
         "example": "Uso a palavra «responsabilidade» no contexto."
       }
     ],

@@ -129,35 +129,35 @@
     "vocab": [
       [
         "obiettivi",
-        "Palabra clave 1"
+        "Objetivos"
       ],
       [
         "scadenza",
-        "Palabra clave 2"
+        "vencimiento"
       ],
       [
         "squadra",
-        "Palabra clave 3"
+        "escuadrón"
       ],
       [
         "migliorare",
-        "Palabra clave 4"
+        "mejorar"
       ],
       [
         "scegliere",
-        "Palabra clave 5"
+        "escoger"
       ],
       [
         "risultato",
-        "Palabra clave 6"
+        "resultado"
       ],
       [
         "responsabilità",
-        "Palabra clave 7"
+        "responsabilidad"
       ],
       [
         "proposta",
-        "Palabra clave 8"
+        "propuesta"
       ]
     ],
     "grammar": [
@@ -438,52 +438,52 @@
     "vocabulary": [
       {
         "word": "obiettivi",
-        "translation": "Palabra clave 1",
+        "translation": "Objetivos",
         "example": "Uso la parola «obiettivi» nel contesto."
       },
       {
         "word": "scadenza",
-        "translation": "Palabra clave 2",
+        "translation": "vencimiento",
         "example": "Uso la parola «scadenza» nel contesto."
       },
       {
         "word": "squadra",
-        "translation": "Palabra clave 3",
+        "translation": "escuadrón",
         "example": "Uso la parola «squadra» nel contesto."
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 4",
+        "translation": "mejorar",
         "example": "Uso la parola «migliorare» nel contesto."
       },
       {
         "word": "scegliere",
-        "translation": "Palabra clave 5",
+        "translation": "escoger",
         "example": "Uso la parola «scegliere» nel contesto."
       },
       {
         "word": "risultato",
-        "translation": "Palabra clave 6",
+        "translation": "resultado",
         "example": "Uso la parola «risultato» nel contesto."
       },
       {
         "word": "responsabilità",
-        "translation": "Palabra clave 7",
+        "translation": "responsabilidad",
         "example": "Uso la parola «responsabilità» nel contesto."
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 8",
+        "translation": "propuesta",
         "example": "Uso la parola «proposta» nel contesto."
       },
       {
         "word": "abitudine",
-        "translation": "Palabra clave 9",
+        "translation": "costumbre",
         "example": "Uso la parola «abitudine» nel contesto."
       },
       {
         "word": "fiducia",
-        "translation": "Palabra clave 10",
+        "translation": "confianza",
         "example": "Uso la parola «fiducia» nel contesto."
       }
     ],
@@ -510,52 +510,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il testo?",
+        "prompt": "Di che cosa parla il gruppo?",
         "options": [
           "obiettivi",
-          "scadenza",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "proposta",
+          "abitudine",
+          "fiducia"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa prima la protagonista?",
+        "prompt": "Che cosa fa ogni persona?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Racconta un’esperienza, ascolta e propone una soluzione.",
+          "Compra un biglietto per un evento.",
+          "Non ascolta le altre persone.",
+          "Annulla il progetto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale ruolo ha la seconda persona?",
+        "prompt": "Perché decidono di collaborare?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Perché hanno un obiettivo chiaro.",
+          "Perché non hanno tempo.",
+          "Perché non conoscono il tema.",
+          "Perché preferiscono lavorare da soli."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché il gruppo collabora?",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Una soluzione concreta e collaborativa.",
+          "Un elenco senza contesto.",
+          "Una discussione senza obiettivo.",
+          "Una decisione individuale."
         ]
       },
       {
+        "id": "italian-b1-lavoro-e-obiettivi-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è l’obiettivo comune?",
+        "prompt": "Qual è lo scopo principale di «Lavoro e obiettivi»?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Presentare le idee e i dettagli essenziali di Lavoro e obiettivi",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
         ]
       }
     ]
@@ -751,52 +752,52 @@
     "vocabulary": [
       {
         "word": "obiettivi",
-        "translation": "Palabra clave 1",
+        "translation": "Objetivos",
         "example": "Uso la parola «obiettivi» nel contesto."
       },
       {
         "word": "scadenza",
-        "translation": "Palabra clave 2",
+        "translation": "vencimiento",
         "example": "Uso la parola «scadenza» nel contesto."
       },
       {
         "word": "squadra",
-        "translation": "Palabra clave 3",
+        "translation": "escuadrón",
         "example": "Uso la parola «squadra» nel contesto."
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 4",
+        "translation": "mejorar",
         "example": "Uso la parola «migliorare» nel contesto."
       },
       {
         "word": "scegliere",
-        "translation": "Palabra clave 5",
+        "translation": "escoger",
         "example": "Uso la parola «scegliere» nel contesto."
       },
       {
         "word": "risultato",
-        "translation": "Palabra clave 6",
+        "translation": "resultado",
         "example": "Uso la parola «risultato» nel contesto."
       },
       {
         "word": "responsabilità",
-        "translation": "Palabra clave 7",
+        "translation": "responsabilidad",
         "example": "Uso la parola «responsabilità» nel contesto."
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 8",
+        "translation": "propuesta",
         "example": "Uso la parola «proposta» nel contesto."
       },
       {
         "word": "abitudine",
-        "translation": "Palabra clave 9",
+        "translation": "costumbre",
         "example": "Uso la parola «abitudine» nel contesto."
       },
       {
         "word": "fiducia",
-        "translation": "Palabra clave 10",
+        "translation": "confianza",
         "example": "Uso la parola «fiducia» nel contesto."
       }
     ],
@@ -805,10 +806,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Periodo ipotetico della possibilità",
-        "definition": "Práctica guiada de Periodo ipotetico della possibilità.",
+        "name": "Lavoro e obiettivi: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -818,7 +819,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
               {},
               {},
@@ -828,7 +829,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli il connettore di contrasto.",
             "options": [
               {},
               {},
@@ -838,7 +839,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
               {},
               {},
@@ -848,7 +849,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase esprime un’opinione?",
             "options": [
               {},
               {},
@@ -858,7 +859,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
               {},
               {},
@@ -868,7 +869,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la conclusione logica.",
             "options": [
               {},
               {},
@@ -878,7 +879,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
               {},
               {},
@@ -888,7 +889,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase giustifica una scelta?",
             "options": [
               {},
               {},
@@ -903,89 +904,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Vorrei uscire, quindi piove.",
+          "Vorrei uscire, tuttavia piove.",
+          "Vorrei uscire, perché piove.",
+          "Vorrei uscire, infatti piove."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "essere",
+          "sia",
+          "sono",
+          "sarei"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Il progetto funziona perché?",
+          "Il progetto ieri funziona?",
+          "Funzionare progetto secondo me.",
+          "Secondo me, il progetto funziona."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
+          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
+          "Abbiamo poco tempo, perché organizziamo il lavoro.",
+          "Abbiamo poco tempo, se organizziamo il lavoro."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "avere",
+          "hanno",
+          "abbiano",
+          "avranno"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Scelgo il treno è più sostenibile perché?",
+          "Scelgo il treno tuttavia è più sostenibile.",
+          "Scelgo il treno quindi è più sostenibile?",
+          "Scelgo il treno perché è più sostenibile."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
@@ -1393,8 +1394,8 @@
     "vocabulary": [
       {
         "word": "obiettivi",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "Objetivos",
+        "definition": "Objetivos",
         "example": "Uso «obiettivi» in una frase.",
         "contexts": [
           "obiettivi · tema",
@@ -1404,8 +1405,8 @@
       },
       {
         "word": "scadenza",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "vencimiento",
+        "definition": "vencimiento",
         "example": "Uso «scadenza» in una frase.",
         "contexts": [
           "scadenza · tema",
@@ -1415,8 +1416,8 @@
       },
       {
         "word": "squadra",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "escuadrón",
+        "definition": "escuadrón",
         "example": "Uso «squadra» in una frase.",
         "contexts": [
           "squadra · tema",
@@ -1426,8 +1427,8 @@
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Uso «migliorare» in una frase.",
         "contexts": [
           "migliorare · tema",
@@ -1437,8 +1438,8 @@
       },
       {
         "word": "scegliere",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "escoger",
+        "definition": "escoger",
         "example": "Uso «scegliere» in una frase.",
         "contexts": [
           "scegliere · tema",
@@ -1448,8 +1449,8 @@
       },
       {
         "word": "risultato",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "resultado",
+        "definition": "resultado",
         "example": "Uso «risultato» in una frase.",
         "contexts": [
           "risultato · tema",
@@ -1459,8 +1460,8 @@
       },
       {
         "word": "responsabilità",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "responsabilidad",
+        "definition": "responsabilidad",
         "example": "Uso «responsabilità» in una frase.",
         "contexts": [
           "responsabilità · tema",
@@ -1470,8 +1471,8 @@
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "propuesta",
+        "definition": "propuesta",
         "example": "Uso «proposta» in una frase.",
         "contexts": [
           "proposta · tema",
@@ -1481,8 +1482,8 @@
       },
       {
         "word": "abitudine",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "costumbre",
+        "definition": "costumbre",
         "example": "Uso «abitudine» in una frase.",
         "contexts": [
           "abitudine · tema",
@@ -1492,8 +1493,8 @@
       },
       {
         "word": "fiducia",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "confianza",
+        "definition": "confianza",
         "example": "Uso «fiducia» in una frase.",
         "contexts": [
           "fiducia · tema",
@@ -1801,10 +1802,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Saluti, essere e chiamarsi",
-        "definition": "Práctica guiada de Saluti, essere e chiamarsi.",
+        "name": "Benvenuti in Italia: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
         "structure": "soggetto + verbo al presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Descrivere persone, luoghi e routine.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -1814,7 +1815,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Io ___ nel quartiere.",
             "options": [
               {},
               {},
@@ -1824,7 +1825,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la forma corretta per Marco.",
             "options": [
               {},
               {},
@@ -1834,7 +1835,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ italiano ogni giorno.",
             "options": [
               {},
               {},
@@ -1844,7 +1845,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale domanda è corretta?",
             "options": [
               {},
               {},
@@ -1854,7 +1855,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Lei ___ una domanda.",
             "options": [
               {},
               {},
@@ -1864,7 +1865,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase con l’articolo corretto.",
             "options": [
               {},
               {},
@@ -1874,7 +1875,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il caffè?",
             "options": [
               {},
               {},
@@ -1884,7 +1885,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase parla di una routine?",
             "options": [
               {},
               {},
@@ -1899,89 +1900,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Io ___ nel quartiere.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "vivo",
+          "vive",
+          "vivere",
+          "viviamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la forma corretta per Marco.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Marco parlare con Sofia.",
+          "Marco parla con Sofia.",
+          "Marco parlo con Sofia.",
+          "Marco parlano con Sofia."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ italiano ogni giorno.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "studiare",
+          "studia",
+          "studiamo",
+          "studiate"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale domanda è corretta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Dove abiti tu è?",
+          "Dove abita tu?",
+          "Dove abitare?",
+          "Dove abiti?"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Lei ___ una domanda.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "fa",
+          "faccio",
+          "fare",
+          "fanno"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase con l’articolo corretto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Il casa è luminosa.",
+          "La casa è luminosa.",
+          "La casa sono luminosa.",
+          "La casa è luminoso."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il caffè?",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "prendere",
+          "prende",
+          "prendi",
+          "prendiamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase parla di una routine?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Ogni mattina lavorano io in centro.",
+          "Ieri lavorare in centro.",
+          "Domani lavorato in centro.",
+          "Ogni mattina lavoro in centro."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
@@ -2011,10 +2012,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Passato prossimo con essere e avere",
-        "definition": "Práctica guiada de Passato prossimo con essere e avere.",
+        "name": "Vita in città: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Raccontare esperienze e progetti.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -2024,7 +2025,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Ieri io ___ il museo.",
             "options": [
               {},
               {},
@@ -2034,7 +2035,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase al passato prossimo corretta.",
             "options": [
               {},
               {},
@@ -2044,7 +2045,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Marta ___ a casa tardi.",
             "options": [
               {},
               {},
@@ -2054,7 +2055,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale connettore indica la sequenza?",
             "options": [
               {},
               {},
@@ -2064,7 +2065,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il messaggio?",
             "options": [
               {},
               {},
@@ -2074,7 +2075,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase corretta.",
             "options": [
               {},
               {},
@@ -2084,7 +2085,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ una bella esperienza.",
             "options": [
               {},
               {},
@@ -2094,7 +2095,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase racconta un’azione conclusa?",
             "options": [
               {},
               {},
@@ -2109,89 +2110,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Ieri io ___ il museo.",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "ho visitato",
+          "visito",
+          "ho visitare",
+          "sono visitato"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase al passato prossimo corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo cenare insieme.",
+          "Abbiamo cenato insieme.",
+          "Siamo cenato insieme.",
+          "Ceniamo ieri insieme."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Marta ___ a casa tardi.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "è tornare",
+          "ha tornata",
+          "è tornata",
+          "torna ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale connettore indica la sequenza?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Prima abbiamo studiato, se siamo usciti.",
+          "Prima abbiamo studiato, perché siamo usciti.",
+          "Prima abbiamo studiato, ma siamo usciti.",
+          "Prima abbiamo studiato, poi siamo usciti."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il messaggio?",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "hai letto",
+          "hai leggere",
+          "sei letto",
+          "leggi ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "I miei amici sono preso il treno.",
+          "I miei amici hanno preso il treno.",
+          "I miei amici hanno prendere il treno.",
+          "I miei amici prendono il treno ieri."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ una bella esperienza.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "abbiamo avere",
+          "siamo avuti",
+          "abbiamo avuto",
+          "aviamo avuto"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase racconta un’azione conclusa?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Sabato sono incontrato mia cugina.",
+          "Sabato incontro mia cugina domani.",
+          "Sabato incontrare mia cugina.",
+          "Sabato ho incontrato mia cugina."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
@@ -2775,52 +2776,52 @@
     "vocabulary": [
       {
         "word": "itinerario",
-        "translation": "Palabra clave 1",
+        "translation": "itinerario",
         "example": "Uso la parola «itinerario» nel contesto."
       },
       {
         "word": "prenotazione",
-        "translation": "Palabra clave 2",
+        "translation": "reserva",
         "example": "Uso la parola «prenotazione» nel contesto."
       },
       {
         "word": "paesaggio",
-        "translation": "Palabra clave 3",
+        "translation": "paisaje",
         "example": "Uso la parola «paesaggio» nel contesto."
       },
       {
         "word": "evitare",
-        "translation": "Palabra clave 4",
+        "translation": "evitar",
         "example": "Uso la parola «evitare» nel contesto."
       },
       {
         "word": "consigliare",
-        "translation": "Palabra clave 5",
+        "translation": "recomendar",
         "example": "Uso la parola «consigliare» nel contesto."
       },
       {
         "word": "esperienza",
-        "translation": "Palabra clave 6",
+        "translation": "experiencia",
         "example": "Uso la parola «esperienza» nel contesto."
       },
       {
         "word": "ospitale",
-        "translation": "Palabra clave 7",
+        "translation": "hospitalario",
         "example": "Uso la parola «ospitale» nel contesto."
       },
       {
         "word": "spostamento",
-        "translation": "Palabra clave 8",
+        "translation": "desplazamiento",
         "example": "Uso la parola «spostamento» nel contesto."
       },
       {
         "word": "sostenibile",
-        "translation": "Palabra clave 9",
+        "translation": "sostenible",
         "example": "Uso la parola «sostenibile» nel contesto."
       },
       {
         "word": "ricordo",
-        "translation": "Palabra clave 10",
+        "translation": "recuerdo",
         "example": "Uso la parola «ricordo» nel contesto."
       }
     ],
@@ -2847,52 +2848,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il testo?",
+        "prompt": "Di che cosa parla il gruppo?",
         "options": [
           "itinerario",
-          "prenotazione",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "spostamento",
+          "sostenibile",
+          "ricordo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa prima la protagonista?",
+        "prompt": "Che cosa fa ogni persona?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Racconta un’esperienza, ascolta e propone una soluzione.",
+          "Compra un biglietto per un evento.",
+          "Non ascolta le altre persone.",
+          "Annulla il progetto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale ruolo ha la seconda persona?",
+        "prompt": "Perché decidono di collaborare?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Perché hanno un obiettivo chiaro.",
+          "Perché non hanno tempo.",
+          "Perché non conoscono il tema.",
+          "Perché preferiscono lavorare da soli."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché il gruppo collabora?",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Una soluzione concreta e collaborativa.",
+          "Un elenco senza contesto.",
+          "Una discussione senza obiettivo.",
+          "Una decisione individuale."
         ]
       },
       {
+        "id": "italian-b1-viaggi-consapevoli-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è l’obiettivo comune?",
+        "prompt": "Qual è lo scopo principale di «Viaggi consapevoli»?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Presentare le idee e i dettagli essenziali di Viaggi consapevoli",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
         ]
       }
     ]
@@ -3088,52 +3090,52 @@
     "vocabulary": [
       {
         "word": "itinerario",
-        "translation": "Palabra clave 1",
+        "translation": "itinerario",
         "example": "Uso la parola «itinerario» nel contesto."
       },
       {
         "word": "prenotazione",
-        "translation": "Palabra clave 2",
+        "translation": "reserva",
         "example": "Uso la parola «prenotazione» nel contesto."
       },
       {
         "word": "paesaggio",
-        "translation": "Palabra clave 3",
+        "translation": "paisaje",
         "example": "Uso la parola «paesaggio» nel contesto."
       },
       {
         "word": "evitare",
-        "translation": "Palabra clave 4",
+        "translation": "evitar",
         "example": "Uso la parola «evitare» nel contesto."
       },
       {
         "word": "consigliare",
-        "translation": "Palabra clave 5",
+        "translation": "recomendar",
         "example": "Uso la parola «consigliare» nel contesto."
       },
       {
         "word": "esperienza",
-        "translation": "Palabra clave 6",
+        "translation": "experiencia",
         "example": "Uso la parola «esperienza» nel contesto."
       },
       {
         "word": "ospitale",
-        "translation": "Palabra clave 7",
+        "translation": "hospitalario",
         "example": "Uso la parola «ospitale» nel contesto."
       },
       {
         "word": "spostamento",
-        "translation": "Palabra clave 8",
+        "translation": "desplazamiento",
         "example": "Uso la parola «spostamento» nel contesto."
       },
       {
         "word": "sostenibile",
-        "translation": "Palabra clave 9",
+        "translation": "sostenible",
         "example": "Uso la parola «sostenibile» nel contesto."
       },
       {
         "word": "ricordo",
-        "translation": "Palabra clave 10",
+        "translation": "recuerdo",
         "example": "Uso la parola «ricordo» nel contesto."
       }
     ],
@@ -3142,10 +3144,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Pronomi combinati",
-        "definition": "Práctica guiada de Pronomi combinati.",
+        "name": "Viaggi consapevoli: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -3155,7 +3157,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
               {},
               {},
@@ -3165,7 +3167,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli il connettore di contrasto.",
             "options": [
               {},
               {},
@@ -3175,7 +3177,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
               {},
               {},
@@ -3185,7 +3187,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase esprime un’opinione?",
             "options": [
               {},
               {},
@@ -3195,7 +3197,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
               {},
               {},
@@ -3205,7 +3207,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la conclusione logica.",
             "options": [
               {},
               {},
@@ -3215,7 +3217,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
               {},
               {},
@@ -3225,7 +3227,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase giustifica una scelta?",
             "options": [
               {},
               {},
@@ -3240,89 +3242,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Vorrei uscire, quindi piove.",
+          "Vorrei uscire, tuttavia piove.",
+          "Vorrei uscire, perché piove.",
+          "Vorrei uscire, infatti piove."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "essere",
+          "sia",
+          "sono",
+          "sarei"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Il progetto funziona perché?",
+          "Il progetto ieri funziona?",
+          "Funzionare progetto secondo me.",
+          "Secondo me, il progetto funziona."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
+          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
+          "Abbiamo poco tempo, perché organizziamo il lavoro.",
+          "Abbiamo poco tempo, se organizziamo il lavoro."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "avere",
+          "hanno",
+          "abbiano",
+          "avranno"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Scelgo il treno è più sostenibile perché?",
+          "Scelgo il treno tuttavia è più sostenibile.",
+          "Scelgo il treno quindi è più sostenibile?",
+          "Scelgo il treno perché è più sostenibile."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
@@ -3730,8 +3732,8 @@
     "vocabulary": [
       {
         "word": "itinerario",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "itinerario",
+        "definition": "itinerario",
         "example": "Uso «itinerario» in una frase.",
         "contexts": [
           "itinerario · tema",
@@ -3741,8 +3743,8 @@
       },
       {
         "word": "prenotazione",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "reserva",
+        "definition": "reserva",
         "example": "Uso «prenotazione» in una frase.",
         "contexts": [
           "prenotazione · tema",
@@ -3752,8 +3754,8 @@
       },
       {
         "word": "paesaggio",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "paisaje",
+        "definition": "paisaje",
         "example": "Uso «paesaggio» in una frase.",
         "contexts": [
           "paesaggio · tema",
@@ -3763,8 +3765,8 @@
       },
       {
         "word": "evitare",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "evitar",
+        "definition": "evitar",
         "example": "Uso «evitare» in una frase.",
         "contexts": [
           "evitare · tema",
@@ -3774,8 +3776,8 @@
       },
       {
         "word": "consigliare",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "recomendar",
+        "definition": "recomendar",
         "example": "Uso «consigliare» in una frase.",
         "contexts": [
           "consigliare · tema",
@@ -3785,8 +3787,8 @@
       },
       {
         "word": "esperienza",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "experiencia",
+        "definition": "experiencia",
         "example": "Uso «esperienza» in una frase.",
         "contexts": [
           "esperienza · tema",
@@ -3796,8 +3798,8 @@
       },
       {
         "word": "ospitale",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "hospitalario",
+        "definition": "hospitalario",
         "example": "Uso «ospitale» in una frase.",
         "contexts": [
           "ospitale · tema",
@@ -3807,8 +3809,8 @@
       },
       {
         "word": "spostamento",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "desplazamiento",
+        "definition": "desplazamiento",
         "example": "Uso «spostamento» in una frase.",
         "contexts": [
           "spostamento · tema",
@@ -3818,8 +3820,8 @@
       },
       {
         "word": "sostenibile",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "sostenible",
+        "definition": "sostenible",
         "example": "Uso «sostenibile» in una frase.",
         "contexts": [
           "sostenibile · tema",
@@ -3829,8 +3831,8 @@
       },
       {
         "word": "ricordo",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "recuerdo",
+        "definition": "recuerdo",
         "example": "Uso «ricordo» in una frase.",
         "contexts": [
           "ricordo · tema",
@@ -4138,10 +4140,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Articoli indeterminativi e volere",
-        "definition": "Práctica guiada de Articoli indeterminativi e volere.",
+        "name": "Un caffè al bar: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
         "structure": "soggetto + verbo al presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Descrivere persone, luoghi e routine.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -4151,7 +4153,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Io ___ nel quartiere.",
             "options": [
               {},
               {},
@@ -4161,7 +4163,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la forma corretta per Marco.",
             "options": [
               {},
               {},
@@ -4171,7 +4173,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ italiano ogni giorno.",
             "options": [
               {},
               {},
@@ -4181,7 +4183,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale domanda è corretta?",
             "options": [
               {},
               {},
@@ -4191,7 +4193,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Lei ___ una domanda.",
             "options": [
               {},
               {},
@@ -4201,7 +4203,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase con l’articolo corretto.",
             "options": [
               {},
               {},
@@ -4211,7 +4213,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il caffè?",
             "options": [
               {},
               {},
@@ -4221,7 +4223,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase parla di una routine?",
             "options": [
               {},
               {},
@@ -4236,89 +4238,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Io ___ nel quartiere.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "vivo",
+          "vive",
+          "vivere",
+          "viviamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la forma corretta per Marco.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Marco parlare con Sofia.",
+          "Marco parla con Sofia.",
+          "Marco parlo con Sofia.",
+          "Marco parlano con Sofia."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ italiano ogni giorno.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "studiare",
+          "studia",
+          "studiamo",
+          "studiate"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale domanda è corretta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Dove abiti tu è?",
+          "Dove abita tu?",
+          "Dove abitare?",
+          "Dove abiti?"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Lei ___ una domanda.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "fa",
+          "faccio",
+          "fare",
+          "fanno"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase con l’articolo corretto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Il casa è luminosa.",
+          "La casa è luminosa.",
+          "La casa sono luminosa.",
+          "La casa è luminoso."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il caffè?",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "prendere",
+          "prende",
+          "prendi",
+          "prendiamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase parla di una routine?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Ogni mattina lavorano io in centro.",
+          "Ieri lavorare in centro.",
+          "Domani lavorato in centro.",
+          "Ogni mattina lavoro in centro."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
@@ -4348,10 +4350,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Imperfetto per il contesto",
-        "definition": "Práctica guiada de Imperfetto per il contesto.",
+        "name": "Un fine settimana a Napoli: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Raccontare esperienze e progetti.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -4361,7 +4363,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Ieri io ___ il museo.",
             "options": [
               {},
               {},
@@ -4371,7 +4373,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase al passato prossimo corretta.",
             "options": [
               {},
               {},
@@ -4381,7 +4383,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Marta ___ a casa tardi.",
             "options": [
               {},
               {},
@@ -4391,7 +4393,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale connettore indica la sequenza?",
             "options": [
               {},
               {},
@@ -4401,7 +4403,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il messaggio?",
             "options": [
               {},
               {},
@@ -4411,7 +4413,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase corretta.",
             "options": [
               {},
               {},
@@ -4421,7 +4423,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ una bella esperienza.",
             "options": [
               {},
               {},
@@ -4431,7 +4433,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase racconta un’azione conclusa?",
             "options": [
               {},
               {},
@@ -4446,89 +4448,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Ieri io ___ il museo.",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "ho visitato",
+          "visito",
+          "ho visitare",
+          "sono visitato"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase al passato prossimo corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo cenare insieme.",
+          "Abbiamo cenato insieme.",
+          "Siamo cenato insieme.",
+          "Ceniamo ieri insieme."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Marta ___ a casa tardi.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "è tornare",
+          "ha tornata",
+          "è tornata",
+          "torna ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale connettore indica la sequenza?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Prima abbiamo studiato, se siamo usciti.",
+          "Prima abbiamo studiato, perché siamo usciti.",
+          "Prima abbiamo studiato, ma siamo usciti.",
+          "Prima abbiamo studiato, poi siamo usciti."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il messaggio?",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "hai letto",
+          "hai leggere",
+          "sei letto",
+          "leggi ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "I miei amici sono preso il treno.",
+          "I miei amici hanno preso il treno.",
+          "I miei amici hanno prendere il treno.",
+          "I miei amici prendono il treno ieri."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ una bella esperienza.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "abbiamo avere",
+          "siamo avuti",
+          "abbiamo avuto",
+          "aviamo avuto"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase racconta un’azione conclusa?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Sabato sono incontrato mia cugina.",
+          "Sabato incontro mia cugina domani.",
+          "Sabato incontrare mia cugina.",
+          "Sabato ho incontrato mia cugina."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
@@ -5112,52 +5114,52 @@
     "vocabulary": [
       {
         "word": "benessere",
-        "translation": "Palabra clave 1",
+        "translation": "bienestar",
         "example": "Uso la parola «benessere» nel contesto."
       },
       {
         "word": "riposo",
-        "translation": "Palabra clave 2",
+        "translation": "descanso",
         "example": "Uso la parola «riposo» nel contesto."
       },
       {
         "word": "allenamento",
-        "translation": "Palabra clave 3",
+        "translation": "entrenamiento",
         "example": "Uso la parola «allenamento» nel contesto."
       },
       {
         "word": "equilibrio",
-        "translation": "Palabra clave 4",
+        "translation": "equilibrio",
         "example": "Uso la parola «equilibrio» nel contesto."
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Uso la parola «migliorare» nel contesto."
       },
       {
         "word": "prevenire",
-        "translation": "Palabra clave 6",
+        "translation": "prevenir",
         "example": "Uso la parola «prevenire» nel contesto."
       },
       {
         "word": "abitudine",
-        "translation": "Palabra clave 7",
+        "translation": "costumbre",
         "example": "Uso la parola «abitudine» nel contesto."
       },
       {
         "word": "energia",
-        "translation": "Palabra clave 8",
+        "translation": "energía",
         "example": "Uso la parola «energia» nel contesto."
       },
       {
         "word": "consiglio",
-        "translation": "Palabra clave 9",
+        "translation": "consejo",
         "example": "Uso la parola «consiglio» nel contesto."
       },
       {
         "word": "scelta",
-        "translation": "Palabra clave 10",
+        "translation": "elección",
         "example": "Uso la parola «scelta» nel contesto."
       }
     ],
@@ -5184,52 +5186,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il testo?",
+        "prompt": "Di che cosa parla il gruppo?",
         "options": [
           "benessere",
-          "riposo",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "energia",
+          "consiglio",
+          "scelta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa prima la protagonista?",
+        "prompt": "Che cosa fa ogni persona?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Racconta un’esperienza, ascolta e propone una soluzione.",
+          "Compra un biglietto per un evento.",
+          "Non ascolta le altre persone.",
+          "Annulla il progetto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale ruolo ha la seconda persona?",
+        "prompt": "Perché decidono di collaborare?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Perché hanno un obiettivo chiaro.",
+          "Perché non hanno tempo.",
+          "Perché non conoscono il tema.",
+          "Perché preferiscono lavorare da soli."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché il gruppo collabora?",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Una soluzione concreta e collaborativa.",
+          "Un elenco senza contesto.",
+          "Una discussione senza obiettivo.",
+          "Una decisione individuale."
         ]
       },
       {
+        "id": "italian-b1-salute-e-benessere-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è l’obiettivo comune?",
+        "prompt": "Qual è lo scopo principale di «Salute e benessere»?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Presentare le idee e i dettagli essenziali di Salute e benessere",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
         ]
       }
     ]
@@ -5425,52 +5428,52 @@
     "vocabulary": [
       {
         "word": "benessere",
-        "translation": "Palabra clave 1",
+        "translation": "bienestar",
         "example": "Uso la parola «benessere» nel contesto."
       },
       {
         "word": "riposo",
-        "translation": "Palabra clave 2",
+        "translation": "descanso",
         "example": "Uso la parola «riposo» nel contesto."
       },
       {
         "word": "allenamento",
-        "translation": "Palabra clave 3",
+        "translation": "entrenamiento",
         "example": "Uso la parola «allenamento» nel contesto."
       },
       {
         "word": "equilibrio",
-        "translation": "Palabra clave 4",
+        "translation": "equilibrio",
         "example": "Uso la parola «equilibrio» nel contesto."
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Uso la parola «migliorare» nel contesto."
       },
       {
         "word": "prevenire",
-        "translation": "Palabra clave 6",
+        "translation": "prevenir",
         "example": "Uso la parola «prevenire» nel contesto."
       },
       {
         "word": "abitudine",
-        "translation": "Palabra clave 7",
+        "translation": "costumbre",
         "example": "Uso la parola «abitudine» nel contesto."
       },
       {
         "word": "energia",
-        "translation": "Palabra clave 8",
+        "translation": "energía",
         "example": "Uso la parola «energia» nel contesto."
       },
       {
         "word": "consiglio",
-        "translation": "Palabra clave 9",
+        "translation": "consejo",
         "example": "Uso la parola «consiglio» nel contesto."
       },
       {
         "word": "scelta",
-        "translation": "Palabra clave 10",
+        "translation": "elección",
         "example": "Uso la parola «scelta» nel contesto."
       }
     ],
@@ -5479,10 +5482,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Congiuntivo presente",
-        "definition": "Práctica guiada de Congiuntivo presente.",
+        "name": "Salute e benessere: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -5492,7 +5495,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
               {},
               {},
@@ -5502,7 +5505,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli il connettore di contrasto.",
             "options": [
               {},
               {},
@@ -5512,7 +5515,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
               {},
               {},
@@ -5522,7 +5525,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase esprime un’opinione?",
             "options": [
               {},
               {},
@@ -5532,7 +5535,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
               {},
               {},
@@ -5542,7 +5545,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la conclusione logica.",
             "options": [
               {},
               {},
@@ -5552,7 +5555,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
               {},
               {},
@@ -5562,7 +5565,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase giustifica una scelta?",
             "options": [
               {},
               {},
@@ -5577,89 +5580,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Vorrei uscire, quindi piove.",
+          "Vorrei uscire, tuttavia piove.",
+          "Vorrei uscire, perché piove.",
+          "Vorrei uscire, infatti piove."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "essere",
+          "sia",
+          "sono",
+          "sarei"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Il progetto funziona perché?",
+          "Il progetto ieri funziona?",
+          "Funzionare progetto secondo me.",
+          "Secondo me, il progetto funziona."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
+          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
+          "Abbiamo poco tempo, perché organizziamo il lavoro.",
+          "Abbiamo poco tempo, se organizziamo il lavoro."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "avere",
+          "hanno",
+          "abbiano",
+          "avranno"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Scelgo il treno è più sostenibile perché?",
+          "Scelgo il treno tuttavia è più sostenibile.",
+          "Scelgo il treno quindi è più sostenibile?",
+          "Scelgo il treno perché è più sostenibile."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
@@ -6067,8 +6070,8 @@
     "vocabulary": [
       {
         "word": "benessere",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "bienestar",
+        "definition": "bienestar",
         "example": "Uso «benessere» in una frase.",
         "contexts": [
           "benessere · tema",
@@ -6078,8 +6081,8 @@
       },
       {
         "word": "riposo",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "descanso",
+        "definition": "descanso",
         "example": "Uso «riposo» in una frase.",
         "contexts": [
           "riposo · tema",
@@ -6089,8 +6092,8 @@
       },
       {
         "word": "allenamento",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "entrenamiento",
+        "definition": "entrenamiento",
         "example": "Uso «allenamento» in una frase.",
         "contexts": [
           "allenamento · tema",
@@ -6100,8 +6103,8 @@
       },
       {
         "word": "equilibrio",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "equilibrio",
+        "definition": "equilibrio",
         "example": "Uso «equilibrio» in una frase.",
         "contexts": [
           "equilibrio · tema",
@@ -6111,8 +6114,8 @@
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Uso «migliorare» in una frase.",
         "contexts": [
           "migliorare · tema",
@@ -6122,8 +6125,8 @@
       },
       {
         "word": "prevenire",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "prevenir",
+        "definition": "prevenir",
         "example": "Uso «prevenire» in una frase.",
         "contexts": [
           "prevenire · tema",
@@ -6133,8 +6136,8 @@
       },
       {
         "word": "abitudine",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "costumbre",
+        "definition": "costumbre",
         "example": "Uso «abitudine» in una frase.",
         "contexts": [
           "abitudine · tema",
@@ -6144,8 +6147,8 @@
       },
       {
         "word": "energia",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "energía",
+        "definition": "energía",
         "example": "Uso «energia» in una frase.",
         "contexts": [
           "energia · tema",
@@ -6155,8 +6158,8 @@
       },
       {
         "word": "consiglio",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "consejo",
+        "definition": "consejo",
         "example": "Uso «consiglio» in una frase.",
         "contexts": [
           "consiglio · tema",
@@ -6166,8 +6169,8 @@
       },
       {
         "word": "scelta",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "elección",
+        "definition": "elección",
         "example": "Uso «scelta» in una frase.",
         "contexts": [
           "scelta · tema",
@@ -6475,10 +6478,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Avere, possessivi e plurale",
-        "definition": "Práctica guiada de Avere, possessivi e plurale.",
+        "name": "La famiglia a tavola: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
         "structure": "soggetto + verbo al presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Descrivere persone, luoghi e routine.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -6488,7 +6491,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Io ___ nel quartiere.",
             "options": [
               {},
               {},
@@ -6498,7 +6501,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la forma corretta per Marco.",
             "options": [
               {},
               {},
@@ -6508,7 +6511,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ italiano ogni giorno.",
             "options": [
               {},
               {},
@@ -6518,7 +6521,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale domanda è corretta?",
             "options": [
               {},
               {},
@@ -6528,7 +6531,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Lei ___ una domanda.",
             "options": [
               {},
               {},
@@ -6538,7 +6541,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase con l’articolo corretto.",
             "options": [
               {},
               {},
@@ -6548,7 +6551,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il caffè?",
             "options": [
               {},
               {},
@@ -6558,7 +6561,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase parla di una routine?",
             "options": [
               {},
               {},
@@ -6573,89 +6576,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Io ___ nel quartiere.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "vivo",
+          "vive",
+          "vivere",
+          "viviamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la forma corretta per Marco.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Marco parlare con Sofia.",
+          "Marco parla con Sofia.",
+          "Marco parlo con Sofia.",
+          "Marco parlano con Sofia."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ italiano ogni giorno.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "studiare",
+          "studia",
+          "studiamo",
+          "studiate"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale domanda è corretta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Dove abiti tu è?",
+          "Dove abita tu?",
+          "Dove abitare?",
+          "Dove abiti?"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Lei ___ una domanda.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "fa",
+          "faccio",
+          "fare",
+          "fanno"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase con l’articolo corretto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Il casa è luminosa.",
+          "La casa è luminosa.",
+          "La casa sono luminosa.",
+          "La casa è luminoso."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il caffè?",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "prendere",
+          "prende",
+          "prendi",
+          "prendiamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase parla di una routine?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Ogni mattina lavorano io in centro.",
+          "Ieri lavorare in centro.",
+          "Domani lavorato in centro.",
+          "Ogni mattina lavoro in centro."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
@@ -6685,10 +6688,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Pronomi diretti",
-        "definition": "Práctica guiada de Pronomi diretti.",
+        "name": "Ricette di famiglia: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Raccontare esperienze e progetti.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -6698,7 +6701,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Ieri io ___ il museo.",
             "options": [
               {},
               {},
@@ -6708,7 +6711,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase al passato prossimo corretta.",
             "options": [
               {},
               {},
@@ -6718,7 +6721,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Marta ___ a casa tardi.",
             "options": [
               {},
               {},
@@ -6728,7 +6731,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale connettore indica la sequenza?",
             "options": [
               {},
               {},
@@ -6738,7 +6741,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il messaggio?",
             "options": [
               {},
               {},
@@ -6748,7 +6751,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase corretta.",
             "options": [
               {},
               {},
@@ -6758,7 +6761,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ una bella esperienza.",
             "options": [
               {},
               {},
@@ -6768,7 +6771,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase racconta un’azione conclusa?",
             "options": [
               {},
               {},
@@ -6783,89 +6786,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Ieri io ___ il museo.",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "ho visitato",
+          "visito",
+          "ho visitare",
+          "sono visitato"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase al passato prossimo corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo cenare insieme.",
+          "Abbiamo cenato insieme.",
+          "Siamo cenato insieme.",
+          "Ceniamo ieri insieme."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Marta ___ a casa tardi.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "è tornare",
+          "ha tornata",
+          "è tornata",
+          "torna ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale connettore indica la sequenza?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Prima abbiamo studiato, se siamo usciti.",
+          "Prima abbiamo studiato, perché siamo usciti.",
+          "Prima abbiamo studiato, ma siamo usciti.",
+          "Prima abbiamo studiato, poi siamo usciti."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il messaggio?",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "hai letto",
+          "hai leggere",
+          "sei letto",
+          "leggi ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "I miei amici sono preso il treno.",
+          "I miei amici hanno preso il treno.",
+          "I miei amici hanno prendere il treno.",
+          "I miei amici prendono il treno ieri."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ una bella esperienza.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "abbiamo avere",
+          "siamo avuti",
+          "abbiamo avuto",
+          "aviamo avuto"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase racconta un’azione conclusa?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Sabato sono incontrato mia cugina.",
+          "Sabato incontro mia cugina domani.",
+          "Sabato incontrare mia cugina.",
+          "Sabato ho incontrato mia cugina."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
@@ -7449,52 +7452,52 @@
     "vocabulary": [
       {
         "word": "notizia",
-        "translation": "Palabra clave 1",
+        "translation": "noticia",
         "example": "Uso la parola «notizia» nel contesto."
       },
       {
         "word": "fonte",
-        "translation": "Palabra clave 2",
+        "translation": "fuente",
         "example": "Uso la parola «fonte» nel contesto."
       },
       {
         "word": "pubblico",
-        "translation": "Palabra clave 3",
+        "translation": "público",
         "example": "Uso la parola «pubblico» nel contesto."
       },
       {
         "word": "opinione",
-        "translation": "Palabra clave 4",
+        "translation": "opinión",
         "example": "Uso la parola «opinione» nel contesto."
       },
       {
         "word": "confrontare",
-        "translation": "Palabra clave 5",
+        "translation": "comparar",
         "example": "Uso la parola «confrontare» nel contesto."
       },
       {
         "word": "dibattito",
-        "translation": "Palabra clave 6",
+        "translation": "debate",
         "example": "Uso la parola «dibattito» nel contesto."
       },
       {
         "word": "contenuto",
-        "translation": "Palabra clave 7",
+        "translation": "Contenido",
         "example": "Uso la parola «contenuto» nel contesto."
       },
       {
         "word": "affidabile",
-        "translation": "Palabra clave 8",
+        "translation": "fiable",
         "example": "Uso la parola «affidabile» nel contesto."
       },
       {
         "word": "prospettiva",
-        "translation": "Palabra clave 9",
+        "translation": "perspectiva",
         "example": "Uso la parola «prospettiva» nel contesto."
       },
       {
         "word": "comunicare",
-        "translation": "Palabra clave 10",
+        "translation": "comunicarse",
         "example": "Uso la parola «comunicare» nel contesto."
       }
     ],
@@ -7521,52 +7524,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il testo?",
+        "prompt": "Di che cosa parla il gruppo?",
         "options": [
           "notizia",
-          "fonte",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "affidabile",
+          "prospettiva",
+          "comunicare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa prima la protagonista?",
+        "prompt": "Che cosa fa ogni persona?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Racconta un’esperienza, ascolta e propone una soluzione.",
+          "Compra un biglietto per un evento.",
+          "Non ascolta le altre persone.",
+          "Annulla il progetto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale ruolo ha la seconda persona?",
+        "prompt": "Perché decidono di collaborare?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Perché hanno un obiettivo chiaro.",
+          "Perché non hanno tempo.",
+          "Perché non conoscono il tema.",
+          "Perché preferiscono lavorare da soli."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché il gruppo collabora?",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Una soluzione concreta e collaborativa.",
+          "Un elenco senza contesto.",
+          "Una discussione senza obiettivo.",
+          "Una decisione individuale."
         ]
       },
       {
+        "id": "italian-b1-cultura-e-media-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è l’obiettivo comune?",
+        "prompt": "Qual è lo scopo principale di «Cultura e media»?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Presentare le idee e i dettagli essenziali di Cultura e media",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
         ]
       }
     ]
@@ -7762,52 +7766,52 @@
     "vocabulary": [
       {
         "word": "notizia",
-        "translation": "Palabra clave 1",
+        "translation": "noticia",
         "example": "Uso la parola «notizia» nel contesto."
       },
       {
         "word": "fonte",
-        "translation": "Palabra clave 2",
+        "translation": "fuente",
         "example": "Uso la parola «fonte» nel contesto."
       },
       {
         "word": "pubblico",
-        "translation": "Palabra clave 3",
+        "translation": "público",
         "example": "Uso la parola «pubblico» nel contesto."
       },
       {
         "word": "opinione",
-        "translation": "Palabra clave 4",
+        "translation": "opinión",
         "example": "Uso la parola «opinione» nel contesto."
       },
       {
         "word": "confrontare",
-        "translation": "Palabra clave 5",
+        "translation": "comparar",
         "example": "Uso la parola «confrontare» nel contesto."
       },
       {
         "word": "dibattito",
-        "translation": "Palabra clave 6",
+        "translation": "debate",
         "example": "Uso la parola «dibattito» nel contesto."
       },
       {
         "word": "contenuto",
-        "translation": "Palabra clave 7",
+        "translation": "Contenido",
         "example": "Uso la parola «contenuto» nel contesto."
       },
       {
         "word": "affidabile",
-        "translation": "Palabra clave 8",
+        "translation": "fiable",
         "example": "Uso la parola «affidabile» nel contesto."
       },
       {
         "word": "prospettiva",
-        "translation": "Palabra clave 9",
+        "translation": "perspectiva",
         "example": "Uso la parola «prospettiva» nel contesto."
       },
       {
         "word": "comunicare",
-        "translation": "Palabra clave 10",
+        "translation": "comunicarse",
         "example": "Uso la parola «comunicare» nel contesto."
       }
     ],
@@ -7816,10 +7820,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Discorso indiretto",
-        "definition": "Práctica guiada de Discorso indiretto.",
+        "name": "Cultura e media: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -7829,7 +7833,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
               {},
               {},
@@ -7839,7 +7843,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli il connettore di contrasto.",
             "options": [
               {},
               {},
@@ -7849,7 +7853,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
               {},
               {},
@@ -7859,7 +7863,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase esprime un’opinione?",
             "options": [
               {},
               {},
@@ -7869,7 +7873,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
               {},
               {},
@@ -7879,7 +7883,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la conclusione logica.",
             "options": [
               {},
               {},
@@ -7889,7 +7893,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
               {},
               {},
@@ -7899,7 +7903,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase giustifica una scelta?",
             "options": [
               {},
               {},
@@ -7914,89 +7918,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Vorrei uscire, quindi piove.",
+          "Vorrei uscire, tuttavia piove.",
+          "Vorrei uscire, perché piove.",
+          "Vorrei uscire, infatti piove."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "essere",
+          "sia",
+          "sono",
+          "sarei"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Il progetto funziona perché?",
+          "Il progetto ieri funziona?",
+          "Funzionare progetto secondo me.",
+          "Secondo me, il progetto funziona."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
+          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
+          "Abbiamo poco tempo, perché organizziamo il lavoro.",
+          "Abbiamo poco tempo, se organizziamo il lavoro."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "avere",
+          "hanno",
+          "abbiano",
+          "avranno"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Scelgo il treno è più sostenibile perché?",
+          "Scelgo il treno tuttavia è più sostenibile.",
+          "Scelgo il treno quindi è più sostenibile?",
+          "Scelgo il treno perché è più sostenibile."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
@@ -8404,8 +8408,8 @@
     "vocabulary": [
       {
         "word": "notizia",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "noticia",
+        "definition": "noticia",
         "example": "Uso «notizia» in una frase.",
         "contexts": [
           "notizia · tema",
@@ -8415,8 +8419,8 @@
       },
       {
         "word": "fonte",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "fuente",
+        "definition": "fuente",
         "example": "Uso «fonte» in una frase.",
         "contexts": [
           "fonte · tema",
@@ -8426,8 +8430,8 @@
       },
       {
         "word": "pubblico",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "público",
+        "definition": "público",
         "example": "Uso «pubblico» in una frase.",
         "contexts": [
           "pubblico · tema",
@@ -8437,8 +8441,8 @@
       },
       {
         "word": "opinione",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "opinión",
+        "definition": "opinión",
         "example": "Uso «opinione» in una frase.",
         "contexts": [
           "opinione · tema",
@@ -8448,8 +8452,8 @@
       },
       {
         "word": "confrontare",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "comparar",
+        "definition": "comparar",
         "example": "Uso «confrontare» in una frase.",
         "contexts": [
           "confrontare · tema",
@@ -8459,8 +8463,8 @@
       },
       {
         "word": "dibattito",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "debate",
+        "definition": "debate",
         "example": "Uso «dibattito» in una frase.",
         "contexts": [
           "dibattito · tema",
@@ -8470,8 +8474,8 @@
       },
       {
         "word": "contenuto",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "Contenido",
+        "definition": "Contenido",
         "example": "Uso «contenuto» in una frase.",
         "contexts": [
           "contenuto · tema",
@@ -8481,8 +8485,8 @@
       },
       {
         "word": "affidabile",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "fiable",
+        "definition": "fiable",
         "example": "Uso «affidabile» in una frase.",
         "contexts": [
           "affidabile · tema",
@@ -8492,8 +8496,8 @@
       },
       {
         "word": "prospettiva",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "perspectiva",
+        "definition": "perspectiva",
         "example": "Uso «prospettiva» in una frase.",
         "contexts": [
           "prospettiva · tema",
@@ -8503,8 +8507,8 @@
       },
       {
         "word": "comunicare",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "comunicarse",
+        "definition": "comunicarse",
         "example": "Uso «comunicare» in una frase.",
         "contexts": [
           "comunicare · tema",
@@ -8812,10 +8816,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "C’è / ci sono e quantità",
-        "definition": "Práctica guiada de C’è / ci sono e quantità.",
+        "name": "Il mercato del sabato: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
         "structure": "soggetto + verbo al presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Descrivere persone, luoghi e routine.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -8825,7 +8829,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Io ___ nel quartiere.",
             "options": [
               {},
               {},
@@ -8835,7 +8839,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la forma corretta per Marco.",
             "options": [
               {},
               {},
@@ -8845,7 +8849,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ italiano ogni giorno.",
             "options": [
               {},
               {},
@@ -8855,7 +8859,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale domanda è corretta?",
             "options": [
               {},
               {},
@@ -8865,7 +8869,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Lei ___ una domanda.",
             "options": [
               {},
               {},
@@ -8875,7 +8879,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase con l’articolo corretto.",
             "options": [
               {},
               {},
@@ -8885,7 +8889,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il caffè?",
             "options": [
               {},
               {},
@@ -8895,7 +8899,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase parla di una routine?",
             "options": [
               {},
               {},
@@ -8910,89 +8914,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Io ___ nel quartiere.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "vivo",
+          "vive",
+          "vivere",
+          "viviamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la forma corretta per Marco.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Marco parlare con Sofia.",
+          "Marco parla con Sofia.",
+          "Marco parlo con Sofia.",
+          "Marco parlano con Sofia."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ italiano ogni giorno.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "studiare",
+          "studia",
+          "studiamo",
+          "studiate"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale domanda è corretta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Dove abiti tu è?",
+          "Dove abita tu?",
+          "Dove abitare?",
+          "Dove abiti?"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Lei ___ una domanda.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "fa",
+          "faccio",
+          "fare",
+          "fanno"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase con l’articolo corretto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Il casa è luminosa.",
+          "La casa è luminosa.",
+          "La casa sono luminosa.",
+          "La casa è luminoso."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il caffè?",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "prendere",
+          "prende",
+          "prendi",
+          "prendiamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase parla di una routine?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Ogni mattina lavorano io in centro.",
+          "Ieri lavorare in centro.",
+          "Domani lavorato in centro.",
+          "Ogni mattina lavoro in centro."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
@@ -9022,10 +9026,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Dovere, potere e volere al passato",
-        "definition": "Práctica guiada de Dovere, potere e volere al passato.",
+        "name": "Il lavoro e il caffè: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Raccontare esperienze e progetti.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -9035,7 +9039,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Ieri io ___ il museo.",
             "options": [
               {},
               {},
@@ -9045,7 +9049,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase al passato prossimo corretta.",
             "options": [
               {},
               {},
@@ -9055,7 +9059,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Marta ___ a casa tardi.",
             "options": [
               {},
               {},
@@ -9065,7 +9069,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale connettore indica la sequenza?",
             "options": [
               {},
               {},
@@ -9075,7 +9079,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il messaggio?",
             "options": [
               {},
               {},
@@ -9085,7 +9089,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase corretta.",
             "options": [
               {},
               {},
@@ -9095,7 +9099,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ una bella esperienza.",
             "options": [
               {},
               {},
@@ -9105,7 +9109,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase racconta un’azione conclusa?",
             "options": [
               {},
               {},
@@ -9120,89 +9124,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Ieri io ___ il museo.",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "ho visitato",
+          "visito",
+          "ho visitare",
+          "sono visitato"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase al passato prossimo corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo cenare insieme.",
+          "Abbiamo cenato insieme.",
+          "Siamo cenato insieme.",
+          "Ceniamo ieri insieme."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Marta ___ a casa tardi.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "è tornare",
+          "ha tornata",
+          "è tornata",
+          "torna ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale connettore indica la sequenza?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Prima abbiamo studiato, se siamo usciti.",
+          "Prima abbiamo studiato, perché siamo usciti.",
+          "Prima abbiamo studiato, ma siamo usciti.",
+          "Prima abbiamo studiato, poi siamo usciti."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il messaggio?",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "hai letto",
+          "hai leggere",
+          "sei letto",
+          "leggi ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "I miei amici sono preso il treno.",
+          "I miei amici hanno preso il treno.",
+          "I miei amici hanno prendere il treno.",
+          "I miei amici prendono il treno ieri."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ una bella esperienza.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "abbiamo avere",
+          "siamo avuti",
+          "abbiamo avuto",
+          "aviamo avuto"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase racconta un’azione conclusa?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Sabato sono incontrato mia cugina.",
+          "Sabato incontro mia cugina domani.",
+          "Sabato incontrare mia cugina.",
+          "Sabato ho incontrato mia cugina."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
@@ -9786,52 +9790,52 @@
     "vocabulary": [
       {
         "word": "rifiuto",
-        "translation": "Palabra clave 1",
+        "translation": "rechazo",
         "example": "Uso la parola «rifiuto» nel contesto."
       },
       {
         "word": "raccolta",
-        "translation": "Palabra clave 2",
+        "translation": "colección",
         "example": "Uso la parola «raccolta» nel contesto."
       },
       {
         "word": "risorsa",
-        "translation": "Palabra clave 3",
+        "translation": "recurso",
         "example": "Uso la parola «risorsa» nel contesto."
       },
       {
         "word": "ridurre",
-        "translation": "Palabra clave 4",
+        "translation": "reducir",
         "example": "Uso la parola «ridurre» nel contesto."
       },
       {
         "word": "quartiere",
-        "translation": "Palabra clave 5",
+        "translation": "barrio",
         "example": "Uso la parola «quartiere» nel contesto."
       },
       {
         "word": "volontario",
-        "translation": "Palabra clave 6",
+        "translation": "voluntario",
         "example": "Uso la parola «volontario» nel contesto."
       },
       {
         "word": "iniziativa",
-        "translation": "Palabra clave 7",
+        "translation": "iniciativa",
         "example": "Uso la parola «iniziativa» nel contesto."
       },
       {
         "word": "impatto",
-        "translation": "Palabra clave 8",
+        "translation": "impacto",
         "example": "Uso la parola «impatto» nel contesto."
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Uso la parola «migliorare» nel contesto."
       },
       {
         "word": "sostenere",
-        "translation": "Palabra clave 10",
+        "translation": "sostener",
         "example": "Uso la parola «sostenere» nel contesto."
       }
     ],
@@ -9858,52 +9862,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il testo?",
+        "prompt": "Di che cosa parla il gruppo?",
         "options": [
           "rifiuto",
-          "raccolta",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "impatto",
+          "migliorare",
+          "sostenere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa prima la protagonista?",
+        "prompt": "Che cosa fa ogni persona?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Racconta un’esperienza, ascolta e propone una soluzione.",
+          "Compra un biglietto per un evento.",
+          "Non ascolta le altre persone.",
+          "Annulla il progetto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale ruolo ha la seconda persona?",
+        "prompt": "Perché decidono di collaborare?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Perché hanno un obiettivo chiaro.",
+          "Perché non hanno tempo.",
+          "Perché non conoscono il tema.",
+          "Perché preferiscono lavorare da soli."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché il gruppo collabora?",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Una soluzione concreta e collaborativa.",
+          "Un elenco senza contesto.",
+          "Una discussione senza obiettivo.",
+          "Una decisione individuale."
         ]
       },
       {
+        "id": "italian-b1-ambiente-nel-quartiere-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è l’obiettivo comune?",
+        "prompt": "Qual è lo scopo principale di «Ambiente nel quartiere»?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Presentare le idee e i dettagli essenziali di Ambiente nel quartiere",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
         ]
       }
     ]
@@ -10099,52 +10104,52 @@
     "vocabulary": [
       {
         "word": "rifiuto",
-        "translation": "Palabra clave 1",
+        "translation": "rechazo",
         "example": "Uso la parola «rifiuto» nel contesto."
       },
       {
         "word": "raccolta",
-        "translation": "Palabra clave 2",
+        "translation": "colección",
         "example": "Uso la parola «raccolta» nel contesto."
       },
       {
         "word": "risorsa",
-        "translation": "Palabra clave 3",
+        "translation": "recurso",
         "example": "Uso la parola «risorsa» nel contesto."
       },
       {
         "word": "ridurre",
-        "translation": "Palabra clave 4",
+        "translation": "reducir",
         "example": "Uso la parola «ridurre» nel contesto."
       },
       {
         "word": "quartiere",
-        "translation": "Palabra clave 5",
+        "translation": "barrio",
         "example": "Uso la parola «quartiere» nel contesto."
       },
       {
         "word": "volontario",
-        "translation": "Palabra clave 6",
+        "translation": "voluntario",
         "example": "Uso la parola «volontario» nel contesto."
       },
       {
         "word": "iniziativa",
-        "translation": "Palabra clave 7",
+        "translation": "iniciativa",
         "example": "Uso la parola «iniziativa» nel contesto."
       },
       {
         "word": "impatto",
-        "translation": "Palabra clave 8",
+        "translation": "impacto",
         "example": "Uso la parola «impatto» nel contesto."
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Uso la parola «migliorare» nel contesto."
       },
       {
         "word": "sostenere",
-        "translation": "Palabra clave 10",
+        "translation": "sostener",
         "example": "Uso la parola «sostenere» nel contesto."
       }
     ],
@@ -10153,10 +10158,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Passivo e si impersonale",
-        "definition": "Práctica guiada de Passivo e si impersonale.",
+        "name": "Ambiente nel quartiere: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -10166,7 +10171,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
               {},
               {},
@@ -10176,7 +10181,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli il connettore di contrasto.",
             "options": [
               {},
               {},
@@ -10186,7 +10191,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
               {},
               {},
@@ -10196,7 +10201,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase esprime un’opinione?",
             "options": [
               {},
               {},
@@ -10206,7 +10211,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
               {},
               {},
@@ -10216,7 +10221,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la conclusione logica.",
             "options": [
               {},
               {},
@@ -10226,7 +10231,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
               {},
               {},
@@ -10236,7 +10241,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase giustifica una scelta?",
             "options": [
               {},
               {},
@@ -10251,89 +10256,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Vorrei uscire, quindi piove.",
+          "Vorrei uscire, tuttavia piove.",
+          "Vorrei uscire, perché piove.",
+          "Vorrei uscire, infatti piove."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "essere",
+          "sia",
+          "sono",
+          "sarei"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Il progetto funziona perché?",
+          "Il progetto ieri funziona?",
+          "Funzionare progetto secondo me.",
+          "Secondo me, il progetto funziona."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
+          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
+          "Abbiamo poco tempo, perché organizziamo il lavoro.",
+          "Abbiamo poco tempo, se organizziamo il lavoro."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "avere",
+          "hanno",
+          "abbiano",
+          "avranno"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Scelgo il treno è più sostenibile perché?",
+          "Scelgo il treno tuttavia è più sostenibile.",
+          "Scelgo il treno quindi è più sostenibile?",
+          "Scelgo il treno perché è più sostenibile."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
@@ -10741,8 +10746,8 @@
     "vocabulary": [
       {
         "word": "rifiuto",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "rechazo",
+        "definition": "rechazo",
         "example": "Uso «rifiuto» in una frase.",
         "contexts": [
           "rifiuto · tema",
@@ -10752,8 +10757,8 @@
       },
       {
         "word": "raccolta",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "colección",
+        "definition": "colección",
         "example": "Uso «raccolta» in una frase.",
         "contexts": [
           "raccolta · tema",
@@ -10763,8 +10768,8 @@
       },
       {
         "word": "risorsa",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "recurso",
+        "definition": "recurso",
         "example": "Uso «risorsa» in una frase.",
         "contexts": [
           "risorsa · tema",
@@ -10774,8 +10779,8 @@
       },
       {
         "word": "ridurre",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "reducir",
+        "definition": "reducir",
         "example": "Uso «ridurre» in una frase.",
         "contexts": [
           "ridurre · tema",
@@ -10785,8 +10790,8 @@
       },
       {
         "word": "quartiere",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "barrio",
+        "definition": "barrio",
         "example": "Uso «quartiere» in una frase.",
         "contexts": [
           "quartiere · tema",
@@ -10796,8 +10801,8 @@
       },
       {
         "word": "volontario",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "voluntario",
+        "definition": "voluntario",
         "example": "Uso «volontario» in una frase.",
         "contexts": [
           "volontario · tema",
@@ -10807,8 +10812,8 @@
       },
       {
         "word": "iniziativa",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "iniciativa",
+        "definition": "iniciativa",
         "example": "Uso «iniziativa» in una frase.",
         "contexts": [
           "iniziativa · tema",
@@ -10818,8 +10823,8 @@
       },
       {
         "word": "impatto",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "impacto",
+        "definition": "impacto",
         "example": "Uso «impatto» in una frase.",
         "contexts": [
           "impatto · tema",
@@ -10829,8 +10834,8 @@
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Uso «migliorare» in una frase.",
         "contexts": [
           "migliorare · tema",
@@ -10840,8 +10845,8 @@
       },
       {
         "word": "sostenere",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "sostener",
+        "definition": "sostener",
         "example": "Uso «sostenere» in una frase.",
         "contexts": [
           "sostenere · tema",
@@ -11149,10 +11154,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Andare, venire e preposizioni",
-        "definition": "Práctica guiada de Andare, venire e preposizioni.",
+        "name": "In bicicletta: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
         "structure": "soggetto + verbo al presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Descrivere persone, luoghi e routine.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -11162,7 +11167,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Io ___ nel quartiere.",
             "options": [
               {},
               {},
@@ -11172,7 +11177,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la forma corretta per Marco.",
             "options": [
               {},
               {},
@@ -11182,7 +11187,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ italiano ogni giorno.",
             "options": [
               {},
               {},
@@ -11192,7 +11197,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale domanda è corretta?",
             "options": [
               {},
               {},
@@ -11202,7 +11207,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Lei ___ una domanda.",
             "options": [
               {},
               {},
@@ -11212,7 +11217,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase con l’articolo corretto.",
             "options": [
               {},
               {},
@@ -11222,7 +11227,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il caffè?",
             "options": [
               {},
               {},
@@ -11232,7 +11237,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase parla di una routine?",
             "options": [
               {},
               {},
@@ -11247,89 +11252,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Io ___ nel quartiere.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "vivo",
+          "vive",
+          "vivere",
+          "viviamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la forma corretta per Marco.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Marco parlare con Sofia.",
+          "Marco parla con Sofia.",
+          "Marco parlo con Sofia.",
+          "Marco parlano con Sofia."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ italiano ogni giorno.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "studiare",
+          "studia",
+          "studiamo",
+          "studiate"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale domanda è corretta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Dove abiti tu è?",
+          "Dove abita tu?",
+          "Dove abitare?",
+          "Dove abiti?"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Lei ___ una domanda.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "fa",
+          "faccio",
+          "fare",
+          "fanno"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase con l’articolo corretto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Il casa è luminosa.",
+          "La casa è luminosa.",
+          "La casa sono luminosa.",
+          "La casa è luminoso."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il caffè?",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "prendere",
+          "prende",
+          "prendi",
+          "prendiamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase parla di una routine?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Ogni mattina lavorano io in centro.",
+          "Ieri lavorare in centro.",
+          "Domani lavorato in centro.",
+          "Ogni mattina lavoro in centro."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
@@ -11359,10 +11364,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Comparativi e superlativi",
-        "definition": "Práctica guiada de Comparativi e superlativi.",
+        "name": "Arte nel quartiere: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Raccontare esperienze e progetti.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -11372,7 +11377,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Ieri io ___ il museo.",
             "options": [
               {},
               {},
@@ -11382,7 +11387,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase al passato prossimo corretta.",
             "options": [
               {},
               {},
@@ -11392,7 +11397,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Marta ___ a casa tardi.",
             "options": [
               {},
               {},
@@ -11402,7 +11407,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale connettore indica la sequenza?",
             "options": [
               {},
               {},
@@ -11412,7 +11417,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il messaggio?",
             "options": [
               {},
               {},
@@ -11422,7 +11427,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase corretta.",
             "options": [
               {},
               {},
@@ -11432,7 +11437,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ una bella esperienza.",
             "options": [
               {},
               {},
@@ -11442,7 +11447,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase racconta un’azione conclusa?",
             "options": [
               {},
               {},
@@ -11457,89 +11462,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Ieri io ___ il museo.",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "ho visitato",
+          "visito",
+          "ho visitare",
+          "sono visitato"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase al passato prossimo corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo cenare insieme.",
+          "Abbiamo cenato insieme.",
+          "Siamo cenato insieme.",
+          "Ceniamo ieri insieme."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Marta ___ a casa tardi.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "è tornare",
+          "ha tornata",
+          "è tornata",
+          "torna ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale connettore indica la sequenza?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Prima abbiamo studiato, se siamo usciti.",
+          "Prima abbiamo studiato, perché siamo usciti.",
+          "Prima abbiamo studiato, ma siamo usciti.",
+          "Prima abbiamo studiato, poi siamo usciti."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il messaggio?",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "hai letto",
+          "hai leggere",
+          "sei letto",
+          "leggi ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "I miei amici sono preso il treno.",
+          "I miei amici hanno preso il treno.",
+          "I miei amici hanno prendere il treno.",
+          "I miei amici prendono il treno ieri."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ una bella esperienza.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "abbiamo avere",
+          "siamo avuti",
+          "abbiamo avuto",
+          "aviamo avuto"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase racconta un’azione conclusa?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Sabato sono incontrato mia cugina.",
+          "Sabato incontro mia cugina domani.",
+          "Sabato incontrare mia cugina.",
+          "Sabato ho incontrato mia cugina."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
@@ -12123,52 +12128,52 @@
     "vocabulary": [
       {
         "word": "memoria",
-        "translation": "Palabra clave 1",
+        "translation": "memoria",
         "example": "Uso la parola «memoria» nel contesto."
       },
       {
         "word": "infanzia",
-        "translation": "Palabra clave 2",
+        "translation": "infancia",
         "example": "Uso la parola «infanzia» nel contesto."
       },
       {
         "word": "cambiamento",
-        "translation": "Palabra clave 3",
+        "translation": "cambio",
         "example": "Uso la parola «cambiamento» nel contesto."
       },
       {
         "word": "raccontare",
-        "translation": "Palabra clave 4",
+        "translation": "contar",
         "example": "Uso la parola «raccontare» nel contesto."
       },
       {
         "word": "passato",
-        "translation": "Palabra clave 5",
+        "translation": "pasado",
         "example": "Uso la parola «passato» nel contesto."
       },
       {
         "word": "incontro",
-        "translation": "Palabra clave 6",
+        "translation": "encuentro",
         "example": "Uso la parola «incontro» nel contesto."
       },
       {
         "word": "tradizione",
-        "translation": "Palabra clave 7",
+        "translation": "tradición",
         "example": "Uso la parola «tradizione» nel contesto."
       },
       {
         "word": "generazione",
-        "translation": "Palabra clave 8",
+        "translation": "generación",
         "example": "Uso la parola «generazione» nel contesto."
       },
       {
         "word": "imparare",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Uso la parola «imparare» nel contesto."
       },
       {
         "word": "significato",
-        "translation": "Palabra clave 10",
+        "translation": "significado",
         "example": "Uso la parola «significato» nel contesto."
       }
     ],
@@ -12195,52 +12200,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il testo?",
+        "prompt": "Di che cosa parla il gruppo?",
         "options": [
           "memoria",
-          "infanzia",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "generazione",
+          "imparare",
+          "significato"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa prima la protagonista?",
+        "prompt": "Che cosa fa ogni persona?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Racconta un’esperienza, ascolta e propone una soluzione.",
+          "Compra un biglietto per un evento.",
+          "Non ascolta le altre persone.",
+          "Annulla il progetto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale ruolo ha la seconda persona?",
+        "prompt": "Perché decidono di collaborare?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Perché hanno un obiettivo chiaro.",
+          "Perché non hanno tempo.",
+          "Perché non conoscono il tema.",
+          "Perché preferiscono lavorare da soli."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché il gruppo collabora?",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Una soluzione concreta e collaborativa.",
+          "Un elenco senza contesto.",
+          "Una discussione senza obiettivo.",
+          "Una decisione individuale."
         ]
       },
       {
+        "id": "italian-b1-storie-e-memoria-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è l’obiettivo comune?",
+        "prompt": "Qual è lo scopo principale di «Storie e memoria»?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Presentare le idee e i dettagli essenziali di Storie e memoria",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
         ]
       }
     ]
@@ -12436,52 +12442,52 @@
     "vocabulary": [
       {
         "word": "memoria",
-        "translation": "Palabra clave 1",
+        "translation": "memoria",
         "example": "Uso la parola «memoria» nel contesto."
       },
       {
         "word": "infanzia",
-        "translation": "Palabra clave 2",
+        "translation": "infancia",
         "example": "Uso la parola «infanzia» nel contesto."
       },
       {
         "word": "cambiamento",
-        "translation": "Palabra clave 3",
+        "translation": "cambio",
         "example": "Uso la parola «cambiamento» nel contesto."
       },
       {
         "word": "raccontare",
-        "translation": "Palabra clave 4",
+        "translation": "contar",
         "example": "Uso la parola «raccontare» nel contesto."
       },
       {
         "word": "passato",
-        "translation": "Palabra clave 5",
+        "translation": "pasado",
         "example": "Uso la parola «passato» nel contesto."
       },
       {
         "word": "incontro",
-        "translation": "Palabra clave 6",
+        "translation": "encuentro",
         "example": "Uso la parola «incontro» nel contesto."
       },
       {
         "word": "tradizione",
-        "translation": "Palabra clave 7",
+        "translation": "tradición",
         "example": "Uso la parola «tradizione» nel contesto."
       },
       {
         "word": "generazione",
-        "translation": "Palabra clave 8",
+        "translation": "generación",
         "example": "Uso la parola «generazione» nel contesto."
       },
       {
         "word": "imparare",
-        "translation": "Palabra clave 9",
+        "translation": "aprender",
         "example": "Uso la parola «imparare» nel contesto."
       },
       {
         "word": "significato",
-        "translation": "Palabra clave 10",
+        "translation": "significado",
         "example": "Uso la parola «significato» nel contesto."
       }
     ],
@@ -12490,10 +12496,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Trapassato prossimo",
-        "definition": "Práctica guiada de Trapassato prossimo.",
+        "name": "Storie e memoria: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -12503,7 +12509,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
               {},
               {},
@@ -12513,7 +12519,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli il connettore di contrasto.",
             "options": [
               {},
               {},
@@ -12523,7 +12529,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
               {},
               {},
@@ -12533,7 +12539,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase esprime un’opinione?",
             "options": [
               {},
               {},
@@ -12543,7 +12549,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
               {},
               {},
@@ -12553,7 +12559,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la conclusione logica.",
             "options": [
               {},
               {},
@@ -12563,7 +12569,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
               {},
               {},
@@ -12573,7 +12579,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase giustifica una scelta?",
             "options": [
               {},
               {},
@@ -12588,89 +12594,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Vorrei uscire, quindi piove.",
+          "Vorrei uscire, tuttavia piove.",
+          "Vorrei uscire, perché piove.",
+          "Vorrei uscire, infatti piove."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "essere",
+          "sia",
+          "sono",
+          "sarei"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Il progetto funziona perché?",
+          "Il progetto ieri funziona?",
+          "Funzionare progetto secondo me.",
+          "Secondo me, il progetto funziona."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
+          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
+          "Abbiamo poco tempo, perché organizziamo il lavoro.",
+          "Abbiamo poco tempo, se organizziamo il lavoro."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "avere",
+          "hanno",
+          "abbiano",
+          "avranno"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Scelgo il treno è più sostenibile perché?",
+          "Scelgo il treno tuttavia è più sostenibile.",
+          "Scelgo il treno quindi è più sostenibile?",
+          "Scelgo il treno perché è più sostenibile."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
@@ -13078,8 +13084,8 @@
     "vocabulary": [
       {
         "word": "memoria",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "memoria",
+        "definition": "memoria",
         "example": "Uso «memoria» in una frase.",
         "contexts": [
           "memoria · tema",
@@ -13089,8 +13095,8 @@
       },
       {
         "word": "infanzia",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "infancia",
+        "definition": "infancia",
         "example": "Uso «infanzia» in una frase.",
         "contexts": [
           "infanzia · tema",
@@ -13100,8 +13106,8 @@
       },
       {
         "word": "cambiamento",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "cambio",
+        "definition": "cambio",
         "example": "Uso «cambiamento» in una frase.",
         "contexts": [
           "cambiamento · tema",
@@ -13111,8 +13117,8 @@
       },
       {
         "word": "raccontare",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "contar",
+        "definition": "contar",
         "example": "Uso «raccontare» in una frase.",
         "contexts": [
           "raccontare · tema",
@@ -13122,8 +13128,8 @@
       },
       {
         "word": "passato",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "pasado",
+        "definition": "pasado",
         "example": "Uso «passato» in una frase.",
         "contexts": [
           "passato · tema",
@@ -13133,8 +13139,8 @@
       },
       {
         "word": "incontro",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "encuentro",
+        "definition": "encuentro",
         "example": "Uso «incontro» in una frase.",
         "contexts": [
           "incontro · tema",
@@ -13144,8 +13150,8 @@
       },
       {
         "word": "tradizione",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "tradición",
+        "definition": "tradición",
         "example": "Uso «tradizione» in una frase.",
         "contexts": [
           "tradizione · tema",
@@ -13155,8 +13161,8 @@
       },
       {
         "word": "generazione",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "generación",
+        "definition": "generación",
         "example": "Uso «generazione» in una frase.",
         "contexts": [
           "generazione · tema",
@@ -13166,8 +13172,8 @@
       },
       {
         "word": "imparare",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "aprender",
+        "definition": "aprender",
         "example": "Uso «imparare» in una frase.",
         "contexts": [
           "imparare · tema",
@@ -13177,8 +13183,8 @@
       },
       {
         "word": "significato",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "significado",
+        "definition": "significado",
         "example": "Uso «significato» in una frase.",
         "contexts": [
           "significato · tema",
@@ -13486,10 +13492,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Presente dei verbi regolari",
-        "definition": "Práctica guiada de Presente dei verbi regolari.",
+        "name": "Scuola e amici: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
         "structure": "soggetto + verbo al presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Descrivere persone, luoghi e routine.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -13499,7 +13505,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Io ___ nel quartiere.",
             "options": [
               {},
               {},
@@ -13509,7 +13515,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la forma corretta per Marco.",
             "options": [
               {},
               {},
@@ -13519,7 +13525,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ italiano ogni giorno.",
             "options": [
               {},
               {},
@@ -13529,7 +13535,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale domanda è corretta?",
             "options": [
               {},
               {},
@@ -13539,7 +13545,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Lei ___ una domanda.",
             "options": [
               {},
               {},
@@ -13549,7 +13555,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase con l’articolo corretto.",
             "options": [
               {},
               {},
@@ -13559,7 +13565,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il caffè?",
             "options": [
               {},
               {},
@@ -13569,7 +13575,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase parla di una routine?",
             "options": [
               {},
               {},
@@ -13584,89 +13590,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Io ___ nel quartiere.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "vivo",
+          "vive",
+          "vivere",
+          "viviamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la forma corretta per Marco.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Marco parlare con Sofia.",
+          "Marco parla con Sofia.",
+          "Marco parlo con Sofia.",
+          "Marco parlano con Sofia."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ italiano ogni giorno.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "studiare",
+          "studia",
+          "studiamo",
+          "studiate"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale domanda è corretta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Dove abiti tu è?",
+          "Dove abita tu?",
+          "Dove abitare?",
+          "Dove abiti?"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Lei ___ una domanda.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "fa",
+          "faccio",
+          "fare",
+          "fanno"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase con l’articolo corretto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Il casa è luminosa.",
+          "La casa è luminosa.",
+          "La casa sono luminosa.",
+          "La casa è luminoso."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il caffè?",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "prendere",
+          "prende",
+          "prendi",
+          "prendiamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase parla di una routine?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Ogni mattina lavorano io in centro.",
+          "Ieri lavorare in centro.",
+          "Domani lavorato in centro.",
+          "Ogni mattina lavoro in centro."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
@@ -13696,10 +13702,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Futuro semplice",
-        "definition": "Práctica guiada de Futuro semplice.",
+        "name": "Viaggiare con responsabilità: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Raccontare esperienze e progetti.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -13709,7 +13715,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Ieri io ___ il museo.",
             "options": [
               {},
               {},
@@ -13719,7 +13725,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase al passato prossimo corretta.",
             "options": [
               {},
               {},
@@ -13729,7 +13735,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Marta ___ a casa tardi.",
             "options": [
               {},
               {},
@@ -13739,7 +13745,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale connettore indica la sequenza?",
             "options": [
               {},
               {},
@@ -13749,7 +13755,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il messaggio?",
             "options": [
               {},
               {},
@@ -13759,7 +13765,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase corretta.",
             "options": [
               {},
               {},
@@ -13769,7 +13775,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ una bella esperienza.",
             "options": [
               {},
               {},
@@ -13779,7 +13785,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase racconta un’azione conclusa?",
             "options": [
               {},
               {},
@@ -13794,89 +13800,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Ieri io ___ il museo.",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "ho visitato",
+          "visito",
+          "ho visitare",
+          "sono visitato"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase al passato prossimo corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo cenare insieme.",
+          "Abbiamo cenato insieme.",
+          "Siamo cenato insieme.",
+          "Ceniamo ieri insieme."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Marta ___ a casa tardi.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "è tornare",
+          "ha tornata",
+          "è tornata",
+          "torna ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale connettore indica la sequenza?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Prima abbiamo studiato, se siamo usciti.",
+          "Prima abbiamo studiato, perché siamo usciti.",
+          "Prima abbiamo studiato, ma siamo usciti.",
+          "Prima abbiamo studiato, poi siamo usciti."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il messaggio?",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "hai letto",
+          "hai leggere",
+          "sei letto",
+          "leggi ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "I miei amici sono preso il treno.",
+          "I miei amici hanno preso il treno.",
+          "I miei amici hanno prendere il treno.",
+          "I miei amici prendono il treno ieri."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ una bella esperienza.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "abbiamo avere",
+          "siamo avuti",
+          "abbiamo avuto",
+          "aviamo avuto"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase racconta un’azione conclusa?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Sabato sono incontrato mia cugina.",
+          "Sabato incontro mia cugina domani.",
+          "Sabato incontrare mia cugina.",
+          "Sabato ho incontrato mia cugina."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
@@ -14460,52 +14466,52 @@
     "vocabulary": [
       {
         "word": "progetto",
-        "translation": "Palabra clave 1",
+        "translation": "proyecto",
         "example": "Uso la parola «progetto» nel contesto."
       },
       {
         "word": "ricerca",
-        "translation": "Palabra clave 2",
+        "translation": "búsqueda",
         "example": "Uso la parola «ricerca» nel contesto."
       },
       {
         "word": "compito",
-        "translation": "Palabra clave 3",
+        "translation": "deber",
         "example": "Uso la parola «compito» nel contesto."
       },
       {
         "word": "collaborazione",
-        "translation": "Palabra clave 4",
+        "translation": "colaboración",
         "example": "Uso la parola «collaborazione» nel contesto."
       },
       {
         "word": "presentare",
-        "translation": "Palabra clave 5",
+        "translation": "presentar",
         "example": "Uso la parola «presentare» nel contesto."
       },
       {
         "word": "accordo",
-        "translation": "Palabra clave 6",
+        "translation": "acuerdo",
         "example": "Uso la parola «accordo» nel contesto."
       },
       {
         "word": "soluzione",
-        "translation": "Palabra clave 7",
+        "translation": "solución",
         "example": "Uso la parola «soluzione» nel contesto."
       },
       {
         "word": "scopo",
-        "translation": "Palabra clave 8",
+        "translation": "propósito",
         "example": "Uso la parola «scopo» nel contesto."
       },
       {
         "word": "partecipare",
-        "translation": "Palabra clave 9",
+        "translation": "participar",
         "example": "Uso la parola «partecipare» nel contesto."
       },
       {
         "word": "risultato",
-        "translation": "Palabra clave 10",
+        "translation": "resultado",
         "example": "Uso la parola «risultato» nel contesto."
       }
     ],
@@ -14532,52 +14538,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il testo?",
+        "prompt": "Di che cosa parla il gruppo?",
         "options": [
           "progetto",
-          "ricerca",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "scopo",
+          "partecipare",
+          "risultato"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa prima la protagonista?",
+        "prompt": "Che cosa fa ogni persona?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Racconta un’esperienza, ascolta e propone una soluzione.",
+          "Compra un biglietto per un evento.",
+          "Non ascolta le altre persone.",
+          "Annulla il progetto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale ruolo ha la seconda persona?",
+        "prompt": "Perché decidono di collaborare?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Perché hanno un obiettivo chiaro.",
+          "Perché non hanno tempo.",
+          "Perché non conoscono il tema.",
+          "Perché preferiscono lavorare da soli."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché il gruppo collabora?",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Una soluzione concreta e collaborativa.",
+          "Un elenco senza contesto.",
+          "Una discussione senza obiettivo.",
+          "Una decisione individuale."
         ]
       },
       {
+        "id": "italian-b1-progetti-di-classe-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è l’obiettivo comune?",
+        "prompt": "Qual è lo scopo principale di «Progetti di classe»?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Presentare le idee e i dettagli essenziali di Progetti di classe",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
         ]
       }
     ]
@@ -14773,52 +14780,52 @@
     "vocabulary": [
       {
         "word": "progetto",
-        "translation": "Palabra clave 1",
+        "translation": "proyecto",
         "example": "Uso la parola «progetto» nel contesto."
       },
       {
         "word": "ricerca",
-        "translation": "Palabra clave 2",
+        "translation": "búsqueda",
         "example": "Uso la parola «ricerca» nel contesto."
       },
       {
         "word": "compito",
-        "translation": "Palabra clave 3",
+        "translation": "deber",
         "example": "Uso la parola «compito» nel contesto."
       },
       {
         "word": "collaborazione",
-        "translation": "Palabra clave 4",
+        "translation": "colaboración",
         "example": "Uso la parola «collaborazione» nel contesto."
       },
       {
         "word": "presentare",
-        "translation": "Palabra clave 5",
+        "translation": "presentar",
         "example": "Uso la parola «presentare» nel contesto."
       },
       {
         "word": "accordo",
-        "translation": "Palabra clave 6",
+        "translation": "acuerdo",
         "example": "Uso la parola «accordo» nel contesto."
       },
       {
         "word": "soluzione",
-        "translation": "Palabra clave 7",
+        "translation": "solución",
         "example": "Uso la parola «soluzione» nel contesto."
       },
       {
         "word": "scopo",
-        "translation": "Palabra clave 8",
+        "translation": "propósito",
         "example": "Uso la parola «scopo» nel contesto."
       },
       {
         "word": "partecipare",
-        "translation": "Palabra clave 9",
+        "translation": "participar",
         "example": "Uso la parola «partecipare» nel contesto."
       },
       {
         "word": "risultato",
-        "translation": "Palabra clave 10",
+        "translation": "resultado",
         "example": "Uso la parola «risultato» nel contesto."
       }
     ],
@@ -14827,10 +14834,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Connettori argomentativi",
-        "definition": "Práctica guiada de Connettori argomentativi.",
+        "name": "Progetti di classe: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -14840,7 +14847,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
               {},
               {},
@@ -14850,7 +14857,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli il connettore di contrasto.",
             "options": [
               {},
               {},
@@ -14860,7 +14867,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
               {},
               {},
@@ -14870,7 +14877,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase esprime un’opinione?",
             "options": [
               {},
               {},
@@ -14880,7 +14887,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
               {},
               {},
@@ -14890,7 +14897,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la conclusione logica.",
             "options": [
               {},
               {},
@@ -14900,7 +14907,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
               {},
               {},
@@ -14910,7 +14917,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase giustifica una scelta?",
             "options": [
               {},
               {},
@@ -14925,89 +14932,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Vorrei uscire, quindi piove.",
+          "Vorrei uscire, tuttavia piove.",
+          "Vorrei uscire, perché piove.",
+          "Vorrei uscire, infatti piove."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "essere",
+          "sia",
+          "sono",
+          "sarei"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Il progetto funziona perché?",
+          "Il progetto ieri funziona?",
+          "Funzionare progetto secondo me.",
+          "Secondo me, il progetto funziona."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
+          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
+          "Abbiamo poco tempo, perché organizziamo il lavoro.",
+          "Abbiamo poco tempo, se organizziamo il lavoro."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "avere",
+          "hanno",
+          "abbiano",
+          "avranno"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Scelgo il treno è più sostenibile perché?",
+          "Scelgo il treno tuttavia è più sostenibile.",
+          "Scelgo il treno quindi è più sostenibile?",
+          "Scelgo il treno perché è più sostenibile."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
@@ -15415,8 +15422,8 @@
     "vocabulary": [
       {
         "word": "progetto",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "proyecto",
+        "definition": "proyecto",
         "example": "Uso «progetto» in una frase.",
         "contexts": [
           "progetto · tema",
@@ -15426,8 +15433,8 @@
       },
       {
         "word": "ricerca",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "búsqueda",
+        "definition": "búsqueda",
         "example": "Uso «ricerca» in una frase.",
         "contexts": [
           "ricerca · tema",
@@ -15437,8 +15444,8 @@
       },
       {
         "word": "compito",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "deber",
+        "definition": "deber",
         "example": "Uso «compito» in una frase.",
         "contexts": [
           "compito · tema",
@@ -15448,8 +15455,8 @@
       },
       {
         "word": "collaborazione",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "colaboración",
+        "definition": "colaboración",
         "example": "Uso «collaborazione» in una frase.",
         "contexts": [
           "collaborazione · tema",
@@ -15459,8 +15466,8 @@
       },
       {
         "word": "presentare",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "presentar",
+        "definition": "presentar",
         "example": "Uso «presentare» in una frase.",
         "contexts": [
           "presentare · tema",
@@ -15470,8 +15477,8 @@
       },
       {
         "word": "accordo",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "acuerdo",
+        "definition": "acuerdo",
         "example": "Uso «accordo» in una frase.",
         "contexts": [
           "accordo · tema",
@@ -15481,8 +15488,8 @@
       },
       {
         "word": "soluzione",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "solución",
+        "definition": "solución",
         "example": "Uso «soluzione» in una frase.",
         "contexts": [
           "soluzione · tema",
@@ -15492,8 +15499,8 @@
       },
       {
         "word": "scopo",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "propósito",
+        "definition": "propósito",
         "example": "Uso «scopo» in una frase.",
         "contexts": [
           "scopo · tema",
@@ -15503,8 +15510,8 @@
       },
       {
         "word": "partecipare",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "participar",
+        "definition": "participar",
         "example": "Uso «partecipare» in una frase.",
         "contexts": [
           "partecipare · tema",
@@ -15514,8 +15521,8 @@
       },
       {
         "word": "risultato",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "resultado",
+        "definition": "resultado",
         "example": "Uso «risultato» in una frase.",
         "contexts": [
           "risultato · tema",
@@ -15823,10 +15830,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Articoli determinativi e casa",
-        "definition": "Práctica guiada de Articoli determinativi e casa.",
+        "name": "Una casa italiana: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
         "structure": "soggetto + verbo al presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Descrivere persone, luoghi e routine.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -15836,7 +15843,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Io ___ nel quartiere.",
             "options": [
               {},
               {},
@@ -15846,7 +15853,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la forma corretta per Marco.",
             "options": [
               {},
               {},
@@ -15856,7 +15863,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ italiano ogni giorno.",
             "options": [
               {},
               {},
@@ -15866,7 +15873,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale domanda è corretta?",
             "options": [
               {},
               {},
@@ -15876,7 +15883,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Lei ___ una domanda.",
             "options": [
               {},
               {},
@@ -15886,7 +15893,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase con l’articolo corretto.",
             "options": [
               {},
               {},
@@ -15896,7 +15903,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il caffè?",
             "options": [
               {},
               {},
@@ -15906,7 +15913,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase parla di una routine?",
             "options": [
               {},
               {},
@@ -15921,89 +15928,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Io ___ nel quartiere.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "vivo",
+          "vive",
+          "vivere",
+          "viviamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la forma corretta per Marco.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Marco parlare con Sofia.",
+          "Marco parla con Sofia.",
+          "Marco parlo con Sofia.",
+          "Marco parlano con Sofia."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ italiano ogni giorno.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "studiare",
+          "studia",
+          "studiamo",
+          "studiate"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale domanda è corretta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Dove abiti tu è?",
+          "Dove abita tu?",
+          "Dove abitare?",
+          "Dove abiti?"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Lei ___ una domanda.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "fa",
+          "faccio",
+          "fare",
+          "fanno"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase con l’articolo corretto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Il casa è luminosa.",
+          "La casa è luminosa.",
+          "La casa sono luminosa.",
+          "La casa è luminoso."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il caffè?",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "prendere",
+          "prende",
+          "prendi",
+          "prendiamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase parla di una routine?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Ogni mattina lavorano io in centro.",
+          "Ieri lavorare in centro.",
+          "Domani lavorato in centro.",
+          "Ogni mattina lavoro in centro."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
@@ -16033,10 +16040,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Verbi riflessivi",
-        "definition": "Práctica guiada de Verbi riflessivi.",
+        "name": "Sport e tempo libero: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Raccontare esperienze e progetti.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -16046,7 +16053,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Ieri io ___ il museo.",
             "options": [
               {},
               {},
@@ -16056,7 +16063,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase al passato prossimo corretta.",
             "options": [
               {},
               {},
@@ -16066,7 +16073,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Marta ___ a casa tardi.",
             "options": [
               {},
               {},
@@ -16076,7 +16083,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale connettore indica la sequenza?",
             "options": [
               {},
               {},
@@ -16086,7 +16093,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il messaggio?",
             "options": [
               {},
               {},
@@ -16096,7 +16103,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase corretta.",
             "options": [
               {},
               {},
@@ -16106,7 +16113,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ una bella esperienza.",
             "options": [
               {},
               {},
@@ -16116,7 +16123,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase racconta un’azione conclusa?",
             "options": [
               {},
               {},
@@ -16131,89 +16138,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Ieri io ___ il museo.",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "ho visitato",
+          "visito",
+          "ho visitare",
+          "sono visitato"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase al passato prossimo corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo cenare insieme.",
+          "Abbiamo cenato insieme.",
+          "Siamo cenato insieme.",
+          "Ceniamo ieri insieme."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Marta ___ a casa tardi.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "è tornare",
+          "ha tornata",
+          "è tornata",
+          "torna ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale connettore indica la sequenza?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Prima abbiamo studiato, se siamo usciti.",
+          "Prima abbiamo studiato, perché siamo usciti.",
+          "Prima abbiamo studiato, ma siamo usciti.",
+          "Prima abbiamo studiato, poi siamo usciti."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il messaggio?",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "hai letto",
+          "hai leggere",
+          "sei letto",
+          "leggi ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "I miei amici sono preso il treno.",
+          "I miei amici hanno preso il treno.",
+          "I miei amici hanno prendere il treno.",
+          "I miei amici prendono il treno ieri."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ una bella esperienza.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "abbiamo avere",
+          "siamo avuti",
+          "abbiamo avuto",
+          "aviamo avuto"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase racconta un’azione conclusa?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Sabato sono incontrato mia cugina.",
+          "Sabato incontro mia cugina domani.",
+          "Sabato incontrare mia cugina.",
+          "Sabato ho incontrato mia cugina."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
@@ -16797,52 +16804,52 @@
     "vocabulary": [
       {
         "word": "tecnologia",
-        "translation": "Palabra clave 1",
+        "translation": "tecnología",
         "example": "Uso la parola «tecnologia» nel contesto."
       },
       {
         "word": "dispositivo",
-        "translation": "Palabra clave 2",
+        "translation": "dispositivo",
         "example": "Uso la parola «dispositivo» nel contesto."
       },
       {
         "word": "vantaggio",
-        "translation": "Palabra clave 3",
+        "translation": "ventaja",
         "example": "Uso la parola «vantaggio» nel contesto."
       },
       {
         "word": "rischio",
-        "translation": "Palabra clave 4",
+        "translation": "riesgo",
         "example": "Uso la parola «rischio» nel contesto."
       },
       {
         "word": "proteggere",
-        "translation": "Palabra clave 5",
+        "translation": "proteger",
         "example": "Uso la parola «proteggere» nel contesto."
       },
       {
         "word": "abitudine",
-        "translation": "Palabra clave 6",
+        "translation": "costumbre",
         "example": "Uso la parola «abitudine» nel contesto."
       },
       {
         "word": "connessione",
-        "translation": "Palabra clave 7",
+        "translation": "conexión",
         "example": "Uso la parola «connessione» nel contesto."
       },
       {
         "word": "informazione",
-        "translation": "Palabra clave 8",
+        "translation": "información",
         "example": "Uso la parola «informazione» nel contesto."
       },
       {
         "word": "scegliere",
-        "translation": "Palabra clave 9",
+        "translation": "escoger",
         "example": "Uso la parola «scegliere» nel contesto."
       },
       {
         "word": "equilibrio",
-        "translation": "Palabra clave 10",
+        "translation": "equilibrio",
         "example": "Uso la parola «equilibrio» nel contesto."
       }
     ],
@@ -16869,52 +16876,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il testo?",
+        "prompt": "Di che cosa parla il gruppo?",
         "options": [
           "tecnologia",
-          "dispositivo",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "informazione",
+          "scegliere",
+          "equilibrio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa prima la protagonista?",
+        "prompt": "Che cosa fa ogni persona?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Racconta un’esperienza, ascolta e propone una soluzione.",
+          "Compra un biglietto per un evento.",
+          "Non ascolta le altre persone.",
+          "Annulla il progetto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale ruolo ha la seconda persona?",
+        "prompt": "Perché decidono di collaborare?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Perché hanno un obiettivo chiaro.",
+          "Perché non hanno tempo.",
+          "Perché non conoscono il tema.",
+          "Perché preferiscono lavorare da soli."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché il gruppo collabora?",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Una soluzione concreta e collaborativa.",
+          "Un elenco senza contesto.",
+          "Una discussione senza obiettivo.",
+          "Una decisione individuale."
         ]
       },
       {
+        "id": "italian-b1-tecnologia-quotidiana-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è l’obiettivo comune?",
+        "prompt": "Qual è lo scopo principale di «Tecnologia quotidiana»?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Presentare le idee e i dettagli essenziali di Tecnologia quotidiana",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
         ]
       }
     ]
@@ -17110,52 +17118,52 @@
     "vocabulary": [
       {
         "word": "tecnologia",
-        "translation": "Palabra clave 1",
+        "translation": "tecnología",
         "example": "Uso la parola «tecnologia» nel contesto."
       },
       {
         "word": "dispositivo",
-        "translation": "Palabra clave 2",
+        "translation": "dispositivo",
         "example": "Uso la parola «dispositivo» nel contesto."
       },
       {
         "word": "vantaggio",
-        "translation": "Palabra clave 3",
+        "translation": "ventaja",
         "example": "Uso la parola «vantaggio» nel contesto."
       },
       {
         "word": "rischio",
-        "translation": "Palabra clave 4",
+        "translation": "riesgo",
         "example": "Uso la parola «rischio» nel contesto."
       },
       {
         "word": "proteggere",
-        "translation": "Palabra clave 5",
+        "translation": "proteger",
         "example": "Uso la parola «proteggere» nel contesto."
       },
       {
         "word": "abitudine",
-        "translation": "Palabra clave 6",
+        "translation": "costumbre",
         "example": "Uso la parola «abitudine» nel contesto."
       },
       {
         "word": "connessione",
-        "translation": "Palabra clave 7",
+        "translation": "conexión",
         "example": "Uso la parola «connessione» nel contesto."
       },
       {
         "word": "informazione",
-        "translation": "Palabra clave 8",
+        "translation": "información",
         "example": "Uso la parola «informazione» nel contesto."
       },
       {
         "word": "scegliere",
-        "translation": "Palabra clave 9",
+        "translation": "escoger",
         "example": "Uso la parola «scegliere» nel contesto."
       },
       {
         "word": "equilibrio",
-        "translation": "Palabra clave 10",
+        "translation": "equilibrio",
         "example": "Uso la parola «equilibrio» nel contesto."
       }
     ],
@@ -17164,10 +17172,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Congiuntivo con opinione e dubbio",
-        "definition": "Práctica guiada de Congiuntivo con opinione e dubbio.",
+        "name": "Tecnologia quotidiana: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -17177,7 +17185,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
               {},
               {},
@@ -17187,7 +17195,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli il connettore di contrasto.",
             "options": [
               {},
               {},
@@ -17197,7 +17205,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
               {},
               {},
@@ -17207,7 +17215,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase esprime un’opinione?",
             "options": [
               {},
               {},
@@ -17217,7 +17225,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
               {},
               {},
@@ -17227,7 +17235,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la conclusione logica.",
             "options": [
               {},
               {},
@@ -17237,7 +17245,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
               {},
               {},
@@ -17247,7 +17255,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase giustifica una scelta?",
             "options": [
               {},
               {},
@@ -17262,89 +17270,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Vorrei uscire, quindi piove.",
+          "Vorrei uscire, tuttavia piove.",
+          "Vorrei uscire, perché piove.",
+          "Vorrei uscire, infatti piove."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "essere",
+          "sia",
+          "sono",
+          "sarei"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Il progetto funziona perché?",
+          "Il progetto ieri funziona?",
+          "Funzionare progetto secondo me.",
+          "Secondo me, il progetto funziona."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
+          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
+          "Abbiamo poco tempo, perché organizziamo il lavoro.",
+          "Abbiamo poco tempo, se organizziamo il lavoro."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "avere",
+          "hanno",
+          "abbiano",
+          "avranno"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Scelgo il treno è più sostenibile perché?",
+          "Scelgo il treno tuttavia è più sostenibile.",
+          "Scelgo il treno quindi è più sostenibile?",
+          "Scelgo il treno perché è più sostenibile."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
@@ -17752,8 +17760,8 @@
     "vocabulary": [
       {
         "word": "tecnologia",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "tecnología",
+        "definition": "tecnología",
         "example": "Uso «tecnologia» in una frase.",
         "contexts": [
           "tecnologia · tema",
@@ -17763,8 +17771,8 @@
       },
       {
         "word": "dispositivo",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "dispositivo",
+        "definition": "dispositivo",
         "example": "Uso «dispositivo» in una frase.",
         "contexts": [
           "dispositivo · tema",
@@ -17774,8 +17782,8 @@
       },
       {
         "word": "vantaggio",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "ventaja",
+        "definition": "ventaja",
         "example": "Uso «vantaggio» in una frase.",
         "contexts": [
           "vantaggio · tema",
@@ -17785,8 +17793,8 @@
       },
       {
         "word": "rischio",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "riesgo",
+        "definition": "riesgo",
         "example": "Uso «rischio» in una frase.",
         "contexts": [
           "rischio · tema",
@@ -17796,8 +17804,8 @@
       },
       {
         "word": "proteggere",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "proteger",
+        "definition": "proteger",
         "example": "Uso «proteggere» in una frase.",
         "contexts": [
           "proteggere · tema",
@@ -17807,8 +17815,8 @@
       },
       {
         "word": "abitudine",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "costumbre",
+        "definition": "costumbre",
         "example": "Uso «abitudine» in una frase.",
         "contexts": [
           "abitudine · tema",
@@ -17818,8 +17826,8 @@
       },
       {
         "word": "connessione",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "conexión",
+        "definition": "conexión",
         "example": "Uso «connessione» in una frase.",
         "contexts": [
           "connessione · tema",
@@ -17829,8 +17837,8 @@
       },
       {
         "word": "informazione",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "información",
+        "definition": "información",
         "example": "Uso «informazione» in una frase.",
         "contexts": [
           "informazione · tema",
@@ -17840,8 +17848,8 @@
       },
       {
         "word": "scegliere",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "escoger",
+        "definition": "escoger",
         "example": "Uso «scegliere» in una frase.",
         "contexts": [
           "scegliere · tema",
@@ -17851,8 +17859,8 @@
       },
       {
         "word": "equilibrio",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "equilibrio",
+        "definition": "equilibrio",
         "example": "Uso «equilibrio» in una frase.",
         "contexts": [
           "equilibrio · tema",
@@ -18160,10 +18168,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Fare, tempo e stagioni",
-        "definition": "Práctica guiada de Fare, tempo e stagioni.",
+        "name": "Il tempo e le stagioni: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
         "structure": "soggetto + verbo al presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Descrivere persone, luoghi e routine.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -18173,7 +18181,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Io ___ nel quartiere.",
             "options": [
               {},
               {},
@@ -18183,7 +18191,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la forma corretta per Marco.",
             "options": [
               {},
               {},
@@ -18193,7 +18201,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ italiano ogni giorno.",
             "options": [
               {},
               {},
@@ -18203,7 +18211,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale domanda è corretta?",
             "options": [
               {},
               {},
@@ -18213,7 +18221,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Lei ___ una domanda.",
             "options": [
               {},
               {},
@@ -18223,7 +18231,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase con l’articolo corretto.",
             "options": [
               {},
               {},
@@ -18233,7 +18241,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il caffè?",
             "options": [
               {},
               {},
@@ -18243,7 +18251,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase parla di una routine?",
             "options": [
               {},
               {},
@@ -18258,89 +18266,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Io ___ nel quartiere.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "vivo",
+          "vive",
+          "vivere",
+          "viviamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la forma corretta per Marco.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Marco parlare con Sofia.",
+          "Marco parla con Sofia.",
+          "Marco parlo con Sofia.",
+          "Marco parlano con Sofia."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ italiano ogni giorno.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "studiare",
+          "studia",
+          "studiamo",
+          "studiate"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale domanda è corretta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Dove abiti tu è?",
+          "Dove abita tu?",
+          "Dove abitare?",
+          "Dove abiti?"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Lei ___ una domanda.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "fa",
+          "faccio",
+          "fare",
+          "fanno"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase con l’articolo corretto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Il casa è luminosa.",
+          "La casa è luminosa.",
+          "La casa sono luminosa.",
+          "La casa è luminoso."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il caffè?",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "prendere",
+          "prende",
+          "prendi",
+          "prendiamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase parla di una routine?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Ogni mattina lavorano io in centro.",
+          "Ieri lavorare in centro.",
+          "Domani lavorato in centro.",
+          "Ogni mattina lavoro in centro."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
@@ -18370,10 +18378,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Ci e ne",
-        "definition": "Práctica guiada de Ci e ne.",
+        "name": "La salute ogni giorno: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Raccontare esperienze e progetti.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -18383,7 +18391,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Ieri io ___ il museo.",
             "options": [
               {},
               {},
@@ -18393,7 +18401,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase al passato prossimo corretta.",
             "options": [
               {},
               {},
@@ -18403,7 +18411,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Marta ___ a casa tardi.",
             "options": [
               {},
               {},
@@ -18413,7 +18421,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale connettore indica la sequenza?",
             "options": [
               {},
               {},
@@ -18423,7 +18431,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il messaggio?",
             "options": [
               {},
               {},
@@ -18433,7 +18441,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase corretta.",
             "options": [
               {},
               {},
@@ -18443,7 +18451,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ una bella esperienza.",
             "options": [
               {},
               {},
@@ -18453,7 +18461,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase racconta un’azione conclusa?",
             "options": [
               {},
               {},
@@ -18468,89 +18476,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Ieri io ___ il museo.",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "ho visitato",
+          "visito",
+          "ho visitare",
+          "sono visitato"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase al passato prossimo corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo cenare insieme.",
+          "Abbiamo cenato insieme.",
+          "Siamo cenato insieme.",
+          "Ceniamo ieri insieme."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Marta ___ a casa tardi.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "è tornare",
+          "ha tornata",
+          "è tornata",
+          "torna ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale connettore indica la sequenza?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Prima abbiamo studiato, se siamo usciti.",
+          "Prima abbiamo studiato, perché siamo usciti.",
+          "Prima abbiamo studiato, ma siamo usciti.",
+          "Prima abbiamo studiato, poi siamo usciti."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il messaggio?",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "hai letto",
+          "hai leggere",
+          "sei letto",
+          "leggi ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "I miei amici sono preso il treno.",
+          "I miei amici hanno preso il treno.",
+          "I miei amici hanno prendere il treno.",
+          "I miei amici prendono il treno ieri."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ una bella esperienza.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "abbiamo avere",
+          "siamo avuti",
+          "abbiamo avuto",
+          "aviamo avuto"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase racconta un’azione conclusa?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Sabato sono incontrato mia cugina.",
+          "Sabato incontro mia cugina domani.",
+          "Sabato incontrare mia cugina.",
+          "Sabato ho incontrato mia cugina."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
@@ -19134,52 +19142,52 @@
     "vocabulary": [
       {
         "word": "trasporto",
-        "translation": "Palabra clave 1",
+        "translation": "transporte",
         "example": "Uso la parola «trasporto» nel contesto."
       },
       {
         "word": "percorso",
-        "translation": "Palabra clave 2",
+        "translation": "recorrido",
         "example": "Uso la parola «percorso» nel contesto."
       },
       {
         "word": "traffico",
-        "translation": "Palabra clave 3",
+        "translation": "tráfico",
         "example": "Uso la parola «traffico» nel contesto."
       },
       {
         "word": "bicicletta",
-        "translation": "Palabra clave 4",
+        "translation": "bicicleta",
         "example": "Uso la parola «bicicletta» nel contesto."
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Uso la parola «migliorare» nel contesto."
       },
       {
         "word": "accessibile",
-        "translation": "Palabra clave 6",
+        "translation": "accesible",
         "example": "Uso la parola «accessibile» nel contesto."
       },
       {
         "word": "ritardo",
-        "translation": "Palabra clave 7",
+        "translation": "retraso",
         "example": "Uso la parola «ritardo» nel contesto."
       },
       {
         "word": "servizio",
-        "translation": "Palabra clave 8",
+        "translation": "servicio",
         "example": "Uso la parola «servizio» nel contesto."
       },
       {
         "word": "proporre",
-        "translation": "Palabra clave 9",
+        "translation": "proponer",
         "example": "Uso la parola «proporre» nel contesto."
       },
       {
         "word": "quartiere",
-        "translation": "Palabra clave 10",
+        "translation": "barrio",
         "example": "Uso la parola «quartiere» nel contesto."
       }
     ],
@@ -19206,52 +19214,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il testo?",
+        "prompt": "Di che cosa parla il gruppo?",
         "options": [
           "trasporto",
-          "percorso",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "servizio",
+          "proporre",
+          "quartiere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa prima la protagonista?",
+        "prompt": "Che cosa fa ogni persona?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Racconta un’esperienza, ascolta e propone una soluzione.",
+          "Compra un biglietto per un evento.",
+          "Non ascolta le altre persone.",
+          "Annulla il progetto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale ruolo ha la seconda persona?",
+        "prompt": "Perché decidono di collaborare?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Perché hanno un obiettivo chiaro.",
+          "Perché non hanno tempo.",
+          "Perché non conoscono il tema.",
+          "Perché preferiscono lavorare da soli."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché il gruppo collabora?",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Una soluzione concreta e collaborativa.",
+          "Un elenco senza contesto.",
+          "Una discussione senza obiettivo.",
+          "Una decisione individuale."
         ]
       },
       {
+        "id": "italian-b1-citta-e-mobilita-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è l’obiettivo comune?",
+        "prompt": "Qual è lo scopo principale di «Città e mobilità»?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Presentare le idee e i dettagli essenziali di Città e mobilità",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
         ]
       }
     ]
@@ -19447,52 +19456,52 @@
     "vocabulary": [
       {
         "word": "trasporto",
-        "translation": "Palabra clave 1",
+        "translation": "transporte",
         "example": "Uso la parola «trasporto» nel contesto."
       },
       {
         "word": "percorso",
-        "translation": "Palabra clave 2",
+        "translation": "recorrido",
         "example": "Uso la parola «percorso» nel contesto."
       },
       {
         "word": "traffico",
-        "translation": "Palabra clave 3",
+        "translation": "tráfico",
         "example": "Uso la parola «traffico» nel contesto."
       },
       {
         "word": "bicicletta",
-        "translation": "Palabra clave 4",
+        "translation": "bicicleta",
         "example": "Uso la parola «bicicletta» nel contesto."
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 5",
+        "translation": "mejorar",
         "example": "Uso la parola «migliorare» nel contesto."
       },
       {
         "word": "accessibile",
-        "translation": "Palabra clave 6",
+        "translation": "accesible",
         "example": "Uso la parola «accessibile» nel contesto."
       },
       {
         "word": "ritardo",
-        "translation": "Palabra clave 7",
+        "translation": "retraso",
         "example": "Uso la parola «ritardo» nel contesto."
       },
       {
         "word": "servizio",
-        "translation": "Palabra clave 8",
+        "translation": "servicio",
         "example": "Uso la parola «servizio» nel contesto."
       },
       {
         "word": "proporre",
-        "translation": "Palabra clave 9",
+        "translation": "proponer",
         "example": "Uso la parola «proporre» nel contesto."
       },
       {
         "word": "quartiere",
-        "translation": "Palabra clave 10",
+        "translation": "barrio",
         "example": "Uso la parola «quartiere» nel contesto."
       }
     ],
@@ -19501,10 +19510,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Comparativi complessi",
-        "definition": "Práctica guiada de Comparativi complessi.",
+        "name": "Città e mobilità: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -19514,7 +19523,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
               {},
               {},
@@ -19524,7 +19533,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli il connettore di contrasto.",
             "options": [
               {},
               {},
@@ -19534,7 +19543,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
               {},
               {},
@@ -19544,7 +19553,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase esprime un’opinione?",
             "options": [
               {},
               {},
@@ -19554,7 +19563,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
               {},
               {},
@@ -19564,7 +19573,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la conclusione logica.",
             "options": [
               {},
               {},
@@ -19574,7 +19583,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
               {},
               {},
@@ -19584,7 +19593,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase giustifica una scelta?",
             "options": [
               {},
               {},
@@ -19599,89 +19608,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Vorrei uscire, quindi piove.",
+          "Vorrei uscire, tuttavia piove.",
+          "Vorrei uscire, perché piove.",
+          "Vorrei uscire, infatti piove."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "essere",
+          "sia",
+          "sono",
+          "sarei"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Il progetto funziona perché?",
+          "Il progetto ieri funziona?",
+          "Funzionare progetto secondo me.",
+          "Secondo me, il progetto funziona."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
+          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
+          "Abbiamo poco tempo, perché organizziamo il lavoro.",
+          "Abbiamo poco tempo, se organizziamo il lavoro."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "avere",
+          "hanno",
+          "abbiano",
+          "avranno"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Scelgo il treno è più sostenibile perché?",
+          "Scelgo il treno tuttavia è più sostenibile.",
+          "Scelgo il treno quindi è più sostenibile?",
+          "Scelgo il treno perché è più sostenibile."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
@@ -20089,8 +20098,8 @@
     "vocabulary": [
       {
         "word": "trasporto",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "transporte",
+        "definition": "transporte",
         "example": "Uso «trasporto» in una frase.",
         "contexts": [
           "trasporto · tema",
@@ -20100,8 +20109,8 @@
       },
       {
         "word": "percorso",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "recorrido",
+        "definition": "recorrido",
         "example": "Uso «percorso» in una frase.",
         "contexts": [
           "percorso · tema",
@@ -20111,8 +20120,8 @@
       },
       {
         "word": "traffico",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "tráfico",
+        "definition": "tráfico",
         "example": "Uso «traffico» in una frase.",
         "contexts": [
           "traffico · tema",
@@ -20122,8 +20131,8 @@
       },
       {
         "word": "bicicletta",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "bicicleta",
+        "definition": "bicicleta",
         "example": "Uso «bicicletta» in una frase.",
         "contexts": [
           "bicicletta · tema",
@@ -20133,8 +20142,8 @@
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Uso «migliorare» in una frase.",
         "contexts": [
           "migliorare · tema",
@@ -20144,8 +20153,8 @@
       },
       {
         "word": "accessibile",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "accesible",
+        "definition": "accesible",
         "example": "Uso «accessibile» in una frase.",
         "contexts": [
           "accessibile · tema",
@@ -20155,8 +20164,8 @@
       },
       {
         "word": "ritardo",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "retraso",
+        "definition": "retraso",
         "example": "Uso «ritardo» in una frase.",
         "contexts": [
           "ritardo · tema",
@@ -20166,8 +20175,8 @@
       },
       {
         "word": "servizio",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "servicio",
+        "definition": "servicio",
         "example": "Uso «servizio» in una frase.",
         "contexts": [
           "servizio · tema",
@@ -20177,8 +20186,8 @@
       },
       {
         "word": "proporre",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "proponer",
+        "definition": "proponer",
         "example": "Uso «proporre» in una frase.",
         "contexts": [
           "proporre · tema",
@@ -20188,8 +20197,8 @@
       },
       {
         "word": "quartiere",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "barrio",
+        "definition": "barrio",
         "example": "Uso «quartiere» in una frase.",
         "contexts": [
           "quartiere · tema",
@@ -20497,10 +20506,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Passato prossimo introduttivo",
-        "definition": "Práctica guiada de Passato prossimo introduttivo.",
+        "name": "Una festa di quartiere: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
         "structure": "soggetto + verbo al presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Descrivere persone, luoghi e routine.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -20510,7 +20519,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Io ___ nel quartiere.",
             "options": [
               {},
               {},
@@ -20520,7 +20529,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la forma corretta per Marco.",
             "options": [
               {},
               {},
@@ -20530,7 +20539,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ italiano ogni giorno.",
             "options": [
               {},
               {},
@@ -20540,7 +20549,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale domanda è corretta?",
             "options": [
               {},
               {},
@@ -20550,7 +20559,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Lei ___ una domanda.",
             "options": [
               {},
               {},
@@ -20560,7 +20569,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase con l’articolo corretto.",
             "options": [
               {},
               {},
@@ -20570,7 +20579,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il caffè?",
             "options": [
               {},
               {},
@@ -20580,7 +20589,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase parla di una routine?",
             "options": [
               {},
               {},
@@ -20595,89 +20604,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Io ___ nel quartiere.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "vivo",
+          "vive",
+          "vivere",
+          "viviamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la forma corretta per Marco.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Marco parlare con Sofia.",
+          "Marco parla con Sofia.",
+          "Marco parlo con Sofia.",
+          "Marco parlano con Sofia."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ italiano ogni giorno.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "studiare",
+          "studia",
+          "studiamo",
+          "studiate"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale domanda è corretta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Dove abiti tu è?",
+          "Dove abita tu?",
+          "Dove abitare?",
+          "Dove abiti?"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Lei ___ una domanda.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "fa",
+          "faccio",
+          "fare",
+          "fanno"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase con l’articolo corretto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Il casa è luminosa.",
+          "La casa è luminosa.",
+          "La casa sono luminosa.",
+          "La casa è luminoso."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il caffè?",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "prendere",
+          "prende",
+          "prendi",
+          "prendiamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase parla di una routine?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Ogni mattina lavorano io in centro.",
+          "Ieri lavorare in centro.",
+          "Domani lavorato in centro.",
+          "Ogni mattina lavoro in centro."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
@@ -20707,10 +20716,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Preposizioni e movimento",
-        "definition": "Práctica guiada de Preposizioni e movimento.",
+        "name": "Storie di migrazione: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Raccontare esperienze e progetti.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -20720,7 +20729,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Ieri io ___ il museo.",
             "options": [
               {},
               {},
@@ -20730,7 +20739,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase al passato prossimo corretta.",
             "options": [
               {},
               {},
@@ -20740,7 +20749,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Marta ___ a casa tardi.",
             "options": [
               {},
               {},
@@ -20750,7 +20759,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale connettore indica la sequenza?",
             "options": [
               {},
               {},
@@ -20760,7 +20769,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il messaggio?",
             "options": [
               {},
               {},
@@ -20770,7 +20779,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase corretta.",
             "options": [
               {},
               {},
@@ -20780,7 +20789,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ una bella esperienza.",
             "options": [
               {},
               {},
@@ -20790,7 +20799,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase racconta un’azione conclusa?",
             "options": [
               {},
               {},
@@ -20805,89 +20814,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Ieri io ___ il museo.",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "ho visitato",
+          "visito",
+          "ho visitare",
+          "sono visitato"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase al passato prossimo corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo cenare insieme.",
+          "Abbiamo cenato insieme.",
+          "Siamo cenato insieme.",
+          "Ceniamo ieri insieme."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Marta ___ a casa tardi.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "è tornare",
+          "ha tornata",
+          "è tornata",
+          "torna ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale connettore indica la sequenza?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Prima abbiamo studiato, se siamo usciti.",
+          "Prima abbiamo studiato, perché siamo usciti.",
+          "Prima abbiamo studiato, ma siamo usciti.",
+          "Prima abbiamo studiato, poi siamo usciti."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il messaggio?",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "hai letto",
+          "hai leggere",
+          "sei letto",
+          "leggi ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "I miei amici sono preso il treno.",
+          "I miei amici hanno preso il treno.",
+          "I miei amici hanno prendere il treno.",
+          "I miei amici prendono il treno ieri."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ una bella esperienza.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "abbiamo avere",
+          "siamo avuti",
+          "abbiamo avuto",
+          "aviamo avuto"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase racconta un’azione conclusa?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Sabato sono incontrato mia cugina.",
+          "Sabato incontro mia cugina domani.",
+          "Sabato incontrare mia cugina.",
+          "Sabato ho incontrato mia cugina."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
@@ -21471,52 +21480,52 @@
     "vocabulary": [
       {
         "word": "futuro",
-        "translation": "Palabra clave 1",
+        "translation": "futuro",
         "example": "Uso la parola «futuro» nel contesto."
       },
       {
         "word": "obiettivo",
-        "translation": "Palabra clave 2",
+        "translation": "Objetivo",
         "example": "Uso la parola «obiettivo» nel contesto."
       },
       {
         "word": "opportunità",
-        "translation": "Palabra clave 3",
+        "translation": "oportunidad",
         "example": "Uso la parola «opportunità» nel contesto."
       },
       {
         "word": "decidere",
-        "translation": "Palabra clave 4",
+        "translation": "decidir",
         "example": "Uso la parola «decidere» nel contesto."
       },
       {
         "word": "esperienza",
-        "translation": "Palabra clave 5",
+        "translation": "experiencia",
         "example": "Uso la parola «esperienza» nel contesto."
       },
       {
         "word": "formazione",
-        "translation": "Palabra clave 6",
+        "translation": "formación",
         "example": "Uso la parola «formazione» nel contesto."
       },
       {
         "word": "percorso",
-        "translation": "Palabra clave 7",
+        "translation": "recorrido",
         "example": "Uso la parola «percorso» nel contesto."
       },
       {
         "word": "sperare",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Uso la parola «sperare» nel contesto."
       },
       {
         "word": "scelta",
-        "translation": "Palabra clave 9",
+        "translation": "elección",
         "example": "Uso la parola «scelta» nel contesto."
       },
       {
         "word": "raggiungere",
-        "translation": "Palabra clave 10",
+        "translation": "llegar",
         "example": "Uso la parola «raggiungere» nel contesto."
       }
     ],
@@ -21543,52 +21552,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il testo?",
+        "prompt": "Di che cosa parla il gruppo?",
         "options": [
           "futuro",
-          "obiettivo",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "sperare",
+          "scelta",
+          "raggiungere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa prima la protagonista?",
+        "prompt": "Che cosa fa ogni persona?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Racconta un’esperienza, ascolta e propone una soluzione.",
+          "Compra un biglietto per un evento.",
+          "Non ascolta le altre persone.",
+          "Annulla il progetto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale ruolo ha la seconda persona?",
+        "prompt": "Perché decidono di collaborare?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Perché hanno un obiettivo chiaro.",
+          "Perché non hanno tempo.",
+          "Perché non conoscono il tema.",
+          "Perché preferiscono lavorare da soli."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché il gruppo collabora?",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Una soluzione concreta e collaborativa.",
+          "Un elenco senza contesto.",
+          "Una discussione senza obiettivo.",
+          "Una decisione individuale."
         ]
       },
       {
+        "id": "italian-b1-piani-per-il-futuro-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è l’obiettivo comune?",
+        "prompt": "Qual è lo scopo principale di «Piani per il futuro»?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Presentare le idee e i dettagli essenziali di Piani per il futuro",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
         ]
       }
     ]
@@ -21784,52 +21794,52 @@
     "vocabulary": [
       {
         "word": "futuro",
-        "translation": "Palabra clave 1",
+        "translation": "futuro",
         "example": "Uso la parola «futuro» nel contesto."
       },
       {
         "word": "obiettivo",
-        "translation": "Palabra clave 2",
+        "translation": "Objetivo",
         "example": "Uso la parola «obiettivo» nel contesto."
       },
       {
         "word": "opportunità",
-        "translation": "Palabra clave 3",
+        "translation": "oportunidad",
         "example": "Uso la parola «opportunità» nel contesto."
       },
       {
         "word": "decidere",
-        "translation": "Palabra clave 4",
+        "translation": "decidir",
         "example": "Uso la parola «decidere» nel contesto."
       },
       {
         "word": "esperienza",
-        "translation": "Palabra clave 5",
+        "translation": "experiencia",
         "example": "Uso la parola «esperienza» nel contesto."
       },
       {
         "word": "formazione",
-        "translation": "Palabra clave 6",
+        "translation": "formación",
         "example": "Uso la parola «formazione» nel contesto."
       },
       {
         "word": "percorso",
-        "translation": "Palabra clave 7",
+        "translation": "recorrido",
         "example": "Uso la parola «percorso» nel contesto."
       },
       {
         "word": "sperare",
-        "translation": "Palabra clave 8",
+        "translation": "esperar",
         "example": "Uso la parola «sperare» nel contesto."
       },
       {
         "word": "scelta",
-        "translation": "Palabra clave 9",
+        "translation": "elección",
         "example": "Uso la parola «scelta» nel contesto."
       },
       {
         "word": "raggiungere",
-        "translation": "Palabra clave 10",
+        "translation": "llegar",
         "example": "Uso la parola «raggiungere» nel contesto."
       }
     ],
@@ -21838,10 +21848,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Futuro anteriore e supposizioni",
-        "definition": "Práctica guiada de Futuro anteriore e supposizioni.",
+        "name": "Piani per il futuro: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -21851,7 +21861,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
               {},
               {},
@@ -21861,7 +21871,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli il connettore di contrasto.",
             "options": [
               {},
               {},
@@ -21871,7 +21881,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
               {},
               {},
@@ -21881,7 +21891,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase esprime un’opinione?",
             "options": [
               {},
               {},
@@ -21891,7 +21901,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
               {},
               {},
@@ -21901,7 +21911,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la conclusione logica.",
             "options": [
               {},
               {},
@@ -21911,7 +21921,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
               {},
               {},
@@ -21921,7 +21931,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase giustifica una scelta?",
             "options": [
               {},
               {},
@@ -21936,89 +21946,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Vorrei uscire, quindi piove.",
+          "Vorrei uscire, tuttavia piove.",
+          "Vorrei uscire, perché piove.",
+          "Vorrei uscire, infatti piove."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "essere",
+          "sia",
+          "sono",
+          "sarei"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Il progetto funziona perché?",
+          "Il progetto ieri funziona?",
+          "Funzionare progetto secondo me.",
+          "Secondo me, il progetto funziona."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
+          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
+          "Abbiamo poco tempo, perché organizziamo il lavoro.",
+          "Abbiamo poco tempo, se organizziamo il lavoro."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "avere",
+          "hanno",
+          "abbiano",
+          "avranno"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Scelgo il treno è più sostenibile perché?",
+          "Scelgo il treno tuttavia è più sostenibile.",
+          "Scelgo il treno quindi è più sostenibile?",
+          "Scelgo il treno perché è più sostenibile."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
@@ -22426,8 +22436,8 @@
     "vocabulary": [
       {
         "word": "futuro",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "futuro",
+        "definition": "futuro",
         "example": "Uso «futuro» in una frase.",
         "contexts": [
           "futuro · tema",
@@ -22437,8 +22447,8 @@
       },
       {
         "word": "obiettivo",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "Objetivo",
+        "definition": "Objetivo",
         "example": "Uso «obiettivo» in una frase.",
         "contexts": [
           "obiettivo · tema",
@@ -22448,8 +22458,8 @@
       },
       {
         "word": "opportunità",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "oportunidad",
+        "definition": "oportunidad",
         "example": "Uso «opportunità» in una frase.",
         "contexts": [
           "opportunità · tema",
@@ -22459,8 +22469,8 @@
       },
       {
         "word": "decidere",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "decidir",
+        "definition": "decidir",
         "example": "Uso «decidere» in una frase.",
         "contexts": [
           "decidere · tema",
@@ -22470,8 +22480,8 @@
       },
       {
         "word": "esperienza",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "experiencia",
+        "definition": "experiencia",
         "example": "Uso «esperienza» in una frase.",
         "contexts": [
           "esperienza · tema",
@@ -22481,8 +22491,8 @@
       },
       {
         "word": "formazione",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "formación",
+        "definition": "formación",
         "example": "Uso «formazione» in una frase.",
         "contexts": [
           "formazione · tema",
@@ -22492,8 +22502,8 @@
       },
       {
         "word": "percorso",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "recorrido",
+        "definition": "recorrido",
         "example": "Uso «percorso» in una frase.",
         "contexts": [
           "percorso · tema",
@@ -22503,8 +22513,8 @@
       },
       {
         "word": "sperare",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "esperar",
+        "definition": "esperar",
         "example": "Uso «sperare» in una frase.",
         "contexts": [
           "sperare · tema",
@@ -22514,8 +22524,8 @@
       },
       {
         "word": "scelta",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "elección",
+        "definition": "elección",
         "example": "Uso «scelta» in una frase.",
         "contexts": [
           "scelta · tema",
@@ -22525,8 +22535,8 @@
       },
       {
         "word": "raggiungere",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "llegar",
+        "definition": "llegar",
         "example": "Uso «raggiungere» in una frase.",
         "contexts": [
           "raggiungere · tema",
@@ -22834,10 +22844,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Preposizioni semplici e articolate",
-        "definition": "Práctica guiada de Preposizioni semplici e articolate.",
+        "name": "In treno: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
         "structure": "soggetto + verbo al presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Descrivere persone, luoghi e routine.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -22847,7 +22857,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Io ___ nel quartiere.",
             "options": [
               {},
               {},
@@ -22857,7 +22867,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la forma corretta per Marco.",
             "options": [
               {},
               {},
@@ -22867,7 +22877,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ italiano ogni giorno.",
             "options": [
               {},
               {},
@@ -22877,7 +22887,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale domanda è corretta?",
             "options": [
               {},
               {},
@@ -22887,7 +22897,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Lei ___ una domanda.",
             "options": [
               {},
               {},
@@ -22897,7 +22907,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase con l’articolo corretto.",
             "options": [
               {},
               {},
@@ -22907,7 +22917,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il caffè?",
             "options": [
               {},
               {},
@@ -22917,7 +22927,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase parla di una routine?",
             "options": [
               {},
               {},
@@ -22932,89 +22942,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Io ___ nel quartiere.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "vivo",
+          "vive",
+          "vivere",
+          "viviamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la forma corretta per Marco.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Marco parlare con Sofia.",
+          "Marco parla con Sofia.",
+          "Marco parlo con Sofia.",
+          "Marco parlano con Sofia."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ italiano ogni giorno.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "studiare",
+          "studia",
+          "studiamo",
+          "studiate"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale domanda è corretta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Dove abiti tu è?",
+          "Dove abita tu?",
+          "Dove abitare?",
+          "Dove abiti?"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Lei ___ una domanda.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "fa",
+          "faccio",
+          "fare",
+          "fanno"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase con l’articolo corretto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Il casa è luminosa.",
+          "La casa è luminosa.",
+          "La casa sono luminosa.",
+          "La casa è luminoso."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il caffè?",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "prendere",
+          "prende",
+          "prendi",
+          "prendiamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase parla di una routine?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Ogni mattina lavorano io in centro.",
+          "Ieri lavorare in centro.",
+          "Domani lavorato in centro.",
+          "Ogni mattina lavoro in centro."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
@@ -23044,10 +23054,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Condizionale di cortesia",
-        "definition": "Práctica guiada de Condizionale di cortesia.",
+        "name": "Un progetto di classe: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Raccontare esperienze e progetti.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -23057,7 +23067,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Ieri io ___ il museo.",
             "options": [
               {},
               {},
@@ -23067,7 +23077,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase al passato prossimo corretta.",
             "options": [
               {},
               {},
@@ -23077,7 +23087,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Marta ___ a casa tardi.",
             "options": [
               {},
               {},
@@ -23087,7 +23097,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale connettore indica la sequenza?",
             "options": [
               {},
               {},
@@ -23097,7 +23107,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il messaggio?",
             "options": [
               {},
               {},
@@ -23107,7 +23117,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase corretta.",
             "options": [
               {},
               {},
@@ -23117,7 +23127,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ una bella esperienza.",
             "options": [
               {},
               {},
@@ -23127,7 +23137,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase racconta un’azione conclusa?",
             "options": [
               {},
               {},
@@ -23142,89 +23152,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Ieri io ___ il museo.",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "ho visitato",
+          "visito",
+          "ho visitare",
+          "sono visitato"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase al passato prossimo corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo cenare insieme.",
+          "Abbiamo cenato insieme.",
+          "Siamo cenato insieme.",
+          "Ceniamo ieri insieme."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Marta ___ a casa tardi.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "è tornare",
+          "ha tornata",
+          "è tornata",
+          "torna ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale connettore indica la sequenza?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Prima abbiamo studiato, se siamo usciti.",
+          "Prima abbiamo studiato, perché siamo usciti.",
+          "Prima abbiamo studiato, ma siamo usciti.",
+          "Prima abbiamo studiato, poi siamo usciti."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il messaggio?",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "hai letto",
+          "hai leggere",
+          "sei letto",
+          "leggi ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "I miei amici sono preso il treno.",
+          "I miei amici hanno preso il treno.",
+          "I miei amici hanno prendere il treno.",
+          "I miei amici prendono il treno ieri."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ una bella esperienza.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "abbiamo avere",
+          "siamo avuti",
+          "abbiamo avuto",
+          "aviamo avuto"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase racconta un’azione conclusa?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Sabato sono incontrato mia cugina.",
+          "Sabato incontro mia cugina domani.",
+          "Sabato incontrare mia cugina.",
+          "Sabato ho incontrato mia cugina."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
@@ -23808,52 +23818,52 @@
     "vocabulary": [
       {
         "word": "relazione",
-        "translation": "Palabra clave 1",
+        "translation": "relación",
         "example": "Uso la parola «relazione» nel contesto."
       },
       {
         "word": "ascoltare",
-        "translation": "Palabra clave 2",
+        "translation": "escuchar",
         "example": "Uso la parola «ascoltare» nel contesto."
       },
       {
         "word": "spiegare",
-        "translation": "Palabra clave 3",
+        "translation": "explicar",
         "example": "Uso la parola «spiegare» nel contesto."
       },
       {
         "word": "messaggio",
-        "translation": "Palabra clave 4",
+        "translation": "mensaje",
         "example": "Uso la parola «messaggio» nel contesto."
       },
       {
         "word": "accordo",
-        "translation": "Palabra clave 5",
+        "translation": "acuerdo",
         "example": "Uso la parola «accordo» nel contesto."
       },
       {
         "word": "fiducia",
-        "translation": "Palabra clave 6",
+        "translation": "confianza",
         "example": "Uso la parola «fiducia» nel contesto."
       },
       {
         "word": "conversazione",
-        "translation": "Palabra clave 7",
+        "translation": "conversación",
         "example": "Uso la parola «conversazione» nel contesto."
       },
       {
         "word": "opinione",
-        "translation": "Palabra clave 8",
+        "translation": "opinión",
         "example": "Uso la parola «opinione» nel contesto."
       },
       {
         "word": "chiarire",
-        "translation": "Palabra clave 9",
+        "translation": "aclarar",
         "example": "Uso la parola «chiarire» nel contesto."
       },
       {
         "word": "rispettare",
-        "translation": "Palabra clave 10",
+        "translation": "respetar",
         "example": "Uso la parola «rispettare» nel contesto."
       }
     ],
@@ -23880,52 +23890,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il testo?",
+        "prompt": "Di che cosa parla il gruppo?",
         "options": [
           "relazione",
-          "ascoltare",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "opinione",
+          "chiarire",
+          "rispettare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa prima la protagonista?",
+        "prompt": "Che cosa fa ogni persona?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Racconta un’esperienza, ascolta e propone una soluzione.",
+          "Compra un biglietto per un evento.",
+          "Non ascolta le altre persone.",
+          "Annulla il progetto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale ruolo ha la seconda persona?",
+        "prompt": "Perché decidono di collaborare?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Perché hanno un obiettivo chiaro.",
+          "Perché non hanno tempo.",
+          "Perché non conoscono il tema.",
+          "Perché preferiscono lavorare da soli."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché il gruppo collabora?",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Una soluzione concreta e collaborativa.",
+          "Un elenco senza contesto.",
+          "Una discussione senza obiettivo.",
+          "Una decisione individuale."
         ]
       },
       {
+        "id": "italian-b1-relazioni-e-comunicazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è l’obiettivo comune?",
+        "prompt": "Qual è lo scopo principale di «Relazioni e comunicazione»?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Presentare le idee e i dettagli essenziali di Relazioni e comunicazione",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
         ]
       }
     ]
@@ -24121,52 +24132,52 @@
     "vocabulary": [
       {
         "word": "relazione",
-        "translation": "Palabra clave 1",
+        "translation": "relación",
         "example": "Uso la parola «relazione» nel contesto."
       },
       {
         "word": "ascoltare",
-        "translation": "Palabra clave 2",
+        "translation": "escuchar",
         "example": "Uso la parola «ascoltare» nel contesto."
       },
       {
         "word": "spiegare",
-        "translation": "Palabra clave 3",
+        "translation": "explicar",
         "example": "Uso la parola «spiegare» nel contesto."
       },
       {
         "word": "messaggio",
-        "translation": "Palabra clave 4",
+        "translation": "mensaje",
         "example": "Uso la parola «messaggio» nel contesto."
       },
       {
         "word": "accordo",
-        "translation": "Palabra clave 5",
+        "translation": "acuerdo",
         "example": "Uso la parola «accordo» nel contesto."
       },
       {
         "word": "fiducia",
-        "translation": "Palabra clave 6",
+        "translation": "confianza",
         "example": "Uso la parola «fiducia» nel contesto."
       },
       {
         "word": "conversazione",
-        "translation": "Palabra clave 7",
+        "translation": "conversación",
         "example": "Uso la parola «conversazione» nel contesto."
       },
       {
         "word": "opinione",
-        "translation": "Palabra clave 8",
+        "translation": "opinión",
         "example": "Uso la parola «opinione» nel contesto."
       },
       {
         "word": "chiarire",
-        "translation": "Palabra clave 9",
+        "translation": "aclarar",
         "example": "Uso la parola «chiarire» nel contesto."
       },
       {
         "word": "rispettare",
-        "translation": "Palabra clave 10",
+        "translation": "respetar",
         "example": "Uso la parola «rispettare» nel contesto."
       }
     ],
@@ -24175,10 +24186,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Relativi e comunicazione",
-        "definition": "Práctica guiada de Relativi e comunicazione.",
+        "name": "Relazioni e comunicazione: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -24188,7 +24199,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
               {},
               {},
@@ -24198,7 +24209,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli il connettore di contrasto.",
             "options": [
               {},
               {},
@@ -24208,7 +24219,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
               {},
               {},
@@ -24218,7 +24229,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase esprime un’opinione?",
             "options": [
               {},
               {},
@@ -24228,7 +24239,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
               {},
               {},
@@ -24238,7 +24249,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la conclusione logica.",
             "options": [
               {},
               {},
@@ -24248,7 +24259,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
               {},
               {},
@@ -24258,7 +24269,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase giustifica una scelta?",
             "options": [
               {},
               {},
@@ -24273,89 +24284,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Vorrei uscire, quindi piove.",
+          "Vorrei uscire, tuttavia piove.",
+          "Vorrei uscire, perché piove.",
+          "Vorrei uscire, infatti piove."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "essere",
+          "sia",
+          "sono",
+          "sarei"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Il progetto funziona perché?",
+          "Il progetto ieri funziona?",
+          "Funzionare progetto secondo me.",
+          "Secondo me, il progetto funziona."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
+          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
+          "Abbiamo poco tempo, perché organizziamo il lavoro.",
+          "Abbiamo poco tempo, se organizziamo il lavoro."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "avere",
+          "hanno",
+          "abbiano",
+          "avranno"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Scelgo il treno è più sostenibile perché?",
+          "Scelgo il treno tuttavia è più sostenibile.",
+          "Scelgo il treno quindi è più sostenibile?",
+          "Scelgo il treno perché è più sostenibile."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
@@ -24763,8 +24774,8 @@
     "vocabulary": [
       {
         "word": "relazione",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "relación",
+        "definition": "relación",
         "example": "Uso «relazione» in una frase.",
         "contexts": [
           "relazione · tema",
@@ -24774,8 +24785,8 @@
       },
       {
         "word": "ascoltare",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "escuchar",
+        "definition": "escuchar",
         "example": "Uso «ascoltare» in una frase.",
         "contexts": [
           "ascoltare · tema",
@@ -24785,8 +24796,8 @@
       },
       {
         "word": "spiegare",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "explicar",
+        "definition": "explicar",
         "example": "Uso «spiegare» in una frase.",
         "contexts": [
           "spiegare · tema",
@@ -24796,8 +24807,8 @@
       },
       {
         "word": "messaggio",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "mensaje",
+        "definition": "mensaje",
         "example": "Uso «messaggio» in una frase.",
         "contexts": [
           "messaggio · tema",
@@ -24807,8 +24818,8 @@
       },
       {
         "word": "accordo",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "acuerdo",
+        "definition": "acuerdo",
         "example": "Uso «accordo» in una frase.",
         "contexts": [
           "accordo · tema",
@@ -24818,8 +24829,8 @@
       },
       {
         "word": "fiducia",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "confianza",
+        "definition": "confianza",
         "example": "Uso «fiducia» in una frase.",
         "contexts": [
           "fiducia · tema",
@@ -24829,8 +24840,8 @@
       },
       {
         "word": "conversazione",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "conversación",
+        "definition": "conversación",
         "example": "Uso «conversazione» in una frase.",
         "contexts": [
           "conversazione · tema",
@@ -24840,8 +24851,8 @@
       },
       {
         "word": "opinione",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "opinión",
+        "definition": "opinión",
         "example": "Uso «opinione» in una frase.",
         "contexts": [
           "opinione · tema",
@@ -24851,8 +24862,8 @@
       },
       {
         "word": "chiarire",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "aclarar",
+        "definition": "aclarar",
         "example": "Uso «chiarire» in una frase.",
         "contexts": [
           "chiarire · tema",
@@ -24862,8 +24873,8 @@
       },
       {
         "word": "rispettare",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "respetar",
+        "definition": "respetar",
         "example": "Uso «rispettare» in una frase.",
         "contexts": [
           "rispettare · tema",
@@ -25171,10 +25182,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Partitivi e verbi di cucina",
-        "definition": "Práctica guiada de Partitivi e verbi di cucina.",
+        "name": "Sapori d'Italia: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
         "structure": "soggetto + verbo al presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Descrivere persone, luoghi e routine.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -25184,7 +25195,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Io ___ nel quartiere.",
             "options": [
               {},
               {},
@@ -25194,7 +25205,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la forma corretta per Marco.",
             "options": [
               {},
               {},
@@ -25204,7 +25215,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ italiano ogni giorno.",
             "options": [
               {},
               {},
@@ -25214,7 +25225,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale domanda è corretta?",
             "options": [
               {},
               {},
@@ -25224,7 +25235,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Lei ___ una domanda.",
             "options": [
               {},
               {},
@@ -25234,7 +25245,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase con l’articolo corretto.",
             "options": [
               {},
               {},
@@ -25244,7 +25255,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il caffè?",
             "options": [
               {},
               {},
@@ -25254,7 +25265,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase parla di una routine?",
             "options": [
               {},
               {},
@@ -25269,89 +25280,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Io ___ nel quartiere.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "vivo",
+          "vive",
+          "vivere",
+          "viviamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la forma corretta per Marco.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Marco parlare con Sofia.",
+          "Marco parla con Sofia.",
+          "Marco parlo con Sofia.",
+          "Marco parlano con Sofia."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ italiano ogni giorno.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "studiare",
+          "studia",
+          "studiamo",
+          "studiate"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale domanda è corretta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Dove abiti tu è?",
+          "Dove abita tu?",
+          "Dove abitare?",
+          "Dove abiti?"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Lei ___ una domanda.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "fa",
+          "faccio",
+          "fare",
+          "fanno"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase con l’articolo corretto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Il casa è luminosa.",
+          "La casa è luminosa.",
+          "La casa sono luminosa.",
+          "La casa è luminoso."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il caffè?",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "prendere",
+          "prende",
+          "prendi",
+          "prendiamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase parla di una routine?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Ogni mattina lavorano io in centro.",
+          "Ieri lavorare in centro.",
+          "Domani lavorato in centro.",
+          "Ogni mattina lavoro in centro."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
@@ -25381,10 +25392,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Congiunzioni di causa e conseguenza",
-        "definition": "Práctica guiada de Congiunzioni di causa e conseguenza.",
+        "name": "Ambiente e città: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Raccontare esperienze e progetti.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -25394,7 +25405,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Ieri io ___ il museo.",
             "options": [
               {},
               {},
@@ -25404,7 +25415,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase al passato prossimo corretta.",
             "options": [
               {},
               {},
@@ -25414,7 +25425,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Marta ___ a casa tardi.",
             "options": [
               {},
               {},
@@ -25424,7 +25435,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale connettore indica la sequenza?",
             "options": [
               {},
               {},
@@ -25434,7 +25445,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il messaggio?",
             "options": [
               {},
               {},
@@ -25444,7 +25455,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase corretta.",
             "options": [
               {},
               {},
@@ -25454,7 +25465,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ una bella esperienza.",
             "options": [
               {},
               {},
@@ -25464,7 +25475,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase racconta un’azione conclusa?",
             "options": [
               {},
               {},
@@ -25479,89 +25490,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Ieri io ___ il museo.",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "ho visitato",
+          "visito",
+          "ho visitare",
+          "sono visitato"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase al passato prossimo corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo cenare insieme.",
+          "Abbiamo cenato insieme.",
+          "Siamo cenato insieme.",
+          "Ceniamo ieri insieme."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Marta ___ a casa tardi.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "è tornare",
+          "ha tornata",
+          "è tornata",
+          "torna ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale connettore indica la sequenza?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Prima abbiamo studiato, se siamo usciti.",
+          "Prima abbiamo studiato, perché siamo usciti.",
+          "Prima abbiamo studiato, ma siamo usciti.",
+          "Prima abbiamo studiato, poi siamo usciti."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il messaggio?",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "hai letto",
+          "hai leggere",
+          "sei letto",
+          "leggi ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "I miei amici sono preso il treno.",
+          "I miei amici hanno preso il treno.",
+          "I miei amici hanno prendere il treno.",
+          "I miei amici prendono il treno ieri."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ una bella esperienza.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "abbiamo avere",
+          "siamo avuti",
+          "abbiamo avuto",
+          "aviamo avuto"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase racconta un’azione conclusa?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Sabato sono incontrato mia cugina.",
+          "Sabato incontro mia cugina domani.",
+          "Sabato incontrare mia cugina.",
+          "Sabato ho incontrato mia cugina."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
@@ -26145,52 +26156,52 @@
     "vocabulary": [
       {
         "word": "cittadinanza",
-        "translation": "Palabra clave 1",
+        "translation": "ciudadanía",
         "example": "Uso la parola «cittadinanza» nel contesto."
       },
       {
         "word": "partecipare",
-        "translation": "Palabra clave 2",
+        "translation": "participar",
         "example": "Uso la parola «partecipare» nel contesto."
       },
       {
         "word": "diritto",
-        "translation": "Palabra clave 3",
+        "translation": "derecho",
         "example": "Uso la parola «diritto» nel contesto."
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 4",
+        "translation": "propuesta",
         "example": "Uso la parola «proposta» nel contesto."
       },
       {
         "word": "comunità",
-        "translation": "Palabra clave 5",
+        "translation": "comunidad",
         "example": "Uso la parola «comunità» nel contesto."
       },
       {
         "word": "scegliere",
-        "translation": "Palabra clave 6",
+        "translation": "escoger",
         "example": "Uso la parola «scegliere» nel contesto."
       },
       {
         "word": "volontario",
-        "translation": "Palabra clave 7",
+        "translation": "voluntario",
         "example": "Uso la parola «volontario» nel contesto."
       },
       {
         "word": "iniziativa",
-        "translation": "Palabra clave 8",
+        "translation": "iniciativa",
         "example": "Uso la parola «iniziativa» nel contesto."
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Uso la parola «migliorare» nel contesto."
       },
       {
         "word": "responsabilità",
-        "translation": "Palabra clave 10",
+        "translation": "responsabilidad",
         "example": "Uso la parola «responsabilità» nel contesto."
       }
     ],
@@ -26217,52 +26228,53 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Di che cosa parla il testo?",
+        "prompt": "Di che cosa parla il gruppo?",
         "options": [
           "cittadinanza",
-          "partecipare",
-          "Un examen aislado",
-          "Una compra sin contexto"
+          "iniziativa",
+          "migliorare",
+          "responsabilità"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Che cosa fa prima la protagonista?",
+        "prompt": "Che cosa fa ogni persona?",
         "options": [
-          "Pide información y escucha",
-          "Se va sin hablar",
-          "Cancela la actividad",
-          "Ignora al grupo"
+          "Racconta un’esperienza, ascolta e propone una soluzione.",
+          "Compra un biglietto per un evento.",
+          "Non ascolta le altre persone.",
+          "Annulla il progetto."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale ruolo ha la seconda persona?",
+        "prompt": "Perché decidono di collaborare?",
         "options": [
-          "Aporta una idea y colabora",
-          "Prohíbe participar",
-          "No escucha a nadie",
-          "Evita el tema"
+          "Perché hanno un obiettivo chiaro.",
+          "Perché non hanno tempo.",
+          "Perché non conoscono il tema.",
+          "Perché preferiscono lavorare da soli."
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Perché il gruppo collabora?",
+        "prompt": "Quale idea aiuta nella vita quotidiana?",
         "options": [
-          "Porque buscan una solución concreta",
-          "Porque no tienen objetivo",
-          "Porque trabajan solos",
-          "Porque rechazan cambios"
+          "Una soluzione concreta e collaborativa.",
+          "Un elenco senza contesto.",
+          "Una discussione senza obiettivo.",
+          "Una decisione individuale."
         ]
       },
       {
+        "id": "italian-b1-cittadinanza-e-partecipazione-reading-comprehension-5",
         "type": "mcq",
-        "prompt": "Qual è l’obiettivo comune?",
+        "prompt": "Qual è lo scopo principale di «Cittadinanza e partecipazione»?",
         "options": [
-          "Mejorar la vida cotidiana de forma inclusiva",
-          "Ganar una competencia",
-          "Evitar toda comunicación",
-          "Cambiar de ciudad"
+          "Presentare le idee e i dettagli essenziali di Cittadinanza e partecipazione",
+          "Presentare un argomento non correlato",
+          "Fornire un elenco senza contesto",
+          "Raccontare una storia senza legame con il tema"
         ]
       }
     ]
@@ -26458,52 +26470,52 @@
     "vocabulary": [
       {
         "word": "cittadinanza",
-        "translation": "Palabra clave 1",
+        "translation": "ciudadanía",
         "example": "Uso la parola «cittadinanza» nel contesto."
       },
       {
         "word": "partecipare",
-        "translation": "Palabra clave 2",
+        "translation": "participar",
         "example": "Uso la parola «partecipare» nel contesto."
       },
       {
         "word": "diritto",
-        "translation": "Palabra clave 3",
+        "translation": "derecho",
         "example": "Uso la parola «diritto» nel contesto."
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 4",
+        "translation": "propuesta",
         "example": "Uso la parola «proposta» nel contesto."
       },
       {
         "word": "comunità",
-        "translation": "Palabra clave 5",
+        "translation": "comunidad",
         "example": "Uso la parola «comunità» nel contesto."
       },
       {
         "word": "scegliere",
-        "translation": "Palabra clave 6",
+        "translation": "escoger",
         "example": "Uso la parola «scegliere» nel contesto."
       },
       {
         "word": "volontario",
-        "translation": "Palabra clave 7",
+        "translation": "voluntario",
         "example": "Uso la parola «volontario» nel contesto."
       },
       {
         "word": "iniziativa",
-        "translation": "Palabra clave 8",
+        "translation": "iniciativa",
         "example": "Uso la parola «iniziativa» nel contesto."
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 9",
+        "translation": "mejorar",
         "example": "Uso la parola «migliorare» nel contesto."
       },
       {
         "word": "responsabilità",
-        "translation": "Palabra clave 10",
+        "translation": "responsabilidad",
         "example": "Uso la parola «responsabilità» nel contesto."
       }
     ],
@@ -26512,10 +26524,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Cittadinanza: congiuntivo e proposte",
-        "definition": "Práctica guiada de Cittadinanza: congiuntivo e proposte.",
+        "name": "Cittadinanza e partecipazione: grammatica",
+        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Esprimere e giustificare un punto di vista.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -26525,7 +26537,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Penso che la proposta ___ utile.",
             "options": [
               {},
               {},
@@ -26535,7 +26547,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli il connettore di contrasto.",
             "options": [
               {},
               {},
@@ -26545,7 +26557,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Resto a casa perché ___ stanco.",
             "options": [
               {},
               {},
@@ -26555,7 +26567,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase esprime un’opinione?",
             "options": [
               {},
               {},
@@ -26565,7 +26577,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
             "options": [
               {},
               {},
@@ -26575,7 +26587,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la conclusione logica.",
             "options": [
               {},
               {},
@@ -26585,7 +26597,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Credo che loro ___ ragione.",
             "options": [
               {},
               {},
@@ -26595,7 +26607,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase giustifica una scelta?",
             "options": [
               {},
               {},
@@ -26610,89 +26622,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Penso che la proposta ___ utile.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli il connettore di contrasto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Vorrei uscire, quindi piove.",
+          "Vorrei uscire, tuttavia piove.",
+          "Vorrei uscire, perché piove.",
+          "Vorrei uscire, infatti piove."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Resto a casa perché ___ stanco.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "essere",
+          "sia",
+          "sono",
+          "sarei"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase esprime un’opinione?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Il progetto funziona perché?",
+          "Il progetto ieri funziona?",
+          "Funzionare progetto secondo me.",
+          "Secondo me, il progetto funziona."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Sebbene ___ tardi, continuiamo.",
         "options": [
-          "Penso che la proposta sia utile.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "sia",
+          "è",
+          "essere",
+          "sono"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la conclusione logica.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo poco tempo, tuttavia organizziamo il lavoro.",
+          "Abbiamo poco tempo, quindi organizziamo il lavoro.",
+          "Abbiamo poco tempo, perché organizziamo il lavoro.",
+          "Abbiamo poco tempo, se organizziamo il lavoro."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Credo che loro ___ ragione.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Penso che la proposta sia utile.",
-          "Vivo io nel quartiere?"
+          "avere",
+          "hanno",
+          "abbiano",
+          "avranno"
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase giustifica una scelta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Penso che la proposta sia utile."
+          "Scelgo il treno è più sostenibile perché?",
+          "Scelgo il treno tuttavia è più sostenibile.",
+          "Scelgo il treno quindi è più sostenibile?",
+          "Scelgo il treno perché è più sostenibile."
         ],
         "explanation": "Connettori, opinioni e ipotesi aiutano a costruire un argomento."
       }
@@ -27100,8 +27112,8 @@
     "vocabulary": [
       {
         "word": "cittadinanza",
-        "translation": "Palabra clave 1",
-        "definition": "Palabra clave 1",
+        "translation": "ciudadanía",
+        "definition": "ciudadanía",
         "example": "Uso «cittadinanza» in una frase.",
         "contexts": [
           "cittadinanza · tema",
@@ -27111,8 +27123,8 @@
       },
       {
         "word": "partecipare",
-        "translation": "Palabra clave 2",
-        "definition": "Palabra clave 2",
+        "translation": "participar",
+        "definition": "participar",
         "example": "Uso «partecipare» in una frase.",
         "contexts": [
           "partecipare · tema",
@@ -27122,8 +27134,8 @@
       },
       {
         "word": "diritto",
-        "translation": "Palabra clave 3",
-        "definition": "Palabra clave 3",
+        "translation": "derecho",
+        "definition": "derecho",
         "example": "Uso «diritto» in una frase.",
         "contexts": [
           "diritto · tema",
@@ -27133,8 +27145,8 @@
       },
       {
         "word": "proposta",
-        "translation": "Palabra clave 4",
-        "definition": "Palabra clave 4",
+        "translation": "propuesta",
+        "definition": "propuesta",
         "example": "Uso «proposta» in una frase.",
         "contexts": [
           "proposta · tema",
@@ -27144,8 +27156,8 @@
       },
       {
         "word": "comunità",
-        "translation": "Palabra clave 5",
-        "definition": "Palabra clave 5",
+        "translation": "comunidad",
+        "definition": "comunidad",
         "example": "Uso «comunità» in una frase.",
         "contexts": [
           "comunità · tema",
@@ -27155,8 +27167,8 @@
       },
       {
         "word": "scegliere",
-        "translation": "Palabra clave 6",
-        "definition": "Palabra clave 6",
+        "translation": "escoger",
+        "definition": "escoger",
         "example": "Uso «scegliere» in una frase.",
         "contexts": [
           "scegliere · tema",
@@ -27166,8 +27178,8 @@
       },
       {
         "word": "volontario",
-        "translation": "Palabra clave 7",
-        "definition": "Palabra clave 7",
+        "translation": "voluntario",
+        "definition": "voluntario",
         "example": "Uso «volontario» in una frase.",
         "contexts": [
           "volontario · tema",
@@ -27177,8 +27189,8 @@
       },
       {
         "word": "iniziativa",
-        "translation": "Palabra clave 8",
-        "definition": "Palabra clave 8",
+        "translation": "iniciativa",
+        "definition": "iniciativa",
         "example": "Uso «iniziativa» in una frase.",
         "contexts": [
           "iniziativa · tema",
@@ -27188,8 +27200,8 @@
       },
       {
         "word": "migliorare",
-        "translation": "Palabra clave 9",
-        "definition": "Palabra clave 9",
+        "translation": "mejorar",
+        "definition": "mejorar",
         "example": "Uso «migliorare» in una frase.",
         "contexts": [
           "migliorare · tema",
@@ -27199,8 +27211,8 @@
       },
       {
         "word": "responsabilità",
-        "translation": "Palabra clave 10",
-        "definition": "Palabra clave 10",
+        "translation": "responsabilidad",
+        "definition": "responsabilidad",
         "example": "Uso «responsabilità» in una frase.",
         "contexts": [
           "responsabilità · tema",
@@ -27508,10 +27520,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Scrivere messaggi: presente e connettori",
-        "definition": "Práctica guiada de Scrivere messaggi: presente e connettori.",
+        "name": "Un messaggio a casa: grammatica",
+        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
         "structure": "soggetto + verbo al presente",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Descrivere persone, luoghi e routine.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -27521,7 +27533,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Io ___ nel quartiere.",
             "options": [
               {},
               {},
@@ -27531,7 +27543,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la forma corretta per Marco.",
             "options": [
               {},
               {},
@@ -27541,7 +27553,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ italiano ogni giorno.",
             "options": [
               {},
               {},
@@ -27551,7 +27563,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale domanda è corretta?",
             "options": [
               {},
               {},
@@ -27561,7 +27573,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Lei ___ una domanda.",
             "options": [
               {},
               {},
@@ -27571,7 +27583,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase con l’articolo corretto.",
             "options": [
               {},
               {},
@@ -27581,7 +27593,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il caffè?",
             "options": [
               {},
               {},
@@ -27591,7 +27603,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase parla di una routine?",
             "options": [
               {},
               {},
@@ -27606,89 +27618,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Io ___ nel quartiere.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "vivo",
+          "vive",
+          "vivere",
+          "viviamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la forma corretta per Marco.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Marco parlare con Sofia.",
+          "Marco parla con Sofia.",
+          "Marco parlo con Sofia.",
+          "Marco parlano con Sofia."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ italiano ogni giorno.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "studiare",
+          "studia",
+          "studiamo",
+          "studiate"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale domanda è corretta?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Dove abiti tu è?",
+          "Dove abita tu?",
+          "Dove abitare?",
+          "Dove abiti?"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Lei ___ una domanda.",
         "options": [
-          "Io vivo nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "fa",
+          "faccio",
+          "fare",
+          "fanno"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase con l’articolo corretto.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Il casa è luminosa.",
+          "La casa è luminosa.",
+          "La casa sono luminosa.",
+          "La casa è luminoso."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il caffè?",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Io vivo nel quartiere.",
-          "Vivo io nel quartiere?"
+          "prendere",
+          "prende",
+          "prendi",
+          "prendiamo"
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase parla di una routine?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Io vivo nel quartiere."
+          "Ogni mattina lavorano io in centro.",
+          "Ieri lavorare in centro.",
+          "Domani lavorato in centro.",
+          "Ogni mattina lavoro in centro."
         ],
         "explanation": "Il presente serve per parlare di abitudini e fatti semplici."
       }
@@ -27718,10 +27730,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Racconto al passato: passato prossimo e imperfetto",
-        "definition": "Práctica guiada de Racconto al passato: passato prossimo e imperfetto.",
+        "name": "Raccontare il proprio viaggio: grammatica",
+        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "function": "Raccontare esperienze e progetti.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -27731,7 +27743,7 @@
         "questions": [
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Ieri io ___ il museo.",
             "options": [
               {},
               {},
@@ -27741,7 +27753,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase al passato prossimo corretta.",
             "options": [
               {},
               {},
@@ -27751,7 +27763,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Marta ___ a casa tardi.",
             "options": [
               {},
               {},
@@ -27761,7 +27773,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale connettore indica la sequenza?",
             "options": [
               {},
               {},
@@ -27771,7 +27783,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Tu ___ il messaggio?",
             "options": [
               {},
               {},
@@ -27781,7 +27793,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Scegli la frase corretta.",
             "options": [
               {},
               {},
@@ -27791,7 +27803,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Completa: Noi ___ una bella esperienza.",
             "options": [
               {},
               {},
@@ -27801,7 +27813,7 @@
           },
           {
             "type": "mcq",
-            "prompt": "Quale frase è corretta?",
+            "prompt": "Quale frase racconta un’azione conclusa?",
             "options": [
               {},
               {},
@@ -27816,89 +27828,89 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Ieri io ___ il museo.",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "ho visitato",
+          "visito",
+          "ho visitare",
+          "sono visitato"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase al passato prossimo corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "Abbiamo cenare insieme.",
+          "Abbiamo cenato insieme.",
+          "Siamo cenato insieme.",
+          "Ceniamo ieri insieme."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Marta ___ a casa tardi.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "è tornare",
+          "ha tornata",
+          "è tornata",
+          "torna ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale connettore indica la sequenza?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Prima abbiamo studiato, se siamo usciti.",
+          "Prima abbiamo studiato, perché siamo usciti.",
+          "Prima abbiamo studiato, ma siamo usciti.",
+          "Prima abbiamo studiato, poi siamo usciti."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Tu ___ il messaggio?",
         "options": [
-          "Ieri ho visitato il museo.",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "hai letto",
+          "hai leggere",
+          "sei letto",
+          "leggi ieri"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Scegli la frase corretta.",
         "options": [
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Io vivi nel quartiere.",
-          "Vivo io nel quartiere?"
+          "I miei amici sono preso il treno.",
+          "I miei amici hanno preso il treno.",
+          "I miei amici hanno prendere il treno.",
+          "I miei amici prendono il treno ieri."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Completa: Noi ___ una bella esperienza.",
         "options": [
-          "Io vivi nel quartiere.",
-          "Io vivere nel quartiere.",
-          "Ieri ho visitato il museo.",
-          "Vivo io nel quartiere?"
+          "abbiamo avere",
+          "siamo avuti",
+          "abbiamo avuto",
+          "aviamo avuto"
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       },
       {
         "type": "mcq",
-        "prompt": "Quale frase è corretta?",
+        "prompt": "Quale frase racconta un’azione conclusa?",
         "options": [
-          "Vivo io nel quartiere?",
-          "Io vivere nel quartiere.",
-          "Io vivi nel quartiere.",
-          "Ieri ho visitato il museo."
+          "Sabato sono incontrato mia cugina.",
+          "Sabato incontro mia cugina domani.",
+          "Sabato incontrare mia cugina.",
+          "Sabato ho incontrato mia cugina."
         ],
         "explanation": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto."
       }
