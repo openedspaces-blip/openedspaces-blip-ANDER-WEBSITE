@@ -147,9 +147,7 @@
             <article class="hero-copy-slide is-active" data-hero-slide aria-hidden="false">
               <h1 tabindex="-1">Aprende idiomas <span class="hero-title-accent">con una ruta clara</span></h1>
               <p>
-                Aprende inglés, francés, español, italiano, portugués y alemán con rutas guiadas,
-                ejercicios reales, práctica de Listening, Speaking, Reading, Writing, Grammar y Vocabulary. El Tutor IA complementa estas
-                lecciones cuando necesitas practicar o resolver una duda.
+                ANDERGO Language Academy es una plataforma educativa digital para aprender y practicar inglés y francés mediante rutas organizadas desde el nivel A1 hasta el C2 del Marco Común Europeo de Referencia para las Lenguas. La plataforma incluye lecciones, actividades de lectura y comprensión auditiva, vocabulario, gramática, canciones, pruebas, herramientas de traducción y un Tutor IA como apoyo al aprendizaje.
               </p>
             </article>
             <article class="hero-copy-slide" data-hero-slide aria-hidden="true">
@@ -352,6 +350,7 @@
                 <span data-premium-monthly-price>USD 4.99</span> <small>/ mes</small>
               </p>
               <p class="price-annual">También disponible con facturación trimestral.</p>
+              <p class="azul-currency-note">Todos los pagos procesados mediante Azul se realizan en pesos dominicanos (DOP).</p>
               <div class="premium-badge-row">
                 <span class="premium-badge">Recorrido completo</span>
                 <span class="premium-badge">Currículo A1–C2</span>
@@ -385,9 +384,20 @@
                 <button type="button" class="secondary-btn paddle-checkout-btn" data-billing-cycle="quarterly">
                   Elegir trimestral
                 </button>
+                <button type="button" class="secondary-btn azul-checkout-btn" data-billing-cycle="monthly" hidden>
+                  Pagar con tarjeta mediante Azul
+                </button>
               </div>
+              <p class="premium-policy-links"><a href="/politica-de-entrega.html">Política de entrega digital</a> · <a href="/seguridad-de-pagos.html">Seguridad de pagos</a></p>
               <p class="premium-checkout-status" data-paddle-status data-payment-status aria-live="polite"></p>
             </article>
+
+            <section class="premium-payment-assurance" aria-label="Pagos seguros">
+            <p>Pagos seguros con Visa, Mastercard y 3D Secure</p>
+            <div class="payment-brand-strip" aria-label="Marcas de pago y autenticación 3D Secure">
+              <img src="/assets/payments/visa-brandmark-blue.png" alt="Visa" loading="lazy"><img src="/assets/payments/mastercard-logo.png" alt="Mastercard" loading="lazy"><span class="payment-brand-dark"><img src="/assets/payments/visa-secure-dark.png" alt="Visa Secure" loading="lazy"></span><img src="/assets/payments/mastercard-identity-check.png" alt="Mastercard Identity Check" loading="lazy">
+            </div>
+          </section>
           </div>
 
           <section class="account-plan-panel" data-account-plan-panel hidden aria-live="polite">
@@ -1818,9 +1828,11 @@
             <h3 data-i18n="aboutContactTitle">Contacto y soporte</h3>
             <p>
               <span data-i18n="aboutContactIntro">Para consultas, asistencia técnica o reportar un problema, escríbenos a</span>
-              <a href="mailto:support@andergo.online">support@andergo.online</a>.
+              <a href="mailto:support@andergo.online" data-business="email">support@andergo.online</a>.
             </p>
-            <a class="primary-btn about-contact-btn" href="mailto:support@andergo.online" data-i18n="aboutContactBtn"
+            <p data-business-optional="phone" hidden>Teléfono: <a data-business="phone"></a></p>
+            <p data-business-optional="address" hidden>Dirección: <span data-business="address"></span>, <span data-business="country">República Dominicana</span></p>
+            <a class="primary-btn about-contact-btn" href="mailto:support@andergo.online" data-business="email" data-i18n="aboutContactBtn"
               >Contactar soporte</a
             >
             <p class="about-editable-note" data-i18n="aboutContactNote">
@@ -2263,6 +2275,21 @@
       </div>
     </div>
 
+    <section class="azul-checkout-modal" id="azulCheckoutModal" role="dialog" aria-modal="true" aria-labelledby="azulCheckoutTitle" hidden>
+      <div class="azul-checkout-card">
+        <button type="button" class="azul-checkout-close" id="azulCheckoutClose" aria-label="Cerrar">×</button>
+        <p class="legal-eyebrow">Checkout de Azul</p><h2 id="azulCheckoutTitle">Confirma tu pago seguro</h2>
+        <dl class="azul-order-summary"><dt>Plan</dt><dd id="azulCheckoutPlan">ANDERGO Premium mensual</dd><dt>Periodicidad</dt><dd id="azulCheckoutPeriod">Mensual</dd><dt>Subtotal</dt><dd id="azulCheckoutSubtotal">RD$0.00</dd><dt>Impuestos</dt><dd>Según corresponda</dd><dt>Total</dt><dd id="azulCheckoutTotal">RD$0.00 DOP</dd></dl>
+        <p>Pago procesado de forma segura mediante Azul. No ingresas datos de tarjeta en ANDERGO.</p>
+        <div class="payment-brand-strip" aria-label="Marcas de pago y autenticación 3D Secure">
+          <img src="/assets/payments/visa-brandmark-blue.png" alt="Visa" loading="lazy"><img src="/assets/payments/mastercard-logo.png" alt="Mastercard" loading="lazy"><span class="payment-brand-dark"><img src="/assets/payments/visa-secure-dark.png" alt="Visa Secure" loading="lazy"></span><img src="/assets/payments/mastercard-identity-check.png" alt="Mastercard Identity Check" loading="lazy">
+        </div>
+        <p>Soporte: <a href="mailto:support@andergo.online" data-business="email">support@andergo.online</a></p>
+        <label class="azul-terms-check"><input type="checkbox" id="azulTermsAccept"> Acepto los <a href="/terms.html" target="_blank" rel="noopener">términos</a>, la <a href="/privacy.html" target="_blank" rel="noopener">privacidad</a>, <a href="/seguridad-de-pagos.html" target="_blank" rel="noopener">seguridad</a>, <a href="/politica-de-entrega.html" target="_blank" rel="noopener">entrega</a> y <a href="/refund-policy.html" target="_blank" rel="noopener">reembolso</a>.</label>
+        <button type="button" class="primary-btn" id="azulCheckoutConfirm" disabled>Continuar a Azul</button>
+      </div>
+    </section>
+
     <div class="confirm-modal" id="logoutConfirmModal" aria-hidden="true" inert>
       <div
         class="confirm-panel"
@@ -2555,7 +2582,10 @@
           </div>
           <div class="footer-links-col">
             <h4 data-i18n="footerContactHeading">Contacto</h4>
-            <a href="mailto:support@andergo.online">support@andergo.online</a>
+            <a href="mailto:support@andergo.online" data-business="email">support@andergo.online</a>
+            <p data-business-optional="phone" hidden><a data-business="phone"></a></p>
+            <p data-business-optional="address" hidden><span data-business="address"></span>, <span data-business="country">República Dominicana</span></p>
+            <p><span data-business="country">República Dominicana</span></p>
             <p class="footer-contact-note" data-i18n="footerContactNote">
               Los mensajes automáticos de ANDERGO pueden enviarse desde
               non-reply@andergo.online. No respondas a ese correo.
@@ -2566,6 +2596,8 @@
             <a href="/terms.html">Términos y condiciones</a>
             <a href="/privacy.html">Política de privacidad</a>
             <a href="/refund-policy.html">Política de reembolso</a>
+            <a href="/politica-de-entrega.html">Política de entrega</a>
+            <a href="/seguridad-de-pagos.html">Seguridad de pagos</a>
           </div>
         </nav>
       </div>
@@ -2583,6 +2615,7 @@
     <script src="/src/js/gamification/index.js"></script>
     <script src="/src/js/username-rules.js"></script>
     <script src="/src/js/language-pair.js"></script>
+    <script src="/src/js/business-info.js"></script>
     <script src="/src/js/translator-languages.js"></script>
     <script src="/src/js/translator-predictive.js"></script>
     <script src="/src/js/app-install.js"></script>

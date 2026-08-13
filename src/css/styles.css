@@ -22221,7 +22221,10 @@ footer small {
 .payment-brand-strip img { display:block; width:auto; height:2.15rem; max-width:7.5rem; object-fit:contain; }
 .payment-brand-dark { display:grid; place-items:center; min-height:2.5rem; padding:.35rem .65rem; border-radius:.45rem; background:#0d1b3d; }
 .payment-brand-dark img { max-width:6.75rem; height:1.75rem; }
-.payment-brand-strip--footer { justify-content:center; padding:0 1rem 1rem; }
+.premium-payment-assurance { grid-column:2; margin:0; padding:.9rem 1.25rem; width:100%; border:1px solid #dce9ff; border-radius:1rem; text-align:center; background:#fff; box-shadow:0 .6rem 1.4rem rgba(36, 105, 199, .08); }
+.premium-payment-assurance p { margin:0; color:var(--text-muted); font-size:.9rem; font-weight:700; }
+.premium-payment-assurance .payment-brand-strip { justify-content:center; margin:.6rem 0 0; }
+@media (max-width: 760px) { .premium-payment-assurance { grid-column:auto; } }
 .azul-checkout-modal { position:fixed; z-index:100; inset:0; overflow:auto; padding:1rem; background:rgba(9,20,45,.58); }
 .azul-checkout-card { position:relative; width:min(640px,100%); margin:4vh auto; padding:clamp(1.25rem,4vw,2.25rem); border-radius:1.25rem; background:#fff; box-shadow:0 1.25rem 3rem rgba(0,0,0,.25); }
 .azul-checkout-close { position:absolute; top:.8rem; right:.8rem; width:2.25rem; height:2.25rem; border:0; border-radius:50%; color:var(--ink); background:#edf3ff; font-size:1.5rem; cursor:pointer; }

@@ -136,6 +136,14 @@ li + li {
   color: var(--legal-muted);
   font-size: 0.9rem;
 }
+.legal-payment-logos { display:flex; flex-wrap:wrap; align-items:center; gap:.85rem; margin:1.5rem 0; padding:1rem; border:1px solid var(--legal-line); border-radius:.85rem; }
+.legal-payment-logos img { display:block; width:auto; height:2.25rem; max-width:8rem; object-fit:contain; }
+.legal-payment-logos span { display:grid; place-items:center; min-height:2.65rem; padding:.35rem .65rem; border-radius:.45rem; background:#0d1b3d; }
+.legal-payment-logos span img { height:1.7rem; max-width:7rem; }
+.receipt-notice { margin:0 0 1rem; padding:.65rem .8rem; border:1px solid #f1b953; border-radius:.55rem; color:#704500; background:#fff7dc; font-size:.8rem; font-weight:800; text-align:center; }
+.receipt-header { display:flex; align-items:center; gap:1rem; padding-bottom:1rem; border-bottom:2px solid var(--legal-line); }.receipt-header img { width:4rem; height:4rem; object-fit:contain; }.receipt-header h1 { margin:.2rem 0 0; font-size:1.6rem; }
+.receipt-data { display:grid; grid-template-columns:minmax(10rem,1fr) minmax(0,1.2fr); gap:.55rem 1rem; margin:1.5rem 0; }.receipt-data dt { color:var(--legal-muted); font-weight:700; }.receipt-data dd { margin:0; font-weight:650; text-align:right; }.receipt-data dd:nth-of-type(9) { color:var(--legal-blue); font-size:1.1rem; }
+@media print { .legal-header,.legal-back,.receipt-notice { display:none; }.legal-page { width:100%; margin:0; border:0; box-shadow:none; } }
 
 @media (max-width: 560px) {
   .legal-brand span {
@@ -145,4 +153,5 @@ li + li {
   .legal-page {
     margin-top: 1rem;
   }
+  .receipt-data { grid-template-columns:1fr; gap:.2rem; }.receipt-data dd { margin-bottom:.65rem; text-align:left; }.legal-payment-logos img { height:1.85rem; max-width:6.4rem; }
 }

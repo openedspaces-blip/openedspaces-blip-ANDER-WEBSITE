@@ -13,12 +13,22 @@ const unique = (rows, getKey) => rows.filter((row, index) => rows.findIndex((oth
 const levelForRank = (rank) => rank <= 180 ? 'A1' : rank <= 400 ? 'A2' : rank <= 650 ? 'B1' : rank <= 850 ? 'B2' : rank <= 1050 ? 'C1' : 'C2';
 
 const italianRaw = JSON.parse(read('italian_5k.json'));
-const italian = unique(
-  italianRaw
-    .filter((item) => item.pos === 'verb' && /(?:are|ere|ire|rre)$/i.test(item.word) && item.word.length > 3)
-    .map((item) => ({ infinitive: item.word.toLowerCase(), translation: item.english_translation || 'verb italiano', example: item.example_sentence_native || '' })),
-  (item) => item.infinitive
+// The frequency source provides Italian glosses in English. The platform's
+// Italian path uses Spanish as L1, so the generated public catalogue must
+// use the private Spanish cache instead of shipping an English gloss under
+// `translation.spanish`.
+const italianSpanishGlosses = readJson('italian-verb-spanish-glosses.json');
+const italianFrequencyRows = unique(
+  italianRaw.filter((item) => item.pos === 'verb' && /(?:are|ere|ire|rre)$/i.test(item.word) && item.word.length > 3),
+  (item) => item.word.toLowerCase()
 ).slice(0, 1100);
+const italian = italianFrequencyRows
+  .map((item) => {
+    const sourceGloss = item.english_translation || 'Italian verb';
+    const translation = italianSpanishGlosses[sourceGloss];
+    if (!translation) throw new Error(`Missing Spanish gloss for Italian verb: ${item.word}`);
+    return { infinitive: item.word.toLowerCase(), translation, example: item.example_sentence_native || '' };
+  });
 
 const portugueseRows = read('pt_1000verbs.csv').split(/\r?\n/).slice(2).map((line) => line.split(';'));
 const portuguese = unique(
