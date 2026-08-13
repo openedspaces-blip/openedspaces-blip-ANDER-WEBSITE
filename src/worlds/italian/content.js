@@ -805,10 +805,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Lavoro e obiettivi: grammatica",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "name": "Periodo ipotetico della possibilità",
+        "definition": "Práctica guiada de Periodo ipotetico della possibilità.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -1801,10 +1801,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Benvenuti in Italia: grammatica",
-        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "name": "Saluti, essere e chiamarsi",
+        "definition": "Práctica guiada de Saluti, essere e chiamarsi.",
         "structure": "soggetto + verbo al presente",
-        "function": "Descrivere persone, luoghi e routine.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -2011,10 +2011,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Vita in città: grammatica",
-        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "name": "Passato prossimo con essere e avere",
+        "definition": "Práctica guiada de Passato prossimo con essere e avere.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Raccontare esperienze e progetti.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -3142,10 +3142,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Viaggi consapevoli: grammatica",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "name": "Pronomi combinati",
+        "definition": "Práctica guiada de Pronomi combinati.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -4138,10 +4138,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Un caffè al bar: grammatica",
-        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "name": "Articoli indeterminativi e volere",
+        "definition": "Práctica guiada de Articoli indeterminativi e volere.",
         "structure": "soggetto + verbo al presente",
-        "function": "Descrivere persone, luoghi e routine.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -4348,10 +4348,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Un fine settimana a Napoli: grammatica",
-        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "name": "Imperfetto per il contesto",
+        "definition": "Práctica guiada de Imperfetto per il contesto.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Raccontare esperienze e progetti.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -5479,10 +5479,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Salute e benessere: grammatica",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "name": "Congiuntivo presente",
+        "definition": "Práctica guiada de Congiuntivo presente.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -6475,10 +6475,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "La famiglia a tavola: grammatica",
-        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "name": "Avere, possessivi e plurale",
+        "definition": "Práctica guiada de Avere, possessivi e plurale.",
         "structure": "soggetto + verbo al presente",
-        "function": "Descrivere persone, luoghi e routine.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -6685,10 +6685,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Ricette di famiglia: grammatica",
-        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "name": "Pronomi diretti",
+        "definition": "Práctica guiada de Pronomi diretti.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Raccontare esperienze e progetti.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -7816,10 +7816,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Cultura e media: grammatica",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "name": "Discorso indiretto",
+        "definition": "Práctica guiada de Discorso indiretto.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -8812,10 +8812,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Il mercato del sabato: grammatica",
-        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "name": "C’è / ci sono e quantità",
+        "definition": "Práctica guiada de C’è / ci sono e quantità.",
         "structure": "soggetto + verbo al presente",
-        "function": "Descrivere persone, luoghi e routine.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -9022,10 +9022,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Il lavoro e il caffè: grammatica",
-        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "name": "Dovere, potere e volere al passato",
+        "definition": "Práctica guiada de Dovere, potere e volere al passato.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Raccontare esperienze e progetti.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -10153,10 +10153,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Ambiente nel quartiere: grammatica",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "name": "Passivo e si impersonale",
+        "definition": "Práctica guiada de Passivo e si impersonale.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -11149,10 +11149,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "In bicicletta: grammatica",
-        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "name": "Andare, venire e preposizioni",
+        "definition": "Práctica guiada de Andare, venire e preposizioni.",
         "structure": "soggetto + verbo al presente",
-        "function": "Descrivere persone, luoghi e routine.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -11359,10 +11359,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Arte nel quartiere: grammatica",
-        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "name": "Comparativi e superlativi",
+        "definition": "Práctica guiada de Comparativi e superlativi.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Raccontare esperienze e progetti.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -12490,10 +12490,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Storie e memoria: grammatica",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "name": "Trapassato prossimo",
+        "definition": "Práctica guiada de Trapassato prossimo.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -13486,10 +13486,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Scuola e amici: grammatica",
-        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "name": "Presente dei verbi regolari",
+        "definition": "Práctica guiada de Presente dei verbi regolari.",
         "structure": "soggetto + verbo al presente",
-        "function": "Descrivere persone, luoghi e routine.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -13696,10 +13696,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Viaggiare con responsabilità: grammatica",
-        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "name": "Futuro semplice",
+        "definition": "Práctica guiada de Futuro semplice.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Raccontare esperienze e progetti.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -14827,10 +14827,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Progetti di classe: grammatica",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "name": "Connettori argomentativi",
+        "definition": "Práctica guiada de Connettori argomentativi.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -15823,10 +15823,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Una casa italiana: grammatica",
-        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "name": "Articoli determinativi e casa",
+        "definition": "Práctica guiada de Articoli determinativi e casa.",
         "structure": "soggetto + verbo al presente",
-        "function": "Descrivere persone, luoghi e routine.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -16033,10 +16033,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Sport e tempo libero: grammatica",
-        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "name": "Verbi riflessivi",
+        "definition": "Práctica guiada de Verbi riflessivi.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Raccontare esperienze e progetti.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -17164,10 +17164,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Tecnologia quotidiana: grammatica",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "name": "Congiuntivo con opinione e dubbio",
+        "definition": "Práctica guiada de Congiuntivo con opinione e dubbio.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -18160,10 +18160,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Il tempo e le stagioni: grammatica",
-        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "name": "Fare, tempo e stagioni",
+        "definition": "Práctica guiada de Fare, tempo e stagioni.",
         "structure": "soggetto + verbo al presente",
-        "function": "Descrivere persone, luoghi e routine.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -18370,10 +18370,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "La salute ogni giorno: grammatica",
-        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "name": "Ci e ne",
+        "definition": "Práctica guiada de Ci e ne.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Raccontare esperienze e progetti.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -19501,10 +19501,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Città e mobilità: grammatica",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "name": "Comparativi complessi",
+        "definition": "Práctica guiada de Comparativi complessi.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -20497,10 +20497,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Una festa di quartiere: grammatica",
-        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "name": "Passato prossimo introduttivo",
+        "definition": "Práctica guiada de Passato prossimo introduttivo.",
         "structure": "soggetto + verbo al presente",
-        "function": "Descrivere persone, luoghi e routine.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -20707,10 +20707,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Storie di migrazione: grammatica",
-        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "name": "Preposizioni e movimento",
+        "definition": "Práctica guiada de Preposizioni e movimento.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Raccontare esperienze e progetti.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -21838,10 +21838,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Piani per il futuro: grammatica",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "name": "Futuro anteriore e supposizioni",
+        "definition": "Práctica guiada de Futuro anteriore e supposizioni.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -22834,10 +22834,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "In treno: grammatica",
-        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "name": "Preposizioni semplici e articolate",
+        "definition": "Práctica guiada de Preposizioni semplici e articolate.",
         "structure": "soggetto + verbo al presente",
-        "function": "Descrivere persone, luoghi e routine.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -23044,10 +23044,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Un progetto di classe: grammatica",
-        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "name": "Condizionale di cortesia",
+        "definition": "Práctica guiada de Condizionale di cortesia.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Raccontare esperienze e progetti.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -24175,10 +24175,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Relazioni e comunicazione: grammatica",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "name": "Relativi e comunicazione",
+        "definition": "Práctica guiada de Relativi e comunicazione.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -25171,10 +25171,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Sapori d'Italia: grammatica",
-        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "name": "Partitivi e verbi di cucina",
+        "definition": "Práctica guiada de Partitivi e verbi di cucina.",
         "structure": "soggetto + verbo al presente",
-        "function": "Descrivere persone, luoghi e routine.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -25381,10 +25381,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Ambiente e città: grammatica",
-        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "name": "Congiunzioni di causa e conseguenza",
+        "definition": "Práctica guiada de Congiunzioni di causa e conseguenza.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Raccontare esperienze e progetti.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."
@@ -26512,10 +26512,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Cittadinanza e partecipazione: grammatica",
-        "definition": "Connettori, opinioni e ipotesi aiutano a costruire un argomento.",
+        "name": "Cittadinanza: congiuntivo e proposte",
+        "definition": "Práctica guiada de Cittadinanza: congiuntivo e proposte.",
         "structure": "opinione + perché/tuttavia/quindi + motivazione",
-        "function": "Esprimere e giustificare un punto di vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Penso che la proposta sia utile.",
           "Tuttavia dobbiamo valutare i risultati."
@@ -27508,10 +27508,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Un messaggio a casa: grammatica",
-        "definition": "Il presente serve per parlare di abitudini e fatti semplici.",
+        "name": "Scrivere messaggi: presente e connettori",
+        "definition": "Práctica guiada de Scrivere messaggi: presente e connettori.",
         "structure": "soggetto + verbo al presente",
-        "function": "Descrivere persone, luoghi e routine.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Io vivo nel quartiere.",
           "Marco parla con Sofia."
@@ -27718,10 +27718,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Raccontare il proprio viaggio: grammatica",
-        "definition": "Il passato prossimo racconta azioni concluse; i connettori ordinano il racconto.",
+        "name": "Racconto al passato: passato prossimo e imperfetto",
+        "definition": "Práctica guiada de Racconto al passato: passato prossimo e imperfetto.",
         "structure": "ausiliare avere/essere + participio passato",
-        "function": "Raccontare esperienze e progetti.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ieri ho visitato il museo.",
           "Poi abbiamo parlato insieme."

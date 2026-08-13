@@ -112,18 +112,33 @@
     "skills": {
       "listening": {
         "title": "Listening",
-        "text": ":",
-        "suggestions": []
+        "text": "Português (Brasil) B1: propor ações e participar da comunidade",
+        "suggestions": [
+          "Aprendemos: cidadania.",
+          "Aprendemos: participar.",
+          "Aprendemos: direito.",
+          "Aprendemos: proposta."
+        ]
       },
       "speaking": {
         "title": "Speaking",
-        "text": ":",
-        "suggestions": []
+        "text": "Português (Brasil) B1: propor ações e participar da comunidade",
+        "suggestions": [
+          "Aprendemos: cidadania.",
+          "Aprendemos: participar.",
+          "Aprendemos: direito.",
+          "Aprendemos: proposta."
+        ]
       },
       "writing": {
         "title": "Writing",
-        "text": ":",
-        "suggestions": []
+        "text": "Português (Brasil) B1: propor ações e participar da comunidade",
+        "suggestions": [
+          "Aprendemos: cidadania.",
+          "Aprendemos: participar.",
+          "Aprendemos: direito.",
+          "Aprendemos: proposta."
+        ]
       }
     },
     "vocab": [
@@ -682,10 +697,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Trabalho e planos: gramática",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "name": "Período condicional",
+        "definition": "Práctica guiada de Período condicional.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -1247,6 +1262,226 @@
     ]
   },
   {
+    "slug": "portuguese-b1-trabalho-e-planos-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "trabalho-e-planos",
+    "title": "Trabalho e planos: palavras",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 11,
+    "estimatedMinutes": 10,
+    "description": "organizar o tempo e apresentar soluções",
+    "intro": "organizar o tempo e apresentar soluções",
+    "mission": "organizar o tempo e apresentar soluções",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: meta.",
+      "Aprendemos: prazo.",
+      "Aprendemos: equipe.",
+      "Aprendemos: melhorar."
+    ],
+    "vocabulary": [
+      {
+        "word": "meta",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «meta» no contexto."
+      },
+      {
+        "word": "prazo",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «prazo» no contexto."
+      },
+      {
+        "word": "equipe",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «equipe» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "escolher",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «escolher» no contexto."
+      },
+      {
+        "word": "resultado",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «resultado» no contexto."
+      },
+      {
+        "word": "responsabilidade",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «responsabilidade» no contexto."
+      },
+      {
+        "word": "proposta",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «proposta» no contexto."
+      },
+      {
+        "word": "hábito",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «hábito» no contexto."
+      },
+      {
+        "word": "confiança",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «confiança» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-b1-trabalho-e-planos-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Trabalho e planos: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «No tema «Trabalho e planos», um pequeno grupo da comunidade conversa…» in «Trabalho e planos: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Trabalho e planos: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Trabalho e planos: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Trabalho e planos: palavras»?",
+        "options": [
+          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «No tema «Trabalho e planos», um pequeno grupo da comunidade conversa…» in «Trabalho e planos: palavras»?",
+        "options": [
+          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Trabalho e planos: palavras»?",
+        "options": [
+          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Trabalho e planos: palavras»?",
+        "options": [
+          "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-trabalho-e-planos-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -1593,6 +1828,99 @@
     ]
   },
   {
+    "slug": "portuguese-b1-trabalho-e-planos-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "trabalho-e-planos",
+    "title": "Trabalho e planos: palavras",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 12,
+    "estimatedMinutes": 10,
+    "description": "organizar o tempo e apresentar soluções",
+    "intro": "organizar o tempo e apresentar soluções",
+    "mission": "organizar o tempo e apresentar soluções",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: meta.",
+      "Aprendemos: prazo.",
+      "Aprendemos: equipe.",
+      "Aprendemos: melhorar."
+    ],
+    "vocabulary": [
+      {
+        "word": "meta",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «meta» no contexto."
+      },
+      {
+        "word": "prazo",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «prazo» no contexto."
+      },
+      {
+        "word": "equipe",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «equipe» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "escolher",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «escolher» no contexto."
+      },
+      {
+        "word": "resultado",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «resultado» no contexto."
+      },
+      {
+        "word": "responsabilidade",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «responsabilidade» no contexto."
+      },
+      {
+        "word": "proposta",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «proposta» no contexto."
+      },
+      {
+        "word": "hábito",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «hábito» no contexto."
+      },
+      {
+        "word": "confiança",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «confiança» no contexto."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Eu quero organizar o tempo e apresentar soluções. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Vamos falar passo a passo."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Fale duas frases sobre esta situação."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-a1-chegando-ao-brasil-writing",
     "level": "A1",
     "skill": "writing",
@@ -1678,10 +2006,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Chegando ao Brasil: gramática",
-        "definition": "O presente descreve rotinas e informações simples.",
+        "name": "Ser e estar",
+        "definition": "Práctica guiada de Ser e estar.",
         "structure": "sujeito + verbo no presente",
-        "function": "Falar de pessoas, lugares e hábitos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -1888,10 +2216,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Rotina na cidade: gramática",
-        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "name": "Pretérito perfeito",
+        "definition": "Práctica guiada de Pretérito perfeito.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Contar experiências e planos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -2629,6 +2957,90 @@
     ]
   },
   {
+    "slug": "portuguese-b1-trabalho-e-planos-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "trabalho-e-planos",
+    "title": "Trabalho e planos: palavras",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 15,
+    "estimatedMinutes": 10,
+    "description": "organizar o tempo e apresentar soluções",
+    "intro": "organizar o tempo e apresentar soluções",
+    "mission": "organizar o tempo e apresentar soluções",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: meta.",
+      "Aprendemos: prazo.",
+      "Aprendemos: equipe.",
+      "Aprendemos: melhorar."
+    ],
+    "vocabulary": [
+      {
+        "word": "meta",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «meta» no contexto."
+      },
+      {
+        "word": "prazo",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «prazo» no contexto."
+      },
+      {
+        "word": "equipe",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «equipe» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "escolher",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «escolher» no contexto."
+      },
+      {
+        "word": "resultado",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «resultado» no contexto."
+      },
+      {
+        "word": "responsabilidade",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «responsabilidade» no contexto."
+      },
+      {
+        "word": "proposta",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «proposta» no contexto."
+      },
+      {
+        "word": "hábito",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «hábito» no contexto."
+      },
+      {
+        "word": "confiança",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «confiança» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Escreva de 4 a 6 frases para organizar o tempo e apresentar soluções."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-viagens-com-respeito-reading",
     "level": "B1",
     "skill": "reading",
@@ -3019,10 +3431,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Viagens com respeito: gramática",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "name": "Pronomes oblíquos",
+        "definition": "Práctica guiada de Pronomes oblíquos.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -3584,6 +3996,226 @@
     ]
   },
   {
+    "slug": "portuguese-b1-viagens-com-respeito-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "viagens-com-respeito",
+    "title": "Viagens com respeito: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 21,
+    "estimatedMinutes": 10,
+    "description": "contar uma viagem e dar conselhos responsáveis",
+    "intro": "contar uma viagem e dar conselhos responsáveis",
+    "mission": "contar uma viagem e dar conselhos responsáveis",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: roteiro.",
+      "Aprendemos: reserva.",
+      "Aprendemos: paisagem.",
+      "Aprendemos: evitar."
+    ],
+    "vocabulary": [
+      {
+        "word": "roteiro",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «roteiro» no contexto."
+      },
+      {
+        "word": "reserva",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «reserva» no contexto."
+      },
+      {
+        "word": "paisagem",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «paisagem» no contexto."
+      },
+      {
+        "word": "evitar",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «evitar» no contexto."
+      },
+      {
+        "word": "aconselhar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «aconselhar» no contexto."
+      },
+      {
+        "word": "experiência",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «experiência» no contexto."
+      },
+      {
+        "word": "acolhedor",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «acolhedor» no contexto."
+      },
+      {
+        "word": "deslocamento",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «deslocamento» no contexto."
+      },
+      {
+        "word": "sustentável",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «sustentável» no contexto."
+      },
+      {
+        "word": "lembrança",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «lembrança» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-b1-viagens-com-respeito-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Viagens com respeito: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «No tema «Viagens com respeito», um pequeno grupo da comunidade…» in «Viagens com respeito: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Viagens com respeito: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Viagens com respeito: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Viagens com respeito: palavras»?",
+        "options": [
+          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «No tema «Viagens com respeito», um pequeno grupo da comunidade…» in «Viagens com respeito: palavras»?",
+        "options": [
+          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Viagens com respeito: palavras»?",
+        "options": [
+          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Viagens com respeito: palavras»?",
+        "options": [
+          "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-viagens-com-respeito-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -3930,6 +4562,99 @@
     ]
   },
   {
+    "slug": "portuguese-b1-viagens-com-respeito-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "viagens-com-respeito",
+    "title": "Viagens com respeito: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 22,
+    "estimatedMinutes": 10,
+    "description": "contar uma viagem e dar conselhos responsáveis",
+    "intro": "contar uma viagem e dar conselhos responsáveis",
+    "mission": "contar uma viagem e dar conselhos responsáveis",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: roteiro.",
+      "Aprendemos: reserva.",
+      "Aprendemos: paisagem.",
+      "Aprendemos: evitar."
+    ],
+    "vocabulary": [
+      {
+        "word": "roteiro",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «roteiro» no contexto."
+      },
+      {
+        "word": "reserva",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «reserva» no contexto."
+      },
+      {
+        "word": "paisagem",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «paisagem» no contexto."
+      },
+      {
+        "word": "evitar",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «evitar» no contexto."
+      },
+      {
+        "word": "aconselhar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «aconselhar» no contexto."
+      },
+      {
+        "word": "experiência",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «experiência» no contexto."
+      },
+      {
+        "word": "acolhedor",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «acolhedor» no contexto."
+      },
+      {
+        "word": "deslocamento",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «deslocamento» no contexto."
+      },
+      {
+        "word": "sustentável",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «sustentável» no contexto."
+      },
+      {
+        "word": "lembrança",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «lembrança» no contexto."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Eu quero contar uma viagem e dar conselhos responsáveis. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Vamos falar passo a passo."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Fale duas frases sobre esta situação."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-a1-um-cafe-na-padaria-writing",
     "level": "A1",
     "skill": "writing",
@@ -4015,10 +4740,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Um café na padaria: gramática",
-        "definition": "O presente descreve rotinas e informações simples.",
+        "name": "Artigos e gostaria de",
+        "definition": "Práctica guiada de Artigos e gostaria de.",
         "structure": "sujeito + verbo no presente",
-        "function": "Falar de pessoas, lugares e hábitos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -4225,10 +4950,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Um fim de semana em Salvador: gramática",
-        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "name": "Pretérito imperfeito",
+        "definition": "Práctica guiada de Pretérito imperfeito.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Contar experiências e planos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -4966,6 +5691,90 @@
     ]
   },
   {
+    "slug": "portuguese-b1-viagens-com-respeito-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "viagens-com-respeito",
+    "title": "Viagens com respeito: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 25,
+    "estimatedMinutes": 10,
+    "description": "contar uma viagem e dar conselhos responsáveis",
+    "intro": "contar uma viagem e dar conselhos responsáveis",
+    "mission": "contar uma viagem e dar conselhos responsáveis",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: roteiro.",
+      "Aprendemos: reserva.",
+      "Aprendemos: paisagem.",
+      "Aprendemos: evitar."
+    ],
+    "vocabulary": [
+      {
+        "word": "roteiro",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «roteiro» no contexto."
+      },
+      {
+        "word": "reserva",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «reserva» no contexto."
+      },
+      {
+        "word": "paisagem",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «paisagem» no contexto."
+      },
+      {
+        "word": "evitar",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «evitar» no contexto."
+      },
+      {
+        "word": "aconselhar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «aconselhar» no contexto."
+      },
+      {
+        "word": "experiência",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «experiência» no contexto."
+      },
+      {
+        "word": "acolhedor",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «acolhedor» no contexto."
+      },
+      {
+        "word": "deslocamento",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «deslocamento» no contexto."
+      },
+      {
+        "word": "sustentável",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «sustentável» no contexto."
+      },
+      {
+        "word": "lembrança",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «lembrança» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Escreva de 4 a 6 frases para contar uma viagem e dar conselhos responsáveis."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-saude-e-equilibrio-reading",
     "level": "B1",
     "skill": "reading",
@@ -5356,10 +6165,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Saúde e equilíbrio: gramática",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "name": "Subjuntivo presente",
+        "definition": "Práctica guiada de Subjuntivo presente.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -5921,6 +6730,226 @@
     ]
   },
   {
+    "slug": "portuguese-b1-saude-e-equilibrio-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "saude-e-equilibrio",
+    "title": "Saúde e equilíbrio: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 31,
+    "estimatedMinutes": 10,
+    "description": "explicar hábitos de bem-estar e mudanças pessoais",
+    "intro": "explicar hábitos de bem-estar e mudanças pessoais",
+    "mission": "explicar hábitos de bem-estar e mudanças pessoais",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: bem-estar.",
+      "Aprendemos: descanso.",
+      "Aprendemos: exercício.",
+      "Aprendemos: equilíbrio."
+    ],
+    "vocabulary": [
+      {
+        "word": "bem-estar",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «bem-estar» no contexto."
+      },
+      {
+        "word": "descanso",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «descanso» no contexto."
+      },
+      {
+        "word": "exercício",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «exercício» no contexto."
+      },
+      {
+        "word": "equilíbrio",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «equilíbrio» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "prevenir",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «prevenir» no contexto."
+      },
+      {
+        "word": "hábito",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «hábito» no contexto."
+      },
+      {
+        "word": "energia",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «energia» no contexto."
+      },
+      {
+        "word": "conselho",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «conselho» no contexto."
+      },
+      {
+        "word": "escolha",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «escolha» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-b1-saude-e-equilibrio-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Saúde e equilíbrio: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa…» in «Saúde e equilíbrio: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Saúde e equilíbrio: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Saúde e equilíbrio: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Saúde e equilíbrio: palavras»?",
+        "options": [
+          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa…» in «Saúde e equilíbrio: palavras»?",
+        "options": [
+          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Saúde e equilíbrio: palavras»?",
+        "options": [
+          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Saúde e equilíbrio: palavras»?",
+        "options": [
+          "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-saude-e-equilibrio-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -6267,6 +7296,99 @@
     ]
   },
   {
+    "slug": "portuguese-b1-saude-e-equilibrio-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "saude-e-equilibrio",
+    "title": "Saúde e equilíbrio: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 32,
+    "estimatedMinutes": 10,
+    "description": "explicar hábitos de bem-estar e mudanças pessoais",
+    "intro": "explicar hábitos de bem-estar e mudanças pessoais",
+    "mission": "explicar hábitos de bem-estar e mudanças pessoais",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: bem-estar.",
+      "Aprendemos: descanso.",
+      "Aprendemos: exercício.",
+      "Aprendemos: equilíbrio."
+    ],
+    "vocabulary": [
+      {
+        "word": "bem-estar",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «bem-estar» no contexto."
+      },
+      {
+        "word": "descanso",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «descanso» no contexto."
+      },
+      {
+        "word": "exercício",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «exercício» no contexto."
+      },
+      {
+        "word": "equilíbrio",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «equilíbrio» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "prevenir",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «prevenir» no contexto."
+      },
+      {
+        "word": "hábito",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «hábito» no contexto."
+      },
+      {
+        "word": "energia",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «energia» no contexto."
+      },
+      {
+        "word": "conselho",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «conselho» no contexto."
+      },
+      {
+        "word": "escolha",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «escolha» no contexto."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Eu quero explicar hábitos de bem-estar e mudanças pessoais. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Vamos falar passo a passo."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Fale duas frases sobre esta situação."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-a1-familia-e-almoco-writing",
     "level": "A1",
     "skill": "writing",
@@ -6352,10 +7474,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Família e almoço: gramática",
-        "definition": "O presente descreve rotinas e informações simples.",
+        "name": "Possessivos e plural",
+        "definition": "Práctica guiada de Possessivos e plural.",
         "structure": "sujeito + verbo no presente",
-        "function": "Falar de pessoas, lugares e hábitos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -6562,10 +7684,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Receitas e memórias: gramática",
-        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "name": "Pronomes diretos",
+        "definition": "Práctica guiada de Pronomes diretos.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Contar experiências e planos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -7303,6 +8425,90 @@
     ]
   },
   {
+    "slug": "portuguese-b1-saude-e-equilibrio-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "saude-e-equilibrio",
+    "title": "Saúde e equilíbrio: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 35,
+    "estimatedMinutes": 10,
+    "description": "explicar hábitos de bem-estar e mudanças pessoais",
+    "intro": "explicar hábitos de bem-estar e mudanças pessoais",
+    "mission": "explicar hábitos de bem-estar e mudanças pessoais",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: bem-estar.",
+      "Aprendemos: descanso.",
+      "Aprendemos: exercício.",
+      "Aprendemos: equilíbrio."
+    ],
+    "vocabulary": [
+      {
+        "word": "bem-estar",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «bem-estar» no contexto."
+      },
+      {
+        "word": "descanso",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «descanso» no contexto."
+      },
+      {
+        "word": "exercício",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «exercício» no contexto."
+      },
+      {
+        "word": "equilíbrio",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «equilíbrio» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "prevenir",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «prevenir» no contexto."
+      },
+      {
+        "word": "hábito",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «hábito» no contexto."
+      },
+      {
+        "word": "energia",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «energia» no contexto."
+      },
+      {
+        "word": "conselho",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «conselho» no contexto."
+      },
+      {
+        "word": "escolha",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «escolha» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Escreva de 4 a 6 frases para explicar hábitos de bem-estar e mudanças pessoais."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-cultura-e-informacao-reading",
     "level": "B1",
     "skill": "reading",
@@ -7693,10 +8899,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Cultura e informação: gramática",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "name": "Discurso indireto",
+        "definition": "Práctica guiada de Discurso indireto.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -8258,6 +9464,226 @@
     ]
   },
   {
+    "slug": "portuguese-b1-cultura-e-informacao-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "cultura-e-informacao",
+    "title": "Cultura e informação: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 41,
+    "estimatedMinutes": 10,
+    "description": "dar opinião sobre cultura e informação",
+    "intro": "dar opinião sobre cultura e informação",
+    "mission": "dar opinião sobre cultura e informação",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: notícia.",
+      "Aprendemos: fonte.",
+      "Aprendemos: público.",
+      "Aprendemos: opinião."
+    ],
+    "vocabulary": [
+      {
+        "word": "notícia",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «notícia» no contexto."
+      },
+      {
+        "word": "fonte",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «fonte» no contexto."
+      },
+      {
+        "word": "público",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «público» no contexto."
+      },
+      {
+        "word": "opinião",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «opinião» no contexto."
+      },
+      {
+        "word": "comparar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «comparar» no contexto."
+      },
+      {
+        "word": "debate",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «debate» no contexto."
+      },
+      {
+        "word": "conteúdo",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «conteúdo» no contexto."
+      },
+      {
+        "word": "confiável",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «confiável» no contexto."
+      },
+      {
+        "word": "perspectiva",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «perspectiva» no contexto."
+      },
+      {
+        "word": "comunicar",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «comunicar» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-b1-cultura-e-informacao-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Cultura e informação: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «No tema «Cultura e informação», um pequeno grupo da comunidade…» in «Cultura e informação: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cultura e informação: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Cultura e informação: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Cultura e informação: palavras»?",
+        "options": [
+          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «No tema «Cultura e informação», um pequeno grupo da comunidade…» in «Cultura e informação: palavras»?",
+        "options": [
+          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cultura e informação: palavras»?",
+        "options": [
+          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Cultura e informação: palavras»?",
+        "options": [
+          "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-cultura-e-informacao-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -8604,6 +10030,99 @@
     ]
   },
   {
+    "slug": "portuguese-b1-cultura-e-informacao-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "cultura-e-informacao",
+    "title": "Cultura e informação: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 42,
+    "estimatedMinutes": 10,
+    "description": "dar opinião sobre cultura e informação",
+    "intro": "dar opinião sobre cultura e informação",
+    "mission": "dar opinião sobre cultura e informação",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: notícia.",
+      "Aprendemos: fonte.",
+      "Aprendemos: público.",
+      "Aprendemos: opinião."
+    ],
+    "vocabulary": [
+      {
+        "word": "notícia",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «notícia» no contexto."
+      },
+      {
+        "word": "fonte",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «fonte» no contexto."
+      },
+      {
+        "word": "público",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «público» no contexto."
+      },
+      {
+        "word": "opinião",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «opinião» no contexto."
+      },
+      {
+        "word": "comparar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «comparar» no contexto."
+      },
+      {
+        "word": "debate",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «debate» no contexto."
+      },
+      {
+        "word": "conteúdo",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «conteúdo» no contexto."
+      },
+      {
+        "word": "confiável",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «confiável» no contexto."
+      },
+      {
+        "word": "perspectiva",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «perspectiva» no contexto."
+      },
+      {
+        "word": "comunicar",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «comunicar» no contexto."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Eu quero dar opinião sobre cultura e informação. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Vamos falar passo a passo."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Fale duas frases sobre esta situação."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-a1-a-feira-do-bairro-writing",
     "level": "A1",
     "skill": "writing",
@@ -8689,10 +10208,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "A feira do bairro: gramática",
-        "definition": "O presente descreve rotinas e informações simples.",
+        "name": "Há / tem e quantidades",
+        "definition": "Práctica guiada de Há / tem e quantidades.",
         "structure": "sujeito + verbo no presente",
-        "function": "Falar de pessoas, lugares e hábitos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -8899,10 +10418,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Trabalho e pausa: gramática",
-        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "name": "Futuro próximo e planos",
+        "definition": "Práctica guiada de Futuro próximo e planos.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Contar experiências e planos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -9640,6 +11159,90 @@
     ]
   },
   {
+    "slug": "portuguese-b1-cultura-e-informacao-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "cultura-e-informacao",
+    "title": "Cultura e informação: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 45,
+    "estimatedMinutes": 10,
+    "description": "dar opinião sobre cultura e informação",
+    "intro": "dar opinião sobre cultura e informação",
+    "mission": "dar opinião sobre cultura e informação",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: notícia.",
+      "Aprendemos: fonte.",
+      "Aprendemos: público.",
+      "Aprendemos: opinião."
+    ],
+    "vocabulary": [
+      {
+        "word": "notícia",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «notícia» no contexto."
+      },
+      {
+        "word": "fonte",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «fonte» no contexto."
+      },
+      {
+        "word": "público",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «público» no contexto."
+      },
+      {
+        "word": "opinião",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «opinião» no contexto."
+      },
+      {
+        "word": "comparar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «comparar» no contexto."
+      },
+      {
+        "word": "debate",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «debate» no contexto."
+      },
+      {
+        "word": "conteúdo",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «conteúdo» no contexto."
+      },
+      {
+        "word": "confiável",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «confiável» no contexto."
+      },
+      {
+        "word": "perspectiva",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «perspectiva» no contexto."
+      },
+      {
+        "word": "comunicar",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «comunicar» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Escreva de 4 a 6 frases para dar opinião sobre cultura e informação."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-ambiente-no-bairro-reading",
     "level": "B1",
     "skill": "reading",
@@ -10030,10 +11633,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Ambiente no bairro: gramática",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "name": "Voz passiva e índice de indeterminação",
+        "definition": "Práctica guiada de Voz passiva e índice de indeterminação.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -10595,6 +12198,226 @@
     ]
   },
   {
+    "slug": "portuguese-b1-ambiente-no-bairro-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "ambiente-no-bairro",
+    "title": "Ambiente no bairro: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 51,
+    "estimatedMinutes": 10,
+    "description": "descrever um problema ambiental e uma proposta",
+    "intro": "descrever um problema ambiental e uma proposta",
+    "mission": "descrever um problema ambiental e uma proposta",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: resíduo.",
+      "Aprendemos: coleta.",
+      "Aprendemos: recurso.",
+      "Aprendemos: reduzir."
+    ],
+    "vocabulary": [
+      {
+        "word": "resíduo",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «resíduo» no contexto."
+      },
+      {
+        "word": "coleta",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «coleta» no contexto."
+      },
+      {
+        "word": "recurso",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «recurso» no contexto."
+      },
+      {
+        "word": "reduzir",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «reduzir» no contexto."
+      },
+      {
+        "word": "bairro",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «bairro» no contexto."
+      },
+      {
+        "word": "voluntário",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «voluntário» no contexto."
+      },
+      {
+        "word": "iniciativa",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «iniciativa» no contexto."
+      },
+      {
+        "word": "impacto",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «impacto» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "apoiar",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «apoiar» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-b1-ambiente-no-bairro-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Ambiente no bairro: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa…» in «Ambiente no bairro: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ambiente no bairro: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Ambiente no bairro: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Ambiente no bairro: palavras»?",
+        "options": [
+          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa…» in «Ambiente no bairro: palavras»?",
+        "options": [
+          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Ambiente no bairro: palavras»?",
+        "options": [
+          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Ambiente no bairro: palavras»?",
+        "options": [
+          "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-ambiente-no-bairro-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -10941,6 +12764,99 @@
     ]
   },
   {
+    "slug": "portuguese-b1-ambiente-no-bairro-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "ambiente-no-bairro",
+    "title": "Ambiente no bairro: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 52,
+    "estimatedMinutes": 10,
+    "description": "descrever um problema ambiental e uma proposta",
+    "intro": "descrever um problema ambiental e uma proposta",
+    "mission": "descrever um problema ambiental e uma proposta",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: resíduo.",
+      "Aprendemos: coleta.",
+      "Aprendemos: recurso.",
+      "Aprendemos: reduzir."
+    ],
+    "vocabulary": [
+      {
+        "word": "resíduo",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «resíduo» no contexto."
+      },
+      {
+        "word": "coleta",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «coleta» no contexto."
+      },
+      {
+        "word": "recurso",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «recurso» no contexto."
+      },
+      {
+        "word": "reduzir",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «reduzir» no contexto."
+      },
+      {
+        "word": "bairro",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «bairro» no contexto."
+      },
+      {
+        "word": "voluntário",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «voluntário» no contexto."
+      },
+      {
+        "word": "iniciativa",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «iniciativa» no contexto."
+      },
+      {
+        "word": "impacto",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «impacto» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "apoiar",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «apoiar» no contexto."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Eu quero descrever um problema ambiental e uma proposta. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Vamos falar passo a passo."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Fale duas frases sobre esta situação."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-a1-caminhos-da-cidade-writing",
     "level": "A1",
     "skill": "writing",
@@ -11026,10 +12942,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Caminhos da cidade: gramática",
-        "definition": "O presente descreve rotinas e informações simples.",
+        "name": "Ir e preposições",
+        "definition": "Práctica guiada de Ir e preposições.",
         "structure": "sujeito + verbo no presente",
-        "function": "Falar de pessoas, lugares e hábitos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -11236,10 +13152,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Arte na comunidade: gramática",
-        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "name": "Comparativos e superlativos",
+        "definition": "Práctica guiada de Comparativos e superlativos.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Contar experiências e planos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -11977,6 +13893,90 @@
     ]
   },
   {
+    "slug": "portuguese-b1-ambiente-no-bairro-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "ambiente-no-bairro",
+    "title": "Ambiente no bairro: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 55,
+    "estimatedMinutes": 10,
+    "description": "descrever um problema ambiental e uma proposta",
+    "intro": "descrever um problema ambiental e uma proposta",
+    "mission": "descrever um problema ambiental e uma proposta",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: resíduo.",
+      "Aprendemos: coleta.",
+      "Aprendemos: recurso.",
+      "Aprendemos: reduzir."
+    ],
+    "vocabulary": [
+      {
+        "word": "resíduo",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «resíduo» no contexto."
+      },
+      {
+        "word": "coleta",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «coleta» no contexto."
+      },
+      {
+        "word": "recurso",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «recurso» no contexto."
+      },
+      {
+        "word": "reduzir",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «reduzir» no contexto."
+      },
+      {
+        "word": "bairro",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «bairro» no contexto."
+      },
+      {
+        "word": "voluntário",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «voluntário» no contexto."
+      },
+      {
+        "word": "iniciativa",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «iniciativa» no contexto."
+      },
+      {
+        "word": "impacto",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «impacto» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "apoiar",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «apoiar» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Escreva de 4 a 6 frases para descrever um problema ambiental e uma proposta."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-historias-e-memorias-reading",
     "level": "B1",
     "skill": "reading",
@@ -12367,10 +14367,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Histórias e memórias: gramática",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "name": "Mais-que-perfeito e narrativa",
+        "definition": "Práctica guiada de Mais-que-perfeito e narrativa.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -12932,6 +14932,226 @@
     ]
   },
   {
+    "slug": "portuguese-b1-historias-e-memorias-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "historias-e-memorias",
+    "title": "Histórias e memórias: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 61,
+    "estimatedMinutes": 10,
+    "description": "contar experiências e ligá-las ao presente",
+    "intro": "contar experiências e ligá-las ao presente",
+    "mission": "contar experiências e ligá-las ao presente",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: memória.",
+      "Aprendemos: infância.",
+      "Aprendemos: mudança.",
+      "Aprendemos: contar."
+    ],
+    "vocabulary": [
+      {
+        "word": "memória",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «memória» no contexto."
+      },
+      {
+        "word": "infância",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «infância» no contexto."
+      },
+      {
+        "word": "mudança",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «mudança» no contexto."
+      },
+      {
+        "word": "contar",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «contar» no contexto."
+      },
+      {
+        "word": "passado",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «passado» no contexto."
+      },
+      {
+        "word": "encontro",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «encontro» no contexto."
+      },
+      {
+        "word": "tradição",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «tradição» no contexto."
+      },
+      {
+        "word": "geração",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «geração» no contexto."
+      },
+      {
+        "word": "aprender",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «aprender» no contexto."
+      },
+      {
+        "word": "significado",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «significado» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-b1-historias-e-memorias-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Histórias e memórias: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «No tema «Histórias e memórias», um pequeno grupo da comunidade…» in «Histórias e memórias: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Histórias e memórias: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Histórias e memórias: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Histórias e memórias: palavras»?",
+        "options": [
+          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «No tema «Histórias e memórias», um pequeno grupo da comunidade…» in «Histórias e memórias: palavras»?",
+        "options": [
+          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Histórias e memórias: palavras»?",
+        "options": [
+          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Histórias e memórias: palavras»?",
+        "options": [
+          "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-historias-e-memorias-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -13278,6 +15498,99 @@
     ]
   },
   {
+    "slug": "portuguese-b1-historias-e-memorias-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "historias-e-memorias",
+    "title": "Histórias e memórias: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 62,
+    "estimatedMinutes": 10,
+    "description": "contar experiências e ligá-las ao presente",
+    "intro": "contar experiências e ligá-las ao presente",
+    "mission": "contar experiências e ligá-las ao presente",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: memória.",
+      "Aprendemos: infância.",
+      "Aprendemos: mudança.",
+      "Aprendemos: contar."
+    ],
+    "vocabulary": [
+      {
+        "word": "memória",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «memória» no contexto."
+      },
+      {
+        "word": "infância",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «infância» no contexto."
+      },
+      {
+        "word": "mudança",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «mudança» no contexto."
+      },
+      {
+        "word": "contar",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «contar» no contexto."
+      },
+      {
+        "word": "passado",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «passado» no contexto."
+      },
+      {
+        "word": "encontro",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «encontro» no contexto."
+      },
+      {
+        "word": "tradição",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «tradição» no contexto."
+      },
+      {
+        "word": "geração",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «geração» no contexto."
+      },
+      {
+        "word": "aprender",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «aprender» no contexto."
+      },
+      {
+        "word": "significado",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «significado» no contexto."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Eu quero contar experiências e ligá-las ao presente. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Vamos falar passo a passo."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Fale duas frases sobre esta situação."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-a1-escola-e-amizade-writing",
     "level": "A1",
     "skill": "writing",
@@ -13363,10 +15676,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Escola e amizade: gramática",
-        "definition": "O presente descreve rotinas e informações simples.",
+        "name": "Presente dos verbos regulares",
+        "definition": "Práctica guiada de Presente dos verbos regulares.",
         "structure": "sujeito + verbo no presente",
-        "function": "Falar de pessoas, lugares e hábitos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -13573,10 +15886,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Viajar com respeito: gramática",
-        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "name": "Futuro do presente",
+        "definition": "Práctica guiada de Futuro do presente.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Contar experiências e planos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -14314,6 +16627,90 @@
     ]
   },
   {
+    "slug": "portuguese-b1-historias-e-memorias-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "historias-e-memorias",
+    "title": "Histórias e memórias: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 65,
+    "estimatedMinutes": 10,
+    "description": "contar experiências e ligá-las ao presente",
+    "intro": "contar experiências e ligá-las ao presente",
+    "mission": "contar experiências e ligá-las ao presente",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: memória.",
+      "Aprendemos: infância.",
+      "Aprendemos: mudança.",
+      "Aprendemos: contar."
+    ],
+    "vocabulary": [
+      {
+        "word": "memória",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «memória» no contexto."
+      },
+      {
+        "word": "infância",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «infância» no contexto."
+      },
+      {
+        "word": "mudança",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «mudança» no contexto."
+      },
+      {
+        "word": "contar",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «contar» no contexto."
+      },
+      {
+        "word": "passado",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «passado» no contexto."
+      },
+      {
+        "word": "encontro",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «encontro» no contexto."
+      },
+      {
+        "word": "tradição",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «tradição» no contexto."
+      },
+      {
+        "word": "geração",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «geração» no contexto."
+      },
+      {
+        "word": "aprender",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «aprender» no contexto."
+      },
+      {
+        "word": "significado",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «significado» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Escreva de 4 a 6 frases para contar experiências e ligá-las ao presente."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-projeto-coletivo-reading",
     "level": "B1",
     "skill": "reading",
@@ -14704,10 +17101,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Projeto coletivo: gramática",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "name": "Conectores argumentativos",
+        "definition": "Práctica guiada de Conectores argumentativos.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -15269,6 +17666,226 @@
     ]
   },
   {
+    "slug": "portuguese-b1-projeto-coletivo-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "projeto-coletivo",
+    "title": "Projeto coletivo: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 71,
+    "estimatedMinutes": 10,
+    "description": "apresentar um projeto e dividir tarefas",
+    "intro": "apresentar um projeto e dividir tarefas",
+    "mission": "apresentar um projeto e dividir tarefas",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: projeto.",
+      "Aprendemos: pesquisa.",
+      "Aprendemos: tarefa.",
+      "Aprendemos: colaboração."
+    ],
+    "vocabulary": [
+      {
+        "word": "projeto",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «projeto» no contexto."
+      },
+      {
+        "word": "pesquisa",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «pesquisa» no contexto."
+      },
+      {
+        "word": "tarefa",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «tarefa» no contexto."
+      },
+      {
+        "word": "colaboração",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «colaboração» no contexto."
+      },
+      {
+        "word": "apresentar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «apresentar» no contexto."
+      },
+      {
+        "word": "acordo",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «acordo» no contexto."
+      },
+      {
+        "word": "solução",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «solução» no contexto."
+      },
+      {
+        "word": "objetivo",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «objetivo» no contexto."
+      },
+      {
+        "word": "participar",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «participar» no contexto."
+      },
+      {
+        "word": "resultado",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «resultado» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-b1-projeto-coletivo-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Projeto coletivo: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «No tema «Projeto coletivo», um pequeno grupo da comunidade conversa…» in «Projeto coletivo: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Projeto coletivo: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Projeto coletivo: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Projeto coletivo: palavras»?",
+        "options": [
+          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «No tema «Projeto coletivo», um pequeno grupo da comunidade conversa…» in «Projeto coletivo: palavras»?",
+        "options": [
+          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Projeto coletivo: palavras»?",
+        "options": [
+          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Projeto coletivo: palavras»?",
+        "options": [
+          "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-projeto-coletivo-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -15615,6 +18232,99 @@
     ]
   },
   {
+    "slug": "portuguese-b1-projeto-coletivo-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "projeto-coletivo",
+    "title": "Projeto coletivo: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 72,
+    "estimatedMinutes": 10,
+    "description": "apresentar um projeto e dividir tarefas",
+    "intro": "apresentar um projeto e dividir tarefas",
+    "mission": "apresentar um projeto e dividir tarefas",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: projeto.",
+      "Aprendemos: pesquisa.",
+      "Aprendemos: tarefa.",
+      "Aprendemos: colaboração."
+    ],
+    "vocabulary": [
+      {
+        "word": "projeto",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «projeto» no contexto."
+      },
+      {
+        "word": "pesquisa",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «pesquisa» no contexto."
+      },
+      {
+        "word": "tarefa",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «tarefa» no contexto."
+      },
+      {
+        "word": "colaboração",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «colaboração» no contexto."
+      },
+      {
+        "word": "apresentar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «apresentar» no contexto."
+      },
+      {
+        "word": "acordo",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «acordo» no contexto."
+      },
+      {
+        "word": "solução",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «solução» no contexto."
+      },
+      {
+        "word": "objetivo",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «objetivo» no contexto."
+      },
+      {
+        "word": "participar",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «participar» no contexto."
+      },
+      {
+        "word": "resultado",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «resultado» no contexto."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Eu quero apresentar um projeto e dividir tarefas. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Vamos falar passo a passo."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Fale duas frases sobre esta situação."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-a1-casa-e-vizinhanca-writing",
     "level": "A1",
     "skill": "writing",
@@ -15700,10 +18410,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Casa e vizinhança: gramática",
-        "definition": "O presente descreve rotinas e informações simples.",
+        "name": "Morar, estar e adjetivos",
+        "definition": "Práctica guiada de Morar, estar e adjetivos.",
         "structure": "sujeito + verbo no presente",
-        "function": "Falar de pessoas, lugares e hábitos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -15910,10 +18620,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Esporte e lazer: gramática",
-        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "name": "Verbos reflexivos",
+        "definition": "Práctica guiada de Verbos reflexivos.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Contar experiências e planos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -16651,6 +19361,90 @@
     ]
   },
   {
+    "slug": "portuguese-b1-projeto-coletivo-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "projeto-coletivo",
+    "title": "Projeto coletivo: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 75,
+    "estimatedMinutes": 10,
+    "description": "apresentar um projeto e dividir tarefas",
+    "intro": "apresentar um projeto e dividir tarefas",
+    "mission": "apresentar um projeto e dividir tarefas",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: projeto.",
+      "Aprendemos: pesquisa.",
+      "Aprendemos: tarefa.",
+      "Aprendemos: colaboração."
+    ],
+    "vocabulary": [
+      {
+        "word": "projeto",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «projeto» no contexto."
+      },
+      {
+        "word": "pesquisa",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «pesquisa» no contexto."
+      },
+      {
+        "word": "tarefa",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «tarefa» no contexto."
+      },
+      {
+        "word": "colaboração",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «colaboração» no contexto."
+      },
+      {
+        "word": "apresentar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «apresentar» no contexto."
+      },
+      {
+        "word": "acordo",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «acordo» no contexto."
+      },
+      {
+        "word": "solução",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «solução» no contexto."
+      },
+      {
+        "word": "objetivo",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «objetivo» no contexto."
+      },
+      {
+        "word": "participar",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «participar» no contexto."
+      },
+      {
+        "word": "resultado",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «resultado» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Escreva de 4 a 6 frases para apresentar um projeto e dividir tarefas."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-tecnologia-no-dia-a-dia-reading",
     "level": "B1",
     "skill": "reading",
@@ -17041,10 +19835,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Tecnologia no dia a dia: gramática",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "name": "Subjuntivo e opinião",
+        "definition": "Práctica guiada de Subjuntivo e opinião.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -17606,6 +20400,226 @@
     ]
   },
   {
+    "slug": "portuguese-b1-tecnologia-no-dia-a-dia-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "tecnologia-no-dia-a-dia",
+    "title": "Tecnologia no dia a dia: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 81,
+    "estimatedMinutes": 10,
+    "description": "avaliar usos da tecnologia com argumentos",
+    "intro": "avaliar usos da tecnologia com argumentos",
+    "mission": "avaliar usos da tecnologia com argumentos",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: tecnologia.",
+      "Aprendemos: aparelho.",
+      "Aprendemos: vantagem.",
+      "Aprendemos: risco."
+    ],
+    "vocabulary": [
+      {
+        "word": "tecnologia",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «tecnologia» no contexto."
+      },
+      {
+        "word": "aparelho",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «aparelho» no contexto."
+      },
+      {
+        "word": "vantagem",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «vantagem» no contexto."
+      },
+      {
+        "word": "risco",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «risco» no contexto."
+      },
+      {
+        "word": "proteger",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «proteger» no contexto."
+      },
+      {
+        "word": "hábito",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «hábito» no contexto."
+      },
+      {
+        "word": "conexão",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «conexão» no contexto."
+      },
+      {
+        "word": "informação",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «informação» no contexto."
+      },
+      {
+        "word": "escolher",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «escolher» no contexto."
+      },
+      {
+        "word": "equilíbrio",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «equilíbrio» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-b1-tecnologia-no-dia-a-dia-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Tecnologia no dia a dia: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade…» in «Tecnologia no dia a dia: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Tecnologia no dia a dia: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Tecnologia no dia a dia: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Tecnologia no dia a dia: palavras»?",
+        "options": [
+          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade…» in «Tecnologia no dia a dia: palavras»?",
+        "options": [
+          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Tecnologia no dia a dia: palavras»?",
+        "options": [
+          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Tecnologia no dia a dia: palavras»?",
+        "options": [
+          "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-tecnologia-no-dia-a-dia-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -17952,6 +20966,99 @@
     ]
   },
   {
+    "slug": "portuguese-b1-tecnologia-no-dia-a-dia-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "tecnologia-no-dia-a-dia",
+    "title": "Tecnologia no dia a dia: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 82,
+    "estimatedMinutes": 10,
+    "description": "avaliar usos da tecnologia com argumentos",
+    "intro": "avaliar usos da tecnologia com argumentos",
+    "mission": "avaliar usos da tecnologia com argumentos",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: tecnologia.",
+      "Aprendemos: aparelho.",
+      "Aprendemos: vantagem.",
+      "Aprendemos: risco."
+    ],
+    "vocabulary": [
+      {
+        "word": "tecnologia",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «tecnologia» no contexto."
+      },
+      {
+        "word": "aparelho",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «aparelho» no contexto."
+      },
+      {
+        "word": "vantagem",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «vantagem» no contexto."
+      },
+      {
+        "word": "risco",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «risco» no contexto."
+      },
+      {
+        "word": "proteger",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «proteger» no contexto."
+      },
+      {
+        "word": "hábito",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «hábito» no contexto."
+      },
+      {
+        "word": "conexão",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «conexão» no contexto."
+      },
+      {
+        "word": "informação",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «informação» no contexto."
+      },
+      {
+        "word": "escolher",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «escolher» no contexto."
+      },
+      {
+        "word": "equilíbrio",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «equilíbrio» no contexto."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Eu quero avaliar usos da tecnologia com argumentos. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Vamos falar passo a passo."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Fale duas frases sobre esta situação."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-a1-tempo-no-recife-writing",
     "level": "A1",
     "skill": "writing",
@@ -18037,10 +21144,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Tempo no Recife: gramática",
-        "definition": "O presente descreve rotinas e informações simples.",
+        "name": "Tempo, fazer e estações",
+        "definition": "Práctica guiada de Tempo, fazer e estações.",
         "structure": "sujeito + verbo no presente",
-        "function": "Falar de pessoas, lugares e hábitos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -18247,10 +21354,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Saúde e bem-estar: gramática",
-        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "name": "Pretérito perfeito e imperfeito",
+        "definition": "Práctica guiada de Pretérito perfeito e imperfeito.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Contar experiências e planos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -18988,6 +22095,90 @@
     ]
   },
   {
+    "slug": "portuguese-b1-tecnologia-no-dia-a-dia-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "tecnologia-no-dia-a-dia",
+    "title": "Tecnologia no dia a dia: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 85,
+    "estimatedMinutes": 10,
+    "description": "avaliar usos da tecnologia com argumentos",
+    "intro": "avaliar usos da tecnologia com argumentos",
+    "mission": "avaliar usos da tecnologia com argumentos",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: tecnologia.",
+      "Aprendemos: aparelho.",
+      "Aprendemos: vantagem.",
+      "Aprendemos: risco."
+    ],
+    "vocabulary": [
+      {
+        "word": "tecnologia",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «tecnologia» no contexto."
+      },
+      {
+        "word": "aparelho",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «aparelho» no contexto."
+      },
+      {
+        "word": "vantagem",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «vantagem» no contexto."
+      },
+      {
+        "word": "risco",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «risco» no contexto."
+      },
+      {
+        "word": "proteger",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «proteger» no contexto."
+      },
+      {
+        "word": "hábito",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «hábito» no contexto."
+      },
+      {
+        "word": "conexão",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «conexão» no contexto."
+      },
+      {
+        "word": "informação",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «informação» no contexto."
+      },
+      {
+        "word": "escolher",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «escolher» no contexto."
+      },
+      {
+        "word": "equilíbrio",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «equilíbrio» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Escreva de 4 a 6 frases para avaliar usos da tecnologia com argumentos."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-cidade-e-mobilidade-reading",
     "level": "B1",
     "skill": "reading",
@@ -19378,10 +22569,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Cidade e mobilidade: gramática",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "name": "Comparação e consequência",
+        "definition": "Práctica guiada de Comparação e consequência.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -19943,6 +23134,226 @@
     ]
   },
   {
+    "slug": "portuguese-b1-cidade-e-mobilidade-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "cidade-e-mobilidade",
+    "title": "Cidade e mobilidade: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 91,
+    "estimatedMinutes": 10,
+    "description": "comparar opções de mobilidade urbana",
+    "intro": "comparar opções de mobilidade urbana",
+    "mission": "comparar opções de mobilidade urbana",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: transporte.",
+      "Aprendemos: caminho.",
+      "Aprendemos: trânsito.",
+      "Aprendemos: bicicleta."
+    ],
+    "vocabulary": [
+      {
+        "word": "transporte",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «transporte» no contexto."
+      },
+      {
+        "word": "caminho",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «caminho» no contexto."
+      },
+      {
+        "word": "trânsito",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «trânsito» no contexto."
+      },
+      {
+        "word": "bicicleta",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «bicicleta» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "acessível",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «acessível» no contexto."
+      },
+      {
+        "word": "atraso",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «atraso» no contexto."
+      },
+      {
+        "word": "serviço",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «serviço» no contexto."
+      },
+      {
+        "word": "propor",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «propor» no contexto."
+      },
+      {
+        "word": "bairro",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «bairro» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-b1-cidade-e-mobilidade-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Cidade e mobilidade: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa…» in «Cidade e mobilidade: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cidade e mobilidade: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Cidade e mobilidade: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Cidade e mobilidade: palavras»?",
+        "options": [
+          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa…» in «Cidade e mobilidade: palavras»?",
+        "options": [
+          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cidade e mobilidade: palavras»?",
+        "options": [
+          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Cidade e mobilidade: palavras»?",
+        "options": [
+          "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-cidade-e-mobilidade-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -20289,6 +23700,99 @@
     ]
   },
   {
+    "slug": "portuguese-b1-cidade-e-mobilidade-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "cidade-e-mobilidade",
+    "title": "Cidade e mobilidade: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 92,
+    "estimatedMinutes": 10,
+    "description": "comparar opções de mobilidade urbana",
+    "intro": "comparar opções de mobilidade urbana",
+    "mission": "comparar opções de mobilidade urbana",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: transporte.",
+      "Aprendemos: caminho.",
+      "Aprendemos: trânsito.",
+      "Aprendemos: bicicleta."
+    ],
+    "vocabulary": [
+      {
+        "word": "transporte",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «transporte» no contexto."
+      },
+      {
+        "word": "caminho",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «caminho» no contexto."
+      },
+      {
+        "word": "trânsito",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «trânsito» no contexto."
+      },
+      {
+        "word": "bicicleta",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «bicicleta» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "acessível",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «acessível» no contexto."
+      },
+      {
+        "word": "atraso",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «atraso» no contexto."
+      },
+      {
+        "word": "serviço",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «serviço» no contexto."
+      },
+      {
+        "word": "propor",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «propor» no contexto."
+      },
+      {
+        "word": "bairro",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «bairro» no contexto."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Eu quero comparar opções de mobilidade urbana. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Vamos falar passo a passo."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Fale duas frases sobre esta situação."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-a1-uma-roda-cultural-writing",
     "level": "A1",
     "skill": "writing",
@@ -20374,10 +23878,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Uma roda cultural: gramática",
-        "definition": "O presente descreve rotinas e informações simples.",
+        "name": "Pretérito perfeito introdutório",
+        "definition": "Práctica guiada de Pretérito perfeito introdutório.",
         "structure": "sujeito + verbo no presente",
-        "function": "Falar de pessoas, lugares e hábitos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -20584,10 +24088,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Histórias de origem: gramática",
-        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "name": "Conectores de tempo",
+        "definition": "Práctica guiada de Conectores de tempo.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Contar experiências e planos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -21325,6 +24829,90 @@
     ]
   },
   {
+    "slug": "portuguese-b1-cidade-e-mobilidade-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "cidade-e-mobilidade",
+    "title": "Cidade e mobilidade: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 95,
+    "estimatedMinutes": 10,
+    "description": "comparar opções de mobilidade urbana",
+    "intro": "comparar opções de mobilidade urbana",
+    "mission": "comparar opções de mobilidade urbana",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: transporte.",
+      "Aprendemos: caminho.",
+      "Aprendemos: trânsito.",
+      "Aprendemos: bicicleta."
+    ],
+    "vocabulary": [
+      {
+        "word": "transporte",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «transporte» no contexto."
+      },
+      {
+        "word": "caminho",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «caminho» no contexto."
+      },
+      {
+        "word": "trânsito",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «trânsito» no contexto."
+      },
+      {
+        "word": "bicicleta",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «bicicleta» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "acessível",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «acessível» no contexto."
+      },
+      {
+        "word": "atraso",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «atraso» no contexto."
+      },
+      {
+        "word": "serviço",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «serviço» no contexto."
+      },
+      {
+        "word": "propor",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «propor» no contexto."
+      },
+      {
+        "word": "bairro",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «bairro» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Escreva de 4 a 6 frases para comparar opções de mobilidade urbana."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-planos-para-o-futuro-reading",
     "level": "B1",
     "skill": "reading",
@@ -21715,10 +25303,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Planos para o futuro: gramática",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "name": "Futuro do subjuntivo",
+        "definition": "Práctica guiada de Futuro do subjuntivo.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -22280,6 +25868,226 @@
     ]
   },
   {
+    "slug": "portuguese-b1-planos-para-o-futuro-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "planos-para-o-futuro",
+    "title": "Planos para o futuro: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 101,
+    "estimatedMinutes": 10,
+    "description": "falar de metas e possibilidades futuras",
+    "intro": "falar de metas e possibilidades futuras",
+    "mission": "falar de metas e possibilidades futuras",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: futuro.",
+      "Aprendemos: objetivo.",
+      "Aprendemos: oportunidade.",
+      "Aprendemos: decidir."
+    ],
+    "vocabulary": [
+      {
+        "word": "futuro",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «futuro» no contexto."
+      },
+      {
+        "word": "objetivo",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «objetivo» no contexto."
+      },
+      {
+        "word": "oportunidade",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «oportunidade» no contexto."
+      },
+      {
+        "word": "decidir",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «decidir» no contexto."
+      },
+      {
+        "word": "experiência",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «experiência» no contexto."
+      },
+      {
+        "word": "formação",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «formação» no contexto."
+      },
+      {
+        "word": "caminho",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «caminho» no contexto."
+      },
+      {
+        "word": "esperar",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «esperar» no contexto."
+      },
+      {
+        "word": "escolha",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «escolha» no contexto."
+      },
+      {
+        "word": "alcançar",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «alcançar» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-b1-planos-para-o-futuro-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Planos para o futuro: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «No tema «Planos para o futuro», um pequeno grupo da comunidade…» in «Planos para o futuro: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Planos para o futuro: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Planos para o futuro: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Planos para o futuro: palavras»?",
+        "options": [
+          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «No tema «Planos para o futuro», um pequeno grupo da comunidade…» in «Planos para o futuro: palavras»?",
+        "options": [
+          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Planos para o futuro: palavras»?",
+        "options": [
+          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Planos para o futuro: palavras»?",
+        "options": [
+          "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-planos-para-o-futuro-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -22626,6 +26434,99 @@
     ]
   },
   {
+    "slug": "portuguese-b1-planos-para-o-futuro-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "planos-para-o-futuro",
+    "title": "Planos para o futuro: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 102,
+    "estimatedMinutes": 10,
+    "description": "falar de metas e possibilidades futuras",
+    "intro": "falar de metas e possibilidades futuras",
+    "mission": "falar de metas e possibilidades futuras",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: futuro.",
+      "Aprendemos: objetivo.",
+      "Aprendemos: oportunidade.",
+      "Aprendemos: decidir."
+    ],
+    "vocabulary": [
+      {
+        "word": "futuro",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «futuro» no contexto."
+      },
+      {
+        "word": "objetivo",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «objetivo» no contexto."
+      },
+      {
+        "word": "oportunidade",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «oportunidade» no contexto."
+      },
+      {
+        "word": "decidir",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «decidir» no contexto."
+      },
+      {
+        "word": "experiência",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «experiência» no contexto."
+      },
+      {
+        "word": "formação",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «formação» no contexto."
+      },
+      {
+        "word": "caminho",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «caminho» no contexto."
+      },
+      {
+        "word": "esperar",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «esperar» no contexto."
+      },
+      {
+        "word": "escolha",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «escolha» no contexto."
+      },
+      {
+        "word": "alcançar",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «alcançar» no contexto."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Eu quero falar de metas e possibilidades futuras. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Vamos falar passo a passo."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Fale duas frases sobre esta situação."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-a1-de-onibus-writing",
     "level": "A1",
     "skill": "writing",
@@ -22711,10 +26612,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "De ônibus: gramática",
-        "definition": "O presente descreve rotinas e informações simples.",
+        "name": "Por / para e transporte",
+        "definition": "Práctica guiada de Por / para e transporte.",
         "structure": "sujeito + verbo no presente",
-        "function": "Falar de pessoas, lugares e hábitos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -22921,10 +26822,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Um projeto coletivo: gramática",
-        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "name": "Condicional de cortesia",
+        "definition": "Práctica guiada de Condicional de cortesia.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Contar experiências e planos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -23662,6 +27563,90 @@
     ]
   },
   {
+    "slug": "portuguese-b1-planos-para-o-futuro-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "planos-para-o-futuro",
+    "title": "Planos para o futuro: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 105,
+    "estimatedMinutes": 10,
+    "description": "falar de metas e possibilidades futuras",
+    "intro": "falar de metas e possibilidades futuras",
+    "mission": "falar de metas e possibilidades futuras",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: futuro.",
+      "Aprendemos: objetivo.",
+      "Aprendemos: oportunidade.",
+      "Aprendemos: decidir."
+    ],
+    "vocabulary": [
+      {
+        "word": "futuro",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «futuro» no contexto."
+      },
+      {
+        "word": "objetivo",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «objetivo» no contexto."
+      },
+      {
+        "word": "oportunidade",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «oportunidade» no contexto."
+      },
+      {
+        "word": "decidir",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «decidir» no contexto."
+      },
+      {
+        "word": "experiência",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «experiência» no contexto."
+      },
+      {
+        "word": "formação",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «formação» no contexto."
+      },
+      {
+        "word": "caminho",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «caminho» no contexto."
+      },
+      {
+        "word": "esperar",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «esperar» no contexto."
+      },
+      {
+        "word": "escolha",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «escolha» no contexto."
+      },
+      {
+        "word": "alcançar",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «alcançar» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Escreva de 4 a 6 frases para falar de metas e possibilidades futuras."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-relacoes-e-comunicacao-reading",
     "level": "B1",
     "skill": "reading",
@@ -24052,10 +28037,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Relações e comunicação: gramática",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "name": "Relações: pronomes e discurso indireto",
+        "definition": "Práctica guiada de Relações: pronomes e discurso indireto.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -24617,6 +28602,226 @@
     ]
   },
   {
+    "slug": "portuguese-b1-relacoes-e-comunicacao-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "relacoes-e-comunicacao",
+    "title": "Relações e comunicação: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 111,
+    "estimatedMinutes": 10,
+    "description": "expressar relações, opiniões e mensagens relatadas",
+    "intro": "expressar relações, opiniões e mensagens relatadas",
+    "mission": "expressar relações, opiniões e mensagens relatadas",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: relação.",
+      "Aprendemos: escutar.",
+      "Aprendemos: explicar.",
+      "Aprendemos: mensagem."
+    ],
+    "vocabulary": [
+      {
+        "word": "relação",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «relação» no contexto."
+      },
+      {
+        "word": "escutar",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «escutar» no contexto."
+      },
+      {
+        "word": "explicar",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «explicar» no contexto."
+      },
+      {
+        "word": "mensagem",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «mensagem» no contexto."
+      },
+      {
+        "word": "acordo",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «acordo» no contexto."
+      },
+      {
+        "word": "confiança",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «confiança» no contexto."
+      },
+      {
+        "word": "conversa",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «conversa» no contexto."
+      },
+      {
+        "word": "opinião",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «opinião» no contexto."
+      },
+      {
+        "word": "esclarecer",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «esclarecer» no contexto."
+      },
+      {
+        "word": "respeitar",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «respeitar» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-b1-relacoes-e-comunicacao-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Relações e comunicação: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «No tema «Relações e comunicação», um pequeno grupo da comunidade…» in «Relações e comunicação: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Relações e comunicação: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Relações e comunicação: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Relações e comunicação: palavras»?",
+        "options": [
+          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «No tema «Relações e comunicação», um pequeno grupo da comunidade…» in «Relações e comunicação: palavras»?",
+        "options": [
+          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Relações e comunicação: palavras»?",
+        "options": [
+          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Relações e comunicação: palavras»?",
+        "options": [
+          "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-relacoes-e-comunicacao-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -24963,6 +29168,99 @@
     ]
   },
   {
+    "slug": "portuguese-b1-relacoes-e-comunicacao-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "relacoes-e-comunicacao",
+    "title": "Relações e comunicação: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 112,
+    "estimatedMinutes": 10,
+    "description": "expressar relações, opiniões e mensagens relatadas",
+    "intro": "expressar relações, opiniões e mensagens relatadas",
+    "mission": "expressar relações, opiniões e mensagens relatadas",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: relação.",
+      "Aprendemos: escutar.",
+      "Aprendemos: explicar.",
+      "Aprendemos: mensagem."
+    ],
+    "vocabulary": [
+      {
+        "word": "relação",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «relação» no contexto."
+      },
+      {
+        "word": "escutar",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «escutar» no contexto."
+      },
+      {
+        "word": "explicar",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «explicar» no contexto."
+      },
+      {
+        "word": "mensagem",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «mensagem» no contexto."
+      },
+      {
+        "word": "acordo",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «acordo» no contexto."
+      },
+      {
+        "word": "confiança",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «confiança» no contexto."
+      },
+      {
+        "word": "conversa",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «conversa» no contexto."
+      },
+      {
+        "word": "opinião",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «opinião» no contexto."
+      },
+      {
+        "word": "esclarecer",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «esclarecer» no contexto."
+      },
+      {
+        "word": "respeitar",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «respeitar» no contexto."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Eu quero expressar relações, opiniões e mensagens relatadas. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Vamos falar passo a passo."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Fale duas frases sobre esta situação."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-a1-sabores-do-brasil-writing",
     "level": "A1",
     "skill": "writing",
@@ -25048,10 +29346,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Sabores do Brasil: gramática",
-        "definition": "O presente descreve rotinas e informações simples.",
+        "name": "Partitivos e comida",
+        "definition": "Práctica guiada de Partitivos e comida.",
         "structure": "sujeito + verbo no presente",
-        "function": "Falar de pessoas, lugares e hábitos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -25258,10 +29556,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Cidade e ambiente: gramática",
-        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "name": "Subjuntivo presente introdutório",
+        "definition": "Práctica guiada de Subjuntivo presente introdutório.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Contar experiências e planos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -25999,6 +30297,90 @@
     ]
   },
   {
+    "slug": "portuguese-b1-relacoes-e-comunicacao-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "relacoes-e-comunicacao",
+    "title": "Relações e comunicação: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 115,
+    "estimatedMinutes": 10,
+    "description": "expressar relações, opiniões e mensagens relatadas",
+    "intro": "expressar relações, opiniões e mensagens relatadas",
+    "mission": "expressar relações, opiniões e mensagens relatadas",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: relação.",
+      "Aprendemos: escutar.",
+      "Aprendemos: explicar.",
+      "Aprendemos: mensagem."
+    ],
+    "vocabulary": [
+      {
+        "word": "relação",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «relação» no contexto."
+      },
+      {
+        "word": "escutar",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «escutar» no contexto."
+      },
+      {
+        "word": "explicar",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «explicar» no contexto."
+      },
+      {
+        "word": "mensagem",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «mensagem» no contexto."
+      },
+      {
+        "word": "acordo",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «acordo» no contexto."
+      },
+      {
+        "word": "confiança",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «confiança» no contexto."
+      },
+      {
+        "word": "conversa",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «conversa» no contexto."
+      },
+      {
+        "word": "opinião",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «opinião» no contexto."
+      },
+      {
+        "word": "esclarecer",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «esclarecer» no contexto."
+      },
+      {
+        "word": "respeitar",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «respeitar» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Escreva de 4 a 6 frases para expressar relações, opiniões e mensagens relatadas."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-cidadania-e-participacao-reading",
     "level": "B1",
     "skill": "reading",
@@ -26389,10 +30771,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Cidadania e participação: gramática",
-        "definition": "Conectores, opiniões e hipóteses ajudam a construir um argumento.",
+        "name": "Cidadania: subjuntivo e propostas",
+        "definition": "Práctica guiada de Cidadania: subjuntivo e propostas.",
         "structure": "opinião + porque/porém/portanto + justificativa",
-        "function": "Expressar e justificar um ponto de vista.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Acho que a proposta é útil.",
           "Porém, devemos avaliar os resultados."
@@ -26954,6 +31336,226 @@
     ]
   },
   {
+    "slug": "portuguese-b1-cidadania-e-participacao-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "cidadania-e-participacao",
+    "title": "Cidadania e participação: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 121,
+    "estimatedMinutes": 10,
+    "description": "propor ações e participar da comunidade",
+    "intro": "propor ações e participar da comunidade",
+    "mission": "propor ações e participar da comunidade",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: cidadania.",
+      "Aprendemos: participar.",
+      "Aprendemos: direito.",
+      "Aprendemos: proposta."
+    ],
+    "vocabulary": [
+      {
+        "word": "cidadania",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «cidadania» no contexto."
+      },
+      {
+        "word": "participar",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «participar» no contexto."
+      },
+      {
+        "word": "direito",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «direito» no contexto."
+      },
+      {
+        "word": "proposta",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «proposta» no contexto."
+      },
+      {
+        "word": "comunidade",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «comunidade» no contexto."
+      },
+      {
+        "word": "escolher",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «escolher» no contexto."
+      },
+      {
+        "word": "voluntário",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «voluntário» no contexto."
+      },
+      {
+        "word": "iniciativa",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «iniciativa» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "responsabilidade",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «responsabilidade» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "portuguese-b1-cidadania-e-participacao-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Cidadania e participação: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «No tema «Cidadania e participação», um pequeno grupo da comunidade…» in «Cidadania e participação: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cidadania e participação: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Cidadania e participação: palavras»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito."
+              },
+              {
+                "id": "o2",
+                "text": "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta."
+              },
+              {
+                "id": "o3",
+                "text": "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana."
+              },
+              {
+                "id": "o4",
+                "text": "Depois, o grupo resume as ideias mais importantes."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Cidadania e participação: palavras»?",
+        "options": [
+          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «No tema «Cidadania e participação», um pequeno grupo da comunidade…» in «Cidadania e participação: palavras»?",
+        "options": [
+          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Cidadania e participação: palavras»?",
+        "options": [
+          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Cidadania e participação: palavras»?",
+        "options": [
+          "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito.",
+          "Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta.",
+          "No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana.",
+          "Depois, o grupo resume as ideias mais importantes."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "portuguese-b1-cidadania-e-participacao-vocabulary",
     "level": "B1",
     "skill": "vocabulary",
@@ -27300,6 +31902,99 @@
     ]
   },
   {
+    "slug": "portuguese-b1-cidadania-e-participacao-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "cidadania-e-participacao",
+    "title": "Cidadania e participação: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 122,
+    "estimatedMinutes": 10,
+    "description": "propor ações e participar da comunidade",
+    "intro": "propor ações e participar da comunidade",
+    "mission": "propor ações e participar da comunidade",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: cidadania.",
+      "Aprendemos: participar.",
+      "Aprendemos: direito.",
+      "Aprendemos: proposta."
+    ],
+    "vocabulary": [
+      {
+        "word": "cidadania",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «cidadania» no contexto."
+      },
+      {
+        "word": "participar",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «participar» no contexto."
+      },
+      {
+        "word": "direito",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «direito» no contexto."
+      },
+      {
+        "word": "proposta",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «proposta» no contexto."
+      },
+      {
+        "word": "comunidade",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «comunidade» no contexto."
+      },
+      {
+        "word": "escolher",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «escolher» no contexto."
+      },
+      {
+        "word": "voluntário",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «voluntário» no contexto."
+      },
+      {
+        "word": "iniciativa",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «iniciativa» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "responsabilidade",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «responsabilidade» no contexto."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Eu quero propor ações e participar da comunidade. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Vamos falar passo a passo."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Fale duas frases sobre esta situação."
+      }
+    ]
+  },
+  {
     "slug": "portuguese-a1-mensagem-para-casa-writing",
     "level": "A1",
     "skill": "writing",
@@ -27385,10 +32080,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Mensagem para casa: gramática",
-        "definition": "O presente descreve rotinas e informações simples.",
+        "name": "Mensagens no presente",
+        "definition": "Práctica guiada de Mensagens no presente.",
         "structure": "sujeito + verbo no presente",
-        "function": "Falar de pessoas, lugares e hábitos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Eu moro no bairro.",
           "Rafael fala com Luana."
@@ -27595,10 +32290,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Contar uma experiência: gramática",
-        "definition": "O pretérito perfeito conta ações concluídas; conectores organizam a narrativa.",
+        "name": "Narrativa no passado",
+        "definition": "Práctica guiada de Narrativa no passado.",
         "structure": "sujeito + verbo no passado + conector",
-        "function": "Contar experiências e planos.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ontem visitei o museu.",
           "Depois conversamos juntos."
@@ -28332,6 +33027,90 @@
           "encontro",
           "entender"
         ]
+      }
+    ]
+  },
+  {
+    "slug": "portuguese-b1-cidadania-e-participacao-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "cidadania-e-participacao",
+    "title": "Cidadania e participação: palavras",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 125,
+    "estimatedMinutes": 10,
+    "description": "propor ações e participar da comunidade",
+    "intro": "propor ações e participar da comunidade",
+    "mission": "propor ações e participar da comunidade",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Aprendemos: cidadania.",
+      "Aprendemos: participar.",
+      "Aprendemos: direito.",
+      "Aprendemos: proposta."
+    ],
+    "vocabulary": [
+      {
+        "word": "cidadania",
+        "translation": "Palabra clave 1",
+        "example": "Uso a palavra «cidadania» no contexto."
+      },
+      {
+        "word": "participar",
+        "translation": "Palabra clave 2",
+        "example": "Uso a palavra «participar» no contexto."
+      },
+      {
+        "word": "direito",
+        "translation": "Palabra clave 3",
+        "example": "Uso a palavra «direito» no contexto."
+      },
+      {
+        "word": "proposta",
+        "translation": "Palabra clave 4",
+        "example": "Uso a palavra «proposta» no contexto."
+      },
+      {
+        "word": "comunidade",
+        "translation": "Palabra clave 5",
+        "example": "Uso a palavra «comunidade» no contexto."
+      },
+      {
+        "word": "escolher",
+        "translation": "Palabra clave 6",
+        "example": "Uso a palavra «escolher» no contexto."
+      },
+      {
+        "word": "voluntário",
+        "translation": "Palabra clave 7",
+        "example": "Uso a palavra «voluntário» no contexto."
+      },
+      {
+        "word": "iniciativa",
+        "translation": "Palabra clave 8",
+        "example": "Uso a palavra «iniciativa» no contexto."
+      },
+      {
+        "word": "melhorar",
+        "translation": "Palabra clave 9",
+        "example": "Uso a palavra «melhorar» no contexto."
+      },
+      {
+        "word": "responsabilidade",
+        "translation": "Palabra clave 10",
+        "example": "Uso a palavra «responsabilidade» no contexto."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Escreva de 4 a 6 frases para propor ações e participar da comunidade."
       }
     ]
   }

@@ -346,15 +346,15 @@ const LEVEL_ACTIVITY_COUNT_BY_LANGUAGE = {
   portuguese: {
     A1: 72,
     A2: 72,
-    B1: 36,
+    B1: 72,
     B2: 0,
     C1: 0,
     C2: 0
   },
   german: {
-    A1: 36,
-    A2: 36,
-    B1: 36,
+    A1: 72,
+    A2: 72,
+    B1: 72,
     B2: 6,
     C1: 6,
     C2: 6
@@ -362,11 +362,7 @@ const LEVEL_ACTIVITY_COUNT_BY_LANGUAGE = {
 };
 
 function unitSkillsFor(language, level = 'A1') {
-  if (
-    (language === 'portuguese' && level === 'B1') ||
-    (language === 'italian' && level === 'B1') ||
-    (language === 'german' && ['A1', 'A2', 'B1'].includes(level))
-  ) {
+  if (language === 'italian' && level === 'B1') {
     return ['reading', 'grammar', 'vocabulary'];
   }
   const levelSkills = (LEVEL_SKILLS_BY_LANGUAGE[language] || {})[level];
@@ -1275,10 +1271,12 @@ test('Reading route navigation is placed beside evaluation before tutor tools', 
   assert.match(css, /\.unit-activity-footer--reading-inline/);
 });
 
-test('Reading comprehension enables evaluation from five local selections without waiting on per-answer requests', () => {
+test('Reading comprehension keeps all level-appropriate questions deployed for one mini test', () => {
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   assert.match(source, /const allAnswered = answeredCount === total;/);
-  assert.match(source, /const currentAnswered = runtime\.selections\[currentExerciseIndex\] != null;/);
+  assert.match(source, /const required = level === 'A1' \? 4 : 5;/);
+  assert.match(source, /const visibleEntries = entries\.slice\(0, selected\);/);
+  assert.doesNotMatch(source, /data-reading-direction="prev"/);
   assert.match(source, /visibleEntries\.map\(async \(\{ item, exerciseIndex \}\) => \{/);
   const optionHandler = source.slice(
     source.indexOf("const readingCompOption = event.target.closest('.reading-comp-option')"),

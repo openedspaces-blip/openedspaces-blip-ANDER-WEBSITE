@@ -26239,8 +26239,17 @@ body {
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card {
   /* The catalogue shows many words at once: a compact fixed front prevents
      short entries from inheriting the height of a neighbouring long entry. */
-  height: 212px;
-  min-height: 212px;
+  height: 172px;
+  min-height: 172px;
+  cursor: default;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card--static .vocab-card-inner {
+  transform: none;
+}
+
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card--static .vocab-card-back {
+  display: none;
 }
 
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front {
@@ -26275,14 +26284,14 @@ body {
 .vocab-card-catalogue-actions { display: flex; gap: 0.4rem; margin-left: auto; }
 .vocab-card-catalogue-actions button { min-height: 34px; padding: 0.38rem 0.62rem; border: 1px solid #bcd0f4; border-radius: 9px; background: #fff; color: #1d4ed8; font: inherit; font-size: 0.67rem; font-weight: 850; cursor: pointer; }
 .vocab-card-catalogue-actions .vocab-retry-btn { border-color: #2563eb; background: #2563eb; color: #fff; }
-.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card.is-flipped { height: 272px; min-height: 272px; }
+.skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card.is-flipped { height: 172px; min-height: 172px; }
 
 @media (max-width: 760px) {
   .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {
-  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card { height: 226px; min-height: 226px; }
+  .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card { height: 176px; min-height: 176px; }
   .vocab-card-catalogue-actions { width: 100%; }
   .vocab-card-catalogue-actions button { flex: 1; min-height: 40px; }
   .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front-footer { align-items: flex-start; flex-direction: column; }

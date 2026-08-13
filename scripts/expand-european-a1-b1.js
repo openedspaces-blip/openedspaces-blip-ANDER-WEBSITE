@@ -114,6 +114,19 @@ const courses = {
   }
 };
 
+// Italian's current route is intentionally authored separately. Portuguese
+// and German use this generator for the complete connected route.
+for (let index = lessons.length - 1; index >= 0; index -= 1) {
+  const row = lessons[index];
+  if (
+    row.target_language === 'italian' &&
+    row.level === 'B1' &&
+    ['listening', 'speaking', 'writing'].includes(row.skill)
+  ) {
+    lessons.splice(index, 1);
+  }
+}
+
 function sentence(language, words, level, title) {
   const [a, b, c] = words;
   if (language === 'italian') return `Nel tema «${title}», un piccolo gruppo della comunità parla di ${a}, ${b} e ${c}. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana.`;
@@ -164,6 +177,21 @@ function makeLesson(language, level, unit, skill, order) {
       { type: 'mcq', prompt: content.reading.questions[2], options: ['Porque tienen un objetivo claro.', 'Porque no tienen tiempo.', 'Porque no conocen el tema.', 'Porque prefieren trabajar solos.'], answer: 0 },
       { type: 'mcq', prompt: content.reading.questions[3], options: ['Una solución concreta y colaborativa.', 'Una lista sin contexto.', 'Una discusión sin objetivo.', 'Una decisión individual.'], answer: 0 }
     ];
+  } else if (skill === 'listening') {
+    content.transcript = `${readingText} ${language === 'german' ? 'Danach fasst die Gruppe die wichtigsten Ideen zusammen.' : language === 'italian' ? 'Poi il gruppo riassume le idee più importanti.' : 'Depois, o grupo resume as ideias mais importantes.'}`;
+    content.listeningType = 'monologue';
+    content.dictationSegments = [readingText.split('. ')[0]];
+    content.exercises = [{ type: 'mcq', prompt: language === 'german' ? 'Worum geht es in der Aufnahme?' : language === 'italian' ? 'Di che cosa parla la registrazione?' : 'Sobre o que fala a gravação?', options: [objective, words[4], words[5], words[6]], answer: 0 }];
+  } else if (skill === 'speaking') {
+    content.dialogue = [
+      { speaker: 'A', line: language === 'german' ? `Ich möchte ${objective}. Kannst du mir helfen?` : language === 'italian' ? `Vorrei ${objective}. Puoi aiutarmi?` : `Eu quero ${objective}. Você pode me ajudar?` },
+      { speaker: 'B', line: language === 'german' ? 'Ja, gern. Lass uns Schritt für Schritt sprechen.' : language === 'italian' ? 'Sì, certo. Parliamone passo dopo passo.' : 'Claro. Vamos falar passo a passo.' }
+    ];
+    content.exercises = [{ type: 'practice', prompt: language === 'german' ? 'Sprich zwei Sätze über diese Situation.' : language === 'italian' ? 'Di due frasi su questa situazione.' : 'Fale duas frases sobre esta situação.' }];
+  } else if (skill === 'writing') {
+    content.assignment = language === 'german' ? `Schreibe 4 bis 6 Sätze: ${objective}.` : language === 'italian' ? `Scrivi da 4 a 6 frasi per ${objective}.` : `Escreva de 4 a 6 frases para ${objective}.`;
+    content.criteria = [language === 'german' ? 'klare Idee' : language === 'italian' ? 'idea chiara' : 'ideia clara', language === 'german' ? 'passender Wortschatz' : language === 'italian' ? 'vocabolario adatto' : 'vocabulário adequado'];
+    content.exercises = [{ type: 'practice', prompt: content.assignment }];
   } else if (skill === 'grammar') {
     const exercise = grammarPrompt(language, level, words);
     content.exercises = [0, 1, 2, 3, 4].map((offset) => {
@@ -213,7 +241,13 @@ for (const [language, course] of Object.entries(courses)) {
         units.push({ slug, target_language: language, level, title, title_es: objective, description: objective, order_index: index + 1, unit_overview: { objective, outcomes: [objective, 'comprender un texto contextual', 'usar vocabulario en un reto'], grammar: [level === 'A1' ? 'frases básicas' : level === 'A2' ? 'pasado y conectores' : 'opinión y conectores'], vocabulary: vocabulary.split(', ').slice(0, 6), scenario: title } });
         addedUnits += 1;
       }
-      ['reading', 'grammar', 'vocabulary'].forEach((skill, skillIndex) => {
+      // A route must expose the same connected learning sequence in every
+      // supported language. These activities are independent practice, not
+      // questions that require recalling the Reading text.
+      const routeSkills = language === 'italian'
+        ? ['reading', 'grammar', 'vocabulary']
+        : ['reading', 'listening', 'speaking', 'grammar', 'vocabulary', 'writing'];
+      routeSkills.forEach((skill, skillIndex) => {
         const slugWithSkill = `${language}-${level.toLowerCase()}-${slug}-${skill}`;
         const authoredLesson = makeLesson(language, level, unit, skill, (index + 1) * 10 + skillIndex);
         const existingLesson = lessons.find((item) => item.slug === slugWithSkill);
@@ -223,7 +257,12 @@ for (const [language, course] of Object.entries(courses)) {
         } else {
           existingLesson.is_free = authoredLesson.is_free;
           existingLesson.access_tier = authoredLesson.access_tier;
-          existingLesson.content_json = existingLesson.content_json || {};
+          // These route activities were added after the original European
+          // Reading/Grammar/Vocabulary trio. Keep their authored payload in
+          // sync when the generator is rerun.
+          existingLesson.content_json = ['listening', 'speaking', 'writing'].includes(skill)
+            ? authoredLesson.content_json
+            : (existingLesson.content_json || {});
           existingLesson.content_json.access_policy = authoredLesson.content_json.access_policy;
         }
       });

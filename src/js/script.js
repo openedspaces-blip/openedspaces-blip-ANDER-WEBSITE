@@ -9595,15 +9595,13 @@ function resetReadingComprehensionRuntime(slug, questionCount = null) {
 
 function getReadingQuestionCountConfig(lesson, entries, runtime) {
   const level = String(lesson?.level || '').toUpperCase();
-  const canChooseCount =
-    ['B1', 'B2'].includes(level) &&
-    entries.length >= 10 &&
-    entries.slice(0, 10).every(({ item }) => Boolean(item.id));
-  const choices = canChooseCount ? [5, 10] : [entries.length];
-  const selected = choices.includes(runtime.questionCount)
-    ? runtime.questionCount
-    : choices[0];
-  return { choices, selected, canChooseCount };
+  // Reading is a compact test, not a question carousel: A1 always shows
+  // four grounded checks, and every later CEFR level shows five together.
+  // Extra legacy exercises remain out of this assessment rather than making
+  // the activity longer or giving the learner a separate quantity choice.
+  const required = level === 'A1' ? 4 : 5;
+  const selected = Math.min(required, entries.length);
+  return { choices: [selected], selected, canChooseCount: false };
 }
 
 function getVisibleReadingComprehensionEntries(lesson, entries) {
@@ -9702,7 +9700,6 @@ function renderReadingComprehensionQuiz(lesson, entries) {
   const { choices, selected, canChooseCount } = getReadingQuestionCountConfig(lesson, entries, runtime);
   const visibleEntries = entries.slice(0, selected);
   const total = visibleEntries.length;
-  runtime.currentIndex = Math.max(0, Math.min(total - 1, Number(runtime.currentIndex) || 0));
   const answeredCount = visibleEntries.filter(
     ({ exerciseIndex }) => runtime.selections[exerciseIndex] != null
   ).length;
@@ -9757,9 +9754,8 @@ function renderReadingComprehensionQuiz(lesson, entries) {
           : `<span class="reading-comp-feedback is-incorrect">❌ ${french ? 'Incorrect' : 'Incorrecto'}${result.correctLabel ? ` · ${french ? 'Bonne réponse' : 'Respuesta correcta'} : ${escapeHtml(result.correctLabel)}` : ''}</span>`;
       }
 
-      const isCurrent = displayIndex === runtime.currentIndex;
       return `
-        <div class="reading-comp-question${isCurrent ? ' is-current' : ''}" data-question-position="${displayIndex}" data-exercise-index="${exerciseIndex}" data-lesson-slug="${escapeHtml(lesson.slug || '')}" ${isCurrent ? '' : 'hidden'}>
+        <div class="reading-comp-question is-current" data-question-position="${displayIndex}" data-exercise-index="${exerciseIndex}" data-lesson-slug="${escapeHtml(lesson.slug || '')}">
           <div class="reading-comp-question-heading"><span class="reading-comp-question-number">${displayIndex + 1}</span><strong class="reading-comp-prompt">${escapeHtml(item.prompt)}</strong></div>
           <div class="reading-comp-options">${optionsHtml}</div>
           ${isChecking ? `<span class="reading-comp-feedback">${french ? 'Vérification de la réponse…' : 'Comprobando respuesta…'}</span>` : ''}
@@ -9768,17 +9764,6 @@ function renderReadingComprehensionQuiz(lesson, entries) {
       `;
     })
     .join('');
-
-  const currentExerciseIndex = visibleEntries[runtime.currentIndex]?.exerciseIndex;
-  const currentAnswered = runtime.selections[currentExerciseIndex] != null;
-  const navigationHtml = `
-    <div class="reading-comp-navigation" aria-label="${french ? 'Navigation du test' : 'Navegación del test'}">
-      <button type="button" class="secondary-btn reading-comp-nav-btn" data-reading-direction="prev" data-lesson-slug="${escapeHtml(lesson.slug)}" ${runtime.currentIndex === 0 ? 'disabled' : ''}>← ${french ? 'Précédente' : 'Anterior'}</button>
-      <div class="reading-comp-steps" role="tablist" aria-label="Questions">
-        ${visibleEntries.map(({ exerciseIndex }, index) => `<button type="button" class="reading-comp-step${index === runtime.currentIndex ? ' is-current' : ''}${runtime.results[exerciseIndex] ? (runtime.results[exerciseIndex].correct ? ' is-correct' : ' is-incorrect') : ''}" data-reading-question-index="${index}" data-lesson-slug="${escapeHtml(lesson.slug)}" aria-label="${french ? 'Question' : 'Pregunta'} ${index + 1}" aria-selected="${index === runtime.currentIndex}">${runtime.results[exerciseIndex] ? (runtime.results[exerciseIndex].correct ? '✓' : '×') : index + 1}</button>`).join('')}
-      </div>
-      <button type="button" class="primary-btn reading-comp-nav-btn" data-reading-direction="next" data-lesson-slug="${escapeHtml(lesson.slug)}" ${runtime.currentIndex >= total - 1 || !currentAnswered ? 'disabled' : ''}>${french ? 'Suivante' : 'Siguiente'} →</button>
-    </div>`;
 
   const allAnswered = answeredCount === total;
 
@@ -9798,17 +9783,12 @@ function renderReadingComprehensionQuiz(lesson, entries) {
         <div>
           <span class="reading-comp-kicker">${french ? 'Défi de compréhension' : 'Reto de comprensión'}</span>
           <strong>${answeredCount}/${total} ${french ? 'répondues' : 'respondidas'}</strong>
-          <small class="reading-comp-mobile-hint">${
-            french
-              ? 'Faites glisser pour répondre à une question à la fois.'
-              : 'Desliza para responder una pregunta a la vez.'
-          }</small>
+          <small class="reading-comp-mobile-hint">${french ? 'Répondez aux questions puis évaluez votre compréhension.' : 'Responde las preguntas y luego evalúa tu comprensión.'}</small>
         </div>
         <div class="reading-comp-progress" role="progressbar" aria-valuenow="${progressPercent}" aria-valuemin="0" aria-valuemax="100"><span style="width:${progressPercent}%"></span></div>
       </div>
       ${countControlsHtml}
       <div class="reading-comp-question-track">${questionsHtml}</div>
-      ${navigationHtml}
       <div class="reading-comp-actions">${actionsHtml}</div>
       ${errorHtml}
       ${resultHtml}
@@ -13653,7 +13633,7 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
     .toLocaleUpperCase();
 
   return `
-    <div class="vocab-card" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-vocab-word="${escapeHtml(`${item.targetWord} ${item.translation || ''} ${item.phonetic || ''}`.toLocaleLowerCase())}" data-vocab-category="${escapeHtml(item.category || '')}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-flipped="false" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" role="button" tabindex="0" aria-expanded="false" aria-label="${escapeHtml(vocabCardAriaLabel(item.targetWord, false, isFrench))}">
+    <div class="vocab-card vocab-card--static" data-index="${item._displayIndex}" data-card-id="${escapeHtml(item.id)}" data-vocab-word="${escapeHtml(`${item.targetWord} ${item.translation || ''} ${item.phonetic || ''}`.toLocaleLowerCase())}" data-vocab-category="${escapeHtml(item.category || '')}" data-mastery="${escapeHtml(item.masteryStatus)}" data-learning-mode="${escapeHtml(item.learningMode)}" data-static="true" data-is-french="${isFrench}" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="${escapeHtml(item.targetWord)}">
       <div class="vocab-card-inner">
         <div class="vocab-card-face vocab-card-front">
           <span class="vocab-card-compact-icon" aria-hidden="true">${escapeHtml(compactIconText || '•')}</span>
@@ -14200,7 +14180,7 @@ function getLevelVocabularyBank(lesson) {
       seen.add(key);
       return true;
     })
-    .slice(0, 120);
+    ;
 }
 
 function renderVocabularyLevelBankHtml(lesson, french) {
@@ -14626,6 +14606,7 @@ function speakTitle(isFrench) {
 document.addEventListener('keydown', (event) => {
   const card = event.target.closest?.('.vocab-card');
   if (!card) return;
+  if (card.dataset.static === 'true') return;
   if (event.target.closest('button')) return;
   if (event.key === 'Enter' || event.key === ' ') {
     event.preventDefault();
@@ -16881,7 +16862,6 @@ async function performLearningPathLoad(options = {}) {
     // should not prevent an online learner from opening the route.
     console.warn(error.message);
   }
-  if (learningPathState.language === 'german') ensureGermanA1A2CoreRoute();
   learningPathState.units = getUnitsForLanguageLevel(
     learningPathState.language,
     learningPathState.level
@@ -21139,6 +21119,7 @@ function enableHomepageActions() {
     // more specific control above.
     const vocabCardBody = event.target.closest('.vocab-card');
     if (vocabCardBody) {
+      if (vocabCardBody.dataset.static === 'true') return;
       const isFlipped = vocabCardBody.dataset.flipped === 'true';
       flipVocabCard(vocabCardBody, { toBack: !isFlipped, speak: !isFlipped });
       return;

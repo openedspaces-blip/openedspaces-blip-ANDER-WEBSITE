@@ -8,18 +8,33 @@
     "skills": {
       "listening": {
         "title": "Listening",
-        "text": ":",
-        "suggestions": []
+        "text": "Deutsch A1: eine Einladung verstehen und Uhrzeiten nennen",
+        "suggestions": [
+          "Wir lernen: Geburtstag.",
+          "Wir lernen: Einladung.",
+          "Wir lernen: feiern.",
+          "Wir lernen: Uhr."
+        ]
       },
       "speaking": {
         "title": "Speaking",
-        "text": ":",
-        "suggestions": []
+        "text": "Deutsch A1: eine Einladung verstehen und Uhrzeiten nennen",
+        "suggestions": [
+          "Wir lernen: Geburtstag.",
+          "Wir lernen: Einladung.",
+          "Wir lernen: feiern.",
+          "Wir lernen: Uhr."
+        ]
       },
       "writing": {
         "title": "Writing",
-        "text": ":",
-        "suggestions": []
+        "text": "Deutsch A1: eine Einladung verstehen und Uhrzeiten nennen",
+        "suggestions": [
+          "Wir lernen: Geburtstag.",
+          "Wir lernen: Einladung.",
+          "Wir lernen: feiern.",
+          "Wir lernen: Uhr."
+        ]
       }
     },
     "vocab": [
@@ -82,18 +97,33 @@
     "skills": {
       "listening": {
         "title": "Listening",
-        "text": ":",
-        "suggestions": []
+        "text": "Deutsch A2: Wohnungen vergleichen und Lage beschreiben",
+        "suggestions": [
+          "Wir lernen: Wohnung.",
+          "Wir lernen: Zimmer.",
+          "Wir lernen: Miete.",
+          "Wir lernen: suchen."
+        ]
       },
       "speaking": {
         "title": "Speaking",
-        "text": ":",
-        "suggestions": []
+        "text": "Deutsch A2: Wohnungen vergleichen und Lage beschreiben",
+        "suggestions": [
+          "Wir lernen: Wohnung.",
+          "Wir lernen: Zimmer.",
+          "Wir lernen: Miete.",
+          "Wir lernen: suchen."
+        ]
       },
       "writing": {
         "title": "Writing",
-        "text": ":",
-        "suggestions": []
+        "text": "Deutsch A2: Wohnungen vergleichen und Lage beschreiben",
+        "suggestions": [
+          "Wir lernen: Wohnung.",
+          "Wir lernen: Zimmer.",
+          "Wir lernen: Miete.",
+          "Wir lernen: suchen."
+        ]
       }
     },
     "vocab": [
@@ -156,18 +186,33 @@
     "skills": {
       "listening": {
         "title": "Listening",
-        "text": ":",
-        "suggestions": []
+        "text": "Deutsch B1: Vorschläge machen und gesellschaftliche Beteiligung begründen",
+        "suggestions": [
+          "Wir lernen: Gesellschaft.",
+          "Wir lernen: mitwirken.",
+          "Wir lernen: Recht.",
+          "Wir lernen: Vorschlag."
+        ]
       },
       "speaking": {
         "title": "Speaking",
-        "text": ":",
-        "suggestions": []
+        "text": "Deutsch B1: Vorschläge machen und gesellschaftliche Beteiligung begründen",
+        "suggestions": [
+          "Wir lernen: Gesellschaft.",
+          "Wir lernen: mitwirken.",
+          "Wir lernen: Recht.",
+          "Wir lernen: Vorschlag."
+        ]
       },
       "writing": {
         "title": "Writing",
-        "text": ":",
-        "suggestions": []
+        "text": "Deutsch B1: Vorschläge machen und gesellschaftliche Beteiligung begründen",
+        "suggestions": [
+          "Wir lernen: Gesellschaft.",
+          "Wir lernen: mitwirken.",
+          "Wir lernen: Recht.",
+          "Wir lernen: Vorschlag."
+        ]
       }
     },
     "vocab": [
@@ -961,10 +1006,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Begrüßung und Name: Grammatik",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "name": "sein, haben und Personalpronomen",
+        "definition": "Práctica guiada de sein, haben und Personalpronomen.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -1225,10 +1270,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Alltag und Termine: Grammatik",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "name": "Perfekt und Zeitangaben",
+        "definition": "Práctica guiada de Perfekt und Zeitangaben.",
         "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -1489,10 +1534,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Arbeit und Ziele: Grammatik",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "name": "Konjunktiv II für Wünsche",
+        "definition": "Práctica guiada de Konjunktiv II für Wünsche.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -1672,6 +1717,666 @@
           "Ich finde den Vorschlag sinnvoll."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-begrussung-und-name-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "begrussung-und-name",
+    "title": "Begrüßung und Name: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 11,
+    "estimatedMinutes": 10,
+    "description": "sich begrüßen und vorstellen",
+    "intro": "sich begrüßen und vorstellen",
+    "mission": "sich begrüßen und vorstellen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Hallo.",
+      "Wir lernen: Name.",
+      "Wir lernen: Land.",
+      "Wir lernen: Sprache."
+    ],
+    "vocabulary": [
+      {
+        "word": "Hallo",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Hallo“ im Kontext."
+      },
+      {
+        "word": "Name",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Name“ im Kontext."
+      },
+      {
+        "word": "Land",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Land“ im Kontext."
+      },
+      {
+        "word": "Sprache",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Sprache“ im Kontext."
+      },
+      {
+        "word": "wohnen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „wohnen“ im Kontext."
+      },
+      {
+        "word": "heißen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „heißen“ im Kontext."
+      },
+      {
+        "word": "lernen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „lernen“ im Kontext."
+      },
+      {
+        "word": "danke",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „danke“ im Kontext."
+      },
+      {
+        "word": "bitte",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „bitte“ im Kontext."
+      },
+      {
+        "word": "Freund",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Freund“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a1-begrussung-und-name-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Begrüßung und Name: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der…», what happens next in «Begrüßung und Name: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Begrüßung und Name: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Begrüßung und Name: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Begrüßung und Name: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der…», what happens next in «Begrüßung und Name: Wortschatz»?",
+        "options": [
+          "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Begrüßung und Name: Wortschatz»?",
+        "options": [
+          "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Begrüßung und Name: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Begrüßung und Name“ spricht eine kleine Gruppe aus der Gemeinschaft über Hallo, Name und Land.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-alltag-und-termine-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "alltag-und-termine",
+    "title": "Alltag und Termine: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 11,
+    "estimatedMinutes": 10,
+    "description": "Termine vereinbaren und Gewohnheiten erklären",
+    "intro": "Termine vereinbaren und Gewohnheiten erklären",
+    "mission": "Termine vereinbaren und Gewohnheiten erklären",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Termin.",
+      "Wir lernen: Kalender.",
+      "Wir lernen: früher.",
+      "Wir lernen: später."
+    ],
+    "vocabulary": [
+      {
+        "word": "Termin",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Termin“ im Kontext."
+      },
+      {
+        "word": "Kalender",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Kalender“ im Kontext."
+      },
+      {
+        "word": "früher",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „früher“ im Kontext."
+      },
+      {
+        "word": "später",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „später“ im Kontext."
+      },
+      {
+        "word": "meistens",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „meistens“ im Kontext."
+      },
+      {
+        "word": "treffen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „treffen“ im Kontext."
+      },
+      {
+        "word": "verschieben",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „verschieben“ im Kontext."
+      },
+      {
+        "word": "planen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „planen“ im Kontext."
+      },
+      {
+        "word": "Woche",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Woche“ im Kontext."
+      },
+      {
+        "word": "pünktlich",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „pünktlich“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a2-alltag-und-termine-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Alltag und Termine: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der…», what happens next in «Alltag und Termine: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Alltag und Termine: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Alltag und Termine: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Alltag und Termine: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der…», what happens next in «Alltag und Termine: Wortschatz»?",
+        "options": [
+          "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Alltag und Termine: Wortschatz»?",
+        "options": [
+          "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Alltag und Termine: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Alltag und Termine“ spricht eine kleine Gruppe aus der Gemeinschaft über Termin, Kalender und früher.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-arbeit-und-ziele-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "arbeit-und-ziele",
+    "title": "Arbeit und Ziele: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 11,
+    "estimatedMinutes": 10,
+    "description": "Zeit organisieren und Lösungen vorschlagen",
+    "intro": "Zeit organisieren und Lösungen vorschlagen",
+    "mission": "Zeit organisieren und Lösungen vorschlagen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Ziel.",
+      "Wir lernen: Frist.",
+      "Wir lernen: Team.",
+      "Wir lernen: verbessern."
+    ],
+    "vocabulary": [
+      {
+        "word": "Ziel",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Ziel“ im Kontext."
+      },
+      {
+        "word": "Frist",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Frist“ im Kontext."
+      },
+      {
+        "word": "Team",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Team“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "wählen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „wählen“ im Kontext."
+      },
+      {
+        "word": "Ergebnis",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
+      },
+      {
+        "word": "Verantwortung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
+      },
+      {
+        "word": "Vorschlag",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
+      },
+      {
+        "word": "Gewohnheit",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
+      },
+      {
+        "word": "Vertrauen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-b1-arbeit-und-ziele-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Arbeit und Ziele: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der…» in «Arbeit und Ziele: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Arbeit und Ziele: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Arbeit und Ziele: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Arbeit und Ziele: Wortschatz»?",
+        "options": [
+          "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der…» in «Arbeit und Ziele: Wortschatz»?",
+        "options": [
+          "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Arbeit und Ziele: Wortschatz»?",
+        "options": [
+          "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Arbeit und Ziele: Wortschatz»?",
+        "options": [
+          "Im Thema „Arbeit und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Frist und Team.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
       }
     ]
   },
@@ -2522,6 +3227,537 @@
     ]
   },
   {
+    "slug": "german-a1-begrussung-und-name-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "begrussung-und-name",
+    "title": "Begrüßung und Name: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 12,
+    "estimatedMinutes": 10,
+    "description": "sich begrüßen und vorstellen",
+    "intro": "sich begrüßen und vorstellen",
+    "mission": "sich begrüßen und vorstellen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Hallo.",
+      "Wir lernen: Name.",
+      "Wir lernen: Land.",
+      "Wir lernen: Sprache."
+    ],
+    "vocabulary": [
+      {
+        "word": "Hallo",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Hallo“ im Kontext."
+      },
+      {
+        "word": "Name",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Name“ im Kontext."
+      },
+      {
+        "word": "Land",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Land“ im Kontext."
+      },
+      {
+        "word": "Sprache",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Sprache“ im Kontext."
+      },
+      {
+        "word": "wohnen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „wohnen“ im Kontext."
+      },
+      {
+        "word": "heißen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „heißen“ im Kontext."
+      },
+      {
+        "word": "lernen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „lernen“ im Kontext."
+      },
+      {
+        "word": "danke",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „danke“ im Kontext."
+      },
+      {
+        "word": "bitte",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „bitte“ im Kontext."
+      },
+      {
+        "word": "Freund",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Freund“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte sich begrüßen und vorstellen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-alltag-und-termine-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "alltag-und-termine",
+    "title": "Alltag und Termine: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 12,
+    "estimatedMinutes": 10,
+    "description": "Termine vereinbaren und Gewohnheiten erklären",
+    "intro": "Termine vereinbaren und Gewohnheiten erklären",
+    "mission": "Termine vereinbaren und Gewohnheiten erklären",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Termin.",
+      "Wir lernen: Kalender.",
+      "Wir lernen: früher.",
+      "Wir lernen: später."
+    ],
+    "vocabulary": [
+      {
+        "word": "Termin",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Termin“ im Kontext."
+      },
+      {
+        "word": "Kalender",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Kalender“ im Kontext."
+      },
+      {
+        "word": "früher",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „früher“ im Kontext."
+      },
+      {
+        "word": "später",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „später“ im Kontext."
+      },
+      {
+        "word": "meistens",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „meistens“ im Kontext."
+      },
+      {
+        "word": "treffen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „treffen“ im Kontext."
+      },
+      {
+        "word": "verschieben",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „verschieben“ im Kontext."
+      },
+      {
+        "word": "planen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „planen“ im Kontext."
+      },
+      {
+        "word": "Woche",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Woche“ im Kontext."
+      },
+      {
+        "word": "pünktlich",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „pünktlich“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Termine vereinbaren und Gewohnheiten erklären. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-arbeit-und-ziele-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "arbeit-und-ziele",
+    "title": "Arbeit und Ziele: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 12,
+    "estimatedMinutes": 10,
+    "description": "Zeit organisieren und Lösungen vorschlagen",
+    "intro": "Zeit organisieren und Lösungen vorschlagen",
+    "mission": "Zeit organisieren und Lösungen vorschlagen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Ziel.",
+      "Wir lernen: Frist.",
+      "Wir lernen: Team.",
+      "Wir lernen: verbessern."
+    ],
+    "vocabulary": [
+      {
+        "word": "Ziel",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Ziel“ im Kontext."
+      },
+      {
+        "word": "Frist",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Frist“ im Kontext."
+      },
+      {
+        "word": "Team",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Team“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "wählen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „wählen“ im Kontext."
+      },
+      {
+        "word": "Ergebnis",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
+      },
+      {
+        "word": "Verantwortung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
+      },
+      {
+        "word": "Vorschlag",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
+      },
+      {
+        "word": "Gewohnheit",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
+      },
+      {
+        "word": "Vertrauen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Zeit organisieren und Lösungen vorschlagen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-begrussung-und-name-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "begrussung-und-name",
+    "title": "Begrüßung und Name: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 15,
+    "estimatedMinutes": 10,
+    "description": "sich begrüßen und vorstellen",
+    "intro": "sich begrüßen und vorstellen",
+    "mission": "sich begrüßen und vorstellen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Hallo.",
+      "Wir lernen: Name.",
+      "Wir lernen: Land.",
+      "Wir lernen: Sprache."
+    ],
+    "vocabulary": [
+      {
+        "word": "Hallo",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Hallo“ im Kontext."
+      },
+      {
+        "word": "Name",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Name“ im Kontext."
+      },
+      {
+        "word": "Land",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Land“ im Kontext."
+      },
+      {
+        "word": "Sprache",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Sprache“ im Kontext."
+      },
+      {
+        "word": "wohnen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „wohnen“ im Kontext."
+      },
+      {
+        "word": "heißen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „heißen“ im Kontext."
+      },
+      {
+        "word": "lernen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „lernen“ im Kontext."
+      },
+      {
+        "word": "danke",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „danke“ im Kontext."
+      },
+      {
+        "word": "bitte",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „bitte“ im Kontext."
+      },
+      {
+        "word": "Freund",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Freund“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: sich begrüßen und vorstellen."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-alltag-und-termine-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "alltag-und-termine",
+    "title": "Alltag und Termine: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 15,
+    "estimatedMinutes": 10,
+    "description": "Termine vereinbaren und Gewohnheiten erklären",
+    "intro": "Termine vereinbaren und Gewohnheiten erklären",
+    "mission": "Termine vereinbaren und Gewohnheiten erklären",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Termin.",
+      "Wir lernen: Kalender.",
+      "Wir lernen: früher.",
+      "Wir lernen: später."
+    ],
+    "vocabulary": [
+      {
+        "word": "Termin",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Termin“ im Kontext."
+      },
+      {
+        "word": "Kalender",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Kalender“ im Kontext."
+      },
+      {
+        "word": "früher",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „früher“ im Kontext."
+      },
+      {
+        "word": "später",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „später“ im Kontext."
+      },
+      {
+        "word": "meistens",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „meistens“ im Kontext."
+      },
+      {
+        "word": "treffen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „treffen“ im Kontext."
+      },
+      {
+        "word": "verschieben",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „verschieben“ im Kontext."
+      },
+      {
+        "word": "planen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „planen“ im Kontext."
+      },
+      {
+        "word": "Woche",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Woche“ im Kontext."
+      },
+      {
+        "word": "pünktlich",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „pünktlich“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Termine vereinbaren und Gewohnheiten erklären."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-arbeit-und-ziele-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "arbeit-und-ziele",
+    "title": "Arbeit und Ziele: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 15,
+    "estimatedMinutes": 10,
+    "description": "Zeit organisieren und Lösungen vorschlagen",
+    "intro": "Zeit organisieren und Lösungen vorschlagen",
+    "mission": "Zeit organisieren und Lösungen vorschlagen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Ziel.",
+      "Wir lernen: Frist.",
+      "Wir lernen: Team.",
+      "Wir lernen: verbessern."
+    ],
+    "vocabulary": [
+      {
+        "word": "Ziel",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Ziel“ im Kontext."
+      },
+      {
+        "word": "Frist",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Frist“ im Kontext."
+      },
+      {
+        "word": "Team",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Team“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "wählen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „wählen“ im Kontext."
+      },
+      {
+        "word": "Ergebnis",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
+      },
+      {
+        "word": "Verantwortung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
+      },
+      {
+        "word": "Vorschlag",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
+      },
+      {
+        "word": "Gewohnheit",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
+      },
+      {
+        "word": "Vertrauen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Zeit organisieren und Lösungen vorschlagen."
+      }
+    ]
+  },
+  {
     "slug": "german-a1-im-cafe-reading",
     "level": "A1",
     "skill": "reading",
@@ -3024,10 +4260,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Im Café: Grammatik",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "name": "möchten, bestellen und Akkusativ",
+        "definition": "Práctica guiada de möchten, bestellen und Akkusativ.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -3288,10 +4524,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Wohnen und Nachbarschaft: Grammatik",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "name": "Wechselpräpositionen",
+        "definition": "Práctica guiada de Wechselpräpositionen.",
         "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -3552,10 +4788,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Bewusst reisen: Grammatik",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "name": "Relativsätze",
+        "definition": "Práctica guiada de Relativsätze.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -3735,6 +4971,666 @@
           "Ich finde den Vorschlag sinnvoll."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-im-cafe-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "im-cafe",
+    "title": "Im Café: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 21,
+    "estimatedMinutes": 10,
+    "description": "etwas bestellen und bezahlen",
+    "intro": "etwas bestellen und bezahlen",
+    "mission": "etwas bestellen und bezahlen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Kaffee.",
+      "Wir lernen: Tee.",
+      "Wir lernen: Wasser.",
+      "Wir lernen: Brot."
+    ],
+    "vocabulary": [
+      {
+        "word": "Kaffee",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Kaffee“ im Kontext."
+      },
+      {
+        "word": "Tee",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Tee“ im Kontext."
+      },
+      {
+        "word": "Wasser",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Wasser“ im Kontext."
+      },
+      {
+        "word": "Brot",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Brot“ im Kontext."
+      },
+      {
+        "word": "bitte",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „bitte“ im Kontext."
+      },
+      {
+        "word": "möchten",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „möchten“ im Kontext."
+      },
+      {
+        "word": "zahlen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „zahlen“ im Kontext."
+      },
+      {
+        "word": "Tisch",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Tisch“ im Kontext."
+      },
+      {
+        "word": "lecker",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „lecker“ im Kontext."
+      },
+      {
+        "word": "Rechnung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Rechnung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a1-im-cafe-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Im Café: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Im Café: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Im Café: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Im Café: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Im Café: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Im Café: Wortschatz»?",
+        "options": [
+          "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Im Café: Wortschatz»?",
+        "options": [
+          "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Im Café: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Im Café“ spricht eine kleine Gruppe aus der Gemeinschaft über Kaffee, Tee und Wasser.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-wohnen-und-nachbarschaft-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "wohnen-und-nachbarschaft",
+    "title": "Wohnen und Nachbarschaft: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 21,
+    "estimatedMinutes": 10,
+    "description": "Wohnung und Nachbarschaft vergleichen",
+    "intro": "Wohnung und Nachbarschaft vergleichen",
+    "mission": "Wohnung und Nachbarschaft vergleichen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Wohnung.",
+      "Wir lernen: Nachbar.",
+      "Wir lernen: umziehen.",
+      "Wir lernen: Miete."
+    ],
+    "vocabulary": [
+      {
+        "word": "Wohnung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Wohnung“ im Kontext."
+      },
+      {
+        "word": "Nachbar",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Nachbar“ im Kontext."
+      },
+      {
+        "word": "umziehen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „umziehen“ im Kontext."
+      },
+      {
+        "word": "Miete",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Miete“ im Kontext."
+      },
+      {
+        "word": "ruhig",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „ruhig“ im Kontext."
+      },
+      {
+        "word": "laut",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „laut“ im Kontext."
+      },
+      {
+        "word": "suchen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „suchen“ im Kontext."
+      },
+      {
+        "word": "erklären",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „erklären“ im Kontext."
+      },
+      {
+        "word": "Vorteil",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Vorteil“ im Kontext."
+      },
+      {
+        "word": "gemeinsam",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a2-wohnen-und-nachbarschaft-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Wohnen und Nachbarschaft: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der…», what happens next in «Wohnen und Nachbarschaft: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Wohnen und Nachbarschaft: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Wohnen und Nachbarschaft: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Wohnen und Nachbarschaft: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der…», what happens next in «Wohnen und Nachbarschaft: Wortschatz»?",
+        "options": [
+          "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Wohnen und Nachbarschaft: Wortschatz»?",
+        "options": [
+          "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Wohnen und Nachbarschaft: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Wohnen und Nachbarschaft“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Nachbar und umziehen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-bewusst-reisen-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "bewusst-reisen",
+    "title": "Bewusst reisen: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 21,
+    "estimatedMinutes": 10,
+    "description": "eine Reise erzählen und verantwortungsvoll beraten",
+    "intro": "eine Reise erzählen und verantwortungsvoll beraten",
+    "mission": "eine Reise erzählen und verantwortungsvoll beraten",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Reiseplan.",
+      "Wir lernen: Buchung.",
+      "Wir lernen: Landschaft.",
+      "Wir lernen: vermeiden."
+    ],
+    "vocabulary": [
+      {
+        "word": "Reiseplan",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Reiseplan“ im Kontext."
+      },
+      {
+        "word": "Buchung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Buchung“ im Kontext."
+      },
+      {
+        "word": "Landschaft",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Landschaft“ im Kontext."
+      },
+      {
+        "word": "vermeiden",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „vermeiden“ im Kontext."
+      },
+      {
+        "word": "empfehlen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „empfehlen“ im Kontext."
+      },
+      {
+        "word": "Erfahrung",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
+      },
+      {
+        "word": "gastfreundlich",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „gastfreundlich“ im Kontext."
+      },
+      {
+        "word": "Verkehr",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Verkehr“ im Kontext."
+      },
+      {
+        "word": "nachhaltig",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „nachhaltig“ im Kontext."
+      },
+      {
+        "word": "Erinnerung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-b1-bewusst-reisen-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Bewusst reisen: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der…» in «Bewusst reisen: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Bewusst reisen: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Bewusst reisen: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Bewusst reisen: Wortschatz»?",
+        "options": [
+          "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der…» in «Bewusst reisen: Wortschatz»?",
+        "options": [
+          "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Bewusst reisen: Wortschatz»?",
+        "options": [
+          "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Bewusst reisen: Wortschatz»?",
+        "options": [
+          "Im Thema „Bewusst reisen“ spricht eine kleine Gruppe aus der Gemeinschaft über Reiseplan, Buchung und Landschaft.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
       }
     ]
   },
@@ -4585,6 +6481,537 @@
     ]
   },
   {
+    "slug": "german-a1-im-cafe-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "im-cafe",
+    "title": "Im Café: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 22,
+    "estimatedMinutes": 10,
+    "description": "etwas bestellen und bezahlen",
+    "intro": "etwas bestellen und bezahlen",
+    "mission": "etwas bestellen und bezahlen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Kaffee.",
+      "Wir lernen: Tee.",
+      "Wir lernen: Wasser.",
+      "Wir lernen: Brot."
+    ],
+    "vocabulary": [
+      {
+        "word": "Kaffee",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Kaffee“ im Kontext."
+      },
+      {
+        "word": "Tee",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Tee“ im Kontext."
+      },
+      {
+        "word": "Wasser",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Wasser“ im Kontext."
+      },
+      {
+        "word": "Brot",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Brot“ im Kontext."
+      },
+      {
+        "word": "bitte",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „bitte“ im Kontext."
+      },
+      {
+        "word": "möchten",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „möchten“ im Kontext."
+      },
+      {
+        "word": "zahlen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „zahlen“ im Kontext."
+      },
+      {
+        "word": "Tisch",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Tisch“ im Kontext."
+      },
+      {
+        "word": "lecker",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „lecker“ im Kontext."
+      },
+      {
+        "word": "Rechnung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Rechnung“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte etwas bestellen und bezahlen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-wohnen-und-nachbarschaft-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "wohnen-und-nachbarschaft",
+    "title": "Wohnen und Nachbarschaft: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 22,
+    "estimatedMinutes": 10,
+    "description": "Wohnung und Nachbarschaft vergleichen",
+    "intro": "Wohnung und Nachbarschaft vergleichen",
+    "mission": "Wohnung und Nachbarschaft vergleichen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Wohnung.",
+      "Wir lernen: Nachbar.",
+      "Wir lernen: umziehen.",
+      "Wir lernen: Miete."
+    ],
+    "vocabulary": [
+      {
+        "word": "Wohnung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Wohnung“ im Kontext."
+      },
+      {
+        "word": "Nachbar",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Nachbar“ im Kontext."
+      },
+      {
+        "word": "umziehen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „umziehen“ im Kontext."
+      },
+      {
+        "word": "Miete",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Miete“ im Kontext."
+      },
+      {
+        "word": "ruhig",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „ruhig“ im Kontext."
+      },
+      {
+        "word": "laut",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „laut“ im Kontext."
+      },
+      {
+        "word": "suchen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „suchen“ im Kontext."
+      },
+      {
+        "word": "erklären",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „erklären“ im Kontext."
+      },
+      {
+        "word": "Vorteil",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Vorteil“ im Kontext."
+      },
+      {
+        "word": "gemeinsam",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Wohnung und Nachbarschaft vergleichen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-bewusst-reisen-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "bewusst-reisen",
+    "title": "Bewusst reisen: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 22,
+    "estimatedMinutes": 10,
+    "description": "eine Reise erzählen und verantwortungsvoll beraten",
+    "intro": "eine Reise erzählen und verantwortungsvoll beraten",
+    "mission": "eine Reise erzählen und verantwortungsvoll beraten",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Reiseplan.",
+      "Wir lernen: Buchung.",
+      "Wir lernen: Landschaft.",
+      "Wir lernen: vermeiden."
+    ],
+    "vocabulary": [
+      {
+        "word": "Reiseplan",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Reiseplan“ im Kontext."
+      },
+      {
+        "word": "Buchung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Buchung“ im Kontext."
+      },
+      {
+        "word": "Landschaft",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Landschaft“ im Kontext."
+      },
+      {
+        "word": "vermeiden",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „vermeiden“ im Kontext."
+      },
+      {
+        "word": "empfehlen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „empfehlen“ im Kontext."
+      },
+      {
+        "word": "Erfahrung",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
+      },
+      {
+        "word": "gastfreundlich",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „gastfreundlich“ im Kontext."
+      },
+      {
+        "word": "Verkehr",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Verkehr“ im Kontext."
+      },
+      {
+        "word": "nachhaltig",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „nachhaltig“ im Kontext."
+      },
+      {
+        "word": "Erinnerung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte eine Reise erzählen und verantwortungsvoll beraten. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-im-cafe-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "im-cafe",
+    "title": "Im Café: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 25,
+    "estimatedMinutes": 10,
+    "description": "etwas bestellen und bezahlen",
+    "intro": "etwas bestellen und bezahlen",
+    "mission": "etwas bestellen und bezahlen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Kaffee.",
+      "Wir lernen: Tee.",
+      "Wir lernen: Wasser.",
+      "Wir lernen: Brot."
+    ],
+    "vocabulary": [
+      {
+        "word": "Kaffee",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Kaffee“ im Kontext."
+      },
+      {
+        "word": "Tee",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Tee“ im Kontext."
+      },
+      {
+        "word": "Wasser",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Wasser“ im Kontext."
+      },
+      {
+        "word": "Brot",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Brot“ im Kontext."
+      },
+      {
+        "word": "bitte",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „bitte“ im Kontext."
+      },
+      {
+        "word": "möchten",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „möchten“ im Kontext."
+      },
+      {
+        "word": "zahlen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „zahlen“ im Kontext."
+      },
+      {
+        "word": "Tisch",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Tisch“ im Kontext."
+      },
+      {
+        "word": "lecker",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „lecker“ im Kontext."
+      },
+      {
+        "word": "Rechnung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Rechnung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: etwas bestellen und bezahlen."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-wohnen-und-nachbarschaft-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "wohnen-und-nachbarschaft",
+    "title": "Wohnen und Nachbarschaft: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 25,
+    "estimatedMinutes": 10,
+    "description": "Wohnung und Nachbarschaft vergleichen",
+    "intro": "Wohnung und Nachbarschaft vergleichen",
+    "mission": "Wohnung und Nachbarschaft vergleichen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Wohnung.",
+      "Wir lernen: Nachbar.",
+      "Wir lernen: umziehen.",
+      "Wir lernen: Miete."
+    ],
+    "vocabulary": [
+      {
+        "word": "Wohnung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Wohnung“ im Kontext."
+      },
+      {
+        "word": "Nachbar",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Nachbar“ im Kontext."
+      },
+      {
+        "word": "umziehen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „umziehen“ im Kontext."
+      },
+      {
+        "word": "Miete",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Miete“ im Kontext."
+      },
+      {
+        "word": "ruhig",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „ruhig“ im Kontext."
+      },
+      {
+        "word": "laut",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „laut“ im Kontext."
+      },
+      {
+        "word": "suchen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „suchen“ im Kontext."
+      },
+      {
+        "word": "erklären",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „erklären“ im Kontext."
+      },
+      {
+        "word": "Vorteil",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Vorteil“ im Kontext."
+      },
+      {
+        "word": "gemeinsam",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Wohnung und Nachbarschaft vergleichen."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-bewusst-reisen-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "bewusst-reisen",
+    "title": "Bewusst reisen: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 25,
+    "estimatedMinutes": 10,
+    "description": "eine Reise erzählen und verantwortungsvoll beraten",
+    "intro": "eine Reise erzählen und verantwortungsvoll beraten",
+    "mission": "eine Reise erzählen und verantwortungsvoll beraten",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Reiseplan.",
+      "Wir lernen: Buchung.",
+      "Wir lernen: Landschaft.",
+      "Wir lernen: vermeiden."
+    ],
+    "vocabulary": [
+      {
+        "word": "Reiseplan",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Reiseplan“ im Kontext."
+      },
+      {
+        "word": "Buchung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Buchung“ im Kontext."
+      },
+      {
+        "word": "Landschaft",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Landschaft“ im Kontext."
+      },
+      {
+        "word": "vermeiden",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „vermeiden“ im Kontext."
+      },
+      {
+        "word": "empfehlen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „empfehlen“ im Kontext."
+      },
+      {
+        "word": "Erfahrung",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
+      },
+      {
+        "word": "gastfreundlich",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „gastfreundlich“ im Kontext."
+      },
+      {
+        "word": "Verkehr",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Verkehr“ im Kontext."
+      },
+      {
+        "word": "nachhaltig",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „nachhaltig“ im Kontext."
+      },
+      {
+        "word": "Erinnerung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: eine Reise erzählen und verantwortungsvoll beraten."
+      }
+    ]
+  },
+  {
     "slug": "german-a1-familie-und-haus-reading",
     "level": "A1",
     "skill": "reading",
@@ -5087,10 +7514,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Familie und Haus: Grammatik",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "name": "Possessivartikel und Plural",
+        "definition": "Práctica guiada de Possessivartikel und Plural.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -5351,10 +7778,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Gesundheit: Grammatik",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "name": "Modalverben im Präteritum",
+        "definition": "Práctica guiada de Modalverben im Präteritum.",
         "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -5615,10 +8042,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Gesundheit und Balance: Grammatik",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "name": "Passiv im Präsens",
+        "definition": "Práctica guiada de Passiv im Präsens.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -5798,6 +8225,666 @@
           "Ich finde den Vorschlag sinnvoll."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-familie-und-haus-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "familie-und-haus",
+    "title": "Familie und Haus: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 31,
+    "estimatedMinutes": 10,
+    "description": "Familie und Zuhause beschreiben",
+    "intro": "Familie und Zuhause beschreiben",
+    "mission": "Familie und Zuhause beschreiben",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Familie.",
+      "Wir lernen: Mutter.",
+      "Wir lernen: Vater.",
+      "Wir lernen: Bruder."
+    ],
+    "vocabulary": [
+      {
+        "word": "Familie",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Familie“ im Kontext."
+      },
+      {
+        "word": "Mutter",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Mutter“ im Kontext."
+      },
+      {
+        "word": "Vater",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Vater“ im Kontext."
+      },
+      {
+        "word": "Bruder",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Bruder“ im Kontext."
+      },
+      {
+        "word": "Zimmer",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Zimmer“ im Kontext."
+      },
+      {
+        "word": "Küche",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Küche“ im Kontext."
+      },
+      {
+        "word": "wohnen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „wohnen“ im Kontext."
+      },
+      {
+        "word": "klein",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „klein“ im Kontext."
+      },
+      {
+        "word": "groß",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „groß“ im Kontext."
+      },
+      {
+        "word": "zusammen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „zusammen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a1-familie-und-haus-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Familie und Haus: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der…», what happens next in «Familie und Haus: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Familie und Haus: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Familie und Haus: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Familie und Haus: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der…», what happens next in «Familie und Haus: Wortschatz»?",
+        "options": [
+          "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Familie und Haus: Wortschatz»?",
+        "options": [
+          "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Familie und Haus: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Familie und Haus“ spricht eine kleine Gruppe aus der Gemeinschaft über Familie, Mutter und Vater.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-gesundheit-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "gesundheit",
+    "title": "Gesundheit: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 31,
+    "estimatedMinutes": 10,
+    "description": "über Beschwerden und Ratschläge sprechen",
+    "intro": "über Beschwerden und Ratschläge sprechen",
+    "mission": "über Beschwerden und Ratschläge sprechen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Gesundheit.",
+      "Wir lernen: Arzt.",
+      "Wir lernen: Schmerz.",
+      "Wir lernen: ausruhen."
+    ],
+    "vocabulary": [
+      {
+        "word": "Gesundheit",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Gesundheit“ im Kontext."
+      },
+      {
+        "word": "Arzt",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Arzt“ im Kontext."
+      },
+      {
+        "word": "Schmerz",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Schmerz“ im Kontext."
+      },
+      {
+        "word": "ausruhen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „ausruhen“ im Kontext."
+      },
+      {
+        "word": "Medikament",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Medikament“ im Kontext."
+      },
+      {
+        "word": "gesund",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „gesund“ im Kontext."
+      },
+      {
+        "word": "regelmäßig",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „regelmäßig“ im Kontext."
+      },
+      {
+        "word": "Rat",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Rat“ im Kontext."
+      },
+      {
+        "word": "besser",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „besser“ im Kontext."
+      },
+      {
+        "word": "Termin",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Termin“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a2-gesundheit-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Gesundheit: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Gesundheit: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Gesundheit: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Gesundheit: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Gesundheit: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Gesundheit: Wortschatz»?",
+        "options": [
+          "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Gesundheit: Wortschatz»?",
+        "options": [
+          "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Gesundheit: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Gesundheit“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesundheit, Arzt und Schmerz.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-gesundheit-und-balance-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "gesundheit-und-balance",
+    "title": "Gesundheit und Balance: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 31,
+    "estimatedMinutes": 10,
+    "description": "Gewohnheiten und persönliche Veränderungen erklären",
+    "intro": "Gewohnheiten und persönliche Veränderungen erklären",
+    "mission": "Gewohnheiten und persönliche Veränderungen erklären",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Wohlbefinden.",
+      "Wir lernen: Erholung.",
+      "Wir lernen: Bewegung.",
+      "Wir lernen: Gleichgewicht."
+    ],
+    "vocabulary": [
+      {
+        "word": "Wohlbefinden",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Wohlbefinden“ im Kontext."
+      },
+      {
+        "word": "Erholung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Erholung“ im Kontext."
+      },
+      {
+        "word": "Bewegung",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Bewegung“ im Kontext."
+      },
+      {
+        "word": "Gleichgewicht",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "vorbeugen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „vorbeugen“ im Kontext."
+      },
+      {
+        "word": "Gewohnheit",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
+      },
+      {
+        "word": "Energie",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Energie“ im Kontext."
+      },
+      {
+        "word": "Rat",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Rat“ im Kontext."
+      },
+      {
+        "word": "Entscheidung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Entscheidung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-b1-gesundheit-und-balance-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Gesundheit und Balance: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der…» in «Gesundheit und Balance: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Gesundheit und Balance: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Gesundheit und Balance: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Gesundheit und Balance: Wortschatz»?",
+        "options": [
+          "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der…» in «Gesundheit und Balance: Wortschatz»?",
+        "options": [
+          "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Gesundheit und Balance: Wortschatz»?",
+        "options": [
+          "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Gesundheit und Balance: Wortschatz»?",
+        "options": [
+          "Im Thema „Gesundheit und Balance“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohlbefinden, Erholung und Bewegung.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
       }
     ]
   },
@@ -6648,6 +9735,537 @@
     ]
   },
   {
+    "slug": "german-a1-familie-und-haus-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "familie-und-haus",
+    "title": "Familie und Haus: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 32,
+    "estimatedMinutes": 10,
+    "description": "Familie und Zuhause beschreiben",
+    "intro": "Familie und Zuhause beschreiben",
+    "mission": "Familie und Zuhause beschreiben",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Familie.",
+      "Wir lernen: Mutter.",
+      "Wir lernen: Vater.",
+      "Wir lernen: Bruder."
+    ],
+    "vocabulary": [
+      {
+        "word": "Familie",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Familie“ im Kontext."
+      },
+      {
+        "word": "Mutter",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Mutter“ im Kontext."
+      },
+      {
+        "word": "Vater",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Vater“ im Kontext."
+      },
+      {
+        "word": "Bruder",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Bruder“ im Kontext."
+      },
+      {
+        "word": "Zimmer",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Zimmer“ im Kontext."
+      },
+      {
+        "word": "Küche",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Küche“ im Kontext."
+      },
+      {
+        "word": "wohnen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „wohnen“ im Kontext."
+      },
+      {
+        "word": "klein",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „klein“ im Kontext."
+      },
+      {
+        "word": "groß",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „groß“ im Kontext."
+      },
+      {
+        "word": "zusammen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „zusammen“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Familie und Zuhause beschreiben. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-gesundheit-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "gesundheit",
+    "title": "Gesundheit: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 32,
+    "estimatedMinutes": 10,
+    "description": "über Beschwerden und Ratschläge sprechen",
+    "intro": "über Beschwerden und Ratschläge sprechen",
+    "mission": "über Beschwerden und Ratschläge sprechen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Gesundheit.",
+      "Wir lernen: Arzt.",
+      "Wir lernen: Schmerz.",
+      "Wir lernen: ausruhen."
+    ],
+    "vocabulary": [
+      {
+        "word": "Gesundheit",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Gesundheit“ im Kontext."
+      },
+      {
+        "word": "Arzt",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Arzt“ im Kontext."
+      },
+      {
+        "word": "Schmerz",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Schmerz“ im Kontext."
+      },
+      {
+        "word": "ausruhen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „ausruhen“ im Kontext."
+      },
+      {
+        "word": "Medikament",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Medikament“ im Kontext."
+      },
+      {
+        "word": "gesund",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „gesund“ im Kontext."
+      },
+      {
+        "word": "regelmäßig",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „regelmäßig“ im Kontext."
+      },
+      {
+        "word": "Rat",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Rat“ im Kontext."
+      },
+      {
+        "word": "besser",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „besser“ im Kontext."
+      },
+      {
+        "word": "Termin",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Termin“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte über Beschwerden und Ratschläge sprechen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-gesundheit-und-balance-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "gesundheit-und-balance",
+    "title": "Gesundheit und Balance: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 32,
+    "estimatedMinutes": 10,
+    "description": "Gewohnheiten und persönliche Veränderungen erklären",
+    "intro": "Gewohnheiten und persönliche Veränderungen erklären",
+    "mission": "Gewohnheiten und persönliche Veränderungen erklären",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Wohlbefinden.",
+      "Wir lernen: Erholung.",
+      "Wir lernen: Bewegung.",
+      "Wir lernen: Gleichgewicht."
+    ],
+    "vocabulary": [
+      {
+        "word": "Wohlbefinden",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Wohlbefinden“ im Kontext."
+      },
+      {
+        "word": "Erholung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Erholung“ im Kontext."
+      },
+      {
+        "word": "Bewegung",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Bewegung“ im Kontext."
+      },
+      {
+        "word": "Gleichgewicht",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "vorbeugen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „vorbeugen“ im Kontext."
+      },
+      {
+        "word": "Gewohnheit",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
+      },
+      {
+        "word": "Energie",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Energie“ im Kontext."
+      },
+      {
+        "word": "Rat",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Rat“ im Kontext."
+      },
+      {
+        "word": "Entscheidung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Entscheidung“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Gewohnheiten und persönliche Veränderungen erklären. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-familie-und-haus-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "familie-und-haus",
+    "title": "Familie und Haus: Wortschatz",
+    "accessTier": "free",
+    "isFree": true,
+    "xpReward": 25,
+    "orderIndex": 35,
+    "estimatedMinutes": 10,
+    "description": "Familie und Zuhause beschreiben",
+    "intro": "Familie und Zuhause beschreiben",
+    "mission": "Familie und Zuhause beschreiben",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Familie.",
+      "Wir lernen: Mutter.",
+      "Wir lernen: Vater.",
+      "Wir lernen: Bruder."
+    ],
+    "vocabulary": [
+      {
+        "word": "Familie",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Familie“ im Kontext."
+      },
+      {
+        "word": "Mutter",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Mutter“ im Kontext."
+      },
+      {
+        "word": "Vater",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Vater“ im Kontext."
+      },
+      {
+        "word": "Bruder",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Bruder“ im Kontext."
+      },
+      {
+        "word": "Zimmer",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Zimmer“ im Kontext."
+      },
+      {
+        "word": "Küche",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Küche“ im Kontext."
+      },
+      {
+        "word": "wohnen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „wohnen“ im Kontext."
+      },
+      {
+        "word": "klein",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „klein“ im Kontext."
+      },
+      {
+        "word": "groß",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „groß“ im Kontext."
+      },
+      {
+        "word": "zusammen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „zusammen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Familie und Zuhause beschreiben."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-gesundheit-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "gesundheit",
+    "title": "Gesundheit: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 35,
+    "estimatedMinutes": 10,
+    "description": "über Beschwerden und Ratschläge sprechen",
+    "intro": "über Beschwerden und Ratschläge sprechen",
+    "mission": "über Beschwerden und Ratschläge sprechen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Gesundheit.",
+      "Wir lernen: Arzt.",
+      "Wir lernen: Schmerz.",
+      "Wir lernen: ausruhen."
+    ],
+    "vocabulary": [
+      {
+        "word": "Gesundheit",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Gesundheit“ im Kontext."
+      },
+      {
+        "word": "Arzt",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Arzt“ im Kontext."
+      },
+      {
+        "word": "Schmerz",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Schmerz“ im Kontext."
+      },
+      {
+        "word": "ausruhen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „ausruhen“ im Kontext."
+      },
+      {
+        "word": "Medikament",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Medikament“ im Kontext."
+      },
+      {
+        "word": "gesund",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „gesund“ im Kontext."
+      },
+      {
+        "word": "regelmäßig",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „regelmäßig“ im Kontext."
+      },
+      {
+        "word": "Rat",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Rat“ im Kontext."
+      },
+      {
+        "word": "besser",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „besser“ im Kontext."
+      },
+      {
+        "word": "Termin",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Termin“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: über Beschwerden und Ratschläge sprechen."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-gesundheit-und-balance-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "gesundheit-und-balance",
+    "title": "Gesundheit und Balance: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 35,
+    "estimatedMinutes": 10,
+    "description": "Gewohnheiten und persönliche Veränderungen erklären",
+    "intro": "Gewohnheiten und persönliche Veränderungen erklären",
+    "mission": "Gewohnheiten und persönliche Veränderungen erklären",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Wohlbefinden.",
+      "Wir lernen: Erholung.",
+      "Wir lernen: Bewegung.",
+      "Wir lernen: Gleichgewicht."
+    ],
+    "vocabulary": [
+      {
+        "word": "Wohlbefinden",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Wohlbefinden“ im Kontext."
+      },
+      {
+        "word": "Erholung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Erholung“ im Kontext."
+      },
+      {
+        "word": "Bewegung",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Bewegung“ im Kontext."
+      },
+      {
+        "word": "Gleichgewicht",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "vorbeugen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „vorbeugen“ im Kontext."
+      },
+      {
+        "word": "Gewohnheit",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
+      },
+      {
+        "word": "Energie",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Energie“ im Kontext."
+      },
+      {
+        "word": "Rat",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Rat“ im Kontext."
+      },
+      {
+        "word": "Entscheidung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Entscheidung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Gewohnheiten und persönliche Veränderungen erklären."
+      }
+    ]
+  },
+  {
     "slug": "german-a1-einkaufen-reading",
     "level": "A1",
     "skill": "reading",
@@ -7150,10 +10768,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Einkaufen: Grammatik",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "name": "kein / nicht und Mengenangaben",
+        "definition": "Práctica guiada de kein / nicht und Mengenangaben.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -7414,10 +11032,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Arbeit und Beruf: Grammatik",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "name": "Nebensätze mit weil und dass",
+        "definition": "Práctica guiada de Nebensätze mit weil und dass.",
         "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -7678,10 +11296,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Kultur und Medien: Grammatik",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "name": "Indirekte Fragen",
+        "definition": "Práctica guiada de Indirekte Fragen.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -7861,6 +11479,666 @@
           "Ich finde den Vorschlag sinnvoll."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-einkaufen-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "einkaufen",
+    "title": "Einkaufen: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 41,
+    "estimatedMinutes": 10,
+    "description": "nach Preisen und Produkten fragen",
+    "intro": "nach Preisen und Produkten fragen",
+    "mission": "nach Preisen und Produkten fragen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Markt.",
+      "Wir lernen: Preis.",
+      "Wir lernen: Euro.",
+      "Wir lernen: kaufen."
+    ],
+    "vocabulary": [
+      {
+        "word": "Markt",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Markt“ im Kontext."
+      },
+      {
+        "word": "Preis",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Preis“ im Kontext."
+      },
+      {
+        "word": "Euro",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Euro“ im Kontext."
+      },
+      {
+        "word": "kaufen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „kaufen“ im Kontext."
+      },
+      {
+        "word": "Gemüse",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Gemüse“ im Kontext."
+      },
+      {
+        "word": "Obst",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Obst“ im Kontext."
+      },
+      {
+        "word": "brauchen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „brauchen“ im Kontext."
+      },
+      {
+        "word": "billig",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „billig“ im Kontext."
+      },
+      {
+        "word": "teuer",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „teuer“ im Kontext."
+      },
+      {
+        "word": "Tasche",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Tasche“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a1-einkaufen-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Einkaufen: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Einkaufen: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Einkaufen: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Einkaufen: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Einkaufen: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Einkaufen: Wortschatz»?",
+        "options": [
+          "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Einkaufen: Wortschatz»?",
+        "options": [
+          "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Einkaufen: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Einkaufen“ spricht eine kleine Gruppe aus der Gemeinschaft über Markt, Preis und Euro.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-arbeit-und-beruf-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "arbeit-und-beruf",
+    "title": "Arbeit und Beruf: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 41,
+    "estimatedMinutes": 10,
+    "description": "über Arbeit und Aufgaben sprechen",
+    "intro": "über Arbeit und Aufgaben sprechen",
+    "mission": "über Arbeit und Aufgaben sprechen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Beruf.",
+      "Wir lernen: Aufgabe.",
+      "Wir lernen: Kollegin.",
+      "Wir lernen: Erfahrung."
+    ],
+    "vocabulary": [
+      {
+        "word": "Beruf",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Beruf“ im Kontext."
+      },
+      {
+        "word": "Aufgabe",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
+      },
+      {
+        "word": "Kollegin",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Kollegin“ im Kontext."
+      },
+      {
+        "word": "Erfahrung",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
+      },
+      {
+        "word": "beginnen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „beginnen“ im Kontext."
+      },
+      {
+        "word": "Ende",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Ende“ im Kontext."
+      },
+      {
+        "word": "wichtig",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „wichtig“ im Kontext."
+      },
+      {
+        "word": "Bewerbung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Bewerbung“ im Kontext."
+      },
+      {
+        "word": "lernen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „lernen“ im Kontext."
+      },
+      {
+        "word": "Chance",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Chance“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a2-arbeit-und-beruf-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Arbeit und Beruf: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der…», what happens next in «Arbeit und Beruf: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Arbeit und Beruf: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Arbeit und Beruf: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Arbeit und Beruf: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der…», what happens next in «Arbeit und Beruf: Wortschatz»?",
+        "options": [
+          "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Arbeit und Beruf: Wortschatz»?",
+        "options": [
+          "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Arbeit und Beruf: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Arbeit und Beruf“ spricht eine kleine Gruppe aus der Gemeinschaft über Beruf, Aufgabe und Kollegin.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-kultur-und-medien-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "kultur-und-medien",
+    "title": "Kultur und Medien: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 41,
+    "estimatedMinutes": 10,
+    "description": "eine Meinung über Kultur und Information äußern",
+    "intro": "eine Meinung über Kultur und Information äußern",
+    "mission": "eine Meinung über Kultur und Information äußern",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Nachricht.",
+      "Wir lernen: Quelle.",
+      "Wir lernen: Publikum.",
+      "Wir lernen: Meinung."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nachricht",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+      },
+      {
+        "word": "Quelle",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Quelle“ im Kontext."
+      },
+      {
+        "word": "Publikum",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Publikum“ im Kontext."
+      },
+      {
+        "word": "Meinung",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Meinung“ im Kontext."
+      },
+      {
+        "word": "vergleichen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „vergleichen“ im Kontext."
+      },
+      {
+        "word": "Debatte",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Debatte“ im Kontext."
+      },
+      {
+        "word": "Inhalt",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Inhalt“ im Kontext."
+      },
+      {
+        "word": "zuverlässig",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „zuverlässig“ im Kontext."
+      },
+      {
+        "word": "Perspektive",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Perspektive“ im Kontext."
+      },
+      {
+        "word": "kommunizieren",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „kommunizieren“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-b1-kultur-und-medien-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Kultur und Medien: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der…» in «Kultur und Medien: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Kultur und Medien: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Kultur und Medien: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Kultur und Medien: Wortschatz»?",
+        "options": [
+          "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der…» in «Kultur und Medien: Wortschatz»?",
+        "options": [
+          "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Kultur und Medien: Wortschatz»?",
+        "options": [
+          "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Kultur und Medien: Wortschatz»?",
+        "options": [
+          "Im Thema „Kultur und Medien“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Quelle und Publikum.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
       }
     ]
   },
@@ -8711,6 +12989,537 @@
     ]
   },
   {
+    "slug": "german-a1-einkaufen-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "einkaufen",
+    "title": "Einkaufen: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 42,
+    "estimatedMinutes": 10,
+    "description": "nach Preisen und Produkten fragen",
+    "intro": "nach Preisen und Produkten fragen",
+    "mission": "nach Preisen und Produkten fragen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Markt.",
+      "Wir lernen: Preis.",
+      "Wir lernen: Euro.",
+      "Wir lernen: kaufen."
+    ],
+    "vocabulary": [
+      {
+        "word": "Markt",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Markt“ im Kontext."
+      },
+      {
+        "word": "Preis",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Preis“ im Kontext."
+      },
+      {
+        "word": "Euro",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Euro“ im Kontext."
+      },
+      {
+        "word": "kaufen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „kaufen“ im Kontext."
+      },
+      {
+        "word": "Gemüse",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Gemüse“ im Kontext."
+      },
+      {
+        "word": "Obst",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Obst“ im Kontext."
+      },
+      {
+        "word": "brauchen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „brauchen“ im Kontext."
+      },
+      {
+        "word": "billig",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „billig“ im Kontext."
+      },
+      {
+        "word": "teuer",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „teuer“ im Kontext."
+      },
+      {
+        "word": "Tasche",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Tasche“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte nach Preisen und Produkten fragen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-arbeit-und-beruf-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "arbeit-und-beruf",
+    "title": "Arbeit und Beruf: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 42,
+    "estimatedMinutes": 10,
+    "description": "über Arbeit und Aufgaben sprechen",
+    "intro": "über Arbeit und Aufgaben sprechen",
+    "mission": "über Arbeit und Aufgaben sprechen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Beruf.",
+      "Wir lernen: Aufgabe.",
+      "Wir lernen: Kollegin.",
+      "Wir lernen: Erfahrung."
+    ],
+    "vocabulary": [
+      {
+        "word": "Beruf",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Beruf“ im Kontext."
+      },
+      {
+        "word": "Aufgabe",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
+      },
+      {
+        "word": "Kollegin",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Kollegin“ im Kontext."
+      },
+      {
+        "word": "Erfahrung",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
+      },
+      {
+        "word": "beginnen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „beginnen“ im Kontext."
+      },
+      {
+        "word": "Ende",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Ende“ im Kontext."
+      },
+      {
+        "word": "wichtig",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „wichtig“ im Kontext."
+      },
+      {
+        "word": "Bewerbung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Bewerbung“ im Kontext."
+      },
+      {
+        "word": "lernen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „lernen“ im Kontext."
+      },
+      {
+        "word": "Chance",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Chance“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte über Arbeit und Aufgaben sprechen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-kultur-und-medien-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "kultur-und-medien",
+    "title": "Kultur und Medien: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 42,
+    "estimatedMinutes": 10,
+    "description": "eine Meinung über Kultur und Information äußern",
+    "intro": "eine Meinung über Kultur und Information äußern",
+    "mission": "eine Meinung über Kultur und Information äußern",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Nachricht.",
+      "Wir lernen: Quelle.",
+      "Wir lernen: Publikum.",
+      "Wir lernen: Meinung."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nachricht",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+      },
+      {
+        "word": "Quelle",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Quelle“ im Kontext."
+      },
+      {
+        "word": "Publikum",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Publikum“ im Kontext."
+      },
+      {
+        "word": "Meinung",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Meinung“ im Kontext."
+      },
+      {
+        "word": "vergleichen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „vergleichen“ im Kontext."
+      },
+      {
+        "word": "Debatte",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Debatte“ im Kontext."
+      },
+      {
+        "word": "Inhalt",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Inhalt“ im Kontext."
+      },
+      {
+        "word": "zuverlässig",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „zuverlässig“ im Kontext."
+      },
+      {
+        "word": "Perspektive",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Perspektive“ im Kontext."
+      },
+      {
+        "word": "kommunizieren",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „kommunizieren“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte eine Meinung über Kultur und Information äußern. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-einkaufen-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "einkaufen",
+    "title": "Einkaufen: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 45,
+    "estimatedMinutes": 10,
+    "description": "nach Preisen und Produkten fragen",
+    "intro": "nach Preisen und Produkten fragen",
+    "mission": "nach Preisen und Produkten fragen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Markt.",
+      "Wir lernen: Preis.",
+      "Wir lernen: Euro.",
+      "Wir lernen: kaufen."
+    ],
+    "vocabulary": [
+      {
+        "word": "Markt",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Markt“ im Kontext."
+      },
+      {
+        "word": "Preis",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Preis“ im Kontext."
+      },
+      {
+        "word": "Euro",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Euro“ im Kontext."
+      },
+      {
+        "word": "kaufen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „kaufen“ im Kontext."
+      },
+      {
+        "word": "Gemüse",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Gemüse“ im Kontext."
+      },
+      {
+        "word": "Obst",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Obst“ im Kontext."
+      },
+      {
+        "word": "brauchen",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „brauchen“ im Kontext."
+      },
+      {
+        "word": "billig",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „billig“ im Kontext."
+      },
+      {
+        "word": "teuer",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „teuer“ im Kontext."
+      },
+      {
+        "word": "Tasche",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Tasche“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: nach Preisen und Produkten fragen."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-arbeit-und-beruf-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "arbeit-und-beruf",
+    "title": "Arbeit und Beruf: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 45,
+    "estimatedMinutes": 10,
+    "description": "über Arbeit und Aufgaben sprechen",
+    "intro": "über Arbeit und Aufgaben sprechen",
+    "mission": "über Arbeit und Aufgaben sprechen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Beruf.",
+      "Wir lernen: Aufgabe.",
+      "Wir lernen: Kollegin.",
+      "Wir lernen: Erfahrung."
+    ],
+    "vocabulary": [
+      {
+        "word": "Beruf",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Beruf“ im Kontext."
+      },
+      {
+        "word": "Aufgabe",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
+      },
+      {
+        "word": "Kollegin",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Kollegin“ im Kontext."
+      },
+      {
+        "word": "Erfahrung",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
+      },
+      {
+        "word": "beginnen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „beginnen“ im Kontext."
+      },
+      {
+        "word": "Ende",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Ende“ im Kontext."
+      },
+      {
+        "word": "wichtig",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „wichtig“ im Kontext."
+      },
+      {
+        "word": "Bewerbung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Bewerbung“ im Kontext."
+      },
+      {
+        "word": "lernen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „lernen“ im Kontext."
+      },
+      {
+        "word": "Chance",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Chance“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: über Arbeit und Aufgaben sprechen."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-kultur-und-medien-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "kultur-und-medien",
+    "title": "Kultur und Medien: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 45,
+    "estimatedMinutes": 10,
+    "description": "eine Meinung über Kultur und Information äußern",
+    "intro": "eine Meinung über Kultur und Information äußern",
+    "mission": "eine Meinung über Kultur und Information äußern",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Nachricht.",
+      "Wir lernen: Quelle.",
+      "Wir lernen: Publikum.",
+      "Wir lernen: Meinung."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nachricht",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+      },
+      {
+        "word": "Quelle",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Quelle“ im Kontext."
+      },
+      {
+        "word": "Publikum",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Publikum“ im Kontext."
+      },
+      {
+        "word": "Meinung",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Meinung“ im Kontext."
+      },
+      {
+        "word": "vergleichen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „vergleichen“ im Kontext."
+      },
+      {
+        "word": "Debatte",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Debatte“ im Kontext."
+      },
+      {
+        "word": "Inhalt",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Inhalt“ im Kontext."
+      },
+      {
+        "word": "zuverlässig",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „zuverlässig“ im Kontext."
+      },
+      {
+        "word": "Perspektive",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Perspektive“ im Kontext."
+      },
+      {
+        "word": "kommunizieren",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „kommunizieren“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: eine Meinung über Kultur und Information äußern."
+      }
+    ]
+  },
+  {
     "slug": "german-a1-in-der-stadt-reading",
     "level": "A1",
     "skill": "reading",
@@ -9213,10 +14022,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "In der Stadt: Grammatik",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "name": "Modalverb können und Wegbeschreibung",
+        "definition": "Práctica guiada de Modalverb können und Wegbeschreibung.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -9477,10 +14286,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Reisen und Erlebnisse: Grammatik",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "name": "Perfekt mit sein",
+        "definition": "Práctica guiada de Perfekt mit sein.",
         "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -9741,10 +14550,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Umwelt im Viertel: Grammatik",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "name": "Konnektoren: obwohl, trotzdem und daher",
+        "definition": "Práctica guiada de Konnektoren: obwohl, trotzdem und daher.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -9924,6 +14733,666 @@
           "Ich finde den Vorschlag sinnvoll."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-in-der-stadt-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "in-der-stadt",
+    "title": "In der Stadt: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 51,
+    "estimatedMinutes": 10,
+    "description": "Orte in der Stadt finden",
+    "intro": "Orte in der Stadt finden",
+    "mission": "Orte in der Stadt finden",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Straße.",
+      "Wir lernen: Bahnhof.",
+      "Wir lernen: Apotheke.",
+      "Wir lernen: Schule."
+    ],
+    "vocabulary": [
+      {
+        "word": "Straße",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Straße“ im Kontext."
+      },
+      {
+        "word": "Bahnhof",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
+      },
+      {
+        "word": "Apotheke",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Apotheke“ im Kontext."
+      },
+      {
+        "word": "Schule",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Schule“ im Kontext."
+      },
+      {
+        "word": "links",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „links“ im Kontext."
+      },
+      {
+        "word": "rechts",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „rechts“ im Kontext."
+      },
+      {
+        "word": "geradeaus",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „geradeaus“ im Kontext."
+      },
+      {
+        "word": "nahe",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „nahe“ im Kontext."
+      },
+      {
+        "word": "Bus",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Bus“ im Kontext."
+      },
+      {
+        "word": "Karte",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Karte“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a1-in-der-stadt-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «In der Stadt: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der…», what happens next in «In der Stadt: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «In der Stadt: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «In der Stadt: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «In der Stadt: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der…», what happens next in «In der Stadt: Wortschatz»?",
+        "options": [
+          "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «In der Stadt: Wortschatz»?",
+        "options": [
+          "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «In der Stadt: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „In der Stadt“ spricht eine kleine Gruppe aus der Gemeinschaft über Straße, Bahnhof und Apotheke.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-reisen-und-erlebnisse-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "reisen-und-erlebnisse",
+    "title": "Reisen und Erlebnisse: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 51,
+    "estimatedMinutes": 10,
+    "description": "eine Reise in der Vergangenheit erzählen",
+    "intro": "eine Reise in der Vergangenheit erzählen",
+    "mission": "eine Reise in der Vergangenheit erzählen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Reise.",
+      "Wir lernen: erlebt.",
+      "Wir lernen: besucht.",
+      "Wir lernen: geblieben."
+    ],
+    "vocabulary": [
+      {
+        "word": "Reise",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Reise“ im Kontext."
+      },
+      {
+        "word": "erlebt",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „erlebt“ im Kontext."
+      },
+      {
+        "word": "besucht",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „besucht“ im Kontext."
+      },
+      {
+        "word": "geblieben",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „geblieben“ im Kontext."
+      },
+      {
+        "word": "gesehen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „gesehen“ im Kontext."
+      },
+      {
+        "word": "Hotel",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Hotel“ im Kontext."
+      },
+      {
+        "word": "unterwegs",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „unterwegs“ im Kontext."
+      },
+      {
+        "word": "Erinnerung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+      },
+      {
+        "word": "planen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „planen“ im Kontext."
+      },
+      {
+        "word": "interessant",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „interessant“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a2-reisen-und-erlebnisse-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Reisen und Erlebnisse: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der…», what happens next in «Reisen und Erlebnisse: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Reisen und Erlebnisse: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Reisen und Erlebnisse: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Reisen und Erlebnisse: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der…», what happens next in «Reisen und Erlebnisse: Wortschatz»?",
+        "options": [
+          "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Reisen und Erlebnisse: Wortschatz»?",
+        "options": [
+          "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Reisen und Erlebnisse: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Reisen und Erlebnisse“ spricht eine kleine Gruppe aus der Gemeinschaft über Reise, erlebt und besucht.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-umwelt-im-viertel-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "umwelt-im-viertel",
+    "title": "Umwelt im Viertel: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 51,
+    "estimatedMinutes": 10,
+    "description": "ein Umweltproblem und einen Vorschlag beschreiben",
+    "intro": "ein Umweltproblem und einen Vorschlag beschreiben",
+    "mission": "ein Umweltproblem und einen Vorschlag beschreiben",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Abfall.",
+      "Wir lernen: Sammlung.",
+      "Wir lernen: Ressource.",
+      "Wir lernen: reduzieren."
+    ],
+    "vocabulary": [
+      {
+        "word": "Abfall",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Abfall“ im Kontext."
+      },
+      {
+        "word": "Sammlung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Sammlung“ im Kontext."
+      },
+      {
+        "word": "Ressource",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Ressource“ im Kontext."
+      },
+      {
+        "word": "reduzieren",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „reduzieren“ im Kontext."
+      },
+      {
+        "word": "Viertel",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Viertel“ im Kontext."
+      },
+      {
+        "word": "freiwillig",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „freiwillig“ im Kontext."
+      },
+      {
+        "word": "Initiative",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Initiative“ im Kontext."
+      },
+      {
+        "word": "Wirkung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Wirkung“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "unterstützen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „unterstützen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-b1-umwelt-im-viertel-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Umwelt im Viertel: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der…» in «Umwelt im Viertel: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Umwelt im Viertel: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Umwelt im Viertel: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Umwelt im Viertel: Wortschatz»?",
+        "options": [
+          "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der…» in «Umwelt im Viertel: Wortschatz»?",
+        "options": [
+          "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Umwelt im Viertel: Wortschatz»?",
+        "options": [
+          "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Umwelt im Viertel: Wortschatz»?",
+        "options": [
+          "Im Thema „Umwelt im Viertel“ spricht eine kleine Gruppe aus der Gemeinschaft über Abfall, Sammlung und Ressource.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
       }
     ]
   },
@@ -10774,6 +16243,537 @@
     ]
   },
   {
+    "slug": "german-a1-in-der-stadt-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "in-der-stadt",
+    "title": "In der Stadt: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 52,
+    "estimatedMinutes": 10,
+    "description": "Orte in der Stadt finden",
+    "intro": "Orte in der Stadt finden",
+    "mission": "Orte in der Stadt finden",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Straße.",
+      "Wir lernen: Bahnhof.",
+      "Wir lernen: Apotheke.",
+      "Wir lernen: Schule."
+    ],
+    "vocabulary": [
+      {
+        "word": "Straße",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Straße“ im Kontext."
+      },
+      {
+        "word": "Bahnhof",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
+      },
+      {
+        "word": "Apotheke",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Apotheke“ im Kontext."
+      },
+      {
+        "word": "Schule",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Schule“ im Kontext."
+      },
+      {
+        "word": "links",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „links“ im Kontext."
+      },
+      {
+        "word": "rechts",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „rechts“ im Kontext."
+      },
+      {
+        "word": "geradeaus",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „geradeaus“ im Kontext."
+      },
+      {
+        "word": "nahe",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „nahe“ im Kontext."
+      },
+      {
+        "word": "Bus",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Bus“ im Kontext."
+      },
+      {
+        "word": "Karte",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Karte“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Orte in der Stadt finden. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-reisen-und-erlebnisse-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "reisen-und-erlebnisse",
+    "title": "Reisen und Erlebnisse: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 52,
+    "estimatedMinutes": 10,
+    "description": "eine Reise in der Vergangenheit erzählen",
+    "intro": "eine Reise in der Vergangenheit erzählen",
+    "mission": "eine Reise in der Vergangenheit erzählen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Reise.",
+      "Wir lernen: erlebt.",
+      "Wir lernen: besucht.",
+      "Wir lernen: geblieben."
+    ],
+    "vocabulary": [
+      {
+        "word": "Reise",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Reise“ im Kontext."
+      },
+      {
+        "word": "erlebt",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „erlebt“ im Kontext."
+      },
+      {
+        "word": "besucht",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „besucht“ im Kontext."
+      },
+      {
+        "word": "geblieben",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „geblieben“ im Kontext."
+      },
+      {
+        "word": "gesehen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „gesehen“ im Kontext."
+      },
+      {
+        "word": "Hotel",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Hotel“ im Kontext."
+      },
+      {
+        "word": "unterwegs",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „unterwegs“ im Kontext."
+      },
+      {
+        "word": "Erinnerung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+      },
+      {
+        "word": "planen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „planen“ im Kontext."
+      },
+      {
+        "word": "interessant",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „interessant“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte eine Reise in der Vergangenheit erzählen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-umwelt-im-viertel-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "umwelt-im-viertel",
+    "title": "Umwelt im Viertel: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 52,
+    "estimatedMinutes": 10,
+    "description": "ein Umweltproblem und einen Vorschlag beschreiben",
+    "intro": "ein Umweltproblem und einen Vorschlag beschreiben",
+    "mission": "ein Umweltproblem und einen Vorschlag beschreiben",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Abfall.",
+      "Wir lernen: Sammlung.",
+      "Wir lernen: Ressource.",
+      "Wir lernen: reduzieren."
+    ],
+    "vocabulary": [
+      {
+        "word": "Abfall",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Abfall“ im Kontext."
+      },
+      {
+        "word": "Sammlung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Sammlung“ im Kontext."
+      },
+      {
+        "word": "Ressource",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Ressource“ im Kontext."
+      },
+      {
+        "word": "reduzieren",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „reduzieren“ im Kontext."
+      },
+      {
+        "word": "Viertel",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Viertel“ im Kontext."
+      },
+      {
+        "word": "freiwillig",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „freiwillig“ im Kontext."
+      },
+      {
+        "word": "Initiative",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Initiative“ im Kontext."
+      },
+      {
+        "word": "Wirkung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Wirkung“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "unterstützen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „unterstützen“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte ein Umweltproblem und einen Vorschlag beschreiben. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-in-der-stadt-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "in-der-stadt",
+    "title": "In der Stadt: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 55,
+    "estimatedMinutes": 10,
+    "description": "Orte in der Stadt finden",
+    "intro": "Orte in der Stadt finden",
+    "mission": "Orte in der Stadt finden",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Straße.",
+      "Wir lernen: Bahnhof.",
+      "Wir lernen: Apotheke.",
+      "Wir lernen: Schule."
+    ],
+    "vocabulary": [
+      {
+        "word": "Straße",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Straße“ im Kontext."
+      },
+      {
+        "word": "Bahnhof",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
+      },
+      {
+        "word": "Apotheke",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Apotheke“ im Kontext."
+      },
+      {
+        "word": "Schule",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Schule“ im Kontext."
+      },
+      {
+        "word": "links",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „links“ im Kontext."
+      },
+      {
+        "word": "rechts",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „rechts“ im Kontext."
+      },
+      {
+        "word": "geradeaus",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „geradeaus“ im Kontext."
+      },
+      {
+        "word": "nahe",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „nahe“ im Kontext."
+      },
+      {
+        "word": "Bus",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Bus“ im Kontext."
+      },
+      {
+        "word": "Karte",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Karte“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Orte in der Stadt finden."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-reisen-und-erlebnisse-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "reisen-und-erlebnisse",
+    "title": "Reisen und Erlebnisse: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 55,
+    "estimatedMinutes": 10,
+    "description": "eine Reise in der Vergangenheit erzählen",
+    "intro": "eine Reise in der Vergangenheit erzählen",
+    "mission": "eine Reise in der Vergangenheit erzählen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Reise.",
+      "Wir lernen: erlebt.",
+      "Wir lernen: besucht.",
+      "Wir lernen: geblieben."
+    ],
+    "vocabulary": [
+      {
+        "word": "Reise",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Reise“ im Kontext."
+      },
+      {
+        "word": "erlebt",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „erlebt“ im Kontext."
+      },
+      {
+        "word": "besucht",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „besucht“ im Kontext."
+      },
+      {
+        "word": "geblieben",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „geblieben“ im Kontext."
+      },
+      {
+        "word": "gesehen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „gesehen“ im Kontext."
+      },
+      {
+        "word": "Hotel",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Hotel“ im Kontext."
+      },
+      {
+        "word": "unterwegs",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „unterwegs“ im Kontext."
+      },
+      {
+        "word": "Erinnerung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+      },
+      {
+        "word": "planen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „planen“ im Kontext."
+      },
+      {
+        "word": "interessant",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „interessant“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: eine Reise in der Vergangenheit erzählen."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-umwelt-im-viertel-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "umwelt-im-viertel",
+    "title": "Umwelt im Viertel: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 55,
+    "estimatedMinutes": 10,
+    "description": "ein Umweltproblem und einen Vorschlag beschreiben",
+    "intro": "ein Umweltproblem und einen Vorschlag beschreiben",
+    "mission": "ein Umweltproblem und einen Vorschlag beschreiben",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Abfall.",
+      "Wir lernen: Sammlung.",
+      "Wir lernen: Ressource.",
+      "Wir lernen: reduzieren."
+    ],
+    "vocabulary": [
+      {
+        "word": "Abfall",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Abfall“ im Kontext."
+      },
+      {
+        "word": "Sammlung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Sammlung“ im Kontext."
+      },
+      {
+        "word": "Ressource",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Ressource“ im Kontext."
+      },
+      {
+        "word": "reduzieren",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „reduzieren“ im Kontext."
+      },
+      {
+        "word": "Viertel",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Viertel“ im Kontext."
+      },
+      {
+        "word": "freiwillig",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „freiwillig“ im Kontext."
+      },
+      {
+        "word": "Initiative",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Initiative“ im Kontext."
+      },
+      {
+        "word": "Wirkung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Wirkung“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "unterstützen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „unterstützen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: ein Umweltproblem und einen Vorschlag beschreiben."
+      }
+    ]
+  },
+  {
     "slug": "german-a1-schule-und-freunde-reading",
     "level": "A1",
     "skill": "reading",
@@ -11276,10 +17276,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Schule und Freunde: Grammatik",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "name": "Präsens trennbarer Verben",
+        "definition": "Práctica guiada de Präsens trennbarer Verben.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -11540,10 +17540,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Essen und Kultur: Grammatik",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "name": "Dativ und Akkusativ",
+        "definition": "Práctica guiada de Dativ und Akkusativ.",
         "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -11804,10 +17804,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Geschichten und Erinnerungen: Grammatik",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "name": "Plusquamperfekt",
+        "definition": "Práctica guiada de Plusquamperfekt.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -11987,6 +17987,666 @@
           "Ich finde den Vorschlag sinnvoll."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-schule-und-freunde-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "schule-und-freunde",
+    "title": "Schule und Freunde: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 61,
+    "estimatedMinutes": 10,
+    "description": "über Schule und Freizeit sprechen",
+    "intro": "über Schule und Freizeit sprechen",
+    "mission": "über Schule und Freizeit sprechen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Schule.",
+      "Wir lernen: Klasse.",
+      "Wir lernen: Lehrer.",
+      "Wir lernen: Freund."
+    ],
+    "vocabulary": [
+      {
+        "word": "Schule",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Schule“ im Kontext."
+      },
+      {
+        "word": "Klasse",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Klasse“ im Kontext."
+      },
+      {
+        "word": "Lehrer",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Lehrer“ im Kontext."
+      },
+      {
+        "word": "Freund",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Freund“ im Kontext."
+      },
+      {
+        "word": "lernen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „lernen“ im Kontext."
+      },
+      {
+        "word": "spielen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „spielen“ im Kontext."
+      },
+      {
+        "word": "Musik",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Musik“ im Kontext."
+      },
+      {
+        "word": "heute",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „heute“ im Kontext."
+      },
+      {
+        "word": "morgen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „morgen“ im Kontext."
+      },
+      {
+        "word": "zusammen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „zusammen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a1-schule-und-freunde-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Schule und Freunde: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der…», what happens next in «Schule und Freunde: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Schule und Freunde: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Schule und Freunde: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Schule und Freunde: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der…», what happens next in «Schule und Freunde: Wortschatz»?",
+        "options": [
+          "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Schule und Freunde: Wortschatz»?",
+        "options": [
+          "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Schule und Freunde: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Schule und Freunde“ spricht eine kleine Gruppe aus der Gemeinschaft über Schule, Klasse und Lehrer.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-essen-und-kultur-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "essen-und-kultur",
+    "title": "Essen und Kultur: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 61,
+    "estimatedMinutes": 10,
+    "description": "Rezepte und Gewohnheiten beschreiben",
+    "intro": "Rezepte und Gewohnheiten beschreiben",
+    "mission": "Rezepte und Gewohnheiten beschreiben",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Rezept.",
+      "Wir lernen: Zutaten.",
+      "Wir lernen: kochen.",
+      "Wir lernen: Geschmack."
+    ],
+    "vocabulary": [
+      {
+        "word": "Rezept",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Rezept“ im Kontext."
+      },
+      {
+        "word": "Zutaten",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Zutaten“ im Kontext."
+      },
+      {
+        "word": "kochen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „kochen“ im Kontext."
+      },
+      {
+        "word": "Geschmack",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Geschmack“ im Kontext."
+      },
+      {
+        "word": "Tradition",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Tradition“ im Kontext."
+      },
+      {
+        "word": "zusammen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „zusammen“ im Kontext."
+      },
+      {
+        "word": "probieren",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „probieren“ im Kontext."
+      },
+      {
+        "word": "Restaurant",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Restaurant“ im Kontext."
+      },
+      {
+        "word": "bestellen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „bestellen“ im Kontext."
+      },
+      {
+        "word": "typisch",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „typisch“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a2-essen-und-kultur-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Essen und Kultur: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der…», what happens next in «Essen und Kultur: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Essen und Kultur: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Essen und Kultur: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Essen und Kultur: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der…», what happens next in «Essen und Kultur: Wortschatz»?",
+        "options": [
+          "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Essen und Kultur: Wortschatz»?",
+        "options": [
+          "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Essen und Kultur: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Essen und Kultur“ spricht eine kleine Gruppe aus der Gemeinschaft über Rezept, Zutaten und kochen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-geschichten-und-erinnerungen-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "geschichten-und-erinnerungen",
+    "title": "Geschichten und Erinnerungen: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 61,
+    "estimatedMinutes": 10,
+    "description": "Erlebnisse erzählen und mit der Gegenwart verbinden",
+    "intro": "Erlebnisse erzählen und mit der Gegenwart verbinden",
+    "mission": "Erlebnisse erzählen und mit der Gegenwart verbinden",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Erinnerung.",
+      "Wir lernen: Kindheit.",
+      "Wir lernen: Veränderung.",
+      "Wir lernen: erzählen."
+    ],
+    "vocabulary": [
+      {
+        "word": "Erinnerung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+      },
+      {
+        "word": "Kindheit",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Kindheit“ im Kontext."
+      },
+      {
+        "word": "Veränderung",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Veränderung“ im Kontext."
+      },
+      {
+        "word": "erzählen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „erzählen“ im Kontext."
+      },
+      {
+        "word": "Vergangenheit",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Vergangenheit“ im Kontext."
+      },
+      {
+        "word": "Begegnung",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Begegnung“ im Kontext."
+      },
+      {
+        "word": "Tradition",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Tradition“ im Kontext."
+      },
+      {
+        "word": "Generation",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Generation“ im Kontext."
+      },
+      {
+        "word": "lernen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „lernen“ im Kontext."
+      },
+      {
+        "word": "Bedeutung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Bedeutung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-b1-geschichten-und-erinnerungen-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Geschichten und Erinnerungen: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus…» in «Geschichten und Erinnerungen: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Geschichten und Erinnerungen: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Geschichten und Erinnerungen: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Geschichten und Erinnerungen: Wortschatz»?",
+        "options": [
+          "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus…» in «Geschichten und Erinnerungen: Wortschatz»?",
+        "options": [
+          "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Geschichten und Erinnerungen: Wortschatz»?",
+        "options": [
+          "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Geschichten und Erinnerungen: Wortschatz»?",
+        "options": [
+          "Im Thema „Geschichten und Erinnerungen“ spricht eine kleine Gruppe aus der Gemeinschaft über Erinnerung, Kindheit und Veränderung.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
       }
     ]
   },
@@ -12837,6 +19497,537 @@
     ]
   },
   {
+    "slug": "german-a1-schule-und-freunde-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "schule-und-freunde",
+    "title": "Schule und Freunde: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 62,
+    "estimatedMinutes": 10,
+    "description": "über Schule und Freizeit sprechen",
+    "intro": "über Schule und Freizeit sprechen",
+    "mission": "über Schule und Freizeit sprechen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Schule.",
+      "Wir lernen: Klasse.",
+      "Wir lernen: Lehrer.",
+      "Wir lernen: Freund."
+    ],
+    "vocabulary": [
+      {
+        "word": "Schule",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Schule“ im Kontext."
+      },
+      {
+        "word": "Klasse",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Klasse“ im Kontext."
+      },
+      {
+        "word": "Lehrer",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Lehrer“ im Kontext."
+      },
+      {
+        "word": "Freund",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Freund“ im Kontext."
+      },
+      {
+        "word": "lernen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „lernen“ im Kontext."
+      },
+      {
+        "word": "spielen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „spielen“ im Kontext."
+      },
+      {
+        "word": "Musik",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Musik“ im Kontext."
+      },
+      {
+        "word": "heute",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „heute“ im Kontext."
+      },
+      {
+        "word": "morgen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „morgen“ im Kontext."
+      },
+      {
+        "word": "zusammen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „zusammen“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte über Schule und Freizeit sprechen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-essen-und-kultur-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "essen-und-kultur",
+    "title": "Essen und Kultur: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 62,
+    "estimatedMinutes": 10,
+    "description": "Rezepte und Gewohnheiten beschreiben",
+    "intro": "Rezepte und Gewohnheiten beschreiben",
+    "mission": "Rezepte und Gewohnheiten beschreiben",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Rezept.",
+      "Wir lernen: Zutaten.",
+      "Wir lernen: kochen.",
+      "Wir lernen: Geschmack."
+    ],
+    "vocabulary": [
+      {
+        "word": "Rezept",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Rezept“ im Kontext."
+      },
+      {
+        "word": "Zutaten",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Zutaten“ im Kontext."
+      },
+      {
+        "word": "kochen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „kochen“ im Kontext."
+      },
+      {
+        "word": "Geschmack",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Geschmack“ im Kontext."
+      },
+      {
+        "word": "Tradition",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Tradition“ im Kontext."
+      },
+      {
+        "word": "zusammen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „zusammen“ im Kontext."
+      },
+      {
+        "word": "probieren",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „probieren“ im Kontext."
+      },
+      {
+        "word": "Restaurant",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Restaurant“ im Kontext."
+      },
+      {
+        "word": "bestellen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „bestellen“ im Kontext."
+      },
+      {
+        "word": "typisch",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „typisch“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Rezepte und Gewohnheiten beschreiben. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-geschichten-und-erinnerungen-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "geschichten-und-erinnerungen",
+    "title": "Geschichten und Erinnerungen: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 62,
+    "estimatedMinutes": 10,
+    "description": "Erlebnisse erzählen und mit der Gegenwart verbinden",
+    "intro": "Erlebnisse erzählen und mit der Gegenwart verbinden",
+    "mission": "Erlebnisse erzählen und mit der Gegenwart verbinden",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Erinnerung.",
+      "Wir lernen: Kindheit.",
+      "Wir lernen: Veränderung.",
+      "Wir lernen: erzählen."
+    ],
+    "vocabulary": [
+      {
+        "word": "Erinnerung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+      },
+      {
+        "word": "Kindheit",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Kindheit“ im Kontext."
+      },
+      {
+        "word": "Veränderung",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Veränderung“ im Kontext."
+      },
+      {
+        "word": "erzählen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „erzählen“ im Kontext."
+      },
+      {
+        "word": "Vergangenheit",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Vergangenheit“ im Kontext."
+      },
+      {
+        "word": "Begegnung",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Begegnung“ im Kontext."
+      },
+      {
+        "word": "Tradition",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Tradition“ im Kontext."
+      },
+      {
+        "word": "Generation",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Generation“ im Kontext."
+      },
+      {
+        "word": "lernen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „lernen“ im Kontext."
+      },
+      {
+        "word": "Bedeutung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Bedeutung“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Erlebnisse erzählen und mit der Gegenwart verbinden. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-schule-und-freunde-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "schule-und-freunde",
+    "title": "Schule und Freunde: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 65,
+    "estimatedMinutes": 10,
+    "description": "über Schule und Freizeit sprechen",
+    "intro": "über Schule und Freizeit sprechen",
+    "mission": "über Schule und Freizeit sprechen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Schule.",
+      "Wir lernen: Klasse.",
+      "Wir lernen: Lehrer.",
+      "Wir lernen: Freund."
+    ],
+    "vocabulary": [
+      {
+        "word": "Schule",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Schule“ im Kontext."
+      },
+      {
+        "word": "Klasse",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Klasse“ im Kontext."
+      },
+      {
+        "word": "Lehrer",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Lehrer“ im Kontext."
+      },
+      {
+        "word": "Freund",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Freund“ im Kontext."
+      },
+      {
+        "word": "lernen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „lernen“ im Kontext."
+      },
+      {
+        "word": "spielen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „spielen“ im Kontext."
+      },
+      {
+        "word": "Musik",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Musik“ im Kontext."
+      },
+      {
+        "word": "heute",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „heute“ im Kontext."
+      },
+      {
+        "word": "morgen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „morgen“ im Kontext."
+      },
+      {
+        "word": "zusammen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „zusammen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: über Schule und Freizeit sprechen."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-essen-und-kultur-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "essen-und-kultur",
+    "title": "Essen und Kultur: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 65,
+    "estimatedMinutes": 10,
+    "description": "Rezepte und Gewohnheiten beschreiben",
+    "intro": "Rezepte und Gewohnheiten beschreiben",
+    "mission": "Rezepte und Gewohnheiten beschreiben",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Rezept.",
+      "Wir lernen: Zutaten.",
+      "Wir lernen: kochen.",
+      "Wir lernen: Geschmack."
+    ],
+    "vocabulary": [
+      {
+        "word": "Rezept",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Rezept“ im Kontext."
+      },
+      {
+        "word": "Zutaten",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Zutaten“ im Kontext."
+      },
+      {
+        "word": "kochen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „kochen“ im Kontext."
+      },
+      {
+        "word": "Geschmack",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Geschmack“ im Kontext."
+      },
+      {
+        "word": "Tradition",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Tradition“ im Kontext."
+      },
+      {
+        "word": "zusammen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „zusammen“ im Kontext."
+      },
+      {
+        "word": "probieren",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „probieren“ im Kontext."
+      },
+      {
+        "word": "Restaurant",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Restaurant“ im Kontext."
+      },
+      {
+        "word": "bestellen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „bestellen“ im Kontext."
+      },
+      {
+        "word": "typisch",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „typisch“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Rezepte und Gewohnheiten beschreiben."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-geschichten-und-erinnerungen-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "geschichten-und-erinnerungen",
+    "title": "Geschichten und Erinnerungen: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 65,
+    "estimatedMinutes": 10,
+    "description": "Erlebnisse erzählen und mit der Gegenwart verbinden",
+    "intro": "Erlebnisse erzählen und mit der Gegenwart verbinden",
+    "mission": "Erlebnisse erzählen und mit der Gegenwart verbinden",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Erinnerung.",
+      "Wir lernen: Kindheit.",
+      "Wir lernen: Veränderung.",
+      "Wir lernen: erzählen."
+    ],
+    "vocabulary": [
+      {
+        "word": "Erinnerung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+      },
+      {
+        "word": "Kindheit",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Kindheit“ im Kontext."
+      },
+      {
+        "word": "Veränderung",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Veränderung“ im Kontext."
+      },
+      {
+        "word": "erzählen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „erzählen“ im Kontext."
+      },
+      {
+        "word": "Vergangenheit",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Vergangenheit“ im Kontext."
+      },
+      {
+        "word": "Begegnung",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Begegnung“ im Kontext."
+      },
+      {
+        "word": "Tradition",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Tradition“ im Kontext."
+      },
+      {
+        "word": "Generation",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Generation“ im Kontext."
+      },
+      {
+        "word": "lernen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „lernen“ im Kontext."
+      },
+      {
+        "word": "Bedeutung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Bedeutung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Erlebnisse erzählen und mit der Gegenwart verbinden."
+      }
+    ]
+  },
+  {
     "slug": "german-a1-zu-hause-reading",
     "level": "A1",
     "skill": "reading",
@@ -13339,10 +20530,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Zu Hause: Grammatik",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "name": "Akkusativartikel im Alltag",
+        "definition": "Práctica guiada de Akkusativartikel im Alltag.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -13603,10 +20794,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Natur und Umwelt: Grammatik",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "name": "Komparativ und Superlativ",
+        "definition": "Práctica guiada de Komparativ und Superlativ.",
         "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -13867,10 +21058,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Gemeinschaftsprojekt: Grammatik",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "name": "Partizipien als Adjektive",
+        "definition": "Práctica guiada de Partizipien als Adjektive.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -14050,6 +21241,666 @@
           "Ich finde den Vorschlag sinnvoll."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-zu-hause-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "zu-hause",
+    "title": "Zu Hause: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 71,
+    "estimatedMinutes": 10,
+    "description": "einen Tagesablauf beschreiben",
+    "intro": "einen Tagesablauf beschreiben",
+    "mission": "einen Tagesablauf beschreiben",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: aufstehen.",
+      "Wir lernen: frühstücken.",
+      "Wir lernen: arbeiten.",
+      "Wir lernen: kochen."
+    ],
+    "vocabulary": [
+      {
+        "word": "aufstehen",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „aufstehen“ im Kontext."
+      },
+      {
+        "word": "frühstücken",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „frühstücken“ im Kontext."
+      },
+      {
+        "word": "arbeiten",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „arbeiten“ im Kontext."
+      },
+      {
+        "word": "kochen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „kochen“ im Kontext."
+      },
+      {
+        "word": "schlafen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „schlafen“ im Kontext."
+      },
+      {
+        "word": "Uhr",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Uhr“ im Kontext."
+      },
+      {
+        "word": "morgens",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „morgens“ im Kontext."
+      },
+      {
+        "word": "abends",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „abends“ im Kontext."
+      },
+      {
+        "word": "Haushalt",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Haushalt“ im Kontext."
+      },
+      {
+        "word": "ruhig",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „ruhig“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a1-zu-hause-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Zu Hause: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Zu Hause: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Zu Hause: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Zu Hause: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Zu Hause: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Zu Hause: Wortschatz»?",
+        "options": [
+          "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Zu Hause: Wortschatz»?",
+        "options": [
+          "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Zu Hause: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Zu Hause“ spricht eine kleine Gruppe aus der Gemeinschaft über aufstehen, frühstücken und arbeiten.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-natur-und-umwelt-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "natur-und-umwelt",
+    "title": "Natur und Umwelt: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 71,
+    "estimatedMinutes": 10,
+    "description": "über Umwelt im Alltag sprechen",
+    "intro": "über Umwelt im Alltag sprechen",
+    "mission": "über Umwelt im Alltag sprechen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Umwelt.",
+      "Wir lernen: Müll.",
+      "Wir lernen: trennen.",
+      "Wir lernen: Energie."
+    ],
+    "vocabulary": [
+      {
+        "word": "Umwelt",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Umwelt“ im Kontext."
+      },
+      {
+        "word": "Müll",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Müll“ im Kontext."
+      },
+      {
+        "word": "trennen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „trennen“ im Kontext."
+      },
+      {
+        "word": "Energie",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Energie“ im Kontext."
+      },
+      {
+        "word": "Fahrrad",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
+      },
+      {
+        "word": "sparen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „sparen“ im Kontext."
+      },
+      {
+        "word": "sauber",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „sauber“ im Kontext."
+      },
+      {
+        "word": "Park",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Park“ im Kontext."
+      },
+      {
+        "word": "schützen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „schützen“ im Kontext."
+      },
+      {
+        "word": "wichtig",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „wichtig“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a2-natur-und-umwelt-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Natur und Umwelt: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der…», what happens next in «Natur und Umwelt: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Natur und Umwelt: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Natur und Umwelt: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Natur und Umwelt: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der…», what happens next in «Natur und Umwelt: Wortschatz»?",
+        "options": [
+          "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Natur und Umwelt: Wortschatz»?",
+        "options": [
+          "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Natur und Umwelt: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Natur und Umwelt“ spricht eine kleine Gruppe aus der Gemeinschaft über Umwelt, Müll und trennen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-gemeinschaftsprojekt-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "gemeinschaftsprojekt",
+    "title": "Gemeinschaftsprojekt: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 71,
+    "estimatedMinutes": 10,
+    "description": "ein Projekt vorstellen und Aufgaben verteilen",
+    "intro": "ein Projekt vorstellen und Aufgaben verteilen",
+    "mission": "ein Projekt vorstellen und Aufgaben verteilen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Projekt.",
+      "Wir lernen: Recherche.",
+      "Wir lernen: Aufgabe.",
+      "Wir lernen: Zusammenarbeit."
+    ],
+    "vocabulary": [
+      {
+        "word": "Projekt",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Projekt“ im Kontext."
+      },
+      {
+        "word": "Recherche",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Recherche“ im Kontext."
+      },
+      {
+        "word": "Aufgabe",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
+      },
+      {
+        "word": "Zusammenarbeit",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Zusammenarbeit“ im Kontext."
+      },
+      {
+        "word": "vorstellen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „vorstellen“ im Kontext."
+      },
+      {
+        "word": "Vereinbarung",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
+      },
+      {
+        "word": "Lösung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Lösung“ im Kontext."
+      },
+      {
+        "word": "Zweck",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Zweck“ im Kontext."
+      },
+      {
+        "word": "teilnehmen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „teilnehmen“ im Kontext."
+      },
+      {
+        "word": "Ergebnis",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-b1-gemeinschaftsprojekt-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Gemeinschaftsprojekt: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der…» in «Gemeinschaftsprojekt: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Gemeinschaftsprojekt: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Gemeinschaftsprojekt: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Gemeinschaftsprojekt: Wortschatz»?",
+        "options": [
+          "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der…» in «Gemeinschaftsprojekt: Wortschatz»?",
+        "options": [
+          "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Gemeinschaftsprojekt: Wortschatz»?",
+        "options": [
+          "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Gemeinschaftsprojekt: Wortschatz»?",
+        "options": [
+          "Im Thema „Gemeinschaftsprojekt“ spricht eine kleine Gruppe aus der Gemeinschaft über Projekt, Recherche und Aufgabe.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
       }
     ]
   },
@@ -14900,6 +22751,537 @@
     ]
   },
   {
+    "slug": "german-a1-zu-hause-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "zu-hause",
+    "title": "Zu Hause: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 72,
+    "estimatedMinutes": 10,
+    "description": "einen Tagesablauf beschreiben",
+    "intro": "einen Tagesablauf beschreiben",
+    "mission": "einen Tagesablauf beschreiben",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: aufstehen.",
+      "Wir lernen: frühstücken.",
+      "Wir lernen: arbeiten.",
+      "Wir lernen: kochen."
+    ],
+    "vocabulary": [
+      {
+        "word": "aufstehen",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „aufstehen“ im Kontext."
+      },
+      {
+        "word": "frühstücken",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „frühstücken“ im Kontext."
+      },
+      {
+        "word": "arbeiten",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „arbeiten“ im Kontext."
+      },
+      {
+        "word": "kochen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „kochen“ im Kontext."
+      },
+      {
+        "word": "schlafen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „schlafen“ im Kontext."
+      },
+      {
+        "word": "Uhr",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Uhr“ im Kontext."
+      },
+      {
+        "word": "morgens",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „morgens“ im Kontext."
+      },
+      {
+        "word": "abends",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „abends“ im Kontext."
+      },
+      {
+        "word": "Haushalt",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Haushalt“ im Kontext."
+      },
+      {
+        "word": "ruhig",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „ruhig“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte einen Tagesablauf beschreiben. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-natur-und-umwelt-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "natur-und-umwelt",
+    "title": "Natur und Umwelt: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 72,
+    "estimatedMinutes": 10,
+    "description": "über Umwelt im Alltag sprechen",
+    "intro": "über Umwelt im Alltag sprechen",
+    "mission": "über Umwelt im Alltag sprechen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Umwelt.",
+      "Wir lernen: Müll.",
+      "Wir lernen: trennen.",
+      "Wir lernen: Energie."
+    ],
+    "vocabulary": [
+      {
+        "word": "Umwelt",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Umwelt“ im Kontext."
+      },
+      {
+        "word": "Müll",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Müll“ im Kontext."
+      },
+      {
+        "word": "trennen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „trennen“ im Kontext."
+      },
+      {
+        "word": "Energie",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Energie“ im Kontext."
+      },
+      {
+        "word": "Fahrrad",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
+      },
+      {
+        "word": "sparen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „sparen“ im Kontext."
+      },
+      {
+        "word": "sauber",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „sauber“ im Kontext."
+      },
+      {
+        "word": "Park",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Park“ im Kontext."
+      },
+      {
+        "word": "schützen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „schützen“ im Kontext."
+      },
+      {
+        "word": "wichtig",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „wichtig“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte über Umwelt im Alltag sprechen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-gemeinschaftsprojekt-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "gemeinschaftsprojekt",
+    "title": "Gemeinschaftsprojekt: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 72,
+    "estimatedMinutes": 10,
+    "description": "ein Projekt vorstellen und Aufgaben verteilen",
+    "intro": "ein Projekt vorstellen und Aufgaben verteilen",
+    "mission": "ein Projekt vorstellen und Aufgaben verteilen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Projekt.",
+      "Wir lernen: Recherche.",
+      "Wir lernen: Aufgabe.",
+      "Wir lernen: Zusammenarbeit."
+    ],
+    "vocabulary": [
+      {
+        "word": "Projekt",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Projekt“ im Kontext."
+      },
+      {
+        "word": "Recherche",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Recherche“ im Kontext."
+      },
+      {
+        "word": "Aufgabe",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
+      },
+      {
+        "word": "Zusammenarbeit",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Zusammenarbeit“ im Kontext."
+      },
+      {
+        "word": "vorstellen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „vorstellen“ im Kontext."
+      },
+      {
+        "word": "Vereinbarung",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
+      },
+      {
+        "word": "Lösung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Lösung“ im Kontext."
+      },
+      {
+        "word": "Zweck",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Zweck“ im Kontext."
+      },
+      {
+        "word": "teilnehmen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „teilnehmen“ im Kontext."
+      },
+      {
+        "word": "Ergebnis",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte ein Projekt vorstellen und Aufgaben verteilen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-zu-hause-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "zu-hause",
+    "title": "Zu Hause: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 75,
+    "estimatedMinutes": 10,
+    "description": "einen Tagesablauf beschreiben",
+    "intro": "einen Tagesablauf beschreiben",
+    "mission": "einen Tagesablauf beschreiben",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: aufstehen.",
+      "Wir lernen: frühstücken.",
+      "Wir lernen: arbeiten.",
+      "Wir lernen: kochen."
+    ],
+    "vocabulary": [
+      {
+        "word": "aufstehen",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „aufstehen“ im Kontext."
+      },
+      {
+        "word": "frühstücken",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „frühstücken“ im Kontext."
+      },
+      {
+        "word": "arbeiten",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „arbeiten“ im Kontext."
+      },
+      {
+        "word": "kochen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „kochen“ im Kontext."
+      },
+      {
+        "word": "schlafen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „schlafen“ im Kontext."
+      },
+      {
+        "word": "Uhr",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Uhr“ im Kontext."
+      },
+      {
+        "word": "morgens",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „morgens“ im Kontext."
+      },
+      {
+        "word": "abends",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „abends“ im Kontext."
+      },
+      {
+        "word": "Haushalt",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Haushalt“ im Kontext."
+      },
+      {
+        "word": "ruhig",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „ruhig“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: einen Tagesablauf beschreiben."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-natur-und-umwelt-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "natur-und-umwelt",
+    "title": "Natur und Umwelt: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 75,
+    "estimatedMinutes": 10,
+    "description": "über Umwelt im Alltag sprechen",
+    "intro": "über Umwelt im Alltag sprechen",
+    "mission": "über Umwelt im Alltag sprechen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Umwelt.",
+      "Wir lernen: Müll.",
+      "Wir lernen: trennen.",
+      "Wir lernen: Energie."
+    ],
+    "vocabulary": [
+      {
+        "word": "Umwelt",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Umwelt“ im Kontext."
+      },
+      {
+        "word": "Müll",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Müll“ im Kontext."
+      },
+      {
+        "word": "trennen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „trennen“ im Kontext."
+      },
+      {
+        "word": "Energie",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Energie“ im Kontext."
+      },
+      {
+        "word": "Fahrrad",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
+      },
+      {
+        "word": "sparen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „sparen“ im Kontext."
+      },
+      {
+        "word": "sauber",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „sauber“ im Kontext."
+      },
+      {
+        "word": "Park",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Park“ im Kontext."
+      },
+      {
+        "word": "schützen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „schützen“ im Kontext."
+      },
+      {
+        "word": "wichtig",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „wichtig“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: über Umwelt im Alltag sprechen."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-gemeinschaftsprojekt-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "gemeinschaftsprojekt",
+    "title": "Gemeinschaftsprojekt: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 75,
+    "estimatedMinutes": 10,
+    "description": "ein Projekt vorstellen und Aufgaben verteilen",
+    "intro": "ein Projekt vorstellen und Aufgaben verteilen",
+    "mission": "ein Projekt vorstellen und Aufgaben verteilen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Projekt.",
+      "Wir lernen: Recherche.",
+      "Wir lernen: Aufgabe.",
+      "Wir lernen: Zusammenarbeit."
+    ],
+    "vocabulary": [
+      {
+        "word": "Projekt",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Projekt“ im Kontext."
+      },
+      {
+        "word": "Recherche",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Recherche“ im Kontext."
+      },
+      {
+        "word": "Aufgabe",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Aufgabe“ im Kontext."
+      },
+      {
+        "word": "Zusammenarbeit",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Zusammenarbeit“ im Kontext."
+      },
+      {
+        "word": "vorstellen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „vorstellen“ im Kontext."
+      },
+      {
+        "word": "Vereinbarung",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
+      },
+      {
+        "word": "Lösung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Lösung“ im Kontext."
+      },
+      {
+        "word": "Zweck",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Zweck“ im Kontext."
+      },
+      {
+        "word": "teilnehmen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „teilnehmen“ im Kontext."
+      },
+      {
+        "word": "Ergebnis",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Ergebnis“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: ein Projekt vorstellen und Aufgaben verteilen."
+      }
+    ]
+  },
+  {
     "slug": "german-a1-wetter-und-jahreszeiten-reading",
     "level": "A1",
     "skill": "reading",
@@ -15402,10 +23784,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Wetter und Jahreszeiten: Grammatik",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "name": "Wetter, es gibt und Zeitangaben",
+        "definition": "Práctica guiada de Wetter, es gibt und Zeitangaben.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -15666,10 +24048,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Medien und Kommunikation: Grammatik",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "name": "Reflexive Verben",
+        "definition": "Práctica guiada de Reflexive Verben.",
         "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -15930,10 +24312,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Technik im Alltag: Grammatik",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "name": "Meinung und Argumentation",
+        "definition": "Práctica guiada de Meinung und Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -16113,6 +24495,666 @@
           "Ich finde den Vorschlag sinnvoll."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-wetter-und-jahreszeiten-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "wetter-und-jahreszeiten",
+    "title": "Wetter und Jahreszeiten: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 81,
+    "estimatedMinutes": 10,
+    "description": "über Wetter und Kleidung sprechen",
+    "intro": "über Wetter und Kleidung sprechen",
+    "mission": "über Wetter und Kleidung sprechen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Wetter.",
+      "Wir lernen: Sonne.",
+      "Wir lernen: Regen.",
+      "Wir lernen: kalt."
+    ],
+    "vocabulary": [
+      {
+        "word": "Wetter",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Wetter“ im Kontext."
+      },
+      {
+        "word": "Sonne",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Sonne“ im Kontext."
+      },
+      {
+        "word": "Regen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Regen“ im Kontext."
+      },
+      {
+        "word": "kalt",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „kalt“ im Kontext."
+      },
+      {
+        "word": "warm",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „warm“ im Kontext."
+      },
+      {
+        "word": "Sommer",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Sommer“ im Kontext."
+      },
+      {
+        "word": "Winter",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Winter“ im Kontext."
+      },
+      {
+        "word": "Jacke",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Jacke“ im Kontext."
+      },
+      {
+        "word": "heute",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „heute“ im Kontext."
+      },
+      {
+        "word": "draußen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „draußen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a1-wetter-und-jahreszeiten-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Wetter und Jahreszeiten: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der…», what happens next in «Wetter und Jahreszeiten: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Wetter und Jahreszeiten: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Wetter und Jahreszeiten: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Wetter und Jahreszeiten: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der…», what happens next in «Wetter und Jahreszeiten: Wortschatz»?",
+        "options": [
+          "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Wetter und Jahreszeiten: Wortschatz»?",
+        "options": [
+          "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Wetter und Jahreszeiten: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Wetter und Jahreszeiten“ spricht eine kleine Gruppe aus der Gemeinschaft über Wetter, Sonne und Regen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-medien-und-kommunikation-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "medien-und-kommunikation",
+    "title": "Medien und Kommunikation: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 81,
+    "estimatedMinutes": 10,
+    "description": "Nachrichten und Mediengewohnheiten beschreiben",
+    "intro": "Nachrichten und Mediengewohnheiten beschreiben",
+    "mission": "Nachrichten und Mediengewohnheiten beschreiben",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Nachricht.",
+      "Wir lernen: Zeitung.",
+      "Wir lernen: Handy.",
+      "Wir lernen: Internet."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nachricht",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+      },
+      {
+        "word": "Zeitung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Zeitung“ im Kontext."
+      },
+      {
+        "word": "Handy",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Handy“ im Kontext."
+      },
+      {
+        "word": "Internet",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Internet“ im Kontext."
+      },
+      {
+        "word": "informieren",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „informieren“ im Kontext."
+      },
+      {
+        "word": "erzählen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „erzählen“ im Kontext."
+      },
+      {
+        "word": "Meinung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Meinung“ im Kontext."
+      },
+      {
+        "word": "Bildschirm",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Bildschirm“ im Kontext."
+      },
+      {
+        "word": "Verbindung",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Verbindung“ im Kontext."
+      },
+      {
+        "word": "erklären",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „erklären“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a2-medien-und-kommunikation-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Medien und Kommunikation: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der…», what happens next in «Medien und Kommunikation: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Medien und Kommunikation: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Medien und Kommunikation: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Medien und Kommunikation: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der…», what happens next in «Medien und Kommunikation: Wortschatz»?",
+        "options": [
+          "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Medien und Kommunikation: Wortschatz»?",
+        "options": [
+          "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Medien und Kommunikation: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Medien und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Nachricht, Zeitung und Handy.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-technik-im-alltag-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "technik-im-alltag",
+    "title": "Technik im Alltag: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 81,
+    "estimatedMinutes": 10,
+    "description": "Technik mit Argumenten bewerten",
+    "intro": "Technik mit Argumenten bewerten",
+    "mission": "Technik mit Argumenten bewerten",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Technik.",
+      "Wir lernen: Gerät.",
+      "Wir lernen: Vorteil.",
+      "Wir lernen: Risiko."
+    ],
+    "vocabulary": [
+      {
+        "word": "Technik",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Technik“ im Kontext."
+      },
+      {
+        "word": "Gerät",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Gerät“ im Kontext."
+      },
+      {
+        "word": "Vorteil",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Vorteil“ im Kontext."
+      },
+      {
+        "word": "Risiko",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Risiko“ im Kontext."
+      },
+      {
+        "word": "schützen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „schützen“ im Kontext."
+      },
+      {
+        "word": "Gewohnheit",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
+      },
+      {
+        "word": "Verbindung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Verbindung“ im Kontext."
+      },
+      {
+        "word": "Information",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Information“ im Kontext."
+      },
+      {
+        "word": "wählen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „wählen“ im Kontext."
+      },
+      {
+        "word": "Gleichgewicht",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-b1-technik-im-alltag-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Technik im Alltag: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der…» in «Technik im Alltag: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Technik im Alltag: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Technik im Alltag: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Technik im Alltag: Wortschatz»?",
+        "options": [
+          "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der…» in «Technik im Alltag: Wortschatz»?",
+        "options": [
+          "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Technik im Alltag: Wortschatz»?",
+        "options": [
+          "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Technik im Alltag: Wortschatz»?",
+        "options": [
+          "Im Thema „Technik im Alltag“ spricht eine kleine Gruppe aus der Gemeinschaft über Technik, Gerät und Vorteil.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
       }
     ]
   },
@@ -16963,6 +26005,537 @@
     ]
   },
   {
+    "slug": "german-a1-wetter-und-jahreszeiten-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "wetter-und-jahreszeiten",
+    "title": "Wetter und Jahreszeiten: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 82,
+    "estimatedMinutes": 10,
+    "description": "über Wetter und Kleidung sprechen",
+    "intro": "über Wetter und Kleidung sprechen",
+    "mission": "über Wetter und Kleidung sprechen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Wetter.",
+      "Wir lernen: Sonne.",
+      "Wir lernen: Regen.",
+      "Wir lernen: kalt."
+    ],
+    "vocabulary": [
+      {
+        "word": "Wetter",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Wetter“ im Kontext."
+      },
+      {
+        "word": "Sonne",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Sonne“ im Kontext."
+      },
+      {
+        "word": "Regen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Regen“ im Kontext."
+      },
+      {
+        "word": "kalt",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „kalt“ im Kontext."
+      },
+      {
+        "word": "warm",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „warm“ im Kontext."
+      },
+      {
+        "word": "Sommer",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Sommer“ im Kontext."
+      },
+      {
+        "word": "Winter",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Winter“ im Kontext."
+      },
+      {
+        "word": "Jacke",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Jacke“ im Kontext."
+      },
+      {
+        "word": "heute",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „heute“ im Kontext."
+      },
+      {
+        "word": "draußen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „draußen“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte über Wetter und Kleidung sprechen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-medien-und-kommunikation-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "medien-und-kommunikation",
+    "title": "Medien und Kommunikation: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 82,
+    "estimatedMinutes": 10,
+    "description": "Nachrichten und Mediengewohnheiten beschreiben",
+    "intro": "Nachrichten und Mediengewohnheiten beschreiben",
+    "mission": "Nachrichten und Mediengewohnheiten beschreiben",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Nachricht.",
+      "Wir lernen: Zeitung.",
+      "Wir lernen: Handy.",
+      "Wir lernen: Internet."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nachricht",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+      },
+      {
+        "word": "Zeitung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Zeitung“ im Kontext."
+      },
+      {
+        "word": "Handy",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Handy“ im Kontext."
+      },
+      {
+        "word": "Internet",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Internet“ im Kontext."
+      },
+      {
+        "word": "informieren",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „informieren“ im Kontext."
+      },
+      {
+        "word": "erzählen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „erzählen“ im Kontext."
+      },
+      {
+        "word": "Meinung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Meinung“ im Kontext."
+      },
+      {
+        "word": "Bildschirm",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Bildschirm“ im Kontext."
+      },
+      {
+        "word": "Verbindung",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Verbindung“ im Kontext."
+      },
+      {
+        "word": "erklären",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „erklären“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Nachrichten und Mediengewohnheiten beschreiben. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-technik-im-alltag-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "technik-im-alltag",
+    "title": "Technik im Alltag: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 82,
+    "estimatedMinutes": 10,
+    "description": "Technik mit Argumenten bewerten",
+    "intro": "Technik mit Argumenten bewerten",
+    "mission": "Technik mit Argumenten bewerten",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Technik.",
+      "Wir lernen: Gerät.",
+      "Wir lernen: Vorteil.",
+      "Wir lernen: Risiko."
+    ],
+    "vocabulary": [
+      {
+        "word": "Technik",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Technik“ im Kontext."
+      },
+      {
+        "word": "Gerät",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Gerät“ im Kontext."
+      },
+      {
+        "word": "Vorteil",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Vorteil“ im Kontext."
+      },
+      {
+        "word": "Risiko",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Risiko“ im Kontext."
+      },
+      {
+        "word": "schützen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „schützen“ im Kontext."
+      },
+      {
+        "word": "Gewohnheit",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
+      },
+      {
+        "word": "Verbindung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Verbindung“ im Kontext."
+      },
+      {
+        "word": "Information",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Information“ im Kontext."
+      },
+      {
+        "word": "wählen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „wählen“ im Kontext."
+      },
+      {
+        "word": "Gleichgewicht",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Technik mit Argumenten bewerten. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-wetter-und-jahreszeiten-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "wetter-und-jahreszeiten",
+    "title": "Wetter und Jahreszeiten: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 85,
+    "estimatedMinutes": 10,
+    "description": "über Wetter und Kleidung sprechen",
+    "intro": "über Wetter und Kleidung sprechen",
+    "mission": "über Wetter und Kleidung sprechen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Wetter.",
+      "Wir lernen: Sonne.",
+      "Wir lernen: Regen.",
+      "Wir lernen: kalt."
+    ],
+    "vocabulary": [
+      {
+        "word": "Wetter",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Wetter“ im Kontext."
+      },
+      {
+        "word": "Sonne",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Sonne“ im Kontext."
+      },
+      {
+        "word": "Regen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Regen“ im Kontext."
+      },
+      {
+        "word": "kalt",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „kalt“ im Kontext."
+      },
+      {
+        "word": "warm",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „warm“ im Kontext."
+      },
+      {
+        "word": "Sommer",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Sommer“ im Kontext."
+      },
+      {
+        "word": "Winter",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Winter“ im Kontext."
+      },
+      {
+        "word": "Jacke",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Jacke“ im Kontext."
+      },
+      {
+        "word": "heute",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „heute“ im Kontext."
+      },
+      {
+        "word": "draußen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „draußen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: über Wetter und Kleidung sprechen."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-medien-und-kommunikation-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "medien-und-kommunikation",
+    "title": "Medien und Kommunikation: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 85,
+    "estimatedMinutes": 10,
+    "description": "Nachrichten und Mediengewohnheiten beschreiben",
+    "intro": "Nachrichten und Mediengewohnheiten beschreiben",
+    "mission": "Nachrichten und Mediengewohnheiten beschreiben",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Nachricht.",
+      "Wir lernen: Zeitung.",
+      "Wir lernen: Handy.",
+      "Wir lernen: Internet."
+    ],
+    "vocabulary": [
+      {
+        "word": "Nachricht",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+      },
+      {
+        "word": "Zeitung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Zeitung“ im Kontext."
+      },
+      {
+        "word": "Handy",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Handy“ im Kontext."
+      },
+      {
+        "word": "Internet",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Internet“ im Kontext."
+      },
+      {
+        "word": "informieren",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „informieren“ im Kontext."
+      },
+      {
+        "word": "erzählen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „erzählen“ im Kontext."
+      },
+      {
+        "word": "Meinung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Meinung“ im Kontext."
+      },
+      {
+        "word": "Bildschirm",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Bildschirm“ im Kontext."
+      },
+      {
+        "word": "Verbindung",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Verbindung“ im Kontext."
+      },
+      {
+        "word": "erklären",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „erklären“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Nachrichten und Mediengewohnheiten beschreiben."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-technik-im-alltag-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "technik-im-alltag",
+    "title": "Technik im Alltag: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 85,
+    "estimatedMinutes": 10,
+    "description": "Technik mit Argumenten bewerten",
+    "intro": "Technik mit Argumenten bewerten",
+    "mission": "Technik mit Argumenten bewerten",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Technik.",
+      "Wir lernen: Gerät.",
+      "Wir lernen: Vorteil.",
+      "Wir lernen: Risiko."
+    ],
+    "vocabulary": [
+      {
+        "word": "Technik",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Technik“ im Kontext."
+      },
+      {
+        "word": "Gerät",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Gerät“ im Kontext."
+      },
+      {
+        "word": "Vorteil",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Vorteil“ im Kontext."
+      },
+      {
+        "word": "Risiko",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Risiko“ im Kontext."
+      },
+      {
+        "word": "schützen",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „schützen“ im Kontext."
+      },
+      {
+        "word": "Gewohnheit",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Gewohnheit“ im Kontext."
+      },
+      {
+        "word": "Verbindung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Verbindung“ im Kontext."
+      },
+      {
+        "word": "Information",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Information“ im Kontext."
+      },
+      {
+        "word": "wählen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „wählen“ im Kontext."
+      },
+      {
+        "word": "Gleichgewicht",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Gleichgewicht“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Technik mit Argumenten bewerten."
+      }
+    ]
+  },
+  {
     "slug": "german-a1-freizeit-reading",
     "level": "A1",
     "skill": "reading",
@@ -17465,10 +27038,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Freizeit: Grammatik",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "name": "gern, lieber und Freizeit",
+        "definition": "Práctica guiada de gern, lieber und Freizeit.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -17729,10 +27302,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Lernen und Ziele: Grammatik",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "name": "zu + Infinitiv",
+        "definition": "Práctica guiada de zu + Infinitiv.",
         "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -17993,10 +27566,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Stadt und Mobilität: Grammatik",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "name": "Futur I und Vermutungen",
+        "definition": "Práctica guiada de Futur I und Vermutungen.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -18176,6 +27749,666 @@
           "Ich finde den Vorschlag sinnvoll."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-freizeit-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "freizeit",
+    "title": "Freizeit: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 91,
+    "estimatedMinutes": 10,
+    "description": "über Hobbys sprechen",
+    "intro": "über Hobbys sprechen",
+    "mission": "über Hobbys sprechen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Hobby.",
+      "Wir lernen: lesen.",
+      "Wir lernen: laufen.",
+      "Wir lernen: Kino."
+    ],
+    "vocabulary": [
+      {
+        "word": "Hobby",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Hobby“ im Kontext."
+      },
+      {
+        "word": "lesen",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „lesen“ im Kontext."
+      },
+      {
+        "word": "laufen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „laufen“ im Kontext."
+      },
+      {
+        "word": "Kino",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Kino“ im Kontext."
+      },
+      {
+        "word": "Sport",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Sport“ im Kontext."
+      },
+      {
+        "word": "Wochenende",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Wochenende“ im Kontext."
+      },
+      {
+        "word": "gern",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „gern“ im Kontext."
+      },
+      {
+        "word": "manchmal",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „manchmal“ im Kontext."
+      },
+      {
+        "word": "oft",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „oft“ im Kontext."
+      },
+      {
+        "word": "Zeit",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Zeit“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a1-freizeit-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Freizeit: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Freizeit: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Freizeit: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Freizeit: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Freizeit: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Freizeit: Wortschatz»?",
+        "options": [
+          "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Freizeit: Wortschatz»?",
+        "options": [
+          "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Freizeit: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Freizeit“ spricht eine kleine Gruppe aus der Gemeinschaft über Hobby, lesen und laufen.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-lernen-und-ziele-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "lernen-und-ziele",
+    "title": "Lernen und Ziele: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 91,
+    "estimatedMinutes": 10,
+    "description": "Lernziele und Fortschritt erklären",
+    "intro": "Lernziele und Fortschritt erklären",
+    "mission": "Lernziele und Fortschritt erklären",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Ziel.",
+      "Wir lernen: Kurs.",
+      "Wir lernen: üben.",
+      "Wir lernen: Fortschritt."
+    ],
+    "vocabulary": [
+      {
+        "word": "Ziel",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Ziel“ im Kontext."
+      },
+      {
+        "word": "Kurs",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Kurs“ im Kontext."
+      },
+      {
+        "word": "üben",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „üben“ im Kontext."
+      },
+      {
+        "word": "Fortschritt",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Fortschritt“ im Kontext."
+      },
+      {
+        "word": "schwierig",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „schwierig“ im Kontext."
+      },
+      {
+        "word": "leichter",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „leichter“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "Prüfung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Prüfung“ im Kontext."
+      },
+      {
+        "word": "Methode",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Methode“ im Kontext."
+      },
+      {
+        "word": "Erfolg",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Erfolg“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a2-lernen-und-ziele-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Lernen und Ziele: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der…», what happens next in «Lernen und Ziele: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Lernen und Ziele: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Lernen und Ziele: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Lernen und Ziele: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der…», what happens next in «Lernen und Ziele: Wortschatz»?",
+        "options": [
+          "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Lernen und Ziele: Wortschatz»?",
+        "options": [
+          "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Lernen und Ziele: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Lernen und Ziele“ spricht eine kleine Gruppe aus der Gemeinschaft über Ziel, Kurs und üben.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-stadt-und-mobilitat-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "stadt-und-mobilitat",
+    "title": "Stadt und Mobilität: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 91,
+    "estimatedMinutes": 10,
+    "description": "städtische Mobilität vergleichen",
+    "intro": "städtische Mobilität vergleichen",
+    "mission": "städtische Mobilität vergleichen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Verkehr.",
+      "Wir lernen: Strecke.",
+      "Wir lernen: Stau.",
+      "Wir lernen: Fahrrad."
+    ],
+    "vocabulary": [
+      {
+        "word": "Verkehr",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Verkehr“ im Kontext."
+      },
+      {
+        "word": "Strecke",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Strecke“ im Kontext."
+      },
+      {
+        "word": "Stau",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Stau“ im Kontext."
+      },
+      {
+        "word": "Fahrrad",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "zugänglich",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „zugänglich“ im Kontext."
+      },
+      {
+        "word": "Verspätung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Verspätung“ im Kontext."
+      },
+      {
+        "word": "Dienst",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Dienst“ im Kontext."
+      },
+      {
+        "word": "vorschlagen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „vorschlagen“ im Kontext."
+      },
+      {
+        "word": "Viertel",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Viertel“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-b1-stadt-und-mobilitat-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Stadt und Mobilität: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der…» in «Stadt und Mobilität: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Stadt und Mobilität: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Stadt und Mobilität: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Stadt und Mobilität: Wortschatz»?",
+        "options": [
+          "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der…» in «Stadt und Mobilität: Wortschatz»?",
+        "options": [
+          "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Stadt und Mobilität: Wortschatz»?",
+        "options": [
+          "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Stadt und Mobilität: Wortschatz»?",
+        "options": [
+          "Im Thema „Stadt und Mobilität“ spricht eine kleine Gruppe aus der Gemeinschaft über Verkehr, Strecke und Stau.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
       }
     ]
   },
@@ -19026,6 +29259,537 @@
     ]
   },
   {
+    "slug": "german-a1-freizeit-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "freizeit",
+    "title": "Freizeit: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 92,
+    "estimatedMinutes": 10,
+    "description": "über Hobbys sprechen",
+    "intro": "über Hobbys sprechen",
+    "mission": "über Hobbys sprechen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Hobby.",
+      "Wir lernen: lesen.",
+      "Wir lernen: laufen.",
+      "Wir lernen: Kino."
+    ],
+    "vocabulary": [
+      {
+        "word": "Hobby",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Hobby“ im Kontext."
+      },
+      {
+        "word": "lesen",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „lesen“ im Kontext."
+      },
+      {
+        "word": "laufen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „laufen“ im Kontext."
+      },
+      {
+        "word": "Kino",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Kino“ im Kontext."
+      },
+      {
+        "word": "Sport",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Sport“ im Kontext."
+      },
+      {
+        "word": "Wochenende",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Wochenende“ im Kontext."
+      },
+      {
+        "word": "gern",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „gern“ im Kontext."
+      },
+      {
+        "word": "manchmal",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „manchmal“ im Kontext."
+      },
+      {
+        "word": "oft",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „oft“ im Kontext."
+      },
+      {
+        "word": "Zeit",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Zeit“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte über Hobbys sprechen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-lernen-und-ziele-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "lernen-und-ziele",
+    "title": "Lernen und Ziele: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 92,
+    "estimatedMinutes": 10,
+    "description": "Lernziele und Fortschritt erklären",
+    "intro": "Lernziele und Fortschritt erklären",
+    "mission": "Lernziele und Fortschritt erklären",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Ziel.",
+      "Wir lernen: Kurs.",
+      "Wir lernen: üben.",
+      "Wir lernen: Fortschritt."
+    ],
+    "vocabulary": [
+      {
+        "word": "Ziel",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Ziel“ im Kontext."
+      },
+      {
+        "word": "Kurs",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Kurs“ im Kontext."
+      },
+      {
+        "word": "üben",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „üben“ im Kontext."
+      },
+      {
+        "word": "Fortschritt",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Fortschritt“ im Kontext."
+      },
+      {
+        "word": "schwierig",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „schwierig“ im Kontext."
+      },
+      {
+        "word": "leichter",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „leichter“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "Prüfung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Prüfung“ im Kontext."
+      },
+      {
+        "word": "Methode",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Methode“ im Kontext."
+      },
+      {
+        "word": "Erfolg",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Erfolg“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Lernziele und Fortschritt erklären. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-stadt-und-mobilitat-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "stadt-und-mobilitat",
+    "title": "Stadt und Mobilität: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 92,
+    "estimatedMinutes": 10,
+    "description": "städtische Mobilität vergleichen",
+    "intro": "städtische Mobilität vergleichen",
+    "mission": "städtische Mobilität vergleichen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Verkehr.",
+      "Wir lernen: Strecke.",
+      "Wir lernen: Stau.",
+      "Wir lernen: Fahrrad."
+    ],
+    "vocabulary": [
+      {
+        "word": "Verkehr",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Verkehr“ im Kontext."
+      },
+      {
+        "word": "Strecke",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Strecke“ im Kontext."
+      },
+      {
+        "word": "Stau",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Stau“ im Kontext."
+      },
+      {
+        "word": "Fahrrad",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "zugänglich",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „zugänglich“ im Kontext."
+      },
+      {
+        "word": "Verspätung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Verspätung“ im Kontext."
+      },
+      {
+        "word": "Dienst",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Dienst“ im Kontext."
+      },
+      {
+        "word": "vorschlagen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „vorschlagen“ im Kontext."
+      },
+      {
+        "word": "Viertel",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Viertel“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte städtische Mobilität vergleichen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-freizeit-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "freizeit",
+    "title": "Freizeit: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 95,
+    "estimatedMinutes": 10,
+    "description": "über Hobbys sprechen",
+    "intro": "über Hobbys sprechen",
+    "mission": "über Hobbys sprechen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Hobby.",
+      "Wir lernen: lesen.",
+      "Wir lernen: laufen.",
+      "Wir lernen: Kino."
+    ],
+    "vocabulary": [
+      {
+        "word": "Hobby",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Hobby“ im Kontext."
+      },
+      {
+        "word": "lesen",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „lesen“ im Kontext."
+      },
+      {
+        "word": "laufen",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „laufen“ im Kontext."
+      },
+      {
+        "word": "Kino",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Kino“ im Kontext."
+      },
+      {
+        "word": "Sport",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Sport“ im Kontext."
+      },
+      {
+        "word": "Wochenende",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Wochenende“ im Kontext."
+      },
+      {
+        "word": "gern",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „gern“ im Kontext."
+      },
+      {
+        "word": "manchmal",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „manchmal“ im Kontext."
+      },
+      {
+        "word": "oft",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „oft“ im Kontext."
+      },
+      {
+        "word": "Zeit",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Zeit“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: über Hobbys sprechen."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-lernen-und-ziele-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "lernen-und-ziele",
+    "title": "Lernen und Ziele: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 95,
+    "estimatedMinutes": 10,
+    "description": "Lernziele und Fortschritt erklären",
+    "intro": "Lernziele und Fortschritt erklären",
+    "mission": "Lernziele und Fortschritt erklären",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Ziel.",
+      "Wir lernen: Kurs.",
+      "Wir lernen: üben.",
+      "Wir lernen: Fortschritt."
+    ],
+    "vocabulary": [
+      {
+        "word": "Ziel",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Ziel“ im Kontext."
+      },
+      {
+        "word": "Kurs",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Kurs“ im Kontext."
+      },
+      {
+        "word": "üben",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „üben“ im Kontext."
+      },
+      {
+        "word": "Fortschritt",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Fortschritt“ im Kontext."
+      },
+      {
+        "word": "schwierig",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „schwierig“ im Kontext."
+      },
+      {
+        "word": "leichter",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „leichter“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "Prüfung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Prüfung“ im Kontext."
+      },
+      {
+        "word": "Methode",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Methode“ im Kontext."
+      },
+      {
+        "word": "Erfolg",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Erfolg“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Lernziele und Fortschritt erklären."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-stadt-und-mobilitat-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "stadt-und-mobilitat",
+    "title": "Stadt und Mobilität: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 95,
+    "estimatedMinutes": 10,
+    "description": "städtische Mobilität vergleichen",
+    "intro": "städtische Mobilität vergleichen",
+    "mission": "städtische Mobilität vergleichen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Verkehr.",
+      "Wir lernen: Strecke.",
+      "Wir lernen: Stau.",
+      "Wir lernen: Fahrrad."
+    ],
+    "vocabulary": [
+      {
+        "word": "Verkehr",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Verkehr“ im Kontext."
+      },
+      {
+        "word": "Strecke",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Strecke“ im Kontext."
+      },
+      {
+        "word": "Stau",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Stau“ im Kontext."
+      },
+      {
+        "word": "Fahrrad",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Fahrrad“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "zugänglich",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „zugänglich“ im Kontext."
+      },
+      {
+        "word": "Verspätung",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Verspätung“ im Kontext."
+      },
+      {
+        "word": "Dienst",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Dienst“ im Kontext."
+      },
+      {
+        "word": "vorschlagen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „vorschlagen“ im Kontext."
+      },
+      {
+        "word": "Viertel",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Viertel“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: städtische Mobilität vergleichen."
+      }
+    ]
+  },
+  {
     "slug": "german-a1-unterwegs-reading",
     "level": "A1",
     "skill": "reading",
@@ -19528,10 +30292,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Unterwegs: Grammatik",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "name": "Perfekt mit haben",
+        "definition": "Práctica guiada de Perfekt mit haben.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -19792,10 +30556,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Stadt und Service: Grammatik",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "name": "Konjunktiv II: höfliche Bitten",
+        "definition": "Práctica guiada de Konjunktiv II: höfliche Bitten.",
         "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -20056,10 +30820,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Pläne für die Zukunft: Grammatik",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "name": "Verben mit Präpositionen",
+        "definition": "Práctica guiada de Verben mit Präpositionen.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -20239,6 +31003,666 @@
           "Ich finde den Vorschlag sinnvoll."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-unterwegs-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "unterwegs",
+    "title": "Unterwegs: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 101,
+    "estimatedMinutes": 10,
+    "description": "eine einfache Reise planen",
+    "intro": "eine einfache Reise planen",
+    "mission": "eine einfache Reise planen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Zug.",
+      "Wir lernen: Ticket.",
+      "Wir lernen: Abfahrt.",
+      "Wir lernen: Ankunft."
+    ],
+    "vocabulary": [
+      {
+        "word": "Zug",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Zug“ im Kontext."
+      },
+      {
+        "word": "Ticket",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Ticket“ im Kontext."
+      },
+      {
+        "word": "Abfahrt",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Abfahrt“ im Kontext."
+      },
+      {
+        "word": "Ankunft",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Ankunft“ im Kontext."
+      },
+      {
+        "word": "Reise",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Reise“ im Kontext."
+      },
+      {
+        "word": "Koffer",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Koffer“ im Kontext."
+      },
+      {
+        "word": "Bahnhof",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
+      },
+      {
+        "word": "warten",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „warten“ im Kontext."
+      },
+      {
+        "word": "fahren",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „fahren“ im Kontext."
+      },
+      {
+        "word": "besuchen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „besuchen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a1-unterwegs-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Unterwegs: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Unterwegs: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Unterwegs: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Unterwegs: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Unterwegs: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft…», what happens next in «Unterwegs: Wortschatz»?",
+        "options": [
+          "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Unterwegs: Wortschatz»?",
+        "options": [
+          "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Unterwegs: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Unterwegs“ spricht eine kleine Gruppe aus der Gemeinschaft über Zug, Ticket und Abfahrt.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-stadt-und-service-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "stadt-und-service",
+    "title": "Stadt und Service: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 101,
+    "estimatedMinutes": 10,
+    "description": "Probleme in der Stadt lösen",
+    "intro": "Probleme in der Stadt lösen",
+    "mission": "Probleme in der Stadt lösen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Service.",
+      "Wir lernen: Formular.",
+      "Wir lernen: Rathaus.",
+      "Wir lernen: Auskunft."
+    ],
+    "vocabulary": [
+      {
+        "word": "Service",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Service“ im Kontext."
+      },
+      {
+        "word": "Formular",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Formular“ im Kontext."
+      },
+      {
+        "word": "Rathaus",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Rathaus“ im Kontext."
+      },
+      {
+        "word": "Auskunft",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Auskunft“ im Kontext."
+      },
+      {
+        "word": "Problem",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Problem“ im Kontext."
+      },
+      {
+        "word": "helfen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „helfen“ im Kontext."
+      },
+      {
+        "word": "erklären",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „erklären“ im Kontext."
+      },
+      {
+        "word": "öffnen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „öffnen“ im Kontext."
+      },
+      {
+        "word": "geschlossen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „geschlossen“ im Kontext."
+      },
+      {
+        "word": "Lösung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Lösung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a2-stadt-und-service-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Stadt und Service: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der…», what happens next in «Stadt und Service: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Stadt und Service: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Stadt und Service: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Stadt und Service: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der…», what happens next in «Stadt und Service: Wortschatz»?",
+        "options": [
+          "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Stadt und Service: Wortschatz»?",
+        "options": [
+          "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Stadt und Service: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Stadt und Service“ spricht eine kleine Gruppe aus der Gemeinschaft über Service, Formular und Rathaus.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-plane-fur-die-zukunft-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "plane-fur-die-zukunft",
+    "title": "Pläne für die Zukunft: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 101,
+    "estimatedMinutes": 10,
+    "description": "über Ziele und Möglichkeiten sprechen",
+    "intro": "über Ziele und Möglichkeiten sprechen",
+    "mission": "über Ziele und Möglichkeiten sprechen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Zukunft.",
+      "Wir lernen: Ziel.",
+      "Wir lernen: Möglichkeit.",
+      "Wir lernen: entscheiden."
+    ],
+    "vocabulary": [
+      {
+        "word": "Zukunft",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Zukunft“ im Kontext."
+      },
+      {
+        "word": "Ziel",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Ziel“ im Kontext."
+      },
+      {
+        "word": "Möglichkeit",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Möglichkeit“ im Kontext."
+      },
+      {
+        "word": "entscheiden",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „entscheiden“ im Kontext."
+      },
+      {
+        "word": "Erfahrung",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
+      },
+      {
+        "word": "Ausbildung",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Ausbildung“ im Kontext."
+      },
+      {
+        "word": "Weg",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Weg“ im Kontext."
+      },
+      {
+        "word": "hoffen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „hoffen“ im Kontext."
+      },
+      {
+        "word": "Wahl",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Wahl“ im Kontext."
+      },
+      {
+        "word": "erreichen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „erreichen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-b1-plane-fur-die-zukunft-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Pläne für die Zukunft: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der…» in «Pläne für die Zukunft: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Pläne für die Zukunft: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Pläne für die Zukunft: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Pläne für die Zukunft: Wortschatz»?",
+        "options": [
+          "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der…» in «Pläne für die Zukunft: Wortschatz»?",
+        "options": [
+          "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Pläne für die Zukunft: Wortschatz»?",
+        "options": [
+          "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Pläne für die Zukunft: Wortschatz»?",
+        "options": [
+          "Im Thema „Pläne für die Zukunft“ spricht eine kleine Gruppe aus der Gemeinschaft über Zukunft, Ziel und Möglichkeit.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
       }
     ]
   },
@@ -21089,6 +32513,537 @@
     ]
   },
   {
+    "slug": "german-a1-unterwegs-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "unterwegs",
+    "title": "Unterwegs: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 102,
+    "estimatedMinutes": 10,
+    "description": "eine einfache Reise planen",
+    "intro": "eine einfache Reise planen",
+    "mission": "eine einfache Reise planen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Zug.",
+      "Wir lernen: Ticket.",
+      "Wir lernen: Abfahrt.",
+      "Wir lernen: Ankunft."
+    ],
+    "vocabulary": [
+      {
+        "word": "Zug",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Zug“ im Kontext."
+      },
+      {
+        "word": "Ticket",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Ticket“ im Kontext."
+      },
+      {
+        "word": "Abfahrt",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Abfahrt“ im Kontext."
+      },
+      {
+        "word": "Ankunft",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Ankunft“ im Kontext."
+      },
+      {
+        "word": "Reise",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Reise“ im Kontext."
+      },
+      {
+        "word": "Koffer",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Koffer“ im Kontext."
+      },
+      {
+        "word": "Bahnhof",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
+      },
+      {
+        "word": "warten",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „warten“ im Kontext."
+      },
+      {
+        "word": "fahren",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „fahren“ im Kontext."
+      },
+      {
+        "word": "besuchen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „besuchen“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte eine einfache Reise planen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-stadt-und-service-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "stadt-und-service",
+    "title": "Stadt und Service: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 102,
+    "estimatedMinutes": 10,
+    "description": "Probleme in der Stadt lösen",
+    "intro": "Probleme in der Stadt lösen",
+    "mission": "Probleme in der Stadt lösen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Service.",
+      "Wir lernen: Formular.",
+      "Wir lernen: Rathaus.",
+      "Wir lernen: Auskunft."
+    ],
+    "vocabulary": [
+      {
+        "word": "Service",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Service“ im Kontext."
+      },
+      {
+        "word": "Formular",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Formular“ im Kontext."
+      },
+      {
+        "word": "Rathaus",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Rathaus“ im Kontext."
+      },
+      {
+        "word": "Auskunft",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Auskunft“ im Kontext."
+      },
+      {
+        "word": "Problem",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Problem“ im Kontext."
+      },
+      {
+        "word": "helfen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „helfen“ im Kontext."
+      },
+      {
+        "word": "erklären",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „erklären“ im Kontext."
+      },
+      {
+        "word": "öffnen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „öffnen“ im Kontext."
+      },
+      {
+        "word": "geschlossen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „geschlossen“ im Kontext."
+      },
+      {
+        "word": "Lösung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Lösung“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Probleme in der Stadt lösen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-plane-fur-die-zukunft-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "plane-fur-die-zukunft",
+    "title": "Pläne für die Zukunft: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 102,
+    "estimatedMinutes": 10,
+    "description": "über Ziele und Möglichkeiten sprechen",
+    "intro": "über Ziele und Möglichkeiten sprechen",
+    "mission": "über Ziele und Möglichkeiten sprechen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Zukunft.",
+      "Wir lernen: Ziel.",
+      "Wir lernen: Möglichkeit.",
+      "Wir lernen: entscheiden."
+    ],
+    "vocabulary": [
+      {
+        "word": "Zukunft",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Zukunft“ im Kontext."
+      },
+      {
+        "word": "Ziel",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Ziel“ im Kontext."
+      },
+      {
+        "word": "Möglichkeit",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Möglichkeit“ im Kontext."
+      },
+      {
+        "word": "entscheiden",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „entscheiden“ im Kontext."
+      },
+      {
+        "word": "Erfahrung",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
+      },
+      {
+        "word": "Ausbildung",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Ausbildung“ im Kontext."
+      },
+      {
+        "word": "Weg",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Weg“ im Kontext."
+      },
+      {
+        "word": "hoffen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „hoffen“ im Kontext."
+      },
+      {
+        "word": "Wahl",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Wahl“ im Kontext."
+      },
+      {
+        "word": "erreichen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „erreichen“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte über Ziele und Möglichkeiten sprechen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-unterwegs-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "unterwegs",
+    "title": "Unterwegs: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 105,
+    "estimatedMinutes": 10,
+    "description": "eine einfache Reise planen",
+    "intro": "eine einfache Reise planen",
+    "mission": "eine einfache Reise planen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Zug.",
+      "Wir lernen: Ticket.",
+      "Wir lernen: Abfahrt.",
+      "Wir lernen: Ankunft."
+    ],
+    "vocabulary": [
+      {
+        "word": "Zug",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Zug“ im Kontext."
+      },
+      {
+        "word": "Ticket",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Ticket“ im Kontext."
+      },
+      {
+        "word": "Abfahrt",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Abfahrt“ im Kontext."
+      },
+      {
+        "word": "Ankunft",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Ankunft“ im Kontext."
+      },
+      {
+        "word": "Reise",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Reise“ im Kontext."
+      },
+      {
+        "word": "Koffer",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Koffer“ im Kontext."
+      },
+      {
+        "word": "Bahnhof",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Bahnhof“ im Kontext."
+      },
+      {
+        "word": "warten",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „warten“ im Kontext."
+      },
+      {
+        "word": "fahren",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „fahren“ im Kontext."
+      },
+      {
+        "word": "besuchen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „besuchen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: eine einfache Reise planen."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-stadt-und-service-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "stadt-und-service",
+    "title": "Stadt und Service: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 105,
+    "estimatedMinutes": 10,
+    "description": "Probleme in der Stadt lösen",
+    "intro": "Probleme in der Stadt lösen",
+    "mission": "Probleme in der Stadt lösen",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Service.",
+      "Wir lernen: Formular.",
+      "Wir lernen: Rathaus.",
+      "Wir lernen: Auskunft."
+    ],
+    "vocabulary": [
+      {
+        "word": "Service",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Service“ im Kontext."
+      },
+      {
+        "word": "Formular",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Formular“ im Kontext."
+      },
+      {
+        "word": "Rathaus",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Rathaus“ im Kontext."
+      },
+      {
+        "word": "Auskunft",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Auskunft“ im Kontext."
+      },
+      {
+        "word": "Problem",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Problem“ im Kontext."
+      },
+      {
+        "word": "helfen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „helfen“ im Kontext."
+      },
+      {
+        "word": "erklären",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „erklären“ im Kontext."
+      },
+      {
+        "word": "öffnen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „öffnen“ im Kontext."
+      },
+      {
+        "word": "geschlossen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „geschlossen“ im Kontext."
+      },
+      {
+        "word": "Lösung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Lösung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Probleme in der Stadt lösen."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-plane-fur-die-zukunft-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "plane-fur-die-zukunft",
+    "title": "Pläne für die Zukunft: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 105,
+    "estimatedMinutes": 10,
+    "description": "über Ziele und Möglichkeiten sprechen",
+    "intro": "über Ziele und Möglichkeiten sprechen",
+    "mission": "über Ziele und Möglichkeiten sprechen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Zukunft.",
+      "Wir lernen: Ziel.",
+      "Wir lernen: Möglichkeit.",
+      "Wir lernen: entscheiden."
+    ],
+    "vocabulary": [
+      {
+        "word": "Zukunft",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Zukunft“ im Kontext."
+      },
+      {
+        "word": "Ziel",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Ziel“ im Kontext."
+      },
+      {
+        "word": "Möglichkeit",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Möglichkeit“ im Kontext."
+      },
+      {
+        "word": "entscheiden",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „entscheiden“ im Kontext."
+      },
+      {
+        "word": "Erfahrung",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Erfahrung“ im Kontext."
+      },
+      {
+        "word": "Ausbildung",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Ausbildung“ im Kontext."
+      },
+      {
+        "word": "Weg",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Weg“ im Kontext."
+      },
+      {
+        "word": "hoffen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „hoffen“ im Kontext."
+      },
+      {
+        "word": "Wahl",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „Wahl“ im Kontext."
+      },
+      {
+        "word": "erreichen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „erreichen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: über Ziele und Möglichkeiten sprechen."
+      }
+    ]
+  },
+  {
     "slug": "german-a1-kleidung-und-farben-reading",
     "level": "A1",
     "skill": "reading",
@@ -21591,10 +33546,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Kleidung und Farben: Grammatik",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "name": "Kleidung: Adjektive und Farben",
+        "definition": "Práctica guiada de Kleidung: Adjektive und Farben.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -21855,10 +33810,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Feste und Traditionen: Grammatik",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "name": "Feste: Perfekt und Reihenfolge",
+        "definition": "Práctica guiada de Feste: Perfekt und Reihenfolge.",
         "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -22119,10 +34074,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Beziehungen und Kommunikation: Grammatik",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "name": "Beziehungen: Relativsätze und indirekte Fragen",
+        "definition": "Práctica guiada de Beziehungen: Relativsätze und indirekte Fragen.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -22302,6 +34257,666 @@
           "Ich finde den Vorschlag sinnvoll."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-kleidung-und-farben-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "kleidung-und-farben",
+    "title": "Kleidung und Farben: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 111,
+    "estimatedMinutes": 10,
+    "description": "Kleidung beschreiben und auswählen",
+    "intro": "Kleidung beschreiben und auswählen",
+    "mission": "Kleidung beschreiben und auswählen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Kleidung.",
+      "Wir lernen: Hemd.",
+      "Wir lernen: Hose.",
+      "Wir lernen: Kleid."
+    ],
+    "vocabulary": [
+      {
+        "word": "Kleidung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Kleidung“ im Kontext."
+      },
+      {
+        "word": "Hemd",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Hemd“ im Kontext."
+      },
+      {
+        "word": "Hose",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Hose“ im Kontext."
+      },
+      {
+        "word": "Kleid",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Kleid“ im Kontext."
+      },
+      {
+        "word": "Farbe",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Farbe“ im Kontext."
+      },
+      {
+        "word": "blau",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „blau“ im Kontext."
+      },
+      {
+        "word": "rot",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „rot“ im Kontext."
+      },
+      {
+        "word": "tragen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „tragen“ im Kontext."
+      },
+      {
+        "word": "passen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „passen“ im Kontext."
+      },
+      {
+        "word": "kaufen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „kaufen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a1-kleidung-und-farben-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Kleidung und Farben: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der…», what happens next in «Kleidung und Farben: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Kleidung und Farben: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Kleidung und Farben: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Kleidung und Farben: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der…», what happens next in «Kleidung und Farben: Wortschatz»?",
+        "options": [
+          "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Kleidung und Farben: Wortschatz»?",
+        "options": [
+          "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Kleidung und Farben: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Kleidung und Farben“ spricht eine kleine Gruppe aus der Gemeinschaft über Kleidung, Hemd und Hose.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-feste-und-traditionen-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "feste-und-traditionen",
+    "title": "Feste und Traditionen: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 111,
+    "estimatedMinutes": 10,
+    "description": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "intro": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "mission": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Fest.",
+      "Wir lernen: Tradition.",
+      "Wir lernen: feiern.",
+      "Wir lernen: vorbereitet."
+    ],
+    "vocabulary": [
+      {
+        "word": "Fest",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Fest“ im Kontext."
+      },
+      {
+        "word": "Tradition",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Tradition“ im Kontext."
+      },
+      {
+        "word": "feiern",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „feiern“ im Kontext."
+      },
+      {
+        "word": "vorbereitet",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „vorbereitet“ im Kontext."
+      },
+      {
+        "word": "besucht",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „besucht“ im Kontext."
+      },
+      {
+        "word": "gemeinsam",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
+      },
+      {
+        "word": "Reihenfolge",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Reihenfolge“ im Kontext."
+      },
+      {
+        "word": "früher",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „früher“ im Kontext."
+      },
+      {
+        "word": "danach",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „danach“ im Kontext."
+      },
+      {
+        "word": "Erinnerung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a2-feste-und-traditionen-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Feste und Traditionen: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der…», what happens next in «Feste und Traditionen: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Feste und Traditionen: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Feste und Traditionen: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Feste und Traditionen: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der…», what happens next in «Feste und Traditionen: Wortschatz»?",
+        "options": [
+          "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Feste und Traditionen: Wortschatz»?",
+        "options": [
+          "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Feste und Traditionen: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Feste und Traditionen“ spricht eine kleine Gruppe aus der Gemeinschaft über Fest, Tradition und feiern.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-beziehungen-und-kommunikation-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "beziehungen-und-kommunikation",
+    "title": "Beziehungen und Kommunikation: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 111,
+    "estimatedMinutes": 10,
+    "description": "über Beziehungen sprechen und Informationen weitergeben",
+    "intro": "über Beziehungen sprechen und Informationen weitergeben",
+    "mission": "über Beziehungen sprechen und Informationen weitergeben",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Beziehung.",
+      "Wir lernen: zuhören.",
+      "Wir lernen: erklären.",
+      "Wir lernen: Nachricht."
+    ],
+    "vocabulary": [
+      {
+        "word": "Beziehung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Beziehung“ im Kontext."
+      },
+      {
+        "word": "zuhören",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „zuhören“ im Kontext."
+      },
+      {
+        "word": "erklären",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „erklären“ im Kontext."
+      },
+      {
+        "word": "Nachricht",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+      },
+      {
+        "word": "Vereinbarung",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
+      },
+      {
+        "word": "Vertrauen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
+      },
+      {
+        "word": "Gespräch",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Gespräch“ im Kontext."
+      },
+      {
+        "word": "Meinung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Meinung“ im Kontext."
+      },
+      {
+        "word": "klären",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „klären“ im Kontext."
+      },
+      {
+        "word": "respektieren",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „respektieren“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-b1-beziehungen-und-kommunikation-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Beziehungen und Kommunikation: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe…» in «Beziehungen und Kommunikation: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Beziehungen und Kommunikation: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Beziehungen und Kommunikation: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Beziehungen und Kommunikation: Wortschatz»?",
+        "options": [
+          "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe…» in «Beziehungen und Kommunikation: Wortschatz»?",
+        "options": [
+          "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Beziehungen und Kommunikation: Wortschatz»?",
+        "options": [
+          "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Beziehungen und Kommunikation: Wortschatz»?",
+        "options": [
+          "Im Thema „Beziehungen und Kommunikation“ spricht eine kleine Gruppe aus der Gemeinschaft über Beziehung, zuhören und erklären.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
       }
     ]
   },
@@ -23152,6 +35767,537 @@
     ]
   },
   {
+    "slug": "german-a1-kleidung-und-farben-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "kleidung-und-farben",
+    "title": "Kleidung und Farben: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 112,
+    "estimatedMinutes": 10,
+    "description": "Kleidung beschreiben und auswählen",
+    "intro": "Kleidung beschreiben und auswählen",
+    "mission": "Kleidung beschreiben und auswählen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Kleidung.",
+      "Wir lernen: Hemd.",
+      "Wir lernen: Hose.",
+      "Wir lernen: Kleid."
+    ],
+    "vocabulary": [
+      {
+        "word": "Kleidung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Kleidung“ im Kontext."
+      },
+      {
+        "word": "Hemd",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Hemd“ im Kontext."
+      },
+      {
+        "word": "Hose",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Hose“ im Kontext."
+      },
+      {
+        "word": "Kleid",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Kleid“ im Kontext."
+      },
+      {
+        "word": "Farbe",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Farbe“ im Kontext."
+      },
+      {
+        "word": "blau",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „blau“ im Kontext."
+      },
+      {
+        "word": "rot",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „rot“ im Kontext."
+      },
+      {
+        "word": "tragen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „tragen“ im Kontext."
+      },
+      {
+        "word": "passen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „passen“ im Kontext."
+      },
+      {
+        "word": "kaufen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „kaufen“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Kleidung beschreiben und auswählen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-feste-und-traditionen-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "feste-und-traditionen",
+    "title": "Feste und Traditionen: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 112,
+    "estimatedMinutes": 10,
+    "description": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "intro": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "mission": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Fest.",
+      "Wir lernen: Tradition.",
+      "Wir lernen: feiern.",
+      "Wir lernen: vorbereitet."
+    ],
+    "vocabulary": [
+      {
+        "word": "Fest",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Fest“ im Kontext."
+      },
+      {
+        "word": "Tradition",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Tradition“ im Kontext."
+      },
+      {
+        "word": "feiern",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „feiern“ im Kontext."
+      },
+      {
+        "word": "vorbereitet",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „vorbereitet“ im Kontext."
+      },
+      {
+        "word": "besucht",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „besucht“ im Kontext."
+      },
+      {
+        "word": "gemeinsam",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
+      },
+      {
+        "word": "Reihenfolge",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Reihenfolge“ im Kontext."
+      },
+      {
+        "word": "früher",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „früher“ im Kontext."
+      },
+      {
+        "word": "danach",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „danach“ im Kontext."
+      },
+      {
+        "word": "Erinnerung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Feste und Abläufe in der Vergangenheit beschreiben. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-beziehungen-und-kommunikation-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "beziehungen-und-kommunikation",
+    "title": "Beziehungen und Kommunikation: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 112,
+    "estimatedMinutes": 10,
+    "description": "über Beziehungen sprechen und Informationen weitergeben",
+    "intro": "über Beziehungen sprechen und Informationen weitergeben",
+    "mission": "über Beziehungen sprechen und Informationen weitergeben",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Beziehung.",
+      "Wir lernen: zuhören.",
+      "Wir lernen: erklären.",
+      "Wir lernen: Nachricht."
+    ],
+    "vocabulary": [
+      {
+        "word": "Beziehung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Beziehung“ im Kontext."
+      },
+      {
+        "word": "zuhören",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „zuhören“ im Kontext."
+      },
+      {
+        "word": "erklären",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „erklären“ im Kontext."
+      },
+      {
+        "word": "Nachricht",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+      },
+      {
+        "word": "Vereinbarung",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
+      },
+      {
+        "word": "Vertrauen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
+      },
+      {
+        "word": "Gespräch",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Gespräch“ im Kontext."
+      },
+      {
+        "word": "Meinung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Meinung“ im Kontext."
+      },
+      {
+        "word": "klären",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „klären“ im Kontext."
+      },
+      {
+        "word": "respektieren",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „respektieren“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte über Beziehungen sprechen und Informationen weitergeben. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-kleidung-und-farben-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "kleidung-und-farben",
+    "title": "Kleidung und Farben: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 115,
+    "estimatedMinutes": 10,
+    "description": "Kleidung beschreiben und auswählen",
+    "intro": "Kleidung beschreiben und auswählen",
+    "mission": "Kleidung beschreiben und auswählen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Kleidung.",
+      "Wir lernen: Hemd.",
+      "Wir lernen: Hose.",
+      "Wir lernen: Kleid."
+    ],
+    "vocabulary": [
+      {
+        "word": "Kleidung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Kleidung“ im Kontext."
+      },
+      {
+        "word": "Hemd",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Hemd“ im Kontext."
+      },
+      {
+        "word": "Hose",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Hose“ im Kontext."
+      },
+      {
+        "word": "Kleid",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Kleid“ im Kontext."
+      },
+      {
+        "word": "Farbe",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Farbe“ im Kontext."
+      },
+      {
+        "word": "blau",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „blau“ im Kontext."
+      },
+      {
+        "word": "rot",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „rot“ im Kontext."
+      },
+      {
+        "word": "tragen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „tragen“ im Kontext."
+      },
+      {
+        "word": "passen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „passen“ im Kontext."
+      },
+      {
+        "word": "kaufen",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „kaufen“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Kleidung beschreiben und auswählen."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-feste-und-traditionen-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "feste-und-traditionen",
+    "title": "Feste und Traditionen: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 115,
+    "estimatedMinutes": 10,
+    "description": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "intro": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "mission": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Fest.",
+      "Wir lernen: Tradition.",
+      "Wir lernen: feiern.",
+      "Wir lernen: vorbereitet."
+    ],
+    "vocabulary": [
+      {
+        "word": "Fest",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Fest“ im Kontext."
+      },
+      {
+        "word": "Tradition",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Tradition“ im Kontext."
+      },
+      {
+        "word": "feiern",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „feiern“ im Kontext."
+      },
+      {
+        "word": "vorbereitet",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „vorbereitet“ im Kontext."
+      },
+      {
+        "word": "besucht",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „besucht“ im Kontext."
+      },
+      {
+        "word": "gemeinsam",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „gemeinsam“ im Kontext."
+      },
+      {
+        "word": "Reihenfolge",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Reihenfolge“ im Kontext."
+      },
+      {
+        "word": "früher",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „früher“ im Kontext."
+      },
+      {
+        "word": "danach",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „danach“ im Kontext."
+      },
+      {
+        "word": "Erinnerung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Erinnerung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Feste und Abläufe in der Vergangenheit beschreiben."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-beziehungen-und-kommunikation-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "beziehungen-und-kommunikation",
+    "title": "Beziehungen und Kommunikation: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 115,
+    "estimatedMinutes": 10,
+    "description": "über Beziehungen sprechen und Informationen weitergeben",
+    "intro": "über Beziehungen sprechen und Informationen weitergeben",
+    "mission": "über Beziehungen sprechen und Informationen weitergeben",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Beziehung.",
+      "Wir lernen: zuhören.",
+      "Wir lernen: erklären.",
+      "Wir lernen: Nachricht."
+    ],
+    "vocabulary": [
+      {
+        "word": "Beziehung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Beziehung“ im Kontext."
+      },
+      {
+        "word": "zuhören",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „zuhören“ im Kontext."
+      },
+      {
+        "word": "erklären",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „erklären“ im Kontext."
+      },
+      {
+        "word": "Nachricht",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Nachricht“ im Kontext."
+      },
+      {
+        "word": "Vereinbarung",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Vereinbarung“ im Kontext."
+      },
+      {
+        "word": "Vertrauen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „Vertrauen“ im Kontext."
+      },
+      {
+        "word": "Gespräch",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „Gespräch“ im Kontext."
+      },
+      {
+        "word": "Meinung",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Meinung“ im Kontext."
+      },
+      {
+        "word": "klären",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „klären“ im Kontext."
+      },
+      {
+        "word": "respektieren",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „respektieren“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: über Beziehungen sprechen und Informationen weitergeben."
+      }
+    ]
+  },
+  {
     "slug": "german-a1-geburtstag-und-einladung-reading",
     "level": "A1",
     "skill": "reading",
@@ -23654,10 +36800,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Geburtstag und Einladung: Grammatik",
-        "definition": "Das Präsens beschreibt einfache Gewohnheiten und Fakten.",
+        "name": "Einladung: möchten und Uhrzeiten",
+        "definition": "Práctica guiada de Einladung: möchten und Uhrzeiten.",
         "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Über Personen, Orte und Alltag sprechen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich wohne im Viertel.",
           "Leon spricht mit Anna."
@@ -23918,10 +37064,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Wohnungssuche: Grammatik",
-        "definition": "Das Perfekt erzählt abgeschlossene Handlungen; Konnektoren ordnen die Geschichte.",
+        "name": "Wohnungssuche: Wechselpräpositionen und Vergleich",
+        "definition": "Práctica guiada de Wohnungssuche: Wechselpräpositionen und Vergleich.",
         "structure": "haben/sein + Partizip II",
-        "function": "Erfahrungen und Pläne erzählen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Gestern habe ich das Museum besucht.",
           "Danach haben wir zusammen gesprochen."
@@ -24182,10 +37328,10 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Gesellschaft und Mitwirkung: Grammatik",
-        "definition": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation.",
+        "name": "Gesellschaft: Konjunktiv II und Argumentation",
+        "definition": "Práctica guiada de Gesellschaft: Konjunktiv II und Argumentation.",
         "structure": "Meinung + weil/obwohl/deshalb + Begründung",
-        "function": "Eine Meinung ausdrücken und begründen.",
+        "function": "Usar la estructura con precisión en contextos cotidianos.",
         "examples": [
           "Ich finde den Vorschlag sinnvoll.",
           "Trotzdem müssen wir die Ergebnisse prüfen."
@@ -24365,6 +37511,666 @@
           "Ich finde den Vorschlag sinnvoll."
         ],
         "explanation": "Konnektoren, Meinungen und Vermutungen helfen bei einer Argumentation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-geburtstag-und-einladung-listening",
+    "level": "A1",
+    "skill": "listening",
+    "unitId": "geburtstag-und-einladung",
+    "title": "Geburtstag und Einladung: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 121,
+    "estimatedMinutes": 10,
+    "description": "eine Einladung verstehen und Uhrzeiten nennen",
+    "intro": "eine Einladung verstehen und Uhrzeiten nennen",
+    "mission": "eine Einladung verstehen und Uhrzeiten nennen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Geburtstag.",
+      "Wir lernen: Einladung.",
+      "Wir lernen: feiern.",
+      "Wir lernen: Uhr."
+    ],
+    "vocabulary": [
+      {
+        "word": "Geburtstag",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Geburtstag“ im Kontext."
+      },
+      {
+        "word": "Einladung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Einladung“ im Kontext."
+      },
+      {
+        "word": "feiern",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „feiern“ im Kontext."
+      },
+      {
+        "word": "Uhr",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Uhr“ im Kontext."
+      },
+      {
+        "word": "heute",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „heute“ im Kontext."
+      },
+      {
+        "word": "morgen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „morgen“ im Kontext."
+      },
+      {
+        "word": "gern",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „gern“ im Kontext."
+      },
+      {
+        "word": "kommen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „kommen“ im Kontext."
+      },
+      {
+        "word": "bringen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „bringen“ im Kontext."
+      },
+      {
+        "word": "Geschenk",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Geschenk“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a1-geburtstag-und-einladung-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Geburtstag und Einladung: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der…», what happens next in «Geburtstag und Einladung: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Geburtstag und Einladung: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Geburtstag und Einladung: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Geburtstag und Einladung: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der…», what happens next in «Geburtstag und Einladung: Wortschatz»?",
+        "options": [
+          "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Geburtstag und Einladung: Wortschatz»?",
+        "options": [
+          "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Geburtstag und Einladung: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Geburtstag und Einladung“ spricht eine kleine Gruppe aus der Gemeinschaft über Geburtstag, Einladung und feiern.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-wohnungssuche-listening",
+    "level": "A2",
+    "skill": "listening",
+    "unitId": "wohnungssuche",
+    "title": "Wohnungssuche: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 121,
+    "estimatedMinutes": 10,
+    "description": "Wohnungen vergleichen und Lage beschreiben",
+    "intro": "Wohnungen vergleichen und Lage beschreiben",
+    "mission": "Wohnungen vergleichen und Lage beschreiben",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Wohnung.",
+      "Wir lernen: Zimmer.",
+      "Wir lernen: Miete.",
+      "Wir lernen: suchen."
+    ],
+    "vocabulary": [
+      {
+        "word": "Wohnung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Wohnung“ im Kontext."
+      },
+      {
+        "word": "Zimmer",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Zimmer“ im Kontext."
+      },
+      {
+        "word": "Miete",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Miete“ im Kontext."
+      },
+      {
+        "word": "suchen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „suchen“ im Kontext."
+      },
+      {
+        "word": "neben",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „neben“ im Kontext."
+      },
+      {
+        "word": "über",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „über“ im Kontext."
+      },
+      {
+        "word": "unter",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „unter“ im Kontext."
+      },
+      {
+        "word": "größer",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „größer“ im Kontext."
+      },
+      {
+        "word": "ruhiger",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „ruhiger“ im Kontext."
+      },
+      {
+        "word": "Besichtigung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Besichtigung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-a2-wohnungssuche-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "In «Wohnungssuche: Wortschatz», which detail establishes the situation?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "After «Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der…», what happens next in «Wohnungssuche: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which line best reveals an intention or decision in «Wohnungssuche: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which outcome closes «Wohnungssuche: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "In «Wohnungssuche: Wortschatz», which detail establishes the situation?",
+        "options": [
+          "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "After «Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der…», what happens next in «Wohnungssuche: Wortschatz»?",
+        "options": [
+          "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which line best reveals an intention or decision in «Wohnungssuche: Wortschatz»?",
+        "options": [
+          "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which outcome closes «Wohnungssuche: Wortschatz» after «Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel…»?",
+        "options": [
+          "Im Thema „Wohnungssuche“ spricht eine kleine Gruppe aus der Gemeinschaft über Wohnung, Zimmer und Miete.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-gesellschaft-und-mitwirkung-listening",
+    "level": "B1",
+    "skill": "listening",
+    "unitId": "gesellschaft-und-mitwirkung",
+    "title": "Gesellschaft und Mitwirkung: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 121,
+    "estimatedMinutes": 10,
+    "description": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "intro": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "mission": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Gesellschaft.",
+      "Wir lernen: mitwirken.",
+      "Wir lernen: Recht.",
+      "Wir lernen: Vorschlag."
+    ],
+    "vocabulary": [
+      {
+        "word": "Gesellschaft",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Gesellschaft“ im Kontext."
+      },
+      {
+        "word": "mitwirken",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „mitwirken“ im Kontext."
+      },
+      {
+        "word": "Recht",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Recht“ im Kontext."
+      },
+      {
+        "word": "Vorschlag",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
+      },
+      {
+        "word": "Gemeinschaft",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Gemeinschaft“ im Kontext."
+      },
+      {
+        "word": "wählen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „wählen“ im Kontext."
+      },
+      {
+        "word": "freiwillig",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „freiwillig“ im Kontext."
+      },
+      {
+        "word": "Initiative",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Initiative“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "Verantwortung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht. Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor. Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann. Danach fasst die Gruppe die wichtigsten Ideen zusammen.",
+    "extra": {
+      "listeningComprehension": {
+        "id": "german-b1-gesellschaft-und-mitwirkung-listening-listening-comprehension",
+        "passingScore": 70,
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Which opening statement explicitly introduces «Gesellschaft und Mitwirkung: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Which statement immediately follows «Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus…» in «Gesellschaft und Mitwirkung: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Gesellschaft und Mitwirkung: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Which final statement explicitly closes «Gesellschaft und Mitwirkung: Wortschatz»?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht."
+              },
+              {
+                "id": "o2",
+                "text": "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor."
+              },
+              {
+                "id": "o3",
+                "text": "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann."
+              },
+              {
+                "id": "o4",
+                "text": "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+              }
+            ]
+          }
+        ]
+      },
+      "grammarTest": null
+    },
+    "exercises": [
+      {
+        "type": "mcq",
+        "prompt": "Which opening statement explicitly introduces «Gesellschaft und Mitwirkung: Wortschatz»?",
+        "options": [
+          "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement immediately follows «Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus…» in «Gesellschaft und Mitwirkung: Wortschatz»?",
+        "options": [
+          "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which statement explicitly presents a reason, recommendation, qualification, or decision in «Gesellschaft und Mitwirkung: Wortschatz»?",
+        "options": [
+          "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Which final statement explicitly closes «Gesellschaft und Mitwirkung: Wortschatz»?",
+        "options": [
+          "Im Thema „Gesellschaft und Mitwirkung“ spricht eine kleine Gruppe aus der Gemeinschaft über Gesellschaft, mitwirken und Recht.",
+          "Jede Person erzählt von einer Erfahrung, hört den anderen zu und schlägt eine konkrete Lösung vor.",
+          "Am Ende entscheiden sie sich für Zusammenarbeit, weil ein klares Ziel den Alltag verbessern kann.",
+          "Danach fasst die Gruppe die wichtigsten Ideen zusammen."
+        ]
       }
     ]
   },
@@ -25211,6 +39017,537 @@
           "mitwirken",
           "zusammen"
         ]
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-geburtstag-und-einladung-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "unitId": "geburtstag-und-einladung",
+    "title": "Geburtstag und Einladung: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 122,
+    "estimatedMinutes": 10,
+    "description": "eine Einladung verstehen und Uhrzeiten nennen",
+    "intro": "eine Einladung verstehen und Uhrzeiten nennen",
+    "mission": "eine Einladung verstehen und Uhrzeiten nennen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Geburtstag.",
+      "Wir lernen: Einladung.",
+      "Wir lernen: feiern.",
+      "Wir lernen: Uhr."
+    ],
+    "vocabulary": [
+      {
+        "word": "Geburtstag",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Geburtstag“ im Kontext."
+      },
+      {
+        "word": "Einladung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Einladung“ im Kontext."
+      },
+      {
+        "word": "feiern",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „feiern“ im Kontext."
+      },
+      {
+        "word": "Uhr",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Uhr“ im Kontext."
+      },
+      {
+        "word": "heute",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „heute“ im Kontext."
+      },
+      {
+        "word": "morgen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „morgen“ im Kontext."
+      },
+      {
+        "word": "gern",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „gern“ im Kontext."
+      },
+      {
+        "word": "kommen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „kommen“ im Kontext."
+      },
+      {
+        "word": "bringen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „bringen“ im Kontext."
+      },
+      {
+        "word": "Geschenk",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Geschenk“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte eine Einladung verstehen und Uhrzeiten nennen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-wohnungssuche-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "unitId": "wohnungssuche",
+    "title": "Wohnungssuche: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 122,
+    "estimatedMinutes": 10,
+    "description": "Wohnungen vergleichen und Lage beschreiben",
+    "intro": "Wohnungen vergleichen und Lage beschreiben",
+    "mission": "Wohnungen vergleichen und Lage beschreiben",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Wohnung.",
+      "Wir lernen: Zimmer.",
+      "Wir lernen: Miete.",
+      "Wir lernen: suchen."
+    ],
+    "vocabulary": [
+      {
+        "word": "Wohnung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Wohnung“ im Kontext."
+      },
+      {
+        "word": "Zimmer",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Zimmer“ im Kontext."
+      },
+      {
+        "word": "Miete",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Miete“ im Kontext."
+      },
+      {
+        "word": "suchen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „suchen“ im Kontext."
+      },
+      {
+        "word": "neben",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „neben“ im Kontext."
+      },
+      {
+        "word": "über",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „über“ im Kontext."
+      },
+      {
+        "word": "unter",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „unter“ im Kontext."
+      },
+      {
+        "word": "größer",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „größer“ im Kontext."
+      },
+      {
+        "word": "ruhiger",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „ruhiger“ im Kontext."
+      },
+      {
+        "word": "Besichtigung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Besichtigung“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Wohnungen vergleichen und Lage beschreiben. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-gesellschaft-und-mitwirkung-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "unitId": "gesellschaft-und-mitwirkung",
+    "title": "Gesellschaft und Mitwirkung: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 122,
+    "estimatedMinutes": 10,
+    "description": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "intro": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "mission": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Gesellschaft.",
+      "Wir lernen: mitwirken.",
+      "Wir lernen: Recht.",
+      "Wir lernen: Vorschlag."
+    ],
+    "vocabulary": [
+      {
+        "word": "Gesellschaft",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Gesellschaft“ im Kontext."
+      },
+      {
+        "word": "mitwirken",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „mitwirken“ im Kontext."
+      },
+      {
+        "word": "Recht",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Recht“ im Kontext."
+      },
+      {
+        "word": "Vorschlag",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
+      },
+      {
+        "word": "Gemeinschaft",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Gemeinschaft“ im Kontext."
+      },
+      {
+        "word": "wählen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „wählen“ im Kontext."
+      },
+      {
+        "word": "freiwillig",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „freiwillig“ im Kontext."
+      },
+      {
+        "word": "Initiative",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Initiative“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "Verantwortung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Ich möchte Vorschläge machen und gesellschaftliche Beteiligung begründen. Kannst du mir helfen?"
+      },
+      {
+        "speaker": "B",
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+      }
+    ],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Sprich zwei Sätze über diese Situation."
+      }
+    ]
+  },
+  {
+    "slug": "german-a1-geburtstag-und-einladung-writing",
+    "level": "A1",
+    "skill": "writing",
+    "unitId": "geburtstag-und-einladung",
+    "title": "Geburtstag und Einladung: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 125,
+    "estimatedMinutes": 10,
+    "description": "eine Einladung verstehen und Uhrzeiten nennen",
+    "intro": "eine Einladung verstehen und Uhrzeiten nennen",
+    "mission": "eine Einladung verstehen und Uhrzeiten nennen",
+    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "phrases": [
+      "Wir lernen: Geburtstag.",
+      "Wir lernen: Einladung.",
+      "Wir lernen: feiern.",
+      "Wir lernen: Uhr."
+    ],
+    "vocabulary": [
+      {
+        "word": "Geburtstag",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Geburtstag“ im Kontext."
+      },
+      {
+        "word": "Einladung",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Einladung“ im Kontext."
+      },
+      {
+        "word": "feiern",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „feiern“ im Kontext."
+      },
+      {
+        "word": "Uhr",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Uhr“ im Kontext."
+      },
+      {
+        "word": "heute",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „heute“ im Kontext."
+      },
+      {
+        "word": "morgen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „morgen“ im Kontext."
+      },
+      {
+        "word": "gern",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „gern“ im Kontext."
+      },
+      {
+        "word": "kommen",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „kommen“ im Kontext."
+      },
+      {
+        "word": "bringen",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „bringen“ im Kontext."
+      },
+      {
+        "word": "Geschenk",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Geschenk“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: eine Einladung verstehen und Uhrzeiten nennen."
+      }
+    ]
+  },
+  {
+    "slug": "german-a2-wohnungssuche-writing",
+    "level": "A2",
+    "skill": "writing",
+    "unitId": "wohnungssuche",
+    "title": "Wohnungssuche: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 125,
+    "estimatedMinutes": 10,
+    "description": "Wohnungen vergleichen und Lage beschreiben",
+    "intro": "Wohnungen vergleichen und Lage beschreiben",
+    "mission": "Wohnungen vergleichen und Lage beschreiben",
+    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "phrases": [
+      "Wir lernen: Wohnung.",
+      "Wir lernen: Zimmer.",
+      "Wir lernen: Miete.",
+      "Wir lernen: suchen."
+    ],
+    "vocabulary": [
+      {
+        "word": "Wohnung",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Wohnung“ im Kontext."
+      },
+      {
+        "word": "Zimmer",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „Zimmer“ im Kontext."
+      },
+      {
+        "word": "Miete",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Miete“ im Kontext."
+      },
+      {
+        "word": "suchen",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „suchen“ im Kontext."
+      },
+      {
+        "word": "neben",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „neben“ im Kontext."
+      },
+      {
+        "word": "über",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „über“ im Kontext."
+      },
+      {
+        "word": "unter",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „unter“ im Kontext."
+      },
+      {
+        "word": "größer",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „größer“ im Kontext."
+      },
+      {
+        "word": "ruhiger",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „ruhiger“ im Kontext."
+      },
+      {
+        "word": "Besichtigung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Besichtigung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Wohnungen vergleichen und Lage beschreiben."
+      }
+    ]
+  },
+  {
+    "slug": "german-b1-gesellschaft-und-mitwirkung-writing",
+    "level": "B1",
+    "skill": "writing",
+    "unitId": "gesellschaft-und-mitwirkung",
+    "title": "Gesellschaft und Mitwirkung: Wortschatz",
+    "accessTier": "premium",
+    "isFree": false,
+    "xpReward": 25,
+    "orderIndex": 125,
+    "estimatedMinutes": 10,
+    "description": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "intro": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "mission": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
+    "phrases": [
+      "Wir lernen: Gesellschaft.",
+      "Wir lernen: mitwirken.",
+      "Wir lernen: Recht.",
+      "Wir lernen: Vorschlag."
+    ],
+    "vocabulary": [
+      {
+        "word": "Gesellschaft",
+        "translation": "Palabra clave 1",
+        "example": "Ich benutze das Wort „Gesellschaft“ im Kontext."
+      },
+      {
+        "word": "mitwirken",
+        "translation": "Palabra clave 2",
+        "example": "Ich benutze das Wort „mitwirken“ im Kontext."
+      },
+      {
+        "word": "Recht",
+        "translation": "Palabra clave 3",
+        "example": "Ich benutze das Wort „Recht“ im Kontext."
+      },
+      {
+        "word": "Vorschlag",
+        "translation": "Palabra clave 4",
+        "example": "Ich benutze das Wort „Vorschlag“ im Kontext."
+      },
+      {
+        "word": "Gemeinschaft",
+        "translation": "Palabra clave 5",
+        "example": "Ich benutze das Wort „Gemeinschaft“ im Kontext."
+      },
+      {
+        "word": "wählen",
+        "translation": "Palabra clave 6",
+        "example": "Ich benutze das Wort „wählen“ im Kontext."
+      },
+      {
+        "word": "freiwillig",
+        "translation": "Palabra clave 7",
+        "example": "Ich benutze das Wort „freiwillig“ im Kontext."
+      },
+      {
+        "word": "Initiative",
+        "translation": "Palabra clave 8",
+        "example": "Ich benutze das Wort „Initiative“ im Kontext."
+      },
+      {
+        "word": "verbessern",
+        "translation": "Palabra clave 9",
+        "example": "Ich benutze das Wort „verbessern“ im Kontext."
+      },
+      {
+        "word": "Verantwortung",
+        "translation": "Palabra clave 10",
+        "example": "Ich benutze das Wort „Verantwortung“ im Kontext."
+      }
+    ],
+    "dialogue": [],
+    "reading": null,
+    "transcript": "",
+    "extra": null,
+    "exercises": [
+      {
+        "type": "practice",
+        "prompt": "Schreibe 4 bis 6 Sätze: Vorschläge machen und gesellschaftliche Beteiligung begründen."
       }
     ]
   },
