@@ -13568,6 +13568,18 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
   };
   const firstContext = item.contexts[0];
   const additionalContexts = item.contexts.slice(1);
+  const catalogueExamplesHtml = item.contexts.length
+    ? `<ol class="vocab-card-catalogue-examples" aria-label="Ejemplos prácticos">
+        ${item.contexts.slice(0, 3).map((ctx, index) => `
+          <li>
+            <span aria-hidden="true">${index + 1}</span>
+            <div>
+              <p>${escapeHtml(ctx.targetText)}</p>
+              ${ctx.supportText ? `<small>${escapeHtml(ctx.supportText)}</small>` : ''}
+            </div>
+          </li>`).join('')}
+      </ol>`
+    : '';
   const contextsHtml = firstContext
     ? `<div class="vocab-card-contexts">
         ${renderVocabularyContextHtml(firstContext, item, canSpeak, isFrench)}
@@ -13647,17 +13659,15 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
             }
           </div>
           <div class="vocab-card-word-block">
-            ${item.learningMode === 'direct' ? `<span class="vocab-card-method">${escapeHtml(cardUi.mode)}</span>` : ''}
             <p class="vocab-card-target ${getVocabTargetSizeClass(item.targetWord)}">${escapeHtml(item.targetWord)}</p>
             ${frontSupportHtml}
             ${item.phonetic ? `<p class="vocab-card-phonetic">${escapeHtml(item.phonetic)}</p>` : ''}
-            ${item.simpleDefinition || item.definition ? `<p class="vocab-card-catalogue-definition">${escapeHtml(item.simpleDefinition || item.definition)}</p>` : ''}
-            ${firstContext ? `<p class="vocab-card-catalogue-example">${escapeHtml(firstContext.targetText)}</p>` : ''}
-            ${item.category ? `<span class="vocab-card-tag">${escapeHtml(item.category)}</span>` : ''}
+            ${item.learningMode === 'direct' && (item.simpleDefinition || item.definition) ? `<p class="vocab-card-catalogue-definition">${escapeHtml(item.simpleDefinition || item.definition)}</p>` : ''}
+            ${catalogueExamplesHtml}
           </div>
           <div class="vocab-card-front-footer">
             ${statusChipHtml}
-            <div class="vocab-card-catalogue-actions"><button type="button" class="vocab-retry-btn">Practicar</button><button type="button" class="vocab-details-btn">Ver detalles</button></div>
+            <div class="vocab-card-catalogue-actions"><button type="button" class="vocab-retry-btn">Practicar</button><button type="button" class="vocab-know-btn">✓ Ya la sé</button></div>
           </div>
         </div>
         <div class="vocab-card-face vocab-card-back" aria-hidden="true">
@@ -21131,13 +21141,20 @@ function enableHomepageActions() {
       flipVocabCard(vocabBackBtn.closest('.vocab-card'), { toBack: false });
       return;
     }
-    // Tapping any free area of the card flips it: front -> back speaks the
-    // target word once (via flipVocabCard's speak option), back -> front
-    // stays silent. Only fires when the click wasn't already handled by a
-    // more specific control above.
+    // Touching any non-control area always gives immediate pronunciation.
+    // Catalogue cards do not flip, so they speak in place; study cards keep
+    // their existing front/back behaviour and speak on the first reveal.
     const vocabCardBody = event.target.closest('.vocab-card');
     if (vocabCardBody) {
-      if (vocabCardBody.dataset.static === 'true') return;
+      if (vocabCardBody.dataset.static === 'true') {
+        vocabCardBody.classList.add('is-pronouncing');
+        speakText(vocabCardBody.dataset.speakText, {
+          locale: vocabCardBody.dataset.speakLocale,
+          rate: Number(vocabCardBody.dataset.speakRate) || 1,
+          onEnd: () => vocabCardBody.classList.remove('is-pronouncing')
+        });
+        return;
+      }
       const isFlipped = vocabCardBody.dataset.flipped === 'true';
       flipVocabCard(vocabCardBody, { toBack: !isFlipped, speak: !isFlipped });
       return;

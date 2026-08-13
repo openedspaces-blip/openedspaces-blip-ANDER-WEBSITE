@@ -3523,6 +3523,10 @@ test('Vocabulary stays within the selected route level and exposes search, maste
   assert.match(source, /vocab-catalogue-category-filter/);
   assert.match(source, /function applyVocabularyCatalogueFilters\(/);
   assert.match(source, /class="vocab-card-catalogue-actions"/);
+  assert.match(source, /class="vocab-card-catalogue-examples"/);
+  assert.match(source, /item\.contexts\.slice\(0, 3\)/);
+  assert.doesNotMatch(source, /\$\{item\.category \? `<span class="vocab-card-tag"/);
+  assert.match(source, /vocabCardBody\.dataset\.static === 'true'[\s\S]*?speakText\(vocabCardBody\.dataset\.speakText/);
   assert.match(css, /\.vocab-catalogue-deck\s*\{\s*grid-template-columns:\s*repeat\(2/);
   assert.match(css, /@media \(max-width: 760px\)[\s\S]*?\.vocab-catalogue-deck\s*\{\s*grid-template-columns:\s*1fr/);
   assert.match(source, /function compactLearningToolbars\([\s\S]*?isFrenchExerciseFeedbackInTargetLanguage\(learningPathState\.level\)/);
