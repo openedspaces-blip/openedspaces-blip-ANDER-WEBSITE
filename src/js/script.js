@@ -14257,6 +14257,8 @@ function renderVocabularyView(section, lesson) {
   const masteredCount = cards.filter((card) => card.masteryStatus === 'mastered').length;
   const masteryPercent = cards.length ? Math.round((masteredCount / cards.length) * 100) : 0;
   const categories = [...new Set(cards.map((card) => String(card.category || '').trim()).filter(Boolean))];
+  const catalogueLanguages = Object.keys(languageDisplayNames)
+    .filter((language) => language !== 'ai' && LanguagePair?.isLanguagePairSupported(learningPathState.bridgeLanguage, language));
 
   content.innerHTML = `
     <section class="vocab-catalogue" aria-label="Catálogo de vocabulario">
@@ -14266,7 +14268,7 @@ function renderVocabularyView(section, lesson) {
       </div>
       <div class="vocab-catalogue-toolbar no-print">
         <label class="vocab-catalogue-search"><span>Buscar</span><input type="search" class="vocab-catalogue-search-input" value="${escapeHtml(vocabularyCatalogueFilters.search)}" placeholder="Buscar una palabra…" autocomplete="off"></label>
-        <label><span>Idioma</span><select disabled><option>${escapeHtml(languageDisplayNames[learningPathState.language] || learningPathState.language)}</option></select></label>
+        <label><span>Idioma</span><select class="vocab-catalogue-language-filter" aria-label="Idioma del vocabulario">${catalogueLanguages.map((language) => `<option value="${escapeHtml(language)}"${language === learningPathState.language ? ' selected' : ''}>${escapeHtml(languageDisplayNames[language])}</option>`).join('')}</select></label>
         <label><span>Categoría</span><select class="vocab-catalogue-category-filter"><option value="all">Todas las categorías</option>${categories.map((category) => `<option value="${escapeHtml(category)}"${vocabularyCatalogueFilters.category === category ? ' selected' : ''}>${escapeHtml(category)}</option>`).join('')}</select></label>
       </div>
       <div class="vocab-catalogue-filter-row no-print">
@@ -14503,6 +14505,19 @@ document.addEventListener('input', (event) => {
 });
 
 document.addEventListener('change', (event) => {
+  if (event.target.matches('.vocab-catalogue-language-filter')) {
+    const language = normalizeLanguageKey(event.target.value);
+    const level = normalizeCourseLevel(language, learningPathState.level);
+    if (!setTargetLanguage(language, { level })) {
+      event.target.value = learningPathState.language;
+      return;
+    }
+    // setTargetLanguage() starts the route request. Render this same expanded
+    // catalogue when it completes so switching a language never sends the
+    // learner back to the route overview.
+    loadLearningPath({ language, level }).then(() => renderSkillView('vocabulary'));
+    return;
+  }
   if (!event.target.matches('.vocab-catalogue-category-filter')) return;
   vocabularyCatalogueFilters.category = event.target.value || 'all';
   applyVocabularyCatalogueFilters(event.target.closest('.skill-view-section'));

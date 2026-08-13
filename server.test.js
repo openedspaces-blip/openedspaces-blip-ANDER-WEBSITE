@@ -3514,6 +3514,9 @@ test('Vocabulary stays within the selected route level and exposes search, maste
 
   assert.match(source, /Amplía tu vocabulario paso a paso/);
   assert.match(source, /class="vocab-catalogue-search-input"/);
+  assert.match(source, /class="vocab-catalogue-language-filter"/);
+  assert.match(source, /setTargetLanguage\(language, \{ level \}\)/);
+  assert.doesNotMatch(source, /<select disabled><option>\$\{escapeHtml\(languageDisplayNames\[learningPathState\.language\]/);
   assert.match(source, /Nivel de la ruta: <strong>\$\{escapeHtml\(lesson\.level\)\}<\/strong>/);
   assert.doesNotMatch(source, /data-vocab-level=/);
   assert.match(source, /data-vocab-mastery=/);
