@@ -47,7 +47,7 @@ document.addEventListener(
   (event) => {
     if (
       event.target.closest(
-        '.mcq-option, .reading-comp-option, .grammar-test-option, .vocab-practice-option, [data-writing-answer], .writing-practice-check'
+        '.mcq-option, .reading-comp-option, .grammar-test-option, .vocab-practice-option, .tests-question, [data-writing-answer], .writing-practice-check'
       )
     ) {
       window.prepareExerciseFeedbackAudio();
@@ -8853,11 +8853,40 @@ function readingContextFromRange(range, term) {
   return { term, context, lesson, rect: range.getBoundingClientRect() };
 }
 
+// ANDERGO Translator is available throughout learning content, not only in
+// Reading. Keep interactive controls out of scope so selecting a label or
+// editing an answer never opens a translation request.
+function translationContextFromRange(range, term) {
+  const node = range.commonAncestorContainer.nodeType === Node.TEXT_NODE
+    ? range.commonAncestorContainer.parentElement
+    : range.commonAncestorContainer;
+  const excluded = node?.closest?.(
+    '#readingTranslationPopover, button, a, input, textarea, select, option, [contenteditable="true"], .translator-panel, .nav-shell, .site-header'
+  );
+  if (excluded || !term || term.length > 180) return null;
+  const surface = node?.closest?.(
+    '.skill-view-section, .vocabulary-view, #verbs, #tests, #infographics, #games, .reading-text, .infographic-panel'
+  );
+  if (!surface || !surface.contains(range.startContainer) || !surface.contains(range.endContainer)) return null;
+  const paragraph = node.closest?.('p, li, dd, dt, blockquote, .vocab-card, .verb-catalogue-row, .grammar-test-question-item') || range.startContainer.parentElement;
+  const context = String(paragraph?.textContent || term).replace(/\s+/g, ' ').trim().slice(0, 1000);
+  const section = surface.closest?.('.skill-view-section');
+  const lesson = learningPathState.lessons.find((item) => item.slug === section?.dataset.activeLessonSlug);
+  return { term, context, lesson, rect: range.getBoundingClientRect() };
+}
+
 function selectedReadingContext(selection) {
   if (!selection?.rangeCount || selection.isCollapsed) return null;
   const range = selection.getRangeAt(0);
   const term = selection.toString().replace(/\s+/g, ' ').trim();
   return readingContextFromRange(range, term);
+}
+
+function selectedTranslationContext(selection) {
+  if (!selection?.rangeCount || selection.isCollapsed) return null;
+  const range = selection.getRangeAt(0);
+  const term = selection.toString().replace(/\s+/g, ' ').trim();
+  return translationContextFromRange(range, term);
 }
 
 function isReadingPhraseSelection(data) {
@@ -8868,7 +8897,7 @@ function isReadingPhraseSelection(data) {
 function scheduleReadingPhraseTranslation(delay = 180) {
   window.clearTimeout(readingPhraseSelectionTimer);
   readingPhraseSelectionTimer = window.setTimeout(() => {
-    const data = selectedReadingContext(window.getSelection());
+    const data = selectedTranslationContext(window.getSelection());
     if (!isReadingPhraseSelection(data)) return;
     const signature = `${data.term}|${data.context}`;
     if (
@@ -8925,6 +8954,33 @@ function readingWordContextAtPoint(clientX, clientY) {
   selection?.removeAllRanges();
   selection?.addRange(range);
   return readingContextFromRange(range, text.slice(start, end));
+}
+
+function translationWordContextAtPoint(clientX, clientY) {
+  let textNode = null;
+  let offset = 0;
+  if (document.caretPositionFromPoint) {
+    const position = document.caretPositionFromPoint(clientX, clientY);
+    textNode = position?.offsetNode || null;
+    offset = position?.offset || 0;
+  } else if (document.caretRangeFromPoint) {
+    const caretRange = document.caretRangeFromPoint(clientX, clientY);
+    textNode = caretRange?.startContainer || null;
+    offset = caretRange?.startOffset || 0;
+  }
+  if (textNode?.nodeType !== Node.TEXT_NODE) return null;
+  const text = textNode.textContent || '';
+  let anchor = Math.min(offset, text.length - 1);
+  if (!isReadingWordCharacter(text[anchor]) && anchor > 0 && isReadingWordCharacter(text[anchor - 1])) anchor -= 1;
+  if (!isReadingWordCharacter(text[anchor])) return null;
+  let start = anchor; let end = anchor + 1;
+  while (start > 0 && isReadingWordCharacter(text[start - 1])) start -= 1;
+  while (end < text.length && isReadingWordCharacter(text[end])) end += 1;
+  const range = document.createRange();
+  range.setStart(textNode, start); range.setEnd(textNode, end);
+  const selection = window.getSelection();
+  selection?.removeAllRanges(); selection?.addRange(range);
+  return translationContextFromRange(range, text.slice(start, end));
 }
 
 function openReadingTranslation(selectionData) {
@@ -9110,22 +9166,22 @@ function setupReadingSelectionTranslator() {
   const handleSelection = (pointerEvent = null) => {
     window.setTimeout(() => {
       const data =
-        selectedReadingContext(window.getSelection()) ||
+        selectedTranslationContext(window.getSelection()) ||
         (pointerEvent
-          ? readingWordContextAtPoint(pointerEvent.clientX, pointerEvent.clientY)
+          ? translationWordContextAtPoint(pointerEvent.clientX, pointerEvent.clientY)
           : null);
       if (data) openReadingTranslation(data);
     }, 0);
   };
   document.addEventListener('pointerup', (event) => {
     if (event.target.closest?.('#readingTranslationPopover')) return;
-    if (!event.target.closest?.('.reading-text')) {
+    if (!event.target.closest?.('.skill-view-section, .vocabulary-view, #verbs, #tests, #infographics, #games')) {
       window.clearTimeout(readingPhraseSelectionTimer);
       lastReadingTap = null;
       closeReadingTranslationPopover();
       return;
     }
-    const selectedData = selectedReadingContext(window.getSelection());
+    const selectedData = selectedTranslationContext(window.getSelection());
     if (isReadingPhraseSelection(selectedData)) {
       scheduleReadingPhraseTranslation(event.pointerType === 'touch' ? 320 : 180);
       return;
@@ -9148,7 +9204,7 @@ function setupReadingSelectionTranslator() {
   });
   document.addEventListener('selectionchange', () => {
     const selection = window.getSelection();
-    const data = selectedReadingContext(selection);
+    const data = selectedTranslationContext(selection);
     if (isReadingPhraseSelection(data)) {
       scheduleReadingPhraseTranslation(320);
     } else {
@@ -9157,7 +9213,7 @@ function setupReadingSelectionTranslator() {
   });
   document.addEventListener('dblclick', (event) => {
     if (event.target.closest?.('#readingTranslationPopover')) return;
-    if (!event.target.closest?.('.reading-text')) return;
+    if (!event.target.closest?.('.skill-view-section, .vocabulary-view, #verbs, #tests, #infographics, #games')) return;
     if (Date.now() - lastReadingTouchTranslationAt < 600) return;
     handleSelection(event);
   });
@@ -9166,7 +9222,7 @@ function setupReadingSelectionTranslator() {
       closeReadingTranslationPopover({ clearSelection: true });
       return;
     }
-    if (event.key === 'Enter' && event.target.closest?.('.reading-text')) handleSelection();
+    if (event.key === 'Enter' && event.target.closest?.('.skill-view-section, .vocabulary-view, #verbs, #tests, #infographics, #games')) handleSelection();
   });
   window.addEventListener('scroll', () => closeReadingTranslationPopover(), { passive: true });
   window.addEventListener('resize', () => closeReadingTranslationPopover(), { passive: true });
@@ -17424,10 +17480,10 @@ function renderLessonTest() {
     return `<li>${sentence}</li>`;
   }).join('');
   stage.innerHTML = `<div class="tests-paper" id="lessonTestPaper">
-    <header class="tests-paper-head"><div><span>${lessonTestState.language === 'french' ? 'Français' : lessonTestState.language === 'spanish' ? 'Español' : 'English'} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>Gramática, vocabulario y verbos · ${totalQuestions} ${lessonTestState.language === 'spanish' ? 'preguntas' : 'questions'} · recibe respuesta al instante</p>${grammarExamplesHtml ? `<div class="tests-grammar-examples"><strong>Ejemplos prácticos</strong><ol>${grammarExamplesHtml}</ol></div>` : ''}</div><strong>100<small>puntos</small></strong></header>
+    <header class="tests-paper-head"><div><span>${lessonTestState.language === 'french' ? 'Français' : lessonTestState.language === 'spanish' ? 'Español' : 'English'} · ${escapeHtml(lessonTestState.level)}</span><h3>${escapeHtml(unit.grammarTitle || unit.title || `Lesson ${unit.order}`)}</h3><p>${totalQuestions} ${lessonTestState.language === 'spanish' ? 'preguntas' : 'questions'} · corrección inmediata</p>${grammarExamplesHtml ? `<div class="tests-grammar-examples"><strong>Ejemplos prácticos</strong><ol>${grammarExamplesHtml}</ol></div>` : ''}</div><strong>100<small>puntos</small></strong></header>
     <nav class="tests-challenge-map" aria-label="Progreso del reto">${lessonTestState.questions.map((_, index) => `<button type="button" class="tests-challenge-map-item" data-test-jump="${index}" aria-label="Ir a la pregunta ${index + 1}">${index + 1}</button>`).join('')}<span class="tests-challenge-progress" id="testsChallengeProgress">0/${totalQuestions} respondidas</span></nav>
     <p class="tests-global-instruction">Elige en cada pregunta la opción que mejor complete o responda la situación.</p>
-    <form id="lessonTestForm" class="tests-question-list">${lessonTestState.questions.map((question, index) => `<fieldset class="tests-question${['C1', 'C2'].includes(lessonTestState.level) ? ' tests-question--advanced' : ''}" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span><small class="tests-question-area">${escapeHtml(question.area || 'Evaluación')}</small>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span class="tests-option-content"><strong class="tests-option-letter" aria-hidden="true">${String.fromCharCode(97 + optionIndex)})</strong><span class="tests-option-text">${escapeHtml(option)}</span></span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite"></p></fieldset>`).join('')}
+    <form id="lessonTestForm" class="tests-question-list">${lessonTestState.questions.map((question, index) => `<fieldset class="tests-question${['C1', 'C2'].includes(lessonTestState.level) ? ' tests-question--advanced' : ''}" data-question-index="${index}" data-question-id="${escapeHtml(question.id)}"><legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend><div>${question.options.map((option, optionIndex) => `<label><input type="radio" name="test-${index}" value="${optionIndex}"><span class="tests-option-content"><strong class="tests-option-letter" aria-hidden="true">${String.fromCharCode(97 + optionIndex)})</strong><span class="tests-option-text">${escapeHtml(option)}</span></span></label>`).join('')}</div><p class="tests-item-feedback" aria-live="polite"></p></fieldset>`).join('')}
       <button type="submit" class="primary-btn tests-submit" disabled>Evaluar resultado total · 0/${lessonTestState.questions.length}</button>
       <div class="tests-export-actions no-print" aria-label="Opciones de descarga del examen">
         <button type="button" class="secondary-btn" data-test-action="pdf">Descargar PDF</button>
@@ -17444,20 +17500,33 @@ function renderLessonTest() {
 }
 
 function playTestFeedbackSound(correct) {
-  const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-  if (!AudioContextClass) return;
-  const context = new AudioContextClass();
-  const oscillator = context.createOscillator();
-  const gain = context.createGain();
-  oscillator.type = correct ? 'sine' : 'triangle';
-  oscillator.frequency.setValueAtTime(correct ? 660 : 210, context.currentTime);
-  if (correct) oscillator.frequency.exponentialRampToValueAtTime(880, context.currentTime + 0.13);
-  else oscillator.frequency.exponentialRampToValueAtTime(150, context.currentTime + 0.16);
-  gain.gain.setValueAtTime(0.0001, context.currentTime);
-  gain.gain.exponentialRampToValueAtTime(0.12, context.currentTime + 0.015);
-  gain.gain.exponentialRampToValueAtTime(0.0001, context.currentTime + 0.2);
-  oscillator.connect(gain); gain.connect(context.destination); oscillator.start(); oscillator.stop(context.currentTime + 0.21);
-  oscillator.addEventListener('ended', () => context.close().catch(() => {}), { once: true });
+  try {
+    // The answer click primes this shared context before the asynchronous
+    // check, which keeps Test feedback audible under autoplay restrictions.
+    const context = window.prepareExerciseFeedbackAudio?.();
+    if (!context) return;
+    const now = context.currentTime + 0.01;
+    const notes = correct
+      // A light, distinctive three-note success chime for Tests.
+      ? [{ frequency: 659, at: 0, duration: 0.09, type: 'sine' }, { frequency: 784, at: 0.08, duration: 0.1, type: 'sine' }, { frequency: 1047, at: 0.16, duration: 0.15, type: 'sine' }]
+      // Two crossed low tones form a clear X/error cue.
+      : [{ frequency: 185, at: 0, duration: 0.12, type: 'square' }, { frequency: 145, at: 0.105, duration: 0.14, type: 'square' }];
+    notes.forEach(({ frequency, at, duration, type }) => {
+      const oscillator = context.createOscillator();
+      const gain = context.createGain();
+      const start = now + at;
+      oscillator.type = type;
+      oscillator.frequency.setValueAtTime(frequency, start);
+      gain.gain.setValueAtTime(0.0001, start);
+      gain.gain.exponentialRampToValueAtTime(correct ? 0.075 : 0.055, start + 0.012);
+      gain.gain.exponentialRampToValueAtTime(0.0001, start + duration);
+      oscillator.connect(gain).connect(context.destination);
+      oscillator.start(start);
+      oscillator.stop(start + duration + 0.01);
+    });
+  } catch {
+    // Audio is an optional cue and never affects answer validation.
+  }
 }
 
 async function handleLessonTestAnswer(event) {

@@ -46,7 +46,7 @@
     ],
     "reading": {
       "title": "Português (Brasil) A1 Reading",
-      "text": "Hoje Luana vive uma pequena experiência ligada a Mensagem para casa. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.\n\nAntes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha.",
+      "text": "Paulo está em um apartamento claro. Ela encontra a irmã Ana e cumprimenta com um sorriso. Paulo quer descrever a casa, por isso escuta com atenção e usa palavras simples. a irmã Ana responde devagar e mostra o que pode ajudar.\n\nDepois, os dois falam de uma situação pequena do dia. Paulo faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -98,7 +98,7 @@
     ],
     "reading": {
       "title": "Português (Brasil) A2 Reading",
-      "text": "Na semana passada, Luana participou de uma atividade chamada Contar uma experiência. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.\n\nNo segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.\n\nOs dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos.",
+      "text": "Na semana passada, Gustavo passou uma tarde em uma pousada. Ela tinha decidido contar uma experiência, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a um grupo de viajantes, que explicou com calma como se organizar.\n\nDurante a atividade, Gustavo observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. um grupo de viajantes gostou da maneira como ela escutou antes de escolher.\n\nNo fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Gustavo acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -172,7 +172,7 @@
     ],
     "reading": {
       "title": "Português (Brasil) B1 Reading",
-      "text": "No bairro de Luana, o tema “Cidadania e participação” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.\n\nNos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.\n\nLuana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.\n\nDepois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro.",
+      "text": "Para Lucas, participar de uma decisão pública tornou-se um assunto concreto depois de uma reunião em uma reunião do bairro. Com um conselheiro municipal, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.\n\nLucas sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.\n\nNos dias seguintes, um conselheiro municipal preparou um resumo com os acordos e as perguntas que continuavam abertas. Lucas procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.\n\nDepois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Lucas não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -367,7 +367,7 @@
     "dialogue": [],
     "reading": {
       "title": "Trabalho e planos",
-      "text": "No bairro de Luana, o tema “Trabalho e planos” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.\n\nNos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.\n\nLuana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.\n\nDepois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro.",
+      "text": "Para Sofia, definir metas concretas tornou-se um assunto concreto depois de uma reunião em uma pequena oficina. Com Rafael, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.\n\nSofia sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.\n\nNos dias seguintes, Rafael preparou um resumo com os acordos e as perguntas que continuavam abertas. Sofia procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.\n\nDepois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -376,10 +376,10 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "No bairro de Luana, o tema “Trabalho e planos” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.",
-        "Nos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.",
-        "Luana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.",
-        "Depois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro."
+        "Para Sofia, definir metas concretas tornou-se um assunto concreto depois de uma reunião em uma pequena oficina. Com Rafael, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.",
+        "Sofia sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.",
+        "Nos dias seguintes, Rafael preparou um resumo com os acordos e as perguntas que continuavam abertas. Sofia procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.",
+        "Depois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência."
       ]
     },
     "transcript": "",
@@ -457,7 +457,7 @@
     "dialogue": [],
     "reading": {
       "title": "Chegando ao Brasil",
-      "text": "Hoje Luana vive uma pequena experiência ligada a Chegando ao Brasil. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.\n\nAntes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha.",
+      "text": "uma estudante recém-chegada está em a praça perto da estação. Ela encontra Rafael e cumprimenta com um sorriso. uma estudante recém-chegada quer apresentar-se e pedir informações, por isso escuta com atenção e usa palavras simples. Rafael responde devagar e mostra o que pode ajudar.\n\nDepois, os dois falam de uma situação pequena do dia. uma estudante recém-chegada faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -466,8 +466,8 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Hoje Luana vive uma pequena experiência ligada a Chegando ao Brasil. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.",
-        "Antes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha."
+        "uma estudante recém-chegada está em a praça perto da estação. Ela encontra Rafael e cumprimenta com um sorriso. uma estudante recém-chegada quer apresentar-se e pedir informações, por isso escuta com atenção e usa palavras simples. Rafael responde devagar e mostra o que pode ajudar.",
+        "Depois, os dois falam de uma situação pequena do dia. uma estudante recém-chegada faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil."
       ]
     },
     "transcript": "",
@@ -535,7 +535,7 @@
     "dialogue": [],
     "reading": {
       "title": "Rotina na cidade",
-      "text": "Na semana passada, Luana participou de uma atividade chamada Rotina na cidade. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.\n\nNo segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.\n\nOs dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos.",
+      "text": "Na semana passada, Claudia passou uma tarde em o centro da cidade. Ela tinha decidido organizar a rotina, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a um colega, que explicou com calma como se organizar.\n\nDurante a atividade, Claudia observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. um colega gostou da maneira como ela escutou antes de escolher.\n\nNo fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Claudia acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -544,9 +544,9 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Na semana passada, Luana participou de uma atividade chamada Rotina na cidade. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.",
-        "No segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.",
-        "Os dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos."
+        "Na semana passada, Claudia passou uma tarde em o centro da cidade. Ela tinha decidido organizar a rotina, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a um colega, que explicou com calma como se organizar.",
+        "Durante a atividade, Claudia observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. um colega gostou da maneira como ela escutou antes de escolher.",
+        "No fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Claudia acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha."
       ]
     },
     "transcript": "",
@@ -2704,7 +2704,7 @@
     "dialogue": [],
     "reading": {
       "title": "Viagens com respeito",
-      "text": "No bairro de Luana, o tema “Viagens com respeito” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.\n\nNos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.\n\nLuana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.\n\nDepois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro.",
+      "text": "Para Sofia, proteger um lugar durante a viagem tornou-se um assunto concreto depois de uma reunião em uma região visitada por turistas. Com Rafael, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.\n\nSofia sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.\n\nNos dias seguintes, Rafael preparou um resumo com os acordos e as perguntas que continuavam abertas. Sofia procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.\n\nDepois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -2713,10 +2713,10 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "No bairro de Luana, o tema “Viagens com respeito” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.",
-        "Nos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.",
-        "Luana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.",
-        "Depois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro."
+        "Para Sofia, proteger um lugar durante a viagem tornou-se um assunto concreto depois de uma reunião em uma região visitada por turistas. Com Rafael, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.",
+        "Sofia sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.",
+        "Nos dias seguintes, Rafael preparou um resumo com os acordos e as perguntas que continuavam abertas. Sofia procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.",
+        "Depois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência."
       ]
     },
     "transcript": "",
@@ -2794,7 +2794,7 @@
     "dialogue": [],
     "reading": {
       "title": "Um café na padaria",
-      "text": "Hoje Luana vive uma pequena experiência ligada a Um café na padaria. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.\n\nAntes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha.",
+      "text": "Julia está em uma padaria do bairro. Ela encontra o padeiro Paulo e cumprimenta com um sorriso. Julia quer fazer um pedido com gentileza, por isso escuta com atenção e usa palavras simples. o padeiro Paulo responde devagar e mostra o que pode ajudar.\n\nDepois, os dois falam de uma situação pequena do dia. Julia faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -2803,8 +2803,8 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Hoje Luana vive uma pequena experiência ligada a Um café na padaria. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.",
-        "Antes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha."
+        "Julia está em uma padaria do bairro. Ela encontra o padeiro Paulo e cumprimenta com um sorriso. Julia quer fazer um pedido com gentileza, por isso escuta com atenção e usa palavras simples. o padeiro Paulo responde devagar e mostra o que pode ajudar.",
+        "Depois, os dois falam de uma situação pequena do dia. Julia faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil."
       ]
     },
     "transcript": "",
@@ -2872,7 +2872,7 @@
     "dialogue": [],
     "reading": {
       "title": "Um fim de semana em Salvador",
-      "text": "Na semana passada, Luana participou de uma atividade chamada Um fim de semana em Salvador. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.\n\nNo segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.\n\nOs dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos.",
+      "text": "Na semana passada, Ricardo passou uma tarde em Salvador num fim de semana. Ela tinha decidido conhecer a cidade com calma, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a a amiga Elena, que explicou com calma como se organizar.\n\nDurante a atividade, Ricardo observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. a amiga Elena gostou da maneira como ela escutou antes de escolher.\n\nNo fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Ricardo acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -2881,9 +2881,9 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Na semana passada, Luana participou de uma atividade chamada Um fim de semana em Salvador. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.",
-        "No segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.",
-        "Os dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos."
+        "Na semana passada, Ricardo passou uma tarde em Salvador num fim de semana. Ela tinha decidido conhecer a cidade com calma, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a a amiga Elena, que explicou com calma como se organizar.",
+        "Durante a atividade, Ricardo observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. a amiga Elena gostou da maneira como ela escutou antes de escolher.",
+        "No fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Ricardo acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha."
       ]
     },
     "transcript": "",
@@ -5041,7 +5041,7 @@
     "dialogue": [],
     "reading": {
       "title": "Saúde e equilíbrio",
-      "text": "No bairro de Luana, o tema “Saúde e equilíbrio” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.\n\nNos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.\n\nLuana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.\n\nDepois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro.",
+      "text": "Para Elena, buscar equilíbrio duradouro tornou-se um assunto concreto depois de uma reunião em um centro comunitário. Com um fisioterapeuta, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.\n\nElena sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.\n\nNos dias seguintes, um fisioterapeuta preparou um resumo com os acordos e as perguntas que continuavam abertas. Elena procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.\n\nDepois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Elena não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -5050,10 +5050,10 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "No bairro de Luana, o tema “Saúde e equilíbrio” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.",
-        "Nos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.",
-        "Luana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.",
-        "Depois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro."
+        "Para Elena, buscar equilíbrio duradouro tornou-se um assunto concreto depois de uma reunião em um centro comunitário. Com um fisioterapeuta, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.",
+        "Elena sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.",
+        "Nos dias seguintes, um fisioterapeuta preparou um resumo com os acordos e as perguntas que continuavam abertas. Elena procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.",
+        "Depois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Elena não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência."
       ]
     },
     "transcript": "",
@@ -5131,7 +5131,7 @@
     "dialogue": [],
     "reading": {
       "title": "Família e almoço",
-      "text": "Hoje Luana vive uma pequena experiência ligada a Família e almoço. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.\n\nAntes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha.",
+      "text": "Elena está em a cozinha de casa. Ela encontra a avó e cumprimenta com um sorriso. Elena quer contar sobre a família, por isso escuta com atenção e usa palavras simples. a avó responde devagar e mostra o que pode ajudar.\n\nDepois, os dois falam de uma situação pequena do dia. Elena faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -5140,8 +5140,8 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Hoje Luana vive uma pequena experiência ligada a Família e almoço. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.",
-        "Antes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha."
+        "Elena está em a cozinha de casa. Ela encontra a avó e cumprimenta com um sorriso. Elena quer contar sobre a família, por isso escuta com atenção e usa palavras simples. a avó responde devagar e mostra o que pode ajudar.",
+        "Depois, os dois falam de uma situação pequena do dia. Elena faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil."
       ]
     },
     "transcript": "",
@@ -5209,7 +5209,7 @@
     "dialogue": [],
     "reading": {
       "title": "Receitas e memórias",
-      "text": "Na semana passada, Luana participou de uma atividade chamada Receitas e memórias. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.\n\nNo segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.\n\nOs dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos.",
+      "text": "Na semana passada, Marta passou uma tarde em a cozinha da família. Ela tinha decidido preparar uma receita, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a o tio, que explicou com calma como se organizar.\n\nDurante a atividade, Marta observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. o tio gostou da maneira como ela escutou antes de escolher.\n\nNo fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Marta acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -5218,9 +5218,9 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Na semana passada, Luana participou de uma atividade chamada Receitas e memórias. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.",
-        "No segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.",
-        "Os dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos."
+        "Na semana passada, Marta passou uma tarde em a cozinha da família. Ela tinha decidido preparar uma receita, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a o tio, que explicou com calma como se organizar.",
+        "Durante a atividade, Marta observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. o tio gostou da maneira como ela escutou antes de escolher.",
+        "No fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Marta acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha."
       ]
     },
     "transcript": "",
@@ -7378,7 +7378,7 @@
     "dialogue": [],
     "reading": {
       "title": "Cultura e informação",
-      "text": "No bairro de Luana, o tema “Cultura e informação” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.\n\nNos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.\n\nLuana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.\n\nDepois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro.",
+      "text": "Para Julia, avaliar uma notícia tornou-se um assunto concreto depois de uma reunião em uma redação comunitária. Com um jornalista local, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.\n\nJulia sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.\n\nNos dias seguintes, um jornalista local preparou um resumo com os acordos e as perguntas que continuavam abertas. Julia procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.\n\nDepois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Julia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -7387,10 +7387,10 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "No bairro de Luana, o tema “Cultura e informação” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.",
-        "Nos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.",
-        "Luana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.",
-        "Depois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro."
+        "Para Julia, avaliar uma notícia tornou-se um assunto concreto depois de uma reunião em uma redação comunitária. Com um jornalista local, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.",
+        "Julia sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.",
+        "Nos dias seguintes, um jornalista local preparou um resumo com os acordos e as perguntas que continuavam abertas. Julia procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.",
+        "Depois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Julia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência."
       ]
     },
     "transcript": "",
@@ -7468,7 +7468,7 @@
     "dialogue": [],
     "reading": {
       "title": "A feira do bairro",
-      "text": "Hoje Luana vive uma pequena experiência ligada a A feira do bairro. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.\n\nAntes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha.",
+      "text": "Lucas está em a feira do bairro. Ela encontra a vendedora da feira e cumprimenta com um sorriso. Lucas quer comprar frutas e verduras, por isso escuta com atenção e usa palavras simples. a vendedora da feira responde devagar e mostra o que pode ajudar.\n\nDepois, os dois falam de uma situação pequena do dia. Lucas faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -7477,8 +7477,8 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Hoje Luana vive uma pequena experiência ligada a A feira do bairro. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.",
-        "Antes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha."
+        "Lucas está em a feira do bairro. Ela encontra a vendedora da feira e cumprimenta com um sorriso. Lucas quer comprar frutas e verduras, por isso escuta com atenção e usa palavras simples. a vendedora da feira responde devagar e mostra o que pode ajudar.",
+        "Depois, os dois falam de uma situação pequena do dia. Lucas faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil."
       ]
     },
     "transcript": "",
@@ -7546,7 +7546,7 @@
     "dialogue": [],
     "reading": {
       "title": "Trabalho e pausa",
-      "text": "Na semana passada, Luana participou de uma atividade chamada Trabalho e pausa. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.\n\nNo segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.\n\nOs dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos.",
+      "text": "Na semana passada, André passou uma tarde em o escritório e um café próximo. Ela tinha decidido equilibrar trabalho e pausa, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a a colega Sofia, que explicou com calma como se organizar.\n\nDurante a atividade, André observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. a colega Sofia gostou da maneira como ela escutou antes de escolher.\n\nNo fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. André acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -7555,9 +7555,9 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Na semana passada, Luana participou de uma atividade chamada Trabalho e pausa. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.",
-        "No segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.",
-        "Os dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos."
+        "Na semana passada, André passou uma tarde em o escritório e um café próximo. Ela tinha decidido equilibrar trabalho e pausa, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a a colega Sofia, que explicou com calma como se organizar.",
+        "Durante a atividade, André observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. a colega Sofia gostou da maneira como ela escutou antes de escolher.",
+        "No fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. André acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha."
       ]
     },
     "transcript": "",
@@ -9715,7 +9715,7 @@
     "dialogue": [],
     "reading": {
       "title": "Ambiente no bairro",
-      "text": "No bairro de Luana, o tema “Ambiente no bairro” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.\n\nNos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.\n\nLuana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.\n\nDepois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro.",
+      "text": "Para Lorenzo, reduzir resíduos tornou-se um assunto concreto depois de uma reunião em um pátio coletivo. Com um grupo de vizinhos, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.\n\nLorenzo sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.\n\nNos dias seguintes, um grupo de vizinhos preparou um resumo com os acordos e as perguntas que continuavam abertas. Lorenzo procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.\n\nDepois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Lorenzo não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -9724,10 +9724,10 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "No bairro de Luana, o tema “Ambiente no bairro” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.",
-        "Nos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.",
-        "Luana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.",
-        "Depois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro."
+        "Para Lorenzo, reduzir resíduos tornou-se um assunto concreto depois de uma reunião em um pátio coletivo. Com um grupo de vizinhos, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.",
+        "Lorenzo sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.",
+        "Nos dias seguintes, um grupo de vizinhos preparou um resumo com os acordos e as perguntas que continuavam abertas. Lorenzo procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.",
+        "Depois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Lorenzo não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência."
       ]
     },
     "transcript": "",
@@ -9805,7 +9805,7 @@
     "dialogue": [],
     "reading": {
       "title": "Caminhos da cidade",
-      "text": "Hoje Luana vive uma pequena experiência ligada a Caminhos da cidade. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.\n\nAntes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha.",
+      "text": "Marta está em as ruas da cidade. Ela encontra o vizinho Davi e cumprimenta com um sorriso. Marta quer encontrar um caminho, por isso escuta com atenção e usa palavras simples. o vizinho Davi responde devagar e mostra o que pode ajudar.\n\nDepois, os dois falam de uma situação pequena do dia. Marta faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -9814,8 +9814,8 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Hoje Luana vive uma pequena experiência ligada a Caminhos da cidade. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.",
-        "Antes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha."
+        "Marta está em as ruas da cidade. Ela encontra o vizinho Davi e cumprimenta com um sorriso. Marta quer encontrar um caminho, por isso escuta com atenção e usa palavras simples. o vizinho Davi responde devagar e mostra o que pode ajudar.",
+        "Depois, os dois falam de uma situação pequena do dia. Marta faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil."
       ]
     },
     "transcript": "",
@@ -9883,7 +9883,7 @@
     "dialogue": [],
     "reading": {
       "title": "Arte na comunidade",
-      "text": "Na semana passada, Luana participou de uma atividade chamada Arte na comunidade. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.\n\nNo segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.\n\nOs dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos.",
+      "text": "Na semana passada, Elisa passou uma tarde em um muro da comunidade. Ela tinha decidido participar de um projeto artístico, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a uma artista local, que explicou com calma como se organizar.\n\nDurante a atividade, Elisa observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. uma artista local gostou da maneira como ela escutou antes de escolher.\n\nNo fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Elisa acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -9892,9 +9892,9 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Na semana passada, Luana participou de uma atividade chamada Arte na comunidade. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.",
-        "No segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.",
-        "Os dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos."
+        "Na semana passada, Elisa passou uma tarde em um muro da comunidade. Ela tinha decidido participar de um projeto artístico, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a uma artista local, que explicou com calma como se organizar.",
+        "Durante a atividade, Elisa observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. uma artista local gostou da maneira como ela escutou antes de escolher.",
+        "No fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Elisa acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha."
       ]
     },
     "transcript": "",
@@ -12052,7 +12052,7 @@
     "dialogue": [],
     "reading": {
       "title": "Histórias e memórias",
-      "text": "No bairro de Luana, o tema “Histórias e memórias” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.\n\nNos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.\n\nLuana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.\n\nDepois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro.",
+      "text": "Para Marta, ligar memória e mudança tornou-se um assunto concreto depois de uma reunião em um álbum de fotografias. Com o avô, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.\n\nMarta sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.\n\nNos dias seguintes, o avô preparou um resumo com os acordos e as perguntas que continuavam abertas. Marta procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.\n\nDepois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Marta não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -12061,10 +12061,10 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "No bairro de Luana, o tema “Histórias e memórias” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.",
-        "Nos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.",
-        "Luana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.",
-        "Depois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro."
+        "Para Marta, ligar memória e mudança tornou-se um assunto concreto depois de uma reunião em um álbum de fotografias. Com o avô, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.",
+        "Marta sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.",
+        "Nos dias seguintes, o avô preparou um resumo com os acordos e as perguntas que continuavam abertas. Marta procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.",
+        "Depois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Marta não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência."
       ]
     },
     "transcript": "",
@@ -12142,7 +12142,7 @@
     "dialogue": [],
     "reading": {
       "title": "Escola e amizade",
-      "text": "Hoje Luana vive uma pequena experiência ligada a Escola e amizade. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.\n\nAntes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha.",
+      "text": "Sara está em a biblioteca da escola. Ela encontra a colega Nina e cumprimenta com um sorriso. Sara quer estudar com amigos, por isso escuta com atenção e usa palavras simples. a colega Nina responde devagar e mostra o que pode ajudar.\n\nDepois, os dois falam de uma situação pequena do dia. Sara faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -12151,8 +12151,8 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Hoje Luana vive uma pequena experiência ligada a Escola e amizade. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.",
-        "Antes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha."
+        "Sara está em a biblioteca da escola. Ela encontra a colega Nina e cumprimenta com um sorriso. Sara quer estudar com amigos, por isso escuta com atenção e usa palavras simples. a colega Nina responde devagar e mostra o que pode ajudar.",
+        "Depois, os dois falam de uma situação pequena do dia. Sara faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil."
       ]
     },
     "transcript": "",
@@ -12220,7 +12220,7 @@
     "dialogue": [],
     "reading": {
       "title": "Viajar com respeito",
-      "text": "Na semana passada, Luana participou de uma atividade chamada Viajar com respeito. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.\n\nNo segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.\n\nOs dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos.",
+      "text": "Na semana passada, Sofia passou uma tarde em uma cidade perto do mar. Ela tinha decidido viajar com respeito, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a uma dona de pousada, que explicou com calma como se organizar.\n\nDurante a atividade, Sofia observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. uma dona de pousada gostou da maneira como ela escutou antes de escolher.\n\nNo fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Sofia acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -12229,9 +12229,9 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Na semana passada, Luana participou de uma atividade chamada Viajar com respeito. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.",
-        "No segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.",
-        "Os dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos."
+        "Na semana passada, Sofia passou uma tarde em uma cidade perto do mar. Ela tinha decidido viajar com respeito, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a uma dona de pousada, que explicou com calma como se organizar.",
+        "Durante a atividade, Sofia observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. uma dona de pousada gostou da maneira como ela escutou antes de escolher.",
+        "No fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Sofia acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha."
       ]
     },
     "transcript": "",
@@ -14389,7 +14389,7 @@
     "dialogue": [],
     "reading": {
       "title": "Projeto coletivo",
-      "text": "No bairro de Luana, o tema “Projeto coletivo” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.\n\nNos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.\n\nLuana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.\n\nDepois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro.",
+      "text": "Para Frederico, apresentar uma pesquisa tornou-se um assunto concreto depois de uma reunião em a sala de ciências. Com a turma, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.\n\nFrederico sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.\n\nNos dias seguintes, a turma preparou um resumo com os acordos e as perguntas que continuavam abertas. Frederico procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.\n\nDepois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Frederico não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -14398,10 +14398,10 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "No bairro de Luana, o tema “Projeto coletivo” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.",
-        "Nos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.",
-        "Luana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.",
-        "Depois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro."
+        "Para Frederico, apresentar uma pesquisa tornou-se um assunto concreto depois de uma reunião em a sala de ciências. Com a turma, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.",
+        "Frederico sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.",
+        "Nos dias seguintes, a turma preparou um resumo com os acordos e as perguntas que continuavam abertas. Frederico procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.",
+        "Depois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Frederico não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência."
       ]
     },
     "transcript": "",
@@ -14479,7 +14479,7 @@
     "dialogue": [],
     "reading": {
       "title": "Casa e vizinhança",
-      "text": "Hoje Luana vive uma pequena experiência ligada a Casa e vizinhança. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.\n\nAntes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha.",
+      "text": "Paulo está em um apartamento claro. Ela encontra a irmã Ana e cumprimenta com um sorriso. Paulo quer descrever a casa, por isso escuta com atenção e usa palavras simples. a irmã Ana responde devagar e mostra o que pode ajudar.\n\nDepois, os dois falam de uma situação pequena do dia. Paulo faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -14488,8 +14488,8 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Hoje Luana vive uma pequena experiência ligada a Casa e vizinhança. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.",
-        "Antes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha."
+        "Paulo está em um apartamento claro. Ela encontra a irmã Ana e cumprimenta com um sorriso. Paulo quer descrever a casa, por isso escuta com atenção e usa palavras simples. a irmã Ana responde devagar e mostra o que pode ajudar.",
+        "Depois, os dois falam de uma situação pequena do dia. Paulo faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil."
       ]
     },
     "transcript": "",
@@ -14557,7 +14557,7 @@
     "dialogue": [],
     "reading": {
       "title": "Esporte e lazer",
-      "text": "Na semana passada, Luana participou de uma atividade chamada Esporte e lazer. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.\n\nNo segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.\n\nOs dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos.",
+      "text": "Na semana passada, Mateus passou uma tarde em um centro esportivo. Ela tinha decidido escolher uma atividade saudável, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a o treinador, que explicou com calma como se organizar.\n\nDurante a atividade, Mateus observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. o treinador gostou da maneira como ela escutou antes de escolher.\n\nNo fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Mateus acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -14566,9 +14566,9 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Na semana passada, Luana participou de uma atividade chamada Esporte e lazer. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.",
-        "No segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.",
-        "Os dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos."
+        "Na semana passada, Mateus passou uma tarde em um centro esportivo. Ela tinha decidido escolher uma atividade saudável, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a o treinador, que explicou com calma como se organizar.",
+        "Durante a atividade, Mateus observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. o treinador gostou da maneira como ela escutou antes de escolher.",
+        "No fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Mateus acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha."
       ]
     },
     "transcript": "",
@@ -16726,7 +16726,7 @@
     "dialogue": [],
     "reading": {
       "title": "Tecnologia no dia a dia",
-      "text": "No bairro de Luana, o tema “Tecnologia no dia a dia” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.\n\nNos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.\n\nLuana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.\n\nDepois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro.",
+      "text": "Para Clara, usar a tecnologia com atenção tornou-se um assunto concreto depois de uma reunião em um laboratório digital. Com o irmão, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.\n\nClara sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.\n\nNos dias seguintes, o irmão preparou um resumo com os acordos e as perguntas que continuavam abertas. Clara procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.\n\nDepois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Clara não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -16735,10 +16735,10 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "No bairro de Luana, o tema “Tecnologia no dia a dia” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.",
-        "Nos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.",
-        "Luana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.",
-        "Depois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro."
+        "Para Clara, usar a tecnologia com atenção tornou-se um assunto concreto depois de uma reunião em um laboratório digital. Com o irmão, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.",
+        "Clara sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.",
+        "Nos dias seguintes, o irmão preparou um resumo com os acordos e as perguntas que continuavam abertas. Clara procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.",
+        "Depois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Clara não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência."
       ]
     },
     "transcript": "",
@@ -16816,7 +16816,7 @@
     "dialogue": [],
     "reading": {
       "title": "Tempo no Recife",
-      "text": "Hoje Luana vive uma pequena experiência ligada a Tempo no Recife. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.\n\nAntes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha.",
+      "text": "Clara está em um parque no Recife. Ela encontra o pai e cumprimenta com um sorriso. Clara quer falar sobre o tempo, por isso escuta com atenção e usa palavras simples. o pai responde devagar e mostra o que pode ajudar.\n\nDepois, os dois falam de uma situação pequena do dia. Clara faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -16825,8 +16825,8 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Hoje Luana vive uma pequena experiência ligada a Tempo no Recife. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.",
-        "Antes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha."
+        "Clara está em um parque no Recife. Ela encontra o pai e cumprimenta com um sorriso. Clara quer falar sobre o tempo, por isso escuta com atenção e usa palavras simples. o pai responde devagar e mostra o que pode ajudar.",
+        "Depois, os dois falam de uma situação pequena do dia. Clara faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil."
       ]
     },
     "transcript": "",
@@ -16894,7 +16894,7 @@
     "dialogue": [],
     "reading": {
       "title": "Saúde e bem-estar",
-      "text": "Na semana passada, Luana participou de uma atividade chamada Saúde e bem-estar. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.\n\nNo segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.\n\nOs dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos.",
+      "text": "Na semana passada, Laura passou uma tarde em o posto de saúde. Ela tinha decidido cuidar da saúde, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a a médica da família, que explicou com calma como se organizar.\n\nDurante a atividade, Laura observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. a médica da família gostou da maneira como ela escutou antes de escolher.\n\nNo fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Laura acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -16903,9 +16903,9 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Na semana passada, Luana participou de uma atividade chamada Saúde e bem-estar. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.",
-        "No segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.",
-        "Os dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos."
+        "Na semana passada, Laura passou uma tarde em o posto de saúde. Ela tinha decidido cuidar da saúde, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a a médica da família, que explicou com calma como se organizar.",
+        "Durante a atividade, Laura observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. a médica da família gostou da maneira como ela escutou antes de escolher.",
+        "No fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Laura acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha."
       ]
     },
     "transcript": "",
@@ -19063,7 +19063,7 @@
     "dialogue": [],
     "reading": {
       "title": "Cidade e mobilidade",
-      "text": "No bairro de Luana, o tema “Cidade e mobilidade” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.\n\nNos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.\n\nLuana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.\n\nDepois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro.",
+      "text": "Para Davi, melhorar os deslocamentos tornou-se um assunto concreto depois de uma reunião em uma avenida movimentada. Com uma associação local, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.\n\nDavi sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.\n\nNos dias seguintes, uma associação local preparou um resumo com os acordos e as perguntas que continuavam abertas. Davi procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.\n\nDepois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Davi não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -19072,10 +19072,10 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "No bairro de Luana, o tema “Cidade e mobilidade” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.",
-        "Nos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.",
-        "Luana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.",
-        "Depois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro."
+        "Para Davi, melhorar os deslocamentos tornou-se um assunto concreto depois de uma reunião em uma avenida movimentada. Com uma associação local, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.",
+        "Davi sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.",
+        "Nos dias seguintes, uma associação local preparou um resumo com os acordos e as perguntas que continuavam abertas. Davi procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.",
+        "Depois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Davi não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência."
       ]
     },
     "transcript": "",
@@ -19153,7 +19153,7 @@
     "dialogue": [],
     "reading": {
       "title": "Uma roda cultural",
-      "text": "Hoje Luana vive uma pequena experiência ligada a Uma roda cultural. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.\n\nAntes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha.",
+      "text": "Amir está em uma roda cultural. Ela encontra dona Rosa e cumprimenta com um sorriso. Amir quer convidar as pessoas, por isso escuta com atenção e usa palavras simples. dona Rosa responde devagar e mostra o que pode ajudar.\n\nDepois, os dois falam de uma situação pequena do dia. Amir faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -19162,8 +19162,8 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Hoje Luana vive uma pequena experiência ligada a Uma roda cultural. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.",
-        "Antes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha."
+        "Amir está em uma roda cultural. Ela encontra dona Rosa e cumprimenta com um sorriso. Amir quer convidar as pessoas, por isso escuta com atenção e usa palavras simples. dona Rosa responde devagar e mostra o que pode ajudar.",
+        "Depois, os dois falam de uma situação pequena do dia. Amir faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil."
       ]
     },
     "transcript": "",
@@ -19231,7 +19231,7 @@
     "dialogue": [],
     "reading": {
       "title": "Histórias de origem",
-      "text": "Na semana passada, Luana participou de uma atividade chamada Histórias de origem. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.\n\nNo segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.\n\nOs dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos.",
+      "text": "Na semana passada, Nádia passou uma tarde em um jantar entre vizinhos. Ela tinha decidido escutar uma história de origem, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a a tia, que explicou com calma como se organizar.\n\nDurante a atividade, Nádia observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. a tia gostou da maneira como ela escutou antes de escolher.\n\nNo fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Nádia acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -19240,9 +19240,9 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Na semana passada, Luana participou de uma atividade chamada Histórias de origem. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.",
-        "No segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.",
-        "Os dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos."
+        "Na semana passada, Nádia passou uma tarde em um jantar entre vizinhos. Ela tinha decidido escutar uma história de origem, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a a tia, que explicou com calma como se organizar.",
+        "Durante a atividade, Nádia observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. a tia gostou da maneira como ela escutou antes de escolher.",
+        "No fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Nádia acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha."
       ]
     },
     "transcript": "",
@@ -21400,7 +21400,7 @@
     "dialogue": [],
     "reading": {
       "title": "Planos para o futuro",
-      "text": "No bairro de Luana, o tema “Planos para o futuro” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.\n\nNos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.\n\nLuana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.\n\nDepois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro.",
+      "text": "Para Nádia, escolher um caminho futuro tornou-se um assunto concreto depois de uma reunião em um centro de orientação. Com a orientadora, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.\n\nNádia sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.\n\nNos dias seguintes, a orientadora preparou um resumo com os acordos e as perguntas que continuavam abertas. Nádia procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.\n\nDepois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Nádia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -21409,10 +21409,10 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "No bairro de Luana, o tema “Planos para o futuro” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.",
-        "Nos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.",
-        "Luana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.",
-        "Depois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro."
+        "Para Nádia, escolher um caminho futuro tornou-se um assunto concreto depois de uma reunião em um centro de orientação. Com a orientadora, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.",
+        "Nádia sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.",
+        "Nos dias seguintes, a orientadora preparou um resumo com os acordos e as perguntas que continuavam abertas. Nádia procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.",
+        "Depois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Nádia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência."
       ]
     },
     "transcript": "",
@@ -21490,7 +21490,7 @@
     "dialogue": [],
     "reading": {
       "title": "De ônibus",
-      "text": "Hoje Luana vive uma pequena experiência ligada a De ônibus. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.\n\nAntes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha.",
+      "text": "Valentina está em um ônibus urbano. Ela encontra um motorista atencioso e cumprimenta com um sorriso. Valentina quer viajar pela cidade, por isso escuta com atenção e usa palavras simples. um motorista atencioso responde devagar e mostra o que pode ajudar.\n\nDepois, os dois falam de uma situação pequena do dia. Valentina faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -21499,8 +21499,8 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Hoje Luana vive uma pequena experiência ligada a De ônibus. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.",
-        "Antes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha."
+        "Valentina está em um ônibus urbano. Ela encontra um motorista atencioso e cumprimenta com um sorriso. Valentina quer viajar pela cidade, por isso escuta com atenção e usa palavras simples. um motorista atencioso responde devagar e mostra o que pode ajudar.",
+        "Depois, os dois falam de uma situação pequena do dia. Valentina faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil."
       ]
     },
     "transcript": "",
@@ -21568,7 +21568,7 @@
     "dialogue": [],
     "reading": {
       "title": "Um projeto coletivo",
-      "text": "Na semana passada, Luana participou de uma atividade chamada Um projeto coletivo. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.\n\nNo segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.\n\nOs dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos.",
+      "text": "Na semana passada, Frederico passou uma tarde em a sala de ciências. Ela tinha decidido apresentar uma pesquisa, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a a turma, que explicou com calma como se organizar.\n\nDurante a atividade, Frederico observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. a turma gostou da maneira como ela escutou antes de escolher.\n\nNo fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Frederico acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -21577,9 +21577,9 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Na semana passada, Luana participou de uma atividade chamada Um projeto coletivo. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.",
-        "No segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.",
-        "Os dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos."
+        "Na semana passada, Frederico passou uma tarde em a sala de ciências. Ela tinha decidido apresentar uma pesquisa, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a a turma, que explicou com calma como se organizar.",
+        "Durante a atividade, Frederico observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. a turma gostou da maneira como ela escutou antes de escolher.",
+        "No fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Frederico acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha."
       ]
     },
     "transcript": "",
@@ -23737,7 +23737,7 @@
     "dialogue": [],
     "reading": {
       "title": "Relações e comunicação",
-      "text": "No bairro de Luana, o tema “Relações e comunicação” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.\n\nNos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.\n\nLuana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.\n\nDepois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro.",
+      "text": "Para Elisa, escutar e esclarecer um mal-entendido tornou-se um assunto concreto depois de uma reunião em uma equipe de trabalho. Com a colega Sara, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.\n\nElisa sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.\n\nNos dias seguintes, a colega Sara preparou um resumo com os acordos e as perguntas que continuavam abertas. Elisa procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.\n\nDepois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Elisa não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -23746,10 +23746,10 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "No bairro de Luana, o tema “Relações e comunicação” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.",
-        "Nos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.",
-        "Luana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.",
-        "Depois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro."
+        "Para Elisa, escutar e esclarecer um mal-entendido tornou-se um assunto concreto depois de uma reunião em uma equipe de trabalho. Com a colega Sara, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.",
+        "Elisa sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.",
+        "Nos dias seguintes, a colega Sara preparou um resumo com os acordos e as perguntas que continuavam abertas. Elisa procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.",
+        "Depois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Elisa não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência."
       ]
     },
     "transcript": "",
@@ -23827,7 +23827,7 @@
     "dialogue": [],
     "reading": {
       "title": "Sabores do Brasil",
-      "text": "Hoje Luana vive uma pequena experiência ligada a Sabores do Brasil. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.\n\nAntes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha.",
+      "text": "Tomás está em um restaurante familiar. Ela encontra a cozinheira do restaurante e cumprimenta com um sorriso. Tomás quer conhecer sabores do Brasil, por isso escuta com atenção e usa palavras simples. a cozinheira do restaurante responde devagar e mostra o que pode ajudar.\n\nDepois, os dois falam de uma situação pequena do dia. Tomás faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -23836,8 +23836,8 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Hoje Luana vive uma pequena experiência ligada a Sabores do Brasil. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.",
-        "Antes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha."
+        "Tomás está em um restaurante familiar. Ela encontra a cozinheira do restaurante e cumprimenta com um sorriso. Tomás quer conhecer sabores do Brasil, por isso escuta com atenção e usa palavras simples. a cozinheira do restaurante responde devagar e mostra o que pode ajudar.",
+        "Depois, os dois falam de uma situação pequena do dia. Tomás faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil."
       ]
     },
     "transcript": "",
@@ -23905,7 +23905,7 @@
     "dialogue": [],
     "reading": {
       "title": "Cidade e ambiente",
-      "text": "Na semana passada, Luana participou de uma atividade chamada Cidade e ambiente. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.\n\nNo segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.\n\nOs dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos.",
+      "text": "Na semana passada, Irene passou uma tarde em um jardim público. Ela tinha decidido reduzir desperdícios, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a um voluntário, que explicou com calma como se organizar.\n\nDurante a atividade, Irene observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. um voluntário gostou da maneira como ela escutou antes de escolher.\n\nNo fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Irene acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -23914,9 +23914,9 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Na semana passada, Luana participou de uma atividade chamada Cidade e ambiente. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.",
-        "No segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.",
-        "Os dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos."
+        "Na semana passada, Irene passou uma tarde em um jardim público. Ela tinha decidido reduzir desperdícios, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a um voluntário, que explicou com calma como se organizar.",
+        "Durante a atividade, Irene observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. um voluntário gostou da maneira como ela escutou antes de escolher.",
+        "No fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Irene acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha."
       ]
     },
     "transcript": "",
@@ -26074,7 +26074,7 @@
     "dialogue": [],
     "reading": {
       "title": "Cidadania e participação",
-      "text": "No bairro de Luana, o tema “Cidadania e participação” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.\n\nNos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.\n\nLuana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.\n\nDepois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro.",
+      "text": "Para Lucas, participar de uma decisão pública tornou-se um assunto concreto depois de uma reunião em uma reunião do bairro. Com um conselheiro municipal, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.\n\nLucas sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.\n\nNos dias seguintes, um conselheiro municipal preparou um resumo com os acordos e as perguntas que continuavam abertas. Lucas procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.\n\nDepois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Lucas não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -26083,10 +26083,10 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "No bairro de Luana, o tema “Cidadania e participação” tornou-se importante depois de uma reunião aberta. Alguns moradores pensavam que o problema deveria ser resolvido apenas pelas instituições; outros defendiam que os cidadãos também podiam contribuir com ações concretas. Luana ouviu as duas posições e observou que uma proposta útil precisa ser realista, e não apenas interessante. Rafael contou uma experiência pessoal: no passado, participou de um projeto parecido e percebeu que a comunicação regular evita muitos mal-entendidos. Por isso, o grupo dividiu as tarefas, definiu um prazo e escolheu uma maneira simples de informar a vizinhança. Nem todos concordaram com cada detalhe; mesmo assim, aceitaram avaliar os resultados depois de um mês. Luana considera essa decisão equilibrada, porque permite agir agora e corrigir o projeto com calma. Ao final da reunião, as pessoas saíram com responsabilidades diferentes, mas com um objetivo comum: melhorar a vida cotidiana sem deixar ninguém de fora.",
-        "Nos dias seguintes, Luana recolhe os comentarios dos participantes. Algumas pessoas pedem instrucoes mais claras, enquanto outras sugerem envolver novos moradores. Rafael propoe publicar um resumo com as palavras-chave, as responsabilidades e a data da avaliacao.",
-        "Luana concorda, porque uma decisao compartilhada funciona melhor quando cada pessoa sabe o que pode fazer e quando pode pedir ajuda. O grupo tambem decide ouvir as dificuldades antes de mudar o plano, em vez de procurar uma solucao apressada.",
-        "Depois de algumas semanas, os participantes compararao o que foi prometido com o que foi realizado. Para Luana, essa avaliacao nao serve para procurar culpados, mas para aprender e tornar o projeto mais util para o bairro."
+        "Para Lucas, participar de uma decisão pública tornou-se um assunto concreto depois de uma reunião em uma reunião do bairro. Com um conselheiro municipal, ela ouviu opiniões diferentes: algumas pessoas queriam decidir logo, enquanto outras pediam informações mais seguras antes de agir.",
+        "Lucas sugeriu separar o que era urgente do que precisava de mais pesquisa. Em vez de escolher a solução mais visível, o grupo comparou custos, consequências e necessidades das pessoas envolvidas. A conversa mostrou que colaborar também exige aceitar dúvidas razoáveis.",
+        "Nos dias seguintes, um conselheiro municipal preparou um resumo com os acordos e as perguntas que continuavam abertas. Lucas procurou quem não pôde participar, pois uma decisão é mais forte quando inclui perspectivas diferentes.",
+        "Depois de um mês, eles vão avaliar os resultados com exemplos concretos, e não apenas com impressões. Lucas não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e aprender com a experiência."
       ]
     },
     "transcript": "",
@@ -26164,7 +26164,7 @@
     "dialogue": [],
     "reading": {
       "title": "Mensagem para casa",
-      "text": "Hoje Luana vive uma pequena experiência ligada a Mensagem para casa. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.\n\nAntes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha.",
+      "text": "Paulo está em um apartamento claro. Ela encontra a irmã Ana e cumprimenta com um sorriso. Paulo quer descrever a casa, por isso escuta com atenção e usa palavras simples. a irmã Ana responde devagar e mostra o que pode ajudar.\n\nDepois, os dois falam de uma situação pequena do dia. Paulo faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -26173,8 +26173,8 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Hoje Luana vive uma pequena experiência ligada a Mensagem para casa. Ela encontra Rafael no bairro e fala com calma. Rafael escuta, sorri e faz uma pergunta simples. Luana responde com palavras claras porque quer entender bem a situação. Juntos, eles observam o lugar, cumprimentam as pessoas e escolhem uma atividade para a tarde. Algumas coisas são conhecidas, mas outras convidam a fazer perguntas. No final, Luana conta a Rafael que aprender uma língua também significa participar da vida cotidiana. Rafael concorda e propõe repetir a experiência amanhã.",
-        "Antes de ir embora, Luana e Rafael repetem as palavras da licao. Luana as escreve no caderno e Rafael usa cada uma em uma frase. Assim, eles lembram o significado e falam com mais seguranca amanha."
+        "Paulo está em um apartamento claro. Ela encontra a irmã Ana e cumprimenta com um sorriso. Paulo quer descrever a casa, por isso escuta com atenção e usa palavras simples. a irmã Ana responde devagar e mostra o que pode ajudar.",
+        "Depois, os dois falam de uma situação pequena do dia. Paulo faz uma pergunta, recebe uma resposta e agradece. Antes de sair, eles repetem as palavras mais úteis: assim, a próxima conversa será mais fácil."
       ]
     },
     "transcript": "",
@@ -26242,7 +26242,7 @@
     "dialogue": [],
     "reading": {
       "title": "Contar uma experiência",
-      "text": "Na semana passada, Luana participou de uma atividade chamada Contar uma experiência. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.\n\nNo segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.\n\nOs dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos.",
+      "text": "Na semana passada, Gustavo passou uma tarde em uma pousada. Ela tinha decidido contar uma experiência, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a um grupo de viajantes, que explicou com calma como se organizar.\n\nDurante a atividade, Gustavo observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. um grupo de viajantes gostou da maneira como ela escutou antes de escolher.\n\nNo fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Gustavo acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha.",
       "questions": [
         "Sobre o que é o texto?",
         "O que a personagem faz primeiro?",
@@ -26251,9 +26251,9 @@
         "Qual é o objetivo comum?"
       ],
       "parts": [
-        "Na semana passada, Luana participou de uma atividade chamada Contar uma experiência. No começo, ela não conhecia bem o programa, então pediu informações e ouviu as pessoas do bairro. Rafael chegou mais tarde, mas trouxe uma boa ideia. Os dois compararam suas experiências e decidiram colaborar. Durante a atividade, perceberam que soluções simples podem ajudar muitas pessoas. Luana explicou que quer continuar aprendendo, pois uma cidade é melhor compreendida quando observamos os hábitos de quem mora nela. No final, escreveram uma mensagem curta para agradecer ao grupo e marcaram um novo encontro para a semana seguinte.",
-        "No segundo encontro, Luana explica quais detalhes foram mais uteis. Rafael acrescenta que nao basta conhecer palavras novas: e preciso usa-las em uma pergunta, em uma resposta e em uma conversa curta.",
-        "Os dois preparam algumas frases praticas e escolhem quem falara com o grupo. Dessa forma, o proximo encontro sera mais claro, respeitoso e util para todos."
+        "Na semana passada, Gustavo passou uma tarde em uma pousada. Ela tinha decidido contar uma experiência, mas no começo não conhecia todos os detalhes. Por isso, pediu informações a um grupo de viajantes, que explicou com calma como se organizar.",
+        "Durante a atividade, Gustavo observou as pessoas e descobriu uma solução prática. Nem tudo aconteceu como ela esperava; mesmo assim, mudou o plano sem perder a tranquilidade. um grupo de viajantes gostou da maneira como ela escutou antes de escolher.",
+        "No fim, os dois compartilharam o que aprenderam e prepararam uma mensagem curta para quem chegasse depois. Gustavo acha que a experiência foi útil porque trouxe palavras novas e mais confiança para agir sozinha."
       ]
     },
     "transcript": "",
