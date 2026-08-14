@@ -4787,6 +4787,28 @@ test('Portuguese, Italian and German expose exactly 12 canonical readings per A1
   }
 });
 
+test('European A1 readings match the practical length of English A1 readings', () => {
+  const countWords = (value) => String(value || '').trim().split(/\s+/).filter(Boolean).length;
+  const englishA1Lengths = seedLessons
+    .filter((row) => row.target_language === 'english' && row.level === 'A1' && row.skill === 'reading')
+    .map((row) => countWords(row.content_json?.reading?.text));
+  const minimum = Math.min(...englishA1Lengths);
+  const maximum = Math.max(...englishA1Lengths) + 2;
+
+  for (const language of ['italian', 'portuguese', 'german']) {
+    const readings = seedLessons.filter(
+      (row) => row.target_language === language && row.level === 'A1' && row.skill === 'reading'
+    );
+    assert.equal(readings.length, 12, `${language}: expected 12 A1 readings`);
+    readings.forEach((reading) => {
+      const text = reading.content_json?.reading?.text || '';
+      assert.equal(reading.content_json?.reading?.parts?.length, 3, `${reading.slug}: three paragraphs`);
+      assert.ok(countWords(text) >= minimum, `${reading.slug}: too short for A1`);
+      assert.ok(countWords(text) <= maximum, `${reading.slug}: too long for A1`);
+    });
+  }
+});
+
 test('Portuguese, Italian and German Reading comprehension never falls back to Spanish or English copy', () => {
   const foreignCopy = /\b(what|which|to explain|to discuss|to provide|tell a story)\b|[¿]|\b(qué|una regla aislada|un examen t[eé]cnico|tema sin contexto|memoriza sin usar|evita hablar|solo traduce)\b/i;
   for (const language of ['portuguese', 'italian', 'german']) {
