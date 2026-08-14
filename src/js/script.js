@@ -13716,7 +13716,13 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
   // In bilingual learning, the front deliberately pairs the L2 word with a
   // smaller L1 gloss.  The learner can therefore form the association before
   // flipping; the reverse is reserved for using the word in an L2 example.
-  const frontTranslation = item.translation || item.l1Translation || '';
+  const rawTranslation = item.translation || item.l1Translation || '';
+  // "Palabra clave 1" etc. are legacy placeholders, not translations. Do
+  // not present them as learner support while the authored L1 catalogue is
+  // completed; an empty line is more honest and less distracting.
+  const frontTranslation = /^palabra clave\s*\d+$/i.test(String(rawTranslation).trim())
+    ? ''
+    : rawTranslation;
   const frontSupportHtml = frontTranslation
     ? `<p class="vocab-card-front-support" lang="${escapeHtml(bridgeLanguageToHtmlLang[item.bridgeLanguage] || '')}">${escapeHtml(frontTranslation)}</p>`
     : '';
@@ -21249,20 +21255,12 @@ function enableHomepageActions() {
       flipVocabCard(vocabBackBtn.closest('.vocab-card'), { toBack: false });
       return;
     }
-    // Touching any non-control area always gives immediate pronunciation.
-    // Catalogue cards do not flip, so they speak in place; study cards keep
-    // their existing front/back behaviour and speak on the first reveal.
+    // Vocabulary catalogue cards are for reading; sound is intentionally
+    // explicit through the word and example speaker buttons only. Study
+    // cards keep their existing front/back behaviour.
     const vocabCardBody = event.target.closest('.vocab-card');
     if (vocabCardBody) {
-      if (vocabCardBody.dataset.static === 'true') {
-        vocabCardBody.classList.add('is-pronouncing');
-        speakText(vocabCardBody.dataset.speakText, {
-          locale: vocabCardBody.dataset.speakLocale,
-          rate: Number(vocabCardBody.dataset.speakRate) || 1,
-          onEnd: () => vocabCardBody.classList.remove('is-pronouncing')
-        });
-        return;
-      }
+      if (vocabCardBody.dataset.static === 'true') return;
       const isFlipped = vocabCardBody.dataset.flipped === 'true';
       flipVocabCard(vocabCardBody, { toBack: !isFlipped, speak: !isFlipped });
       return;
