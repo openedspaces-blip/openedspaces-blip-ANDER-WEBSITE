@@ -2054,11 +2054,10 @@
       return;
     }
 
-    // Audio playback on a tile is script.js's own delegate (.vocab-example-
-    // audio-btn, registered after this file - see conjugatorAudioBtnHtml's
-    // header comment) - just stop it from also falling through to the
-    // "open details" tile click below, never handle the actual sound here.
-    if (event.target.closest('.verb-tile-audio-btn')) return;
+    // Audio playback is delegated by script.js. Keep both the verb button
+    // and each example's speaker separate from the card-wide pronunciation
+    // shortcut, so an example always reads as a full sentence on its own.
+    if (event.target.closest('.verb-tile-audio-btn, .verb-catalogue-examples .vocab-example-audio-btn')) return;
 
     // Catalogue rows have a generous touch target: tapping the word, its
     // translation or any empty space plays the infinitive.  The explicit
