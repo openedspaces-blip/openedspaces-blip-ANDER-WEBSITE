@@ -7408,6 +7408,3138 @@
     }
   },
   {
+    "slug": "progetti-e-responsabilita",
+    "target_language": "italian",
+    "level": "B2",
+    "title": "Progetti e responsabilità",
+    "title_es": "organizzare un progetto e negoziare le responsabilità",
+    "description": "organizzare un progetto e negoziare le responsabilità",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "organizzare un progetto e negoziare le responsabilità",
+      "outcomes": [
+        "organizzare un progetto e negoziare le responsabilità",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Connettori, congiuntivo, registro e argomentazione."
+      ],
+      "vocabulary": [
+        "scadenza",
+        "incarico",
+        "risorsa",
+        "coordinare",
+        "valutare"
+      ],
+      "scenario": "Progetti e responsabilità"
+    }
+  },
+  {
+    "slug": "citta-e-mobilita",
+    "target_language": "italian",
+    "level": "B2",
+    "title": "Città e mobilità",
+    "title_es": "confrontare soluzioni di mobilità urbana",
+    "description": "confrontare soluzioni di mobilità urbana",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "confrontare soluzioni di mobilità urbana",
+      "outcomes": [
+        "confrontare soluzioni di mobilità urbana",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Connettori, congiuntivo, registro e argomentazione."
+      ],
+      "vocabulary": [
+        "percorso",
+        "traffico",
+        "abbonamento",
+        "accessibile",
+        "ridurre"
+      ],
+      "scenario": "Città e mobilità"
+    }
+  },
+  {
+    "slug": "lavoro-e-competenze",
+    "target_language": "italian",
+    "level": "B2",
+    "title": "Lavoro e competenze",
+    "title_es": "descrivere competenze e prospettive professionali",
+    "description": "descrivere competenze e prospettive professionali",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "descrivere competenze e prospettive professionali",
+      "outcomes": [
+        "descrivere competenze e prospettive professionali",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Connettori, congiuntivo, registro e argomentazione."
+      ],
+      "vocabulary": [
+        "colloquio",
+        "esperienza",
+        "candidatura",
+        "affidabile",
+        "migliorare"
+      ],
+      "scenario": "Lavoro e competenze"
+    }
+  },
+  {
+    "slug": "ambiente-e-consumi",
+    "target_language": "italian",
+    "level": "B2",
+    "title": "Ambiente e consumi",
+    "title_es": "argomentare scelte di consumo responsabile",
+    "description": "argomentare scelte di consumo responsabile",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "argomentare scelte di consumo responsabile",
+      "outcomes": [
+        "argomentare scelte di consumo responsabile",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Connettori, congiuntivo, registro e argomentazione."
+      ],
+      "vocabulary": [
+        "impatto",
+        "raccolta",
+        "spreco",
+        "sostenibile",
+        "abitudine"
+      ],
+      "scenario": "Ambiente e consumi"
+    }
+  },
+  {
+    "slug": "media-e-informazione",
+    "target_language": "italian",
+    "level": "B2",
+    "title": "Media e informazione",
+    "title_es": "valutare fonti e notizie in modo critico",
+    "description": "valutare fonti e notizie in modo critico",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "valutare fonti e notizie in modo critico",
+      "outcomes": [
+        "valutare fonti e notizie in modo critico",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Connettori, congiuntivo, registro e argomentazione."
+      ],
+      "vocabulary": [
+        "fonte",
+        "notizia",
+        "verificare",
+        "affidabilità",
+        "pregiudizio"
+      ],
+      "scenario": "Media e informazione"
+    }
+  },
+  {
+    "slug": "salute-e-benessere",
+    "target_language": "italian",
+    "level": "B2",
+    "title": "Salute e benessere",
+    "title_es": "proporre abitudini equilibrate",
+    "description": "proporre abitudini equilibrate",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "proporre abitudini equilibrate",
+      "outcomes": [
+        "proporre abitudini equilibrate",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Connettori, congiuntivo, registro e argomentazione."
+      ],
+      "vocabulary": [
+        "benessere",
+        "prevenzione",
+        "riposo",
+        "equilibrio",
+        "consiglio"
+      ],
+      "scenario": "Salute e benessere"
+    }
+  },
+  {
+    "slug": "cultura-e-identita",
+    "target_language": "italian",
+    "level": "B2",
+    "title": "Cultura e identità",
+    "title_es": "presentare pratiche culturali con rispetto",
+    "description": "presentare pratiche culturali con rispetto",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "presentare pratiche culturali con rispetto",
+      "outcomes": [
+        "presentare pratiche culturali con rispetto",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Connettori, congiuntivo, registro e argomentazione."
+      ],
+      "vocabulary": [
+        "tradizione",
+        "appartenenza",
+        "prospettiva",
+        "valorizzare",
+        "dialogo"
+      ],
+      "scenario": "Cultura e identità"
+    }
+  },
+  {
+    "slug": "tecnologia-e-privacy",
+    "target_language": "italian",
+    "level": "B2",
+    "title": "Tecnologia e privacy",
+    "title_es": "discutere benefici e rischi digitali",
+    "description": "discutere benefici e rischi digitali",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "discutere benefici e rischi digitali",
+      "outcomes": [
+        "discutere benefici e rischi digitali",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Connettori, congiuntivo, registro e argomentazione."
+      ],
+      "vocabulary": [
+        "dispositivo",
+        "dati",
+        "proteggere",
+        "consenso",
+        "rischio"
+      ],
+      "scenario": "Tecnologia e privacy"
+    }
+  },
+  {
+    "slug": "viaggi-consapevoli",
+    "target_language": "italian",
+    "level": "B2",
+    "title": "Viaggi consapevoli",
+    "title_es": "raccontare un viaggio e formulare raccomandazioni",
+    "description": "raccontare un viaggio e formulare raccomandazioni",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "raccontare un viaggio e formulare raccomandazioni",
+      "outcomes": [
+        "raccontare un viaggio e formulare raccomandazioni",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Connettori, congiuntivo, registro e argomentazione."
+      ],
+      "vocabulary": [
+        "itinerario",
+        "alloggio",
+        "imprevisto",
+        "consigliare",
+        "rispettare"
+      ],
+      "scenario": "Viaggi consapevoli"
+    }
+  },
+  {
+    "slug": "relazioni-e-mediazione",
+    "target_language": "italian",
+    "level": "B2",
+    "title": "Relazioni e mediazione",
+    "title_es": "gestire un disaccordo con tatto",
+    "description": "gestire un disaccordo con tatto",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "gestire un disaccordo con tatto",
+      "outcomes": [
+        "gestire un disaccordo con tatto",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Connettori, congiuntivo, registro e argomentazione."
+      ],
+      "vocabulary": [
+        "equivoco",
+        "ascoltare",
+        "chiarire",
+        "accordo",
+        "mediare"
+      ],
+      "scenario": "Relazioni e mediazione"
+    }
+  },
+  {
+    "slug": "cittadinanza-attiva",
+    "target_language": "italian",
+    "level": "B2",
+    "title": "Cittadinanza attiva",
+    "title_es": "presentare una proposta per la comunità",
+    "description": "presentare una proposta per la comunità",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "presentare una proposta per la comunità",
+      "outcomes": [
+        "presentare una proposta per la comunità",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Connettori, congiuntivo, registro e argomentazione."
+      ],
+      "vocabulary": [
+        "iniziativa",
+        "quartiere",
+        "partecipare",
+        "proposta",
+        "beneficio"
+      ],
+      "scenario": "Cittadinanza attiva"
+    }
+  },
+  {
+    "slug": "bilanci-e-prospettive",
+    "target_language": "italian",
+    "level": "B2",
+    "title": "Bilanci e prospettive",
+    "title_es": "riflettere sui risultati e definire obiettivi",
+    "description": "riflettere sui risultati e definire obiettivi",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "riflettere sui risultati e definire obiettivi",
+      "outcomes": [
+        "riflettere sui risultati e definire obiettivi",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Connettori, congiuntivo, registro e argomentazione."
+      ],
+      "vocabulary": [
+        "traguardo",
+        "ostacolo",
+        "percorso",
+        "priorità",
+        "raggiungere"
+      ],
+      "scenario": "Bilanci e prospettive"
+    }
+  },
+  {
+    "slug": "argomentazione-pubblica",
+    "target_language": "italian",
+    "level": "C1",
+    "title": "Argomentazione pubblica",
+    "title_es": "costruire un argomento equilibrato",
+    "description": "costruire un argomento equilibrato",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "costruire un argomento equilibrato",
+      "outcomes": [
+        "costruire un argomento equilibrato",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Sfumature, coesione, discorso indiretto e registro formale."
+      ],
+      "vocabulary": [
+        "tesi",
+        "obiezione",
+        "evidenza",
+        "confutare",
+        "sfumatura"
+      ],
+      "scenario": "Argomentazione pubblica"
+    }
+  },
+  {
+    "slug": "innovazione-e-societa",
+    "target_language": "italian",
+    "level": "C1",
+    "title": "Innovazione e società",
+    "title_es": "analizzare gli effetti dell’innovazione",
+    "description": "analizzare gli effetti dell’innovazione",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "analizzare gli effetti dell’innovazione",
+      "outcomes": [
+        "analizzare gli effetti dell’innovazione",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Sfumature, coesione, discorso indiretto e registro formale."
+      ],
+      "vocabulary": [
+        "innovazione",
+        "accesso",
+        "divario",
+        "regolare",
+        "conseguenza"
+      ],
+      "scenario": "Innovazione e società"
+    }
+  },
+  {
+    "slug": "etica-e-decisioni",
+    "target_language": "italian",
+    "level": "C1",
+    "title": "Etica e decisioni",
+    "title_es": "valutare un dilemma da diverse prospettive",
+    "description": "valutare un dilemma da diverse prospettive",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "valutare un dilemma da diverse prospettive",
+      "outcomes": [
+        "valutare un dilemma da diverse prospettive",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Sfumature, coesione, discorso indiretto e registro formale."
+      ],
+      "vocabulary": [
+        "dilemma",
+        "principio",
+        "responsabilità",
+        "giustificare",
+        "equità"
+      ],
+      "scenario": "Etica e decisioni"
+    }
+  },
+  {
+    "slug": "arte-e-interpretazione",
+    "target_language": "italian",
+    "level": "C1",
+    "title": "Arte e interpretazione",
+    "title_es": "interpretare un’opera e difendere una lettura",
+    "description": "interpretare un’opera e difendere una lettura",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "interpretare un’opera e difendere una lettura",
+      "outcomes": [
+        "interpretare un’opera e difendere una lettura",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Sfumature, coesione, discorso indiretto e registro formale."
+      ],
+      "vocabulary": [
+        "opera",
+        "linguaggio",
+        "interpretazione",
+        "evocare",
+        "contrasto"
+      ],
+      "scenario": "Arte e interpretazione"
+    }
+  },
+  {
+    "slug": "ricerca-e-metodo",
+    "target_language": "italian",
+    "level": "C1",
+    "title": "Ricerca e metodo",
+    "title_es": "presentare una ricerca con rigore",
+    "description": "presentare una ricerca con rigore",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "presentare una ricerca con rigore",
+      "outcomes": [
+        "presentare una ricerca con rigore",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Sfumature, coesione, discorso indiretto e registro formale."
+      ],
+      "vocabulary": [
+        "ipotesi",
+        "campione",
+        "risultato",
+        "dimostrare",
+        "limite"
+      ],
+      "scenario": "Ricerca e metodo"
+    }
+  },
+  {
+    "slug": "economia-quotidiana",
+    "target_language": "italian",
+    "level": "C1",
+    "title": "Economia quotidiana",
+    "title_es": "spiegare decisioni economiche comuni",
+    "description": "spiegare decisioni economiche comuni",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "spiegare decisioni economiche comuni",
+      "outcomes": [
+        "spiegare decisioni economiche comuni",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Sfumature, coesione, discorso indiretto e registro formale."
+      ],
+      "vocabulary": [
+        "bilancio",
+        "risparmio",
+        "investimento",
+        "variare",
+        "sostenere"
+      ],
+      "scenario": "Economia quotidiana"
+    }
+  },
+  {
+    "slug": "territori-e-memoria",
+    "target_language": "italian",
+    "level": "C1",
+    "title": "Territori e memoria",
+    "title_es": "collegare memoria, territorio e cambiamento",
+    "description": "collegare memoria, territorio e cambiamento",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "collegare memoria, territorio e cambiamento",
+      "outcomes": [
+        "collegare memoria, territorio e cambiamento",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Sfumature, coesione, discorso indiretto e registro formale."
+      ],
+      "vocabulary": [
+        "memoria",
+        "patrimonio",
+        "trasformazione",
+        "preservare",
+        "radice"
+      ],
+      "scenario": "Territori e memoria"
+    }
+  },
+  {
+    "slug": "comunicazione-e-registro",
+    "target_language": "italian",
+    "level": "C1",
+    "title": "Comunicazione e registro",
+    "title_es": "adattare il registro a destinatari diversi",
+    "description": "adattare il registro a destinatari diversi",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "adattare il registro a destinatari diversi",
+      "outcomes": [
+        "adattare il registro a destinatari diversi",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Sfumature, coesione, discorso indiretto e registro formale."
+      ],
+      "vocabulary": [
+        "registro",
+        "destinatario",
+        "intenzione",
+        "formulare",
+        "implicito"
+      ],
+      "scenario": "Comunicazione e registro"
+    }
+  },
+  {
+    "slug": "scienza-e-divulgazione",
+    "target_language": "italian",
+    "level": "C1",
+    "title": "Scienza e divulgazione",
+    "title_es": "rendere comprensibile un tema complesso",
+    "description": "rendere comprensibile un tema complesso",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "rendere comprensibile un tema complesso",
+      "outcomes": [
+        "rendere comprensibile un tema complesso",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Sfumature, coesione, discorso indiretto e registro formale."
+      ],
+      "vocabulary": [
+        "fenomeno",
+        "evidenza",
+        "modello",
+        "divulgare",
+        "precisione"
+      ],
+      "scenario": "Scienza e divulgazione"
+    }
+  },
+  {
+    "slug": "conflitto-e-negoziazione",
+    "target_language": "italian",
+    "level": "C1",
+    "title": "Conflitto e negoziazione",
+    "title_es": "negoziare una soluzione sostenibile",
+    "description": "negoziare una soluzione sostenibile",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "negoziare una soluzione sostenibile",
+      "outcomes": [
+        "negoziare una soluzione sostenibile",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Sfumature, coesione, discorso indiretto e registro formale."
+      ],
+      "vocabulary": [
+        "interesse",
+        "compromesso",
+        "vincolo",
+        "conciliare",
+        "mediazione"
+      ],
+      "scenario": "Conflitto e negoziazione"
+    }
+  },
+  {
+    "slug": "letteratura-e-voce",
+    "target_language": "italian",
+    "level": "C1",
+    "title": "Letteratura e voce",
+    "title_es": "riconoscere punto di vista e stile",
+    "description": "riconoscere punto di vista e stile",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "riconoscere punto di vista e stile",
+      "outcomes": [
+        "riconoscere punto di vista e stile",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Sfumature, coesione, discorso indiretto e registro formale."
+      ],
+      "vocabulary": [
+        "narratore",
+        "tono",
+        "metafora",
+        "suggerire",
+        "ambiguità"
+      ],
+      "scenario": "Letteratura e voce"
+    }
+  },
+  {
+    "slug": "progetto-personale",
+    "target_language": "italian",
+    "level": "C1",
+    "title": "Progetto personale",
+    "title_es": "presentare un progetto con una visione coerente",
+    "description": "presentare un progetto con una visione coerente",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "presentare un progetto con una visione coerente",
+      "outcomes": [
+        "presentare un progetto con una visione coerente",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Sfumature, coesione, discorso indiretto e registro formale."
+      ],
+      "vocabulary": [
+        "visione",
+        "strategia",
+        "risorsa",
+        "realizzare",
+        "coerenza"
+      ],
+      "scenario": "Progetto personale"
+    }
+  },
+  {
+    "slug": "linguaggio-e-persuasione",
+    "target_language": "italian",
+    "level": "C2",
+    "title": "Linguaggio e persuasione",
+    "title_es": "analizzare strategie persuasive",
+    "description": "analizzare strategie persuasive",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "analizzare strategie persuasive",
+      "outcomes": [
+        "analizzare strategie persuasive",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisione stilistica, implicito, retorica e riformulazione."
+      ],
+      "vocabulary": [
+        "retorica",
+        "premessa",
+        "inferenza",
+        "attenuare",
+        "persuasivo"
+      ],
+      "scenario": "Linguaggio e persuasione"
+    }
+  },
+  {
+    "slug": "politiche-pubbliche",
+    "target_language": "italian",
+    "level": "C2",
+    "title": "Politiche pubbliche",
+    "title_es": "valutare una politica pubblica con criteri espliciti",
+    "description": "valutare una politica pubblica con criteri espliciti",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "valutare una politica pubblica con criteri espliciti",
+      "outcomes": [
+        "valutare una politica pubblica con criteri espliciti",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisione stilistica, implicito, retorica e riformulazione."
+      ],
+      "vocabulary": [
+        "politica",
+        "impatto",
+        "criterio",
+        "attuare",
+        "monitorare"
+      ],
+      "scenario": "Politiche pubbliche"
+    }
+  },
+  {
+    "slug": "conoscenza-e-incertezza",
+    "target_language": "italian",
+    "level": "C2",
+    "title": "Conoscenza e incertezza",
+    "title_es": "esprimere gradi di certezza e dubbio",
+    "description": "esprimere gradi di certezza e dubbio",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "esprimere gradi di certezza e dubbio",
+      "outcomes": [
+        "esprimere gradi di certezza e dubbio",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisione stilistica, implicito, retorica e riformulazione."
+      ],
+      "vocabulary": [
+        "ipotesi",
+        "probabilità",
+        "evidenza",
+        "presumere",
+        "cautela"
+      ],
+      "scenario": "Conoscenza e incertezza"
+    }
+  },
+  {
+    "slug": "narrazione-e-identita",
+    "target_language": "italian",
+    "level": "C2",
+    "title": "Narrazione e identità",
+    "title_es": "valutare come una narrazione costruisce identità",
+    "description": "valutare come una narrazione costruisce identità",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "valutare come una narrazione costruisce identità",
+      "outcomes": [
+        "valutare come una narrazione costruisce identità",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisione stilistica, implicito, retorica e riformulazione."
+      ],
+      "vocabulary": [
+        "narrazione",
+        "memoria",
+        "voce",
+        "rielaborare",
+        "appartenenza"
+      ],
+      "scenario": "Narrazione e identità"
+    }
+  },
+  {
+    "slug": "diritto-e-responsabilita",
+    "target_language": "italian",
+    "level": "C2",
+    "title": "Diritto e responsabilità",
+    "title_es": "discutere responsabilità individuale e collettiva",
+    "description": "discutere responsabilità individuale e collettiva",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "discutere responsabilità individuale e collettiva",
+      "outcomes": [
+        "discutere responsabilità individuale e collettiva",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisione stilistica, implicito, retorica e riformulazione."
+      ],
+      "vocabulary": [
+        "diritto",
+        "dovere",
+        "principio",
+        "tutelare",
+        "responsabilità"
+      ],
+      "scenario": "Diritto e responsabilità"
+    }
+  },
+  {
+    "slug": "economia-e-disuguaglianza",
+    "target_language": "italian",
+    "level": "C2",
+    "title": "Economia e disuguaglianza",
+    "title_es": "interpretare dati e disuguaglianze",
+    "description": "interpretare dati e disuguaglianze",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "interpretare dati e disuguaglianze",
+      "outcomes": [
+        "interpretare dati e disuguaglianze",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisione stilistica, implicito, retorica e riformulazione."
+      ],
+      "vocabulary": [
+        "disuguaglianza",
+        "reddito",
+        "indicatore",
+        "distribuire",
+        "intervenire"
+      ],
+      "scenario": "Economia e disuguaglianza"
+    }
+  },
+  {
+    "slug": "ambiente-e-futuro",
+    "target_language": "italian",
+    "level": "C2",
+    "title": "Ambiente e futuro",
+    "title_es": "argomentare scenari ambientali complessi",
+    "description": "argomentare scenari ambientali complessi",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "argomentare scenari ambientali complessi",
+      "outcomes": [
+        "argomentare scenari ambientali complessi",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisione stilistica, implicito, retorica e riformulazione."
+      ],
+      "vocabulary": [
+        "scenario",
+        "risorsa",
+        "mitigare",
+        "adattamento",
+        "interdipendenza"
+      ],
+      "scenario": "Ambiente e futuro"
+    }
+  },
+  {
+    "slug": "media-e-discorso",
+    "target_language": "italian",
+    "level": "C2",
+    "title": "Media e discorso",
+    "title_es": "analizzare il discorso pubblico nei media",
+    "description": "analizzare il discorso pubblico nei media",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "analizzare il discorso pubblico nei media",
+      "outcomes": [
+        "analizzare il discorso pubblico nei media",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisione stilistica, implicito, retorica e riformulazione."
+      ],
+      "vocabulary": [
+        "cornice",
+        "narrazione",
+        "selezionare",
+        "visibilità",
+        "interpretare"
+      ],
+      "scenario": "Media e discorso"
+    }
+  },
+  {
+    "slug": "scienza-e-responsabilita",
+    "target_language": "italian",
+    "level": "C2",
+    "title": "Scienza e responsabilità",
+    "title_es": "comunicare limiti e implicazioni della ricerca",
+    "description": "comunicare limiti e implicazioni della ricerca",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "comunicare limiti e implicazioni della ricerca",
+      "outcomes": [
+        "comunicare limiti e implicazioni della ricerca",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisione stilistica, implicito, retorica e riformulazione."
+      ],
+      "vocabulary": [
+        "metodo",
+        "limite",
+        "replicare",
+        "implicazione",
+        "rigore"
+      ],
+      "scenario": "Scienza e responsabilità"
+    }
+  },
+  {
+    "slug": "filosofia-quotidiana",
+    "target_language": "italian",
+    "level": "C2",
+    "title": "Filosofia quotidiana",
+    "title_es": "esaminare una domanda astratta con esempi",
+    "description": "esaminare una domanda astratta con esempi",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "esaminare una domanda astratta con esempi",
+      "outcomes": [
+        "esaminare una domanda astratta con esempi",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisione stilistica, implicito, retorica e riformulazione."
+      ],
+      "vocabulary": [
+        "concetto",
+        "paradosso",
+        "argomentare",
+        "premessa",
+        "coerente"
+      ],
+      "scenario": "Filosofia quotidiana"
+    }
+  },
+  {
+    "slug": "mediazione-interculturale",
+    "target_language": "italian",
+    "level": "C2",
+    "title": "Mediazione interculturale",
+    "title_es": "mediare tra prospettive culturali differenti",
+    "description": "mediare tra prospettive culturali differenti",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "mediare tra prospettive culturali differenti",
+      "outcomes": [
+        "mediare tra prospettive culturali differenti",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisione stilistica, implicito, retorica e riformulazione."
+      ],
+      "vocabulary": [
+        "mediazione",
+        "contesto",
+        "equivoco",
+        "riconoscere",
+        "reciprocità"
+      ],
+      "scenario": "Mediazione interculturale"
+    }
+  },
+  {
+    "slug": "sintesi-e-proposta",
+    "target_language": "italian",
+    "level": "C2",
+    "title": "Sintesi e proposta",
+    "title_es": "sintetizzare fonti e formulare una proposta",
+    "description": "sintetizzare fonti e formulare una proposta",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "sintetizzare fonti e formulare una proposta",
+      "outcomes": [
+        "sintetizzare fonti e formulare una proposta",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisione stilistica, implicito, retorica e riformulazione."
+      ],
+      "vocabulary": [
+        "sintesi",
+        "fonte",
+        "priorità",
+        "formulare",
+        "realizzabile"
+      ],
+      "scenario": "Sintesi e proposta"
+    }
+  },
+  {
+    "slug": "b2-projetos-e-responsabilidades",
+    "target_language": "portuguese",
+    "level": "B2",
+    "title": "Projetos e responsabilidades",
+    "title_es": "explicar um objetivo com argumentos claros",
+    "description": "explicar um objetivo com argumentos claros",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "explicar um objetivo com argumentos claros",
+      "outcomes": [
+        "explicar um objetivo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Conectores, subjuntivo, registro e argumentação."
+      ],
+      "vocabulary": [
+        "scadenza",
+        "incarico",
+        "risorsa",
+        "coordinare",
+        "valutare"
+      ],
+      "scenario": "Projetos e responsabilidades"
+    }
+  },
+  {
+    "slug": "b2-cidade-e-mobilidade",
+    "target_language": "portuguese",
+    "level": "B2",
+    "title": "Cidade e mobilidade",
+    "title_es": "comparar um solução com argumentos claros",
+    "description": "comparar um solução com argumentos claros",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "comparar um solução com argumentos claros",
+      "outcomes": [
+        "comparar um solução com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Conectores, subjuntivo, registro e argumentação."
+      ],
+      "vocabulary": [
+        "percorso",
+        "traffico",
+        "abbonamento",
+        "accessibile",
+        "ridurre"
+      ],
+      "scenario": "Cidade e mobilidade"
+    }
+  },
+  {
+    "slug": "b2-trabalho-e-competencias",
+    "target_language": "portuguese",
+    "level": "B2",
+    "title": "Trabalho e competências",
+    "title_es": "avaliar um perspectiva com argumentos claros",
+    "description": "avaliar um perspectiva com argumentos claros",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "avaliar um perspectiva com argumentos claros",
+      "outcomes": [
+        "avaliar um perspectiva com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Conectores, subjuntivo, registro e argumentação."
+      ],
+      "vocabulary": [
+        "colloquio",
+        "esperienza",
+        "candidatura",
+        "affidabile",
+        "migliorare"
+      ],
+      "scenario": "Trabalho e competências"
+    }
+  },
+  {
+    "slug": "b2-ambiente-e-consumo",
+    "target_language": "portuguese",
+    "level": "B2",
+    "title": "Ambiente e consumo",
+    "title_es": "justificar um exemplo com argumentos claros",
+    "description": "justificar um exemplo com argumentos claros",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "justificar um exemplo com argumentos claros",
+      "outcomes": [
+        "justificar um exemplo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Conectores, subjuntivo, registro e argumentação."
+      ],
+      "vocabulary": [
+        "impatto",
+        "raccolta",
+        "spreco",
+        "sostenibile",
+        "abitudine"
+      ],
+      "scenario": "Ambiente e consumo"
+    }
+  },
+  {
+    "slug": "b2-midia-e-informacao",
+    "target_language": "portuguese",
+    "level": "B2",
+    "title": "Mídia e informação",
+    "title_es": "resumir um contexto com argumentos claros",
+    "description": "resumir um contexto com argumentos claros",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "resumir um contexto com argumentos claros",
+      "outcomes": [
+        "resumir um contexto com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Conectores, subjuntivo, registro e argumentação."
+      ],
+      "vocabulary": [
+        "fonte",
+        "notizia",
+        "verificare",
+        "affidabilità",
+        "pregiudizio"
+      ],
+      "scenario": "Mídia e informação"
+    }
+  },
+  {
+    "slug": "b2-saude-e-bem-estar",
+    "target_language": "portuguese",
+    "level": "B2",
+    "title": "Saúde e bem-estar",
+    "title_es": "explicar um objetivo com argumentos claros",
+    "description": "explicar um objetivo com argumentos claros",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "explicar um objetivo com argumentos claros",
+      "outcomes": [
+        "explicar um objetivo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Conectores, subjuntivo, registro e argumentação."
+      ],
+      "vocabulary": [
+        "benessere",
+        "prevenzione",
+        "riposo",
+        "equilibrio",
+        "consiglio"
+      ],
+      "scenario": "Saúde e bem-estar"
+    }
+  },
+  {
+    "slug": "b2-cultura-e-identidade",
+    "target_language": "portuguese",
+    "level": "B2",
+    "title": "Cultura e identidade",
+    "title_es": "comparar um solução com argumentos claros",
+    "description": "comparar um solução com argumentos claros",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "comparar um solução com argumentos claros",
+      "outcomes": [
+        "comparar um solução com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Conectores, subjuntivo, registro e argumentação."
+      ],
+      "vocabulary": [
+        "tradizione",
+        "appartenenza",
+        "prospettiva",
+        "valorizzare",
+        "dialogo"
+      ],
+      "scenario": "Cultura e identidade"
+    }
+  },
+  {
+    "slug": "b2-tecnologia-e-privacidade",
+    "target_language": "portuguese",
+    "level": "B2",
+    "title": "Tecnologia e privacidade",
+    "title_es": "avaliar um perspectiva com argumentos claros",
+    "description": "avaliar um perspectiva com argumentos claros",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "avaliar um perspectiva com argumentos claros",
+      "outcomes": [
+        "avaliar um perspectiva com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Conectores, subjuntivo, registro e argumentação."
+      ],
+      "vocabulary": [
+        "dispositivo",
+        "dati",
+        "proteggere",
+        "consenso",
+        "rischio"
+      ],
+      "scenario": "Tecnologia e privacidade"
+    }
+  },
+  {
+    "slug": "b2-viagens-conscientes",
+    "target_language": "portuguese",
+    "level": "B2",
+    "title": "Viagens conscientes",
+    "title_es": "justificar um exemplo com argumentos claros",
+    "description": "justificar um exemplo com argumentos claros",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "justificar um exemplo com argumentos claros",
+      "outcomes": [
+        "justificar um exemplo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Conectores, subjuntivo, registro e argumentação."
+      ],
+      "vocabulary": [
+        "itinerario",
+        "alloggio",
+        "imprevisto",
+        "consigliare",
+        "rispettare"
+      ],
+      "scenario": "Viagens conscientes"
+    }
+  },
+  {
+    "slug": "b2-relacoes-e-mediacao",
+    "target_language": "portuguese",
+    "level": "B2",
+    "title": "Relações e mediação",
+    "title_es": "resumir um contexto com argumentos claros",
+    "description": "resumir um contexto com argumentos claros",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "resumir um contexto com argumentos claros",
+      "outcomes": [
+        "resumir um contexto com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Conectores, subjuntivo, registro e argumentação."
+      ],
+      "vocabulary": [
+        "equivoco",
+        "ascoltare",
+        "chiarire",
+        "accordo",
+        "mediare"
+      ],
+      "scenario": "Relações e mediação"
+    }
+  },
+  {
+    "slug": "b2-cidadania-ativa",
+    "target_language": "portuguese",
+    "level": "B2",
+    "title": "Cidadania ativa",
+    "title_es": "explicar um objetivo com argumentos claros",
+    "description": "explicar um objetivo com argumentos claros",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "explicar um objetivo com argumentos claros",
+      "outcomes": [
+        "explicar um objetivo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Conectores, subjuntivo, registro e argumentação."
+      ],
+      "vocabulary": [
+        "iniziativa",
+        "quartiere",
+        "partecipare",
+        "proposta",
+        "beneficio"
+      ],
+      "scenario": "Cidadania ativa"
+    }
+  },
+  {
+    "slug": "b2-balancos-e-perspectivas",
+    "target_language": "portuguese",
+    "level": "B2",
+    "title": "Balanços e perspectivas",
+    "title_es": "comparar um solução com argumentos claros",
+    "description": "comparar um solução com argumentos claros",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "comparar um solução com argumentos claros",
+      "outcomes": [
+        "comparar um solução com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Conectores, subjuntivo, registro e argumentação."
+      ],
+      "vocabulary": [
+        "traguardo",
+        "ostacolo",
+        "percorso",
+        "priorità",
+        "raggiungere"
+      ],
+      "scenario": "Balanços e perspectivas"
+    }
+  },
+  {
+    "slug": "c1-argumentacao-publica",
+    "target_language": "portuguese",
+    "level": "C1",
+    "title": "Argumentação pública",
+    "title_es": "explicar um objetivo com argumentos claros",
+    "description": "explicar um objetivo com argumentos claros",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "explicar um objetivo com argumentos claros",
+      "outcomes": [
+        "explicar um objetivo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuances, coesão, discurso indireto e registro formal."
+      ],
+      "vocabulary": [
+        "tesi",
+        "obiezione",
+        "evidenza",
+        "confutare",
+        "sfumatura"
+      ],
+      "scenario": "Argumentação pública"
+    }
+  },
+  {
+    "slug": "c1-inovacao-e-sociedade",
+    "target_language": "portuguese",
+    "level": "C1",
+    "title": "Inovação e sociedade",
+    "title_es": "comparar um solução com argumentos claros",
+    "description": "comparar um solução com argumentos claros",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "comparar um solução com argumentos claros",
+      "outcomes": [
+        "comparar um solução com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuances, coesão, discurso indireto e registro formal."
+      ],
+      "vocabulary": [
+        "innovazione",
+        "accesso",
+        "divario",
+        "regolare",
+        "conseguenza"
+      ],
+      "scenario": "Inovação e sociedade"
+    }
+  },
+  {
+    "slug": "c1-etica-e-decisoes",
+    "target_language": "portuguese",
+    "level": "C1",
+    "title": "Ética e decisões",
+    "title_es": "avaliar um perspectiva com argumentos claros",
+    "description": "avaliar um perspectiva com argumentos claros",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "avaliar um perspectiva com argumentos claros",
+      "outcomes": [
+        "avaliar um perspectiva com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuances, coesão, discurso indireto e registro formal."
+      ],
+      "vocabulary": [
+        "dilemma",
+        "principio",
+        "responsabilità",
+        "giustificare",
+        "equità"
+      ],
+      "scenario": "Ética e decisões"
+    }
+  },
+  {
+    "slug": "c1-arte-e-interpretacao",
+    "target_language": "portuguese",
+    "level": "C1",
+    "title": "Arte e interpretação",
+    "title_es": "justificar um exemplo com argumentos claros",
+    "description": "justificar um exemplo com argumentos claros",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "justificar um exemplo com argumentos claros",
+      "outcomes": [
+        "justificar um exemplo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuances, coesão, discurso indireto e registro formal."
+      ],
+      "vocabulary": [
+        "opera",
+        "linguaggio",
+        "interpretazione",
+        "evocare",
+        "contrasto"
+      ],
+      "scenario": "Arte e interpretação"
+    }
+  },
+  {
+    "slug": "c1-pesquisa-e-metodo",
+    "target_language": "portuguese",
+    "level": "C1",
+    "title": "Pesquisa e método",
+    "title_es": "resumir um contexto com argumentos claros",
+    "description": "resumir um contexto com argumentos claros",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "resumir um contexto com argumentos claros",
+      "outcomes": [
+        "resumir um contexto com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuances, coesão, discurso indireto e registro formal."
+      ],
+      "vocabulary": [
+        "ipotesi",
+        "campione",
+        "risultato",
+        "dimostrare",
+        "limite"
+      ],
+      "scenario": "Pesquisa e método"
+    }
+  },
+  {
+    "slug": "c1-economia-cotidiana",
+    "target_language": "portuguese",
+    "level": "C1",
+    "title": "Economia cotidiana",
+    "title_es": "explicar um objetivo com argumentos claros",
+    "description": "explicar um objetivo com argumentos claros",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "explicar um objetivo com argumentos claros",
+      "outcomes": [
+        "explicar um objetivo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuances, coesão, discurso indireto e registro formal."
+      ],
+      "vocabulary": [
+        "bilancio",
+        "risparmio",
+        "investimento",
+        "variare",
+        "sostenere"
+      ],
+      "scenario": "Economia cotidiana"
+    }
+  },
+  {
+    "slug": "c1-territorios-e-memoria",
+    "target_language": "portuguese",
+    "level": "C1",
+    "title": "Territórios e memória",
+    "title_es": "comparar um solução com argumentos claros",
+    "description": "comparar um solução com argumentos claros",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "comparar um solução com argumentos claros",
+      "outcomes": [
+        "comparar um solução com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuances, coesão, discurso indireto e registro formal."
+      ],
+      "vocabulary": [
+        "memoria",
+        "patrimonio",
+        "trasformazione",
+        "preservare",
+        "radice"
+      ],
+      "scenario": "Territórios e memória"
+    }
+  },
+  {
+    "slug": "c1-comunicacao-e-registro",
+    "target_language": "portuguese",
+    "level": "C1",
+    "title": "Comunicação e registro",
+    "title_es": "avaliar um perspectiva com argumentos claros",
+    "description": "avaliar um perspectiva com argumentos claros",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "avaliar um perspectiva com argumentos claros",
+      "outcomes": [
+        "avaliar um perspectiva com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuances, coesão, discurso indireto e registro formal."
+      ],
+      "vocabulary": [
+        "registro",
+        "destinatario",
+        "intenzione",
+        "formulare",
+        "implicito"
+      ],
+      "scenario": "Comunicação e registro"
+    }
+  },
+  {
+    "slug": "c1-ciencia-e-divulgacao",
+    "target_language": "portuguese",
+    "level": "C1",
+    "title": "Ciência e divulgação",
+    "title_es": "justificar um exemplo com argumentos claros",
+    "description": "justificar um exemplo com argumentos claros",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "justificar um exemplo com argumentos claros",
+      "outcomes": [
+        "justificar um exemplo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuances, coesão, discurso indireto e registro formal."
+      ],
+      "vocabulary": [
+        "fenomeno",
+        "evidenza",
+        "modello",
+        "divulgare",
+        "precisione"
+      ],
+      "scenario": "Ciência e divulgação"
+    }
+  },
+  {
+    "slug": "c1-conflito-e-negociacao",
+    "target_language": "portuguese",
+    "level": "C1",
+    "title": "Conflito e negociação",
+    "title_es": "resumir um contexto com argumentos claros",
+    "description": "resumir um contexto com argumentos claros",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "resumir um contexto com argumentos claros",
+      "outcomes": [
+        "resumir um contexto com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuances, coesão, discurso indireto e registro formal."
+      ],
+      "vocabulary": [
+        "interesse",
+        "compromesso",
+        "vincolo",
+        "conciliare",
+        "mediazione"
+      ],
+      "scenario": "Conflito e negociação"
+    }
+  },
+  {
+    "slug": "c1-literatura-e-voz",
+    "target_language": "portuguese",
+    "level": "C1",
+    "title": "Literatura e voz",
+    "title_es": "explicar um objetivo com argumentos claros",
+    "description": "explicar um objetivo com argumentos claros",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "explicar um objetivo com argumentos claros",
+      "outcomes": [
+        "explicar um objetivo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuances, coesão, discurso indireto e registro formal."
+      ],
+      "vocabulary": [
+        "narratore",
+        "tono",
+        "metafora",
+        "suggerire",
+        "ambiguità"
+      ],
+      "scenario": "Literatura e voz"
+    }
+  },
+  {
+    "slug": "c1-projeto-pessoal",
+    "target_language": "portuguese",
+    "level": "C1",
+    "title": "Projeto pessoal",
+    "title_es": "comparar um solução com argumentos claros",
+    "description": "comparar um solução com argumentos claros",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "comparar um solução com argumentos claros",
+      "outcomes": [
+        "comparar um solução com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuances, coesão, discurso indireto e registro formal."
+      ],
+      "vocabulary": [
+        "visione",
+        "strategia",
+        "risorsa",
+        "realizzare",
+        "coerenza"
+      ],
+      "scenario": "Projeto pessoal"
+    }
+  },
+  {
+    "slug": "c2-linguagem-e-persuasao",
+    "target_language": "portuguese",
+    "level": "C2",
+    "title": "Linguagem e persuasão",
+    "title_es": "explicar um objetivo com argumentos claros",
+    "description": "explicar um objetivo com argumentos claros",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "explicar um objetivo com argumentos claros",
+      "outcomes": [
+        "explicar um objetivo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisão estilística, implícito, retórica e reformulação."
+      ],
+      "vocabulary": [
+        "retorica",
+        "premessa",
+        "inferenza",
+        "attenuare",
+        "persuasivo"
+      ],
+      "scenario": "Linguagem e persuasão"
+    }
+  },
+  {
+    "slug": "c2-politicas-publicas",
+    "target_language": "portuguese",
+    "level": "C2",
+    "title": "Políticas públicas",
+    "title_es": "comparar um solução com argumentos claros",
+    "description": "comparar um solução com argumentos claros",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "comparar um solução com argumentos claros",
+      "outcomes": [
+        "comparar um solução com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisão estilística, implícito, retórica e reformulação."
+      ],
+      "vocabulary": [
+        "politica",
+        "impatto",
+        "criterio",
+        "attuare",
+        "monitorare"
+      ],
+      "scenario": "Políticas públicas"
+    }
+  },
+  {
+    "slug": "c2-conhecimento-e-incerteza",
+    "target_language": "portuguese",
+    "level": "C2",
+    "title": "Conhecimento e incerteza",
+    "title_es": "avaliar um perspectiva com argumentos claros",
+    "description": "avaliar um perspectiva com argumentos claros",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "avaliar um perspectiva com argumentos claros",
+      "outcomes": [
+        "avaliar um perspectiva com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisão estilística, implícito, retórica e reformulação."
+      ],
+      "vocabulary": [
+        "ipotesi",
+        "probabilità",
+        "evidenza",
+        "presumere",
+        "cautela"
+      ],
+      "scenario": "Conhecimento e incerteza"
+    }
+  },
+  {
+    "slug": "c2-narrativa-e-identidade",
+    "target_language": "portuguese",
+    "level": "C2",
+    "title": "Narrativa e identidade",
+    "title_es": "justificar um exemplo com argumentos claros",
+    "description": "justificar um exemplo com argumentos claros",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "justificar um exemplo com argumentos claros",
+      "outcomes": [
+        "justificar um exemplo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisão estilística, implícito, retórica e reformulação."
+      ],
+      "vocabulary": [
+        "narrazione",
+        "memoria",
+        "voce",
+        "rielaborare",
+        "appartenenza"
+      ],
+      "scenario": "Narrativa e identidade"
+    }
+  },
+  {
+    "slug": "c2-direito-e-responsabilidade",
+    "target_language": "portuguese",
+    "level": "C2",
+    "title": "Direito e responsabilidade",
+    "title_es": "resumir um contexto com argumentos claros",
+    "description": "resumir um contexto com argumentos claros",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "resumir um contexto com argumentos claros",
+      "outcomes": [
+        "resumir um contexto com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisão estilística, implícito, retórica e reformulação."
+      ],
+      "vocabulary": [
+        "diritto",
+        "dovere",
+        "principio",
+        "tutelare",
+        "responsabilità"
+      ],
+      "scenario": "Direito e responsabilidade"
+    }
+  },
+  {
+    "slug": "c2-economia-e-desigualdade",
+    "target_language": "portuguese",
+    "level": "C2",
+    "title": "Economia e desigualdade",
+    "title_es": "explicar um objetivo com argumentos claros",
+    "description": "explicar um objetivo com argumentos claros",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "explicar um objetivo com argumentos claros",
+      "outcomes": [
+        "explicar um objetivo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisão estilística, implícito, retórica e reformulação."
+      ],
+      "vocabulary": [
+        "disuguaglianza",
+        "reddito",
+        "indicatore",
+        "distribuire",
+        "intervenire"
+      ],
+      "scenario": "Economia e desigualdade"
+    }
+  },
+  {
+    "slug": "c2-ambiente-e-futuro",
+    "target_language": "portuguese",
+    "level": "C2",
+    "title": "Ambiente e futuro",
+    "title_es": "comparar um solução com argumentos claros",
+    "description": "comparar um solução com argumentos claros",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "comparar um solução com argumentos claros",
+      "outcomes": [
+        "comparar um solução com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisão estilística, implícito, retórica e reformulação."
+      ],
+      "vocabulary": [
+        "scenario",
+        "risorsa",
+        "mitigare",
+        "adattamento",
+        "interdipendenza"
+      ],
+      "scenario": "Ambiente e futuro"
+    }
+  },
+  {
+    "slug": "c2-midia-e-discurso",
+    "target_language": "portuguese",
+    "level": "C2",
+    "title": "Mídia e discurso",
+    "title_es": "avaliar um perspectiva com argumentos claros",
+    "description": "avaliar um perspectiva com argumentos claros",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "avaliar um perspectiva com argumentos claros",
+      "outcomes": [
+        "avaliar um perspectiva com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisão estilística, implícito, retórica e reformulação."
+      ],
+      "vocabulary": [
+        "cornice",
+        "narrazione",
+        "selezionare",
+        "visibilità",
+        "interpretare"
+      ],
+      "scenario": "Mídia e discurso"
+    }
+  },
+  {
+    "slug": "c2-ciencia-e-responsabilidade",
+    "target_language": "portuguese",
+    "level": "C2",
+    "title": "Ciência e responsabilidade",
+    "title_es": "justificar um exemplo com argumentos claros",
+    "description": "justificar um exemplo com argumentos claros",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "justificar um exemplo com argumentos claros",
+      "outcomes": [
+        "justificar um exemplo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisão estilística, implícito, retórica e reformulação."
+      ],
+      "vocabulary": [
+        "metodo",
+        "limite",
+        "replicare",
+        "implicazione",
+        "rigore"
+      ],
+      "scenario": "Ciência e responsabilidade"
+    }
+  },
+  {
+    "slug": "c2-filosofia-cotidiana",
+    "target_language": "portuguese",
+    "level": "C2",
+    "title": "Filosofia cotidiana",
+    "title_es": "resumir um contexto com argumentos claros",
+    "description": "resumir um contexto com argumentos claros",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "resumir um contexto com argumentos claros",
+      "outcomes": [
+        "resumir um contexto com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisão estilística, implícito, retórica e reformulação."
+      ],
+      "vocabulary": [
+        "concetto",
+        "paradosso",
+        "argomentare",
+        "premessa",
+        "coerente"
+      ],
+      "scenario": "Filosofia cotidiana"
+    }
+  },
+  {
+    "slug": "c2-mediacao-intercultural",
+    "target_language": "portuguese",
+    "level": "C2",
+    "title": "Mediação intercultural",
+    "title_es": "explicar um objetivo com argumentos claros",
+    "description": "explicar um objetivo com argumentos claros",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "explicar um objetivo com argumentos claros",
+      "outcomes": [
+        "explicar um objetivo com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisão estilística, implícito, retórica e reformulação."
+      ],
+      "vocabulary": [
+        "mediazione",
+        "contesto",
+        "equivoco",
+        "riconoscere",
+        "reciprocità"
+      ],
+      "scenario": "Mediação intercultural"
+    }
+  },
+  {
+    "slug": "c2-sintese-e-proposta",
+    "target_language": "portuguese",
+    "level": "C2",
+    "title": "Síntese e proposta",
+    "title_es": "comparar um solução com argumentos claros",
+    "description": "comparar um solução com argumentos claros",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "comparar um solução com argumentos claros",
+      "outcomes": [
+        "comparar um solução com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Precisão estilística, implícito, retórica e reformulação."
+      ],
+      "vocabulary": [
+        "sintesi",
+        "fonte",
+        "priorità",
+        "formulare",
+        "realizzabile"
+      ],
+      "scenario": "Síntese e proposta"
+    }
+  },
+  {
+    "slug": "b2-projekte-und-verantwortung",
+    "target_language": "german",
+    "level": "B2",
+    "title": "Projekte und Verantwortung",
+    "title_es": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern um Ziel com argumentos claros",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "erläutern um Ziel com argumentos claros",
+      "outcomes": [
+        "erläutern um Ziel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Konnektoren, Konjunktiv, Register und Argumentation."
+      ],
+      "vocabulary": [
+        "scadenza",
+        "incarico",
+        "risorsa",
+        "coordinare",
+        "valutare"
+      ],
+      "scenario": "Projekte und Verantwortung"
+    }
+  },
+  {
+    "slug": "b2-stadt-und-mobilitat",
+    "target_language": "german",
+    "level": "B2",
+    "title": "Stadt und Mobilität",
+    "title_es": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen um Lösung com argumentos claros",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "vergleichen um Lösung com argumentos claros",
+      "outcomes": [
+        "vergleichen um Lösung com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Konnektoren, Konjunktiv, Register und Argumentation."
+      ],
+      "vocabulary": [
+        "percorso",
+        "traffico",
+        "abbonamento",
+        "accessibile",
+        "ridurre"
+      ],
+      "scenario": "Stadt und Mobilität"
+    }
+  },
+  {
+    "slug": "b2-arbeit-und-kompetenzen",
+    "target_language": "german",
+    "level": "B2",
+    "title": "Arbeit und Kompetenzen",
+    "title_es": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten um Perspektive com argumentos claros",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "bewerten um Perspektive com argumentos claros",
+      "outcomes": [
+        "bewerten um Perspektive com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Konnektoren, Konjunktiv, Register und Argumentation."
+      ],
+      "vocabulary": [
+        "colloquio",
+        "esperienza",
+        "candidatura",
+        "affidabile",
+        "migliorare"
+      ],
+      "scenario": "Arbeit und Kompetenzen"
+    }
+  },
+  {
+    "slug": "b2-umwelt-und-konsum",
+    "target_language": "german",
+    "level": "B2",
+    "title": "Umwelt und Konsum",
+    "title_es": "begründen um Beispiel com argumentos claros",
+    "description": "begründen um Beispiel com argumentos claros",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "begründen um Beispiel com argumentos claros",
+      "outcomes": [
+        "begründen um Beispiel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Konnektoren, Konjunktiv, Register und Argumentation."
+      ],
+      "vocabulary": [
+        "impatto",
+        "raccolta",
+        "spreco",
+        "sostenibile",
+        "abitudine"
+      ],
+      "scenario": "Umwelt und Konsum"
+    }
+  },
+  {
+    "slug": "b2-medien-und-information",
+    "target_language": "german",
+    "level": "B2",
+    "title": "Medien und Information",
+    "title_es": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen um Zusammenhang com argumentos claros",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "zusammenfassen um Zusammenhang com argumentos claros",
+      "outcomes": [
+        "zusammenfassen um Zusammenhang com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Konnektoren, Konjunktiv, Register und Argumentation."
+      ],
+      "vocabulary": [
+        "fonte",
+        "notizia",
+        "verificare",
+        "affidabilità",
+        "pregiudizio"
+      ],
+      "scenario": "Medien und Information"
+    }
+  },
+  {
+    "slug": "b2-gesundheit-und-wohlbefinden",
+    "target_language": "german",
+    "level": "B2",
+    "title": "Gesundheit und Wohlbefinden",
+    "title_es": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern um Ziel com argumentos claros",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "erläutern um Ziel com argumentos claros",
+      "outcomes": [
+        "erläutern um Ziel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Konnektoren, Konjunktiv, Register und Argumentation."
+      ],
+      "vocabulary": [
+        "benessere",
+        "prevenzione",
+        "riposo",
+        "equilibrio",
+        "consiglio"
+      ],
+      "scenario": "Gesundheit und Wohlbefinden"
+    }
+  },
+  {
+    "slug": "b2-kultur-und-identitat",
+    "target_language": "german",
+    "level": "B2",
+    "title": "Kultur und Identität",
+    "title_es": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen um Lösung com argumentos claros",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "vergleichen um Lösung com argumentos claros",
+      "outcomes": [
+        "vergleichen um Lösung com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Konnektoren, Konjunktiv, Register und Argumentation."
+      ],
+      "vocabulary": [
+        "tradizione",
+        "appartenenza",
+        "prospettiva",
+        "valorizzare",
+        "dialogo"
+      ],
+      "scenario": "Kultur und Identität"
+    }
+  },
+  {
+    "slug": "b2-technik-und-datenschutz",
+    "target_language": "german",
+    "level": "B2",
+    "title": "Technik und Datenschutz",
+    "title_es": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten um Perspektive com argumentos claros",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "bewerten um Perspektive com argumentos claros",
+      "outcomes": [
+        "bewerten um Perspektive com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Konnektoren, Konjunktiv, Register und Argumentation."
+      ],
+      "vocabulary": [
+        "dispositivo",
+        "dati",
+        "proteggere",
+        "consenso",
+        "rischio"
+      ],
+      "scenario": "Technik und Datenschutz"
+    }
+  },
+  {
+    "slug": "b2-bewusst-reisen",
+    "target_language": "german",
+    "level": "B2",
+    "title": "Bewusst reisen",
+    "title_es": "begründen um Beispiel com argumentos claros",
+    "description": "begründen um Beispiel com argumentos claros",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "begründen um Beispiel com argumentos claros",
+      "outcomes": [
+        "begründen um Beispiel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Konnektoren, Konjunktiv, Register und Argumentation."
+      ],
+      "vocabulary": [
+        "itinerario",
+        "alloggio",
+        "imprevisto",
+        "consigliare",
+        "rispettare"
+      ],
+      "scenario": "Bewusst reisen"
+    }
+  },
+  {
+    "slug": "b2-beziehungen-und-vermittlung",
+    "target_language": "german",
+    "level": "B2",
+    "title": "Beziehungen und Vermittlung",
+    "title_es": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen um Zusammenhang com argumentos claros",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "zusammenfassen um Zusammenhang com argumentos claros",
+      "outcomes": [
+        "zusammenfassen um Zusammenhang com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Konnektoren, Konjunktiv, Register und Argumentation."
+      ],
+      "vocabulary": [
+        "equivoco",
+        "ascoltare",
+        "chiarire",
+        "accordo",
+        "mediare"
+      ],
+      "scenario": "Beziehungen und Vermittlung"
+    }
+  },
+  {
+    "slug": "b2-aktive-burgerschaft",
+    "target_language": "german",
+    "level": "B2",
+    "title": "Aktive Bürgerschaft",
+    "title_es": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern um Ziel com argumentos claros",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "erläutern um Ziel com argumentos claros",
+      "outcomes": [
+        "erläutern um Ziel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Konnektoren, Konjunktiv, Register und Argumentation."
+      ],
+      "vocabulary": [
+        "iniziativa",
+        "quartiere",
+        "partecipare",
+        "proposta",
+        "beneficio"
+      ],
+      "scenario": "Aktive Bürgerschaft"
+    }
+  },
+  {
+    "slug": "b2-bilanz-und-perspektiven",
+    "target_language": "german",
+    "level": "B2",
+    "title": "Bilanz und Perspektiven",
+    "title_es": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen um Lösung com argumentos claros",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "vergleichen um Lösung com argumentos claros",
+      "outcomes": [
+        "vergleichen um Lösung com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Konnektoren, Konjunktiv, Register und Argumentation."
+      ],
+      "vocabulary": [
+        "traguardo",
+        "ostacolo",
+        "percorso",
+        "priorità",
+        "raggiungere"
+      ],
+      "scenario": "Bilanz und Perspektiven"
+    }
+  },
+  {
+    "slug": "c1-offentliche-argumentation",
+    "target_language": "german",
+    "level": "C1",
+    "title": "Öffentliche Argumentation",
+    "title_es": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern um Ziel com argumentos claros",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "erläutern um Ziel com argumentos claros",
+      "outcomes": [
+        "erläutern um Ziel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuancen, Kohärenz, indirekte Rede und formelles Register."
+      ],
+      "vocabulary": [
+        "tesi",
+        "obiezione",
+        "evidenza",
+        "confutare",
+        "sfumatura"
+      ],
+      "scenario": "Öffentliche Argumentation"
+    }
+  },
+  {
+    "slug": "c1-innovation-und-gesellschaft",
+    "target_language": "german",
+    "level": "C1",
+    "title": "Innovation und Gesellschaft",
+    "title_es": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen um Lösung com argumentos claros",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "vergleichen um Lösung com argumentos claros",
+      "outcomes": [
+        "vergleichen um Lösung com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuancen, Kohärenz, indirekte Rede und formelles Register."
+      ],
+      "vocabulary": [
+        "innovazione",
+        "accesso",
+        "divario",
+        "regolare",
+        "conseguenza"
+      ],
+      "scenario": "Innovation und Gesellschaft"
+    }
+  },
+  {
+    "slug": "c1-ethik-und-entscheidungen",
+    "target_language": "german",
+    "level": "C1",
+    "title": "Ethik und Entscheidungen",
+    "title_es": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten um Perspektive com argumentos claros",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "bewerten um Perspektive com argumentos claros",
+      "outcomes": [
+        "bewerten um Perspektive com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuancen, Kohärenz, indirekte Rede und formelles Register."
+      ],
+      "vocabulary": [
+        "dilemma",
+        "principio",
+        "responsabilità",
+        "giustificare",
+        "equità"
+      ],
+      "scenario": "Ethik und Entscheidungen"
+    }
+  },
+  {
+    "slug": "c1-kunst-und-interpretation",
+    "target_language": "german",
+    "level": "C1",
+    "title": "Kunst und Interpretation",
+    "title_es": "begründen um Beispiel com argumentos claros",
+    "description": "begründen um Beispiel com argumentos claros",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "begründen um Beispiel com argumentos claros",
+      "outcomes": [
+        "begründen um Beispiel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuancen, Kohärenz, indirekte Rede und formelles Register."
+      ],
+      "vocabulary": [
+        "opera",
+        "linguaggio",
+        "interpretazione",
+        "evocare",
+        "contrasto"
+      ],
+      "scenario": "Kunst und Interpretation"
+    }
+  },
+  {
+    "slug": "c1-forschung-und-methode",
+    "target_language": "german",
+    "level": "C1",
+    "title": "Forschung und Methode",
+    "title_es": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen um Zusammenhang com argumentos claros",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "zusammenfassen um Zusammenhang com argumentos claros",
+      "outcomes": [
+        "zusammenfassen um Zusammenhang com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuancen, Kohärenz, indirekte Rede und formelles Register."
+      ],
+      "vocabulary": [
+        "ipotesi",
+        "campione",
+        "risultato",
+        "dimostrare",
+        "limite"
+      ],
+      "scenario": "Forschung und Methode"
+    }
+  },
+  {
+    "slug": "c1-alltagsokonomie",
+    "target_language": "german",
+    "level": "C1",
+    "title": "Alltagsökonomie",
+    "title_es": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern um Ziel com argumentos claros",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "erläutern um Ziel com argumentos claros",
+      "outcomes": [
+        "erläutern um Ziel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuancen, Kohärenz, indirekte Rede und formelles Register."
+      ],
+      "vocabulary": [
+        "bilancio",
+        "risparmio",
+        "investimento",
+        "variare",
+        "sostenere"
+      ],
+      "scenario": "Alltagsökonomie"
+    }
+  },
+  {
+    "slug": "c1-orte-und-erinnerung",
+    "target_language": "german",
+    "level": "C1",
+    "title": "Orte und Erinnerung",
+    "title_es": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen um Lösung com argumentos claros",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "vergleichen um Lösung com argumentos claros",
+      "outcomes": [
+        "vergleichen um Lösung com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuancen, Kohärenz, indirekte Rede und formelles Register."
+      ],
+      "vocabulary": [
+        "memoria",
+        "patrimonio",
+        "trasformazione",
+        "preservare",
+        "radice"
+      ],
+      "scenario": "Orte und Erinnerung"
+    }
+  },
+  {
+    "slug": "c1-kommunikation-und-register",
+    "target_language": "german",
+    "level": "C1",
+    "title": "Kommunikation und Register",
+    "title_es": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten um Perspektive com argumentos claros",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "bewerten um Perspektive com argumentos claros",
+      "outcomes": [
+        "bewerten um Perspektive com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuancen, Kohärenz, indirekte Rede und formelles Register."
+      ],
+      "vocabulary": [
+        "registro",
+        "destinatario",
+        "intenzione",
+        "formulare",
+        "implicito"
+      ],
+      "scenario": "Kommunikation und Register"
+    }
+  },
+  {
+    "slug": "c1-wissenschaft-und-vermittlung",
+    "target_language": "german",
+    "level": "C1",
+    "title": "Wissenschaft und Vermittlung",
+    "title_es": "begründen um Beispiel com argumentos claros",
+    "description": "begründen um Beispiel com argumentos claros",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "begründen um Beispiel com argumentos claros",
+      "outcomes": [
+        "begründen um Beispiel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuancen, Kohärenz, indirekte Rede und formelles Register."
+      ],
+      "vocabulary": [
+        "fenomeno",
+        "evidenza",
+        "modello",
+        "divulgare",
+        "precisione"
+      ],
+      "scenario": "Wissenschaft und Vermittlung"
+    }
+  },
+  {
+    "slug": "c1-konflikt-und-verhandlung",
+    "target_language": "german",
+    "level": "C1",
+    "title": "Konflikt und Verhandlung",
+    "title_es": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen um Zusammenhang com argumentos claros",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "zusammenfassen um Zusammenhang com argumentos claros",
+      "outcomes": [
+        "zusammenfassen um Zusammenhang com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuancen, Kohärenz, indirekte Rede und formelles Register."
+      ],
+      "vocabulary": [
+        "interesse",
+        "compromesso",
+        "vincolo",
+        "conciliare",
+        "mediazione"
+      ],
+      "scenario": "Konflikt und Verhandlung"
+    }
+  },
+  {
+    "slug": "c1-literatur-und-stimme",
+    "target_language": "german",
+    "level": "C1",
+    "title": "Literatur und Stimme",
+    "title_es": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern um Ziel com argumentos claros",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "erläutern um Ziel com argumentos claros",
+      "outcomes": [
+        "erläutern um Ziel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuancen, Kohärenz, indirekte Rede und formelles Register."
+      ],
+      "vocabulary": [
+        "narratore",
+        "tono",
+        "metafora",
+        "suggerire",
+        "ambiguità"
+      ],
+      "scenario": "Literatur und Stimme"
+    }
+  },
+  {
+    "slug": "c1-personliches-projekt",
+    "target_language": "german",
+    "level": "C1",
+    "title": "Persönliches Projekt",
+    "title_es": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen um Lösung com argumentos claros",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "vergleichen um Lösung com argumentos claros",
+      "outcomes": [
+        "vergleichen um Lösung com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Nuancen, Kohärenz, indirekte Rede und formelles Register."
+      ],
+      "vocabulary": [
+        "visione",
+        "strategia",
+        "risorsa",
+        "realizzare",
+        "coerenza"
+      ],
+      "scenario": "Persönliches Projekt"
+    }
+  },
+  {
+    "slug": "c2-sprache-und-uberzeugung",
+    "target_language": "german",
+    "level": "C2",
+    "title": "Sprache und Überzeugung",
+    "title_es": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern um Ziel com argumentos claros",
+    "order_index": 1,
+    "unit_overview": {
+      "objective": "erläutern um Ziel com argumentos claros",
+      "outcomes": [
+        "erläutern um Ziel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
+      ],
+      "vocabulary": [
+        "retorica",
+        "premessa",
+        "inferenza",
+        "attenuare",
+        "persuasivo"
+      ],
+      "scenario": "Sprache und Überzeugung"
+    }
+  },
+  {
+    "slug": "c2-offentliche-politik",
+    "target_language": "german",
+    "level": "C2",
+    "title": "Öffentliche Politik",
+    "title_es": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen um Lösung com argumentos claros",
+    "order_index": 2,
+    "unit_overview": {
+      "objective": "vergleichen um Lösung com argumentos claros",
+      "outcomes": [
+        "vergleichen um Lösung com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
+      ],
+      "vocabulary": [
+        "politica",
+        "impatto",
+        "criterio",
+        "attuare",
+        "monitorare"
+      ],
+      "scenario": "Öffentliche Politik"
+    }
+  },
+  {
+    "slug": "c2-wissen-und-unsicherheit",
+    "target_language": "german",
+    "level": "C2",
+    "title": "Wissen und Unsicherheit",
+    "title_es": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten um Perspektive com argumentos claros",
+    "order_index": 3,
+    "unit_overview": {
+      "objective": "bewerten um Perspektive com argumentos claros",
+      "outcomes": [
+        "bewerten um Perspektive com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
+      ],
+      "vocabulary": [
+        "ipotesi",
+        "probabilità",
+        "evidenza",
+        "presumere",
+        "cautela"
+      ],
+      "scenario": "Wissen und Unsicherheit"
+    }
+  },
+  {
+    "slug": "c2-erzahlung-und-identitat",
+    "target_language": "german",
+    "level": "C2",
+    "title": "Erzählung und Identität",
+    "title_es": "begründen um Beispiel com argumentos claros",
+    "description": "begründen um Beispiel com argumentos claros",
+    "order_index": 4,
+    "unit_overview": {
+      "objective": "begründen um Beispiel com argumentos claros",
+      "outcomes": [
+        "begründen um Beispiel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
+      ],
+      "vocabulary": [
+        "narrazione",
+        "memoria",
+        "voce",
+        "rielaborare",
+        "appartenenza"
+      ],
+      "scenario": "Erzählung und Identität"
+    }
+  },
+  {
+    "slug": "c2-recht-und-verantwortung",
+    "target_language": "german",
+    "level": "C2",
+    "title": "Recht und Verantwortung",
+    "title_es": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen um Zusammenhang com argumentos claros",
+    "order_index": 5,
+    "unit_overview": {
+      "objective": "zusammenfassen um Zusammenhang com argumentos claros",
+      "outcomes": [
+        "zusammenfassen um Zusammenhang com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
+      ],
+      "vocabulary": [
+        "diritto",
+        "dovere",
+        "principio",
+        "tutelare",
+        "responsabilità"
+      ],
+      "scenario": "Recht und Verantwortung"
+    }
+  },
+  {
+    "slug": "c2-okonomie-und-ungleichheit",
+    "target_language": "german",
+    "level": "C2",
+    "title": "Ökonomie und Ungleichheit",
+    "title_es": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern um Ziel com argumentos claros",
+    "order_index": 6,
+    "unit_overview": {
+      "objective": "erläutern um Ziel com argumentos claros",
+      "outcomes": [
+        "erläutern um Ziel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
+      ],
+      "vocabulary": [
+        "disuguaglianza",
+        "reddito",
+        "indicatore",
+        "distribuire",
+        "intervenire"
+      ],
+      "scenario": "Ökonomie und Ungleichheit"
+    }
+  },
+  {
+    "slug": "c2-umwelt-und-zukunft",
+    "target_language": "german",
+    "level": "C2",
+    "title": "Umwelt und Zukunft",
+    "title_es": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen um Lösung com argumentos claros",
+    "order_index": 7,
+    "unit_overview": {
+      "objective": "vergleichen um Lösung com argumentos claros",
+      "outcomes": [
+        "vergleichen um Lösung com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
+      ],
+      "vocabulary": [
+        "scenario",
+        "risorsa",
+        "mitigare",
+        "adattamento",
+        "interdipendenza"
+      ],
+      "scenario": "Umwelt und Zukunft"
+    }
+  },
+  {
+    "slug": "c2-medien-und-diskurs",
+    "target_language": "german",
+    "level": "C2",
+    "title": "Medien und Diskurs",
+    "title_es": "bewerten um Perspektive com argumentos claros",
+    "description": "bewerten um Perspektive com argumentos claros",
+    "order_index": 8,
+    "unit_overview": {
+      "objective": "bewerten um Perspektive com argumentos claros",
+      "outcomes": [
+        "bewerten um Perspektive com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
+      ],
+      "vocabulary": [
+        "cornice",
+        "narrazione",
+        "selezionare",
+        "visibilità",
+        "interpretare"
+      ],
+      "scenario": "Medien und Diskurs"
+    }
+  },
+  {
+    "slug": "c2-wissenschaft-und-verantwortung",
+    "target_language": "german",
+    "level": "C2",
+    "title": "Wissenschaft und Verantwortung",
+    "title_es": "begründen um Beispiel com argumentos claros",
+    "description": "begründen um Beispiel com argumentos claros",
+    "order_index": 9,
+    "unit_overview": {
+      "objective": "begründen um Beispiel com argumentos claros",
+      "outcomes": [
+        "begründen um Beispiel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
+      ],
+      "vocabulary": [
+        "metodo",
+        "limite",
+        "replicare",
+        "implicazione",
+        "rigore"
+      ],
+      "scenario": "Wissenschaft und Verantwortung"
+    }
+  },
+  {
+    "slug": "c2-alltagsphilosophie",
+    "target_language": "german",
+    "level": "C2",
+    "title": "Alltagsphilosophie",
+    "title_es": "zusammenfassen um Zusammenhang com argumentos claros",
+    "description": "zusammenfassen um Zusammenhang com argumentos claros",
+    "order_index": 10,
+    "unit_overview": {
+      "objective": "zusammenfassen um Zusammenhang com argumentos claros",
+      "outcomes": [
+        "zusammenfassen um Zusammenhang com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
+      ],
+      "vocabulary": [
+        "concetto",
+        "paradosso",
+        "argomentare",
+        "premessa",
+        "coerente"
+      ],
+      "scenario": "Alltagsphilosophie"
+    }
+  },
+  {
+    "slug": "c2-interkulturelle-vermittlung",
+    "target_language": "german",
+    "level": "C2",
+    "title": "Interkulturelle Vermittlung",
+    "title_es": "erläutern um Ziel com argumentos claros",
+    "description": "erläutern um Ziel com argumentos claros",
+    "order_index": 11,
+    "unit_overview": {
+      "objective": "erläutern um Ziel com argumentos claros",
+      "outcomes": [
+        "erläutern um Ziel com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
+      ],
+      "vocabulary": [
+        "mediazione",
+        "contesto",
+        "equivoco",
+        "riconoscere",
+        "reciprocità"
+      ],
+      "scenario": "Interkulturelle Vermittlung"
+    }
+  },
+  {
+    "slug": "c2-synthese-und-vorschlag",
+    "target_language": "german",
+    "level": "C2",
+    "title": "Synthese und Vorschlag",
+    "title_es": "vergleichen um Lösung com argumentos claros",
+    "description": "vergleichen um Lösung com argumentos claros",
+    "order_index": 12,
+    "unit_overview": {
+      "objective": "vergleichen um Lösung com argumentos claros",
+      "outcomes": [
+        "vergleichen um Lösung com argumentos claros",
+        "comprender argumentos",
+        "usar vocabulario específico",
+        "expresar una propuesta propia"
+      ],
+      "grammar": [
+        "Stilistische Präzision, Implizites, Rhetorik und Umformulierung."
+      ],
+      "vocabulary": [
+        "sintesi",
+        "fonte",
+        "priorità",
+        "formulare",
+        "realizzabile"
+      ],
+      "scenario": "Synthese und Vorschlag"
+    }
+  },
+  {
     "slug": "benvenuti-in-italia",
     "target_language": "italian",
     "level": "A1",

@@ -369,6 +369,31 @@
     return language === 'english' ? `${raw.infinitive} / ${thirdPerson}` : thirdPerson;
   }
 
+  function practicalCatalogueExamples(raw) {
+    const examples = displayExamples(raw);
+    const authored = [examples.affirmative, examples.interrogative, examples.negative]
+      .map((text) => String(text || '').trim())
+      .filter((text, index, list) => text && list.indexOf(text) === index);
+    if (raw.language === 'english' && VARIED_ENGLISH_EXAMPLES[raw.infinitive]) {
+      return authored.slice(0, 2);
+    }
+
+    const infinitive = raw.infinitive || '';
+    const fallbacks = {
+      english: [`I need to ${infinitive} this today.`, `Can we ${infinitive} together?`],
+      french: [`Je vais ${infinitive} aujourd’hui.`, `Est-ce qu’on peut ${infinitive} ensemble ?`],
+      spanish: [`Voy a ${infinitive} hoy.`, `¿Podemos ${infinitive} juntos?`],
+      italian: [`Voglio ${infinitive} oggi.`, `Possiamo ${infinitive} insieme?`],
+      portuguese: [`Vou ${infinitive} hoje.`, `Podemos ${infinitive} juntos?`],
+      german: [`Ich möchte heute ${infinitive}.`, `Können wir zusammen ${infinitive}?`]
+    };
+    // Keep the best authored context, then deliberately switch situation and
+    // sentence type so the card never repeats one phrase mechanically.
+    return [...authored.slice(0, 1), ...(fallbacks[raw.language] || fallbacks.english)]
+      .filter((text, index, list) => text && list.indexOf(text) === index)
+      .slice(0, 2);
+  }
+
   // The catalogue is intentionally a scan-first list, not a collection of
   // flash cards. Each row leads with the L2 verb, then keeps its
   // pronunciation/audio beside it and the L1 translation underneath, so
@@ -377,12 +402,8 @@
   function renderVerbTileHtml(item, raw, { canSpeak }) {
     const supportText = item.learningMode === 'direct' ? item.simpleDefinition : item.translation;
     const sourceVerb = supportText || item.targetWord;
-    const [presentLabel, pastLabel, participleLabel] = catalogueFormLabels(item.targetLanguage);
-    const principalForms = [
-      [presentLabel, cataloguePresentForm(raw, item.targetLanguage)],
-      [pastLabel, raw.forms?.pastSimple || '—'],
-      [participleLabel, raw.forms?.pastParticiple || '—']
-    ];
+    const practicalExamples = practicalCatalogueExamples(raw);
+    const audioOpts = { locale: item.pronunciationLocale, rate: item.pronunciationRate };
     const audioButton = canSpeak
       ? `<button type="button" class="vocab-example-audio-btn verb-tile-audio-btn verb-catalogue-audio" data-speak-text="${escapeHtml(item.audioText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Escuchar la pronunciación de ${escapeHtml(item.targetWord)}" title="Escuchar pronunciación"><span aria-hidden="true">🔊</span></button>`
       : '';
@@ -398,8 +419,8 @@
           </div>
           ${audioButton}
         </div>
-        <div class="verb-catalogue-forms">
-          ${principalForms.map(([label, value]) => `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`).join('')}
+        <div class="verb-catalogue-examples" aria-label="Dos ejemplos prácticos de ${escapeHtml(item.targetWord)}">
+          ${practicalExamples.map((example, index) => `<div><span>${index + 1}</span><p>${escapeHtml(example)} ${canSpeak ? conjugatorAudioBtnHtml(example, audioOpts) : ''}</p></div>`).join('')}
         </div>
         <button type="button" class="verb-catalogue-conjugate verb-conjugate-btn" data-verb-id="${escapeHtml(item.id)}" aria-label="Ver conjugación de ${escapeHtml(item.targetWord)}">Ver conjugación <span aria-hidden="true">→</span></button>
       </article>`;

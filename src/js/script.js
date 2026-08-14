@@ -6826,6 +6826,8 @@ let tutorDictationManualSendSuppressed = false;
 
 // Centralized auto-send state. Once speech recognition has decided that the
 // student finished, there is no second artificial two-second wait.
+// Voice turns need a final grace period after recognition closes so a
+// natural mid-thought pause does not become a premature Tutor reply.
 let tutorAutoSendTimerId = null;
 let tutorLastAutoSentTranscript = '';
 
@@ -6850,7 +6852,7 @@ function scheduleTutorAutoSend(textareaId) {
     if (textarea) textarea.dataset.tutorInputSource = 'voice';
     setDictationStatusText(textareaId, 'Enviando…');
     sendBtn?.click();
-  }, 0);
+  }, 350);
 }
 
 // Kept as the single re-scheduling entry point for the brief next-tick
@@ -9709,6 +9711,8 @@ function renderReadingComprehensionResultHtml(runtime, total) {
   const incorrectCount = total - correctCount;
   const score = total > 0 ? Math.round((correctCount / total) * 100) : 0;
   const french = isFrenchExerciseFeedbackInTargetLanguage();
+  const portuguese = learningPathState.language === 'portuguese';
+  const ui = (frenchCopy, portugueseCopy, spanishCopy) => french ? frenchCopy : portuguese ? portugueseCopy : spanishCopy;
   const persistenceHtml = !authStatus.session?.access_token
     ? `<button type="button" class="primary-btn reading-comp-signup-btn">${french ? 'Inscrivez-vous gratuitement pour enregistrer votre résultat, vos XP et vos succès' : 'Regístrate gratis para guardar tu resultado, XP y logros'}</button>`
     : runtime.serverResult
@@ -9740,8 +9744,10 @@ function getLocalExerciseCorrectKey(item) {
 
 function renderReadingComprehensionQuiz(lesson, entries) {
   const french = isFrenchExerciseFeedbackInTargetLanguage(lesson.level);
+  const portuguese = learningPathState.language === 'portuguese';
+  const ui = (frenchCopy, portugueseCopy, spanishCopy) => french ? frenchCopy : portuguese ? portugueseCopy : spanishCopy;
   if (!entries.length) {
-    return `<p class="skill-graph-empty">${french ? 'Aucune question de compréhension pour cette leçon.' : 'No hay preguntas de comprensión para esta lección.'}</p>`;
+    return `<p class="skill-graph-empty">${ui('Aucune question de compréhension pour cette leçon.', 'Não há perguntas de compreensão para esta lição.', 'No hay preguntas de comprensión para esta lección.')}</p>`;
   }
 
   const runtime = getReadingComprehensionRuntime(lesson.slug);
@@ -9754,11 +9760,11 @@ function renderReadingComprehensionQuiz(lesson, entries) {
   const progressPercent = total ? Math.round((answeredCount / total) * 100) : 0;
   const countControlsHtml = canChooseCount
     ? `<div class="reading-comp-count-controls" role="group" aria-label="Cantidad de preguntas">
-        <span>${french ? 'Choisissez votre défi' : 'Elige tu reto'}</span>
+        <span>${ui('Choisissez votre défi', 'Escolha seu desafio', 'Elige tu reto')}</span>
         ${choices
           .map(
             (count) =>
-              `<button type="button" class="reading-comp-count-btn${count === selected ? ' is-selected' : ''}" data-lesson-slug="${escapeHtml(lesson.slug)}" data-question-count="${count}" aria-pressed="${count === selected ? 'true' : 'false'}">${count} ${french ? 'questions' : 'preguntas'}</button>`
+              `<button type="button" class="reading-comp-count-btn${count === selected ? ' is-selected' : ''}" data-lesson-slug="${escapeHtml(lesson.slug)}" data-question-count="${count}" aria-pressed="${count === selected ? 'true' : 'false'}">${count} ${ui('questions', 'perguntas', 'preguntas')}</button>`
           )
           .join('')}
       </div>`
@@ -9829,9 +9835,9 @@ function renderReadingComprehensionQuiz(lesson, entries) {
     <div class="reading-comp-quiz">
       <div class="reading-comp-quiz-header">
         <div>
-          <span class="reading-comp-kicker">${french ? 'Défi de compréhension' : 'Reto de comprensión'}</span>
-          <strong>${answeredCount}/${total} ${french ? 'répondues' : 'respondidas'}</strong>
-          <small class="reading-comp-mobile-hint">${french ? 'Répondez aux questions puis évaluez votre compréhension.' : 'Responde las preguntas y luego evalúa tu comprensión.'}</small>
+          <span class="reading-comp-kicker">${ui('Défi de compréhension', 'Desafio de compreensão', 'Reto de comprensión')}</span>
+          <strong>${answeredCount}/${total} ${ui('répondues', 'respondidas', 'respondidas')}</strong>
+          <small class="reading-comp-mobile-hint">${ui('Répondez aux questions puis évaluez votre compréhension.', 'Responda às perguntas e depois avalie sua compreensão.', 'Responde las preguntas y luego evalúa tu comprensión.')}</small>
         </div>
         <div class="reading-comp-progress" role="progressbar" aria-valuenow="${progressPercent}" aria-valuemin="0" aria-valuemax="100"><span style="width:${progressPercent}%"></span></div>
       </div>
@@ -13431,18 +13437,49 @@ function normalizeVocabularyItem(item, { language, level, bridgeLanguage, index 
 // array on the raw item (richer authored data) is used as-is when present,
 // never both at once.
 function normalizeVocabContexts(item) {
-  const raw = Array.isArray(item.contexts) && item.contexts.length
+  const authored = Array.isArray(item.contexts) && item.contexts.length
     ? item.contexts
-    : item.example
-      ? [{ targetText: item.example, supportText: item.exampleTranslation || '' }]
-      : [];
-  return raw
-    .filter((ctx) => ctx && (ctx.targetText || ctx.text))
+    : Array.isArray(item.directSupport?.contextExamples) && item.directSupport.contextExamples.length
+      ? item.directSupport.contextExamples
+      : item.example
+        ? [item.example]
+        : [];
+  const normalized = authored
+    .filter((ctx) => ctx && (typeof ctx === 'string' || ctx.targetText || ctx.text))
     .slice(0, 3)
     .map((ctx) => ({
-      targetText: ctx.targetText || ctx.text || '',
+      targetText: typeof ctx === 'string' ? ctx : ctx.targetText || ctx.text || '',
       supportText: ctx.supportText || ctx.translation || ''
     }));
+  // Older lessons often supplied just one sentence. Keep it as the first
+  // authentic example and add two short, practical variations instead of
+  // leaving most of the vocabulary card unused.
+  const seed = normalized[0]?.targetText || item.example || '';
+  const word = item.targetWord || item.word || '';
+  const language = item.language || learningPathState.language;
+  const fallbacks = getVocabularyExampleFallbacks(word, seed, language);
+  for (const text of fallbacks) {
+    if (normalized.length >= 3) break;
+    if (text && !normalized.some((ctx) => ctx.targetText.toLocaleLowerCase() === text.toLocaleLowerCase())) {
+      normalized.push({ targetText: text, supportText: '' });
+    }
+  }
+  return normalized.slice(0, 3);
+}
+
+function getVocabularyExampleFallbacks(word, seed, language) {
+  const cleanWord = String(word || '').trim();
+  const cleanSeed = String(seed || '').trim();
+  const templates = {
+    english: [`I use ${cleanWord} every day.`, `Can you say ${cleanWord}, please?`],
+    french: [`J'utilise ${cleanWord} chaque jour.`, `Peux-tu dire ${cleanWord}, s'il te plaît ?`],
+    italian: [`Uso ${cleanWord} ogni giorno.`, `Puoi dire ${cleanWord}, per favore?`],
+    portuguese: [`Uso ${cleanWord} todos os dias.`, `Você pode dizer ${cleanWord}, por favor?`],
+    german: [`Ich benutze ${cleanWord} jeden Tag.`, `Kannst du ${cleanWord} bitte sagen?`],
+    spanish: [`Uso ${cleanWord} todos los días.`, `¿Puedes decir ${cleanWord}, por favor?`]
+  };
+  const examples = templates[language] || templates.english;
+  return cleanSeed ? [cleanSeed, ...examples] : examples;
 }
 
 const VOCABULARY_L2_UI = {
@@ -13623,7 +13660,6 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
             <span aria-hidden="true">${index + 1}</span>
             <div>
               <p>${escapeHtml(ctx.targetText)}${canSpeak ? `<button type="button" class="vocab-card-catalogue-example-audio" data-speak-text="${escapeHtml(ctx.targetText)}" data-speak-locale="${escapeHtml(item.pronunciationLocale)}" data-speak-rate="${item.pronunciationRate}" aria-label="Escuchar ejemplo ${index + 1}" title="Escuchar ejemplo">🔊</button>` : ''}</p>
-              ${ctx.supportText ? `<small>${escapeHtml(ctx.supportText)}</small>` : ''}
             </div>
           </li>`).join('')}
       </ol>`
@@ -13680,10 +13716,10 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
   // In bilingual learning, the front deliberately pairs the L2 word with a
   // smaller L1 gloss.  The learner can therefore form the association before
   // flipping; the reverse is reserved for using the word in an L2 example.
-  const frontSupportHtml =
-    item.learningMode !== 'direct' && item.translation
-      ? `<p class="vocab-card-front-support" lang="${escapeHtml(bridgeLanguageToHtmlLang[item.bridgeLanguage] || '')}">${escapeHtml(item.translation)}</p>`
-      : '';
+  const frontTranslation = item.translation || item.l1Translation || '';
+  const frontSupportHtml = frontTranslation
+    ? `<p class="vocab-card-front-support" lang="${escapeHtml(bridgeLanguageToHtmlLang[item.bridgeLanguage] || '')}">${escapeHtml(frontTranslation)}</p>`
+    : '';
   const compactIconText = String(item.targetWord || '')
     .trim()
     .split(/\s+/)
@@ -14315,6 +14351,9 @@ function renderVocabularyView(section, lesson) {
   const masteredCount = cards.filter((card) => card.masteryStatus === 'mastered').length;
   const masteryPercent = cards.length ? Math.round((masteredCount / cards.length) * 100) : 0;
   const categories = [...new Set(cards.map((card) => String(card.category || '').trim()).filter(Boolean))];
+  const vocabularyLevels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].filter((level) =>
+    learningPathState.lessons.some((item) => item.level === level && item.skill === 'vocabulary')
+  );
   const catalogueLanguages = Object.keys(languageDisplayNames)
     .filter((language) => language !== 'ai' && LanguagePair?.isLanguagePairSupported(learningPathState.bridgeLanguage, language));
 
@@ -14327,6 +14366,7 @@ function renderVocabularyView(section, lesson) {
       <div class="vocab-catalogue-toolbar no-print">
         <label class="vocab-catalogue-search"><span>Buscar</span><input type="search" class="vocab-catalogue-search-input" value="${escapeHtml(vocabularyCatalogueFilters.search)}" placeholder="Buscar una palabra…" autocomplete="off"></label>
         <label><span>Idioma</span><select class="vocab-catalogue-language-filter" aria-label="Idioma del vocabulario">${catalogueLanguages.map((language) => `<option value="${escapeHtml(language)}"${language === learningPathState.language ? ' selected' : ''}>${escapeHtml(languageDisplayNames[language])}</option>`).join('')}</select></label>
+        <label><span>Nivel</span><select class="vocab-catalogue-level-filter" aria-label="Nivel del vocabulario">${vocabularyLevels.map((level) => `<option value="${level}"${level === lesson.level ? ' selected' : ''}>${level}</option>`).join('')}</select></label>
         <label><span>Categoría</span><select class="vocab-catalogue-category-filter"><option value="all">Todas las categorías</option>${categories.map((category) => `<option value="${escapeHtml(category)}"${vocabularyCatalogueFilters.category === category ? ' selected' : ''}>${escapeHtml(category)}</option>`).join('')}</select></label>
       </div>
       <div class="vocab-catalogue-filter-row no-print">
@@ -14337,8 +14377,7 @@ function renderVocabularyView(section, lesson) {
       </div>
       <div class="vocab-catalogue-progress"><span><strong>${escapeHtml(lesson.level)}</strong> · ${masteryPercent}% dominado</span><div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${masteryPercent}"><i style="width:${masteryPercent}%"></i></div><small class="vocab-catalogue-visible-count">${cards.length} palabras</small></div>
     </section>
-    ${renderVocabularyMissionHtml(lesson, cards, french)}
-    <section class="saved-reading-vocabulary" aria-live="polite">
+    <section class="saved-reading-vocabulary" aria-live="polite" hidden>
       <p class="skill-graph-empty">${french ? 'Chargement des mots enregistrés depuis Reading…' : 'Cargando palabras guardadas desde Reading…'}</p>
     </section>
     <div class="vocab-card-deck-controls no-print">
@@ -14356,13 +14395,11 @@ function renderVocabularyView(section, lesson) {
         .map((cardIndex) =>
           renderVocabCardHtml(
             { ...cards[cardIndex], _displayIndex: cardIndex },
-            { canSpeak, isFrench, showL1Translation: vocabL1TranslationVisible }
+            { canSpeak, isFrench, showL1Translation: true }
           )
         )
         .join('')}
     </div>
-    ${renderVocabularyLevelBankHtml(lesson, french)}
-    ${renderUsefulVocabularyExpressionsHtml(lesson, cards)}
     <div class="skill-view-tutor-cta no-print">
       <button type="button" class="primary-btn vocab-practice-start-btn">${french ? 'Pratiquer' : 'Practicar'} ${getVocabularyPracticeCount(lesson.level)} ${french ? 'mots' : 'palabras'}</button>
       <button type="button" class="secondary-btn open-tutor-btn" data-tutor-prompt="${french ? 'Aide-moi à pratiquer ce vocabulaire' : 'Ayúdame a practicar este vocabulario'} : ${escapeHtml(cards.map((c) => c.targetWord).join(', '))}" data-support-mode="practice" data-tutor-vocabulary="${escapeHtml(cards.map((c) => c.targetWord).join(', '))}">${french ? 'Pratiquer avec le Tutor IA' : 'Practicar con Tutor IA'}</button>
@@ -14574,6 +14611,13 @@ document.addEventListener('change', (event) => {
     // catalogue when it completes so switching a language never sends the
     // learner back to the route overview.
     loadLearningPath({ language, level }).then(() => renderSkillView('vocabulary'));
+    return;
+  }
+  if (event.target.matches('.vocab-catalogue-level-filter')) {
+    const level = normalizeCourseLevel(learningPathState.language, event.target.value);
+    if (level === learningPathState.level) return;
+    learningPathState.level = level;
+    loadLearningPath({ language: learningPathState.language, level }).then(() => renderSkillView('vocabulary'));
     return;
   }
   if (!event.target.matches('.vocab-catalogue-category-filter')) return;
@@ -15925,7 +15969,9 @@ const TUTOR_CONVERSATION_SURFACES = {
 
 let tutorConversationMode = false;
 let tutorConversationSurfaceKey = null;
-const TUTOR_CONVERSATION_SILENCE_MS = 700;
+// A short pause is normal while someone is thinking.  This keeps the voice
+// dialogue responsive while giving the student enough time to complete an idea.
+const TUTOR_CONVERSATION_SILENCE_MS = 1800;
 const TUTOR_LANGUAGE_STORAGE_KEY = 'andergo_tutor_language';
 const TUTOR_SUPPORTED_LANGUAGES = ['english', 'spanish', 'french', 'german', 'italian', 'portuguese'];
 let tutorSpanishPerfectedMode = false;

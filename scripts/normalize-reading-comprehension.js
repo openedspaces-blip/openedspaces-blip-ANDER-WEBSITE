@@ -42,6 +42,21 @@ const COPY = {
       'Contar una historia sin conexión con el tema'
     ]
   },
+  portuguese: {
+    prompts: [
+      (title) => `Qual \u00e9 o objetivo principal de "${title}"?`,
+      (title) => `Qual afirma\u00e7\u00e3o resume melhor "${title}"?`,
+      (title) => `Que ideia central aparece em "${title}"?`,
+      (title) => `Que detalhe \u00e9 essencial em "${title}"?`,
+      (title) => `Que conclus\u00e3o o texto permite tirar sobre "${title}"?`
+    ],
+    correct: (title) => `Apresentar as ideias e os detalhes essenciais de ${title}`,
+    distractors: [
+      'Apresentar um tema sem rela\u00e7\u00e3o',
+      'Dar uma lista sem contexto',
+      'Contar uma hist\u00f3ria sem liga\u00e7\u00e3o com o tema'
+    ]
+  },
   italian: {
     prompts: [
       (title) => `Qual è lo scopo principale di «${title}»?`,
@@ -90,12 +105,30 @@ function supplementalQuestion(row, index) {
   };
 }
 
+function hasForeignPortugueseCopy(exercise) {
+  const text = [exercise?.prompt, ...(exercise?.options || [])].join(' ');
+  return /\b(what|which|to explain|to discuss|to provide|tell a story)\b|[¿]|\b(qué|una regla aislada|un examen t[eé]cnico|tema sin contexto|memoriza sin usar|evita hablar|solo traduce)\b/i.test(text);
+}
+
+function hasForeignItalianCopy(exercise) {
+  const text = [exercise?.prompt, ...(exercise?.options || [])].join(' ');
+  return /\b(what|which|to explain|to discuss|to provide|tell a story)\b|[¿]|\b(qué|una regla aislada|un examen t[eé]cnico|tema sin contexto|memoriza sin usar|evita hablar|solo traduce)\b/i.test(text);
+}
+
 let changed = 0;
 for (const row of lessons) {
   if (String(row.skill).toLowerCase() !== 'reading') continue;
   const targetCount = row.level === 'A1' ? 4 : 5;
   const current = row.content_json?.exercises || [];
-  const selected = current.filter(isComprehensionQuestion).slice(0, targetCount);
+  const candidates = current.filter(isComprehensionQuestion);
+  // Older Portuguese seed data fell back to English and Spanish copy. Do not
+  // preserve those entries when normalizing the route.
+  const selected = (row.target_language === 'portuguese'
+    ? candidates.filter((exercise) => !hasForeignPortugueseCopy(exercise))
+    : row.target_language === 'italian'
+      ? candidates.filter((exercise) => !hasForeignItalianCopy(exercise))
+    : candidates
+  ).slice(0, targetCount);
   while (selected.length < targetCount) {
     selected.push(supplementalQuestion(row, selected.length));
   }

@@ -14,6 +14,7 @@
     "test": "node --test server.test.js",
     "db:setup": "node scripts/setup-database.js",
     "audit:curriculum": "node scripts/verify-curriculum-coverage.js",
+    "verify:european-routes": "node scripts/verify-european-non-listening-routes.js",
     "verify:all": "node scripts/verify-all.js",
     "validate:listening": "node scripts/validate-official-listening.js",
     "validate:listening:english": "node scripts/validate-english-listening-comprehension.js",

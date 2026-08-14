@@ -114,18 +114,8 @@ const courses = {
   }
 };
 
-// Italian's current route is intentionally authored separately. Portuguese
-// and German use this generator for the complete connected route.
-for (let index = lessons.length - 1; index >= 0; index -= 1) {
-  const row = lessons[index];
-  if (
-    row.target_language === 'italian' &&
-    row.level === 'B1' &&
-    ['listening', 'speaking', 'writing'].includes(row.skill)
-  ) {
-    lessons.splice(index, 1);
-  }
-}
+// Italian B1 now follows the same complete connected route as Portuguese and
+// German. Its Listening lesson is kept as authored for the later audio pass.
 
 function sentence(language, words, level, title) {
   const [a, b, c] = words;
@@ -261,9 +251,7 @@ for (const [language, course] of Object.entries(courses)) {
       // A route must expose the same connected learning sequence in every
       // supported language. These activities are independent practice, not
       // questions that require recalling the Reading text.
-      const routeSkills = language === 'italian'
-        ? ['reading', 'grammar', 'vocabulary']
-        : ['reading', 'listening', 'speaking', 'grammar', 'vocabulary', 'writing'];
+      const routeSkills = ['reading', 'listening', 'speaking', 'grammar', 'vocabulary', 'writing'];
       routeSkills.forEach((skill, skillIndex) => {
         const slugWithSkill = `${language}-${level.toLowerCase()}-${slug}-${skill}`;
         const authoredLesson = makeLesson(language, level, unit, skill, (index + 1) * 10 + skillIndex);

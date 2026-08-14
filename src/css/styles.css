@@ -21144,6 +21144,12 @@ footer small {
 .verb-catalogue-forms span { color: var(--blue); font-size: 0.62rem; font-weight: 850; }
 .verb-catalogue-forms strong { overflow: hidden; color: #27344d; font-size: 0.78rem; text-overflow: ellipsis; white-space: nowrap; }
 
+.verb-catalogue-examples { display: grid; gap: 0.48rem; padding-top: 0.7rem; border-top: 1px solid #e1e9f5; }
+.verb-catalogue-examples > div { display: grid; grid-template-columns: 1.35rem minmax(0, 1fr); gap: 0.5rem; align-items: start; }
+.verb-catalogue-examples > div > span { display: grid; width: 1.3rem; height: 1.3rem; place-items: center; border-radius: 50%; background: #eaf2ff; color: #2563eb; font-size: 0.66rem; font-weight: 900; }
+.verb-catalogue-examples p { display: flex; min-width: 0; align-items: center; justify-content: space-between; gap: 0.45rem; margin: 0; color: #31415d; font-size: 0.78rem; line-height: 1.35; }
+.verb-catalogue-examples .conjugator-audio-btn { flex: 0 0 auto; }
+
 .verb-catalogue-conjugate {
   width: 100%;
   min-height: 40px;
@@ -21171,8 +21177,7 @@ footer small {
   .verbs-filter-chip-group { flex-wrap: nowrap; width: max-content; }
   .verbs-filter-chip-group button { min-height: 42px; }
   .verb-catalogue-identity > strong { font-size: 1.08rem; }
-  .verb-catalogue-forms { gap: 0.35rem; }
-  .verb-catalogue-forms strong { font-size: 0.72rem; }
+  .verb-catalogue-examples p { font-size: 0.74rem; }
 }
 
 /* A lesson needs the phone header for its learning controls, not a permanent
@@ -24521,14 +24526,15 @@ body {
 @keyframes games-timer-pulse { 50% { transform:scale(1.04); } }
 .games-board { min-height:390px; padding:clamp(1rem,3vw,2rem); border:0; border-radius:0 0 24px 24px; box-shadow:none; }
 
-/* On wide screens the clock lives beside the challenge, without pinning any
-   game controls to the viewport while the student scrolls the board. */
+/* On wide screens the game clock stays alongside the challenge as the
+   student scrolls, while remaining inside the game area. */
 @media (min-width:901px) {
-  .games-play-shell { grid-template-columns:minmax(0,1fr) 208px; grid-template-rows:auto auto minmax(390px,1fr); gap:.75rem 1rem; padding:1rem; align-items:start; }
-  .games-score-strip { display:contents; }
-  .games-score-primary { grid-column:1; grid-row:1; width:max-content; max-width:100%; padding:.52rem; border:1px solid #cfe0fb; border-radius:16px; background:rgba(255,255,255,.96); box-shadow:0 8px 22px rgba(31,68,126,.08); }
-  .games-round-meter { grid-column:1; grid-row:2; width:100%; max-width:430px; padding:.52rem .7rem; border:1px solid #d8e6fb; border-radius:14px; background:#f8fbff; }
-  .games-timer-controls { grid-column:2; grid-row:1 / span 3; display:flex; flex-direction:column; align-items:stretch; gap:.6rem; width:100%; margin:0; padding:.85rem; border:1px solid #cfe0fb; border-radius:18px; background:rgba(255,255,255,.96); box-shadow:0 14px 32px rgba(31,68,126,.13); }
+  .games-play-shell { grid-template-columns:minmax(0,1fr) 208px; gap:1rem; padding:1rem; align-items:start; }
+  .games-score-strip { position:sticky; top:1rem; grid-column:2; grid-row:1; align-self:start; display:grid; grid-template-columns:1fr; gap:.65rem; padding:.85rem; border-radius:18px; background:rgba(255,255,255,.96); box-shadow:0 14px 32px rgba(31,68,126,.13); }
+  .games-score-primary { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.4rem; width:100%; max-width:none; padding:0; border:0; border-radius:0; background:transparent; box-shadow:none; }
+  .games-score-primary > span { min-width:0; }
+  .games-round-meter { width:100%; max-width:none; padding:.52rem .7rem; border:1px solid #d8e6fb; border-radius:14px; background:#f8fbff; }
+  .games-timer-controls { display:flex; flex-direction:column; align-items:stretch; gap:.6rem; width:100%; margin:0; padding:0; border:0; border-radius:0; background:transparent; box-shadow:none; }
   .games-timer-controls::before { content:'Tiempo de juego'; color:var(--blue); font-size:.7rem; font-weight:900; letter-spacing:.08em; text-align:center; text-transform:uppercase; }
   .games-timer-controls label { display:grid; gap:.3rem; }
   .games-timer-controls label > span { color:var(--muted); font-size:.72rem; font-weight:850; }
@@ -24537,7 +24543,7 @@ body {
   .games-timer-pause,
   .games-timer-controls .games-new-round { width:100%; min-height:40px; }
   .games-timer-result { position:static; max-width:none; box-shadow:none; text-align:center; }
-  .games-board { grid-column:1; grid-row:3; min-width:0; padding:clamp(1rem,3vw,2rem); border:1px solid var(--line); border-radius:22px; }
+  .games-board { grid-column:1; grid-row:1; min-width:0; padding:clamp(1rem,3vw,2rem); border:1px solid var(--line); border-radius:22px; }
 }
 .games-game-card { max-width:860px; margin:auto; padding:clamp(1rem,3vw,1.5rem); }
 .games-themed-stage { position:relative; transition:filter .18s ease,opacity .18s ease; }

@@ -3882,7 +3882,27 @@ test('lesson Tests assess general grammar, vocabulary and verbs without Reading-
   assert.match(client, /\.tests-question/);
 });
 
-test('Tutor word limits are maxima only and voice turns continue without a two-second send delay', () => {
+test('lesson Tests vary verb challenges while preserving four answer choices in every language', async () => {
+  const { server, port } = await startTestServer();
+  try {
+    for (const language of WORLD_LANGUAGES) {
+      const response = await fetch(`http://127.0.0.1:${port}/api/tests?language=${language}&level=A1`);
+      assert.equal(response.status, 200, `${language} Tests are available`);
+      const body = await response.json();
+      const verbQuestions = body.units[0].questions.filter((question) => question.area === 'Verbs');
+      assert.ok(verbQuestions.length >= 3, `${language} includes verb assessment`);
+      assert.ok(new Set(verbQuestions.map((question) => question.kind)).size >= 3, `${language} rotates verb challenge types`);
+      for (const question of verbQuestions) {
+        assert.equal(question.options.length, 4, `${language} ${question.kind} has four choices`);
+        assert.equal(new Set(question.options.map((option) => option.toLocaleLowerCase())).size, 4, `${language} ${question.kind} choices are unique`);
+      }
+    }
+  } finally {
+    server.close();
+  }
+});
+
+test('Tutor word limits are maxima only and voice turns wait for a natural pause', () => {
   const service = fs.readFileSync(path.join(__dirname, 'lib', 'aiTutorService.js'), 'utf8');
   const source = fs.readFileSync(path.join(__dirname, 'src', 'js', 'script.js'), 'utf8');
   const guidance =
@@ -3893,9 +3913,9 @@ test('Tutor word limits are maxima only and voice turns continue without a two-s
   assert.match(guidance, /MÁXIMO orientativo de 90 palabras, nunca un mínimo/);
   assert.match(guidance, /MÁXIMO orientativo de 220 palabras, nunca un mínimo/);
   assert.doesNotMatch(guidance, /responde normalmente entre|aproximadamente 120 a/);
-  assert.match(autoSend, /\}, 0\)/);
+  assert.match(autoSend, /\}, 350\)/);
   assert.doesNotMatch(autoSend, /2000|2 segundos/);
-  assert.match(source, /const TUTOR_CONVERSATION_SILENCE_MS = 700/);
+  assert.match(source, /const TUTOR_CONVERSATION_SILENCE_MS = 1800/);
   assert.match(source, /function tutorReplyEndsWithQuestion/);
   assert.match(source, /activateTutorMicAfterQuestion\(messageEl\)/);
 });
@@ -3906,6 +3926,8 @@ test('Tutor replies are conversational and trim an unfinished final clause', () 
   assert.match(service, /Prioriza la intención del estudiante antes que la forma/);
   assert.match(service, /Andergo está en fase de lanzamiento/);
   assert.match(service, /última frase tenga sentido por sí sola/);
+  assert.match(service, /trata un mensaje que parezca incompleto como una idea en curso/);
+  assert.match(service, /La conversación es abierta: nunca declares que un tema está terminado/);
   assert.match(source, /function finalizeTutorReplyText/);
   assert.match(source, /const completedReply = finalizeTutorReplyText\(fullText\)/);
 });
@@ -4766,6 +4788,24 @@ test('Portuguese, Italian and German expose exactly 12 canonical readings per A1
       assert.equal(units.length, 12, `${language} ${level} units`);
       assert.equal(readings.length, 12, `${language} ${level} readings`);
       assert.equal(new Set(readings.map((row) => row.unit_slug)).size, 12);
+    }
+  }
+});
+
+test('Portuguese, Italian and German Reading comprehension never falls back to Spanish or English copy', () => {
+  const foreignCopy = /\b(what|which|to explain|to discuss|to provide|tell a story)\b|[¿]|\b(qué|una regla aislada|un examen t[eé]cnico|tema sin contexto|memoriza sin usar|evita hablar|solo traduce)\b/i;
+  for (const language of ['portuguese', 'italian', 'german']) {
+    const readings = seedLessons.filter(
+      (row) => row.target_language === language && row.skill === 'reading'
+    );
+    assert.equal(readings.length, 72, `${language}: expected the complete A1-C2 Reading route`);
+    for (const reading of readings) {
+      const exercises = reading.content_json?.exercises || [];
+      assert.equal(exercises.length, reading.level === 'A1' ? 4 : 5, reading.slug);
+      for (const exercise of exercises) {
+        const text = [exercise.prompt, ...(exercise.options || [])].join(' ');
+        assert.doesNotMatch(text, foreignCopy, `${reading.slug}: foreign comprehension copy`);
+      }
     }
   }
 });
