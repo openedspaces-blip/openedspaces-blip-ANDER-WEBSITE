@@ -1397,20 +1397,14 @@ test('Games provide graded, thematic and measurable rounds in all three language
   assert.doesNotMatch(styles, /\.games-timer-controls\s*\{[^}]*position\s*:\s*sticky/s);
 });
 
-test('Verbs practice includes a level-adapted conjugation roulette in all three languages', () => {
+test('Verbs practice opens directly without the decorative roulette', () => {
   const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
   const script = fs.readFileSync(path.join(__dirname, 'src/js/verbs/verbs-view.js'), 'utf8');
-  const styles = fs.readFileSync(path.join(__dirname, 'src/css/styles.css'), 'utf8');
-  assert.match(html, /id="verbRouletteWheel"/);
-  assert.match(html, /id="verbRouletteAnswer"/);
-  assert.match(script, /function rouletteTenses\(engine, level\)/);
-  assert.match(script, /getVerbsForLanguage\(currentVerbLanguage\(\)\)/);
-  assert.match(script, /allVerbs\.filter\(\(verb\) => verb\.level === level\)/);
-  assert.match(script, /const challengeSubject = row\.subject \|\| row\.label/);
-  assert.match(script, /engine\.conjugateTense\(verb, tense\.id\)/);
-  assert.match(script, /normalizeSearchText\(actual\) === normalizeSearchText\(expected\)/);
-  assert.match(styles, /\.verb-roulette-stage[^}]*aspect-ratio: 1/s);
-  assert.match(styles, /@media \(max-width: 620px\)[^{]*\{[^}]*\.verb-roulette-card/s);
+  assert.doesNotMatch(html, /verbRoulette|verb-roulette|Gira la ruleta/);
+  assert.match(html, /id="verbsPracticeSetup"/);
+  assert.match(html, /data-practice-length="5"/);
+  assert.match(html, /id="verbsPracticeStartBtn"/);
+  assert.doesNotMatch(script, /event\.target\.closest\('#verbRoulette/);
 });
 
 test('Verbs catalogue matches the compact principal-forms card design on desktop and phones', () => {

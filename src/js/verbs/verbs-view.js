@@ -1853,7 +1853,6 @@
     resetVerbsPagination();
     renderVerbsDeck();
     renderVerbsConjugator();
-    renderVerbRoulette();
     const resetRow = document.querySelector('.verb-progress-reset-row');
     if (resetRow) resetRow.hidden = false;
     const setup = document.getElementById('verbsPracticeSetup');
@@ -1883,13 +1882,6 @@
       resetVerbsPagination();
       renderVerbsDeck();
     }, 250);
-  });
-
-  document.addEventListener('keydown', (event) => {
-    if (event.target.id === 'verbRouletteAnswer' && event.key === 'Enter') {
-      event.preventDefault();
-      checkRouletteAnswer();
-    }
   });
 
   document.addEventListener('change', (event) => {
@@ -2124,26 +2116,6 @@
       if (!requireAuthForVerbFeature('practice')) return;
       const poolSelect = document.getElementById('verbsPracticePoolSelect');
       startVerbsPractice(poolSelect?.value || 'all');
-      return;
-    }
-
-    if (event.target.closest('#verbRouletteSpinBtn')) {
-      if (!requireAuthForVerbFeature('practice')) return;
-      spinVerbRoulette();
-      return;
-    }
-
-    if (event.target.closest('#verbRouletteCheckBtn')) {
-      checkRouletteAnswer();
-      return;
-    }
-
-    if (event.target.closest('#verbRouletteHearBtn')) {
-      if (!rouletteChallenge) return;
-      speakText(rouletteChallenge.verb.infinitive, {
-        locale: getPronunciationLocale(currentVerbLanguage()),
-        rate: 0.82
-      });
       return;
     }
 
