@@ -3546,6 +3546,7 @@ test('Vocabulary stays within the selected route level and exposes search, maste
   assert.match(css, /@media \(max-width: 1180px\)[\s\S]*?\.vocab-catalogue-deck\s*\{\s*grid-template-columns:\s*repeat\(2/);
   assert.match(css, /@media \(max-width: 760px\)[\s\S]*?\.vocab-catalogue-deck\s*\{\s*grid-template-columns:\s*1fr/);
   assert.match(source, /function compactLearningToolbars\([\s\S]*?isFrenchExerciseFeedbackInTargetLanguage\(learningPathState\.level\)/);
+  assert.match(source, /if \(skill === 'vocabulary' && activities\.length\)[\s\S]*?renderVocabularyView\(section, catalogueLesson\)/);
 });
 
 test('C1/C2 direct-mode vocabulary shows translation and contextual examples by default', () => {

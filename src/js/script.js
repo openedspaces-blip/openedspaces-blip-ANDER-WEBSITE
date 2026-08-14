@@ -8769,6 +8769,19 @@ function renderSkillView(skill) {
 
     if (!selected) {
       section.querySelector('.unit-learning-sequence')?.remove();
+      // Vocabulary is a central catalogue, like Verbos: opening it from the
+      // navigation must show the whole level's words and controls, not a
+      // grid of one Vocabulary activity per unit. A concrete lesson remains
+      // the context for print/practice metadata while its level bank supplies
+      // the visible cards.
+      if (skill === 'vocabulary' && activities.length) {
+        const catalogueLesson = activities[0];
+        section.dataset.activeLessonSlug = catalogueLesson.slug;
+        updateSkillViewBackLink(section, skill, false);
+        renderVocabularyView(section, catalogueLesson);
+        compactLearningToolbars(section);
+        return;
+      }
       if (content) content.innerHTML = renderSkillLibraryHtml(skill, activities);
       updateSkillViewBackLink(section, skill, false);
       wireSkillLibrary(section, skill);
