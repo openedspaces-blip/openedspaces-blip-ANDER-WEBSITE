@@ -26342,8 +26342,24 @@ body {
 .vocab-card-catalogue-examples small { display: block; margin-top: 0.05rem; color: #71809a; font-size: 0.67rem; }
 .vocab-card-catalogue-example-audio { display: inline-grid; width: 1.35rem; height: 1.35rem; margin-left: 0.35rem; place-items: center; vertical-align: middle; border: 1px solid #cfe0ff; border-radius: 50%; background: #f4f8ff; color: #2563eb; font-size: 0.62rem; cursor: pointer; }
 .vocab-card-catalogue-example-audio.is-playing { border-color: #2563eb; background: #dbeafe; }
-.vocab-card-catalogue-actions { display: flex; gap: 0.4rem; margin-left: auto; }
-.vocab-card-catalogue-actions button { min-height: 34px; padding: 0.38rem 0.62rem; border: 1px solid #bcd0f4; border-radius: 9px; background: #fff; color: #1d4ed8; font: inherit; font-size: 0.67rem; font-weight: 850; cursor: pointer; }
+.vocab-card-catalogue-actions { display: flex; gap: 0.32rem; margin-left: auto; }
+.vocab-card-catalogue-actions button {
+  height: 22px;
+  min-height: 22px;
+  padding: 0.08rem 0.35rem;
+  border: 1px solid #bcd0f4;
+  border-radius: 7px;
+  background: #fff;
+  color: #1d4ed8;
+  font: inherit;
+  font-size: 0.54rem;
+  font-weight: 850;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.vocab-card-catalogue-actions .vocab-know-btn,
+.vocab-card-catalogue-actions .vocab-retry-btn { max-width: none; }
 .vocab-card-catalogue-actions .vocab-retry-btn { border-color: #2563eb; background: #2563eb; color: #fff; }
 .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card.is-flipped { height: auto; min-height: 248px; }
 
@@ -26358,7 +26374,7 @@ body {
 @media (max-width: 480px) {
   .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card { height: auto; min-height: 236px; }
   .vocab-card-catalogue-actions { width: 100%; }
-  .vocab-card-catalogue-actions button { flex: 1; min-height: 40px; }
+  .vocab-card-catalogue-actions button { flex: 1; height: 34px; min-height: 34px; }
   .skill-view-section[data-skill='vocabulary'] .vocab-catalogue-deck .vocab-card-front-footer { align-items: flex-start; flex-direction: column; }
 }
 
