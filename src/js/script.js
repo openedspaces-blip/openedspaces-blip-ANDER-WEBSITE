@@ -22923,6 +22923,7 @@ function buildCrosswordPuzzle(topic, bridgeTopic) {
     });
     placed.push({
       ...entry,
+      id: `entry-${placed.length + 1}`,
       row,
       column,
       orientation: direction.row === 0 ? 'across' : 'down',
@@ -22992,11 +22993,59 @@ function renderCrosswordGame(content, topic, bridgeTopic) {
     `<section><h4>${heading}</h4><ol>${puzzle.placed
       .filter((entry) => entry.orientation === orientation)
       .sort((a, b) => a.number - b.number)
-      .map((entry) => `<li value="${entry.number}">${escapeHtml(entry.clue)}</li>`)
+      .map((entry) => `<li value="${entry.number}"><button type="button" class="games-crossword-clue" data-crossword-entry="${entry.id}">${escapeHtml(entry.clue)}</button></li>`)
       .join('')}</ol></section>`;
   content.innerHTML = `<div class="games-crossword-layout"><div class="games-crossword-grid" style="--crossword-columns:${columnCount}" aria-label="Crucigrama: ${escapeHtml(topic.title)}">${gridHtml}</div><div class="games-crossword-clues">${cluesHtml('across', 'Horizontal')}${cluesHtml('down', 'Vertical')}</div></div><div class="games-action-row"><button type="button" class="primary-btn games-check-crossword">Comprobar</button><button type="button" class="secondary-btn games-clear-crossword">Borrar</button></div>`;
   const inputs = [...content.querySelectorAll('[data-crossword-solution]')];
-  inputs.forEach((input, index) =>
+  const inputsByPosition = new Map(
+    inputs.map((input) => [`${input.dataset.crosswordRow}:${input.dataset.crosswordColumn}`, input])
+  );
+  const entriesById = new Map(puzzle.placed.map((entry) => [entry.id, entry]));
+  const entriesByPosition = new Map();
+  puzzle.placed.forEach((entry) =>
+    entry.positions.forEach((position) => {
+      const positionKey = puzzle.key(position.row, position.column);
+      entriesByPosition.set(positionKey, [...(entriesByPosition.get(positionKey) || []), entry]);
+    })
+  );
+  let activeEntry = puzzle.placed[0] || null;
+  const setActiveEntry = (entry, { focus = false } = {}) => {
+    if (!entry) return;
+    activeEntry = entry;
+    content.querySelectorAll('.games-crossword-clue').forEach((clue) => {
+      clue.classList.toggle('is-active', clue.dataset.crosswordEntry === entry.id);
+    });
+    inputs.forEach((input) => {
+      const isInEntry = entry.positions.some(
+        (position) =>
+          String(position.row) === input.dataset.crosswordRow &&
+          String(position.column) === input.dataset.crosswordColumn
+      );
+      input.closest('.games-crossword-cell')?.classList.toggle('is-active-word', isInEntry);
+    });
+    if (focus) {
+      const nextPosition = entry.positions.find((position) => {
+        const cell = inputsByPosition.get(puzzle.key(position.row, position.column));
+        return cell && !cell.value;
+      }) || entry.positions[0];
+      inputsByPosition.get(puzzle.key(nextPosition.row, nextPosition.column))?.focus();
+    }
+  };
+  const entryForInput = (input, toggle = false) => {
+    const candidates = entriesByPosition.get(`${input.dataset.crosswordRow}:${input.dataset.crosswordColumn}`) || [];
+    if (!candidates.length) return null;
+    if (toggle && candidates.length > 1 && activeEntry && candidates.includes(activeEntry))
+      return candidates[(candidates.indexOf(activeEntry) + 1) % candidates.length];
+    if (activeEntry && candidates.includes(activeEntry)) return activeEntry;
+    return candidates.find((entry) => entry.orientation === 'down') || candidates[0];
+  };
+  setActiveEntry(activeEntry);
+  content.querySelectorAll('.games-crossword-clue').forEach((clue) => {
+    clue.addEventListener('click', () => setActiveEntry(entriesById.get(clue.dataset.crosswordEntry), { focus: true }));
+  });
+  inputs.forEach((input) => {
+    input.addEventListener('focus', () => setActiveEntry(entryForInput(input)));
+    input.addEventListener('click', () => setActiveEntry(entryForInput(input, true)));
     input.addEventListener('input', () => {
       input.value = normalizeGameText(input.value).slice(-1).toUpperCase();
       input.classList.remove('is-correct', 'is-wrong');
@@ -23004,9 +23053,26 @@ function renderCrosswordGame(content, topic, bridgeTopic) {
         inputs.filter((cell) => cell.value === cell.dataset.crosswordSolution).length,
         inputs.length
       );
-      if (input.value && inputs[index + 1]) inputs[index + 1].focus();
-    })
-  );
+      if (!input.value || !activeEntry) return;
+      const currentIndex = activeEntry.positions.findIndex(
+        (position) =>
+          String(position.row) === input.dataset.crosswordRow &&
+          String(position.column) === input.dataset.crosswordColumn
+      );
+      const nextPosition = activeEntry.positions[currentIndex + 1];
+      if (nextPosition) inputsByPosition.get(puzzle.key(nextPosition.row, nextPosition.column))?.focus();
+    });
+    input.addEventListener('keydown', (event) => {
+      if (event.key !== 'Backspace' || input.value || !activeEntry) return;
+      const currentIndex = activeEntry.positions.findIndex(
+        (position) =>
+          String(position.row) === input.dataset.crosswordRow &&
+          String(position.column) === input.dataset.crosswordColumn
+      );
+      const previousPosition = activeEntry.positions[currentIndex - 1];
+      if (previousPosition) inputsByPosition.get(puzzle.key(previousPosition.row, previousPosition.column))?.focus();
+    });
+  });
   content.querySelector('.games-check-crossword')?.addEventListener('click', () => {
     const correct = inputs.filter((input) => {
       const isCorrect = input.value === input.dataset.crosswordSolution;

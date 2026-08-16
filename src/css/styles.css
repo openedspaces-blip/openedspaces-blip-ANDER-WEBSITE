@@ -27430,6 +27430,9 @@ body {
   outline: 3px solid var(--blue);
   outline-offset: -3px;
 }
+.games-crossword-cell.is-active-word {
+  background: #edf4ff;
+}
 .games-crossword-cell input.is-correct {
   background: #dcf8eb;
   color: #11774f;
@@ -27468,6 +27471,26 @@ body {
 .games-crossword-clues li::marker {
   color: var(--navy-2);
   font-weight: 900;
+}
+.games-crossword-clue {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.games-crossword-clue:hover,
+.games-crossword-clue:focus-visible,
+.games-crossword-clue.is-active {
+  color: var(--blue);
+  outline: none;
+}
+.games-crossword-clue.is-active {
+  font-weight: 800;
 }
 .games-action-row {
   display: flex;
