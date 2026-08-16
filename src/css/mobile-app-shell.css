@@ -1,0 +1,126 @@
+/* ANDERGO mobile app shell
+   This layer intentionally only activates on phone-size screens. It provides
+   a thumb-first application hierarchy without changing the rich desktop UI. */
+.mobile-learning-dock,
+.mobile-study-pulse { display: none; }
+
+@media (max-width: 640px) {
+  :root { --mobile-dock-height: calc(66px + env(safe-area-inset-bottom)); }
+
+  html { scroll-padding-top: 9.2rem; }
+  body {
+    padding-bottom: var(--mobile-dock-height);
+    background: #f4f7fc;
+    overscroll-behavior-y: contain;
+  }
+
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 80;
+    padding-bottom: .5rem;
+    background: rgba(255,255,255,.94);
+  }
+
+  .mobile-header-tabs > .nav-learn-cta {
+    min-height: 42px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(37,99,235,.18);
+  }
+
+  .mobile-learning-dock {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    min-height: var(--mobile-dock-height);
+    padding: .42rem .35rem calc(.42rem + env(safe-area-inset-bottom));
+    border-top: 1px solid rgba(30,64,175,.1);
+    background: rgba(255,255,255,.95);
+    box-shadow: 0 -9px 28px rgba(15,23,42,.12);
+    backdrop-filter: blur(18px);
+  }
+
+  .mobile-learning-dock a {
+    display: grid;
+    min-width: 0;
+    min-height: 48px;
+    place-items: center;
+    align-content: center;
+    gap: 1px;
+    border-radius: 13px;
+    color: #64748b;
+    font-weight: 800;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .mobile-learning-dock span { font-size: 1.28rem; line-height: 1; }
+  .mobile-learning-dock small { font-size: .62rem; line-height: 1.15; }
+  .mobile-learning-dock a:focus-visible { outline: 3px solid #7dd3fc; outline-offset: -2px; }
+  .mobile-learning-dock a:active,
+  .mobile-learning-dock a.is-current { color: #1d4ed8; background: #eaf2ff; }
+
+  .hero {
+    gap: 1.25rem;
+    padding: 1rem 1rem 2.1rem;
+    background:
+      radial-gradient(circle at 100% 0, rgba(14,165,233,.18), transparent 42%),
+      linear-gradient(180deg,#f5f9ff 0%,#fff 82%);
+  }
+
+  .mobile-study-pulse {
+    display: grid;
+    grid-template-columns: 38px minmax(0,1fr) 30px;
+    align-items: center;
+    gap: .68rem;
+    padding: .68rem .75rem;
+    border: 1px solid #c9ddff;
+    border-radius: 17px;
+    background: linear-gradient(125deg,#f9fcff,#e9f4ff);
+    box-shadow: 0 9px 22px rgba(37,99,235,.09);
+  }
+  .mobile-study-pulse-icon { display:grid; width:38px; height:38px; place-items:center; border-radius:12px; color:#fff; background:linear-gradient(135deg,#2563eb,#06b6d4); }
+  .mobile-study-pulse small { display:block; color:#64748b; font-size:.68rem; font-weight:750; }
+  .mobile-study-pulse strong { display:block; margin-top:2px; color:#163b7a; font-size:.79rem; line-height:1.25; }
+  .mobile-study-pulse a { display:grid; width:30px; height:30px; place-items:center; border-radius:50%; color:#fff; background:#2563eb; font-weight:900; text-decoration:none; }
+
+  .hero .pill { margin-bottom: .8rem; padding: .4rem .62rem; font-size: .6rem; }
+  .hero h1, .hero h2 { font-size: clamp(2rem, 9.2vw, 2.55rem); line-height: 1.02; letter-spacing: -.05em; }
+  .hero-copy-carousel { min-height: 0; }
+  .hero-copy-slide > p { margin-top: .85rem; font-size: .94rem; line-height: 1.62; }
+  .hero-carousel-controls { margin-top: .85rem; }
+  .hero-buttons { display:block; margin-top: 1.1rem; }
+  .hero-buttons .primary-btn { width:100%; min-height:54px; justify-content:center; border-radius:16px; font-size:.96rem; }
+  .hero-language-tabs { display:grid; grid-auto-flow:column; grid-auto-columns: 84%; gap:.65rem; overflow-x:auto; padding:1rem 1rem .5rem 0; scroll-snap-type:x mandatory; scrollbar-width:none; }
+  .hero-language-tabs::-webkit-scrollbar { display:none; }
+  .hero-language-tabs button { min-height:70px; scroll-snap-align:start; border-radius:18px; box-shadow:0 8px 18px rgba(15,23,42,.07); }
+  .quick-stats { grid-template-columns: 1fr; gap:.55rem; margin-top: 1.1rem; }
+  .quick-stats div { display:grid; grid-template-columns:1fr auto; align-items:center; gap:.5rem; padding:.75rem .85rem; border-radius:14px; }
+  .quick-stats span { text-align:right; font-size:.69rem; }
+
+  .hero-card { width: min(100%, 400px); min-height: 360px; margin: .2rem auto 0; border-radius: 28px; box-shadow: 0 18px 44px rgba(15,23,70,.18); }
+  .hero-cover-caption strong { font-size: 1.55rem; }
+
+  .section { width: min(100% - 1.4rem, 680px); margin-block: 1.3rem; padding: 1.15rem; border-radius: 22px; }
+  .section-heading h2 { font-size: clamp(1.55rem,7vw,2rem); line-height:1.08; }
+  .section-heading p { font-size:.9rem; line-height:1.55; }
+  .compact-hidden-section { margin-top:1rem; }
+  .dashboard-actions { display:grid; grid-template-columns:1fr; }
+  .dashboard-actions button, .dashboard-actions a { width:100%; min-height:50px; justify-content:center; }
+
+  .learning-route-context, .learning-path-panel, .lesson-workspace, .translator-section, .tutor-section { border-radius:22px; }
+  button, .primary-btn, .secondary-btn, input, select, textarea { min-height:44px; }
+  input, select, textarea { font-size:16px; }
+
+  footer { padding-bottom: 1.5rem; }
+}
+
+@media (max-width: 380px) {
+  .mobile-learning-dock small { font-size:.56rem; }
+  .hero h1, .hero h2 { font-size:1.9rem; }
+  .mobile-study-pulse strong { font-size:.73rem; }
+}

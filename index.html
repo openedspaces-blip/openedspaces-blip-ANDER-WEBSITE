@@ -54,6 +54,7 @@
       }
     </script>
     <link rel="stylesheet" href="/src/css/styles.css?v=20260805-games-upgrade" />
+    <link rel="stylesheet" href="/src/css/mobile-app-shell.css?v=20260814" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -139,9 +140,24 @@
       </div>
     </header>
 
+    <!-- Mobile-first learning launcher. Kept separate from the desktop menu so
+         the most useful study actions remain one tap away on a phone. -->
+    <nav class="mobile-learning-dock" aria-label="Accesos rápidos de aprendizaje">
+      <a href="#learn" class="is-current"><span aria-hidden="true">⌂</span><small>Inicio</small></a>
+      <a href="#learn"><span aria-hidden="true">◎</span><small>Ruta</small></a>
+      <a href="#tutor"><span aria-hidden="true">✦</span><small>Tutor</small></a>
+      <a href="#games"><span aria-hidden="true">◇</span><small>Práctica</small></a>
+      <a href="#progress"><span aria-hidden="true">↗</span><small>Progreso</small></a>
+    </nav>
+
     <main id="content">
       <section class="hero">
         <div class="hero-content">
+          <div class="mobile-study-pulse" aria-label="Tu próxima sesión de aprendizaje">
+            <span class="mobile-study-pulse-icon" aria-hidden="true">✦</span>
+            <span><small>Tu próxima sesión</small><strong>Empieza con una lección de 10 min</strong></span>
+            <a href="#learn" aria-label="Abrir mi ruta">→</a>
+          </div>
           <span class="pill"><span aria-hidden="true">✦</span> Una academia. Seis idiomas. Un mundo por descubrir.</span>
           <div class="hero-copy-carousel" aria-roledescription="carrusel" aria-label="Características de ANDERGO">
             <article class="hero-copy-slide is-active" data-hero-slide aria-hidden="false">

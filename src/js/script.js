@@ -1403,10 +1403,50 @@ function swapLearningPathLanguages() {
 // For any other bridge language, label the Spanish text as a reference
 // instead of presenting it as a translation into the student's actual
 // bridge language - never fabricate a translation that isn't real data.
+// A few early Italian route records used curriculum categories (for example,
+// “palabra cultural”) in the translation field. They are not learner-facing
+// meanings, so replace the authored placeholders with this compact L1 glossary.
+const ITALIAN_SPANISH_CORE_GLOSSES = {
+  ciao: 'hola', buongiorno: 'buenos días', piacere: 'mucho gusto', grazie: 'gracias',
+  'caffè': 'café', acqua: 'agua', 'per favore': 'por favor', famiglia: 'familia',
+  cena: 'cena', tavola: 'mesa', insieme: 'juntos', pomodoro: 'tomate', mela: 'manzana',
+  chilo: 'kilo', euro: 'euro', strada: 'calle', piazza: 'plaza', stazione: 'estación',
+  bicicletta: 'bicicleta', scuola: 'escuela', amico: 'amigo', lezione: 'lección',
+  compito: 'tarea', cucina: 'cocina', camera: 'habitación', finestra: 'ventana',
+  balcone: 'balcón', sole: 'sol', pioggia: 'lluvia', caldo: 'calor', freddo: 'frío',
+  festa: 'fiesta', musica: 'música', vicino: 'vecino', sabato: 'sábado', treno: 'tren',
+  biglietto: 'billete', binario: 'andén', viaggio: 'viaje', pane: 'pan', zuppa: 'sopa',
+  formaggio: 'queso', gusto: 'gusto', oggi: 'hoy', domani: 'mañana', casa: 'casa',
+  esperienza: 'experiencia', quartiere: 'barrio', fermata: 'parada', ufficio: 'oficina',
+  servizio: 'servicio', museo: 'museo', passeggiata: 'paseo', prenotazione: 'reserva',
+  visita: 'visita', ricetta: 'receta', ingrediente: 'ingrediente', prima: 'primero',
+  dopo: 'después', collega: 'colega', pausa: 'pausa', riunione: 'reunión', orario: 'horario',
+  mostra: 'exposición', artista: 'artista', opinione: 'opinión', residente: 'residente',
+  rispetto: 'respeto', mappa: 'mapa', scelta: 'elección', nuoto: 'natación', corsa: 'correr',
+  squadra: 'equipo', allenamento: 'entrenamiento', farmacia: 'farmacia', dolore: 'dolor',
+  riposo: 'descanso', consiglio: 'consejo', origine: 'origen', comunità: 'comunidad',
+  progetto: 'proyecto', idea: 'idea', gruppo: 'grupo', rifiuti: 'residuos', plastica: 'plástico',
+  riciclare: 'reciclar', ambiente: 'medio ambiente', ricordo: 'recuerdo', incontro: 'encuentro',
+  cambiare: 'cambiar', futuro: 'futuro'
+};
+
+function isVocabularyTranslationPlaceholder(value) {
+  return /^(?:palabra cultural|acción cotidiana|lugar o cosa|expresión útil|palabra clave\s*\d+)$/i.test(
+    String(value || '').trim()
+  );
+}
+
+function getAuthoredSpanishVocabGloss(item, targetLanguage) {
+  if (targetLanguage !== 'italian' || !isVocabularyTranslationPlaceholder(item?.translation)) return '';
+  return ITALIAN_SPANISH_CORE_GLOSSES[String(item.word || item.targetWord || '').trim().toLocaleLowerCase()] || '';
+}
+
 function resolveVocabTranslation(item, bridgeLanguage = learningPathState.bridgeLanguage) {
-  if (!item?.translation) return item?.translation || '';
-  if (bridgeLanguage === 'spanish') return item.translation;
-  return `${item.translation} (referencia en español)`;
+  const targetLanguage = item?.language || item?.targetLanguage || learningPathState.language;
+  const translation = getAuthoredSpanishVocabGloss(item, targetLanguage) || item?.translation || '';
+  if (!translation || isVocabularyTranslationPlaceholder(translation)) return '';
+  if (bridgeLanguage === 'spanish') return translation;
+  return `${translation} (referencia en español)`;
 }
 
 function renderMcqItem(question, index, languageKey) {
@@ -13420,11 +13460,16 @@ function normalizeVocabularyItem(item, { language, level, bridgeLanguage, index 
     learningMode,
     isAdvancedDirect:
       learningMode === 'direct' && ['C1', 'C2'].includes(level || learningPathState.level || ''),
+    // German content is always paired with an explicit Spanish gloss when
+    // the platform is being used in Spanish. Even if a learner previously
+    // selected German as the bridge language (direct mode), hiding a real
+    // Spanish meaning makes the German route look unfinished. Other direct
+    // routes retain their existing immersion-only behaviour.
     l1Translation:
       learningMode === 'direct' &&
       item.translation &&
-      item.translation !== item.definition &&
-      item.translation !== item.simpleDefinition
+      (targetLanguage === 'german' ||
+        (item.translation !== item.definition && item.translation !== item.simpleDefinition))
         ? resolveVocabTranslation(item, 'spanish')
         : '',
     definition:
@@ -13736,8 +13781,12 @@ function renderVocabCardHtml(item, { canSpeak, isFrench, showL1Translation = fal
   const frontTranslation = /^palabra clave\s*\d+$/i.test(String(rawTranslation).trim())
     ? ''
     : rawTranslation;
+  const bridgeLanguageLabel = languageDisplayNames[item.bridgeLanguage] || item.bridgeLanguage || 'L1';
   const frontSupportHtml = frontTranslation
-    ? `<p class="vocab-card-front-support" lang="${escapeHtml(bridgeLanguageToHtmlLang[item.bridgeLanguage] || '')}">${escapeHtml(frontTranslation)}</p>`
+    ? `<div class="vocab-card-front-support" lang="${escapeHtml(bridgeLanguageToHtmlLang[item.bridgeLanguage] || '')}">
+        <span>${escapeHtml(bridgeLanguageLabel)}</span>
+        <p>${escapeHtml(frontTranslation)}</p>
+      </div>`
     : '';
   const compactIconText = String(item.targetWord || '')
     .trim()

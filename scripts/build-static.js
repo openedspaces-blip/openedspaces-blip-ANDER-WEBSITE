@@ -23,6 +23,7 @@ const REQUIRED_FILES = [
   'verbos-ingles.html',
   'test-nivel-ingles.html',
   'src/css/styles.css',
+  'src/css/mobile-app-shell.css',
   'src/css/legal.css',
   'src/css/discover.css',
   'src/js/script.js',
