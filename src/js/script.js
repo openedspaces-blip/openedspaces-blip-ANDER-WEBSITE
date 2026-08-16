@@ -17953,6 +17953,15 @@ const INFOGRAPHIC_EXTRA_LABELS = {
   },
   french: {
     'body-front': ['Oreille', 'Cou', 'Ventre'], 'body-rear': ['Épaule', 'Main', 'Pied'], car: ['Pare-chocs', 'Plaque', 'Toit'], house: ['Garage', 'Balcon', 'Allée'], tree: ['Brindille', 'Pomme', 'Sol'], weather: ['Brouillard', 'Orage', 'Glace'], 'solar-system': ['Pluton'], face: ['Sourcil', 'Joue', 'Dents'], classroom: ['Stylo', 'Règle', 'Lampe'], bicycle: ['Rayons', 'Frein', 'Manivelle'], clothing: ['Ceinture', 'Sac', 'Gants'], food: ['Assiette', 'Bol', 'Table']
+  },
+  italian: {
+    'body-front': ['Orecchio', 'Collo', 'Stomaco'], 'body-rear': ['Spalla', 'Mano', 'Piede'], car: ['Paraurti', 'Targa', 'Tetto'], house: ['Garage', 'Balcone', 'Vialetto'], tree: ['Ramoscello', 'Mela', 'Terreno'], weather: ['Nebbia', 'Temporale', 'Ghiaccio'], 'solar-system': ['Plutone'], face: ['Sopracciglio', 'Guancia', 'Denti'], classroom: ['Penna', 'Righello', 'Lampada'], bicycle: ['Raggi', 'Freno', 'Pedivella'], clothing: ['Cintura', 'Borsa', 'Guanti'], food: ['Piatto', 'Ciotola', 'Tavolo']
+  },
+  portuguese: {
+    'body-front': ['Orelha', 'Pescoço', 'Estômago'], 'body-rear': ['Ombro', 'Mão', 'Pé'], car: ['Para-choque', 'Placa', 'Teto'], house: ['Garagem', 'Varanda', 'Caminho'], tree: ['Galho', 'Maçã', 'Solo'], weather: ['Neblina', 'Tempestade', 'Gelo'], 'solar-system': ['Plutão'], face: ['Sobrancelha', 'Bochecha', 'Dentes'], classroom: ['Caneta', 'Régua', 'Lâmpada'], bicycle: ['Raios', 'Freio', 'Pedivela'], clothing: ['Cinto', 'Bolsa', 'Luvas'], food: ['Prato', 'Tigela', 'Mesa']
+  },
+  german: {
+    'body-front': ['Ohr', 'Hals', 'Bauch'], 'body-rear': ['Schulter', 'Hand', 'Fuß'], car: ['Stoßstange', 'Kennzeichen', 'Dach'], house: ['Garage', 'Balkon', 'Weg'], tree: ['Zweig', 'Apfel', 'Boden'], weather: ['Nebel', 'Gewitter', 'Eis'], 'solar-system': ['Pluto'], face: ['Augenbraue', 'Wange', 'Zähne'], classroom: ['Stift', 'Lineal', 'Lampe'], bicycle: ['Speichen', 'Bremse', 'Kurbel'], clothing: ['Gürtel', 'Tasche', 'Handschuhe'], food: ['Teller', 'Schüssel', 'Tisch']
   }
 };
 
@@ -17981,6 +17990,21 @@ const INFOGRAPHIC_LOCALIZATION = {
     titles: ['Corps humain · face','Corps humain · dos','Les parties d’une voiture','Les parties d’une maison','Les parties d’un arbre','La météo','Le système solaire','Les parties du visage','La salle de classe','Les parties d’un vélo','Les vêtements','Les aliments de base'],
     words: [['Tête','Épaule','Poitrine','Bras','Main','Genou','Pied'],['Tête','Cou','Dos','Coude','Taille','Jambe','Talon'],['Pare-brise','Porte','Rétroviseur','Capot','Roue','Phare','Coffre'],['Toit','Cheminée','Fenêtre','Porte','Mur','Porche','Jardin'],['Cime','Branche','Feuille','Tronc','Écorce','Racine','Fruit'],['Soleil','Nuage','Pluie','Éclair','Vent','Neige','Arc-en-ciel'],['Soleil','Mercure','Vénus','Terre','Mars','Jupiter','Saturne','Uranus','Neptune'],['Cheveux','Front','Œil','Oreille','Nez','Bouche','Menton'],['Tableau','Horloge','Bureau','Chaise','Livre','Fenêtre','Sac à dos'],['Guidon','Selle','Cadre','Pédale','Chaîne','Roue','Pneu'],['Chemise','Pantalon','Robe','Veste','Chaussures','Chapeau','Chaussettes'],['Pain','Lait','Fromage','Riz','Œuf','Poulet','Poisson']],
     ui: ['Dictionnaire visuel interactif','Banque de mots','Place chaque nom au bon endroit','Sélectionne ou fais glisser un mot, puis touche le bon point.','Progression','Réessayer','Parfait ! Toutes les parties sont correctes.']
+  },
+  italian: {
+    titles: ['Corpo umano · davanti','Corpo umano · dietro','Parti di un’automobile','Parti di una casa','Parti di un albero','Il tempo','Il sistema solare','Parti del viso','L’aula','Parti di una bicicletta','I vestiti','Alimenti di base'],
+    words: [['Testa','Spalla','Petto','Braccio','Mano','Ginocchio','Piede'],['Testa','Collo','Schiena','Gomito','Vita','Gamba','Tallone'],['Parabrezza','Porta','Specchietto','Cofano','Ruota','Faro','Bagagliaio'],['Tetto','Camino','Finestra','Porta','Muro','Portico','Giardino'],['Chioma','Ramo','Foglia','Tronco','Corteccia','Radice','Frutto'],['Sole','Nuvola','Pioggia','Fulmine','Vento','Neve','Arcobaleno'],['Sole','Mercurio','Venere','Terra','Marte','Giove','Saturno','Urano','Nettuno'],['Capelli','Fronte','Occhio','Orecchio','Naso','Bocca','Mento'],['Lavagna','Orologio','Scrivania','Sedia','Libro','Finestra','Zaino'],['Manubrio','Sella','Telaio','Pedale','Catena','Ruota','Pneumatico'],['Camicia','Pantaloni','Vestito','Giacca','Scarpe','Cappello','Calzini'],['Pane','Latte','Formaggio','Riso','Uovo','Pollo','Pesce']],
+    ui: ['Dizionario visivo interattivo','Banca delle parole','Metti ogni nome al posto giusto','Scegli o trascina una parola, poi tocca il punto corretto.','Progresso','Riprova','Perfetto! Tutte le parti sono corrette.']
+  },
+  portuguese: {
+    titles: ['Corpo humano · frente','Corpo humano · costas','Partes de um carro','Partes de uma casa','Partes de uma árvore','O tempo','O sistema solar','Partes do rosto','A sala de aula','Partes de uma bicicleta','As roupas','Alimentos básicos'],
+    words: [['Cabeça','Ombro','Peito','Braço','Mão','Joelho','Pé'],['Cabeça','Pescoço','Costas','Cotovelo','Cintura','Perna','Calcanhar'],['Para-brisa','Porta','Espelho','Capô','Roda','Farol','Porta-malas'],['Teto','Chaminé','Janela','Porta','Parede','Varanda','Jardim'],['Copa','Galho','Folha','Tronco','Casca','Raiz','Fruta'],['Sol','Nuvem','Chuva','Relâmpago','Vento','Neve','Arco-íris'],['Sol','Mercúrio','Vênus','Terra','Marte','Júpiter','Saturno','Urano','Netuno'],['Cabelo','Testa','Olho','Orelha','Nariz','Boca','Queixo'],['Quadro','Relógio','Mesa','Cadeira','Livro','Janela','Mochila'],['Guidão','Selim','Quadro','Pedal','Corrente','Roda','Pneu'],['Camisa','Calças','Vestido','Jaqueta','Sapatos','Chapéu','Meias'],['Pão','Leite','Queijo','Arroz','Ovo','Frango','Peixe']],
+    ui: ['Dicionário visual interativo','Banco de palavras','Coloque cada nome no lugar certo','Escolha ou arraste uma palavra e toque no ponto correto.','Progresso','Tentar novamente','Perfeito! Todas as partes estão corretas.']
+  },
+  german: {
+    titles: ['Menschlicher Körper · vorn','Menschlicher Körper · hinten','Teile eines Autos','Teile eines Hauses','Teile eines Baums','Das Wetter','Das Sonnensystem','Teile des Gesichts','Das Klassenzimmer','Teile eines Fahrrads','Kleidung','Grundnahrungsmittel'],
+    words: [['Kopf','Schulter','Brust','Arm','Hand','Knie','Fuß'],['Kopf','Hals','Rücken','Ellbogen','Taille','Bein','Ferse'],['Windschutzscheibe','Tür','Spiegel','Motorhaube','Rad','Scheinwerfer','Kofferraum'],['Dach','Schornstein','Fenster','Tür','Wand','Veranda','Garten'],['Krone','Ast','Blatt','Stamm','Rinde','Wurzel','Frucht'],['Sonne','Wolke','Regen','Blitz','Wind','Schnee','Regenbogen'],['Sonne','Merkur','Venus','Erde','Mars','Jupiter','Saturn','Uranus','Neptun'],['Haare','Stirn','Auge','Ohr','Nase','Mund','Kinn'],['Tafel','Uhr','Schreibtisch','Stuhl','Buch','Fenster','Rucksack'],['Lenker','Sattel','Rahmen','Pedal','Kette','Rad','Reifen'],['Hemd','Hose','Kleid','Jacke','Schuhe','Hut','Socken'],['Brot','Milch','Käse','Reis','Ei','Huhn','Fisch']],
+    ui: ['Interaktives Bildwörterbuch','Wortbank','Ordne jeden Namen richtig zu','Wähle oder ziehe ein Wort und berühre dann den richtigen Punkt.','Fortschritt','Noch einmal versuchen','Perfekt! Alle Teile sind richtig.']
   }
 };
 
@@ -18120,12 +18144,15 @@ function renderInfographicApp() {
   app.innerHTML = `
     <div class="infographic-toolbar">
       ${canEditPoints ? `<button type="button" class="secondary-btn infographic-edit-toggle${infographicState.editMode ? ' is-active' : ''}" aria-pressed="${infographicState.editMode}">⊙ ${editLabel}</button>` : ''}
-      <div class="infographic-language-picker" role="group" aria-label="${language === 'spanish' ? 'Idioma de las infografías' : language === 'french' ? 'Langue des infographies' : 'Infographic language'}">
-        <span class="infographic-language-label">${language === 'spanish' ? 'Idioma de práctica' : language === 'french' ? 'Langue de pratique' : 'Practice language'}</span>
+      <div class="infographic-language-picker" role="group" aria-label="${language === 'spanish' ? 'Idioma de las infografías' : language === 'french' ? 'Langue des infographies' : language === 'italian' ? 'Lingua delle infografiche' : language === 'portuguese' ? 'Idioma dos infográficos' : language === 'german' ? 'Sprache der Infografiken' : 'Infographic language'}">
+        <span class="infographic-language-label">${language === 'spanish' ? 'Idioma de práctica' : language === 'french' ? 'Langue de pratique' : language === 'italian' ? 'Lingua di pratica' : language === 'portuguese' ? 'Idioma de prática' : language === 'german' ? 'Übungssprache' : 'Practice language'}</span>
         <div class="infographic-language-options">
           <button type="button" data-info-language="english" class="${language === 'english' ? 'is-active' : ''}" aria-pressed="${language === 'english'}">English</button>
           <button type="button" data-info-language="spanish" class="${language === 'spanish' ? 'is-active' : ''}" aria-pressed="${language === 'spanish'}">Español</button>
           <button type="button" data-info-language="french" class="${language === 'french' ? 'is-active' : ''}" aria-pressed="${language === 'french'}">Français</button>
+          <button type="button" data-info-language="italian" class="${language === 'italian' ? 'is-active' : ''}" aria-pressed="${language === 'italian'}">Italiano</button>
+          <button type="button" data-info-language="portuguese" class="${language === 'portuguese' ? 'is-active' : ''}" aria-pressed="${language === 'portuguese'}">Português</button>
+          <button type="button" data-info-language="german" class="${language === 'german' ? 'is-active' : ''}" aria-pressed="${language === 'german'}">Deutsch</button>
         </div>
       </div>
     </div>
@@ -18439,7 +18466,10 @@ function setGamesRoundProgress(value, goal = gamesState.roundGoal) {
 const GAME_FALLBACK_VOCABULARY = {
   english: [['hello', 'hola'], ['book', 'libro'], ['family', 'familia'], ['water', 'agua'], ['school', 'escuela']],
   french: [['bonjour', 'hola'], ['livre', 'libro'], ['famille', 'familia'], ['eau', 'agua'], ['école', 'escuela']],
-  spanish: [['hola', 'hello'], ['libro', 'book'], ['familia', 'family'], ['agua', 'water'], ['escuela', 'school']]
+  spanish: [['hola', 'hello'], ['libro', 'book'], ['familia', 'family'], ['agua', 'water'], ['escuela', 'school']],
+  italian: [['ciao', 'hola'], ['libro', 'libro'], ['famiglia', 'familia'], ['acqua', 'agua'], ['scuola', 'escuela']],
+  portuguese: [['olá', 'hola'], ['livro', 'libro'], ['família', 'familia'], ['água', 'agua'], ['escola', 'escuela']],
+  german: [['hallo', 'hola'], ['Buch', 'libro'], ['Familie', 'familia'], ['Wasser', 'agua'], ['Schule', 'escuela']]
 };
 const GAME_CROSSWORD_TOPICS = {
   english: [
@@ -18468,6 +18498,33 @@ const GAME_CROSSWORD_TOPICS = {
     { title: 'La escuela', entries: [['docente', 'Persona que ayuda a los estudiantes a aprender.'], ['alumno', 'Persona que asiste a una clase.'], ['lápiz', 'Instrumento utilizado para escribir o dibujar.'], ['lección', 'Período dedicado al aprendizaje.'], ['libro', 'Conjunto de páginas encuadernadas.'], ['clase', 'Grupo de estudiantes o período de estudio.']] },
     { title: 'Alimentos y bebidas', entries: [['pan', 'Alimento horneado elaborado con harina.'], ['agua', 'Bebida transparente esencial para la vida.'], ['manzana', 'Fruta redonda que puede ser roja o verde.'], ['leche', 'Bebida blanca producida por los mamíferos.'], ['arroz', 'Cereal pequeño consumido en todo el mundo.'], ['fruta', 'Alimento dulce que crece en una planta.']] },
     { title: 'Los viajes', entries: [['aeropuerto', 'Lugar de salida y llegada de aviones.'], ['boleto', 'Documento que permite realizar un viaje.'], ['hotel', 'Lugar donde se alojan los viajeros.'], ['tren', 'Vehículo que circula sobre rieles.'], ['mapa', 'Representación de lugares y rutas.'], ['maleta', 'Equipaje utilizado para llevar ropa.']] }
+  ],
+  italian: [
+    { title: 'La famiglia', entries: [['madre', 'Genitore di sesso femminile.'], ['padre', 'Genitore di sesso maschile.'], ['sorella', 'Figlia degli stessi genitori.'], ['fratello', 'Figlio degli stessi genitori.'], ['zia', 'Sorella di un tuo genitore.'], ['zio', 'Fratello di un tuo genitore.']] },
+    { title: 'Il corpo umano', entries: [['testa', 'Parte superiore del corpo con il viso.'], ['spalla', 'Articolazione che unisce il braccio al corpo.'], ['gomito', 'Articolazione al centro del braccio.'], ['dito', 'Una delle cinque parti mobili della mano.'], ['ginocchio', 'Articolazione al centro della gamba.'], ['bocca', 'Parte del viso usata per mangiare e parlare.']] },
+    { title: 'La frutta', entries: [['mela', 'Frutto rotondo rosso, verde o giallo.'], ['banana', 'Frutto giallo, lungo e curvo.'], ['arancia', 'Agrume che è anche un colore.'], ['uva', 'Piccolo frutto che cresce a grappoli.'], ['fragola', 'Piccolo frutto rosso con semi.'], ['pera', 'Frutto dolce, stretto in alto.']] },
+    { title: 'A casa', entries: [['cucina', 'Stanza dove si preparano i pasti.'], ['camera', 'Stanza dove si dorme.'], ['bagno', 'Stanza per lavarsi.'], ['tavolo', 'Mobile per mangiare o lavorare.'], ['sedia', 'Seduta per una persona.'], ['porta', 'Si apre per entrare in una stanza.']] },
+    { title: 'A scuola', entries: [['insegnante', 'Persona che aiuta gli studenti a imparare.'], ['studente', 'Persona che frequenta una classe.'], ['matita', 'Strumento per scrivere o disegnare.'], ['lezione', 'Periodo dedicato all’apprendimento.'], ['libro', 'Insieme di pagine da leggere.'], ['classe', 'Gruppo di studenti o lezione.']] },
+    { title: 'Cibo e bevande', entries: [['pane', 'Alimento cotto con la farina.'], ['acqua', 'Bevanda trasparente essenziale per la vita.'], ['latte', 'Bevanda bianca prodotta dai mammiferi.'], ['riso', 'Piccolo cereale mangiato nel mondo.'], ['uovo', 'Alimento con guscio deposto da una gallina.'], ['frutta', 'Alimento dolce che cresce sulle piante.']] },
+    { title: 'I viaggi', entries: [['aeroporto', 'Luogo di arrivo e partenza degli aerei.'], ['biglietto', 'Documento necessario per viaggiare.'], ['albergo', 'Luogo dove i viaggiatori dormono.'], ['treno', 'Veicolo che viaggia su rotaie.'], ['mappa', 'Disegno che mostra luoghi e percorsi.'], ['valigia', 'Bagaglio per trasportare i vestiti.']] }
+  ],
+  portuguese: [
+    { title: 'A família', entries: [['mãe', 'Genitora do sexo feminino.'], ['pai', 'Genitor do sexo masculino.'], ['irmã', 'Filha dos mesmos pais.'], ['irmão', 'Filho dos mesmos pais.'], ['tia', 'Irmã de um dos seus pais.'], ['tio', 'Irmão de um dos seus pais.']] },
+    { title: 'O corpo humano', entries: [['cabeça', 'Parte superior do corpo onde fica o rosto.'], ['ombro', 'Articulação que liga o braço ao tronco.'], ['cotovelo', 'Articulação no meio do braço.'], ['dedo', 'Uma das cinco partes móveis da mão.'], ['joelho', 'Articulação no meio da perna.'], ['boca', 'Parte do rosto usada para comer e falar.']] },
+    { title: 'As frutas', entries: [['maçã', 'Fruta redonda que pode ser vermelha ou verde.'], ['banana', 'Fruta amarela, longa e curva.'], ['laranja', 'Fruta cítrica que também é uma cor.'], ['uva', 'Fruta pequena que cresce em cachos.'], ['morango', 'Fruta vermelha pequena com sementes.'], ['pera', 'Fruta doce, estreita em cima.']] },
+    { title: 'Em casa', entries: [['cozinha', 'Cômodo onde se prepara a comida.'], ['quarto', 'Cômodo onde se dorme.'], ['banheiro', 'Cômodo para tomar banho.'], ['mesa', 'Móvel para comer ou trabalhar.'], ['cadeira', 'Assento para uma pessoa.'], ['porta', 'Abre-se para entrar em um cômodo.']] },
+    { title: 'Na escola', entries: [['professor', 'Pessoa que ajuda os alunos a aprender.'], ['aluno', 'Pessoa que frequenta uma aula.'], ['lápis', 'Instrumento para escrever ou desenhar.'], ['lição', 'Período dedicado à aprendizagem.'], ['livro', 'Conjunto de páginas para ler.'], ['classe', 'Grupo de alunos ou aula.']] },
+    { title: 'Comidas e bebidas', entries: [['pão', 'Alimento assado feito de farinha.'], ['água', 'Bebida transparente essencial para a vida.'], ['leite', 'Bebida branca produzida por mamíferos.'], ['arroz', 'Pequeno cereal consumido no mundo.'], ['ovo', 'Alimento com casca posto por uma galinha.'], ['fruta', 'Alimento doce que cresce em plantas.']] },
+    { title: 'Viagens', entries: [['aeroporto', 'Lugar onde aviões chegam e partem.'], ['bilhete', 'Documento necessário para viajar.'], ['hotel', 'Lugar onde viajantes pagam para dormir.'], ['trem', 'Veículo que anda sobre trilhos.'], ['mapa', 'Desenho que mostra lugares e rotas.'], ['mala', 'Bagagem para transportar roupas.']] }
+  ],
+  german: [
+    { title: 'Die Familie', entries: [['Mutter', 'Weibliches Elternteil.'], ['Vater', 'Männliches Elternteil.'], ['Schwester', 'Tochter derselben Eltern.'], ['Bruder', 'Sohn derselben Eltern.'], ['Tante', 'Schwester eines Elternteils.'], ['Onkel', 'Bruder eines Elternteils.']] },
+    { title: 'Der menschliche Körper', entries: [['Kopf', 'Oberer Teil des Körpers mit dem Gesicht.'], ['Schulter', 'Gelenk zwischen Arm und Rumpf.'], ['Ellbogen', 'Gelenk in der Mitte des Arms.'], ['Finger', 'Einer der fünf beweglichen Teile der Hand.'], ['Knie', 'Gelenk in der Mitte des Beins.'], ['Mund', 'Teil des Gesichts zum Essen und Sprechen.']] },
+    { title: 'Obst', entries: [['Apfel', 'Runde Frucht, die rot oder grün sein kann.'], ['Banane', 'Gelbe, lange und gebogene Frucht.'], ['Orange', 'Zitrusfrucht und auch eine Farbe.'], ['Traube', 'Kleine Frucht, die in Büscheln wächst.'], ['Erdbeere', 'Kleine rote Frucht mit Samen.'], ['Birne', 'Süße Frucht, oben schmaler.']] },
+    { title: 'Zu Hause', entries: [['Küche', 'Raum, in dem Essen zubereitet wird.'], ['Schlafzimmer', 'Raum, in dem man schläft.'], ['Badezimmer', 'Raum zum Waschen.'], ['Tisch', 'Möbel zum Essen oder Arbeiten.'], ['Stuhl', 'Sitz für eine Person.'], ['Tür', 'Man öffnet sie, um einen Raum zu betreten.']] },
+    { title: 'In der Schule', entries: [['Lehrer', 'Person, die Schülern beim Lernen hilft.'], ['Schüler', 'Person, die eine Klasse besucht.'], ['Bleistift', 'Werkzeug zum Schreiben oder Zeichnen.'], ['Unterricht', 'Zeit zum Lernen.'], ['Buch', 'Gebundene Seiten zum Lesen.'], ['Klasse', 'Gruppe von Schülern oder Unterricht.']] },
+    { title: 'Essen und Trinken', entries: [['Brot', 'Gebackenes Lebensmittel aus Mehl.'], ['Wasser', 'Klares Getränk, das für das Leben wichtig ist.'], ['Milch', 'Weißes Getränk von Säugetieren.'], ['Reis', 'Kleines Getreide, das weltweit gegessen wird.'], ['Ei', 'Lebensmittel mit Schale von einer Henne.'], ['Obst', 'Süßes Lebensmittel, das auf Pflanzen wächst.']] },
+    { title: 'Reisen', entries: [['Flughafen', 'Ort, an dem Flugzeuge ankommen und abfliegen.'], ['Fahrkarte', 'Dokument, das man zum Reisen braucht.'], ['Hotel', 'Ort, an dem Reisende schlafen.'], ['Zug', 'Fahrzeug auf Schienen.'], ['Karte', 'Zeichnung von Orten und Wegen.'], ['Koffer', 'Gepäckstück für Kleidung.']] }
   ]
 };
 
@@ -18699,7 +18756,7 @@ document.addEventListener('visibilitychange', () => {
 function renderGamesView() {
   const app = document.getElementById('gamesApp');
   if (!app) return;
-  const languageLabels = { english: 'Inglés', french: 'Francés', spanish: 'Español' };
+  const languageLabels = { english: 'Inglés', french: 'Francés', spanish: 'Español', italian: 'Italiano', portuguese: 'Portugués', german: 'Alemán' };
   const game = GAMES_CATALOG.find((item) => item.id === gamesState.gameId) || GAMES_CATALOG[0];
   const difficulty = getGamesDifficulty();
   app.innerHTML = `
