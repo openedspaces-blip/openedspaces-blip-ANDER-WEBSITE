@@ -1655,12 +1655,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Esponi per un minuto: organizzare un progetto e negoziare le responsabilità."
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «scadenza». Puoi aiutarmi?"
       },
       {
-        "speaker": "Student",
-        "line": "Secondo me, è importante considerare più prospettive."
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -3236,11 +3236,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei organizzare il tempo e proporre soluzioni. Puoi aiutarmi?"
+        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: obiettivi». Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Sì, certo. Parliamone passo dopo passo."
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -3475,7 +3475,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Ciao, come stai». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -3507,7 +3516,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Di solito prendo l’autobus». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -5827,12 +5845,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Esponi per un minuto: confrontare soluzioni di mobilità urbana."
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «percorso». Puoi aiutarmi?"
       },
       {
-        "speaker": "Student",
-        "line": "Secondo me, è importante considerare più prospettive."
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -7402,11 +7420,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei raccontare un viaggio e dare consigli responsabili. Puoi aiutarmi?"
+        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: itinerario». Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Sì, certo. Parliamone passo dopo passo."
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -7641,7 +7659,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Un caffè, per favore». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -7673,7 +7700,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Vorrei visitare il museo». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -9993,12 +10029,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Esponi per un minuto: descrivere competenze e prospettive professionali."
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «colloquio». Puoi aiutarmi?"
       },
       {
-        "speaker": "Student",
-        "line": "Secondo me, è importante considerare più prospettive."
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -11571,11 +11607,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei spiegare abitudini utili e cambiamenti personali. Puoi aiutarmi?"
+        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: benessere». Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Sì, certo. Parliamone passo dopo passo."
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -11810,7 +11846,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Ceniamo insieme». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -11842,7 +11887,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Prima taglio le verdure». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -14159,12 +14213,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Esponi per un minuto: argomentare scelte di consumo responsabile."
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «impatto». Puoi aiutarmi?"
       },
       {
-        "speaker": "Student",
-        "line": "Secondo me, è importante considerare più prospettive."
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -15731,11 +15785,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei esprimere opinioni su cultura e informazione. Puoi aiutarmi?"
+        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: notizia». Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Sì, certo. Parliamone passo dopo passo."
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -15970,7 +16024,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Quanto costa un chilo». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -16002,7 +16065,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Posso fare una pausa». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -18325,12 +18397,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Esponi per un minuto: valutare fonti e notizie in modo critico."
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «fonte». Puoi aiutarmi?"
       },
       {
-        "speaker": "Student",
-        "line": "Secondo me, è importante considerare più prospettive."
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -19900,11 +19972,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei descrivere un problema ambientale e una proposta. Puoi aiutarmi?"
+        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: rifiuto». Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Sì, certo. Parliamone passo dopo passo."
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -20139,7 +20211,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Dov’è la stazione». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -20171,7 +20252,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «La mostra era interessante». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -22491,12 +22581,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Esponi per un minuto: proporre abitudini equilibrate."
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «benessere». Puoi aiutarmi?"
       },
       {
-        "speaker": "Student",
-        "line": "Secondo me, è importante considerare più prospettive."
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -24063,11 +24153,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei narrare esperienze e collegarle al presente. Puoi aiutarmi?"
+        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: memoria». Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Sì, certo. Parliamone passo dopo passo."
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -24302,7 +24392,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Che materia ti piace». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -24334,7 +24433,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Non voglio disturbare i residenti». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -26654,12 +26762,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Esponi per un minuto: presentare pratiche culturali con rispetto."
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «tradizione». Puoi aiutarmi?"
       },
       {
-        "speaker": "Student",
-        "line": "Secondo me, è importante considerare più prospettive."
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -28229,11 +28337,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei presentare un progetto e distribuirne i compiti. Puoi aiutarmi?"
+        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: progetto». Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Sì, certo. Parliamone passo dopo passo."
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -28468,7 +28576,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «La cucina è luminosa». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -28500,7 +28617,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Da giovane giocavo spesso». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -30820,12 +30946,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Esponi per un minuto: discutere benefici e rischi digitali."
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «dispositivo». Puoi aiutarmi?"
       },
       {
-        "speaker": "Student",
-        "line": "Secondo me, è importante considerare più prospettive."
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -32398,11 +32524,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei valutare usos de la tecnología con argumentos. Puoi aiutarmi?"
+        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: tecnologia». Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Sì, certo. Parliamone passo dopo passo."
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -32637,7 +32763,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Oggi fa caldo». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -32669,7 +32804,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Mi fa male la gola». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -34986,12 +35130,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Esponi per un minuto: raccontare un viaggio e formulare raccomandazioni."
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «itinerario». Puoi aiutarmi?"
       },
       {
-        "speaker": "Student",
-        "line": "Secondo me, è importante considerare più prospettive."
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -36564,11 +36708,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei comparare opciones de movilidad urbana. Puoi aiutarmi?"
+        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: trasporto». Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Sì, certo. Parliamone passo dopo passo."
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -36803,7 +36947,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Ci vediamo alla festa». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -36835,7 +36988,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «La sua famiglia è arrivata anni fa». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -39155,12 +39317,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Esponi per un minuto: gestire un disaccordo con tatto."
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «equivoco». Puoi aiutarmi?"
       },
       {
-        "speaker": "Student",
-        "line": "Secondo me, è importante considerare più prospettive."
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -40733,11 +40895,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei hablar de metas y posibilidades futuras. Puoi aiutarmi?"
+        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: futuro». Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Sì, certo. Parliamone passo dopo passo."
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -40972,7 +41134,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Un biglietto per Firenze». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -41004,7 +41175,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Possiamo dividere i compiti». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -43327,12 +43507,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Esponi per un minuto: presentare una proposta per la comunità."
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «iniziativa». Puoi aiutarmi?"
       },
       {
-        "speaker": "Student",
-        "line": "Secondo me, è importante considerare più prospettive."
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -44905,11 +45085,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei expresar relaciones, opiniones y mensajes referidos. Puoi aiutarmi?"
+        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: relazione». Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Sì, certo. Parliamone passo dopo passo."
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -45144,7 +45324,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Mi piace questa zuppa». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -45176,7 +45365,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Vorrei usare meno plastica». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -47493,12 +47691,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Esponi per un minuto: riflettere sui risultati e definire obiettivi."
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «traguardo». Puoi aiutarmi?"
       },
       {
-        "speaker": "Student",
-        "line": "Secondo me, è importante considerare più prospettive."
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -49083,11 +49281,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei proponer acciones y participar en la comunidad. Puoi aiutarmi?"
+        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: cittadinanza». Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Sì, certo. Parliamone passo dopo passo."
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
       }
     ],
     "reading": null,
@@ -49322,7 +49520,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «Oggi ho imparato molto». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -49354,7 +49561,16 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Vorrei esercitarmi con questa espressione: «È stato un viaggio importante». Puoi aiutarmi?"
+      },
+      {
+        "speaker": "B",
+        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,

@@ -1619,12 +1619,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Fale por um minuto: explicar um objetivo com argumentos claros."
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “scadenza”. Você pode me ajudar?"
       },
       {
-        "speaker": "Student",
-        "line": "Na minha opinião, é importante considerar mais de uma perspectiva."
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -3155,11 +3155,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Eu quero organizar o tempo e apresentar soluções. Você pode me ajudar?"
+        "line": "Quero praticar esta expressão: “Aprendemos: meta”. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Vamos falar passo a passo."
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -3394,7 +3394,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Oi, tudo bem”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -3426,7 +3435,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Normalmente vou de ônibus”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -5725,12 +5743,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Fale por um minuto: comparar um solução com argumentos claros."
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “percorso”. Você pode me ajudar?"
       },
       {
-        "speaker": "Student",
-        "line": "Na minha opinião, é importante considerar mais de uma perspectiva."
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -7261,11 +7279,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Eu quero contar uma viagem e dar conselhos responsáveis. Você pode me ajudar?"
+        "line": "Quero praticar esta expressão: “Aprendemos: roteiro”. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Vamos falar passo a passo."
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -7500,7 +7518,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Um café, por favor”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -7532,7 +7559,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Gostaria de visitar o museu”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -9831,12 +9867,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Fale por um minuto: avaliar um perspectiva com argumentos claros."
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “colloquio”. Você pode me ajudar?"
       },
       {
-        "speaker": "Student",
-        "line": "Na minha opinião, é importante considerar mais de uma perspectiva."
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -11367,11 +11403,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Eu quero explicar hábitos de bem-estar e mudanças pessoais. Você pode me ajudar?"
+        "line": "Quero praticar esta expressão: “Aprendemos: bem-estar”. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Vamos falar passo a passo."
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -11606,7 +11642,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “A família almoça junta”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -11638,7 +11683,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Primeiro corto os legumes”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -13937,12 +13991,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Fale por um minuto: justificar um exemplo com argumentos claros."
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “impatto”. Você pode me ajudar?"
       },
       {
-        "speaker": "Student",
-        "line": "Na minha opinião, é importante considerar mais de uma perspectiva."
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -15473,11 +15527,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Eu quero dar opinião sobre cultura e informação. Você pode me ajudar?"
+        "line": "Quero praticar esta expressão: “Aprendemos: notícia”. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Vamos falar passo a passo."
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -15712,7 +15766,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Quanto custa um quilo”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -15744,7 +15807,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Posso fazer uma pausa”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -18043,12 +18115,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Fale por um minuto: resumir um contexto com argumentos claros."
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “fonte”. Você pode me ajudar?"
       },
       {
-        "speaker": "Student",
-        "line": "Na minha opinião, é importante considerar mais de uma perspectiva."
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -19579,11 +19651,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Eu quero descrever um problema ambiental e uma proposta. Você pode me ajudar?"
+        "line": "Quero praticar esta expressão: “Aprendemos: resíduo”. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Vamos falar passo a passo."
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -19818,7 +19890,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Onde fica a parada”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -19850,7 +19931,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “A exposição foi interessante”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -22149,12 +22239,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Fale por um minuto: explicar um objetivo com argumentos claros."
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “benessere”. Você pode me ajudar?"
       },
       {
-        "speaker": "Student",
-        "line": "Na minha opinião, é importante considerar mais de uma perspectiva."
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -23685,11 +23775,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Eu quero contar experiências e ligá-las ao presente. Você pode me ajudar?"
+        "line": "Quero praticar esta expressão: “Aprendemos: memória”. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Vamos falar passo a passo."
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -23924,7 +24014,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Qual matéria você gosta”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -23956,7 +24055,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Não quero incomodar os moradores”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -26255,12 +26363,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Fale por um minuto: comparar um solução com argumentos claros."
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “tradizione”. Você pode me ajudar?"
       },
       {
-        "speaker": "Student",
-        "line": "Na minha opinião, é importante considerar mais de uma perspectiva."
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -27791,11 +27899,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Eu quero apresentar um projeto e dividir tarefas. Você pode me ajudar?"
+        "line": "Quero praticar esta expressão: “Aprendemos: projeto”. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Vamos falar passo a passo."
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -28030,7 +28138,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “A cozinha é clara”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -28062,7 +28179,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Quando era criança, eu nadava”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -30361,12 +30487,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Fale por um minuto: avaliar um perspectiva com argumentos claros."
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “dispositivo”. Você pode me ajudar?"
       },
       {
-        "speaker": "Student",
-        "line": "Na minha opinião, é importante considerar mais de uma perspectiva."
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -31897,11 +32023,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Eu quero avaliar usos da tecnologia com argumentos. Você pode me ajudar?"
+        "line": "Quero praticar esta expressão: “Aprendemos: tecnologia”. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Vamos falar passo a passo."
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -32136,7 +32262,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Hoje está quente”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -32168,7 +32303,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Minha garganta está doendo”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -34467,12 +34611,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Fale por um minuto: justificar um exemplo com argumentos claros."
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “itinerario”. Você pode me ajudar?"
       },
       {
-        "speaker": "Student",
-        "line": "Na minha opinião, é importante considerar mais de uma perspectiva."
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -36003,11 +36147,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Eu quero comparar opções de mobilidade urbana. Você pode me ajudar?"
+        "line": "Quero praticar esta expressão: “Aprendemos: transporte”. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Vamos falar passo a passo."
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -36242,7 +36386,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Vamos à roda no sábado”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -36274,7 +36427,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “A família chegou há muitos anos”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -38573,12 +38735,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Fale por um minuto: resumir um contexto com argumentos claros."
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “equivoco”. Você pode me ajudar?"
       },
       {
-        "speaker": "Student",
-        "line": "Na minha opinião, é importante considerar mais de uma perspectiva."
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -40109,11 +40271,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Eu quero falar de metas e possibilidades futuras. Você pode me ajudar?"
+        "line": "Quero praticar esta expressão: “Aprendemos: futuro”. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Vamos falar passo a passo."
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -40348,7 +40510,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Um bilhete para o centro”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -40380,7 +40551,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Podemos dividir as tarefas”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -42679,12 +42859,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Fale por um minuto: explicar um objetivo com argumentos claros."
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “iniziativa”. Você pode me ajudar?"
       },
       {
-        "speaker": "Student",
-        "line": "Na minha opinião, é importante considerar mais de uma perspectiva."
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -44215,11 +44395,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Eu quero expressar relações, opiniões e mensagens relatadas. Você pode me ajudar?"
+        "line": "Quero praticar esta expressão: “Aprendemos: relação”. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Vamos falar passo a passo."
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -44454,7 +44634,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Eu gosto desta sopa”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -44486,7 +44675,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Quero usar menos plástico”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -46785,12 +46983,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Fale por um minuto: comparar um solução com argumentos claros."
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “traguardo”. Você pode me ajudar?"
       },
       {
-        "speaker": "Student",
-        "line": "Na minha opinião, é importante considerar mais de uma perspectiva."
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -48321,11 +48519,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Eu quero propor ações e participar da comunidade. Você pode me ajudar?"
+        "line": "Quero praticar esta expressão: “Aprendemos: cidadania”. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Vamos falar passo a passo."
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
       }
     ],
     "reading": null,
@@ -48560,7 +48758,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Hoje eu aprendi muito”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -48592,7 +48799,16 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "line": "Quero praticar esta expressão: “Foi uma viagem importante”. Você pode me ajudar?"
+      },
+      {
+        "speaker": "B",
+        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+      }
+    ],
     "reading": null,
     "transcript": "",
     "extra": null,

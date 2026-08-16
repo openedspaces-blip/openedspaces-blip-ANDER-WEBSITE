@@ -2782,12 +2782,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "speaker": "A",
+        "line": "Ich möchte diesen Ausdruck üben: „scadenza“. Kannst du mir helfen?"
       },
       {
-        "speaker": "Student",
-        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
+        "speaker": "B",
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -4504,11 +4504,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte sich begrüßen und vorstellen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Hallo“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -4597,11 +4597,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Termine vereinbaren und Gewohnheiten erklären. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Termin“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -4690,11 +4690,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Zeit organisieren und Lösungen vorschlagen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Ziel“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -8133,12 +8133,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "speaker": "A",
+        "line": "Ich möchte diesen Ausdruck üben: „percorso“. Kannst du mir helfen?"
       },
       {
-        "speaker": "Student",
-        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
+        "speaker": "B",
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -9855,11 +9855,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte etwas bestellen und bezahlen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Kaffee“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -9948,11 +9948,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Wohnung und Nachbarschaft vergleichen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Wohnung“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -10041,11 +10041,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte eine Reise erzählen und verantwortungsvoll beraten. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Reiseplan“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -13484,12 +13484,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: bewerten um Perspektive com argumentos claros."
+        "speaker": "A",
+        "line": "Ich möchte diesen Ausdruck üben: „colloquio“. Kannst du mir helfen?"
       },
       {
-        "speaker": "Student",
-        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
+        "speaker": "B",
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -15206,11 +15206,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Familie und Zuhause beschreiben. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Familie“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -15299,11 +15299,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte über Beschwerden und Ratschläge sprechen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Gesundheit“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -15392,11 +15392,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Gewohnheiten und persönliche Veränderungen erklären. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Wohlbefinden“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -18835,12 +18835,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: begründen um Beispiel com argumentos claros."
+        "speaker": "A",
+        "line": "Ich möchte diesen Ausdruck üben: „impatto“. Kannst du mir helfen?"
       },
       {
-        "speaker": "Student",
-        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
+        "speaker": "B",
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -20557,11 +20557,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte nach Preisen und Produkten fragen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Markt“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -20650,11 +20650,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte über Arbeit und Aufgaben sprechen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Beruf“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -20743,11 +20743,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte eine Meinung über Kultur und Information äußern. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Nachricht“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -24186,12 +24186,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: zusammenfassen um Zusammenhang com argumentos claros."
+        "speaker": "A",
+        "line": "Ich möchte diesen Ausdruck üben: „fonte“. Kannst du mir helfen?"
       },
       {
-        "speaker": "Student",
-        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
+        "speaker": "B",
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -25908,11 +25908,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Orte in der Stadt finden. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Straße“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -26001,11 +26001,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte eine Reise in der Vergangenheit erzählen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Reise“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -26094,11 +26094,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte ein Umweltproblem und einen Vorschlag beschreiben. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Abfall“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -29537,12 +29537,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "speaker": "A",
+        "line": "Ich möchte diesen Ausdruck üben: „benessere“. Kannst du mir helfen?"
       },
       {
-        "speaker": "Student",
-        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
+        "speaker": "B",
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -31259,11 +31259,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte über Schule und Freizeit sprechen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Schule“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -31352,11 +31352,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Rezepte und Gewohnheiten beschreiben. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Rezept“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -31445,11 +31445,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Erlebnisse erzählen und mit der Gegenwart verbinden. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Erinnerung“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -34888,12 +34888,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "speaker": "A",
+        "line": "Ich möchte diesen Ausdruck üben: „tradizione“. Kannst du mir helfen?"
       },
       {
-        "speaker": "Student",
-        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
+        "speaker": "B",
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -36610,11 +36610,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte einen Tagesablauf beschreiben. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: aufstehen“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -36703,11 +36703,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte über Umwelt im Alltag sprechen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Umwelt“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -36796,11 +36796,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte ein Projekt vorstellen und Aufgaben verteilen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Projekt“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -40239,12 +40239,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: bewerten um Perspektive com argumentos claros."
+        "speaker": "A",
+        "line": "Ich möchte diesen Ausdruck üben: „dispositivo“. Kannst du mir helfen?"
       },
       {
-        "speaker": "Student",
-        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
+        "speaker": "B",
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -41961,11 +41961,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte über Wetter und Kleidung sprechen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Wetter“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -42054,11 +42054,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Nachrichten und Mediengewohnheiten beschreiben. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Nachricht“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -42147,11 +42147,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Technik mit Argumenten bewerten. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Technik“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -45590,12 +45590,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: begründen um Beispiel com argumentos claros."
+        "speaker": "A",
+        "line": "Ich möchte diesen Ausdruck üben: „itinerario“. Kannst du mir helfen?"
       },
       {
-        "speaker": "Student",
-        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
+        "speaker": "B",
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -47312,11 +47312,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte über Hobbys sprechen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Hobby“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -47405,11 +47405,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Lernziele und Fortschritt erklären. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Ziel“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -47498,11 +47498,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte städtische Mobilität vergleichen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Verkehr“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -50941,12 +50941,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: zusammenfassen um Zusammenhang com argumentos claros."
+        "speaker": "A",
+        "line": "Ich möchte diesen Ausdruck üben: „equivoco“. Kannst du mir helfen?"
       },
       {
-        "speaker": "Student",
-        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
+        "speaker": "B",
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -52663,11 +52663,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte eine einfache Reise planen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Zug“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -52756,11 +52756,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Probleme in der Stadt lösen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Service“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -52849,11 +52849,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte über Ziele und Möglichkeiten sprechen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Zukunft“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -56292,12 +56292,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: erläutern um Ziel com argumentos claros."
+        "speaker": "A",
+        "line": "Ich möchte diesen Ausdruck üben: „iniziativa“. Kannst du mir helfen?"
       },
       {
-        "speaker": "Student",
-        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
+        "speaker": "B",
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -58014,11 +58014,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Kleidung beschreiben und auswählen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Kleidung“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -58107,11 +58107,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Feste und Abläufe in der Vergangenheit beschreiben. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Fest“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -58200,11 +58200,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte über Beziehungen sprechen und Informationen weitergeben. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Beziehung“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -61643,12 +61643,12 @@
     ],
     "dialogue": [
       {
-        "speaker": "Tutor",
-        "line": "Sprich eine Minute lang: vergleichen um Lösung com argumentos claros."
+        "speaker": "A",
+        "line": "Ich möchte diesen Ausdruck üben: „traguardo“. Kannst du mir helfen?"
       },
       {
-        "speaker": "Student",
-        "line": "Meiner Meinung nach ist es wichtig, mehrere Perspektiven zu berücksichtigen."
+        "speaker": "B",
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -63365,11 +63365,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte eine Einladung verstehen und Uhrzeiten nennen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Geburtstag“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -63458,11 +63458,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Wohnungen vergleichen und Lage beschreiben. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Wohnung“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
@@ -63551,11 +63551,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte Vorschläge machen und gesellschaftliche Beteiligung begründen. Kannst du mir helfen?"
+        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Gesellschaft“. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
+        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
       }
     ],
     "reading": null,
