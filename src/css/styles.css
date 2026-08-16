@@ -22215,7 +22215,7 @@ footer small {
 
 .verb-catalogue-head {
   display: grid;
-  grid-template-columns: 2.4rem minmax(0, 1fr) auto;
+  grid-template-columns: 2.4rem minmax(0, 1fr);
   align-items: center;
   gap: 0.65rem;
 }
@@ -22251,6 +22251,23 @@ footer small {
   white-space: nowrap;
 }
 
+.verb-catalogue-word {
+  display: inline-flex;
+  width: fit-content;
+  max-width: 100%;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.verb-catalogue-word > strong {
+  overflow: hidden;
+  color: var(--navy-2);
+  font-size: 1.15rem;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .verb-catalogue-identity > span {
   color: #53627d;
   font-size: 0.78rem;
@@ -22263,9 +22280,9 @@ footer small {
 
 .verb-catalogue-audio {
   display: grid;
-  width: 2.55rem;
-  height: 2.55rem;
-  min-width: 2.55rem;
+  width: 1.9rem;
+  height: 1.9rem;
+  min-width: 1.9rem;
   place-items: center;
   padding: 0;
   border: 0;

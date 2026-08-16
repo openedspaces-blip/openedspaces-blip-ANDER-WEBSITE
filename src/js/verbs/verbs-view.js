@@ -413,11 +413,13 @@
         <div class="verb-catalogue-head">
           <span class="verb-catalogue-rank">${item.frequencyRank}</span>
           <div class="verb-catalogue-identity">
-            <strong>${escapeHtml(item.targetWord)}</strong>
+            <div class="verb-catalogue-word">
+              <strong>${escapeHtml(item.targetWord)}</strong>
+              ${audioButton}
+            </div>
             <span>${escapeHtml(sourceVerb)}</span>
             ${item.phonetic ? `<small>${escapeHtml(item.phonetic)}</small>` : ''}
           </div>
-          ${audioButton}
         </div>
         <div class="verb-catalogue-examples" aria-label="Dos ejemplos prácticos de ${escapeHtml(item.targetWord)}">
           ${practicalExamples.map((example, index) => `<div><span>${index + 1}</span><p>${escapeHtml(example)} ${canSpeak ? conjugatorAudioBtnHtml(example, audioOpts) : ''}</p></div>`).join('')}
