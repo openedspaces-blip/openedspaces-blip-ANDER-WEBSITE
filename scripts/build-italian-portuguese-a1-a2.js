@@ -75,10 +75,77 @@ const CULTURES = {
   }
 };
 
+// Every Grammar stop must teach a named language topic, not merely repeat the
+// cultural setting of its unit. These are deliberately cumulative within each
+// CEFR level, while the examples keep their connection to the unit context.
+const GRAMMAR_TOPICS = {
+  portuguese: {
+    A1: [
+      ['Ser e estar: apresentações', 'Use ser para identidade e estar para estado ou localização.', 'Eu sou Luana. / Estou em Recife.', 'Apresentar-se e dizer onde você está.'],
+      ['Artigos e gênero', 'Os artigos acompanham o gênero e o número do substantivo.', 'um café / uma água / os pães', 'Pedir produtos com precisão.'],
+      ['Presente do indicativo', 'Use o presente para rotinas e ações habituais.', 'A família almoça junta.', 'Falar sobre ações do dia a dia.'],
+      ['Perguntas com quanto e qual', 'Use quanto para preço ou quantidade e qual para escolher.', 'Quanto custa um quilo?', 'Fazer compras e pedir informação.'],
+      ['Onde fica? e preposições de lugar', 'Use em, perto de e ao lado de para localizar lugares.', 'Onde fica a parada? Fica perto da praça.', 'Pedir e dar direções simples.'],
+      ['Gostar de + infinitivo', 'Depois de gostar de, use o verbo no infinitivo.', 'Eu gosto de estudar português.', 'Falar de gostos e preferências.'],
+      ['Adjetivos e concordância', 'O adjetivo concorda com o substantivo em gênero e número.', 'A cozinha é clara. As janelas são claras.', 'Descrever a casa e o bairro.'],
+      ['Fazer e estar para o tempo', 'Use fazer para temperatura e estar para condições do tempo.', 'Hoje faz calor. O céu está nublado.', 'Falar sobre o clima.'],
+      ['Ir + a / para', 'Use ir para indicar movimento e destino.', 'Vamos à roda no sábado.', 'Convidar alguém e combinar um encontro.'],
+      ['Querer e poder', 'Use querer para pedir ou desejar e poder para possibilidade.', 'Quero um bilhete. Posso pagar aqui?', 'Usar transporte com cortesia.'],
+      ['Gostar, preferir e não gostar', 'Use estes verbos para expressar preferências.', 'Eu gosto desta sopa, mas prefiro arroz.', 'Falar sobre comidas e gostos.'],
+      ['Passado recente com ontem', 'Use o pretérito perfeito para ações concluídas.', 'Ontem eu aprendi muito.', 'Contar algo que aconteceu.']
+    ],
+    A2: [
+      ['Rotina: advérbios de frequência', 'Use normalmente, sempre e às vezes antes do verbo principal.', 'Normalmente vou de ônibus.', 'Descrever hábitos e rotina.'],
+      ['Futuro com ir + infinitivo', 'Use ir + infinitivo para planos próximos.', 'Vou visitar o museu amanhã.', 'Fazer planos.'],
+      ['Sequência com primeiro, depois e por fim', 'Use conectores para organizar ações.', 'Primeiro corto os legumes; depois cozinho.', 'Explicar uma receita ou processo.'],
+      ['Poder e dever', 'Use poder para pedir permissão e dever para dar conselho.', 'Posso fazer uma pausa? Você deve descansar.', 'Interagir no trabalho.'],
+      ['Pretérito perfeito: foi e era', 'Use foi para um fato concluído e era para descrever.', 'A exposição foi interessante.', 'Dar opinião e contexto.'],
+      ['Querer, gostar e preferir com respeito', 'Use formas suaves para expressar intenção e preferência.', 'Não quero incomodar os moradores.', 'Falar de decisiones responsables.'],
+      ['Pretérito imperfeito', 'Use o imperfeito para hábitos e descrições no passado.', 'Quando era criança, eu nadava.', 'Contar hábitos do passado.'],
+      ['Estar + gerúndio', 'Use estar + gerúndio para uma ação em andamento.', 'Minha garganta está doendo.', 'Descrever como você se sente agora.'],
+      ['Há + tempo', 'Use há para dizer há quanto tempo algo aconteceu.', 'A família chegou há muitos anos.', 'Contar histórias familiares.'],
+      ['Podemos e vamos + infinitivo', 'Use estas formas para propor ações em grupo.', 'Podemos dividir as tarefas.', 'Colaborar em um projeto.'],
+      ['Menos, mais e comparativos', 'Use mais/menos ... do que para comparar hábitos.', 'Quero usar menos plástico do que antes.', 'Falar de mudanças e ambiente.'],
+      ['Pretérito perfeito para experiências', 'Use o pretérito perfeito para narrar fatos concluídos.', 'Foi uma viagem importante.', 'Contar uma experiência pessoal.']
+    ]
+  },
+  italian: {
+    A1: [
+      ['Essere e stare: presentarsi', 'Usa essere per l’identità e stare per lo stato o il luogo.', 'Sono Sofia. / Sto a Bologna.', 'Presentarsi e dire dove ci si trova.'],
+      ['Articoli e genere', 'Gli articoli accompagnano genere e numero del nome.', 'un caffè / un’acqua / i panini', 'Ordinare con precisione.'],
+      ['Presente indicativo', 'Usa il presente per abitudini e azioni quotidiane.', 'La famiglia cena insieme.', 'Parlare della routine.'],
+      ['Domande con quanto e quale', 'Usa quanto per prezzo o quantità e quale per scegliere.', 'Quanto costa un chilo?', 'Fare acquisti.'],
+      ['Dov’è? e preposizioni di luogo', 'Usa in, vicino a e accanto a per localizzare.', 'Dov’è la stazione?', 'Chiedere indicazioni.'],
+      ['Piacere e infinito', 'Dopo piacere usa l’infinito.', 'Mi piace studiare italiano.', 'Parlare di gusti.'],
+      ['Aggettivi e accordo', 'L’aggettivo concorda con nome in genere e numero.', 'La cucina è luminosa.', 'Descrivere una casa.'],
+      ['Fare e c’è per il tempo', 'Usa fare per il clima e c’è per le condizioni.', 'Oggi fa caldo.', 'Parlare del tempo.'],
+      ['Andare a e in', 'Usa andare a per città e andare in per luoghi.', 'Ci vediamo alla festa.', 'Fare inviti.'],
+      ['Volere e potere', 'Usa volere per chiedere e potere per possibilità.', 'Vorrei un biglietto.', 'Viaggiare con cortesia.'],
+      ['Mi piace e preferisco', 'Usa queste forme per esprimere preferenze.', 'Mi piace questa zuppa.', 'Parlare di cibo.'],
+      ['Passato prossimo', 'Usa il passato prossimo per azioni concluse.', 'Oggi ho imparato molto.', 'Raccontare la giornata.']
+    ],
+    A2: [
+      ['Avverbi di frequenza', 'Usa di solito, sempre e a volte per la routine.', 'Di solito prendo l’autobus.', 'Descrivere abitudini.'],
+      ['Futuro con stare per', 'Usa stare per + infinito per un piano imminente.', 'Sto per visitare il museo.', 'Fare programmi.'],
+      ['Connettori di sequenza', 'Usa prima, poi e infine per ordinare azioni.', 'Prima taglio le verdure, poi cucino.', 'Spiegare un processo.'],
+      ['Potere e dovere', 'Usa potere per il permesso e dovere per un consiglio.', 'Posso fare una pausa?', 'Interagire al lavoro.'],
+      ['Passato prossimo e imperfetto', 'Distingui fatto concluso e descrizione.', 'La mostra era interessante.', 'Dare un’opinione.'],
+      ['Volere e non voler disturbare', 'Usa forme cortesi per intenzioni e rispetto.', 'Non voglio disturbare i residenti.', 'Viaggiare responsabilmente.'],
+      ['Imperfetto per le abitudini', 'Usa l’imperfetto per abitudini nel passato.', 'Da giovane giocavo spesso.', 'Parlare del passato.'],
+      ['Mi fa male', 'Usa mi fa male + parte del corpo.', 'Mi fa male la gola.', 'Esprimere un malessere.'],
+      ['Da + tempo', 'Usa da per la durata di una situazione.', 'La famiglia vive qui da anni.', 'Raccontare una storia.'],
+      ['Possiamo + infinito', 'Usa possiamo per fare proposte condivise.', 'Possiamo dividere i compiti.', 'Collaborare.'],
+      ['Comparativi', 'Usa più/meno ... di per confrontare.', 'Vorrei usare meno plastica.', 'Parlare di cambiamenti.'],
+      ['Passato prossimo per esperienze', 'Usa il passato prossimo per esperienze concluse.', 'È stato un viaggio importante.', 'Raccontare un’esperienza.']
+    ]
+  }
+};
+
 function mcq(prompt, right, wrong) { return { type: 'mcq', prompt, options: [right, ...wrong], answer: 0 }; }
 function buildUnit(language, level, raw, order) {
   const c = CULTURES[language]; const [slug, title, culture, phrase, goal, words] = raw;
   const [w1, w2, w3, w4] = words.split(', '); const isA2 = level === 'A2';
+  const [grammarName, grammarDefinition, grammarExample, grammarFunction] = GRAMMAR_TOPICS[language][level][order - 1];
   const pt = language === 'portuguese';
   const copy = pt
     ? { is: 'está', lives: 'mora', talks: 'conversa', first: 'Primeiro', then: 'depois', note: 'No final', asks: 'faz uma pergunta simples', writes: 'escreve uma nota', where: 'Onde', withWho: 'Com quem', why: 'Por que', listen: 'ouça', speak: 'fale', write: 'escreva', grammar: 'gramática', words: 'palavras', community: 'comunidade', learn: 'aprender', more: 'Quero saber mais.' }
@@ -99,12 +166,12 @@ function buildUnit(language, level, raw, order) {
     listening: base('listening', { title: `${title}: ${copy.listen}`, description: 'Escucha un diálogo cultural corto.', intro: `Escucha una situación sobre ${culture.toLowerCase()}.`, dialogue: [{speaker:c.person,line:phrase,translation:'Expresión del día.'},{speaker:c.friend,line:pt ? `Falamos de ${w1}.` : `Parliamo di ${w1}.`,translation:'Hablemos del tema.'},{speaker:c.person,line:pt ? `Gosto de aprender com a ${copy.community}.` : `Mi piace imparare con la ${copy.community}.`,translation:'Me gusta aprender con la comunidad.'},{speaker:c.friend,line:pt ? `Vamos praticar juntos amanhã.` : `Facciamo pratica insieme domani.`,translation:'Practiquemos juntos mañana.'}], transcript: `${phrase} ${pt ? `Falamos de ${w1}. Gosto de aprender com a ${copy.community}. Vamos praticar juntos amanhã.` : `Parliamo di ${w1}. Mi piace imparare con la ${copy.community}. Facciamo pratica insieme domani.`}`, phrases:[phrase, w1, w2], exercises:[mcq('¿Qué expresión escuchas?', phrase, [w1,w2,w3])] }),
     speaking: base('speaking', { title: `${title}: ${copy.speak}`, description: `Practica ${goal}.`, mission:`Di ${phrase} y añade una frase sobre ${culture.toLowerCase()}.`, phrases:[phrase, pt ? `Gosto de ${w1}.` : `Mi piace ${w1}.`, copy.learn], exercises:[{type:'speaking',prompt:`Habla 30 segundos: ${goal}. Usa «${phrase}».`,answer:'Oral practice'}] }),
     writing: base('writing', { title: `${title}: ${copy.write}`, description:'Escribe un mensaje cultural breve.', mission:`Escribe 4 frases sobre ${culture.toLowerCase()} y usa ${w1} y ${w2}.`, phrases:[phrase, pt ? `Hoje aprendi ${w1}.` : `Oggi ho imparato ${w1}.`], exercises:[{type:'writing',prompt:`Escribe un mensaje de 40-60 palabras sobre ${culture.toLowerCase()}.`,answer:'Open answer'}] }),
-    grammar: base('grammar', { title:`${title}: ${copy.grammar}`, description:'Estructura útil en contexto.', grammarNote: isA2 ? 'Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.' : 'Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.', phrases:[phrase], exercises:[mcq('Elige la frase útil.', phrase, [w1,w2,w3]),mcq('Elige una palabra del tema.',w1,[w2,w3,w4]),mcq('Completa una frase cultural.',w2,[w1,w3,w4]),mcq('¿Qué opción es más cortés?',phrase,[w3,w4,w1])] }),
+    grammar: base('grammar', { title: grammarName, description: grammarFunction, mission: `Aprende ${grammarName.toLowerCase()} y úsalo en una frase sobre ${culture.toLowerCase()}.`, grammarNote: grammarDefinition, phrases:[grammarExample, phrase], extra: { grammarProfile: { name: grammarName, definition: grammarDefinition, structure: grammarExample, function: grammarFunction, examples: [grammarExample, phrase] } }, exercises:[mcq('Elige el ejemplo que corresponde al tema.', grammarExample, [phrase, w1, w2]),mcq('Elige una palabra del tema.',w1,[w2,w3,w4]),mcq('Completa una frase cultural.',w2,[w1,w3,w4]),mcq('¿Qué opción se usa en este contexto?',phrase,[w3,w4,w1])] }),
     vocabulary: base('vocabulary', { title:`${title}: ${copy.words}`, description:'Vocabulario para el reto.', vocabulary:vocab, exercises:[mcq('¿Qué palabra pertenece a la unidad?',w1,['computadora','laboratorio','satélite'])] })
   }};
 }
 
 function rowsFor(language, level) { return CULTURES[language][level.toLowerCase()].map((raw,i)=>buildUnit(language,level,raw,i+1)); }
-function flatten(language, level) { return rowsFor(language,level).flatMap(unit=>SKILLS.map((skill,index)=>{ const a=unit.activities[skill]; return { slug:`${language}-${level.toLowerCase()}-${unit.slug}-${skill}`, target_language:language, level, skill, unit_slug:unit.slug, title:a.title, description:a.description, order_index:unit.order*10+index, estimated_minutes:a.duration, is_free:unit.accessTier!=='premium', access_tier:unit.accessTier, content_json:{language:CULTURES[language].label,language_key:language,level_title:`${CULTURES[language].label} ${level}`,intro:a.intro||'',mission:a.mission||'',grammar:a.grammarNote||'',phrases:a.phrases||[],vocabulary:a.vocabulary||[],dialogue:a.dialogue||[],reading:a.reading ? {...a.reading,text:a.reading.parts.join('\n\n')} : null,transcript:a.transcript||'',exercises:a.exercises||[],xp_reward:a.xp} }; })); }
+function flatten(language, level) { return rowsFor(language,level).flatMap(unit=>SKILLS.map((skill,index)=>{ const a=unit.activities[skill]; return { slug:`${language}-${level.toLowerCase()}-${unit.slug}-${skill}`, target_language:language, level, skill, unit_slug:unit.slug, title:a.title, description:a.description, order_index:unit.order*10+index, estimated_minutes:a.duration, is_free:unit.accessTier!=='premium', access_tier:unit.accessTier, content_json:{language:CULTURES[language].label,language_key:language,level_title:`${CULTURES[language].label} ${level}`,intro:a.intro||'',mission:a.mission||'',grammar:a.grammarNote||'',phrases:a.phrases||[],vocabulary:a.vocabulary||[],dialogue:a.dialogue||[],reading:a.reading ? {...a.reading,text:a.reading.parts.join('\n\n')} : null,transcript:a.transcript||'',extra:a.extra||null,exercises:a.exercises||[],xp_reward:a.xp} }; })); }
 function main(){ const lessons=JSON.parse(fs.readFileSync(LESSONS,'utf8')); const units=JSON.parse(fs.readFileSync(UNITS,'utf8')); const courses=[['italian','A1'],['italian','A2'],['portuguese','A1'],['portuguese','A2']]; const keep=lessons.filter(row=>!courses.some(([l,v])=>row.target_language===l&&row.level===v)); const keepUnits=units.filter(row=>!courses.some(([l,v])=>row.target_language===l&&row.level===v)); const newUnits=courses.flatMap(([l,v])=>rowsFor(l,v).map(u=>({slug:u.slug,target_language:l,level:v,title:u.title,title_es:u.titleEs,description:u.description,order_index:u.order,unit_overview:u.unitOverview}))); fs.writeFileSync(LESSONS,JSON.stringify([...keep,...courses.flatMap(([l,v])=>flatten(l,v))],null,2)+'\n'); fs.writeFileSync(UNITS,JSON.stringify([...keepUnits,...newUnits],null,2)+'\n'); console.log(`Built ${newUnits.length} units and ${courses.length*72} activities.`); }
 main();

@@ -239,6 +239,40 @@ const grammarNames = {
   }
 };
 
+// German A1–A2 needs the same explicit, cumulative grammar syllabus as the
+// Italian and Portuguese routes. Unit names describe a situation; these
+// entries name the language content the student will actually learn.
+const germanGrammarTopics = {
+  A1: [
+    ['sein, haben und Personalpronomen', 'Verwende sein für Identität und haben für Besitz; Personalpronomen ersetzen Namen.', 'Ich heiße Ana. Ich bin aus der Dominikanischen Republik.'],
+    ['möchten, bestellen und Akkusativ', 'Mit möchten bestellst du höflich; viele Speisen und Getränke stehen im Akkusativ.', 'Ich möchte einen Kaffee, bitte.'],
+    ['Possessivartikel und Plural', 'mein/dein zeigen Zugehörigkeit; Nomen haben Singular und Plural.', 'Das ist meine Familie. Meine Brüder wohnen hier.'],
+    ['kein / nicht und Mengenangaben', 'kein verneint Nomen, nicht verneint Verben oder Eigenschaften.', 'Ich habe kein Brot. Das ist nicht teuer.'],
+    ['können und Wegbeschreibung', 'können steht auf Position zwei, der Infinitiv am Satzende.', 'Kannst du mir helfen? Du kannst geradeaus gehen.'],
+    ['Präsens trennbarer Verben', 'Bei trennbaren Verben steht die Vorsilbe am Satzende.', 'Ich stehe um sieben Uhr auf.'],
+    ['Akkusativartikel im Alltag', 'Der Akkusativ verändert den bestimmten und unbestimmten Artikel.', 'Ich sehe den Tisch und kaufe einen Stuhl.'],
+    ['Wetter, es gibt und Zeitangaben', 'Es gibt nennt etwas Vorhandenes; Zeitangaben strukturieren den Satz.', 'Heute gibt es Regen. Im Sommer ist es warm.'],
+    ['gern, lieber und Freizeit', 'gern und lieber drücken Vorlieben aus.', 'Ich lese gern, aber ich spiele lieber Fußball.'],
+    ['Perfekt mit haben', 'Das Perfekt bildet man mit haben und Partizip II.', 'Ich habe ein Ticket gekauft.'],
+    ['Adjektive und Farben', 'Adjektive beschreiben Nomen und folgen häufig dem Nomen.', 'Das blaue Hemd ist schön.'],
+    ['Einladung: möchten und Uhrzeiten', 'Mit möchten formulierst du eine höfliche Einladung und nennst Uhrzeiten.', 'Möchtest du um acht Uhr kommen?']
+  ],
+  A2: [
+    ['Perfekt und Zeitangaben', 'Verwende das Perfekt für abgeschlossene Ereignisse und Zeitangaben für die Reihenfolge.', 'Gestern habe ich einen Termin vereinbart.'],
+    ['Wechselpräpositionen', 'in, an, auf y otras preposiciones usan acusativo para movimiento y dativo para posición.', 'Ich gehe in die Wohnung. Ich bin in der Wohnung.'],
+    ['Modalverben im Präteritum', 'konnte, musste y wollte describen posibilidad, obligación o deseo en el pasado.', 'Ich musste zum Arzt gehen.'],
+    ['Nebensätze mit weil und dass', 'En una oración subordinada, el verbo conjugado va al final.', 'Ich bleibe zu Hause, weil ich krank bin.'],
+    ['Perfekt mit sein', 'Los verbos de movimiento o cambio suelen formar el Perfekt con sein.', 'Wir sind nach Berlin gefahren.'],
+    ['Dativ und Akkusativ', 'El dativo suele marcar a la persona y el acusativo la cosa.', 'Ich gebe dem Freund ein Buch.'],
+    ['Komparativ und Superlativ', 'Usa -er y am ...-sten para comparar.', 'Der Park ist größer als der Platz.'],
+    ['Reflexive Verben', 'Los verbos reflexivos se usan con mich, dich, sich, uns o euch.', 'Ich interessiere mich für Musik.'],
+    ['zu + Infinitiv', 'zu + infinitivo expresa intención, plan o necesidad.', 'Ich versuche, jeden Tag zu üben.'],
+    ['Konjunktiv II: höfliche Bitten', 'würde, könnte y hätte hacen las peticiones más corteses.', 'Könnten Sie mir bitte helfen?'],
+    ['Perfekt y conectores de secuencia', 'Primero, después y al final organizan una historia en pasado.', 'Zuerst haben wir gegessen, dann haben wir gefeiert.'],
+    ['Wohnungssuche: preposiciones y comparativos', 'Combina preposiciones de lugar y comparativos para describir viviendas.', 'Die Wohnung ist größer als das Zimmer neben dem Park.']
+  ]
+};
+
 let addedUnits = 0; let addedLessons = 0;
 for (const [language, course] of Object.entries(courses)) {
   for (const [level, courseUnits] of Object.entries(course.levels)) {
@@ -292,6 +326,25 @@ for (const [language, levelNames] of Object.entries(grammarNames)) {
       const lesson = lessons.find((row) => row.target_language === language && row.level === level && row.unit_slug === unit.slug && row.skill === 'grammar');
       if (!lesson) return;
       lesson.content_json = lesson.content_json || {};
+      // B1 was the remaining route that still displayed the cultural-unit
+      // name followed by “grammar”. Use its authored grammar syllabus name
+      // as the learner-facing lesson title, just like every other level.
+      if (level === 'B1') {
+        const name = names[index] || unit.title;
+        lesson.title = name;
+        lesson.description = `Tema gramatical: ${name}.`;
+        lesson.content_json.mission = `Estudia ${name} y úsalo con precisión en contexto.`;
+        lesson.content_json.extra = lesson.content_json.extra || {};
+        lesson.content_json.extra.grammarProfile = {
+          ...(lesson.content_json.extra.grammarProfile || {}),
+          name,
+          definition: `Práctica guiada de ${name}.`,
+          function: 'Usar la estructura con precisión en contextos cotidianos.'
+        };
+      }
+      // Italian and Portuguese maintain their richer authoring profiles in
+      // their dedicated curriculum builder. This pass only enriches German.
+      if (language !== 'german') return;
       lesson.content_json.extra = lesson.content_json.extra || {};
       lesson.content_json.extra.grammarProfile = {
         ...(lesson.content_json.extra.grammarProfile || {}),
@@ -300,6 +353,21 @@ for (const [language, levelNames] of Object.entries(grammarNames)) {
         function: 'Usar la estructura con precisión en contextos cotidianos.',
         examples: lesson.content_json.extra.grammarProfile?.examples || []
       };
+      if (language === 'german' && germanGrammarTopics[level]?.[index]) {
+        const [name, definition, example] = germanGrammarTopics[level][index];
+        lesson.title = name;
+        lesson.description = `Tema gramatical: ${name}.`;
+        lesson.content_json.mission = `Lerne ${name} und verwende die Struktur in einem eigenen Satz.`;
+        lesson.content_json.grammar = definition;
+        lesson.content_json.phrases = [example];
+        lesson.content_json.extra.grammarProfile = {
+          name,
+          definition,
+          structure: example,
+          function: 'Die Struktur in einer Alltagssituation korrekt verwenden.',
+          examples: [example]
+        };
+      }
     });
   }
 }

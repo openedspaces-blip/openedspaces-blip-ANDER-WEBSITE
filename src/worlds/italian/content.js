@@ -46,12 +46,12 @@
     ],
     "reading": {
       "title": "Italiano A1 Reading",
-      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata.",
+      "text": "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Oggi ho imparato molto.”.",
       "questions": [
-        "Dove si trova Sofia?",
+        "Dove è Sofia?",
         "Con chi parla Sofia?",
-        "Che cosa fa Sofia se non capisce una parola?",
-        "Perché Sofia ripete le parole?"
+        "Quale frase usa Sofia?",
+        "Perché l’esperienza è importante?"
       ]
     }
   },
@@ -932,7 +932,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 10,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Saluti e presentazioni a Bologna",
     "intro": "Saluti e presentazioni a Bologna",
     "mission": "",
@@ -943,63 +943,61 @@
     "reading": {
       "title": "Benvenuti in Italia",
       "parts": [
-        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
-        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
-        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+        "Sofia è em Bologna. Hoje descobre saluti e presentazioni a bologna. Encontra Marco e diz: “Ciao, come stai?”. Os dois falam com respeito e aprendem quatro palavras novas: ciao, buongiorno, piacere e grazie.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
+        "Al final, Sofia scrive una nota: “Ciao, come stai?”."
       ],
       "questions": [
-        "Dove si trova Sofia?",
+        "Dove è Sofia?",
         "Con chi parla Sofia?",
-        "Che cosa fa Sofia se non capisce una parola?",
-        "Perché Sofia ripete le parole?"
+        "Quale frase usa Sofia?",
+        "Perché l’esperienza è importante?"
       ],
-      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+      "text": "Sofia è em Bologna. Hoje descobre saluti e presentazioni a bologna. Encontra Marco e diz: “Ciao, come stai?”. Os dois falam com respeito e aprendem quatro palavras novas: ciao, buongiorno, piacere e grazie.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Ciao, come stai?”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "italian-a1-benvenuti-in-italia-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Dove si trova Sofia?",
+        "prompt": "Che cosa pratica l’unità?",
         "options": [
-          "Bologna",
-          "Roma",
-          "Milano",
-          "Napoli"
+          "salutare e presentarsi",
+          "Una regola isolata",
+          "Un esame tecnico",
+          "Un tema senza contesto"
         ]
       },
       {
-        "id": "italian-a1-benvenuti-in-italia-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Con chi parla Sofia?",
+        "prompt": "Che cosa fa lo studente?",
+        "options": [
+          "salutare e presentarsi",
+          "Memorizza senza usare",
+          "Evita di parlare",
+          "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-benvenuti-in-italia-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "Lucia",
-          "Paolo",
-          "Anna"
+          "frase",
+          "Sofia",
+          "breve"
         ]
       },
       {
-        "id": "italian-a1-benvenuti-in-italia-reading-reading-comprehension-3",
+        "id": "italian-a1-benvenuti-in-italia-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Che cosa fa Sofia se non capisce una parola?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia scrive una nota: “_____, come stai?”.”",
         "options": [
-          "Chiede di ripetere",
-          "Va via subito",
-          "Non ascolta",
-          "Cambia città"
-        ]
-      },
-      {
-        "id": "italian-a1-benvenuti-in-italia-reading-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Perché Sofia ripete le parole?",
-        "options": [
-          "Per sentirsi più sicura",
-          "Per fare un esame tecnico",
-          "Per comprare un biglietto",
-          "Per evitare Marco"
+          "stai",
+          "nota",
+          "Sofia",
+          "Ciao"
         ]
       }
     ]
@@ -1100,15 +1098,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "lavoro-e-obiettivi",
-    "title": "Lavoro e obiettivi: grammatica",
+    "title": "Periodo ipotetico della possibilità",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 11,
     "estimatedMinutes": 10,
-    "description": "organizzare il tempo e proporre soluzioni",
+    "description": "Tema gramatical: Periodo ipotetico della possibilità.",
     "intro": "organizzare il tempo e proporre soluzioni",
-    "mission": "organizzare il tempo e proporre soluzioni",
+    "mission": "Estudia Periodo ipotetico della possibilità y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Impariamo: obiettivi.",
@@ -1434,7 +1432,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Da quando lavoro in una piccola agenzia di comunicazione, ho imparato a organizzare meglio il mio tempo. All’inizio accettavo troppi incarichi e arrivavo sempre tardi alle scadenze. Ora, ogni lunedì, parlo con la mia responsabile e definiamo tre obiettivi realistici per la settimana. Se un compito è urgente, chiedo aiuto alla squadra invece di cercare di fare tutto da solo. Questa abitudine mi ha fatto capire che collaborare non significa essere meno capaci. Il mio obiettivo per i prossimi mesi è seguire un corso di grafica e partecipare a un progetto più creativo. Per questo tengo un quaderno con le idee e le attività da completare. Alla fine della settimana controllo ciò che ho fatto e penso a cosa posso migliorare.",
+    "transcript": "Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e squadra. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana. Poi il gruppo riassume le idee più importanti.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-b1-lavoro-e-obiettivi-listening-listening-comprehension",
@@ -1443,165 +1441,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Da quando lavoro in una piccola agenzia di comunicazione, ho imparato a organizzare _____ il mio tempo.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "meglio"
+                "text": "squadra"
               },
               {
                 "id": "o2",
-                "text": "comunicazione"
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "responsabile"
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "organizzare"
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ora, ogni _____, parlo con la mia responsabile e definiamo tre obiettivi realistici per la settimana.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunicazione"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "lunedì"
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "responsabile"
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "organizzare"
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Il mio obiettivo per i prossimi mesi è seguire un corso di _____ e partecipare a un progetto più creativo.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunicazione"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "responsabile"
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "grafica"
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "organizzare"
+                "text": "migliorare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine della _____ controllo ciò che ho fatto e penso a cosa posso migliorare.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunicazione"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "lavoro"
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "meglio"
+                "text": "migliorare"
               },
               {
                 "id": "o4",
-                "text": "settimana"
+                "text": "gruppo"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Da quando lavoro in una piccola agenzia di comunicazione, ho imparato a organizzare meglio il mio tempo. All’inizio accettavo troppi incarichi e arrivavo sempre tardi alle scadenze. Ora, ogni lunedì, parlo con la mia responsabile e definiamo tre obiettivi realistici per la settimana. Se un compito è urgente, chiedo aiuto alla squadra invece di cercare di fare tutto da solo. Questa abitudine mi ha fatto capire che collaborare non significa essere meno capaci. Il mio obiettivo per i prossimi mesi è seguire un corso di grafica e partecipare a un progetto più creativo. Per questo tengo un quaderno con le idee e le attività da completare. Alla fine della settimana controllo ciò che ho fatto e penso a cosa posso migliorare.",
-      "transcriptSegments": [
-        {
-          "text": "Da quando lavoro in una piccola agenzia di comunicazione, ho imparato a organizzare meglio il mio tempo."
-        },
-        {
-          "text": "All’inizio accettavo troppi incarichi e arrivavo sempre tardi alle scadenze."
-        },
-        {
-          "text": "Ora, ogni lunedì, parlo con la mia responsabile e definiamo tre obiettivi realistici per la settimana."
-        },
-        {
-          "text": "Se un compito è urgente, chiedo aiuto alla squadra invece di cercare di fare tutto da solo."
-        },
-        {
-          "text": "Questa abitudine mi ha fatto capire che collaborare non significa essere meno capaci."
-        },
-        {
-          "text": "Il mio obiettivo per i prossimi mesi è seguire un corso di grafica e partecipare a un progetto più creativo."
-        },
-        {
-          "text": "Per questo tengo un quaderno con le idee e le attività da completare."
-        },
-        {
-          "text": "Alla fine della settimana controllo ciò che ho fatto e penso a cosa posso migliorare."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Da quando lavoro in una piccola agenzia di comunicazione, ho imparato a organizzare _____ il mio tempo.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Lavoro e obiettivi», un piccolo gruppo della comunità parla di obiettivi, scadenza e _____.”",
         "options": [
-          "meglio",
-          "comunicazione",
-          "responsabile",
-          "organizzare"
+          "squadra",
+          "un'esperienza",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ora, ogni _____, parlo con la mia responsabile e definiamo tre obiettivi realistici per la settimana.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "comunicazione",
-          "lunedì",
-          "responsabile",
-          "organizzare"
+          "un'esperienza",
+          "persona",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Il mio obiettivo per i prossimi mesi è seguire un corso di _____ e partecipare a un progetto più creativo.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "comunicazione",
-          "responsabile",
-          "grafica",
-          "organizzare"
+          "un'esperienza",
+          "collaborare",
+          "perché",
+          "migliorare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine della _____ controllo ciò che ho fatto e penso a cosa posso migliorare.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "comunicazione",
-          "lavoro",
-          "meglio",
-          "settimana"
+          "un'esperienza",
+          "collaborare",
+          "migliorare",
+          "gruppo"
         ]
       }
     ]
@@ -1853,30 +1824,39 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Per la prima volta, il nostro centro culturale organizzerà una settimana dedicata al cinema indipendente. Non basta scegliere i film: dobbiamo trovare una sala accessibile, invitare registi, cercare sponsor e comunicare bene il programma. Durante la preparazione sono emerse opinioni diverse. Alcuni volevano proporre soltanto titoli conosciuti per attirare più pubblico; altri preferivano rischiare con opere meno famose. Alla fine abbiamo deciso di alternare film più popolari e proiezioni sperimentali, accompagnate da incontri con gli autori. Per me il successo di un evento non dipende solo dal numero dei biglietti venduti. Dipende anche dalla capacità di creare una conversazione e di far sentire il pubblico parte di un’esperienza comune.",
+    "transcript": "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni. La prima osserva che scadenza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
     "extra": {
-      "mainTranscript": "Per la prima volta, il nostro centro culturale organizzerà una settimana dedicata al cinema indipendente. Non basta scegliere i film: dobbiamo trovare una sala accessibile, invitare registi, cercare sponsor e comunicare bene il programma. Durante la preparazione sono emerse opinioni diverse. Alcuni volevano proporre soltanto titoli conosciuti per attirare più pubblico; altri preferivano rischiare con opere meno famose. Alla fine abbiamo deciso di alternare film più popolari e proiezioni sperimentali, accompagnate da incontri con gli autori. Per me il successo di un evento non dipende solo dal numero dei biglietti venduti. Dipende anche dalla capacità di creare una conversazione e di far sentire il pubblico parte di un’esperienza comune.",
+      "mainTranscript": "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni. La prima osserva che scadenza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
       "transcriptSegments": [
         {
-          "text": "Per la prima volta, il nostro centro culturale organizzerà una settimana dedicata al cinema indipendente."
+          "id": "segment-01",
+          "order": 1,
+          "text": "In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro posizioni."
         },
         {
-          "text": "Non basta scegliere i film: dobbiamo trovare una sala accessibile, invitare registi, cercare sponsor e comunicare bene il programma."
+          "id": "segment-02",
+          "order": 2,
+          "text": "La prima osserva che scadenza non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
         },
         {
-          "text": "Durante la preparazione sono emerse opinioni diverse."
+          "id": "segment-03",
+          "order": 3,
+          "text": "L’altro aggiunge che incarico è utile solo se viene spiegato con esempi verificabili."
         },
         {
-          "text": "Alcuni volevano proporre soltanto titoli conosciuti per attirare più pubblico; altri preferivano rischiare con opere meno famose."
+          "id": "segment-04",
+          "order": 4,
+          "text": "Nel confronto emerge una possibile difficoltà: risorsa può cambiare la prospettiva di chi ascolta."
         },
         {
-          "text": "Alla fine abbiamo deciso di alternare film più popolari e proiezioni sperimentali, accompagnate da incontri con gli autori."
+          "id": "segment-05",
+          "order": 5,
+          "text": "Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile."
         },
         {
-          "text": "Per me il successo di un evento non dipende solo dal numero dei biglietti venduti."
-        },
-        {
-          "text": "Dipende anche dalla capacità di creare una conversazione e di far sentire il pubblico parte di un’esperienza comune."
+          "id": "segment-06",
+          "order": 6,
+          "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         }
       ],
       "listeningType": "story",
@@ -1887,92 +1867,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Per la prima volta, il nostro centro culturale organizzerà una settimana dedicata al cinema _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "indipendente"
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "culturale"
+                "text": "responsabilità"
               },
               {
                 "id": "o3",
-                "text": "settimana"
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "scegliere"
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Durante la _____ sono emerse opinioni diverse.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che incarico è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "culturale"
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "preparazione"
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "settimana"
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "scegliere"
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine abbiamo deciso di _____ film più popolari e proiezioni sperimentali, accompagnate da incontri con gli autori.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: risorsa può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "conversazione"
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "un’esperienza"
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "alternare"
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "nostro"
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Dipende anche dalla capacità di creare una conversazione e di far sentire il _____ parte di un’esperienza comune.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "conversazione"
+                "text": "responsabilità"
               },
               {
                 "id": "o2",
-                "text": "un’esperienza"
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "indipendente"
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "pubblico"
+                "text": "scelte"
               }
             ]
           }
@@ -1992,42 +1972,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Per la prima volta, il nostro centro culturale organizzerà una settimana dedicata al cinema _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Progetti e responsabilità, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "indipendente",
-          "culturale",
-          "settimana",
-          "scegliere"
+          "posizioni",
+          "responsabilità",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Durante la _____ sono emerse opinioni diverse.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che incarico è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "culturale",
-          "preparazione",
-          "settimana",
-          "scegliere"
+          "responsabilità",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine abbiamo deciso di _____ film più popolari e proiezioni sperimentali, accompagnate da incontri con gli autori.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: risorsa può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "conversazione",
-          "un’esperienza",
-          "alternare",
-          "nostro"
+          "responsabilità",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Dipende anche dalla capacità di creare una conversazione e di far sentire il _____ parte di un’esperienza comune.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "conversazione",
-          "un’esperienza",
-          "indipendente",
-          "pubblico"
+          "responsabilità",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -2490,7 +2470,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Ciao! Mi chiamo Sofia e vengo da Bari. Oggi sono a Bologna per un corso di italiano. È il mio primo giorno in città e sono molto contenta. Abito vicino all’università e ogni mattina cammino fino alla scuola, passando per i portici del centro. Le persone qui sono gentili e mi salutano sempre. Dopo la lezione, voglio prendere un caffè in un bar vicino a Piazza Maggiore. Mi piace già Bologna e sono felice di conoscere meglio l’Italia.",
+    "transcript": "Ciao, come stai? Parliamo di ciao. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a1-benvenuti-in-italia-listening-listening-comprehension",
@@ -2499,7 +2479,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“_____!”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“_____, come stai?”",
             "options": [
               {
                 "id": "o1",
@@ -2507,157 +2487,130 @@
               },
               {
                 "id": "o2",
-                "text": "all’università"
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "conoscere"
+                "text": "imparare"
               },
               {
                 "id": "o4",
-                "text": "italiano"
+                "text": "comunità"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Oggi sono a _____ per un corso di italiano.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di ciao.”",
             "options": [
               {
                 "id": "o1",
-                "text": "all’università"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Bologna"
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "Ciao"
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "Bari"
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Le persone qui sono gentili e mi salutano _____.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "all’università"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "per"
+                "text": "domani"
               },
               {
                 "id": "o3",
-                "text": "sempre"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "mio"
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Mi piace già _____ e sono felice di conoscere meglio l’Italia.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "all’università"
-              },
-              {
-                "id": "o2",
                 "text": "Ciao"
               },
               {
+                "id": "o2",
+                "text": "stai"
+              },
+              {
                 "id": "o3",
-                "text": "Bari"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Bologna"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Ciao! Mi chiamo Sofia e vengo da Bari. Oggi sono a Bologna per un corso di italiano. È il mio primo giorno in città e sono molto contenta. Abito vicino all’università e ogni mattina cammino fino alla scuola, passando per i portici del centro. Le persone qui sono gentili e mi salutano sempre. Dopo la lezione, voglio prendere un caffè in un bar vicino a Piazza Maggiore. Mi piace già Bologna e sono felice di conoscere meglio l’Italia.",
-      "transcriptSegments": [
-        {
-          "text": "Ciao!"
-        },
-        {
-          "text": "Mi chiamo Sofia e vengo da Bari."
-        },
-        {
-          "text": "Oggi sono a Bologna per un corso di italiano."
-        },
-        {
-          "text": "È il mio primo giorno in città e sono molto contenta."
-        },
-        {
-          "text": "Abito vicino all’università e ogni mattina cammino fino alla scuola, passando per i portici del centro."
-        },
-        {
-          "text": "Le persone qui sono gentili e mi salutano sempre."
-        },
-        {
-          "text": "Dopo la lezione, voglio prendere un caffè in un bar vicino a Piazza Maggiore."
-        },
-        {
-          "text": "Mi piace già Bologna e sono felice di conoscere meglio l’Italia."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“_____!”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“_____, come stai?”",
         "options": [
           "Ciao",
-          "all’università",
-          "conoscere",
-          "italiano"
+          "Parliamo",
+          "imparare",
+          "comunità"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Oggi sono a _____ per un corso di italiano.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di ciao.”",
         "options": [
-          "all’università",
-          "Bologna",
-          "Ciao",
-          "Bari"
+          "piace",
+          "Parliamo",
+          "domani",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Le persone qui sono gentili e mi salutano _____.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "all’università",
-          "per",
-          "sempre",
-          "mio"
+          "piace",
+          "domani",
+          "comunità",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Mi piace già _____ e sono felice di conoscere meglio l’Italia.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "all’università",
           "Ciao",
-          "Bari",
-          "Bologna"
+          "stai",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -2706,7 +2659,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Abito a Bologna da sei mesi e la mia giornata comincia presto. Alle sette esco di casa, compro un cornetto al bar e prendo l’autobus per andare al lavoro. L’ufficio è vicino alla stazione, quindi incontro molte persone che arrivano in treno. Durante la pausa pranzo, spesso cammino sotto i portici con una collega e guardiamo le vetrine del centro. Nel pomeriggio passo dalla farmacia o dal supermercato prima di tornare a casa. La sera preparo una cena semplice e telefono a mia sorella, che vive a Modena. Nel fine settimana mi piace visitare un mercato o bere un caffè in piazza. Mi piace questa routine perché la città è vivace ma anche comoda.",
+    "transcript": "Di solito prendo l’autobus. Parliamo di quartiere. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a2-vita-in-citta-listening-listening-comprehension",
@@ -2715,165 +2668,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Abito a Bologna da sei mesi e la mia giornata comincia _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Di solito prendo _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "presto"
+                "text": "l’autobus"
               },
               {
                 "id": "o2",
-                "text": "supermercato"
+                "text": "solito"
               },
               {
                 "id": "o3",
-                "text": "pomeriggio"
+                "text": "prendo"
               },
               {
                 "id": "o4",
-                "text": "sei"
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’ufficio è _____ alla stazione, quindi incontro molte persone che arrivano in treno.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "supermercato"
+                "text": "solito"
               },
               {
                 "id": "o2",
-                "text": "vicino"
+                "text": "quartiere"
               },
               {
                 "id": "o3",
-                "text": "pomeriggio"
+                "text": "prendo"
               },
               {
                 "id": "o4",
-                "text": "sei"
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“La sera preparo una cena semplice e telefono a mia _____, che vive a Modena.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "supermercato"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "mesi"
+                "text": "solito"
               },
               {
                 "id": "o3",
-                "text": "sorella"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Alle"
+                "text": "prendo"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Mi piace questa routine _____ la città è vivace ma anche comoda.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "supermercato"
+                "text": "l’autobus"
               },
               {
                 "id": "o2",
-                "text": "pomeriggio"
+                "text": "quartiere"
               },
               {
                 "id": "o3",
-                "text": "sei"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "perché"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Abito a Bologna da sei mesi e la mia giornata comincia presto. Alle sette esco di casa, compro un cornetto al bar e prendo l’autobus per andare al lavoro. L’ufficio è vicino alla stazione, quindi incontro molte persone che arrivano in treno. Durante la pausa pranzo, spesso cammino sotto i portici con una collega e guardiamo le vetrine del centro. Nel pomeriggio passo dalla farmacia o dal supermercato prima di tornare a casa. La sera preparo una cena semplice e telefono a mia sorella, che vive a Modena. Nel fine settimana mi piace visitare un mercato o bere un caffè in piazza. Mi piace questa routine perché la città è vivace ma anche comoda.",
-      "transcriptSegments": [
-        {
-          "text": "Abito a Bologna da sei mesi e la mia giornata comincia presto."
-        },
-        {
-          "text": "Alle sette esco di casa, compro un cornetto al bar e prendo l’autobus per andare al lavoro."
-        },
-        {
-          "text": "L’ufficio è vicino alla stazione, quindi incontro molte persone che arrivano in treno."
-        },
-        {
-          "text": "Durante la pausa pranzo, spesso cammino sotto i portici con una collega e guardiamo le vetrine del centro."
-        },
-        {
-          "text": "Nel pomeriggio passo dalla farmacia o dal supermercato prima di tornare a casa."
-        },
-        {
-          "text": "La sera preparo una cena semplice e telefono a mia sorella, che vive a Modena."
-        },
-        {
-          "text": "Nel fine settimana mi piace visitare un mercato o bere un caffè in piazza."
-        },
-        {
-          "text": "Mi piace questa routine perché la città è vivace ma anche comoda."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Abito a Bologna da sei mesi e la mia giornata comincia _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Di solito prendo _____.”",
         "options": [
-          "presto",
-          "supermercato",
-          "pomeriggio",
-          "sei"
+          "l’autobus",
+          "solito",
+          "prendo",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’ufficio è _____ alla stazione, quindi incontro molte persone che arrivano in treno.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "supermercato",
-          "vicino",
-          "pomeriggio",
-          "sei"
+          "solito",
+          "quartiere",
+          "prendo",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“La sera preparo una cena semplice e telefono a mia _____, che vive a Modena.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "supermercato",
-          "mesi",
-          "sorella",
-          "Alle"
+          "piace",
+          "solito",
+          "comunità",
+          "prendo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Mi piace questa routine _____ la città è vivace ma anche comoda.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "supermercato",
-          "pomeriggio",
-          "sei",
-          "perché"
+          "l’autobus",
+          "quartiere",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -3236,11 +3162,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: obiettivi». Puoi aiutarmi?"
+        "line": "Vorrei organizzare il tempo e proporre soluzioni. Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+        "line": "Sì, certo. Parliamone passo dopo passo."
       }
     ],
     "reading": null,
@@ -3475,16 +3401,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Ciao, come stai». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -3516,16 +3433,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Di solito prendo l’autobus». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -4281,33 +4189,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "benvenuti-in-italia",
-    "title": "Benvenuti in Italia: grammatica",
+    "title": "Essere e stare: presentarsi",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
     "orderIndex": 14,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Presentarsi e dire dove ci si trova.",
+    "intro": "Presentarsi e dire dove ci si trova.",
+    "mission": "Aprende essere e stare: presentarsi y úsalo en una frase sobre saluti e presentazioni a bologna.",
+    "grammar": "Usa essere per l’identità e stare per lo stato o il luogo.",
     "phrases": [
+      "Sono Sofia. / Sto a Bologna.",
       "Ciao, come stai?"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Essere e stare: presentarsi",
+        "definition": "Usa essere per l’identità e stare per lo stato o il luogo.",
+        "structure": "Sono Sofia. / Sto a Bologna.",
+        "function": "Presentarsi e dire dove ci si trova.",
+        "examples": [
+          "Sono Sofia. / Sto a Bologna.",
+          "Ciao, come stai?"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Sono Sofia. / Sto a Bologna.",
           "Ciao, come stai?",
           "ciao",
-          "buongiorno",
-          "piacere"
+          "buongiorno"
         ]
       },
       {
@@ -4332,7 +4254,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Ciao, come stai?",
           "piacere",
@@ -4347,33 +4269,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "vita-in-citta",
-    "title": "Vita in città: grammatica",
+    "title": "Avverbi di frequenza",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
     "orderIndex": 14,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Descrivere abitudini.",
+    "intro": "Descrivere abitudini.",
+    "mission": "Aprende avverbi di frequenza y úsalo en una frase sobre rutinas urbanas y servicios públicos.",
+    "grammar": "Usa di solito, sempre e a volte per la routine.",
     "phrases": [
+      "Di solito prendo l’autobus.",
       "Di solito prendo l’autobus."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Avverbi di frequenza",
+        "definition": "Usa di solito, sempre e a volte per la routine.",
+        "structure": "Di solito prendo l’autobus.",
+        "function": "Descrivere abitudini.",
+        "examples": [
+          "Di solito prendo l’autobus.",
+          "Di solito prendo l’autobus."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Di solito prendo l’autobus.",
+          "Di solito prendo l’autobus.",
           "quartiere",
-          "fermata",
-          "ufficio"
+          "fermata"
         ]
       },
       {
@@ -4398,7 +4334,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Di solito prendo l’autobus.",
           "ufficio",
@@ -5122,7 +5058,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 20,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Un bar di quartiere e le cortesie quotidiane",
     "intro": "Un bar di quartiere e le cortesie quotidiane",
     "mission": "",
@@ -5133,63 +5069,61 @@
     "reading": {
       "title": "Un caffè al bar",
       "parts": [
-        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
-        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
-        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+        "Sofia è em Bologna. Hoje descobre un bar di quartiere e le cortesie quotidiane. Encontra Marco e diz: “Un caffè, per favore.”. Os dois falam com respeito e aprendem quatro palavras novas: caffè, acqua, per favore e grazie.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
+        "Al final, Sofia scrive una nota: “Un caffè, per favore.”."
       ],
       "questions": [
-        "Dove si trova Sofia?",
+        "Dove è Sofia?",
         "Con chi parla Sofia?",
-        "Che cosa fa Sofia se non capisce una parola?",
-        "Perché Sofia ripete le parole?"
+        "Quale frase usa Sofia?",
+        "Perché l’esperienza è importante?"
       ],
-      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+      "text": "Sofia è em Bologna. Hoje descobre un bar di quartiere e le cortesie quotidiane. Encontra Marco e diz: “Un caffè, per favore.”. Os dois falam com respeito e aprendem quatro palavras novas: caffè, acqua, per favore e grazie.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Un caffè, per favore.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "italian-a1-un-caffe-al-bar-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Dove si trova Sofia?",
+        "prompt": "Che cosa pratica l’unità?",
         "options": [
-          "Bologna",
-          "Roma",
-          "Milano",
-          "Napoli"
+          "ordinare con cortesia",
+          "Una regola isolata",
+          "Un esame tecnico",
+          "Un tema senza contesto"
         ]
       },
       {
-        "id": "italian-a1-un-caffe-al-bar-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Con chi parla Sofia?",
+        "prompt": "Che cosa fa lo studente?",
+        "options": [
+          "ordinare con cortesia",
+          "Memorizza senza usare",
+          "Evita di parlare",
+          "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-un-caffe-al-bar-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "Lucia",
-          "Paolo",
-          "Anna"
+          "caffè",
+          "Sofia",
+          "frase"
         ]
       },
       {
-        "id": "italian-a1-un-caffe-al-bar-reading-reading-comprehension-3",
+        "id": "italian-a1-un-caffe-al-bar-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Che cosa fa Sofia se non capisce una parola?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia scrive una nota: “Un caffè, per _____.”.”",
         "options": [
-          "Chiede di ripetere",
-          "Va via subito",
-          "Non ascolta",
-          "Cambia città"
-        ]
-      },
-      {
-        "id": "italian-a1-un-caffe-al-bar-reading-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Perché Sofia ripete le parole?",
-        "options": [
-          "Per sentirsi più sicura",
-          "Per fare un esame tecnico",
-          "Per comprare un biglietto",
-          "Per evitare Marco"
+          "scrive",
+          "Sofia",
+          "Bologna",
+          "favore"
         ]
       }
     ]
@@ -5290,15 +5224,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "viaggi-consapevoli",
-    "title": "Viaggi consapevoli: grammatica",
+    "title": "Pronomi combinati",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 21,
     "estimatedMinutes": 10,
-    "description": "raccontare un viaggio e dare consigli responsabili",
+    "description": "Tema gramatical: Pronomi combinati.",
     "intro": "raccontare un viaggio e dare consigli responsabili",
-    "mission": "raccontare un viaggio e dare consigli responsabili",
+    "mission": "Estudia Pronomi combinati y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Impariamo: itinerario.",
@@ -5624,7 +5558,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "L’estate scorsa sono stata in Puglia con due amiche. Prima di partire, abbiamo scelto un piccolo bed and breakfast gestito da una famiglia del posto. Volevamo conoscere la regione senza spendere tutto il denaro in luoghi troppo turistici. Ci siamo spostate in treno e in bicicletta, e abbiamo chiesto consigli ai residenti per trovare spiagge meno affollate. In un mercato abbiamo comprato frutta, pane e ceramiche prodotte lì. Una sera abbiamo partecipato a una festa di paese e abbiamo ascoltato musica tradizionale. Il viaggio è stato bellissimo perché non abbiamo solo visitato la Puglia: abbiamo anche rispettato i suoi ritmi e le sue persone. Prima di tornare a casa, abbiamo scritto alla famiglia che ci ospitava per ringraziarla dei consigli ricevuti.",
+    "transcript": "Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e paesaggio. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana. Poi il gruppo riassume le idee più importanti.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-b1-viaggi-consapevoli-listening-listening-comprehension",
@@ -5633,165 +5567,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“L’estate scorsa sono stata in Puglia con due _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "amiche"
+                "text": "paesaggio"
               },
               {
                 "id": "o2",
-                "text": "tradizionale"
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "ringraziarla"
+                "text": "Viaggi"
               },
               {
                 "id": "o4",
-                "text": "partecipato"
+                "text": "gruppo"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Volevamo _____ la regione senza spendere tutto il denaro in luoghi troppo turistici.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "scorsa"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "conoscere"
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "Puglia"
+                "text": "prenotazione"
               },
               {
                 "id": "o4",
-                "text": "amiche"
+                "text": "consapevoli"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Una sera _____ partecipato a una festa di paese e abbiamo ascoltato musica tradizionale.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "tradizionale"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "ringraziarla"
+                "text": "prenotazione"
               },
               {
                 "id": "o3",
-                "text": "abbiamo"
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "partecipato"
+                "text": "consapevoli"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Prima di tornare a casa, abbiamo scritto alla famiglia che ci _____ per ringraziarla dei consigli ricevuti.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "tradizionale"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "ringraziarla"
+                "text": "prenotazione"
               },
               {
                 "id": "o3",
-                "text": "stata"
+                "text": "consapevoli"
               },
               {
                 "id": "o4",
-                "text": "ospitava"
+                "text": "gruppo"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "L’estate scorsa sono stata in Puglia con due amiche. Prima di partire, abbiamo scelto un piccolo bed and breakfast gestito da una famiglia del posto. Volevamo conoscere la regione senza spendere tutto il denaro in luoghi troppo turistici. Ci siamo spostate in treno e in bicicletta, e abbiamo chiesto consigli ai residenti per trovare spiagge meno affollate. In un mercato abbiamo comprato frutta, pane e ceramiche prodotte lì. Una sera abbiamo partecipato a una festa di paese e abbiamo ascoltato musica tradizionale. Il viaggio è stato bellissimo perché non abbiamo solo visitato la Puglia: abbiamo anche rispettato i suoi ritmi e le sue persone. Prima di tornare a casa, abbiamo scritto alla famiglia che ci ospitava per ringraziarla dei consigli ricevuti.",
-      "transcriptSegments": [
-        {
-          "text": "L’estate scorsa sono stata in Puglia con due amiche."
-        },
-        {
-          "text": "Prima di partire, abbiamo scelto un piccolo bed and breakfast gestito da una famiglia del posto."
-        },
-        {
-          "text": "Volevamo conoscere la regione senza spendere tutto il denaro in luoghi troppo turistici."
-        },
-        {
-          "text": "Ci siamo spostate in treno e in bicicletta, e abbiamo chiesto consigli ai residenti per trovare spiagge meno affollate."
-        },
-        {
-          "text": "In un mercato abbiamo comprato frutta, pane e ceramiche prodotte lì."
-        },
-        {
-          "text": "Una sera abbiamo partecipato a una festa di paese e abbiamo ascoltato musica tradizionale."
-        },
-        {
-          "text": "Il viaggio è stato bellissimo perché non abbiamo solo visitato la Puglia: abbiamo anche rispettato i suoi ritmi e le sue persone."
-        },
-        {
-          "text": "Prima di tornare a casa, abbiamo scritto alla famiglia che ci ospitava per ringraziarla dei consigli ricevuti."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“L’estate scorsa sono stata in Puglia con due _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Viaggi consapevoli», un piccolo gruppo della comunità parla di itinerario, prenotazione e _____.”",
         "options": [
-          "amiche",
-          "tradizionale",
-          "ringraziarla",
-          "partecipato"
+          "paesaggio",
+          "un'esperienza",
+          "Viaggi",
+          "gruppo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Volevamo _____ la regione senza spendere tutto il denaro in luoghi troppo turistici.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "scorsa",
-          "conoscere",
-          "Puglia",
-          "amiche"
+          "un'esperienza",
+          "persona",
+          "prenotazione",
+          "consapevoli"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Una sera _____ partecipato a una festa di paese e abbiamo ascoltato musica tradizionale.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "tradizionale",
-          "ringraziarla",
-          "abbiamo",
-          "partecipato"
+          "un'esperienza",
+          "prenotazione",
+          "perché",
+          "consapevoli"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Prima di tornare a casa, abbiamo scritto alla famiglia che ci _____ per ringraziarla dei consigli ricevuti.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "tradizionale",
-          "ringraziarla",
-          "stata",
-          "ospitava"
+          "un'esperienza",
+          "prenotazione",
+          "consapevoli",
+          "gruppo"
         ]
       }
     ]
@@ -6043,27 +5950,39 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Nel quartiere dove sono cresciuta stanno aprendo nuovi negozi, ristoranti e appartamenti ristrutturati. Il cambiamento porta servizi e lavoro, ma ha anche un effetto evidente: molti affitti stanno aumentando. Alcuni vicini anziani temono di non poter più restare nelle loro case, mentre i giovani cercano stanze sempre più lontano dal centro. In una riunione pubblica, un’architetta ha spiegato che rigenerare una zona non dovrebbe significare cancellare chi la abita già. Ha proposto spazi comuni, abitazioni a prezzo sostenibile e la partecipazione dei residenti alle decisioni. Mi ha colpito questa idea: una città non è soltanto fatta di edifici nuovi, ma di relazioni, memorie e possibilità di vivere bene insieme.",
+    "transcript": "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni. La prima osserva che percorso non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
     "extra": {
-      "mainTranscript": "Nel quartiere dove sono cresciuta stanno aprendo nuovi negozi, ristoranti e appartamenti ristrutturati. Il cambiamento porta servizi e lavoro, ma ha anche un effetto evidente: molti affitti stanno aumentando. Alcuni vicini anziani temono di non poter più restare nelle loro case, mentre i giovani cercano stanze sempre più lontano dal centro. In una riunione pubblica, un’architetta ha spiegato che rigenerare una zona non dovrebbe significare cancellare chi la abita già. Ha proposto spazi comuni, abitazioni a prezzo sostenibile e la partecipazione dei residenti alle decisioni. Mi ha colpito questa idea: una città non è soltanto fatta di edifici nuovi, ma di relazioni, memorie e possibilità di vivere bene insieme.",
+      "mainTranscript": "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni. La prima osserva che percorso non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
       "transcriptSegments": [
         {
-          "text": "Nel quartiere dove sono cresciuta stanno aprendo nuovi negozi, ristoranti e appartamenti ristrutturati."
+          "id": "segment-01",
+          "order": 1,
+          "text": "In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro posizioni."
         },
         {
-          "text": "Il cambiamento porta servizi e lavoro, ma ha anche un effetto evidente: molti affitti stanno aumentando."
+          "id": "segment-02",
+          "order": 2,
+          "text": "La prima osserva che percorso non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
         },
         {
-          "text": "Alcuni vicini anziani temono di non poter più restare nelle loro case, mentre i giovani cercano stanze sempre più lontano dal centro."
+          "id": "segment-03",
+          "order": 3,
+          "text": "L’altro aggiunge che traffico è utile solo se viene spiegato con esempi verificabili."
         },
         {
-          "text": "In una riunione pubblica, un’architetta ha spiegato che rigenerare una zona non dovrebbe significare cancellare chi la abita già."
+          "id": "segment-04",
+          "order": 4,
+          "text": "Nel confronto emerge una possibile difficoltà: abbonamento può cambiare la prospettiva di chi ascolta."
         },
         {
-          "text": "Ha proposto spazi comuni, abitazioni a prezzo sostenibile e la partecipazione dei residenti alle decisioni."
+          "id": "segment-05",
+          "order": 5,
+          "text": "Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile."
         },
         {
-          "text": "Mi ha colpito questa idea: una città non è soltanto fatta di edifici nuovi, ma di relazioni, memorie e possibilità di vivere bene insieme."
+          "id": "segment-06",
+          "order": 6,
+          "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         }
       ],
       "listeningType": "story",
@@ -6074,92 +5993,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel quartiere dove sono cresciuta stanno aprendo nuovi negozi, ristoranti e appartamenti _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "ristrutturati"
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "ristoranti"
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "aumentando"
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "rigenerare"
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Alcuni _____ anziani temono di non poter più restare nelle loro case, mentre i giovani cercano stanze sempre più lontano dal centro.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che traffico è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipazione"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "vicini"
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "ristrutturati"
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "un’architetta"
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“In una riunione pubblica, un’architetta ha _____ che rigenerare una zona non dovrebbe significare cancellare chi la abita già.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: abbonamento può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "partecipazione"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "ristrutturati"
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "spiegato"
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "un’architetta"
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Mi ha colpito questa idea: una città non è soltanto fatta di edifici nuovi, ma di relazioni, memorie e _____ di vivere bene insieme.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "evidente"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "riunione"
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "pubblica"
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "possibilità"
+                "text": "scelte"
               }
             ]
           }
@@ -6179,42 +6098,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel quartiere dove sono cresciuta stanno aprendo nuovi negozi, ristoranti e appartamenti _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Città e mobilità, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "ristrutturati",
-          "ristoranti",
-          "aumentando",
-          "rigenerare"
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Alcuni _____ anziani temono di non poter più restare nelle loro case, mentre i giovani cercano stanze sempre più lontano dal centro.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che traffico è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "partecipazione",
-          "vicini",
-          "ristrutturati",
-          "un’architetta"
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“In una riunione pubblica, un’architetta ha _____ che rigenerare una zona non dovrebbe significare cancellare chi la abita già.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: abbonamento può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "partecipazione",
-          "ristrutturati",
-          "spiegato",
-          "un’architetta"
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Mi ha colpito questa idea: una città non è soltanto fatta di edifici nuovi, ma di relazioni, memorie e _____ di vivere bene insieme.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "evidente",
-          "riunione",
-          "pubblica",
-          "possibilità"
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -6677,7 +6596,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Ogni mattina passo da un piccolo bar vicino a casa. Oggi vorrei un caffè macchiato e un cornetto alla crema. Il bar è molto tranquillo e il profumo del caffè è buonissimo. Il mio ordine costa due euro e cinquanta. Pago al banco, prendo il caffè e mi siedo per qualche minuto vicino alla finestra. Fuori passano molte persone che vanno al lavoro o a scuola. Poi saluto il barista e continuo la mia giornata.",
+    "transcript": "Un caffè, per favore. Parliamo di caffè. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a1-un-caffe-al-bar-listening-listening-comprehension",
@@ -6686,162 +6605,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Ogni mattina passo da un piccolo bar _____ a casa.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Un caffè, per _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "vicino"
+                "text": "favore"
               },
               {
                 "id": "o2",
-                "text": "tranquillo"
+                "text": "per"
               },
               {
                 "id": "o3",
-                "text": "buonissimo"
+                "text": "con"
               },
               {
                 "id": "o4",
-                "text": "bar"
+                "text": "Parliamo"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Il bar è molto tranquillo e il _____ del caffè è buonissimo.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di caffè.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ogni"
+                "text": "caffè"
               },
               {
                 "id": "o2",
-                "text": "profumo"
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "casa"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Oggi"
+                "text": "favore"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Pago al banco, prendo il caffè e mi siedo per qualche _____ vicino alla finestra.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "tranquillo"
+                "text": "caffè"
               },
               {
                 "id": "o2",
-                "text": "buonissimo"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "minuto"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "bar"
+                "text": "favore"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“_____ saluto il barista e continuo la mia giornata.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "tranquillo"
+                "text": "caffè"
               },
               {
                 "id": "o2",
-                "text": "buonissimo"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "macchiato"
+                "text": "favore"
               },
               {
                 "id": "o4",
-                "text": "Poi"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Ogni mattina passo da un piccolo bar vicino a casa. Oggi vorrei un caffè macchiato e un cornetto alla crema. Il bar è molto tranquillo e il profumo del caffè è buonissimo. Il mio ordine costa due euro e cinquanta. Pago al banco, prendo il caffè e mi siedo per qualche minuto vicino alla finestra. Fuori passano molte persone che vanno al lavoro o a scuola. Poi saluto il barista e continuo la mia giornata.",
-      "transcriptSegments": [
-        {
-          "text": "Ogni mattina passo da un piccolo bar vicino a casa."
-        },
-        {
-          "text": "Oggi vorrei un caffè macchiato e un cornetto alla crema."
-        },
-        {
-          "text": "Il bar è molto tranquillo e il profumo del caffè è buonissimo."
-        },
-        {
-          "text": "Il mio ordine costa due euro e cinquanta."
-        },
-        {
-          "text": "Pago al banco, prendo il caffè e mi siedo per qualche minuto vicino alla finestra."
-        },
-        {
-          "text": "Fuori passano molte persone che vanno al lavoro o a scuola."
-        },
-        {
-          "text": "Poi saluto il barista e continuo la mia giornata."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Ogni mattina passo da un piccolo bar _____ a casa.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Un caffè, per _____.”",
         "options": [
-          "vicino",
-          "tranquillo",
-          "buonissimo",
-          "bar"
+          "favore",
+          "per",
+          "con",
+          "Parliamo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Il bar è molto tranquillo e il _____ del caffè è buonissimo.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di caffè.”",
         "options": [
-          "Ogni",
-          "profumo",
-          "casa",
-          "Oggi"
+          "caffè",
+          "Parliamo",
+          "piace",
+          "favore"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Pago al banco, prendo il caffè e mi siedo per qualche _____ vicino alla finestra.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "tranquillo",
-          "buonissimo",
-          "minuto",
-          "bar"
+          "caffè",
+          "piace",
+          "comunità",
+          "favore"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“_____ saluto il barista e continuo la mia giornata.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "tranquillo",
-          "buonissimo",
-          "macchiato",
-          "Poi"
+          "caffè",
+          "piace",
+          "favore",
+          "pratica"
         ]
       }
     ]
@@ -6890,7 +6785,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Sabato mattina parto da Roma per passare un fine settimana a Napoli. Il treno è veloce e arrivo prima di mezzogiorno. Lascio la valigia in un piccolo albergo vicino al centro e cammino fino a Spaccanapoli. Le strade sono strette, piene di persone, negozi e profumi di cucina. A pranzo provo una pizza margherita in una pizzeria di quartiere. Nel pomeriggio visito il lungomare, ascolto il rumore delle barche e guardo il Vesuvio da lontano. Cerco di non fare rumore davanti alle case e di rispettare i luoghi dove vivono i residenti. Domenica compro un piccolo regalo per mia madre e torno a casa con molte fotografie e bei ricordi.",
+    "transcript": "Vorrei visitare il museo. Parliamo di museo. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a2-un-fine-settimana-a-napoli-listening-listening-comprehension",
@@ -6899,165 +6794,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Sabato mattina parto da Roma per passare un fine settimana a _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Vorrei _____ il museo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Napoli"
+                "text": "visitare"
               },
               {
                 "id": "o2",
-                "text": "Spaccanapoli"
+                "text": "museo"
               },
               {
                 "id": "o3",
-                "text": "mezzogiorno"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "margherita"
+                "text": "Vorrei"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Lascio la _____ in un piccolo albergo vicino al centro e cammino fino a Spaccanapoli.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di museo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Spaccanapoli"
+                "text": "museo"
               },
               {
                 "id": "o2",
-                "text": "valigia"
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "mezzogiorno"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Roma"
+                "text": "Vorrei"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel pomeriggio visito il _____, ascolto il rumore delle barche e guardo il Vesuvio da lontano.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Sabato"
+                "text": "museo"
               },
               {
                 "id": "o2",
-                "text": "Napoli"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "lungomare"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "veloce"
+                "text": "Vorrei"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Domenica compro un piccolo regalo per mia madre e torno a casa con molte fotografie e bei _____.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Spaccanapoli"
+                "text": "museo"
               },
               {
                 "id": "o2",
-                "text": "mezzogiorno"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Roma"
+                "text": "Vorrei"
               },
               {
                 "id": "o4",
-                "text": "ricordi"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Sabato mattina parto da Roma per passare un fine settimana a Napoli. Il treno è veloce e arrivo prima di mezzogiorno. Lascio la valigia in un piccolo albergo vicino al centro e cammino fino a Spaccanapoli. Le strade sono strette, piene di persone, negozi e profumi di cucina. A pranzo provo una pizza margherita in una pizzeria di quartiere. Nel pomeriggio visito il lungomare, ascolto il rumore delle barche e guardo il Vesuvio da lontano. Cerco di non fare rumore davanti alle case e di rispettare i luoghi dove vivono i residenti. Domenica compro un piccolo regalo per mia madre e torno a casa con molte fotografie e bei ricordi.",
-      "transcriptSegments": [
-        {
-          "text": "Sabato mattina parto da Roma per passare un fine settimana a Napoli."
-        },
-        {
-          "text": "Il treno è veloce e arrivo prima di mezzogiorno."
-        },
-        {
-          "text": "Lascio la valigia in un piccolo albergo vicino al centro e cammino fino a Spaccanapoli."
-        },
-        {
-          "text": "Le strade sono strette, piene di persone, negozi e profumi di cucina."
-        },
-        {
-          "text": "A pranzo provo una pizza margherita in una pizzeria di quartiere."
-        },
-        {
-          "text": "Nel pomeriggio visito il lungomare, ascolto il rumore delle barche e guardo il Vesuvio da lontano."
-        },
-        {
-          "text": "Cerco di non fare rumore davanti alle case e di rispettare i luoghi dove vivono i residenti."
-        },
-        {
-          "text": "Domenica compro un piccolo regalo per mia madre e torno a casa con molte fotografie e bei ricordi."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Sabato mattina parto da Roma per passare un fine settimana a _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Vorrei _____ il museo.”",
         "options": [
-          "Napoli",
-          "Spaccanapoli",
-          "mezzogiorno",
-          "margherita"
+          "visitare",
+          "museo",
+          "piace",
+          "Vorrei"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Lascio la _____ in un piccolo albergo vicino al centro e cammino fino a Spaccanapoli.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di museo.”",
         "options": [
-          "Spaccanapoli",
-          "valigia",
-          "mezzogiorno",
-          "Roma"
+          "museo",
+          "Parliamo",
+          "piace",
+          "Vorrei"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel pomeriggio visito il _____, ascolto il rumore delle barche e guardo il Vesuvio da lontano.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "Sabato",
-          "Napoli",
-          "lungomare",
-          "veloce"
+          "museo",
+          "piace",
+          "comunità",
+          "Vorrei"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Domenica compro un piccolo regalo per mia madre e torno a casa con molte fotografie e bei _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Spaccanapoli",
-          "mezzogiorno",
-          "Roma",
-          "ricordi"
+          "museo",
+          "piace",
+          "Vorrei",
+          "pratica"
         ]
       }
     ]
@@ -7420,11 +7288,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: itinerario». Puoi aiutarmi?"
+        "line": "Vorrei raccontare un viaggio e dare consigli responsabili. Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+        "line": "Sì, certo. Parliamone passo dopo passo."
       }
     ],
     "reading": null,
@@ -7659,16 +7527,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Un caffè, per favore». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -7700,16 +7559,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Vorrei visitare il museo». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -8465,33 +8315,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "un-caffe-al-bar",
-    "title": "Un caffè al bar: grammatica",
+    "title": "Articoli e genere",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
     "orderIndex": 24,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Ordinare con precisione.",
+    "intro": "Ordinare con precisione.",
+    "mission": "Aprende articoli e genere y úsalo en una frase sobre un bar di quartiere e le cortesie quotidiane.",
+    "grammar": "Gli articoli accompagnano genere e numero del nome.",
     "phrases": [
+      "un caffè / un’acqua / i panini",
       "Un caffè, per favore."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Articoli e genere",
+        "definition": "Gli articoli accompagnano genere e numero del nome.",
+        "structure": "un caffè / un’acqua / i panini",
+        "function": "Ordinare con precisione.",
+        "examples": [
+          "un caffè / un’acqua / i panini",
+          "Un caffè, per favore."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "un caffè / un’acqua / i panini",
           "Un caffè, per favore.",
           "caffè",
-          "acqua",
-          "per favore"
+          "acqua"
         ]
       },
       {
@@ -8516,7 +8380,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Un caffè, per favore.",
           "per favore",
@@ -8531,33 +8395,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "un-fine-settimana-a-napoli",
-    "title": "Un fine settimana a Napoli: grammatica",
+    "title": "Futuro con stare per",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
     "orderIndex": 24,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Fare programmi.",
+    "intro": "Fare programmi.",
+    "mission": "Aprende futuro con stare per y úsalo en una frase sobre planificar una visita respetuosa.",
+    "grammar": "Usa stare per + infinito per un piano imminente.",
     "phrases": [
+      "Sto per visitare il museo.",
       "Vorrei visitare il museo."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Futuro con stare per",
+        "definition": "Usa stare per + infinito per un piano imminente.",
+        "structure": "Sto per visitare il museo.",
+        "function": "Fare programmi.",
+        "examples": [
+          "Sto per visitare il museo.",
+          "Vorrei visitare il museo."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Sto per visitare il museo.",
           "Vorrei visitare il museo.",
           "museo",
-          "passeggiata",
-          "prenotazione"
+          "passeggiata"
         ]
       },
       {
@@ -8582,7 +8460,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Vorrei visitare il museo.",
           "prenotazione",
@@ -9306,7 +9184,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 30,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Una cena familiare e gli orari italiani",
     "intro": "Una cena familiare e gli orari italiani",
     "mission": "",
@@ -9317,63 +9195,61 @@
     "reading": {
       "title": "La famiglia a tavola",
       "parts": [
-        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
-        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
-        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+        "Sofia è em Bologna. Hoje descobre una cena familiare e gli orari italiani. Encontra Marco e diz: “Ceniamo insieme.”. Os dois falam com respeito e aprendem quatro palavras novas: famiglia, cena, tavola e insieme.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
+        "Al final, Sofia scrive una nota: “Ceniamo insieme.”."
       ],
       "questions": [
-        "Dove si trova Sofia?",
+        "Dove è Sofia?",
         "Con chi parla Sofia?",
-        "Che cosa fa Sofia se non capisce una parola?",
-        "Perché Sofia ripete le parole?"
+        "Quale frase usa Sofia?",
+        "Perché l’esperienza è importante?"
       ],
-      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+      "text": "Sofia è em Bologna. Hoje descobre una cena familiare e gli orari italiani. Encontra Marco e diz: “Ceniamo insieme.”. Os dois falam com respeito e aprendem quatro palavras novas: famiglia, cena, tavola e insieme.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Ceniamo insieme.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "italian-a1-la-famiglia-a-tavola-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Dove si trova Sofia?",
+        "prompt": "Che cosa pratica l’unità?",
         "options": [
-          "Bologna",
-          "Roma",
-          "Milano",
-          "Napoli"
+          "parlare della famiglia",
+          "Una regola isolata",
+          "Un esame tecnico",
+          "Un tema senza contesto"
         ]
       },
       {
-        "id": "italian-a1-la-famiglia-a-tavola-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Con chi parla Sofia?",
+        "prompt": "Che cosa fa lo studente?",
+        "options": [
+          "parlare della famiglia",
+          "Memorizza senza usare",
+          "Evita di parlare",
+          "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-la-famiglia-a-tavola-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "Lucia",
-          "Paolo",
-          "Anna"
+          "frase",
+          "Sofia",
+          "breve"
         ]
       },
       {
-        "id": "italian-a1-la-famiglia-a-tavola-reading-reading-comprehension-3",
+        "id": "italian-a1-la-famiglia-a-tavola-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Che cosa fa Sofia se non capisce una parola?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia _____ una nota: “Ceniamo insieme.”.”",
         "options": [
-          "Chiede di ripetere",
-          "Va via subito",
-          "Non ascolta",
-          "Cambia città"
-        ]
-      },
-      {
-        "id": "italian-a1-la-famiglia-a-tavola-reading-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Perché Sofia ripete le parole?",
-        "options": [
-          "Per sentirsi più sicura",
-          "Per fare un esame tecnico",
-          "Per comprare un biglietto",
-          "Per evitare Marco"
+          "Sofia",
+          "Bologna",
+          "Marco",
+          "scrive"
         ]
       }
     ]
@@ -9474,15 +9350,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "salute-e-benessere",
-    "title": "Salute e benessere: grammatica",
+    "title": "Congiuntivo presente",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 31,
     "estimatedMinutes": 10,
-    "description": "spiegare abitudini utili e cambiamenti personali",
+    "description": "Tema gramatical: Congiuntivo presente.",
     "intro": "spiegare abitudini utili e cambiamenti personali",
-    "mission": "spiegare abitudini utili e cambiamenti personali",
+    "mission": "Estudia Congiuntivo presente y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Impariamo: benessere.",
@@ -9808,7 +9684,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Negli ultimi mesi mi sentivo spesso stanco, anche dopo aver dormito molte ore. Il medico mi ha fatto alcune domande sulle mie abitudini e ha capito che passavo troppo tempo seduto davanti al computer. Non era un problema grave, ma dovevo cambiare qualcosa. Ho cominciato a fare una passeggiata di trenta minuti dopo il lavoro e a preparare il pranzo a casa invece di mangiare sempre panini. All’inizio era difficile, soprattutto quando pioveva o avevo molto lavoro. Però, dopo qualche settimana, dormivo meglio e avevo più energia. Ho capito che il benessere non dipende da una sola scelta, ma da piccole abitudini quotidiane. Ora provo anche a fare pause brevi durante la giornata per alzarmi e respirare con calma.",
+    "transcript": "Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e allenamento. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana. Poi il gruppo riassume le idee più importanti.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-b1-salute-e-benessere-listening-listening-comprehension",
@@ -9817,165 +9693,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Negli ultimi mesi mi sentivo spesso stanco, anche dopo aver _____ molte ore.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "dormito"
+                "text": "allenamento"
               },
               {
                 "id": "o2",
-                "text": "passeggiata"
+                "text": "comunità"
               },
               {
                 "id": "o3",
-                "text": "soprattutto"
+                "text": "racconta"
               },
               {
                 "id": "o4",
-                "text": "mesi"
+                "text": "concreta"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Non era un _____ grave, ma dovevo cambiare qualcosa.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Negli"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "problema"
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "molte"
+                "text": "allenamento"
               },
               {
                 "id": "o4",
-                "text": "fatto"
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Però, dopo qualche settimana, _____ meglio e avevo più energia.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "passeggiata"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "soprattutto"
+                "text": "allenamento"
               },
               {
                 "id": "o3",
-                "text": "dormivo"
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "mesi"
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“_____ provo anche a fare pause brevi durante la giornata per alzarmi e respirare con calma.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "passeggiata"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "soprattutto"
+                "text": "allenamento"
               },
               {
                 "id": "o3",
-                "text": "cominciato"
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Ora"
+                "text": "gruppo"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Negli ultimi mesi mi sentivo spesso stanco, anche dopo aver dormito molte ore. Il medico mi ha fatto alcune domande sulle mie abitudini e ha capito che passavo troppo tempo seduto davanti al computer. Non era un problema grave, ma dovevo cambiare qualcosa. Ho cominciato a fare una passeggiata di trenta minuti dopo il lavoro e a preparare il pranzo a casa invece di mangiare sempre panini. All’inizio era difficile, soprattutto quando pioveva o avevo molto lavoro. Però, dopo qualche settimana, dormivo meglio e avevo più energia. Ho capito che il benessere non dipende da una sola scelta, ma da piccole abitudini quotidiane. Ora provo anche a fare pause brevi durante la giornata per alzarmi e respirare con calma.",
-      "transcriptSegments": [
-        {
-          "text": "Negli ultimi mesi mi sentivo spesso stanco, anche dopo aver dormito molte ore."
-        },
-        {
-          "text": "Il medico mi ha fatto alcune domande sulle mie abitudini e ha capito che passavo troppo tempo seduto davanti al computer."
-        },
-        {
-          "text": "Non era un problema grave, ma dovevo cambiare qualcosa."
-        },
-        {
-          "text": "Ho cominciato a fare una passeggiata di trenta minuti dopo il lavoro e a preparare il pranzo a casa invece di mangiare sempre panini."
-        },
-        {
-          "text": "All’inizio era difficile, soprattutto quando pioveva o avevo molto lavoro."
-        },
-        {
-          "text": "Però, dopo qualche settimana, dormivo meglio e avevo più energia."
-        },
-        {
-          "text": "Ho capito che il benessere non dipende da una sola scelta, ma da piccole abitudini quotidiane."
-        },
-        {
-          "text": "Ora provo anche a fare pause brevi durante la giornata per alzarmi e respirare con calma."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Negli ultimi mesi mi sentivo spesso stanco, anche dopo aver _____ molte ore.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Salute e benessere», un piccolo gruppo della comunità parla di benessere, riposo e _____.”",
         "options": [
-          "dormito",
-          "passeggiata",
-          "soprattutto",
-          "mesi"
+          "allenamento",
+          "comunità",
+          "racconta",
+          "concreta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Non era un _____ grave, ma dovevo cambiare qualcosa.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "Negli",
-          "problema",
-          "molte",
-          "fatto"
+          "un'esperienza",
+          "persona",
+          "allenamento",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Però, dopo qualche settimana, _____ meglio e avevo più energia.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "passeggiata",
-          "soprattutto",
-          "dormivo",
-          "mesi"
+          "un'esperienza",
+          "allenamento",
+          "perché",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“_____ provo anche a fare pause brevi durante la giornata per alzarmi e respirare con calma.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "passeggiata",
-          "soprattutto",
-          "cominciato",
-          "Ora"
+          "un'esperienza",
+          "allenamento",
+          "collaborare",
+          "gruppo"
         ]
       }
     ]
@@ -10227,27 +10076,39 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Dopo dieci anni nello stesso settore, mia sorella ha deciso di tornare a studiare. Non voleva cambiare lavoro da un giorno all’altro, ma sentiva il bisogno di capire meglio come stavano evolvendo gli strumenti del suo campo. Ha scelto un corso serale di analisi dei dati e all’inizio si è sentita fuori posto: alcuni compagni erano più giovani e avevano già esperienza tecnica. Dopo pochi mesi, però, ha scoperto che la sua conoscenza pratica era altrettanto utile. Durante i lavori di gruppo riusciva a fare domande concrete e a collegare la teoria ai problemi reali. La sua esperienza mi ha insegnato che imparare da adulti non significa ricominciare da zero: significa dare un nuovo significato a ciò che già sappiamo.",
+    "transcript": "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni. La prima osserva che colloquio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
     "extra": {
-      "mainTranscript": "Dopo dieci anni nello stesso settore, mia sorella ha deciso di tornare a studiare. Non voleva cambiare lavoro da un giorno all’altro, ma sentiva il bisogno di capire meglio come stavano evolvendo gli strumenti del suo campo. Ha scelto un corso serale di analisi dei dati e all’inizio si è sentita fuori posto: alcuni compagni erano più giovani e avevano già esperienza tecnica. Dopo pochi mesi, però, ha scoperto che la sua conoscenza pratica era altrettanto utile. Durante i lavori di gruppo riusciva a fare domande concrete e a collegare la teoria ai problemi reali. La sua esperienza mi ha insegnato che imparare da adulti non significa ricominciare da zero: significa dare un nuovo significato a ciò che già sappiamo.",
+      "mainTranscript": "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni. La prima osserva che colloquio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
       "transcriptSegments": [
         {
-          "text": "Dopo dieci anni nello stesso settore, mia sorella ha deciso di tornare a studiare."
+          "id": "segment-01",
+          "order": 1,
+          "text": "In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro posizioni."
         },
         {
-          "text": "Non voleva cambiare lavoro da un giorno all’altro, ma sentiva il bisogno di capire meglio come stavano evolvendo gli strumenti del suo campo."
+          "id": "segment-02",
+          "order": 2,
+          "text": "La prima osserva che colloquio non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
         },
         {
-          "text": "Ha scelto un corso serale di analisi dei dati e all’inizio si è sentita fuori posto: alcuni compagni erano più giovani e avevano già esperienza tecnica."
+          "id": "segment-03",
+          "order": 3,
+          "text": "L’altro aggiunge che esperienza è utile solo se viene spiegato con esempi verificabili."
         },
         {
-          "text": "Dopo pochi mesi, però, ha scoperto che la sua conoscenza pratica era altrettanto utile."
+          "id": "segment-04",
+          "order": 4,
+          "text": "Nel confronto emerge una possibile difficoltà: candidatura può cambiare la prospettiva di chi ascolta."
         },
         {
-          "text": "Durante i lavori di gruppo riusciva a fare domande concrete e a collegare la teoria ai problemi reali."
+          "id": "segment-05",
+          "order": 5,
+          "text": "Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile."
         },
         {
-          "text": "La sua esperienza mi ha insegnato che imparare da adulti non significa ricominciare da zero: significa dare un nuovo significato a ciò che già sappiamo."
+          "id": "segment-06",
+          "order": 6,
+          "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         }
       ],
       "listeningType": "story",
@@ -10258,92 +10119,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Dopo dieci anni nello stesso settore, mia sorella ha deciso di tornare a _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "studiare"
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "ricominciare"
+                "text": "Lavoro"
               },
               {
                 "id": "o3",
-                "text": "dieci"
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "nello"
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ha scelto un corso _____ di analisi dei dati e all’inizio si è sentita fuori posto: alcuni compagni erano più giovani e avevano già esperienza tecnica.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che esperienza è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "ricominciare"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "serale"
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "altrettanto"
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "significato"
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Dopo pochi mesi, però, ha scoperto che la sua conoscenza _____ era altrettanto utile.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: candidatura può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "ricominciare"
+                "text": "Lavoro"
               },
               {
                 "id": "o2",
-                "text": "altrettanto"
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "pratica"
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "significato"
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“La sua esperienza mi ha insegnato che imparare da adulti non significa _____ da zero: significa dare un nuovo significato a ciò che già sappiamo.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "all’altro"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "evolvendo"
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "strumenti"
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "ricominciare"
+                "text": "scelte"
               }
             ]
           }
@@ -10363,42 +10224,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Dopo dieci anni nello stesso settore, mia sorella ha deciso di tornare a _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Lavoro e competenze, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "studiare",
-          "ricominciare",
-          "dieci",
-          "nello"
+          "posizioni",
+          "Lavoro",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ha scelto un corso _____ di analisi dei dati e all’inizio si è sentita fuori posto: alcuni compagni erano più giovani e avevano già esperienza tecnica.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che esperienza è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "ricominciare",
-          "serale",
-          "altrettanto",
-          "significato"
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Dopo pochi mesi, però, ha scoperto che la sua conoscenza _____ era altrettanto utile.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: candidatura può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "ricominciare",
-          "altrettanto",
-          "pratica",
-          "significato"
+          "Lavoro",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“La sua esperienza mi ha insegnato che imparare da adulti non significa _____ da zero: significa dare un nuovo significato a ciò che già sappiamo.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "all’altro",
-          "evolvendo",
-          "strumenti",
-          "ricominciare"
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -10861,7 +10722,7 @@
       }
     ],
     "reading": null,
-    "transcript": "La domenica, la famiglia Rossi pranza insieme. La nonna prepara la pasta al pomodoro e il nonno porta il pane fresco. Anna apparecchia la tavola con i piatti blu, mentre suo fratello Luca mette i bicchieri. Il padre racconta una storia divertente del suo lavoro e la madre ride. Dopo il pranzo, tutti mangiano una fetta di torta al limone. La famiglia non è grande, ma è molto unita. Per Anna, la domenica a tavola è il momento più bello della settimana.",
+    "transcript": "Ceniamo insieme. Parliamo di famiglia. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a1-la-famiglia-a-tavola-listening-listening-comprehension",
@@ -10870,7 +10731,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“La domenica, la famiglia Rossi pranza _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Ceniamo _____.”",
             "options": [
               {
                 "id": "o1",
@@ -10878,30 +10739,76 @@
               },
               {
                 "id": "o2",
-                "text": "apparecchia"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "pane"
+                "text": "Parliamo"
               },
               {
                 "id": "o4",
-                "text": "Anna"
+                "text": "famiglia"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Anna _____ la tavola con i piatti blu, mentre suo fratello Luca mette i bicchieri.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "domenica"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "apparecchia"
+                "text": "famiglia"
+              },
+              {
+                "id": "o3",
+                "text": "domani"
+              },
+              {
+                "id": "o4",
+                "text": "Ceniamo"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "piace"
+              },
+              {
+                "id": "o2",
+                "text": "domani"
+              },
+              {
+                "id": "o3",
+                "text": "comunità"
+              },
+              {
+                "id": "o4",
+                "text": "Ceniamo"
+              }
+            ]
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "piace"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
@@ -10909,123 +10816,53 @@
               },
               {
                 "id": "o4",
-                "text": "pomodoro"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Dopo il pranzo, tutti mangiano una fetta di torta al _____.”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "apparecchia"
-              },
-              {
-                "id": "o2",
-                "text": "divertente"
-              },
-              {
-                "id": "o3",
-                "text": "limone"
-              },
-              {
-                "id": "o4",
-                "text": "con"
-              }
-            ]
-          },
-          {
-            "id": "q4",
-            "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Per Anna, la domenica a tavola è il momento più bello della _____.”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "pranza"
-              },
-              {
-                "id": "o2",
-                "text": "fresco"
-              },
-              {
-                "id": "o3",
-                "text": "tavola"
-              },
-              {
-                "id": "o4",
-                "text": "settimana"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "La domenica, la famiglia Rossi pranza insieme. La nonna prepara la pasta al pomodoro e il nonno porta il pane fresco. Anna apparecchia la tavola con i piatti blu, mentre suo fratello Luca mette i bicchieri. Il padre racconta una storia divertente del suo lavoro e la madre ride. Dopo il pranzo, tutti mangiano una fetta di torta al limone. La famiglia non è grande, ma è molto unita. Per Anna, la domenica a tavola è il momento più bello della settimana.",
-      "transcriptSegments": [
-        {
-          "text": "La domenica, la famiglia Rossi pranza insieme."
-        },
-        {
-          "text": "La nonna prepara la pasta al pomodoro e il nonno porta il pane fresco."
-        },
-        {
-          "text": "Anna apparecchia la tavola con i piatti blu, mentre suo fratello Luca mette i bicchieri."
-        },
-        {
-          "text": "Il padre racconta una storia divertente del suo lavoro e la madre ride."
-        },
-        {
-          "text": "Dopo il pranzo, tutti mangiano una fetta di torta al limone."
-        },
-        {
-          "text": "La famiglia non è grande, ma è molto unita."
-        },
-        {
-          "text": "Per Anna, la domenica a tavola è il momento più bello della settimana."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“La domenica, la famiglia Rossi pranza _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Ceniamo _____.”",
         "options": [
           "insieme",
-          "apparecchia",
-          "pane",
-          "Anna"
+          "piace",
+          "Parliamo",
+          "famiglia"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Anna _____ la tavola con i piatti blu, mentre suo fratello Luca mette i bicchieri.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "domenica",
-          "apparecchia",
+          "piace",
           "famiglia",
-          "pomodoro"
+          "domani",
+          "Ceniamo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Dopo il pranzo, tutti mangiano una fetta di torta al _____.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "apparecchia",
-          "divertente",
-          "limone",
-          "con"
+          "piace",
+          "domani",
+          "comunità",
+          "Ceniamo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Per Anna, la domenica a tavola è il momento più bello della _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "pranza",
-          "fresco",
-          "tavola",
-          "settimana"
+          "piace",
+          "Parliamo",
+          "famiglia",
+          "pratica"
         ]
       }
     ]
@@ -11074,7 +10911,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Ogni domenica preparo il pranzo con mia nonna a Parma. La sua ricetta preferita è il risotto con le verdure di stagione. Prima compriamo riso, zucchine, carote, cipolla e parmigiano al mercato. A casa laviamo le verdure e le tagliamo in pezzi piccoli. Mia nonna mette un po’ di olio nella pentola e mescola il riso con pazienza. Io aggiungo il brodo poco alla volta e preparo la tavola con i piatti buoni. Quando il risotto è pronto, tutta la famiglia si siede a tavola. Mio nonno racconta sempre la stessa storia della sua infanzia, ma noi ridiamo ogni volta. Dopo pranzo beviamo il caffè insieme e aiutiamo a lavare i piatti.",
+    "transcript": "Prima taglio le verdure. Parliamo di ricetta. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a2-ricette-di-famiglia-listening-listening-comprehension",
@@ -11083,168 +10920,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Ogni domenica preparo il pranzo con mia nonna a _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Prima taglio le _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Parma"
+                "text": "verdure"
               },
               {
                 "id": "o2",
-                "text": "parmigiano"
+                "text": "Prima"
               },
               {
                 "id": "o3",
-                "text": "preferita"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "compriamo"
+                "text": "taglio"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“A casa laviamo le _____ e le tagliamo in pezzi piccoli.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ogni"
+                "text": "Prima"
               },
               {
                 "id": "o2",
-                "text": "verdure"
+                "text": "ricetta"
               },
               {
                 "id": "o3",
-                "text": "riso"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "parmigiano"
+                "text": "taglio"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Io aggiungo il brodo poco alla volta e preparo la tavola con i _____ buoni.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "parmigiano"
+                "text": "Prima"
               },
               {
                 "id": "o2",
-                "text": "con"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "piatti"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "mia"
+                "text": "taglio"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Dopo pranzo beviamo il caffè insieme e aiutiamo a _____ i piatti.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "parmigiano"
+                "text": "Prima"
               },
               {
                 "id": "o2",
-                "text": "con"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "mia"
+                "text": "taglio"
               },
               {
                 "id": "o4",
-                "text": "lavare"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Ogni domenica preparo il pranzo con mia nonna a Parma. La sua ricetta preferita è il risotto con le verdure di stagione. Prima compriamo riso, zucchine, carote, cipolla e parmigiano al mercato. A casa laviamo le verdure e le tagliamo in pezzi piccoli. Mia nonna mette un po’ di olio nella pentola e mescola il riso con pazienza. Io aggiungo il brodo poco alla volta e preparo la tavola con i piatti buoni. Quando il risotto è pronto, tutta la famiglia si siede a tavola. Mio nonno racconta sempre la stessa storia della sua infanzia, ma noi ridiamo ogni volta. Dopo pranzo beviamo il caffè insieme e aiutiamo a lavare i piatti.",
-      "transcriptSegments": [
-        {
-          "text": "Ogni domenica preparo il pranzo con mia nonna a Parma."
-        },
-        {
-          "text": "La sua ricetta preferita è il risotto con le verdure di stagione."
-        },
-        {
-          "text": "Prima compriamo riso, zucchine, carote, cipolla e parmigiano al mercato."
-        },
-        {
-          "text": "A casa laviamo le verdure e le tagliamo in pezzi piccoli."
-        },
-        {
-          "text": "Mia nonna mette un po’ di olio nella pentola e mescola il riso con pazienza."
-        },
-        {
-          "text": "Io aggiungo il brodo poco alla volta e preparo la tavola con i piatti buoni."
-        },
-        {
-          "text": "Quando il risotto è pronto, tutta la famiglia si siede a tavola."
-        },
-        {
-          "text": "Mio nonno racconta sempre la stessa storia della sua infanzia, ma noi ridiamo ogni volta."
-        },
-        {
-          "text": "Dopo pranzo beviamo il caffè insieme e aiutiamo a lavare i piatti."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Ogni domenica preparo il pranzo con mia nonna a _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Prima taglio le _____.”",
         "options": [
-          "Parma",
-          "parmigiano",
-          "preferita",
-          "compriamo"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“A casa laviamo le _____ e le tagliamo in pezzi piccoli.”",
-        "options": [
-          "Ogni",
           "verdure",
-          "riso",
-          "parmigiano"
+          "Prima",
+          "piace",
+          "taglio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Io aggiungo il brodo poco alla volta e preparo la tavola con i _____ buoni.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "parmigiano",
-          "con",
-          "piatti",
-          "mia"
+          "Prima",
+          "ricetta",
+          "piace",
+          "taglio"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Dopo pranzo beviamo il caffè insieme e aiutiamo a _____ i piatti.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "parmigiano",
-          "con",
-          "mia",
-          "lavare"
+          "Prima",
+          "piace",
+          "comunità",
+          "taglio"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "options": [
+          "Prima",
+          "piace",
+          "taglio",
+          "pratica"
         ]
       }
     ]
@@ -11607,11 +11414,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: benessere». Puoi aiutarmi?"
+        "line": "Vorrei spiegare abitudini utili e cambiamenti personali. Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+        "line": "Sì, certo. Parliamone passo dopo passo."
       }
     ],
     "reading": null,
@@ -11846,16 +11653,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Ceniamo insieme». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -11887,16 +11685,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Prima taglio le verdure». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -12652,33 +12441,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "la-famiglia-a-tavola",
-    "title": "La famiglia a tavola: grammatica",
+    "title": "Presente indicativo",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
     "orderIndex": 34,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Parlare della routine.",
+    "intro": "Parlare della routine.",
+    "mission": "Aprende presente indicativo y úsalo en una frase sobre una cena familiare e gli orari italiani.",
+    "grammar": "Usa il presente per abitudini e azioni quotidiane.",
     "phrases": [
+      "La famiglia cena insieme.",
       "Ceniamo insieme."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Presente indicativo",
+        "definition": "Usa il presente per abitudini e azioni quotidiane.",
+        "structure": "La famiglia cena insieme.",
+        "function": "Parlare della routine.",
+        "examples": [
+          "La famiglia cena insieme.",
+          "Ceniamo insieme."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "La famiglia cena insieme.",
           "Ceniamo insieme.",
           "famiglia",
-          "cena",
-          "tavola"
+          "cena"
         ]
       },
       {
@@ -12703,7 +12506,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Ceniamo insieme.",
           "tavola",
@@ -12718,33 +12521,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "ricette-di-famiglia",
-    "title": "Ricette di famiglia: grammatica",
+    "title": "Connettori di sequenza",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 34,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Spiegare un processo.",
+    "intro": "Spiegare un processo.",
+    "mission": "Aprende connettori di sequenza y úsalo en una frase sobre recetas, recuerdos y medidas.",
+    "grammar": "Usa prima, poi e infine per ordinare azioni.",
     "phrases": [
+      "Prima taglio le verdure, poi cucino.",
       "Prima taglio le verdure."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Connettori di sequenza",
+        "definition": "Usa prima, poi e infine per ordinare azioni.",
+        "structure": "Prima taglio le verdure, poi cucino.",
+        "function": "Spiegare un processo.",
+        "examples": [
+          "Prima taglio le verdure, poi cucino.",
+          "Prima taglio le verdure."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Prima taglio le verdure, poi cucino.",
           "Prima taglio le verdure.",
           "ricetta",
-          "ingrediente",
-          "prima"
+          "ingrediente"
         ]
       },
       {
@@ -12769,7 +12586,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Prima taglio le verdure.",
           "prima",
@@ -13493,7 +13310,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 40,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Frutta, verdura e prezzi al mercato",
     "intro": "Frutta, verdura e prezzi al mercato",
     "mission": "",
@@ -13504,63 +13321,61 @@
     "reading": {
       "title": "Il mercato del sabato",
       "parts": [
-        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
-        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
-        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+        "Sofia è em Bologna. Hoje descobre frutta, verdura e prezzi al mercato. Encontra Marco e diz: “Quanto costa un chilo?”. Os dois falam com respeito e aprendem quatro palavras novas: pomodoro, mela, chilo e euro.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
+        "Al final, Sofia scrive una nota: “Quanto costa un chilo?”."
       ],
       "questions": [
-        "Dove si trova Sofia?",
+        "Dove è Sofia?",
         "Con chi parla Sofia?",
-        "Che cosa fa Sofia se non capisce una parola?",
-        "Perché Sofia ripete le parole?"
+        "Quale frase usa Sofia?",
+        "Perché l’esperienza è importante?"
       ],
-      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+      "text": "Sofia è em Bologna. Hoje descobre frutta, verdura e prezzi al mercato. Encontra Marco e diz: “Quanto costa un chilo?”. Os dois falam com respeito e aprendem quatro palavras novas: pomodoro, mela, chilo e euro.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Quanto costa un chilo?”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "italian-a1-il-mercato-del-sabato-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Dove si trova Sofia?",
+        "prompt": "Che cosa pratica l’unità?",
         "options": [
-          "Bologna",
-          "Roma",
-          "Milano",
-          "Napoli"
+          "comprare al mercato",
+          "Una regola isolata",
+          "Un esame tecnico",
+          "Un tema senza contesto"
         ]
       },
       {
-        "id": "italian-a1-il-mercato-del-sabato-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Con chi parla Sofia?",
+        "prompt": "Che cosa fa lo studente?",
+        "options": [
+          "comprare al mercato",
+          "Memorizza senza usare",
+          "Evita di parlare",
+          "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-il-mercato-del-sabato-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "Lucia",
-          "Paolo",
-          "Anna"
+          "costa",
+          "Sofia",
+          "chilo"
         ]
       },
       {
-        "id": "italian-a1-il-mercato-del-sabato-reading-reading-comprehension-3",
+        "id": "italian-a1-il-mercato-del-sabato-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Che cosa fa Sofia se non capisce una parola?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia scrive una nota: “_____ costa un chilo?”.”",
         "options": [
-          "Chiede di ripetere",
-          "Va via subito",
-          "Non ascolta",
-          "Cambia città"
-        ]
-      },
-      {
-        "id": "italian-a1-il-mercato-del-sabato-reading-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Perché Sofia ripete le parole?",
-        "options": [
-          "Per sentirsi più sicura",
-          "Per fare un esame tecnico",
-          "Per comprare un biglietto",
-          "Per evitare Marco"
+          "scrive",
+          "Sofia",
+          "Bologna",
+          "Quanto"
         ]
       }
     ]
@@ -13661,15 +13476,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "cultura-e-media",
-    "title": "Cultura e media: grammatica",
+    "title": "Discorso indiretto",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 41,
     "estimatedMinutes": 10,
-    "description": "esprimere opinioni su cultura e informazione",
+    "description": "Tema gramatical: Discorso indiretto.",
     "intro": "esprimere opinioni su cultura e informazione",
-    "mission": "esprimere opinioni su cultura e informazione",
+    "mission": "Estudia Discorso indiretto y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Impariamo: notizia.",
@@ -13995,7 +13810,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Nel mio quartiere hanno aperto un piccolo cinema che proietta film italiani ed europei. Di solito vado il mercoledì, perché dopo il film c’è una breve conversazione con il pubblico. La settimana scorsa abbiamo visto un documentario su una musicista siciliana. Non conoscevo la sua storia, ma il film mi ha incuriosito e poi ho cercato altre sue canzoni online. Mi piace usare i media in questo modo: non solo per passare il tempo, ma anche per scoprire idee e culture diverse. A volte leggo recensioni sui giornali, ma preferisco formarmi un’opinione personale dopo aver visto o ascoltato qualcosa. Alla fine della serata, io e i miei amici abbiamo discusso del film davanti a una pizza.",
+    "transcript": "Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e pubblico. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana. Poi il gruppo riassume le idee più importanti.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-b1-cultura-e-media-listening-listening-comprehension",
@@ -14004,162 +13819,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel mio quartiere hanno aperto un piccolo cinema che proietta film italiani ed _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "europei"
+                "text": "pubblico"
               },
               {
                 "id": "o2",
-                "text": "conversazione"
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "documentario"
+                "text": "media"
               },
               {
                 "id": "o4",
-                "text": "incuriosito"
+                "text": "parla"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“La settimana _____ abbiamo visto un documentario su una musicista siciliana.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "conversazione"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "scorsa"
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "documentario"
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "incuriosito"
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace usare i media in questo modo: non solo per passare il tempo, ma anche per scoprire idee e culture _____.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "conversazione"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "documentario"
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "diverse"
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "incuriosito"
+                "text": "migliorare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“_____ fine della serata, io e i miei amici abbiamo discusso del film davanti a una pizza.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "conversazione"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "documentario"
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "incuriosito"
+                "text": "migliorare"
               },
               {
                 "id": "o4",
-                "text": "Alla"
+                "text": "gruppo"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Nel mio quartiere hanno aperto un piccolo cinema che proietta film italiani ed europei. Di solito vado il mercoledì, perché dopo il film c’è una breve conversazione con il pubblico. La settimana scorsa abbiamo visto un documentario su una musicista siciliana. Non conoscevo la sua storia, ma il film mi ha incuriosito e poi ho cercato altre sue canzoni online. Mi piace usare i media in questo modo: non solo per passare il tempo, ma anche per scoprire idee e culture diverse. A volte leggo recensioni sui giornali, ma preferisco formarmi un’opinione personale dopo aver visto o ascoltato qualcosa. Alla fine della serata, io e i miei amici abbiamo discusso del film davanti a una pizza.",
-      "transcriptSegments": [
-        {
-          "text": "Nel mio quartiere hanno aperto un piccolo cinema che proietta film italiani ed europei."
-        },
-        {
-          "text": "Di solito vado il mercoledì, perché dopo il film c’è una breve conversazione con il pubblico."
-        },
-        {
-          "text": "La settimana scorsa abbiamo visto un documentario su una musicista siciliana."
-        },
-        {
-          "text": "Non conoscevo la sua storia, ma il film mi ha incuriosito e poi ho cercato altre sue canzoni online."
-        },
-        {
-          "text": "Mi piace usare i media in questo modo: non solo per passare il tempo, ma anche per scoprire idee e culture diverse."
-        },
-        {
-          "text": "A volte leggo recensioni sui giornali, ma preferisco formarmi un’opinione personale dopo aver visto o ascoltato qualcosa."
-        },
-        {
-          "text": "Alla fine della serata, io e i miei amici abbiamo discusso del film davanti a una pizza."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel mio quartiere hanno aperto un piccolo cinema che proietta film italiani ed _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Cultura e media», un piccolo gruppo della comunità parla di notizia, fonte e _____.”",
         "options": [
-          "europei",
-          "conversazione",
-          "documentario",
-          "incuriosito"
+          "pubblico",
+          "un'esperienza",
+          "media",
+          "parla"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“La settimana _____ abbiamo visto un documentario su una musicista siciliana.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "conversazione",
-          "scorsa",
-          "documentario",
-          "incuriosito"
+          "un'esperienza",
+          "persona",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace usare i media in questo modo: non solo per passare il tempo, ma anche per scoprire idee e culture _____.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "conversazione",
-          "documentario",
-          "diverse",
-          "incuriosito"
+          "un'esperienza",
+          "collaborare",
+          "perché",
+          "migliorare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“_____ fine della serata, io e i miei amici abbiamo discusso del film davanti a una pizza.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "conversazione",
-          "documentario",
-          "incuriosito",
-          "Alla"
+          "un'esperienza",
+          "collaborare",
+          "migliorare",
+          "gruppo"
         ]
       }
     ]
@@ -14411,27 +14202,39 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "In una vecchia fabbrica vicino alla stazione ha aperto un laboratorio dove gli oggetti rotti vengono riparati invece di essere buttati via. Ci lavorano artigiani, studenti e pensionati con competenze molto diverse. Una signora ha portato una lampada ereditata dalla madre; un ragazzo voleva aggiustare il suo computer; io ho portato una sedia con una gamba instabile. L’obiettivo non è soltanto risparmiare denaro. Riparare un oggetto permette di capire come è stato costruito e di riflettere sul valore delle cose che compriamo. Il laboratorio organizza anche corsi per le scuole, perché la sostenibilità diventi una capacità pratica e non solo una parola ripetuta nei discorsi pubblici.",
+    "transcript": "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni. La prima osserva che impatto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
     "extra": {
-      "mainTranscript": "In una vecchia fabbrica vicino alla stazione ha aperto un laboratorio dove gli oggetti rotti vengono riparati invece di essere buttati via. Ci lavorano artigiani, studenti e pensionati con competenze molto diverse. Una signora ha portato una lampada ereditata dalla madre; un ragazzo voleva aggiustare il suo computer; io ho portato una sedia con una gamba instabile. L’obiettivo non è soltanto risparmiare denaro. Riparare un oggetto permette di capire come è stato costruito e di riflettere sul valore delle cose che compriamo. Il laboratorio organizza anche corsi per le scuole, perché la sostenibilità diventi una capacità pratica e non solo una parola ripetuta nei discorsi pubblici.",
+      "mainTranscript": "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni. La prima osserva che impatto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
       "transcriptSegments": [
         {
-          "text": "In una vecchia fabbrica vicino alla stazione ha aperto un laboratorio dove gli oggetti rotti vengono riparati invece di essere buttati via."
+          "id": "segment-01",
+          "order": 1,
+          "text": "In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro posizioni."
         },
         {
-          "text": "Ci lavorano artigiani, studenti e pensionati con competenze molto diverse."
+          "id": "segment-02",
+          "order": 2,
+          "text": "La prima osserva che impatto non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
         },
         {
-          "text": "Una signora ha portato una lampada ereditata dalla madre; un ragazzo voleva aggiustare il suo computer; io ho portato una sedia con una gamba instabile."
+          "id": "segment-03",
+          "order": 3,
+          "text": "L’altro aggiunge che raccolta è utile solo se viene spiegato con esempi verificabili."
         },
         {
-          "text": "L’obiettivo non è soltanto risparmiare denaro."
+          "id": "segment-04",
+          "order": 4,
+          "text": "Nel confronto emerge una possibile difficoltà: spreco può cambiare la prospettiva di chi ascolta."
         },
         {
-          "text": "Riparare un oggetto permette di capire come è stato costruito e di riflettere sul valore delle cose che compriamo."
+          "id": "segment-05",
+          "order": 5,
+          "text": "Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile."
         },
         {
-          "text": "Il laboratorio organizza anche corsi per le scuole, perché la sostenibilità diventi una capacità pratica e non solo una parola ripetuta nei discorsi pubblici."
+          "id": "segment-06",
+          "order": 6,
+          "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         }
       ],
       "listeningType": "story",
@@ -14442,92 +14245,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In una vecchia fabbrica vicino alla stazione ha aperto un laboratorio dove gli oggetti rotti vengono riparati invece di essere _____ via.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "buttati"
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "sostenibilità"
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "laboratorio"
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "L’obiettivo"
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Una _____ ha portato una lampada ereditata dalla madre; un ragazzo voleva aggiustare il suo computer; io ho portato una sedia con una gamba instabile.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che raccolta è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "sostenibilità"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "signora"
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "laboratorio"
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "L’obiettivo"
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“L’obiettivo non è soltanto risparmiare _____.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: spreco può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "sostenibilità"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "laboratorio"
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "denaro"
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "L’obiettivo"
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Il laboratorio organizza anche corsi per le scuole, perché la sostenibilità _____ una capacità pratica e non solo una parola ripetuta nei discorsi pubblici.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "sostenibilità"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "laboratorio"
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "L’obiettivo"
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "diventi"
+                "text": "scelte"
               }
             ]
           }
@@ -14547,42 +14350,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In una vecchia fabbrica vicino alla stazione ha aperto un laboratorio dove gli oggetti rotti vengono riparati invece di essere _____ via.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Ambiente e consumi, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "buttati",
-          "sostenibilità",
-          "laboratorio",
-          "L’obiettivo"
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Una _____ ha portato una lampada ereditata dalla madre; un ragazzo voleva aggiustare il suo computer; io ho portato una sedia con una gamba instabile.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che raccolta è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "sostenibilità",
-          "signora",
-          "laboratorio",
-          "L’obiettivo"
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“L’obiettivo non è soltanto risparmiare _____.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: spreco può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "sostenibilità",
-          "laboratorio",
-          "denaro",
-          "L’obiettivo"
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Il laboratorio organizza anche corsi per le scuole, perché la sostenibilità _____ una capacità pratica e non solo una parola ripetuta nei discorsi pubblici.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "sostenibilità",
-          "laboratorio",
-          "L’obiettivo",
-          "diventi"
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -15045,7 +14848,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Il sabato mattina vado al mercato con una borsa grande. Oggi compro un chilo di pomodori, mezzo chilo di mele e quattro zucchine. I pomodori sono freschi e arrivano da una fattoria vicino alla città. Al mercato ci sono anche pane, formaggio, fiori e molta frutta colorata. Mi piace parlare con i venditori e scegliere i prodotti con calma. Alla fine pago sei euro, metto tutto nella borsa e torno a casa per preparare il pranzo.",
+    "transcript": "Quanto costa un chilo? Parliamo di pomodoro. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a1-il-mercato-del-sabato-listening-listening-comprehension",
@@ -15054,11 +14857,11 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Il sabato mattina vado al mercato con una borsa _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ costa un chilo?”",
             "options": [
               {
                 "id": "o1",
-                "text": "grande"
+                "text": "Quanto"
               },
               {
                 "id": "o2",
@@ -15066,45 +14869,45 @@
               },
               {
                 "id": "o3",
-                "text": "una"
+                "text": "Parliamo"
               },
               {
                 "id": "o4",
-                "text": "formaggio"
+                "text": "pomodoro"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“I pomodori sono _____ e arrivano da una fattoria vicino alla città.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "vado"
+                "text": "costa"
               },
               {
                 "id": "o2",
-                "text": "freschi"
+                "text": "pomodoro"
               },
               {
                 "id": "o3",
-                "text": "Oggi"
+                "text": "chilo"
               },
               {
                 "id": "o4",
-                "text": "mele"
+                "text": "piace"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Al mercato ci sono anche pane, formaggio, fiori e molta frutta _____.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "borsa"
+                "text": "costa"
               },
               {
                 "id": "o2",
@@ -15112,101 +14915,80 @@
               },
               {
                 "id": "o3",
-                "text": "colorata"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "mezzo"
+                "text": "piace"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine pago sei euro, metto tutto nella borsa e torno a casa per preparare il _____.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "con"
+                "text": "costa"
               },
               {
                 "id": "o2",
-                "text": "una"
+                "text": "chilo"
               },
               {
                 "id": "o3",
-                "text": "formaggio"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "pranzo"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Il sabato mattina vado al mercato con una borsa grande. Oggi compro un chilo di pomodori, mezzo chilo di mele e quattro zucchine. I pomodori sono freschi e arrivano da una fattoria vicino alla città. Al mercato ci sono anche pane, formaggio, fiori e molta frutta colorata. Mi piace parlare con i venditori e scegliere i prodotti con calma. Alla fine pago sei euro, metto tutto nella borsa e torno a casa per preparare il pranzo.",
-      "transcriptSegments": [
-        {
-          "text": "Il sabato mattina vado al mercato con una borsa grande."
-        },
-        {
-          "text": "Oggi compro un chilo di pomodori, mezzo chilo di mele e quattro zucchine."
-        },
-        {
-          "text": "I pomodori sono freschi e arrivano da una fattoria vicino alla città."
-        },
-        {
-          "text": "Al mercato ci sono anche pane, formaggio, fiori e molta frutta colorata."
-        },
-        {
-          "text": "Mi piace parlare con i venditori e scegliere i prodotti con calma."
-        },
-        {
-          "text": "Alla fine pago sei euro, metto tutto nella borsa e torno a casa per preparare il pranzo."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Il sabato mattina vado al mercato con una borsa _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ costa un chilo?”",
         "options": [
-          "grande",
+          "Quanto",
           "con",
-          "una",
-          "formaggio"
+          "Parliamo",
+          "pomodoro"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“I pomodori sono _____ e arrivano da una fattoria vicino alla città.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "vado",
-          "freschi",
-          "Oggi",
-          "mele"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Al mercato ci sono anche pane, formaggio, fiori e molta frutta _____.”",
-        "options": [
-          "borsa",
+          "costa",
+          "pomodoro",
           "chilo",
-          "colorata",
-          "mezzo"
+          "piace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine pago sei euro, metto tutto nella borsa e torno a casa per preparare il _____.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "con",
-          "una",
-          "formaggio",
-          "pranzo"
+          "costa",
+          "chilo",
+          "comunità",
+          "piace"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "options": [
+          "costa",
+          "chilo",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -15255,7 +15037,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Lavoro in una libreria nel centro di Torino. Ogni mattina apro alle nove, preparo la vetrina e controllo se sono arrivati libri nuovi. Mi piace aiutare i clienti, soprattutto quando cercano un regalo o un romanzo da leggere in vacanza. Verso le undici faccio una breve pausa al bar vicino. Prendo un caffè, saluto il barista e parlo qualche minuto con la mia collega Elena. Nel pomeriggio arrivano spesso studenti e famiglie. A volte consiglio un dizionario italiano a chi studia la lingua. Quando chiudo la libreria, prendo il tram e torno a casa soddisfatto, anche se sono un po’ stanco.",
+    "transcript": "Posso fare una pausa? Parliamo di collega. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a2-il-lavoro-e-il-caffe-listening-listening-comprehension",
@@ -15264,165 +15046,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Lavoro in una libreria nel centro di _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ fare una pausa?”",
             "options": [
               {
                 "id": "o1",
-                "text": "Torino"
+                "text": "Posso"
               },
               {
                 "id": "o2",
-                "text": "soprattutto"
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "soddisfatto"
+                "text": "imparare"
               },
               {
                 "id": "o4",
-                "text": "pomeriggio"
+                "text": "comunità"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Mi piace aiutare i _____, soprattutto quando cercano un regalo o un romanzo da leggere in vacanza.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "soprattutto"
+                "text": "fare"
               },
               {
                 "id": "o2",
-                "text": "clienti"
+                "text": "collega"
               },
               {
                 "id": "o3",
-                "text": "soddisfatto"
+                "text": "Posso"
               },
               {
                 "id": "o4",
-                "text": "Ogni"
+                "text": "pausa"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel pomeriggio arrivano _____ studenti e famiglie.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "soprattutto"
+                "text": "Posso"
               },
               {
                 "id": "o2",
-                "text": "soddisfatto"
+                "text": "pausa"
               },
               {
                 "id": "o3",
-                "text": "spesso"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "pomeriggio"
+                "text": "piace"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Quando _____ la libreria, prendo il tram e torno a casa soddisfatto, anche se sono un po’ stanco.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "soprattutto"
+                "text": "fare"
               },
               {
                 "id": "o2",
-                "text": "soddisfatto"
+                "text": "Posso"
               },
               {
                 "id": "o3",
-                "text": "pomeriggio"
+                "text": "pausa"
               },
               {
                 "id": "o4",
-                "text": "chiudo"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Lavoro in una libreria nel centro di Torino. Ogni mattina apro alle nove, preparo la vetrina e controllo se sono arrivati libri nuovi. Mi piace aiutare i clienti, soprattutto quando cercano un regalo o un romanzo da leggere in vacanza. Verso le undici faccio una breve pausa al bar vicino. Prendo un caffè, saluto il barista e parlo qualche minuto con la mia collega Elena. Nel pomeriggio arrivano spesso studenti e famiglie. A volte consiglio un dizionario italiano a chi studia la lingua. Quando chiudo la libreria, prendo il tram e torno a casa soddisfatto, anche se sono un po’ stanco.",
-      "transcriptSegments": [
-        {
-          "text": "Lavoro in una libreria nel centro di Torino."
-        },
-        {
-          "text": "Ogni mattina apro alle nove, preparo la vetrina e controllo se sono arrivati libri nuovi."
-        },
-        {
-          "text": "Mi piace aiutare i clienti, soprattutto quando cercano un regalo o un romanzo da leggere in vacanza."
-        },
-        {
-          "text": "Verso le undici faccio una breve pausa al bar vicino."
-        },
-        {
-          "text": "Prendo un caffè, saluto il barista e parlo qualche minuto con la mia collega Elena."
-        },
-        {
-          "text": "Nel pomeriggio arrivano spesso studenti e famiglie."
-        },
-        {
-          "text": "A volte consiglio un dizionario italiano a chi studia la lingua."
-        },
-        {
-          "text": "Quando chiudo la libreria, prendo il tram e torno a casa soddisfatto, anche se sono un po’ stanco."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Lavoro in una libreria nel centro di _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ fare una pausa?”",
         "options": [
-          "Torino",
-          "soprattutto",
-          "soddisfatto",
-          "pomeriggio"
+          "Posso",
+          "Parliamo",
+          "imparare",
+          "comunità"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Mi piace aiutare i _____, soprattutto quando cercano un regalo o un romanzo da leggere in vacanza.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "soprattutto",
-          "clienti",
-          "soddisfatto",
-          "Ogni"
+          "fare",
+          "collega",
+          "Posso",
+          "pausa"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel pomeriggio arrivano _____ studenti e famiglie.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "soprattutto",
-          "soddisfatto",
-          "spesso",
-          "pomeriggio"
+          "Posso",
+          "pausa",
+          "comunità",
+          "piace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Quando _____ la libreria, prendo il tram e torno a casa soddisfatto, anche se sono un po’ stanco.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "soprattutto",
-          "soddisfatto",
-          "pomeriggio",
-          "chiudo"
+          "fare",
+          "Posso",
+          "pausa",
+          "pratica"
         ]
       }
     ]
@@ -15785,11 +15540,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: notizia». Puoi aiutarmi?"
+        "line": "Vorrei esprimere opinioni su cultura e informazione. Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+        "line": "Sì, certo. Parliamone passo dopo passo."
       }
     ],
     "reading": null,
@@ -16024,16 +15779,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Quanto costa un chilo». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -16065,16 +15811,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Posso fare una pausa». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -16830,33 +16567,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "il-mercato-del-sabato",
-    "title": "Il mercato del sabato: grammatica",
+    "title": "Domande con quanto e quale",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 44,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Fare acquisti.",
+    "intro": "Fare acquisti.",
+    "mission": "Aprende domande con quanto e quale y úsalo en una frase sobre frutta, verdura e prezzi al mercato.",
+    "grammar": "Usa quanto per prezzo o quantità e quale per scegliere.",
     "phrases": [
+      "Quanto costa un chilo?",
       "Quanto costa un chilo?"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Domande con quanto e quale",
+        "definition": "Usa quanto per prezzo o quantità e quale per scegliere.",
+        "structure": "Quanto costa un chilo?",
+        "function": "Fare acquisti.",
+        "examples": [
+          "Quanto costa un chilo?",
+          "Quanto costa un chilo?"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Quanto costa un chilo?",
+          "Quanto costa un chilo?",
           "pomodoro",
-          "mela",
-          "chilo"
+          "mela"
         ]
       },
       {
@@ -16881,7 +16632,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Quanto costa un chilo?",
           "chilo",
@@ -16896,33 +16647,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "il-lavoro-e-il-caffe",
-    "title": "Il lavoro e il caffè: grammatica",
+    "title": "Potere e dovere",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 44,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Interagire al lavoro.",
+    "intro": "Interagire al lavoro.",
+    "mission": "Aprende potere e dovere y úsalo en una frase sobre pausas laborales y registros de cortesía.",
+    "grammar": "Usa potere per il permesso e dovere per un consiglio.",
     "phrases": [
+      "Posso fare una pausa?",
       "Posso fare una pausa?"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Potere e dovere",
+        "definition": "Usa potere per il permesso e dovere per un consiglio.",
+        "structure": "Posso fare una pausa?",
+        "function": "Interagire al lavoro.",
+        "examples": [
+          "Posso fare una pausa?",
+          "Posso fare una pausa?"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Posso fare una pausa?",
+          "Posso fare una pausa?",
           "collega",
-          "pausa",
-          "riunione"
+          "pausa"
         ]
       },
       {
@@ -16947,7 +16712,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Posso fare una pausa?",
           "riunione",
@@ -17671,7 +17436,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 50,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Moverse por la ciudad en bicicleta",
     "intro": "Moverse por la ciudad en bicicleta",
     "mission": "",
@@ -17682,63 +17447,61 @@
     "reading": {
       "title": "In bicicletta",
       "parts": [
-        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
-        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
-        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+        "Sofia è em Bologna. Hoje descobre moverse por la ciudad en bicicleta. Encontra Marco e diz: “Dov’è la stazione?”. Os dois falam com respeito e aprendem quatro palavras novas: strada, piazza, stazione e bicicletta.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
+        "Al final, Sofia scrive una nota: “Dov’è la stazione?”."
       ],
       "questions": [
-        "Dove si trova Sofia?",
+        "Dove è Sofia?",
         "Con chi parla Sofia?",
-        "Che cosa fa Sofia se non capisce una parola?",
-        "Perché Sofia ripete le parole?"
+        "Quale frase usa Sofia?",
+        "Perché l’esperienza è importante?"
       ],
-      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+      "text": "Sofia è em Bologna. Hoje descobre moverse por la ciudad en bicicleta. Encontra Marco e diz: “Dov’è la stazione?”. Os dois falam com respeito e aprendem quatro palavras novas: strada, piazza, stazione e bicicletta.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Dov’è la stazione?”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "italian-a1-in-bicicletta-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Dove si trova Sofia?",
+        "prompt": "Che cosa pratica l’unità?",
         "options": [
-          "Bologna",
-          "Roma",
-          "Milano",
-          "Napoli"
+          "chiedere indicazioni",
+          "Una regola isolata",
+          "Un esame tecnico",
+          "Un tema senza contesto"
         ]
       },
       {
-        "id": "italian-a1-in-bicicletta-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Con chi parla Sofia?",
+        "prompt": "Che cosa fa lo studente?",
+        "options": [
+          "chiedere indicazioni",
+          "Memorizza senza usare",
+          "Evita di parlare",
+          "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-in-bicicletta-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "Lucia",
-          "Paolo",
-          "Anna"
+          "Dov’è",
+          "Sofia",
+          "frase"
         ]
       },
       {
-        "id": "italian-a1-in-bicicletta-reading-reading-comprehension-3",
+        "id": "italian-a1-in-bicicletta-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Che cosa fa Sofia se non capisce una parola?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia _____ una nota: “Dov’è la stazione?”.”",
         "options": [
-          "Chiede di ripetere",
-          "Va via subito",
-          "Non ascolta",
-          "Cambia città"
-        ]
-      },
-      {
-        "id": "italian-a1-in-bicicletta-reading-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Perché Sofia ripete le parole?",
-        "options": [
-          "Per sentirsi più sicura",
-          "Per fare un esame tecnico",
-          "Per comprare un biglietto",
-          "Per evitare Marco"
+          "Sofia",
+          "Bologna",
+          "Marco",
+          "scrive"
         ]
       }
     ]
@@ -17839,15 +17602,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "ambiente-nel-quartiere",
-    "title": "Ambiente nel quartiere: grammatica",
+    "title": "Passivo e si impersonale",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 51,
     "estimatedMinutes": 10,
-    "description": "descrivere un problema ambientale e una proposta",
+    "description": "Tema gramatical: Passivo e si impersonale.",
     "intro": "descrivere un problema ambientale e una proposta",
-    "mission": "descrivere un problema ambientale e una proposta",
+    "mission": "Estudia Passivo e si impersonale y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Impariamo: rifiuto.",
@@ -18173,7 +17936,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Nel nostro quartiere c’era un giardino pubblico poco curato. I bambini non potevano giocare bene e molte persone lasciavano rifiuti vicino ai cancelli. Un gruppo di vicini ha deciso di cambiare la situazione. Abbiamo parlato con il comune, raccolto firme e organizzato una giornata di pulizia. Io ho aiutato a preparare i volantini e a distribuire sacchi e guanti. Dopo qualche mese, il comune ha aggiunto due panchine e alcuni contenitori per la raccolta differenziata. Adesso il giardino è più frequentato e, una volta al mese, ci incontriamo per controllare che tutto sia in ordine. Non abbiamo risolto ogni problema, ma abbiamo iniziato insieme. I bambini hanno persino proposto di piantare fiori vicino all’ingresso nella prossima primavera.",
+    "transcript": "Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e risorsa. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana. Poi il gruppo riassume le idee più importanti.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-b1-ambiente-nel-quartiere-listening-listening-comprehension",
@@ -18182,168 +17945,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel nostro quartiere c’era un giardino pubblico poco _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "curato"
+                "text": "risorsa"
               },
               {
                 "id": "o2",
-                "text": "differenziata"
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "all’ingresso"
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "organizzato"
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Abbiamo _____ con il comune, raccolto firme e organizzato una giornata di pulizia.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "differenziata"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "parlato"
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "all’ingresso"
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "organizzato"
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Dopo qualche mese, il comune ha _____ due panchine e alcuni contenitori per la raccolta differenziata.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "differenziata"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "all’ingresso"
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "aggiunto"
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "c’era"
+                "text": "migliorare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“I bambini hanno persino proposto di piantare fiori vicino _____ nella prossima primavera.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "quartiere"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "preparare"
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "volantini"
+                "text": "migliorare"
               },
               {
                 "id": "o4",
-                "text": "all’ingresso"
+                "text": "gruppo"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Nel nostro quartiere c’era un giardino pubblico poco curato. I bambini non potevano giocare bene e molte persone lasciavano rifiuti vicino ai cancelli. Un gruppo di vicini ha deciso di cambiare la situazione. Abbiamo parlato con il comune, raccolto firme e organizzato una giornata di pulizia. Io ho aiutato a preparare i volantini e a distribuire sacchi e guanti. Dopo qualche mese, il comune ha aggiunto due panchine e alcuni contenitori per la raccolta differenziata. Adesso il giardino è più frequentato e, una volta al mese, ci incontriamo per controllare che tutto sia in ordine. Non abbiamo risolto ogni problema, ma abbiamo iniziato insieme. I bambini hanno persino proposto di piantare fiori vicino all’ingresso nella prossima primavera.",
-      "transcriptSegments": [
-        {
-          "text": "Nel nostro quartiere c’era un giardino pubblico poco curato."
-        },
-        {
-          "text": "I bambini non potevano giocare bene e molte persone lasciavano rifiuti vicino ai cancelli."
-        },
-        {
-          "text": "Un gruppo di vicini ha deciso di cambiare la situazione."
-        },
-        {
-          "text": "Abbiamo parlato con il comune, raccolto firme e organizzato una giornata di pulizia."
-        },
-        {
-          "text": "Io ho aiutato a preparare i volantini e a distribuire sacchi e guanti."
-        },
-        {
-          "text": "Dopo qualche mese, il comune ha aggiunto due panchine e alcuni contenitori per la raccolta differenziata."
-        },
-        {
-          "text": "Adesso il giardino è più frequentato e, una volta al mese, ci incontriamo per controllare che tutto sia in ordine."
-        },
-        {
-          "text": "Non abbiamo risolto ogni problema, ma abbiamo iniziato insieme."
-        },
-        {
-          "text": "I bambini hanno persino proposto di piantare fiori vicino all’ingresso nella prossima primavera."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel nostro quartiere c’era un giardino pubblico poco _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Ambiente nel quartiere», un piccolo gruppo della comunità parla di rifiuto, raccolta e _____.”",
         "options": [
-          "curato",
-          "differenziata",
-          "all’ingresso",
-          "organizzato"
+          "risorsa",
+          "un'esperienza",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Abbiamo _____ con il comune, raccolto firme e organizzato una giornata di pulizia.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "differenziata",
-          "parlato",
-          "all’ingresso",
-          "organizzato"
+          "un'esperienza",
+          "persona",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Dopo qualche mese, il comune ha _____ due panchine e alcuni contenitori per la raccolta differenziata.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "differenziata",
-          "all’ingresso",
-          "aggiunto",
-          "c’era"
+          "un'esperienza",
+          "collaborare",
+          "perché",
+          "migliorare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“I bambini hanno persino proposto di piantare fiori vicino _____ nella prossima primavera.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "quartiere",
-          "preparare",
-          "volantini",
-          "all’ingresso"
+          "un'esperienza",
+          "collaborare",
+          "migliorare",
+          "gruppo"
         ]
       }
     ]
@@ -18595,27 +18328,39 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "La settimana scorsa ho assistito a un incontro tra ricercatori e cittadini sul tema delle nuove terapie mediche. Mi aspettavo una conferenza difficile da seguire, invece gli esperti hanno usato esempi semplici e hanno lasciato molto spazio alle domande. Una ricercatrice ha spiegato che la scienza non offre sempre risposte immediate, ma procede attraverso prove, dubbi e revisioni. Questa frase mi è rimasta impressa, perché spesso si cerca una certezza assoluta anche quando non è possibile averla. Comunicare bene la scienza non significa rendere tutto facile o nascondere le incertezze. Significa spiegare cosa sappiamo, cosa non sappiamo ancora e perché alcune conclusioni possono cambiare con nuove ricerche.",
+    "transcript": "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni. La prima osserva che fonte non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
     "extra": {
-      "mainTranscript": "La settimana scorsa ho assistito a un incontro tra ricercatori e cittadini sul tema delle nuove terapie mediche. Mi aspettavo una conferenza difficile da seguire, invece gli esperti hanno usato esempi semplici e hanno lasciato molto spazio alle domande. Una ricercatrice ha spiegato che la scienza non offre sempre risposte immediate, ma procede attraverso prove, dubbi e revisioni. Questa frase mi è rimasta impressa, perché spesso si cerca una certezza assoluta anche quando non è possibile averla. Comunicare bene la scienza non significa rendere tutto facile o nascondere le incertezze. Significa spiegare cosa sappiamo, cosa non sappiamo ancora e perché alcune conclusioni possono cambiare con nuove ricerche.",
+      "mainTranscript": "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni. La prima osserva che fonte non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
       "transcriptSegments": [
         {
-          "text": "La settimana scorsa ho assistito a un incontro tra ricercatori e cittadini sul tema delle nuove terapie mediche."
+          "id": "segment-01",
+          "order": 1,
+          "text": "In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro posizioni."
         },
         {
-          "text": "Mi aspettavo una conferenza difficile da seguire, invece gli esperti hanno usato esempi semplici e hanno lasciato molto spazio alle domande."
+          "id": "segment-02",
+          "order": 2,
+          "text": "La prima osserva che fonte non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
         },
         {
-          "text": "Una ricercatrice ha spiegato che la scienza non offre sempre risposte immediate, ma procede attraverso prove, dubbi e revisioni."
+          "id": "segment-03",
+          "order": 3,
+          "text": "L’altro aggiunge che notizia è utile solo se viene spiegato con esempi verificabili."
         },
         {
-          "text": "Questa frase mi è rimasta impressa, perché spesso si cerca una certezza assoluta anche quando non è possibile averla."
+          "id": "segment-04",
+          "order": 4,
+          "text": "Nel confronto emerge una possibile difficoltà: verificare può cambiare la prospettiva di chi ascolta."
         },
         {
-          "text": "Comunicare bene la scienza non significa rendere tutto facile o nascondere le incertezze."
+          "id": "segment-05",
+          "order": 5,
+          "text": "Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile."
         },
         {
-          "text": "Significa spiegare cosa sappiamo, cosa non sappiamo ancora e perché alcune conclusioni possono cambiare con nuove ricerche."
+          "id": "segment-06",
+          "order": 6,
+          "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         }
       ],
       "listeningType": "story",
@@ -18626,92 +18371,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“La settimana scorsa ho assistito a un incontro tra ricercatori e cittadini sul tema delle nuove terapie _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "mediche"
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "ricercatrice"
+                "text": "informazione"
               },
               {
                 "id": "o3",
-                "text": "ricercatori"
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "conclusioni"
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Una _____ ha spiegato che la scienza non offre sempre risposte immediate, ma procede attraverso prove, dubbi e revisioni.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che notizia è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "settimana"
+                "text": "informazione"
               },
               {
                 "id": "o2",
-                "text": "ricercatrice"
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "assistito"
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "cittadini"
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Questa frase mi è rimasta impressa, perché _____ si cerca una certezza assoluta anche quando non è possibile averla.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: verificare può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "ricercatrice"
+                "text": "informazione"
               },
               {
                 "id": "o2",
-                "text": "ricercatori"
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "spesso"
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "conclusioni"
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Significa spiegare cosa sappiamo, cosa non sappiamo ancora e _____ alcune conclusioni possono cambiare con nuove ricerche.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "ricercatrice"
+                "text": "informazione"
               },
               {
                 "id": "o2",
-                "text": "ricercatori"
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "conclusioni"
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "perché"
+                "text": "scelte"
               }
             ]
           }
@@ -18731,42 +18476,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“La settimana scorsa ho assistito a un incontro tra ricercatori e cittadini sul tema delle nuove terapie _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Media e informazione, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "mediche",
-          "ricercatrice",
-          "ricercatori",
-          "conclusioni"
+          "posizioni",
+          "informazione",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Una _____ ha spiegato che la scienza non offre sempre risposte immediate, ma procede attraverso prove, dubbi e revisioni.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che notizia è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "settimana",
-          "ricercatrice",
-          "assistito",
-          "cittadini"
+          "informazione",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Questa frase mi è rimasta impressa, perché _____ si cerca una certezza assoluta anche quando non è possibile averla.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: verificare può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "ricercatrice",
-          "ricercatori",
-          "spesso",
-          "conclusioni"
+          "informazione",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Significa spiegare cosa sappiamo, cosa non sappiamo ancora e _____ alcune conclusioni possono cambiare con nuove ricerche.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "ricercatrice",
-          "ricercatori",
-          "conclusioni",
-          "perché"
+          "informazione",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -19229,7 +18974,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Ogni mattina Paolo va al lavoro in bicicletta. Abita a dieci minuti dal suo ufficio e preferisce non usare la macchina. Esce di casa alle otto, attraversa un piccolo parco e passa davanti alla stazione. Oggi il cielo è azzurro e l’aria è fresca. Paolo vede molte persone: una ragazza corre, un signore porta a spasso il cane e due bambini aspettano l’autobus. Quando arriva in ufficio, mette la bicicletta vicino alla porta e saluta i suoi colleghi.",
+    "transcript": "Dov’è la stazione? Parliamo di strada. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a1-in-bicicletta-listening-listening-comprehension",
@@ -19238,159 +18983,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Ogni mattina Paolo va al lavoro in _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Dov’è la _____?”",
             "options": [
               {
                 "id": "o1",
-                "text": "bicicletta"
+                "text": "stazione"
               },
               {
                 "id": "o2",
-                "text": "mattina"
+                "text": "Dov’è"
               },
               {
                 "id": "o3",
-                "text": "ufficio"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "piccolo"
+                "text": "strada"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Esce di casa alle otto, _____ un piccolo parco e passa davanti alla stazione.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "mattina"
+                "text": "con"
               },
               {
                 "id": "o2",
-                "text": "attraversa"
+                "text": "strada"
               },
               {
                 "id": "o3",
-                "text": "ufficio"
+                "text": "stazione"
               },
               {
                 "id": "o4",
-                "text": "piccolo"
+                "text": "Parliamo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Oggi il cielo è azzurro e l’aria è _____.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "bicicletta"
+                "text": "Dov’è"
               },
               {
                 "id": "o2",
-                "text": "preferisce"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "fresca"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "attraversa"
+                "text": "strada"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Quando arriva in ufficio, mette la bicicletta vicino alla porta e saluta i suoi _____.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Paolo"
+                "text": "Dov’è"
               },
               {
                 "id": "o2",
-                "text": "Abita"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "dieci"
+                "text": "stazione"
               },
               {
                 "id": "o4",
-                "text": "colleghi"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Ogni mattina Paolo va al lavoro in bicicletta. Abita a dieci minuti dal suo ufficio e preferisce non usare la macchina. Esce di casa alle otto, attraversa un piccolo parco e passa davanti alla stazione. Oggi il cielo è azzurro e l’aria è fresca. Paolo vede molte persone: una ragazza corre, un signore porta a spasso il cane e due bambini aspettano l’autobus. Quando arriva in ufficio, mette la bicicletta vicino alla porta e saluta i suoi colleghi.",
-      "transcriptSegments": [
-        {
-          "text": "Ogni mattina Paolo va al lavoro in bicicletta."
-        },
-        {
-          "text": "Abita a dieci minuti dal suo ufficio e preferisce non usare la macchina."
-        },
-        {
-          "text": "Esce di casa alle otto, attraversa un piccolo parco e passa davanti alla stazione."
-        },
-        {
-          "text": "Oggi il cielo è azzurro e l’aria è fresca."
-        },
-        {
-          "text": "Paolo vede molte persone: una ragazza corre, un signore porta a spasso il cane e due bambini aspettano l’autobus."
-        },
-        {
-          "text": "Quando arriva in ufficio, mette la bicicletta vicino alla porta e saluta i suoi colleghi."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Ogni mattina Paolo va al lavoro in _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Dov’è la _____?”",
         "options": [
-          "bicicletta",
-          "mattina",
-          "ufficio",
-          "piccolo"
+          "stazione",
+          "Dov’è",
+          "piace",
+          "strada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Esce di casa alle otto, _____ un piccolo parco e passa davanti alla stazione.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "mattina",
-          "attraversa",
-          "ufficio",
-          "piccolo"
+          "con",
+          "strada",
+          "stazione",
+          "Parliamo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Oggi il cielo è azzurro e l’aria è _____.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "bicicletta",
-          "preferisce",
-          "fresca",
-          "attraversa"
+          "Dov’è",
+          "piace",
+          "comunità",
+          "strada"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Quando arriva in ufficio, mette la bicicletta vicino alla porta e saluta i suoi _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Paolo",
-          "Abita",
-          "dieci",
-          "colleghi"
+          "Dov’è",
+          "piace",
+          "stazione",
+          "pratica"
         ]
       }
     ]
@@ -19439,7 +19163,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Nel mio quartiere di Milano un vecchio edificio è diventato un centro culturale. Prima era chiuso e un po’ triste, ma adesso è un luogo pieno di vita. Ogni settimana propone mostre, musica e laboratori per bambini e adulti. Sabato scorso ho visto fotografie di giovani artisti italiani. Le immagini raccontavano città, piccoli paesi e il mare in inverno. Ho parlato con una volontaria che si chiama Marta. Mi ha spiegato che il primo venerdì del mese l’ingresso è gratuito e che ci sono anche visite guidate. Mi è piaciuta molto l’atmosfera del posto. Il mese prossimo tornerò con due amici per vedere una mostra di pittura.",
+    "transcript": "La mostra era interessante. Parliamo di mostra. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a2-arte-nel-quartiere-listening-listening-comprehension",
@@ -19448,168 +19172,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel mio quartiere di Milano un vecchio edificio è diventato un centro _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“La mostra era _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "culturale"
+                "text": "interessante"
               },
               {
                 "id": "o2",
-                "text": "Milano"
+                "text": "mostra"
               },
               {
                 "id": "o3",
-                "text": "centro"
+                "text": "era"
               },
               {
                 "id": "o4",
-                "text": "chiuso"
+                "text": "Parliamo"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Sabato _____ ho visto fotografie di giovani artisti italiani.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "raccontavano"
+                "text": "interessante"
               },
               {
                 "id": "o2",
-                "text": "scorso"
+                "text": "mostra"
               },
               {
                 "id": "o3",
-                "text": "l’atmosfera"
+                "text": "era"
               },
               {
                 "id": "o4",
-                "text": "laboratori"
+                "text": "con"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Ho parlato con una volontaria che si chiama _____.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "raccontavano"
+                "text": "interessante"
               },
               {
                 "id": "o2",
-                "text": "l’atmosfera"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Marta"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "laboratori"
+                "text": "mostra"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Il mese _____ tornerò con due amici per vedere una mostra di pittura.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "raccontavano"
+                "text": "interessante"
               },
               {
                 "id": "o2",
-                "text": "Prima"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "luogo"
+                "text": "mostra"
               },
               {
                 "id": "o4",
-                "text": "prossimo"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Nel mio quartiere di Milano un vecchio edificio è diventato un centro culturale. Prima era chiuso e un po’ triste, ma adesso è un luogo pieno di vita. Ogni settimana propone mostre, musica e laboratori per bambini e adulti. Sabato scorso ho visto fotografie di giovani artisti italiani. Le immagini raccontavano città, piccoli paesi e il mare in inverno. Ho parlato con una volontaria che si chiama Marta. Mi ha spiegato che il primo venerdì del mese l’ingresso è gratuito e che ci sono anche visite guidate. Mi è piaciuta molto l’atmosfera del posto. Il mese prossimo tornerò con due amici per vedere una mostra di pittura.",
-      "transcriptSegments": [
-        {
-          "text": "Nel mio quartiere di Milano un vecchio edificio è diventato un centro culturale."
-        },
-        {
-          "text": "Prima era chiuso e un po’ triste, ma adesso è un luogo pieno di vita."
-        },
-        {
-          "text": "Ogni settimana propone mostre, musica e laboratori per bambini e adulti."
-        },
-        {
-          "text": "Sabato scorso ho visto fotografie di giovani artisti italiani."
-        },
-        {
-          "text": "Le immagini raccontavano città, piccoli paesi e il mare in inverno."
-        },
-        {
-          "text": "Ho parlato con una volontaria che si chiama Marta."
-        },
-        {
-          "text": "Mi ha spiegato che il primo venerdì del mese l’ingresso è gratuito e che ci sono anche visite guidate."
-        },
-        {
-          "text": "Mi è piaciuta molto l’atmosfera del posto."
-        },
-        {
-          "text": "Il mese prossimo tornerò con due amici per vedere una mostra di pittura."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel mio quartiere di Milano un vecchio edificio è diventato un centro _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“La mostra era _____.”",
         "options": [
-          "culturale",
-          "Milano",
-          "centro",
-          "chiuso"
+          "interessante",
+          "mostra",
+          "era",
+          "Parliamo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Sabato _____ ho visto fotografie di giovani artisti italiani.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "raccontavano",
-          "scorso",
-          "l’atmosfera",
-          "laboratori"
+          "interessante",
+          "mostra",
+          "era",
+          "con"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Ho parlato con una volontaria che si chiama _____.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "raccontavano",
-          "l’atmosfera",
-          "Marta",
-          "laboratori"
+          "interessante",
+          "piace",
+          "comunità",
+          "mostra"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Il mese _____ tornerò con due amici per vedere una mostra di pittura.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "raccontavano",
-          "Prima",
-          "luogo",
-          "prossimo"
+          "interessante",
+          "piace",
+          "mostra",
+          "pratica"
         ]
       }
     ]
@@ -19972,11 +19666,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: rifiuto». Puoi aiutarmi?"
+        "line": "Vorrei descrivere un problema ambientale e una proposta. Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+        "line": "Sì, certo. Parliamone passo dopo passo."
       }
     ],
     "reading": null,
@@ -20211,16 +19905,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Dov’è la stazione». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -20252,16 +19937,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «La mostra era interessante». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -21017,33 +20693,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "in-bicicletta",
-    "title": "In bicicletta: grammatica",
+    "title": "Dov’è? e preposizioni di luogo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 54,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Chiedere indicazioni.",
+    "intro": "Chiedere indicazioni.",
+    "mission": "Aprende dov’è? e preposizioni di luogo y úsalo en una frase sobre moverse por la ciudad en bicicleta.",
+    "grammar": "Usa in, vicino a e accanto a per localizzare.",
     "phrases": [
+      "Dov’è la stazione?",
       "Dov’è la stazione?"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Dov’è? e preposizioni di luogo",
+        "definition": "Usa in, vicino a e accanto a per localizzare.",
+        "structure": "Dov’è la stazione?",
+        "function": "Chiedere indicazioni.",
+        "examples": [
+          "Dov’è la stazione?",
+          "Dov’è la stazione?"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Dov’è la stazione?",
+          "Dov’è la stazione?",
           "strada",
-          "piazza",
-          "stazione"
+          "piazza"
         ]
       },
       {
@@ -21068,7 +20758,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Dov’è la stazione?",
           "stazione",
@@ -21083,33 +20773,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "arte-nel-quartiere",
-    "title": "Arte nel quartiere: grammatica",
+    "title": "Passato prossimo e imperfetto",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 54,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Dare un’opinione.",
+    "intro": "Dare un’opinione.",
+    "mission": "Aprende passato prossimo e imperfetto y úsalo en una frase sobre arte local y espacios compartidos.",
+    "grammar": "Distingui fatto concluso e descrizione.",
     "phrases": [
+      "La mostra era interessante.",
       "La mostra era interessante."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Passato prossimo e imperfetto",
+        "definition": "Distingui fatto concluso e descrizione.",
+        "structure": "La mostra era interessante.",
+        "function": "Dare un’opinione.",
+        "examples": [
+          "La mostra era interessante.",
+          "La mostra era interessante."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "La mostra era interessante.",
+          "La mostra era interessante.",
           "mostra",
-          "artista",
-          "piazza"
+          "artista"
         ]
       },
       {
@@ -21134,7 +20838,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "La mostra era interessante.",
           "piazza",
@@ -21858,7 +21562,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 60,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "La vida escolar y una merienda",
     "intro": "La vida escolar y una merienda",
     "mission": "",
@@ -21869,63 +21573,61 @@
     "reading": {
       "title": "Scuola e amici",
       "parts": [
-        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
-        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
-        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+        "Sofia è em Bologna. Hoje descobre la vida escolar y una merienda. Encontra Marco e diz: “Che materia ti piace?”. Os dois falam com respeito e aprendem quatro palavras novas: scuola, amico, lezione e compito.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
+        "Al final, Sofia scrive una nota: “Che materia ti piace?”."
       ],
       "questions": [
-        "Dove si trova Sofia?",
+        "Dove è Sofia?",
         "Con chi parla Sofia?",
-        "Che cosa fa Sofia se non capisce una parola?",
-        "Perché Sofia ripete le parole?"
+        "Quale frase usa Sofia?",
+        "Perché l’esperienza è importante?"
       ],
-      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+      "text": "Sofia è em Bologna. Hoje descobre la vida escolar y una merienda. Encontra Marco e diz: “Che materia ti piace?”. Os dois falam com respeito e aprendem quatro palavras novas: scuola, amico, lezione e compito.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Che materia ti piace?”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "italian-a1-scuola-e-amici-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Dove si trova Sofia?",
+        "prompt": "Che cosa pratica l’unità?",
         "options": [
-          "Bologna",
-          "Roma",
-          "Milano",
-          "Napoli"
+          "hablar de gustos",
+          "Una regola isolata",
+          "Un esame tecnico",
+          "Un tema senza contesto"
         ]
       },
       {
-        "id": "italian-a1-scuola-e-amici-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Con chi parla Sofia?",
+        "prompt": "Che cosa fa lo studente?",
+        "options": [
+          "hablar de gustos",
+          "Memorizza senza usare",
+          "Evita di parlare",
+          "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-scuola-e-amici-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "Lucia",
-          "Paolo",
-          "Anna"
+          "piace",
+          "Sofia",
+          "frase"
         ]
       },
       {
-        "id": "italian-a1-scuola-e-amici-reading-reading-comprehension-3",
+        "id": "italian-a1-scuola-e-amici-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Che cosa fa Sofia se non capisce una parola?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia _____ una nota: “Che materia ti piace?”.”",
         "options": [
-          "Chiede di ripetere",
-          "Va via subito",
-          "Non ascolta",
-          "Cambia città"
-        ]
-      },
-      {
-        "id": "italian-a1-scuola-e-amici-reading-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Perché Sofia ripete le parole?",
-        "options": [
-          "Per sentirsi più sicura",
-          "Per fare un esame tecnico",
-          "Per comprare un biglietto",
-          "Per evitare Marco"
+          "Sofia",
+          "Bologna",
+          "Marco",
+          "scrive"
         ]
       }
     ]
@@ -22026,15 +21728,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "storie-e-memoria",
-    "title": "Storie e memoria: grammatica",
+    "title": "Trapassato prossimo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 61,
     "estimatedMinutes": 10,
-    "description": "narrare esperienze e collegarle al presente",
+    "description": "Tema gramatical: Trapassato prossimo.",
     "intro": "narrare esperienze e collegarle al presente",
-    "mission": "narrare esperienze e collegarle al presente",
+    "mission": "Estudia Trapassato prossimo y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Impariamo: memoria.",
@@ -22360,7 +22062,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Mio nonno conserva una vecchia fotografia in bianco e nero della sua prima bicicletta. Me l’ha mostrata durante una visita e mi ha raccontato che, da ragazzo, lavorava in un negozio lontano da casa. Ogni mattina pedalava per quasi mezz’ora, anche d’inverno. La bicicletta era semplice e spesso doveva ripararla da solo. Per lui non è soltanto un oggetto antico: rappresenta un periodo in cui ha imparato a essere indipendente. Dopo aver ascoltato la sua storia, ho registrato la sua voce con il telefono. Vorrei raccogliere altri ricordi della famiglia, perché le fotografie senza racconti non spiegano davvero chi siamo. La prossima volta gli chiederò anche di raccontarmi la storia della casa dove è cresciuto.",
+    "transcript": "Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e cambiamento. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana. Poi il gruppo riassume le idee più importanti.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-b1-storie-e-memoria-listening-listening-comprehension",
@@ -22369,165 +22071,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Mio nonno conserva una vecchia fotografia in bianco e nero della sua prima _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "bicicletta"
+                "text": "cambiamento"
               },
               {
                 "id": "o2",
-                "text": "vecchia"
+                "text": "comunità"
               },
               {
                 "id": "o3",
-                "text": "durante"
+                "text": "infanzia"
               },
               {
                 "id": "o4",
-                "text": "ragazzo"
+                "text": "racconta"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ pedalava per quasi mezz’ora, anche d’inverno.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "indipendente"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "mattina"
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "rappresenta"
+                "text": "cambiamento"
               },
               {
                 "id": "o4",
-                "text": "raccogliere"
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Dopo aver ascoltato la sua storia, ho _____ la sua voce con il telefono.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "vecchia"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "durante"
+                "text": "cambiamento"
               },
               {
                 "id": "o3",
-                "text": "registrato"
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "ragazzo"
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“La _____ volta gli chiederò anche di raccontarmi la storia della casa dove è cresciuto.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "indipendente"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "nonno"
+                "text": "cambiamento"
               },
               {
                 "id": "o3",
-                "text": "prima"
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "prossima"
+                "text": "gruppo"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Mio nonno conserva una vecchia fotografia in bianco e nero della sua prima bicicletta. Me l’ha mostrata durante una visita e mi ha raccontato che, da ragazzo, lavorava in un negozio lontano da casa. Ogni mattina pedalava per quasi mezz’ora, anche d’inverno. La bicicletta era semplice e spesso doveva ripararla da solo. Per lui non è soltanto un oggetto antico: rappresenta un periodo in cui ha imparato a essere indipendente. Dopo aver ascoltato la sua storia, ho registrato la sua voce con il telefono. Vorrei raccogliere altri ricordi della famiglia, perché le fotografie senza racconti non spiegano davvero chi siamo. La prossima volta gli chiederò anche di raccontarmi la storia della casa dove è cresciuto.",
-      "transcriptSegments": [
-        {
-          "text": "Mio nonno conserva una vecchia fotografia in bianco e nero della sua prima bicicletta."
-        },
-        {
-          "text": "Me l’ha mostrata durante una visita e mi ha raccontato che, da ragazzo, lavorava in un negozio lontano da casa."
-        },
-        {
-          "text": "Ogni mattina pedalava per quasi mezz’ora, anche d’inverno."
-        },
-        {
-          "text": "La bicicletta era semplice e spesso doveva ripararla da solo."
-        },
-        {
-          "text": "Per lui non è soltanto un oggetto antico: rappresenta un periodo in cui ha imparato a essere indipendente."
-        },
-        {
-          "text": "Dopo aver ascoltato la sua storia, ho registrato la sua voce con il telefono."
-        },
-        {
-          "text": "Vorrei raccogliere altri ricordi della famiglia, perché le fotografie senza racconti non spiegano davvero chi siamo."
-        },
-        {
-          "text": "La prossima volta gli chiederò anche di raccontarmi la storia della casa dove è cresciuto."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Mio nonno conserva una vecchia fotografia in bianco e nero della sua prima _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Storie e memoria», un piccolo gruppo della comunità parla di memoria, infanzia e _____.”",
         "options": [
-          "bicicletta",
-          "vecchia",
-          "durante",
-          "ragazzo"
+          "cambiamento",
+          "comunità",
+          "infanzia",
+          "racconta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ pedalava per quasi mezz’ora, anche d’inverno.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "indipendente",
-          "mattina",
-          "rappresenta",
-          "raccogliere"
+          "un'esperienza",
+          "persona",
+          "cambiamento",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Dopo aver ascoltato la sua storia, ho _____ la sua voce con il telefono.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "vecchia",
-          "durante",
-          "registrato",
-          "ragazzo"
+          "un'esperienza",
+          "cambiamento",
+          "perché",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“La _____ volta gli chiederò anche di raccontarmi la storia della casa dove è cresciuto.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "indipendente",
-          "nonno",
-          "prima",
-          "prossima"
+          "un'esperienza",
+          "cambiamento",
+          "collaborare",
+          "gruppo"
         ]
       }
     ]
@@ -22779,27 +22454,39 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Nel mio comune è stato creato uno sportello di orientamento per le persone che devono usare i servizi sanitari. L’idea è nata perché molti cittadini, soprattutto gli anziani, trovavano difficile prenotare visite online o capire quali documenti servivano. I volontari non sostituiscono medici e infermieri, ma aiutano a leggere le informazioni e a trovare il servizio giusto. Ho accompagnato mia zia una mattina e ho visto quanto un piccolo aiuto possa ridurre la preoccupazione. La qualità della cura non dipende solo dalla competenza clinica. Dipende anche dalla chiarezza, dall’ascolto e dalla possibilità di accedere ai servizi senza sentirsi esclusi o confusi.",
+    "transcript": "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni. La prima osserva che benessere non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
     "extra": {
-      "mainTranscript": "Nel mio comune è stato creato uno sportello di orientamento per le persone che devono usare i servizi sanitari. L’idea è nata perché molti cittadini, soprattutto gli anziani, trovavano difficile prenotare visite online o capire quali documenti servivano. I volontari non sostituiscono medici e infermieri, ma aiutano a leggere le informazioni e a trovare il servizio giusto. Ho accompagnato mia zia una mattina e ho visto quanto un piccolo aiuto possa ridurre la preoccupazione. La qualità della cura non dipende solo dalla competenza clinica. Dipende anche dalla chiarezza, dall’ascolto e dalla possibilità di accedere ai servizi senza sentirsi esclusi o confusi.",
+      "mainTranscript": "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni. La prima osserva che benessere non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
       "transcriptSegments": [
         {
-          "text": "Nel mio comune è stato creato uno sportello di orientamento per le persone che devono usare i servizi sanitari."
+          "id": "segment-01",
+          "order": 1,
+          "text": "In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro posizioni."
         },
         {
-          "text": "L’idea è nata perché molti cittadini, soprattutto gli anziani, trovavano difficile prenotare visite online o capire quali documenti servivano."
+          "id": "segment-02",
+          "order": 2,
+          "text": "La prima osserva che benessere non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
         },
         {
-          "text": "I volontari non sostituiscono medici e infermieri, ma aiutano a leggere le informazioni e a trovare il servizio giusto."
+          "id": "segment-03",
+          "order": 3,
+          "text": "L’altro aggiunge che prevenzione è utile solo se viene spiegato con esempi verificabili."
         },
         {
-          "text": "Ho accompagnato mia zia una mattina e ho visto quanto un piccolo aiuto possa ridurre la preoccupazione."
+          "id": "segment-04",
+          "order": 4,
+          "text": "Nel confronto emerge una possibile difficoltà: riposo può cambiare la prospettiva di chi ascolta."
         },
         {
-          "text": "La qualità della cura non dipende solo dalla competenza clinica."
+          "id": "segment-05",
+          "order": 5,
+          "text": "Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile."
         },
         {
-          "text": "Dipende anche dalla chiarezza, dall’ascolto e dalla possibilità di accedere ai servizi senza sentirsi esclusi o confusi."
+          "id": "segment-06",
+          "order": 6,
+          "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         }
       ],
       "listeningType": "story",
@@ -22810,92 +22497,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel mio comune è stato creato uno sportello di orientamento per le persone che devono usare i servizi _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "sanitari"
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "preoccupazione"
+                "text": "Salute"
               },
               {
                 "id": "o3",
-                "text": "sostituiscono"
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "orientamento"
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“I volontari non _____ medici e infermieri, ma aiutano a leggere le informazioni e a trovare il servizio giusto.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che prevenzione è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "infermieri"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "sostituiscono"
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "competenza"
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "soprattutto"
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Ho accompagnato mia zia una mattina e ho visto quanto un _____ aiuto possa ridurre la preoccupazione.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: riposo può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "preoccupazione"
+                "text": "Salute"
               },
               {
                 "id": "o2",
-                "text": "sostituiscono"
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "piccolo"
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "orientamento"
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Dipende anche dalla chiarezza, dall’ascolto e dalla possibilità di accedere ai _____ senza sentirsi esclusi o confusi.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "preoccupazione"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "sostituiscono"
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "orientamento"
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "servizi"
+                "text": "scelte"
               }
             ]
           }
@@ -22915,42 +22602,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel mio comune è stato creato uno sportello di orientamento per le persone che devono usare i servizi _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Salute e benessere, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "sanitari",
-          "preoccupazione",
-          "sostituiscono",
-          "orientamento"
+          "posizioni",
+          "Salute",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“I volontari non _____ medici e infermieri, ma aiutano a leggere le informazioni e a trovare il servizio giusto.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che prevenzione è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "infermieri",
-          "sostituiscono",
-          "competenza",
-          "soprattutto"
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Ho accompagnato mia zia una mattina e ho visto quanto un _____ aiuto possa ridurre la preoccupazione.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: riposo può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "preoccupazione",
-          "sostituiscono",
-          "piccolo",
-          "orientamento"
+          "Salute",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Dipende anche dalla chiarezza, dall’ascolto e dalla possibilità di accedere ai _____ senza sentirsi esclusi o confusi.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "preoccupazione",
-          "sostituiscono",
-          "orientamento",
-          "servizi"
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -23413,7 +23100,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Oggi a scuola ho molti compiti di italiano. L’esercizio numero cinque è difficile, quindi durante la pausa vado in biblioteca con un amico per studiare. Dopo italiano abbiamo storia e poi educazione fisica. A me piace molto storia, ma mi piace anche giocare a pallavolo con la classe. La nostra insegnante è gentile e ci aiuta quando abbiamo un dubbio. Alla fine delle lezioni torno a casa e preparo lo zaino per domani.",
+    "transcript": "Che materia ti piace? Parliamo di scuola. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a1-scuola-e-amici-listening-listening-comprehension",
@@ -23422,159 +23109,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Oggi a scuola ho molti compiti di _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Che _____ ti piace?”",
             "options": [
               {
                 "id": "o1",
-                "text": "italiano"
+                "text": "materia"
               },
               {
                 "id": "o2",
-                "text": "molti"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "L’esercizio"
+                "text": "Parliamo"
               },
               {
                 "id": "o4",
-                "text": "pausa"
+                "text": "scuola"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Dopo _____ abbiamo storia e poi educazione fisica.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "molti"
+                "text": "Che"
               },
               {
                 "id": "o2",
-                "text": "italiano"
+                "text": "scuola"
               },
               {
                 "id": "o3",
-                "text": "L’esercizio"
+                "text": "con"
               },
               {
                 "id": "o4",
-                "text": "pausa"
+                "text": "Parliamo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“A me piace molto storia, ma mi piace anche giocare a pallavolo con la _____.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "L’esercizio"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "biblioteca"
+                "text": "scuola"
               },
               {
                 "id": "o3",
-                "text": "classe"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "educazione"
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine delle _____ torno a casa e preparo lo zaino per domani.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "L’esercizio"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Oggi"
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "vado"
+                "text": "scuola"
               },
               {
                 "id": "o4",
-                "text": "lezioni"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Oggi a scuola ho molti compiti di italiano. L’esercizio numero cinque è difficile, quindi durante la pausa vado in biblioteca con un amico per studiare. Dopo italiano abbiamo storia e poi educazione fisica. A me piace molto storia, ma mi piace anche giocare a pallavolo con la classe. La nostra insegnante è gentile e ci aiuta quando abbiamo un dubbio. Alla fine delle lezioni torno a casa e preparo lo zaino per domani.",
-      "transcriptSegments": [
-        {
-          "text": "Oggi a scuola ho molti compiti di italiano."
-        },
-        {
-          "text": "L’esercizio numero cinque è difficile, quindi durante la pausa vado in biblioteca con un amico per studiare."
-        },
-        {
-          "text": "Dopo italiano abbiamo storia e poi educazione fisica."
-        },
-        {
-          "text": "A me piace molto storia, ma mi piace anche giocare a pallavolo con la classe."
-        },
-        {
-          "text": "La nostra insegnante è gentile e ci aiuta quando abbiamo un dubbio."
-        },
-        {
-          "text": "Alla fine delle lezioni torno a casa e preparo lo zaino per domani."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Oggi a scuola ho molti compiti di _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Che _____ ti piace?”",
         "options": [
-          "italiano",
-          "molti",
-          "L’esercizio",
-          "pausa"
+          "materia",
+          "piace",
+          "Parliamo",
+          "scuola"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Dopo _____ abbiamo storia e poi educazione fisica.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "molti",
-          "italiano",
-          "L’esercizio",
-          "pausa"
+          "Che",
+          "scuola",
+          "con",
+          "Parliamo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“A me piace molto storia, ma mi piace anche giocare a pallavolo con la _____.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "L’esercizio",
-          "biblioteca",
-          "classe",
-          "educazione"
+          "piace",
+          "scuola",
+          "comunità",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine delle _____ torno a casa e preparo lo zaino per domani.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "L’esercizio",
-          "Oggi",
-          "vado",
-          "lezioni"
+          "piace",
+          "Parliamo",
+          "scuola",
+          "pratica"
         ]
       }
     ]
@@ -23623,7 +23289,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Quest’estate visiterò le Cinque Terre con due amici. Abbiamo scelto di viaggiare in treno, perché le strade sono piccole e in estate ci sono troppe macchine. Dormiremo in una pensione familiare, non in un grande hotel, e ogni mattina faremo colazione con prodotti locali. Porteremo una borraccia per non comprare molte bottiglie di plastica. Prima di partire leggeremo le regole dei sentieri e controlleremo il tempo. Non lasceremo rifiuti sulla spiaggia e non faremo rumore vicino alle case. Vorremmo anche comprare pane, frutta e souvenirs nei negozi del paese. Per me viaggiare bene significa conoscere un luogo e rispettare le persone e la natura.",
+    "transcript": "Non voglio disturbare i residenti. Parliamo di residente. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a2-viaggiare-con-responsabilita-listening-listening-comprehension",
@@ -23632,165 +23298,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Quest’estate visiterò le Cinque _____ con due amici.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Non voglio disturbare i _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Terre"
+                "text": "residenti"
               },
               {
                 "id": "o2",
-                "text": "controlleremo"
+                "text": "voglio"
               },
               {
                 "id": "o3",
-                "text": "Quest’estate"
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "rispettare"
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Dormiremo in una _____ familiare, non in un grande hotel, e ogni mattina faremo colazione con prodotti locali.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "controlleremo"
+                "text": "voglio"
               },
               {
                 "id": "o2",
-                "text": "pensione"
+                "text": "residente"
               },
               {
                 "id": "o3",
-                "text": "Quest’estate"
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "Terre"
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Non lasceremo rifiuti sulla _____ e non faremo rumore vicino alle case.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "controlleremo"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "Quest’estate"
+                "text": "voglio"
               },
               {
                 "id": "o3",
-                "text": "spiaggia"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Terre"
+                "text": "disturbare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Per me viaggiare bene significa conoscere un luogo e rispettare le _____ e la natura.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "controlleremo"
+                "text": "disturbare"
               },
               {
                 "id": "o2",
-                "text": "Quest’estate"
+                "text": "residenti"
               },
               {
                 "id": "o3",
-                "text": "ogni"
+                "text": "residente"
               },
               {
                 "id": "o4",
-                "text": "persone"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Quest’estate visiterò le Cinque Terre con due amici. Abbiamo scelto di viaggiare in treno, perché le strade sono piccole e in estate ci sono troppe macchine. Dormiremo in una pensione familiare, non in un grande hotel, e ogni mattina faremo colazione con prodotti locali. Porteremo una borraccia per non comprare molte bottiglie di plastica. Prima di partire leggeremo le regole dei sentieri e controlleremo il tempo. Non lasceremo rifiuti sulla spiaggia e non faremo rumore vicino alle case. Vorremmo anche comprare pane, frutta e souvenirs nei negozi del paese. Per me viaggiare bene significa conoscere un luogo e rispettare le persone e la natura.",
-      "transcriptSegments": [
-        {
-          "text": "Quest’estate visiterò le Cinque Terre con due amici."
-        },
-        {
-          "text": "Abbiamo scelto di viaggiare in treno, perché le strade sono piccole e in estate ci sono troppe macchine."
-        },
-        {
-          "text": "Dormiremo in una pensione familiare, non in un grande hotel, e ogni mattina faremo colazione con prodotti locali."
-        },
-        {
-          "text": "Porteremo una borraccia per non comprare molte bottiglie di plastica."
-        },
-        {
-          "text": "Prima di partire leggeremo le regole dei sentieri e controlleremo il tempo."
-        },
-        {
-          "text": "Non lasceremo rifiuti sulla spiaggia e non faremo rumore vicino alle case."
-        },
-        {
-          "text": "Vorremmo anche comprare pane, frutta e souvenirs nei negozi del paese."
-        },
-        {
-          "text": "Per me viaggiare bene significa conoscere un luogo e rispettare le persone e la natura."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Quest’estate visiterò le Cinque _____ con due amici.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Non voglio disturbare i _____.”",
         "options": [
-          "Terre",
-          "controlleremo",
-          "Quest’estate",
-          "rispettare"
+          "residenti",
+          "voglio",
+          "domani",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Dormiremo in una _____ familiare, non in un grande hotel, e ogni mattina faremo colazione con prodotti locali.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "controlleremo",
-          "pensione",
-          "Quest’estate",
-          "Terre"
+          "voglio",
+          "residente",
+          "domani",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Non lasceremo rifiuti sulla _____ e non faremo rumore vicino alle case.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "controlleremo",
-          "Quest’estate",
-          "spiaggia",
-          "Terre"
+          "piace",
+          "voglio",
+          "comunità",
+          "disturbare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Per me viaggiare bene significa conoscere un luogo e rispettare le _____ e la natura.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "controlleremo",
-          "Quest’estate",
-          "ogni",
-          "persone"
+          "disturbare",
+          "residenti",
+          "residente",
+          "pratica"
         ]
       }
     ]
@@ -24153,11 +23792,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: memoria». Puoi aiutarmi?"
+        "line": "Vorrei narrare esperienze e collegarle al presente. Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+        "line": "Sì, certo. Parliamone passo dopo passo."
       }
     ],
     "reading": null,
@@ -24392,16 +24031,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Che materia ti piace». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -24433,16 +24063,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Non voglio disturbare i residenti». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -25198,33 +24819,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "scuola-e-amici",
-    "title": "Scuola e amici: grammatica",
+    "title": "Piacere e infinito",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 64,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Parlare di gusti.",
+    "intro": "Parlare di gusti.",
+    "mission": "Aprende piacere e infinito y úsalo en una frase sobre la vida escolar y una merienda.",
+    "grammar": "Dopo piacere usa l’infinito.",
     "phrases": [
+      "Mi piace studiare italiano.",
       "Che materia ti piace?"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Piacere e infinito",
+        "definition": "Dopo piacere usa l’infinito.",
+        "structure": "Mi piace studiare italiano.",
+        "function": "Parlare di gusti.",
+        "examples": [
+          "Mi piace studiare italiano.",
+          "Che materia ti piace?"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Mi piace studiare italiano.",
           "Che materia ti piace?",
           "scuola",
-          "amico",
-          "lezione"
+          "amico"
         ]
       },
       {
@@ -25249,7 +24884,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Che materia ti piace?",
           "lezione",
@@ -25264,33 +24899,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "viaggiare-con-responsabilita",
-    "title": "Viaggiare con responsabilità: grammatica",
+    "title": "Volere e non voler disturbare",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 64,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Viaggiare responsabilmente.",
+    "intro": "Viaggiare responsabilmente.",
+    "mission": "Aprende volere e non voler disturbare y úsalo en una frase sobre viajar cuidando barrios y personas.",
+    "grammar": "Usa forme cortesi per intenzioni e rispetto.",
     "phrases": [
+      "Non voglio disturbare i residenti.",
       "Non voglio disturbare i residenti."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Volere e non voler disturbare",
+        "definition": "Usa forme cortesi per intenzioni e rispetto.",
+        "structure": "Non voglio disturbare i residenti.",
+        "function": "Viaggiare responsabilmente.",
+        "examples": [
+          "Non voglio disturbare i residenti.",
+          "Non voglio disturbare i residenti."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Non voglio disturbare i residenti.",
+          "Non voglio disturbare i residenti.",
           "residente",
-          "rispetto",
-          "mappa"
+          "rispetto"
         ]
       },
       {
@@ -25315,7 +24964,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Non voglio disturbare i residenti.",
           "mappa",
@@ -26039,7 +25688,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 70,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Habitaciones y vida en casa",
     "intro": "Habitaciones y vida en casa",
     "mission": "",
@@ -26050,63 +25699,61 @@
     "reading": {
       "title": "Una casa italiana",
       "parts": [
-        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
-        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
-        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+        "Sofia è em Bologna. Hoje descobre habitaciones y vida en casa. Encontra Marco e diz: “La cucina è luminosa.”. Os dois falam com respeito e aprendem quatro palavras novas: cucina, camera, finestra e balcone.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
+        "Al final, Sofia scrive una nota: “La cucina è luminosa.”."
       ],
       "questions": [
-        "Dove si trova Sofia?",
+        "Dove è Sofia?",
         "Con chi parla Sofia?",
-        "Che cosa fa Sofia se non capisce una parola?",
-        "Perché Sofia ripete le parole?"
+        "Quale frase usa Sofia?",
+        "Perché l’esperienza è importante?"
       ],
-      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+      "text": "Sofia è em Bologna. Hoje descobre habitaciones y vida en casa. Encontra Marco e diz: “La cucina è luminosa.”. Os dois falam com respeito e aprendem quatro palavras novas: cucina, camera, finestra e balcone.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “La cucina è luminosa.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "italian-a1-una-casa-italiana-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Dove si trova Sofia?",
+        "prompt": "Che cosa pratica l’unità?",
         "options": [
-          "Bologna",
-          "Roma",
-          "Milano",
-          "Napoli"
+          "describir una casa",
+          "Una regola isolata",
+          "Un esame tecnico",
+          "Un tema senza contesto"
         ]
       },
       {
-        "id": "italian-a1-una-casa-italiana-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Con chi parla Sofia?",
+        "prompt": "Che cosa fa lo studente?",
+        "options": [
+          "describir una casa",
+          "Memorizza senza usare",
+          "Evita di parlare",
+          "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-una-casa-italiana-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "Lucia",
-          "Paolo",
-          "Anna"
+          "frase",
+          "Sofia",
+          "breve"
         ]
       },
       {
-        "id": "italian-a1-una-casa-italiana-reading-reading-comprehension-3",
+        "id": "italian-a1-una-casa-italiana-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Che cosa fa Sofia se non capisce una parola?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia _____ una nota: “La cucina è luminosa.”.”",
         "options": [
-          "Chiede di ripetere",
-          "Va via subito",
-          "Non ascolta",
-          "Cambia città"
-        ]
-      },
-      {
-        "id": "italian-a1-una-casa-italiana-reading-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Perché Sofia ripete le parole?",
-        "options": [
-          "Per sentirsi più sicura",
-          "Per fare un esame tecnico",
-          "Per comprare un biglietto",
-          "Per evitare Marco"
+          "cucina",
+          "Sofia",
+          "Bologna",
+          "scrive"
         ]
       }
     ]
@@ -26207,15 +25854,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "progetti-di-classe",
-    "title": "Progetti di classe: grammatica",
+    "title": "Connettori argomentativi",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 71,
     "estimatedMinutes": 10,
-    "description": "presentare un progetto e distribuirne i compiti",
+    "description": "Tema gramatical: Connettori argomentativi.",
     "intro": "presentare un progetto e distribuirne i compiti",
-    "mission": "presentare un progetto e distribuirne i compiti",
+    "mission": "Estudia Connettori argomentativi y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Impariamo: progetto.",
@@ -26541,7 +26188,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Nel corso di italiano abbiamo deciso di realizzare un podcast sulla nostra città. La classe è composta da persone di età e paesi diversi, quindi ognuno ha un punto di vista particolare. Abbiamo formato piccoli gruppi: alcuni cercano informazioni, altri fanno interviste e altri ancora preparano la musica iniziale. Io e Sara abbiamo intervistato il proprietario di una libreria storica. All’inizio eravamo nervosi, ma lui ha parlato con entusiasmo dei cambiamenti del quartiere. La prossima settimana ascolteremo tutte le registrazioni e sceglieremo le parti migliori. Questo progetto ci sta insegnando non solo a parlare italiano, ma anche ad ascoltare con attenzione. Quando il podcast sarà pronto, lo presenteremo alle altre classi della scuola.",
+    "transcript": "Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e compito. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana. Poi il gruppo riassume le idee più importanti.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-b1-progetti-di-classe-listening-listening-comprehension",
@@ -26550,165 +26197,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel corso di italiano abbiamo deciso di realizzare un podcast sulla _____ città.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "nostra"
+                "text": "compito"
               },
               {
                 "id": "o2",
-                "text": "registrazioni"
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "informazioni"
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "intervistato"
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Abbiamo _____ piccoli gruppi: alcuni cercano informazioni, altri fanno interviste e altri ancora preparano la musica iniziale.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "registrazioni"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "formato"
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "informazioni"
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "intervistato"
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“La prossima settimana ascolteremo tutte le _____ e sceglieremo le parti migliori.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "realizzare"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "interviste"
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "registrazioni"
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "All’inizio"
+                "text": "migliorare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Quando il _____ sarà pronto, lo presenteremo alle altre classi della scuola.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "registrazioni"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "informazioni"
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "intervistato"
+                "text": "migliorare"
               },
               {
                 "id": "o4",
-                "text": "podcast"
+                "text": "gruppo"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Nel corso di italiano abbiamo deciso di realizzare un podcast sulla nostra città. La classe è composta da persone di età e paesi diversi, quindi ognuno ha un punto di vista particolare. Abbiamo formato piccoli gruppi: alcuni cercano informazioni, altri fanno interviste e altri ancora preparano la musica iniziale. Io e Sara abbiamo intervistato il proprietario di una libreria storica. All’inizio eravamo nervosi, ma lui ha parlato con entusiasmo dei cambiamenti del quartiere. La prossima settimana ascolteremo tutte le registrazioni e sceglieremo le parti migliori. Questo progetto ci sta insegnando non solo a parlare italiano, ma anche ad ascoltare con attenzione. Quando il podcast sarà pronto, lo presenteremo alle altre classi della scuola.",
-      "transcriptSegments": [
-        {
-          "text": "Nel corso di italiano abbiamo deciso di realizzare un podcast sulla nostra città."
-        },
-        {
-          "text": "La classe è composta da persone di età e paesi diversi, quindi ognuno ha un punto di vista particolare."
-        },
-        {
-          "text": "Abbiamo formato piccoli gruppi: alcuni cercano informazioni, altri fanno interviste e altri ancora preparano la musica iniziale."
-        },
-        {
-          "text": "Io e Sara abbiamo intervistato il proprietario di una libreria storica."
-        },
-        {
-          "text": "All’inizio eravamo nervosi, ma lui ha parlato con entusiasmo dei cambiamenti del quartiere."
-        },
-        {
-          "text": "La prossima settimana ascolteremo tutte le registrazioni e sceglieremo le parti migliori."
-        },
-        {
-          "text": "Questo progetto ci sta insegnando non solo a parlare italiano, ma anche ad ascoltare con attenzione."
-        },
-        {
-          "text": "Quando il podcast sarà pronto, lo presenteremo alle altre classi della scuola."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel corso di italiano abbiamo deciso di realizzare un podcast sulla _____ città.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Progetti di classe», un piccolo gruppo della comunità parla di progetto, ricerca e _____.”",
         "options": [
-          "nostra",
-          "registrazioni",
-          "informazioni",
-          "intervistato"
+          "compito",
+          "un'esperienza",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Abbiamo _____ piccoli gruppi: alcuni cercano informazioni, altri fanno interviste e altri ancora preparano la musica iniziale.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "registrazioni",
-          "formato",
-          "informazioni",
-          "intervistato"
+          "un'esperienza",
+          "persona",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“La prossima settimana ascolteremo tutte le _____ e sceglieremo le parti migliori.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "realizzare",
-          "interviste",
-          "registrazioni",
-          "All’inizio"
+          "un'esperienza",
+          "collaborare",
+          "perché",
+          "migliorare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Quando il _____ sarà pronto, lo presenteremo alle altre classi della scuola.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "registrazioni",
-          "informazioni",
-          "intervistato",
-          "podcast"
+          "un'esperienza",
+          "collaborare",
+          "migliorare",
+          "gruppo"
         ]
       }
     ]
@@ -26960,30 +26580,39 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Un’associazione locale sta cercando volontari per catalogare vecchie fontane, sentieri e muri agricoli nelle colline vicine. Non sono monumenti famosi, ma raccontano il modo in cui le persone hanno vissuto e lavorato in quel territorio. Durante la prima escursione ho scoperto un sentiero che usavano i contadini per portare l’acqua ai campi. Oggi è quasi nascosto dalla vegetazione, ma alcuni abitanti ricordano ancora dove conduceva. Il progetto non vuole trasformare ogni luogo in un’attrazione turistica. Vuole piuttosto proteggere il paesaggio e trasmettere conoscenze che rischiano di scomparire. Conoscere il patrimonio significa anche capire quale responsabilità abbiamo verso i luoghi che abitiamo.",
+    "transcript": "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni. La prima osserva che tradizione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
     "extra": {
-      "mainTranscript": "Un’associazione locale sta cercando volontari per catalogare vecchie fontane, sentieri e muri agricoli nelle colline vicine. Non sono monumenti famosi, ma raccontano il modo in cui le persone hanno vissuto e lavorato in quel territorio. Durante la prima escursione ho scoperto un sentiero che usavano i contadini per portare l’acqua ai campi. Oggi è quasi nascosto dalla vegetazione, ma alcuni abitanti ricordano ancora dove conduceva. Il progetto non vuole trasformare ogni luogo in un’attrazione turistica. Vuole piuttosto proteggere il paesaggio e trasmettere conoscenze che rischiano di scomparire. Conoscere il patrimonio significa anche capire quale responsabilità abbiamo verso i luoghi che abitiamo.",
+      "mainTranscript": "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni. La prima osserva che tradizione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
       "transcriptSegments": [
         {
-          "text": "Un’associazione locale sta cercando volontari per catalogare vecchie fontane, sentieri e muri agricoli nelle colline vicine."
+          "id": "segment-01",
+          "order": 1,
+          "text": "In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro posizioni."
         },
         {
-          "text": "Non sono monumenti famosi, ma raccontano il modo in cui le persone hanno vissuto e lavorato in quel territorio."
+          "id": "segment-02",
+          "order": 2,
+          "text": "La prima osserva che tradizione non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
         },
         {
-          "text": "Durante la prima escursione ho scoperto un sentiero che usavano i contadini per portare l’acqua ai campi."
+          "id": "segment-03",
+          "order": 3,
+          "text": "L’altro aggiunge che appartenenza è utile solo se viene spiegato con esempi verificabili."
         },
         {
-          "text": "Oggi è quasi nascosto dalla vegetazione, ma alcuni abitanti ricordano ancora dove conduceva."
+          "id": "segment-04",
+          "order": 4,
+          "text": "Nel confronto emerge una possibile difficoltà: prospettiva può cambiare la prospettiva di chi ascolta."
         },
         {
-          "text": "Il progetto non vuole trasformare ogni luogo in un’attrazione turistica."
+          "id": "segment-05",
+          "order": 5,
+          "text": "Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile."
         },
         {
-          "text": "Vuole piuttosto proteggere il paesaggio e trasmettere conoscenze che rischiano di scomparire."
-        },
-        {
-          "text": "Conoscere il patrimonio significa anche capire quale responsabilità abbiamo verso i luoghi che abitiamo."
+          "id": "segment-06",
+          "order": 6,
+          "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         }
       ],
       "listeningType": "story",
@@ -26994,92 +26623,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Un’associazione locale sta cercando volontari per catalogare vecchie fontane, sentieri e muri agricoli nelle colline _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "vicine"
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "Un’associazione"
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "responsabilità"
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "un’attrazione"
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Durante la prima _____ ho scoperto un sentiero che usavano i contadini per portare l’acqua ai campi.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che appartenenza è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un’associazione"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "escursione"
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "responsabilità"
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "vecchie"
+                "text": "appartenenza"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Il progetto non vuole trasformare ogni luogo in un’attrazione _____.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: prospettiva può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un’associazione"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "responsabilità"
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "turistica"
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "un’attrazione"
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Conoscere il patrimonio significa anche capire quale responsabilità _____ verso i luoghi che abitiamo.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Un’associazione"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "responsabilità"
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "un’attrazione"
+                "text": "appartenenza"
               },
               {
                 "id": "o4",
-                "text": "abbiamo"
+                "text": "scelte"
               }
             ]
           }
@@ -27099,42 +26728,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Un’associazione locale sta cercando volontari per catalogare vecchie fontane, sentieri e muri agricoli nelle colline _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Cultura e identità, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "vicine",
-          "Un’associazione",
-          "responsabilità",
-          "un’attrazione"
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Durante la prima _____ ho scoperto un sentiero che usavano i contadini per portare l’acqua ai campi.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che appartenenza è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "Un’associazione",
-          "escursione",
-          "responsabilità",
-          "vecchie"
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "appartenenza"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Il progetto non vuole trasformare ogni luogo in un’attrazione _____.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: prospettiva può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "Un’associazione",
-          "responsabilità",
-          "turistica",
-          "un’attrazione"
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Conoscere il patrimonio significa anche capire quale responsabilità _____ verso i luoghi che abitiamo.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "Un’associazione",
-          "responsabilità",
-          "un’attrazione",
-          "abbiamo"
+          "partecipanti",
+          "isolatamente",
+          "appartenenza",
+          "scelte"
         ]
       }
     ]
@@ -27597,7 +27226,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Marta vive in un appartamento al terzo piano di un edificio antico. La sua casa è piccola ma luminosa. C’è un soggiorno con un divano verde, una cucina con un tavolo rotondo e una camera da letto tranquilla. Dalla finestra della cucina, Marta vede una piazza con molti alberi. Nel pomeriggio sente spesso i bambini che giocano fuori. La sua stanza preferita è il soggiorno, perché lì legge, ascolta musica e parla con gli amici quando vengono a trovarla.",
+    "transcript": "La cucina è luminosa. Parliamo di cucina. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a1-una-casa-italiana-listening-listening-comprehension",
@@ -27606,159 +27235,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Marta vive in un appartamento al terzo piano di un edificio _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“La cucina è _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "antico"
+                "text": "luminosa"
               },
               {
                 "id": "o2",
-                "text": "appartamento"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "tranquilla"
+                "text": "cucina"
               },
               {
                 "id": "o4",
-                "text": "pomeriggio"
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“C’è un _____ con un divano verde, una cucina con un tavolo rotondo e una camera da letto tranquilla.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "appartamento"
+                "text": "con"
               },
               {
                 "id": "o2",
-                "text": "soggiorno"
+                "text": "cucina"
               },
               {
                 "id": "o3",
-                "text": "antico"
+                "text": "luminosa"
               },
               {
                 "id": "o4",
-                "text": "divano"
+                "text": "Parliamo"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Dalla finestra della cucina, _____ vede una piazza con molti alberi.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "appartamento"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "tranquilla"
+                "text": "cucina"
               },
               {
                 "id": "o3",
-                "text": "Marta"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "pomeriggio"
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“La sua stanza preferita è il soggiorno, perché lì legge, ascolta _____ e parla con gli amici quando vengono a trovarla.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "appartamento"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "tranquilla"
+                "text": "cucina"
               },
               {
                 "id": "o3",
-                "text": "pomeriggio"
+                "text": "luminosa"
               },
               {
                 "id": "o4",
-                "text": "musica"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Marta vive in un appartamento al terzo piano di un edificio antico. La sua casa è piccola ma luminosa. C’è un soggiorno con un divano verde, una cucina con un tavolo rotondo e una camera da letto tranquilla. Dalla finestra della cucina, Marta vede una piazza con molti alberi. Nel pomeriggio sente spesso i bambini che giocano fuori. La sua stanza preferita è il soggiorno, perché lì legge, ascolta musica e parla con gli amici quando vengono a trovarla.",
-      "transcriptSegments": [
-        {
-          "text": "Marta vive in un appartamento al terzo piano di un edificio antico."
-        },
-        {
-          "text": "La sua casa è piccola ma luminosa."
-        },
-        {
-          "text": "C’è un soggiorno con un divano verde, una cucina con un tavolo rotondo e una camera da letto tranquilla."
-        },
-        {
-          "text": "Dalla finestra della cucina, Marta vede una piazza con molti alberi."
-        },
-        {
-          "text": "Nel pomeriggio sente spesso i bambini che giocano fuori."
-        },
-        {
-          "text": "La sua stanza preferita è il soggiorno, perché lì legge, ascolta musica e parla con gli amici quando vengono a trovarla."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Marta vive in un appartamento al terzo piano di un edificio _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“La cucina è _____.”",
         "options": [
-          "antico",
-          "appartamento",
-          "tranquilla",
-          "pomeriggio"
+          "luminosa",
+          "piace",
+          "cucina",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“C’è un _____ con un divano verde, una cucina con un tavolo rotondo e una camera da letto tranquilla.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "appartamento",
-          "soggiorno",
-          "antico",
-          "divano"
+          "con",
+          "cucina",
+          "luminosa",
+          "Parliamo"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Dalla finestra della cucina, _____ vede una piazza con molti alberi.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "appartamento",
-          "tranquilla",
-          "Marta",
-          "pomeriggio"
+          "piace",
+          "cucina",
+          "comunità",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“La sua stanza preferita è il soggiorno, perché lì legge, ascolta _____ e parla con gli amici quando vengono a trovarla.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "appartamento",
-          "tranquilla",
-          "pomeriggio",
-          "musica"
+          "piace",
+          "cucina",
+          "luminosa",
+          "pratica"
         ]
       }
     ]
@@ -27807,7 +27415,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Dopo il lavoro cerco sempre di fare qualcosa all’aria aperta. Vivo a Firenze e, due volte alla settimana, corro nel parco vicino a casa mia. Non corro molto veloce, ma mi piace vedere gli alberi, i cani e le persone che passeggiano. Il sabato gioco a pallavolo con alcune amiche in una palestra comunale. Dopo la partita beviamo qualcosa insieme e parliamo della settimana. Quando piove, faccio esercizi semplici a casa o seguo un video di yoga. La domenica, invece, mi piace visitare un museo o andare al mercato. Il tempo libero mi aiuta a muovermi, a incontrare persone nuove e a conoscere meglio la mia città.",
+    "transcript": "Da giovane giocavo spesso. Parliamo di nuoto. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a2-sport-e-tempo-libero-listening-listening-comprehension",
@@ -27816,165 +27424,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Dopo il lavoro cerco sempre di fare qualcosa all’aria _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Da giovane giocavo _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "aperta"
+                "text": "spesso"
               },
               {
                 "id": "o2",
-                "text": "passeggiano"
+                "text": "con"
               },
               {
                 "id": "o3",
-                "text": "incontrare"
+                "text": "Parliamo"
               },
               {
                 "id": "o4",
-                "text": "due"
+                "text": "imparare"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Non corro molto _____, ma mi piace vedere gli alberi, i cani e le persone che passeggiano.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di nuoto.”",
             "options": [
               {
                 "id": "o1",
-                "text": "passeggiano"
+                "text": "nuoto"
               },
               {
                 "id": "o2",
-                "text": "veloce"
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "incontrare"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "due"
+                "text": "spesso"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Quando piove, _____ esercizi semplici a casa o seguo un video di yoga.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "passeggiano"
+                "text": "nuoto"
               },
               {
                 "id": "o2",
-                "text": "incontrare"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "faccio"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "due"
+                "text": "spesso"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Il tempo libero mi aiuta a muovermi, a incontrare persone nuove e a conoscere _____ la mia città.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "passeggiano"
+                "text": "nuoto"
               },
               {
                 "id": "o2",
-                "text": "incontrare"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "due"
+                "text": "spesso"
               },
               {
                 "id": "o4",
-                "text": "meglio"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Dopo il lavoro cerco sempre di fare qualcosa all’aria aperta. Vivo a Firenze e, due volte alla settimana, corro nel parco vicino a casa mia. Non corro molto veloce, ma mi piace vedere gli alberi, i cani e le persone che passeggiano. Il sabato gioco a pallavolo con alcune amiche in una palestra comunale. Dopo la partita beviamo qualcosa insieme e parliamo della settimana. Quando piove, faccio esercizi semplici a casa o seguo un video di yoga. La domenica, invece, mi piace visitare un museo o andare al mercato. Il tempo libero mi aiuta a muovermi, a incontrare persone nuove e a conoscere meglio la mia città.",
-      "transcriptSegments": [
-        {
-          "text": "Dopo il lavoro cerco sempre di fare qualcosa all’aria aperta."
-        },
-        {
-          "text": "Vivo a Firenze e, due volte alla settimana, corro nel parco vicino a casa mia."
-        },
-        {
-          "text": "Non corro molto veloce, ma mi piace vedere gli alberi, i cani e le persone che passeggiano."
-        },
-        {
-          "text": "Il sabato gioco a pallavolo con alcune amiche in una palestra comunale."
-        },
-        {
-          "text": "Dopo la partita beviamo qualcosa insieme e parliamo della settimana."
-        },
-        {
-          "text": "Quando piove, faccio esercizi semplici a casa o seguo un video di yoga."
-        },
-        {
-          "text": "La domenica, invece, mi piace visitare un museo o andare al mercato."
-        },
-        {
-          "text": "Il tempo libero mi aiuta a muovermi, a incontrare persone nuove e a conoscere meglio la mia città."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Dopo il lavoro cerco sempre di fare qualcosa all’aria _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Da giovane giocavo _____.”",
         "options": [
-          "aperta",
-          "passeggiano",
-          "incontrare",
-          "due"
+          "spesso",
+          "con",
+          "Parliamo",
+          "imparare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Non corro molto _____, ma mi piace vedere gli alberi, i cani e le persone che passeggiano.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di nuoto.”",
         "options": [
-          "passeggiano",
-          "veloce",
-          "incontrare",
-          "due"
+          "nuoto",
+          "Parliamo",
+          "piace",
+          "spesso"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Quando piove, _____ esercizi semplici a casa o seguo un video di yoga.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "passeggiano",
-          "incontrare",
-          "faccio",
-          "due"
+          "nuoto",
+          "piace",
+          "comunità",
+          "spesso"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Il tempo libero mi aiuta a muovermi, a incontrare persone nuove e a conoscere _____ la mia città.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "passeggiano",
-          "incontrare",
-          "due",
-          "meglio"
+          "nuoto",
+          "piace",
+          "spesso",
+          "pratica"
         ]
       }
     ]
@@ -28337,11 +27918,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: progetto». Puoi aiutarmi?"
+        "line": "Vorrei presentare un progetto e distribuirne i compiti. Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+        "line": "Sì, certo. Parliamone passo dopo passo."
       }
     ],
     "reading": null,
@@ -28576,16 +28157,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «La cucina è luminosa». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -28617,16 +28189,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Da giovane giocavo spesso». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -29382,33 +28945,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "una-casa-italiana",
-    "title": "Una casa italiana: grammatica",
+    "title": "Aggettivi e accordo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 74,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Descrivere una casa.",
+    "intro": "Descrivere una casa.",
+    "mission": "Aprende aggettivi e accordo y úsalo en una frase sobre habitaciones y vida en casa.",
+    "grammar": "L’aggettivo concorda con nome in genere e numero.",
     "phrases": [
+      "La cucina è luminosa.",
       "La cucina è luminosa."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Aggettivi e accordo",
+        "definition": "L’aggettivo concorda con nome in genere e numero.",
+        "structure": "La cucina è luminosa.",
+        "function": "Descrivere una casa.",
+        "examples": [
+          "La cucina è luminosa.",
+          "La cucina è luminosa."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "La cucina è luminosa.",
+          "La cucina è luminosa.",
           "cucina",
-          "camera",
-          "finestra"
+          "camera"
         ]
       },
       {
@@ -29433,7 +29010,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "La cucina è luminosa.",
           "finestra",
@@ -29448,33 +29025,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "sport-e-tempo-libero",
-    "title": "Sport e tempo libero: grammatica",
+    "title": "Imperfetto per le abitudini",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 74,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Parlare del passato.",
+    "intro": "Parlare del passato.",
+    "mission": "Aprende imperfetto per le abitudini y úsalo en una frase sobre aficiones más allá de un solo deporte.",
+    "grammar": "Usa l’imperfetto per abitudini nel passato.",
     "phrases": [
+      "Da giovane giocavo spesso.",
       "Da giovane giocavo spesso."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Imperfetto per le abitudini",
+        "definition": "Usa l’imperfetto per abitudini nel passato.",
+        "structure": "Da giovane giocavo spesso.",
+        "function": "Parlare del passato.",
+        "examples": [
+          "Da giovane giocavo spesso.",
+          "Da giovane giocavo spesso."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Da giovane giocavo spesso.",
+          "Da giovane giocavo spesso.",
           "nuoto",
-          "corsa",
-          "squadra"
+          "corsa"
         ]
       },
       {
@@ -29499,7 +29090,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Da giovane giocavo spesso.",
           "squadra",
@@ -30223,7 +29814,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 80,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "El clima y las estaciones",
     "intro": "El clima y las estaciones",
     "mission": "",
@@ -30234,63 +29825,61 @@
     "reading": {
       "title": "Il tempo e le stagioni",
       "parts": [
-        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
-        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
-        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+        "Sofia è em Bologna. Hoje descobre el clima y las estaciones. Encontra Marco e diz: “Oggi fa caldo.”. Os dois falam com respeito e aprendem quatro palavras novas: sole, pioggia, caldo e freddo.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
+        "Al final, Sofia scrive una nota: “Oggi fa caldo.”."
       ],
       "questions": [
-        "Dove si trova Sofia?",
+        "Dove è Sofia?",
         "Con chi parla Sofia?",
-        "Che cosa fa Sofia se non capisce una parola?",
-        "Perché Sofia ripete le parole?"
+        "Quale frase usa Sofia?",
+        "Perché l’esperienza è importante?"
       ],
-      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+      "text": "Sofia è em Bologna. Hoje descobre el clima y las estaciones. Encontra Marco e diz: “Oggi fa caldo.”. Os dois falam com respeito e aprendem quatro palavras novas: sole, pioggia, caldo e freddo.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Oggi fa caldo.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "italian-a1-il-tempo-e-le-stagioni-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Dove si trova Sofia?",
+        "prompt": "Che cosa pratica l’unità?",
         "options": [
-          "Bologna",
-          "Roma",
-          "Milano",
-          "Napoli"
+          "hablar del tiempo",
+          "Una regola isolata",
+          "Un esame tecnico",
+          "Un tema senza contesto"
         ]
       },
       {
-        "id": "italian-a1-il-tempo-e-le-stagioni-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Con chi parla Sofia?",
+        "prompt": "Che cosa fa lo studente?",
+        "options": [
+          "hablar del tiempo",
+          "Memorizza senza usare",
+          "Evita di parlare",
+          "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-il-tempo-e-le-stagioni-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "Lucia",
-          "Paolo",
-          "Anna"
+          "caldo",
+          "Sofia",
+          "frase"
         ]
       },
       {
-        "id": "italian-a1-il-tempo-e-le-stagioni-reading-reading-comprehension-3",
+        "id": "italian-a1-il-tempo-e-le-stagioni-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Che cosa fa Sofia se non capisce una parola?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia scrive una nota: “_____ fa caldo.”.”",
         "options": [
-          "Chiede di ripetere",
-          "Va via subito",
-          "Non ascolta",
-          "Cambia città"
-        ]
-      },
-      {
-        "id": "italian-a1-il-tempo-e-le-stagioni-reading-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Perché Sofia ripete le parole?",
-        "options": [
-          "Per sentirsi più sicura",
-          "Per fare un esame tecnico",
-          "Per comprare un biglietto",
-          "Per evitare Marco"
+          "nota",
+          "Sofia",
+          "Marco",
+          "Oggi"
         ]
       }
     ]
@@ -30391,15 +29980,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "tecnologia-quotidiana",
-    "title": "Tecnologia quotidiana: grammatica",
+    "title": "Congiuntivo con opinione e dubbio",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 81,
     "estimatedMinutes": 10,
-    "description": "valutare usos de la tecnología con argumentos",
+    "description": "Tema gramatical: Congiuntivo con opinione e dubbio.",
     "intro": "valutare usos de la tecnología con argumentos",
-    "mission": "valutare usos de la tecnología con argumentos",
+    "mission": "Estudia Congiuntivo con opinione e dubbio y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Impariamo: tecnologia.",
@@ -30725,7 +30314,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Uso il telefono per molte cose: controllo gli orari degli autobus, pago qualche bolletta e parlo con la mia famiglia che vive lontano. Tuttavia, qualche mese fa mi sono accorta che lo guardavo troppo spesso, anche durante la cena o quando uscivo con gli amici. Ho deciso di cambiare due abitudini semplici. La sera metto il telefono in un’altra stanza e disattivo le notifiche delle applicazioni meno importanti. Non voglio eliminare la tecnologia dalla mia vita, perché mi è utile ogni giorno. Voglio però usarla in modo più consapevole. Ora, quando incontro qualcuno, riesco a seguire meglio la conversazione e mi sento meno distratta. A volte lascio persino il telefono a casa quando vado a fare una passeggiata breve.",
+    "transcript": "Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e vantaggio. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana. Poi il gruppo riassume le idee più importanti.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-b1-tecnologia-quotidiana-listening-listening-comprehension",
@@ -30734,165 +30323,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Uso il telefono per molte cose: controllo gli orari degli autobus, pago qualche bolletta e parlo con la mia famiglia che vive _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "lontano"
+                "text": "vantaggio"
               },
               {
                 "id": "o2",
-                "text": "conversazione"
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "applicazioni"
+                "text": "gruppo"
               },
               {
                 "id": "o4",
-                "text": "consapevole"
+                "text": "perché"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ho deciso di _____ due abitudini semplici.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "conversazione"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "cambiare"
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "applicazioni"
+                "text": "dispositivo"
               },
               {
                 "id": "o4",
-                "text": "molte"
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“_____ però usarla in modo più consapevole.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "conversazione"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "applicazioni"
+                "text": "dispositivo"
               },
               {
                 "id": "o3",
-                "text": "Voglio"
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "consapevole"
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“A volte lascio _____ il telefono a casa quando vado a fare una passeggiata breve.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "conversazione"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "applicazioni"
+                "text": "dispositivo"
               },
               {
                 "id": "o3",
-                "text": "consapevole"
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "persino"
+                "text": "gruppo"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Uso il telefono per molte cose: controllo gli orari degli autobus, pago qualche bolletta e parlo con la mia famiglia che vive lontano. Tuttavia, qualche mese fa mi sono accorta che lo guardavo troppo spesso, anche durante la cena o quando uscivo con gli amici. Ho deciso di cambiare due abitudini semplici. La sera metto il telefono in un’altra stanza e disattivo le notifiche delle applicazioni meno importanti. Non voglio eliminare la tecnologia dalla mia vita, perché mi è utile ogni giorno. Voglio però usarla in modo più consapevole. Ora, quando incontro qualcuno, riesco a seguire meglio la conversazione e mi sento meno distratta. A volte lascio persino il telefono a casa quando vado a fare una passeggiata breve.",
-      "transcriptSegments": [
-        {
-          "text": "Uso il telefono per molte cose: controllo gli orari degli autobus, pago qualche bolletta e parlo con la mia famiglia che vive lontano."
-        },
-        {
-          "text": "Tuttavia, qualche mese fa mi sono accorta che lo guardavo troppo spesso, anche durante la cena o quando uscivo con gli amici."
-        },
-        {
-          "text": "Ho deciso di cambiare due abitudini semplici."
-        },
-        {
-          "text": "La sera metto il telefono in un’altra stanza e disattivo le notifiche delle applicazioni meno importanti."
-        },
-        {
-          "text": "Non voglio eliminare la tecnologia dalla mia vita, perché mi è utile ogni giorno."
-        },
-        {
-          "text": "Voglio però usarla in modo più consapevole."
-        },
-        {
-          "text": "Ora, quando incontro qualcuno, riesco a seguire meglio la conversazione e mi sento meno distratta."
-        },
-        {
-          "text": "A volte lascio persino il telefono a casa quando vado a fare una passeggiata breve."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Uso il telefono per molte cose: controllo gli orari degli autobus, pago qualche bolletta e parlo con la mia famiglia che vive _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Tecnologia quotidiana», un piccolo gruppo della comunità parla di tecnologia, dispositivo e _____.”",
         "options": [
-          "lontano",
-          "conversazione",
-          "applicazioni",
-          "consapevole"
+          "vantaggio",
+          "un'esperienza",
+          "gruppo",
+          "perché"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ho deciso di _____ due abitudini semplici.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "conversazione",
-          "cambiare",
-          "applicazioni",
-          "molte"
+          "un'esperienza",
+          "persona",
+          "dispositivo",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“_____ però usarla in modo più consapevole.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "conversazione",
-          "applicazioni",
-          "Voglio",
-          "consapevole"
+          "un'esperienza",
+          "dispositivo",
+          "perché",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“A volte lascio _____ il telefono a casa quando vado a fare una passeggiata breve.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "conversazione",
-          "applicazioni",
-          "consapevole",
-          "persino"
+          "un'esperienza",
+          "dispositivo",
+          "collaborare",
+          "gruppo"
         ]
       }
     ]
@@ -31144,30 +30706,39 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "La mia università sta sperimentando un sistema che usa l’intelligenza artificiale per suggerire agli studenti i corsi più adatti al loro percorso. Lo strumento può essere utile, perché analizza molti dati in poco tempo. Tuttavia, durante una lezione abbiamo discusso dei suoi limiti. Un algoritmo non conosce le motivazioni personali di uno studente, le difficoltà familiari o il desiderio di cambiare direzione. Se i dati iniziali sono incompleti, anche il suggerimento può essere ingiusto. Per questo la decisione finale resta nelle mani delle persone. La tecnologia può offrire informazioni e alternative, ma non dovrebbe sostituire il dialogo tra studenti, insegnanti e tutor.",
+    "transcript": "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni. La prima osserva che dispositivo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
     "extra": {
-      "mainTranscript": "La mia università sta sperimentando un sistema che usa l’intelligenza artificiale per suggerire agli studenti i corsi più adatti al loro percorso. Lo strumento può essere utile, perché analizza molti dati in poco tempo. Tuttavia, durante una lezione abbiamo discusso dei suoi limiti. Un algoritmo non conosce le motivazioni personali di uno studente, le difficoltà familiari o il desiderio di cambiare direzione. Se i dati iniziali sono incompleti, anche il suggerimento può essere ingiusto. Per questo la decisione finale resta nelle mani delle persone. La tecnologia può offrire informazioni e alternative, ma non dovrebbe sostituire il dialogo tra studenti, insegnanti e tutor.",
+      "mainTranscript": "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni. La prima osserva che dispositivo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
       "transcriptSegments": [
         {
-          "text": "La mia università sta sperimentando un sistema che usa l’intelligenza artificiale per suggerire agli studenti i corsi più adatti al loro percorso."
+          "id": "segment-01",
+          "order": 1,
+          "text": "In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro posizioni."
         },
         {
-          "text": "Lo strumento può essere utile, perché analizza molti dati in poco tempo."
+          "id": "segment-02",
+          "order": 2,
+          "text": "La prima osserva che dispositivo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
         },
         {
-          "text": "Tuttavia, durante una lezione abbiamo discusso dei suoi limiti."
+          "id": "segment-03",
+          "order": 3,
+          "text": "L’altro aggiunge che dati è utile solo se viene spiegato con esempi verificabili."
         },
         {
-          "text": "Un algoritmo non conosce le motivazioni personali di uno studente, le difficoltà familiari o il desiderio di cambiare direzione."
+          "id": "segment-04",
+          "order": 4,
+          "text": "Nel confronto emerge una possibile difficoltà: proteggere può cambiare la prospettiva di chi ascolta."
         },
         {
-          "text": "Se i dati iniziali sono incompleti, anche il suggerimento può essere ingiusto."
+          "id": "segment-05",
+          "order": 5,
+          "text": "Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile."
         },
         {
-          "text": "Per questo la decisione finale resta nelle mani delle persone."
-        },
-        {
-          "text": "La tecnologia può offrire informazioni e alternative, ma non dovrebbe sostituire il dialogo tra studenti, insegnanti e tutor."
+          "id": "segment-06",
+          "order": 6,
+          "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         }
       ],
       "listeningType": "story",
@@ -31178,61 +30749,15 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“La mia università sta sperimentando un sistema che usa l’intelligenza artificiale per suggerire agli studenti i corsi più adatti al loro _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "percorso"
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "l’intelligenza"
-              },
-              {
-                "id": "o3",
-                "text": "sperimentando"
-              },
-              {
-                "id": "o4",
-                "text": "suggerimento"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Tuttavia, _____ una lezione abbiamo discusso dei suoi limiti.”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "l’intelligenza"
-              },
-              {
-                "id": "o2",
-                "text": "durante"
-              },
-              {
-                "id": "o3",
-                "text": "sperimentando"
-              },
-              {
-                "id": "o4",
-                "text": "suggerimento"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Se i dati iniziali sono incompleti, anche il suggerimento può _____ ingiusto.”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "l’intelligenza"
-              },
-              {
-                "id": "o2",
-                "text": "sperimentando"
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
@@ -31240,30 +30765,76 @@
               },
               {
                 "id": "o4",
-                "text": "suggerimento"
+                "text": "isolatamente"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che dati è utile solo se viene spiegato con esempi verificabili.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "partecipanti"
+              },
+              {
+                "id": "o2",
+                "text": "aggiunge"
+              },
+              {
+                "id": "o3",
+                "text": "isolatamente"
+              },
+              {
+                "id": "o4",
+                "text": "verificabili"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: proteggere può cambiare la prospettiva di chi ascolta.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "partecipanti"
+              },
+              {
+                "id": "o2",
+                "text": "essere"
+              },
+              {
+                "id": "o3",
+                "text": "possibile"
+              },
+              {
+                "id": "o4",
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“La tecnologia può offrire informazioni e alternative, ma non dovrebbe _____ il dialogo tra studenti, insegnanti e tutor.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’intelligenza"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "sperimentando"
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "sistema"
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "sostituire"
+                "text": "scelte"
               }
             ]
           }
@@ -31283,42 +30854,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“La mia università sta sperimentando un sistema che usa l’intelligenza artificiale per suggerire agli studenti i corsi più adatti al loro _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Tecnologia e privacy, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "percorso",
-          "l’intelligenza",
-          "sperimentando",
-          "suggerimento"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Tuttavia, _____ una lezione abbiamo discusso dei suoi limiti.”",
-        "options": [
-          "l’intelligenza",
-          "durante",
-          "sperimentando",
-          "suggerimento"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Se i dati iniziali sono incompleti, anche il suggerimento può _____ ingiusto.”",
-        "options": [
-          "l’intelligenza",
-          "sperimentando",
+          "posizioni",
+          "partecipanti",
           "essere",
-          "suggerimento"
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“La tecnologia può offrire informazioni e alternative, ma non dovrebbe _____ il dialogo tra studenti, insegnanti e tutor.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che dati è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "l’intelligenza",
-          "sperimentando",
-          "sistema",
-          "sostituire"
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: proteggere può cambiare la prospettiva di chi ascolta.”",
+        "options": [
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
+        "options": [
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -31781,7 +31352,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Stamattina piove, ma nel pomeriggio forse esce il sole. Per questo porto un ombrello e una giacca leggera. In primavera il tempo cambia molto velocemente: a volte fa freddo, poi arriva il sole. Mi piace la primavera perché ci sono molti fiori e le giornate sono più lunghe. In estate preferisco andare al mare e nuotare, soprattutto sulla costa dell’Emilia-Romagna. In inverno, invece, resto più spesso a casa con un tè caldo e un buon libro. Quando nevica, mi piace guardare i tetti della città dalla finestra.",
+    "transcript": "Oggi fa caldo. Parliamo di sole. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a1-il-tempo-e-le-stagioni-listening-listening-comprehension",
@@ -31790,162 +31361,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Stamattina piove, ma nel _____ forse esce il sole.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ fa caldo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "pomeriggio"
+                "text": "Oggi"
               },
               {
                 "id": "o2",
-                "text": "dell’Emilia-Romagna"
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "leggera"
+                "text": "imparare"
               },
               {
                 "id": "o4",
-                "text": "nuotare"
+                "text": "comunità"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“In primavera il tempo _____ molto velocemente: a volte fa freddo, poi arriva il sole.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di sole.”",
             "options": [
               {
                 "id": "o1",
-                "text": "dell’Emilia-Romagna"
+                "text": "caldo"
               },
               {
                 "id": "o2",
-                "text": "cambia"
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "velocemente"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "soprattutto"
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“In estate preferisco andare al mare e _____, soprattutto sulla costa dell’Emilia-Romagna.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "dell’Emilia-Romagna"
+                "text": "caldo"
               },
               {
                 "id": "o2",
-                "text": "velocemente"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "nuotare"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "soprattutto"
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Quando nevica, mi piace guardare i tetti della città dalla _____.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "dell’Emilia-Romagna"
+                "text": "Oggi"
               },
               {
                 "id": "o2",
-                "text": "piove"
+                "text": "sole"
               },
               {
                 "id": "o3",
-                "text": "forse"
+                "text": "caldo"
               },
               {
                 "id": "o4",
-                "text": "finestra"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Stamattina piove, ma nel pomeriggio forse esce il sole. Per questo porto un ombrello e una giacca leggera. In primavera il tempo cambia molto velocemente: a volte fa freddo, poi arriva il sole. Mi piace la primavera perché ci sono molti fiori e le giornate sono più lunghe. In estate preferisco andare al mare e nuotare, soprattutto sulla costa dell’Emilia-Romagna. In inverno, invece, resto più spesso a casa con un tè caldo e un buon libro. Quando nevica, mi piace guardare i tetti della città dalla finestra.",
-      "transcriptSegments": [
-        {
-          "text": "Stamattina piove, ma nel pomeriggio forse esce il sole."
-        },
-        {
-          "text": "Per questo porto un ombrello e una giacca leggera."
-        },
-        {
-          "text": "In primavera il tempo cambia molto velocemente: a volte fa freddo, poi arriva il sole."
-        },
-        {
-          "text": "Mi piace la primavera perché ci sono molti fiori e le giornate sono più lunghe."
-        },
-        {
-          "text": "In estate preferisco andare al mare e nuotare, soprattutto sulla costa dell’Emilia-Romagna."
-        },
-        {
-          "text": "In inverno, invece, resto più spesso a casa con un tè caldo e un buon libro."
-        },
-        {
-          "text": "Quando nevica, mi piace guardare i tetti della città dalla finestra."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Stamattina piove, ma nel _____ forse esce il sole.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ fa caldo.”",
         "options": [
-          "pomeriggio",
-          "dell’Emilia-Romagna",
-          "leggera",
-          "nuotare"
+          "Oggi",
+          "Parliamo",
+          "imparare",
+          "comunità"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“In primavera il tempo _____ molto velocemente: a volte fa freddo, poi arriva il sole.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di sole.”",
         "options": [
-          "dell’Emilia-Romagna",
-          "cambia",
-          "velocemente",
-          "soprattutto"
+          "caldo",
+          "Parliamo",
+          "piace",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“In estate preferisco andare al mare e _____, soprattutto sulla costa dell’Emilia-Romagna.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "dell’Emilia-Romagna",
-          "velocemente",
-          "nuotare",
-          "soprattutto"
+          "caldo",
+          "piace",
+          "comunità",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Quando nevica, mi piace guardare i tetti della città dalla _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "dell’Emilia-Romagna",
-          "piove",
-          "forse",
-          "finestra"
+          "Oggi",
+          "sole",
+          "caldo",
+          "pratica"
         ]
       }
     ]
@@ -31994,7 +31541,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Da alcuni giorni ho un forte raffreddore e non mi sento molto bene. Ho mal di gola, il naso chiuso e poca energia. Ieri sono andato alla farmacia vicino a casa. La farmacista mi ha ascoltato con attenzione e mi ha consigliato di bere molta acqua, riposare e usare uno spray per il naso. Mi ha anche detto di andare dal medico se la febbre aumenta. Questa settimana torno a casa presto dal lavoro, preparo una zuppa calda e dormo più del solito. Non faccio sport, perché il mio corpo ha bisogno di riposo. Quando starò meglio, riprenderò a camminare ogni sera nel quartiere con il mio vicino.",
+    "transcript": "Mi fa male la gola. Parliamo di farmacia. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a2-la-salute-ogni-giorno-listening-listening-comprehension",
@@ -32003,11 +31550,34 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Da alcuni giorni ho un forte _____ e non mi sento molto bene.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Mi fa male la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "raffreddore"
+                "text": "gola"
+              },
+              {
+                "id": "o2",
+                "text": "Parliamo"
+              },
+              {
+                "id": "o3",
+                "text": "farmacia"
+              },
+              {
+                "id": "o4",
+                "text": "imparare"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "piace"
               },
               {
                 "id": "o2",
@@ -32015,153 +31585,103 @@
               },
               {
                 "id": "o3",
-                "text": "riposare"
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "ascoltato"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ieri sono _____ alla farmacia vicino a casa.”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "raffreddore"
-              },
-              {
-                "id": "o2",
-                "text": "andato"
-              },
-              {
-                "id": "o3",
-                "text": "consigliato"
-              },
-              {
-                "id": "o4",
-                "text": "farmacista"
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Questa settimana torno a casa presto dal lavoro, _____ una zuppa calda e dormo più del solito.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "raffreddore"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "consigliato"
+                "text": "domani"
               },
               {
                 "id": "o3",
-                "text": "preparo"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "bene"
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Quando starò _____, riprenderò a camminare ogni sera nel quartiere con il mio vicino.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "raffreddore"
+                "text": "male"
               },
               {
                 "id": "o2",
-                "text": "consigliato"
+                "text": "gola"
               },
               {
                 "id": "o3",
-                "text": "farmacista"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "meglio"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Da alcuni giorni ho un forte raffreddore e non mi sento molto bene. Ho mal di gola, il naso chiuso e poca energia. Ieri sono andato alla farmacia vicino a casa. La farmacista mi ha ascoltato con attenzione e mi ha consigliato di bere molta acqua, riposare e usare uno spray per il naso. Mi ha anche detto di andare dal medico se la febbre aumenta. Questa settimana torno a casa presto dal lavoro, preparo una zuppa calda e dormo più del solito. Non faccio sport, perché il mio corpo ha bisogno di riposo. Quando starò meglio, riprenderò a camminare ogni sera nel quartiere con il mio vicino.",
-      "transcriptSegments": [
-        {
-          "text": "Da alcuni giorni ho un forte raffreddore e non mi sento molto bene."
-        },
-        {
-          "text": "Ho mal di gola, il naso chiuso e poca energia."
-        },
-        {
-          "text": "Ieri sono andato alla farmacia vicino a casa."
-        },
-        {
-          "text": "La farmacista mi ha ascoltato con attenzione e mi ha consigliato di bere molta acqua, riposare e usare uno spray per il naso."
-        },
-        {
-          "text": "Mi ha anche detto di andare dal medico se la febbre aumenta."
-        },
-        {
-          "text": "Questa settimana torno a casa presto dal lavoro, preparo una zuppa calda e dormo più del solito."
-        },
-        {
-          "text": "Non faccio sport, perché il mio corpo ha bisogno di riposo."
-        },
-        {
-          "text": "Quando starò meglio, riprenderò a camminare ogni sera nel quartiere con il mio vicino."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Da alcuni giorni ho un forte _____ e non mi sento molto bene.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Mi fa male la _____.”",
         "options": [
-          "raffreddore",
+          "gola",
+          "Parliamo",
           "farmacia",
-          "riposare",
-          "ascoltato"
+          "imparare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ieri sono _____ alla farmacia vicino a casa.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "raffreddore",
-          "andato",
-          "consigliato",
-          "farmacista"
+          "piace",
+          "farmacia",
+          "domani",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Questa settimana torno a casa presto dal lavoro, _____ una zuppa calda e dormo più del solito.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "raffreddore",
-          "consigliato",
-          "preparo",
-          "bene"
+          "piace",
+          "domani",
+          "comunità",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Quando starò _____, riprenderò a camminare ogni sera nel quartiere con il mio vicino.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "raffreddore",
-          "consigliato",
-          "farmacista",
-          "meglio"
+          "male",
+          "gola",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -32524,11 +32044,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: tecnologia». Puoi aiutarmi?"
+        "line": "Vorrei valutare usos de la tecnología con argumentos. Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+        "line": "Sì, certo. Parliamone passo dopo passo."
       }
     ],
     "reading": null,
@@ -32763,16 +32283,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Oggi fa caldo». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -32804,16 +32315,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Mi fa male la gola». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -33569,33 +33071,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "il-tempo-e-le-stagioni",
-    "title": "Il tempo e le stagioni: grammatica",
+    "title": "Fare e c’è per il tempo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 84,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Parlare del tempo.",
+    "intro": "Parlare del tempo.",
+    "mission": "Aprende fare e c’è per il tempo y úsalo en una frase sobre el clima y las estaciones.",
+    "grammar": "Usa fare per il clima e c’è per le condizioni.",
     "phrases": [
+      "Oggi fa caldo.",
       "Oggi fa caldo."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Fare e c’è per il tempo",
+        "definition": "Usa fare per il clima e c’è per le condizioni.",
+        "structure": "Oggi fa caldo.",
+        "function": "Parlare del tempo.",
+        "examples": [
+          "Oggi fa caldo.",
+          "Oggi fa caldo."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Oggi fa caldo.",
+          "Oggi fa caldo.",
           "sole",
-          "pioggia",
-          "caldo"
+          "pioggia"
         ]
       },
       {
@@ -33620,7 +33136,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Oggi fa caldo.",
           "caldo",
@@ -33635,33 +33151,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "la-salute-ogni-giorno",
-    "title": "La salute ogni giorno: grammatica",
+    "title": "Mi fa male",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 84,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Esprimere un malessere.",
+    "intro": "Esprimere un malessere.",
+    "mission": "Aprende mi fa male y úsalo en una frase sobre bienestar y farmacia.",
+    "grammar": "Usa mi fa male + parte del corpo.",
     "phrases": [
+      "Mi fa male la gola.",
       "Mi fa male la gola."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Mi fa male",
+        "definition": "Usa mi fa male + parte del corpo.",
+        "structure": "Mi fa male la gola.",
+        "function": "Esprimere un malessere.",
+        "examples": [
+          "Mi fa male la gola.",
+          "Mi fa male la gola."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Mi fa male la gola.",
+          "Mi fa male la gola.",
           "farmacia",
-          "dolore",
-          "riposo"
+          "dolore"
         ]
       },
       {
@@ -33686,7 +33216,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Mi fa male la gola.",
           "riposo",
@@ -34410,7 +33940,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 90,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Una pequeña fiesta comunitaria",
     "intro": "Una pequeña fiesta comunitaria",
     "mission": "",
@@ -34421,63 +33951,61 @@
     "reading": {
       "title": "Una festa di quartiere",
       "parts": [
-        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
-        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
-        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+        "Sofia è em Bologna. Hoje descobre una pequeña fiesta comunitaria. Encontra Marco e diz: “Ci vediamo alla festa.”. Os dois falam com respeito e aprendem quatro palavras novas: festa, musica, vicino e sabato.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
+        "Al final, Sofia scrive una nota: “Ci vediamo alla festa.”."
       ],
       "questions": [
-        "Dove si trova Sofia?",
+        "Dove è Sofia?",
         "Con chi parla Sofia?",
-        "Che cosa fa Sofia se non capisce una parola?",
-        "Perché Sofia ripete le parole?"
+        "Quale frase usa Sofia?",
+        "Perché l’esperienza è importante?"
       ],
-      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+      "text": "Sofia è em Bologna. Hoje descobre una pequeña fiesta comunitaria. Encontra Marco e diz: “Ci vediamo alla festa.”. Os dois falam com respeito e aprendem quatro palavras novas: festa, musica, vicino e sabato.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Ci vediamo alla festa.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "italian-a1-una-festa-di-quartiere-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Dove si trova Sofia?",
+        "prompt": "Che cosa pratica l’unità?",
         "options": [
-          "Bologna",
-          "Roma",
-          "Milano",
-          "Napoli"
+          "invitar y aceptar",
+          "Una regola isolata",
+          "Un esame tecnico",
+          "Un tema senza contesto"
         ]
       },
       {
-        "id": "italian-a1-una-festa-di-quartiere-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Con chi parla Sofia?",
+        "prompt": "Che cosa fa lo studente?",
+        "options": [
+          "invitar y aceptar",
+          "Memorizza senza usare",
+          "Evita di parlare",
+          "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-una-festa-di-quartiere-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "Lucia",
-          "Paolo",
-          "Anna"
+          "festa",
+          "Sofia",
+          "frase"
         ]
       },
       {
-        "id": "italian-a1-una-festa-di-quartiere-reading-reading-comprehension-3",
+        "id": "italian-a1-una-festa-di-quartiere-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Che cosa fa Sofia se non capisce una parola?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia scrive una nota: “Ci _____ alla festa.”.”",
         "options": [
-          "Chiede di ripetere",
-          "Va via subito",
-          "Non ascolta",
-          "Cambia città"
-        ]
-      },
-      {
-        "id": "italian-a1-una-festa-di-quartiere-reading-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Perché Sofia ripete le parole?",
-        "options": [
-          "Per sentirsi più sicura",
-          "Per fare un esame tecnico",
-          "Per comprare un biglietto",
-          "Per evitare Marco"
+          "Bologna",
+          "domanda",
+          "Encontra",
+          "vediamo"
         ]
       }
     ]
@@ -34578,15 +34106,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "citta-e-mobilita",
-    "title": "Città e mobilità: grammatica",
+    "title": "Comparativi complessi",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 91,
     "estimatedMinutes": 10,
-    "description": "comparare opciones de movilidad urbana",
+    "description": "Tema gramatical: Comparativi complessi.",
     "intro": "comparare opciones de movilidad urbana",
-    "mission": "comparare opciones de movilidad urbana",
+    "mission": "Estudia Comparativi complessi y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Impariamo: trasporto.",
@@ -34912,7 +34440,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Da quando mi sono trasferito a Bologna, uso l’auto molto meno. Il centro è pieno di zone pedonali e molte strade sono più facili da percorrere a piedi o in bicicletta. Per andare al lavoro prendo l’autobus, ma quando il tempo è bello uso una bicicletta condivisa. All’inizio temevo di arrivare tardi, invece ho scoperto che il traffico è spesso più lento dei mezzi pubblici. Ci sono ancora problemi, soprattutto nelle ore di punta, e alcune fermate potrebbero essere più accessibili. Però penso che una città migliore sia quella in cui le persone hanno alternative sicure all’auto privata. Per questo cerco di pianificare gli spostamenti e di uscire qualche minuto prima.",
+    "transcript": "Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e traffico. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana. Poi il gruppo riassume le idee più importanti.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-b1-citta-e-mobilita-listening-listening-comprehension",
@@ -34921,162 +34449,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Da quando mi sono trasferito a Bologna, uso _____ molto meno.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’auto"
+                "text": "traffico"
               },
               {
                 "id": "o2",
-                "text": "soprattutto"
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "accessibili"
+                "text": "Città"
               },
               {
                 "id": "o4",
-                "text": "alternative"
+                "text": "parla"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Per _____ al lavoro prendo l’autobus, ma quando il tempo è bello uso una bicicletta condivisa.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "soprattutto"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "andare"
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "accessibili"
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "alternative"
+                "text": "tema"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Ci sono ancora problemi, soprattutto nelle ore di punta, e _____ fermate potrebbero essere più accessibili.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "soprattutto"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "accessibili"
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "alcune"
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "alternative"
+                "text": "migliorare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Per questo cerco di pianificare gli spostamenti e di uscire qualche _____ prima.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "soprattutto"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "accessibili"
+                "text": "collaborare"
               },
               {
                 "id": "o3",
-                "text": "alternative"
+                "text": "migliorare"
               },
               {
                 "id": "o4",
-                "text": "minuto"
+                "text": "gruppo"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Da quando mi sono trasferito a Bologna, uso l’auto molto meno. Il centro è pieno di zone pedonali e molte strade sono più facili da percorrere a piedi o in bicicletta. Per andare al lavoro prendo l’autobus, ma quando il tempo è bello uso una bicicletta condivisa. All’inizio temevo di arrivare tardi, invece ho scoperto che il traffico è spesso più lento dei mezzi pubblici. Ci sono ancora problemi, soprattutto nelle ore di punta, e alcune fermate potrebbero essere più accessibili. Però penso che una città migliore sia quella in cui le persone hanno alternative sicure all’auto privata. Per questo cerco di pianificare gli spostamenti e di uscire qualche minuto prima.",
-      "transcriptSegments": [
-        {
-          "text": "Da quando mi sono trasferito a Bologna, uso l’auto molto meno."
-        },
-        {
-          "text": "Il centro è pieno di zone pedonali e molte strade sono più facili da percorrere a piedi o in bicicletta."
-        },
-        {
-          "text": "Per andare al lavoro prendo l’autobus, ma quando il tempo è bello uso una bicicletta condivisa."
-        },
-        {
-          "text": "All’inizio temevo di arrivare tardi, invece ho scoperto che il traffico è spesso più lento dei mezzi pubblici."
-        },
-        {
-          "text": "Ci sono ancora problemi, soprattutto nelle ore di punta, e alcune fermate potrebbero essere più accessibili."
-        },
-        {
-          "text": "Però penso che una città migliore sia quella in cui le persone hanno alternative sicure all’auto privata."
-        },
-        {
-          "text": "Per questo cerco di pianificare gli spostamenti e di uscire qualche minuto prima."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Da quando mi sono trasferito a Bologna, uso _____ molto meno.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Città e mobilità», un piccolo gruppo della comunità parla di trasporto, percorso e _____.”",
         "options": [
-          "l’auto",
-          "soprattutto",
-          "accessibili",
-          "alternative"
+          "traffico",
+          "un'esperienza",
+          "Città",
+          "parla"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Per _____ al lavoro prendo l’autobus, ma quando il tempo è bello uso una bicicletta condivisa.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "soprattutto",
-          "andare",
-          "accessibili",
-          "alternative"
+          "un'esperienza",
+          "persona",
+          "collaborare",
+          "tema"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Ci sono ancora problemi, soprattutto nelle ore di punta, e _____ fermate potrebbero essere più accessibili.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "soprattutto",
-          "accessibili",
-          "alcune",
-          "alternative"
+          "un'esperienza",
+          "collaborare",
+          "perché",
+          "migliorare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Per questo cerco di pianificare gli spostamenti e di uscire qualche _____ prima.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "soprattutto",
-          "accessibili",
-          "alternative",
-          "minuto"
+          "un'esperienza",
+          "collaborare",
+          "migliorare",
+          "gruppo"
         ]
       }
     ]
@@ -35328,27 +34832,39 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "In un piccolo borgo dell’Appennino, alcuni abitanti hanno trasformato case vuote in alloggi gestiti dalla comunità. Chi arriva non trova soltanto una stanza, ma riceve informazioni sui produttori locali, sui sentieri e sulle attività del paese. I guadagni servono in parte a mantenere aperto il negozio di alimentari e a finanziare un servizio di trasporto per gli anziani. Ho conosciuto questo progetto durante una visita e mi è sembrato un modo interessante di pensare all’ospitalità. Il turismo può aiutare un territorio, ma solo se le persone che vi abitano partecipano alle decisioni e ne ricevono benefici concreti. Altrimenti, rischia di cambiare il luogo senza migliorare la vita di chi ci resta tutto l’anno.",
+    "transcript": "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni. La prima osserva che itinerario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
     "extra": {
-      "mainTranscript": "In un piccolo borgo dell’Appennino, alcuni abitanti hanno trasformato case vuote in alloggi gestiti dalla comunità. Chi arriva non trova soltanto una stanza, ma riceve informazioni sui produttori locali, sui sentieri e sulle attività del paese. I guadagni servono in parte a mantenere aperto il negozio di alimentari e a finanziare un servizio di trasporto per gli anziani. Ho conosciuto questo progetto durante una visita e mi è sembrato un modo interessante di pensare all’ospitalità. Il turismo può aiutare un territorio, ma solo se le persone che vi abitano partecipano alle decisioni e ne ricevono benefici concreti. Altrimenti, rischia di cambiare il luogo senza migliorare la vita di chi ci resta tutto l’anno.",
+      "mainTranscript": "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni. La prima osserva che itinerario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
       "transcriptSegments": [
         {
-          "text": "In un piccolo borgo dell’Appennino, alcuni abitanti hanno trasformato case vuote in alloggi gestiti dalla comunità."
+          "id": "segment-01",
+          "order": 1,
+          "text": "In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro posizioni."
         },
         {
-          "text": "Chi arriva non trova soltanto una stanza, ma riceve informazioni sui produttori locali, sui sentieri e sulle attività del paese."
+          "id": "segment-02",
+          "order": 2,
+          "text": "La prima osserva che itinerario non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
         },
         {
-          "text": "I guadagni servono in parte a mantenere aperto il negozio di alimentari e a finanziare un servizio di trasporto per gli anziani."
+          "id": "segment-03",
+          "order": 3,
+          "text": "L’altro aggiunge che alloggio è utile solo se viene spiegato con esempi verificabili."
         },
         {
-          "text": "Ho conosciuto questo progetto durante una visita e mi è sembrato un modo interessante di pensare all’ospitalità."
+          "id": "segment-04",
+          "order": 4,
+          "text": "Nel confronto emerge una possibile difficoltà: imprevisto può cambiare la prospettiva di chi ascolta."
         },
         {
-          "text": "Il turismo può aiutare un territorio, ma solo se le persone che vi abitano partecipano alle decisioni e ne ricevono benefici concreti."
+          "id": "segment-05",
+          "order": 5,
+          "text": "Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile."
         },
         {
-          "text": "Altrimenti, rischia di cambiare il luogo senza migliorare la vita di chi ci resta tutto l’anno."
+          "id": "segment-06",
+          "order": 6,
+          "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         }
       ],
       "listeningType": "story",
@@ -35359,92 +34875,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In un piccolo borgo dell’Appennino, alcuni abitanti hanno trasformato case vuote in alloggi gestiti dalla _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunità"
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "dell’Appennino"
+                "text": "Viaggi"
               },
               {
                 "id": "o3",
-                "text": "all’ospitalità"
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "informazioni"
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“I guadagni _____ in parte a mantenere aperto il negozio di alimentari e a finanziare un servizio di trasporto per gli anziani.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che alloggio è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "dell’Appennino"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "servono"
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "all’ospitalità"
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "informazioni"
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Ho conosciuto questo progetto durante una _____ e mi è sembrato un modo interessante di pensare all’ospitalità.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: imprevisto può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "dell’Appennino"
+                "text": "Viaggi"
               },
               {
                 "id": "o2",
-                "text": "all’ospitalità"
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "visita"
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "informazioni"
+                "text": "essere"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“_____, rischia di cambiare il luogo senza migliorare la vita di chi ci resta tutto l’anno.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "dell’Appennino"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "all’ospitalità"
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "piccolo"
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "Altrimenti"
+                "text": "scelte"
               }
             ]
           }
@@ -35464,42 +34980,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In un piccolo borgo dell’Appennino, alcuni abitanti hanno trasformato case vuote in alloggi gestiti dalla _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Viaggi consapevoli, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "comunità",
-          "dell’Appennino",
-          "all’ospitalità",
-          "informazioni"
+          "posizioni",
+          "Viaggi",
+          "partecipanti",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“I guadagni _____ in parte a mantenere aperto il negozio di alimentari e a finanziare un servizio di trasporto per gli anziani.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che alloggio è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "dell’Appennino",
-          "servono",
-          "all’ospitalità",
-          "informazioni"
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Ho conosciuto questo progetto durante una _____ e mi è sembrato un modo interessante di pensare all’ospitalità.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: imprevisto può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "dell’Appennino",
-          "all’ospitalità",
-          "visita",
-          "informazioni"
+          "Viaggi",
+          "partecipanti",
+          "possibile",
+          "essere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“_____, rischia di cambiare il luogo senza migliorare la vita di chi ci resta tutto l’anno.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "dell’Appennino",
-          "all’ospitalità",
-          "piccolo",
-          "Altrimenti"
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -35962,7 +35478,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Sabato pomeriggio nel quartiere di Sara c’è una piccola festa. Nella piazza ci sono tavoli, musica e tante luci colorate. Alcuni vicini preparano panini e bevande; altri organizzano giochi per i bambini. Sara arriva con sua sorella alle cinque e incontra molti amici. Un gruppo suona canzoni italiane e le persone cantano insieme. C’è anche un piccolo banco con focaccia e limonata fresca. Più tardi, Sara aiuta a raccogliere i bicchieri di carta. È stanca, ma contenta, perché la festa fa sentire tutti più vicini.",
+    "transcript": "Ci vediamo alla festa. Parliamo di festa. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a1-una-festa-di-quartiere-listening-listening-comprehension",
@@ -35971,53 +35487,30 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Sabato pomeriggio nel quartiere di Sara c’è una _____ festa.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Ci _____ alla festa.”",
             "options": [
               {
                 "id": "o1",
-                "text": "piccola"
+                "text": "vediamo"
               },
               {
                 "id": "o2",
-                "text": "organizzano"
+                "text": "alla"
               },
               {
                 "id": "o3",
-                "text": "raccogliere"
+                "text": "festa"
               },
               {
                 "id": "o4",
-                "text": "pomeriggio"
+                "text": "piace"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Alcuni _____ preparano panini e bevande; altri organizzano giochi per i bambini.”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "organizzano"
-              },
-              {
-                "id": "o2",
-                "text": "vicini"
-              },
-              {
-                "id": "o3",
-                "text": "raccogliere"
-              },
-              {
-                "id": "o4",
-                "text": "pomeriggio"
-              }
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“C’è anche un piccolo banco con focaccia e _____ fresca.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di festa.”",
             "options": [
               {
                 "id": "o1",
@@ -36025,111 +35518,107 @@
               },
               {
                 "id": "o2",
-                "text": "Nella"
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "limonata"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "tante"
+                "text": "domani"
+              }
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "festa"
+              },
+              {
+                "id": "o2",
+                "text": "piace"
+              },
+              {
+                "id": "o3",
+                "text": "comunità"
+              },
+              {
+                "id": "o4",
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“È _____, ma contenta, perché la festa fa sentire tutti più vicini.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "organizzano"
+                "text": "alla"
               },
               {
                 "id": "o2",
-                "text": "raccogliere"
+                "text": "festa"
               },
               {
                 "id": "o3",
-                "text": "pomeriggio"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "stanca"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Sabato pomeriggio nel quartiere di Sara c’è una piccola festa. Nella piazza ci sono tavoli, musica e tante luci colorate. Alcuni vicini preparano panini e bevande; altri organizzano giochi per i bambini. Sara arriva con sua sorella alle cinque e incontra molti amici. Un gruppo suona canzoni italiane e le persone cantano insieme. C’è anche un piccolo banco con focaccia e limonata fresca. Più tardi, Sara aiuta a raccogliere i bicchieri di carta. È stanca, ma contenta, perché la festa fa sentire tutti più vicini.",
-      "transcriptSegments": [
-        {
-          "text": "Sabato pomeriggio nel quartiere di Sara c’è una piccola festa."
-        },
-        {
-          "text": "Nella piazza ci sono tavoli, musica e tante luci colorate."
-        },
-        {
-          "text": "Alcuni vicini preparano panini e bevande; altri organizzano giochi per i bambini."
-        },
-        {
-          "text": "Sara arriva con sua sorella alle cinque e incontra molti amici."
-        },
-        {
-          "text": "Un gruppo suona canzoni italiane e le persone cantano insieme."
-        },
-        {
-          "text": "C’è anche un piccolo banco con focaccia e limonata fresca."
-        },
-        {
-          "text": "Più tardi, Sara aiuta a raccogliere i bicchieri di carta."
-        },
-        {
-          "text": "È stanca, ma contenta, perché la festa fa sentire tutti più vicini."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Sabato pomeriggio nel quartiere di Sara c’è una _____ festa.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Ci _____ alla festa.”",
         "options": [
-          "piccola",
-          "organizzano",
-          "raccogliere",
-          "pomeriggio"
+          "vediamo",
+          "alla",
+          "festa",
+          "piace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Alcuni _____ preparano panini e bevande; altri organizzano giochi per i bambini.”",
-        "options": [
-          "organizzano",
-          "vicini",
-          "raccogliere",
-          "pomeriggio"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“C’è anche un piccolo banco con focaccia e _____ fresca.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di festa.”",
         "options": [
           "festa",
-          "Nella",
-          "limonata",
-          "tante"
+          "Parliamo",
+          "piace",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“È _____, ma contenta, perché la festa fa sentire tutti più vicini.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "organizzano",
-          "raccogliere",
-          "pomeriggio",
-          "stanca"
+          "festa",
+          "piace",
+          "comunità",
+          "domani"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
+        "options": [
+          "alla",
+          "festa",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -36178,7 +35667,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Mia cugina vive a Palermo, ma suo marito lavora a Genova. Da due anni la loro famiglia passa alcuni mesi in Sicilia e altri in Liguria. Non è sempre facile organizzare la scuola dei bambini, i viaggi e il lavoro, però preparano tutto con attenzione. In estate stanno più tempo a Palermo, vicino ai nonni e al mare. Durante l’inverno vivono a Genova, dove il marito lavora in un ufficio. I bambini hanno amici in entrambe le città e conoscono abitudini diverse. All’inizio sentivano la mancanza dell’altra casa, ma ora sono contenti di avere due luoghi importanti. Ogni domenica chiamano i nonni con il telefono e raccontano la loro settimana.",
+    "transcript": "La sua famiglia è arrivata anni fa. Parliamo di famiglia. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a2-storie-di-migrazione-listening-listening-comprehension",
@@ -36187,165 +35676,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Mia cugina vive a Palermo, ma suo marito lavora a _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“La sua famiglia è _____ anni fa.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Genova"
+                "text": "arrivata"
               },
               {
                 "id": "o2",
-                "text": "organizzare"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "attenzione"
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "All’inizio"
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Non è _____ facile organizzare la scuola dei bambini, i viaggi e il lavoro, però preparano tutto con attenzione.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "organizzare"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "sempre"
+                "text": "famiglia"
               },
               {
                 "id": "o3",
-                "text": "attenzione"
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "All’inizio"
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“I bambini hanno amici in entrambe le città e conoscono _____ diverse.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "cugina"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "marito"
+                "text": "domani"
               },
               {
                 "id": "o3",
-                "text": "abitudini"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "lavora"
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Ogni domenica chiamano i nonni con il telefono e raccontano la loro _____.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "cugina"
+                "text": "anni"
               },
               {
                 "id": "o2",
-                "text": "marito"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "lavora"
+                "text": "famiglia"
               },
               {
                 "id": "o4",
-                "text": "settimana"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Mia cugina vive a Palermo, ma suo marito lavora a Genova. Da due anni la loro famiglia passa alcuni mesi in Sicilia e altri in Liguria. Non è sempre facile organizzare la scuola dei bambini, i viaggi e il lavoro, però preparano tutto con attenzione. In estate stanno più tempo a Palermo, vicino ai nonni e al mare. Durante l’inverno vivono a Genova, dove il marito lavora in un ufficio. I bambini hanno amici in entrambe le città e conoscono abitudini diverse. All’inizio sentivano la mancanza dell’altra casa, ma ora sono contenti di avere due luoghi importanti. Ogni domenica chiamano i nonni con il telefono e raccontano la loro settimana.",
-      "transcriptSegments": [
-        {
-          "text": "Mia cugina vive a Palermo, ma suo marito lavora a Genova."
-        },
-        {
-          "text": "Da due anni la loro famiglia passa alcuni mesi in Sicilia e altri in Liguria."
-        },
-        {
-          "text": "Non è sempre facile organizzare la scuola dei bambini, i viaggi e il lavoro, però preparano tutto con attenzione."
-        },
-        {
-          "text": "In estate stanno più tempo a Palermo, vicino ai nonni e al mare."
-        },
-        {
-          "text": "Durante l’inverno vivono a Genova, dove il marito lavora in un ufficio."
-        },
-        {
-          "text": "I bambini hanno amici in entrambe le città e conoscono abitudini diverse."
-        },
-        {
-          "text": "All’inizio sentivano la mancanza dell’altra casa, ma ora sono contenti di avere due luoghi importanti."
-        },
-        {
-          "text": "Ogni domenica chiamano i nonni con il telefono e raccontano la loro settimana."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Mia cugina vive a Palermo, ma suo marito lavora a _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“La sua famiglia è _____ anni fa.”",
         "options": [
-          "Genova",
-          "organizzare",
-          "attenzione",
-          "All’inizio"
+          "arrivata",
+          "piace",
+          "domani",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Non è _____ facile organizzare la scuola dei bambini, i viaggi e il lavoro, però preparano tutto con attenzione.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "organizzare",
-          "sempre",
-          "attenzione",
-          "All’inizio"
+          "piace",
+          "famiglia",
+          "domani",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“I bambini hanno amici in entrambe le città e conoscono _____ diverse.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "cugina",
-          "marito",
-          "abitudini",
-          "lavora"
+          "piace",
+          "domani",
+          "comunità",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Ogni domenica chiamano i nonni con il telefono e raccontano la loro _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "cugina",
-          "marito",
-          "lavora",
-          "settimana"
+          "anni",
+          "piace",
+          "famiglia",
+          "pratica"
         ]
       }
     ]
@@ -36708,11 +36170,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: trasporto». Puoi aiutarmi?"
+        "line": "Vorrei comparare opciones de movilidad urbana. Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+        "line": "Sì, certo. Parliamone passo dopo passo."
       }
     ],
     "reading": null,
@@ -36947,16 +36409,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Ci vediamo alla festa». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -36988,16 +36441,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «La sua famiglia è arrivata anni fa». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -37753,33 +37197,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "una-festa-di-quartiere",
-    "title": "Una festa di quartiere: grammatica",
+    "title": "Andare a e in",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 94,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Fare inviti.",
+    "intro": "Fare inviti.",
+    "mission": "Aprende andare a e in y úsalo en una frase sobre una pequeña fiesta comunitaria.",
+    "grammar": "Usa andare a per città e andare in per luoghi.",
     "phrases": [
+      "Ci vediamo alla festa.",
       "Ci vediamo alla festa."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Andare a e in",
+        "definition": "Usa andare a per città e andare in per luoghi.",
+        "structure": "Ci vediamo alla festa.",
+        "function": "Fare inviti.",
+        "examples": [
+          "Ci vediamo alla festa.",
+          "Ci vediamo alla festa."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Ci vediamo alla festa.",
+          "Ci vediamo alla festa.",
           "festa",
-          "musica",
-          "vicino"
+          "musica"
         ]
       },
       {
@@ -37804,7 +37262,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Ci vediamo alla festa.",
           "vicino",
@@ -37819,33 +37277,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "storie-di-migrazione",
-    "title": "Storie di migrazione: grammatica",
+    "title": "Da + tempo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 94,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Raccontare una storia.",
+    "intro": "Raccontare una storia.",
+    "mission": "Aprende da + tempo y úsalo en una frase sobre italia diversa: familias y trayectorias.",
+    "grammar": "Usa da per la durata di una situazione.",
     "phrases": [
+      "La famiglia vive qui da anni.",
       "La sua famiglia è arrivata anni fa."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Da + tempo",
+        "definition": "Usa da per la durata di una situazione.",
+        "structure": "La famiglia vive qui da anni.",
+        "function": "Raccontare una storia.",
+        "examples": [
+          "La famiglia vive qui da anni.",
+          "La sua famiglia è arrivata anni fa."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "La famiglia vive qui da anni.",
           "La sua famiglia è arrivata anni fa.",
           "famiglia",
-          "origine",
-          "arrivare"
+          "origine"
         ]
       },
       {
@@ -37870,7 +37342,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "La sua famiglia è arrivata anni fa.",
           "arrivare",
@@ -38594,7 +38066,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 100,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Un viaje corto en tren regional",
     "intro": "Un viaje corto en tren regional",
     "mission": "",
@@ -38605,63 +38077,61 @@
     "reading": {
       "title": "In treno",
       "parts": [
-        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
-        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
-        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+        "Sofia è em Bologna. Hoje descobre un viaje corto en tren regional. Encontra Marco e diz: “Un biglietto per Firenze.”. Os dois falam com respeito e aprendem quatro palavras novas: treno, biglietto, binario e viaggio.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
+        "Al final, Sofia scrive una nota: “Un biglietto per Firenze.”."
       ],
       "questions": [
-        "Dove si trova Sofia?",
+        "Dove è Sofia?",
         "Con chi parla Sofia?",
-        "Che cosa fa Sofia se non capisce una parola?",
-        "Perché Sofia ripete le parole?"
+        "Quale frase usa Sofia?",
+        "Perché l’esperienza è importante?"
       ],
-      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+      "text": "Sofia è em Bologna. Hoje descobre un viaje corto en tren regional. Encontra Marco e diz: “Un biglietto per Firenze.”. Os dois falam com respeito e aprendem quatro palavras novas: treno, biglietto, binario e viaggio.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Un biglietto per Firenze.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "italian-a1-in-treno-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Dove si trova Sofia?",
+        "prompt": "Che cosa pratica l’unità?",
         "options": [
-          "Bologna",
-          "Roma",
-          "Milano",
-          "Napoli"
+          "comprar un billete",
+          "Una regola isolata",
+          "Un esame tecnico",
+          "Un tema senza contesto"
         ]
       },
       {
-        "id": "italian-a1-in-treno-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Con chi parla Sofia?",
+        "prompt": "Che cosa fa lo studente?",
+        "options": [
+          "comprar un billete",
+          "Memorizza senza usare",
+          "Evita di parlare",
+          "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-in-treno-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "Lucia",
-          "Paolo",
-          "Anna"
+          "frase",
+          "Sofia",
+          "breve"
         ]
       },
       {
-        "id": "italian-a1-in-treno-reading-reading-comprehension-3",
+        "id": "italian-a1-in-treno-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Che cosa fa Sofia se non capisce una parola?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia _____ una nota: “Un biglietto per Firenze.”.”",
         "options": [
-          "Chiede di ripetere",
-          "Va via subito",
-          "Non ascolta",
-          "Cambia città"
-        ]
-      },
-      {
-        "id": "italian-a1-in-treno-reading-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Perché Sofia ripete le parole?",
-        "options": [
-          "Per sentirsi più sicura",
-          "Per fare un esame tecnico",
-          "Per comprare un biglietto",
-          "Per evitare Marco"
+          "Sofia",
+          "Bologna",
+          "Marco",
+          "scrive"
         ]
       }
     ]
@@ -38762,15 +38232,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "piani-per-il-futuro",
-    "title": "Piani per il futuro: grammatica",
+    "title": "Futuro anteriore e supposizioni",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 101,
     "estimatedMinutes": 10,
-    "description": "hablar de metas y posibilidades futuras",
+    "description": "Tema gramatical: Futuro anteriore e supposizioni.",
     "intro": "hablar de metas y posibilidades futuras",
-    "mission": "hablar de metas y posibilidades futuras",
+    "mission": "Estudia Futuro anteriore e supposizioni y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Impariamo: futuro.",
@@ -39096,7 +38566,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Fra sei mesi terminerò il mio corso professionale e sto pensando a cosa fare dopo. Mi piacerebbe trovare un lavoro nel settore del turismo, perché mi piace parlare con persone provenienti da paesi diversi. Non ho ancora deciso se resterò nella mia città o se cercherò un’esperienza all’estero. Per prepararmi, sto migliorando l’inglese e mando curriculum a diverse aziende. Mio padre mi dice di non avere fretta, mentre una mia amica pensa che dovrei partire subito. Io credo che sia utile ascoltare i consigli, ma alla fine devo scegliere un percorso che sia adatto a me. Il futuro non è completamente chiaro, ma ho alcuni passi concreti da fare. Nel frattempo, sto mettendo da parte un po’ di denaro per avere più possibilità.",
+    "transcript": "Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e opportunità. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana. Poi il gruppo riassume le idee più importanti.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-b1-piani-per-il-futuro-listening-listening-comprehension",
@@ -39105,165 +38575,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Fra sei mesi terminerò il mio corso professionale e sto _____ a cosa fare dopo.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "pensando"
+                "text": "opportunità"
               },
               {
                 "id": "o2",
-                "text": "professionale"
+                "text": "comunità"
               },
               {
                 "id": "o3",
-                "text": "un’esperienza"
+                "text": "racconta"
               },
               {
                 "id": "o4",
-                "text": "completamente"
+                "text": "concreta"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Non ho _____ deciso se resterò nella mia città o se cercherò un’esperienza all’estero.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "professionale"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "ancora"
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "un’esperienza"
+                "text": "opportunità"
               },
               {
                 "id": "o4",
-                "text": "completamente"
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Io credo che sia utile ascoltare i consigli, ma alla fine devo scegliere un _____ che sia adatto a me.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "professionale"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "un’esperienza"
+                "text": "opportunità"
               },
               {
                 "id": "o3",
-                "text": "percorso"
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "completamente"
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“_____ frattempo, sto mettendo da parte un po’ di denaro per avere più possibilità.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "professionale"
+                "text": "un'esperienza"
               },
               {
                 "id": "o2",
-                "text": "un’esperienza"
+                "text": "opportunità"
               },
               {
                 "id": "o3",
-                "text": "completamente"
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "Nel"
+                "text": "gruppo"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Fra sei mesi terminerò il mio corso professionale e sto pensando a cosa fare dopo. Mi piacerebbe trovare un lavoro nel settore del turismo, perché mi piace parlare con persone provenienti da paesi diversi. Non ho ancora deciso se resterò nella mia città o se cercherò un’esperienza all’estero. Per prepararmi, sto migliorando l’inglese e mando curriculum a diverse aziende. Mio padre mi dice di non avere fretta, mentre una mia amica pensa che dovrei partire subito. Io credo che sia utile ascoltare i consigli, ma alla fine devo scegliere un percorso che sia adatto a me. Il futuro non è completamente chiaro, ma ho alcuni passi concreti da fare. Nel frattempo, sto mettendo da parte un po’ di denaro per avere più possibilità.",
-      "transcriptSegments": [
-        {
-          "text": "Fra sei mesi terminerò il mio corso professionale e sto pensando a cosa fare dopo."
-        },
-        {
-          "text": "Mi piacerebbe trovare un lavoro nel settore del turismo, perché mi piace parlare con persone provenienti da paesi diversi."
-        },
-        {
-          "text": "Non ho ancora deciso se resterò nella mia città o se cercherò un’esperienza all’estero."
-        },
-        {
-          "text": "Per prepararmi, sto migliorando l’inglese e mando curriculum a diverse aziende."
-        },
-        {
-          "text": "Mio padre mi dice di non avere fretta, mentre una mia amica pensa che dovrei partire subito."
-        },
-        {
-          "text": "Io credo che sia utile ascoltare i consigli, ma alla fine devo scegliere un percorso che sia adatto a me."
-        },
-        {
-          "text": "Il futuro non è completamente chiaro, ma ho alcuni passi concreti da fare."
-        },
-        {
-          "text": "Nel frattempo, sto mettendo da parte un po’ di denaro per avere più possibilità."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Fra sei mesi terminerò il mio corso professionale e sto _____ a cosa fare dopo.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Piani per il futuro», un piccolo gruppo della comunità parla di futuro, obiettivo e _____.”",
         "options": [
-          "pensando",
-          "professionale",
-          "un’esperienza",
-          "completamente"
+          "opportunità",
+          "comunità",
+          "racconta",
+          "concreta"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Non ho _____ deciso se resterò nella mia città o se cercherò un’esperienza all’estero.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "professionale",
-          "ancora",
-          "un’esperienza",
-          "completamente"
+          "un'esperienza",
+          "persona",
+          "opportunità",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Io credo che sia utile ascoltare i consigli, ma alla fine devo scegliere un _____ che sia adatto a me.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "professionale",
-          "un’esperienza",
-          "percorso",
-          "completamente"
+          "un'esperienza",
+          "opportunità",
+          "perché",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“_____ frattempo, sto mettendo da parte un po’ di denaro per avere più possibilità.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "professionale",
-          "un’esperienza",
-          "completamente",
-          "Nel"
+          "un'esperienza",
+          "opportunità",
+          "collaborare",
+          "gruppo"
         ]
       }
     ]
@@ -39515,27 +38958,39 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Spesso si parla dei giovani come se avessero tutti gli stessi gusti e le stesse abitudini, ma la realtà è molto più varia. Alcuni preferiscono scoprire musica attraverso brevi video online; altri cercano concerti piccoli, libri usati o attività organizzate da associazioni locali. Anche il modo di vestire può esprimere idee diverse: c’è chi segue mode molto veloci e chi sceglie abiti di seconda mano per ragioni economiche o ambientali. Durante un dibattito a scuola, alcuni studenti hanno detto che i social influenzano le tendenze, ma non le creano da soli. Le amicizie, il quartiere e le possibilità economiche contano molto. Secondo me, capire le tendenze giovanili significa ascoltare esperienze diverse, invece di ridurle a un’unica immagine superficiale.",
+    "transcript": "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni. La prima osserva che equivoco non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
     "extra": {
-      "mainTranscript": "Spesso si parla dei giovani come se avessero tutti gli stessi gusti e le stesse abitudini, ma la realtà è molto più varia. Alcuni preferiscono scoprire musica attraverso brevi video online; altri cercano concerti piccoli, libri usati o attività organizzate da associazioni locali. Anche il modo di vestire può esprimere idee diverse: c’è chi segue mode molto veloci e chi sceglie abiti di seconda mano per ragioni economiche o ambientali. Durante un dibattito a scuola, alcuni studenti hanno detto che i social influenzano le tendenze, ma non le creano da soli. Le amicizie, il quartiere e le possibilità economiche contano molto. Secondo me, capire le tendenze giovanili significa ascoltare esperienze diverse, invece di ridurle a un’unica immagine superficiale.",
+      "mainTranscript": "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni. La prima osserva che equivoco non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
       "transcriptSegments": [
         {
-          "text": "Spesso si parla dei giovani come se avessero tutti gli stessi gusti e le stesse abitudini, ma la realtà è molto più varia."
+          "id": "segment-01",
+          "order": 1,
+          "text": "In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro posizioni."
         },
         {
-          "text": "Alcuni preferiscono scoprire musica attraverso brevi video online; altri cercano concerti piccoli, libri usati o attività organizzate da associazioni locali."
+          "id": "segment-02",
+          "order": 2,
+          "text": "La prima osserva che equivoco non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
         },
         {
-          "text": "Anche il modo di vestire può esprimere idee diverse: c’è chi segue mode molto veloci e chi sceglie abiti di seconda mano per ragioni economiche o ambientali."
+          "id": "segment-03",
+          "order": 3,
+          "text": "L’altro aggiunge che ascoltare è utile solo se viene spiegato con esempi verificabili."
         },
         {
-          "text": "Durante un dibattito a scuola, alcuni studenti hanno detto che i social influenzano le tendenze, ma non le creano da soli."
+          "id": "segment-04",
+          "order": 4,
+          "text": "Nel confronto emerge una possibile difficoltà: chiarire può cambiare la prospettiva di chi ascolta."
         },
         {
-          "text": "Le amicizie, il quartiere e le possibilità economiche contano molto."
+          "id": "segment-05",
+          "order": 5,
+          "text": "Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile."
         },
         {
-          "text": "Secondo me, capire le tendenze giovanili significa ascoltare esperienze diverse, invece di ridurle a un’unica immagine superficiale."
+          "id": "segment-06",
+          "order": 6,
+          "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         }
       ],
       "listeningType": "story",
@@ -39546,92 +39001,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Spesso si parla dei giovani come se avessero tutti gli stessi gusti e le stesse abitudini, ma la _____ è molto più varia.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "realtà"
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "preferiscono"
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "associazioni"
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "superficiale"
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Anche il modo di vestire può _____ idee diverse: c’è chi segue mode molto veloci e chi sceglie abiti di seconda mano per ragioni economiche o ambientali.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che ascoltare è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Spesso"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "esprimere"
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "stessi"
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "stesse"
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Durante un dibattito a scuola, _____ studenti hanno detto che i social influenzano le tendenze, ma non le creano da soli.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: chiarire può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "preferiscono"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "associazioni"
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "alcuni"
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "superficiale"
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Secondo me, capire le tendenze giovanili significa _____ esperienze diverse, invece di ridurle a un’unica immagine superficiale.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Spesso"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "stessi"
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "stesse"
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "ascoltare"
+                "text": "scelte"
               }
             ]
           }
@@ -39651,42 +39106,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Spesso si parla dei giovani come se avessero tutti gli stessi gusti e le stesse abitudini, ma la _____ è molto più varia.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Relazioni e mediazione, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "realtà",
-          "preferiscono",
-          "associazioni",
-          "superficiale"
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Anche il modo di vestire può _____ idee diverse: c’è chi segue mode molto veloci e chi sceglie abiti di seconda mano per ragioni economiche o ambientali.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che ascoltare è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "Spesso",
-          "esprimere",
-          "stessi",
-          "stesse"
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Durante un dibattito a scuola, _____ studenti hanno detto che i social influenzano le tendenze, ma non le creano da soli.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: chiarire può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "preferiscono",
-          "associazioni",
-          "alcuni",
-          "superficiale"
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Secondo me, capire le tendenze giovanili significa _____ esperienze diverse, invece di ridurle a un’unica immagine superficiale.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "Spesso",
-          "stessi",
-          "stesse",
-          "ascoltare"
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -40149,7 +39604,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Oggi viaggio in treno da Bologna a Firenze. Il treno parte dal binario quattro alle dieci e venti e arriva alle undici e quaranta. È un treno diretto, quindi non devo cambiare treno. Arrivo alla stazione un po’ prima perché voglio comprare una bottiglia d’acqua e controllare il mio biglietto. Nel mio zaino ho un libro, il telefono e una piccola merenda. Mi piace guardare il paesaggio dal finestrino durante il viaggio. Quando arrivo a Firenze, voglio vedere il Duomo e passeggiare vicino all’Arno. Sono molto felice di visitare Firenze.",
+    "transcript": "Un biglietto per Firenze. Parliamo di treno. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a1-in-treno-listening-listening-comprehension",
@@ -40158,7 +39613,7 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Oggi viaggio in treno da Bologna a _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Un biglietto per _____.”",
             "options": [
               {
                 "id": "o1",
@@ -40166,157 +39621,130 @@
               },
               {
                 "id": "o2",
-                "text": "controllare"
+                "text": "biglietto"
               },
               {
                 "id": "o3",
-                "text": "passeggiare"
+                "text": "treno"
               },
               {
                 "id": "o4",
-                "text": "Oggi"
+                "text": "piace"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“È un treno diretto, _____ non devo cambiare treno.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di treno.”",
             "options": [
               {
                 "id": "o1",
-                "text": "controllare"
+                "text": "treno"
               },
               {
                 "id": "o2",
-                "text": "quindi"
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "passeggiare"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "finestrino"
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace guardare il paesaggio dal finestrino _____ il viaggio.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "controllare"
+                "text": "treno"
               },
               {
                 "id": "o2",
-                "text": "passeggiare"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "durante"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Oggi"
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Sono molto felice di visitare _____.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "controllare"
+                "text": "biglietto"
               },
               {
                 "id": "o2",
-                "text": "passeggiare"
+                "text": "treno"
               },
               {
                 "id": "o3",
-                "text": "Oggi"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "Firenze"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Oggi viaggio in treno da Bologna a Firenze. Il treno parte dal binario quattro alle dieci e venti e arriva alle undici e quaranta. È un treno diretto, quindi non devo cambiare treno. Arrivo alla stazione un po’ prima perché voglio comprare una bottiglia d’acqua e controllare il mio biglietto. Nel mio zaino ho un libro, il telefono e una piccola merenda. Mi piace guardare il paesaggio dal finestrino durante il viaggio. Quando arrivo a Firenze, voglio vedere il Duomo e passeggiare vicino all’Arno. Sono molto felice di visitare Firenze.",
-      "transcriptSegments": [
-        {
-          "text": "Oggi viaggio in treno da Bologna a Firenze."
-        },
-        {
-          "text": "Il treno parte dal binario quattro alle dieci e venti e arriva alle undici e quaranta."
-        },
-        {
-          "text": "È un treno diretto, quindi non devo cambiare treno."
-        },
-        {
-          "text": "Arrivo alla stazione un po’ prima perché voglio comprare una bottiglia d’acqua e controllare il mio biglietto."
-        },
-        {
-          "text": "Nel mio zaino ho un libro, il telefono e una piccola merenda."
-        },
-        {
-          "text": "Mi piace guardare il paesaggio dal finestrino durante il viaggio."
-        },
-        {
-          "text": "Quando arrivo a Firenze, voglio vedere il Duomo e passeggiare vicino all’Arno."
-        },
-        {
-          "text": "Sono molto felice di visitare Firenze."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Oggi viaggio in treno da Bologna a _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Un biglietto per _____.”",
         "options": [
           "Firenze",
-          "controllare",
-          "passeggiare",
-          "Oggi"
+          "biglietto",
+          "treno",
+          "piace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“È un treno diretto, _____ non devo cambiare treno.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di treno.”",
         "options": [
-          "controllare",
-          "quindi",
-          "passeggiare",
-          "finestrino"
+          "treno",
+          "Parliamo",
+          "piace",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace guardare il paesaggio dal finestrino _____ il viaggio.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "controllare",
-          "passeggiare",
-          "durante",
-          "Oggi"
+          "treno",
+          "piace",
+          "comunità",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Sono molto felice di visitare _____.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "controllare",
-          "passeggiare",
-          "Oggi",
-          "Firenze"
+          "biglietto",
+          "treno",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -40365,7 +39793,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Nella mia classe stiamo preparando una raccolta di libri per la biblioteca del quartiere. La biblioteca è piccola e ha bisogno soprattutto di libri per bambini e ragazzi. Lunedì abbiamo parlato con la bibliotecaria e abbiamo diviso i compiti. Alcuni compagni fanno un poster colorato, altri scrivono un messaggio alle famiglie. Io preparo la lista dei libri che possiamo raccogliere e controllo che siano in buono stato. Venerdì pomeriggio metteremo un tavolo davanti alla scuola. Le persone potranno portare un libro e parlare con noi del progetto. Mi piace lavorare in gruppo, perché impariamo italiano, organizziamo idee e aiutiamo altre persone nello stesso momento.",
+    "transcript": "Possiamo dividere i compiti. Parliamo di progetto. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a2-un-progetto-di-classe-listening-listening-comprehension",
@@ -40374,165 +39802,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nella mia classe stiamo preparando una raccolta di libri per la biblioteca del _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Possiamo dividere i _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "quartiere"
+                "text": "compiti"
               },
               {
                 "id": "o2",
-                "text": "bibliotecaria"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "classe"
+                "text": "Possiamo"
               },
               {
                 "id": "o4",
-                "text": "stiamo"
+                "text": "dividere"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Lunedì _____ parlato con la bibliotecaria e abbiamo diviso i compiti.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "bibliotecaria"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "abbiamo"
+                "text": "progetto"
               },
               {
                 "id": "o3",
-                "text": "organizziamo"
+                "text": "domani"
               },
               {
                 "id": "o4",
-                "text": "soprattutto"
+                "text": "compiti"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Venerdì pomeriggio metteremo un _____ davanti alla scuola.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "bibliotecaria"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "organizziamo"
+                "text": "domani"
               },
               {
                 "id": "o3",
-                "text": "tavolo"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "soprattutto"
+                "text": "compiti"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Mi piace lavorare in gruppo, perché impariamo italiano, _____ idee e aiutiamo altre persone nello stesso momento.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "quartiere"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "messaggio"
+                "text": "Possiamo"
               },
               {
                 "id": "o3",
-                "text": "controllo"
+                "text": "dividere"
               },
               {
                 "id": "o4",
-                "text": "organizziamo"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Nella mia classe stiamo preparando una raccolta di libri per la biblioteca del quartiere. La biblioteca è piccola e ha bisogno soprattutto di libri per bambini e ragazzi. Lunedì abbiamo parlato con la bibliotecaria e abbiamo diviso i compiti. Alcuni compagni fanno un poster colorato, altri scrivono un messaggio alle famiglie. Io preparo la lista dei libri che possiamo raccogliere e controllo che siano in buono stato. Venerdì pomeriggio metteremo un tavolo davanti alla scuola. Le persone potranno portare un libro e parlare con noi del progetto. Mi piace lavorare in gruppo, perché impariamo italiano, organizziamo idee e aiutiamo altre persone nello stesso momento.",
-      "transcriptSegments": [
-        {
-          "text": "Nella mia classe stiamo preparando una raccolta di libri per la biblioteca del quartiere."
-        },
-        {
-          "text": "La biblioteca è piccola e ha bisogno soprattutto di libri per bambini e ragazzi."
-        },
-        {
-          "text": "Lunedì abbiamo parlato con la bibliotecaria e abbiamo diviso i compiti."
-        },
-        {
-          "text": "Alcuni compagni fanno un poster colorato, altri scrivono un messaggio alle famiglie."
-        },
-        {
-          "text": "Io preparo la lista dei libri che possiamo raccogliere e controllo che siano in buono stato."
-        },
-        {
-          "text": "Venerdì pomeriggio metteremo un tavolo davanti alla scuola."
-        },
-        {
-          "text": "Le persone potranno portare un libro e parlare con noi del progetto."
-        },
-        {
-          "text": "Mi piace lavorare in gruppo, perché impariamo italiano, organizziamo idee e aiutiamo altre persone nello stesso momento."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nella mia classe stiamo preparando una raccolta di libri per la biblioteca del _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Possiamo dividere i _____.”",
         "options": [
-          "quartiere",
-          "bibliotecaria",
-          "classe",
-          "stiamo"
+          "compiti",
+          "piace",
+          "Possiamo",
+          "dividere"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Lunedì _____ parlato con la bibliotecaria e abbiamo diviso i compiti.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "bibliotecaria",
-          "abbiamo",
-          "organizziamo",
-          "soprattutto"
+          "piace",
+          "progetto",
+          "domani",
+          "compiti"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Venerdì pomeriggio metteremo un _____ davanti alla scuola.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "bibliotecaria",
-          "organizziamo",
-          "tavolo",
-          "soprattutto"
+          "piace",
+          "domani",
+          "comunità",
+          "compiti"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Mi piace lavorare in gruppo, perché impariamo italiano, _____ idee e aiutiamo altre persone nello stesso momento.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "quartiere",
-          "messaggio",
-          "controllo",
-          "organizziamo"
+          "piace",
+          "Possiamo",
+          "dividere",
+          "pratica"
         ]
       }
     ]
@@ -40895,11 +40296,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: futuro». Puoi aiutarmi?"
+        "line": "Vorrei hablar de metas y posibilidades futuras. Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+        "line": "Sì, certo. Parliamone passo dopo passo."
       }
     ],
     "reading": null,
@@ -41134,16 +40535,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Un biglietto per Firenze». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -41175,16 +40567,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Possiamo dividere i compiti». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -41940,33 +41323,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "in-treno",
-    "title": "In treno: grammatica",
+    "title": "Volere e potere",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 104,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Viaggiare con cortesia.",
+    "intro": "Viaggiare con cortesia.",
+    "mission": "Aprende volere e potere y úsalo en una frase sobre un viaje corto en tren regional.",
+    "grammar": "Usa volere per chiedere e potere per possibilità.",
     "phrases": [
+      "Vorrei un biglietto.",
       "Un biglietto per Firenze."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Volere e potere",
+        "definition": "Usa volere per chiedere e potere per possibilità.",
+        "structure": "Vorrei un biglietto.",
+        "function": "Viaggiare con cortesia.",
+        "examples": [
+          "Vorrei un biglietto.",
+          "Un biglietto per Firenze."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Vorrei un biglietto.",
           "Un biglietto per Firenze.",
           "treno",
-          "biglietto",
-          "binario"
+          "biglietto"
         ]
       },
       {
@@ -41991,7 +41388,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Un biglietto per Firenze.",
           "binario",
@@ -42006,33 +41403,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "un-progetto-di-classe",
-    "title": "Un progetto di classe: grammatica",
+    "title": "Possiamo + infinito",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 104,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Collaborare.",
+    "intro": "Collaborare.",
+    "mission": "Aprende possiamo + infinito y úsalo en una frase sobre colaborar para una propuesta local.",
+    "grammar": "Usa possiamo per fare proposte condivise.",
     "phrases": [
+      "Possiamo dividere i compiti.",
       "Possiamo dividere i compiti."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Possiamo + infinito",
+        "definition": "Usa possiamo per fare proposte condivise.",
+        "structure": "Possiamo dividere i compiti.",
+        "function": "Collaborare.",
+        "examples": [
+          "Possiamo dividere i compiti.",
+          "Possiamo dividere i compiti."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Possiamo dividere i compiti.",
+          "Possiamo dividere i compiti.",
           "progetto",
-          "compito",
-          "idea"
+          "compito"
         ]
       },
       {
@@ -42057,7 +41468,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Possiamo dividere i compiti.",
           "idea",
@@ -42781,7 +42192,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 110,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Sabores regionales sin estereotipos",
     "intro": "Sabores regionales sin estereotipos",
     "mission": "",
@@ -42792,63 +42203,61 @@
     "reading": {
       "title": "Sapori d'Italia",
       "parts": [
-        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
-        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
-        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+        "Sofia è em Bologna. Hoje descobre sabores regionales sin estereotipos. Encontra Marco e diz: “Mi piace questa zuppa.”. Os dois falam com respeito e aprendem quatro palavras novas: pane, zuppa, formaggio e gusto.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
+        "Al final, Sofia scrive una nota: “Mi piace questa zuppa.”."
       ],
       "questions": [
-        "Dove si trova Sofia?",
+        "Dove è Sofia?",
         "Con chi parla Sofia?",
-        "Che cosa fa Sofia se non capisce una parola?",
-        "Perché Sofia ripete le parole?"
+        "Quale frase usa Sofia?",
+        "Perché l’esperienza è importante?"
       ],
-      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+      "text": "Sofia è em Bologna. Hoje descobre sabores regionales sin estereotipos. Encontra Marco e diz: “Mi piace questa zuppa.”. Os dois falam com respeito e aprendem quatro palavras novas: pane, zuppa, formaggio e gusto.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Mi piace questa zuppa.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "italian-a1-sapori-d-italia-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Dove si trova Sofia?",
+        "prompt": "Che cosa pratica l’unità?",
         "options": [
-          "Bologna",
-          "Roma",
-          "Milano",
-          "Napoli"
+          "expresar preferencias",
+          "Una regola isolata",
+          "Un esame tecnico",
+          "Un tema senza contesto"
         ]
       },
       {
-        "id": "italian-a1-sapori-d-italia-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Con chi parla Sofia?",
+        "prompt": "Che cosa fa lo studente?",
+        "options": [
+          "expresar preferencias",
+          "Memorizza senza usare",
+          "Evita di parlare",
+          "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-sapori-d-italia-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "Lucia",
-          "Paolo",
-          "Anna"
+          "piace",
+          "Sofia",
+          "zuppa"
         ]
       },
       {
-        "id": "italian-a1-sapori-d-italia-reading-reading-comprehension-3",
+        "id": "italian-a1-sapori-d-italia-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Che cosa fa Sofia se non capisce una parola?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia _____ una nota: “Mi piace questa zuppa.”.”",
         "options": [
-          "Chiede di ripetere",
-          "Va via subito",
-          "Non ascolta",
-          "Cambia città"
-        ]
-      },
-      {
-        "id": "italian-a1-sapori-d-italia-reading-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Perché Sofia ripete le parole?",
-        "options": [
-          "Per sentirsi più sicura",
-          "Per fare un esame tecnico",
-          "Per comprare un biglietto",
-          "Per evitare Marco"
+          "Sofia",
+          "Bologna",
+          "Marco",
+          "scrive"
         ]
       }
     ]
@@ -42949,15 +42358,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "relazioni-e-comunicazione",
-    "title": "Relazioni e comunicazione: grammatica",
+    "title": "Relativi e comunicazione",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 111,
     "estimatedMinutes": 10,
-    "description": "expresar relaciones, opiniones y mensajes referidos",
+    "description": "Tema gramatical: Relativi e comunicazione.",
     "intro": "expresar relaciones, opiniones y mensajes referidos",
-    "mission": "expresar relaciones, opiniones y mensajes referidos",
+    "mission": "Estudia Relativi e comunicazione y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Impariamo: relazione.",
@@ -43283,7 +42692,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "La settimana scorsa ho avuto un piccolo malinteso con un collega. Gli avevo mandato un messaggio breve per chiedere un documento, ma lui ha pensato che fossi arrabbiato. Quando ci siamo visti, parlava poco e sembrava distante. Invece di ignorare la situazione, gli ho chiesto se c’era un problema. Mi ha spiegato come aveva interpretato le mie parole e io gli ho detto che non era mia intenzione essere scortese. Abbiamo riso e abbiamo risolto tutto in pochi minuti. Questa esperienza mi ha ricordato che i messaggi scritti possono essere ambigui. Quando una questione è importante, preferisco parlare direttamente con la persona. Da allora provo a scrivere messaggi più chiari e meno frettolosi.",
+    "transcript": "Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e spiegare. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana. Poi il gruppo riassume le idee più importanti.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-b1-relazioni-e-comunicazione-listening-listening-comprehension",
@@ -43292,168 +42701,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“La settimana scorsa ho avuto un piccolo malinteso con un _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "collega"
+                "text": "spiegare"
               },
               {
                 "id": "o2",
-                "text": "interpretato"
+                "text": "comunicazione"
               },
               {
                 "id": "o3",
-                "text": "direttamente"
+                "text": "un'esperienza"
               },
               {
                 "id": "o4",
-                "text": "arrabbiato"
+                "text": "parla"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Invece di _____ la situazione, gli ho chiesto se c’era un problema.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "interpretato"
+                "text": "comunicazione"
               },
               {
                 "id": "o2",
-                "text": "ignorare"
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "direttamente"
+                "text": "un'esperienza"
               },
               {
                 "id": "o4",
-                "text": "avuto"
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Abbiamo riso e abbiamo risolto tutto in pochi _____.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "interpretato"
+                "text": "comunicazione"
               },
               {
                 "id": "o2",
-                "text": "direttamente"
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "minuti"
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "arrabbiato"
+                "text": "collaborare"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Da _____ provo a scrivere messaggi più chiari e meno frettolosi.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "interpretato"
+                "text": "comunicazione"
               },
               {
                 "id": "o2",
-                "text": "direttamente"
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "arrabbiato"
+                "text": "collaborare"
               },
               {
                 "id": "o4",
-                "text": "allora"
+                "text": "gruppo"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "La settimana scorsa ho avuto un piccolo malinteso con un collega. Gli avevo mandato un messaggio breve per chiedere un documento, ma lui ha pensato che fossi arrabbiato. Quando ci siamo visti, parlava poco e sembrava distante. Invece di ignorare la situazione, gli ho chiesto se c’era un problema. Mi ha spiegato come aveva interpretato le mie parole e io gli ho detto che non era mia intenzione essere scortese. Abbiamo riso e abbiamo risolto tutto in pochi minuti. Questa esperienza mi ha ricordato che i messaggi scritti possono essere ambigui. Quando una questione è importante, preferisco parlare direttamente con la persona. Da allora provo a scrivere messaggi più chiari e meno frettolosi.",
-      "transcriptSegments": [
-        {
-          "text": "La settimana scorsa ho avuto un piccolo malinteso con un collega."
-        },
-        {
-          "text": "Gli avevo mandato un messaggio breve per chiedere un documento, ma lui ha pensato che fossi arrabbiato."
-        },
-        {
-          "text": "Quando ci siamo visti, parlava poco e sembrava distante."
-        },
-        {
-          "text": "Invece di ignorare la situazione, gli ho chiesto se c’era un problema."
-        },
-        {
-          "text": "Mi ha spiegato come aveva interpretato le mie parole e io gli ho detto che non era mia intenzione essere scortese."
-        },
-        {
-          "text": "Abbiamo riso e abbiamo risolto tutto in pochi minuti."
-        },
-        {
-          "text": "Questa esperienza mi ha ricordato che i messaggi scritti possono essere ambigui."
-        },
-        {
-          "text": "Quando una questione è importante, preferisco parlare direttamente con la persona."
-        },
-        {
-          "text": "Da allora provo a scrivere messaggi più chiari e meno frettolosi."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“La settimana scorsa ho avuto un piccolo malinteso con un _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Relazioni e comunicazione», un piccolo gruppo della comunità parla di relazione, ascoltare e _____.”",
         "options": [
-          "collega",
-          "interpretato",
-          "direttamente",
-          "arrabbiato"
+          "spiegare",
+          "comunicazione",
+          "un'esperienza",
+          "parla"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Invece di _____ la situazione, gli ho chiesto se c’era un problema.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "interpretato",
-          "ignorare",
-          "direttamente",
-          "avuto"
+          "comunicazione",
+          "persona",
+          "un'esperienza",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Abbiamo riso e abbiamo risolto tutto in pochi _____.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "interpretato",
-          "direttamente",
-          "minuti",
-          "arrabbiato"
+          "comunicazione",
+          "un'esperienza",
+          "perché",
+          "collaborare"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Da _____ provo a scrivere messaggi più chiari e meno frettolosi.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "interpretato",
-          "direttamente",
-          "arrabbiato",
-          "allora"
+          "comunicazione",
+          "un'esperienza",
+          "collaborare",
+          "gruppo"
         ]
       }
     ]
@@ -43705,30 +43084,39 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Quest’anno il comune ha riservato una parte del suo bilancio a proposte scelte direttamente dai cittadini. All’inizio pensavo che avrebbero vinto soltanto le idee più facili da spiegare. Invece, durante gli incontri, le persone hanno discusso con serietà di costi, priorità e benefici a lungo termine. Una proposta chiedeva di restaurare un teatro, un’altra di creare una sala studio aperta la sera. Ho scelto la seconda, perché molti studenti non hanno un luogo tranquillo dove lavorare. Il processo non è stato perfetto: alcuni quartieri hanno partecipato più di altri. Tuttavia, vedere le idee trasformarsi in numeri e decisioni mi ha fatto capire quanto sia complesso amministrare risorse limitate in modo trasparente.",
+    "transcript": "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni. La prima osserva che iniziativa non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
     "extra": {
-      "mainTranscript": "Quest’anno il comune ha riservato una parte del suo bilancio a proposte scelte direttamente dai cittadini. All’inizio pensavo che avrebbero vinto soltanto le idee più facili da spiegare. Invece, durante gli incontri, le persone hanno discusso con serietà di costi, priorità e benefici a lungo termine. Una proposta chiedeva di restaurare un teatro, un’altra di creare una sala studio aperta la sera. Ho scelto la seconda, perché molti studenti non hanno un luogo tranquillo dove lavorare. Il processo non è stato perfetto: alcuni quartieri hanno partecipato più di altri. Tuttavia, vedere le idee trasformarsi in numeri e decisioni mi ha fatto capire quanto sia complesso amministrare risorse limitate in modo trasparente.",
+      "mainTranscript": "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni. La prima osserva che iniziativa non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
       "transcriptSegments": [
         {
-          "text": "Quest’anno il comune ha riservato una parte del suo bilancio a proposte scelte direttamente dai cittadini."
+          "id": "segment-01",
+          "order": 1,
+          "text": "In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro posizioni."
         },
         {
-          "text": "All’inizio pensavo che avrebbero vinto soltanto le idee più facili da spiegare."
+          "id": "segment-02",
+          "order": 2,
+          "text": "La prima osserva che iniziativa non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
         },
         {
-          "text": "Invece, durante gli incontri, le persone hanno discusso con serietà di costi, priorità e benefici a lungo termine."
+          "id": "segment-03",
+          "order": 3,
+          "text": "L’altro aggiunge che quartiere è utile solo se viene spiegato con esempi verificabili."
         },
         {
-          "text": "Una proposta chiedeva di restaurare un teatro, un’altra di creare una sala studio aperta la sera."
+          "id": "segment-04",
+          "order": 4,
+          "text": "Nel confronto emerge una possibile difficoltà: partecipare può cambiare la prospettiva di chi ascolta."
         },
         {
-          "text": "Ho scelto la seconda, perché molti studenti non hanno un luogo tranquillo dove lavorare."
+          "id": "segment-05",
+          "order": 5,
+          "text": "Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile."
         },
         {
-          "text": "Il processo non è stato perfetto: alcuni quartieri hanno partecipato più di altri."
-        },
-        {
-          "text": "Tuttavia, vedere le idee trasformarsi in numeri e decisioni mi ha fatto capire quanto sia complesso amministrare risorse limitate in modo trasparente."
+          "id": "segment-06",
+          "order": 6,
+          "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         }
       ],
       "listeningType": "story",
@@ -43739,92 +43127,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Quest’anno il comune ha riservato una parte del suo bilancio a proposte scelte direttamente dai _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "cittadini"
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "comune"
+                "text": "Cittadinanza"
               },
               {
                 "id": "o3",
-                "text": "scelte"
+                "text": "attiva"
               },
               {
                 "id": "o4",
-                "text": "direttamente"
+                "text": "partecipanti"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Invece, _____ gli incontri, le persone hanno discusso con serietà di costi, priorità e benefici a lungo termine.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che quartiere è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "direttamente"
+                "text": "Cittadinanza"
               },
               {
                 "id": "o2",
-                "text": "durante"
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "trasformarsi"
+                "text": "partecipanti"
               },
               {
                 "id": "o4",
-                "text": "amministrare"
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Ho scelto la seconda, perché molti _____ non hanno un luogo tranquillo dove lavorare.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: partecipare può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "direttamente"
+                "text": "Cittadinanza"
               },
               {
                 "id": "o2",
-                "text": "trasformarsi"
+                "text": "attiva"
               },
               {
                 "id": "o3",
-                "text": "studenti"
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "amministrare"
+                "text": "partecipanti"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Tuttavia, vedere le idee trasformarsi in numeri e decisioni mi ha fatto _____ quanto sia complesso amministrare risorse limitate in modo trasparente.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "direttamente"
+                "text": "Cittadinanza"
               },
               {
                 "id": "o2",
-                "text": "trasformarsi"
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "amministrare"
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "capire"
+                "text": "scelte"
               }
             ]
           }
@@ -43844,42 +43232,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Quest’anno il comune ha riservato una parte del suo bilancio a proposte scelte direttamente dai _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Cittadinanza attiva, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "cittadini",
-          "comune",
-          "scelte",
-          "direttamente"
+          "posizioni",
+          "Cittadinanza",
+          "attiva",
+          "partecipanti"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Invece, _____ gli incontri, le persone hanno discusso con serietà di costi, priorità e benefici a lungo termine.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che quartiere è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "direttamente",
-          "durante",
-          "trasformarsi",
-          "amministrare"
+          "Cittadinanza",
+          "aggiunge",
+          "partecipanti",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Ho scelto la seconda, perché molti _____ non hanno un luogo tranquillo dove lavorare.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: partecipare può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "direttamente",
-          "trasformarsi",
-          "studenti",
-          "amministrare"
+          "Cittadinanza",
+          "attiva",
+          "possibile",
+          "partecipanti"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Tuttavia, vedere le idee trasformarsi in numeri e decisioni mi ha fatto _____ quanto sia complesso amministrare risorse limitate in modo trasparente.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "direttamente",
-          "trasformarsi",
-          "amministrare",
-          "capire"
+          "Cittadinanza",
+          "partecipanti",
+          "isolatamente",
+          "scelte"
         ]
       }
     ]
@@ -44342,7 +43730,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Per la cena di venerdì, Chiara prepara un piatto semplice per i suoi amici. Compra pasta, pomodori, basilico fresco e formaggio. Prima lava i pomodori e poi taglia il basilico. In una padella cucina una salsa con olio e aglio. Quando la pasta è pronta, unisce tutto e aggiunge un po’ di formaggio. I suoi amici arrivano alle otto con una bottiglia di acqua frizzante e un dolce. Dopo cena bevono un caffè e parlano dei loro programmi per il fine settimana. Tutti apprezzano la cena, soprattutto perché Chiara cucina con calma e con amore.",
+    "transcript": "Mi piace questa zuppa. Parliamo di pane. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a1-sapori-d-italia-listening-listening-comprehension",
@@ -44351,165 +43739,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Per la cena di venerdì, Chiara prepara un piatto _____ per i suoi amici.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Mi piace questa _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "semplice"
+                "text": "zuppa"
               },
               {
                 "id": "o2",
-                "text": "amici"
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "pasta"
+                "text": "imparare"
               },
               {
                 "id": "o4",
-                "text": "Prima"
+                "text": "comunità"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Prima lava i _____ e poi taglia il basilico.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di pane.”",
             "options": [
               {
                 "id": "o1",
-                "text": "amici"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "pomodori"
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "pasta"
+                "text": "zuppa"
               },
               {
                 "id": "o4",
-                "text": "Prima"
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“I suoi amici _____ alle otto con una bottiglia di acqua frizzante e un dolce.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "amici"
+                "text": "piace"
               },
               {
                 "id": "o2",
-                "text": "pasta"
+                "text": "zuppa"
               },
               {
                 "id": "o3",
-                "text": "arrivano"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "Prima"
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Tutti apprezzano la cena, soprattutto perché Chiara _____ con calma e con amore.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "soprattutto"
+                "text": "pane"
               },
               {
                 "id": "o2",
-                "text": "apprezzano"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "Per"
+                "text": "zuppa"
               },
               {
                 "id": "o4",
-                "text": "cucina"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Per la cena di venerdì, Chiara prepara un piatto semplice per i suoi amici. Compra pasta, pomodori, basilico fresco e formaggio. Prima lava i pomodori e poi taglia il basilico. In una padella cucina una salsa con olio e aglio. Quando la pasta è pronta, unisce tutto e aggiunge un po’ di formaggio. I suoi amici arrivano alle otto con una bottiglia di acqua frizzante e un dolce. Dopo cena bevono un caffè e parlano dei loro programmi per il fine settimana. Tutti apprezzano la cena, soprattutto perché Chiara cucina con calma e con amore.",
-      "transcriptSegments": [
-        {
-          "text": "Per la cena di venerdì, Chiara prepara un piatto semplice per i suoi amici."
-        },
-        {
-          "text": "Compra pasta, pomodori, basilico fresco e formaggio."
-        },
-        {
-          "text": "Prima lava i pomodori e poi taglia il basilico."
-        },
-        {
-          "text": "In una padella cucina una salsa con olio e aglio."
-        },
-        {
-          "text": "Quando la pasta è pronta, unisce tutto e aggiunge un po’ di formaggio."
-        },
-        {
-          "text": "I suoi amici arrivano alle otto con una bottiglia di acqua frizzante e un dolce."
-        },
-        {
-          "text": "Dopo cena bevono un caffè e parlano dei loro programmi per il fine settimana."
-        },
-        {
-          "text": "Tutti apprezzano la cena, soprattutto perché Chiara cucina con calma e con amore."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Per la cena di venerdì, Chiara prepara un piatto _____ per i suoi amici.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Mi piace questa _____.”",
         "options": [
-          "semplice",
-          "amici",
-          "pasta",
-          "Prima"
+          "zuppa",
+          "Parliamo",
+          "imparare",
+          "comunità"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Prima lava i _____ e poi taglia il basilico.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di pane.”",
         "options": [
-          "amici",
-          "pomodori",
-          "pasta",
-          "Prima"
+          "piace",
+          "Parliamo",
+          "zuppa",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“I suoi amici _____ alle otto con una bottiglia di acqua frizzante e un dolce.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "amici",
-          "pasta",
-          "arrivano",
-          "Prima"
+          "piace",
+          "zuppa",
+          "comunità",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Tutti apprezzano la cena, soprattutto perché Chiara _____ con calma e con amore.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "soprattutto",
-          "apprezzano",
-          "Per",
-          "cucina"
+          "pane",
+          "piace",
+          "zuppa",
+          "pratica"
         ]
       }
     ]
@@ -44558,7 +43919,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Nel mio condominio a Verona abbiamo nuovi contenitori per carta, vetro, plastica e rifiuti organici. All’inizio molti vicini erano confusi e qualcuno metteva tutto nello stesso sacchetto. Poi l’amministratore ha lasciato istruzioni semplici nell’atrio del palazzo. Ora tengo quattro piccoli contenitori in cucina e separo i rifiuti ogni sera. Quando vado al supermercato, porto sempre una borsa di stoffa e cerco di comprare prodotti con poco imballaggio. A volte riuso i barattoli di vetro per conservare pasta, riso o biscotti. So che non posso risolvere da sola tutti i problemi dell’ambiente, ma penso che queste piccole abitudini siano importanti per la città.",
+    "transcript": "Vorrei usare meno plastica. Parliamo di rifiuti. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a2-ambiente-e-citta-listening-listening-comprehension",
@@ -44567,162 +43928,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel mio condominio a Verona abbiamo nuovi contenitori per carta, vetro, plastica e rifiuti _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Vorrei usare meno _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "organici"
+                "text": "plastica"
               },
               {
                 "id": "o2",
-                "text": "l’amministratore"
+                "text": "usare"
               },
               {
                 "id": "o3",
-                "text": "dell’ambiente"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "supermercato"
+                "text": "Vorrei"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Poi _____ ha lasciato istruzioni semplici nell’atrio del palazzo.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "dell’ambiente"
+                "text": "meno"
               },
               {
                 "id": "o2",
-                "text": "l’amministratore"
+                "text": "rifiuti"
               },
               {
                 "id": "o3",
-                "text": "Nel"
+                "text": "usare"
               },
               {
                 "id": "o4",
-                "text": "mio"
+                "text": "piace"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Quando vado al supermercato, porto sempre una borsa di stoffa e cerco di _____ prodotti con poco imballaggio.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’amministratore"
+                "text": "usare"
               },
               {
                 "id": "o2",
-                "text": "dell’ambiente"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "comprare"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "supermercato"
+                "text": "Vorrei"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“So che non posso risolvere da sola tutti i problemi dell’ambiente, ma penso che queste piccole _____ siano importanti per la città.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "l’amministratore"
+                "text": "meno"
               },
               {
                 "id": "o2",
-                "text": "dell’ambiente"
+                "text": "usare"
               },
               {
                 "id": "o3",
-                "text": "Verona"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "abitudini"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Nel mio condominio a Verona abbiamo nuovi contenitori per carta, vetro, plastica e rifiuti organici. All’inizio molti vicini erano confusi e qualcuno metteva tutto nello stesso sacchetto. Poi l’amministratore ha lasciato istruzioni semplici nell’atrio del palazzo. Ora tengo quattro piccoli contenitori in cucina e separo i rifiuti ogni sera. Quando vado al supermercato, porto sempre una borsa di stoffa e cerco di comprare prodotti con poco imballaggio. A volte riuso i barattoli di vetro per conservare pasta, riso o biscotti. So che non posso risolvere da sola tutti i problemi dell’ambiente, ma penso che queste piccole abitudini siano importanti per la città.",
-      "transcriptSegments": [
-        {
-          "text": "Nel mio condominio a Verona abbiamo nuovi contenitori per carta, vetro, plastica e rifiuti organici."
-        },
-        {
-          "text": "All’inizio molti vicini erano confusi e qualcuno metteva tutto nello stesso sacchetto."
-        },
-        {
-          "text": "Poi l’amministratore ha lasciato istruzioni semplici nell’atrio del palazzo."
-        },
-        {
-          "text": "Ora tengo quattro piccoli contenitori in cucina e separo i rifiuti ogni sera."
-        },
-        {
-          "text": "Quando vado al supermercato, porto sempre una borsa di stoffa e cerco di comprare prodotti con poco imballaggio."
-        },
-        {
-          "text": "A volte riuso i barattoli di vetro per conservare pasta, riso o biscotti."
-        },
-        {
-          "text": "So che non posso risolvere da sola tutti i problemi dell’ambiente, ma penso che queste piccole abitudini siano importanti per la città."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel mio condominio a Verona abbiamo nuovi contenitori per carta, vetro, plastica e rifiuti _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Vorrei usare meno _____.”",
         "options": [
-          "organici",
-          "l’amministratore",
-          "dell’ambiente",
-          "supermercato"
+          "plastica",
+          "usare",
+          "piace",
+          "Vorrei"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Poi _____ ha lasciato istruzioni semplici nell’atrio del palazzo.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "dell’ambiente",
-          "l’amministratore",
-          "Nel",
-          "mio"
+          "meno",
+          "rifiuti",
+          "usare",
+          "piace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Quando vado al supermercato, porto sempre una borsa di stoffa e cerco di _____ prodotti con poco imballaggio.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "l’amministratore",
-          "dell’ambiente",
-          "comprare",
-          "supermercato"
+          "usare",
+          "piace",
+          "comunità",
+          "Vorrei"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“So che non posso risolvere da sola tutti i problemi dell’ambiente, ma penso che queste piccole _____ siano importanti per la città.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "l’amministratore",
-          "dell’ambiente",
-          "Verona",
-          "abitudini"
+          "meno",
+          "usare",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -45085,11 +44422,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: relazione». Puoi aiutarmi?"
+        "line": "Vorrei expresar relaciones, opiniones y mensajes referidos. Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+        "line": "Sì, certo. Parliamone passo dopo passo."
       }
     ],
     "reading": null,
@@ -45324,16 +44661,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Mi piace questa zuppa». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -45365,16 +44693,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Vorrei usare meno plastica». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -46130,33 +45449,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "sapori-d-italia",
-    "title": "Sapori d'Italia: grammatica",
+    "title": "Mi piace e preferisco",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 114,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Parlare di cibo.",
+    "intro": "Parlare di cibo.",
+    "mission": "Aprende mi piace e preferisco y úsalo en una frase sobre sabores regionales sin estereotipos.",
+    "grammar": "Usa queste forme per esprimere preferenze.",
     "phrases": [
+      "Mi piace questa zuppa.",
       "Mi piace questa zuppa."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Mi piace e preferisco",
+        "definition": "Usa queste forme per esprimere preferenze.",
+        "structure": "Mi piace questa zuppa.",
+        "function": "Parlare di cibo.",
+        "examples": [
+          "Mi piace questa zuppa.",
+          "Mi piace questa zuppa."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Mi piace questa zuppa.",
+          "Mi piace questa zuppa.",
           "pane",
-          "zuppa",
-          "formaggio"
+          "zuppa"
         ]
       },
       {
@@ -46181,7 +45514,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Mi piace questa zuppa.",
           "formaggio",
@@ -46196,33 +45529,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "ambiente-e-citta",
-    "title": "Ambiente e città: grammatica",
+    "title": "Comparativi",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 114,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Parlare di cambiamenti.",
+    "intro": "Parlare di cambiamenti.",
+    "mission": "Aprende comparativi y úsalo en una frase sobre reciclaje y movilidad cotidiana.",
+    "grammar": "Usa più/meno ... di per confrontare.",
     "phrases": [
+      "Vorrei usare meno plastica.",
       "Vorrei usare meno plastica."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Comparativi",
+        "definition": "Usa più/meno ... di per confrontare.",
+        "structure": "Vorrei usare meno plastica.",
+        "function": "Parlare di cambiamenti.",
+        "examples": [
+          "Vorrei usare meno plastica.",
+          "Vorrei usare meno plastica."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Vorrei usare meno plastica.",
+          "Vorrei usare meno plastica.",
           "rifiuti",
-          "plastica",
-          "riciclare"
+          "plastica"
         ]
       },
       {
@@ -46247,7 +45594,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Vorrei usare meno plastica.",
           "riciclare",
@@ -46971,7 +46318,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 120,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Contar una experiencia sencilla",
     "intro": "Contar una experiencia sencilla",
     "mission": "",
@@ -46982,63 +46329,61 @@
     "reading": {
       "title": "Un messaggio a casa",
       "parts": [
-        "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.",
-        "Durante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.",
-        "Prima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+        "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.",
+        "Marco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.",
+        "Al final, Sofia scrive una nota: “Oggi ho imparato molto.”."
       ],
       "questions": [
-        "Dove si trova Sofia?",
+        "Dove è Sofia?",
         "Con chi parla Sofia?",
-        "Che cosa fa Sofia se non capisce una parola?",
-        "Perché Sofia ripete le parole?"
+        "Quale frase usa Sofia?",
+        "Perché l’esperienza è importante?"
       ],
-      "text": "Oggi Sofia è a Bologna. Incontra Marco nel suo quartiere e lo saluta con un sorriso. I due parlano lentamente e si ascoltano con attenzione. Sofia vuole usare l'italiano in una situazione vera, quindi prova una frase semplice e Marco le risponde con gentilezza.\n\nDurante la conversazione usano parole utili della lezione: parole semplici. Marco fa una domanda e Sofia risponde senza fretta. Se non capisce una parola, chiede: «Puoi ripetere, per favore?». Poi ripetono insieme le parole più importanti e trovano un piccolo esempio per ciascuna.\n\nPrima di tornare a casa, Sofia ringrazia Marco. Dice che ascoltare, parlare e ripetere la aiuta a sentirsi più sicura. Marco è d'accordo e propone di incontrarsi di nuovo domani. Sofia torna a casa contenta e scrive nel suo quaderno le nuove parole della giornata."
+      "text": "Sofia è em Bologna. Hoje descobre contar una experiencia sencilla. Encontra Marco e diz: “Oggi ho imparato molto.”. Os dois falam com respeito e aprendem quatro palavras novas: oggi, domani, casa e esperienza.\n\nMarco fa una domanda semplice e Sofia risponde con una frase breve. La conversazione mostra che la cultura si impara ascoltando e partecipando.\n\nAl final, Sofia scrive una nota: “Oggi ho imparato molto.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "italian-a1-un-messaggio-a-casa-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Dove si trova Sofia?",
+        "prompt": "Che cosa pratica l’unità?",
         "options": [
-          "Bologna",
-          "Roma",
-          "Milano",
-          "Napoli"
+          "escribir un mensaje breve",
+          "Una regola isolata",
+          "Un esame tecnico",
+          "Un tema senza contesto"
         ]
       },
       {
-        "id": "italian-a1-un-messaggio-a-casa-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Con chi parla Sofia?",
+        "prompt": "Che cosa fa lo studente?",
+        "options": [
+          "escribir un mensaje breve",
+          "Memorizza senza usare",
+          "Evita di parlare",
+          "Traduce soltanto"
+        ]
+      },
+      {
+        "id": "italian-a1-un-messaggio-a-casa-reading-comprehension-3",
+        "type": "mcq",
+        "prompt": "Scegli la parola mancante nella lettura.\n\n“Marco fa una domanda semplice e _____ risponde con una frase breve.”",
         "options": [
           "Marco",
-          "Lucia",
-          "Paolo",
-          "Anna"
+          "molto",
+          "Sofia",
+          "frase"
         ]
       },
       {
-        "id": "italian-a1-un-messaggio-a-casa-reading-reading-comprehension-3",
+        "id": "italian-a1-un-messaggio-a-casa-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Che cosa fa Sofia se non capisce una parola?",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio?\n\n“Al final, Sofia _____ una nota: “Oggi ho imparato molto.”.”",
         "options": [
-          "Chiede di ripetere",
-          "Va via subito",
-          "Non ascolta",
-          "Cambia città"
-        ]
-      },
-      {
-        "id": "italian-a1-un-messaggio-a-casa-reading-reading-comprehension-4",
-        "type": "mcq",
-        "prompt": "Perché Sofia ripete le parole?",
-        "options": [
-          "Per sentirsi più sicura",
-          "Per fare un esame tecnico",
-          "Per comprare un biglietto",
-          "Per evitare Marco"
+          "Sofia",
+          "Bologna",
+          "Marco",
+          "scrive"
         ]
       }
     ]
@@ -47139,15 +46484,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "cittadinanza-e-partecipazione",
-    "title": "Cittadinanza e partecipazione: grammatica",
+    "title": "Cittadinanza: congiuntivo e proposte",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 121,
     "estimatedMinutes": 10,
-    "description": "proponer acciones y participar en la comunidad",
+    "description": "Tema gramatical: Cittadinanza: congiuntivo e proposte.",
     "intro": "proponer acciones y participar en la comunidad",
-    "mission": "proponer acciones y participar en la comunidad",
+    "mission": "Estudia Cittadinanza: congiuntivo e proposte y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Impariamo: cittadinanza.",
@@ -47473,7 +46818,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "Nel mio comune i cittadini possono proporre piccole idee per migliorare il quartiere. L’anno scorso ho partecipato a un incontro pubblico perché volevo che la biblioteca rimanesse aperta anche il sabato pomeriggio. Non ero abituata a parlare davanti a tante persone, ma ho preparato una breve spiegazione e alcuni dati sugli studenti che usano quello spazio. Altre persone hanno proposto piste ciclabili, più alberi e attività per gli anziani. Non tutte le idee sono state accettate, ma la biblioteca ha iniziato a restare aperta due sabati al mese. Partecipare richiede tempo e pazienza, però mi ha fatto sentire più responsabile della mia città. Ora vorrei invitare altri studenti a partecipare al prossimo incontro pubblico.",
+    "transcript": "Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e diritto. Ogni persona racconta un'esperienza, ascolta gli altri e propone una soluzione concreta. Alla fine decidono di collaborare perché un obiettivo chiaro rende più facile migliorare la vita quotidiana. Poi il gruppo riassume le idee più importanti.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-b1-cittadinanza-e-partecipazione-listening-listening-comprehension",
@@ -47482,162 +46827,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel mio comune i cittadini possono proporre piccole idee per migliorare il _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "quartiere"
+                "text": "diritto"
               },
               {
                 "id": "o2",
-                "text": "comune"
+                "text": "partecipazione"
               },
               {
                 "id": "o3",
-                "text": "L’anno"
+                "text": "un'esperienza"
               },
               {
                 "id": "o4",
-                "text": "scorso"
+                "text": "Cittadinanza"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Non ero _____ a parlare davanti a tante persone, ma ho preparato una breve spiegazione e alcuni dati sugli studenti che usano quello spazio.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabile"
+                "text": "partecipazione"
               },
               {
                 "id": "o2",
-                "text": "abituata"
+                "text": "persona"
               },
               {
                 "id": "o3",
-                "text": "partecipato"
+                "text": "un'esperienza"
               },
               {
                 "id": "o4",
-                "text": "tante"
+                "text": "Cittadinanza"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Non tutte le idee sono state accettate, ma la biblioteca ha _____ a restare aperta due sabati al mese.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabile"
+                "text": "partecipazione"
               },
               {
                 "id": "o2",
-                "text": "partecipato"
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "iniziato"
+                "text": "perché"
               },
               {
                 "id": "o4",
-                "text": "tante"
+                "text": "Cittadinanza"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Ora vorrei invitare altri studenti a partecipare al _____ incontro pubblico.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
             "options": [
               {
                 "id": "o1",
-                "text": "responsabile"
+                "text": "partecipazione"
               },
               {
                 "id": "o2",
-                "text": "partecipato"
+                "text": "un'esperienza"
               },
               {
                 "id": "o3",
-                "text": "tante"
+                "text": "Cittadinanza"
               },
               {
                 "id": "o4",
-                "text": "prossimo"
+                "text": "gruppo"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Nel mio comune i cittadini possono proporre piccole idee per migliorare il quartiere. L’anno scorso ho partecipato a un incontro pubblico perché volevo che la biblioteca rimanesse aperta anche il sabato pomeriggio. Non ero abituata a parlare davanti a tante persone, ma ho preparato una breve spiegazione e alcuni dati sugli studenti che usano quello spazio. Altre persone hanno proposto piste ciclabili, più alberi e attività per gli anziani. Non tutte le idee sono state accettate, ma la biblioteca ha iniziato a restare aperta due sabati al mese. Partecipare richiede tempo e pazienza, però mi ha fatto sentire più responsabile della mia città. Ora vorrei invitare altri studenti a partecipare al prossimo incontro pubblico.",
-      "transcriptSegments": [
-        {
-          "text": "Nel mio comune i cittadini possono proporre piccole idee per migliorare il quartiere."
-        },
-        {
-          "text": "L’anno scorso ho partecipato a un incontro pubblico perché volevo che la biblioteca rimanesse aperta anche il sabato pomeriggio."
-        },
-        {
-          "text": "Non ero abituata a parlare davanti a tante persone, ma ho preparato una breve spiegazione e alcuni dati sugli studenti che usano quello spazio."
-        },
-        {
-          "text": "Altre persone hanno proposto piste ciclabili, più alberi e attività per gli anziani."
-        },
-        {
-          "text": "Non tutte le idee sono state accettate, ma la biblioteca ha iniziato a restare aperta due sabati al mese."
-        },
-        {
-          "text": "Partecipare richiede tempo e pazienza, però mi ha fatto sentire più responsabile della mia città."
-        },
-        {
-          "text": "Ora vorrei invitare altri studenti a partecipare al prossimo incontro pubblico."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel mio comune i cittadini possono proporre piccole idee per migliorare il _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Nel tema «Cittadinanza e partecipazione», un piccolo gruppo della comunità parla di cittadinanza, partecipare e _____.”",
         "options": [
-          "quartiere",
-          "comune",
-          "L’anno",
-          "scorso"
+          "diritto",
+          "partecipazione",
+          "un'esperienza",
+          "Cittadinanza"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Non ero _____ a parlare davanti a tante persone, ma ho preparato una breve spiegazione e alcuni dati sugli studenti che usano quello spazio.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Ogni _____ racconta un'esperienza, ascolta gli altri e propone una soluzione concreta.”",
         "options": [
-          "responsabile",
-          "abituata",
-          "partecipato",
-          "tante"
+          "partecipazione",
+          "persona",
+          "un'esperienza",
+          "Cittadinanza"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Non tutte le idee sono state accettate, ma la biblioteca ha _____ a restare aperta due sabati al mese.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Alla fine decidono di collaborare _____ un obiettivo chiaro rende più facile migliorare la vita quotidiana.”",
         "options": [
-          "responsabile",
-          "partecipato",
-          "iniziato",
-          "tante"
+          "partecipazione",
+          "un'esperienza",
+          "perché",
+          "Cittadinanza"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Ora vorrei invitare altri studenti a partecipare al _____ incontro pubblico.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Poi il _____ riassume le idee più importanti.”",
         "options": [
-          "responsabile",
-          "partecipato",
-          "tante",
-          "prossimo"
+          "partecipazione",
+          "un'esperienza",
+          "Cittadinanza",
+          "gruppo"
         ]
       }
     ]
@@ -47889,27 +47210,39 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "In una città vicina, una cooperativa ha creato un servizio di consegna a domicilio per le persone che non possono uscire facilmente. I corrieri sono giovani in cerca di prima occupazione e lavorano insieme a negozi di quartiere, farmacie e associazioni di volontariato. Il progetto non risolve tutti i problemi sociali della città, ma mette in relazione bisogni che prima sembravano separati: il lavoro dei giovani, la solitudine degli anziani e la difficoltà dei piccoli negozi a competere con le grandi piattaforme. Ciò che mi interessa è il metodo. Prima di proporre una soluzione, la cooperativa ha ascoltato le persone coinvolte e ha sperimentato il servizio in una sola zona. Innovare, in questo caso, non significa inventare qualcosa di spettacolare, ma costruire risposte utili insieme alla comunità.",
+    "transcript": "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni. La prima osserva che traguardo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
     "extra": {
-      "mainTranscript": "In una città vicina, una cooperativa ha creato un servizio di consegna a domicilio per le persone che non possono uscire facilmente. I corrieri sono giovani in cerca di prima occupazione e lavorano insieme a negozi di quartiere, farmacie e associazioni di volontariato. Il progetto non risolve tutti i problemi sociali della città, ma mette in relazione bisogni che prima sembravano separati: il lavoro dei giovani, la solitudine degli anziani e la difficoltà dei piccoli negozi a competere con le grandi piattaforme. Ciò che mi interessa è il metodo. Prima di proporre una soluzione, la cooperativa ha ascoltato le persone coinvolte e ha sperimentato il servizio in una sola zona. Innovare, in questo caso, non significa inventare qualcosa di spettacolare, ma costruire risposte utili insieme alla comunità.",
+      "mainTranscript": "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni. La prima osserva che traguardo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto. L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili.\n\nNel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta. Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile. Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione.",
       "transcriptSegments": [
         {
-          "text": "In una città vicina, una cooperativa ha creato un servizio di consegna a domicilio per le persone che non possono uscire facilmente."
+          "id": "segment-01",
+          "order": 1,
+          "text": "In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro posizioni."
         },
         {
-          "text": "I corrieri sono giovani in cerca di prima occupazione e lavorano insieme a negozi di quartiere, farmacie e associazioni di volontariato."
+          "id": "segment-02",
+          "order": 2,
+          "text": "La prima osserva che traguardo non può essere considerato isolatamente: ogni decisione produce conseguenze concrete e richiede attenzione al contesto."
         },
         {
-          "text": "Il progetto non risolve tutti i problemi sociali della città, ma mette in relazione bisogni che prima sembravano separati: il lavoro dei giovani, la solitudine degli anziani e la difficoltà dei piccoli negozi a competere con le grandi piattaforme."
+          "id": "segment-03",
+          "order": 3,
+          "text": "L’altro aggiunge che ostacolo è utile solo se viene spiegato con esempi verificabili."
         },
         {
-          "text": "Ciò che mi interessa è il metodo."
+          "id": "segment-04",
+          "order": 4,
+          "text": "Nel confronto emerge una possibile difficoltà: percorso può cambiare la prospettiva di chi ascolta."
         },
         {
-          "text": "Prima di proporre una soluzione, la cooperativa ha ascoltato le persone coinvolte e ha sperimentato il servizio in una sola zona."
+          "id": "segment-05",
+          "order": 5,
+          "text": "Per questo il gruppo evita conclusioni affrettate, valuta i limiti delle proposte e formula una soluzione realizzabile."
         },
         {
-          "text": "Innovare, in questo caso, non significa inventare qualcosa di spettacolare, ma costruire risposte utili insieme alla comunità."
+          "id": "segment-06",
+          "order": 6,
+          "text": "Alla fine, i partecipanti concordano su un criterio: motivare le scelte con chiarezza e restare aperti a una revisione."
         }
       ],
       "listeningType": "story",
@@ -47920,92 +47253,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“In una città vicina, una cooperativa ha creato un servizio di consegna a domicilio per le persone che non possono uscire _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "facilmente"
+                "text": "posizioni"
               },
               {
                 "id": "o2",
-                "text": "persone"
+                "text": "partecipanti"
               },
               {
                 "id": "o3",
-                "text": "possono"
+                "text": "essere"
               },
               {
                 "id": "o4",
-                "text": "giovani"
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Il progetto non _____ tutti i problemi sociali della città, ma mette in relazione bisogni che prima sembravano separati: il lavoro dei giovani, la solitudine degli anziani e la difficoltà dei piccoli negozi a competere con le grandi piattaforme.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che ostacolo è utile solo se viene spiegato con esempi verificabili.”",
             "options": [
               {
                 "id": "o1",
-                "text": "associazioni"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "risolve"
+                "text": "aggiunge"
               },
               {
                 "id": "o3",
-                "text": "volontariato"
+                "text": "isolatamente"
               },
               {
                 "id": "o4",
-                "text": "sperimentato"
+                "text": "verificabili"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“_____ che mi interessa è il metodo.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: percorso può cambiare la prospettiva di chi ascolta.”",
             "options": [
               {
                 "id": "o1",
-                "text": "associazioni"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "volontariato"
+                "text": "essere"
               },
               {
                 "id": "o3",
-                "text": "Ciò"
+                "text": "possibile"
               },
               {
                 "id": "o4",
-                "text": "sperimentato"
+                "text": "isolatamente"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Innovare, in questo caso, non significa inventare qualcosa di spettacolare, ma _____ risposte utili insieme alla comunità.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
             "options": [
               {
                 "id": "o1",
-                "text": "vicina"
+                "text": "partecipanti"
               },
               {
                 "id": "o2",
-                "text": "creato"
+                "text": "isolatamente"
               },
               {
                 "id": "o3",
-                "text": "uscire"
+                "text": "verificabili"
               },
               {
                 "id": "o4",
-                "text": "costruire"
+                "text": "scelte"
               }
             ]
           }
@@ -48025,42 +47358,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“In una città vicina, una cooperativa ha creato un servizio di consegna a domicilio per le persone che non possono uscire _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“In questa puntata dedicata a Bilanci e prospettive, due partecipanti mettono a confronto le loro _____.”",
         "options": [
-          "facilmente",
-          "persone",
-          "possono",
-          "giovani"
+          "posizioni",
+          "partecipanti",
+          "essere",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Il progetto non _____ tutti i problemi sociali della città, ma mette in relazione bisogni che prima sembravano separati: il lavoro dei giovani, la solitudine degli anziani e la difficoltà dei piccoli negozi a competere con le grandi piattaforme.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“L’altro _____ che ostacolo è utile solo se viene spiegato con esempi verificabili.”",
         "options": [
-          "associazioni",
-          "risolve",
-          "volontariato",
-          "sperimentato"
+          "partecipanti",
+          "aggiunge",
+          "isolatamente",
+          "verificabili"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“_____ che mi interessa è il metodo.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Nel confronto emerge una _____ difficoltà: percorso può cambiare la prospettiva di chi ascolta.”",
         "options": [
-          "associazioni",
-          "volontariato",
-          "Ciò",
-          "sperimentato"
+          "partecipanti",
+          "essere",
+          "possibile",
+          "isolatamente"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Innovare, in questo caso, non significa inventare qualcosa di spettacolare, ma _____ risposte utili insieme alla comunità.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Alla fine, i partecipanti concordano su un criterio: motivare le _____ con chiarezza e restare aperti a una revisione.”",
         "options": [
-          "vicina",
-          "creato",
-          "uscire",
-          "costruire"
+          "partecipanti",
+          "isolatamente",
+          "verificabili",
+          "scelte"
         ]
       }
     ]
@@ -48523,7 +47856,7 @@
       }
     ],
     "reading": null,
-    "transcript": "Ciao mamma, come stai? Io sto bene. Oggi è stata una giornata piena, ma molto bella. Stamattina ho avuto lezione di italiano e ho parlato con una nuova compagna di classe. Si chiama Elena e viene da Napoli. Dopo la lezione abbiamo pranzato in un piccolo ristorante vicino alla scuola. Nel pomeriggio sono andato in biblioteca per studiare un po’. Ho preso in prestito un libro sulla storia di Roma. Adesso torno a casa in autobus. Domani ti chiamo con più calma e ti racconto tutto. Un abbraccio grande!",
+    "transcript": "Oggi ho imparato molto. Parliamo di oggi. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a1-un-messaggio-a-casa-listening-listening-comprehension",
@@ -48532,174 +47865,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ mamma, come stai?”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“Oggi ho _____ molto.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ciao"
+                "text": "imparato"
               },
               {
                 "id": "o2",
-                "text": "Stamattina"
+                "text": "molto"
               },
               {
                 "id": "o3",
-                "text": "ristorante"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "pomeriggio"
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“Stamattina ho avuto _____ di italiano e ho parlato con una nuova compagna di classe.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di oggi.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Ciao"
+                "text": "molto"
               },
               {
                 "id": "o2",
-                "text": "lezione"
+                "text": "Parliamo"
               },
               {
                 "id": "o3",
-                "text": "stai"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "bene"
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Ho preso in _____ un libro sulla storia di Roma.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "mamma"
+                "text": "molto"
               },
               {
                 "id": "o2",
-                "text": "stata"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "prestito"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "piena"
+                "text": "domani"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Un abbraccio _____!”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Stamattina"
+                "text": "Oggi"
               },
               {
                 "id": "o2",
-                "text": "ristorante"
+                "text": "molto"
               },
               {
                 "id": "o3",
-                "text": "pomeriggio"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "grande"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "Ciao mamma, come stai? Io sto bene. Oggi è stata una giornata piena, ma molto bella. Stamattina ho avuto lezione di italiano e ho parlato con una nuova compagna di classe. Si chiama Elena e viene da Napoli. Dopo la lezione abbiamo pranzato in un piccolo ristorante vicino alla scuola. Nel pomeriggio sono andato in biblioteca per studiare un po’. Ho preso in prestito un libro sulla storia di Roma. Adesso torno a casa in autobus. Domani ti chiamo con più calma e ti racconto tutto. Un abbraccio grande!",
-      "transcriptSegments": [
-        {
-          "text": "Ciao mamma, come stai?"
-        },
-        {
-          "text": "Io sto bene."
-        },
-        {
-          "text": "Oggi è stata una giornata piena, ma molto bella."
-        },
-        {
-          "text": "Stamattina ho avuto lezione di italiano e ho parlato con una nuova compagna di classe."
-        },
-        {
-          "text": "Si chiama Elena e viene da Napoli."
-        },
-        {
-          "text": "Dopo la lezione abbiamo pranzato in un piccolo ristorante vicino alla scuola."
-        },
-        {
-          "text": "Nel pomeriggio sono andato in biblioteca per studiare un po’."
-        },
-        {
-          "text": "Ho preso in prestito un libro sulla storia di Roma."
-        },
-        {
-          "text": "Adesso torno a casa in autobus."
-        },
-        {
-          "text": "Domani ti chiamo con più calma e ti racconto tutto."
-        },
-        {
-          "text": "Un abbraccio grande!"
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“_____ mamma, come stai?”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“Oggi ho _____ molto.”",
         "options": [
-          "Ciao",
-          "Stamattina",
-          "ristorante",
-          "pomeriggio"
+          "imparato",
+          "molto",
+          "piace",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“Stamattina ho avuto _____ di italiano e ho parlato con una nuova compagna di classe.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“_____ di oggi.”",
         "options": [
-          "Ciao",
-          "lezione",
-          "stai",
-          "bene"
+          "molto",
+          "Parliamo",
+          "piace",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Ho preso in _____ un libro sulla storia di Roma.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "mamma",
-          "stata",
-          "prestito",
-          "piena"
+          "molto",
+          "piace",
+          "comunità",
+          "domani"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Un abbraccio _____!”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "Stamattina",
-          "ristorante",
-          "pomeriggio",
-          "grande"
+          "Oggi",
+          "molto",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -48748,7 +48045,7 @@
       }
     ],
     "reading": null,
-    "transcript": "La scorsa primavera ho passato tre giorni a Roma con mia sorella. Abbiamo dormito in un piccolo albergo vicino alla stazione Termini, perché era comodo per usare la metro e gli autobus. Il primo giorno abbiamo visto il Colosseo e i Fori Imperiali. C’erano molte persone, quindi abbiamo comprato i biglietti online per non aspettare troppo. Il secondo giorno siamo andati al Vaticano e abbiamo camminato lungo il fiume Tevere. A pranzo abbiamo mangiato pasta in una trattoria del quartiere Prati. Roma era affollata e un po’ rumorosa, ma bellissima. Prima di partire abbiamo comprato cartoline per la famiglia. È stato un viaggio breve, però ricorderò sempre quella città.",
+    "transcript": "È stato un viaggio importante. Parliamo di ricordo. Mi piace imparare con la comunità. Facciamo pratica insieme domani.",
     "extra": {
       "listeningComprehension": {
         "id": "italian-a2-raccontare-il-proprio-viaggio-listening-listening-comprehension",
@@ -48757,168 +48054,138 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Completa questo dettaglio dell’audio.\n\n“La scorsa primavera ho passato tre giorni a Roma con mia _____.”",
+            "prompt": "Completa questo dettaglio dell’audio.\n\n“È stato un viaggio _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "sorella"
+                "text": "importante"
               },
               {
                 "id": "o2",
-                "text": "Roma"
+                "text": "viaggio"
               },
               {
                 "id": "o3",
-                "text": "alla"
+                "text": "ricordo"
               },
               {
                 "id": "o4",
-                "text": "Fori"
+                "text": "pratica"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Quale parola completa la frase che ascolti?\n\n“C’erano molte _____, quindi abbiamo comprato i biglietti online per non aspettare troppo.”",
+            "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Roma"
+                "text": "importante"
               },
               {
                 "id": "o2",
-                "text": "persone"
+                "text": "ricordo"
               },
               {
                 "id": "o3",
-                "text": "alla"
+                "text": "stato"
               },
               {
                 "id": "o4",
-                "text": "Fori"
+                "text": "piace"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Scegli la parola mancante nella registrazione.\n\n“A pranzo abbiamo mangiato pasta in una _____ del quartiere Prati.”",
+            "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "scorsa"
+                "text": "stato"
               },
               {
                 "id": "o2",
-                "text": "giorni"
+                "text": "piace"
               },
               {
                 "id": "o3",
-                "text": "trattoria"
+                "text": "comunità"
               },
               {
                 "id": "o4",
-                "text": "vicino"
+                "text": "importante"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“È stato un viaggio breve, però _____ sempre quella città.”",
+            "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
             "options": [
               {
                 "id": "o1",
-                "text": "scorsa"
+                "text": "importante"
               },
               {
                 "id": "o2",
-                "text": "giorni"
+                "text": "stato"
               },
               {
                 "id": "o3",
-                "text": "vicino"
+                "text": "piace"
               },
               {
                 "id": "o4",
-                "text": "ricorderò"
+                "text": "pratica"
               }
             ]
           }
         ]
       },
-      "mainTranscript": "La scorsa primavera ho passato tre giorni a Roma con mia sorella. Abbiamo dormito in un piccolo albergo vicino alla stazione Termini, perché era comodo per usare la metro e gli autobus. Il primo giorno abbiamo visto il Colosseo e i Fori Imperiali. C’erano molte persone, quindi abbiamo comprato i biglietti online per non aspettare troppo. Il secondo giorno siamo andati al Vaticano e abbiamo camminato lungo il fiume Tevere. A pranzo abbiamo mangiato pasta in una trattoria del quartiere Prati. Roma era affollata e un po’ rumorosa, ma bellissima. Prima di partire abbiamo comprato cartoline per la famiglia. È stato un viaggio breve, però ricorderò sempre quella città.",
-      "transcriptSegments": [
-        {
-          "text": "La scorsa primavera ho passato tre giorni a Roma con mia sorella."
-        },
-        {
-          "text": "Abbiamo dormito in un piccolo albergo vicino alla stazione Termini, perché era comodo per usare la metro e gli autobus."
-        },
-        {
-          "text": "Il primo giorno abbiamo visto il Colosseo e i Fori Imperiali."
-        },
-        {
-          "text": "C’erano molte persone, quindi abbiamo comprato i biglietti online per non aspettare troppo."
-        },
-        {
-          "text": "Il secondo giorno siamo andati al Vaticano e abbiamo camminato lungo il fiume Tevere."
-        },
-        {
-          "text": "A pranzo abbiamo mangiato pasta in una trattoria del quartiere Prati."
-        },
-        {
-          "text": "Roma era affollata e un po’ rumorosa, ma bellissima."
-        },
-        {
-          "text": "Prima di partire abbiamo comprato cartoline per la famiglia."
-        },
-        {
-          "text": "È stato un viaggio breve, però ricorderò sempre quella città."
-        }
-      ],
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Completa questo dettaglio dell’audio.\n\n“La scorsa primavera ho passato tre giorni a Roma con mia _____.”",
+        "prompt": "Completa questo dettaglio dell’audio.\n\n“È stato un viaggio _____.”",
         "options": [
-          "sorella",
-          "Roma",
-          "alla",
-          "Fori"
+          "importante",
+          "viaggio",
+          "ricordo",
+          "pratica"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Quale parola completa la frase che ascolti?\n\n“C’erano molte _____, quindi abbiamo comprato i biglietti online per non aspettare troppo.”",
+        "prompt": "Quale parola completa la frase che ascolti?\n\n“Parliamo di _____.”",
         "options": [
-          "Roma",
-          "persone",
-          "alla",
-          "Fori"
+          "importante",
+          "ricordo",
+          "stato",
+          "piace"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Scegli la parola mancante nella registrazione.\n\n“A pranzo abbiamo mangiato pasta in una _____ del quartiere Prati.”",
+        "prompt": "Scegli la parola mancante nella registrazione.\n\n“Mi piace imparare con la _____.”",
         "options": [
-          "scorsa",
-          "giorni",
-          "trattoria",
-          "vicino"
+          "stato",
+          "piace",
+          "comunità",
+          "importante"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“È stato un viaggio breve, però _____ sempre quella città.”",
+        "prompt": "Qual è la parola esatta che manca in questo dettaglio audio?\n\n“Facciamo _____ insieme domani.”",
         "options": [
-          "scorsa",
-          "giorni",
-          "vicino",
-          "ricorderò"
+          "importante",
+          "stato",
+          "piace",
+          "pratica"
         ]
       }
     ]
@@ -49281,11 +48548,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Impariamo: cittadinanza». Puoi aiutarmi?"
+        "line": "Vorrei proponer acciones y participar en la comunidad. Puoi aiutarmi?"
       },
       {
         "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
+        "line": "Sì, certo. Parliamone passo dopo passo."
       }
     ],
     "reading": null,
@@ -49520,16 +48787,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «Oggi ho imparato molto». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -49561,16 +48819,7 @@
       "Vorrei sapere di più."
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Vorrei esercitarmi con questa espressione: «È stato un viaggio importante». Puoi aiutarmi?"
-      },
-      {
-        "speaker": "B",
-        "line": "Certo. Prova a usarla in una frase completa e poi ti rispondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -50326,33 +49575,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "un-messaggio-a-casa",
-    "title": "Un messaggio a casa: grammatica",
+    "title": "Passato prossimo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 124,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Raccontare la giornata.",
+    "intro": "Raccontare la giornata.",
+    "mission": "Aprende passato prossimo y úsalo en una frase sobre contar una experiencia sencilla.",
+    "grammar": "Usa il passato prossimo per azioni concluse.",
     "phrases": [
+      "Oggi ho imparato molto.",
       "Oggi ho imparato molto."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Passato prossimo",
+        "definition": "Usa il passato prossimo per azioni concluse.",
+        "structure": "Oggi ho imparato molto.",
+        "function": "Raccontare la giornata.",
+        "examples": [
+          "Oggi ho imparato molto.",
+          "Oggi ho imparato molto."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Oggi ho imparato molto.",
+          "Oggi ho imparato molto.",
           "oggi",
-          "domani",
-          "casa"
+          "domani"
         ]
       },
       {
@@ -50377,7 +49640,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Oggi ho imparato molto.",
           "casa",
@@ -50392,33 +49655,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "raccontare-il-proprio-viaggio",
-    "title": "Raccontare il proprio viaggio: grammatica",
+    "title": "Passato prossimo per esperienze",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 124,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Raccontare un’esperienza.",
+    "intro": "Raccontare un’esperienza.",
+    "mission": "Aprende passato prossimo per esperienze y úsalo en una frase sobre cerrar el nivel con una experiencia personal.",
+    "grammar": "Usa il passato prossimo per esperienze concluse.",
     "phrases": [
+      "È stato un viaggio importante.",
       "È stato un viaggio importante."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Passato prossimo per esperienze",
+        "definition": "Usa il passato prossimo per esperienze concluse.",
+        "structure": "È stato un viaggio importante.",
+        "function": "Raccontare un’esperienza.",
+        "examples": [
+          "È stato un viaggio importante.",
+          "È stato un viaggio importante."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "È stato un viaggio importante.",
+          "È stato un viaggio importante.",
           "ricordo",
-          "incontro",
-          "cambiare"
+          "incontro"
         ]
       },
       {
@@ -50443,7 +49720,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "È stato un viaggio importante.",
           "cambiare",

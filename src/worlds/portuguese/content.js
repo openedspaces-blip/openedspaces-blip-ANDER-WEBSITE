@@ -46,12 +46,12 @@
     ],
     "reading": {
       "title": "Português (Brasil) A1 Reading",
-      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia.",
+      "text": "Luana está em Recife. Hoje aprende a escrever mensagem curta. Encontra Rafael e diz: “Hoje eu aprendi muito.”. Os dois conversam com respeito e aprendem quatro palavras novas: hoje, amanhã, casa e experiência.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Hoje eu aprendi muito.”.",
       "questions": [
-        "Onde Luana está?",
+        "Onde está Luana?",
         "Com quem Luana conversa?",
-        "O que Luana pergunta quando não entende uma palavra?",
-        "Por que Luana repete as palavras?"
+        "Qual frase Luana usa?",
+        "Por que a experiência é importante?"
       ]
     }
   },
@@ -525,14 +525,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-trabalho-e-planos-reading-comprehension-5",
+        "id": "portuguese-b1-trabalho-e-planos-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Sofia procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
         "options": [
-          "aprender",
-          "concreto",
-          "pesquisa",
-          "conversa"
+          "depois",
+          "também",
+          "quando",
+          "inclui"
         ]
       },
       {
@@ -921,7 +921,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 10,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Saludos y presentaciones en Recife",
     "intro": "Saludos y presentaciones en Recife",
     "mission": "",
@@ -932,62 +932,62 @@
     "reading": {
       "title": "Chegando ao Brasil",
       "parts": [
-        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
-        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
-        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+        "Luana está em Recife. Hoje aprende a cumprimentar e apresentar-se. Encontra Rafael e diz: “Oi, tudo bem?”. Os dois conversam com respeito e aprendem quatro palavras novas: oi, bom dia, prazer e obrigada.",
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
+        "No final, Luana escreve: “Oi, tudo bem?”."
       ],
       "questions": [
-        "Onde Luana está?",
+        "Onde está Luana?",
         "Com quem Luana conversa?",
-        "O que Luana pergunta quando não entende uma palavra?",
-        "Por que Luana repete as palavras?"
+        "Qual frase Luana usa?",
+        "Por que a experiência é importante?"
       ],
-      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+      "text": "Luana está em Recife. Hoje aprende a cumprimentar e apresentar-se. Encontra Rafael e diz: “Oi, tudo bem?”. Os dois conversam com respeito e aprendem quatro palavras novas: oi, bom dia, prazer e obrigada.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Oi, tudo bem?”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-chegando-ao-brasil-reading-reading-comprehension-1",
+        "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Onde Luana está?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
           "Recife",
-          "Salvador",
-          "Rio de Janeiro",
-          "Brasília"
+          "Rafael",
+          "Luana",
+          "simples"
         ]
       },
       {
-        "id": "portuguese-a1-chegando-ao-brasil-reading-reading-comprehension-2",
+        "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Com quem Luana conversa?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Encontra _____ e diz: “Oi, tudo bem?”.”",
         "options": [
+          "Recife",
           "Rafael",
-          "Pedro",
-          "Marina",
-          "Carlos"
+          "Luana",
+          "simples"
         ]
       },
       {
         "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
         "options": [
-          "conversa",
-          "palavras",
-          "importantes",
-          "semplici"
+          "frase",
+          "curta",
+          "Luana",
+          "final"
         ]
       },
       {
         "id": "portuguese-a1-chegando-ao-brasil-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No final, Luana _____: “Oi, tudo bem?”.”",
         "options": [
-          "repetem",
-          "exemplo",
-          "pequeno",
+          "simples",
+          "Recife",
+          "Encontra",
           "escreve"
         ]
       }
@@ -1091,15 +1091,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "trabalho-e-planos",
-    "title": "Trabalho e planos: gramática",
+    "title": "Período condicional",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 11,
     "estimatedMinutes": 10,
-    "description": "organizar o tempo e apresentar soluções",
+    "description": "Tema gramatical: Período condicional.",
     "intro": "organizar o tempo e apresentar soluções",
-    "mission": "organizar o tempo e apresentar soluções",
+    "mission": "Estudia Período condicional y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Aprendemos: meta.",
@@ -1425,7 +1425,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e equipe. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "transcript": "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: meta.», «Aprendemos: prazo.» e «Aprendemos: equipe.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-trabalho-e-planos-listening-listening-comprehension",
@@ -1434,138 +1434,204 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "equipe"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "colegas"
               },
               {
                 "id": "o4",
-                "text": "comunidade"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "pessoa"
+                "text": "sempre"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "trabalhadores"
               },
               {
                 "id": "o4",
-                "text": "comunidade"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
             "options": [
               {
                 "id": "o1",
-                "text": "grupo"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "prazo"
+                "text": "trabalhadores"
               },
               {
                 "id": "o3",
-                "text": "melhorar"
+                "text": "sentiu"
               },
               {
                 "id": "o4",
-                "text": "conta"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "importantes"
+                "text": "colegas"
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "pessoas"
               },
               {
                 "id": "o4",
-                "text": "resume"
+                "text": "planejados"
               }
             ]
           }
         ]
+      },
+      "mainTranscript": "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: meta.», «Aprendemos: prazo.» e «Aprendemos: equipe.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Uma das participantes explicou que as palavras «Aprendemos: meta.», «Aprendemos: prazo.» e «Aprendemos: equipe.» ajudaram o grupo a organizar as ideias."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+        }
+      ],
+      "audioProduction": {
+        "status": "script-ready",
+        "language": "portuguese",
+        "level": "B1",
+        "voice": "native narrator",
+        "normalSpeed": true,
+        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Trabalho e planos», um pequeno grupo da comunidade conversa sobre meta, prazo e _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Trabalho e planos, três colegas contam uma história que aconteceu em uma comunidade _____.”",
         "options": [
-          "equipe",
-          "experiência",
-          "importantes",
-          "comunidade"
+          "brasileira",
+          "compartilhados",
+          "colegas",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
         "options": [
-          "experiência",
-          "pessoa",
-          "importantes",
-          "comunidade"
+          "compartilhados",
+          "sempre",
+          "trabalhadores",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
         "options": [
-          "grupo",
-          "prazo",
-          "melhorar",
-          "conta"
+          "compartilhados",
+          "trabalhadores",
+          "sentiu",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
         "options": [
-          "experiência",
-          "importantes",
-          "comunidade",
-          "resume"
+          "compartilhados",
+          "colegas",
+          "pessoas",
+          "planejados"
         ]
       }
     ]
@@ -1817,39 +1883,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas posições. A primeira observa que scadenza não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que incarico só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo Horizonte. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «prazo», «tarefa» e «recurso» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas posições. A primeira observa que scadenza não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que incarico só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo Horizonte. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «prazo», «tarefa» e «recurso» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo Horizonte."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que scadenza não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que incarico só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «prazo», «tarefa» e «recurso» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -1860,11 +1956,11 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "Horizonte"
               },
               {
                 "id": "o2",
@@ -1872,18 +1968,18 @@
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
@@ -1891,22 +1987,22 @@
               },
               {
                 "id": "o2",
-                "text": "incarico"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
@@ -1914,22 +2010,22 @@
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "risorsa"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
@@ -1937,15 +2033,15 @@
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -1965,42 +2061,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projetos e responsabilidades, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projetos e responsabilidades, Marina e Caio visitam uma associação de moradores de Belo _____.”",
         "options": [
-          "posições",
+          "Horizonte",
           "responsabilidades",
-          "consequências",
-          "verificáveis"
+          "participantes",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
           "responsabilidades",
-          "incarico",
-          "consequências",
-          "verificáveis"
+          "explica",
+          "participantes",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
           "responsabilidades",
-          "consequências",
-          "risorsa",
-          "verificáveis"
+          "participantes",
+          "parecer",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
           "responsabilidades",
+          "participantes",
           "consequências",
-          "verificáveis",
-          "clareza"
+          "inspirar"
         ]
       }
     ]
@@ -2024,39 +2120,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Argumentação pública, duas pessoas comparam suas posições. A primeira observa que tesi não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que obiezione só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «tesi», «obiezione» e «evidenza» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Argumentação pública, duas pessoas comparam suas posições. A primeira observa que tesi não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que obiezione só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «tesi», «obiezione» e «evidenza» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Argumentação pública, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que tesi não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que obiezione só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «tesi», «obiezione» e «evidenza» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -2067,92 +2193,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Argumentação pública, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "pública"
               },
               {
                 "id": "o3",
-                "text": "Argumentação"
+                "text": "visitam"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "questão"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "obiezione"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "Argumentação"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "produz"
+                "text": "Argumentação"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "Argumentação"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "evidenza"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "Argumentação"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "Argumentação"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "Argumentação"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -2172,42 +2298,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Argumentação pública, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Argumentação pública, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "Argumentação",
-          "verificáveis"
+          "brasileira",
+          "pública",
+          "visitam",
+          "questão"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "obiezione",
-          "Argumentação",
-          "produz"
+          "Argumentação"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "Argumentação",
-          "evidenza",
-          "verificáveis"
+          "parecer",
+          "Argumentação"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
           "Argumentação",
-          "verificáveis",
-          "clareza"
+          "inspirar"
         ]
       }
     ]
@@ -2231,39 +2357,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas posições. A primeira observa que retorica não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que premessa só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: inferenza pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «retorica», «premessa» e «inferenza» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas posições. A primeira observa que retorica não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que premessa só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: inferenza pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «retorica», «premessa» e «inferenza» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que retorica não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que premessa só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: inferenza pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «retorica», «premessa» e «inferenza» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -2274,92 +2430,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "questão"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "premessa"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "produz"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "inferenza"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -2379,42 +2535,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Linguagem e persuasão, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Linguagem e persuasão, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "verificáveis",
-          "Neste"
+          "brasileira",
+          "visitam",
+          "questão",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "premessa",
-          "verificáveis",
-          "Neste"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "produz",
-          "inferenza",
-          "verificáveis"
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -3155,11 +3311,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Quero praticar esta expressão: “Aprendemos: meta”. Você pode me ajudar?"
+        "line": "Eu quero organizar o tempo e apresentar soluções. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+        "line": "Claro. Vamos falar passo a passo."
       }
     ],
     "reading": null,
@@ -3394,16 +3550,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Oi, tudo bem”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -3435,16 +3582,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Normalmente vou de ônibus”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -4200,33 +4338,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "chegando-ao-brasil",
-    "title": "Chegando ao Brasil: gramática",
+    "title": "Ser e estar: apresentações",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
     "orderIndex": 14,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Apresentar-se e dizer onde você está.",
+    "intro": "Apresentar-se e dizer onde você está.",
+    "mission": "Aprende ser e estar: apresentações y úsalo en una frase sobre saludos y presentaciones en recife.",
+    "grammar": "Use ser para identidade e estar para estado ou localização.",
     "phrases": [
+      "Eu sou Luana. / Estou em Recife.",
       "Oi, tudo bem?"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Ser e estar: apresentações",
+        "definition": "Use ser para identidade e estar para estado ou localização.",
+        "structure": "Eu sou Luana. / Estou em Recife.",
+        "function": "Apresentar-se e dizer onde você está.",
+        "examples": [
+          "Eu sou Luana. / Estou em Recife.",
+          "Oi, tudo bem?"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Eu sou Luana. / Estou em Recife.",
           "Oi, tudo bem?",
           "oi",
-          "bom dia",
-          "prazer"
+          "bom dia"
         ]
       },
       {
@@ -4251,7 +4403,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Oi, tudo bem?",
           "prazer",
@@ -4266,33 +4418,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "rotina-na-cidade",
-    "title": "Rotina na cidade: gramática",
+    "title": "Rotina: advérbios de frequência",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
     "orderIndex": 14,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Descrever hábitos e rotina.",
+    "intro": "Descrever hábitos e rotina.",
+    "mission": "Aprende rotina: advérbios de frequência y úsalo en una frase sobre rutinas y servicios urbanos.",
+    "grammar": "Use normalmente, sempre e às vezes antes do verbo principal.",
     "phrases": [
+      "Normalmente vou de ônibus.",
       "Normalmente vou de ônibus."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Rotina: advérbios de frequência",
+        "definition": "Use normalmente, sempre e às vezes antes do verbo principal.",
+        "structure": "Normalmente vou de ônibus.",
+        "function": "Descrever hábitos e rotina.",
+        "examples": [
+          "Normalmente vou de ônibus.",
+          "Normalmente vou de ônibus."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Normalmente vou de ônibus.",
+          "Normalmente vou de ônibus.",
           "bairro",
-          "parada",
-          "trabalho"
+          "parada"
         ]
       },
       {
@@ -4317,7 +4483,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Normalmente vou de ônibus.",
           "trabalho",
@@ -4649,14 +4815,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-viagens-com-respeito-reading-comprehension-5",
+        "id": "portuguese-b1-viagens-com-respeito-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Sofia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Sofia procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
         "options": [
-          "aprender",
-          "proteger",
-          "concreto",
-          "visitada"
+          "viagem",
+          "depois",
+          "região",
+          "inclui"
         ]
       },
       {
@@ -5045,7 +5211,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 20,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Una panadería de barrio y sus pedidos",
     "intro": "Una panadería de barrio y sus pedidos",
     "mission": "",
@@ -5056,62 +5222,62 @@
     "reading": {
       "title": "Um café na padaria",
       "parts": [
-        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
-        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
-        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+        "Luana está em Recife. Hoje aprende a pedir com cortesia. Encontra Rafael e diz: “Um café, por favor.”. Os dois conversam com respeito e aprendem quatro palavras novas: café, pão, água e por favor.",
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
+        "No final, Luana escreve: “Um café, por favor.”."
       ],
       "questions": [
-        "Onde Luana está?",
+        "Onde está Luana?",
         "Com quem Luana conversa?",
-        "O que Luana pergunta quando não entende uma palavra?",
-        "Por que Luana repete as palavras?"
+        "Qual frase Luana usa?",
+        "Por que a experiência é importante?"
       ],
-      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+      "text": "Luana está em Recife. Hoje aprende a pedir com cortesia. Encontra Rafael e diz: “Um café, por favor.”. Os dois conversam com respeito e aprendem quatro palavras novas: café, pão, água e por favor.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Um café, por favor.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-um-cafe-na-padaria-reading-reading-comprehension-1",
+        "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Onde Luana está?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
           "Recife",
-          "Salvador",
-          "Rio de Janeiro",
-          "Brasília"
+          "Rafael",
+          "Luana",
+          "favor"
         ]
       },
       {
-        "id": "portuguese-a1-um-cafe-na-padaria-reading-reading-comprehension-2",
+        "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Com quem Luana conversa?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Encontra _____ e diz: “Um café, por favor.”.”",
         "options": [
+          "Recife",
           "Rafael",
-          "Pedro",
-          "Marina",
-          "Carlos"
+          "Luana",
+          "favor"
         ]
       },
       {
         "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
         "options": [
-          "conversa",
-          "palavras",
-          "importantes",
-          "semplici"
+          "favor",
+          "frase",
+          "Luana",
+          "curta"
         ]
       },
       {
         "id": "portuguese-a1-um-cafe-na-padaria-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No final, Luana _____: “Um café, por favor.”.”",
         "options": [
-          "repetem",
-          "exemplo",
-          "pequeno",
+          "simples",
+          "Recife",
+          "Encontra",
           "escreve"
         ]
       }
@@ -5215,15 +5381,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "viagens-com-respeito",
-    "title": "Viagens com respeito: gramática",
+    "title": "Pronomes oblíquos",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 21,
     "estimatedMinutes": 10,
-    "description": "contar uma viagem e dar conselhos responsáveis",
+    "description": "Tema gramatical: Pronomes oblíquos.",
     "intro": "contar uma viagem e dar conselhos responsáveis",
-    "mission": "contar uma viagem e dar conselhos responsáveis",
+    "mission": "Estudia Pronomes oblíquos y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Aprendemos: roteiro.",
@@ -5549,7 +5715,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e paisagem. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "transcript": "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: roteiro.», «Aprendemos: reserva.» e «Aprendemos: paisagem.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-viagens-com-respeito-listening-listening-comprehension",
@@ -5558,138 +5724,204 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "paisagem"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "grupo"
+                "text": "compartilhados"
               },
               {
                 "id": "o3",
-                "text": "conta"
+                "text": "Viagens"
               },
               {
                 "id": "o4",
-                "text": "experiência"
+                "text": "colegas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "pessoa"
+                "text": "sempre"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "trabalhadores"
               },
               {
                 "id": "o4",
-                "text": "comunidade"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
             "options": [
               {
                 "id": "o1",
-                "text": "grupo"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "conta"
+                "text": "trabalhadores"
               },
               {
                 "id": "o3",
-                "text": "melhorar"
+                "text": "sentiu"
               },
               {
                 "id": "o4",
-                "text": "experiência"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "importantes"
+                "text": "Viagens"
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "colegas"
               },
               {
                 "id": "o4",
-                "text": "resume"
+                "text": "planejados"
               }
             ]
           }
         ]
+      },
+      "mainTranscript": "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: roteiro.», «Aprendemos: reserva.» e «Aprendemos: paisagem.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Uma das participantes explicou que as palavras «Aprendemos: roteiro.», «Aprendemos: reserva.» e «Aprendemos: paisagem.» ajudaram o grupo a organizar as ideias."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+        }
+      ],
+      "audioProduction": {
+        "status": "script-ready",
+        "language": "portuguese",
+        "level": "B1",
+        "voice": "native narrator",
+        "normalSpeed": true,
+        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Viagens com respeito», um pequeno grupo da comunidade conversa sobre roteiro, reserva e _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Viagens com respeito, três colegas contam uma história que aconteceu em uma comunidade _____.”",
         "options": [
-          "paisagem",
-          "grupo",
-          "conta",
-          "experiência"
+          "brasileira",
+          "compartilhados",
+          "Viagens",
+          "colegas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
         "options": [
-          "experiência",
-          "pessoa",
-          "importantes",
-          "comunidade"
+          "compartilhados",
+          "sempre",
+          "trabalhadores",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
         "options": [
-          "grupo",
-          "conta",
-          "melhorar",
-          "experiência"
+          "compartilhados",
+          "trabalhadores",
+          "sentiu",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
         "options": [
-          "experiência",
-          "importantes",
-          "comunidade",
-          "resume"
+          "compartilhados",
+          "Viagens",
+          "colegas",
+          "planejados"
         ]
       }
     ]
@@ -5941,39 +6173,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas posições. A primeira observa que percorso não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que traffico só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: abbonamento pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São Paulo. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «trajeto», «trânsito» e «assinatura» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas posições. A primeira observa que percorso não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que traffico só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: abbonamento pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São Paulo. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «trajeto», «trânsito» e «assinatura» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São Paulo."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que percorso não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que traffico só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: abbonamento pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «trajeto», «trânsito» e «assinatura» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -5984,92 +6246,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "Paulo"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "traffico"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "episódio"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "comparam"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "abbonamento"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "posições"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -6089,42 +6351,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidade e mobilidade, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidade e mobilidade, Marina e Caio visitam um grupo de usuários de ônibus em São _____.”",
         "options": [
-          "posições",
+          "Paulo",
+          "participantes",
           "consequências",
-          "verificáveis",
-          "Neste"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "traffico",
-          "verificáveis",
-          "Neste"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
-          "episódio",
-          "comparam",
-          "abbonamento",
-          "posições"
+          "participantes",
+          "consequências",
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -6148,39 +6410,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas posições. A primeira observa que innovazione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que accesso só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: divario pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «innovazione», «accesso» e «divario» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas posições. A primeira observa que innovazione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que accesso só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: divario pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «innovazione», «accesso» e «divario» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que innovazione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que accesso só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: divario pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «innovazione», «accesso» e «divario» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -6191,92 +6483,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "questão"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "accesso"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "innovazione"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "divario"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "innovazione"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "innovazione"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -6296,42 +6588,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Inovação e sociedade, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Inovação e sociedade, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "verificáveis",
-          "Neste"
+          "brasileira",
+          "visitam",
+          "questão",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "accesso",
-          "verificáveis",
-          "innovazione"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "divario",
-          "innovazione"
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "innovazione",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -6355,39 +6647,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Políticas públicas, duas pessoas comparam suas posições. A primeira observa que politica não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que impatto só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: criterio pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «politica», «impacto» e «criterio» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Políticas públicas, duas pessoas comparam suas posições. A primeira observa que politica não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que impatto só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: criterio pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «politica», «impacto» e «criterio» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Políticas públicas, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que politica não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que impatto só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: criterio pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «politica», «impacto» e «criterio» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -6398,92 +6720,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Políticas públicas, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "questão"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "impatto"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "considerado"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "criterio"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -6503,42 +6825,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Políticas públicas, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Políticas públicas, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "verificáveis",
-          "Neste"
+          "brasileira",
+          "visitam",
+          "questão",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "impatto",
-          "verificáveis",
-          "considerado"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "criterio",
-          "Neste"
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -7279,11 +7601,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Quero praticar esta expressão: “Aprendemos: roteiro”. Você pode me ajudar?"
+        "line": "Eu quero contar uma viagem e dar conselhos responsáveis. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+        "line": "Claro. Vamos falar passo a passo."
       }
     ],
     "reading": null,
@@ -7518,16 +7840,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Um café, por favor”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -7559,16 +7872,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Gostaria de visitar o museu”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -8324,33 +8628,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "um-cafe-na-padaria",
-    "title": "Um café na padaria: gramática",
+    "title": "Artigos e gênero",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
     "orderIndex": 24,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Pedir produtos com precisão.",
+    "intro": "Pedir produtos com precisão.",
+    "mission": "Aprende artigos e gênero y úsalo en una frase sobre una panadería de barrio y sus pedidos.",
+    "grammar": "Os artigos acompanham o gênero e o número do substantivo.",
     "phrases": [
+      "um café / uma água / os pães",
       "Um café, por favor."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Artigos e gênero",
+        "definition": "Os artigos acompanham o gênero e o número do substantivo.",
+        "structure": "um café / uma água / os pães",
+        "function": "Pedir produtos com precisão.",
+        "examples": [
+          "um café / uma água / os pães",
+          "Um café, por favor."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "um café / uma água / os pães",
           "Um café, por favor.",
           "café",
-          "pão",
-          "água"
+          "pão"
         ]
       },
       {
@@ -8375,7 +8693,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Um café, por favor.",
           "água",
@@ -8390,33 +8708,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "um-fim-de-semana-em-salvador",
-    "title": "Um fim de semana em Salvador: gramática",
+    "title": "Futuro com ir + infinitivo",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
     "orderIndex": 24,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Fazer planos.",
+    "intro": "Fazer planos.",
+    "mission": "Aprende futuro com ir + infinitivo y úsalo en una frase sobre planear una visita con respeto.",
+    "grammar": "Use ir + infinitivo para planos próximos.",
     "phrases": [
+      "Vou visitar o museu amanhã.",
       "Gostaria de visitar o museu."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Futuro com ir + infinitivo",
+        "definition": "Use ir + infinitivo para planos próximos.",
+        "structure": "Vou visitar o museu amanhã.",
+        "function": "Fazer planos.",
+        "examples": [
+          "Vou visitar o museu amanhã.",
+          "Gostaria de visitar o museu."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Vou visitar o museu amanhã.",
           "Gostaria de visitar o museu.",
           "museu",
-          "passeio",
-          "reserva"
+          "passeio"
         ]
       },
       {
@@ -8441,7 +8773,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Gostaria de visitar o museu.",
           "reserva",
@@ -8773,14 +9105,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-saude-e-equilibrio-reading-comprehension-5",
+        "id": "portuguese-b1-saude-e-equilibrio-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Elena não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Elena procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
         "options": [
-          "aprender",
-          "concreto",
-          "pesquisa",
-          "conversa"
+          "buscar",
+          "depois",
+          "centro",
+          "inclui"
         ]
       },
       {
@@ -9169,7 +9501,7 @@
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 30,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Una comida familiar cotidiana",
     "intro": "Una comida familiar cotidiana",
     "mission": "",
@@ -9180,62 +9512,62 @@
     "reading": {
       "title": "Família e almoço",
       "parts": [
-        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
-        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
-        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+        "Luana está em Recife. Hoje aprende a falar da família. Encontra Rafael e diz: “A família almoça junta.”. Os dois conversam com respeito e aprendem quatro palavras novas: família, almoço, mesa e juntos.",
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
+        "No final, Luana escreve: “A família almoça junta.”."
       ],
       "questions": [
-        "Onde Luana está?",
+        "Onde está Luana?",
         "Com quem Luana conversa?",
-        "O que Luana pergunta quando não entende uma palavra?",
-        "Por que Luana repete as palavras?"
+        "Qual frase Luana usa?",
+        "Por que a experiência é importante?"
       ],
-      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+      "text": "Luana está em Recife. Hoje aprende a falar da família. Encontra Rafael e diz: “A família almoça junta.”. Os dois conversam com respeito e aprendem quatro palavras novas: família, almoço, mesa e juntos.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “A família almoça junta.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-familia-e-almoco-reading-reading-comprehension-1",
+        "id": "portuguese-a1-familia-e-almoco-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Onde Luana está?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
           "Recife",
-          "Salvador",
-          "Rio de Janeiro",
-          "Brasília"
+          "Rafael",
+          "almoça",
+          "Luana"
         ]
       },
       {
-        "id": "portuguese-a1-familia-e-almoco-reading-reading-comprehension-2",
+        "id": "portuguese-a1-familia-e-almoco-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Com quem Luana conversa?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Encontra _____ e diz: “A família almoça junta.”.”",
         "options": [
+          "Recife",
           "Rafael",
-          "Pedro",
-          "Marina",
-          "Carlos"
+          "almoça",
+          "Luana"
         ]
       },
       {
         "id": "portuguese-a1-familia-e-almoco-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
         "options": [
-          "conversa",
-          "palavras",
-          "importantes",
-          "semplici"
+          "junta",
+          "frase",
+          "Luana",
+          "curta"
         ]
       },
       {
         "id": "portuguese-a1-familia-e-almoco-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No final, Luana _____: “A família almoça junta.”.”",
         "options": [
-          "repetem",
-          "exemplo",
-          "pequeno",
+          "família",
+          "simples",
+          "Recife",
           "escreve"
         ]
       }
@@ -9339,15 +9671,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "saude-e-equilibrio",
-    "title": "Saúde e equilíbrio: gramática",
+    "title": "Subjuntivo presente",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 31,
     "estimatedMinutes": 10,
-    "description": "explicar hábitos de bem-estar e mudanças pessoais",
+    "description": "Tema gramatical: Subjuntivo presente.",
     "intro": "explicar hábitos de bem-estar e mudanças pessoais",
-    "mission": "explicar hábitos de bem-estar e mudanças pessoais",
+    "mission": "Estudia Subjuntivo presente y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Aprendemos: bem-estar.",
@@ -9673,7 +10005,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e exercício. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "transcript": "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: bem-estar.», «Aprendemos: descanso.» e «Aprendemos: exercício.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-saude-e-equilibrio-listening-listening-comprehension",
@@ -9682,138 +10014,204 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "exercício"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "pessoa"
+                "text": "compartilhados"
               },
               {
                 "id": "o3",
-                "text": "escuta"
+                "text": "colegas"
               },
               {
                 "id": "o4",
-                "text": "outras"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "pessoa"
+                "text": "sempre"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "trabalhadores"
               },
               {
                 "id": "o4",
-                "text": "equilíbrio"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Saúde"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "grupo"
+                "text": "trabalhadores"
               },
               {
                 "id": "o3",
-                "text": "melhorar"
+                "text": "sentiu"
               },
               {
                 "id": "o4",
-                "text": "conta"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "importantes"
+                "text": "colegas"
               },
               {
                 "id": "o3",
-                "text": "equilíbrio"
+                "text": "pessoas"
               },
               {
                 "id": "o4",
-                "text": "resume"
+                "text": "planejados"
               }
             ]
           }
         ]
+      },
+      "mainTranscript": "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: bem-estar.», «Aprendemos: descanso.» e «Aprendemos: exercício.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Uma das participantes explicou que as palavras «Aprendemos: bem-estar.», «Aprendemos: descanso.» e «Aprendemos: exercício.» ajudaram o grupo a organizar as ideias."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+        }
+      ],
+      "audioProduction": {
+        "status": "script-ready",
+        "language": "portuguese",
+        "level": "B1",
+        "voice": "native narrator",
+        "normalSpeed": true,
+        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Saúde e equilíbrio», um pequeno grupo da comunidade conversa sobre bem-estar, descanso e _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Saúde e equilíbrio, três colegas contam uma história que aconteceu em uma comunidade _____.”",
         "options": [
-          "exercício",
-          "pessoa",
-          "escuta",
-          "outras"
+          "brasileira",
+          "compartilhados",
+          "colegas",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
         "options": [
-          "experiência",
-          "pessoa",
-          "importantes",
-          "equilíbrio"
+          "compartilhados",
+          "sempre",
+          "trabalhadores",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
         "options": [
-          "Saúde",
-          "grupo",
-          "melhorar",
-          "conta"
+          "compartilhados",
+          "trabalhadores",
+          "sentiu",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
         "options": [
-          "experiência",
-          "importantes",
-          "equilíbrio",
-          "resume"
+          "compartilhados",
+          "colegas",
+          "pessoas",
+          "planejados"
         ]
       }
     ]
@@ -10065,39 +10463,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Trabalho e competências, duas pessoas comparam suas posições. A primeira observa que colloquio não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que esperienza só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: candidatura pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em Recife. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «entrevista», «experiência» e «candidatura» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Trabalho e competências, duas pessoas comparam suas posições. A primeira observa que colloquio não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que esperienza só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: candidatura pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em Recife. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «entrevista», «experiência» e «candidatura» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Trabalho e competências, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em Recife."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que colloquio não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que esperienza só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: candidatura pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «entrevista», «experiência» e «candidatura» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -10108,92 +10536,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Trabalho e competências, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "Recife"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "competências"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "competências"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "pessoas"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "esperienza"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "observa"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "isolada"
+                "text": "competências"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "episódio"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "Trabalho"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "candidatura"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "comparam"
+                "text": "competências"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "competências"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "competências"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -10213,42 +10641,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Trabalho e competências, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Trabalho e competências, Marina e Caio visitam uma cooperativa de costureiras em _____.”",
         "options": [
-          "posições",
+          "Recife",
+          "participantes",
+          "consequências",
+          "competências"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "options": [
+          "participantes",
+          "explica",
+          "consequências",
+          "competências"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "options": [
+          "participantes",
+          "consequências",
+          "parecer",
+          "competências"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "options": [
+          "participantes",
           "consequências",
           "competências",
-          "verificáveis"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
-        "options": [
-          "pessoas",
-          "esperienza",
-          "observa",
-          "isolada"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
-        "options": [
-          "episódio",
-          "Trabalho",
-          "candidatura",
-          "comparam"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
-        "options": [
-          "consequências",
-          "competências",
-          "verificáveis",
-          "clareza"
+          "inspirar"
         ]
       }
     ]
@@ -10272,39 +10700,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Ética e decisões, duas pessoas comparam suas posições. A primeira observa que dilemma não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que principio só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: responsabilità pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «dilemma», «principio» e «responsabilità» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Ética e decisões, duas pessoas comparam suas posições. A primeira observa que dilemma não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que principio só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: responsabilità pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «dilemma», «principio» e «responsabilità» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Ética e decisões, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que dilemma não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que principio só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: responsabilità pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «dilemma», «principio» e «responsabilità» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -10315,11 +10773,11 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ética e decisões, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
@@ -10327,18 +10785,18 @@
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "questão"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
@@ -10346,45 +10804,45 @@
               },
               {
                 "id": "o2",
-                "text": "principio"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o4",
-                "text": "produz"
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "considerado"
-              },
-              {
-                "id": "o2",
-                "text": "dificuldade"
-              },
-              {
-                "id": "o3",
                 "text": "responsabilità"
               },
               {
+                "id": "o2",
+                "text": "participantes"
+              },
+              {
+                "id": "o3",
+                "text": "parecer"
+              },
+              {
                 "id": "o4",
-                "text": "perspectiva"
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
@@ -10392,15 +10850,15 @@
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -10420,42 +10878,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ética e decisões, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ética e decisões, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
+          "brasileira",
           "responsabilità",
-          "consequências",
-          "verificáveis"
+          "visitam",
+          "questão"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
           "responsabilità",
-          "principio",
-          "consequências",
-          "produz"
+          "explica",
+          "participantes",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
-          "considerado",
-          "dificuldade",
           "responsabilità",
-          "perspectiva"
+          "participantes",
+          "parecer",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
           "responsabilità",
+          "participantes",
           "consequências",
-          "verificáveis",
-          "clareza"
+          "inspirar"
         ]
       }
     ]
@@ -10479,39 +10937,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas posições. A primeira observa que ipotesi não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que probabilità só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «ipotesi», «probabilità» e «evidenza» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas posições. A primeira observa que ipotesi não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que probabilità só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «ipotesi», «probabilità» e «evidenza» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que ipotesi não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que probabilità só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: evidenza pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «ipotesi», «probabilità» e «evidenza» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -10522,92 +11010,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o3",
-                "text": "Conhecimento"
+                "text": "questão"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "episódio"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "probabilità"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "comparam"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "posições"
+                "text": "Conhecimento"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "Conhecimento"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "evidenza"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "Conhecimento"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "Conhecimento"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "Conhecimento"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -10627,42 +11115,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conhecimento e incerteza, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conhecimento e incerteza, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "Conhecimento",
-          "verificáveis"
+          "brasileira",
+          "visitam",
+          "questão",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
-          "episódio",
-          "probabilità",
-          "comparam",
-          "posições"
+          "participantes",
+          "explica",
+          "consequências",
+          "Conhecimento"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "Conhecimento",
-          "evidenza",
-          "verificáveis"
+          "parecer",
+          "Conhecimento"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
           "Conhecimento",
-          "verificáveis",
-          "clareza"
+          "inspirar"
         ]
       }
     ]
@@ -11403,11 +11891,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Quero praticar esta expressão: “Aprendemos: bem-estar”. Você pode me ajudar?"
+        "line": "Eu quero explicar hábitos de bem-estar e mudanças pessoais. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+        "line": "Claro. Vamos falar passo a passo."
       }
     ],
     "reading": null,
@@ -11642,16 +12130,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “A família almoça junta”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -11683,16 +12162,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Primeiro corto os legumes”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -12448,33 +12918,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "familia-e-almoco",
-    "title": "Família e almoço: gramática",
+    "title": "Presente do indicativo",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 20,
     "orderIndex": 34,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Falar sobre ações do dia a dia.",
+    "intro": "Falar sobre ações do dia a dia.",
+    "mission": "Aprende presente do indicativo y úsalo en una frase sobre una comida familiar cotidiana.",
+    "grammar": "Use o presente para rotinas e ações habituais.",
     "phrases": [
+      "A família almoça junta.",
       "A família almoça junta."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Presente do indicativo",
+        "definition": "Use o presente para rotinas e ações habituais.",
+        "structure": "A família almoça junta.",
+        "function": "Falar sobre ações do dia a dia.",
+        "examples": [
+          "A família almoça junta.",
+          "A família almoça junta."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "A família almoça junta.",
+          "A família almoça junta.",
           "família",
-          "almoço",
-          "mesa"
+          "almoço"
         ]
       },
       {
@@ -12499,7 +12983,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "A família almoça junta.",
           "mesa",
@@ -12514,33 +12998,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "receitas-e-memorias",
-    "title": "Receitas e memórias: gramática",
+    "title": "Sequência com primeiro, depois e por fim",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 34,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Explicar uma receita ou processo.",
+    "intro": "Explicar uma receita ou processo.",
+    "mission": "Aprende sequência com primeiro, depois e por fim y úsalo en una frase sobre cocinar y recordar en familia.",
+    "grammar": "Use conectores para organizar ações.",
     "phrases": [
+      "Primeiro corto os legumes; depois cozinho.",
       "Primeiro corto os legumes."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Sequência com primeiro, depois e por fim",
+        "definition": "Use conectores para organizar ações.",
+        "structure": "Primeiro corto os legumes; depois cozinho.",
+        "function": "Explicar uma receita ou processo.",
+        "examples": [
+          "Primeiro corto os legumes; depois cozinho.",
+          "Primeiro corto os legumes."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Primeiro corto os legumes; depois cozinho.",
           "Primeiro corto os legumes.",
           "receita",
-          "ingrediente",
-          "primeiro"
+          "ingrediente"
         ]
       },
       {
@@ -12565,7 +13063,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Primeiro corto os legumes.",
           "primeiro",
@@ -12897,14 +13395,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-cultura-e-informacao-reading-comprehension-5",
+        "id": "portuguese-b1-cultura-e-informacao-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Julia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Julia procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
         "options": [
-          "aprender",
-          "concreto",
-          "pesquisa",
-          "conversa"
+          "depois",
+          "também",
+          "quando",
+          "inclui"
         ]
       },
       {
@@ -13293,7 +13791,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 40,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Frutas, verduras y medidas en la feria",
     "intro": "Frutas, verduras y medidas en la feria",
     "mission": "",
@@ -13304,63 +13802,63 @@
     "reading": {
       "title": "A feira do bairro",
       "parts": [
-        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
-        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
-        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+        "Luana está em Recife. Hoje aprende a comprar na feira. Encontra Rafael e diz: “Quanto custa um quilo?”. Os dois conversam com respeito e aprendem quatro palavras novas: banana, tomate, quilo e real.",
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
+        "No final, Luana escreve: “Quanto custa um quilo?”."
       ],
       "questions": [
-        "Onde Luana está?",
+        "Onde está Luana?",
         "Com quem Luana conversa?",
-        "O que Luana pergunta quando não entende uma palavra?",
-        "Por que Luana repete as palavras?"
+        "Qual frase Luana usa?",
+        "Por que a experiência é importante?"
       ],
-      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+      "text": "Luana está em Recife. Hoje aprende a comprar na feira. Encontra Rafael e diz: “Quanto custa um quilo?”. Os dois conversam com respeito e aprendem quatro palavras novas: banana, tomate, quilo e real.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Quanto custa um quilo?”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-a-feira-do-bairro-reading-reading-comprehension-1",
+        "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Onde Luana está?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
           "Recife",
-          "Salvador",
-          "Rio de Janeiro",
-          "Brasília"
+          "Rafael",
+          "Quanto",
+          "Luana"
         ]
       },
       {
-        "id": "portuguese-a1-a-feira-do-bairro-reading-reading-comprehension-2",
+        "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Com quem Luana conversa?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Encontra _____ e diz: “Quanto custa um quilo?”.”",
         "options": [
+          "Recife",
           "Rafael",
-          "Pedro",
-          "Marina",
-          "Carlos"
+          "Quanto",
+          "Luana"
         ]
       },
       {
         "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
         "options": [
-          "conversa",
-          "palavras",
-          "importantes",
-          "semplici"
+          "custa",
+          "quilo",
+          "Luana",
+          "frase"
         ]
       },
       {
         "id": "portuguese-a1-a-feira-do-bairro-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No final, Luana escreve: “_____ custa um quilo?”.”",
         "options": [
-          "repetem",
-          "exemplo",
-          "pequeno",
-          "escreve"
+          "Recife",
+          "Rafael",
+          "Luana",
+          "Quanto"
         ]
       }
     ]
@@ -13463,15 +13961,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "cultura-e-informacao",
-    "title": "Cultura e informação: gramática",
+    "title": "Discurso indireto",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 41,
     "estimatedMinutes": 10,
-    "description": "dar opinião sobre cultura e informação",
+    "description": "Tema gramatical: Discurso indireto.",
     "intro": "dar opinião sobre cultura e informação",
-    "mission": "dar opinião sobre cultura e informação",
+    "mission": "Estudia Discurso indireto y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Aprendemos: notícia.",
@@ -13797,7 +14295,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e público. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "transcript": "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: notícia.», «Aprendemos: fonte.» e «Aprendemos: público.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-cultura-e-informacao-listening-listening-comprehension",
@@ -13806,138 +14304,204 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "público"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "Cultura"
               },
               {
                 "id": "o4",
-                "text": "tema"
+                "text": "colegas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "pessoa"
+                "text": "sempre"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "trabalhadores"
               },
               {
                 "id": "o4",
-                "text": "informação"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
             "options": [
               {
                 "id": "o1",
-                "text": "grupo"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "fonte"
+                "text": "trabalhadores"
               },
               {
                 "id": "o3",
-                "text": "melhorar"
+                "text": "sentiu"
               },
               {
                 "id": "o4",
-                "text": "conta"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "importantes"
+                "text": "Cultura"
               },
               {
                 "id": "o3",
-                "text": "informação"
+                "text": "colegas"
               },
               {
                 "id": "o4",
-                "text": "resume"
+                "text": "planejados"
               }
             ]
           }
         ]
+      },
+      "mainTranscript": "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: notícia.», «Aprendemos: fonte.» e «Aprendemos: público.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Uma das participantes explicou que as palavras «Aprendemos: notícia.», «Aprendemos: fonte.» e «Aprendemos: público.» ajudaram o grupo a organizar as ideias."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+        }
+      ],
+      "audioProduction": {
+        "status": "script-ready",
+        "language": "portuguese",
+        "level": "B1",
+        "voice": "native narrator",
+        "normalSpeed": true,
+        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Cultura e informação», um pequeno grupo da comunidade conversa sobre notícia, fonte e _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Cultura e informação, três colegas contam uma história que aconteceu em uma comunidade _____.”",
         "options": [
-          "público",
-          "experiência",
-          "importantes",
-          "tema"
+          "brasileira",
+          "compartilhados",
+          "Cultura",
+          "colegas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
         "options": [
-          "experiência",
-          "pessoa",
-          "importantes",
-          "informação"
+          "compartilhados",
+          "sempre",
+          "trabalhadores",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
         "options": [
-          "grupo",
-          "fonte",
-          "melhorar",
-          "conta"
+          "compartilhados",
+          "trabalhadores",
+          "sentiu",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
         "options": [
-          "experiência",
-          "importantes",
-          "informação",
-          "resume"
+          "compartilhados",
+          "Cultura",
+          "colegas",
+          "planejados"
         ]
       }
     ]
@@ -14189,39 +14753,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas posições. A primeira observa que impatto não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que raccolta só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: spreco pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em Curitiba. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «impacto», «coleta» e «desperdício» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas posições. A primeira observa que impatto não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que raccolta só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: spreco pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em Curitiba. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «impacto», «coleta» e «desperdício» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em Curitiba."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que impatto não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que raccolta só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: spreco pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «impacto», «coleta» e «desperdício» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -14232,92 +14826,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "Curitiba"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "raccolta"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "spreco"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "considerado"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -14337,42 +14931,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e consumo, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e consumo, Marina e Caio visitam uma comunidade que recupera uma praça em _____.”",
         "options": [
-          "posições",
+          "Curitiba",
+          "participantes",
           "consequências",
-          "verificáveis",
-          "Neste"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "raccolta",
-          "verificáveis",
-          "Neste"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "spreco",
-          "considerado"
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -14396,39 +14990,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Arte e interpretação, duas pessoas comparam suas posições. A primeira observa que opera não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que linguaggio só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: interpretazione pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «opera», «linguaggio» e «interpretazione» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Arte e interpretação, duas pessoas comparam suas posições. A primeira observa que opera não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que linguaggio só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: interpretazione pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «opera», «linguaggio» e «interpretazione» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Arte e interpretação, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que opera não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que linguaggio só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: interpretazione pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «opera», «linguaggio» e «interpretazione» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -14439,11 +15063,11 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Arte e interpretação, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
@@ -14455,14 +15079,14 @@
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "visitam"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
@@ -14470,7 +15094,7 @@
               },
               {
                 "id": "o2",
-                "text": "linguaggio"
+                "text": "explica"
               },
               {
                 "id": "o3",
@@ -14478,18 +15102,18 @@
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "verificáveis"
+                "text": "interpretazione"
               },
               {
                 "id": "o2",
@@ -14497,18 +15121,18 @@
               },
               {
                 "id": "o3",
-                "text": "interpretazione"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "consequências"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
@@ -14520,11 +15144,11 @@
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -14544,42 +15168,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Arte e interpretação, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Arte e interpretação, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
+          "brasileira",
           "interpretazione",
           "interpretação",
-          "consequências"
+          "visitam"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
           "interpretazione",
-          "linguaggio",
+          "explica",
           "interpretação",
-          "pessoas"
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
-          "verificáveis",
-          "interpretação",
           "interpretazione",
-          "consequências"
+          "interpretação",
+          "parecer",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
           "interpretazione",
           "interpretação",
-          "consequências",
-          "clareza"
+          "participantes",
+          "inspirar"
         ]
       }
     ]
@@ -14603,39 +15227,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas posições. A primeira observa que narrazione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que memoria só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: voce pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «narrazione», «memoria» e «voce» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas posições. A primeira observa que narrazione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que memoria só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: voce pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «narrazione», «memoria» e «voce» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que narrazione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que memoria só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: voce pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «narrazione», «memoria» e «voce» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -14646,92 +15300,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "questão"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "memoria"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "considerado"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: voce pode mudar a _____ de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "episódio"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "comparam"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "perspectiva"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "posições"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -14751,42 +15405,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Narrativa e identidade, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Narrativa e identidade, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "verificáveis",
-          "Neste"
+          "brasileira",
+          "visitam",
+          "questão",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "memoria",
-          "verificáveis",
-          "considerado"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: voce pode mudar a _____ de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
-          "episódio",
-          "comparam",
-          "perspectiva",
-          "posições"
+          "participantes",
+          "consequências",
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -15527,11 +16181,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Quero praticar esta expressão: “Aprendemos: notícia”. Você pode me ajudar?"
+        "line": "Eu quero dar opinião sobre cultura e informação. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+        "line": "Claro. Vamos falar passo a passo."
       }
     ],
     "reading": null,
@@ -15766,16 +16420,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Quanto custa um quilo”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -15807,16 +16452,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Posso fazer uma pausa”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -16572,33 +17208,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "a-feira-do-bairro",
-    "title": "A feira do bairro: gramática",
+    "title": "Perguntas com quanto e qual",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 44,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Fazer compras e pedir informação.",
+    "intro": "Fazer compras e pedir informação.",
+    "mission": "Aprende perguntas com quanto e qual y úsalo en una frase sobre frutas, verduras y medidas en la feria.",
+    "grammar": "Use quanto para preço ou quantidade e qual para escolher.",
     "phrases": [
+      "Quanto custa um quilo?",
       "Quanto custa um quilo?"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Perguntas com quanto e qual",
+        "definition": "Use quanto para preço ou quantidade e qual para escolher.",
+        "structure": "Quanto custa um quilo?",
+        "function": "Fazer compras e pedir informação.",
+        "examples": [
+          "Quanto custa um quilo?",
+          "Quanto custa um quilo?"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Quanto custa um quilo?",
+          "Quanto custa um quilo?",
           "banana",
-          "tomate",
-          "quilo"
+          "tomate"
         ]
       },
       {
@@ -16623,7 +17273,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Quanto custa um quilo?",
           "quilo",
@@ -16638,33 +17288,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "trabalho-e-pausa",
-    "title": "Trabalho e pausa: gramática",
+    "title": "Poder e dever",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 44,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Interagir no trabalho.",
+    "intro": "Interagir no trabalho.",
+    "mission": "Aprende poder e dever y úsalo en una frase sobre pausas y comunicación laboral.",
+    "grammar": "Use poder para pedir permissão e dever para dar conselho.",
     "phrases": [
+      "Posso fazer uma pausa? Você deve descansar.",
       "Posso fazer uma pausa?"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Poder e dever",
+        "definition": "Use poder para pedir permissão e dever para dar conselho.",
+        "structure": "Posso fazer uma pausa? Você deve descansar.",
+        "function": "Interagir no trabalho.",
+        "examples": [
+          "Posso fazer uma pausa? Você deve descansar.",
+          "Posso fazer uma pausa?"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Posso fazer uma pausa? Você deve descansar.",
           "Posso fazer uma pausa?",
           "colega",
-          "pausa",
-          "reunião"
+          "pausa"
         ]
       },
       {
@@ -16689,7 +17353,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Posso fazer uma pausa?",
           "reunião",
@@ -17021,14 +17685,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-ambiente-no-bairro-reading-comprehension-5",
+        "id": "portuguese-b1-ambiente-no-bairro-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Lorenzo não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Lorenzo procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
         "options": [
-          "aprender",
-          "resíduos",
-          "concreto",
-          "coletivo"
+          "depois",
+          "também",
+          "quando",
+          "inclui"
         ]
       },
       {
@@ -17417,7 +18081,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 50,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Moverse por la ciudad con claridad",
     "intro": "Moverse por la ciudad con claridad",
     "mission": "",
@@ -17428,62 +18092,62 @@
     "reading": {
       "title": "Caminhos da cidade",
       "parts": [
-        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
-        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
-        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+        "Luana está em Recife. Hoje aprende a pedir informações. Encontra Rafael e diz: “Onde fica a parada?”. Os dois conversam com respeito e aprendem quatro palavras novas: rua, praça, parada e bicicleta.",
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
+        "No final, Luana escreve: “Onde fica a parada?”."
       ],
       "questions": [
-        "Onde Luana está?",
+        "Onde está Luana?",
         "Com quem Luana conversa?",
-        "O que Luana pergunta quando não entende uma palavra?",
-        "Por que Luana repete as palavras?"
+        "Qual frase Luana usa?",
+        "Por que a experiência é importante?"
       ],
-      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+      "text": "Luana está em Recife. Hoje aprende a pedir informações. Encontra Rafael e diz: “Onde fica a parada?”. Os dois conversam com respeito e aprendem quatro palavras novas: rua, praça, parada e bicicleta.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Onde fica a parada?”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-caminhos-da-cidade-reading-reading-comprehension-1",
+        "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Onde Luana está?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
           "Recife",
-          "Salvador",
-          "Rio de Janeiro",
-          "Brasília"
+          "Rafael",
+          "parada",
+          "Luana"
         ]
       },
       {
-        "id": "portuguese-a1-caminhos-da-cidade-reading-reading-comprehension-2",
+        "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Com quem Luana conversa?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Encontra _____ e diz: “Onde fica a parada?”.”",
         "options": [
+          "Recife",
           "Rafael",
-          "Pedro",
-          "Marina",
-          "Carlos"
+          "parada",
+          "Luana"
         ]
       },
       {
         "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
         "options": [
-          "conversa",
-          "palavras",
-          "importantes",
-          "semplici"
+          "frase",
+          "curta",
+          "Luana",
+          "final"
         ]
       },
       {
         "id": "portuguese-a1-caminhos-da-cidade-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No final, Luana _____: “Onde fica a parada?”.”",
         "options": [
-          "repetem",
-          "exemplo",
-          "pequeno",
+          "simples",
+          "Recife",
+          "Encontra",
           "escreve"
         ]
       }
@@ -17587,15 +18251,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "ambiente-no-bairro",
-    "title": "Ambiente no bairro: gramática",
+    "title": "Voz passiva e índice de indeterminação",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 51,
     "estimatedMinutes": 10,
-    "description": "descrever um problema ambiental e uma proposta",
+    "description": "Tema gramatical: Voz passiva e índice de indeterminação.",
     "intro": "descrever um problema ambiental e uma proposta",
-    "mission": "descrever um problema ambiental e uma proposta",
+    "mission": "Estudia Voz passiva e índice de indeterminação y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Aprendemos: resíduo.",
@@ -17921,7 +18585,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e recurso. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "transcript": "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: resíduo.», «Aprendemos: coleta.» e «Aprendemos: recurso.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-ambiente-no-bairro-listening-listening-comprehension",
@@ -17930,138 +18594,204 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "recurso"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "colegas"
               },
               {
                 "id": "o4",
-                "text": "tema"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "pessoa"
+                "text": "sempre"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "trabalhadores"
               },
               {
                 "id": "o4",
-                "text": "comunidade"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
             "options": [
               {
                 "id": "o1",
-                "text": "grupo"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "conta"
+                "text": "trabalhadores"
               },
               {
                 "id": "o3",
-                "text": "melhorar"
+                "text": "sentiu"
               },
               {
                 "id": "o4",
-                "text": "experiência"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "importantes"
+                "text": "colegas"
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "pessoas"
               },
               {
                 "id": "o4",
-                "text": "resume"
+                "text": "planejados"
               }
             ]
           }
         ]
+      },
+      "mainTranscript": "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: resíduo.», «Aprendemos: coleta.» e «Aprendemos: recurso.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Uma das participantes explicou que as palavras «Aprendemos: resíduo.», «Aprendemos: coleta.» e «Aprendemos: recurso.» ajudaram o grupo a organizar as ideias."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+        }
+      ],
+      "audioProduction": {
+        "status": "script-ready",
+        "language": "portuguese",
+        "level": "B1",
+        "voice": "native narrator",
+        "normalSpeed": true,
+        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Ambiente no bairro», um pequeno grupo da comunidade conversa sobre resíduo, coleta e _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Ambiente no bairro, três colegas contam uma história que aconteceu em uma comunidade _____.”",
         "options": [
-          "recurso",
-          "experiência",
-          "importantes",
-          "tema"
+          "brasileira",
+          "compartilhados",
+          "colegas",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
         "options": [
-          "experiência",
-          "pessoa",
-          "importantes",
-          "comunidade"
+          "compartilhados",
+          "sempre",
+          "trabalhadores",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
         "options": [
-          "grupo",
-          "conta",
-          "melhorar",
-          "experiência"
+          "compartilhados",
+          "trabalhadores",
+          "sentiu",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
         "options": [
-          "experiência",
-          "importantes",
-          "comunidade",
-          "resume"
+          "compartilhados",
+          "colegas",
+          "pessoas",
+          "planejados"
         ]
       }
     ]
@@ -18313,39 +19043,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Mídia e informação, duas pessoas comparam suas posições. A primeira observa que fonte não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que notizia só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: verificare pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em Salvador. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «fonte», «notícia» e «verificar» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Mídia e informação, duas pessoas comparam suas posições. A primeira observa que fonte não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que notizia só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: verificare pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em Salvador. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «fonte», «notícia» e «verificar» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Mídia e informação, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em Salvador."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que fonte não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que notizia só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: verificare pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «fonte», «notícia» e «verificar» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -18356,92 +19116,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e informação, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "Salvador"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "notizia"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "considerado"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "pessoas"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "observa"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "verificare"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "isolada"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -18461,42 +19221,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e informação, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e informação, Marina e Caio visitam uma rádio comunitária em _____.”",
         "options": [
-          "posições",
+          "Salvador",
+          "participantes",
           "consequências",
-          "verificáveis",
-          "Neste"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "notizia",
-          "verificáveis",
-          "considerado"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
-          "pessoas",
-          "observa",
-          "verificare",
-          "isolada"
+          "participantes",
+          "consequências",
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -18520,39 +19280,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Pesquisa e método, duas pessoas comparam suas posições. A primeira observa que ipotesi não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que campione só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: risultato pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «ipotesi», «campione» e «risultato» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Pesquisa e método, duas pessoas comparam suas posições. A primeira observa que ipotesi não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que campione só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: risultato pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «ipotesi», «campione» e «risultato» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Pesquisa e método, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que ipotesi não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que campione só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: risultato pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «ipotesi», «campione» e «risultato» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -18563,92 +19353,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Pesquisa e método, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "questão"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "campione"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "método"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "risultato"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "produz"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -18668,42 +19458,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Pesquisa e método, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Pesquisa e método, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "verificáveis",
-          "Neste"
+          "brasileira",
+          "visitam",
+          "questão",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "campione",
-          "verificáveis",
-          "Neste"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "método",
-          "risultato",
-          "produz"
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -18727,39 +19517,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas posições. A primeira observa que diritto não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que dovere só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: principio pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «diritto», «dovere» e «principio» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas posições. A primeira observa que diritto não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que dovere só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: principio pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «diritto», «dovere» e «principio» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que diritto não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que dovere só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: principio pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «diritto», «dovere» e «principio» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -18770,11 +19590,11 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
@@ -18782,18 +19602,18 @@
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Direito"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "visitam"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
@@ -18801,22 +19621,22 @@
               },
               {
                 "id": "o2",
-                "text": "dovere"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
@@ -18824,22 +19644,22 @@
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "principio"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "produz"
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
@@ -18847,15 +19667,15 @@
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -18875,42 +19695,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Direito e responsabilidade, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Direito e responsabilidade, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
+          "brasileira",
           "responsabilidade",
-          "consequências",
-          "verificáveis"
+          "Direito",
+          "visitam"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
           "responsabilidade",
-          "dovere",
-          "consequências",
-          "verificáveis"
+          "explica",
+          "participantes",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
           "responsabilidade",
-          "consequências",
-          "principio",
-          "produz"
+          "participantes",
+          "parecer",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
           "responsabilidade",
+          "participantes",
           "consequências",
-          "verificáveis",
-          "clareza"
+          "inspirar"
         ]
       }
     ]
@@ -19651,11 +20471,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Quero praticar esta expressão: “Aprendemos: resíduo”. Você pode me ajudar?"
+        "line": "Eu quero descrever um problema ambiental e uma proposta. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+        "line": "Claro. Vamos falar passo a passo."
       }
     ],
     "reading": null,
@@ -19890,16 +20710,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Onde fica a parada”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -19931,16 +20742,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “A exposição foi interessante”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -20696,33 +21498,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "caminhos-da-cidade",
-    "title": "Caminhos da cidade: gramática",
+    "title": "Onde fica? e preposições de lugar",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 54,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Pedir e dar direções simples.",
+    "intro": "Pedir e dar direções simples.",
+    "mission": "Aprende onde fica? e preposições de lugar y úsalo en una frase sobre moverse por la ciudad con claridad.",
+    "grammar": "Use em, perto de e ao lado de para localizar lugares.",
     "phrases": [
+      "Onde fica a parada? Fica perto da praça.",
       "Onde fica a parada?"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Onde fica? e preposições de lugar",
+        "definition": "Use em, perto de e ao lado de para localizar lugares.",
+        "structure": "Onde fica a parada? Fica perto da praça.",
+        "function": "Pedir e dar direções simples.",
+        "examples": [
+          "Onde fica a parada? Fica perto da praça.",
+          "Onde fica a parada?"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Onde fica a parada? Fica perto da praça.",
           "Onde fica a parada?",
           "rua",
-          "praça",
-          "parada"
+          "praça"
         ]
       },
       {
@@ -20747,7 +21563,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Onde fica a parada?",
           "parada",
@@ -20762,33 +21578,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "arte-na-comunidade",
-    "title": "Arte na comunidade: gramática",
+    "title": "Pretérito perfeito: foi e era",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 54,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Dar opinião e contexto.",
+    "intro": "Dar opinião e contexto.",
+    "mission": "Aprende pretérito perfeito: foi e era y úsalo en una frase sobre arte local y espacios comunes.",
+    "grammar": "Use foi para um fato concluído e era para descrever.",
     "phrases": [
+      "A exposição foi interessante.",
       "A exposição foi interessante."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Pretérito perfeito: foi e era",
+        "definition": "Use foi para um fato concluído e era para descrever.",
+        "structure": "A exposição foi interessante.",
+        "function": "Dar opinião e contexto.",
+        "examples": [
+          "A exposição foi interessante.",
+          "A exposição foi interessante."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "A exposição foi interessante.",
+          "A exposição foi interessante.",
           "exposição",
-          "artista",
-          "praça"
+          "artista"
         ]
       },
       {
@@ -20813,7 +21643,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "A exposição foi interessante.",
           "praça",
@@ -21145,14 +21975,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-historias-e-memorias-reading-comprehension-5",
+        "id": "portuguese-b1-historias-e-memorias-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Marta não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Marta procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
         "options": [
-          "aprender",
-          "concreto",
-          "pesquisa",
-          "conversa"
+          "depois",
+          "também",
+          "quando",
+          "inclui"
         ]
       },
       {
@@ -21541,7 +22371,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 60,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "La escuela, amistades y proyectos",
     "intro": "La escuela, amistades y proyectos",
     "mission": "",
@@ -21552,62 +22382,62 @@
     "reading": {
       "title": "Escola e amizade",
       "parts": [
-        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
-        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
-        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+        "Luana está em Recife. Hoje aprende a falar de gostos. Encontra Rafael e diz: “Qual matéria você gosta?”. Os dois conversam com respeito e aprendem quatro palavras novas: escola, amigo, aula e tarefa.",
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
+        "No final, Luana escreve: “Qual matéria você gosta?”."
       ],
       "questions": [
-        "Onde Luana está?",
+        "Onde está Luana?",
         "Com quem Luana conversa?",
-        "O que Luana pergunta quando não entende uma palavra?",
-        "Por que Luana repete as palavras?"
+        "Qual frase Luana usa?",
+        "Por que a experiência é importante?"
       ],
-      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+      "text": "Luana está em Recife. Hoje aprende a falar de gostos. Encontra Rafael e diz: “Qual matéria você gosta?”. Os dois conversam com respeito e aprendem quatro palavras novas: escola, amigo, aula e tarefa.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Qual matéria você gosta?”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-escola-e-amizade-reading-reading-comprehension-1",
+        "id": "portuguese-a1-escola-e-amizade-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Onde Luana está?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
           "Recife",
-          "Salvador",
-          "Rio de Janeiro",
-          "Brasília"
+          "Rafael",
+          "Luana",
+          "matéria"
         ]
       },
       {
-        "id": "portuguese-a1-escola-e-amizade-reading-reading-comprehension-2",
+        "id": "portuguese-a1-escola-e-amizade-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Com quem Luana conversa?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Encontra _____ e diz: “Qual matéria você gosta?”.”",
         "options": [
+          "Recife",
           "Rafael",
-          "Pedro",
-          "Marina",
-          "Carlos"
+          "Luana",
+          "matéria"
         ]
       },
       {
         "id": "portuguese-a1-escola-e-amizade-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
         "options": [
-          "conversa",
-          "palavras",
-          "importantes",
-          "semplici"
+          "gosta",
+          "frase",
+          "Luana",
+          "curta"
         ]
       },
       {
         "id": "portuguese-a1-escola-e-amizade-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No final, Luana _____: “Qual matéria você gosta?”.”",
         "options": [
-          "repetem",
-          "exemplo",
-          "pequeno",
+          "matéria",
+          "simples",
+          "Recife",
           "escreve"
         ]
       }
@@ -21711,15 +22541,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "historias-e-memorias",
-    "title": "Histórias e memórias: gramática",
+    "title": "Mais-que-perfeito e narrativa",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 61,
     "estimatedMinutes": 10,
-    "description": "contar experiências e ligá-las ao presente",
+    "description": "Tema gramatical: Mais-que-perfeito e narrativa.",
     "intro": "contar experiências e ligá-las ao presente",
-    "mission": "contar experiências e ligá-las ao presente",
+    "mission": "Estudia Mais-que-perfeito e narrativa y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Aprendemos: memória.",
@@ -22045,7 +22875,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e mudança. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "transcript": "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: memória.», «Aprendemos: infância.» e «Aprendemos: mudança.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-historias-e-memorias-listening-listening-comprehension",
@@ -22054,138 +22884,204 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "mudança"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "colegas"
               },
               {
                 "id": "o4",
-                "text": "tema"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "pessoa"
+                "text": "sempre"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "trabalhadores"
               },
               {
                 "id": "o4",
-                "text": "comunidade"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
             "options": [
               {
                 "id": "o1",
-                "text": "grupo"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "conta"
+                "text": "trabalhadores"
               },
               {
                 "id": "o3",
-                "text": "melhorar"
+                "text": "sentiu"
               },
               {
                 "id": "o4",
-                "text": "experiência"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "importantes"
+                "text": "colegas"
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "pessoas"
               },
               {
                 "id": "o4",
-                "text": "resume"
+                "text": "planejados"
               }
             ]
           }
         ]
+      },
+      "mainTranscript": "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: memória.», «Aprendemos: infância.» e «Aprendemos: mudança.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Uma das participantes explicou que as palavras «Aprendemos: memória.», «Aprendemos: infância.» e «Aprendemos: mudança.» ajudaram o grupo a organizar as ideias."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+        }
+      ],
+      "audioProduction": {
+        "status": "script-ready",
+        "language": "portuguese",
+        "level": "B1",
+        "voice": "native narrator",
+        "normalSpeed": true,
+        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Histórias e memórias», um pequeno grupo da comunidade conversa sobre memória, infância e _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Histórias e memórias, três colegas contam uma história que aconteceu em uma comunidade _____.”",
         "options": [
-          "mudança",
-          "experiência",
-          "importantes",
-          "tema"
+          "brasileira",
+          "compartilhados",
+          "colegas",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
         "options": [
-          "experiência",
-          "pessoa",
-          "importantes",
-          "comunidade"
+          "compartilhados",
+          "sempre",
+          "trabalhadores",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
         "options": [
-          "grupo",
-          "conta",
-          "melhorar",
-          "experiência"
+          "compartilhados",
+          "trabalhadores",
+          "sentiu",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
         "options": [
-          "experiência",
-          "importantes",
-          "comunidade",
-          "resume"
+          "compartilhados",
+          "colegas",
+          "pessoas",
+          "planejados"
         ]
       }
     ]
@@ -22437,39 +23333,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas posições. A primeira observa que benessere não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que prevenzione só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: riposo pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em Fortaleza. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «bem-estar», «prevenção» e «descanso» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas posições. A primeira observa que benessere não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que prevenzione só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: riposo pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em Fortaleza. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «bem-estar», «prevenção» e «descanso» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em Fortaleza."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que benessere não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que prevenzione só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: riposo pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «bem-estar», «prevenção» e «descanso» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -22480,92 +23406,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "Fortaleza"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "Marina"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "episódio"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "prevenzione"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "comparam"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "posições"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "riposo"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "considerado"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -22585,42 +23511,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Saúde e bem-estar, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Saúde e bem-estar, Marina e Caio visitam uma unidade de saúde de bairro em _____.”",
         "options": [
-          "posições",
+          "Fortaleza",
+          "participantes",
           "consequências",
-          "verificáveis",
-          "Neste"
+          "Marina"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
-          "episódio",
-          "prevenzione",
-          "comparam",
-          "posições"
+          "participantes",
+          "explica",
+          "consequências",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "riposo",
-          "considerado"
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -22644,39 +23570,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Economia cotidiana, duas pessoas comparam suas posições. A primeira observa que bilancio não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que risparmio só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: investimento pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «bilancio», «risparmio» e «investimento» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Economia cotidiana, duas pessoas comparam suas posições. A primeira observa que bilancio não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que risparmio só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: investimento pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «bilancio», «risparmio» e «investimento» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Economia cotidiana, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que bilancio não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que risparmio só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: investimento pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «bilancio», «risparmio» e «investimento» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -22687,92 +23643,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia cotidiana, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "questão"
               },
               {
                 "id": "o4",
-                "text": "investimento"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "risparmio"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "produz"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "cotidiana"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "concretas"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "investimento"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "risparmio"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "investimento"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -22792,42 +23748,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia cotidiana, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia cotidiana, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "verificáveis",
-          "investimento"
+          "brasileira",
+          "visitam",
+          "questão",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "risparmio",
-          "produz",
-          "verificáveis"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
-          "cotidiana",
-          "concretas",
-          "investimento",
-          "risparmio"
+          "participantes",
+          "consequências",
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "investimento",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -22851,39 +23807,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas posições. A primeira observa que disuguaglianza não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que reddito só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: indicatore pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «disuguaglianza», «reddito» e «indicatore» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas posições. A primeira observa que disuguaglianza não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que reddito só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: indicatore pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «disuguaglianza», «reddito» e «indicatore» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que disuguaglianza não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que reddito só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: indicatore pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «disuguaglianza», «reddito» e «indicatore» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -22894,11 +23880,11 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
@@ -22906,18 +23892,18 @@
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o4",
-                "text": "desigualdade"
+                "text": "questão"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
@@ -22925,22 +23911,22 @@
               },
               {
                 "id": "o2",
-                "text": "reddito"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o4",
-                "text": "desigualdade"
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
@@ -22948,22 +23934,22 @@
               },
               {
                 "id": "o2",
-                "text": "pessoas"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "indicatore"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "observa"
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
@@ -22971,15 +23957,15 @@
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "desigualdade"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -22999,42 +23985,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia e desigualdade, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Economia e desigualdade, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
+          "brasileira",
           "disuguaglianza",
-          "consequências",
-          "desigualdade"
+          "visitam",
+          "questão"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
           "disuguaglianza",
-          "reddito",
-          "consequências",
-          "desigualdade"
+          "explica",
+          "participantes",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
           "disuguaglianza",
-          "pessoas",
-          "indicatore",
-          "observa"
+          "participantes",
+          "parecer",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
           "disuguaglianza",
+          "participantes",
           "consequências",
-          "desigualdade",
-          "clareza"
+          "inspirar"
         ]
       }
     ]
@@ -23775,11 +24761,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Quero praticar esta expressão: “Aprendemos: memória”. Você pode me ajudar?"
+        "line": "Eu quero contar experiências e ligá-las ao presente. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+        "line": "Claro. Vamos falar passo a passo."
       }
     ],
     "reading": null,
@@ -24014,16 +25000,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Qual matéria você gosta”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -24055,16 +25032,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Não quero incomodar os moradores”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -24820,33 +25788,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "escola-e-amizade",
-    "title": "Escola e amizade: gramática",
+    "title": "Gostar de + infinitivo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 64,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Falar de gostos e preferências.",
+    "intro": "Falar de gostos e preferências.",
+    "mission": "Aprende gostar de + infinitivo y úsalo en una frase sobre la escuela, amistades y proyectos.",
+    "grammar": "Depois de gostar de, use o verbo no infinitivo.",
     "phrases": [
+      "Eu gosto de estudar português.",
       "Qual matéria você gosta?"
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Gostar de + infinitivo",
+        "definition": "Depois de gostar de, use o verbo no infinitivo.",
+        "structure": "Eu gosto de estudar português.",
+        "function": "Falar de gostos e preferências.",
+        "examples": [
+          "Eu gosto de estudar português.",
+          "Qual matéria você gosta?"
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Eu gosto de estudar português.",
           "Qual matéria você gosta?",
           "escola",
-          "amigo",
-          "aula"
+          "amigo"
         ]
       },
       {
@@ -24871,7 +25853,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Qual matéria você gosta?",
           "aula",
@@ -24886,33 +25868,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "viajar-com-respeito",
-    "title": "Viajar com respeito: gramática",
+    "title": "Querer, gostar e preferir com respeito",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 64,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Falar de decisiones responsables.",
+    "intro": "Falar de decisiones responsables.",
+    "mission": "Aprende querer, gostar e preferir com respeito y úsalo en una frase sobre turismo responsable y comunidades.",
+    "grammar": "Use formas suaves para expressar intenção e preferência.",
     "phrases": [
+      "Não quero incomodar os moradores.",
       "Não quero incomodar os moradores."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Querer, gostar e preferir com respeito",
+        "definition": "Use formas suaves para expressar intenção e preferência.",
+        "structure": "Não quero incomodar os moradores.",
+        "function": "Falar de decisiones responsables.",
+        "examples": [
+          "Não quero incomodar os moradores.",
+          "Não quero incomodar os moradores."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Não quero incomodar os moradores.",
+          "Não quero incomodar os moradores.",
           "morador",
-          "respeito",
-          "mapa"
+          "respeito"
         ]
       },
       {
@@ -24937,7 +25933,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Não quero incomodar os moradores.",
           "mapa",
@@ -25269,14 +26265,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-projeto-coletivo-reading-comprehension-5",
+        "id": "portuguese-b1-projeto-coletivo-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Frederico não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Frederico procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
         "options": [
-          "aprender",
-          "pesquisa",
-          "concreto",
-          "ciências"
+          "depois",
+          "também",
+          "quando",
+          "inclui"
         ]
       },
       {
@@ -25665,7 +26661,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 70,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "La casa y el vecindario",
     "intro": "La casa y el vecindario",
     "mission": "",
@@ -25676,63 +26672,63 @@
     "reading": {
       "title": "Casa e vizinhança",
       "parts": [
-        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
-        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
-        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+        "Luana está em Recife. Hoje aprende a descrever lugares. Encontra Rafael e diz: “A cozinha é clara.”. Os dois conversam com respeito e aprendem quatro palavras novas: cozinha, quarto, janela e varanda.",
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
+        "No final, Luana escreve: “A cozinha é clara.”."
       ],
       "questions": [
-        "Onde Luana está?",
+        "Onde está Luana?",
         "Com quem Luana conversa?",
-        "O que Luana pergunta quando não entende uma palavra?",
-        "Por que Luana repete as palavras?"
+        "Qual frase Luana usa?",
+        "Por que a experiência é importante?"
       ],
-      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+      "text": "Luana está em Recife. Hoje aprende a descrever lugares. Encontra Rafael e diz: “A cozinha é clara.”. Os dois conversam com respeito e aprendem quatro palavras novas: cozinha, quarto, janela e varanda.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “A cozinha é clara.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-casa-e-vizinhanca-reading-reading-comprehension-1",
+        "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Onde Luana está?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
           "Recife",
-          "Salvador",
-          "Rio de Janeiro",
-          "Brasília"
+          "Rafael",
+          "Luana",
+          "cozinha"
         ]
       },
       {
-        "id": "portuguese-a1-casa-e-vizinhanca-reading-reading-comprehension-2",
+        "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Com quem Luana conversa?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Encontra _____ e diz: “A cozinha é clara.”.”",
         "options": [
+          "Recife",
           "Rafael",
-          "Pedro",
-          "Marina",
-          "Carlos"
+          "Luana",
+          "cozinha"
         ]
       },
       {
         "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
         "options": [
-          "conversa",
-          "palavras",
-          "importantes",
-          "semplici"
+          "clara",
+          "frase",
+          "Luana",
+          "curta"
         ]
       },
       {
         "id": "portuguese-a1-casa-e-vizinhanca-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No final, Luana escreve: “A _____ é clara.”.”",
         "options": [
-          "repetem",
-          "exemplo",
-          "pequeno",
-          "escreve"
+          "simples",
+          "escreve",
+          "Recife",
+          "cozinha"
         ]
       }
     ]
@@ -25835,15 +26831,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "projeto-coletivo",
-    "title": "Projeto coletivo: gramática",
+    "title": "Conectores argumentativos",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 71,
     "estimatedMinutes": 10,
-    "description": "apresentar um projeto e dividir tarefas",
+    "description": "Tema gramatical: Conectores argumentativos.",
     "intro": "apresentar um projeto e dividir tarefas",
-    "mission": "apresentar um projeto e dividir tarefas",
+    "mission": "Estudia Conectores argumentativos y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Aprendemos: projeto.",
@@ -26169,7 +27165,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e tarefa. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "transcript": "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: projeto.», «Aprendemos: pesquisa.» e «Aprendemos: tarefa.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-projeto-coletivo-listening-listening-comprehension",
@@ -26178,138 +27174,204 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "tarefa"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "Projeto"
               },
               {
                 "id": "o4",
-                "text": "comunidade"
+                "text": "colegas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "pessoa"
+                "text": "sempre"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "trabalhadores"
               },
               {
                 "id": "o4",
-                "text": "comunidade"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
             "options": [
               {
                 "id": "o1",
-                "text": "grupo"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "conta"
+                "text": "trabalhadores"
               },
               {
                 "id": "o3",
-                "text": "melhorar"
+                "text": "sentiu"
               },
               {
                 "id": "o4",
-                "text": "experiência"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "importantes"
+                "text": "Projeto"
               },
               {
                 "id": "o3",
-                "text": "comunidade"
+                "text": "colegas"
               },
               {
                 "id": "o4",
-                "text": "resume"
+                "text": "planejados"
               }
             ]
           }
         ]
+      },
+      "mainTranscript": "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: projeto.», «Aprendemos: pesquisa.» e «Aprendemos: tarefa.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Uma das participantes explicou que as palavras «Aprendemos: projeto.», «Aprendemos: pesquisa.» e «Aprendemos: tarefa.» ajudaram o grupo a organizar as ideias."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+        }
+      ],
+      "audioProduction": {
+        "status": "script-ready",
+        "language": "portuguese",
+        "level": "B1",
+        "voice": "native narrator",
+        "normalSpeed": true,
+        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Projeto coletivo», um pequeno grupo da comunidade conversa sobre projeto, pesquisa e _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Projeto coletivo, três colegas contam uma história que aconteceu em uma comunidade _____.”",
         "options": [
-          "tarefa",
-          "experiência",
-          "importantes",
-          "comunidade"
+          "brasileira",
+          "compartilhados",
+          "Projeto",
+          "colegas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
         "options": [
-          "experiência",
-          "pessoa",
-          "importantes",
-          "comunidade"
+          "compartilhados",
+          "sempre",
+          "trabalhadores",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
         "options": [
-          "grupo",
-          "conta",
-          "melhorar",
-          "experiência"
+          "compartilhados",
+          "trabalhadores",
+          "sentiu",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
         "options": [
-          "experiência",
-          "importantes",
-          "comunidade",
-          "resume"
+          "compartilhados",
+          "Projeto",
+          "colegas",
+          "planejados"
         ]
       }
     ]
@@ -26561,39 +27623,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Cultura e identidade, duas pessoas comparam suas posições. A primeira observa que tradizione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que appartenenza só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: prospettiva pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de Janeiro. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «tradição», «pertencimento» e «perspectiva» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Cultura e identidade, duas pessoas comparam suas posições. A primeira observa que tradizione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que appartenenza só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: prospettiva pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de Janeiro. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «tradição», «pertencimento» e «perspectiva» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Cultura e identidade, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de Janeiro."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que tradizione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que appartenenza só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: prospettiva pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «tradição», «pertencimento» e «perspectiva» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -26604,92 +27696,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cultura e identidade, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "Janeiro"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "appartenenza"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "pertencimento"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "concretas"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "appartenenza"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "explicado"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "propostas"
+                "text": "pertencimento"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "episódio"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "comparam"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "prospettiva"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "posições"
+                "text": "pertencimento"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "appartenenza"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "pertencimento"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -26709,42 +27801,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cultura e identidade, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cultura e identidade, Marina e Caio visitam um centro cultural de periferia no Rio de _____.”",
         "options": [
-          "posições",
+          "Janeiro",
+          "participantes",
           "consequências",
-          "appartenenza",
-          "verificáveis"
+          "pertencimento"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
-          "concretas",
-          "appartenenza",
-          "explicado",
-          "propostas"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
-        "options": [
-          "episódio",
-          "comparam",
-          "prospettiva",
-          "posições"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
-        "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "appartenenza",
-          "verificáveis",
-          "clareza"
+          "pertencimento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
+        "options": [
+          "participantes",
+          "consequências",
+          "parecer",
+          "pertencimento"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "options": [
+          "participantes",
+          "consequências",
+          "pertencimento",
+          "inspirar"
         ]
       }
     ]
@@ -26768,39 +27860,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Territórios e memória, duas pessoas comparam suas posições. A primeira observa que memoria não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que patrimonio só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: trasformazione pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «memoria», «patrimonio» e «trasformazione» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Territórios e memória, duas pessoas comparam suas posições. A primeira observa que memoria não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que patrimonio só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: trasformazione pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «memoria», «patrimonio» e «trasformazione» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Territórios e memória, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que memoria não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que patrimonio só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: trasformazione pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «memoria», «patrimonio» e «trasformazione» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -26811,38 +27933,15 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Territórios e memória, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
                 "text": "trasformazione"
-              },
-              {
-                "id": "o3",
-                "text": "consequências"
-              },
-              {
-                "id": "o4",
-                "text": "verificáveis"
-              }
-            ]
-          },
-          {
-            "id": "q2",
-            "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
-            "options": [
-              {
-                "id": "o1",
-                "text": "trasformazione"
-              },
-              {
-                "id": "o2",
-                "text": "patrimonio"
               },
               {
                 "id": "o3",
@@ -26850,37 +27949,60 @@
               },
               {
                 "id": "o4",
-                "text": "pessoas"
+                "text": "visitam"
+              }
+            ]
+          },
+          {
+            "id": "q2",
+            "type": "mcq",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+            "options": [
+              {
+                "id": "o1",
+                "text": "trasformazione"
+              },
+              {
+                "id": "o2",
+                "text": "explica"
+              },
+              {
+                "id": "o3",
+                "text": "participantes"
+              },
+              {
+                "id": "o4",
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Territórios"
-              },
-              {
-                "id": "o2",
-                "text": "considerado"
-              },
-              {
-                "id": "o3",
                 "text": "trasformazione"
               },
               {
+                "id": "o2",
+                "text": "participantes"
+              },
+              {
+                "id": "o3",
+                "text": "parecer"
+              },
+              {
                 "id": "o4",
-                "text": "dificuldade"
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
@@ -26888,15 +28010,15 @@
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -26916,42 +28038,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Territórios e memória, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Territórios e memória, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
+          "brasileira",
           "trasformazione",
-          "consequências",
-          "verificáveis"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
-        "options": [
-          "trasformazione",
-          "patrimonio",
           "memória",
-          "pessoas"
+          "visitam"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
-          "Territórios",
-          "considerado",
           "trasformazione",
-          "dificuldade"
+          "explica",
+          "participantes",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
           "trasformazione",
+          "participantes",
+          "parecer",
+          "consequências"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "options": [
+          "trasformazione",
+          "participantes",
           "consequências",
-          "verificáveis",
-          "clareza"
+          "inspirar"
         ]
       }
     ]
@@ -26975,39 +28097,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas posições. A primeira observa que scenario não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que risorsa só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: mitigare pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «scenario», «recurso» e «mitigare» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas posições. A primeira observa que scenario não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que risorsa só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: mitigare pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «scenario», «recurso» e «mitigare» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que scenario não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que risorsa só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: mitigare pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «scenario», «recurso» e «mitigare» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -27018,92 +28170,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "questão"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "risorsa"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "considerado"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "mitigare"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -27123,42 +28275,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e futuro, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ambiente e futuro, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "verificáveis",
-          "Neste"
+          "brasileira",
+          "visitam",
+          "questão",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "risorsa",
-          "verificáveis",
-          "considerado"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "mitigare",
-          "Neste"
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -27899,11 +29051,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Quero praticar esta expressão: “Aprendemos: projeto”. Você pode me ajudar?"
+        "line": "Eu quero apresentar um projeto e dividir tarefas. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+        "line": "Claro. Vamos falar passo a passo."
       }
     ],
     "reading": null,
@@ -28138,16 +29290,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “A cozinha é clara”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -28179,16 +29322,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Quando era criança, eu nadava”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -28944,33 +30078,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "casa-e-vizinhanca",
-    "title": "Casa e vizinhança: gramática",
+    "title": "Adjetivos e concordância",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 74,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Descrever a casa e o bairro.",
+    "intro": "Descrever a casa e o bairro.",
+    "mission": "Aprende adjetivos e concordância y úsalo en una frase sobre la casa y el vecindario.",
+    "grammar": "O adjetivo concorda com o substantivo em gênero e número.",
     "phrases": [
+      "A cozinha é clara. As janelas são claras.",
       "A cozinha é clara."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Adjetivos e concordância",
+        "definition": "O adjetivo concorda com o substantivo em gênero e número.",
+        "structure": "A cozinha é clara. As janelas são claras.",
+        "function": "Descrever a casa e o bairro.",
+        "examples": [
+          "A cozinha é clara. As janelas são claras.",
+          "A cozinha é clara."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "A cozinha é clara. As janelas são claras.",
           "A cozinha é clara.",
           "cozinha",
-          "quarto",
-          "janela"
+          "quarto"
         ]
       },
       {
@@ -28995,7 +30143,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "A cozinha é clara.",
           "janela",
@@ -29010,33 +30158,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "esporte-e-lazer",
-    "title": "Esporte e lazer: gramática",
+    "title": "Pretérito imperfeito",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 74,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Contar hábitos do passado.",
+    "intro": "Contar hábitos do passado.",
+    "mission": "Aprende pretérito imperfeito y úsalo en una frase sobre aficiones y actividades al aire libre.",
+    "grammar": "Use o imperfeito para hábitos e descrições no passado.",
     "phrases": [
+      "Quando era criança, eu nadava.",
       "Quando era criança, eu nadava."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Pretérito imperfeito",
+        "definition": "Use o imperfeito para hábitos e descrições no passado.",
+        "structure": "Quando era criança, eu nadava.",
+        "function": "Contar hábitos do passado.",
+        "examples": [
+          "Quando era criança, eu nadava.",
+          "Quando era criança, eu nadava."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Quando era criança, eu nadava.",
+          "Quando era criança, eu nadava.",
           "natação",
-          "corrida",
-          "equipe"
+          "corrida"
         ]
       },
       {
@@ -29061,7 +30223,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Quando era criança, eu nadava.",
           "equipe",
@@ -29393,14 +30555,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-tecnologia-no-dia-a-dia-reading-comprehension-5",
+        "id": "portuguese-b1-tecnologia-no-dia-a-dia-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Clara não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Clara procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
         "options": [
-          "aprender",
-          "concreto",
-          "pesquisa",
-          "conversa"
+          "depois",
+          "também",
+          "quando",
+          "inclui"
         ]
       },
       {
@@ -29789,7 +30951,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 80,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "El clima y las estaciones locales",
     "intro": "El clima y las estaciones locales",
     "mission": "",
@@ -29800,62 +30962,62 @@
     "reading": {
       "title": "Tempo no Recife",
       "parts": [
-        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
-        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
-        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+        "Luana está em Recife. Hoje aprende a falar do tempo. Encontra Rafael e diz: “Hoje está quente.”. Os dois conversam com respeito e aprendem quatro palavras novas: sol, chuva, quente e vento.",
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
+        "No final, Luana escreve: “Hoje está quente.”."
       ],
       "questions": [
-        "Onde Luana está?",
+        "Onde está Luana?",
         "Com quem Luana conversa?",
-        "O que Luana pergunta quando não entende uma palavra?",
-        "Por que Luana repete as palavras?"
+        "Qual frase Luana usa?",
+        "Por que a experiência é importante?"
       ],
-      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+      "text": "Luana está em Recife. Hoje aprende a falar do tempo. Encontra Rafael e diz: “Hoje está quente.”. Os dois conversam com respeito e aprendem quatro palavras novas: sol, chuva, quente e vento.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Hoje está quente.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-tempo-no-recife-reading-reading-comprehension-1",
+        "id": "portuguese-a1-tempo-no-recife-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Onde Luana está?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
           "Recife",
-          "Salvador",
-          "Rio de Janeiro",
-          "Brasília"
+          "Rafael",
+          "quente",
+          "Luana"
         ]
       },
       {
-        "id": "portuguese-a1-tempo-no-recife-reading-reading-comprehension-2",
+        "id": "portuguese-a1-tempo-no-recife-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Com quem Luana conversa?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Encontra _____ e diz: “Hoje está quente.”.”",
         "options": [
+          "Recife",
           "Rafael",
-          "Pedro",
-          "Marina",
-          "Carlos"
+          "quente",
+          "Luana"
         ]
       },
       {
         "id": "portuguese-a1-tempo-no-recife-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
         "options": [
-          "conversa",
-          "palavras",
-          "importantes",
-          "semplici"
+          "frase",
+          "curta",
+          "Luana",
+          "final"
         ]
       },
       {
         "id": "portuguese-a1-tempo-no-recife-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No final, Luana _____: “Hoje está quente.”.”",
         "options": [
-          "repetem",
-          "exemplo",
-          "pequeno",
+          "simples",
+          "Recife",
+          "Encontra",
           "escreve"
         ]
       }
@@ -29959,15 +31121,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "tecnologia-no-dia-a-dia",
-    "title": "Tecnologia no dia a dia: gramática",
+    "title": "Subjuntivo e opinião",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 81,
     "estimatedMinutes": 10,
-    "description": "avaliar usos da tecnologia com argumentos",
+    "description": "Tema gramatical: Subjuntivo e opinião.",
     "intro": "avaliar usos da tecnologia com argumentos",
-    "mission": "avaliar usos da tecnologia com argumentos",
+    "mission": "Estudia Subjuntivo e opinião y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Aprendemos: tecnologia.",
@@ -30293,7 +31455,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e vantagem. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "transcript": "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: tecnologia.», «Aprendemos: aparelho.» e «Aprendemos: vantagem.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-tecnologia-no-dia-a-dia-listening-listening-comprehension",
@@ -30302,138 +31464,204 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "vantagem"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "grupo"
+                "text": "compartilhados"
               },
               {
                 "id": "o3",
-                "text": "conta"
+                "text": "colegas"
               },
               {
                 "id": "o4",
-                "text": "experiência"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "pessoa"
+                "text": "sempre"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "trabalhadores"
               },
               {
                 "id": "o4",
-                "text": "Tecnologia"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
             "options": [
               {
                 "id": "o1",
-                "text": "grupo"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "conta"
+                "text": "trabalhadores"
               },
               {
                 "id": "o3",
-                "text": "melhorar"
+                "text": "sentiu"
               },
               {
                 "id": "o4",
-                "text": "experiência"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "importantes"
+                "text": "colegas"
               },
               {
                 "id": "o3",
-                "text": "Tecnologia"
+                "text": "pessoas"
               },
               {
                 "id": "o4",
-                "text": "resume"
+                "text": "planejados"
               }
             ]
           }
         ]
+      },
+      "mainTranscript": "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: tecnologia.», «Aprendemos: aparelho.» e «Aprendemos: vantagem.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Uma das participantes explicou que as palavras «Aprendemos: tecnologia.», «Aprendemos: aparelho.» e «Aprendemos: vantagem.» ajudaram o grupo a organizar as ideias."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+        }
+      ],
+      "audioProduction": {
+        "status": "script-ready",
+        "language": "portuguese",
+        "level": "B1",
+        "voice": "native narrator",
+        "normalSpeed": true,
+        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Tecnologia no dia a dia», um pequeno grupo da comunidade conversa sobre tecnologia, aparelho e _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Tecnologia no dia a dia, três colegas contam uma história que aconteceu em uma comunidade _____.”",
         "options": [
-          "vantagem",
-          "grupo",
-          "conta",
-          "experiência"
+          "brasileira",
+          "compartilhados",
+          "colegas",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
         "options": [
-          "experiência",
-          "pessoa",
-          "importantes",
-          "Tecnologia"
+          "compartilhados",
+          "sempre",
+          "trabalhadores",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
         "options": [
-          "grupo",
-          "conta",
-          "melhorar",
-          "experiência"
+          "compartilhados",
+          "trabalhadores",
+          "sentiu",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
         "options": [
-          "experiência",
-          "importantes",
-          "Tecnologia",
-          "resume"
+          "compartilhados",
+          "colegas",
+          "pessoas",
+          "planejados"
         ]
       }
     ]
@@ -30685,39 +31913,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas posições. A primeira observa que dispositivo não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que dati só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: proteggere pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em Brasília. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «dispositivo», «dados» e «proteger» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas posições. A primeira observa que dispositivo não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que dati só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: proteggere pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em Brasília. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «dispositivo», «dados» e «proteger» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em Brasília."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que dispositivo não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que dati só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: proteggere pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «dispositivo», «dados» e «proteger» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -30728,92 +31986,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "Brasília"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que dati só é útil quando é _____ com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "explicado"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "produz"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "pessoas"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "observa"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "proteggere"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "isolada"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "privacidade"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -30833,42 +32091,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Tecnologia e privacidade, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Tecnologia e privacidade, Marina e Caio visitam uma oficina de inclusão digital em _____.”",
         "options": [
-          "posições",
+          "Brasília",
+          "participantes",
           "consequências",
-          "verificáveis",
-          "Neste"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que dati só é útil quando é _____ com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "explicado",
-          "produz",
-          "verificáveis"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
-          "pessoas",
-          "observa",
-          "proteggere",
-          "isolada"
+          "participantes",
+          "consequências",
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "privacidade",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -30892,39 +32150,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Comunicação e registro, duas pessoas comparam suas posições. A primeira observa que registro não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que destinatario só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: intenzione pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «registro», «destinatario» e «intenzione» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Comunicação e registro, duas pessoas comparam suas posições. A primeira observa que registro não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que destinatario só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: intenzione pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «registro», «destinatario» e «intenzione» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Comunicação e registro, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que registro não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que destinatario só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: intenzione pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «registro», «destinatario» e «intenzione» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -30935,92 +32223,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Comunicação e registro, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o3",
-                "text": "destinatario"
+                "text": "questão"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "concretas"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "destinatario"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "explicado"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "propostas"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "pessoas"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "observa"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "intenzione"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "isolada"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "destinatario"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -31040,42 +32328,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Comunicação e registro, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Comunicação e registro, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
+          "brasileira",
+          "visitam",
+          "questão",
+          "pessoas"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "destinatario",
-          "verificáveis"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
-          "concretas",
-          "destinatario",
-          "explicado",
-          "propostas"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
-        "options": [
-          "pessoas",
-          "observa",
-          "intenzione",
-          "isolada"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
-        "options": [
+          "participantes",
           "consequências",
-          "destinatario",
-          "verificáveis",
-          "clareza"
+          "parecer",
+          "necessidades"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "options": [
+          "participantes",
+          "consequências",
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -31099,39 +32387,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Mídia e discurso, duas pessoas comparam suas posições. A primeira observa que cornice não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que narrazione só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: selezionare pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «cornice», «narrazione» e «selezionare» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Mídia e discurso, duas pessoas comparam suas posições. A primeira observa que cornice não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que narrazione só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: selezionare pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «cornice», «narrazione» e «selezionare» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Mídia e discurso, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que cornice não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que narrazione só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: selezionare pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «cornice», «narrazione» e «selezionare» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -31142,92 +32460,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e discurso, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "questão"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "pessoas"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "narrazione"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "observa"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "cornice"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "episódio"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "discurso"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "selezionare"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "comparam"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -31247,42 +32565,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e discurso, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mídia e discurso, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
+          "brasileira",
+          "visitam",
+          "questão",
+          "pessoas"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
+        "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "verificáveis",
-          "Neste"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
-          "pessoas",
-          "narrazione",
-          "observa",
-          "cornice"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
-        "options": [
-          "episódio",
-          "discurso",
-          "selezionare",
-          "comparam"
-        ]
-      },
-      {
-        "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
-        "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "parecer",
+          "necessidades"
+        ]
+      },
+      {
+        "type": "mcq",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
+        "options": [
+          "participantes",
+          "consequências",
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -32023,11 +33341,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Quero praticar esta expressão: “Aprendemos: tecnologia”. Você pode me ajudar?"
+        "line": "Eu quero avaliar usos da tecnologia com argumentos. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+        "line": "Claro. Vamos falar passo a passo."
       }
     ],
     "reading": null,
@@ -32262,16 +33580,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Hoje está quente”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -32303,16 +33612,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Minha garganta está doendo”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -33068,33 +34368,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "tempo-no-recife",
-    "title": "Tempo no Recife: gramática",
+    "title": "Fazer e estar para o tempo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 84,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Falar sobre o clima.",
+    "intro": "Falar sobre o clima.",
+    "mission": "Aprende fazer e estar para o tempo y úsalo en una frase sobre el clima y las estaciones locales.",
+    "grammar": "Use fazer para temperatura e estar para condições do tempo.",
     "phrases": [
+      "Hoje faz calor. O céu está nublado.",
       "Hoje está quente."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Fazer e estar para o tempo",
+        "definition": "Use fazer para temperatura e estar para condições do tempo.",
+        "structure": "Hoje faz calor. O céu está nublado.",
+        "function": "Falar sobre o clima.",
+        "examples": [
+          "Hoje faz calor. O céu está nublado.",
+          "Hoje está quente."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Hoje faz calor. O céu está nublado.",
           "Hoje está quente.",
           "sol",
-          "chuva",
-          "quente"
+          "chuva"
         ]
       },
       {
@@ -33119,7 +34433,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Hoje está quente.",
           "quente",
@@ -33134,33 +34448,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "saude-e-bem-estar",
-    "title": "Saúde e bem-estar: gramática",
+    "title": "Estar + gerúndio",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 84,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Descrever como você se sente agora.",
+    "intro": "Descrever como você se sente agora.",
+    "mission": "Aprende estar + gerúndio y úsalo en una frase sobre farmacia y cuidado cotidiano.",
+    "grammar": "Use estar + gerúndio para uma ação em andamento.",
     "phrases": [
+      "Minha garganta está doendo.",
       "Minha garganta está doendo."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Estar + gerúndio",
+        "definition": "Use estar + gerúndio para uma ação em andamento.",
+        "structure": "Minha garganta está doendo.",
+        "function": "Descrever como você se sente agora.",
+        "examples": [
+          "Minha garganta está doendo.",
+          "Minha garganta está doendo."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Minha garganta está doendo.",
+          "Minha garganta está doendo.",
           "farmácia",
-          "dor",
-          "descanso"
+          "dor"
         ]
       },
       {
@@ -33185,7 +34513,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Minha garganta está doendo.",
           "descanso",
@@ -33517,14 +34845,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-cidade-e-mobilidade-reading-comprehension-5",
+        "id": "portuguese-b1-cidade-e-mobilidade-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Davi não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Davi procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
         "options": [
-          "aprender",
-          "melhorar",
-          "concreto",
-          "pesquisa"
+          "depois",
+          "também",
+          "quando",
+          "inclui"
         ]
       },
       {
@@ -33913,7 +35241,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 90,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Una actividad cultural comunitaria",
     "intro": "Una actividad cultural comunitaria",
     "mission": "",
@@ -33924,62 +35252,62 @@
     "reading": {
       "title": "Uma roda cultural",
       "parts": [
-        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
-        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
-        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+        "Luana está em Recife. Hoje aprende a convidar alguém. Encontra Rafael e diz: “Vamos à roda no sábado.”. Os dois conversam com respeito e aprendem quatro palavras novas: roda, música, bairro e sábado.",
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
+        "No final, Luana escreve: “Vamos à roda no sábado.”."
       ],
       "questions": [
-        "Onde Luana está?",
+        "Onde está Luana?",
         "Com quem Luana conversa?",
-        "O que Luana pergunta quando não entende uma palavra?",
-        "Por que Luana repete as palavras?"
+        "Qual frase Luana usa?",
+        "Por que a experiência é importante?"
       ],
-      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+      "text": "Luana está em Recife. Hoje aprende a convidar alguém. Encontra Rafael e diz: “Vamos à roda no sábado.”. Os dois conversam com respeito e aprendem quatro palavras novas: roda, música, bairro e sábado.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Vamos à roda no sábado.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-uma-roda-cultural-reading-reading-comprehension-1",
+        "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Onde Luana está?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
           "Recife",
-          "Salvador",
-          "Rio de Janeiro",
-          "Brasília"
+          "Rafael",
+          "sábado",
+          "Luana"
         ]
       },
       {
-        "id": "portuguese-a1-uma-roda-cultural-reading-reading-comprehension-2",
+        "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Com quem Luana conversa?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Encontra _____ e diz: “Vamos à roda no sábado.”.”",
         "options": [
+          "Recife",
           "Rafael",
-          "Pedro",
-          "Marina",
-          "Carlos"
+          "sábado",
+          "Luana"
         ]
       },
       {
         "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
         "options": [
-          "conversa",
-          "palavras",
-          "importantes",
-          "semplici"
+          "Vamos",
+          "frase",
+          "Luana",
+          "curta"
         ]
       },
       {
         "id": "portuguese-a1-uma-roda-cultural-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No final, Luana _____: “Vamos à roda no sábado.”.”",
         "options": [
-          "repetem",
-          "exemplo",
-          "pequeno",
+          "simples",
+          "Recife",
+          "Encontra",
           "escreve"
         ]
       }
@@ -34083,15 +35411,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "cidade-e-mobilidade",
-    "title": "Cidade e mobilidade: gramática",
+    "title": "Comparação e consequência",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 91,
     "estimatedMinutes": 10,
-    "description": "comparar opções de mobilidade urbana",
+    "description": "Tema gramatical: Comparação e consequência.",
     "intro": "comparar opções de mobilidade urbana",
-    "mission": "comparar opções de mobilidade urbana",
+    "mission": "Estudia Comparação e consequência y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Aprendemos: transporte.",
@@ -34417,7 +35745,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e trânsito. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "transcript": "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: transporte.», «Aprendemos: caminho.» e «Aprendemos: trânsito.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-cidade-e-mobilidade-listening-listening-comprehension",
@@ -34426,138 +35754,204 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "trânsito"
+                "text": "Paulo"
               },
               {
                 "id": "o2",
-                "text": "grupo"
+                "text": "compartilhados"
               },
               {
                 "id": "o3",
-                "text": "conta"
+                "text": "trabalhadores"
               },
               {
                 "id": "o4",
-                "text": "experiência"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "pessoa"
+                "text": "sempre"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "trabalhadores"
               },
               {
                 "id": "o4",
-                "text": "mobilidade"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
             "options": [
               {
                 "id": "o1",
-                "text": "grupo"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "conta"
+                "text": "trabalhadores"
               },
               {
                 "id": "o3",
-                "text": "melhorar"
+                "text": "sentiu"
               },
               {
                 "id": "o4",
-                "text": "experiência"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "experiência"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "importantes"
+                "text": "colegas"
               },
               {
                 "id": "o3",
-                "text": "mobilidade"
+                "text": "pessoas"
               },
               {
                 "id": "o4",
-                "text": "resume"
+                "text": "planejados"
               }
             ]
           }
         ]
+      },
+      "mainTranscript": "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: transporte.», «Aprendemos: caminho.» e «Aprendemos: trânsito.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São Paulo."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Uma das participantes explicou que as palavras «Aprendemos: transporte.», «Aprendemos: caminho.» e «Aprendemos: trânsito.» ajudaram o grupo a organizar as ideias."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+        }
+      ],
+      "audioProduction": {
+        "status": "script-ready",
+        "language": "portuguese",
+        "level": "B1",
+        "voice": "native narrator",
+        "normalSpeed": true,
+        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Cidade e mobilidade», um pequeno grupo da comunidade conversa sobre transporte, caminho e _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Cidade e mobilidade, três colegas contam uma história que aconteceu em um grupo de usuários de ônibus em São _____.”",
         "options": [
-          "trânsito",
-          "grupo",
-          "conta",
-          "experiência"
+          "Paulo",
+          "compartilhados",
+          "trabalhadores",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
         "options": [
-          "experiência",
-          "pessoa",
-          "importantes",
-          "mobilidade"
+          "compartilhados",
+          "sempre",
+          "trabalhadores",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
         "options": [
-          "grupo",
-          "conta",
-          "melhorar",
-          "experiência"
+          "compartilhados",
+          "trabalhadores",
+          "sentiu",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
         "options": [
-          "experiência",
-          "importantes",
-          "mobilidade",
-          "resume"
+          "compartilhados",
+          "colegas",
+          "pessoas",
+          "planejados"
         ]
       }
     ]
@@ -34809,39 +36203,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Viagens conscientes, duas pessoas comparam suas posições. A primeira observa que itinerario não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que alloggio só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: imprevisto pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na Bahia. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «roteiro», «hospedagem» e «imprevisto» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Viagens conscientes, duas pessoas comparam suas posições. A primeira observa que itinerario não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que alloggio só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: imprevisto pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na Bahia. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «roteiro», «hospedagem» e «imprevisto» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Viagens conscientes, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na Bahia."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que itinerario não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que alloggio só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: imprevisto pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «roteiro», «hospedagem» e «imprevisto» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -34852,92 +36276,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Viagens conscientes, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "Bahia"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "alloggio"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "Viagens"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "pessoas"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "imprevisto"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "observa"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "conscientes"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -34957,42 +36381,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Viagens conscientes, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Viagens conscientes, Marina e Caio visitam uma iniciativa de turismo comunitário na _____.”",
         "options": [
-          "posições",
+          "Bahia",
+          "participantes",
           "consequências",
-          "verificáveis",
-          "Neste"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "alloggio",
-          "verificáveis",
-          "Neste"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
-          "Viagens",
-          "pessoas",
-          "imprevisto",
-          "observa"
+          "participantes",
+          "consequências",
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "conscientes",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -35016,39 +36440,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas posições. A primeira observa que fenomeno não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que evidenza só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: modello pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «fenomeno», «evidenza» e «modello» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas posições. A primeira observa que fenomeno não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que evidenza só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: modello pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «fenomeno», «evidenza» e «modello» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que fenomeno não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que evidenza só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: modello pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «fenomeno», «evidenza» e «modello» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -35059,92 +36513,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Ciência"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "visitam"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "questão"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "evidenza"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "modello"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "considerado"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -35164,42 +36618,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e divulgação, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e divulgação, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "verificáveis",
-          "Neste"
+          "brasileira",
+          "Ciência",
+          "visitam",
+          "questão"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "evidenza",
-          "verificáveis",
-          "Neste"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "modello",
-          "considerado"
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -35223,39 +36677,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas posições. A primeira observa que metodo não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que limite só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: replicare pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «metodo», «limite» e «replicare» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas posições. A primeira observa que metodo não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que limite só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: replicare pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «metodo», «limite» e «replicare» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que metodo não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que limite só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: replicare pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «metodo», «limite» e «replicare» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -35266,11 +36750,11 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
@@ -35278,18 +36762,18 @@
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "Ciência"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "visitam"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
@@ -35297,22 +36781,22 @@
               },
               {
                 "id": "o2",
-                "text": "limite"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
@@ -35320,22 +36804,22 @@
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "replicare"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "metodo"
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
@@ -35343,15 +36827,15 @@
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -35371,42 +36855,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e responsabilidade, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Ciência e responsabilidade, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
+          "brasileira",
           "responsabilidade",
-          "consequências",
-          "verificáveis"
+          "Ciência",
+          "visitam"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
           "responsabilidade",
-          "limite",
-          "consequências",
-          "verificáveis"
+          "explica",
+          "participantes",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
           "responsabilidade",
-          "consequências",
-          "replicare",
-          "metodo"
+          "participantes",
+          "parecer",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
           "responsabilidade",
+          "participantes",
           "consequências",
-          "verificáveis",
-          "clareza"
+          "inspirar"
         ]
       }
     ]
@@ -36147,11 +37631,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Quero praticar esta expressão: “Aprendemos: transporte”. Você pode me ajudar?"
+        "line": "Eu quero comparar opções de mobilidade urbana. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+        "line": "Claro. Vamos falar passo a passo."
       }
     ],
     "reading": null,
@@ -36386,16 +37870,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Vamos à roda no sábado”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -36427,16 +37902,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “A família chegou há muitos anos”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -37192,33 +38658,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "uma-roda-cultural",
-    "title": "Uma roda cultural: gramática",
+    "title": "Ir + a / para",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 94,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Convidar alguém e combinar um encontro.",
+    "intro": "Convidar alguém e combinar um encontro.",
+    "mission": "Aprende ir + a / para y úsalo en una frase sobre una actividad cultural comunitaria.",
+    "grammar": "Use ir para indicar movimento e destino.",
     "phrases": [
+      "Vamos à roda no sábado.",
       "Vamos à roda no sábado."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Ir + a / para",
+        "definition": "Use ir para indicar movimento e destino.",
+        "structure": "Vamos à roda no sábado.",
+        "function": "Convidar alguém e combinar um encontro.",
+        "examples": [
+          "Vamos à roda no sábado.",
+          "Vamos à roda no sábado."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Vamos à roda no sábado.",
+          "Vamos à roda no sábado.",
           "roda",
-          "música",
-          "bairro"
+          "música"
         ]
       },
       {
@@ -37243,7 +38723,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Vamos à roda no sábado.",
           "bairro",
@@ -37258,33 +38738,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "historias-de-origem",
-    "title": "Histórias de origem: gramática",
+    "title": "Há + tempo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 94,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Contar histórias familiares.",
+    "intro": "Contar histórias familiares.",
+    "mission": "Aprende há + tempo y úsalo en una frase sobre brasil plural: orígenes y familias.",
+    "grammar": "Use há para dizer há quanto tempo algo aconteceu.",
     "phrases": [
+      "A família chegou há muitos anos.",
       "A família chegou há muitos anos."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Há + tempo",
+        "definition": "Use há para dizer há quanto tempo algo aconteceu.",
+        "structure": "A família chegou há muitos anos.",
+        "function": "Contar histórias familiares.",
+        "examples": [
+          "A família chegou há muitos anos.",
+          "A família chegou há muitos anos."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "A família chegou há muitos anos.",
+          "A família chegou há muitos anos.",
           "origem",
-          "chegar",
-          "família"
+          "chegar"
         ]
       },
       {
@@ -37309,7 +38803,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "A família chegou há muitos anos.",
           "família",
@@ -37641,14 +39135,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-planos-para-o-futuro-reading-comprehension-5",
+        "id": "portuguese-b1-planos-para-o-futuro-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Nádia não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Nádia procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
         "options": [
-          "aprender",
-          "escolher",
-          "concreto",
-          "pesquisa"
+          "futuro",
+          "depois",
+          "centro",
+          "inclui"
         ]
       },
       {
@@ -38037,7 +39531,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 100,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Un trayecto y una tarjeta de transporte",
     "intro": "Un trayecto y una tarjeta de transporte",
     "mission": "",
@@ -38048,62 +39542,62 @@
     "reading": {
       "title": "De ônibus",
       "parts": [
-        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
-        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
-        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+        "Luana está em Recife. Hoje aprende a usar transporte. Encontra Rafael e diz: “Um bilhete para o centro.”. Os dois conversam com respeito e aprendem quatro palavras novas: ônibus, bilhete, ponto e viagem.",
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
+        "No final, Luana escreve: “Um bilhete para o centro.”."
       ],
       "questions": [
-        "Onde Luana está?",
+        "Onde está Luana?",
         "Com quem Luana conversa?",
-        "O que Luana pergunta quando não entende uma palavra?",
-        "Por que Luana repete as palavras?"
+        "Qual frase Luana usa?",
+        "Por que a experiência é importante?"
       ],
-      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+      "text": "Luana está em Recife. Hoje aprende a usar transporte. Encontra Rafael e diz: “Um bilhete para o centro.”. Os dois conversam com respeito e aprendem quatro palavras novas: ônibus, bilhete, ponto e viagem.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Um bilhete para o centro.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-de-onibus-reading-reading-comprehension-1",
+        "id": "portuguese-a1-de-onibus-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Onde Luana está?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
           "Recife",
-          "Salvador",
-          "Rio de Janeiro",
-          "Brasília"
+          "Rafael",
+          "centro",
+          "Luana"
         ]
       },
       {
-        "id": "portuguese-a1-de-onibus-reading-reading-comprehension-2",
+        "id": "portuguese-a1-de-onibus-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Com quem Luana conversa?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Encontra _____ e diz: “Um bilhete para o centro.”.”",
         "options": [
+          "Recife",
           "Rafael",
-          "Pedro",
-          "Marina",
-          "Carlos"
+          "centro",
+          "Luana"
         ]
       },
       {
         "id": "portuguese-a1-de-onibus-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
         "options": [
-          "conversa",
-          "palavras",
-          "importantes",
-          "semplici"
+          "frase",
+          "curta",
+          "Luana",
+          "final"
         ]
       },
       {
         "id": "portuguese-a1-de-onibus-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No final, Luana _____: “Um bilhete para o centro.”.”",
         "options": [
-          "repetem",
-          "exemplo",
-          "pequeno",
+          "bilhete",
+          "simples",
+          "Recife",
           "escreve"
         ]
       }
@@ -38207,15 +39701,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "planos-para-o-futuro",
-    "title": "Planos para o futuro: gramática",
+    "title": "Futuro do subjuntivo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 101,
     "estimatedMinutes": 10,
-    "description": "falar de metas e possibilidades futuras",
+    "description": "Tema gramatical: Futuro do subjuntivo.",
     "intro": "falar de metas e possibilidades futuras",
-    "mission": "falar de metas e possibilidades futuras",
+    "mission": "Estudia Futuro do subjuntivo y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Aprendemos: futuro.",
@@ -38541,7 +40035,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e oportunidade. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "transcript": "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: futuro.», «Aprendemos: objetivo.» e «Aprendemos: oportunidade.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-planos-para-o-futuro-listening-listening-comprehension",
@@ -38550,138 +40044,204 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "oportunidade"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "colaborar"
+                "text": "compartilhados"
               },
               {
                 "id": "o3",
-                "text": "cotidiana"
+                "text": "colegas"
               },
               {
                 "id": "o4",
-                "text": "comunidade"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "oportunidade"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "pessoa"
+                "text": "sempre"
               },
               {
                 "id": "o3",
-                "text": "experiência"
+                "text": "trabalhadores"
               },
               {
                 "id": "o4",
-                "text": "importantes"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
             "options": [
               {
                 "id": "o1",
-                "text": "oportunidade"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "grupo"
+                "text": "trabalhadores"
               },
               {
                 "id": "o3",
-                "text": "melhorar"
+                "text": "sentiu"
               },
               {
                 "id": "o4",
-                "text": "conta"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "oportunidade"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "experiência"
+                "text": "colegas"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "pessoas"
               },
               {
                 "id": "o4",
-                "text": "resume"
+                "text": "planejados"
               }
             ]
           }
         ]
+      },
+      "mainTranscript": "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: futuro.», «Aprendemos: objetivo.» e «Aprendemos: oportunidade.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Uma das participantes explicou que as palavras «Aprendemos: futuro.», «Aprendemos: objetivo.» e «Aprendemos: oportunidade.» ajudaram o grupo a organizar as ideias."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+        }
+      ],
+      "audioProduction": {
+        "status": "script-ready",
+        "language": "portuguese",
+        "level": "B1",
+        "voice": "native narrator",
+        "normalSpeed": true,
+        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Planos para o futuro», um pequeno grupo da comunidade conversa sobre futuro, objetivo e _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Planos para o futuro, três colegas contam uma história que aconteceu em uma comunidade _____.”",
         "options": [
-          "oportunidade",
-          "colaborar",
-          "cotidiana",
-          "comunidade"
+          "brasileira",
+          "compartilhados",
+          "colegas",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
         "options": [
-          "oportunidade",
-          "pessoa",
-          "experiência",
-          "importantes"
+          "compartilhados",
+          "sempre",
+          "trabalhadores",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
         "options": [
-          "oportunidade",
-          "grupo",
-          "melhorar",
-          "conta"
+          "compartilhados",
+          "trabalhadores",
+          "sentiu",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
         "options": [
-          "oportunidade",
-          "experiência",
-          "importantes",
-          "resume"
+          "compartilhados",
+          "colegas",
+          "pessoas",
+          "planejados"
         ]
       }
     ]
@@ -38933,39 +40493,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Relações e mediação, duas pessoas comparam suas posições. A primeira observa que equivoco não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que ascoltare só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: chiarire pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto Alegre. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «mal-entendido», «escuta» e «esclarecer» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Relações e mediação, duas pessoas comparam suas posições. A primeira observa que equivoco não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que ascoltare só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: chiarire pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto Alegre. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «mal-entendido», «escuta» e «esclarecer» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Relações e mediação, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto Alegre."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que equivoco não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que ascoltare só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: chiarire pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «mal-entendido», «escuta» e «esclarecer» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -38976,92 +40566,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Relações e mediação, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "Alegre"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "mal-entendido"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "ascoltare"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "produz"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "mal-entendido"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "chiarire"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "mal-entendido"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "mal-entendido"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -39081,42 +40671,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Relações e mediação, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Relações e mediação, Marina e Caio visitam uma escola pública em Porto _____.”",
         "options": [
-          "posições",
+          "Alegre",
+          "participantes",
           "consequências",
-          "verificáveis",
-          "Neste"
+          "mal-entendido"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "ascoltare",
-          "produz",
-          "verificáveis"
+          "mal-entendido"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "chiarire",
-          "Neste"
+          "parecer",
+          "mal-entendido"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "mal-entendido",
+          "inspirar"
         ]
       }
     ]
@@ -39140,39 +40730,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Conflito e negociação, duas pessoas comparam suas posições. A primeira observa que interesse não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que compromesso só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: vincolo pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «interesse», «compromesso» e «vincolo» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Conflito e negociação, duas pessoas comparam suas posições. A primeira observa que interesse não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que compromesso só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: vincolo pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «interesse», «compromesso» e «vincolo» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Conflito e negociação, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que interesse não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que compromesso só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: vincolo pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «interesse», «compromesso» e «vincolo» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -39183,92 +40803,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conflito e negociação, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "questão"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "episódio"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "compromesso"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "Conflito"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "comparam"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "vincolo"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "considerado"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -39288,42 +40908,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conflito e negociação, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Conflito e negociação, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "verificáveis",
-          "Neste"
+          "brasileira",
+          "visitam",
+          "questão",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
-          "episódio",
-          "compromesso",
-          "Conflito",
-          "comparam"
+          "participantes",
+          "explica",
+          "consequências",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "vincolo",
-          "considerado"
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -39347,39 +40967,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas posições. A primeira observa que concetto não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que paradosso só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: argomentare pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «concetto», «paradosso» e «argomentare» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas posições. A primeira observa que concetto não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que paradosso só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: argomentare pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «concetto», «paradosso» e «argomentare» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que concetto não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que paradosso só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: argomentare pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «concetto», «paradosso» e «argomentare» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -39390,92 +41040,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "questão"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "paradosso"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "produz"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "episódio"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "comparam"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "argomentare"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "posições"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -39495,42 +41145,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Filosofia cotidiana, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Filosofia cotidiana, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "verificáveis",
-          "Neste"
+          "brasileira",
+          "visitam",
+          "questão",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "paradosso",
-          "produz",
-          "verificáveis"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
-          "episódio",
-          "comparam",
-          "argomentare",
-          "posições"
+          "participantes",
+          "consequências",
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -40271,11 +41921,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Quero praticar esta expressão: “Aprendemos: futuro”. Você pode me ajudar?"
+        "line": "Eu quero falar de metas e possibilidades futuras. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+        "line": "Claro. Vamos falar passo a passo."
       }
     ],
     "reading": null,
@@ -40510,16 +42160,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Um bilhete para o centro”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -40551,16 +42192,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Podemos dividir as tarefas”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -41316,33 +42948,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "de-onibus",
-    "title": "De ônibus: gramática",
+    "title": "Querer e poder",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 104,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Usar transporte com cortesia.",
+    "intro": "Usar transporte com cortesia.",
+    "mission": "Aprende querer e poder y úsalo en una frase sobre un trayecto y una tarjeta de transporte.",
+    "grammar": "Use querer para pedir ou desejar e poder para possibilidade.",
     "phrases": [
+      "Quero um bilhete. Posso pagar aqui?",
       "Um bilhete para o centro."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Querer e poder",
+        "definition": "Use querer para pedir ou desejar e poder para possibilidade.",
+        "structure": "Quero um bilhete. Posso pagar aqui?",
+        "function": "Usar transporte com cortesia.",
+        "examples": [
+          "Quero um bilhete. Posso pagar aqui?",
+          "Um bilhete para o centro."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Quero um bilhete. Posso pagar aqui?",
           "Um bilhete para o centro.",
           "ônibus",
-          "bilhete",
-          "ponto"
+          "bilhete"
         ]
       },
       {
@@ -41367,7 +43013,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Um bilhete para o centro.",
           "ponto",
@@ -41382,33 +43028,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "um-projeto-coletivo",
-    "title": "Um projeto coletivo: gramática",
+    "title": "Podemos e vamos + infinitivo",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 104,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Colaborar em um projeto.",
+    "intro": "Colaborar em um projeto.",
+    "mission": "Aprende podemos e vamos + infinitivo y úsalo en una frase sobre colaborar con un proyecto de barrio.",
+    "grammar": "Use estas formas para propor ações em grupo.",
     "phrases": [
+      "Podemos dividir as tarefas.",
       "Podemos dividir as tarefas."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Podemos e vamos + infinitivo",
+        "definition": "Use estas formas para propor ações em grupo.",
+        "structure": "Podemos dividir as tarefas.",
+        "function": "Colaborar em um projeto.",
+        "examples": [
+          "Podemos dividir as tarefas.",
+          "Podemos dividir as tarefas."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Podemos dividir as tarefas.",
+          "Podemos dividir as tarefas.",
           "projeto",
-          "tarefa",
-          "ideia"
+          "tarefa"
         ]
       },
       {
@@ -41433,7 +43093,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Podemos dividir as tarefas.",
           "ideia",
@@ -41765,14 +43425,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-relacoes-e-comunicacao-reading-comprehension-5",
+        "id": "portuguese-b1-relacoes-e-comunicacao-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Elisa não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Elisa procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
         "options": [
-          "aprender",
-          "concreto",
-          "trabalho",
-          "pesquisa"
+          "depois",
+          "equipe",
+          "também",
+          "inclui"
         ]
       },
       {
@@ -42161,7 +43821,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 110,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Comidas cotidianas y regiones diversas",
     "intro": "Comidas cotidianas y regiones diversas",
     "mission": "",
@@ -42172,62 +43832,62 @@
     "reading": {
       "title": "Sabores do Brasil",
       "parts": [
-        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
-        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
-        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+        "Luana está em Recife. Hoje aprende a expressar preferências. Encontra Rafael e diz: “Eu gosto desta sopa.”. Os dois conversam com respeito e aprendem quatro palavras novas: arroz, feijão, sopa e sabor.",
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
+        "No final, Luana escreve: “Eu gosto desta sopa.”."
       ],
       "questions": [
-        "Onde Luana está?",
+        "Onde está Luana?",
         "Com quem Luana conversa?",
-        "O que Luana pergunta quando não entende uma palavra?",
-        "Por que Luana repete as palavras?"
+        "Qual frase Luana usa?",
+        "Por que a experiência é importante?"
       ],
-      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+      "text": "Luana está em Recife. Hoje aprende a expressar preferências. Encontra Rafael e diz: “Eu gosto desta sopa.”. Os dois conversam com respeito e aprendem quatro palavras novas: arroz, feijão, sopa e sabor.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Eu gosto desta sopa.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-sabores-do-brasil-reading-reading-comprehension-1",
+        "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Onde Luana está?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
           "Recife",
-          "Salvador",
-          "Rio de Janeiro",
-          "Brasília"
+          "Rafael",
+          "Luana",
+          "gosto"
         ]
       },
       {
-        "id": "portuguese-a1-sabores-do-brasil-reading-reading-comprehension-2",
+        "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Com quem Luana conversa?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Encontra _____ e diz: “Eu gosto desta sopa.”.”",
         "options": [
+          "Recife",
           "Rafael",
-          "Pedro",
-          "Marina",
-          "Carlos"
+          "Luana",
+          "gosto"
         ]
       },
       {
         "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
         "options": [
-          "conversa",
-          "palavras",
-          "importantes",
-          "semplici"
+          "gosto",
+          "desta",
+          "Luana",
+          "frase"
         ]
       },
       {
         "id": "portuguese-a1-sabores-do-brasil-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No final, Luana _____: “Eu gosto desta sopa.”.”",
         "options": [
-          "repetem",
-          "exemplo",
-          "pequeno",
+          "simples",
+          "Recife",
+          "Encontra",
           "escreve"
         ]
       }
@@ -42331,15 +43991,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "relacoes-e-comunicacao",
-    "title": "Relações e comunicação: gramática",
+    "title": "Relações: pronomes e discurso indireto",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 111,
     "estimatedMinutes": 10,
-    "description": "expressar relações, opiniões e mensagens relatadas",
+    "description": "Tema gramatical: Relações: pronomes e discurso indireto.",
     "intro": "expressar relações, opiniões e mensagens relatadas",
-    "mission": "expressar relações, opiniões e mensagens relatadas",
+    "mission": "Estudia Relações: pronomes e discurso indireto y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Aprendemos: relação.",
@@ -42665,7 +44325,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e explicar. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "transcript": "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: relação.», «Aprendemos: escutar.» e «Aprendemos: explicar.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-relacoes-e-comunicacao-listening-listening-comprehension",
@@ -42674,138 +44334,204 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "explicar"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "comunicação"
+                "text": "compartilhados"
               },
               {
                 "id": "o3",
-                "text": "grupo"
+                "text": "colegas"
               },
               {
                 "id": "o4",
-                "text": "conta"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunicação"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "pessoa"
+                "text": "sempre"
               },
               {
                 "id": "o3",
-                "text": "experiência"
+                "text": "trabalhadores"
               },
               {
                 "id": "o4",
-                "text": "importantes"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunicação"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "grupo"
+                "text": "trabalhadores"
               },
               {
                 "id": "o3",
-                "text": "melhorar"
+                "text": "sentiu"
               },
               {
                 "id": "o4",
-                "text": "conta"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "comunicação"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "experiência"
+                "text": "colegas"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "pessoas"
               },
               {
                 "id": "o4",
-                "text": "resume"
+                "text": "planejados"
               }
             ]
           }
         ]
+      },
+      "mainTranscript": "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: relação.», «Aprendemos: escutar.» e «Aprendemos: explicar.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Uma das participantes explicou que as palavras «Aprendemos: relação.», «Aprendemos: escutar.» e «Aprendemos: explicar.» ajudaram o grupo a organizar as ideias."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+        }
+      ],
+      "audioProduction": {
+        "status": "script-ready",
+        "language": "portuguese",
+        "level": "B1",
+        "voice": "native narrator",
+        "normalSpeed": true,
+        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Relações e comunicação», um pequeno grupo da comunidade conversa sobre relação, escutar e _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Relações e comunicação, três colegas contam uma história que aconteceu em uma comunidade _____.”",
         "options": [
-          "explicar",
-          "comunicação",
-          "grupo",
-          "conta"
+          "brasileira",
+          "compartilhados",
+          "colegas",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
         "options": [
-          "comunicação",
-          "pessoa",
-          "experiência",
-          "importantes"
+          "compartilhados",
+          "sempre",
+          "trabalhadores",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
         "options": [
-          "comunicação",
-          "grupo",
-          "melhorar",
-          "conta"
+          "compartilhados",
+          "trabalhadores",
+          "sentiu",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
         "options": [
-          "comunicação",
-          "experiência",
-          "importantes",
-          "resume"
+          "compartilhados",
+          "colegas",
+          "pessoas",
+          "planejados"
         ]
       }
     ]
@@ -43057,39 +44783,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Cidadania ativa, duas pessoas comparam suas posições. A primeira observa que iniziativa não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que quartiere só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: partecipare pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em Manaus. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «iniciativa», «bairro» e «participar» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Cidadania ativa, duas pessoas comparam suas posições. A primeira observa que iniziativa não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que quartiere só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: partecipare pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em Manaus. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «iniciativa», «bairro» e «participar» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Cidadania ativa, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em Manaus."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que iniziativa não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que quartiere só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: partecipare pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «iniciativa», «bairro» e «participar» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -43100,92 +44856,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidadania ativa, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "Manaus"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "quartiere"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "produz"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "episódio"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "comparam"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "partecipare"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "posições"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -43205,42 +44961,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidadania ativa, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Cidadania ativa, Marina e Caio visitam um conselho jovem de bairro em _____.”",
         "options": [
-          "posições",
+          "Manaus",
+          "participantes",
           "consequências",
-          "verificáveis",
-          "Neste"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "quartiere",
-          "produz",
-          "verificáveis"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
-          "episódio",
-          "comparam",
-          "partecipare",
-          "posições"
+          "participantes",
+          "consequências",
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -43264,39 +45020,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Literatura e voz, duas pessoas comparam suas posições. A primeira observa que narratore não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que tono só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: metafora pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «narratore», «tono» e «metafora» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Literatura e voz, duas pessoas comparam suas posições. A primeira observa que narratore não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que tono só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: metafora pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «narratore», «tono» e «metafora» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Literatura e voz, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que narratore não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que tono só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: metafora pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «narratore», «tono» e «metafora» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -43307,92 +45093,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Literatura e voz, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "questão"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que tono só é útil quando é _____ com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "explicado"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "produz"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "metafora"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -43412,42 +45198,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Literatura e voz, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Literatura e voz, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "verificáveis",
-          "Neste"
+          "brasileira",
+          "visitam",
+          "questão",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que tono só é útil quando é _____ com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "explicado",
-          "produz",
-          "verificáveis"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "metafora",
-          "Neste"
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -43471,39 +45257,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Mediação intercultural, duas pessoas comparam suas posições. A primeira observa que mediazione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que contesto só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: equivoco pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «mediazione», «contesto» e «mal-entendido» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Mediação intercultural, duas pessoas comparam suas posições. A primeira observa que mediazione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que contesto só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: equivoco pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «mediazione», «contesto» e «mal-entendido» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Mediação intercultural, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que mediazione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que contesto só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: equivoco pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «mediazione», «contesto» e «mal-entendido» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -43514,11 +45330,11 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mediação intercultural, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
@@ -43526,18 +45342,18 @@
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "visitam"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "questão"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
@@ -43545,22 +45361,22 @@
               },
               {
                 "id": "o2",
-                "text": "contesto"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
@@ -43568,22 +45384,22 @@
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "equivoco"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "consequências"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
@@ -43591,15 +45407,15 @@
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -43619,42 +45435,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mediação intercultural, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Mediação intercultural, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
+          "brasileira",
           "intercultural",
-          "consequências",
-          "verificáveis"
+          "visitam",
+          "questão"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
           "intercultural",
-          "contesto",
-          "consequências",
-          "verificáveis"
+          "explica",
+          "participantes",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
           "intercultural",
-          "consequências",
-          "equivoco",
-          "verificáveis"
+          "participantes",
+          "parecer",
+          "consequências"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
           "intercultural",
+          "participantes",
           "consequências",
-          "verificáveis",
-          "clareza"
+          "inspirar"
         ]
       }
     ]
@@ -44395,11 +46211,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Quero praticar esta expressão: “Aprendemos: relação”. Você pode me ajudar?"
+        "line": "Eu quero expressar relações, opiniões e mensagens relatadas. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+        "line": "Claro. Vamos falar passo a passo."
       }
     ],
     "reading": null,
@@ -44634,16 +46450,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Eu gosto desta sopa”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -44675,16 +46482,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Quero usar menos plástico”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -45440,33 +47238,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "sabores-do-brasil",
-    "title": "Sabores do Brasil: gramática",
+    "title": "Gostar, preferir e não gostar",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 114,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Falar sobre comidas e gostos.",
+    "intro": "Falar sobre comidas e gostos.",
+    "mission": "Aprende gostar, preferir e não gostar y úsalo en una frase sobre comidas cotidianas y regiones diversas.",
+    "grammar": "Use estes verbos para expressar preferências.",
     "phrases": [
+      "Eu gosto desta sopa, mas prefiro arroz.",
       "Eu gosto desta sopa."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Gostar, preferir e não gostar",
+        "definition": "Use estes verbos para expressar preferências.",
+        "structure": "Eu gosto desta sopa, mas prefiro arroz.",
+        "function": "Falar sobre comidas e gostos.",
+        "examples": [
+          "Eu gosto desta sopa, mas prefiro arroz.",
+          "Eu gosto desta sopa."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Eu gosto desta sopa, mas prefiro arroz.",
           "Eu gosto desta sopa.",
           "arroz",
-          "feijão",
-          "sopa"
+          "feijão"
         ]
       },
       {
@@ -45491,7 +47303,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Eu gosto desta sopa.",
           "sopa",
@@ -45506,33 +47318,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "cidade-e-ambiente",
-    "title": "Cidade e ambiente: gramática",
+    "title": "Menos, mais e comparativos",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 114,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Falar de mudanças e ambiente.",
+    "intro": "Falar de mudanças e ambiente.",
+    "mission": "Aprende menos, mais e comparativos y úsalo en una frase sobre hábitos, residuos y ciudad.",
+    "grammar": "Use mais/menos ... do que para comparar hábitos.",
     "phrases": [
+      "Quero usar menos plástico do que antes.",
       "Quero usar menos plástico."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Menos, mais e comparativos",
+        "definition": "Use mais/menos ... do que para comparar hábitos.",
+        "structure": "Quero usar menos plástico do que antes.",
+        "function": "Falar de mudanças e ambiente.",
+        "examples": [
+          "Quero usar menos plástico do que antes.",
+          "Quero usar menos plástico."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Quero usar menos plástico do que antes.",
           "Quero usar menos plástico.",
           "lixo",
-          "plástico",
-          "reciclar"
+          "plástico"
         ]
       },
       {
@@ -45557,7 +47383,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Quero usar menos plástico.",
           "reciclar",
@@ -45889,14 +47715,14 @@
         ]
       },
       {
-        "id": "portuguese-b1-cidadania-e-participacao-reading-comprehension-5",
+        "id": "portuguese-b1-cidadania-e-participacao-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Segundo o texto, qual palavra pertence ao espaço?\n\n“Lucas não procura uma resposta perfeita: ela quer melhorar a situação com responsabilidade e _____ com a experiência.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Lucas procurou quem não pôde participar, pois uma decisão é mais forte quando _____ perspectivas diferentes.”",
         "options": [
-          "aprender",
-          "concreto",
-          "pesquisa",
-          "conversa"
+          "depois",
+          "bairro",
+          "também",
+          "inclui"
         ]
       },
       {
@@ -46285,7 +48111,7 @@
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 120,
-    "estimatedMinutes": 10,
+    "estimatedMinutes": 8,
     "description": "Un mensaje sobre el día",
     "intro": "Un mensaje sobre el día",
     "mission": "",
@@ -46296,62 +48122,62 @@
     "reading": {
       "title": "Mensagem para casa",
       "parts": [
-        "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.",
-        "Na conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.",
-        "Antes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+        "Luana está em Recife. Hoje aprende a escrever mensagem curta. Encontra Rafael e diz: “Hoje eu aprendi muito.”. Os dois conversam com respeito e aprendem quatro palavras novas: hoje, amanhã, casa e experiência.",
+        "Rafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.",
+        "No final, Luana escreve: “Hoje eu aprendi muito.”."
       ],
       "questions": [
-        "Onde Luana está?",
+        "Onde está Luana?",
         "Com quem Luana conversa?",
-        "O que Luana pergunta quando não entende uma palavra?",
-        "Por que Luana repete as palavras?"
+        "Qual frase Luana usa?",
+        "Por que a experiência é importante?"
       ],
-      "text": "Hoje Luana está em Recife. Ela encontra Rafael no bairro e o cumprimenta com um sorriso. Os dois falam devagar e escutam com atenção. Luana quer usar o português em uma situação real, por isso tenta uma frase simples e Rafael responde com gentileza.\n\nNa conversa, eles usam palavras úteis da lição: parole semplici. Rafael faz uma pergunta e Luana responde sem pressa. Quando ela não entende uma palavra, pergunta: «Pode repetir, por favor?». Depois, os dois repetem as palavras mais importantes e criam um exemplo pequeno para cada uma.\n\nAntes de voltar para casa, Luana agradece a Rafael. Ela diz que escutar, falar e repetir ajudam a ter mais confiança. Rafael concorda e propõe um novo encontro amanhã. Luana volta para casa feliz e escreve no caderno as palavras novas do dia."
+      "text": "Luana está em Recife. Hoje aprende a escrever mensagem curta. Encontra Rafael e diz: “Hoje eu aprendi muito.”. Os dois conversam com respeito e aprendem quatro palavras novas: hoje, amanhã, casa e experiência.\n\nRafael faz uma pergunta simples e Luana responde com uma frase curta. A conversa mostra que a cultura se aprende escutando e participando.\n\nNo final, Luana escreve: “Hoje eu aprendi muito.”."
     },
     "transcript": "",
     "extra": null,
     "exercises": [
       {
-        "id": "portuguese-a1-mensagem-para-casa-reading-reading-comprehension-1",
+        "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Onde Luana está?",
+        "prompt": "Complete este detalhe da leitura.\n\n“Luana está em _____.”",
         "options": [
           "Recife",
-          "Salvador",
-          "Rio de Janeiro",
-          "Brasília"
+          "Rafael",
+          "Luana",
+          "aprendi"
         ]
       },
       {
-        "id": "portuguese-a1-mensagem-para-casa-reading-reading-comprehension-2",
+        "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Com quem Luana conversa?",
+        "prompt": "Qual palavra completa esta frase do texto?\n\n“Encontra _____ e diz: “Hoje eu aprendi muito.”.”",
         "options": [
+          "Recife",
           "Rafael",
-          "Pedro",
-          "Marina",
-          "Carlos"
+          "Luana",
+          "aprendi"
         ]
       },
       {
         "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na leitura.\n\n“Depois, os dois repetem as palavras mais _____ e criam um exemplo pequeno para cada uma.”",
+        "prompt": "Escolha a palavra que falta na leitura.\n\n“Rafael faz uma pergunta simples e _____ responde com uma frase curta.”",
         "options": [
-          "conversa",
-          "palavras",
-          "importantes",
-          "semplici"
+          "muito",
+          "frase",
+          "Luana",
+          "curta"
         ]
       },
       {
         "id": "portuguese-a1-mensagem-para-casa-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“Luana volta para casa feliz e _____ no caderno as palavras novas do dia.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe?\n\n“No final, Luana _____: “Hoje eu aprendi muito.”.”",
         "options": [
-          "repetem",
-          "exemplo",
-          "pequeno",
+          "aprendi",
+          "simples",
+          "Recife",
           "escreve"
         ]
       }
@@ -46455,15 +48281,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "cidadania-e-participacao",
-    "title": "Cidadania e participação: gramática",
+    "title": "Cidadania: subjuntivo e propostas",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 121,
     "estimatedMinutes": 10,
-    "description": "propor ações e participar da comunidade",
+    "description": "Tema gramatical: Cidadania: subjuntivo e propostas.",
     "intro": "propor ações e participar da comunidade",
-    "mission": "propor ações e participar da comunidade",
+    "mission": "Estudia Cidadania: subjuntivo e propostas y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Aprendemos: cidadania.",
@@ -46789,7 +48615,7 @@
     ],
     "dialogue": [],
     "reading": null,
-    "transcript": "No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e direito. Cada pessoa conta uma experiência, escuta as outras e propõe uma solução concreta. No final, decidem colaborar porque um objetivo claro ajuda a melhorar a vida cotidiana. Depois, o grupo resume as ideias mais importantes.",
+    "transcript": "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: cidadania.», «Aprendemos: participar.» e «Aprendemos: direito.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
     "extra": {
       "listeningComprehension": {
         "id": "portuguese-b1-cidadania-e-participacao-listening-listening-comprehension",
@@ -46798,138 +48624,204 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "direito"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "participação"
+                "text": "compartilhados"
               },
               {
                 "id": "o3",
-                "text": "experiência"
+                "text": "colegas"
               },
               {
                 "id": "o4",
-                "text": "importantes"
+                "text": "pessoas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
             "options": [
               {
                 "id": "o1",
-                "text": "participação"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "pessoa"
+                "text": "sempre"
               },
               {
                 "id": "o3",
-                "text": "experiência"
+                "text": "trabalhadores"
               },
               {
                 "id": "o4",
-                "text": "importantes"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
             "options": [
               {
                 "id": "o1",
-                "text": "participação"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "grupo"
+                "text": "trabalhadores"
               },
               {
                 "id": "o3",
-                "text": "melhorar"
+                "text": "sentiu"
               },
               {
                 "id": "o4",
-                "text": "conta"
+                "text": "participantes"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "participação"
+                "text": "compartilhados"
               },
               {
                 "id": "o2",
-                "text": "experiência"
+                "text": "colegas"
               },
               {
                 "id": "o3",
-                "text": "importantes"
+                "text": "pessoas"
               },
               {
                 "id": "o4",
-                "text": "resume"
+                "text": "planejados"
               }
             ]
           }
         ]
+      },
+      "mainTranscript": "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira. A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda. Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes. A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.\n\nUma das participantes explicou que as palavras «Aprendemos: cidadania.», «Aprendemos: participar.» e «Aprendemos: direito.» ajudaram o grupo a organizar as ideias. Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte. Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar. Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias.\n\nNo encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta. Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos. Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.",
+      "transcriptSegments": [
+        {
+          "id": "segment-01",
+          "order": 1,
+          "text": "Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade brasileira."
+        },
+        {
+          "id": "segment-02",
+          "order": 2,
+          "text": "A ideia surgiu depois de perceberem que muitas pessoas tinham a mesma dúvida, mas não sabiam a quem pedir ajuda."
+        },
+        {
+          "id": "segment-03",
+          "order": 3,
+          "text": "Primeiro, eles conversaram com vizinhos, trabalhadores e estudantes, anotaram sugestões e tentaram entender quais eram as necessidades mais urgentes."
+        },
+        {
+          "id": "segment-04",
+          "order": 4,
+          "text": "A conversa não foi sempre fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo."
+        },
+        {
+          "id": "segment-05",
+          "order": 5,
+          "text": "Uma das participantes explicou que as palavras «Aprendemos: cidadania.», «Aprendemos: participar.» e «Aprendemos: direito.» ajudaram o grupo a organizar as ideias."
+        },
+        {
+          "id": "segment-06",
+          "order": 6,
+          "text": "Em vez de procurar uma resposta rápida, eles decidiram dividir as tarefas e marcar um novo encontro para a semana seguinte."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Também combinaram de explicar as decisões com linguagem simples, para que mais pessoas pudessem participar."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Uma senhora que mora no bairro há muitos anos disse que se sentiu respeitada por poder contar o que observa todos os dias."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "No encontro seguinte, o grupo percebeu que ouvir com atenção tinha sido tão importante quanto apresentar uma proposta."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "Algumas sugestões precisaram mudar, mas o resultado ficou mais claro e mais útil para todos."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Ao terminar, os colegas concluíram que pequenos passos, quando são bem planejados e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades."
+        }
+      ],
+      "audioProduction": {
+        "status": "script-ready",
+        "language": "portuguese",
+        "level": "B1",
+        "voice": "native narrator",
+        "normalSpeed": true,
+        "slowSpeed": true
       },
       "grammarTest": null
     },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“No tema «Cidadania e participação», um pequeno grupo da comunidade conversa sobre cidadania, participar e _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Hoje, em uma conversa sobre Cidadania e participação, três colegas contam uma história que aconteceu em uma comunidade _____.”",
         "options": [
-          "direito",
-          "participação",
-          "experiência",
-          "importantes"
+          "brasileira",
+          "compartilhados",
+          "colegas",
+          "pessoas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Cada _____ conta uma experiência, escuta as outras e propõe uma solução concreta.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A conversa não foi _____ fácil: cada pessoa tinha uma experiência diferente e, em alguns momentos, parecia impossível chegar a um acordo.”",
         "options": [
-          "participação",
-          "pessoa",
-          "experiência",
-          "importantes"
+          "compartilhados",
+          "sempre",
+          "trabalhadores",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“No final, decidem colaborar porque um objetivo claro ajuda a _____ a vida cotidiana.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Uma senhora que mora no bairro há muitos anos disse que se _____ respeitada por poder contar o que observa todos os dias.”",
         "options": [
-          "participação",
-          "grupo",
-          "melhorar",
-          "conta"
+          "compartilhados",
+          "trabalhadores",
+          "sentiu",
+          "participantes"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Depois, o grupo _____ as ideias mais importantes.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao terminar, os colegas concluíram que pequenos passos, quando são bem _____ e compartilhados, podem melhorar uma situação cotidiana e aproximar pessoas de diferentes idades.”",
         "options": [
-          "participação",
-          "experiência",
-          "importantes",
-          "resume"
+          "compartilhados",
+          "colegas",
+          "pessoas",
+          "planejados"
         ]
       }
     ]
@@ -47181,39 +49073,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas posições. A primeira observa que traguardo não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que ostacolo só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: percorso pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em Belém. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «meta», «obstáculo» e «trajeto» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas posições. A primeira observa que traguardo não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que ostacolo só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: percorso pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em Belém. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «meta», «obstáculo» e «trajeto» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em Belém."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que traguardo não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que ostacolo só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: percorso pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «meta», «obstáculo» e «trajeto» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -47224,92 +49146,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "Belém"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o3",
-                "text": "perspectivas"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "perspectivas"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "ostacolo"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "perspectivas"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "perspectivas"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "perspectivas"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "percorso"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "perspectivas"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "perspectivas"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "perspectivas"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -47329,42 +49251,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Balanços e perspectivas, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Balanços e perspectivas, Marina e Caio visitam uma rede de voluntários em _____.”",
         "options": [
-          "posições",
+          "Belém",
+          "participantes",
           "consequências",
-          "perspectivas",
-          "verificáveis"
+          "perspectivas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "ostacolo",
-          "perspectivas",
-          "verificáveis"
+          "perspectivas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "perspectivas",
-          "percorso",
-          "verificáveis"
+          "parecer",
+          "perspectivas"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
           "perspectivas",
-          "verificáveis",
-          "clareza"
+          "inspirar"
         ]
       }
     ]
@@ -47388,39 +49310,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Projeto pessoal, duas pessoas comparam suas posições. A primeira observa que visione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que strategia só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «visione», «strategia» e «recurso» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Projeto pessoal, duas pessoas comparam suas posições. A primeira observa que visione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que strategia só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «visione», «strategia» e «recurso» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Projeto pessoal, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que visione não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que strategia só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: risorsa pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «visione», «strategia» e «recurso» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -47431,92 +49383,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projeto pessoal, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Projeto"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "pessoal"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "visitam"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "strategia"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "produz"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "risorsa"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "considerado"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -47536,42 +49488,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projeto pessoal, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Projeto pessoal, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "verificáveis",
-          "Neste"
+          "brasileira",
+          "Projeto",
+          "pessoal",
+          "visitam"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que _____ só é útil quando é explicado com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "strategia",
-          "produz",
-          "verificáveis"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "risorsa",
-          "considerado"
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -47595,39 +49547,69 @@
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
-    "transcript": "Neste episódio sobre Síntese e proposta, duas pessoas comparam suas posições. A primeira observa que sintesi não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que fonte só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: priorità pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+    "transcript": "Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «sintesi», «fonte» e «priorità» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
     "extra": {
-      "mainTranscript": "Neste episódio sobre Síntese e proposta, duas pessoas comparam suas posições. A primeira observa que sintesi não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto. A outra acrescenta que fonte só é útil quando é explicado com exemplos verificáveis.\n\nNa conversa surge uma dificuldade possível: priorità pode mudar a perspectiva de quem escuta. Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável. Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão.",
+      "mainTranscript": "Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade brasileira. Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia. Marina conta que, no início, alguns participantes queriam resolver tudo depressa. No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades. Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.\n\nCaio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas. Durante a conversa, eles usam ideias como «sintesi», «fonte» e «priorità» para relacionar o tema com situações reais no Brasil. Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas. Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório.\n\nNo final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão. Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa. A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades.",
       "transcriptSegments": [
         {
           "id": "segment-01",
           "order": 1,
-          "text": "Neste episódio sobre Síntese e proposta, duas pessoas comparam suas posições."
+          "text": "Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade brasileira."
         },
         {
           "id": "segment-02",
           "order": 2,
-          "text": "A primeira observa que sintesi não pode ser considerado de forma isolada: cada decisão produz consequências concretas e exige atenção ao contexto."
+          "text": "Eles foram convidados a ouvir uma questão que afeta muitas pessoas no dia a dia."
         },
         {
           "id": "segment-03",
           "order": 3,
-          "text": "A outra acrescenta que fonte só é útil quando é explicado com exemplos verificáveis."
+          "text": "Marina conta que, no início, alguns participantes queriam resolver tudo depressa."
         },
         {
           "id": "segment-04",
           "order": 4,
-          "text": "Na conversa surge uma dificuldade possível: priorità pode mudar a perspectiva de quem escuta."
+          "text": "No entanto, uma conversa com os moradores mostrou que havia necessidades diferentes e que seria preciso organizar melhor as prioridades."
         },
         {
           "id": "segment-05",
           "order": 5,
-          "text": "Por isso, o grupo evita conclusões apressadas, avalia os limites das propostas e formula uma solução viável."
+          "text": "Ela explica que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha."
         },
         {
           "id": "segment-06",
           "order": 6,
-          "text": "Ao final, as pessoas concordam em um critério: justificar as escolhas com clareza e permanecer abertas a uma revisão."
+          "text": "Caio concorda e acrescenta que uma boa proposta precisa de informações claras, exemplos que todos possam verificar e espaço para perguntas."
+        },
+        {
+          "id": "segment-07",
+          "order": 7,
+          "text": "Durante a conversa, eles usam ideias como «sintesi», «fonte» e «priorità» para relacionar o tema com situações reais no Brasil."
+        },
+        {
+          "id": "segment-08",
+          "order": 8,
+          "text": "Marina lembra que duas soluções podem parecer boas, mas produzir resultados muito diferentes para quem depende delas."
+        },
+        {
+          "id": "segment-09",
+          "order": 9,
+          "text": "Uma moradora diz que participar da decisão é importante, porque quem vive o problema conhece detalhes que não aparecem em um relatório."
+        },
+        {
+          "id": "segment-10",
+          "order": 10,
+          "text": "No final, os dois chegam a uma conclusão prática: explicar os motivos das escolhas, ouvir opiniões diferentes e acompanhar o resultado depois da decisão."
+        },
+        {
+          "id": "segment-11",
+          "order": 11,
+          "text": "Se algo não funcionar como esperado, não é preciso abandonar todo o plano; é possível rever uma parte, aprender com a experiência e tentar novamente de forma mais justa."
+        },
+        {
+          "id": "segment-12",
+          "order": 12,
+          "text": "A história mostra que uma mudança local pode fortalecer vínculos e inspirar outras comunidades."
         }
       ],
       "listeningType": "story",
@@ -47638,92 +49620,92 @@
           {
             "id": "q1",
             "type": "mcq",
-            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Síntese e proposta, duas pessoas comparam suas _____.”",
+            "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade _____.”",
             "options": [
               {
                 "id": "o1",
-                "text": "posições"
+                "text": "brasileira"
               },
               {
                 "id": "o2",
-                "text": "consequências"
+                "text": "Síntese"
               },
               {
                 "id": "o3",
-                "text": "verificáveis"
+                "text": "visitam"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "questão"
               }
             ]
           },
           {
             "id": "q2",
             "type": "mcq",
-            "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que fonte só é útil quando é _____ com exemplos verificáveis.”",
+            "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "explicado"
+                "text": "explica"
               },
               {
                 "id": "o3",
-                "text": "produz"
+                "text": "consequências"
               },
               {
                 "id": "o4",
-                "text": "verificáveis"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q3",
             "type": "mcq",
-            "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+            "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "priorità"
+                "text": "parecer"
               },
               {
                 "id": "o4",
-                "text": "Neste"
+                "text": "necessidades"
               }
             ]
           },
           {
             "id": "q4",
             "type": "mcq",
-            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+            "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
             "options": [
               {
                 "id": "o1",
-                "text": "consequências"
+                "text": "participantes"
               },
               {
                 "id": "o2",
-                "text": "verificáveis"
+                "text": "consequências"
               },
               {
                 "id": "o3",
-                "text": "considerado"
+                "text": "necessidades"
               },
               {
                 "id": "o4",
-                "text": "clareza"
+                "text": "inspirar"
               }
             ]
           }
@@ -47743,42 +49725,42 @@
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Síntese e proposta, duas pessoas comparam suas _____.”",
+        "prompt": "Complete este detalhe do áudio.\n\n“Neste episódio sobre Síntese e proposta, Marina e Caio visitam uma comunidade _____.”",
         "options": [
-          "posições",
-          "consequências",
-          "verificáveis",
-          "Neste"
+          "brasileira",
+          "Síntese",
+          "visitam",
+          "questão"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual palavra completa a frase que você ouve?\n\n“A outra acrescenta que fonte só é útil quando é _____ com exemplos verificáveis.”",
+        "prompt": "Qual palavra completa a frase que você ouve?\n\n“Ela _____ que, antes de agir, é importante observar as pessoas envolvidas, os recursos disponíveis e as consequências de cada escolha.”",
         "options": [
+          "participantes",
+          "explica",
           "consequências",
-          "explicado",
-          "produz",
-          "verificáveis"
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Escolha a palavra que falta na gravação.\n\n“Na conversa surge uma dificuldade possível: _____ pode mudar a perspectiva de quem escuta.”",
+        "prompt": "Escolha a palavra que falta na gravação.\n\n“Marina lembra que duas soluções podem _____ boas, mas produzir resultados muito diferentes para quem depende delas.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "priorità",
-          "Neste"
+          "parecer",
+          "necessidades"
         ]
       },
       {
         "type": "mcq",
-        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“Ao final, as pessoas concordam em um critério: justificar as escolhas com _____ e permanecer abertas a uma revisão.”",
+        "prompt": "Qual é a palavra exata que falta neste detalhe do áudio?\n\n“A história mostra que uma mudança local pode fortalecer vínculos e _____ outras comunidades.”",
         "options": [
+          "participantes",
           "consequências",
-          "verificáveis",
-          "considerado",
-          "clareza"
+          "necessidades",
+          "inspirar"
         ]
       }
     ]
@@ -48519,11 +50501,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Quero praticar esta expressão: “Aprendemos: cidadania”. Você pode me ajudar?"
+        "line": "Eu quero propor ações e participar da comunidade. Você pode me ajudar?"
       },
       {
         "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
+        "line": "Claro. Vamos falar passo a passo."
       }
     ],
     "reading": null,
@@ -48758,16 +50740,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Hoje eu aprendi muito”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -48799,16 +50772,7 @@
       "aprender"
     ],
     "vocabulary": [],
-    "dialogue": [
-      {
-        "speaker": "A",
-        "line": "Quero praticar esta expressão: “Foi uma viagem importante”. Você pode me ajudar?"
-      },
-      {
-        "speaker": "B",
-        "line": "Claro. Use-a em uma frase completa e depois eu respondo."
-      }
-    ],
+    "dialogue": [],
     "reading": null,
     "transcript": "",
     "extra": null,
@@ -49564,33 +51528,47 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "mensagem-para-casa",
-    "title": "Mensagem para casa: gramática",
+    "title": "Passado recente com ontem",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 124,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa frases breves en presente y expresiones de cortesía para participar en una situación cotidiana.",
+    "description": "Contar algo que aconteceu.",
+    "intro": "Contar algo que aconteceu.",
+    "mission": "Aprende passado recente com ontem y úsalo en una frase sobre un mensaje sobre el día.",
+    "grammar": "Use o pretérito perfeito para ações concluídas.",
     "phrases": [
+      "Ontem eu aprendi muito.",
       "Hoje eu aprendi muito."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Passado recente com ontem",
+        "definition": "Use o pretérito perfeito para ações concluídas.",
+        "structure": "Ontem eu aprendi muito.",
+        "function": "Contar algo que aconteceu.",
+        "examples": [
+          "Ontem eu aprendi muito.",
+          "Hoje eu aprendi muito."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
+          "Ontem eu aprendi muito.",
           "Hoje eu aprendi muito.",
           "hoje",
-          "amanhã",
-          "casa"
+          "amanhã"
         ]
       },
       {
@@ -49615,7 +51593,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Hoje eu aprendi muito.",
           "casa",
@@ -49630,33 +51608,47 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "contar-uma-experiencia",
-    "title": "Contar uma experiência: gramática",
+    "title": "Pretérito perfeito para experiências",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 20,
     "orderIndex": 124,
     "estimatedMinutes": 8,
-    "description": "Estructura útil en contexto.",
-    "intro": "Estructura útil en contexto.",
-    "mission": "",
-    "grammar": "Usa el presente para describir y una forma de pasado cercano para contar una experiencia terminada.",
+    "description": "Contar uma experiência pessoal.",
+    "intro": "Contar uma experiência pessoal.",
+    "mission": "Aprende pretérito perfeito para experiências y úsalo en una frase sobre cerrar el nivel con una vivencia.",
+    "grammar": "Use o pretérito perfeito para narrar fatos concluídos.",
     "phrases": [
+      "Foi uma viagem importante.",
       "Foi uma viagem importante."
     ],
     "vocabulary": [],
     "dialogue": [],
     "reading": null,
     "transcript": "",
-    "extra": null,
+    "extra": {
+      "grammarProfile": {
+        "name": "Pretérito perfeito para experiências",
+        "definition": "Use o pretérito perfeito para narrar fatos concluídos.",
+        "structure": "Foi uma viagem importante.",
+        "function": "Contar uma experiência pessoal.",
+        "examples": [
+          "Foi uma viagem importante.",
+          "Foi uma viagem importante."
+        ]
+      },
+      "grammarTest": null,
+      "listeningComprehension": null
+    },
     "exercises": [
       {
         "type": "mcq",
-        "prompt": "Elige la frase útil.",
+        "prompt": "Elige el ejemplo que corresponde al tema.",
         "options": [
           "Foi uma viagem importante.",
+          "Foi uma viagem importante.",
           "lembrança",
-          "encontro",
-          "mudar"
+          "encontro"
         ]
       },
       {
@@ -49681,7 +51673,7 @@
       },
       {
         "type": "mcq",
-        "prompt": "¿Qué opción es más cortés?",
+        "prompt": "¿Qué opción se usa en este contexto?",
         "options": [
           "Foi uma viagem importante.",
           "mudar",

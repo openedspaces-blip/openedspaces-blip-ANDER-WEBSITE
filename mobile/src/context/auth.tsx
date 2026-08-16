@@ -4,14 +4,14 @@ import { createContext, PropsWithChildren, useContext, useEffect, useMemo, useSt
 const URL='https://kdfzpqqyklqxprcweuqu.supabase.co';
 const KEY='sb_publishable_V6eyM6swE72C5UmPs9KKOg_hKtpRbwZ';
 const STORE='andergo.session.v1';
-type Session={access_token:string;email:string;userId:string};
-type Auth={ready:boolean;session:Session|null;signIn:(email:string,password:string)=>Promise<void>;signOut:()=>Promise<void>};
+type Session={access_token:string;email:string;userId:string;displayName:string};
+type Auth={ready:boolean;session:Session|null;signIn:(email:string,password:string)=>Promise<void>;signUp:(displayName:string,email:string,password:string)=>Promise<'signed-in'|'confirmation-required'>;signOut:()=>Promise<void>};
 const Context=createContext<Auth|null>(null);
 
 export function AuthProvider({children}:PropsWithChildren){
  const [session,setSession]=useState<Session|null>(null);const [ready,setReady]=useState(false);
  useEffect(()=>{AsyncStorage.getItem(STORE).then(raw=>{if(raw)setSession(JSON.parse(raw));}).finally(()=>setReady(true));},[]);
- const value=useMemo<Auth>(()=>({ready,session,async signIn(email,password){const r=await fetch(`${URL}/auth/v1/token?grant_type=password`,{method:'POST',headers:{apikey:KEY,'Content-Type':'application/json'},body:JSON.stringify({email,password})});const data=await r.json();if(!r.ok)throw new Error(data.error_description||'No pudimos iniciar sesión.');const next={access_token:data.access_token,email:data.user?.email||email,userId:data.user?.id||''};setSession(next);await AsyncStorage.setItem(STORE,JSON.stringify(next));},async signOut(){setSession(null);await AsyncStorage.removeItem(STORE);}}),[ready,session]);
+ const value=useMemo<Auth>(()=>({ready,session,async signIn(email,password){const r=await fetch(`${URL}/auth/v1/token?grant_type=password`,{method:'POST',headers:{apikey:KEY,'Content-Type':'application/json'},body:JSON.stringify({email,password})});const data=await r.json();if(!r.ok)throw new Error(data.error_description||'No pudimos iniciar sesión.');const next={access_token:data.access_token,email:data.user?.email||email,userId:data.user?.id||'',displayName:data.user?.user_metadata?.display_name||data.user?.email?.split('@')[0]||'Estudiante'};setSession(next);await AsyncStorage.setItem(STORE,JSON.stringify(next));},async signUp(displayName,email,password){const r=await fetch(`${URL}/auth/v1/signup`,{method:'POST',headers:{apikey:KEY,'Content-Type':'application/json'},body:JSON.stringify({email,password,data:{display_name:displayName}})});const data=await r.json();if(!r.ok)throw new Error(data.msg||data.error_description||'No pudimos crear tu cuenta.');if(!data.access_token)return 'confirmation-required';const next={access_token:data.access_token,email:data.user?.email||email,userId:data.user?.id||'',displayName};setSession(next);await AsyncStorage.setItem(STORE,JSON.stringify(next));return 'signed-in';},async signOut(){setSession(null);await AsyncStorage.removeItem(STORE);}}),[ready,session]);
  return <Context.Provider value={value}>{children}</Context.Provider>;
 }
 export function useAuth(){const value=useContext(Context);if(!value)throw new Error('useAuth must be inside AuthProvider');return value;}

@@ -580,47 +580,43 @@
     "extra": null,
     "exercises": [
       {
-        "id": "german-a1-begrussung-und-name-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Wo ist Anna?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
-          "Berlin",
-          "Hamburg",
-          "München",
-          "Köln"
+          "Hallo",
+          "danke",
+          "bitte",
+          "Freund"
         ]
       },
       {
-        "id": "german-a1-begrussung-und-name-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Mit wem spricht Anna?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Leon",
-          "Paul",
-          "Mia",
-          "Lukas"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
-        "id": "german-a1-begrussung-und-name-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Kannst du das bitte wiederholen?",
-          "Wo ist mein Zug?",
-          "Wie viel kostet das?",
-          "Wann beginnt die Schule?"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
-        "id": "german-a1-begrussung-und-name-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Warum wiederholt Anna die Wörter?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Damit sie mehr Sicherheit hat",
-          "Damit sie nicht sprechen muss",
-          "Damit sie ein Ticket kauft",
-          "Damit sie Leon vermeidet"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -1286,21 +1282,18 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "begrussung-und-name",
-    "title": "Begrüßung und Name: Grammatik",
+    "title": "sein, haben und Personalpronomen",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 11,
     "estimatedMinutes": 10,
-    "description": "sich begrüßen und vorstellen",
+    "description": "Tema gramatical: sein, haben und Personalpronomen.",
     "intro": "sich begrüßen und vorstellen",
-    "mission": "sich begrüßen und vorstellen",
-    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "mission": "Lerne sein, haben und Personalpronomen und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "Verwende sein für Identität und haben für Besitz; Personalpronomen ersetzen Namen.",
     "phrases": [
-      "Wir lernen: Hallo.",
-      "Wir lernen: Name.",
-      "Wir lernen: Land.",
-      "Wir lernen: Sprache."
+      "Ich heiße Ana. Ich bin aus der Dominikanischen Republik."
     ],
     "vocabulary": [
       {
@@ -1360,12 +1353,11 @@
     "extra": {
       "grammarProfile": {
         "name": "sein, haben und Personalpronomen",
-        "definition": "Práctica guiada de sein, haben und Personalpronomen.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "Verwende sein für Identität und haben für Besitz; Personalpronomen ersetzen Namen.",
+        "structure": "Ich heiße Ana. Ich bin aus der Dominikanischen Republik.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Ich heiße Ana. Ich bin aus der Dominikanischen Republik."
         ]
       },
       "grammarTest": {
@@ -1550,21 +1542,18 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "alltag-und-termine",
-    "title": "Alltag und Termine: Grammatik",
+    "title": "Perfekt und Zeitangaben",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 11,
     "estimatedMinutes": 10,
-    "description": "Termine vereinbaren und Gewohnheiten erklären",
+    "description": "Tema gramatical: Perfekt und Zeitangaben.",
     "intro": "Termine vereinbaren und Gewohnheiten erklären",
-    "mission": "Termine vereinbaren und Gewohnheiten erklären",
-    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "mission": "Lerne Perfekt und Zeitangaben und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "Verwende das Perfekt für abgeschlossene Ereignisse und Zeitangaben für die Reihenfolge.",
     "phrases": [
-      "Wir lernen: Termin.",
-      "Wir lernen: Kalender.",
-      "Wir lernen: früher.",
-      "Wir lernen: später."
+      "Gestern habe ich einen Termin vereinbart."
     ],
     "vocabulary": [
       {
@@ -1624,12 +1613,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt und Zeitangaben",
-        "definition": "Práctica guiada de Perfekt und Zeitangaben.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "Verwende das Perfekt für abgeschlossene Ereignisse und Zeitangaben für die Reihenfolge.",
+        "structure": "Gestern habe ich einen Termin vereinbart.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Gestern habe ich einen Termin vereinbart."
         ]
       },
       "grammarTest": {
@@ -1814,15 +1802,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "arbeit-und-ziele",
-    "title": "Arbeit und Ziele: Grammatik",
+    "title": "Konjunktiv II für Wünsche",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 11,
     "estimatedMinutes": 10,
-    "description": "Zeit organisieren und Lösungen vorschlagen",
+    "description": "Tema gramatical: Konjunktiv II für Wünsche.",
     "intro": "Zeit organisieren und Lösungen vorschlagen",
-    "mission": "Zeit organisieren und Lösungen vorschlagen",
+    "mission": "Estudia Konjunktiv II für Wünsche y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Wir lernen: Ziel.",
@@ -4504,11 +4492,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Hallo“. Kannst du mir helfen?"
+        "line": "Ich möchte sich begrüßen und vorstellen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -4597,11 +4585,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Termin“. Kannst du mir helfen?"
+        "line": "Ich möchte Termine vereinbaren und Gewohnheiten erklären. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -4690,11 +4678,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Ziel“. Kannst du mir helfen?"
+        "line": "Ich möchte Zeit organisieren und Lösungen vorschlagen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -5931,47 +5919,43 @@
     "extra": null,
     "exercises": [
       {
-        "id": "german-a1-im-cafe-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Wo ist Anna?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
-          "Berlin",
-          "Hamburg",
-          "München",
-          "Köln"
+          "Kaffee",
+          "Tisch",
+          "lecker",
+          "Rechnung"
         ]
       },
       {
-        "id": "german-a1-im-cafe-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Mit wem spricht Anna?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Leon",
-          "Paul",
-          "Mia",
-          "Lukas"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
-        "id": "german-a1-im-cafe-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Kannst du das bitte wiederholen?",
-          "Wo ist mein Zug?",
-          "Wie viel kostet das?",
-          "Wann beginnt die Schule?"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
-        "id": "german-a1-im-cafe-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Warum wiederholt Anna die Wörter?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Damit sie mehr Sicherheit hat",
-          "Damit sie nicht sprechen muss",
-          "Damit sie ein Ticket kauft",
-          "Damit sie Leon vermeidet"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -6637,21 +6621,18 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "im-cafe",
-    "title": "Im Café: Grammatik",
+    "title": "möchten, bestellen und Akkusativ",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 21,
     "estimatedMinutes": 10,
-    "description": "etwas bestellen und bezahlen",
+    "description": "Tema gramatical: möchten, bestellen und Akkusativ.",
     "intro": "etwas bestellen und bezahlen",
-    "mission": "etwas bestellen und bezahlen",
-    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "mission": "Lerne möchten, bestellen und Akkusativ und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "Mit möchten bestellst du höflich; viele Speisen und Getränke stehen im Akkusativ.",
     "phrases": [
-      "Wir lernen: Kaffee.",
-      "Wir lernen: Tee.",
-      "Wir lernen: Wasser.",
-      "Wir lernen: Brot."
+      "Ich möchte einen Kaffee, bitte."
     ],
     "vocabulary": [
       {
@@ -6711,12 +6692,11 @@
     "extra": {
       "grammarProfile": {
         "name": "möchten, bestellen und Akkusativ",
-        "definition": "Práctica guiada de möchten, bestellen und Akkusativ.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "Mit möchten bestellst du höflich; viele Speisen und Getränke stehen im Akkusativ.",
+        "structure": "Ich möchte einen Kaffee, bitte.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Ich möchte einen Kaffee, bitte."
         ]
       },
       "grammarTest": {
@@ -6901,21 +6881,18 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "wohnen-und-nachbarschaft",
-    "title": "Wohnen und Nachbarschaft: Grammatik",
+    "title": "Wechselpräpositionen",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 21,
     "estimatedMinutes": 10,
-    "description": "Wohnung und Nachbarschaft vergleichen",
+    "description": "Tema gramatical: Wechselpräpositionen.",
     "intro": "Wohnung und Nachbarschaft vergleichen",
-    "mission": "Wohnung und Nachbarschaft vergleichen",
-    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "mission": "Lerne Wechselpräpositionen und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "in, an, auf y otras preposiciones usan acusativo para movimiento y dativo para posición.",
     "phrases": [
-      "Wir lernen: Wohnung.",
-      "Wir lernen: Nachbar.",
-      "Wir lernen: umziehen.",
-      "Wir lernen: Miete."
+      "Ich gehe in die Wohnung. Ich bin in der Wohnung."
     ],
     "vocabulary": [
       {
@@ -6975,12 +6952,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Wechselpräpositionen",
-        "definition": "Práctica guiada de Wechselpräpositionen.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "in, an, auf y otras preposiciones usan acusativo para movimiento y dativo para posición.",
+        "structure": "Ich gehe in die Wohnung. Ich bin in der Wohnung.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Ich gehe in die Wohnung. Ich bin in der Wohnung."
         ]
       },
       "grammarTest": {
@@ -7165,15 +7141,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "bewusst-reisen",
-    "title": "Bewusst reisen: Grammatik",
+    "title": "Relativsätze",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 21,
     "estimatedMinutes": 10,
-    "description": "eine Reise erzählen und verantwortungsvoll beraten",
+    "description": "Tema gramatical: Relativsätze.",
     "intro": "eine Reise erzählen und verantwortungsvoll beraten",
-    "mission": "eine Reise erzählen und verantwortungsvoll beraten",
+    "mission": "Estudia Relativsätze y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Wir lernen: Reiseplan.",
@@ -9855,11 +9831,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Kaffee“. Kannst du mir helfen?"
+        "line": "Ich möchte etwas bestellen und bezahlen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -9948,11 +9924,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Wohnung“. Kannst du mir helfen?"
+        "line": "Ich möchte Wohnung und Nachbarschaft vergleichen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -10041,11 +10017,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Reiseplan“. Kannst du mir helfen?"
+        "line": "Ich möchte eine Reise erzählen und verantwortungsvoll beraten. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -11282,47 +11258,43 @@
     "extra": null,
     "exercises": [
       {
-        "id": "german-a1-familie-und-haus-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Wo ist Anna?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
-          "Berlin",
-          "Hamburg",
-          "München",
-          "Köln"
+          "Familie",
+          "klein",
+          "groß",
+          "zusammen"
         ]
       },
       {
-        "id": "german-a1-familie-und-haus-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Mit wem spricht Anna?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Leon",
-          "Paul",
-          "Mia",
-          "Lukas"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
-        "id": "german-a1-familie-und-haus-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Kannst du das bitte wiederholen?",
-          "Wo ist mein Zug?",
-          "Wie viel kostet das?",
-          "Wann beginnt die Schule?"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
-        "id": "german-a1-familie-und-haus-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Warum wiederholt Anna die Wörter?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Damit sie mehr Sicherheit hat",
-          "Damit sie nicht sprechen muss",
-          "Damit sie ein Ticket kauft",
-          "Damit sie Leon vermeidet"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -11988,21 +11960,18 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "familie-und-haus",
-    "title": "Familie und Haus: Grammatik",
+    "title": "Possessivartikel und Plural",
     "accessTier": "free",
     "isFree": true,
     "xpReward": 25,
     "orderIndex": 31,
     "estimatedMinutes": 10,
-    "description": "Familie und Zuhause beschreiben",
+    "description": "Tema gramatical: Possessivartikel und Plural.",
     "intro": "Familie und Zuhause beschreiben",
-    "mission": "Familie und Zuhause beschreiben",
-    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "mission": "Lerne Possessivartikel und Plural und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "mein/dein zeigen Zugehörigkeit; Nomen haben Singular und Plural.",
     "phrases": [
-      "Wir lernen: Familie.",
-      "Wir lernen: Mutter.",
-      "Wir lernen: Vater.",
-      "Wir lernen: Bruder."
+      "Das ist meine Familie. Meine Brüder wohnen hier."
     ],
     "vocabulary": [
       {
@@ -12062,12 +12031,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Possessivartikel und Plural",
-        "definition": "Práctica guiada de Possessivartikel und Plural.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "mein/dein zeigen Zugehörigkeit; Nomen haben Singular und Plural.",
+        "structure": "Das ist meine Familie. Meine Brüder wohnen hier.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Das ist meine Familie. Meine Brüder wohnen hier."
         ]
       },
       "grammarTest": {
@@ -12252,21 +12220,18 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "gesundheit",
-    "title": "Gesundheit: Grammatik",
+    "title": "Modalverben im Präteritum",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 31,
     "estimatedMinutes": 10,
-    "description": "über Beschwerden und Ratschläge sprechen",
+    "description": "Tema gramatical: Modalverben im Präteritum.",
     "intro": "über Beschwerden und Ratschläge sprechen",
-    "mission": "über Beschwerden und Ratschläge sprechen",
-    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "mission": "Lerne Modalverben im Präteritum und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "konnte, musste y wollte describen posibilidad, obligación o deseo en el pasado.",
     "phrases": [
-      "Wir lernen: Gesundheit.",
-      "Wir lernen: Arzt.",
-      "Wir lernen: Schmerz.",
-      "Wir lernen: ausruhen."
+      "Ich musste zum Arzt gehen."
     ],
     "vocabulary": [
       {
@@ -12326,12 +12291,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Modalverben im Präteritum",
-        "definition": "Práctica guiada de Modalverben im Präteritum.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "konnte, musste y wollte describen posibilidad, obligación o deseo en el pasado.",
+        "structure": "Ich musste zum Arzt gehen.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Ich musste zum Arzt gehen."
         ]
       },
       "grammarTest": {
@@ -12516,15 +12480,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "gesundheit-und-balance",
-    "title": "Gesundheit und Balance: Grammatik",
+    "title": "Passiv im Präsens",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 31,
     "estimatedMinutes": 10,
-    "description": "Gewohnheiten und persönliche Veränderungen erklären",
+    "description": "Tema gramatical: Passiv im Präsens.",
     "intro": "Gewohnheiten und persönliche Veränderungen erklären",
-    "mission": "Gewohnheiten und persönliche Veränderungen erklären",
+    "mission": "Estudia Passiv im Präsens y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Wir lernen: Wohlbefinden.",
@@ -15206,11 +15170,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Familie“. Kannst du mir helfen?"
+        "line": "Ich möchte Familie und Zuhause beschreiben. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -15299,11 +15263,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Gesundheit“. Kannst du mir helfen?"
+        "line": "Ich möchte über Beschwerden und Ratschläge sprechen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -15392,11 +15356,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Wohlbefinden“. Kannst du mir helfen?"
+        "line": "Ich möchte Gewohnheiten und persönliche Veränderungen erklären. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -16633,47 +16597,43 @@
     "extra": null,
     "exercises": [
       {
-        "id": "german-a1-einkaufen-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Wo ist Anna?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
-          "Berlin",
-          "Hamburg",
-          "München",
-          "Köln"
+          "Markt",
+          "billig",
+          "teuer",
+          "Tasche"
         ]
       },
       {
-        "id": "german-a1-einkaufen-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Mit wem spricht Anna?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Leon",
-          "Paul",
-          "Mia",
-          "Lukas"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
-        "id": "german-a1-einkaufen-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Kannst du das bitte wiederholen?",
-          "Wo ist mein Zug?",
-          "Wie viel kostet das?",
-          "Wann beginnt die Schule?"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
-        "id": "german-a1-einkaufen-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Warum wiederholt Anna die Wörter?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Damit sie mehr Sicherheit hat",
-          "Damit sie nicht sprechen muss",
-          "Damit sie ein Ticket kauft",
-          "Damit sie Leon vermeidet"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -17339,21 +17299,18 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "einkaufen",
-    "title": "Einkaufen: Grammatik",
+    "title": "kein / nicht und Mengenangaben",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 41,
     "estimatedMinutes": 10,
-    "description": "nach Preisen und Produkten fragen",
+    "description": "Tema gramatical: kein / nicht und Mengenangaben.",
     "intro": "nach Preisen und Produkten fragen",
-    "mission": "nach Preisen und Produkten fragen",
-    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "mission": "Lerne kein / nicht und Mengenangaben und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "kein verneint Nomen, nicht verneint Verben oder Eigenschaften.",
     "phrases": [
-      "Wir lernen: Markt.",
-      "Wir lernen: Preis.",
-      "Wir lernen: Euro.",
-      "Wir lernen: kaufen."
+      "Ich habe kein Brot. Das ist nicht teuer."
     ],
     "vocabulary": [
       {
@@ -17413,12 +17370,11 @@
     "extra": {
       "grammarProfile": {
         "name": "kein / nicht und Mengenangaben",
-        "definition": "Práctica guiada de kein / nicht und Mengenangaben.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "kein verneint Nomen, nicht verneint Verben oder Eigenschaften.",
+        "structure": "Ich habe kein Brot. Das ist nicht teuer.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Ich habe kein Brot. Das ist nicht teuer."
         ]
       },
       "grammarTest": {
@@ -17603,21 +17559,18 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "arbeit-und-beruf",
-    "title": "Arbeit und Beruf: Grammatik",
+    "title": "Nebensätze mit weil und dass",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 41,
     "estimatedMinutes": 10,
-    "description": "über Arbeit und Aufgaben sprechen",
+    "description": "Tema gramatical: Nebensätze mit weil und dass.",
     "intro": "über Arbeit und Aufgaben sprechen",
-    "mission": "über Arbeit und Aufgaben sprechen",
-    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "mission": "Lerne Nebensätze mit weil und dass und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "En una oración subordinada, el verbo conjugado va al final.",
     "phrases": [
-      "Wir lernen: Beruf.",
-      "Wir lernen: Aufgabe.",
-      "Wir lernen: Kollegin.",
-      "Wir lernen: Erfahrung."
+      "Ich bleibe zu Hause, weil ich krank bin."
     ],
     "vocabulary": [
       {
@@ -17677,12 +17630,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Nebensätze mit weil und dass",
-        "definition": "Práctica guiada de Nebensätze mit weil und dass.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "En una oración subordinada, el verbo conjugado va al final.",
+        "structure": "Ich bleibe zu Hause, weil ich krank bin.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Ich bleibe zu Hause, weil ich krank bin."
         ]
       },
       "grammarTest": {
@@ -17867,15 +17819,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "kultur-und-medien",
-    "title": "Kultur und Medien: Grammatik",
+    "title": "Indirekte Fragen",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 41,
     "estimatedMinutes": 10,
-    "description": "eine Meinung über Kultur und Information äußern",
+    "description": "Tema gramatical: Indirekte Fragen.",
     "intro": "eine Meinung über Kultur und Information äußern",
-    "mission": "eine Meinung über Kultur und Information äußern",
+    "mission": "Estudia Indirekte Fragen y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Wir lernen: Nachricht.",
@@ -20557,11 +20509,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Markt“. Kannst du mir helfen?"
+        "line": "Ich möchte nach Preisen und Produkten fragen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -20650,11 +20602,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Beruf“. Kannst du mir helfen?"
+        "line": "Ich möchte über Arbeit und Aufgaben sprechen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -20743,11 +20695,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Nachricht“. Kannst du mir helfen?"
+        "line": "Ich möchte eine Meinung über Kultur und Information äußern. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -21984,47 +21936,43 @@
     "extra": null,
     "exercises": [
       {
-        "id": "german-a1-in-der-stadt-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Wo ist Anna?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
-          "Berlin",
-          "Hamburg",
-          "München",
-          "Köln"
+          "Straße",
+          "nahe",
+          "Bus",
+          "Karte"
         ]
       },
       {
-        "id": "german-a1-in-der-stadt-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Mit wem spricht Anna?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Leon",
-          "Paul",
-          "Mia",
-          "Lukas"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
-        "id": "german-a1-in-der-stadt-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Kannst du das bitte wiederholen?",
-          "Wo ist mein Zug?",
-          "Wie viel kostet das?",
-          "Wann beginnt die Schule?"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
-        "id": "german-a1-in-der-stadt-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Warum wiederholt Anna die Wörter?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Damit sie mehr Sicherheit hat",
-          "Damit sie nicht sprechen muss",
-          "Damit sie ein Ticket kauft",
-          "Damit sie Leon vermeidet"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -22690,21 +22638,18 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "in-der-stadt",
-    "title": "In der Stadt: Grammatik",
+    "title": "können und Wegbeschreibung",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 51,
     "estimatedMinutes": 10,
-    "description": "Orte in der Stadt finden",
+    "description": "Tema gramatical: können und Wegbeschreibung.",
     "intro": "Orte in der Stadt finden",
-    "mission": "Orte in der Stadt finden",
-    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "mission": "Lerne können und Wegbeschreibung und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "können steht auf Position zwei, der Infinitiv am Satzende.",
     "phrases": [
-      "Wir lernen: Straße.",
-      "Wir lernen: Bahnhof.",
-      "Wir lernen: Apotheke.",
-      "Wir lernen: Schule."
+      "Kannst du mir helfen? Du kannst geradeaus gehen."
     ],
     "vocabulary": [
       {
@@ -22763,13 +22708,12 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Modalverb können und Wegbeschreibung",
-        "definition": "Práctica guiada de Modalverb können und Wegbeschreibung.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "name": "können und Wegbeschreibung",
+        "definition": "können steht auf Position zwei, der Infinitiv am Satzende.",
+        "structure": "Kannst du mir helfen? Du kannst geradeaus gehen.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Kannst du mir helfen? Du kannst geradeaus gehen."
         ]
       },
       "grammarTest": {
@@ -22954,21 +22898,18 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "reisen-und-erlebnisse",
-    "title": "Reisen und Erlebnisse: Grammatik",
+    "title": "Perfekt mit sein",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 51,
     "estimatedMinutes": 10,
-    "description": "eine Reise in der Vergangenheit erzählen",
+    "description": "Tema gramatical: Perfekt mit sein.",
     "intro": "eine Reise in der Vergangenheit erzählen",
-    "mission": "eine Reise in der Vergangenheit erzählen",
-    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "mission": "Lerne Perfekt mit sein und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "Los verbos de movimiento o cambio suelen formar el Perfekt con sein.",
     "phrases": [
-      "Wir lernen: Reise.",
-      "Wir lernen: erlebt.",
-      "Wir lernen: besucht.",
-      "Wir lernen: geblieben."
+      "Wir sind nach Berlin gefahren."
     ],
     "vocabulary": [
       {
@@ -23028,12 +22969,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt mit sein",
-        "definition": "Práctica guiada de Perfekt mit sein.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "Los verbos de movimiento o cambio suelen formar el Perfekt con sein.",
+        "structure": "Wir sind nach Berlin gefahren.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Wir sind nach Berlin gefahren."
         ]
       },
       "grammarTest": {
@@ -23218,15 +23158,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "umwelt-im-viertel",
-    "title": "Umwelt im Viertel: Grammatik",
+    "title": "Konnektoren: obwohl, trotzdem und daher",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 51,
     "estimatedMinutes": 10,
-    "description": "ein Umweltproblem und einen Vorschlag beschreiben",
+    "description": "Tema gramatical: Konnektoren: obwohl, trotzdem und daher.",
     "intro": "ein Umweltproblem und einen Vorschlag beschreiben",
-    "mission": "ein Umweltproblem und einen Vorschlag beschreiben",
+    "mission": "Estudia Konnektoren: obwohl, trotzdem und daher y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Wir lernen: Abfall.",
@@ -25908,11 +25848,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Straße“. Kannst du mir helfen?"
+        "line": "Ich möchte Orte in der Stadt finden. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -26001,11 +25941,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Reise“. Kannst du mir helfen?"
+        "line": "Ich möchte eine Reise in der Vergangenheit erzählen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -26094,11 +26034,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Abfall“. Kannst du mir helfen?"
+        "line": "Ich möchte ein Umweltproblem und einen Vorschlag beschreiben. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -27335,47 +27275,43 @@
     "extra": null,
     "exercises": [
       {
-        "id": "german-a1-schule-und-freunde-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Wo ist Anna?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
-          "Berlin",
-          "Hamburg",
-          "München",
-          "Köln"
+          "Schule",
+          "heute",
+          "morgen",
+          "zusammen"
         ]
       },
       {
-        "id": "german-a1-schule-und-freunde-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Mit wem spricht Anna?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Leon",
-          "Paul",
-          "Mia",
-          "Lukas"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
-        "id": "german-a1-schule-und-freunde-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Kannst du das bitte wiederholen?",
-          "Wo ist mein Zug?",
-          "Wie viel kostet das?",
-          "Wann beginnt die Schule?"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
-        "id": "german-a1-schule-und-freunde-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Warum wiederholt Anna die Wörter?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Damit sie mehr Sicherheit hat",
-          "Damit sie nicht sprechen muss",
-          "Damit sie ein Ticket kauft",
-          "Damit sie Leon vermeidet"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -28041,21 +27977,18 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "schule-und-freunde",
-    "title": "Schule und Freunde: Grammatik",
+    "title": "Präsens trennbarer Verben",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 61,
     "estimatedMinutes": 10,
-    "description": "über Schule und Freizeit sprechen",
+    "description": "Tema gramatical: Präsens trennbarer Verben.",
     "intro": "über Schule und Freizeit sprechen",
-    "mission": "über Schule und Freizeit sprechen",
-    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "mission": "Lerne Präsens trennbarer Verben und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "Bei trennbaren Verben steht die Vorsilbe am Satzende.",
     "phrases": [
-      "Wir lernen: Schule.",
-      "Wir lernen: Klasse.",
-      "Wir lernen: Lehrer.",
-      "Wir lernen: Freund."
+      "Ich stehe um sieben Uhr auf."
     ],
     "vocabulary": [
       {
@@ -28115,12 +28048,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Präsens trennbarer Verben",
-        "definition": "Práctica guiada de Präsens trennbarer Verben.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "Bei trennbaren Verben steht die Vorsilbe am Satzende.",
+        "structure": "Ich stehe um sieben Uhr auf.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Ich stehe um sieben Uhr auf."
         ]
       },
       "grammarTest": {
@@ -28305,21 +28237,18 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "essen-und-kultur",
-    "title": "Essen und Kultur: Grammatik",
+    "title": "Dativ und Akkusativ",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 61,
     "estimatedMinutes": 10,
-    "description": "Rezepte und Gewohnheiten beschreiben",
+    "description": "Tema gramatical: Dativ und Akkusativ.",
     "intro": "Rezepte und Gewohnheiten beschreiben",
-    "mission": "Rezepte und Gewohnheiten beschreiben",
-    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "mission": "Lerne Dativ und Akkusativ und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "El dativo suele marcar a la persona y el acusativo la cosa.",
     "phrases": [
-      "Wir lernen: Rezept.",
-      "Wir lernen: Zutaten.",
-      "Wir lernen: kochen.",
-      "Wir lernen: Geschmack."
+      "Ich gebe dem Freund ein Buch."
     ],
     "vocabulary": [
       {
@@ -28379,12 +28308,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Dativ und Akkusativ",
-        "definition": "Práctica guiada de Dativ und Akkusativ.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "El dativo suele marcar a la persona y el acusativo la cosa.",
+        "structure": "Ich gebe dem Freund ein Buch.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Ich gebe dem Freund ein Buch."
         ]
       },
       "grammarTest": {
@@ -28569,15 +28497,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "geschichten-und-erinnerungen",
-    "title": "Geschichten und Erinnerungen: Grammatik",
+    "title": "Plusquamperfekt",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 61,
     "estimatedMinutes": 10,
-    "description": "Erlebnisse erzählen und mit der Gegenwart verbinden",
+    "description": "Tema gramatical: Plusquamperfekt.",
     "intro": "Erlebnisse erzählen und mit der Gegenwart verbinden",
-    "mission": "Erlebnisse erzählen und mit der Gegenwart verbinden",
+    "mission": "Estudia Plusquamperfekt y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Wir lernen: Erinnerung.",
@@ -31259,11 +31187,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Schule“. Kannst du mir helfen?"
+        "line": "Ich möchte über Schule und Freizeit sprechen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -31352,11 +31280,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Rezept“. Kannst du mir helfen?"
+        "line": "Ich möchte Rezepte und Gewohnheiten beschreiben. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -31445,11 +31373,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Erinnerung“. Kannst du mir helfen?"
+        "line": "Ich möchte Erlebnisse erzählen und mit der Gegenwart verbinden. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -32686,47 +32614,43 @@
     "extra": null,
     "exercises": [
       {
-        "id": "german-a1-zu-hause-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Wo ist Anna?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
-          "Berlin",
-          "Hamburg",
-          "München",
-          "Köln"
+          "aufstehen",
+          "abends",
+          "Haushalt",
+          "ruhig"
         ]
       },
       {
-        "id": "german-a1-zu-hause-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Mit wem spricht Anna?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Leon",
-          "Paul",
-          "Mia",
-          "Lukas"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
-        "id": "german-a1-zu-hause-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Kannst du das bitte wiederholen?",
-          "Wo ist mein Zug?",
-          "Wie viel kostet das?",
-          "Wann beginnt die Schule?"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
-        "id": "german-a1-zu-hause-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Warum wiederholt Anna die Wörter?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Damit sie mehr Sicherheit hat",
-          "Damit sie nicht sprechen muss",
-          "Damit sie ein Ticket kauft",
-          "Damit sie Leon vermeidet"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -33392,21 +33316,18 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "zu-hause",
-    "title": "Zu Hause: Grammatik",
+    "title": "Akkusativartikel im Alltag",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 71,
     "estimatedMinutes": 10,
-    "description": "einen Tagesablauf beschreiben",
+    "description": "Tema gramatical: Akkusativartikel im Alltag.",
     "intro": "einen Tagesablauf beschreiben",
-    "mission": "einen Tagesablauf beschreiben",
-    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "mission": "Lerne Akkusativartikel im Alltag und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "Der Akkusativ verändert den bestimmten und unbestimmten Artikel.",
     "phrases": [
-      "Wir lernen: aufstehen.",
-      "Wir lernen: frühstücken.",
-      "Wir lernen: arbeiten.",
-      "Wir lernen: kochen."
+      "Ich sehe den Tisch und kaufe einen Stuhl."
     ],
     "vocabulary": [
       {
@@ -33466,12 +33387,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Akkusativartikel im Alltag",
-        "definition": "Práctica guiada de Akkusativartikel im Alltag.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "Der Akkusativ verändert den bestimmten und unbestimmten Artikel.",
+        "structure": "Ich sehe den Tisch und kaufe einen Stuhl.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Ich sehe den Tisch und kaufe einen Stuhl."
         ]
       },
       "grammarTest": {
@@ -33656,21 +33576,18 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "natur-und-umwelt",
-    "title": "Natur und Umwelt: Grammatik",
+    "title": "Komparativ und Superlativ",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 71,
     "estimatedMinutes": 10,
-    "description": "über Umwelt im Alltag sprechen",
+    "description": "Tema gramatical: Komparativ und Superlativ.",
     "intro": "über Umwelt im Alltag sprechen",
-    "mission": "über Umwelt im Alltag sprechen",
-    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "mission": "Lerne Komparativ und Superlativ und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "Usa -er y am ...-sten para comparar.",
     "phrases": [
-      "Wir lernen: Umwelt.",
-      "Wir lernen: Müll.",
-      "Wir lernen: trennen.",
-      "Wir lernen: Energie."
+      "Der Park ist größer als der Platz."
     ],
     "vocabulary": [
       {
@@ -33730,12 +33647,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Komparativ und Superlativ",
-        "definition": "Práctica guiada de Komparativ und Superlativ.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "Usa -er y am ...-sten para comparar.",
+        "structure": "Der Park ist größer als der Platz.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Der Park ist größer als der Platz."
         ]
       },
       "grammarTest": {
@@ -33920,15 +33836,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "gemeinschaftsprojekt",
-    "title": "Gemeinschaftsprojekt: Grammatik",
+    "title": "Partizipien als Adjektive",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 71,
     "estimatedMinutes": 10,
-    "description": "ein Projekt vorstellen und Aufgaben verteilen",
+    "description": "Tema gramatical: Partizipien als Adjektive.",
     "intro": "ein Projekt vorstellen und Aufgaben verteilen",
-    "mission": "ein Projekt vorstellen und Aufgaben verteilen",
+    "mission": "Estudia Partizipien als Adjektive y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Wir lernen: Projekt.",
@@ -36610,11 +36526,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: aufstehen“. Kannst du mir helfen?"
+        "line": "Ich möchte einen Tagesablauf beschreiben. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -36703,11 +36619,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Umwelt“. Kannst du mir helfen?"
+        "line": "Ich möchte über Umwelt im Alltag sprechen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -36796,11 +36712,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Projekt“. Kannst du mir helfen?"
+        "line": "Ich möchte ein Projekt vorstellen und Aufgaben verteilen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -38037,47 +37953,43 @@
     "extra": null,
     "exercises": [
       {
-        "id": "german-a1-wetter-und-jahreszeiten-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Wo ist Anna?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
-          "Berlin",
-          "Hamburg",
-          "München",
-          "Köln"
+          "Wetter",
+          "Jacke",
+          "heute",
+          "draußen"
         ]
       },
       {
-        "id": "german-a1-wetter-und-jahreszeiten-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Mit wem spricht Anna?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Leon",
-          "Paul",
-          "Mia",
-          "Lukas"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
-        "id": "german-a1-wetter-und-jahreszeiten-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Kannst du das bitte wiederholen?",
-          "Wo ist mein Zug?",
-          "Wie viel kostet das?",
-          "Wann beginnt die Schule?"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
-        "id": "german-a1-wetter-und-jahreszeiten-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Warum wiederholt Anna die Wörter?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Damit sie mehr Sicherheit hat",
-          "Damit sie nicht sprechen muss",
-          "Damit sie ein Ticket kauft",
-          "Damit sie Leon vermeidet"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -38743,21 +38655,18 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "wetter-und-jahreszeiten",
-    "title": "Wetter und Jahreszeiten: Grammatik",
+    "title": "Wetter, es gibt und Zeitangaben",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 81,
     "estimatedMinutes": 10,
-    "description": "über Wetter und Kleidung sprechen",
+    "description": "Tema gramatical: Wetter, es gibt und Zeitangaben.",
     "intro": "über Wetter und Kleidung sprechen",
-    "mission": "über Wetter und Kleidung sprechen",
-    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "mission": "Lerne Wetter, es gibt und Zeitangaben und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "Es gibt nennt etwas Vorhandenes; Zeitangaben strukturieren den Satz.",
     "phrases": [
-      "Wir lernen: Wetter.",
-      "Wir lernen: Sonne.",
-      "Wir lernen: Regen.",
-      "Wir lernen: kalt."
+      "Heute gibt es Regen. Im Sommer ist es warm."
     ],
     "vocabulary": [
       {
@@ -38817,12 +38726,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Wetter, es gibt und Zeitangaben",
-        "definition": "Práctica guiada de Wetter, es gibt und Zeitangaben.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "Es gibt nennt etwas Vorhandenes; Zeitangaben strukturieren den Satz.",
+        "structure": "Heute gibt es Regen. Im Sommer ist es warm.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Heute gibt es Regen. Im Sommer ist es warm."
         ]
       },
       "grammarTest": {
@@ -39007,21 +38915,18 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "medien-und-kommunikation",
-    "title": "Medien und Kommunikation: Grammatik",
+    "title": "Reflexive Verben",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 81,
     "estimatedMinutes": 10,
-    "description": "Nachrichten und Mediengewohnheiten beschreiben",
+    "description": "Tema gramatical: Reflexive Verben.",
     "intro": "Nachrichten und Mediengewohnheiten beschreiben",
-    "mission": "Nachrichten und Mediengewohnheiten beschreiben",
-    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "mission": "Lerne Reflexive Verben und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "Los verbos reflexivos se usan con mich, dich, sich, uns o euch.",
     "phrases": [
-      "Wir lernen: Nachricht.",
-      "Wir lernen: Zeitung.",
-      "Wir lernen: Handy.",
-      "Wir lernen: Internet."
+      "Ich interessiere mich für Musik."
     ],
     "vocabulary": [
       {
@@ -39081,12 +38986,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Reflexive Verben",
-        "definition": "Práctica guiada de Reflexive Verben.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "Los verbos reflexivos se usan con mich, dich, sich, uns o euch.",
+        "structure": "Ich interessiere mich für Musik.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Ich interessiere mich für Musik."
         ]
       },
       "grammarTest": {
@@ -39271,15 +39175,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "technik-im-alltag",
-    "title": "Technik im Alltag: Grammatik",
+    "title": "Meinung und Argumentation",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 81,
     "estimatedMinutes": 10,
-    "description": "Technik mit Argumenten bewerten",
+    "description": "Tema gramatical: Meinung und Argumentation.",
     "intro": "Technik mit Argumenten bewerten",
-    "mission": "Technik mit Argumenten bewerten",
+    "mission": "Estudia Meinung und Argumentation y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Wir lernen: Technik.",
@@ -41961,11 +41865,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Wetter“. Kannst du mir helfen?"
+        "line": "Ich möchte über Wetter und Kleidung sprechen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -42054,11 +41958,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Nachricht“. Kannst du mir helfen?"
+        "line": "Ich möchte Nachrichten und Mediengewohnheiten beschreiben. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -42147,11 +42051,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Technik“. Kannst du mir helfen?"
+        "line": "Ich möchte Technik mit Argumenten bewerten. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -43388,47 +43292,43 @@
     "extra": null,
     "exercises": [
       {
-        "id": "german-a1-freizeit-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Wo ist Anna?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
-          "Berlin",
-          "Hamburg",
-          "München",
-          "Köln"
+          "Hobby",
+          "manchmal",
+          "oft",
+          "Zeit"
         ]
       },
       {
-        "id": "german-a1-freizeit-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Mit wem spricht Anna?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Leon",
-          "Paul",
-          "Mia",
-          "Lukas"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
-        "id": "german-a1-freizeit-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Kannst du das bitte wiederholen?",
-          "Wo ist mein Zug?",
-          "Wie viel kostet das?",
-          "Wann beginnt die Schule?"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
-        "id": "german-a1-freizeit-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Warum wiederholt Anna die Wörter?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Damit sie mehr Sicherheit hat",
-          "Damit sie nicht sprechen muss",
-          "Damit sie ein Ticket kauft",
-          "Damit sie Leon vermeidet"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -44094,21 +43994,18 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "freizeit",
-    "title": "Freizeit: Grammatik",
+    "title": "gern, lieber und Freizeit",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 91,
     "estimatedMinutes": 10,
-    "description": "über Hobbys sprechen",
+    "description": "Tema gramatical: gern, lieber und Freizeit.",
     "intro": "über Hobbys sprechen",
-    "mission": "über Hobbys sprechen",
-    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "mission": "Lerne gern, lieber und Freizeit und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "gern und lieber drücken Vorlieben aus.",
     "phrases": [
-      "Wir lernen: Hobby.",
-      "Wir lernen: lesen.",
-      "Wir lernen: laufen.",
-      "Wir lernen: Kino."
+      "Ich lese gern, aber ich spiele lieber Fußball."
     ],
     "vocabulary": [
       {
@@ -44168,12 +44065,11 @@
     "extra": {
       "grammarProfile": {
         "name": "gern, lieber und Freizeit",
-        "definition": "Práctica guiada de gern, lieber und Freizeit.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "gern und lieber drücken Vorlieben aus.",
+        "structure": "Ich lese gern, aber ich spiele lieber Fußball.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Ich lese gern, aber ich spiele lieber Fußball."
         ]
       },
       "grammarTest": {
@@ -44358,21 +44254,18 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "lernen-und-ziele",
-    "title": "Lernen und Ziele: Grammatik",
+    "title": "zu + Infinitiv",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 91,
     "estimatedMinutes": 10,
-    "description": "Lernziele und Fortschritt erklären",
+    "description": "Tema gramatical: zu + Infinitiv.",
     "intro": "Lernziele und Fortschritt erklären",
-    "mission": "Lernziele und Fortschritt erklären",
-    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "mission": "Lerne zu + Infinitiv und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "zu + infinitivo expresa intención, plan o necesidad.",
     "phrases": [
-      "Wir lernen: Ziel.",
-      "Wir lernen: Kurs.",
-      "Wir lernen: üben.",
-      "Wir lernen: Fortschritt."
+      "Ich versuche, jeden Tag zu üben."
     ],
     "vocabulary": [
       {
@@ -44432,12 +44325,11 @@
     "extra": {
       "grammarProfile": {
         "name": "zu + Infinitiv",
-        "definition": "Práctica guiada de zu + Infinitiv.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "zu + infinitivo expresa intención, plan o necesidad.",
+        "structure": "Ich versuche, jeden Tag zu üben.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Ich versuche, jeden Tag zu üben."
         ]
       },
       "grammarTest": {
@@ -44622,15 +44514,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "stadt-und-mobilitat",
-    "title": "Stadt und Mobilität: Grammatik",
+    "title": "Futur I und Vermutungen",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 91,
     "estimatedMinutes": 10,
-    "description": "städtische Mobilität vergleichen",
+    "description": "Tema gramatical: Futur I und Vermutungen.",
     "intro": "städtische Mobilität vergleichen",
-    "mission": "städtische Mobilität vergleichen",
+    "mission": "Estudia Futur I und Vermutungen y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Wir lernen: Verkehr.",
@@ -47312,11 +47204,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Hobby“. Kannst du mir helfen?"
+        "line": "Ich möchte über Hobbys sprechen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -47405,11 +47297,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Ziel“. Kannst du mir helfen?"
+        "line": "Ich möchte Lernziele und Fortschritt erklären. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -47498,11 +47390,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Verkehr“. Kannst du mir helfen?"
+        "line": "Ich möchte städtische Mobilität vergleichen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -48739,47 +48631,43 @@
     "extra": null,
     "exercises": [
       {
-        "id": "german-a1-unterwegs-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Wo ist Anna?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
-          "Berlin",
-          "Hamburg",
-          "München",
-          "Köln"
+          "Zug",
+          "warten",
+          "fahren",
+          "besuchen"
         ]
       },
       {
-        "id": "german-a1-unterwegs-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Mit wem spricht Anna?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Leon",
-          "Paul",
-          "Mia",
-          "Lukas"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
-        "id": "german-a1-unterwegs-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Kannst du das bitte wiederholen?",
-          "Wo ist mein Zug?",
-          "Wie viel kostet das?",
-          "Wann beginnt die Schule?"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
-        "id": "german-a1-unterwegs-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Warum wiederholt Anna die Wörter?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Damit sie mehr Sicherheit hat",
-          "Damit sie nicht sprechen muss",
-          "Damit sie ein Ticket kauft",
-          "Damit sie Leon vermeidet"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -49445,21 +49333,18 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "unterwegs",
-    "title": "Unterwegs: Grammatik",
+    "title": "Perfekt mit haben",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 101,
     "estimatedMinutes": 10,
-    "description": "eine einfache Reise planen",
+    "description": "Tema gramatical: Perfekt mit haben.",
     "intro": "eine einfache Reise planen",
-    "mission": "eine einfache Reise planen",
-    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "mission": "Lerne Perfekt mit haben und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "Das Perfekt bildet man mit haben und Partizip II.",
     "phrases": [
-      "Wir lernen: Zug.",
-      "Wir lernen: Ticket.",
-      "Wir lernen: Abfahrt.",
-      "Wir lernen: Ankunft."
+      "Ich habe ein Ticket gekauft."
     ],
     "vocabulary": [
       {
@@ -49519,12 +49404,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Perfekt mit haben",
-        "definition": "Práctica guiada de Perfekt mit haben.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "Das Perfekt bildet man mit haben und Partizip II.",
+        "structure": "Ich habe ein Ticket gekauft.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Ich habe ein Ticket gekauft."
         ]
       },
       "grammarTest": {
@@ -49709,21 +49593,18 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "stadt-und-service",
-    "title": "Stadt und Service: Grammatik",
+    "title": "Konjunktiv II: höfliche Bitten",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 101,
     "estimatedMinutes": 10,
-    "description": "Probleme in der Stadt lösen",
+    "description": "Tema gramatical: Konjunktiv II: höfliche Bitten.",
     "intro": "Probleme in der Stadt lösen",
-    "mission": "Probleme in der Stadt lösen",
-    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "mission": "Lerne Konjunktiv II: höfliche Bitten und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "würde, könnte y hätte hacen las peticiones más corteses.",
     "phrases": [
-      "Wir lernen: Service.",
-      "Wir lernen: Formular.",
-      "Wir lernen: Rathaus.",
-      "Wir lernen: Auskunft."
+      "Könnten Sie mir bitte helfen?"
     ],
     "vocabulary": [
       {
@@ -49783,12 +49664,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Konjunktiv II: höfliche Bitten",
-        "definition": "Práctica guiada de Konjunktiv II: höfliche Bitten.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "würde, könnte y hätte hacen las peticiones más corteses.",
+        "structure": "Könnten Sie mir bitte helfen?",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Könnten Sie mir bitte helfen?"
         ]
       },
       "grammarTest": {
@@ -49973,15 +49853,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "plane-fur-die-zukunft",
-    "title": "Pläne für die Zukunft: Grammatik",
+    "title": "Verben mit Präpositionen",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 101,
     "estimatedMinutes": 10,
-    "description": "über Ziele und Möglichkeiten sprechen",
+    "description": "Tema gramatical: Verben mit Präpositionen.",
     "intro": "über Ziele und Möglichkeiten sprechen",
-    "mission": "über Ziele und Möglichkeiten sprechen",
+    "mission": "Estudia Verben mit Präpositionen y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Wir lernen: Zukunft.",
@@ -52663,11 +52543,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Zug“. Kannst du mir helfen?"
+        "line": "Ich möchte eine einfache Reise planen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -52756,11 +52636,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Service“. Kannst du mir helfen?"
+        "line": "Ich möchte Probleme in der Stadt lösen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -52849,11 +52729,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Zukunft“. Kannst du mir helfen?"
+        "line": "Ich möchte über Ziele und Möglichkeiten sprechen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -54090,47 +53970,43 @@
     "extra": null,
     "exercises": [
       {
-        "id": "german-a1-kleidung-und-farben-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Wo ist Anna?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
-          "Berlin",
-          "Hamburg",
-          "München",
-          "Köln"
+          "Kleidung",
+          "tragen",
+          "passen",
+          "kaufen"
         ]
       },
       {
-        "id": "german-a1-kleidung-und-farben-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Mit wem spricht Anna?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Leon",
-          "Paul",
-          "Mia",
-          "Lukas"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
-        "id": "german-a1-kleidung-und-farben-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Kannst du das bitte wiederholen?",
-          "Wo ist mein Zug?",
-          "Wie viel kostet das?",
-          "Wann beginnt die Schule?"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
-        "id": "german-a1-kleidung-und-farben-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Warum wiederholt Anna die Wörter?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Damit sie mehr Sicherheit hat",
-          "Damit sie nicht sprechen muss",
-          "Damit sie ein Ticket kauft",
-          "Damit sie Leon vermeidet"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -54796,21 +54672,18 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "kleidung-und-farben",
-    "title": "Kleidung und Farben: Grammatik",
+    "title": "Adjektive und Farben",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 111,
     "estimatedMinutes": 10,
-    "description": "Kleidung beschreiben und auswählen",
+    "description": "Tema gramatical: Adjektive und Farben.",
     "intro": "Kleidung beschreiben und auswählen",
-    "mission": "Kleidung beschreiben und auswählen",
-    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "mission": "Lerne Adjektive und Farben und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "Adjektive beschreiben Nomen und folgen häufig dem Nomen.",
     "phrases": [
-      "Wir lernen: Kleidung.",
-      "Wir lernen: Hemd.",
-      "Wir lernen: Hose.",
-      "Wir lernen: Kleid."
+      "Das blaue Hemd ist schön."
     ],
     "vocabulary": [
       {
@@ -54869,13 +54742,12 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Kleidung: Adjektive und Farben",
-        "definition": "Práctica guiada de Kleidung: Adjektive und Farben.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "name": "Adjektive und Farben",
+        "definition": "Adjektive beschreiben Nomen und folgen häufig dem Nomen.",
+        "structure": "Das blaue Hemd ist schön.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Das blaue Hemd ist schön."
         ]
       },
       "grammarTest": {
@@ -55060,21 +54932,18 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "feste-und-traditionen",
-    "title": "Feste und Traditionen: Grammatik",
+    "title": "Perfekt y conectores de secuencia",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 111,
     "estimatedMinutes": 10,
-    "description": "Feste und Abläufe in der Vergangenheit beschreiben",
+    "description": "Tema gramatical: Perfekt y conectores de secuencia.",
     "intro": "Feste und Abläufe in der Vergangenheit beschreiben",
-    "mission": "Feste und Abläufe in der Vergangenheit beschreiben",
-    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "mission": "Lerne Perfekt y conectores de secuencia und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "Primero, después y al final organizan una historia en pasado.",
     "phrases": [
-      "Wir lernen: Fest.",
-      "Wir lernen: Tradition.",
-      "Wir lernen: feiern.",
-      "Wir lernen: vorbereitet."
+      "Zuerst haben wir gegessen, dann haben wir gefeiert."
     ],
     "vocabulary": [
       {
@@ -55133,13 +55002,12 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Feste: Perfekt und Reihenfolge",
-        "definition": "Práctica guiada de Feste: Perfekt und Reihenfolge.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "name": "Perfekt y conectores de secuencia",
+        "definition": "Primero, después y al final organizan una historia en pasado.",
+        "structure": "Zuerst haben wir gegessen, dann haben wir gefeiert.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Zuerst haben wir gegessen, dann haben wir gefeiert."
         ]
       },
       "grammarTest": {
@@ -55324,15 +55192,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "beziehungen-und-kommunikation",
-    "title": "Beziehungen und Kommunikation: Grammatik",
+    "title": "Beziehungen: Relativsätze und indirekte Fragen",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 111,
     "estimatedMinutes": 10,
-    "description": "über Beziehungen sprechen und Informationen weitergeben",
+    "description": "Tema gramatical: Beziehungen: Relativsätze und indirekte Fragen.",
     "intro": "über Beziehungen sprechen und Informationen weitergeben",
-    "mission": "über Beziehungen sprechen und Informationen weitergeben",
+    "mission": "Estudia Beziehungen: Relativsätze und indirekte Fragen y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Wir lernen: Beziehung.",
@@ -58014,11 +57882,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Kleidung“. Kannst du mir helfen?"
+        "line": "Ich möchte Kleidung beschreiben und auswählen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -58107,11 +57975,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Fest“. Kannst du mir helfen?"
+        "line": "Ich möchte Feste und Abläufe in der Vergangenheit beschreiben. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -58200,11 +58068,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Beziehung“. Kannst du mir helfen?"
+        "line": "Ich möchte über Beziehungen sprechen und Informationen weitergeben. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -59441,47 +59309,43 @@
     "extra": null,
     "exercises": [
       {
-        "id": "german-a1-geburtstag-und-einladung-reading-reading-comprehension-1",
         "type": "mcq",
-        "prompt": "Wo ist Anna?",
+        "prompt": "Worüber spricht die Gruppe?",
         "options": [
-          "Berlin",
-          "Hamburg",
-          "München",
-          "Köln"
+          "Geburtstag",
+          "kommen",
+          "bringen",
+          "Geschenk"
         ]
       },
       {
-        "id": "german-a1-geburtstag-und-einladung-reading-reading-comprehension-2",
         "type": "mcq",
-        "prompt": "Mit wem spricht Anna?",
+        "prompt": "Was macht jede Person?",
         "options": [
-          "Leon",
-          "Paul",
-          "Mia",
-          "Lukas"
+          "Erzählt von einer Erfahrung, hört zu und schlägt eine Lösung vor.",
+          "Kauft eine Eintrittskarte für eine Veranstaltung.",
+          "Hört den anderen Personen nicht zu.",
+          "Sagt das Projekt ab."
         ]
       },
       {
-        "id": "german-a1-geburtstag-und-einladung-reading-reading-comprehension-3",
         "type": "mcq",
-        "prompt": "Was fragt Anna, wenn sie ein Wort nicht versteht?",
+        "prompt": "Warum arbeiten sie zusammen?",
         "options": [
-          "Kannst du das bitte wiederholen?",
-          "Wo ist mein Zug?",
-          "Wie viel kostet das?",
-          "Wann beginnt die Schule?"
+          "Weil sie ein klares Ziel haben.",
+          "Weil sie keine Zeit haben.",
+          "Weil sie das Thema nicht kennen.",
+          "Weil sie lieber allein arbeiten."
         ]
       },
       {
-        "id": "german-a1-geburtstag-und-einladung-reading-reading-comprehension-4",
         "type": "mcq",
-        "prompt": "Warum wiederholt Anna die Wörter?",
+        "prompt": "Welche Idee hilft im Alltag?",
         "options": [
-          "Damit sie mehr Sicherheit hat",
-          "Damit sie nicht sprechen muss",
-          "Damit sie ein Ticket kauft",
-          "Damit sie Leon vermeidet"
+          "Eine konkrete Lösung, die gemeinsam umgesetzt wird.",
+          "Eine Liste ohne Zusammenhang.",
+          "Eine Diskussion ohne Ziel.",
+          "Eine Entscheidung von nur einer Person."
         ]
       }
     ]
@@ -60147,21 +60011,18 @@
     "level": "A1",
     "skill": "grammar",
     "unitId": "geburtstag-und-einladung",
-    "title": "Geburtstag und Einladung: Grammatik",
+    "title": "Einladung: möchten und Uhrzeiten",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 121,
     "estimatedMinutes": 10,
-    "description": "eine Einladung verstehen und Uhrzeiten nennen",
+    "description": "Tema gramatical: Einladung: möchten und Uhrzeiten.",
     "intro": "eine Einladung verstehen und Uhrzeiten nennen",
-    "mission": "eine Einladung verstehen und Uhrzeiten nennen",
-    "grammar": "Frases afirmativas, preguntas simples y vocabulario básico.",
+    "mission": "Lerne Einladung: möchten und Uhrzeiten und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "Mit möchten formulierst du eine höfliche Einladung und nennst Uhrzeiten.",
     "phrases": [
-      "Wir lernen: Geburtstag.",
-      "Wir lernen: Einladung.",
-      "Wir lernen: feiern.",
-      "Wir lernen: Uhr."
+      "Möchtest du um acht Uhr kommen?"
     ],
     "vocabulary": [
       {
@@ -60221,12 +60082,11 @@
     "extra": {
       "grammarProfile": {
         "name": "Einladung: möchten und Uhrzeiten",
-        "definition": "Práctica guiada de Einladung: möchten und Uhrzeiten.",
-        "structure": "Subjekt + Verb + Ergänzung",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "definition": "Mit möchten formulierst du eine höfliche Einladung und nennst Uhrzeiten.",
+        "structure": "Möchtest du um acht Uhr kommen?",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Ich wohne im Viertel.",
-          "Leon spricht mit Anna."
+          "Möchtest du um acht Uhr kommen?"
         ]
       },
       "grammarTest": {
@@ -60411,21 +60271,18 @@
     "level": "A2",
     "skill": "grammar",
     "unitId": "wohnungssuche",
-    "title": "Wohnungssuche: Grammatik",
+    "title": "Wohnungssuche: preposiciones y comparativos",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 121,
     "estimatedMinutes": 10,
-    "description": "Wohnungen vergleichen und Lage beschreiben",
+    "description": "Tema gramatical: Wohnungssuche: preposiciones y comparativos.",
     "intro": "Wohnungen vergleichen und Lage beschreiben",
-    "mission": "Wohnungen vergleichen und Lage beschreiben",
-    "grammar": "Presente, pasado cotidiano, conectores y expresiones funcionales.",
+    "mission": "Lerne Wohnungssuche: preposiciones y comparativos und verwende die Struktur in einem eigenen Satz.",
+    "grammar": "Combina preposiciones de lugar y comparativos para describir viviendas.",
     "phrases": [
-      "Wir lernen: Wohnung.",
-      "Wir lernen: Zimmer.",
-      "Wir lernen: Miete.",
-      "Wir lernen: suchen."
+      "Die Wohnung ist größer als das Zimmer neben dem Park."
     ],
     "vocabulary": [
       {
@@ -60484,13 +60341,12 @@
     "transcript": "",
     "extra": {
       "grammarProfile": {
-        "name": "Wohnungssuche: Wechselpräpositionen und Vergleich",
-        "definition": "Práctica guiada de Wohnungssuche: Wechselpräpositionen und Vergleich.",
-        "structure": "haben/sein + Partizip II",
-        "function": "Usar la estructura con precisión en contextos cotidianos.",
+        "name": "Wohnungssuche: preposiciones y comparativos",
+        "definition": "Combina preposiciones de lugar y comparativos para describir viviendas.",
+        "structure": "Die Wohnung ist größer als das Zimmer neben dem Park.",
+        "function": "Die Struktur in einer Alltagssituation korrekt verwenden.",
         "examples": [
-          "Gestern habe ich das Museum besucht.",
-          "Danach haben wir zusammen gesprochen."
+          "Die Wohnung ist größer als das Zimmer neben dem Park."
         ]
       },
       "grammarTest": {
@@ -60675,15 +60531,15 @@
     "level": "B1",
     "skill": "grammar",
     "unitId": "gesellschaft-und-mitwirkung",
-    "title": "Gesellschaft und Mitwirkung: Grammatik",
+    "title": "Gesellschaft: Konjunktiv II und Argumentation",
     "accessTier": "premium",
     "isFree": false,
     "xpReward": 25,
     "orderIndex": 121,
     "estimatedMinutes": 10,
-    "description": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "description": "Tema gramatical: Gesellschaft: Konjunktiv II und Argumentation.",
     "intro": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
-    "mission": "Vorschläge machen und gesellschaftliche Beteiligung begründen",
+    "mission": "Estudia Gesellschaft: Konjunktiv II und Argumentation y úsalo con precisión en contexto.",
     "grammar": "Conectores, contraste, opinión justificada y estructuras para explicar causas y consecuencias.",
     "phrases": [
       "Wir lernen: Gesellschaft.",
@@ -63365,11 +63221,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Geburtstag“. Kannst du mir helfen?"
+        "line": "Ich möchte eine Einladung verstehen und Uhrzeiten nennen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -63458,11 +63314,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Wohnung“. Kannst du mir helfen?"
+        "line": "Ich möchte Wohnungen vergleichen und Lage beschreiben. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
@@ -63551,11 +63407,11 @@
     "dialogue": [
       {
         "speaker": "A",
-        "line": "Ich möchte diesen Ausdruck üben: „Wir lernen: Gesellschaft“. Kannst du mir helfen?"
+        "line": "Ich möchte Vorschläge machen und gesellschaftliche Beteiligung begründen. Kannst du mir helfen?"
       },
       {
         "speaker": "B",
-        "line": "Gern. Verwende ihn in einem vollständigen Satz, dann antworte ich dir."
+        "line": "Ja, gern. Lass uns Schritt für Schritt sprechen."
       }
     ],
     "reading": null,
