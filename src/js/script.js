@@ -15922,12 +15922,12 @@ function getVocabularyExampleFallbacks(word, seed, language) {
     .replace(/\s+/g, ' ')
     .trim();
   const practicalFrenchContexts = {
-    bonjour: ['Bonjour, j’ai rendez-vous à dix heures.', 'Bonjour, est-ce que ce bus va à la gare ?'],
-    salut: ['Salut, tu viens au cours ce soir ?', 'Salut, je t’envoie les notes après la classe.'],
-    merci: ['Merci pour votre aide à la pharmacie.', 'Merci, l’addition est correcte.'],
+    bonjour: ['À l’accueil, je dis bonjour à Madame Martin.', 'Avant de monter dans le bus, il me dit bonjour.'],
+    salut: ['En arrivant au cours, Karim lance : « Salut ! »', 'Après la classe, je lui dis salut.'],
+    merci: ['Léa reçoit mon message et je lui dis merci.', 'Pour votre aide à la pharmacie, merci beaucoup.'],
     'sil te plait': ['Tu peux fermer la fenêtre, s’il te plaît ?', 'Un croissant, s’il te plaît.'],
-    enchante: ['Enchantée, je suis la nouvelle voisine.', 'Enchanté de faire votre connaissance.'],
-    'au revoir': ['Au revoir, à demain au bureau !', 'Au revoir, bonne route et bon voyage !'],
+    enchante: ['Quand je rencontre ma voisine, je dis : « Enchantée. »', 'Nous faisons connaissance : enchanté !'],
+    'au revoir': ['À la fin du cours, on se dit au revoir.', 'Bonne route, et au revoir !'],
     'excusez-moi': ['Excusez-moi, où se trouve la sortie ?', 'Excusez-moi, ce siège est libre ?'],
     pardon: ['Pardon, je n’ai pas bien entendu.', 'Pardon, je descends au prochain arrêt.'],
     oui: ['Oui, je voudrais prendre rendez-vous.', 'Oui, la carte bancaire est acceptée.'],
@@ -15936,20 +15936,9 @@ function getVocabularyExampleFallbacks(word, seed, language) {
     'combien ca coute': ['Combien ça coûte pour un aller-retour ?', 'Combien ça coûte, cette baguette ?']
   };
   if (language === 'french' && practicalFrenchContexts[frenchKey]) {
-    return cleanSeed
-      ? [cleanSeed, ...practicalFrenchContexts[frenchKey]]
-      : practicalFrenchContexts[frenchKey];
+    return practicalFrenchContexts[frenchKey];
   }
-  const templates = {
-    english: [`I use ${cleanWord} every day.`, `Can you say ${cleanWord}, please?`],
-    french: [`J'utilise ${cleanWord} chaque jour.`, `Peux-tu dire ${cleanWord}, s'il te plaît ?`],
-    italian: [`Uso ${cleanWord} ogni giorno.`, `Puoi dire ${cleanWord}, per favore?`],
-    portuguese: [`Uso ${cleanWord} todos os dias.`, `Você pode dizer ${cleanWord}, por favor?`],
-    german: [`Ich benutze ${cleanWord} jeden Tag.`, `Kannst du ${cleanWord} bitte sagen?`],
-    spanish: [`Uso ${cleanWord} todos los días.`, `¿Puedes decir ${cleanWord}, por favor?`]
-  };
-  const examples = templates[language] || templates.english;
-  return cleanSeed ? [cleanSeed, ...examples] : examples;
+  return [];
 }
 
 const VOCABULARY_L2_UI = {
@@ -20164,6 +20153,7 @@ const lessonTestState = {
   result: null
 };
 let testsLoadRequestId = 0;
+const LESSON_TEST_MIN_QUESTIONS = 15;
 
 function shuffleTestItems(items, seed = 0) {
   return [...items].sort((a, b) => {
@@ -20183,7 +20173,7 @@ function getLessonTestQuestions(unitId) {
     .filter(
       (item) => item.type === 'mcq' && Array.isArray(item.options) && item.options.length >= 2
     )
-    .slice(0, 5)
+    .slice(0, 8)
     .map((item, index) => ({
       id: `g-${index}`,
       area: 'Grammar',
@@ -20202,7 +20192,7 @@ function getLessonTestQuestions(unitId) {
       })
     )
     .filter((item) => item?.targetWord && item?.translation);
-  const vocabularyQuestions = words.slice(0, 5).map((item, index) => {
+  const vocabularyQuestions = words.map((item, index) => {
     const distractors = words
       .filter((word) => word.id !== item.id)
       .map((word) => word.translation)
@@ -20220,7 +20210,60 @@ function getLessonTestQuestions(unitId) {
       answer: ordered.indexOf(item.translation)
     };
   });
-  return [...grammarQuestions, ...vocabularyQuestions];
+  const reverseVocabularyQuestions = words.map((item, index) => {
+    const distractors = words
+      .filter((word) => word.id !== item.id)
+      .map((word) => word.targetWord)
+      .filter(Boolean);
+    const ordered = shuffleTestItems(
+      [item.targetWord, ...distractors.slice(index, index + 3)],
+      index + words.length
+    ).slice(0, 4);
+    if (!ordered.includes(item.targetWord)) ordered[0] = item.targetWord;
+    return {
+      id: `vr-${index}`,
+      area: 'Vocabulary',
+      prompt: `Which word means “${item.translation}”?`,
+      options: ordered,
+      answer: ordered.indexOf(item.targetWord)
+    };
+  });
+  const expressionPool = [
+    ...(grammar?.phrases || []),
+    ...(vocabulary?.phrases || []),
+    ...words.map((item) => item.targetWord)
+  ]
+    .map((item) => (typeof item === 'string' ? item : item?.text || item?.phrase || ''))
+    .map((item) => item.trim())
+    .filter((item, index, list) => item && list.indexOf(item) === index);
+  const expressionQuestions = expressionPool
+    .map((expression, index) => {
+      const options = shuffleTestItems(
+        [expression, ...expressionPool.filter((item) => item !== expression).slice(index, index + 3)],
+        index + words.length * 2
+      ).slice(0, 4);
+      if (options.length < 4 || !options.includes(expression)) return null;
+      return {
+        id: `p-${index}`,
+        area: 'Grammar',
+        prompt: 'Choose an expression from this lesson.',
+        options,
+        answer: options.indexOf(expression)
+      };
+    })
+    .filter(Boolean);
+  // Keep the test focused on the selected grammar topic first, then use
+  // vocabulary in both directions to guarantee a substantive 15-item test
+  // even for legacy units that only have four grammar exercises.
+  return [
+    ...grammarQuestions,
+    ...vocabularyQuestions,
+    ...reverseVocabularyQuestions,
+    ...expressionQuestions
+  ].slice(
+    0,
+    LESSON_TEST_MIN_QUESTIONS
+  );
 }
 
 const TEST_LANGUAGE_LABELS = {
@@ -20822,7 +20865,12 @@ const INFOGRAPHIC_SCENES = [
       ['Departure board', 70, 18],
       ['Seat', 13, 64]
     ]
-  }
+  },
+  { id: 'sports', title: 'Sports', icon: '⚽', parts: [['Jogging', 22, 34], ['Football / soccer', 48, 54], ['Basketball', 82, 54], ['Baseball', 16, 70], ['Baseball bat', 8, 83], ['American football', 48, 70], ['Football helmet', 67, 70], ['Tennis', 52, 88], ['Basketball hoop', 72, 16]] },
+  { id: 'nutrition', title: 'Food Choices', icon: '🥗', parts: [['Fruit', 19, 17], ['Vegetables', 18, 35], ['Water', 8, 57], ['Milk', 22, 63], ['Whole grains', 23, 77], ['Fish', 34, 92], ['Burger', 73, 20], ['Soda', 78, 48], ['Candy', 77, 65], ['Doughnut', 84, 87]] },
+  { id: 'city-map', title: 'Around the City', icon: '🗺️', parts: [['Bridge', 8, 25], ['School', 49, 17], ['Hospital', 84, 28], ['Park', 48, 43], ['Supermarket', 12, 53], ['Bus stop', 12, 78], ['Bank', 80, 54], ['Restaurant', 83, 80], ['Traffic light', 50, 63]] },
+  { id: 'family', title: 'The Family', icon: '👪', parts: [['Mother', 19, 49], ['Father', 41, 30], ['Grandmother', 58, 52], ['Grandfather', 82, 28], ['Brother', 39, 72], ['Sister', 56, 75], ['Baby', 22, 56], ['Dog', 82, 71]] },
+  { id: 'people-and-feelings', title: 'People, Colours and Feelings', icon: '🙂', parts: [['Doctor', 12, 24], ['Teacher', 37, 24], ['Chef', 62, 24], ['Firefighter', 88, 24], ['Happy', 12, 64], ['Sad', 38, 64], ['Surprised', 62, 64], ['Angry', 88, 64], ['Red', 10, 89], ['Blue', 28, 89], ['Yellow', 45, 89], ['Green', 61, 89], ['Orange', 78, 89], ['Purple', 92, 89]] }
 ];
 
 // Every visual dictionary offers ten or more useful words. These additional
@@ -21186,6 +21234,11 @@ const INFOGRAPHIC_NEW_SCENE_LOCALIZATION = {
   italian: {
     supermarket: { title: 'Al supermercato', words: ['Cliente', 'Carrello', 'Frutta', 'Verdure', 'Pane', 'Latte', 'Scaffale', 'Cassa'] },
     airport: { title: 'All’aeroporto', words: ['Viaggiatore / viaggiatrice', 'Passaporto', 'Carta d’imbarco', 'Valigia', 'Aereo', 'Banco del check-in', 'Tabellone delle partenze', 'Sedile'] }
+    ,sports: { title: 'Gli sport', words: ['Jogging', 'Calcio', 'Pallacanestro', 'Baseball', 'Mazza da baseball', 'Football americano', 'Casco da football', 'Tennis', 'Canestro'] },
+    nutrition: { title: 'Scelte alimentari', words: ['Frutta', 'Verdure', 'Acqua', 'Latte', 'Cereali integrali', 'Pesce', 'Hamburger', 'Bibita gassata', 'Caramelle', 'Ciambella'] },
+    'city-map': { title: 'In città', words: ['Ponte', 'Scuola', 'Ospedale', 'Parco', 'Supermercato', 'Fermata dell’autobus', 'Banca', 'Ristorante', 'Semaforo'] },
+    family: { title: 'La famiglia', words: ['Madre', 'Padre', 'Nonna', 'Nonno', 'Fratello', 'Sorella', 'Bebè', 'Cane'] },
+    'people-and-feelings': { title: 'Persone, colori ed emozioni', words: ['Medico', 'Insegnante', 'Cuoco', 'Pompiere', 'Felice', 'Triste', 'Sorpreso/a', 'Arrabbiato/a', 'Rosso', 'Blu', 'Giallo', 'Verde', 'Arancione', 'Viola'] }
   },
   portuguese: {
     supermarket: { title: 'No supermercado', words: ['Cliente', 'Carrinho', 'Frutas', 'Verduras', 'Pão', 'Leite', 'Prateleira', 'Caixa'] },

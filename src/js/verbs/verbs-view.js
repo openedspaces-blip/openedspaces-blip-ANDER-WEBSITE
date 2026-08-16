@@ -378,20 +378,10 @@
       return authored.slice(0, 2);
     }
 
-    const infinitive = raw.infinitive || '';
-    const fallbacks = {
-      english: [`I need to ${infinitive} this today.`, `Can we ${infinitive} together?`],
-      french: [`Je vais ${infinitive} aujourd’hui.`, `Est-ce qu’on peut ${infinitive} ensemble ?`],
-      spanish: [`Voy a ${infinitive} hoy.`, `¿Podemos ${infinitive} juntos?`],
-      italian: [`Voglio ${infinitive} oggi.`, `Possiamo ${infinitive} insieme?`],
-      portuguese: [`Vou ${infinitive} hoje.`, `Podemos ${infinitive} juntos?`],
-      german: [`Ich möchte heute ${infinitive}.`, `Können wir zusammen ${infinitive}?`]
-    };
-    // Keep the best authored context, then deliberately switch situation and
-    // sentence type so the card never repeats one phrase mechanically.
-    return [...authored.slice(0, 1), ...(fallbacks[raw.language] || fallbacks.english)]
-      .filter((text, index, list) => text && list.indexOf(text) === index)
-      .slice(0, 2);
+    // Do not manufacture a second example in another language or with a
+    // generic template. The catalogue can show one or two authored examples;
+    // accuracy and a natural context matter more than filling both rows.
+    return authored.slice(0, 2);
   }
 
   // The catalogue is intentionally a scan-first list, not a collection of

@@ -1084,6 +1084,20 @@
     'avant de partir', 'pour résoudre ce problème', 'dans la vie quotidienne',
     'avec plus de confiance'
   ];
+  const FR_CORE_EXAMPLES = {
+    être: ['Je suis prêt pour le cours.', 'Je ne suis pas disponible ce matin.', 'Est-ce que tu es prêt ?'],
+    avoir: ['J’ai un rendez-vous à quinze heures.', 'Je n’ai pas mon carnet avec moi.', 'Est-ce que vous avez une question ?'],
+    faire: ['Je fais les courses après le travail.', 'Je ne fais pas de sport aujourd’hui.', 'Qu’est-ce que tu fais ce week-end ?'],
+    dire: ['Elle dit la réponse à voix haute.', 'Je ne dis pas son secret.', 'Qu’est-ce que le professeur dit ?'],
+    aller: ['Nous allons au marché samedi matin.', 'Il ne va pas à l’école en voiture.', 'Où vas-tu après le cours ?'],
+    voir: ['Je vois mes amis au café.', 'Nous ne voyons pas la gare d’ici.', 'Est-ce que tu vois le panneau ?'],
+    savoir: ['Je sais où se trouve la bibliothèque.', 'Je ne sais pas encore la réponse.', 'Est-ce que vous savez nager ?'],
+    pouvoir: ['Tu peux prendre le bus numéro cinq.', 'Je ne peux pas rester ce soir.', 'Est-ce qu’on peut entrer maintenant ?'],
+    vouloir: ['Je veux réserver une table pour deux.', 'Nous ne voulons pas être en retard.', 'Qu’est-ce que tu veux boire ?'],
+    venir: ['Je viens au cours après le travail.', 'Elle ne vient pas ce matin.', 'Est-ce que vous venez avec nous ?'],
+    devoir: ['Je dois envoyer le dossier avant midi.', 'Tu ne dois pas oublier ton passeport.', 'Est-ce que je dois apporter quelque chose ?'],
+    prendre: ['Je prends le bus pour aller au centre.', 'Il ne prend pas de sucre dans son café.', 'Quel train est-ce que vous prenez ?']
+  };
   // Corrected here explicitly to keep the ranked list readable above.
   FR_IPA.reprendre='/ʁəpʁɑ̃dʁ/';
 
@@ -1381,17 +1395,18 @@
     const negative=vowelSound?`Je n’${present[0]} pas`:`Je ne ${present[0]} pas`;
     const question=vowelSound?`Est-ce que j’${present[0]}`:`Est-ce que je ${present[0]}`;
     const context=FR_CONTEXTS[index%FR_CONTEXTS.length];
+    const curatedExamples=FR_CORE_EXAMPLES[inf];
     const spanishGloss=es||'Verbo francés de uso frecuente';
     const englishGloss=en||'Common French verb';
-    return{id:`verb-french-${inf}`,rank:index+1,infinitive:inf,regular:group!==3,group:`${group}${group===1?'er':group===2?'e':'e'} groupe`,level:level(index+1),forms,
+    return{id:`verb-french-${inf}`,language:'french',rank:index+1,infinitive:inf,regular:group!==3,group:`${group}${group===1?'er':group===2?'e':'e'} groupe`,level:level(index+1),forms,
       translation:{spanish:spanishGloss,english:englishGloss},directDefinition:{french:es?`Verbe fréquent qui signifie « ${es} » en espagnol.`:'Verbe français fréquent : ouvre la fiche pour les exemples et la conjugaison.',english:en?`A frequent French verb meaning “${en}”.`:'A frequent French verb: open the detail for examples and conjugation.'},
-      pronunciation:FR_IPA[inf]||'',audioText:inf,examples:{affirmative:`${subject} ${context}.`,negative:`${negative} ${context}.`,interrogative:`${question} ${context} ?`},
+      pronunciation:FR_IPA[inf]||'',audioText:inf,examples:curatedExamples?{affirmative:curatedExamples[0],negative:curatedExamples[1],interrogative:curatedExamples[2]}:{affirmative:`${subject} ${context}.`,negative:`${negative} ${context}.`,interrogative:`${question} ${context} ?`},
       commonCollocations:[],synonyms:[],antonyms:[],notes:`${group===1?'1er':group===2?'2e':'3e'} groupe · #${index+1} par fréquence d’usage.`};
   }
   function buildSpanish([inf,en,fr],index){
     const forms=engines.spanish.principalForms(inf),present=spanishPresent(inf),ending=inf.slice(-2);
     const group=ending==='ar'?'verbos en -ar':ending==='er'?'verbos en -er':'verbos en -ir';
-    return{id:`verb-spanish-${inf}`,rank:index+1,infinitive:inf,regular:!ES_PRESENT[inf]&&!ES_PRET[inf],group,level:level(index+1),forms,
+    return{id:`verb-spanish-${inf}`,language:'spanish',rank:index+1,infinitive:inf,regular:!ES_PRESENT[inf]&&!ES_PRET[inf],group,level:level(index+1),forms,
       translation:{english:en,french:fr,spanish:`Definición: ${en}.`},directDefinition:{spanish:`Verbo frecuente que significa « ${en} » en inglés.`,english:`A frequent Spanish verb meaning “${en}”.`},
       pronunciation:'',audioText:inf,examples:{affirmative:`Yo ${present[0]} hoy.`,negative:`Yo no ${present[0]} hoy.`,interrogative:`¿Yo ${present[0]} hoy?`},
       commonCollocations:[],synonyms:[],antonyms:[],notes:`Pertenece al grupo de ${group}.`};
