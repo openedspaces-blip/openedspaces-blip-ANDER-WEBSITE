@@ -11445,22 +11445,10 @@ function getReadingIllustrationTheme(lesson = {}) {
   };
 }
 
-// Reuse the exact artwork shown for the lesson's unit in the learning route.
-// A Reading header must reinforce where the learner is, rather than selecting
-// a different generic theme from a separate atlas.
-function getLessonRouteArtworkSprite(lesson = {}) {
-  const unit =
-    learningPathState.units.find(
-      (item) =>
-        item.id === lesson.unitId || item.slug === lesson.unitId || item.id === lesson.unitSlug
-    ) || learningPathState.units.find((item) => item.id === learningPathState.unitId);
-  return unit ? getUnitRouteArtworkSprite(unit) : null;
-}
-
-// Each reading can still define its own illustration (lesson.reading.illustration
-// = { src, alt }) when a bespoke lesson asset exists. Otherwise it uses the
-// same route artwork for its unit, falling back to the themed atlas only when
-// there is no route image available.
+// Each reading can define a bespoke illustration with
+// lesson.reading.illustration = { src, alt }. Otherwise its cover must be
+// selected from its own title and text: a unit can include unrelated reading
+// scenarios, so reusing the unit artwork would create misleading images.
 function resolveReadingIllustration(lesson) {
   const chosen = lesson.reading?.illustration?.src
     ? lesson.reading.illustration
@@ -11469,13 +11457,11 @@ function resolveReadingIllustration(lesson) {
       : null;
   const seed = lesson.unitId || lesson.slug || lesson.title || 'andergo';
   const theme = getReadingIllustrationTheme(lesson);
-  const routeSprite = getLessonRouteArtworkSprite(lesson);
   return {
     src: chosen?.src || null,
     fallbackSrc: buildGenericIllustrationDataUri(String(seed)),
     alt: chosen?.alt || `${lesson.title || ''}: ${theme.label}`,
-    theme,
-    routeSprite
+    theme
   };
 }
 
@@ -11483,12 +11469,12 @@ function resolveReadingIllustration(lesson) {
 // uploaded yet, onerror swaps it for the generated placeholder instead of
 // showing a broken-image icon.
 function renderReadingIllustrationHtml(lesson) {
-  const { src, alt, theme, routeSprite } = resolveReadingIllustration(lesson);
+  const { src, alt, theme } = resolveReadingIllustration(lesson);
   const customImage = src
     ? `<img class="reading-illustration-image" src="${escapeHtml(src)}" alt="" loading="lazy" onerror="this.remove();">`
     : '';
-  const spriteImage = routeSprite?.image || READING_THEME_ATLAS;
-  const spritePosition = routeSprite?.position || theme.position;
+  const spriteImage = READING_THEME_ATLAS;
+  const spritePosition = theme.position;
   return `
     <figure class="reading-illustration no-print">
       <span class="reading-illustration-sprite" role="img" aria-label="${escapeHtml(alt)}" style="--reading-illustration-image:url('${escapeHtml(spriteImage)}');--reading-illustration-position:${spritePosition};">${customImage}</span>
@@ -16779,6 +16765,14 @@ function renderVocabularyLevelBankHtml(lesson, french) {
 function renderVocabularyView(section, lesson) {
   const content = section.querySelector('.skill-view-content');
   if (!content) return;
+  // The global Vocabulary navigation is an explorer: its language and CEFR
+  // controls must describe the learner's selection, not the route they may
+  // have visited previously. Unit Vocabulary keeps the route context.
+  const isRouteVocabulary =
+    learningPathState.skillEntryContext === 'route' && Boolean(learningPathState.unitId);
+  const catalogueContextLabel = isRouteVocabulary
+    ? 'Nivel de la ruta'
+    : 'Nivel seleccionado';
   // Vocabulary navigation is a level catalogue, not a small card stack for
   // the last unit the learner visited. Assemble every distinct word loaded
   // for the current L2 + CEFR level so, for example, Italian A1 exposes all
@@ -16848,7 +16842,7 @@ function renderVocabularyView(section, lesson) {
         <label><span>Categoría</span><select class="vocab-catalogue-category-filter"><option value="all">Todas las categorías</option>${categories.map((category) => `<option value="${escapeHtml(category)}"${vocabularyCatalogueFilters.category === category ? ' selected' : ''}>${escapeHtml(category)}</option>`).join('')}</select></label>
       </div>
       <div class="vocab-catalogue-filter-row no-print">
-        <span class="vocab-catalogue-active-level">Nivel de la ruta: <strong>${escapeHtml(lesson.level)}</strong></span>
+        <span class="vocab-catalogue-active-level">${catalogueContextLabel}: <strong>${escapeHtml(lesson.level)}</strong>${isRouteVocabulary ? '' : ' · Puedes cambiar idioma y nivel libremente.'}</span>
         <div class="vocab-catalogue-mastery" aria-label="Estado de aprendizaje">
           ${[
             ['all', 'Todas'],
@@ -17091,6 +17085,9 @@ document.addEventListener('change', (event) => {
       event.target.value = learningPathState.language;
       return;
     }
+    learningPathState.skillEntryContext = 'explore';
+    learningPathState.activeSlug = '';
+    learningPathState.unitId = '';
     // setTargetLanguage() starts the route request. Render this same expanded
     // catalogue when it completes so switching a language never sends the
     // learner back to the route overview.
@@ -17100,6 +17097,9 @@ document.addEventListener('change', (event) => {
   if (event.target.matches('.vocab-catalogue-level-filter')) {
     const level = normalizeCourseLevel(learningPathState.language, event.target.value);
     if (level === learningPathState.level) return;
+    learningPathState.skillEntryContext = 'explore';
+    learningPathState.activeSlug = '';
+    learningPathState.unitId = '';
     learningPathState.level = level;
     loadLearningPath({ language: learningPathState.language, level }).then(() =>
       renderSkillView('vocabulary')
