@@ -11461,7 +11461,10 @@ function getSpeakingDialogueSource(lesson) {
   const namePools = {
     english: ['Emma', 'Daniel', 'Sophie', 'Marcus'],
     french: ['Camille', 'Lucas', 'Sophie', 'Thomas'],
-    spanish: ['Lucía', 'Daniel', 'Elena', 'Mateo']
+    spanish: ['Lucía', 'Daniel', 'Elena', 'Mateo'],
+    italian: ['Giulia', 'Marco', 'Sofia', 'Luca'],
+    portuguese: ['Ana', 'Rafael', 'Beatriz', 'Tiago'],
+    german: ['Anna', 'Lukas', 'Sophie', 'Jonas']
   };
   const continuations = {
     english: [
@@ -11496,6 +11499,39 @@ function getSpeakingDialogueSource(lesson) {
       ['Estoy bastante de acuerdo, aunque el contexto podría cambiar el resultado.', 'Es cierto. Debemos distinguir el principio general de este caso particular.'],
       ['¿Qué consecuencia deberíamos considerar antes de decidir?', 'Conviene pensar en cómo afectaría la decisión a las personas involucradas.'],
       ['Entonces, ¿hemos llegado a una conclusión?', 'Sí. Comprendimos la idea principal y podemos continuar.']
+    ],
+    italian: [
+      ['Ti è chiaro?', 'Sì, mi è chiaro.'],
+      ['Possiamo continuare?', 'Sì, continuiamo.'],
+      ['Perché è importante in questa situazione?', 'Perché ci aiuta a capire il contesto e a decidere cosa fare dopo.'],
+      ['Puoi fare un esempio concreto?', 'Sì. Potremmo usare la stessa idea in una conversazione quotidiana.'],
+      ['Capisco il tuo punto di vista. C’è un’altra possibilità?', 'Sì, ma conviene confrontare le due opzioni prima di scegliere.'],
+      ['Sembra ragionevole. Che cosa suggerisci?', 'Inizierei dall’opzione più chiara e la adatterei se necessario.'],
+      ['Sono abbastanza d’accordo, anche se il contesto potrebbe cambiare il risultato.', 'È vero. Dobbiamo distinguere il principio generale da questo caso particolare.'],
+      ['Quale conseguenza dovremmo considerare prima di decidere?', 'Dovremmo pensare a come la decisione potrebbe influire sulle persone coinvolte.'],
+      ['Quindi siamo arrivati a una conclusione?', 'Sì. Abbiamo capito l’idea principale e possiamo continuare.']
+    ],
+    portuguese: [
+      ['Está claro para você?', 'Sim, está claro.'],
+      ['Podemos continuar?', 'Sim. Vamos continuar.'],
+      ['Por que isso é importante nesta situação?', 'Porque nos ajuda a entender o contexto e a decidir o que fazer depois.'],
+      ['Você pode dar um exemplo concreto?', 'Sim. Poderíamos aplicar a mesma ideia em uma conversa cotidiana.'],
+      ['Entendo seu ponto de vista. Há outra possibilidade?', 'Há, mas é melhor comparar as duas opções antes de escolher.'],
+      ['Parece razoável. O que você sugere?', 'Eu começaria pela opção mais clara e a ajustaria se fosse necessário.'],
+      ['Concordo em parte, embora o contexto possa mudar o resultado.', 'É verdade. Precisamos distinguir o princípio geral deste caso específico.'],
+      ['Que consequência devemos considerar antes de decidir?', 'Devemos pensar em como a decisão pode afetar as pessoas envolvidas.'],
+      ['Então chegamos a uma conclusão?', 'Sim. Entendemos a ideia principal e podemos continuar.']
+    ],
+    german: [
+      ['Ist das klar?', 'Ja, das ist klar.'],
+      ['Können wir weitermachen?', 'Ja. Machen wir weiter.'],
+      ['Warum ist das in dieser Situation wichtig?', 'Weil es uns hilft, den Kontext zu verstehen und zu entscheiden, was wir als Nächstes tun.'],
+      ['Kannst du ein konkretes Beispiel geben?', 'Ja. Wir könnten dieselbe Idee in einem alltäglichen Gespräch anwenden.'],
+      ['Ich verstehe deinen Standpunkt. Gibt es noch eine andere Möglichkeit?', 'Ja, aber wir sollten beide Optionen vergleichen, bevor wir uns entscheiden.'],
+      ['Das klingt vernünftig. Was schlägst du vor?', 'Ich würde mit der klarsten Option beginnen und sie bei Bedarf anpassen.'],
+      ['Ich stimme teilweise zu, obwohl der Kontext das Ergebnis verändern könnte.', 'Das stimmt. Wir müssen das allgemeine Prinzip von diesem besonderen Fall unterscheiden.'],
+      ['Welche Folge sollten wir vor der Entscheidung bedenken?', 'Wir sollten überlegen, wie die Entscheidung die beteiligten Personen beeinflussen könnte.'],
+      ['Sind wir also zu einer Schlussfolgerung gekommen?', 'Ja. Wir haben die Hauptidee verstanden und können weitermachen.']
     ]
   };
   const names = namePools[language] || namePools.english;
