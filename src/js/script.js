@@ -8352,8 +8352,27 @@ const SKILL_LABELS_FRENCH = {
   dialogue: 'Dialogues'
 };
 
+const SKILL_LABELS_ITALIAN = {
+  learn: 'Percorso', listening: 'Ascolto', speaking: 'Espressione orale',
+  reading: 'Lettura', writing: 'Espressione scritta', grammar: 'Grammatica',
+  vocabulary: 'Vocabolario', dialogue: 'Dialoghi'
+};
+const SKILL_LABELS_PORTUGUESE = {
+  learn: 'Percurso', listening: 'Compreensão oral', speaking: 'Expressão oral',
+  reading: 'Leitura', writing: 'Expressão escrita', grammar: 'Gramática',
+  vocabulary: 'Vocabulário', dialogue: 'Diálogos'
+};
+const SKILL_LABELS_GERMAN = {
+  learn: 'Lernweg', listening: 'Hörverstehen', speaking: 'Mündlicher Ausdruck',
+  reading: 'Lesen', writing: 'Schriftlicher Ausdruck', grammar: 'Grammatik',
+  vocabulary: 'Wortschatz', dialogue: 'Dialoge'
+};
+
 function getSkillLabel(skill, language = learningPathState.language) {
   if (language === 'french') return SKILL_LABELS_FRENCH[skill] || SKILL_LABELS[skill] || skill;
+  if (language === 'italian') return SKILL_LABELS_ITALIAN[skill] || SKILL_LABELS[skill] || skill;
+  if (language === 'portuguese') return SKILL_LABELS_PORTUGUESE[skill] || SKILL_LABELS[skill] || skill;
+  if (language === 'german') return SKILL_LABELS_GERMAN[skill] || SKILL_LABELS[skill] || skill;
   return SKILL_LABELS[skill] || skill;
 }
 
