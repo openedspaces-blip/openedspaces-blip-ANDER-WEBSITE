@@ -1430,6 +1430,23 @@ const ITALIAN_SPANISH_CORE_GLOSSES = {
   cambiare: 'cambiar', futuro: 'futuro'
 };
 
+// These early Portuguese records used curriculum categories instead of
+// learner-facing meanings. Supply their Spanish glosses for the A1 route.
+const PORTUGUESE_SPANISH_A1_GLOSSES = {
+  oi: 'hola', 'bom dia': 'buenos días', prazer: 'mucho gusto', obrigada: 'gracias',
+  café: 'café', 'pão': 'pan', água: 'agua', 'por favor': 'por favor',
+  família: 'familia', almoço: 'almuerzo', mesa: 'mesa', juntos: 'juntos',
+  banana: 'banana', tomate: 'tomate', quilo: 'kilo', real: 'real brasileño',
+  rua: 'calle', praça: 'plaza', parada: 'parada', bicicleta: 'bicicleta',
+  escola: 'escuela', amigo: 'amigo', aula: 'clase', tarefa: 'tarea',
+  cozinha: 'cocina', quarto: 'habitación', janela: 'ventana', varanda: 'balcón',
+  sol: 'sol', chuva: 'lluvia', quente: 'caliente', vento: 'viento',
+  roda: 'círculo', música: 'música', bairro: 'barrio', sábado: 'sábado',
+  ônibus: 'autobús', bilhete: 'boleto', ponto: 'parada', viagem: 'viaje',
+  arroz: 'arroz', feijão: 'frijoles', sopa: 'sopa', sabor: 'sabor',
+  hoje: 'hoy', amanhã: 'mañana', casa: 'casa', experiência: 'experiencia'
+};
+
 function isVocabularyTranslationPlaceholder(value) {
   return /^(?:palabra cultural|acción cotidiana|lugar o cosa|expresión útil|palabra clave\s*\d+)$/i.test(
     String(value || '').trim()
@@ -1437,8 +1454,11 @@ function isVocabularyTranslationPlaceholder(value) {
 }
 
 function getAuthoredSpanishVocabGloss(item, targetLanguage) {
-  if (targetLanguage !== 'italian' || !isVocabularyTranslationPlaceholder(item?.translation)) return '';
-  return ITALIAN_SPANISH_CORE_GLOSSES[String(item.word || item.targetWord || '').trim().toLocaleLowerCase()] || '';
+  if (!isVocabularyTranslationPlaceholder(item?.translation)) return '';
+  const word = String(item.word || item.targetWord || '').trim().toLocaleLowerCase();
+  if (targetLanguage === 'italian') return ITALIAN_SPANISH_CORE_GLOSSES[word] || '';
+  if (targetLanguage === 'portuguese') return PORTUGUESE_SPANISH_A1_GLOSSES[word] || '';
+  return '';
 }
 
 function resolveVocabTranslation(item, bridgeLanguage = learningPathState.bridgeLanguage) {
